@@ -8,12 +8,22 @@
 [![Travis Build Status](https://travis-ci.com/manubot/rootstock.svg?branch=master)](https://travis-ci.com/manubot/rootstock)
 <!-- usage note: delete CI badges above for services not used by your manuscript -->
 
-## Manuscript description
+## Project Description
 
 <!-- usage note: edit this section. -->
 
-This repository is a template manuscript (a.k.a. rootstock).
-Actual manuscript instances will clone this repository (see [`SETUP.md`](SETUP.md)) and replace this paragraph with a description of their manuscript.
+With the rapidly evolving global situation related to COVID-19, the infectious disease caused by the SARS-CoV-2 virus, there is a need to centralize scientific knowledge relevant to the development of diagnostics and therapeutics. This repository is an online, collaborative review paper written with manubot. We are seeking input from scientists at all levels anywhere in the world.
+
+Our goal is to quickly and accurately summarize and synthesize the papers that are coming out in order to develop a broader picture of what's being attempted and the status of those efforts. We hope to contextualize elements of this virus and infectuous disease with respect to better understood viruses and diseases (e.g., to identify shared mechanisms). This repository is also a living document that aims to consolidate and integrate helpful information about diagnostics and therapeutics that is circulating in dectralizaed spaces (e.g., Twitter threads) into a more permanent and unified format.
+
+## Contributions
+
+At present, there are three ways to contribute:
+1. If you know of information, especially a peer-reviewed or pre-print article, that you would like to see incorporated, please create an issue to let us know about it.
+2. If you have experience reading scientific literature, you can propose additions to the text through pull requests.
+3. Let others know about this effort so that they can contribute!
+
+Please note that non-scientists are more than welcome to contibute by letting us know about topics they'd like to see address by opening issues.
 
 ## Manubot
 
