@@ -39,7 +39,7 @@ If writing full paragraphs, please put one sentence per line.
 4. Submit a second pull request to add your information to the bottom of greenelab/covid19-review/content/metadata.yaml using the format outlined [here](https://github.com/manubot/rootstock/blob/master/content/metadata.yaml)
 
 For an introduction to using git, see this [open-source lesson from Software Carpentry](http://swcarpentry.github.io/git-novice/).
-If you are a virologist, medical professional, or expert in another non-computational field who wants to contribute but feels concerned about contributing through git, please open an issue or reach out to [Halie Rando] (halie.rando@pennmedicine.upenn.edu).
+If you are a virologist, medical professional, or expert in another non-computational field who wants to contribute but feels concerned about contributing through git, please open an issue or reach out to [Halie Rando](mailto:halie.rando@pennmedicine.upenn.edu).
 
 ## Manubot
 
