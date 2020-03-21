@@ -23,7 +23,7 @@ At present, there are three ways to contribute:
 2. If you have experience reading scientific literature, you can propose additions to the text through pull requests, and pull requests that address an open issue are particularly appreciated.
 3. Let others know about this effort so that they can contribute!
 
-Please note that non-scientists are more than welcome to contibute by letting us know about topics they'd like to see address by opening issues.
+Please note that non-scientists are more than welcome to contribute by letting us know about topics they'd like to see addressed by opening issues.
 
 ## Manubot
 
