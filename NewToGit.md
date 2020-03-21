@@ -57,15 +57,15 @@ Copy and update this template:
     github: your_username
     name: your_full_name
     initials: your_initials
-    orcid: [your_orcid](https://orcid.org/)
+    orcid: your_orcid
     twitter: your_twitter
     email: your_email
     contributions:
       - Writing (or modify as needed!) 
     affiliations:
-      - Department of XX, University of YY, City, State/Province, Country
+      - Department of XX, University of YY, City, State/Province, Country`
 See [manubot](https://github.com/manubot/rootstock/blob/master/content/metadata.yaml) for examples.
-You can remove Twitter or ORCID if you don't have an account there (although we strongly encourage ORCIDs!)
+You can remove Twitter or ORCID if you don't have an account there (although we strongly encourage making an [ORCID](https://orcid.org/)!)
 We will determine author order based on contributions (GitHub tracks who wrote what!)
 
 
