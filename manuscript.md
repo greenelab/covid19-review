@@ -4,7 +4,7 @@ author-meta:
 - Jane Roe
 bibliography:
 - content/manual-references.json
-date-meta: '2020-03-20'
+date-meta: '2020-03-21'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -23,9 +23,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Manuscript Title" />
 
-  <meta name="dc.date" content="2020-03-20" />
+  <meta name="dc.date" content="2020-03-21" />
 
-  <meta name="citation_publication_date" content="2020-03-20" />
+  <meta name="citation_publication_date" content="2020-03-21" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -67,11 +67,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/1780fac0ac6bba1260a9da3886061730fa5d2765/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/22efa5998f384ceb18addb8fa77a3ef9caff3bde/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/1780fac0ac6bba1260a9da3886061730fa5d2765/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/22efa5998f384ceb18addb8fa77a3ef9caff3bde/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/1780fac0ac6bba1260a9da3886061730fa5d2765/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/22efa5998f384ceb18addb8fa77a3ef9caff3bde/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -103,10 +103,10 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/1780fac0ac6bba1260a9da3886061730fa5d2765/))
+([permalink](https://greenelab.github.io/covid19-review/v/22efa5998f384ceb18addb8fa77a3ef9caff3bde/))
 was automatically generated
-from [greenelab/covid19-review@1780fac](https://github.com/greenelab/covid19-review/tree/1780fac0ac6bba1260a9da3886061730fa5d2765)
-on March 20, 2020.
+from [greenelab/covid19-review@22efa59](https://github.com/greenelab/covid19-review/tree/22efa5998f384ceb18addb8fa77a3ef9caff3bde)
+on March 21, 2020.
 </em></small>
 
 ## Authors
