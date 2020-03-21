@@ -1,11 +1,10 @@
-# Automated scholarly manuscripts on GitHub
+# SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics
 
 <!-- usage note: edit the H1 title above to personalize the manuscript -->
 
-[![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://manubot.github.io/rootstock/)
-[![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://manubot.github.io/rootstock/manuscript.pdf)
-[![GitHub Actions Status](https://github.com/manubot/rootstock/workflows/Manubot/badge.svg)](https://github.com/manubot/rootstock/actions)
-[![Travis Build Status](https://travis-ci.com/manubot/rootstock.svg?branch=master)](https://travis-ci.com/manubot/rootstock)
+[![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://greenelab.github.io/covid19-review/)
+[![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://greenelab.github.io/covid19-review/manuscript.pdf)
+[![GitHub Actions Status](https://github.com/greenelab/covid19-review/workflows/Manubot/badge.svg)](https://github.com/greenelab/covid19-review/actions)
 <!-- usage note: delete CI badges above for services not used by your manuscript -->
 
 ## Project Description
@@ -17,8 +16,8 @@ This repository is an online, collaborative review paper written with manubot.
 We are seeking input from scientists at all levels anywhere in the world.
 
 Our goal is to quickly and accurately summarize and synthesize the papers that are coming out in order to develop a broader picture of what's being attempted and the status of those efforts.
-We hope to contextualize elements of this virus and infectuous disease with respect to better understood viruses and diseases (e.g., to identify shared mechanisms). 
-This repository is also a living document that aims to consolidate and integrate helpful information about diagnostics and therapeutics that is circulating in dectralizaed spaces (e.g., Twitter threads) into a more permanent and unified format.
+We hope to contextualize elements of this virus and infectious disease with respect to better understood viruses and diseases (e.g., to identify shared mechanisms). 
+This repository is also a living document that aims to consolidate and integrate helpful information about diagnostics and therapeutics that is circulating in decentralized spaces (e.g., Twitter threads) into a more permanent and unified format.
 
 ## Contributions
 
@@ -35,8 +34,8 @@ To open a pull request, please:
 1. Fork the repository [greenelab/covid19-review](https://github.com/greenelab/covid19-review)
 2. Add your changes (you may want to do so on a branch specific to the topic you're addressing).
 If writing full paragraphs, please put one sentence per line.
-3. Submit a pull request too add your changes to [greenelab/covid19-review](https://github.com/greenelab/covid19-review)
-4. Submit a second pull request to add your information to the bottom of greenelab/covid19-review/content/metadata.yaml using the format outlined [here](https://github.com/manubot/rootstock/blob/master/content/metadata.yaml)
+3. Submit a pull request to add your changes to [greenelab/covid19-review](https://github.com/greenelab/covid19-review)
+4. Submit a second pull request to add your information to the bottom of [`content/metadata.yaml`](content/metadata.yaml) using the format outlined [here](https://github.com/manubot/rootstock/blob/master/content/metadata.yaml)
 
 For an introduction to using git, see this [open-source lesson from Software Carpentry](http://swcarpentry.github.io/git-novice/).
 If you are a virologist, medical professional, or expert in another non-computational field who wants to contribute but feels concerned about contributing through git, please open an issue or reach out to [Halie Rando](mailto:halie.rando@pennmedicine.upenn.edu).
@@ -108,8 +107,8 @@ If your pull request build fails, see the CI logs for the cause of failure and r
 When a commit to the `master` branch occurs (for example, when a pull request is merged), CI builds the manuscript and writes the results to the [`gh-pages`](https://github.com/manubot/rootstock/tree/gh-pages) and [`output`](https://github.com/manubot/rootstock/tree/output) branches.
 The `gh-pages` branch uses [GitHub Pages](https://pages.github.com/) to host the following URLs:
 
-+ **HTML manuscript** at https://manubot.github.io/rootstock/
-+ **PDF manuscript** at https://manubot.github.io/rootstock/manuscript.pdf
++ **HTML manuscript** at https://greenelab.github.io/covid19-review/
++ **PDF manuscript** at https://greenelab.github.io/covid19-review/manuscript.pdf
 
 For continuous integration configuration details, see [`.github/workflows/manubot.yaml`](.github/workflows/manubot.yaml) if using GitHub Actions or [`.travis.yml`](.travis.yml) if using Travis CI.
 
