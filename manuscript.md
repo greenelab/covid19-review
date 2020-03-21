@@ -1,7 +1,7 @@
 ---
 author-meta:
-- John Doe
-- Jane Roe
+- Halie M. Rando
+- Casey S. Greene
 bibliography:
 - content/manual-references.json
 date-meta: '2020-03-21'
@@ -15,13 +15,13 @@ header-includes: '<!--
 
   <meta name="dc.format" content="text/html" />
 
-  <meta name="dc.title" content="Manuscript Title" />
+  <meta name="dc.title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
 
-  <meta name="citation_title" content="Manuscript Title" />
+  <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
 
-  <meta property="og:title" content="Manuscript Title" />
+  <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
 
-  <meta property="twitter:title" content="Manuscript Title" />
+  <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
 
   <meta name="dc.date" content="2020-03-21" />
 
@@ -39,21 +39,23 @@ header-includes: '<!--
 
   <meta name="citation_technical_report_institution" content="Manubot" />
 
-  <meta name="citation_author" content="John Doe" />
+  <meta name="citation_author" content="Halie M. Rando" />
 
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
+  <meta name="citation_author_institution" content="Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America" />
 
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author_orcid" content="0000-0001-7688-1770" />
 
-  <meta name="twitter:creator" content="@johndoe" />
+  <meta name="twitter:creator" content="@tamefoxtime" />
 
-  <meta name="citation_author" content="Jane Roe" />
+  <meta name="citation_author" content="Casey S. Greene" />
 
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
+  <meta name="citation_author_institution" content="Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America" />
 
-  <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
+  <meta name="citation_author_institution" content="Childhood Cancer Data Lab, Alex&#39;s Lemonade Stand Foundation, Philadelphia, Pennsylvania, United States of America" />
 
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author_orcid" content="0000-0001-8713-9213" />
+
+  <meta name="twitter:creator" content="@GreeneScientist" />
 
   <link rel="canonical" href="https://greenelab.github.io/covid19-review/" />
 
@@ -67,11 +69,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/22efa5998f384ceb18addb8fa77a3ef9caff3bde/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/73336f13a4ca91eb85d62c5a30bfd965f8ed5dd6/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/22efa5998f384ceb18addb8fa77a3ef9caff3bde/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/73336f13a4ca91eb85d62c5a30bfd965f8ed5dd6/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/22efa5998f384ceb18addb8fa77a3ef9caff3bde/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/73336f13a4ca91eb85d62c5a30bfd965f8ed5dd6/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -85,15 +87,16 @@ header-includes: '<!--
 
   <!-- end Manubot generated metadata -->'
 keywords:
-- markdown
-- publishing
-- manubot
+- covid-19
+- coronavirus
+- pandemic
+- viral infection
 lang: en-US
 manubot-clear-requests-cache: false
 manubot-output-bibliography: output/references.json
 manubot-output-citekeys: output/citations.tsv
 manubot-requests-cache-path: ci/cache/requests-cache
-title: Manuscript Title
+title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics'
 ...
 
 
@@ -103,9 +106,9 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/22efa5998f384ceb18addb8fa77a3ef9caff3bde/))
+([permalink](https://greenelab.github.io/covid19-review/v/73336f13a4ca91eb85d62c5a30bfd965f8ed5dd6/))
 was automatically generated
-from [greenelab/covid19-review@22efa59](https://github.com/greenelab/covid19-review/tree/22efa5998f384ceb18addb8fa77a3ef9caff3bde)
+from [greenelab/covid19-review@73336f1](https://github.com/greenelab/covid19-review/tree/73336f13a4ca91eb85d62c5a30bfd965f8ed5dd6)
 on March 21, 2020.
 </em></small>
 
@@ -113,32 +116,39 @@ on March 21, 2020.
 
 
 
-+ **John Doe**<br>
++ **Halie M. Rando**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    [0000-0001-7688-1770](https://orcid.org/0000-0001-7688-1770)
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [johndoe](https://github.com/johndoe)
+    [rando2](https://github.com/rando2)
     · ![Twitter icon](images/twitter.svg){.inline_icon}
-    [johndoe](https://twitter.com/johndoe)<br>
+    [tamefoxtime](https://twitter.com/tamefoxtime)<br>
   <small>
-     Department of Something, University of Whatever
-     · Funded by Grant XXXXXXXX
+     Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
   </small>
 
-+ **Jane Roe**<br>
++ **Casey S. Greene**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    [0000-0001-8713-9213](https://orcid.org/0000-0001-8713-9213)
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [janeroe](https://github.com/janeroe)<br>
+    [cgreene](https://github.com/cgreene)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [GreeneScientist](https://twitter.com/GreeneScientist)<br>
   <small>
-     Department of Something, University of Whatever; Department of Whatever, University of Something
+     Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America; Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Philadelphia, Pennsylvania, United States of America
   </small>
 
 
 
-## Abstract {.page_break_before}
-
-
+## Abstract {.page_break_before} 
+Since late 2019, Coronavirus disease 2019 (COVID-19) has spread around the world, resulting in the declaration of a pandemic by the World Health Organization (WHO). 
+This infectious disease is caused by the newly identified severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). 
+Research on the virus SARS-CoV-2 and the diease it causes is emerging rapidly through global scientific efforts.
+The development of diagnostics, treatments, and vaccines will be critical to mitigating the impact of the virus.
+Here we present a collaborative effort to organize and consolidate the rapidly emerging scientific literature related to SARS-CoV-2. 
+We present information about the virus in the context of what is known about related viruses and synthesize studies emerging about the diagnosis and treatment of COVID-19 alongside literature about related illnesses.
+A broad scientific effort to understand this pandemic and related viruses and diseases will be foundational to efforts to predict possible interventions. 
+This text is an evolving and collaborative document that seeks to incorporate the ever-expanding body of information related to SARS-CoV-2 and COVID-19.
 
 
 This manuscript is a template (aka "rootstock") for [Manubot](https://manubot.org/ "Manubot"), a tool for writing scholarly manuscripts.
