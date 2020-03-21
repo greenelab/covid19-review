@@ -59,13 +59,13 @@ Copy and update this template:
     initials: your_initials
     orcid: [your_orcid](https://orcid.org/)
     twitter: your_twitter
-    email: greenescientist@gmail.com
+    email: your_email
     contributions:
       - Writing (or modify as needed!) 
     affiliations:
       - Department of XX, University of YY, City, State/Province, Country
 See [manubot](https://github.com/manubot/rootstock/blob/master/content/metadata.yaml) for examples.
-You can remove Twitter or ORCID if you don't have an account there (although we strongly encourage it!)
+You can remove Twitter or ORCID if you don't have an account there (although we strongly encourage ORCIDs!)
 We will determine author order based on contributions (GitHub tracks who wrote what!)
 
 
@@ -75,7 +75,7 @@ If you are new to GitHub and struggling to follow these directions, we want to k
 If you find something confusing, please open an issue (as described above) and tell us what you're trying to do, what's going on wrong, or where you're stuck.
 We want this review to be a collaborative effort that brings scientists of all skillsets together -- not just people who already know how to use tools like GitHub.
 Opening an issue means your question will be available for others to learn from in the future!
-It will also us help continually update this document to provide the information people really need as they start contributing..
+It will also us help continually update this document to provide the information people really need as they start contributing.
 
 
 ## A Word of Encouragement
