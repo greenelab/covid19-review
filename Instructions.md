@@ -7,7 +7,7 @@ Git is a tool that allows you to track all the changes made to a document over t
 Have you ever been writing something as a team and found that someone was editing an old version of the document?
 Git tracks different people's contributions and manages how they get merged together to avoid the headache of figuring out what changed when.
 
-We are managing this project through GitHub with the goal of a) allowing for the manuscript to evolve rapidly as new information comes out, and b) give everyone credit for their attributions.
+We are managing this project through GitHub with the goal of a) allowing for the manuscript to evolve rapidly as new information comes out, and b) give everyone credit for their contributions.
 While we believe this is a great tool, we know it can sometimes be intimidating to get started. 
 We don't want the medium to turn anyone away from contributing, so please let us know if you're having problems.
 
@@ -52,7 +52,7 @@ Give your submission a title in the top box and briefly summarize your changes i
 This will submit a request to add your changes to the underlying document and will notify us to integrate your text into the document!
 6. Don't forget to add your information to the [author list](https://github.com/greenelab/covid19-review/blob/master/content/metadata.yaml). 
 Copy and update this template:
-`-
+```-
     github: your_username
     name: your_full_name
     initials: your_initials
@@ -62,7 +62,7 @@ Copy and update this template:
     contributions:
       - Writing (or modify as needed!) 
     affiliations:
-      - Department of XX, University of YY, City, State/Province, Country`
+      - Department of XX, University of YY, City, State/Province, Country```
 See [manubot](https://github.com/manubot/rootstock/blob/master/content/metadata.yaml) for examples.
 You can remove Twitter or ORCID if you don't have an account there (although we strongly encourage making an [ORCID](https://orcid.org/)!)
 We will determine author order based on contributions (GitHub tracks who wrote what!)
