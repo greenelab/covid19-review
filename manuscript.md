@@ -69,11 +69,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/73336f13a4ca91eb85d62c5a30bfd965f8ed5dd6/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/71515cd0d1008cbb00949267cb6898c2b401cc8d/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/73336f13a4ca91eb85d62c5a30bfd965f8ed5dd6/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/71515cd0d1008cbb00949267cb6898c2b401cc8d/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/73336f13a4ca91eb85d62c5a30bfd965f8ed5dd6/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/71515cd0d1008cbb00949267cb6898c2b401cc8d/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -106,9 +106,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/73336f13a4ca91eb85d62c5a30bfd965f8ed5dd6/))
+([permalink](https://greenelab.github.io/covid19-review/v/71515cd0d1008cbb00949267cb6898c2b401cc8d/))
 was automatically generated
-from [greenelab/covid19-review@73336f1](https://github.com/greenelab/covid19-review/tree/73336f13a4ca91eb85d62c5a30bfd965f8ed5dd6)
+from [greenelab/covid19-review@71515cd](https://github.com/greenelab/covid19-review/tree/71515cd0d1008cbb00949267cb6898c2b401cc8d)
 on March 21, 2020.
 </em></small>
 
@@ -149,6 +149,18 @@ Here we present a collaborative effort to organize and consolidate the rapidly e
 We present information about the virus in the context of what is known about related viruses and synthesize studies emerging about the diagnosis and treatment of COVID-19 alongside literature about related illnesses.
 A broad scientific effort to understand this pandemic and related viruses and diseases will be foundational to efforts to predict possible interventions. 
 This text is an evolving and collaborative document that seeks to incorporate the ever-expanding body of information related to SARS-CoV-2 and COVID-19.
+
+
+## Introduction {.page_break_before} 
+This is where the introduction will be.
+
+
+##Diagnostics  {.page_break_before} 
+This section will include a review of the available information about diagnostics.
+
+
+## Therapeutics {.page_break_before} 
+This section will include a review of information available about therapeutics.
 
 
 This manuscript is a template (aka "rootstock") for [Manubot](https://manubot.org/ "Manubot"), a tool for writing scholarly manuscripts.
