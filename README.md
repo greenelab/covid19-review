@@ -20,7 +20,7 @@ Our goal is to quickly and accurately summarize and synthesize the papers that a
 
 At present, there are three ways to contribute:
 1. If you know of information, especially a peer-reviewed or pre-print article, that you would like to see incorporated, please create an issue to let us know about it.
-2. If you have experience reading scientific literature, you can propose additions to the text through pull requests.
+2. If you have experience reading scientific literature, you can propose additions to the text through pull requests, and pull requests that address an open issue are particularly appreciated.
 3. Let others know about this effort so that they can contribute!
 
 Please note that non-scientists are more than welcome to contibute by letting us know about topics they'd like to see address by opening issues.
