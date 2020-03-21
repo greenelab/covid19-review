@@ -1,27 +1,33 @@
 ---
-title: "Manuscript Title"
+title: "SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics"
 keywords:
-  - markdown
-  - publishing
-  - manubot
+  - covid-19
+  - coronavirus
+  - pandemic
+  - viral infection
 lang: en-US
 authors:
   -
-    github: johndoe
-    name: John Doe
-    initials: JD
-    orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
-    email: john.doe@something.com
+    github: rando2
+    name: Halie M. Rando
+    initials: HMR
+    orcid: 0000-0001-7688-1770
+    twitter: tamefoxtime
+    email: halie.rando@pennmedicine.upenn.edu
+    contributions:
+      - Project Administration
+      - Writing - Original Draft
     affiliations:
-      - Department of Something, University of Whatever
-    funders: Grant XXXXXXXX
+      - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
   -
-    github: janeroe
-    name: Jane Roe
-    initials: JR
-    orcid: XXXX-XXXX-XXXX-XXXX
-    email: jane.roe@whatever.edu
+    github: cgreene
+    name: Casey S. Greene
+    initials: CSG
+    orcid: 0000-0001-8713-9213
+    twitter: GreeneScientist
+    email: greenescientist@gmail.com
+    contributions:
+      - Conceptualization
     affiliations:
-      - Department of Something, University of Whatever
-      - Department of Whatever, University of Something
+      - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+      - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Philadelphia, Pennsylvania, United States of America

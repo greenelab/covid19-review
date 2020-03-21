@@ -8,12 +8,38 @@
 [![Travis Build Status](https://travis-ci.com/manubot/rootstock.svg?branch=master)](https://travis-ci.com/manubot/rootstock)
 <!-- usage note: delete CI badges above for services not used by your manuscript -->
 
-## Manuscript description
+## Project Description
 
 <!-- usage note: edit this section. -->
 
-This repository is a template manuscript (a.k.a. rootstock).
-Actual manuscript instances will clone this repository (see [`SETUP.md`](SETUP.md)) and replace this paragraph with a description of their manuscript.
+With the rapidly evolving global situation related to COVID-19, the infectious disease caused by the SARS-CoV-2 virus, there is a need to centralize scientific knowledge relevant to the development of diagnostics and therapeutics. 
+This repository is an online, collaborative review paper written with manubot. 
+We are seeking input from scientists at all levels anywhere in the world.
+
+Our goal is to quickly and accurately summarize and synthesize the papers that are coming out in order to develop a broader picture of what's being attempted and the status of those efforts.
+We hope to contextualize elements of this virus and infectuous disease with respect to better understood viruses and diseases (e.g., to identify shared mechanisms). 
+This repository is also a living document that aims to consolidate and integrate helpful information about diagnostics and therapeutics that is circulating in dectralizaed spaces (e.g., Twitter threads) into a more permanent and unified format.
+
+## Contributions
+
+At present, there are three ways to contribute:
+1. If you know of information, especially a peer-reviewed or pre-print article, that you want to see incorporated, please create an issue to let us know about it.
+2. If you have experience reading scientific literature, you can propose additions to the text through pull requests, and pull requests that address an open issue are particularly appreciated.
+3. Let others know about this effort so that they can contribute!
+
+Please note that non-scientists are more than welcome to contribute by opening issues to let us know about topics they'd like to see addressed or included.
+
+## Pull Requests
+
+To open a pull request, please:
+1. Fork the repository [greenelab/covid19-review](https://github.com/greenelab/covid19-review)
+2. Add your changes (you may want to do so on a branch specific to the topic you're addressing).
+If writing full paragraphs, please put one sentence per line.
+3. Submit a pull request too add your changes to [greenelab/covid19-review](https://github.com/greenelab/covid19-review)
+4. Submit a second pull request to add your information to the bottom of greenelab/covid19-review/content/metadata.yaml using the format outlined [here](https://github.com/manubot/rootstock/blob/master/content/metadata.yaml)
+
+For an introduction to using git, see this [open-source lesson from Software Carpentry](http://swcarpentry.github.io/git-novice/).
+If you are a virologist, medical professional, or expert in another non-computational field who wants to contribute but feels concerned about contributing through git, please open an issue or reach out to [Halie Rando](mailto:halie.rando@pennmedicine.upenn.edu).
 
 ## Manubot
 
