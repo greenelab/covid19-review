@@ -40,7 +40,7 @@ Please make a note that you're a student so that we can try to give you feedback
 
 ## Pull Requests
 If you are not familiar with git and GitHub, you can use [these directions](Instructions.md) to start contributing.
-Please feel encouraged to ask questions by opening a [Request for Help issue](issues/new?assignees=rando2&labels=&template=request-for-help.md&title=Help%3A+%5BAdd+topic+here%5D).
+Please feel encouraged to ask questions by opening a [Request for Help issue](https://github.com/greenelab/covid19-review/issues/new?assignees=rando2&labels=&template=request-for-help.md&title=Help%3A+%5BAdd+topic+here%5D)
 This project is a collaborative effort that will benefit from the expertise of scientists across a wide range of disciplines!
 
 For git users, to open a pull request please:
