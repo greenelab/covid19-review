@@ -8,7 +8,6 @@
 <!-- usage note: delete CI badges above for services not used by your manuscript -->
 
 ## Project Description
-
 <!-- usage note: edit this section. -->
 
 With the rapidly evolving global situation related to COVID-19, the infectious disease caused by the SARS-CoV-2 virus, there is a need to centralize scientific knowledge relevant to the development of diagnostics and therapeutics. 
@@ -21,14 +20,12 @@ This repository is also a living document that aims to consolidate and integrate
 
 
 ## Contributions
-
 At present, there are three ways to contribute:
 1. If you know of information, especially a peer-reviewed or pre-print article, that you want to see incorporated, please [create a New Paper issue](greenelab/covid19-review/issues/new?assignees=&labels=New+Paper&template=new-paper-template.md&title=New+Paper%3A+%5BTitle%5D) to let us know about it. 
 (You'll need to make a free [GitHub account](https://github.com/join?source=header-home)).
 2. If you have experience reading scientific literature, you can propose additions to the text through pull requests (see below). 
 Pull requests that address an open issue are particularly appreciated.
 3. Let others know about this effort so that they can contribute!
-
 
 The [ICMJE Guidelines](http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html) will be followed for determining authorship.
 
@@ -53,7 +50,6 @@ If writing full paragraphs, please put one sentence per line.
 
 
 ## Manubot
-
 <!-- usage note: do not edit this section -->
 
 Manubot is a system for writing scholarly manuscripts via GitHub.
@@ -76,7 +72,6 @@ The directories are as follows:
 + [`webpage`](webpage) is a directory meant to be rendered as a static webpage for viewing the HTML manuscript.
 + [`build`](build) contains commands and tools for building the manuscript.
 + [`ci`](ci) contains files necessary for deployment via continuous integration.
-
 
 ### Local execution
 
@@ -111,7 +106,6 @@ The following command, while running, will trigger both the `build.sh` script an
 ```sh
 bash build/autobuild.sh
 ```
-
 ### Continuous Integration
 
 Whenever a pull request is opened, CI (continuous integration) will test whether the changes break the build process to generate a formatted manuscript.
@@ -125,7 +119,6 @@ The `gh-pages` branch uses [GitHub Pages](https://pages.github.com/) to host the
 + **PDF manuscript** at https://greenelab.github.io/covid19-review/manuscript.pdf
 
 For continuous integration configuration details, see [`.github/workflows/manubot.yaml`](.github/workflows/manubot.yaml) if using GitHub Actions or [`.travis.yml`](.travis.yml) if using Travis CI.
-
 
 ## License
 
