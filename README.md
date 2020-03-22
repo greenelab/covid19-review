@@ -43,7 +43,7 @@ Please feel encouraged to ask questions by opening a [Request for Help issue](is
 This project is a collaborative effort that will benefit from the expertise of scientists across a wide range of disciplines!
 
 For git users, to open a pull request please:
-1. Fork the repository [greenelab/covid19-review](greenelab/covid19-review) ![GitHub forks](https://img.shields.io/github/forks/greenelab/covid19-review?label=Fork&style=social)
+1. Fork the repository [greenelab/covid19-review](greenelab/covid19-review) [![GitHub forks](https://img.shields.io/github/forks/greenelab/covid19-review?label=Fork&style=social)](https://github.com/greenelab/covid19-review/fork)
 2. Add your modifications.
 If writing full paragraphs, please put one sentence per line.
 3. Submit a pull request to add your changes to [greenelab/covid19-review](https://github.com/greenelab/covid19-review)
