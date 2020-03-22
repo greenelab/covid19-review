@@ -12,33 +12,45 @@
 <!-- usage note: edit this section. -->
 
 With the rapidly evolving global situation related to COVID-19, the infectious disease caused by the SARS-CoV-2 virus, there is a need to centralize scientific knowledge relevant to the development of diagnostics and therapeutics. 
-This repository is an online, collaborative review paper written with manubot. 
+This repository is an online, collaborative review paper written with [manubot](https://manubot.org/). 
 We are seeking input from scientists at all levels anywhere in the world.
 
 Our goal is to quickly and accurately summarize and synthesize the papers that are coming out in order to develop a broader picture of what's being attempted and the status of those efforts.
 We hope to contextualize elements of this virus and infectious disease with respect to better understood viruses and diseases (e.g., to identify shared mechanisms). 
 This repository is also a living document that aims to consolidate and integrate helpful information about diagnostics and therapeutics that is circulating in decentralized spaces (e.g., Twitter threads) into a more permanent and unified format.
 
+
 ## Contributions
 
 At present, there are three ways to contribute:
-1. If you know of information, especially a peer-reviewed or pre-print article, that you want to see incorporated, please create an issue to let us know about it.
-2. If you have experience reading scientific literature, you can propose additions to the text through pull requests, and pull requests that address an open issue are particularly appreciated.
+1. If you know of information, especially a peer-reviewed or pre-print article, that you want to see incorporated, please [create a New Paper issue](greenelab/covid19-review/issues/new?assignees=&labels=New+Paper&template=new-paper-template.md&title=New+Paper%3A+%5BTitle%5D) to let us know about it. 
+(You'll need to make a free [GitHub account](https://github.com/join?source=header-home)).
+2. If you have experience reading scientific literature, you can propose additions to the text through pull requests (see below). 
+Pull requests that address an open issue are particularly appreciated.
 3. Let others know about this effort so that they can contribute!
 
-Please note that non-scientists are more than welcome to contribute by opening issues to let us know about topics they'd like to see addressed or included.
+
+The [ICMJE Guidelines](http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html) will be followed for determining authorship.
+
+Please note that, while reading scientific literature is a particular skill, we know that people outside of science are also invested in this topic. 
+Non-scientists are welcome to contribute by opening New Paper issues to let us know about topics or papers they'd like to see addressed or included. 
+We would especially like to keep track of what information related to diagnostics and therapeutics is circulating in the news so that we can evaluate this information.
+Undergraduate students who are interested are encouraged to open issues and submit summaries of papers on their own or other open issues. 
+Please make a note that you're a student so that we can try to give you feedback!
+
 
 ## Pull Requests
+If you are not familiar with git and GitHub, you can use [these directions](greenelab/covid19-review/blob/master/Instructions.md) to start contributing. 
+Please feel encouraged to ask questions by opening a [Request for Help issue](greenelab/covid19-review/issues/new?assignees=rando2&labels=&template=request-for-help.md&title=Help%3A+%5BAdd+topic+here%5D).
+This project is a collaborative effort that will benefit from the expertise of scientists across a wide range of disciplines!
 
-To open a pull request, please:
-1. Fork the repository [greenelab/covid19-review](https://github.com/greenelab/covid19-review)
-2. Add your changes (you may want to do so on a branch specific to the topic you're addressing).
+For git users, to open a pull request please:
+1. Fork the repository [greenelab/covid19-review](greenelab/covid19-review)
+2. Add your modifications.
 If writing full paragraphs, please put one sentence per line.
 3. Submit a pull request to add your changes to [greenelab/covid19-review](https://github.com/greenelab/covid19-review)
-4. Submit a second pull request to add your information to the bottom of [`content/metadata.yaml`](content/metadata.yaml) using the format outlined [here](https://github.com/manubot/rootstock/blob/master/content/metadata.yaml)
+4. Submit a second pull request to add your information to the bottom of the [metadata file](content/metadata.yaml) using the format outlined [here](https://github.com/manubot/rootstock/blob/master/content/metadata.yaml)
 
-For an introduction to using git, see this [open-source lesson from Software Carpentry](http://swcarpentry.github.io/git-novice/).
-If you are a virologist, medical professional, or expert in another non-computational field who wants to contribute but feels concerned about contributing through git, please open an issue or reach out to [Halie Rando](mailto:halie.rando@pennmedicine.upenn.edu).
 
 ## Manubot
 
@@ -52,6 +64,7 @@ See [`USAGE.md`](USAGE.md) for documentation how to write a manuscript.
 
 Please open [an issue](https://git.io/fhQHM) for questions related to Manubot usage, bug reports, or general inquiries.
 
+
 ### Repository directories & files
 
 The directories are as follows:
@@ -63,6 +76,7 @@ The directories are as follows:
 + [`webpage`](webpage) is a directory meant to be rendered as a static webpage for viewing the HTML manuscript.
 + [`build`](build) contains commands and tools for building the manuscript.
 + [`ci`](ci) contains files necessary for deployment via continuous integration.
+
 
 ### Local execution
 
@@ -111,6 +125,7 @@ The `gh-pages` branch uses [GitHub Pages](https://pages.github.com/) to host the
 + **PDF manuscript** at https://greenelab.github.io/covid19-review/manuscript.pdf
 
 For continuous integration configuration details, see [`.github/workflows/manubot.yaml`](.github/workflows/manubot.yaml) if using GitHub Actions or [`.travis.yml`](.travis.yml) if using Travis CI.
+
 
 ## License
 
