@@ -27,7 +27,7 @@ At present, there are three ways to contribute:
 Pull requests that address an open issue are particularly appreciated.
 3. Let others know about this effort so that they can contribute!
 
-The [ICMJE Guidelines](http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html) will be followed for determining authorship.
+We will follow the [ICMJE Guidelines](http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html) for determining authorship.
 
 Please note that, while reading scientific literature is a particular skill, we know that people outside of science are also invested in this topic. 
 Non-scientists are welcome to contribute by opening New Paper issues to let us know about topics or papers they'd like to see addressed or included. 
