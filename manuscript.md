@@ -4,7 +4,7 @@ author-meta:
 - Casey S. Greene
 bibliography:
 - content/manual-references.json
-date-meta: '2020-03-21'
+date-meta: '2020-03-22'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -23,9 +23,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
 
-  <meta name="dc.date" content="2020-03-21" />
+  <meta name="dc.date" content="2020-03-22" />
 
-  <meta name="citation_publication_date" content="2020-03-21" />
+  <meta name="citation_publication_date" content="2020-03-22" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -69,11 +69,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/7bc23b3465b111ef5cef7dbbc79d65ab399d3356/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/c37b3fdc2d874dee25caf8a315fad0a2feb60cf9/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/7bc23b3465b111ef5cef7dbbc79d65ab399d3356/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/c37b3fdc2d874dee25caf8a315fad0a2feb60cf9/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/7bc23b3465b111ef5cef7dbbc79d65ab399d3356/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/c37b3fdc2d874dee25caf8a315fad0a2feb60cf9/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -106,10 +106,10 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/7bc23b3465b111ef5cef7dbbc79d65ab399d3356/))
+([permalink](https://greenelab.github.io/covid19-review/v/c37b3fdc2d874dee25caf8a315fad0a2feb60cf9/))
 was automatically generated
-from [greenelab/covid19-review@7bc23b3](https://github.com/greenelab/covid19-review/tree/7bc23b3465b111ef5cef7dbbc79d65ab399d3356)
-on March 21, 2020.
+from [greenelab/covid19-review@c37b3fd](https://github.com/greenelab/covid19-review/tree/c37b3fdc2d874dee25caf8a315fad0a2feb60cf9)
+on March 22, 2020.
 </em></small>
 
 ## Authors
