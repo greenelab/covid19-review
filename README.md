@@ -21,7 +21,7 @@ This repository is also a living document that aims to consolidate and integrate
 
 ## Contributions
 At present, there are three ways to contribute:
-1. If you know of information, especially a peer-reviewed or pre-print article, that you want to see incorporated, please [create a New Paper issue](greenelab/covid19-review/issues/new?assignees=&labels=New+Paper&template=new-paper-template.md&title=New+Paper%3A+%5BTitle%5D) to let us know about it. 
+1. If you know of information, especially a peer-reviewed or pre-print article, that you want to see incorporated, please [create a New Paper issue](issues/new?assignees=&labels=New+Paper&template=new-paper-template.md&title=New+Paper%3A+%5BTitle%5D) to let us know about it. 
 (You'll need to make a free [GitHub account](https://github.com/join?source=header-home)).
 2. If you have experience reading scientific literature, you can propose additions to the text through pull requests (see below). 
 Pull requests that address an open issue are particularly appreciated.
@@ -32,13 +32,14 @@ The [ICMJE Guidelines](http://www.icmje.org/recommendations/browse/roles-and-res
 Please note that, while reading scientific literature is a particular skill, we know that people outside of science are also invested in this topic. 
 Non-scientists are welcome to contribute by opening New Paper issues to let us know about topics or papers they'd like to see addressed or included. 
 We would especially like to keep track of what information related to diagnostics and therapeutics is circulating in the news so that we can evaluate this information.
+
 Undergraduate students who are interested are encouraged to open issues and submit summaries of papers on their own or other open issues. 
 Please make a note that you're a student so that we can try to give you feedback!
 
 
 ## Pull Requests
-If you are not familiar with git and GitHub, you can use [these directions](greenelab/covid19-review/blob/master/Instructions.md) to start contributing. 
-Please feel encouraged to ask questions by opening a [Request for Help issue](greenelab/covid19-review/issues/new?assignees=rando2&labels=&template=request-for-help.md&title=Help%3A+%5BAdd+topic+here%5D).
+If you are not familiar with git and GitHub, you can use [these directions](blob/master/Instructions.md) to start contributing. 
+Please feel encouraged to ask questions by opening a [Request for Help issue](issues/new?assignees=rando2&labels=&template=request-for-help.md&title=Help%3A+%5BAdd+topic+here%5D).
 This project is a collaborative effort that will benefit from the expertise of scientists across a wide range of disciplines!
 
 For git users, to open a pull request please:
