@@ -39,12 +39,12 @@ Please make a note that you're a student so that we can try to give you feedback
 
 
 ## Pull Requests
-If you are not familiar with git and GitHub, you can use [these directions](blob/master/Instructions.md) to start contributing. 
+If you are not familiar with git and GitHub, you can use [these directions](Instructions.md) to start contributing.
 Please feel encouraged to ask questions by opening a [Request for Help issue](issues/new?assignees=rando2&labels=&template=request-for-help.md&title=Help%3A+%5BAdd+topic+here%5D).
 This project is a collaborative effort that will benefit from the expertise of scientists across a wide range of disciplines!
 
 For git users, to open a pull request please:
-1. Fork the repository [greenelab/covid19-review](greenelab/covid19-review)
+1. Fork the repository [greenelab/covid19-review](https://github.com/greenelab/covid19-review)
 [![GitHub forks](https://img.shields.io/github/forks/greenelab/covid19-review?label=Fork&style=social)](https://github.com/greenelab/covid19-review/fork)
 2. Add your modifications.
 If writing full paragraphs, please put one sentence per line.
