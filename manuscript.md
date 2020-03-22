@@ -69,11 +69,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/36f13f5a9bf5b17676ca804bc86a56a0a1f9e5cb/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/5ab6c7b0477251695fe8708b77052eb939800587/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/36f13f5a9bf5b17676ca804bc86a56a0a1f9e5cb/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/5ab6c7b0477251695fe8708b77052eb939800587/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/36f13f5a9bf5b17676ca804bc86a56a0a1f9e5cb/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/5ab6c7b0477251695fe8708b77052eb939800587/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -106,9 +106,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/36f13f5a9bf5b17676ca804bc86a56a0a1f9e5cb/))
+([permalink](https://greenelab.github.io/covid19-review/v/5ab6c7b0477251695fe8708b77052eb939800587/))
 was automatically generated
-from [greenelab/covid19-review@36f13f5](https://github.com/greenelab/covid19-review/tree/36f13f5a9bf5b17676ca804bc86a56a0a1f9e5cb)
+from [greenelab/covid19-review@5ab6c7b](https://github.com/greenelab/covid19-review/tree/5ab6c7b0477251695fe8708b77052eb939800587)
 on March 22, 2020.
 </em></small>
 
@@ -125,6 +125,7 @@ on March 22, 2020.
     [tamefoxtime](https://twitter.com/tamefoxtime)<br>
   <small>
      Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+     · Funded by the Gordon and Betty Moore Foundation (GBMF 4552)
   </small>
 
 + **Casey S. Greene**<br>
@@ -136,6 +137,7 @@ on March 22, 2020.
     [GreeneScientist](https://twitter.com/GreeneScientist)<br>
   <small>
      Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America; Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Philadelphia, Pennsylvania, United States of America
+     · Funded by the Gordon and Betty Moore Foundation (GBMF 4552)
   </small>
 
 
@@ -155,13 +157,32 @@ This text is an evolving and collaborative document that seeks to incorporate th
 This is where the introduction will be.
 
 
-##Diagnostics  {.page_break_before} 
+## Diagnostics  {.page_break_before} 
 This section will include a review of the available information about diagnostics.
 
 
 ## Therapeutics {.page_break_before} 
 This section will include a review of information available about therapeutics.
 
+
+## Additional Items {.page_break_before} 
+
+### Competing Interests
+
+|Author|Competing Interests|Last Reviewed|
+|---|---|---|
+|Halie M. Rando|None|2020-03-22|
+|Casey S. Greene|None|2020-03-22|
+
+### Author Contributions
+
+|Author|Contributions|
+|---|---|
+|Halie M. Rando|Project Administration, Writing - Original Draft, Methodology|
+|Casey S. Greene|Conceptualization|
+
+
+# Formatting Examples   {.page_break_before} 
 
 This manuscript is a template (aka "rootstock") for [Manubot](https://manubot.org/ "Manubot"), a tool for writing scholarly manuscripts.
 Use this template as a starting point for your manuscript.
