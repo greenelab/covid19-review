@@ -21,7 +21,7 @@ This repository is also a living document that aims to consolidate and integrate
 
 ## Contributions
 At present, there are three ways to contribute:
-1. If you know of information, especially a peer-reviewed or pre-print article, that you want to see incorporated, please create a New Paper issue to let us know about it. [![GitHub issues](https://img.shields.io/github/issues/greenelab/covid19-review?style=social)](https://github.com/greenelab/covid19-review/issues)
+1. If you know of information, especially a peer-reviewed or pre-print article, that you want to see incorporated, please create a New Paper issue to let us know about it. [![GitHub issues](https://img.shields.io/github/issues-raw/greenelab/covid19-review?label=Open%20Issue&style=social)](https://github.com/greenelab/covid19-review/issues/new/choose)
 (You'll need to make a free [GitHub account](https://github.com/join?source=header-home)).
 2. If you have experience reading scientific literature, you can propose additions to the text through [pull requests](#pull-requests).
 Pull requests that address an open issue are particularly appreciated.
