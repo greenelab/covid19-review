@@ -21,8 +21,9 @@ This repository is also a living document that aims to consolidate and integrate
 
 ## Contributions
 At present, there are three ways to contribute:
-1. If you know of information, especially a peer-reviewed or pre-print article, that you want to see incorporated, please create a New Paper issue to let us know about it. [![GitHub issues](https://img.shields.io/github/issues-raw/greenelab/covid19-review?label=Open%20Issue&style=social)](https://github.com/greenelab/covid19-review/issues/new/choose)
+1. If you know of information, especially a peer-reviewed or pre-print article, that you want to see incorporated, please create a New Paper issue to let us know about it.
 (You'll need to make a free [GitHub account](https://github.com/join?source=header-home)).
+[![GitHub issues](https://img.shields.io/github/issues-raw/greenelab/covid19-review?label=Open%20Issue&style=social)](https://github.com/greenelab/covid19-review/issues/new/choose)
 2. If you have experience reading scientific literature, you can propose additions to the text through [pull requests](#pull-requests).
 Pull requests that address an open issue are particularly appreciated.
 3. Let others know about this effort so that they can contribute!
@@ -43,7 +44,8 @@ Please feel encouraged to ask questions by opening a [Request for Help issue](is
 This project is a collaborative effort that will benefit from the expertise of scientists across a wide range of disciplines!
 
 For git users, to open a pull request please:
-1. Fork the repository [greenelab/covid19-review](greenelab/covid19-review) [![GitHub forks](https://img.shields.io/github/forks/greenelab/covid19-review?label=Fork&style=social)](https://github.com/greenelab/covid19-review/fork)
+1. Fork the repository [greenelab/covid19-review](greenelab/covid19-review)
+[![GitHub forks](https://img.shields.io/github/forks/greenelab/covid19-review?label=Fork&style=social)](https://github.com/greenelab/covid19-review/fork)
 2. Add your modifications.
 If writing full paragraphs, please put one sentence per line.
 3. Submit a pull request to add your changes to [greenelab/covid19-review](https://github.com/greenelab/covid19-review)
