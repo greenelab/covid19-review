@@ -53,3 +53,16 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-03-23
+    github: nilswellhausen
+    name: Nils Wellhausen
+    initials: NW
+    orcid: 0000-0001-8955-7582
+    email: nilsw@pennmedicine.upenn.edu
+    contributions:
+      - Writing
+      - Visualization
+    affiliations:
+      - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-03-22
