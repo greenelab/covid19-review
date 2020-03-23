@@ -4,7 +4,7 @@ author-meta:
 - Casey S. Greene
 bibliography:
 - content/manual-references.json
-date-meta: '2020-03-22'
+date-meta: '2020-03-23'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -23,9 +23,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
 
-  <meta name="dc.date" content="2020-03-22" />
+  <meta name="dc.date" content="2020-03-23" />
 
-  <meta name="citation_publication_date" content="2020-03-22" />
+  <meta name="citation_publication_date" content="2020-03-23" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -69,11 +69,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/a15dbbaed04b7c7b75489e3d52e431d78814f836/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/6be026cad3004fba1e58294fce2e42baeca4ad14/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/a15dbbaed04b7c7b75489e3d52e431d78814f836/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/6be026cad3004fba1e58294fce2e42baeca4ad14/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/a15dbbaed04b7c7b75489e3d52e431d78814f836/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/6be026cad3004fba1e58294fce2e42baeca4ad14/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -106,10 +106,10 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/a15dbbaed04b7c7b75489e3d52e431d78814f836/))
+([permalink](https://greenelab.github.io/covid19-review/v/6be026cad3004fba1e58294fce2e42baeca4ad14/))
 was automatically generated
-from [greenelab/covid19-review@a15dbba](https://github.com/greenelab/covid19-review/tree/a15dbbaed04b7c7b75489e3d52e431d78814f836)
-on March 22, 2020.
+from [greenelab/covid19-review@6be026c](https://github.com/greenelab/covid19-review/tree/6be026cad3004fba1e58294fce2e42baeca4ad14)
+on March 23, 2020.
 </em></small>
 
 ## Authors
@@ -154,7 +154,53 @@ This text is an evolving and collaborative document that seeks to incorporate th
 
 
 ## Introduction {.page_break_before} 
-This is where the introduction will be.
+
+### General Background
+
+On January 21, 2020, the World Health Organization (WHO) released its first report concerning what is now known as the Coronavirus disease 2019 (COVID-19) [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200121-sitrep-1-2019-ncov.pdf].
+This infectious disease came to international attention on December 31, 2019 following an announcement by national officials in China about 44 cases of a respiratory infection of unknown cause.
+The first known cases were located in Wuhan City within the Hubei province of China, but the disease subsequently began to spread rapidly beyond Wuhan within China and around the world. 
+At the time of the first situation report [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200121-sitrep-1-2019-ncov.pdf], 282 confirmed cases had been identified, primarily in China, but also the first 1 to 2 cases had been found in each of Thailand, Japan, and the Republic of Korea.
+One week later, 4593 confirmed cases had been identified, spanning not only Asia, but also Australia, North America, and Europe [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128-sitrep-8-ncov-cleared.pdf].
+On March 11, 2020, WHO formally classified the situation as a pandemic [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200311-sitrep-51-covid-19.pdf].
+By WHO Situation Report 61, released on March 20, 2020, 266,073 confirmed cases had been reported worldwide, with cases on every continent except Antarctica [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200321-sitrep-61-covid-19.pdf].
+At this time, over 11,000 deaths had been reported worldwide.
+
+[Note: Maybe add a graph here, update as new reports come out.]
+
+COVID-19 is caused by the newly identified severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2).
+SARS-CoV-2 is a coronavirus, a type of RNA virus known to cause respitatory infections in humans and other species.
+Other well-known coronaviruses include those associated with previous infectious diseases of global concern, including Severe Accute Repiratory Syndrome (SARS) and Middle East respiratory syndrome (MERS); however, some coronaviruses are associated with less virulent illnesses including the common cold.
+The SARS-CoV-2 virus was unknown until approximately January 12, 2020, when Chinese officials released its genetic sequence to aid in worldwide efforts to diagnose the disease [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200121-sitrep-1-2019-ncov.pdf].
+As researchers worldwide work to characterize SARS-CoV-2 and COVID-19, information about the transmission and life cycle of the virus as well as the diagnosis and treatment of the disease is emerging rapidly.
+In this review, we seek to consolidate information about the virus in the context of related viruses and to synthesize what is known about the diagnosis and treatment of COVID-19 and related diseases.
+This is a real-time, collaborative effort that welcomes submissions from scientists worldwide.
+
+### Coronaviruses: What are they, and what do we know about SARS-CoV-19?
+
+Coronaviruses are RNA viruses that...
+[Summarize relevant mechanisms for cell entry & address evidence for/against ACE2 being important]
+
+### Mechanisms of Coronavirus-driven Disease in Humans
+
+Coronaviruses are known to cause respiratory illnesses in humans through the following possible mechanisms...
+
+### Presentation of COVID-19
+
+Information is rapidly becoming available about the wide range of symptoms that can be associated with COVID-19 as well as the range of symptom severity, onset from exposure, and possible risk or protective factors...
+
+### Vaccines for Viruses: Strategies for and challenges to development
+
+What information is needed to develop a vaccine? How have vaccines for other viruses such as H1N1 been developed?
+
+### Diagnostics and Therapeutics for Viruses
+
+Two major concerns within diagnosis include the detection of current infections in individuals with and without symptoms, and the detection of past exposure without a live infection.
+In the latter category, identifying whether individuals can develop or have developed sustained immunity is also a major consideration.
+
+Within therapeutics, some possible efforts include efforts to identify strategies for the management of symptoms as well as the development of antivirals...
+
+In this review, we seek to consolidate information about efforts to develop strategies for diagnosis and therapeutics as new information is released by the scientific community.
 
 
 ## Diagnostics  {.page_break_before} 
