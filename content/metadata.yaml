@@ -50,3 +50,6 @@ authors:
       - Document Cleanup
     affiliations:
       - Department of Computing Sciences, Villanova University, Villanova, Pennsylvania, United States of America
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-03-23
