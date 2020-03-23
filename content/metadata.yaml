@@ -40,3 +40,13 @@ authors:
       string: "None"
       lastapproved: !!str 2020-03-22
     funders: the Gordon and Betty Moore Foundation (GBMF 4552)
+  -
+    github: mprobson
+    name: Michael P. Robson
+    initials: MPR
+    orcid: 0000-0002-4859-0033
+    email: michael.robson@villanova.edu
+    contributions:
+      - Document Cleanup
+    affiliations:
+      - Department of Computing Sciences, Villanova University, Villanova, Pennsylvania, United States of America
