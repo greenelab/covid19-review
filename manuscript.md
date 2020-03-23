@@ -76,11 +76,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/51e1e8f05f0aad36c676725ee8c2065d35e16e31/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/1ccb5ca1a92791a3e4f42516c94fbc472f9b0c18/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/51e1e8f05f0aad36c676725ee8c2065d35e16e31/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/1ccb5ca1a92791a3e4f42516c94fbc472f9b0c18/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/51e1e8f05f0aad36c676725ee8c2065d35e16e31/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/1ccb5ca1a92791a3e4f42516c94fbc472f9b0c18/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -113,9 +113,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/51e1e8f05f0aad36c676725ee8c2065d35e16e31/))
+([permalink](https://greenelab.github.io/covid19-review/v/1ccb5ca1a92791a3e4f42516c94fbc472f9b0c18/))
 was automatically generated
-from [greenelab/covid19-review@51e1e8f](https://github.com/greenelab/covid19-review/tree/51e1e8f05f0aad36c676725ee8c2065d35e16e31)
+from [greenelab/covid19-review@1ccb5ca](https://github.com/greenelab/covid19-review/tree/1ccb5ca1a92791a3e4f42516c94fbc472f9b0c18)
 on March 23, 2020.
 </em></small>
 
