@@ -2,6 +2,7 @@
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
+- Michael P. Robson
 bibliography:
 - content/manual-references.json
 date-meta: '2020-03-23'
@@ -57,6 +58,12 @@ header-includes: '<!--
 
   <meta name="twitter:creator" content="@GreeneScientist" />
 
+  <meta name="citation_author" content="Michael P. Robson" />
+
+  <meta name="citation_author_institution" content="Department of Computing Sciences, Villanova University, Villanova, Pennsylvania, United States of America" />
+
+  <meta name="citation_author_orcid" content="0000-0002-4859-0033" />
+
   <link rel="canonical" href="https://greenelab.github.io/covid19-review/" />
 
   <meta property="og:url" content="https://greenelab.github.io/covid19-review/" />
@@ -69,11 +76,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/ac89611d5ae5a1168b4763cb30cdafbb8437cfee/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/e8f99f3d56ac8fcc8b5044b31f996c7af66853b7/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/ac89611d5ae5a1168b4763cb30cdafbb8437cfee/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/e8f99f3d56ac8fcc8b5044b31f996c7af66853b7/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/ac89611d5ae5a1168b4763cb30cdafbb8437cfee/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/e8f99f3d56ac8fcc8b5044b31f996c7af66853b7/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -106,9 +113,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/ac89611d5ae5a1168b4763cb30cdafbb8437cfee/))
+([permalink](https://greenelab.github.io/covid19-review/v/e8f99f3d56ac8fcc8b5044b31f996c7af66853b7/))
 was automatically generated
-from [greenelab/covid19-review@ac89611](https://github.com/greenelab/covid19-review/tree/ac89611d5ae5a1168b4763cb30cdafbb8437cfee)
+from [greenelab/covid19-review@e8f99f3](https://github.com/greenelab/covid19-review/tree/e8f99f3d56ac8fcc8b5044b31f996c7af66853b7)
 on March 23, 2020.
 </em></small>
 
@@ -138,6 +145,15 @@ on March 23, 2020.
   <small>
      Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America; Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Philadelphia, Pennsylvania, United States of America
      · Funded by the Gordon and Betty Moore Foundation (GBMF 4552)
+  </small>
+
++ **Michael P. Robson**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-4859-0033](https://orcid.org/0000-0002-4859-0033)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [mprobson](https://github.com/mprobson)<br>
+  <small>
+     Department of Computing Sciences, Villanova University, Villanova, Pennsylvania, United States of America
   </small>
 
 
@@ -219,6 +235,7 @@ This section will include a review of information available about therapeutics.
 |---|---|---|
 |Halie M. Rando|None|2020-03-22|
 |Casey S. Greene|None|2020-03-22|
+|Michael P. Robson|None|2020-03-23|
 
 ### Author Contributions
 
@@ -226,6 +243,7 @@ This section will include a review of information available about therapeutics.
 |---|---|
 |Halie M. Rando|Project Administration, Writing - Original Draft, Methodology|
 |Casey S. Greene|Conceptualization|
+|Michael P. Robson|Software|
 
 
 # Formatting Examples   {.page_break_before} 
