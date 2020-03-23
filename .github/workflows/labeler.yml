@@ -7,9 +7,9 @@ jobs:
   triage:
     runs-on: ubuntu-latest
     steps:
-    - uses: github/issue-labeler@v2
+    - uses: github/issue-labeler@v2.0
       with:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
         configuration-path: .github/labeler.yml
         not-before: 2020-03-23T06:00:00Z
-        enableVersionedRegex: 0
+        enable-versioned-regex: 0
