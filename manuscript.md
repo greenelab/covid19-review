@@ -76,11 +76,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/f7a7d30e7c1dec3cffa2815091b5162f1b07cc1f/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/04facd2eed1fe09b680b9b50fd0e83cfbd61e151/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/f7a7d30e7c1dec3cffa2815091b5162f1b07cc1f/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/04facd2eed1fe09b680b9b50fd0e83cfbd61e151/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/f7a7d30e7c1dec3cffa2815091b5162f1b07cc1f/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/04facd2eed1fe09b680b9b50fd0e83cfbd61e151/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -113,9 +113,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/f7a7d30e7c1dec3cffa2815091b5162f1b07cc1f/))
+([permalink](https://greenelab.github.io/covid19-review/v/04facd2eed1fe09b680b9b50fd0e83cfbd61e151/))
 was automatically generated
-from [greenelab/covid19-review@f7a7d30](https://github.com/greenelab/covid19-review/tree/f7a7d30e7c1dec3cffa2815091b5162f1b07cc1f)
+from [greenelab/covid19-review@04facd2](https://github.com/greenelab/covid19-review/tree/04facd2eed1fe09b680b9b50fd0e83cfbd61e151)
 on March 23, 2020.
 </em></small>
 
@@ -172,14 +172,13 @@ This text is an evolving and collaborative document that seeks to incorporate th
 ## Introduction {.page_break_before} 
 
 ### General Background
-
-On January 21, 2020, the World Health Organization (WHO) released its first report concerning what is now known as the Coronavirus disease 2019 (COVID-19) [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200121-sitrep-1-2019-ncov.pdf].
-This infectious disease came to international attention on December 31, 2019 following an announcement by national officials in China about 44 cases of a respiratory infection of unknown cause.
-The first known cases were located in Wuhan City within the Hubei province of China, but the disease subsequently began to spread rapidly beyond Wuhan within China and around the world. 
-At the time of the first situation report [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200121-sitrep-1-2019-ncov.pdf], 282 confirmed cases had been identified, primarily in China, but also the first 1 to 2 cases had been found in each of Thailand, Japan, and the Republic of Korea.
-One week later, 4593 confirmed cases had been identified, spanning not only Asia, but also Australia, North America, and Europe [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128-sitrep-8-ncov-cleared.pdf].
-On March 11, 2020, WHO formally classified the situation as a pandemic [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200311-sitrep-51-covid-19.pdf].
-By WHO Situation Report 61, released on March 20, 2020, 266,073 confirmed cases had been reported worldwide, with cases on every continent except Antarctica [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200321-sitrep-61-covid-19.pdf].
+On January 21, 2020, the World Health Organization (WHO) released its first report concerning what is now known as the Coronavirus disease 2019 (COVID-19) [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200121-sitrep-1-2019-ncov.pdf?sfvrsn=20a99c10_4].
+This infections disease came to international attention on December 31, 2019 following an announcement by national officials in China about 44 cases of a respiratory infection of unknown cause.
+The first known cases were centralized in Wuhan City within the Hubei province of China, but the diease subsequently began to spread rapidly beyond Wuhan within China and around the world. 
+At the time of the first situation report [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200121-sitrep-1-2019-ncov.pdf?sfvrsn=20a99c10_4], 282 confirmed cases had been identified, primarily in China, but also the first 1 to 2 cases in each of Thailand, Japan, and the Republic of Korea.
+One week later, 4593 confirmed cases had been identified, spanning not only Asia, but also Australia, North America, and Europe [@urL:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128-sitrep-8-ncov-cleared.pdf?sfvrsn=8b671ce5_2].
+On March 11, 2020, WHO formally classified the situation as a pandemic [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200311-sitrep-51-covid-19.pdf?sfvrsn=1ba62e57_10].
+By WHO Situation Report 61, released on March 20, 2020, 266,073 confirmed cases had been reported worldwide, with cases on every continent except Antarctica [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200321-sitrep-61-covid-19.pdf?sfvrsn=6aa18912_2].
 At this time, over 11,000 deaths had been reported worldwide.
 
 [Note: Maybe add a graph here, update as new reports come out.]
@@ -187,6 +186,7 @@ At this time, over 11,000 deaths had been reported worldwide.
 COVID-19 is caused by the newly identified severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2).
 SARS-CoV-2 is a coronavirus, a type of RNA virus known to cause respitatory infections in humans and other species.
 Other well-known coronaviruses include those associated with previous infectious diseases of global concern, including Severe Accute Repiratory Syndrome (SARS) and Middle East respiratory syndrome (MERS); however, some coronaviruses are associated with less virulent illnesses including the common cold.
+
 The SARS-CoV-2 virus was unknown until approximately January 12, 2020, when Chinese officials released its genetic sequence to aid in worldwide efforts to diagnose the disease [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200121-sitrep-1-2019-ncov.pdf].
 As researchers worldwide work to characterize SARS-CoV-2 and COVID-19, information about the transmission and life cycle of the virus as well as the diagnosis and treatment of the disease is emerging rapidly.
 In this review, we seek to consolidate information about the virus in the context of related viruses and to synthesize what is known about the diagnosis and treatment of COVID-19 and related diseases.
@@ -220,11 +220,76 @@ In this review, we seek to consolidate information about efforts to develop stra
 
 
 ## Diagnostics  {.page_break_before} 
-This section will include a review of the available information about diagnostics.
+
+### Current Strategies for Diagnosing COVID-19 and Similar Viral Infections
+
+Given the heterogeneity of symptom presentation across patients with COVID-19, the development of standardized protocols for testing samples for SARS-CoV-2 is urgent.
+Following the release of the genetic sequence of the virus by Chinese officials on January 12, 2020, the first tests for detecting the virus were released on XX, 2020.
+These tests used the following approach to identify the active virus in patient samples...
+However, many countries have struggled to acquire the tests required to keep pace with the epidemic.
+[Why is it so difficult to scale up testing? What are some of the considerations?]
+
+### Possible Alternatives to Current Practices for Identifying Active Cases
+
+[Are there other approaches that have worked for diagnosing other viruses at a rapid pace in large numbers of people?] 
+[What are some approaches people are currently testing for detecting live viruses, especially SARS-CoV-2?]
+
+### Detection of Past Exposure and/or Sustained Immunity
+
+[What are approaches that allow us to detect past exposure for other viruses?] 
+[What efforts are underway to develop similar approaches for SARS-CoV-2?]
+[What is sustained immunity and what are the indicators?]
 
 
 ## Therapeutics {.page_break_before} 
-This section will include a review of information available about therapeutics.
+Given the rapid predicted spread of the disease, the development of therapeutics will be critical to mitigating its effect on health and the mortality rate.
+Typically, therapeutics can take a few forms.
+First, the treatment and reduction of symptoms can result in the reduction of the severity and risk associated with an active infection.
+Second, the development of antiviral drugs can drive a reduced recovery time for patients by inhibiting the development of the virus once an individual is infected.
+Finally, vaccines present a strategy for bolstering the immune response of the populus broadly to the virus, resulting in a lower rate of infection.
+All three of these strategies have been valuable elements of responses to other viruses, including coronaviruses, and are being investigated by researchers at present.
+
+### Treatment of Symptoms
+COVID-19 is characterized by...
+The most severe and concerning symptoms are typically...
+The symptoms most often regarded as the proximal cause of death from COVID-19 are...
+Other diseases with similar symptoms include XYZ but these diseases may be different because...
+
+So far, some strategies for reducing the severity of symptoms have included...
+
+#### Relevant Mechanisms and Possible Pharmaceutical Interventions
+[Given what we know about the mechanisms of the virus and why it produces the symptoms we see, are there drugs or categories of intervention that might be relevant?]
+
+#### Data-Driven Prediction of Interventions
+[The machine learning community has been called upon to try to predict possible interventions. What are they doing and what are they finding about treating symptoms?]
+
+### Antivirals
+Antivirals are an emerging category of drugs.
+Unlike antibiotics, they do not kill viruses.
+Rather, they inhibit the proliferation of a virus.
+Antivirals have been used to treat XYZ diseases through [what mechanisms or approaches are used?]
+
+#### Antivirals and Coronoviruses
+[Have antivirals been used to treat other coronaviruses? What went well/badly? How do these interventions work?]
+
+#### Antiviral Targeting of SARS-CoV-2
+[What efforts are underway to develop antivirals for SARS-CoV-2? Is anything expected to be particularly challenging about this virus?]
+[What are possible ways to target SARS-CoV-2 that are being proposed, developed, or tested?]
+
+#### Data-Driven Analysis and Identification of Antivirals
+[Can we predict possible strategies for antiviral development based on available literature? How are people approaching this and what are they finding?]
+
+### Vaccines
+Vaccines, widely recognized as one of the most significant advances in human health during the 20th century, can be used to bolser both individual and herd immunity to a virus by promoting the development of antibodies without infection.
+[Are vaccines available for other coronaviruses or related viral illnesses?]
+
+#### Strategies and Challenges to Vaccine Development
+[What are some of the challenges to developing a vaccine? What needs to be taken into account about how the virus works?]
+[Are there any challenges or opportunities unique to coronaviruses and/or SARS-CoV-2?]
+[What are some approaches being tested or considered?]
+
+#### Big Data and Vaccines
+[Has the AI community contributed to vaccine development in the past? Are there particular challenges or opportunities here? What are people working on and/or finding?]
 
 
 ## Additional Items {.page_break_before} 
