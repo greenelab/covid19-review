@@ -17,8 +17,13 @@ authors:
     contributions:
       - Project Administration
       - Writing - Original Draft
+      - Methodology
     affiliations:
       - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-03-22
+    funders: the Gordon and Betty Moore Foundation (GBMF 4552)
   -
     github: cgreene
     name: Casey S. Greene
@@ -31,3 +36,20 @@ authors:
     affiliations:
       - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
       - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Philadelphia, Pennsylvania, United States of America
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-03-22
+    funders: the Gordon and Betty Moore Foundation (GBMF 4552)
+  -
+    github: mprobson
+    name: Michael P. Robson
+    initials: MPR
+    orcid: 0000-0002-4859-0033
+    email: michael.robson@villanova.edu
+    contributions:
+      - Software
+    affiliations:
+      - Department of Computing Sciences, Villanova University, Villanova, Pennsylvania, United States of America
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-03-23
