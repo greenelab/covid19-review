@@ -76,11 +76,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/71ec7a50591af07a1810bff4f73570eabbd96dd0/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/775ab886f96dcb8cca90bf5227c677ff0a3af244/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/71ec7a50591af07a1810bff4f73570eabbd96dd0/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/775ab886f96dcb8cca90bf5227c677ff0a3af244/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/71ec7a50591af07a1810bff4f73570eabbd96dd0/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/775ab886f96dcb8cca90bf5227c677ff0a3af244/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -113,9 +113,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/71ec7a50591af07a1810bff4f73570eabbd96dd0/))
+([permalink](https://greenelab.github.io/covid19-review/v/775ab886f96dcb8cca90bf5227c677ff0a3af244/))
 was automatically generated
-from [greenelab/covid19-review@71ec7a5](https://github.com/greenelab/covid19-review/tree/71ec7a50591af07a1810bff4f73570eabbd96dd0)
+from [greenelab/covid19-review@775ab88](https://github.com/greenelab/covid19-review/tree/775ab886f96dcb8cca90bf5227c677ff0a3af244)
 on March 24, 2020.
 </em></small>
 
@@ -279,6 +279,10 @@ Antivirals have been used to treat XYZ diseases through [what mechanisms or appr
 
 #### Antivirals and Coronoviruses
 [Have antivirals been used to treat other coronaviruses? What went well/badly? How do these interventions work?]
+
+Neutralizing Antibodies
+Monoclonal antibodies targeting viral antigens have shown therapeutic efficacy against viruses like Ebola and SARS CoV.
+The first human neutralizing antibody against SARS-CoV-2 targeting the trimeric spike (S) glycoproteins has been developed [@doi:10.1101/2020.03.11.987958].
 
 #### Antiviral Targeting of SARS-CoV-2
 [What efforts are underway to develop antivirals for SARS-CoV-2? Is anything expected to be particularly challenging about this virus?]
