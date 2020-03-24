@@ -5,7 +5,7 @@ author-meta:
 - Michael P. Robson
 bibliography:
 - content/manual-references.json
-date-meta: '2020-03-23'
+date-meta: '2020-03-24'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -24,9 +24,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
 
-  <meta name="dc.date" content="2020-03-23" />
+  <meta name="dc.date" content="2020-03-24" />
 
-  <meta name="citation_publication_date" content="2020-03-23" />
+  <meta name="citation_publication_date" content="2020-03-24" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -76,11 +76,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/8df5b738f7a33a62f39b90d9bd4332313cb468bc/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/aec9ec12a7ab5bb642f3f47352043b863583571f/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/8df5b738f7a33a62f39b90d9bd4332313cb468bc/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/aec9ec12a7ab5bb642f3f47352043b863583571f/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/8df5b738f7a33a62f39b90d9bd4332313cb468bc/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/aec9ec12a7ab5bb642f3f47352043b863583571f/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -113,10 +113,10 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/8df5b738f7a33a62f39b90d9bd4332313cb468bc/))
+([permalink](https://greenelab.github.io/covid19-review/v/aec9ec12a7ab5bb642f3f47352043b863583571f/))
 was automatically generated
-from [greenelab/covid19-review@8df5b73](https://github.com/greenelab/covid19-review/tree/8df5b738f7a33a62f39b90d9bd4332313cb468bc)
-on March 23, 2020.
+from [greenelab/covid19-review@aec9ec1](https://github.com/greenelab/covid19-review/tree/aec9ec12a7ab5bb642f3f47352043b863583571f)
+on March 24, 2020.
 </em></small>
 
 ## Authors
@@ -167,6 +167,13 @@ Here we present a collaborative effort to organize and consolidate the rapidly e
 We present information about the virus in the context of what is known about related viruses and synthesize studies emerging about the diagnosis and treatment of COVID-19 alongside literature about related illnesses.
 A broad scientific effort to understand this pandemic and related viruses and diseases will be foundational to efforts to predict possible interventions. 
 This text is an evolving and collaborative document that seeks to incorporate the ever-expanding body of information related to SARS-CoV-2 and COVID-19.
+
+## Where to Contribute
+Introduce Yourself (GitHub Issue) [https://github.com/greenelab/covid19-review/issues/17](https://github.com/greenelab/covid19-review/issues/17)
+
+Community Chat (Gitter Room) [https://gitter.im/covid19-review/community](https://gitter.im/covid19-review/community)
+
+More Info (GitHub Readme) [https://github.com/greenelab/covid19-review#sars-cov-2-and-covid-19-an-evolving-review-of-diagnostics-and-therapeutics](https://github.com/greenelab/covid19-review#sars-cov-2-and-covid-19-an-evolving-review-of-diagnostics-and-therapeutics)
 
 
 ## Introduction {.page_break_before} 
