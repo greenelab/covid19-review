@@ -9,7 +9,7 @@ assignees: ''
 
 <!--Hi there! Please use the template below as a guide for what information about this paper to include. It's ok to leave fields blank so that other contributors can fill them in later, or to add fields that you think are important.-->
 
-<!--Title: Please edit the title to add the name of the paper after the colon--!>
+Title: Please edit the title to add the name of the paper after the colon
 
 ### Please paste a link to the paper or a citation here:
 
