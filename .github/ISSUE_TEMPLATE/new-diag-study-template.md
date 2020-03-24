@@ -77,7 +77,8 @@ Examples of assignment could include: Recruited individuals have initially under
 
 ##### Are there any other relevant details about the study design?
 
-Depending on how individuals are chosen, the test may be biasing towards more sick or less sick individuals or very clear-cut positive/negative cases. Any factors that would influence this bias should be included here.
+Depending on how individuals are chosen, the test may be biasing towards more sick or less sick individuals or very clear-cut positive/negative cases. 
+Any factors that would influence this bias should be included here.
 
 ### Test conduct:
 
