@@ -1,7 +1,7 @@
 ---
-name: New Study Template
+name: New Diagnostic Template
 about: Systematically summarize each therapy-focused paper
-title: 'New Paper: [Title]'
+title: 'New Paper (Diagnostics): [Title]'
 labels: New Paper
 assignees: ''
 
@@ -9,15 +9,17 @@ assignees: ''
 
 <!--Hi there! Please use the template below as a guide for what information about this paper to include. It's ok to leave fields blank so that other contributors can fill them in later, or to add fields that you think are important.-->
 
-<!--Title: Please edit the title to add the name of the paper after the colon--!>
+Title: Please edit the title to add the name of the paper after the colon
 
 ### Please paste a link to the paper or a citation here:
 
 ### What is the paper's [DOI](https://library.uic.edu/help/article/1966/what-is-a-doi-and-how-do-i-use-them-in-citations)?
 
-### Is this paper primarily relevant to Background, Diagnostics, or Therapeutics? (use separate template for diagnostics vs therapeutics)
 
 ### Please list some keywords (3-10) that help identify the relevance of this paper to COVID-19
+
+
+<!-- The following questions are the things that we'll want to answer about each paper reporting a diagnostic. If you are ready to answer them now, please go ahead and interleave your answers with the prompts. If you are not ready, feel free to go ahead and create the issue now. -->
 
 ### Questions to answer about each paper:
 
@@ -69,7 +71,6 @@ assignees: ''
   * How difficult is it to perform the test in different settings?
   * Could the test be combined with other existing tests?
 * **1-2 sentences on concluding remarks, including summary of strengths, weaknesses, limitations.**
-
 
 
 
