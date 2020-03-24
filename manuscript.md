@@ -83,11 +83,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/199e281fe2df3c26552bff3c3a2e06ab0074a2c6/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/12b0403aa30a229ecaf98d98e05ada7fdc21b4e5/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/199e281fe2df3c26552bff3c3a2e06ab0074a2c6/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/12b0403aa30a229ecaf98d98e05ada7fdc21b4e5/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/199e281fe2df3c26552bff3c3a2e06ab0074a2c6/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/12b0403aa30a229ecaf98d98e05ada7fdc21b4e5/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -120,9 +120,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/199e281fe2df3c26552bff3c3a2e06ab0074a2c6/))
+([permalink](https://greenelab.github.io/covid19-review/v/12b0403aa30a229ecaf98d98e05ada7fdc21b4e5/))
 was automatically generated
-from [greenelab/covid19-review@199e281](https://github.com/greenelab/covid19-review/tree/199e281fe2df3c26552bff3c3a2e06ab0074a2c6)
+from [greenelab/covid19-review@12b0403](https://github.com/greenelab/covid19-review/tree/12b0403aa30a229ecaf98d98e05ada7fdc21b4e5)
 on March 24, 2020.
 </em></small>
 
@@ -296,6 +296,7 @@ However, many countries have struggled to acquire the tests required to keep pac
 
 
 ## Therapeutics {.page_break_before} 
+
 Given the rapid predicted spread of the disease, the development of therapeutics will be critical to mitigating its effect on health and the mortality rate.
 Typically, therapeutics can take a few forms.
 First, the treatment and reduction of symptoms can result in the reduction of the severity and risk associated with an active infection.
@@ -303,51 +304,36 @@ Second, the development of antiviral drugs can drive a reduced recovery time for
 Finally, vaccines present a strategy for bolstering the immune response of the populus broadly to the virus, resulting in a lower rate of infection.
 All three of these strategies have been valuable elements of responses to other viruses, including coronaviruses, and are being investigated by researchers at present.
 
-### Treatment of Symptoms
-COVID-19 is characterized by...
-The most severe and concerning symptoms are typically...
-The symptoms most often regarded as the proximal cause of death from COVID-19 are...
-Other diseases with similar symptoms include XYZ but these diseases may be different because...
+### Mechanisms for Symptom Management
 
-So far, some strategies for reducing the severity of symptoms have included...
+Possible background needed:
+-COVID-19 is characterized by...
+-The most severe and concerning symptoms are typically...
+-The symptoms most often regarded as the proximal cause of death from COVID-19 are...
+-Other diseases with similar symptoms include XYZ but these diseases may be different because...
+-Given what we know about the mechanisms of the virus and why it produces the symptoms we see, are there drugs or categories of intervention that might be relevant?
 
-#### Relevant Mechanisms and Possible Pharmaceutical Interventions
-[Given what we know about the mechanisms of the virus and why it produces the symptoms we see, are there drugs or categories of intervention that might be relevant?]
+Then, subcategory (#### Name of Section) for each class of therapeutic
 
-#### Data-Driven Prediction of Interventions
-[The machine learning community has been called upon to try to predict possible interventions. What are they doing and what are they finding about treating symptoms?]
+### Therapies that Inhibit Viral Processes
 
-### Antivirals
-Antivirals are an emerging category of drugs.
-Unlike antibiotics, they do not kill viruses.
-Rather, they inhibit the proliferation of a virus.
-Antivirals have been used to treat XYZ diseases through [what mechanisms or approaches are used?]
+Add a subcategory (using ####) for each category of antiviral treatment
+[What efforts are underway to develop antivirals for SARS-CoV-2? Is anything expected to be particularly challenging about this virus?]
+[What are possible ways to target SARS-CoV-2 that are being proposed, developed, or tested?]
+Categories may include therapies that inhibit viral proteins, inhibit viral entry, and more
 
-#### Antivirals and Coronoviruses
-[Have antivirals been used to treat other coronaviruses? What went well/badly? How do these interventions work?]
+#### Neutralizing Antibodies
 
-Neutralizing Antibodies
 Monoclonal antibodies targeting viral antigens have shown therapeutic efficacy against viruses like Ebola and SARS CoV [@doi:10.1517/14712590902763755; @doi:10.1126/science.aad5224].
 The first human neutralizing antibody against SARS-CoV-2 targeting the trimeric spike (S) glycoproteins has been developed [@doi:10.1101/2020.03.11.987958].
 
-#### Antiviral Targeting of SARS-CoV-2
-[What efforts are underway to develop antivirals for SARS-CoV-2? Is anything expected to be particularly challenging about this virus?]
-[What are possible ways to target SARS-CoV-2 that are being proposed, developed, or tested?]
-
-#### Data-Driven Analysis and Identification of Antivirals
-[Can we predict possible strategies for antiviral development based on available literature? How are people approaching this and what are they finding?]
-
 ### Vaccines
+
 Vaccines, widely recognized as one of the most significant advances in human health during the 20th century, can be used to bolser both individual and herd immunity to a virus by promoting the development of antibodies without infection.
 [Are vaccines available for other coronaviruses or related viral illnesses?]
-
-#### Strategies and Challenges to Vaccine Development
 [What are some of the challenges to developing a vaccine? What needs to be taken into account about how the virus works?]
 [Are there any challenges or opportunities unique to coronaviruses and/or SARS-CoV-2?]
 [What are some approaches being tested or considered?]
-
-#### Big Data and Vaccines
-[Has the AI community contributed to vaccine development in the past? Are there particular challenges or opportunities here? What are people working on and/or finding?]
 
 
 ## Additional Items {.page_break_before} 
