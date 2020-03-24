@@ -3,6 +3,7 @@ author-meta:
 - Halie M. Rando
 - Casey S. Greene
 - Michael P. Robson
+- Simina M. Boca
 - Nils Wellhausen
 bibliography:
 - content/manual-references.json
@@ -65,6 +66,12 @@ header-includes: '<!--
 
   <meta name="citation_author_orcid" content="0000-0002-4859-0033" />
 
+  <meta name="citation_author" content="Simina M. Boca" />
+
+  <meta name="citation_author_institution" content="Innovation Center for Biomedical Informatics, Georgetown University Medical Center, Washington, District of columbia, United States of America" />
+
+  <meta name="citation_author_orcid" content="0000-0002-1400-3398" />
+
   <meta name="citation_author" content="Nils Wellhausen" />
 
   <meta name="citation_author_institution" content="Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America" />
@@ -83,11 +90,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/12b0403aa30a229ecaf98d98e05ada7fdc21b4e5/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/7777eec3927db1c9663508d1094fa53a18f822ad/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/12b0403aa30a229ecaf98d98e05ada7fdc21b4e5/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/7777eec3927db1c9663508d1094fa53a18f822ad/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/12b0403aa30a229ecaf98d98e05ada7fdc21b4e5/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/7777eec3927db1c9663508d1094fa53a18f822ad/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -120,9 +127,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/12b0403aa30a229ecaf98d98e05ada7fdc21b4e5/))
+([permalink](https://greenelab.github.io/covid19-review/v/7777eec3927db1c9663508d1094fa53a18f822ad/))
 was automatically generated
-from [greenelab/covid19-review@12b0403](https://github.com/greenelab/covid19-review/tree/12b0403aa30a229ecaf98d98e05ada7fdc21b4e5)
+from [greenelab/covid19-review@7777eec](https://github.com/greenelab/covid19-review/tree/7777eec3927db1c9663508d1094fa53a18f822ad)
 on March 24, 2020.
 </em></small>
 
@@ -161,6 +168,15 @@ on March 24, 2020.
     [mprobson](https://github.com/mprobson)<br>
   <small>
      Department of Computing Sciences, Villanova University, Villanova, Pennsylvania, United States of America
+  </small>
+
++ **Simina M. Boca**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-1400-3398](https://orcid.org/0000-0002-1400-3398)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [SiminaB](https://github.com/SiminaB)<br>
+  <small>
+     Innovation Center for Biomedical Informatics, Georgetown University Medical Center, Washington, District of columbia, United States of America
   </small>
 
 + **Nils Wellhausen**<br>
@@ -345,6 +361,7 @@ Vaccines, widely recognized as one of the most significant advances in human hea
 |Halie M. Rando|None|2020-03-22|
 |Casey S. Greene|None|2020-03-22|
 |Michael P. Robson|None|2020-03-23|
+|Simina M. Boca|None|2020-03-23|
 |Nils Wellhausen|None|2020-03-22|
 
 ### Author Contributions
@@ -352,8 +369,9 @@ Vaccines, widely recognized as one of the most significant advances in human hea
 |Author|Contributions|
 |---|---|
 |Halie M. Rando|Project Administration, Writing - Original Draft, Methodology|
-|Casey S. Greene|Conceptualization|
+|Casey S. Greene|Conceptualization, Software|
 |Michael P. Robson|Software|
+|Simina M. Boca|Methodology|
 |Nils Wellhausen|Writing - Original Draft|
 
 
