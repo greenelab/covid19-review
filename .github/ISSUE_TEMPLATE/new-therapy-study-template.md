@@ -91,7 +91,7 @@ This includes possible treatment stratification (e.g., within litters for animal
 #### Describe the outcome that is assessed and whether it is appropriate.
 
 For example: Is the outcome assessed by a clinician or is it self-reported?
-Is the outcome based on viral load or a functional measurement (eg respiratory function, discharge from hospital)?
+Is the outcome based on viral load or a functional measurement (e.g., respiratory function, discharge from hospital)?
 What method is used to measure the outcome?
 How long after a treatment is the outcome measured?
 
@@ -154,9 +154,9 @@ Is the model system appropriate? Is there evidence from past use that it's highl
 
 #### If it is a human study, what characteristics of the study population may support/limit extrapolation?
 
-* Can results extrapolate easily to other similar groups? (eg same country, similar age groups)
+* Can results extrapolate easily to other similar groups? (e.g., same country, similar age groups)
 * What would happen if conditions are extended in terms of dose or duration?
-* Can results be extrapolated to other populations or in very different settings? (eg different age group, primary care setting vs emergency department etc)
+* Can results be extrapolated to other populations or in very different settings? (e.g., different age group, primary care setting vs emergency department etc)
 
 
 ### Summary of reliability
