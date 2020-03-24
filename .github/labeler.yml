@@ -1,8 +1,14 @@
 virology:
-    - 'virology'
+    - '\[x\] virology'
 
-in-vitro:
-    - 'in vitro'
+epidemiology:
+    - '\[x\] epidemiology'
+
+biostatistics:
+    - '\[x\] biostatistics'
+
+immunology:
+    - '\[x\] immunology'
 
 pharmacology:
-    - 'pharmacology'
+    - '\[x\] pharmacology'
