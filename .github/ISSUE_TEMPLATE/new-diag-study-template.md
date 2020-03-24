@@ -61,7 +61,7 @@ Is it a screening test (used for individuals with no symptoms), diagnostic test 
 
 ##### What is the age range, gender, other relevant characteristics?
 
-##### What is the setting of the study (eg random sample of school children, retirement communities etc)?
+##### What is the setting of the study (e.g., random sample of school children, retirement communities, etc.)?
 
 ##### What other specific inclusion-exclusion criteria are considered?
 
@@ -77,17 +77,17 @@ Examples of assignment could include: Recruited individuals have initially under
 
 ##### Are there any other relevant details about the study design?
 
-Depending on how individuals are chosen, the test may be biasing towards more sick or less sick individuals or very clear-cut positive/negative cases.
+Depending on how individuals are chosen, the test may be biasing towards more sick or less sick individuals or very clear-cut positive/negative cases. Any factors that would influence this bias should be included here.
 
 ### Test conduct:
 
 #### How were tests performed?
 
-Describe technical details of assays used, when measurements were taken and by whom etc for both the new and standard tests.
+Describe technical details of assays used, when measurements were taken and by whom, etc. for both the new and standard tests.
 
 ### Test Assessment
 
-#### Describe how individuals are classified as positive or negative eg if a threshold is used.
+#### Describe how individuals are classified as positive or negative, e.g. if a threshold is used.
 
 #### Is there evidence that the test is precise/reproducible when repeated more than once?
 
@@ -101,23 +101,23 @@ Are there individuals with inconclusive results?
 #### What are the estimate sensitivity, specificity, positive predictive value (PPV), and negative predicted value (NPV)?
 
 Note that the PPV and NPV represent "post-test" probabilities of disease and are generally more meaningful than sensitivity and specificity.
-Sometimes the posttest odds will be given instead.
+Sometimes the post-test odds will be given instead.
 
 #### What are the confidence bounds around these intervals?
 
 ### Interpretation of results for study population:
 
-#### How good is the test at ruling in or ruling out a disease based on the posttest probabilities?
+#### How good is the test at ruling in or ruling out a disease based on the post-test probabilities?
 
 #### Are there identified side affects of the test?
 
 #### Is patient adherence to the test likely to be an issue?
 
-### Extrapolation of conclusions to other groups of individuals not specifically included in the study?
+### Extrapolation of conclusions to other groups of individuals
 
 #### How well is the test likely to work in populations with different pretest odds?
 
-For example, if the prevalence is lower the PPV will also be lower, but the NPV will be higher.
+For example, if the prevalence is lower, then the PPV will also be lower, but the NPV will be higher.
 
 #### How costly is the test?
 
