@@ -53,7 +53,7 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-03-23
-    -
+  -
     github: nilswellhausen
     name: Nils Wellhausen
     initials: NW
