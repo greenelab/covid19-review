@@ -83,11 +83,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/867d78882c4eaf6054858e52af0320d3870ee9e3/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/199e281fe2df3c26552bff3c3a2e06ab0074a2c6/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/867d78882c4eaf6054858e52af0320d3870ee9e3/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/199e281fe2df3c26552bff3c3a2e06ab0074a2c6/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/867d78882c4eaf6054858e52af0320d3870ee9e3/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/199e281fe2df3c26552bff3c3a2e06ab0074a2c6/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -120,9 +120,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/867d78882c4eaf6054858e52af0320d3870ee9e3/))
+([permalink](https://greenelab.github.io/covid19-review/v/199e281fe2df3c26552bff3c3a2e06ab0074a2c6/))
 was automatically generated
-from [greenelab/covid19-review@867d788](https://github.com/greenelab/covid19-review/tree/867d78882c4eaf6054858e52af0320d3870ee9e3)
+from [greenelab/covid19-review@199e281](https://github.com/greenelab/covid19-review/tree/199e281fe2df3c26552bff3c3a2e06ab0074a2c6)
 on March 24, 2020.
 </em></small>
 
@@ -245,13 +245,32 @@ In this review, we seek to consolidate information about efforts to develop stra
 
 ## Pathogenesis {.page_break_before}
 
-### Name of Section 1
+### Mechanism of Host Infection by SARS-CoV-2
 
-Here's where to fill in information about pathogenesis
+This section would also be great for the introduction of zoonotic diseases which has been shown to be the origin of SARS-CoV2.
 
-#### Name of Subsection 1.a
+#### Primary Transmission and Viral Entry
 
-### Name of Section 2
+[How does SARS-CoV-2 enter human cells?]
+[What cells are primary infection sites for SARS-CoV-2?]
+[What structural aspects allow for viral entry]?
+
+#### Viral Replication, Spreading and Transmission
+
+[Basic introduction into replication cycle]
+[What is the basic reproductive rate]
+[What are the routes of transmission]
+
+### Immune Response to SARS-CoV-2
+
+[Cellular responses to SARS-CoV-2 infection]
+[What is causing neutropenia and lymphopenia observed in COVID-19 patients]
+[Antibody production against SARS-CoV-2 by patient who recovered vs patient who did not recover]
+[Cytokines and other soluble factors contribution to immune response]
+
+### Systems level approaches for understanding SARS-CoV-2 pathogenesis
+
+[Sandipan Ray volunteered to lead this section]
 
 
 ## Diagnostics  {.page_break_before} 
