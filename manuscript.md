@@ -83,11 +83,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/f7e0e434f4c6e262c35b12e8f0127f6f0975f331/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/ac273e844be6e443e349b6531a4c7e7599a53390/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/f7e0e434f4c6e262c35b12e8f0127f6f0975f331/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/ac273e844be6e443e349b6531a4c7e7599a53390/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/f7e0e434f4c6e262c35b12e8f0127f6f0975f331/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/ac273e844be6e443e349b6531a4c7e7599a53390/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -120,9 +120,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/f7e0e434f4c6e262c35b12e8f0127f6f0975f331/))
+([permalink](https://greenelab.github.io/covid19-review/v/ac273e844be6e443e349b6531a4c7e7599a53390/))
 was automatically generated
-from [greenelab/covid19-review@f7e0e43](https://github.com/greenelab/covid19-review/tree/f7e0e434f4c6e262c35b12e8f0127f6f0975f331)
+from [greenelab/covid19-review@ac273e8](https://github.com/greenelab/covid19-review/tree/ac273e844be6e443e349b6531a4c7e7599a53390)
 on March 24, 2020.
 </em></small>
 
@@ -241,6 +241,17 @@ In the latter category, identifying whether individuals can develop or have deve
 Within therapeutics, some possible efforts include efforts to identify strategies for the management of symptoms as well as the development of antivirals...
 
 In this review, we seek to consolidate information about efforts to develop strategies for diagnosis and therapeutics as new information is released by the scientific community.
+
+
+## Pathogenesis {.page_break_before}
+
+### Name of Section 1
+
+Here's where to fill in information about pathogenesis
+
+#### Name of Subsection 1.a
+
+### Name of Section 2
 
 
 ## Diagnostics  {.page_break_before} 
