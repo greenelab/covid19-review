@@ -53,3 +53,16 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-03-23
+  -
+    github: SiminaB
+    name: Simina M. Boca
+    initials: SMB
+    orcid: 0000-0002-1400-3398
+    email: smb310@georgetown.edu
+    contributions:
+      - Methodology
+    affiliations:
+      - Innovation Center for Biomedical Informatics, Georgetown University Medical Center, Washington, District of columbia, United States of America
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-03-23
