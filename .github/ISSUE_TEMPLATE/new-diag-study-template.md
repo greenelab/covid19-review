@@ -99,7 +99,7 @@ Are there individuals with inconclusive results?
 
 ### Results summary:
 
-#### What are the estimate sensitivity, specificity, positive predictive value (PPV), and negative predicted value (NPV)?
+#### What are the estimated sensitivity, specificity, positive predictive value (PPV), and negative predicted value (NPV)?
 
 Note that the PPV and NPV represent "post-test" probabilities of disease and are generally more meaningful than sensitivity and specificity.
 Sometimes the post-test odds will be given instead.
