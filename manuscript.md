@@ -7,7 +7,7 @@ author-meta:
 - Nils Wellhausen
 bibliography:
 - content/manual-references.json
-date-meta: '2020-03-24'
+date-meta: '2020-03-25'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -26,9 +26,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
 
-  <meta name="dc.date" content="2020-03-24" />
+  <meta name="dc.date" content="2020-03-25" />
 
-  <meta name="citation_publication_date" content="2020-03-24" />
+  <meta name="citation_publication_date" content="2020-03-25" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -90,11 +90,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/7777eec3927db1c9663508d1094fa53a18f822ad/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/db0d6655cc6e9456ab23555f0920139dbe1dd5ff/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/7777eec3927db1c9663508d1094fa53a18f822ad/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/db0d6655cc6e9456ab23555f0920139dbe1dd5ff/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/7777eec3927db1c9663508d1094fa53a18f822ad/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/db0d6655cc6e9456ab23555f0920139dbe1dd5ff/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -127,10 +127,10 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/7777eec3927db1c9663508d1094fa53a18f822ad/))
+([permalink](https://greenelab.github.io/covid19-review/v/db0d6655cc6e9456ab23555f0920139dbe1dd5ff/))
 was automatically generated
-from [greenelab/covid19-review@7777eec](https://github.com/greenelab/covid19-review/tree/7777eec3927db1c9663508d1094fa53a18f822ad)
-on March 24, 2020.
+from [greenelab/covid19-review@db0d665](https://github.com/greenelab/covid19-review/tree/db0d6655cc6e9456ab23555f0920139dbe1dd5ff)
+on March 25, 2020.
 </em></small>
 
 ## Authors
@@ -236,6 +236,11 @@ This is a real-time, collaborative effort that welcomes submissions from scienti
 
 Coronaviruses are RNA viruses that...
 [Summarize relevant mechanisms for cell entry & address evidence for/against ACE2 being important]
+
+The origin of the SARS-CoV-19 virus is not yet fully understood.
+Genomic analyses and comparisons to other known coronaviruses suggest that SARS-CoV-19 is unlikely to have originated from a laboratory -- either purposely engineered and released, or escaped -- and instead evolved naturally in an animal host [@doi:10.1038/s41591-020-0820-9].
+Among known coronaviruses, SARS-CoV-19 has the closest overall sequence similarity to RaTG13 (~96%) found in a *Rhinolophus affinis* bat [@doi:10.1038/s41586-020-2012-7], while the receptor binding domain (RBD) is highly similar to that of viruses found in pangolins [@doi:10.1101/2020.02.19.950253].
+This suggests that SARS-CoV-19 may have originated in viral reservoirs of similar hosts, however current evidence cannot discriminate an origin of the virus before or after zoonotic transfer to humans [@doi:10.1038/s41591-020-0820-9].
 
 ### Mechanisms of Coronavirus-driven Disease in Humans
 
