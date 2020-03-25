@@ -69,7 +69,7 @@ header-includes: '<!--
 
   <meta name="citation_author" content="Simina M. Boca" />
 
-  <meta name="citation_author_institution" content="Innovation Center for Biomedical Informatics, Georgetown University Medical Center, Washington, District of columbia, United States of America" />
+  <meta name="citation_author_institution" content="Innovation Center for Biomedical Informatics, Georgetown University Medical Center, Washington, District of Columbia, United States of America" />
 
   <meta name="citation_author_orcid" content="0000-0002-1400-3398" />
 
@@ -85,6 +85,8 @@ header-includes: '<!--
 
   <meta name="citation_author_orcid" content="0000-0002-3826-0989" />
 
+  <meta name="twitter:creator" content="@cbrueffer" />
+
   <link rel="canonical" href="https://greenelab.github.io/covid19-review/" />
 
   <meta property="og:url" content="https://greenelab.github.io/covid19-review/" />
@@ -97,11 +99,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/91a0ef956e781962cf12e32120ef257ebb53aee1/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/7f17a3462758b0f4b987aa2efa8160d524a5db3b/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/91a0ef956e781962cf12e32120ef257ebb53aee1/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/7f17a3462758b0f4b987aa2efa8160d524a5db3b/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/91a0ef956e781962cf12e32120ef257ebb53aee1/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/7f17a3462758b0f4b987aa2efa8160d524a5db3b/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -134,9 +136,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/91a0ef956e781962cf12e32120ef257ebb53aee1/))
+([permalink](https://greenelab.github.io/covid19-review/v/7f17a3462758b0f4b987aa2efa8160d524a5db3b/))
 was automatically generated
-from [greenelab/covid19-review@91a0ef9](https://github.com/greenelab/covid19-review/tree/91a0ef956e781962cf12e32120ef257ebb53aee1)
+from [greenelab/covid19-review@7f17a34](https://github.com/greenelab/covid19-review/tree/7f17a3462758b0f4b987aa2efa8160d524a5db3b)
 on March 25, 2020.
 </em></small>
 
@@ -183,7 +185,7 @@ on March 25, 2020.
     · ![GitHub icon](images/github.svg){.inline_icon}
     [SiminaB](https://github.com/SiminaB)<br>
   <small>
-     Innovation Center for Biomedical Informatics, Georgetown University Medical Center, Washington, District of columbia, United States of America
+     Innovation Center for Biomedical Informatics, Georgetown University Medical Center, Washington, District of Columbia, United States of America
   </small>
 
 + **Nils Wellhausen**<br>
@@ -199,7 +201,9 @@ on March 25, 2020.
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0002-3826-0989](https://orcid.org/0000-0002-3826-0989)
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [cbrueffer](https://github.com/cbrueffer)<br>
+    [cbrueffer](https://github.com/cbrueffer)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [cbrueffer](https://twitter.com/cbrueffer)<br>
   <small>
      Department of Clinical Sciences, Lund University, Lund, Sweden
   </small>
