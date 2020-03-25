@@ -33,7 +33,7 @@ DOI:
 - [ ] immunology
 - [ ] pharmacology
 
-<!-- The following questions are the things that we'll want to answer about each paper reporting a diagnostic. If you are ready to answer some of them now, please go ahead and interleave your answers with the prompts. If you are not ready, feel free to go ahead and create the issue now while leaving the prompts blank. -->
+<!-- The following questions are the things that we'll want to answer about each paper reporting a diagnostic. If you are ready to answer some of them now, please create the issue, then copy them into a comment. Otherwise, just create the issue so that a future reviewer can address them in the comments.-->
 
 ## Questions to answer about each paper:
 
