@@ -1,7 +1,7 @@
 ---
-name: New Diagnostic Template
+name: New Paper Template (Diagnostic)
 about: If the paper or preprint primarily reports a diagnostic, use this template.
-title: 'New Paper (Diagnostics): [Title]'
+title: 'New Paper (Diagnostic): [Title]'
 labels: New Paper, diagnostic
 assignees: ''
 
@@ -25,15 +25,15 @@ DOI:
 * keyword 2 (replace me, copy and paste more than three if needed)
 * keyword 3 (replace me, copy and paste more than three if needed)
 
-## Which areas of expertise are particularly relevant to the paper (put an x in the brackets [x])?
+## Which areas of expertise are particularly relevant to the paper? Switch to "Preview" mode to click the box(es), or else replace the empty brackets below with [x].
 
-- [] virology
-- [] epidemiology
-- [] biostatistics
-- [] immunology
-- [] pharmacology
+- [ ] virology
+- [ ] epidemiology
+- [ ] biostatistics
+- [ ] immunology
+- [ ] pharmacology
 
-<!-- The following questions are the things that we'll want to answer about each paper reporting a diagnostic. If you are ready to answer some of them now, please go ahead and interleave your answers with the prompts. If you are not ready, feel free to go ahead and create the issue now while leaving the prompts blank. -->
+<!-- The following questions are the things that we'll want to answer about each paper reporting a diagnostic. If you are ready to answer some of them now, please create the issue, then copy them into a comment. Otherwise, just create the issue so that a future reviewer can address them in the comments.-->
 
 ## Questions to answer about each paper:
 
@@ -77,7 +77,7 @@ Examples of assignment could include: Recruited individuals have initially under
 
 ##### Are there any other relevant details about the study design?
 
-Depending on how individuals are chosen, the test may be biasing towards more sick or less sick individuals or very clear-cut positive/negative cases. 
+Depending on how individuals are chosen, the test may be biasing towards more sick or less sick individuals or very clear-cut positive/negative cases.
 Any factors that would influence this bias should be included here.
 
 ### Test conduct:
@@ -128,4 +128,4 @@ For example, if the prevalence is lower, then the PPV will also be lower, but th
 
 ### Summary of reliability
 
-1-2 sentences on concluding remarks, including summary of strengths, weaknesses, limitations.**
+1-2 sentences on concluding remarks, including summary of strengths, weaknesses, limitations.

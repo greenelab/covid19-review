@@ -1,7 +1,7 @@
 ---
-name: New Therapeutic Template
+name: New Paper Template (Therapeutic)
 about: If the paper or preprint primarily reports a therapeutic, use this template.
-title: 'New Paper (Therapeutics): [Title]'
+title: 'New Paper (Therapeutic): [Title]'
 labels: New Paper, therapeutic
 assignees: ''
 
@@ -25,15 +25,15 @@ DOI:
 * keyword 2 (replace me, copy and paste more than three if needed)
 * keyword 3 (replace me, copy and paste more than three if needed)
 
-## Which areas of expertise are particularly relevant to the paper (put an x in the brackets [x])?
+## Which areas of expertise are particularly relevant to the paper? Switch to "Preview" mode to click the box(es), or else replace the empty brackets below with [x].
 
-- [] virology
-- [] epidemiology
-- [] biostatistics
-- [] immunology
-- [] pharmacology
+- [ ] virology
+- [ ] epidemiology
+- [ ] biostatistics
+- [ ] immunology
+- [ ] pharmacology
 
-<!-- The following questions are the things that we'll want to answer about each paper reporting a therapeutic. If you are ready to answer some of them now, please go ahead and interleave your answers with the prompts. If you are not ready, feel free to go ahead and create the issue now while leaving the prompts blank. -->
+<!-- The following questions are the things that we'll want to answer about each paper reporting a diagnostic. If you are ready to answer some of them now, please create the issue, then copy them into a comment. Otherwise, just create the issue so that a future reviewer can address them in the comments.-->
 
 ## Questions to answer about each paper:
 
@@ -161,4 +161,4 @@ Is the model system appropriate? Is there evidence from past use that it's highl
 
 ### Summary of reliability
 
-1-2 sentences on concluding remarks, including summary of strengths, weaknesses, limitations.**
+1-2 sentences on concluding remarks, including summary of strengths, weaknesses, limitations.
