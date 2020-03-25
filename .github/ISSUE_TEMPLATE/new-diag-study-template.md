@@ -133,31 +133,33 @@ For example, if the prevalence is lower, then the PPV will also be lower, but th
 
 ### Progress
 
+_Check off the components as they are completed. If the component is not applicable, check the box as well._
+
 <!--Check off the components that you have completed. It is fine if you have not completed all of them, we hope others will add on in the comments. Switch to "Preview" mode to click the box(es), or else replace the empty brackets below with [x].-->
 
 - [ ] 1-2 sentences introducing the study and its main findings
-- [ ] Describe testing scenario (or N/A)
-- [ ] Describe model system (or N/A)
-- [ ] Sample size (or N/A)
-- [ ] Describe prevalnce of disease (or N/A)
-- [ ] Describe countries/regions are considered (or N/A)
-- [ ] Describe age range, gender, other relevant characteristics (or N/A)
-- [ ] Describe setting of the study (or N/A)
-- [ ] Describe other specific inclusion-exclusion criteria (or N/A)
-- [ ] Describe "gold standard" (or N/A)
-- [ ] Describe how  the new and reference tests assigned (or N/A)
-- [ ] Describe other relevant details about the study design (or N/A)
-- [ ] Describe how the tests were performed (or N/A)
-- [ ] Describe how individuals are classified as positive or negative (or N/A)
-- [ ] Describe if test is precise/reproducible (or N/A)
-- [ ] Describe whether measurements are complete (or N/A)
-- [ ] What are the estimated sensitivity, specificity, positive predictive value (PPV), and negative predicted value (NPV)? (or N/A)
-- [ ] What are the confidence bounds around these intervals? (or N/A)
-- [ ] Describe post-test probabilities (or N/A)
-- [ ] Describe side affects of the test (or N/A)
-- [ ] Describe patient adherence (or N/A)
-- [ ] Describe how it will extrapolate (or N/A)
-- [ ] How costly is the test? (or N/A)
-- [ ] How difficult is it to perform the test in different settings? (or N/A)
+- [ ] Describe testing scenario 
+- [ ] Describe model system 
+- [ ] Sample size 
+- [ ] Describe prevalnce of disease 
+- [ ] Describe countries/regions are considered 
+- [ ] Describe age range, gender, other relevant characteristics 
+- [ ] Describe setting of the study 
+- [ ] Describe other specific inclusion-exclusion criteria 
+- [ ] Describe "gold standard" 
+- [ ] Describe how  the new and reference tests assigned 
+- [ ] Describe other relevant details about the study design 
+- [ ] Describe how the tests were performed 
+- [ ] Describe how individuals are classified as positive or negative 
+- [ ] Describe if test is precise/reproducible 
+- [ ] Describe whether measurements are complete 
+- [ ] What are the estimated sensitivity, specificity, positive predictive value (PPV), and negative predicted value (NPV)? 
+- [ ] What are the confidence bounds around these intervals? 
+- [ ] Describe post-test probabilities 
+- [ ] Describe side affects of the test 
+- [ ] Describe patient adherence 
+- [ ] Describe how it will extrapolate 
+- [ ] How costly is the test? 
+- [ ] How difficult is it to perform the test in different settings? 
 - [ ] Could the test be combined with other existing tests?
 - [ ] Summary of reliability
