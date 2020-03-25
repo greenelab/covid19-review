@@ -43,5 +43,5 @@ To add yourself to the author list following a meaningful contribution to the re
 
 ## Chat Platform
 
-We're using [gitter][https://gitter.im] for informal conversations.
+We're using [gitter](https://gitter.im) for informal conversations.
 It is linked to your GitHub credentials, so you won't need to make a new account.
