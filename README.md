@@ -52,6 +52,16 @@ Please open [an issue](https://git.io/fhQHM) for questions related to Manubot us
 
 ## Repository directories & files
 
++ This file is called [`README.md`](README.md)
+It is the centralized document for the repository and will help direct users to other relevant information.
++ [`Contributing.md`](https://github.com/rando2/covid19-review/blob/reorgREADME/Contributing.md) contains procedures and directions for contributing to this effort.
++ [`Instructions.md`](https://github.com/rando2/covid19-review/blob/reorgREADME/Instructions.md) contains instructions for new GitHub users for how to navigate GitHub in the browser as well as GitHub vocabulary.
+It also includes some instructions for more experienced users about the procedures we recommend and how to run manubot on the command line.
++ [`USAGE.md`](https://github.com/rando2/covid19-review/blob/reorgREADME/USAGE.md) describes formatting instructions for formatting text, citing references, adding figures and tables, etc.
++ [`SETUP.md`](https://github.com/rando2/covid19-review/blob/reorgREADME/SETUP.md) includes information about setting up manubot
++ [`LICENSE.md`](https://github.com/rando2/covid19-review/blob/reorgREADME/LICENSE.md) and [`LICENSE-CC0.md`](https://github.com/rando2/covid19-review/blob/reorgREADME/LICENSE-CC0.md) contain the licenses associated with manubot and with the content we are developing in this project.
+
+
 The directories are as follows:
 
 + [`content`](content) contains the manuscript source, which includes markdown files as well as inputs for citations and references. 
