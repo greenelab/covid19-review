@@ -21,21 +21,22 @@ This repository is also a living document that aims to consolidate and integrate
 
 ## Contributions
 
-(You'll need to make a free [GitHub account](https://github.com/join?source=header-home)).
-[![GitHub issues](https://img.shields.io/github/issues-raw/greenelab/covid19-review?label=Open%20Issue&style=social)](https://github.com/greenelab/covid19-review/issues/new/choose)
+You'll need to make a free [GitHub account](https://github.com/join?source=header-home).
+
+Instructions and procedures for contributing are [outlined here](https://github.com/rando2/covid19-review/blob/reorgREADME/Contributing.md).
 
 We will follow the [ICMJE Guidelines](http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html) for determining authorship.
 
-Please note that, while reading scientific literature is a particular skill, we know that people outside of science are also invested in this topic. 
-Non-scientists are welcome to contribute by opening New Paper issues to let us know about topics or papers they'd like to see addressed or included. 
-We would especially like to keep track of what information related to diagnostics and therapeutics is circulating in the news so that we can evaluate this information.
+Please note that, while reading scientific literature is a particular skill, we know that people outside of science are also invested in this topic and there is a lot of information circulating about the virus and about possible therapies. 
+Non-scientists are welcome to contribute by opening New Paper issues to let us know about topics or papers they're concerned about or would like to see addressed. 
 
-Undergraduate students who are interested are encouraged to take part in discussions, ask questions, and post interesting papers. 
+Undergraduate students who are interested are encouraged to take part in discussions, ask questions, post interesting papers, and contribute paper summaries (just please note in your summary that you're a student).
 
 ## Pull Requests
 
 If you are not familiar with git and GitHub, you can use [these directions](Instructions.md) to start contributing.
 Please feel encouraged to ask questions by opening a [Request for Help issue](https://github.com/greenelab/covid19-review/issues/new?assignees=rando2&labels=&template=request-for-help.md&title=Help%3A+%5BAdd+topic+here%5D)
+[![GitHub issues](https://img.shields.io/github/issues-raw/greenelab/covid19-review?label=Open%20Issue&style=social)](https://github.com/greenelab/covid19-review/issues/new/choose)
 This project is a collaborative effort that will benefit from the expertise of scientists across a wide range of disciplines!
 
 ## Manubot
