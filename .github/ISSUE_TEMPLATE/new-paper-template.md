@@ -1,5 +1,5 @@
 ---
-name: New Paper Template
+name: New Paper Template (Other)
 about: Note papers to read and organize information and summaries
 title: 'New Paper (Other): [Title]'
 labels: New Paper
@@ -29,11 +29,11 @@ DOI:
 
 ## Which areas of expertise are particularly relevant to the paper (put an x in the brackets [x])?
 
-- [] virology
-- [] epidemiology
-- [] biostatistics
-- [] immunology
-- [] pharmacology
+- [ ] virology
+- [ ] epidemiology
+- [ ] biostatistics
+- [ ] immunology
+- [ ] pharmacology
 
 ### Suggested questions to answer about each paper:
 - What did they analyze?
