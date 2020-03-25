@@ -90,11 +90,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/db0d6655cc6e9456ab23555f0920139dbe1dd5ff/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/6fcdb5be1ac3d04cf3892e37afd1c7eea91d4510/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/db0d6655cc6e9456ab23555f0920139dbe1dd5ff/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/6fcdb5be1ac3d04cf3892e37afd1c7eea91d4510/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/db0d6655cc6e9456ab23555f0920139dbe1dd5ff/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/6fcdb5be1ac3d04cf3892e37afd1c7eea91d4510/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -127,9 +127,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/db0d6655cc6e9456ab23555f0920139dbe1dd5ff/))
+([permalink](https://greenelab.github.io/covid19-review/v/6fcdb5be1ac3d04cf3892e37afd1c7eea91d4510/))
 was automatically generated
-from [greenelab/covid19-review@db0d665](https://github.com/greenelab/covid19-review/tree/db0d6655cc6e9456ab23555f0920139dbe1dd5ff)
+from [greenelab/covid19-review@6fcdb5b](https://github.com/greenelab/covid19-review/tree/6fcdb5be1ac3d04cf3892e37afd1c7eea91d4510)
 on March 25, 2020.
 </em></small>
 
@@ -315,6 +315,15 @@ However, many countries have struggled to acquire the tests required to keep pac
 [What efforts are underway to develop similar approaches for SARS-CoV-2?]
 [What is sustained immunity and what are the indicators?]
 
+### Limitations to Implementation of Large-Scale Testing
+
+[Right now, reagent supply is an issue. Are there others concerns that are likely to emerge?]
+
+### Stratgies and Considerations for Determining Whom to Test 
+
+[If it's not possible to test everyone, what strategies exist for selecting who to test?]
+[Are these strategies likely to change over time? Presumably there are different stages of managing spread vs mitigating severity once it's already at high prevalence?]
+
 
 ## Therapeutics {.page_break_before} 
 
@@ -325,7 +334,7 @@ Second, the development of antiviral drugs can drive a reduced recovery time for
 Finally, vaccines present a strategy for bolstering the immune response of the populus broadly to the virus, resulting in a lower rate of infection.
 All three of these strategies have been valuable elements of responses to other viruses, including coronaviruses, and are being investigated by researchers at present.
 
-### Mechanisms for Symptom Management
+### Treatment of Symptoms
 
 Possible background needed:
 -COVID-19 is characterized by...
@@ -334,19 +343,49 @@ Possible background needed:
 -Other diseases with similar symptoms include XYZ but these diseases may be different because...
 -Given what we know about the mechanisms of the virus and why it produces the symptoms we see, are there drugs or categories of intervention that might be relevant?
 
-Then, subcategory (#### Name of Section) for each class of therapeutic
+So far, some strategies for reducing the severity of symptoms have included...
 
-### Therapies that Inhibit Viral Processes
+#### Symptom Management Approach 1
+
+Brief background on the therapeutic.
+
+##### Anticipated Mechanism 
+
+Why it may be useful
+
+##### Current Evidence
+
+A list of current studies and their results, using carefully the information requested in the therapeutic paper tickets.
+
+##### Summary
+
+Summarize the state of the symptom management approach.
+
+### Antivirals
+
+Antivirals are an emerging category of drugs.
+Unlike antibiotics, they do not kill viruses.
+Rather, they inhibit the proliferation of a virus.
+Categories may include therapies that inhibit viral proteins, inhibit viral entry, and more
+Antivirals have been used to treat XYZ diseases through [what mechanisms or approaches are used?]
 
 Add a subcategory (using ####) for each category of antiviral treatment
-[What efforts are underway to develop antivirals for SARS-CoV-2? Is anything expected to be particularly challenging about this virus?]
-[What are possible ways to target SARS-CoV-2 that are being proposed, developed, or tested?]
-Categories may include therapies that inhibit viral proteins, inhibit viral entry, and more
 
-#### Neutralizing Antibodies
+#### Antiviral Approach 1
 
-Monoclonal antibodies targeting viral antigens have shown therapeutic efficacy against viruses like Ebola and SARS CoV [@doi:10.1517/14712590902763755; @doi:10.1126/science.aad5224].
-The first human neutralizing antibody against SARS-CoV-2 targeting the trimeric spike (S) glycoproteins has been developed [@doi:10.1101/2020.03.11.987958].
+Brief background on the therapeutic.
+
+##### Anticipated Mechanism 
+
+Why it may be useful
+
+##### Current Evidence
+
+A list of current studies and their results, using carefully the information requested in the therapeutic paper tickets.
+
+##### Summary
+
+Summarize the state of the antiviral approach.
 
 ### Vaccines
 
@@ -355,6 +394,43 @@ Vaccines, widely recognized as one of the most significant advances in human hea
 [What are some of the challenges to developing a vaccine? What needs to be taken into account about how the virus works?]
 [Are there any challenges or opportunities unique to coronaviruses and/or SARS-CoV-2?]
 [What are some approaches being tested or considered?]
+
+#### Vaccine Approach 1
+
+Brief background on the therapeutic.
+
+##### Anticipated Mechanism 
+
+Why it may be useful
+
+##### Current Evidence
+
+A list of current studies and their results, using carefully the information requested in the therapeutic paper tickets.
+
+##### Summary
+
+Summarize the state of the vaccine approach.
+
+### Neutralizing Antibodies
+
+Monoclonal antibodies targeting viral antigens have shown therapeutic efficacy against viruses like Ebola and SARS CoV [@doi:10.1517/14712590902763755; @doi:10.1126/science.aad5224].
+The first human neutralizing antibody against SARS-CoV-2 targeting the trimeric spike (S) glycoproteins has been developed [@doi:10.1101/2020.03.11.987958].
+
+#### Neutralizing Antibody Approach 1
+
+Brief background on the therapeutic.
+
+##### Anticipated Mechanism 
+
+Why it may be useful
+
+##### Current Evidence
+
+A list of current studies and their results, using carefully the information requested in the therapeutic paper tickets.
+
+##### Summary
+
+Summarize the state of the neutralizing antibody approach.
 
 
 ## Additional Items {.page_break_before} 
