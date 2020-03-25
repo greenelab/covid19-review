@@ -33,6 +33,7 @@ authors:
     email: greenescientist@gmail.com
     contributions:
       - Conceptualization
+      - Software
     affiliations:
       - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
       - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Philadelphia, Pennsylvania, United States of America
@@ -54,6 +55,19 @@ authors:
       string: "None"
       lastapproved: !!str 2020-03-23
   -
+    github: SiminaB
+    name: Simina M. Boca
+    initials: SMB
+    orcid: 0000-0002-1400-3398
+    email: smb310@georgetown.edu
+    contributions:
+      - Methodology
+    affiliations:
+      - Innovation Center for Biomedical Informatics, Georgetown University Medical Center, Washington, District of Columbia, United States of America
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-03-23
+  -
     github: nilswellhausen
     name: Nils Wellhausen
     initials: NW
@@ -66,3 +80,17 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-03-22
+  -
+    github: cbrueffer
+    name: Christian Brueffer
+    initials: CB
+    orcid: 0000-0002-3826-0989
+    twitter: cbrueffer
+    email: christian.brueffer@med.lu.se
+    contributions:
+      - Writing - Original Draft
+    affiliations:
+      - Department of Clinical Sciences, Lund University, Lund, Sweden
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-03-25
