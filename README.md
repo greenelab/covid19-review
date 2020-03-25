@@ -61,7 +61,7 @@ It is the centralized document for the repository and will help direct users to 
 It also includes some instructions for more experienced users about the procedures we recommend and how to run manubot on the command line.
 + [`USAGE.md`](USAGE.md) describes formatting instructions for formatting text, citing references, adding figures and tables, etc.
 + [`SETUP.md`](SETUP.md) includes information about setting up manubot
-+ [`LICENSE.md`](LICENSE.md) and [`LICENSE-CC0.md`](LICENSE-CC0.md) contain the licenses associated with manubot and with the content we are developing in this project.Please see the "License" section below.
++ [`LICENSE.md`](LICENSE.md) and [`LICENSE-CC0.md`](LICENSE-CC0.md) contain the licenses associated with manubot and with the content we are developing in this project. Please see the "License" section below.
 
 The directories are as follows:
 
