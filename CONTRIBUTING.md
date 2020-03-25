@@ -25,9 +25,9 @@ Let us know what expertise you think would complement yours.
 ## How to Contribute Text
 
 1. First, go [here](https://github.com/greenelab/covid19-review/issues/17) and tell us a bit about yourself. 
-2. Then, you can look through [current document](https://greenelab.github.io/covid19-review/) or at each section in the [content](https://github.com/greenelab/covid19-review/content) folder.
-3. To contribute suggestions or changes, beginners should follow [these instructions](https://github.com/greenelab/covid19-review/blob/master/Instructions.md).
-Experienced git users can find a suggested workflow and manubot build instructions [here](https://github.com/greenelab/covid19-review/blob/master/Instructions.md#command-line-users).
+2. Then, you can look through [current document](https://greenelab.github.io/covid19-review/) or at each section in the [content](https://github.com/greenelab/covid19-review/tree/master/content) folder.
+3. To contribute suggestions or changes, beginners should follow [these instructions](https://github.com/greenelab/covid19-review/blob/master/INSTRUCTIONS.md).
+Experienced git users can find a suggested workflow and manubot build instructions [here](https://github.com/greenelab/covid19-review/blob/master/INSTRUCTIONS.md#command-line-users).
 
 [Click here](https://github.com/greenelab/covid19-review/blob/master/USAGE.md#manuscript-metadata) for formatting instructions.
 
