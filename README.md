@@ -23,7 +23,7 @@ This repository is also a living document that aims to consolidate and integrate
 
 You'll need to make a free [GitHub account](https://github.com/join?source=header-home).
 
-Instructions and procedures for contributing are [outlined here](https://github.com/rando2/covid19-review/blob/reorgREADME/Contributing.md).
+Instructions and procedures for contributing are [outlined here](Contributing.md).
 
 We will follow the [ICMJE Guidelines](http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html) for determining authorship.
 
@@ -35,8 +35,10 @@ Undergraduate students who are interested are encouraged to take part in discuss
 ## Pull Requests
 
 If you are not familiar with git and GitHub, you can use [these directions](Instructions.md) to start contributing.
+
 Please feel encouraged to ask questions by opening a [Request for Help issue](https://github.com/greenelab/covid19-review/issues/new?assignees=rando2&labels=&template=request-for-help.md&title=Help%3A+%5BAdd+topic+here%5D)
 [![GitHub issues](https://img.shields.io/github/issues-raw/greenelab/covid19-review?label=Open%20Issue&style=social)](https://github.com/greenelab/covid19-review/issues/new/choose)
+
 This project is a collaborative effort that will benefit from the expertise of scientists across a wide range of disciplines!
 
 ## Manubot
@@ -54,13 +56,12 @@ Please open [an issue](https://git.io/fhQHM) for questions related to Manubot us
 
 + This file is called [`README.md`](README.md)
 It is the centralized document for the repository and will help direct users to other relevant information.
-+ [`Contributing.md`](https://github.com/rando2/covid19-review/blob/reorgREADME/Contributing.md) contains procedures and directions for contributing to this effort.
-+ [`Instructions.md`](https://github.com/rando2/covid19-review/blob/reorgREADME/Instructions.md) contains instructions for new GitHub users for how to navigate GitHub in the browser as well as GitHub vocabulary.
++ [`Contributing.md`](Contributing.md) contains procedures and directions for contributing to this effort.
++ [`Instructions.md`](Instructions.md) contains instructions for new GitHub users for how to navigate GitHub in the browser as well as GitHub vocabulary.
 It also includes some instructions for more experienced users about the procedures we recommend and how to run manubot on the command line.
-+ [`USAGE.md`](https://github.com/rando2/covid19-review/blob/reorgREADME/USAGE.md) describes formatting instructions for formatting text, citing references, adding figures and tables, etc.
-+ [`SETUP.md`](https://github.com/rando2/covid19-review/blob/reorgREADME/SETUP.md) includes information about setting up manubot
-+ [`LICENSE.md`](https://github.com/rando2/covid19-review/blob/reorgREADME/LICENSE.md) and [`LICENSE-CC0.md`](https://github.com/rando2/covid19-review/blob/reorgREADME/LICENSE-CC0.md) contain the licenses associated with manubot and with the content we are developing in this project.
-
++ [`USAGE.md`](USAGE.md) describes formatting instructions for formatting text, citing references, adding figures and tables, etc.
++ [`SETUP.md`](SETUP.md) includes information about setting up manubot
++ [`LICENSE.md`](LICENSE.md) and [`LICENSE-CC0.md`](LICENSE-CC0.md) contain the licenses associated with manubot and with the content we are developing in this project.Please see the "License" section below.
 
 The directories are as follows:
 
