@@ -5,6 +5,7 @@ author-meta:
 - Michael P. Robson
 - Simina M. Boca
 - Nils Wellhausen
+- Christian Brueffer
 bibliography:
 - content/manual-references.json
 date-meta: '2020-03-25'
@@ -78,6 +79,12 @@ header-includes: '<!--
 
   <meta name="citation_author_orcid" content="0000-0001-8955-7582" />
 
+  <meta name="citation_author" content="Christian Brueffer" />
+
+  <meta name="citation_author_institution" content="Department of Clinical Sciences, Lund University, Lund, Sweden" />
+
+  <meta name="citation_author_orcid" content="0000-0002-3826-0989" />
+
   <link rel="canonical" href="https://greenelab.github.io/covid19-review/" />
 
   <meta property="og:url" content="https://greenelab.github.io/covid19-review/" />
@@ -90,11 +97,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/0d394e7121a59a4507f071de3bdc799646bf4a8e/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/87ec597da61b5a5bcc54d29ace9a69a18a3608dd/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/0d394e7121a59a4507f071de3bdc799646bf4a8e/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/87ec597da61b5a5bcc54d29ace9a69a18a3608dd/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/0d394e7121a59a4507f071de3bdc799646bf4a8e/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/87ec597da61b5a5bcc54d29ace9a69a18a3608dd/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -127,9 +134,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/0d394e7121a59a4507f071de3bdc799646bf4a8e/))
+([permalink](https://greenelab.github.io/covid19-review/v/87ec597da61b5a5bcc54d29ace9a69a18a3608dd/))
 was automatically generated
-from [greenelab/covid19-review@0d394e7](https://github.com/greenelab/covid19-review/tree/0d394e7121a59a4507f071de3bdc799646bf4a8e)
+from [greenelab/covid19-review@87ec597](https://github.com/greenelab/covid19-review/tree/87ec597da61b5a5bcc54d29ace9a69a18a3608dd)
 on March 25, 2020.
 </em></small>
 
@@ -186,6 +193,15 @@ on March 25, 2020.
     [nilswellhausen](https://github.com/nilswellhausen)<br>
   <small>
      Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+  </small>
+
++ **Christian Brueffer**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-3826-0989](https://orcid.org/0000-0002-3826-0989)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [cbrueffer](https://github.com/cbrueffer)<br>
+  <small>
+     Department of Clinical Sciences, Lund University, Lund, Sweden
   </small>
 
 
@@ -444,6 +460,7 @@ Summarize the state of the neutralizing antibody approach.
 |Michael P. Robson|None|2020-03-23|
 |Simina M. Boca|None|2020-03-23|
 |Nils Wellhausen|None|2020-03-22|
+|Christian Brueffer|None|2020-03-25|
 
 ### Author Contributions
 
@@ -454,6 +471,7 @@ Summarize the state of the neutralizing antibody approach.
 |Michael P. Robson|Software|
 |Simina M. Boca|Methodology|
 |Nils Wellhausen|Writing - Original Draft|
+|Christian Brueffer|Writing - Original Draft|
 
 
 # Formatting Examples   {.page_break_before} 
