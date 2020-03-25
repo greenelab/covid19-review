@@ -63,7 +63,7 @@ authors:
     contributions:
       - Methodology
     affiliations:
-      - Innovation Center for Biomedical Informatics, Georgetown University Medical Center, Washington, District of columbia, United States of America
+      - Innovation Center for Biomedical Informatics, Georgetown University Medical Center, Washington, District of Columbia, United States of America
     coi:
       string: "None"
       lastapproved: !!str 2020-03-23
@@ -85,6 +85,7 @@ authors:
     name: Christian Brueffer
     initials: CB
     orcid: 0000-0002-3826-0989
+    twitter: cbrueffer
     email: christian.brueffer@med.lu.se
     contributions:
       - Writing - Original Draft
