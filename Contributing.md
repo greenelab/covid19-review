@@ -12,7 +12,7 @@ First, go [here](https://github.com/greenelab/covid19-review/issues/17) and tell
 
 ## Suggesting a Paper
 
-One of the best things you can do is suggest papers for review (even if it's outside of your own field but you think it seems interesting).
+One of the best things you can do is suggest a paper for review (even if it's outside of your own field but you think it seems interesting).
 To suggest a paper, fill in as much of the [New Paper Template](https://github.com/greenelab/covid19-review/issues/new/choose) as you feel comfortable with.
 
 ## Summarizing a Paper
