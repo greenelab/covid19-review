@@ -229,6 +229,7 @@ We recommend authors add themselves to `metadata.yaml` via pull request (when re
 The following YAML shows the supported key–value pairs for an author:  
 
 ```yaml
+-
 github: dhimmel  # strongly suggested
 name: Daniel S. Himmelstein  # mandatory
 initials: DSH  # optional
@@ -238,6 +239,9 @@ email: daniel.himmelstein@gmail.com  # suggested
 affiliations:  # as a list, strongly suggested
   - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
   - Department of Biological & Medical Informatics, University of California, San Francisco
+coi:
+  string: "None" #mandatory - update with any relevant conflicts of interest
+  lastapproved: !!str 2020-XX-XX #mandatory - update to current date
 funders: GBMF4552  # optional
 ```
 
