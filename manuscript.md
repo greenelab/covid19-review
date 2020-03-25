@@ -99,11 +99,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/7f17a3462758b0f4b987aa2efa8160d524a5db3b/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/dcea9c67cdb4f4526c29449edbb2dd408b0f5ac3/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/7f17a3462758b0f4b987aa2efa8160d524a5db3b/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/dcea9c67cdb4f4526c29449edbb2dd408b0f5ac3/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/7f17a3462758b0f4b987aa2efa8160d524a5db3b/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/dcea9c67cdb4f4526c29449edbb2dd408b0f5ac3/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -136,9 +136,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/7f17a3462758b0f4b987aa2efa8160d524a5db3b/))
+([permalink](https://greenelab.github.io/covid19-review/v/dcea9c67cdb4f4526c29449edbb2dd408b0f5ac3/))
 was automatically generated
-from [greenelab/covid19-review@7f17a34](https://github.com/greenelab/covid19-review/tree/7f17a3462758b0f4b987aa2efa8160d524a5db3b)
+from [greenelab/covid19-review@dcea9c6](https://github.com/greenelab/covid19-review/tree/dcea9c67cdb4f4526c29449edbb2dd408b0f5ac3)
 on March 25, 2020.
 </em></small>
 
@@ -353,6 +353,8 @@ First, the treatment and reduction of symptoms can result in the reduction of th
 Second, the development of antiviral drugs can drive a reduced recovery time for patients by inhibiting the development of the virus once an individual is infected.
 Finally, vaccines present a strategy for bolstering the immune response of the populus broadly to the virus, resulting in a lower rate of infection.
 All three of these strategies have been valuable elements of responses to other viruses, including coronaviruses, and are being investigated by researchers at present.
+Additionally, there have been suggestions within the scientific community that nutraceutical or dietary supplement interventions may prime an individual’s immune system to prevent or lessen the impact of RNA virus infections [@doi:10.1016/j.pcad.2020.02.007; @doi:10.1016/S0140-6736(20)30305-6]. 
+In the following sections, we critically appraise the literature surrounding the repurposing of existing treatments and development of novel therapeutics for the prevention, mitigation, and treatment of coronavirus infections.  
 
 ### Treatment of Symptoms
 
@@ -451,6 +453,8 @@ A list of current studies and their results, using carefully the information req
 ##### Summary
 
 Summarize the state of the neutralizing antibody approach.
+
+### Nutraceutical Internventions
 
 
 ## Additional Items {.page_break_before} 
