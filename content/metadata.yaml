@@ -91,4 +91,6 @@ authors:
       - Writing - Original Draft
     affiliations:
       - Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104-5158, USA
-    coi: No 
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-03-25
