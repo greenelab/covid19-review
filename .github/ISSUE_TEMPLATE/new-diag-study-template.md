@@ -25,7 +25,8 @@ DOI:
 * keyword 2 (replace me, copy and paste more than three if needed)
 * keyword 3 (replace me, copy and paste more than three if needed)
 
-## Which areas of expertise are particularly relevant to the paper? Switch to "Preview" mode to click the box(es), or else replace the empty brackets below with [x].
+## Which areas of expertise are particularly relevant to the paper?
+<!--Switch to "Preview" mode to click the box(es), or else replace the empty brackets below with [x].-->
 
 - [ ] virology
 - [ ] epidemiology
@@ -33,7 +34,7 @@ DOI:
 - [ ] immunology
 - [ ] pharmacology
 
-<!-- The following questions are the things that we'll want to answer about each paper reporting a diagnostic. If you are ready to answer some of them now, please create the issue, then copy them into a comment. Otherwise, just create the issue so that a future reviewer can address them in the comments.-->
+<!-- The following questions are the things that we'll want to answer about each paper reporting a diagnostic. If you are ready to answer some of them now, please create the issue, then answer them in a comment. Otherwise, just create the issue so that a future reviewer can address them in the comments.-->
 
 ## Questions to answer about each paper:
 
@@ -99,7 +100,7 @@ Are there individuals with inconclusive results?
 
 ### Results summary:
 
-#### What are the estimate sensitivity, specificity, positive predictive value (PPV), and negative predicted value (NPV)?
+#### What are the estimated sensitivity, specificity, positive predictive value (PPV), and negative predicted value (NPV)?
 
 Note that the PPV and NPV represent "post-test" probabilities of disease and are generally more meaningful than sensitivity and specificity.
 Sometimes the post-test odds will be given instead.
@@ -129,3 +130,34 @@ For example, if the prevalence is lower, then the PPV will also be lower, but th
 ### Summary of reliability
 
 1-2 sentences on concluding remarks, including summary of strengths, weaknesses, limitations.
+
+### Progress
+
+<!--Check off the components that you have completed. It is fine if you have not completed all of them, we hope others will add on in the comments. Switch to "Preview" mode to click the box(es), or else replace the empty brackets below with [x].-->
+
+- [ ] 1-2 sentences introducing the study and its main findings
+- [ ] Describe testing scenario (or N/A)
+- [ ] Describe model system (or N/A)
+- [ ] Sample size (or N/A)
+- [ ] Describe prevalnce of disease (or N/A)
+- [ ] Describe countries/regions are considered (or N/A)
+- [ ] Describe age range, gender, other relevant characteristics (or N/A)
+- [ ] Describe setting of the study (or N/A)
+- [ ] Describe other specific inclusion-exclusion criteria (or N/A)
+- [ ] Describe "gold standard" (or N/A)
+- [ ] Describe how  the new and reference tests assigned (or N/A)
+- [ ] Describe other relevant details about the study design (or N/A)
+- [ ] Describe how the tests were performed (or N/A)
+- [ ] Describe how individuals are classified as positive or negative (or N/A)
+- [ ] Describe if test is precise/reproducible (or N/A)
+- [ ] Describe whether measurements are complete (or N/A)
+- [ ] What are the estimated sensitivity, specificity, positive predictive value (PPV), and negative predicted value (NPV)? (or N/A)
+- [ ] What are the confidence bounds around these intervals? (or N/A)
+- [ ] Describe post-test probabilities (or N/A)
+- [ ] Describe side affects of the test (or N/A)
+- [ ] Describe patient adherence (or N/A)
+- [ ] Describe how it will extrapolate (or N/A)
+- [ ] How costly is the test? (or N/A)
+- [ ] How difficult is it to perform the test in different settings? (or N/A)
+- [ ] Could the test be combined with other existing tests?
+- [ ] Summary of reliability
