@@ -94,3 +94,16 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-03-25
+  -
+    github: cbrueffer
+    name: Christian Brueffer
+    initials: CB
+    orcid: 0000-0002-3826-0989
+    email: christian.brueffer@med.lu.se
+    contributions:
+      - Writing - Original Draft
+    affiliations:
+      - Department of Clinical Sciences, Lund University, Lund, Sweden
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-03-25
