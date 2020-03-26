@@ -115,11 +115,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/f500d4edd4ff40c1d3c9aca8ce2834ce1a2b67d1/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/b4c2bdac6f4ebbb94dcd503135606275dd846439/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/f500d4edd4ff40c1d3c9aca8ce2834ce1a2b67d1/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/b4c2bdac6f4ebbb94dcd503135606275dd846439/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/f500d4edd4ff40c1d3c9aca8ce2834ce1a2b67d1/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/b4c2bdac6f4ebbb94dcd503135606275dd846439/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -152,9 +152,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/f500d4edd4ff40c1d3c9aca8ce2834ce1a2b67d1/))
+([permalink](https://greenelab.github.io/covid19-review/v/b4c2bdac6f4ebbb94dcd503135606275dd846439/))
 was automatically generated
-from [greenelab/covid19-review@f500d4e](https://github.com/greenelab/covid19-review/tree/f500d4edd4ff40c1d3c9aca8ce2834ce1a2b67d1)
+from [greenelab/covid19-review@b4c2bda](https://github.com/greenelab/covid19-review/tree/b4c2bdac6f4ebbb94dcd503135606275dd846439)
 on March 26, 2020.
 </em></small>
 
@@ -258,7 +258,7 @@ Instead, you should collect information from your local health department, the [
 ## Abstract {.page_break_before} 
 Since late 2019, Coronavirus disease 2019 (COVID-19) has spread around the world, resulting in the declaration of a pandemic by the World Health Organization (WHO). 
 This infectious disease is caused by the newly identified severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). 
-Research on the virus SARS-CoV-2 and the diease it causes is emerging rapidly through global scientific efforts.
+Research on the virus SARS-CoV-2 and the disease it causes is emerging rapidly through global scientific efforts.
 The development of diagnostics, treatments, and vaccines will be critical to mitigating the impact of the virus.
 Here we present a collaborative effort to organize and consolidate the rapidly emerging scientific literature related to SARS-CoV-2. 
 We present information about the virus in the context of what is known about related viruses and synthesize studies emerging about the diagnosis and treatment of COVID-19 alongside literature about related illnesses.
@@ -384,7 +384,7 @@ However, many countries have struggled to acquire the tests required to keep pac
 
 [Right now, reagent supply is an issue. Are there others concerns that are likely to emerge?]
 
-### Stratgies and Considerations for Determining Whom to Test 
+### Strategies and Considerations for Determining Whom to Test 
 
 [If it's not possible to test everyone, what strategies exist for selecting who to test?]
 [Are these strategies likely to change over time? Presumably there are different stages of managing spread vs mitigating severity once it's already at high prevalence?]
@@ -499,7 +499,7 @@ A list of current studies and their results, using carefully the information req
 
 Summarize the state of the neutralizing antibody approach.
 
-### Nutraceutical Internventions
+### Nutraceutical Interventions
 
 
 ## Methods
