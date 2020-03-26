@@ -33,7 +33,7 @@ Here, we will use tickets not only for problems or questions, but also to gather
 A way of pre-specifying what an "issue" should look like to be useful. 
 There might be a template that fits your needs (e.g., New Paper, or asking for help with GitHub).
 If not, just try to explain why you're opening the issue (e.g., "I was doing X and ran into problem Y", or "I saw the paper linked here and thought it might be interesting for X reason") 
-- [Manuscript Source]( https://github.com/greenelab/covid19-review/tree/master/content): 
+- [Manuscript Source](content): 
 The files that comprise the manuscript. 
 These are located in the "content" folder that you see. 
 These are written in a language called ["markdown"](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#lists) which is essentially plain text (thankfully!) 
@@ -44,7 +44,7 @@ Here, this will usually mean you are adding or editing text.
 
 ### How to Make a Pull Request
 
-1. Look in the [Manuscript Source]( https://github.com/greenelab/covid19-review/tree/master/content) for the file you want to edit (for example, the [Abstract](https://github.com/greenelab/covid19-review/blob/master/content/01.abstract.md)). 
+1. Look in the [Manuscript Source](content) for the file you want to edit (for example, the [Abstract](content/01.abstract.md)). 
 2. Click the edit button, which looks like a pencil in the upper right corner. 
 3. Make any desired changes.
 4. Scroll down to the bottom. 
@@ -52,7 +52,7 @@ There you will see a section that says "Commit Changes."
 Give your submission a title in the top box and briefly summarize your changes in the bottom box. 
 5. Click the box that says "Create a new branch for this commit and start a pull request." 
 This will submit a request to add your changes to the underlying document and will notify us to integrate your text into the document!
-6. Don't forget to [add your information to the author list](https://github.com/greenelab/covid19-review/blob/master/Contributing.md). 
+6. Don't forget to [add your information to the author list](CONTRIBUTING.md). 
 If you don't have an ORCID, you can make one [here](https://orcid.org/).
 
 ### Questions
@@ -76,7 +76,7 @@ If you're already someone who uses Git, you can instead:
 2. Push your modifications.
 If writing full paragraphs, please put one sentence per line.
 3. Submit a pull request to add your changes to [greenelab/covid19-review](https://github.com/greenelab/covid19-review)
-4. Submit a second pull request to add your information to the bottom of the [metadata file](content/metadata.yaml) using the format outlined [here](https://github.com/manubot/rootstock/blob/master/content/metadata.yaml)
+4. Submit a second pull request to add your information to the bottom of the [metadata file](content/metadata.yaml) using the format outlined [here](content/metadata.yaml)
 
 ### Local execution
 
