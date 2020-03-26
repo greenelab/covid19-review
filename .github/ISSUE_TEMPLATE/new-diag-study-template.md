@@ -1,7 +1,7 @@
 ---
-name: New Diagnostic Template
+name: New Paper Template (Diagnostic)
 about: If the paper or preprint primarily reports a diagnostic, use this template.
-title: 'New Paper (Diagnostics): [Title]'
+title: 'New Paper (Diagnostic): [Title]'
 labels: New Paper, diagnostic
 assignees: ''
 
@@ -25,15 +25,16 @@ DOI:
 * keyword 2 (replace me, copy and paste more than three if needed)
 * keyword 3 (replace me, copy and paste more than three if needed)
 
-## Which areas of expertise are particularly relevant to the paper (put an x in the brackets [x])?
+## Which areas of expertise are particularly relevant to the paper?
+<!--Switch to "Preview" mode to click the box(es), or else replace the empty brackets below with [x].-->
 
-- [] virology
-- [] epidemiology
-- [] biostatistics
-- [] immunology
-- [] pharmacology
+- [ ] virology
+- [ ] epidemiology
+- [ ] biostatistics
+- [ ] immunology
+- [ ] pharmacology
 
-<!-- The following questions are the things that we'll want to answer about each paper reporting a diagnostic. If you are ready to answer some of them now, please go ahead and interleave your answers with the prompts. If you are not ready, feel free to go ahead and create the issue now while leaving the prompts blank. -->
+<!-- The following questions are the things that we'll want to answer about each paper reporting a diagnostic. If you are ready to answer some of them now, please create the issue, then answer them in a comment. Otherwise, just create the issue so that a future reviewer can address them in the comments.-->
 
 ## Questions to answer about each paper:
 
@@ -77,7 +78,7 @@ Examples of assignment could include: Recruited individuals have initially under
 
 ##### Are there any other relevant details about the study design?
 
-Depending on how individuals are chosen, the test may be biasing towards more sick or less sick individuals or very clear-cut positive/negative cases. 
+Depending on how individuals are chosen, the test may be biasing towards more sick or less sick individuals or very clear-cut positive/negative cases.
 Any factors that would influence this bias should be included here.
 
 ### Test conduct:
@@ -99,7 +100,7 @@ Are there individuals with inconclusive results?
 
 ### Results summary:
 
-#### What are the estimate sensitivity, specificity, positive predictive value (PPV), and negative predicted value (NPV)?
+#### What are the estimated sensitivity, specificity, positive predictive value (PPV), and negative predicted value (NPV)?
 
 Note that the PPV and NPV represent "post-test" probabilities of disease and are generally more meaningful than sensitivity and specificity.
 Sometimes the post-test odds will be given instead.
@@ -128,4 +129,37 @@ For example, if the prevalence is lower, then the PPV will also be lower, but th
 
 ### Summary of reliability
 
-1-2 sentences on concluding remarks, including summary of strengths, weaknesses, limitations.**
+1-2 sentences on concluding remarks, including summary of strengths, weaknesses, limitations.
+
+### Progress
+
+_Check off the components as they are completed. If the component is not applicable, check the box as well._
+
+<!--Check off the components that you have completed. It is fine if you have not completed all of them, we hope others will add on in the comments. Switch to "Preview" mode to click the box(es), or else replace the empty brackets below with [x].-->
+
+- [ ] 1-2 sentences introducing the study and its main findings
+- [ ] Describe testing scenario 
+- [ ] Describe model system 
+- [ ] Sample size 
+- [ ] Describe prevalnce of disease 
+- [ ] Describe countries/regions are considered 
+- [ ] Describe age range, gender, other relevant characteristics 
+- [ ] Describe setting of the study 
+- [ ] Describe other specific inclusion-exclusion criteria 
+- [ ] Describe "gold standard" 
+- [ ] Describe how  the new and reference tests assigned 
+- [ ] Describe other relevant details about the study design 
+- [ ] Describe how the tests were performed 
+- [ ] Describe how individuals are classified as positive or negative 
+- [ ] Describe if test is precise/reproducible 
+- [ ] Describe whether measurements are complete 
+- [ ] What are the estimated sensitivity, specificity, positive predictive value (PPV), and negative predicted value (NPV)? 
+- [ ] What are the confidence bounds around these intervals? 
+- [ ] Describe post-test probabilities 
+- [ ] Describe side affects of the test 
+- [ ] Describe patient adherence 
+- [ ] Describe how it will extrapolate 
+- [ ] How costly is the test? 
+- [ ] How difficult is it to perform the test in different settings? 
+- [ ] Could the test be combined with other existing tests?
+- [ ] Summary of reliability

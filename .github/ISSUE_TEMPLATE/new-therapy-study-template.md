@@ -1,7 +1,7 @@
 ---
-name: New Therapeutic Template
+name: New Paper Template (Therapeutic)
 about: If the paper or preprint primarily reports a therapeutic, use this template.
-title: 'New Paper (Therapeutics): [Title]'
+title: 'New Paper (Therapeutic): [Title]'
 labels: New Paper, therapeutic
 assignees: ''
 
@@ -25,15 +25,16 @@ DOI:
 * keyword 2 (replace me, copy and paste more than three if needed)
 * keyword 3 (replace me, copy and paste more than three if needed)
 
-## Which areas of expertise are particularly relevant to the paper (put an x in the brackets [x])?
+## Which areas of expertise are particularly relevant to the paper? 
+<!--Switch to "Preview" mode to click the box(es), or else replace the empty brackets below with [x].-->
 
-- [] virology
-- [] epidemiology
-- [] biostatistics
-- [] immunology
-- [] pharmacology
+- [ ] virology
+- [ ] epidemiology
+- [ ] biostatistics
+- [ ] immunology
+- [ ] pharmacology
 
-<!-- The following questions are the things that we'll want to answer about each paper reporting a therapeutic. If you are ready to answer some of them now, please go ahead and interleave your answers with the prompts. If you are not ready, feel free to go ahead and create the issue now while leaving the prompts blank. -->
+<!-- The following questions are the things that we'll want to answer about each paper reporting a diagnostic. If you are ready to answer some of them now, please create the issue, then answer them in a comment. Otherwise, just create the issue so that a future reviewer can address them in the comments.-->
 
 ## Questions to answer about each paper:
 
@@ -161,4 +162,35 @@ Is the model system appropriate? Is there evidence from past use that it's highl
 
 ### Summary of reliability
 
-1-2 sentences on concluding remarks, including summary of strengths, weaknesses, limitations.**
+1-2 sentences on concluding remarks, including summary of strengths, weaknesses, limitations.
+
+### Progress
+
+_Check off the components as they are completed. If the component is not applicable, check the box as well._
+
+<!--Check off the components that you have completed. It is fine if you have not completed all of them, we hope others will add on in the comments. Switch to "Preview" mode to click the box(es), or else replace the empty brackets below with [x].-->
+
+- [ ] 1-2 sentences introducing the study and its main findings
+- [ ] Describe How many/what drugs/combinations are being considered 
+- [ ] Describe the model system
+- [ ] What is the sample size? 
+- [ ] What countries/regions are considered 
+- [ ] What is the age range, gender, other relevant characteristics 
+- [ ] Describe study setting 
+- [ ] Describe  other specific inclusion-exclusion criteria 
+- [ ] Describe how treatments are assigned
+- [ ] Describe randomization (or not) and other relavent details about the design
+- [ ] Describe the outcome that is assessed and whether it is appropriate.
+- [ ] Describe whether the outcome measurements are complete
+- [ ] Are outcome measurements subject to various kinds of bias?
+- [ ] Describe methods used for inference
+- [ ] Describe whether the methods are appropriate for the study
+- [ ] Are adjustments made for possible confounders?
+- [ ] Describe the estimated association
+- [ ] What measures of confidence or statistical significance are provided?
+- [ ] Describe whether a causal interpretation can be made
+- [ ] Are there identified side effects or interactions with other drugs?
+- [ ] Are there specific subgroups with different findings?
+- [ ] If the study is an animal study, which animal and how relevant is that model?
+- [ ] If it is a human study, what characteristics of the study population may support/limit extrapolation?
+- [ ] Summary of reliability
