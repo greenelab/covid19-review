@@ -5,6 +5,7 @@ author-meta:
 - Michael P. Robson
 - Simina M. Boca
 - Nils Wellhausen
+- Ronan Lordan
 - Christian Brueffer
 bibliography:
 - content/manual-references.json
@@ -79,6 +80,14 @@ header-includes: '<!--
 
   <meta name="citation_author_orcid" content="0000-0001-8955-7582" />
 
+  <meta name="citation_author" content="Ronan Lordan" />
+
+  <meta name="citation_author_institution" content="Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104-5158, USA" />
+
+  <meta name="citation_author_orcid" content="0000-0001-9668-3368" />
+
+  <meta name="twitter:creator" content="@el_ronan" />
+
   <meta name="citation_author" content="Christian Brueffer" />
 
   <meta name="citation_author_institution" content="Department of Clinical Sciences, Lund University, Lund, Sweden" />
@@ -99,11 +108,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/69a3d4f77f8d14fa41a08ca0e3c0b45f546a3cb8/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/0ea15ce32548131a2a27a44af0f4328b2f29af8a/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/69a3d4f77f8d14fa41a08ca0e3c0b45f546a3cb8/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/0ea15ce32548131a2a27a44af0f4328b2f29af8a/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/69a3d4f77f8d14fa41a08ca0e3c0b45f546a3cb8/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/0ea15ce32548131a2a27a44af0f4328b2f29af8a/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -136,9 +145,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/69a3d4f77f8d14fa41a08ca0e3c0b45f546a3cb8/))
+([permalink](https://greenelab.github.io/covid19-review/v/0ea15ce32548131a2a27a44af0f4328b2f29af8a/))
 was automatically generated
-from [greenelab/covid19-review@69a3d4f](https://github.com/greenelab/covid19-review/tree/69a3d4f77f8d14fa41a08ca0e3c0b45f546a3cb8)
+from [greenelab/covid19-review@0ea15ce](https://github.com/greenelab/covid19-review/tree/0ea15ce32548131a2a27a44af0f4328b2f29af8a)
 on March 26, 2020.
 </em></small>
 
@@ -195,6 +204,17 @@ on March 26, 2020.
     [nilswellhausen](https://github.com/nilswellhausen)<br>
   <small>
      Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+  </small>
+
++ **Ronan Lordan**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0001-9668-3368](https://orcid.org/0000-0001-9668-3368)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [RLordan](https://github.com/RLordan)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [el_ronan](https://twitter.com/el_ronan)<br>
+  <small>
+     Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104-5158, USA
   </small>
 
 + **Christian Brueffer**<br>
@@ -468,6 +488,7 @@ Summarize the state of the neutralizing antibody approach.
 |Michael P. Robson|None|2020-03-23|
 |Simina M. Boca|None|2020-03-23|
 |Nils Wellhausen|None|2020-03-22|
+|Ronan Lordan|None|2020-03-25|
 |Christian Brueffer|None|2020-03-25|
 
 ### Author Contributions
@@ -479,6 +500,7 @@ Summarize the state of the neutralizing antibody approach.
 |Michael P. Robson|Software|
 |Simina M. Boca|Methodology|
 |Nils Wellhausen|Writing - Original Draft|
+|Ronan Lordan|Writing - Original Draft|
 |Christian Brueffer|Writing - Original Draft|
 
 
