@@ -41,6 +41,7 @@ If it's primarily relevant to Diagnostics or Therapeutics, please go back and us
 - [ ] biostatistics
 - [ ] immunology
 - [ ] pharmacology
+- [ ] other:
 
 <!--Please fill out as much of the above as you feel able, then submit this issue using the green button below. -->
 # Summary
