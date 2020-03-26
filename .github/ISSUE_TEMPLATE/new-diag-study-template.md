@@ -15,9 +15,10 @@ Title: Please edit the title to add the name of the paper after the colon
 
 Link:
 
-## What is the paper's [DOI](https://library.uic.edu/help/article/1966/what-is-a-doi-and-how-do-i-use-them-in-citations)?
+## What is the paper's [Manubot-style citation](https://github.com/greenelab/covid19-review/blob/master/USAGE.md#citations)?
+<!--Leave the citation blank if you are unsure.-->
 
-DOI:
+Citation:
 
 ## Please list some keywords (3-10) that help identify the relevance of this paper to COVID-19
 
