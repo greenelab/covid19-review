@@ -108,11 +108,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/d1662a96adf609b65289432ce20e18f7d8f0ffe3/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/cba28f26b87871a349d067ae5628d19f7c6bd03b/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/d1662a96adf609b65289432ce20e18f7d8f0ffe3/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/cba28f26b87871a349d067ae5628d19f7c6bd03b/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/d1662a96adf609b65289432ce20e18f7d8f0ffe3/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/cba28f26b87871a349d067ae5628d19f7c6bd03b/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -145,11 +145,20 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/d1662a96adf609b65289432ce20e18f7d8f0ffe3/))
+([permalink](https://greenelab.github.io/covid19-review/v/cba28f26b87871a349d067ae5628d19f7c6bd03b/))
 was automatically generated
-from [greenelab/covid19-review@d1662a9](https://github.com/greenelab/covid19-review/tree/d1662a96adf609b65289432ce20e18f7d8f0ffe3)
+from [greenelab/covid19-review@cba28f2](https://github.com/greenelab/covid19-review/tree/cba28f26b87871a349d067ae5628d19f7c6bd03b)
 on March 26, 2020.
 </em></small>
+
+<!-- include the Font Awesome library, per: https://fontawesome.com/start -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+[
+[]{.fas .fa-info-circle .fa-lg} **This in progress manuscript is not intended for the general public.**<br>
+This is a review paper that is authored by scientists for an audience of scientists to discuss research that is in progress.
+If you are interested in guidelines on testing, therapies, or other issues related to your health, you should not use this document.
+Instead, you should collect information from your local health department, the [CDC's guidance](https://www.cdc.gov/coronavirus/2019-ncov/index.html), or your own government.
+]{.banner .lightred}
 
 ## Authors
 
