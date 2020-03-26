@@ -108,7 +108,7 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-03-25
- -
+  -
     github: LucyMcGowan
     name: Lucy D\'Agostino McGowan
     initials: LDM
