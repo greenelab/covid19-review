@@ -108,11 +108,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/425c17541195e2df70e5a32f4268d3618357d4e7/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/2cbd517e90644d937be174001fa7e4d0b5f1e572/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/425c17541195e2df70e5a32f4268d3618357d4e7/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/2cbd517e90644d937be174001fa7e4d0b5f1e572/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/425c17541195e2df70e5a32f4268d3618357d4e7/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/2cbd517e90644d937be174001fa7e4d0b5f1e572/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -145,9 +145,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/425c17541195e2df70e5a32f4268d3618357d4e7/))
+([permalink](https://greenelab.github.io/covid19-review/v/2cbd517e90644d937be174001fa7e4d0b5f1e572/))
 was automatically generated
-from [greenelab/covid19-review@425c175](https://github.com/greenelab/covid19-review/tree/425c17541195e2df70e5a32f4268d3618357d4e7)
+from [greenelab/covid19-review@2cbd517](https://github.com/greenelab/covid19-review/tree/2cbd517e90644d937be174001fa7e4d0b5f1e572)
 on March 26, 2020.
 </em></small>
 
@@ -484,6 +484,15 @@ A list of current studies and their results, using carefully the information req
 Summarize the state of the neutralizing antibody approach.
 
 ### Nutraceutical Internventions
+
+
+## Methods
+
+### Article Selection and Evaluation
+
+### Collaborative Writing
+
+Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 
 
 ## Additional Items {.page_break_before} 
