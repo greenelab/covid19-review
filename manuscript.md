@@ -7,6 +7,7 @@ author-meta:
 - Nils Wellhausen
 - Ronan Lordan
 - Christian Brueffer
+- Lucy D\'Agostino McGowan
 bibliography:
 - content/manual-references.json
 date-meta: '2020-03-26'
@@ -96,6 +97,12 @@ header-includes: '<!--
 
   <meta name="twitter:creator" content="@cbrueffer" />
 
+  <meta name="citation_author" content="Lucy D\&#39;Agostino McGowan" />
+
+  <meta name="citation_author_institution" content="Wake Forest University, Department of Mathematics and Statistics, Winston-Salem, North Carolina, United States of America" />
+
+  <meta name="citation_author_orcid" content="0000-0001-7297-9359" />
+
   <link rel="canonical" href="https://greenelab.github.io/covid19-review/" />
 
   <meta property="og:url" content="https://greenelab.github.io/covid19-review/" />
@@ -108,11 +115,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/64d2a05bfc98b68f1757e0af52a36847b23b4bcb/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/f500d4edd4ff40c1d3c9aca8ce2834ce1a2b67d1/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/64d2a05bfc98b68f1757e0af52a36847b23b4bcb/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/f500d4edd4ff40c1d3c9aca8ce2834ce1a2b67d1/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/64d2a05bfc98b68f1757e0af52a36847b23b4bcb/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/f500d4edd4ff40c1d3c9aca8ce2834ce1a2b67d1/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -145,9 +152,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/64d2a05bfc98b68f1757e0af52a36847b23b4bcb/))
+([permalink](https://greenelab.github.io/covid19-review/v/f500d4edd4ff40c1d3c9aca8ce2834ce1a2b67d1/))
 was automatically generated
-from [greenelab/covid19-review@64d2a05](https://github.com/greenelab/covid19-review/tree/64d2a05bfc98b68f1757e0af52a36847b23b4bcb)
+from [greenelab/covid19-review@f500d4e](https://github.com/greenelab/covid19-review/tree/f500d4edd4ff40c1d3c9aca8ce2834ce1a2b67d1)
 on March 26, 2020.
 </em></small>
 
@@ -235,6 +242,15 @@ Instead, you should collect information from your local health department, the [
     [cbrueffer](https://twitter.com/cbrueffer)<br>
   <small>
      Department of Clinical Sciences, Lund University, Lund, Sweden
+  </small>
+
++ **Lucy D\'Agostino McGowan**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0001-7297-9359](https://orcid.org/0000-0001-7297-9359)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [LucyMcGowan](https://github.com/LucyMcGowan)<br>
+  <small>
+     Wake Forest University, Department of Mathematics and Statistics, Winston-Salem, North Carolina, United States of America
   </small>
 
 
@@ -508,6 +524,7 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 |Nils Wellhausen|None|2020-03-22|
 |Ronan Lordan|None|2020-03-25|
 |Christian Brueffer|None|2020-03-25|
+|Lucy D\'Agostino McGowan|None|2020-03-26|
 
 ### Author Contributions
 
@@ -520,6 +537,7 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 |Nils Wellhausen|Writing - Original Draft|
 |Ronan Lordan|Writing - Original Draft|
 |Christian Brueffer|Writing - Original Draft|
+|Lucy D\'Agostino McGowan|Methodology, Writing - Original Draft|
 
 
 ## References {.page_break_before}
