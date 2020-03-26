@@ -26,7 +26,7 @@ Citation:
 If it's primarily relevant to Diagnostics or Therapeutics, please go back and use the associated template-->
 - [ ] Background
 - [ ] Pathogenesis
-
+- [ ] Methods
 ## Please list some keywords (3-10) that help identify the relevance of this paper to COVID-19
 
 * keyword 1 (replace me, copy and paste more than three if needed)
