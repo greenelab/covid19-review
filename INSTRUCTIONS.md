@@ -63,15 +63,21 @@ It's possible to see what the document will look like with your changes incorpor
 The first thing that Manubot does is rebuild the document with your changes included.
 You'll know this is completed when you can scroll down to the bottom of your pull request and see "All checks have passed."
 At this point, you can click "Show all checks".
+
 ![show all checks](https://user-images.githubusercontent.com/542643/77359590-2ed13680-6d22-11ea-9cd5-26df2549e546.png "Show all checks link.")
+
 Next, you'll see the various checks that have completed.
 There might be a few of these, and the one you want will be the one from Manubot.
 Click the details link to the right of Manubot.
+
 ![Manubot Details](https://user-images.githubusercontent.com/542643/77359602-35f84480-6d22-11ea-84b3-2b3cf869d43c.png "Manubot details link.")
+
 This will take you to a screen describing what was run.
 You should see a dropdown titled "Artifacts."
 Clicking on that dropdown should reveal something that says "manuscript-..."
+
 ![Artifacts Dropdown](https://user-images.githubusercontent.com/542643/77359613-3abcf880-6d22-11ea-96c2-3ccdbd9b0836.png "Artifacts Dropdown.")
+
 Clicking on the manuscript link will download a zip file to your computer containing the manuscript.
 You should be able to open the PDF in your favorite PDF reader.
 
