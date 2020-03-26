@@ -113,12 +113,13 @@ authors:
     name: Lucy D\'Agostino McGowan
     initials: LDM
     orcid: 0000-0001-7297-9359
+    twitter: LucyStats
     email: lucydagostino@gmail.com
     contributions:
       - Methodology
       - Writing - Original Draft
     affiliations:
-      - Wake Forest University, Department of Mathematics and Statistics, Winston-Salem, North Carolina, United States of America
+      - Department of Mathematics and Statistics, Wake Forest University, Winston-Salem, North Carolina, United States of America
     coi:
       string: "None"
       lastapproved: !!str 2020-03-26
