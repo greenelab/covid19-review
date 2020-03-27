@@ -7,6 +7,7 @@ author-meta:
 - Nils Wellhausen
 - Ronan Lordan
 - Christian Brueffer
+- Sadipan Ray
 - Lucy D\'Agostino McGowan
 - Anthony Gitter
 bibliography:
@@ -98,6 +99,14 @@ header-includes: '<!--
 
   <meta name="twitter:creator" content="@cbrueffer" />
 
+  <meta name="citation_author" content="Sadipan Ray" />
+
+  <meta name="citation_author_institution" content="Department of Systems Pharmacology &amp; Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA" />
+
+  <meta name="citation_author_institution" content="Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA" />
+
+  <meta name="citation_author_orcid" content="0000-0002-9960-5768" />
+
   <meta name="citation_author" content="Lucy D\&#39;Agostino McGowan" />
 
   <meta name="citation_author_institution" content="Wake Forest University, Department of Mathematics and Statistics, Winston-Salem, North Carolina, United States of America" />
@@ -126,11 +135,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/bda7d6fa0f097c401bbd1314e9ec67ea8a8725b1/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/ea0766361a8e24af4944ede5d86a5b7fc502ede0/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/bda7d6fa0f097c401bbd1314e9ec67ea8a8725b1/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/ea0766361a8e24af4944ede5d86a5b7fc502ede0/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/bda7d6fa0f097c401bbd1314e9ec67ea8a8725b1/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/ea0766361a8e24af4944ede5d86a5b7fc502ede0/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -163,9 +172,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/bda7d6fa0f097c401bbd1314e9ec67ea8a8725b1/))
+([permalink](https://greenelab.github.io/covid19-review/v/ea0766361a8e24af4944ede5d86a5b7fc502ede0/))
 was automatically generated
-from [greenelab/covid19-review@bda7d6f](https://github.com/greenelab/covid19-review/tree/bda7d6fa0f097c401bbd1314e9ec67ea8a8725b1)
+from [greenelab/covid19-review@ea07663](https://github.com/greenelab/covid19-review/tree/ea0766361a8e24af4944ede5d86a5b7fc502ede0)
 on March 27, 2020.
 </em></small>
 
@@ -253,6 +262,15 @@ Instead, you should collect information from your local health department, the [
     [cbrueffer](https://twitter.com/cbrueffer)<br>
   <small>
      Department of Clinical Sciences, Lund University, Lund, Sweden
+  </small>
+
++ **Sadipan Ray**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-9960-5768](https://orcid.org/0000-0002-9960-5768)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [rays1987](https://github.com/rays1987)<br>
+  <small>
+     Department of Systems Pharmacology & Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA; Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
   </small>
 
 + **Lucy D\'Agostino McGowan**<br>
@@ -565,6 +583,7 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 |Nils Wellhausen|None|2020-03-22|
 |Ronan Lordan|None|2020-03-25|
 |Christian Brueffer|None|2020-03-25|
+|Sadipan Ray|None|2020-03-25|
 |Lucy D\'Agostino McGowan|None|2020-03-26|
 |Anthony Gitter|None|2020-03-26|
 
@@ -579,6 +598,7 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 |Nils Wellhausen|Writing - Original Draft|
 |Ronan Lordan|Writing - Original Draft|
 |Christian Brueffer|Writing - Original Draft|
+|Sadipan Ray|Writing - Original Draft|
 |Lucy D\'Agostino McGowan|Methodology, Writing - Original Draft|
 |Anthony Gitter|Methodology|
 
