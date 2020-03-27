@@ -24,15 +24,15 @@ As long as you do this first step of making a GitHub account, you will always be
 ### GitHub Vocabulary
 
 - [Repository](http://github.com/greenelab/covid19-review):
-The set of files, issue tracker issues, etc. related to this manuscript
+The set of files, issue tracker issues, etc. related to this manuscript.
 - [Issue](https://github.com/greenelab/covid19-review/issues):
 The ticketing system for GitHub.
 A ticket can be a question, concern, problem, bug, or anything else you want to bring to the attention of the people working on a repository.
-Here, we will use tickets not only for problems or questions, but also to gather papers and preprints that come out about diagnostics and therapeutics related to COVID-19
+Here, we will use tickets not only for problems or questions, but also to gather papers and preprints that come out about diagnostics and therapeutics related to COVID-19.
 - Issue Template:
 A way of pre-specifying what an "issue" should look like to be useful.
 There might be a template that fits your needs (e.g., New Paper, or asking for help with GitHub).
-If not, just try to explain why you're opening the issue (e.g., "I was doing X and ran into problem Y", or "I saw the paper linked here and thought it might be interesting for X reason")
+If not, just try to explain why you're opening the issue (e.g., "I was doing X and ran into problem Y", or "I saw the paper linked here and thought it might be interesting for X reason").
 - [Manuscript Source](content):
 The files that comprise the manuscript.
 These are located in the "content" folder that you see.
@@ -45,12 +45,11 @@ Here, this will usually mean you are adding or editing text.
 ### How to Make a Pull Request
 
 1. Look in the [Manuscript Source](content) for the file you want to edit (for example, the [Abstract](content/01.abstract.md)).
-2. Click the edit button, which looks like a pencil in the upper right corner.
+2. Click the "Edit" button, which looks like a pencil in the upper right corner.
 3. Make any desired changes.
-4. Scroll down to the bottom.
-There you will see a section that says "Commit Changes."
+4. Scroll down to the bottom; there you will see a section that says "Commit changes"
 Give your submission a title in the top box and briefly summarize your changes in the bottom box.
-5. Click the box that says "Create a new branch for this commit and start a pull request."
+5. Click the box that says "Create a new branch for this commit and start a pull request"
 This will submit a request to add your changes to the underlying document and will notify us to integrate your text into the document!
 6. Don't forget to [add your information to the author list](CONTRIBUTING.md).
 If you don't have an ORCID, you can make one [here](https://orcid.org/).
@@ -65,7 +64,7 @@ You'll know this is completed when you can scroll down to the bottom of your pul
 At this point, you can click "Show all checks".
 
 
-![show all checks](https://user-images.githubusercontent.com/542643/77359590-2ed13680-6d22-11ea-9cd5-26df2549e546.png "Show all checks link.")
+![show all checks](https://user-images.githubusercontent.com/542643/77359590-2ed13680-6d22-11ea-9cd5-26df2549e546.png "Show all checks link")
 
 
 Next, you'll see the various checks that have completed.
@@ -73,15 +72,15 @@ There might be a few of these, and the one you want will be the one from Manubot
 Click the details link to the right of Manubot.
 
 
-![Manubot Details](https://user-images.githubusercontent.com/542643/77359602-35f84480-6d22-11ea-84b3-2b3cf869d43c.png "Manubot details link.")
+![Manubot Details](https://user-images.githubusercontent.com/542643/77359602-35f84480-6d22-11ea-84b3-2b3cf869d43c.png "Manubot details link")
 
 
 This will take you to a screen describing what was run.
-You should see a dropdown titled "Artifacts."
+You should see a dropdown titled "Artifacts"
 Clicking on that dropdown should reveal something that says "manuscript-..."
 
 
-![Artifacts Dropdown](https://user-images.githubusercontent.com/542643/77359613-3abcf880-6d22-11ea-96c2-3ccdbd9b0836.png "Artifacts Dropdown.")
+![Artifacts Dropdown](https://user-images.githubusercontent.com/542643/77359613-3abcf880-6d22-11ea-96c2-3ccdbd9b0836.png "Artifacts Dropdown")
 
 
 Clicking on the manuscript link will download a zip file to your computer containing the manuscript.
@@ -91,12 +90,13 @@ You should be able to open the PDF in your favorite PDF reader.
 ### Questions
 
 If you are new to GitHub and struggling to follow these directions, we want to know how to help you and how to improve them.
-If you find something confusing, please open an issue (as described above) and tell us what you're trying to do, what's going on wrong, or where you're stuck.
+If you find something confusing, please open an [issue](https://github.com/greenelab/covid19-review/issues) and tell us what you're trying to do, what's going on wrong, or where you're stuck.
 We want this review to be a collaborative effort that brings scientists of all skillsets together -- not just people who already know how to use tools like GitHub.
 Opening an issue means your question will be available for others to learn from in the future!
 It will also us help continually update this document to provide the information people really need as they start contributing.
 
 ### A Word of Encouragement
+
 Thanks to GitHub, you won't be able to change anything we can't change back-- so you can't really make a mistake!
 
 ## Command Line Users
@@ -144,6 +144,7 @@ The following command, while running, will trigger both the `build.sh` script an
 ```sh
 bash build/autobuild.sh
 ```
+
 ### Continuous Integration
 
 Whenever a pull request is opened, CI (continuous integration) will test whether the changes break the build process to generate a formatted manuscript.
