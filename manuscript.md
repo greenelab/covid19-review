@@ -126,11 +126,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/7e3a87d6f074ca4d25e8e013268278a8b9096b21/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/55f72e3c04fb264a03889373e485a6573f78dae0/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/7e3a87d6f074ca4d25e8e013268278a8b9096b21/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/55f72e3c04fb264a03889373e485a6573f78dae0/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/7e3a87d6f074ca4d25e8e013268278a8b9096b21/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/55f72e3c04fb264a03889373e485a6573f78dae0/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -163,9 +163,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/7e3a87d6f074ca4d25e8e013268278a8b9096b21/))
+([permalink](https://greenelab.github.io/covid19-review/v/55f72e3c04fb264a03889373e485a6573f78dae0/))
 was automatically generated
-from [greenelab/covid19-review@7e3a87d](https://github.com/greenelab/covid19-review/tree/7e3a87d6f074ca4d25e8e013268278a8b9096b21)
+from [greenelab/covid19-review@55f72e3](https://github.com/greenelab/covid19-review/tree/55f72e3c04fb264a03889373e485a6573f78dae0)
 on March 27, 2020.
 </em></small>
 
@@ -378,7 +378,26 @@ This section would also be great for the introduction of zoonotic diseases which
 
 ### Systems level approaches for understanding SARS-CoV-2 pathogenesis
 
-[Sandipan Ray volunteered to lead this section]
+Systems biology provides a cross-disciplinary analytical platform integrating the different omics (genomics, transcriptomics, proteomics, metabolomics, and other omics approaches), bioinformatics, and computational strategies.
+These cutting-edge research approaches have enormous potential to study the complexity of biological systems and human diseases [@doi:10.1016/j.gpb.2012.08.004].
+Over the last decade, systems biology approaches have been used widely to study the pathogenesis of diverse types of life-threatening acute and chronic infectious diseases [@doi:10.1038/s41576-020-0212-5].
+Omics-based studies also provided meaningful information regarding host immune responses and surrogate protein markers in several viral, bacterial and protozoan infections [@doi:10.1002/prca.201300074].
+
+The complex pathogenesis and clinical manifestations of SARS-CoV-2 infection are not understood adequately yet. 
+A significant breakthrough in SARS-CoV-2 research was achieved through the successful full-length genome sequencing of the pathogen [@doi:10.1038/s41586-020-2008-3; @doi:10/ggjr43; @doi:10.1038/s41586-020-2012-7]. 
+Multiple research groups have drafted the genome sequence of SARS-CoV-2 based on sequencing of clinical samples collected from bronchoalveolar lavage fluid (BALF) [@doi:10.1038/s41586-020-2008-3; @doi:10.1038/s41586-020-2012-7] or from BALF, throat swabs, or isolates of the virus cultured from BALF [@doi:10/ggjr43]. 
+Importantly, SARS-CoV-2 has significant sequence homology with SARS-CoV (about 79%) and also to some extent with MERS-CoV (about 50%) [@doi:10/ggjr43]. 
+However, a higher level of similarity (about 90%) has been observed between SARS-CoV-2 and bat-derived SARS-like coronaviruses (bat-SL-CoVZC45 and bat-SL-CoVZXC21), indicating a possible origin in bats [@doi:10/ggjr43; @doi:10.1038/s41586-020-2012-7].
+
+The genome sequence of the pathogen subsequently allowed its phylogenetic characterization and prediction of its protein expression profile, which is crucial for understanding the pathogenesis and virulence of this novel viral infection. 
+Availability of the genome sequence of SARS-CoV-2 enhances the potential for subsequent proteome-level studies to provide further mechanistic insights into the virus' complex pathogenesis. 
+Of note, the cryo-electron microscopy structure of the SARS-CoV-2 spike (S) glycoprotein, which plays an important role in the early steps of viral infection, was reported very recently [@doi:10.1126/science.abb2507]. 
+Even though no comprehensive proteomic analysis of the pathogen or of patients suffering from its infection has yet been reported, one forthcoming study has demonstrated SARS-CoV-2 infected host cell proteomics using human Caco–2 cells as an infection model [@doi:10.21203/rs.3.rs-17218/v1]. 
+The authors observed SARS-CoV-2 induced alterations in multiple vital physiological pathways, including translation, splicing, carbon metabolism and nucleic acid metabolism in the host cells.
+
+There is a high level of sequence homology between SARS-CoV-2 and SARS-CoV, and sera from convalescent SARS-CoV patients can effectively cross-neutralize SARS-CoV-2-S-driven entry [@doi:10.1016/j.cell.2020.02.052]. 
+Consequently, earlier proteome-level studies on SARS-CoV can also provide some essential information regarding the new pathogen [@doi:10.1073/pnas.0407992101; @doi:10.1016/j.bbrc.2004.02.074]. 
+Considering the paucity of omics-level big data sets for SARS-CoV-2 up until now, existing data hubs that contain information for other coronaviruses such as UniProt, NCBI Genome Database, The Immune Epitope Database and Analysis Resource (IEDB), and The Virus Pathogen Resource (ViPR) will serve as useful resources for computational and bioinformatics research on SARS-CoV-2.
 
 
 ## Diagnostics  {.page_break_before} 
