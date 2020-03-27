@@ -8,9 +8,10 @@ author-meta:
 - Ronan Lordan
 - Christian Brueffer
 - Lucy D\'Agostino McGowan
+- Anthony Gitter
 bibliography:
 - content/manual-references.json
-date-meta: '2020-03-26'
+date-meta: '2020-03-27'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -29,9 +30,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
 
-  <meta name="dc.date" content="2020-03-26" />
+  <meta name="dc.date" content="2020-03-27" />
 
-  <meta name="citation_publication_date" content="2020-03-26" />
+  <meta name="citation_publication_date" content="2020-03-27" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -103,6 +104,16 @@ header-includes: '<!--
 
   <meta name="citation_author_orcid" content="0000-0001-7297-9359" />
 
+  <meta name="citation_author" content="Anthony Gitter" />
+
+  <meta name="citation_author_institution" content="Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, United States of America" />
+
+  <meta name="citation_author_institution" content="Morgridge Institute for Research, Madison, Wisconsin, United States of America" />
+
+  <meta name="citation_author_orcid" content="0000-0002-5324-9833" />
+
+  <meta name="twitter:creator" content="@anthonygitter" />
+
   <link rel="canonical" href="https://greenelab.github.io/covid19-review/" />
 
   <meta property="og:url" content="https://greenelab.github.io/covid19-review/" />
@@ -115,11 +126,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/2aa03bc544bc7004939cf931462ee4da50d38a42/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/d753da950edbc3130f5f9d382ece00898a6f0963/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/2aa03bc544bc7004939cf931462ee4da50d38a42/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/d753da950edbc3130f5f9d382ece00898a6f0963/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/2aa03bc544bc7004939cf931462ee4da50d38a42/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/d753da950edbc3130f5f9d382ece00898a6f0963/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -152,10 +163,10 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/2aa03bc544bc7004939cf931462ee4da50d38a42/))
+([permalink](https://greenelab.github.io/covid19-review/v/d753da950edbc3130f5f9d382ece00898a6f0963/))
 was automatically generated
-from [greenelab/covid19-review@2aa03bc](https://github.com/greenelab/covid19-review/tree/2aa03bc544bc7004939cf931462ee4da50d38a42)
-on March 26, 2020.
+from [greenelab/covid19-review@d753da9](https://github.com/greenelab/covid19-review/tree/d753da950edbc3130f5f9d382ece00898a6f0963)
+on March 27, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -251,6 +262,17 @@ Instead, you should collect information from your local health department, the [
     [LucyMcGowan](https://github.com/LucyMcGowan)<br>
   <small>
      Wake Forest University, Department of Mathematics and Statistics, Winston-Salem, North Carolina, United States of America
+  </small>
+
++ **Anthony Gitter**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-5324-9833](https://orcid.org/0000-0002-5324-9833)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [agitter](https://github.com/agitter)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [anthonygitter](https://twitter.com/anthonygitter)<br>
+  <small>
+     Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, United States of America; Morgridge Institute for Research, Madison, Wisconsin, United States of America
   </small>
 
 
@@ -525,6 +547,7 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 |Ronan Lordan|None|2020-03-25|
 |Christian Brueffer|None|2020-03-25|
 |Lucy D\'Agostino McGowan|None|2020-03-26|
+|Anthony Gitter|None|2020-03-26|
 
 ### Author Contributions
 
@@ -538,6 +561,7 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 |Ronan Lordan|Writing - Original Draft|
 |Christian Brueffer|Writing - Original Draft|
 |Lucy D\'Agostino McGowan|Methodology, Writing - Original Draft|
+|Anthony Gitter|Methodology|
 
 
 ## References {.page_break_before}
