@@ -27,7 +27,7 @@ Citation:
 * keyword 3 (replace me, copy and paste more than three if needed)
 
 ## Which areas of expertise are particularly relevant to the paper?
-<!--Switch to "Preview" mode to click the box(es), or else replace the empty brackets below with [x].-->
+<!--Replace the empty brackets below with [x].-->
 
 - [ ] virology
 - [ ] epidemiology
