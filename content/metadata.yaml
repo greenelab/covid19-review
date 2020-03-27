@@ -80,6 +80,20 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-03-22
+  -   
+    github: RLordan
+    name: Ronan Lordan
+    initials: RL
+    orcid: 0000-0001-9668-3368
+    twitter: el_ronan
+    email: ronan.lordan@pennmedicine.upenn.edu
+    contributions: 
+      - Writing - Original Draft
+    affiliations:
+      - Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104-5158, USA
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-03-25
   -
     github: cbrueffer
     name: Christian Brueffer
@@ -108,3 +122,32 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-03-25
+  -
+    github: LucyMcGowan
+    name: Lucy D\'Agostino McGowan
+    initials: LDM
+    orcid: 0000-0001-7297-9359
+    email: lucydagostino@gmail.com
+    contributions:
+      - Methodology
+      - Writing - Original Draft
+    affiliations:
+      - Wake Forest University, Department of Mathematics and Statistics, Winston-Salem, North Carolina, United States of America
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-03-26
+  -
+    github: agitter
+    name: Anthony Gitter
+    initials: AG
+    orcid: 0000-0002-5324-9833
+    twitter: anthonygitter
+    email: gitter@biostat.wisc.edu
+    contributions:
+      - Methodology
+    affiliations:
+      - Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, United States of America
+      - Morgridge Institute for Research, Madison, Wisconsin, United States of America
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-03-26
