@@ -22,7 +22,7 @@ Link:
 Citation:
 
 ### Is this paper primarily relevant to Background or Pathogesis? 
-<!--Switch to "Preview" mode to click the box(es), or else replace the empty brackets below with [x].
+<!--Replace the empty brackets below with [x].
 If it's primarily relevant to Diagnostics or Therapeutics, please go back and use the associated template-->
 - [ ] Background
 - [ ] Pathogenesis
