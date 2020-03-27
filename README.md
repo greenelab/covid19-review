@@ -8,6 +8,12 @@
 [![Gitter](https://badges.gitter.im/covid19-review/community.svg)](https://gitter.im/covid19-review/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 <!-- usage note: delete CI badges above for services not used by your manuscript -->
 
+## Code of Conduct
+
+Participation in this project requires that you adhere to the [code of conduct](CODE_OF_CONDUCT.md).
+We take this very seriously.
+If you have any issues with harassment or with anyone violating the code of conduct, please seek out one of the project organizers (@rando2 or @cgreene).
+
 ## Project Description
 <!-- usage note: edit this section. -->
 
