@@ -109,9 +109,11 @@ header-includes: '<!--
 
   <meta name="citation_author" content="Lucy D\&#39;Agostino McGowan" />
 
-  <meta name="citation_author_institution" content="Wake Forest University, Department of Mathematics and Statistics, Winston-Salem, North Carolina, United States of America" />
+  <meta name="citation_author_institution" content="Department of Mathematics and Statistics, Wake Forest University, Winston-Salem, North Carolina, United States of America" />
 
   <meta name="citation_author_orcid" content="0000-0001-7297-9359" />
+
+  <meta name="twitter:creator" content="@LucyStats" />
 
   <meta name="citation_author" content="Anthony Gitter" />
 
@@ -135,11 +137,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/e39090ded92a61486bd87491a3b43eb00d4a5216/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/c908fa4d9a702a1845b4cb0150f26b8f87dda240/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/e39090ded92a61486bd87491a3b43eb00d4a5216/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/c908fa4d9a702a1845b4cb0150f26b8f87dda240/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/e39090ded92a61486bd87491a3b43eb00d4a5216/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/c908fa4d9a702a1845b4cb0150f26b8f87dda240/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -172,9 +174,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/e39090ded92a61486bd87491a3b43eb00d4a5216/))
+([permalink](https://greenelab.github.io/covid19-review/v/c908fa4d9a702a1845b4cb0150f26b8f87dda240/))
 was automatically generated
-from [greenelab/covid19-review@e39090d](https://github.com/greenelab/covid19-review/tree/e39090ded92a61486bd87491a3b43eb00d4a5216)
+from [greenelab/covid19-review@c908fa4](https://github.com/greenelab/covid19-review/tree/c908fa4d9a702a1845b4cb0150f26b8f87dda240)
 on March 28, 2020.
 </em></small>
 
@@ -277,9 +279,11 @@ Instead, you should collect information from your local health department, the [
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0001-7297-9359](https://orcid.org/0000-0001-7297-9359)
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [LucyMcGowan](https://github.com/LucyMcGowan)<br>
+    [LucyMcGowan](https://github.com/LucyMcGowan)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [LucyStats](https://twitter.com/LucyStats)<br>
   <small>
-     Wake Forest University, Department of Mathematics and Statistics, Winston-Salem, North Carolina, United States of America
+     Department of Mathematics and Statistics, Wake Forest University, Winston-Salem, North Carolina, United States of America
   </small>
 
 + **Anthony Gitter**<br>
@@ -564,6 +568,79 @@ Summarize the state of the neutralizing antibody approach.
 ## Methods
 
 ### Article Selection and Evaluation
+
+The authors solicited relevant articles to be submitted via [GitHub](https://github.com/greenelab/covid19-review) for review. 
+Articles were classified as _diagnostic_, _therapeutic_, or _other_.
+Following a framework often used for assessing medical literature, the review consisted of examining the methods used in the article, the assignment (whether the study was observational or randomized), the assessment, the results, the interpretation, and how well the study extrapolates [@doi:10.5014/ajot.60.4.367]. 
+
+#### Diagnostic Papers
+
+##### Methods 
+
+Reviewers began by describing the study question(s) being investigated by the article.
+They then described the study population, the sample size, the prevalence of the disease in the study population, if in human subjects, the countries / regions considered, the demographics of participants, the setting, and any remaining inclusion / exclusion criteria considered.
+They then described the reference test or "gold standard," if one was utilized. 
+
+##### Assignment
+
+Reviewers described how the new and reference tests were assigned and any further details about the study design, for example whether the diagnostic test was biased towards sicker or healthier individuals or very clear-cut positive/negative cases.
+
+##### Assessment
+
+Reviewers described how the test was performed. 
+For example, if provided, reviewers described the technical details of the assays used, when measurements were taken and by whom for both the standard and reference diagnostic tests.
+They then described how individuals were classified as positive or negative and whether there was evidence that the test results were precise or reproducible when repeated more than once.
+Reviewers described whether there was any missing data, whether some participants underwent only one test, or whether there were individuals with inconclusive results. 
+
+##### Results
+
+Reviewers reported the estimated sensitivity, specificity, positive predictive value (PPV), and negative predicted value (NPV), as well as the confidence bounds around these measures, if provided.
+
+##### Interpretation
+
+Reviewers reported how well the test ruled in or rules out disease based on the population, if there were identified side effects, and patient adherence.
+
+##### Extrapolation
+
+Reviewers described how well this test will extrapolate outside the measured population.
+
+#### Therapeutic Papers
+
+##### Methods 
+
+Reviewers began by describing the study question(s) being investigated by the article.
+They then described the study population, the sample size, the prevalence of the disease in the study population, if in human subjects, the countries / regions considered, the demographics of participants, the setting, and any remaining inclusion / exclusion criteria considered. 
+
+##### Assignment
+
+Reviewers described how the treatment is assigned, whether it was an interventional or observational study, whether randomization took place, etc.
+
+##### Assessment
+
+###### Outcome Assessment
+
+Reviewers described the outcome that was assessed and evaluated whether it was appropriate given the underlying study question. 
+They described whether there was any missing data, for example whether there were individuals lost to follow up.
+They then describe whether there were any potential sources of bias, for example lack of blinding in a randomized controlled trial.
+
+###### Statistical Methods Assessment
+
+Reviewers describe which statistical methods were used for inference and whether the methods were appropriate for the study.
+They then described whether adjustments were made for possible confounders.
+
+##### Results
+
+Reviewers described the estimated association between the treatment and outcome.
+They described measures of confidence or statistical significance, if provided.
+
+##### Interpretation
+
+Reviewers described whether a causal claim could be made.
+They described whether any side effects or interactions with other drugs were identified, as well as any subgroup findings.
+
+##### Extrapolation
+
+Reviewers describe how the study may extrapolate to a different species or population.
 
 ### Collaborative Writing
 
