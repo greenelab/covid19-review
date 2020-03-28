@@ -39,7 +39,7 @@ Reviewing text that other contributors submit is one of the most important ways 
 Because we are all coming from different fields, there is value in having as many people as possible look at each submission to help new ideas percolate.
 Right now, we are asking for at least two people to look at each new piece of text.
 Some things you can check for when you review someone's pull request:
-- Does it pass all manubot checks? (If you don't know how to check this but want to learn, reach out on gitter!)
+- Does it pass all manubot checks? ([See here for more information](https://github.com/greenelab/covid19-review/blob/master/INSTRUCTIONS.md#how-can-i-see-my-change))
 - Is there an issue opened for every paper cited?
 - To the extent that the text overlaps with your own area of expertise, is it correct? 
 Are there any ambiguities, oversimplifications, or topics you think should be clarified?
@@ -60,6 +60,12 @@ Here we will walk you through our preferred method.
 
 **Step One:** Navigate to the "Files" tab so that you can see the changes the user is proposing.
 ![Files tab](.github/images/2-initial-view-files.png "Looking at a pull request")
+
+In the picture above, you can see the text of the document.
+Green highlights the content that this pull request (PR) changes or adds.
+These lines also begin with a plus sign (`+`).
+Red highlights the content that they have deleted.
+These lines also begin with a minus sign (`-`).
 
 **Step Two:** Locate a line where you'd like to suggest a change, hover over it so that a blue "+" appears, and then click the "+"
 ![Blue plus](.github/images/3-blue-plus.png "Click the blue plus")
