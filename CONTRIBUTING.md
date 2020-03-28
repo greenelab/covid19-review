@@ -61,6 +61,12 @@ Here we will walk you through our preferred method.
 **Step One:** Navigate to the "Files" tab so that you can see the changes the user is proposing.
 ![Files tab](.github/images/2-initial-view-files.png "Looking at a pull request")
 
+In the picture above, you can see the text of the document.
+Green highlights the content that this pull request (PR) changes or adds.
+These lines also begin with a plus sign (`+`).
+Red highlights the content that they have deleted.
+These lines also begin with a minus sign (`-`)
+
 **Step Two:** Locate a line where you'd like to suggest a change, hover over it so that a blue "+" appears, and then click the "+"
 ![Blue plus](.github/images/3-blue-plus.png "Click the blue plus")
 
