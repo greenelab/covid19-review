@@ -12,7 +12,7 @@ author-meta:
 - Anthony Gitter
 bibliography:
 - content/manual-references.json
-date-meta: '2020-03-27'
+date-meta: '2020-03-28'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -31,9 +31,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
 
-  <meta name="dc.date" content="2020-03-27" />
+  <meta name="dc.date" content="2020-03-28" />
 
-  <meta name="citation_publication_date" content="2020-03-27" />
+  <meta name="citation_publication_date" content="2020-03-28" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -135,11 +135,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/ea0766361a8e24af4944ede5d86a5b7fc502ede0/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/e39090ded92a61486bd87491a3b43eb00d4a5216/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/ea0766361a8e24af4944ede5d86a5b7fc502ede0/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/e39090ded92a61486bd87491a3b43eb00d4a5216/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/ea0766361a8e24af4944ede5d86a5b7fc502ede0/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/e39090ded92a61486bd87491a3b43eb00d4a5216/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -172,10 +172,10 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/ea0766361a8e24af4944ede5d86a5b7fc502ede0/))
+([permalink](https://greenelab.github.io/covid19-review/v/e39090ded92a61486bd87491a3b43eb00d4a5216/))
 was automatically generated
-from [greenelab/covid19-review@ea07663](https://github.com/greenelab/covid19-review/tree/ea0766361a8e24af4944ede5d86a5b7fc502ede0)
-on March 27, 2020.
+from [greenelab/covid19-review@e39090d](https://github.com/greenelab/covid19-review/tree/e39090ded92a61486bd87491a3b43eb00d4a5216)
+on March 28, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
