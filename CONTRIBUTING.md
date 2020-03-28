@@ -39,7 +39,7 @@ Reviewing text that other contributors submit is one of the most important ways 
 Because we are all coming from different fields, there is value in having as many people as possible look at each submission to help new ideas percolate.
 Right now, we are asking for at least two people to look at each new piece of text.
 Some things you can check for when you review someone's pull request:
-- Does it pass all manubot checks? (If you don't know how to check this but want to learn, reach out on gitter!)
+- Does it pass all manubot checks? ([See here for more information](https://github.com/greenelab/covid19-review/blob/master/INSTRUCTIONS.md#how-can-i-see-my-change))
 - Is there an issue opened for every paper cited?
 - To the extent that the text overlaps with your own area of expertise, is it correct? 
 Are there any ambiguities, oversimplifications, or topics you think should be clarified?
