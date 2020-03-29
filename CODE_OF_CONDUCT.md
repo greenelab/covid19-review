@@ -3,7 +3,7 @@
 ## Our Values
 
 In this project, we seek to provide an environment for researchers from all backgrounds and disciplines to contribute to the consolidation and synthesis of scientific information related to COVID-19.
-Our project will be most successful if we are able to create a space where a diverse group of people can collaboratively approach emerging information with curiosity and creativity.
+Our project will be most successful when we create a space where a diverse group of people can collaboratively approach emerging information with curiosity and creativity.
 As a result, one of our primary goals is to make this space (the online community associated with the repository) welcoming to all members of the scientific community.
 Creativity thrives when people feel supported, accepted, and encouraged.
 As a result, inclusivity is one of the central tenents of this project.
