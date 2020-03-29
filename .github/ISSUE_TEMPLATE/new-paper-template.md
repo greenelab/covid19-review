@@ -1,5 +1,5 @@
 ---
-name: New Paper Template
+name: New Paper Template (Other)
 about: Note papers to read and organize information and summaries
 title: 'New Paper (Other): [Title]'
 labels: New Paper
@@ -9,17 +9,24 @@ assignees: ''
 
 <!--Hi there! Please use the template below as a guide for what information about this paper to include. It's ok to leave fields blank so that other contributors can fill them in later, or to add fields that you think are important.-->
 
-Title: Please edit the title to add the name of the paper after the colon
+Title: Please edit the title to add the name of the paper after the colon.
 
+# General Information
 ## Please paste a link to the paper or a citation here:
 
 Link:
 
-## What is the paper's [DOI](https://library.uic.edu/help/article/1966/what-is-a-doi-and-how-do-i-use-them-in-citations)?
+## What is the paper's [Manubot-style citation](https://github.com/greenelab/covid19-review/blob/master/USAGE.md#citations)?
+<!--Leave the citation blank if you are unsure.-->
 
-DOI:
+Citation:
 
-### Is this paper primarily relevant to Background, Diagnostics, or Therapeutics? (OK if more than one)
+### Is this paper primarily relevant to Background or Pathogesis? 
+<!--Replace the empty brackets below with [x].
+If it's primarily relevant to Diagnostics or Therapeutics, please go back and use the associated template-->
+- [ ] Background
+- [ ] Pathogenesis
+- [ ] Methods
 
 ## Please list some keywords (3-10) that help identify the relevance of this paper to COVID-19
 
@@ -27,13 +34,19 @@ DOI:
 * keyword 2 (replace me, copy and paste more than three if needed)
 * keyword 3 (replace me, copy and paste more than three if needed)
 
-## Which areas of expertise are particularly relevant to the paper (put an x in the brackets [x])?
+## Which areas of expertise are particularly relevant to the paper?
+<!--Replace the empty brackets below with [x].-->
 
-- [] virology
-- [] epidemiology
-- [] biostatistics
-- [] immunology
-- [] pharmacology
+- [ ] virology
+- [ ] epidemiology
+- [ ] biostatistics
+- [ ] immunology
+- [ ] pharmacology
+- [ ] other:
+
+<!--Please fill out as much of the above as you feel able, then submit this issue using the green button below. -->
+# Summary
+If you would like to submit a summary of the paper, please copy and paste the following into a comment.
 
 ### Suggested questions to answer about each paper:
 - What did they analyze?
