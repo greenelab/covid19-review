@@ -245,7 +245,7 @@ affiliations:  # as a list, strongly suggested
   - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
   - Department of Biological & Medical Informatics, University of California, San Francisco
 code of conduct:
-  Confirmed: No #change to Yes to indicate that you have read & agree to follow the code of conduct
+  confirmed: No #change to Yes to indicate that you have read & agree to follow the code of conduct
 coi:
   string: "None" #mandatory - update with any relevant conflicts of interest
   lastapproved: !!str 2020-XX-XX #mandatory - update to current date
