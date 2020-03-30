@@ -12,7 +12,7 @@ author-meta:
 - Anthony Gitter
 bibliography:
 - content/manual-references.json
-date-meta: '2020-03-28'
+date-meta: '2020-03-30'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -31,9 +31,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
 
-  <meta name="dc.date" content="2020-03-28" />
+  <meta name="dc.date" content="2020-03-30" />
 
-  <meta name="citation_publication_date" content="2020-03-28" />
+  <meta name="citation_publication_date" content="2020-03-30" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -137,11 +137,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/c908fa4d9a702a1845b4cb0150f26b8f87dda240/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/ce5e4985cf2bd9f2bf11823ef2f70830572c726e/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/c908fa4d9a702a1845b4cb0150f26b8f87dda240/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/ce5e4985cf2bd9f2bf11823ef2f70830572c726e/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/c908fa4d9a702a1845b4cb0150f26b8f87dda240/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/ce5e4985cf2bd9f2bf11823ef2f70830572c726e/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -174,10 +174,10 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/c908fa4d9a702a1845b4cb0150f26b8f87dda240/))
+([permalink](https://greenelab.github.io/covid19-review/v/ce5e4985cf2bd9f2bf11823ef2f70830572c726e/))
 was automatically generated
-from [greenelab/covid19-review@c908fa4](https://github.com/greenelab/covid19-review/tree/c908fa4d9a702a1845b4cb0150f26b8f87dda240)
-on March 28, 2020.
+from [greenelab/covid19-review@ce5e498](https://github.com/greenelab/covid19-review/tree/ce5e4985cf2bd9f2bf11823ef2f70830572c726e)
+on March 30, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -491,7 +491,7 @@ A list of current studies and their results, using carefully the information req
 
 Summarize the state of the symptom management approach.
 
-### Antivirals
+### Small Molecule Drugs for COVID-19
 
 Antivirals are an emerging category of drugs.
 Unlike antibiotics, they do not kill viruses.
@@ -501,9 +501,79 @@ Antivirals have been used to treat XYZ diseases through [what mechanisms or appr
 
 Add a subcategory (using ####) for each category of antiviral treatment
 
-#### Antiviral Approach 1
+#### Viral Protein Targeting Drugs
 
 Brief background on the therapeutic.
+
+##### Nucleoside Analogues
+
+Why it may be useful
+
+###### Current Evidence
+
+A list of current studies and their results, using carefully the information requested in the therapeutic paper tickets.
+
+###### Summary
+
+Summarize the state of the antiviral approach.
+
+##### Protease Inhibitors
+
+Why it may be useful
+
+###### Current Evidence
+
+A list of current studies and their results, using carefully the information requested in the therapeutic paper tickets.
+
+###### Summary
+
+Summarize the state of the antiviral approach.
+
+##### Viral Envelope
+
+Why it may be useful
+
+###### Current Evidence
+
+A list of current studies and their results, using carefully the information requested in the therapeutic paper tickets.
+
+###### Summary
+
+Summarize the state of the antiviral approach.
+
+#### Host Protein Targeted Drugs
+
+Brief background on the therapeutic.
+
+##### Viral Entry Receptors
+
+Why it may be useful
+
+###### Current Evidence
+
+A list of current studies and their results, using carefully the information requested in the therapeutic paper tickets.
+
+###### Summary
+
+Summarize the state of the antiviral approach.
+
+#### Broad-Spectrum Pharmaceuticals
+
+##### Nutraceuticals
+
+##### Hydroxychloroquine
+
+### Biological Drugs for COVID-19
+
+#### Antibodies
+
+Monoclonal antibodies (mAbs) have revolutionized the way we treat human diseases. 
+As a result, they have become one of the best-selling drugs in the pharmaceutical market in recent years [@doi: 10.1186/s12929-019-0592-z].
+There are currently 79 FDA approved mAbs on the market including antibodies for viral infections (e.g. Ibalizumab for HIV and Palivizumab for RSV) [@doi:10.1186/s12929-019-0592-z; @doi:10.1146/annurev-immunol-032712-095916].
+Although vaccines remain the most important way to treat viral infections, their development process is long and they fail to provide immediate prophylactic protection or treat ongoing infections [@doi:10.3390/v10120680].
+For that reason, neutralizing antibodies have emerged to address these shortcomings.
+Virus-specific neutralizing antibodies commonly target viral surface glycoproteins or host structures, thereby inhibiting viral entry [@doi:10.3389/fmicb.2017.02323; @doi:10.1080/21645515.2017.1337614].
+This section discusses current efforts in developing neutralizing antibodies against SARS-CoV-2 and how expertise gained from previous approaches for MERS-CoV and SARS-CoV may benefit antibody development.
 
 ##### Anticipated Mechanism 
 
@@ -515,9 +585,9 @@ A list of current studies and their results, using carefully the information req
 
 ##### Summary
 
-Summarize the state of the antiviral approach.
+Summarize the state of the neutralizing antibody approach.
 
-### Vaccines
+#### Vaccines
 
 Vaccines, widely recognized as one of the most significant advances in human health during the 20th century, can be used to bolser both individual and herd immunity to a virus by promoting the development of antibodies without infection.
 [Are vaccines available for other coronaviruses or related viral illnesses?]
@@ -525,7 +595,7 @@ Vaccines, widely recognized as one of the most significant advances in human hea
 [Are there any challenges or opportunities unique to coronaviruses and/or SARS-CoV-2?]
 [What are some approaches being tested or considered?]
 
-#### Vaccine Approach 1
+#### DNA Vaccines
 
 Brief background on the therapeutic.
 
@@ -541,12 +611,7 @@ A list of current studies and their results, using carefully the information req
 
 Summarize the state of the vaccine approach.
 
-### Neutralizing Antibodies
-
-Monoclonal antibodies targeting viral antigens have shown therapeutic efficacy against viruses like Ebola and SARS CoV [@doi:10.1517/14712590902763755; @doi:10.1126/science.aad5224].
-The first human neutralizing antibody against SARS-CoV-2 targeting the trimeric spike (S) glycoproteins has been developed [@doi:10.1101/2020.03.11.987958].
-
-#### Neutralizing Antibody Approach 1
+#### RNA Vaccines
 
 Brief background on the therapeutic.
 
@@ -560,9 +625,39 @@ A list of current studies and their results, using carefully the information req
 
 ##### Summary
 
-Summarize the state of the neutralizing antibody approach.
+Summarize the state of the vaccine approach.
 
-### Nutraceutical Interventions
+#### Viral Particle Vaccines
+
+Brief background on the therapeutic.
+
+##### Anticipated Mechanism 
+
+Why it may be useful
+
+##### Current Evidence
+
+A list of current studies and their results, using carefully the information requested in the therapeutic paper tickets.
+
+##### Summary
+
+Summarize the state of the vaccine approach.
+
+#### Oligonucleotide Therapies
+
+Background
+
+##### Anticipated Mechanism 
+
+Why it may be useful
+
+##### Current Evidence
+
+A list of current studies and their results, using carefully the information requested in the therapeutic paper tickets.
+
+##### Summary
+
+Summarize the state of the neutralizing antibody approach.
 
 
 ## Methods
