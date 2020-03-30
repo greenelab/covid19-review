@@ -38,7 +38,8 @@ Project maintainers have the right and responsibility to remove, edit, or reject
 
 ## Scope
 
-This Code of Conduct applies both within project spaces and in public spaces when an individual is representing the project or its community. Examples of representing a project or community include acting as an appointed representative at an online or offline event, such as for media coverage or for conferences or other presentations.
+This Code of Conduct applies both within project spaces and in public spaces when an individual is representing the project or its community.
+Examples of representing a project or community include acting as an appointed representative at an online or offline event, such as for media coverage or for conferences or other presentations.
 
 ## Enforcement
 
