@@ -10,7 +10,8 @@
 
 ## Code of Conduct
 
-Participation in this project requires that you adhere to the [code of conduct](CODE_OF_CONDUCT.md).
+This project operates under a code of conduct.
+Participating in the project in any way (issues, pull requests, gitter, or other media) indicates that you agree that you will follow the [code of conduct](CODE_OF_CONDUCT.md).
 We take this very seriously.
 If you have any issues with harassment or with anyone violating the code of conduct, please seek out one of the project organizers (@rando2 or @cgreene).
 
