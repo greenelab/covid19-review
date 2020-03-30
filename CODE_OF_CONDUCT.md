@@ -49,6 +49,7 @@ The project team is obligated to maintain confidentiality with regard to the rep
 Further details of specific enforcement policies may be posted separately.
 
 Project maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the project's leadership.
+Only contributors in good standing with respect to the code of conduct will be offered the opportunity to review the approve the final manuscript, which is required for authorship through the ICMJE criteria.
 
 ## Attribution
 
