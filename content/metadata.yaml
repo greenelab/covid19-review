@@ -152,7 +152,7 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-03-26
-       -
+  -
     github: aadattoli
     name: Anna Ada Dattoli
     initials: AAD
