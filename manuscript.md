@@ -11,8 +11,9 @@ author-meta:
 - Lucy D\'Agostino McGowan
 - Anthony Gitter
 bibliography:
+- content/manual-references.bib
 - content/manual-references.json
-date-meta: '2020-03-30'
+date-meta: '2020-03-31'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -31,9 +32,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
 
-  <meta name="dc.date" content="2020-03-30" />
+  <meta name="dc.date" content="2020-03-31" />
 
-  <meta name="citation_publication_date" content="2020-03-30" />
+  <meta name="citation_publication_date" content="2020-03-31" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -137,11 +138,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/768df11bc7629595733aefd3293a782475f61730/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/14c242b47bbd406cc2cec5d24972f73bdc06a1bf/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/768df11bc7629595733aefd3293a782475f61730/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/14c242b47bbd406cc2cec5d24972f73bdc06a1bf/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/768df11bc7629595733aefd3293a782475f61730/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/14c242b47bbd406cc2cec5d24972f73bdc06a1bf/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -174,10 +175,10 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/768df11bc7629595733aefd3293a782475f61730/))
+([permalink](https://greenelab.github.io/covid19-review/v/14c242b47bbd406cc2cec5d24972f73bdc06a1bf/))
 was automatically generated
-from [greenelab/covid19-review@768df11](https://github.com/greenelab/covid19-review/tree/768df11bc7629595733aefd3293a782475f61730)
-on March 30, 2020.
+from [greenelab/covid19-review@14c242b](https://github.com/greenelab/covid19-review/tree/14c242b47bbd406cc2cec5d24972f73bdc06a1bf)
+on March 31, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -779,3 +780,6 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 
 <!-- Explicitly insert bibliography here -->
 <div id="refs"></div>
+
+<!-- Define citation tags below -->
+[@tag:Park2020_distancing]: url:https://github.com/parksw3/Korea-analysis/blob/master/v1/korea.pdf
