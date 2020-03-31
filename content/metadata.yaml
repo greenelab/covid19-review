@@ -152,3 +152,18 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-03-26
+       -
+    github: aadattoli
+    name: Anna Ada Dattoli
+    initials: AAD
+    orcid: 0000-0003-1462-831X
+    twitter: aadattoli
+    email: annaada.dattoli@gmail.com
+    contributions:
+      - writing-original draft 
+    affiliations:
+      -Department of Systems Pharmacology & Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA 
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-03-26
+ 
