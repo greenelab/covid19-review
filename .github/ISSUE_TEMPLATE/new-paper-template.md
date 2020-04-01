@@ -44,9 +44,13 @@ If it's primarily relevant to Diagnostics or Therapeutics, please go back and us
 - [ ] pharmacology
 - [ ] other:
 
-<!--Please fill out as much of the above as you feel able, then submit this issue using the green button below. -->
+<!-- STOP
+Please fill out as much of the above as you feel able, then:
+    (1) Select all the text below and cut it onto your clipboard
+    (2) Submit this issue using the green button below
+    (3) If you would like to submit a summary of the paper, paste the cut text from your clipboard to a new comment below and fill in the summary information
+-->
 # Summary
-If you would like to submit a summary of the paper, please copy and paste the following into a comment.
 
 ### Suggested questions to answer about each paper:
 - What did they analyze?
