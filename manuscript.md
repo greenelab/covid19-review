@@ -14,7 +14,7 @@ author-meta:
 bibliography:
 - content/manual-references.bib
 - content/manual-references.json
-date-meta: '2020-03-31'
+date-meta: '2020-04-01'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -33,9 +33,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
 
-  <meta name="dc.date" content="2020-03-31" />
+  <meta name="dc.date" content="2020-04-01" />
 
-  <meta name="citation_publication_date" content="2020-03-31" />
+  <meta name="citation_publication_date" content="2020-04-01" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -147,11 +147,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/ff776d864ee34b5e0e5564d34e16d4810648aaf5/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/c357c6c4ea8291eaf3e3004dc0c21e6f9d628039/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/ff776d864ee34b5e0e5564d34e16d4810648aaf5/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/c357c6c4ea8291eaf3e3004dc0c21e6f9d628039/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/ff776d864ee34b5e0e5564d34e16d4810648aaf5/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/c357c6c4ea8291eaf3e3004dc0c21e6f9d628039/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -184,10 +184,10 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/ff776d864ee34b5e0e5564d34e16d4810648aaf5/))
+([permalink](https://greenelab.github.io/covid19-review/v/c357c6c4ea8291eaf3e3004dc0c21e6f9d628039/))
 was automatically generated
-from [greenelab/covid19-review@ff776d8](https://github.com/greenelab/covid19-review/tree/ff776d864ee34b5e0e5564d34e16d4810648aaf5)
-on March 31, 2020.
+from [greenelab/covid19-review@c357c6c](https://github.com/greenelab/covid19-review/tree/c357c6c4ea8291eaf3e3004dc0c21e6f9d628039)
+on April 1, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -321,13 +321,13 @@ Instead, you should collect information from your local health department, the [
 
 
 ## Abstract {.page_break_before} 
-Since late 2019, Coronavirus disease 2019 (COVID-19) has spread around the world, resulting in the declaration of a pandemic by the World Health Organization (WHO). 
-This infectious disease is caused by the newly identified severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). 
+Since late 2019, Coronavirus disease 2019 (COVID-19) has spread around the world, resulting in the declaration of a pandemic by the World Health Organization (WHO).
+This infectious disease is caused by the newly identified severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2).
 Research on the virus SARS-CoV-2 and the disease it causes is emerging rapidly through global scientific efforts.
 The development of diagnostics, treatments, and vaccines will be critical to mitigating the impact of the virus.
-Here we present a collaborative effort to organize and consolidate the rapidly emerging scientific literature related to SARS-CoV-2. 
+Here we present a collaborative effort to organize and consolidate the rapidly emerging scientific literature related to SARS-CoV-2.
 We present information about the virus in the context of what is known about related viruses and synthesize studies emerging about the diagnosis and treatment of COVID-19 alongside literature about related illnesses.
-A broad scientific effort to understand this pandemic and related viruses and diseases will be foundational to efforts to predict possible interventions. 
+A broad scientific effort to understand this pandemic and related viruses and diseases will be foundational to efforts to predict possible interventions.
 This text is an evolving and collaborative document that seeks to incorporate the ever-expanding body of information related to SARS-CoV-2 and COVID-19.
 
 ## Where to Contribute
@@ -344,7 +344,7 @@ More Info (GitHub Readme) [https://github.com/greenelab/covid19-review#sars-cov-
 
 On January 21, 2020, the World Health Organization (WHO) released its first report concerning what is now known as the Coronavirus disease 2019 (COVID-19) [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200121-sitrep-1-2019-ncov.pdf].
 This infectious disease came to international attention on December 31, 2019 following an announcement by national officials in China about 44 cases of a respiratory infection of unknown cause.
-The first known cases were located in Wuhan City within the Hubei province of China, but the disease spread rapidly beyond Wuhan within China and subsequently around the world. 
+The first known cases were located in Wuhan City within the Hubei province of China, but the disease spread rapidly beyond Wuhan within China and subsequently around the world.
 At the time of the first situation report [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200121-sitrep-1-2019-ncov.pdf], 282 confirmed cases had been identified, primarily in China, but also 1-2 exported cases had been identified in several neighboring countries (Thailand, Japan, and the Republic of Korea).
 One week later, 4593 confirmed cases had been identified, spanning not only Asia, but also Australia, North America, and Europe [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128-sitrep-8-ncov-cleared.pdf].
 On March 11, 2020, WHO formally classified the situation as a pandemic [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200311-sitrep-51-covid-19.pdf].
@@ -394,7 +394,7 @@ Within therapeutics, some possible efforts include efforts to identify strategie
 In this review, we seek to consolidate information about efforts to develop strategies for diagnosis and therapeutics as new information is released by the scientific community.
 
 
-## Pathogenesis {.page_break_before}
+## Pathogenesis
 
 ### Mechanism of Host Infection by SARS-CoV-2
 
@@ -426,24 +426,24 @@ These cutting-edge research approaches have enormous potential to study the comp
 Over the last decade, systems biology approaches have been used widely to study the pathogenesis of diverse types of life-threatening acute and chronic infectious diseases [@doi:10.1038/s41576-020-0212-5].
 Omics-based studies also provided meaningful information regarding host immune responses and surrogate protein markers in several viral, bacterial and protozoan infections [@doi:10.1002/prca.201300074].
 
-The complex pathogenesis and clinical manifestations of SARS-CoV-2 infection are not understood adequately yet. 
-A significant breakthrough in SARS-CoV-2 research was achieved through the successful full-length genome sequencing of the pathogen [@doi:10.1038/s41586-020-2008-3; @doi:10/ggjr43; @doi:10.1038/s41586-020-2012-7]. 
-Multiple research groups have drafted the genome sequence of SARS-CoV-2 based on sequencing of clinical samples collected from bronchoalveolar lavage fluid (BALF) [@doi:10.1038/s41586-020-2008-3; @doi:10.1038/s41586-020-2012-7] or from BALF, throat swabs, or isolates of the virus cultured from BALF [@doi:10/ggjr43]. 
-Importantly, SARS-CoV-2 has significant sequence homology with SARS-CoV (about 79%) and also to some extent with MERS-CoV (about 50%) [@doi:10/ggjr43]. 
+The complex pathogenesis and clinical manifestations of SARS-CoV-2 infection are not understood adequately yet.
+A significant breakthrough in SARS-CoV-2 research was achieved through the successful full-length genome sequencing of the pathogen [@doi:10.1038/s41586-020-2008-3; @doi:10/ggjr43; @doi:10.1038/s41586-020-2012-7].
+Multiple research groups have drafted the genome sequence of SARS-CoV-2 based on sequencing of clinical samples collected from bronchoalveolar lavage fluid (BALF) [@doi:10.1038/s41586-020-2008-3; @doi:10.1038/s41586-020-2012-7] or from BALF, throat swabs, or isolates of the virus cultured from BALF [@doi:10/ggjr43].
+Importantly, SARS-CoV-2 has significant sequence homology with SARS-CoV (about 79%) and also to some extent with MERS-CoV (about 50%) [@doi:10/ggjr43].
 However, a higher level of similarity (about 90%) has been observed between SARS-CoV-2 and bat-derived SARS-like coronaviruses (bat-SL-CoVZC45 and bat-SL-CoVZXC21), indicating a possible origin in bats [@doi:10/ggjr43; @doi:10.1038/s41586-020-2012-7].
 
-The genome sequence of the pathogen subsequently allowed its phylogenetic characterization and prediction of its protein expression profile, which is crucial for understanding the pathogenesis and virulence of this novel viral infection. 
-Availability of the genome sequence of SARS-CoV-2 enhances the potential for subsequent proteome-level studies to provide further mechanistic insights into the virus' complex pathogenesis. 
-Of note, the cryo-electron microscopy structure of the SARS-CoV-2 spike (S) glycoprotein, which plays an important role in the early steps of viral infection, was reported very recently [@doi:10.1126/science.abb2507]. 
-Even though no comprehensive proteomic analysis of the pathogen or of patients suffering from its infection has yet been reported, one forthcoming study has demonstrated SARS-CoV-2 infected host cell proteomics using human Caco–2 cells as an infection model [@doi:10.21203/rs.3.rs-17218/v1]. 
+The genome sequence of the pathogen subsequently allowed its phylogenetic characterization and prediction of its protein expression profile, which is crucial for understanding the pathogenesis and virulence of this novel viral infection.
+Availability of the genome sequence of SARS-CoV-2 enhances the potential for subsequent proteome-level studies to provide further mechanistic insights into the virus' complex pathogenesis.
+Of note, the cryo-electron microscopy structure of the SARS-CoV-2 spike (S) glycoprotein, which plays an important role in the early steps of viral infection, was reported very recently [@doi:10.1126/science.abb2507].
+Even though no comprehensive proteomic analysis of the pathogen or of patients suffering from its infection has yet been reported, one forthcoming study has demonstrated SARS-CoV-2 infected host cell proteomics using human Caco–2 cells as an infection model [@doi:10.21203/rs.3.rs-17218/v1].
 The authors observed SARS-CoV-2 induced alterations in multiple vital physiological pathways, including translation, splicing, carbon metabolism and nucleic acid metabolism in the host cells.
 
-There is a high level of sequence homology between SARS-CoV-2 and SARS-CoV, and sera from convalescent SARS-CoV patients can effectively cross-neutralize SARS-CoV-2-S-driven entry [@doi:10.1016/j.cell.2020.02.052]. 
-Consequently, earlier proteome-level studies on SARS-CoV can also provide some essential information regarding the new pathogen [@doi:10.1073/pnas.0407992101; @doi:10.1016/j.bbrc.2004.02.074]. 
+There is a high level of sequence homology between SARS-CoV-2 and SARS-CoV, and sera from convalescent SARS-CoV patients can effectively cross-neutralize SARS-CoV-2-S-driven entry [@doi:10.1016/j.cell.2020.02.052].
+Consequently, earlier proteome-level studies on SARS-CoV can also provide some essential information regarding the new pathogen [@doi:10.1073/pnas.0407992101; @doi:10.1016/j.bbrc.2004.02.074].
 Considering the paucity of omics-level big data sets for SARS-CoV-2 up until now, existing data hubs that contain information for other coronaviruses such as UniProt, NCBI Genome Database, The Immune Epitope Database and Analysis Resource (IEDB), and The Virus Pathogen Resource (ViPR) will serve as useful resources for computational and bioinformatics research on SARS-CoV-2.
 
 
-## Diagnostics  {.page_break_before} 
+## Diagnostics
 
 ### Current Strategies for Diagnosing COVID-19 and Similar Viral Infections
 
@@ -455,12 +455,12 @@ However, many countries have struggled to acquire the tests required to keep pac
 
 ### Possible Alternatives to Current Practices for Identifying Active Cases
 
-[Are there other approaches that have worked for diagnosing other viruses at a rapid pace in large numbers of people?] 
+[Are there other approaches that have worked for diagnosing other viruses at a rapid pace in large numbers of people?]
 [What are some approaches people are currently testing for detecting live viruses, especially SARS-CoV-2?]
 
 ### Detection of Past Exposure and/or Sustained Immunity
 
-[What are approaches that allow us to detect past exposure for other viruses?] 
+[What are approaches that allow us to detect past exposure for other viruses?]
 [What efforts are underway to develop similar approaches for SARS-CoV-2?]
 [What is sustained immunity and what are the indicators?]
 
@@ -468,13 +468,13 @@ However, many countries have struggled to acquire the tests required to keep pac
 
 [Right now, reagent supply is an issue. Are there others concerns that are likely to emerge?]
 
-### Strategies and Considerations for Determining Whom to Test 
+### Strategies and Considerations for Determining Whom to Test
 
 [If it's not possible to test everyone, what strategies exist for selecting who to test?]
 [Are these strategies likely to change over time? Presumably there are different stages of managing spread vs mitigating severity once it's already at high prevalence?]
 
 
-## Therapeutics {.page_break_before} 
+## Therapeutics
 
 Given the rapid predicted spread of the disease, the development of therapeutics will be critical to mitigating its effect on health and the mortality rate.
 Typically, therapeutics can take a few forms.
@@ -482,66 +482,66 @@ First, the treatment and reduction of symptoms can result in the reduction of th
 Second, the development of antiviral drugs can drive a reduced recovery time for patients by inhibiting the development of the virus once an individual is infected.
 Finally, vaccines present a strategy for bolstering the immune response of the populus broadly to the virus, resulting in a lower rate of infection.
 All three of these strategies have been valuable elements of responses to other viruses, including coronaviruses, and are being investigated by researchers at present.
-Additionally, there have been suggestions within the scientific community that nutraceutical or dietary supplement interventions may prime an individual’s immune system to prevent or lessen the impact of RNA virus infections [@doi:10.1016/j.pcad.2020.02.007; @doi:10/ggkd3b]. 
+Additionally, there have been suggestions within the scientific community that nutraceutical or dietary supplement interventions may prime an individual’s immune system to prevent or lessen the impact of RNA virus infections [@doi:10.1016/j.pcad.2020.02.007; @doi:10/ggkd3b].
 In the following sections, we critically appraise the literature surrounding the repurposing of existing treatments and development of novel therapeutics for the prevention, mitigation, and treatment of coronavirus infections.  
 
 ### Treatment of Symptoms
 
 The clinical picture of SARS-CoV-2 infection differs dramatically between individuals.
 Some are asymptomatic.
-Others experience mild COVID-19 symptoms, such as cough, sore throat and fever, while the most severe cases of COVID-19 include severe complications including pneumonia and Acute Respiratory Distress Syndrome (ARDS), which can lead to respiratory failure and death [@url:https://www.cdc.gov/coronavirus/2019-ncov/hcp/clinical-guidance-management-patients.html]. 
-Vaccines are one avenue to mitigate harm from viral pathogens, but in the case of a rapidly growing pandemic the longer timeframe of vaccine development and distribution means that there can be a key for treatments that palliate symptoms to avoid the most severe outcomes from infection. 
+Others experience mild COVID-19 symptoms, such as cough, sore throat and fever, while the most severe cases of COVID-19 include severe complications including pneumonia and Acute Respiratory Distress Syndrome (ARDS), which can lead to respiratory failure and death [@url:https://www.cdc.gov/coronavirus/2019-ncov/hcp/clinical-guidance-management-patients.html].
+Vaccines are one avenue to mitigate harm from viral pathogens, but in the case of a rapidly growing pandemic the longer timeframe of vaccine development and distribution means that there can be a key for treatments that palliate symptoms to avoid the most severe outcomes from infection.
 
 #### Tocilizumab
 
 A recent study carried out on a sample of 191 adult COVID-19 in-patients at two Wuhan hospitals found that blood samples taken at admission contained significantly higher concentrations of interleukin-6 (IL-6) in patients who ultimately deceased compared to those who survived; average concentrations of IL-6 remained higher in the deceased group than the surviving group throughout hospitalization [@doi:10/ggnxb3].
 This suggests that these individuals may be experiencing a "cytokine storm", which refers to an excessive inflammatory response.
 IL-6 plays a key role in this response [@doi:10.1128/mmbr.05015-11].
-IL-6 is a pro-inflammatory cytokine belonging to the family of interleukins, which are immune system regulators that are primarily responsible for immune cell differentiation. 
-Specifically, IL-6 promotes the differentiation of activated B cells into immunoglobulin-producing plasma cells [@pmid:9052836] and acts as a growth factor for hybridoma and myeloma cells [@pmid:8431556; @pmid:2104241]. 
+IL-6 is a pro-inflammatory cytokine belonging to the family of interleukins, which are immune system regulators that are primarily responsible for immune cell differentiation.
+Specifically, IL-6 promotes the differentiation of activated B cells into immunoglobulin-producing plasma cells [@pmid:9052836] and acts as a growth factor for hybridoma and myeloma cells [@pmid:8431556; @pmid:2104241].
 In addition, IL-6 also induces the differentiation of naïve CD4+ T cells into effector T-cell subsets [@doi:10.1158/2326-6066.CIR-14-0022].
 In this way interleukins regulate both the pro- and anti-inflammatory responses.
-In this context, the observation of elevated IL-6 in patients who died may reflect an over-production of proinflammatory interleukins. 
+In this context, the observation of elevated IL-6 in patients who died may reflect an over-production of proinflammatory interleukins.
 
 In a healthy situation the lung respiratory epithelium together with alveolar macrophages limits the activation of the immune system, ensuring homeostasis.
 The introduction of the S-protein from SARS-CoV to mouse macrophages was found to increase production of IL-6 and TNF-α [@doi:10.1016/j.virusres.2007.02.007], and deceased SARS-CoV patients were found to have intermediate levels of IL-6, IL-1𝛽, and TNF-α expressed in a number of ACE2-expressing cell types sampled from the lung and bronchial tissues during autopsy [@doi:10.1002/path.2067].
 However, other reports found the severe respiratory condition ARDS to be associated with elevated concentrations of IL-6 in BALF, but that concentrations of Tumor Necrosis Factor α (TNF-α) and IL-1𝛽 decreased with the onset of ARDS [@doi:10.1164/ajrccm.164.10.2104013].
 These cytokines enhance the pro-inflammatory reaction by increase acute-phase signaling, trafficking of immune cells to the site of primary infection, epithelial cell activation, and secondary cytokine production.
 The acute phase response to infection results in the heavily damage of the endotelium of blood vessels, which disrupts the balance between pro and anti-inflammatory response [@doi:10.1164/ajrccm.164.10.2104013].
-Thus, the holes generated allow not just for the passage of neutrophils, macrophages and lymphocytes to the site of the infection but also the accumulation of liquids into the lungs, which is the ultimate cause of the death as per Acute Distress Respiratory Syndrome (ADRS) or Severe Acute Respiratory Syndrome (SARS) [@doi:10.1007/s00281-017-0629-x], also caused by the new coronavirus. 
-Recently Chinese and Italian doctors have found that the the Tocilizumab (actemra, by Roche), a drug commonly used in the rheumatoid arthritis, may palliate the most severe symptoms associated with COVID-19. 
+Thus, the holes generated allow not just for the passage of neutrophils, macrophages and lymphocytes to the site of the infection but also the accumulation of liquids into the lungs, which is the ultimate cause of the death as per Acute Distress Respiratory Syndrome (ADRS) or Severe Acute Respiratory Syndrome (SARS) [@doi:10.1007/s00281-017-0629-x], also caused by the new coronavirus.
+Recently Chinese and Italian doctors have found that the the Tocilizumab (actemra, by Roche), a drug commonly used in the rheumatoid arthritis, may palliate the most severe symptoms associated with COVID-19.
 
-##### Anticipated Mechanism 
+##### Anticipated Mechanism
 
 Human IL-6 is a glycoprotein of 26 kDa and it consists of 184 amino acids containing 2 potential N-glycosylation sites and four cysteine residues. IL-6 binds to its receptor either in the insoluble (IL-6R) and soluble (sIL-6R) form.
-The receptor specificity determines the type of signaling. Specifically, the binding of IL-6 to the cell membrane receptor IL-6R gives rise to the "classical transduction of the signaling", while to binding to sIL-6R generate the so called "trans-signaling" [@doi:10.1016/j.cytogfr.2012.04.001; @doi:10.1042/bj3000281]. 
-IL-6 signaling occurs through 3 independent pathways: the Janus-activated kinase (JAK)-STAT3 pathway, the Ras/Mitogen-Activated Protein Kinases (MAPK) pathway and the Phosphoinositol-3 Kinase (PI3K)/Akt pathway [@doi:10.3389/fimmu.2016.00604]. 
+The receptor specificity determines the type of signaling. Specifically, the binding of IL-6 to the cell membrane receptor IL-6R gives rise to the "classical transduction of the signaling", while to binding to sIL-6R generate the so called "trans-signaling" [@doi:10.1016/j.cytogfr.2012.04.001; @doi:10.1042/bj3000281].
+IL-6 signaling occurs through 3 independent pathways: the Janus-activated kinase (JAK)-STAT3 pathway, the Ras/Mitogen-Activated Protein Kinases (MAPK) pathway and the Phosphoinositol-3 Kinase (PI3K)/Akt pathway [@doi:10.3389/fimmu.2016.00604].
 The ultimate result of the IL-6 cascade is to direct transcriptional activity of various promoters of pro-inflammatory cytokines, such as IL-1 and TFN, including IL-6 own regulation through the activity of NF-κB [@doi:10.3389/fimmu.2016.00604].
-Particularly, IL-6 synthesis is tightly regulated both transcriptionally and post-transcriptionally . In this context, it has been shown that viral proteins can enhance transcription of the IL-6 gene, via strengthening the DNA-binding activity between several transciptional factors and IL-6 gene-cis-regulatory elements [@doi:10.2492/inflammregen.33.054]. 
-Tocilizumab is a humanised monoclonal antibody that binds both to the insoluble and soluble receptor of IL-6, de facto inhibiting the IL-6 immune cascade. 
+Particularly, IL-6 synthesis is tightly regulated both transcriptionally and post-transcriptionally . In this context, it has been shown that viral proteins can enhance transcription of the IL-6 gene, via strengthening the DNA-binding activity between several transciptional factors and IL-6 gene-cis-regulatory elements [@doi:10.2492/inflammregen.33.054].
+Tocilizumab is a humanised monoclonal antibody that binds both to the insoluble and soluble receptor of IL-6, de facto inhibiting the IL-6 immune cascade.
 
 ##### Current Evidence
 
-Chinese doctors have started a trial enrolling 188 patients of which 14 with severe lung disease have shown clear sings of improvements, according to their results [@url:https://www.genengnews.com/virology/coronavirus/genentech-launches-phase-iii-trial-of-actemra-as-coronavirus-treatment/]. 
-Also, The AIFA (the Italian Drug Agency) approved the start of a new trial on March 19 recruiting patients at the initial stage of the infection [@url:https://www.univadis.co.uk/viewarticle/covid-19-italy-launches-an-independent-trial-on-tocilizumab-715741]. 
-Together with these independent trials, Roche, also in collaboration with the FDA, will start a randomised, double-blind, placebo-controlled phase III trial early April. 
+Chinese doctors have started a trial enrolling 188 patients of which 14 with severe lung disease have shown clear sings of improvements, according to their results [@url:https://www.genengnews.com/virology/coronavirus/genentech-launches-phase-iii-trial-of-actemra-as-coronavirus-treatment/].
+Also, The AIFA (the Italian Drug Agency) approved the start of a new trial on March 19 recruiting patients at the initial stage of the infection [@url:https://www.univadis.co.uk/viewarticle/covid-19-italy-launches-an-independent-trial-on-tocilizumab-715741].
+Together with these independent trials, Roche, also in collaboration with the FDA, will start a randomised, double-blind, placebo-controlled phase III trial early April.
 The trial will enroll 330 patients globally, which will be followed for 60 days upon use of the drug via injection to analyse its efficiency/safety (Biopharma-reporter.com).
-However, previous studies on RA showed that in patients treated with TCZ the rate of incident infections in clinical practice patients was higher than the one observed during clinical trial [@doi:10.1093/rheumatology/ker223]. 
-Also, RA patients with chronic hepatitis B (HB) infection showed high risk of HB virus reactivation upon TCZ administration in combination with other RA drugs [@doi:10.1111/1756-185X.13010]. 
-These last findings highlight the need to search for a balance between impairing a harmful immune response, such as the one generated by the cytokine storm, and preventing the worsening of the clinical picture of the patients by potential new viral infections. 
-This aspect is probably crucial to be investigated further in the trials that are about to start. 
-Perhaps, the TCZ treatment would best suit patients with severely compromised lungs due to the Covid-19 infection and are therefore at greater risk of death, in order to stop the uncontrolled immune response before it’s too late. 
+However, previous studies on RA showed that in patients treated with TCZ the rate of incident infections in clinical practice patients was higher than the one observed during clinical trial [@doi:10.1093/rheumatology/ker223].
+Also, RA patients with chronic hepatitis B (HB) infection showed high risk of HB virus reactivation upon TCZ administration in combination with other RA drugs [@doi:10.1111/1756-185X.13010].
+These last findings highlight the need to search for a balance between impairing a harmful immune response, such as the one generated by the cytokine storm, and preventing the worsening of the clinical picture of the patients by potential new viral infections.
+This aspect is probably crucial to be investigated further in the trials that are about to start.
+Perhaps, the TCZ treatment would best suit patients with severely compromised lungs due to the Covid-19 infection and are therefore at greater risk of death, in order to stop the uncontrolled immune response before it’s too late.
 
 ##### Summary
 
 Summarize the state of the symptom management approach.
 
-### Small Molecule Drugs for COVID-19
+### Small Molecule Drugs for Targeting SARS-CoV-2
 
-The replication cycle of a virus within an epithelial host cell includes 6 basic steps which can be shortly summarised as follow: i) attachment of the virus to the host cell; ii) penetration by endocytosis; iii) uncoating, classically defined as the release of viral contents into the host cell; iv) biosynthesis, during which the viral genetic material enters the nucleus where it gets replicated; v) assembly, where viral proteins are translated and new viral particles are assembled; vi) release, when the new viruses are released into the extracellular environment [@isbn:978-1405136457]. 
-Antiviral drugs do not kill the virus, rather they inhibit its amplification by impairing one of these steps. 
+The replication cycle of a virus within an epithelial host cell includes 6 basic steps which can be shortly summarised as follow: i) attachment of the virus to the host cell; ii) penetration by endocytosis; iii) uncoating, classically defined as the release of viral contents into the host cell; iv) biosynthesis, during which the viral genetic material enters the nucleus where it gets replicated; v) assembly, where viral proteins are translated and new viral particles are assembled; vi) release, when the new viruses are released into the extracellular environment [@isbn:978-1405136457].
+Antiviral drugs do not kill the virus, rather they inhibit its amplification by impairing one of these steps.
 Nowadays, many of these drugs act during the biosynthesis step in order to inhibit the virus’ genetic material replication.
-Importantly, SARS-CoV-2 is an RNA virus. 
+Importantly, SARS-CoV-2 is an RNA virus.
 Differently from a DNA virus, which can use the host enzymes to propagate itself, RNA viruses depends on their own polymerase, the RNA-dependent RNA polymerase (RdRP), in order to be replicated [@doi:10.1007/978-1-4939-2438-7; @doi:10.1002/jmv.25761].
 
 #### Nucleotide Analogs
@@ -550,15 +550,18 @@ Why one might use nucleotide analogs.
 
 ##### Avigan
 
-Avigan (Flavipiravir, from Toyama chemical Fujifilm) is a drug which has been found effective to block viral amplification in the Influenza virus infection. 
-Specifically, Avigan is a nucleoside precursor efficiently recognised as guanosine and adenosine analogue by the virus polymerase (RNA-dependent RNA polymerase). 
+Avigan (Flavipiravir, from Toyama chemical Fujifilm) is a drug which has been found effective to block viral amplification in the Influenza virus infection.
+
+###### Anticipated Mechanism
+
+Specifically, Avigan is a nucleoside precursor efficiently recognised as guanosine and adenosine analogue by the virus polymerase (RNA-dependent RNA polymerase).
 While a single incorporation does not influence RNA transcription, multiple events of incorporation lead to the arrest of RNA synthesis [@doi:10.1371/journal.pone.0068347].
-Importantly It was already shown that Avigan is able to give 100% coverage against the Ebola virus in mice [@doi:10.1016/j.antiviral.2014.02.014]. 
-Furthermore, there are evidences that drug might also work against Corona virus infection. 
-For instance, a recent study showed its effectiveness compared to other antivirals such as lopinavir and ritonavir [@doi:10.1016/j.eng.2020.03.007]. 
-The drug was tested on a sample of 80 patients (35 experimental sample, 45 control group) and increased the speed of recovery (measured as viral clearance from the patient by RT-PCR) of about 4 days, compared to the control sample treated with the other anti-virals, such as Lopinavir and Ritonavir. 
-Also lung body scan seem to look better in about 91% of the patients analysed [@doi:10.1016/j.eng.2020.03.007]. 
-However, the size of the sample is too small to give a powerful statistics, as well as the choice of the patients did not take into consideration important factors such as previous clinical conditions, sex, while there was no age categorisation. 
+Importantly It was already shown that Avigan is able to give 100% coverage against the Ebola virus in mice [@doi:10.1016/j.antiviral.2014.02.014].
+Furthermore, there are evidences that drug might also work against Corona virus infection.
+For instance, a recent study showed its effectiveness compared to other antivirals such as lopinavir and ritonavir [@doi:10.1016/j.eng.2020.03.007].
+The drug was tested on a sample of 80 patients (35 experimental sample, 45 control group) and increased the speed of recovery (measured as viral clearance from the patient by RT-PCR) of about 4 days, compared to the control sample treated with the other anti-virals, such as Lopinavir and Ritonavir.
+Also lung body scan seem to look better in about 91% of the patients analysed [@doi:10.1016/j.eng.2020.03.007].
+However, the size of the sample is too small to give a powerful statistics, as well as the choice of the patients did not take into consideration important factors such as previous clinical conditions, sex, while there was no age categorisation.
 
 ###### Current Evidence
 
@@ -569,26 +572,29 @@ A list of current studies and their results, using carefully the information req
 Summarize the state of the antiviral approach.
 
 ##### Remdesivir
-### Antiviral Approach: Remdesivir
+
 Remdesivir (GS-5734) was developed by Gilead Sciences to treat Ebola.
 It does not have any FDA-approved use.
-Although a clinical trial in the Democratic Republic of Congo found some evidence of effectiveness against ebola, two antibody preparations were found to be more effective, and Remdesivir was not pursued [@doi:10.1056/NEJMoa1910993]. 
+Although a clinical trial in the Democratic Republic of Congo found some evidence of effectiveness against ebola, two antibody preparations were found to be more effective, and Remdesivir was not pursued [@doi:10.1056/NEJMoa1910993].
 
-### Anticipated Mechanism
+###### Anticipated Mechanism
+
 Remdesivir is metabolized to GS-441524, an adenosine analog that inhibits a broad range of polymerases and then evades exonuclease repair causing chain termination [@doi:10.1074/jbc.AC120.013056; @doi:10.1128/mBio.00221-18; @doi:10.1038/s41422-020-0282-0].
 Although it was developed against Ebola, it also inhibits the MERS-CoV and SARS-CoV polymerase and inhibits coronavirus replication in cell culture assays with submicromolar IC50s [@doi:10.1126/scitranslmed.aal3653].
 It also inhibits SARS-CoV-2, showing synergy with chloroquine [@doi:10.1038/s41422-020-0282-0].
 
-### Current Evidence
+###### Current Evidence
+
 In addition to the previous work showing Remdesivir to be an effective treatment for viral pathogens such as SARS-CoV and MERS-CoV in cultured cells and animal models, a recent study found that administration of Remdesivir to non-human primate models resulted in 100% protection against infection by the Ebola virus.
 Remdesivir has also been reported to inhibit SARS-CoV-2 infection in a human cell line sensitive to the virus [@doi:10.1038/s41422-020-0282-0].
 
 The effectiveness of Remdesivir for treating patients with COVID-19 is currently under investigation.
-Remdesivir has been used on some COVID-19 patients under compassionate use guidelines [@doi:10.1126/science.abb7243, @doi:10.1056/NEJMoa2001191; @doi:10.1101/2020.03.09.20032896]. 
+Remdesivir has been used on some COVID-19 patients under compassionate use guidelines [@doi:10.1126/science.abb7243, @doi:10.1056/NEJMoa2001191; @doi:10.1101/2020.03.09.20032896].
 All were in late stages of COVID-19 infection, and these reports are inconclusive about the drug's efficacy.
 Remdesivir recently entered controlled clinical trials, and as of March 2020, there are six clinical trials underway to treat COVID-19 patients at both early and late stages of infection and in combinations with other drugs [@doi: 10.1038/s41422-020-0282-0; @url:https://clinicaltrials.gov/ct2/show/NCT04292730; @url:https://clinicaltrials.gov/ct2/show/NCT04292899; @url:https://clinicaltrials.gov/ct2/show/NCT04280705; @url:https://www.clinicaltrialsregister.eu/ctr-search/trial/2020-000936-23/FR; @url:https://clinicaltrials.gov/ct2/show/NCT04252664; @url:https://clinicaltrials.gov/ct2/show/NCT04257656].
 
-### Summary
+###### Summary
+
 Remdesivir is a major drug candidate since it attacks the virus with high potency and known mechanism.
 Moreover, one of the most successful therapies for viral diseases is to target the viral replication machinery, which are typically virally encoded polymerases.
 Small molecule drugs targeting viral polymerases are the backbones of treatments for other viral diseases including HIV and Herpes.
@@ -608,6 +614,10 @@ Summarize the state of the antiviral approach.
 
 Why it may be useful
 
+##### Protease Inhibitor 1
+
+###### Anticipated Mechanism
+
 ###### Current Evidence
 
 A list of current studies and their results, using carefully the information requested in the therapeutic paper tickets.
@@ -616,10 +626,14 @@ A list of current studies and their results, using carefully the information req
 
 Summarize the state of the antiviral approach.
 
-##### Viral Envelope
+#### Molecules Targeting the Viral Envelope
 
 Why it may be useful
 
+##### Viral Envelope Targeter 1
+
+###### Anticipated Mechanism
+
 ###### Current Evidence
 
 A list of current studies and their results, using carefully the information requested in the therapeutic paper tickets.
@@ -628,9 +642,11 @@ A list of current studies and their results, using carefully the information req
 
 Summarize the state of the antiviral approach.
 
-#### Host Protein Targeted Drugs
+### Drugs Targeting Host Proteins
 
 Brief background on the therapeutic.
+
+#### Drug (or drug class) 1
 
 ##### Viral Entry Receptors
 
@@ -644,17 +660,23 @@ A list of current studies and their results, using carefully the information req
 
 Summarize the state of the antiviral approach.
 
-#### Broad-Spectrum Pharmaceuticals
+### Broad-Spectrum Pharmaceuticals
 
-##### Nutraceuticals
+#### Hydroxychloroquine
 
-##### Hydroxychloroquine
+##### Potential Mechanisms
+
+##### Current Evidence
+
+##### Summary
+
+#### Nutraceuticals
 
 ### Biological Drugs for COVID-19
 
 #### Antibodies
 
-Monoclonal antibodies (mAbs) have revolutionized the way we treat human diseases. 
+Monoclonal antibodies (mAbs) have revolutionized the way we treat human diseases.
 As a result, they have become one of the best-selling drugs in the pharmaceutical market in recent years [@doi: 10.1186/s12929-019-0592-z].
 There are currently 79 FDA approved mAbs on the market including antibodies for viral infections (e.g. Ibalizumab for HIV and Palivizumab for RSV) [@doi:10.1186/s12929-019-0592-z; @doi:10.1146/annurev-immunol-032712-095916].
 Although vaccines remain the most important way to treat viral infections, their development process is long and they fail to provide immediate prophylactic protection or treat ongoing infections [@doi:10.3390/v10120680].
@@ -662,7 +684,7 @@ For that reason, neutralizing antibodies have emerged to address these shortcomi
 Virus-specific neutralizing antibodies commonly target viral surface glycoproteins or host structures, thereby inhibiting viral entry [@doi:10.3389/fmicb.2017.02323; @doi:10.1080/21645515.2017.1337614].
 This section discusses current efforts in developing neutralizing antibodies against SARS-CoV-2 and how expertise gained from previous approaches for MERS-CoV and SARS-CoV may benefit antibody development.
 
-##### Anticipated Mechanism 
+##### Anticipated Mechanism
 
 Why it may be useful
 
@@ -676,17 +698,17 @@ Summarize the state of the neutralizing antibody approach.
 
 #### Interferons
 
-Interferons (IFNs) are a family of cytokines crucial to activate the first (innate) immune system response against viral infections. 
-Interferons are classified into three categories based on their receptor specificity: type I, II and III [@doi:10.1128/mmbr.05015-11]. 
-Specifically, IFNs I (IFN-𝛼 and 𝛽) and II (IFN-𝛾 ) induce the expression of antiviral proteins which bring the viral RNA to degradation [@doi:10.1016/j.jcv.2003.11.013]. 
-Among these IFNs, IFN- 𝛽 was already found to strongly inhibit the replication of other corona viruses, such as SARS-Cov, in cell culture, while IFN-𝛼 and 𝛾 were shown to be less effective in this context [@doi:10.1016/j.jcv.2003.11.013]. 
-There are evidences that patients with higher susceptibility to develop Acute respiratory distress syndrome (ARDS) show indeed deficiency of IFN- 𝛽. 
-For instance, upon other Corona viruses infection IFN- 𝛽 expression and synthesis is impaired, so that the virus can in fact escape the innate immune response [@doi:10.1016/j.virusres.2014.07.024]. 
+Interferons (IFNs) are a family of cytokines crucial to activate the first (innate) immune system response against viral infections.
+Interferons are classified into three categories based on their receptor specificity: type I, II and III [@doi:10.1128/mmbr.05015-11].
+Specifically, IFNs I (IFN-𝛼 and 𝛽) and II (IFN-𝛾 ) induce the expression of antiviral proteins which bring the viral RNA to degradation [@doi:10.1016/j.jcv.2003.11.013].
+Among these IFNs, IFN- 𝛽 was already found to strongly inhibit the replication of other corona viruses, such as SARS-Cov, in cell culture, while IFN-𝛼 and 𝛾 were shown to be less effective in this context [@doi:10.1016/j.jcv.2003.11.013].
+There are evidences that patients with higher susceptibility to develop Acute respiratory distress syndrome (ARDS) show indeed deficiency of IFN- 𝛽.
+For instance, upon other Corona viruses infection IFN- 𝛽 expression and synthesis is impaired, so that the virus can in fact escape the innate immune response [@doi:10.1016/j.virusres.2014.07.024].
 
-On March 18 2020 Synairgen plc has received approval to start a phase II trial for SNG001, an IFN- 𝛽-1a formulation to be delivered to lungs via inhalation. 
-SNG001 was already shown to be effective reducing viral load in swine flu in vivo model, as well as it has been shown to be effective in the protection from other Corona virus infection in vitro (Synairgen plc, press release). 
+On March 18 2020 Synairgen plc has received approval to start a phase II trial for SNG001, an IFN- 𝛽-1a formulation to be delivered to lungs via inhalation.
+SNG001 was already shown to be effective reducing viral load in swine flu in vivo model, as well as it has been shown to be effective in the protection from other Corona virus infection in vitro (Synairgen plc, press release).
 
-##### Anticipated Mechanism 
+##### Anticipated Mechanism
 
 Why it may be useful
 
@@ -699,7 +721,7 @@ A list of current studies and their results, using carefully the information req
 Summarize the state of interferons.
 
 
-#### Vaccines
+### Vaccines
 
 Vaccines, widely recognized as one of the most significant advances in human health during the 20th century, can be used to bolser both individual and herd immunity to a virus by promoting the development of antibodies without infection.
 [Are vaccines available for other coronaviruses or related viral illnesses?]
@@ -711,7 +733,7 @@ Vaccines, widely recognized as one of the most significant advances in human hea
 
 Brief background on the therapeutic.
 
-##### Anticipated Mechanism 
+##### Anticipated Mechanism
 
 Why it may be useful
 
@@ -727,7 +749,7 @@ Summarize the state of the vaccine approach.
 
 Brief background on the therapeutic.
 
-##### Anticipated Mechanism 
+##### Anticipated Mechanism
 
 Why it may be useful
 
@@ -743,7 +765,7 @@ Summarize the state of the vaccine approach.
 
 Brief background on the therapeutic.
 
-##### Anticipated Mechanism 
+##### Anticipated Mechanism
 
 Why it may be useful
 
@@ -759,7 +781,7 @@ Summarize the state of the vaccine approach.
 
 Background
 
-##### Anticipated Mechanism 
+##### Anticipated Mechanism
 
 Why it may be useful
 
@@ -776,17 +798,17 @@ Summarize the state of the neutralizing antibody approach.
 
 ### Article Selection and Evaluation
 
-The authors solicited relevant articles to be submitted via [GitHub](https://github.com/greenelab/covid19-review) for review. 
+The authors solicited relevant articles to be submitted via [GitHub](https://github.com/greenelab/covid19-review) for review.
 Articles were classified as _diagnostic_, _therapeutic_, or _other_.
-Following a framework often used for assessing medical literature, the review consisted of examining the methods used in the article, the assignment (whether the study was observational or randomized), the assessment, the results, the interpretation, and how well the study extrapolates [@doi:10.5014/ajot.60.4.367]. 
+Following a framework often used for assessing medical literature, the review consisted of examining the methods used in the article, the assignment (whether the study was observational or randomized), the assessment, the results, the interpretation, and how well the study extrapolates [@doi:10.5014/ajot.60.4.367].
 
 #### Diagnostic Papers
 
-##### Methods 
+##### Methods
 
 Reviewers began by describing the study question(s) being investigated by the article.
 They then described the study population, the sample size, the prevalence of the disease in the study population, if in human subjects, the countries / regions considered, the demographics of participants, the setting, and any remaining inclusion / exclusion criteria considered.
-They then described the reference test or "gold standard," if one was utilized. 
+They then described the reference test or "gold standard," if one was utilized.
 
 ##### Assignment
 
@@ -794,10 +816,10 @@ Reviewers described how the new and reference tests were assigned and any furthe
 
 ##### Assessment
 
-Reviewers described how the test was performed. 
+Reviewers described how the test was performed.
 For example, if provided, reviewers described the technical details of the assays used, when measurements were taken and by whom for both the standard and reference diagnostic tests.
 They then described how individuals were classified as positive or negative and whether there was evidence that the test results were precise or reproducible when repeated more than once.
-Reviewers described whether there was any missing data, whether some participants underwent only one test, or whether there were individuals with inconclusive results. 
+Reviewers described whether there was any missing data, whether some participants underwent only one test, or whether there were individuals with inconclusive results.
 
 ##### Results
 
@@ -813,10 +835,10 @@ Reviewers described how well this test will extrapolate outside the measured pop
 
 #### Therapeutic Papers
 
-##### Methods 
+##### Methods
 
 Reviewers began by describing the study question(s) being investigated by the article.
-They then described the study population, the sample size, the prevalence of the disease in the study population, if in human subjects, the countries / regions considered, the demographics of participants, the setting, and any remaining inclusion / exclusion criteria considered. 
+They then described the study population, the sample size, the prevalence of the disease in the study population, if in human subjects, the countries / regions considered, the demographics of participants, the setting, and any remaining inclusion / exclusion criteria considered.
 
 ##### Assignment
 
@@ -826,7 +848,7 @@ Reviewers described how the treatment is assigned, whether it was an interventio
 
 ###### Outcome Assessment
 
-Reviewers described the outcome that was assessed and evaluated whether it was appropriate given the underlying study question. 
+Reviewers described the outcome that was assessed and evaluated whether it was appropriate given the underlying study question.
 They described whether there was any missing data, for example whether there were individuals lost to follow up.
 They then describe whether there were any potential sources of bias, for example lack of blinding in a randomized controlled trial.
 
