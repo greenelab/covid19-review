@@ -147,11 +147,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/c357c6c4ea8291eaf3e3004dc0c21e6f9d628039/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/e210726f50b35143415d2228f34cdbaa45d5adc7/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/c357c6c4ea8291eaf3e3004dc0c21e6f9d628039/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/e210726f50b35143415d2228f34cdbaa45d5adc7/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/c357c6c4ea8291eaf3e3004dc0c21e6f9d628039/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/e210726f50b35143415d2228f34cdbaa45d5adc7/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -184,9 +184,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/c357c6c4ea8291eaf3e3004dc0c21e6f9d628039/))
+([permalink](https://greenelab.github.io/covid19-review/v/e210726f50b35143415d2228f34cdbaa45d5adc7/))
 was automatically generated
-from [greenelab/covid19-review@c357c6c](https://github.com/greenelab/covid19-review/tree/c357c6c4ea8291eaf3e3004dc0c21e6f9d628039)
+from [greenelab/covid19-review@e210726](https://github.com/greenelab/covid19-review/tree/e210726f50b35143415d2228f34cdbaa45d5adc7)
 on April 1, 2020.
 </em></small>
 
@@ -898,12 +898,12 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 
 |Author|Contributions|
 |---|---|
-|Halie M. Rando|Project Administration, Writing - Original Draft, Methodology|
+|Halie M. Rando|Project Administration, Writing - Original Draft, Writing - Review & Editing, Methodology|
 |Casey S. Greene|Conceptualization, Software|
 |Michael P. Robson|Software|
 |Simina M. Boca|Methodology|
-|Nils Wellhausen|Writing - Original Draft|
-|Ronan Lordan|Writing - Original Draft|
+|Nils Wellhausen|Writing - Original Draft, Writing - Review & Editing|
+|Ronan Lordan|Writing - Original Draft, Writing - Review & Editing|
 |Christian Brueffer|Writing - Original Draft|
 |Sadipan Ray|Writing - Original Draft|
 |Lucy D\'Agostino McGowan|Methodology, Writing - Original Draft|
