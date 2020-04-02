@@ -14,7 +14,7 @@ author-meta:
 bibliography:
 - content/manual-references.bib
 - content/manual-references.json
-date-meta: '2020-04-01'
+date-meta: '2020-04-02'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -33,9 +33,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
 
-  <meta name="dc.date" content="2020-04-01" />
+  <meta name="dc.date" content="2020-04-02" />
 
-  <meta name="citation_publication_date" content="2020-04-01" />
+  <meta name="citation_publication_date" content="2020-04-02" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -147,11 +147,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/efc5d07743cf9cc01820fa029fd6ab2521f3c0e5/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/b9c4ebddbb3c4c335aefe4bb2a9923a94e23bf9a/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/efc5d07743cf9cc01820fa029fd6ab2521f3c0e5/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/b9c4ebddbb3c4c335aefe4bb2a9923a94e23bf9a/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/efc5d07743cf9cc01820fa029fd6ab2521f3c0e5/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/b9c4ebddbb3c4c335aefe4bb2a9923a94e23bf9a/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -184,10 +184,10 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/efc5d07743cf9cc01820fa029fd6ab2521f3c0e5/))
+([permalink](https://greenelab.github.io/covid19-review/v/b9c4ebddbb3c4c335aefe4bb2a9923a94e23bf9a/))
 was automatically generated
-from [greenelab/covid19-review@efc5d07](https://github.com/greenelab/covid19-review/tree/efc5d07743cf9cc01820fa029fd6ab2521f3c0e5)
-on April 1, 2020.
+from [greenelab/covid19-review@b9c4ebd](https://github.com/greenelab/covid19-review/tree/b9c4ebddbb3c4c335aefe4bb2a9923a94e23bf9a)
+on April 2, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -406,11 +406,40 @@ This section would also be great for the introduction of zoonotic diseases which
 [What cells are primary infection sites for SARS-CoV-2?]
 [What structural aspects allow for viral entry]?
 
-#### Viral Replication, Spreading and Transmission
+#### Viral Replication and Spreading
 
+[Renamed section with transmission dynamics below] 
 [Basic introduction into replication cycle]
-[What is the basic reproductive rate]
 [What are the routes of transmission]
+
+#### Reproduction Number and Dynamics of Transmission
+
+Accurate estimates of the reproduction number of a virus are crucial to understanding the dynamics of infection and to predict the effects of different interventions.
+The basic reproduction number, R~0~, is the expected number of new infections caused by one infected person, assuming no time dependence and a wholly susceptible population [@doi:10.1111/j.1467-9574.1996.tb01482.x].
+The effective reproduction number, R~t~, describes how the reproduction number may change over time, and is used to quantify deviations in R from R~0~, for example as some fraction of the population becomes infected, or as interventions are put into place.
+R~0~ and R~t~ can be estimated directly from epidemiological data or inferred using mathematical modeling.
+Modeling approaches are typically based upon a classic epidemiological model structure: the susceptible-infected-recovered (SIR) model and its extensions [@doi:10.1126/science.272.5258.74]. 
+
+R~0~ for COVID-19 is estimated to lie in the range R~0~=1.4-6.5 [@doi:10/ggjvr7; @doi:10.1093/jtm/taaa021; @doi:10.1126/science.abb3221]; estimates vary considerably depending on the data and the methods used.
+Most estimates currently derive from populations in Asia, since outbreaks in Europe and North America are more recent.
+Data-derived estimates (i.e. those that do not incorporate SIR-type models into their analysis) typically predict lower values of R~0~.
+For data-derived estimates, in one study of international cases, the predicted value is R~0~=1.7 [@doi:10.1101/2020.03.21.20040329], in China (both Hubei province and nationwide), the value is predicted to lie in the range R~0~=2.0-3.6 [@doi:10.2139/ssrn.3524675; @doi:10.1101/2020.01.25.919787; @doi:10/ggjvr7], and on a cruise ship where an outbreak occurred, predicted R~0~=2.28 [@doi:10.1016/j.ijid.2020.02.033].
+SIR model-derived estimates of R~0~ range from 2.0 - 6.5 in China [@doi:10.3390/jcm9020462; @url:https://doi.org/10.1101/2020.01.27.20018952; @doi:10.1101/2020.01.23.916726; @doi:10.1101/2020.01.23.20018549] to R~0~=4.8 in France [@doi:10.1101/2020.03.22.20040915]. 
+Using the same model as for the French population, this study estimated R~0~=2.6 in South Korea [@doi:10.1101/2020.03.22.20040915], which is consistent with other studies [@tag:Park2020_distancing].
+From a meta-analysis of studies estimating R~0~, [@doi:10.1093/jtm/taaa021] predict the median as R~0~=2.79. 
+
+Inference of the effective reproduction number can provide insight into how populations respond to an infection, and the effectiveness of interventions.
+In China, R~t~ was predicted to lie in the range 1.6-2.6 in Jan 2020, before travel restrictions [@doi:10/ggptcf].
+R~t~ decreased from 2.35 one week before travel restrictions were imposed (Jan 23, 2020), to 1.05 one week after.
+Using their model, the authors also estimate the probability of new outbreaks occurring: the probability of a single individual exporting virus causing a large outbreak is 17-25% assuming MERS-like or SARS-like transmission, and the probability of a large outbreak occurring after ≥4 infections exist at a new location is greater than 50%.
+An independent study came to similar conclusions: in a two-week period before Jan 23 finding R~t~=2.38, and decreasing to R~t~ = 1.34 (using data from Jan 24 to Feb 3) or R~t~=0.98 (using data from Jan 24 to Feb 8) [@doi:10.1126/science.abb3221].
+In South Korea, R~t~ was inferred for Feb-Mar 2020 in two cities: Daegu (the center of the outbreak), and Seoul [@tag:Park2020_distancing].
+Metro data was also analyzed to estimate the effects of social distancing measures.
+R~t~ decreased in Daegu from around 3 to <1 over the period that social distancing measures were introduced.
+In Seoul, R~t~ decreased slightly, but remained close to 1 (and larger than R~t~ in Daegu).
+This highlights that social distancing measures appeared to work to contain the infection in Daegu, but that in Seoul, R~t~ remains above 1, thus secondary outbreaks are possible.
+It also shows the importance of region-specific analysis: the large decline in case load nationwide is mainly due to the Daegu region, and could hide persistence of the epidemic in other regions, such as Seoul and Gyeonggi-do. 
+Similarly in Iran, estimates of R~t~ declined from 4.86 in the first week to 2.1 by the fourth week after the first cases in Iran were reported [@doi:10.1101/2020.03.20.20038422]. The authors attributed this decline to the effects of self-quarantine and government reductions in working time.
 
 ### Immune Response to SARS-CoV-2
 
