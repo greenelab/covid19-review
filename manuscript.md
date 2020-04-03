@@ -14,7 +14,7 @@ author-meta:
 bibliography:
 - content/manual-references.bib
 - content/manual-references.json
-date-meta: '2020-04-02'
+date-meta: '2020-04-03'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -33,9 +33,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
 
-  <meta name="dc.date" content="2020-04-02" />
+  <meta name="dc.date" content="2020-04-03" />
 
-  <meta name="citation_publication_date" content="2020-04-02" />
+  <meta name="citation_publication_date" content="2020-04-03" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -147,11 +147,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/b9c4ebddbb3c4c335aefe4bb2a9923a94e23bf9a/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/4b76116cfca4c9ce5eb0f12b098de969054870d1/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/b9c4ebddbb3c4c335aefe4bb2a9923a94e23bf9a/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/4b76116cfca4c9ce5eb0f12b098de969054870d1/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/b9c4ebddbb3c4c335aefe4bb2a9923a94e23bf9a/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/4b76116cfca4c9ce5eb0f12b098de969054870d1/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -184,10 +184,10 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/b9c4ebddbb3c4c335aefe4bb2a9923a94e23bf9a/))
+([permalink](https://greenelab.github.io/covid19-review/v/4b76116cfca4c9ce5eb0f12b098de969054870d1/))
 was automatically generated
-from [greenelab/covid19-review@b9c4ebd](https://github.com/greenelab/covid19-review/tree/b9c4ebddbb3c4c335aefe4bb2a9923a94e23bf9a)
-on April 2, 2020.
+from [greenelab/covid19-review@4b76116](https://github.com/greenelab/covid19-review/tree/4b76116cfca4c9ce5eb0f12b098de969054870d1)
+on April 3, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -467,7 +467,8 @@ Of note, the cryo-electron microscopy structure of the SARS-CoV-2 spike (S) glyc
 Even though no comprehensive proteomic analysis of the pathogen or of patients suffering from its infection has yet been reported, one forthcoming study has demonstrated SARS-CoV-2 infected host cell proteomics using human Caco–2 cells as an infection model [@doi:10.21203/rs.3.rs-17218/v1].
 The authors observed SARS-CoV-2 induced alterations in multiple vital physiological pathways, including translation, splicing, carbon metabolism and nucleic acid metabolism in the host cells.
 
-There is a high level of sequence homology between SARS-CoV-2 and SARS-CoV, and sera from convalescent SARS-CoV patients can effectively cross-neutralize SARS-CoV-2-S-driven entry [@doi:10.1016/j.cell.2020.02.052].
+There is a high level of sequence homology between SARS-CoV-2 and SARS-CoV, and sera from convalescent SARS-CoV patients might show some efficacy to cross-neutralize SARS-CoV-2-S-driven entry [@doi:10.1016/j.cell.2020.02.052].
+However, despite the high level of sequence homology, certain protein structures might be immunologically distinct, prohibiting effective cross-neutralization across different SARS strains [@doi:10.1101/2020.03.21.990770].
 Consequently, earlier proteome-level studies on SARS-CoV can also provide some essential information regarding the new pathogen [@doi:10.1073/pnas.0407992101; @doi:10.1016/j.bbrc.2004.02.074].
 Considering the paucity of omics-level big data sets for SARS-CoV-2 up until now, existing data hubs that contain information for other coronaviruses such as UniProt, NCBI Genome Database, The Immune Epitope Database and Analysis Resource (IEDB), and The Virus Pathogen Resource (ViPR) will serve as useful resources for computational and bioinformatics research on SARS-CoV-2.
 
