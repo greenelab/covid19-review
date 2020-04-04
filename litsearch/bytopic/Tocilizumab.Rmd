@@ -1,18 +1,18 @@
 ---
-title: "Track Remdesivir Literature"
-date: 2020-04-04 17:19:33
+title: "Track Tocilizumab Literature"
+date: 2020-04-04 17:19:35
 output: html_document
 knit: (function(input_file, encoding) {
   out_dir <- 'docs';
   rmarkdown::render(input_file,
  encoding=encoding,
- output_file=file.path('Remdesivir.html'))})
+ output_file=file.path('Tocilizumab.html'))})
 ---
 
-# Remdesivir
+# Tocilizumab
 
 The keywords used here are:
-Remdesivir, GS-5734, GS-441524, adenosine
+Tocilizumab, IL-6, interleukin-6
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -20,7 +20,7 @@ source('../R_Functions/Topic_Hub_Functions.R')
 library("readr")
 library("ggplot2")
 library("kableExtra")
-topic <- 'Remdesivir'
+topic <- 'Tocilizumab'
 ```
 
 ```{r load_data, include=FALSE}

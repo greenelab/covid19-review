@@ -1,26 +1,26 @@
 ---
-title: "Track Remdesivir Literature"
-date: 2020-04-04 17:19:33
+title: "Track KEYWORD Literature"
+date: RUNDATE
 output: html_document
 knit: (function(input_file, encoding) {
   out_dir <- 'docs';
   rmarkdown::render(input_file,
  encoding=encoding,
- output_file=file.path('Remdesivir.html'))})
+ output_file=file.path('KEYWORD.html'))})
 ---
 
-# Remdesivir
+# KEYWORD
 
 The keywords used here are:
-Remdesivir, GS-5734, GS-441524, adenosine
+ALLKW
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-source('../R_Functions/Topic_Hub_Functions.R')
+source('../R_Functions/Topic_hub_functions.R')
 library("readr")
 library("ggplot2")
 library("kableExtra")
-topic <- 'Remdesivir'
+topic <- 'KEYWORD'
 ```
 
 ```{r load_data, include=FALSE}
