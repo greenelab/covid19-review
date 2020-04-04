@@ -1,0 +1,79 @@
+---
+title: "Track Remdesivir Literature"
+author: "Halie Rando"
+date: "4/3/2020"
+output: html_document
+---
+
+# Remdesivir
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source("./TopicHubScripts.R")
+library("readr")
+library("ggplot2")
+library("kableExtra")
+```
+
+## Load Data for this Topic
+Make sure that the topic matches the therapeutic we're investigating here:
+```{r parameters}
+topic <- "Remdesivir"
+```
+
+To start, we need to load the most recent data for this topic.
+This section finds the most recent TSV file for this topic.
+
+```{r load_data}
+# Locate most recent file for this topic
+data_file <- topicCheck(topic)
+
+# Load the data
+topic_data <- read_tsv(data_file)
+
+# Check how old the data are:
+print(paste((Sys.Date() - query_date), "days since data was updated"))
+```
+
+## Tracking the Papers
+
+Run this code to display all of the papers we currently have in the system:
+```{r printTSV}
+knitr::kable(topic_data[,c("DateAdded", "DOI", "Title", "Journal/Publisher",
+                           "Issue", "Reviewers", "PRs")]) %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+```
+
+## Record New Information
+
+Enter all of the information here (leave blank if you don't have it):
+```{r Update}
+# Type your information here. Title is required!
+title <- "" # must exactly copy the title from the table above
+issue <- "" # if you are adding a paper review, put the issue number here (eg 122)
+reviewer <- "" # if you are adding a reviewer, put the username here
+pull_request <- "" # if you are adding a PR, put the number here (eg 123)
+
+# Don't type below this line ---------------------------------------------------
+
+addData(topic_data, title, issue, reviewer, pull_request, data_file)
+
+```
+
+## Visualizing Number of Papers
+
+Knowlege about COVID-19 is moving quickly, and certain topics are gaining attention at different times. 
+Run the code below to visualize how many papers the CDC has added on this topic each day.
+
+```{r pressure, echo=FALSE}
+p <- ggplot(topic_data, aes(x=DateAdded)) + 
+  geom_histogram(bins = as.numeric(difftime(Sys.Date(), as.Date("2020-03-20"),
+                                            units="days"))) + 
+  labs(y = "Count", x = "Date, 2020", 
+       title = paste("CDC's Daily Number of Tracked Papers on", topic),
+       subtitle = "Since March 20, 2020") +
+  theme(plot.title = element_text(hjust = 0.5),
+        plot.subtitle = element_text(hjust = 0.5)) 
+
+print(p)
+```

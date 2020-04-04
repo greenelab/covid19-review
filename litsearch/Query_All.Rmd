@@ -1,0 +1,40 @@
+---
+title: "Track COVID-19 Literature"
+author: "Halie Rando"
+date: "4/3/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set
+source("CDC_query_functions.R")
+```
+
+## Pull Up-To-Date List of Papers
+
+Run the code below to query the CDC website for the most up-to-date list of papers related to COVID-19.
+
+```{R updatedb}
+# Go to CDC website and download the most recent list of papers
+COVID19_data <- getdata()
+print(paste("Database last updated at", Sys.time(), "and contains", 
+            nrow(COVID19_data), "papers"))
+```
+
+## Identify Papers for Each Therapeutic
+
+Below, for each therapeutic, call the `findpapers` function.
+This will search through the most recent CDC list for all papers containing your keywords of interest.
+You must specify a vector of keywords (in R, a vector is what we'd conversationally call a list).
+The therapeutic itself should be the first keyword.
+The format will look like this:
+`findpapers(c("Remdesivir", "GS-5734", "GS-441524", "adenosine"))`
+We are assuming each keyword is one word and < 100 characters. 
+Please don't use any unnecessary capitalization.
+Each call of findpapers() will generate a separate csv output file.
+
+```{r grabkwds}
+findpapers(c("Remdesivir", "GS-5734", "GS-441524", "adenosine"))
+```
+
+Now navigate to the [`bytopic`](bytopic) folder to explore each therapeutic individually.
