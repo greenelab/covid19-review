@@ -129,7 +129,7 @@ header-includes: '<!--
 
   <meta name="citation_author" content="Anna Ada Dattoli" />
 
-  <meta name="citation_author_institution" content="-Department of Systems Pharmacology &amp; Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA" />
+  <meta name="citation_author_institution" content="Department of Systems Pharmacology &amp; Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA" />
 
   <meta name="citation_author_orcid" content="0000-0003-1462-831X" />
 
@@ -147,11 +147,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/b832ef679c60bede300f7d4ec75b5eac5af9a04d/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/12b1fea5186abcef3c1067bccdd192e479e14271/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/b832ef679c60bede300f7d4ec75b5eac5af9a04d/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/12b1fea5186abcef3c1067bccdd192e479e14271/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/b832ef679c60bede300f7d4ec75b5eac5af9a04d/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/12b1fea5186abcef3c1067bccdd192e479e14271/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -184,9 +184,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/b832ef679c60bede300f7d4ec75b5eac5af9a04d/))
+([permalink](https://greenelab.github.io/covid19-review/v/12b1fea5186abcef3c1067bccdd192e479e14271/))
 was automatically generated
-from [greenelab/covid19-review@b832ef6](https://github.com/greenelab/covid19-review/tree/b832ef679c60bede300f7d4ec75b5eac5af9a04d)
+from [greenelab/covid19-review@12b1fea](https://github.com/greenelab/covid19-review/tree/12b1fea5186abcef3c1067bccdd192e479e14271)
 on April 4, 2020.
 </em></small>
 
@@ -315,7 +315,7 @@ Instead, you should collect information from your local health department, the [
     · ![Twitter icon](images/twitter.svg){.inline_icon}
     [aadattoli](https://twitter.com/aadattoli)<br>
   <small>
-     -Department of Systems Pharmacology & Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
+     Department of Systems Pharmacology & Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
   </small>
 
 
@@ -1101,7 +1101,7 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 |Sadipan Ray|Writing - Original Draft|
 |Lucy D\'Agostino McGowan|Methodology, Writing - Original Draft|
 |Anthony Gitter|Methodology|
-|Anna Ada Dattoli|Writing- original draft|
+|Anna Ada Dattoli|Writing - Original Draft|
 
 
 ## References {.page_break_before}
