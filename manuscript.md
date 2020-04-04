@@ -11,6 +11,7 @@ author-meta:
 - Lucy D\'Agostino McGowan
 - Anthony Gitter
 - Anna Ada Dattoli
+- Ryan Velazquez
 bibliography:
 - content/manual-references.bib
 - content/manual-references.json
@@ -135,6 +136,12 @@ header-includes: '<!--
 
   <meta name="twitter:creator" content="@aadattoli" />
 
+  <meta name="citation_author" content="Ryan Velazquez" />
+
+  <meta name="citation_author_institution" content="Azimuth1, McLean, VA" />
+
+  <meta name="citation_author_orcid" content="0000-0002-3655-3403" />
+
   <link rel="canonical" href="https://greenelab.github.io/covid19-review/" />
 
   <meta property="og:url" content="https://greenelab.github.io/covid19-review/" />
@@ -147,11 +154,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/12b1fea5186abcef3c1067bccdd192e479e14271/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/df75ad492907babee515c40d1cd2c6c39370639e/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/12b1fea5186abcef3c1067bccdd192e479e14271/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/df75ad492907babee515c40d1cd2c6c39370639e/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/12b1fea5186abcef3c1067bccdd192e479e14271/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/df75ad492907babee515c40d1cd2c6c39370639e/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -184,9 +191,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/12b1fea5186abcef3c1067bccdd192e479e14271/))
+([permalink](https://greenelab.github.io/covid19-review/v/df75ad492907babee515c40d1cd2c6c39370639e/))
 was automatically generated
-from [greenelab/covid19-review@12b1fea](https://github.com/greenelab/covid19-review/tree/12b1fea5186abcef3c1067bccdd192e479e14271)
+from [greenelab/covid19-review@df75ad4](https://github.com/greenelab/covid19-review/tree/df75ad492907babee515c40d1cd2c6c39370639e)
 on April 4, 2020.
 </em></small>
 
@@ -316,6 +323,15 @@ Instead, you should collect information from your local health department, the [
     [aadattoli](https://twitter.com/aadattoli)<br>
   <small>
      Department of Systems Pharmacology & Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
+  </small>
+
++ **Ryan Velazquez**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-3655-3403](https://orcid.org/0000-0002-3655-3403)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [rdvelazquez](https://github.com/rdvelazquez)<br>
+  <small>
+     Azimuth1, McLean, VA
   </small>
 
 
@@ -1086,6 +1102,7 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 |Lucy D\'Agostino McGowan|None|2020-03-26|
 |Anthony Gitter|None|2020-03-26|
 |Anna Ada Dattoli|None|2020-03-26|
+|Ryan Velazquez|None|2020-04-04|
 
 ### Author Contributions
 
@@ -1102,6 +1119,7 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 |Lucy D\'Agostino McGowan|Methodology, Writing - Original Draft|
 |Anthony Gitter|Methodology|
 |Anna Ada Dattoli|Writing - Original Draft|
+|Ryan Velazquez|Methodology|
 
 
 ## References {.page_break_before}
