@@ -169,4 +169,17 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-03-26
- 
+ -
+    github: rdvelazquez
+    name: Ryan Velazquez
+    initials: RV
+    orcid: 0000-0002-3655-3403
+    email: rnhvelazquez@gmail.com
+    contributions:
+      - Methodology
+    affiliations:
+      - Azimuth1, McLean, VA
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-04-04  
+
