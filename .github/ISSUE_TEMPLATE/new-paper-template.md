@@ -21,7 +21,7 @@ Link:
 
 Citation:
 
-### Is this paper primarily relevant to Background or Pathogesis? 
+### Is this paper primarily relevant to Background or Pathogenesis? 
 <!--Replace the empty brackets below with [x].
 If it's primarily relevant to Diagnostics or Therapeutics, please go back and use the associated template-->
 - [ ] Background
