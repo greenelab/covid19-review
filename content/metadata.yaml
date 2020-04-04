@@ -169,7 +169,7 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-03-26
- -
+  -
     github: rdvelazquez
     name: Ryan Velazquez
     initials: RV
