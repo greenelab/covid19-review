@@ -17,6 +17,7 @@ authors:
     contributions:
       - Project Administration
       - Writing - Original Draft
+      - Writing - Review & Editing
       - Methodology
     affiliations:
       - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
@@ -75,6 +76,7 @@ authors:
     email: nilsw@pennmedicine.upenn.edu
     contributions:
       - Writing - Original Draft
+      - Writing - Review & Editing
     affiliations:
       - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
     coi:
@@ -89,6 +91,7 @@ authors:
     email: ronan.lordan@pennmedicine.upenn.edu
     contributions: 
       - Writing - Original Draft
+      - Writing - Review & Editing
     affiliations:
       - Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104-5158, USA
     coi:
@@ -152,3 +155,31 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-03-26
+  -
+    github: aadattoli
+    name: Anna Ada Dattoli
+    initials: AAD
+    orcid: 0000-0003-1462-831X
+    twitter: aadattoli
+    email: annaada.dattoli@gmail.com
+    contributions:
+      - Writing - Original Draft
+    affiliations:
+      - Department of Systems Pharmacology & Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-03-26
+  -
+    github: rdvelazquez
+    name: Ryan Velazquez
+    initials: RV
+    orcid: 0000-0002-3655-3403
+    email: rnhvelazquez@gmail.com
+    contributions:
+      - Methodology
+    affiliations:
+      - Azimuth1, McLean, VA
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-04-04  
+
