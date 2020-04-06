@@ -12,6 +12,7 @@ author-meta:
 - Anthony Gitter
 - Anna Ada Dattoli
 - Ryan Velazquez
+- John P. Barton
 - Jeffrey M. Field
 bibliography:
 - content/manual-references.bib
@@ -143,6 +144,14 @@ header-includes: '<!--
 
   <meta name="citation_author_orcid" content="0000-0002-3655-3403" />
 
+  <meta name="citation_author" content="John P. Barton" />
+
+  <meta name="citation_author_institution" content="Department of Physics and Astronomy, University of California-Riverside, Riverside, California, United States of America" />
+
+  <meta name="citation_author_orcid" content="0000-0003-1467-421X" />
+
+  <meta name="twitter:creator" content="@_jpbarton" />
+
   <meta name="citation_author" content="Jeffrey M. Field" />
 
   <meta name="citation_author_institution" content="Department of Pharmacology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA" />
@@ -161,11 +170,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/fcd62e6782794c856f98c8c00b926e6c0ecd56f7/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/4f4b409bf4d0646bd7660bbf51b2464f627de751/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/fcd62e6782794c856f98c8c00b926e6c0ecd56f7/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/4f4b409bf4d0646bd7660bbf51b2464f627de751/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/fcd62e6782794c856f98c8c00b926e6c0ecd56f7/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/4f4b409bf4d0646bd7660bbf51b2464f627de751/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -198,9 +207,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/fcd62e6782794c856f98c8c00b926e6c0ecd56f7/))
+([permalink](https://greenelab.github.io/covid19-review/v/4f4b409bf4d0646bd7660bbf51b2464f627de751/))
 was automatically generated
-from [greenelab/covid19-review@fcd62e6](https://github.com/greenelab/covid19-review/tree/fcd62e6782794c856f98c8c00b926e6c0ecd56f7)
+from [greenelab/covid19-review@4f4b409](https://github.com/greenelab/covid19-review/tree/4f4b409bf4d0646bd7660bbf51b2464f627de751)
 on April 6, 2020.
 </em></small>
 
@@ -339,6 +348,17 @@ Instead, you should collect information from your local health department, the [
     [rdvelazquez](https://github.com/rdvelazquez)<br>
   <small>
      Azimuth1, McLean, VA
+  </small>
+
++ **John P. Barton**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0003-1467-421X](https://orcid.org/0000-0003-1467-421X)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [johnbarton](https://github.com/johnbarton)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [_jpbarton](https://twitter.com/_jpbarton)<br>
+  <small>
+     Department of Physics and Astronomy, University of California-Riverside, Riverside, California, United States of America
   </small>
 
 + **Jeffrey M. Field**<br>
@@ -1119,6 +1139,7 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 |Anthony Gitter|None|2020-03-26|
 |Anna Ada Dattoli|None|2020-03-26|
 |Ryan Velazquez|None|2020-04-04|
+|John P. Barton|None|2020-04-06|
 |Jeffrey M. Field|None|2020-03-30|
 
 ### Author Contributions
@@ -1137,6 +1158,7 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 |Anthony Gitter|Methodology|
 |Anna Ada Dattoli|Writing - Original Draft|
 |Ryan Velazquez|Methodology|
+|John P. Barton|Writing - Original Draft, Writing - Review & Editing|
 |Jeffrey M. Field|Writing - Original Draft|
 
 
