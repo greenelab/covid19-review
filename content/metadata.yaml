@@ -221,7 +221,7 @@ authors:
       - Investigation
       - Writing - Review & Editing
     affiliations:
-      - The DeepChem Project (https://deepchem.io/)
+      - The DeepChem Project, https://deepchem.io/
     coi:
       string: "None"
       lastapproved: !!str 2020-04-06
