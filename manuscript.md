@@ -154,11 +154,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/ac493736fb134779ce7eaccdad0f05a0e131539c/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/0bf3c2bdc077dffbf0ffcacfe69dc644eee547cf/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/ac493736fb134779ce7eaccdad0f05a0e131539c/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/0bf3c2bdc077dffbf0ffcacfe69dc644eee547cf/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/ac493736fb134779ce7eaccdad0f05a0e131539c/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/0bf3c2bdc077dffbf0ffcacfe69dc644eee547cf/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -191,9 +191,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/ac493736fb134779ce7eaccdad0f05a0e131539c/))
+([permalink](https://greenelab.github.io/covid19-review/v/0bf3c2bdc077dffbf0ffcacfe69dc644eee547cf/))
 was automatically generated
-from [greenelab/covid19-review@ac49373](https://github.com/greenelab/covid19-review/tree/ac493736fb134779ce7eaccdad0f05a0e131539c)
+from [greenelab/covid19-review@0bf3c2b](https://github.com/greenelab/covid19-review/tree/0bf3c2bdc077dffbf0ffcacfe69dc644eee547cf)
 on April 6, 2020.
 </em></small>
 
@@ -495,8 +495,8 @@ Considering the paucity of omics-level big data sets for SARS-CoV-2 up until now
 
 Given the dramatic turn of the novel Coronavirus infection, the development of reliable assays to detect SARS-CoV-2 is vitally important. 
 For instance, the capability of a large scale diagnostic test and the following isolation of the infected people has been a key factor for the successful strategy of South Korea in the control of the virus spread. 
-Following the first release of the genetic sequence of the virus by Chinese officials on January 10 2020, the first test was released on January 23 [doi.org/10.2807/1560-7917.ES.2020.25.3.2000045]. 
-These tests used the following approach to identify the active virus in patient samples.
+Following the first release of the genetic sequence of the virus by Chinese officials on January 10 2020, the first test was released about 13 days later [doi.org/10.2807/1560-7917.ES.2020.25.3.2000045]. 
+Testing who contracted the infection is crucial to slow down the global pandemic. The available assays use the following approach to identify the active virus in patient samples.
 
 RT-PCR 
 
@@ -540,6 +540,22 @@ Limitation of CRISPR test
 
 Fake-positives due to the specificity of the technique, as the guide RNA can recognise other interspersed sequences on the patient’s genome.
 
+Sierological tests
+
+Despite diagnostic tests based on the detection of the genetic material can be quite sensitive, they cannot provide information about the real extent of the disease. In fact, they would not work on a recovered patient who defeated the virus. 
+In this context, immunity tests can be significantly more informative. 
+In fact, they can help scientists figuring out why the disease has different course among patients, as well as what strategy might work to manage the spread of the infection. 
+Furthermore, sierological tests are crucial for the economic re-start of the hit area. 
+For instance, people that have developed antibodies can return to work prior to the others, helping to develop the herd immunity which will prevent further diffusion of the virus.
+Several countries are now focused on implementing antibody tests and the FDA recently approved a sierological test by Cellex under emergency condition [https://www.fda.gov/media/136625/download].
+Specifically, the Cellex qSARS-CoV-2 IgG/IgM Rapid Test is a chromatographic immunoassay designed to qualitatively detect IgM and IgG antibodies against SARS-Cov-2 in the plasma of patients suspected to have developed the infection [https://www.fda.gov/media/136625/download]. 
+Such test allows to understand the progress of the viral disease. Specifically, IgM are the first antibodies produced by the body and indicate that the infection is in action. 
+Once the body has responded to the infection, IgG are produced and gradually replace IgM, indicating that the body has developed immunogenic memory [doi.org/10.1002/jmv.25820]. 
+The test cassette contains a pad of SARS-Cov-2 antigens, a ntrocellulose strip with an IgG line, IgM line and a control line (goat IgG) [https://www.fda.gov/media/136625/download].
+When the patient's specimen contains antibody against COVID-19 antigens they will bind to them and capture either by the IgM and or IgG line, with the result of a change of color [https://www.fda.gov/media/136625/download]. 
+With this particular assay results can be read within 15-20 minutes [https://www.fda.gov/media/136625/download]. 
+Importantly, false-positives can occur due to the cross-reactivity with other antibodies according to the clinical condition of the patient [https://www.fda.gov/media/136625/download]. 
+Therefore, this test should be used in combination with those RNA detection tests [https://www.fda.gov/media/136625/download]. 
 
 ### Possible Alternatives to Current Practices for Identifying Active Cases
 
