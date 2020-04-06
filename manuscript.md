@@ -14,6 +14,7 @@ author-meta:
 - Ryan Velazquez
 - John P. Barton
 - Jeffrey M. Field
+- Bharath Ramsundar
 - Adam L. MacLean
 bibliography:
 - content/manual-references.bib
@@ -159,6 +160,14 @@ header-includes: '<!--
 
   <meta name="citation_author_orcid" content="000-0001-7161-7284" />
 
+  <meta name="citation_author" content="Bharath Ramsundar" />
+
+  <meta name="citation_author_institution" content="The DeepChem Project, https://deepchem.io/" />
+
+  <meta name="citation_author_orcid" content="0000-0001-8450-4262" />
+
+  <meta name="twitter:creator" content="@rbhar90" />
+
   <meta name="citation_author" content="Adam L. MacLean" />
 
   <meta name="citation_author_institution" content="Department of Biological Sciences, University of Southern California, Los Angeles, California, United States of America" />
@@ -179,11 +188,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/a6ef91dc3c7f8f2c1bc1f19bb449b7eb1cf9e271/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/b2bbd3b58b9a996b0f565d00d9551754680cb252/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/a6ef91dc3c7f8f2c1bc1f19bb449b7eb1cf9e271/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/b2bbd3b58b9a996b0f565d00d9551754680cb252/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/a6ef91dc3c7f8f2c1bc1f19bb449b7eb1cf9e271/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/b2bbd3b58b9a996b0f565d00d9551754680cb252/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -216,9 +225,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/a6ef91dc3c7f8f2c1bc1f19bb449b7eb1cf9e271/))
+([permalink](https://greenelab.github.io/covid19-review/v/b2bbd3b58b9a996b0f565d00d9551754680cb252/))
 was automatically generated
-from [greenelab/covid19-review@a6ef91d](https://github.com/greenelab/covid19-review/tree/a6ef91dc3c7f8f2c1bc1f19bb449b7eb1cf9e271)
+from [greenelab/covid19-review@b2bbd3b](https://github.com/greenelab/covid19-review/tree/b2bbd3b58b9a996b0f565d00d9551754680cb252)
 on April 6, 2020.
 </em></small>
 
@@ -377,6 +386,17 @@ Instead, you should collect information from your local health department, the [
     [Jeff-Field](https://github.com/Jeff-Field)<br>
   <small>
      Department of Pharmacology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
+  </small>
+
++ **Bharath Ramsundar**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0001-8450-4262](https://orcid.org/0000-0001-8450-4262)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [rbharath](https://github.com/rbharath)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [rbhar90](https://twitter.com/rbhar90)<br>
+  <small>
+     The DeepChem Project, https://deepchem.io/
   </small>
 
 + **Adam L. MacLean**<br>
@@ -1188,6 +1208,7 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 |Ryan Velazquez|None|2020-04-04|
 |John P. Barton|None|2020-04-06|
 |Jeffrey M. Field|None|2020-03-30|
+|Bharath Ramsundar|None|2020-04-06|
 |Adam L. MacLean|None|2020-04-06|
 
 ### Author Contributions
@@ -1208,6 +1229,7 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 |Ryan Velazquez|Methodology|
 |John P. Barton|Writing - Original Draft, Writing - Review & Editing|
 |Jeffrey M. Field|Writing - Original Draft|
+|Bharath Ramsundar|Investigation, Writing - Review & Editing|
 |Adam L. MacLean|Writing - Original Draft|
 
 
