@@ -183,6 +183,21 @@ authors:
       string: "None"
       lastapproved: !!str 2020-04-04  
   -
+    github: johnbarton
+    name: John P. Barton
+    initials: JPB
+    orcid: 0000-0003-1467-421X
+    twitter: _jpbarton
+    email: john.barton@ucr.edu
+    contributions:
+      - Writing - Original Draft
+      - Writing - Review & Editing
+    affiliations:
+      - Department of Physics and Astronomy, University of California-Riverside, Riverside, California, United States of America
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-04-06
+  -
     github: Jeff-Field
     name: Jeffrey M. Field
     initials: JMF
