@@ -182,4 +182,28 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-04-04  
-
+  -
+    github: jeff-field
+    name: Jeffrey Field
+    initials: RV
+    orcid: 0000-0002-3655-3403
+    email: rnhvelazquez@gmail.com
+    contributions:
+      - Methodology
+    affiliations:
+      - Azimuth1, McLean, VA
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-04-04  
+  -    
+    github: Jeff-Field
+    name: Jeffrey M. Field
+    initials: JMF
+    orcid: 000-0001-7161-7284
+    email: jfield@upenn.edu
+    contributions:
+      - Writing - Original Draft
+    affiliations:
+      - Department of Pharmacology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
+    conflict of interest: None   
+    date: 2020-03-30
