@@ -225,3 +225,18 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-04-06
+  -
+    github: alavendelm
+    name: Adam L. MacLean
+    initials: ALM
+    orcid: 0000-0003-0689-7907
+    twitter: adamlmaclean
+    email: macleana@usc.edu
+    contributions:
+      - Writing - Original Draft
+    affiliations:
+      - Department of Biological Sciences, University of Southern California, Los Angeles, California, United States of America
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-04-06
+
