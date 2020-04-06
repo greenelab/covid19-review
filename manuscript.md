@@ -12,6 +12,7 @@ author-meta:
 - Anthony Gitter
 - Anna Ada Dattoli
 - Ryan Velazquez
+- Jeffrey M. Field
 bibliography:
 - content/manual-references.bib
 - content/manual-references.json
@@ -142,6 +143,12 @@ header-includes: '<!--
 
   <meta name="citation_author_orcid" content="0000-0002-3655-3403" />
 
+  <meta name="citation_author" content="Jeffrey M. Field" />
+
+  <meta name="citation_author_institution" content="Department of Pharmacology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA" />
+
+  <meta name="citation_author_orcid" content="000-0001-7161-7284" />
+
   <link rel="canonical" href="https://greenelab.github.io/covid19-review/" />
 
   <meta property="og:url" content="https://greenelab.github.io/covid19-review/" />
@@ -154,11 +161,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/f3926221a7a41c4d02d34d1fc3112fdfb95bdb1b/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/fcd62e6782794c856f98c8c00b926e6c0ecd56f7/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/f3926221a7a41c4d02d34d1fc3112fdfb95bdb1b/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/fcd62e6782794c856f98c8c00b926e6c0ecd56f7/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/f3926221a7a41c4d02d34d1fc3112fdfb95bdb1b/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/fcd62e6782794c856f98c8c00b926e6c0ecd56f7/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -191,9 +198,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/f3926221a7a41c4d02d34d1fc3112fdfb95bdb1b/))
+([permalink](https://greenelab.github.io/covid19-review/v/fcd62e6782794c856f98c8c00b926e6c0ecd56f7/))
 was automatically generated
-from [greenelab/covid19-review@f392622](https://github.com/greenelab/covid19-review/tree/f3926221a7a41c4d02d34d1fc3112fdfb95bdb1b)
+from [greenelab/covid19-review@fcd62e6](https://github.com/greenelab/covid19-review/tree/fcd62e6782794c856f98c8c00b926e6c0ecd56f7)
 on April 6, 2020.
 </em></small>
 
@@ -332,6 +339,15 @@ Instead, you should collect information from your local health department, the [
     [rdvelazquez](https://github.com/rdvelazquez)<br>
   <small>
      Azimuth1, McLean, VA
+  </small>
+
++ **Jeffrey M. Field**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [000-0001-7161-7284](https://orcid.org/000-0001-7161-7284)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [Jeff-Field](https://github.com/Jeff-Field)<br>
+  <small>
+     Department of Pharmacology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
   </small>
 
 
@@ -1103,6 +1119,7 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 |Anthony Gitter|None|2020-03-26|
 |Anna Ada Dattoli|None|2020-03-26|
 |Ryan Velazquez|None|2020-04-04|
+|Jeffrey M. Field|None|2020-03-30|
 
 ### Author Contributions
 
@@ -1120,6 +1137,7 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 |Anthony Gitter|Methodology|
 |Anna Ada Dattoli|Writing - Original Draft|
 |Ryan Velazquez|Methodology|
+|Jeffrey M. Field|Writing - Original Draft|
 
 
 ## References {.page_break_before}
