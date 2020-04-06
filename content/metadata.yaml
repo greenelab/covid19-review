@@ -211,6 +211,21 @@ authors:
       string: "None"  
       lastapproved: !!str 2020-03-30 
   -
+    github: rbharath
+    name: Bharath Ramsundar
+    initials: BR
+    orcid: 0000-0001-8450-4262
+    twitter: rbhar90
+    email: bharath.ramsundar@gmail.com
+    contributions:
+      - Investigation
+      - Writing - Review & Editing
+    affiliations:
+      - The DeepChem Project, https://deepchem.io/
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-04-06
+  -
     github: alavendelm
     name: Adam L. MacLean
     initials: ALM
@@ -224,4 +239,4 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-04-06
-      
+
