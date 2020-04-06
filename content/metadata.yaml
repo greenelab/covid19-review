@@ -163,10 +163,23 @@ authors:
     twitter: aadattoli
     email: annaada.dattoli@gmail.com
     contributions:
-      - Writing- original draft 
+      - Writing - Original Draft
     affiliations:
-      -Department of Systems Pharmacology & Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA 
+      - Department of Systems Pharmacology & Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
     coi:
       string: "None"
       lastapproved: !!str 2020-03-26
- 
+  -
+    github: rdvelazquez
+    name: Ryan Velazquez
+    initials: RV
+    orcid: 0000-0002-3655-3403
+    email: rnhvelazquez@gmail.com
+    contributions:
+      - Methodology
+    affiliations:
+      - Azimuth1, McLean, VA
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-04-04  
+
