@@ -188,11 +188,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/61017256c09a6f46ed7e0e506a5e8d868a2a124c/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/14dac34ad5f30fc2ce56597d4e5949b7f321adb2/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/61017256c09a6f46ed7e0e506a5e8d868a2a124c/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/14dac34ad5f30fc2ce56597d4e5949b7f321adb2/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/61017256c09a6f46ed7e0e506a5e8d868a2a124c/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/14dac34ad5f30fc2ce56597d4e5949b7f321adb2/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -225,9 +225,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/61017256c09a6f46ed7e0e506a5e8d868a2a124c/))
+([permalink](https://greenelab.github.io/covid19-review/v/14dac34ad5f30fc2ce56597d4e5949b7f321adb2/))
 was automatically generated
-from [greenelab/covid19-review@6101725](https://github.com/greenelab/covid19-review/tree/61017256c09a6f46ed7e0e506a5e8d868a2a124c)
+from [greenelab/covid19-review@14dac34](https://github.com/greenelab/covid19-review/tree/14dac34ad5f30fc2ce56597d4e5949b7f321adb2)
 on April 7, 2020.
 </em></small>
 
@@ -881,7 +881,7 @@ Vitamin C can be obtained via dietary sources such as fruit and vegetable or via
 Vitamin C plays a signifiant role in promoting immune function due to its effects on various immune cells. 
 Vitamin C affects inflammation by modulating cytokine production, decreasing histamine levels, enhancing the differentiation and proliferation of T- and B-lymphocytes, increasing antibody levels, and protecting against the negative effects of reactive oxygen species amongst other effects [@doi:10.1155/2014/426740; @doi:10.1007/s00210-013-0880-1; @doi:10.3390/nu9111211]. 
 During viral infections vitamin C is utilised as evinced by lower concentrations in leukocytes and lower concentrations of urinary vitamin C. 
-Post-infection, these levels return to baseline ranges [@doi:10.1177/003693307301800102; @doi:10.1111/j.1749-6632.1975.tb29312.x; @doi:10.1016/0006-2944(79)90058-9; @doi:10.3390/nu9040339; @doi:10.1079/bjn19920004]. 
+Post-infection, these levels return to baseline ranges [@doi:10.1177/003693307301800102; @doi:10.1111/j.1749-6632.1975.tb29312.x; @doi:10/fd22sv; @doi:10.3390/nu9040339; @doi:10.1079/bjn19920004]. 
 
 ###### Current Evidence
 
