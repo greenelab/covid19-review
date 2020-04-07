@@ -16,6 +16,7 @@ author-meta:
 - Jeffrey M. Field
 - Bharath Ramsundar
 - Adam L. MacLean
+- Alexandra J. Lee
 bibliography:
 - content/manual-references.bib
 - content/manual-references.json
@@ -176,6 +177,12 @@ header-includes: '<!--
 
   <meta name="twitter:creator" content="@adamlmaclean" />
 
+  <meta name="citation_author" content="Alexandra J. Lee" />
+
+  <meta name="citation_author_institution" content="Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America" />
+
+  <meta name="citation_author_orcid" content="0000-0002-0208-3730" />
+
   <link rel="canonical" href="https://greenelab.github.io/covid19-review/" />
 
   <meta property="og:url" content="https://greenelab.github.io/covid19-review/" />
@@ -188,11 +195,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/5ac11002700d669a9edb42a67d44261a2e5ac872/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/663d725721c8b126aa2e6e878d7bf234da91701b/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/5ac11002700d669a9edb42a67d44261a2e5ac872/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/663d725721c8b126aa2e6e878d7bf234da91701b/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/5ac11002700d669a9edb42a67d44261a2e5ac872/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/663d725721c8b126aa2e6e878d7bf234da91701b/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -225,9 +232,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/5ac11002700d669a9edb42a67d44261a2e5ac872/))
+([permalink](https://greenelab.github.io/covid19-review/v/663d725721c8b126aa2e6e878d7bf234da91701b/))
 was automatically generated
-from [greenelab/covid19-review@5ac1100](https://github.com/greenelab/covid19-review/tree/5ac11002700d669a9edb42a67d44261a2e5ac872)
+from [greenelab/covid19-review@663d725](https://github.com/greenelab/covid19-review/tree/663d725721c8b126aa2e6e878d7bf234da91701b)
 on April 7, 2020.
 </em></small>
 
@@ -408,6 +415,16 @@ Instead, you should collect information from your local health department, the [
     [adamlmaclean](https://twitter.com/adamlmaclean)<br>
   <small>
      Department of Biological Sciences, University of Southern California, Los Angeles, California, United States of America
+  </small>
+
++ **Alexandra J. Lee**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-0208-3730](https://orcid.org/0000-0002-0208-3730)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [ajlee21](https://github.com/ajlee21)<br>
+  <small>
+     Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+     · Funded by the Gordon and Betty Moore Foundation (GBMF 4552)
   </small>
 
 
@@ -1214,6 +1231,7 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 |Jeffrey M. Field|None|2020-03-30|
 |Bharath Ramsundar|None|2020-04-06|
 |Adam L. MacLean|None|2020-04-06|
+|Alexandra J. Lee|None|2020-04-07|
 
 ### Author Contributions
 
@@ -1235,6 +1253,7 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 |Jeffrey M. Field|Writing - Original Draft|
 |Bharath Ramsundar|Investigation, Writing - Review & Editing|
 |Adam L. MacLean|Writing - Original Draft|
+|Alexandra J. Lee|Writing - Original Draft|
 
 
 ## References {.page_break_before}
