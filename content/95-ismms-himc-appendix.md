@@ -52,13 +52,26 @@ at the Immunology Institute of the Icahn School of Medicine, Mount
 Sinai.*
 
 
-**Integrative Bioinformatics Analysis Provides Insight into the
-Molecular Mechanisms of 2019-nCoV**
+### Integrative Bioinformatics Analysis Provides Insight into the Molecular Mechanisms of 2019-nCoV
 
-**ACE2; lungs; smoking; COPD; asthma; SARS-Cov; IL-1; IL-10; IL-6;
-IL-8;**
+He et al. *medRxiv* [@doi:10.1101/2020.02.03.20020206]
 
-**SUMMARY:** The authors used bioinformatics tools to identify features
+#### Keywords
+
+- ACE2
+- lungs
+- smoking
+- COPD
+- asthma
+- SARS-Cov
+- IL-1
+- IL-10
+- IL-6
+- IL-8
+
+#### Main Findings
+
+The authors used bioinformatics tools to identify features
 of ACE2 expression in the lungs of different patent groups: healthy,
 smokers, patients with chronic airway disease (i.e., COPD) or asthma.
 They used gene expression data publicly available from GEO that included
@@ -106,7 +119,9 @@ that the increased expression of ACE2 affected RPS3 and SRC, which were
 the two hub genes involved in viral replication and inflammatory
 response.
 
-**LIMITATIONS:** The methods section is very limited and does not
+#### Limitations
+
+The methods section is very limited and does not
 describe any of the statistical analyses; and description of the
 construction of the regulatory protein networks is also limited. For the
 findings in Figures 2 authors claim significance, which is not supported
@@ -128,20 +143,20 @@ included data on SARS-Cov and any conclusions about SARS-CoV2 are
 limited.
 
 Upon checking GSE accession numbers of the datasets references, two
-might not be cited correctly: GSE37758 (*“A spergillus niger: Control
-(fructose) vs. steam-exploded sugarcane induction (SEB)”* was used in
-this paper as “lung tissue” data) and GSE14700 (“*Steroid Pretreatment
+might not be cited correctly: GSE37758 ("A spergillus niger: Control
+(fructose) vs. steam-exploded sugarcane induction (SEB)"" was used in
+this paper as “lung tissue” data) and GSE14700 ("Steroid Pretreatment
 of Organ Donors to Prevent Postischemic Renal Allograft Failure: A
-Randomized, Controlled Tria*l” – was used as SARS-Cov infection data).
+Randomized, Controlled Trial" – was used as SARS-Cov infection data).
 
-*This review was undertaken as part of a project by students, postdocs
-and faculty at the Immunology Institute of the Icahn school of medicine,
-Mount Sinai.*
+#### Credit
+
+*This review was undertaken as part of a project by students, postdocs and faculty at the Immunology Institute of the Icahn School of Medicine, Mount Sinai.*
 
 
 ### Diarrhea may be underestimated: a missing link in 2019 novel coronavirus
 
-Liang et al. *medRxiv* [@doi:10.1101/2020.02.03.20020289v2]
+Liang et al. *medRxiv* [@doi:10.1101/2020.02.03.20020289]
 
 #### Keywords
 
@@ -207,7 +222,7 @@ clinical management and control of COVID19.
 
 ### Diarrhea may be underestimated: a missing link in 2019 novel coronavirus
 
-Liang et al. *medRxiv* [@doi:10.1101/2020.02.03.20020289v2]
+Liang et al. *medRxiv* [@doi:10.1101/2020.02.03.20020289]
 
 #### Keywords
 
@@ -561,7 +576,7 @@ Lin et al. *bioRxiv* [@doi:10.1101/2020.02.08.939892]
     viral-induced damage.
 
 -   SARS-CoV and MERS-CoV have been shown to be detected in urine of
-    patients and associate with higher mortality [@doi:10.1111/j.1523-1755.2005.67130; @doi:10.7326/m13-2486], thus worth
+    patients and associate with higher mortality [@doi:10.1111/j.1523-1755.2005.67130.x; @doi:10.7326/m13-2486], thus worth
     understanding kidney damage and resultant immune response in
     SARS-CoV-2 as well.
 
@@ -581,7 +596,7 @@ Lin et al. *bioRxiv* [@doi:10.1101/2020.02.08.939892]
 
 ### Neutrophil-to-Lymphocyte Ratio Predicts Severe Illness Patients with 2019 Novel Coronavirus in the Early Stage
 
-Liu et al. *medRxiv* [@doi:10.1101/2020.02.10.20021584v1]
+Liu et al. *medRxiv* [@doi:10.1101/2020.02.10.20021584]
 
 #### Keywords
 
@@ -1575,7 +1590,7 @@ healthy and diseased lesions.
 #### Significance
 
 COVID-19 induces a robust inflammatory cytokine storm in patients that
-contributes to severe lung tissue damage and ARDS [@doi:ggjfnn]. Accumulation of
+contributes to severe lung tissue damage and ARDS [@doi:10/ggjfnn]. Accumulation of
 monocyte-derived inflammatory macrophages at the expense of Alveolar
 macrophages known to play an anti-inflammatory role following
 respiratory viral infection, in part through the PPARγ pathway [@doi:10.3389/fimmu.2018.01777; @doi:10.1128/JVI.00030-19] are
@@ -2015,7 +2030,7 @@ marker.
 #### Limitations
 
 While this group’s report generally confirms some of the major findings
-of a more extensive study, published in early February 2020, [@doi:ggjfnn],
+of a more extensive study, published in early February 2020, [@doi:10/ggjfnn],
 there are limitations that should be taken into account. First, the
 number of patients enrolled is relatively small; second, interpretation
 of these data would benefit from inclusion of information about study
@@ -4196,7 +4211,7 @@ Methodological limitations include that only one serum sample per case
 was tested as well as the heat inactivation of serum samples prior to
 testing. It has previously been reported that heat inactivation
 interferes with the level of antibodies to SARS-Cov-2 and their protocol
-may have resulted in diminished quantification of IgM, specifically [@doi:10.1101/2020.03.12.20034231v1].
+may have resulted in diminished quantification of IgM, specifically [@doi:10.1101/2020.03.12.20034231].
 
 #### Significance
 
@@ -4218,7 +4233,7 @@ patients with COVID19.
 
 ### SARS-CoV-2 specific antibody responses in COVID-19 patients
 
-[@doi:10.1101/2020.03.18.20038059.md]
+[@doi:10.1101/2020.03.18.20038059]
 
 #### Keywords
 - immunoassay
@@ -5532,14 +5547,14 @@ into moderate and mild disease.
 
 Also, studying different subset of lymphocytes could lead to a more
 specific predictor. Another study showed that the neutrophils to CD8+ T
-cells ratio was a strong predictor of disease severity [@doi:10.1101/2020.02.16.20023671v2]. Another more
+cells ratio was a strong predictor of disease severity [@doi:10.1101/2020.02.16.20023671]. Another more
 precise study showed that the percentage of helper T cells and
 regulatory T cells decrease but the percentage of naïve helper T cells
-increases in severe cases [@doi:10.1093/cid/ciaa248/5803306]. Taking these subpopulations into account
+increases in severe cases [@doi:10.1093/cid/ciaa248]. Taking these subpopulations into account
 might make the predictor more powerful.
 
 Other studies also noted an inverse correlation between disease severity
-and LDH [@doi:10.1101/2020.03.03.20030668v1] or IL6 [@doi:10.1101/2020.03.08.20031229v2] levels, but the authors here do not discuss LDH nor
+and LDH [@doi:10.1101/2020.03.03.20030668] or IL6 [@doi:10.1101/2020.03.08.20031229] levels, but the authors here do not discuss LDH nor
 IL6 levels, although this could help to strengthen the predictor.
 
 The study is based on the results obtained on the first day of
@@ -5549,7 +5564,7 @@ interesting to better predict disease severity.
 #### Significance
 
 This study confirms that the neutrophil to lymphocyte ratio can be a
-predictor of disease severity as shown by many others [@doi:10.1093/cid/ciaa248/5803306; @doi:10.1001/jama.2020.1585; @doi:10.1101/2020.02.10.20021584v1]. The
+predictor of disease severity as shown by many others [@doi:10.1093/cid/ciaa248; @doi:10.1001/jama.2020.1585; @doi:10.1101/2020.02.10.20021584]. The
 novelty here is that they show that a combination with other markers can
 enhance the specificity and sensibility of the predictor, although the
 study could be improved by taking into account sub-populations of
@@ -5754,7 +5769,7 @@ FSC-low monocytes.
 
 Despite the limitations of this study, the discovery of
 a FSC-high monocyte population in COVID-19 patients is of great
-interest. With similar implication, a the recent study by Zhou et al. [@doi:10.1101/2020.02.12.945576v1]
+interest. With similar implication, a the recent study by Zhou et al. [@doi:10.1101/2020.02.12.945576]
 identified a connection between an inflammatory CD14+CD16+ monocyte
 population and pulmonary immunopathology leading to deleterious clinical
 manifestations and even acute mortality after SARS-CoV-2 infections.

@@ -82,14 +82,14 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-03-22
-  -   
+  -
     github: RLordan
     name: Ronan Lordan
     initials: RL
     orcid: 0000-0001-9668-3368
     twitter: el_ronan
     email: ronan.lordan@pennmedicine.upenn.edu
-    contributions: 
+    contributions:
       - Writing - Original Draft
       - Writing - Review & Editing
     affiliations:
@@ -181,7 +181,7 @@ authors:
       - Azimuth1, McLean, VA
     coi:
       string: "None"
-      lastapproved: !!str 2020-04-04  
+      lastapproved: !!str 2020-04-04
   -
     github: johnbarton
     name: John P. Barton
@@ -208,8 +208,8 @@ authors:
     affiliations:
       - Department of Pharmacology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
     coi:
-      string: "None"  
-      lastapproved: !!str 2020-03-30 
+      string: "None"
+      lastapproved: !!str 2020-03-30
   -
     github: rbharath
     name: Bharath Ramsundar
@@ -253,4 +253,14 @@ authors:
       string: "None"
       lastapproved: !!str 2020-04-07
     funders: the Gordon and Betty Moore Foundation (GBMF 4552)
-
+  -
+    github: ismms-himc
+    name: Immunology Institute of the Icahn School of Medicine
+    initials: IIISM
+    contributions:
+      - Data Curation
+    affiliations:
+      - Immunology Institute of the Icahn School of Medicine
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-04-07
