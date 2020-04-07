@@ -168,7 +168,7 @@ authors:
       - Department of Microbiology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
     coi: 
       string: "None"
-      lastapproved: !!str 1900-01-01
+      lastapproved: !!str 2020-04-07
   -
     github: aadattoli
     name: Anna Ada Dattoli
