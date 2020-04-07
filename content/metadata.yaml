@@ -177,9 +177,93 @@ authors:
     twitter: aadattoli
     email: annaada.dattoli@gmail.com
     contributions:
-      - Writing- original draft 
+      - Writing - Original Draft
     affiliations:
-      -Department of Systems Pharmacology & Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA 
+      - Department of Systems Pharmacology & Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
     coi:
       string: "None"
       lastapproved: !!str 2020-03-26
+  -
+    github: rdvelazquez
+    name: Ryan Velazquez
+    initials: RV
+    orcid: 0000-0002-3655-3403
+    email: rnhvelazquez@gmail.com
+    contributions:
+      - Methodology
+    affiliations:
+      - Azimuth1, McLean, VA
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-04-04  
+  -
+    github: johnbarton
+    name: John P. Barton
+    initials: JPB
+    orcid: 0000-0003-1467-421X
+    twitter: _jpbarton
+    email: john.barton@ucr.edu
+    contributions:
+      - Writing - Original Draft
+      - Writing - Review & Editing
+    affiliations:
+      - Department of Physics and Astronomy, University of California-Riverside, Riverside, California, United States of America
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-04-06
+  -
+    github: Jeff-Field
+    name: Jeffrey M. Field
+    initials: JMF
+    orcid: 000-0001-7161-7284
+    email: jfield@upenn.edu
+    contributions:
+      - Writing - Original Draft
+    affiliations:
+      - Department of Pharmacology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
+    coi:
+      string: "None"  
+      lastapproved: !!str 2020-03-30 
+  -
+    github: rbharath
+    name: Bharath Ramsundar
+    initials: BR
+    orcid: 0000-0001-8450-4262
+    twitter: rbhar90
+    email: bharath.ramsundar@gmail.com
+    contributions:
+      - Investigation
+      - Writing - Review & Editing
+    affiliations:
+      - The DeepChem Project, https://deepchem.io/
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-04-06
+  -
+    github: alavendelm
+    name: Adam L. MacLean
+    initials: ALM
+    orcid: 0000-0003-0689-7907
+    twitter: adamlmaclean
+    email: macleana@usc.edu
+    contributions:
+      - Writing - Original Draft
+    affiliations:
+      - Department of Biological Sciences, University of Southern California, Los Angeles, California, United States of America
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-04-06
+  -
+    github: ajlee21
+    name: Alexandra J. Lee
+    initials: AJL
+    orcid: 0000-0002-0208-3730
+    email: ajlee21@pennmedicine.upenn.edu
+    contributions:
+      - Writing - Original Draft
+    affiliations:
+      - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-04-07
+    funders: the Gordon and Betty Moore Foundation (GBMF 4552)
