@@ -188,11 +188,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/14dac34ad5f30fc2ce56597d4e5949b7f321adb2/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/2806c747011760ac1dffe8996ad892c90df1db83/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/14dac34ad5f30fc2ce56597d4e5949b7f321adb2/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/2806c747011760ac1dffe8996ad892c90df1db83/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/14dac34ad5f30fc2ce56597d4e5949b7f321adb2/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/2806c747011760ac1dffe8996ad892c90df1db83/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -225,9 +225,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/14dac34ad5f30fc2ce56597d4e5949b7f321adb2/))
+([permalink](https://greenelab.github.io/covid19-review/v/2806c747011760ac1dffe8996ad892c90df1db83/))
 was automatically generated
-from [greenelab/covid19-review@14dac34](https://github.com/greenelab/covid19-review/tree/14dac34ad5f30fc2ce56597d4e5949b7f321adb2)
+from [greenelab/covid19-review@2806c74](https://github.com/greenelab/covid19-review/tree/2806c747011760ac1dffe8996ad892c90df1db83)
 on April 7, 2020.
 </em></small>
 
@@ -1104,6 +1104,10 @@ A list of current studies and their results, using carefully the information req
 ##### Summary
 
 Summarize the state of the neutralizing antibody approach.
+
+### Underexplored Therapeutics
+
+A summary of therapeutic avenues that future research may explore. Possible alternatives to current options and an overview of drug development processes.
 
 
 ## Methods
