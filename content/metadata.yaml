@@ -156,6 +156,20 @@ authors:
       string: "None"
       lastapproved: !!str 2020-03-26
   -
+    github: rmrussell
+    name: Ronnie M. Russell
+    initials: RMR
+    orcid: 0000-0003-1484-4207
+    email: russr@pennmedicine.upenn.edu
+    contributions:
+      - Writing - Original Draft
+      - Writing - Review & Editing
+    affiliations:
+      - Department of Microbiology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
+    coi: 
+      string: "None"
+      lastapproved: !!str 2020-04-07
+  -
     github: aadattoli
     name: Anna Ada Dattoli
     initials: AAD
@@ -253,4 +267,3 @@ authors:
       string: "None"
       lastapproved: !!str 2020-04-07
     funders: the Gordon and Betty Moore Foundation (GBMF 4552)
-
