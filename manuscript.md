@@ -19,7 +19,7 @@ author-meta:
 bibliography:
 - content/manual-references.bib
 - content/manual-references.json
-date-meta: '2020-04-06'
+date-meta: '2020-04-07'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -38,9 +38,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
 
-  <meta name="dc.date" content="2020-04-06" />
+  <meta name="dc.date" content="2020-04-07" />
 
-  <meta name="citation_publication_date" content="2020-04-06" />
+  <meta name="citation_publication_date" content="2020-04-07" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -188,11 +188,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/b2bbd3b58b9a996b0f565d00d9551754680cb252/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/61017256c09a6f46ed7e0e506a5e8d868a2a124c/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/b2bbd3b58b9a996b0f565d00d9551754680cb252/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/61017256c09a6f46ed7e0e506a5e8d868a2a124c/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/b2bbd3b58b9a996b0f565d00d9551754680cb252/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/61017256c09a6f46ed7e0e506a5e8d868a2a124c/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -225,10 +225,10 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/b2bbd3b58b9a996b0f565d00d9551754680cb252/))
+([permalink](https://greenelab.github.io/covid19-review/v/61017256c09a6f46ed7e0e506a5e8d868a2a124c/))
 was automatically generated
-from [greenelab/covid19-review@b2bbd3b](https://github.com/greenelab/covid19-review/tree/b2bbd3b58b9a996b0f565d00d9551754680cb252)
-on April 6, 2020.
+from [greenelab/covid19-review@6101725](https://github.com/greenelab/covid19-review/tree/61017256c09a6f46ed7e0e506a5e8d868a2a124c)
+on April 7, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -951,7 +951,7 @@ This section discusses current efforts in developing neutralizing antibodies aga
 
 ##### Spike (S) Neutralizing Antibody
 
-During the first SARS epidemic in 2002, nAbs were found in SARS-CoV infected patients [@doi10.1111/j.1469-0691.2004.01009.x;@doi:10.1086/423286].
+During the first SARS epidemic in 2002, nAbs were found in SARS-CoV infected patients [@doi:10.1111/j.1469-0691.2004.01009.x;@doi:10.1086/423286].
 Several studies following up on these findings identified various S glycoprotein epitopes as the major targets of neutralizing antibodies against SARS-CoV [@doi:10.1517/14712590902763755].
 The passive transfer of immune serum containing nAbs from SARS-CoV-infected mice resulted in protection of naïve mice from viral lower respiratory tract infection upon intranasal challenge [@doi:10.1128/jvi.78.7.3572-3577.2004].
 Similarly, a meta-analysis suggested that administration of plasma from recovered SARS-CoV patients reduced mortality upon SARS-CoV infection [@doi:10.1093/infdis/jiu396]. 
