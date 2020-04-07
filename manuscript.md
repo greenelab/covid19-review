@@ -10,6 +10,7 @@ author-meta:
 - Sadipan Ray
 - Lucy D\'Agostino McGowan
 - Anthony Gitter
+- Ronnie M. Russell
 - Anna Ada Dattoli
 - Ryan Velazquez
 - John P. Barton
@@ -133,6 +134,12 @@ header-includes: '<!--
 
   <meta name="twitter:creator" content="@anthonygitter" />
 
+  <meta name="citation_author" content="Ronnie M. Russell" />
+
+  <meta name="citation_author_institution" content="Department of Microbiology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA" />
+
+  <meta name="citation_author_orcid" content="0000-0003-1484-4207" />
+
   <meta name="citation_author" content="Anna Ada Dattoli" />
 
   <meta name="citation_author_institution" content="Department of Systems Pharmacology &amp; Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA" />
@@ -195,11 +202,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/663d725721c8b126aa2e6e878d7bf234da91701b/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/6148ace3f4119d160732c6cafb29ce34e67c37be/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/663d725721c8b126aa2e6e878d7bf234da91701b/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/6148ace3f4119d160732c6cafb29ce34e67c37be/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/663d725721c8b126aa2e6e878d7bf234da91701b/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/6148ace3f4119d160732c6cafb29ce34e67c37be/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -232,9 +239,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/663d725721c8b126aa2e6e878d7bf234da91701b/))
+([permalink](https://greenelab.github.io/covid19-review/v/6148ace3f4119d160732c6cafb29ce34e67c37be/))
 was automatically generated
-from [greenelab/covid19-review@663d725](https://github.com/greenelab/covid19-review/tree/663d725721c8b126aa2e6e878d7bf234da91701b)
+from [greenelab/covid19-review@6148ace](https://github.com/greenelab/covid19-review/tree/6148ace3f4119d160732c6cafb29ce34e67c37be)
 on April 7, 2020.
 </em></small>
 
@@ -353,6 +360,15 @@ Instead, you should collect information from your local health department, the [
     [anthonygitter](https://twitter.com/anthonygitter)<br>
   <small>
      Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, United States of America; Morgridge Institute for Research, Madison, Wisconsin, United States of America
+  </small>
+
++ **Ronnie M. Russell**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0003-1484-4207](https://orcid.org/0000-0003-1484-4207)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [rmrussell](https://github.com/rmrussell)<br>
+  <small>
+     Department of Microbiology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
   </small>
 
 + **Anna Ada Dattoli**<br>
@@ -1225,6 +1241,7 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 |Sadipan Ray|None|2020-03-25|
 |Lucy D\'Agostino McGowan|None|2020-03-26|
 |Anthony Gitter|None|2020-03-26|
+|Ronnie M. Russell|None|2020-04-07|
 |Anna Ada Dattoli|None|2020-03-26|
 |Ryan Velazquez|None|2020-04-04|
 |John P. Barton|None|2020-04-06|
@@ -1247,6 +1264,7 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 |Sadipan Ray|Writing - Original Draft|
 |Lucy D\'Agostino McGowan|Methodology, Writing - Original Draft|
 |Anthony Gitter|Methodology|
+|Ronnie M. Russell|Writing - Original Draft, Writing - Review & Editing|
 |Anna Ada Dattoli|Writing - Original Draft|
 |Ryan Velazquez|Methodology|
 |John P. Barton|Writing - Original Draft, Writing - Review & Editing|
