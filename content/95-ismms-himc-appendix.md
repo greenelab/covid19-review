@@ -832,15 +832,17 @@ in these patients.
 *Review by Gabrielle Lubitz as part of a project by students, postdocs and faculty at the Immunology Institute of the Icahn School of Medicine, Mount Sinai.*
 
 
-a\. Title of the article : **Clinical Characteristics of 2019 Novel
-Infected Coronavirus Pneumonia：A Systemic Review and Meta-analysis**
+### Clinical Characteristics of 2019 Novel Infected Coronavirus Pneumonia：A Systemic Review and Meta-analysis
 
-b\. Small number of Immunology Keywords (will be used in STEP 3)
+Qian et al. *medRxiv*.
+[@doi:10.1101/2020.02.14.20021535]
 
-White Blood Cells, Lymphocytes, Neutrophils
+#### Keywords
+- White Blood Cells
+- Lymphocytes
+- Neutrophils
 
-c\. A few lines that summarize the main findings of the article (the
-shorter the better!)
+#### Main Findings
 
 The authors performed a meta analysis of literature on clinical,
 laboratory and radiologic characteristics of patients presenting with
@@ -856,8 +858,7 @@ supplemental oxygen therapy, about 23% mechanical ventilation and about
 5% extracorporeal membrane oxygenation (ECMO). The authors calculated a
 staggering pooled mortality incidence of 78% for these patients.
 
-d\. A critical analysis that explicit the limitations of the study, if
-any.
+#### Limitations
 
 The authors mention that the total number of studies included in this
 meta analysis is nine, however they also mentioned that only three
@@ -871,13 +872,16 @@ The data is based on reports from China and mostly from the Wuhan area,
 which somewhat limits the overall generalizability and applicability of
 these results.
 
-e\. Importance and implications of these findings in the context of the
-current epidemics
+#### Significance
 
 This meta analysis offers some important data for clinicians to refer to
 when dealing with patients with COVID-19 and specifically with
 pneumonia. It is very helpful to set expectations about the course of
 the disease.
+
+#### Credit
+
+*This review was undertaken as part of a project by students, postdocs and faculty at the Immunology Institute of the Icahn School of Medicine, Mount Sinai.*
 
 
 ### Longitudinal characteristics of lymphocyte responses and cytokine profiles in the peripheral blood of SARS-CoV-2 infected patients
@@ -1389,6 +1393,8 @@ elicit robust immunity against CoV2.
 
 ### Structure, Function, and Antigenicity of the SARSCoV-2 Spike Glycoprotein
 
+Walls et al. *bioRxiv*. [@doi:10.1101/2020.02.19.956581] now [@doi:10.1016/j.cell.2020.02.058]
+
 #### Keywords
 - binding affinity
 - antigenicity
@@ -1431,6 +1437,7 @@ of the current global human coronavirus epidemic.
 
 #### Credit
 *Review by postdocs and faculty at the Immunology Institute of the Icahn School of Medicine, Mount Sinai.*
+
 
 ### Breadth of concomitant immune responses underpinning viral clearance and patient recovery in a non-severe case of COVID-19
 
@@ -1830,6 +1837,9 @@ for treating SARS-CoV-2.
 
 
 ### The definition and risks of Cytokine Release Syndrome-Like in 11 COVID-19-Infected Pneumonia critically ill patients: Disease Characteristics and Retrospective Analysis
+
+Wang Jr. et al. *medRxiv*.
+[@doi:10.1101/2020.02.26.20026989]
 
 #### Keywords
 - Cytokine release syndrome (CRS)
@@ -5161,6 +5171,9 @@ a valuable resource.
 
 ### First Clinical Study Using HCV Protease Inhibitor Danoprevir to Treat Naïve and Experienced COVID-19 Patients
 
+Chen et al. *medRxiv*.
+[@doi:10.1101/2020.03.22.20034041]
+
 #### Keywords
 - Clinical study
 - HCV protease inhibitor
@@ -5942,6 +5955,9 @@ Mount Sinai.*
 
 ### The comparative superiority of IgM-IgG antibody test to real-time reverse transcriptase PCR detection for SARS-CoV-2 infection diagnosis
 
+Liu et al. *medRxiv*.
+[@doi:10.1101/2020.03.28.20045765]
+
 #### Keywords
 
 - IgM/IgG antibody test
@@ -5988,9 +6004,10 @@ faculty at the Immunology Institute of the Icahn School of Medicine,
 Mount Sinai.*
 
 
-### Virus-host interactome and proteomic survey of PMBCs from
-COVID-19 patients reveal potential virulence factors influencing
-SARS-CoV-2 pathogenesis
+### Virus-host interactome and proteomic survey of PMBCs from COVID-19 patients reveal potential virulence factors influencing SARS-CoV-2 pathogenesis
+
+Li et al. *bioRxiv*.
+[@doi:10.1101/2020.03.31.019216]
 
 #### Keywords
 - PBMC
