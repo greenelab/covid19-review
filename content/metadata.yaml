@@ -267,3 +267,20 @@ authors:
       string: "None"
       lastapproved: !!str 2020-04-07
     funders: the Gordon and Betty Moore Foundation (GBMF 4552)
+    
+    github: nafisajadavji
+    name: Nafisa M. Jadavji
+    initials: NMJ
+    orcid: 0000-0002-3557-7307
+    twitter: nafisajadavji
+    email: njadav@midwestern.edu
+    contributions:
+      - Writing - Original Draft
+      - Writing - Review & Editing
+    affiliations:
+      - Biomedical Science, Midwestern University, Glendale, Pheonix, United States of America
+      - Department of Neuroscience, Carleton of University, Ottawa, Ontario, Canada
+    coi:
+      string: "None"
+      lastapproved: 
+    funders: American Heart Association (20AIREA35050015)
