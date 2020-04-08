@@ -278,3 +278,18 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-04-07
+  -
+    github: hufengling
+    name: Fengling Hu
+    initials: FH
+    orcid: 0000-0003-1081-5038
+    twitter: hufengling
+    email: Fengling.Hu@pennmedicine.upenn.edu
+    contributions:
+      - Writing - Original Draft
+      - Writing - Review & Editing
+    affiliations:
+      - Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-04-08
