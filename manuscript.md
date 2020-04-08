@@ -18,6 +18,7 @@ author-meta:
 - Bharath Ramsundar
 - Adam L. MacLean
 - Alexandra J. Lee
+- Fengling Hu
 bibliography:
 - content/manual-references.bib
 - content/manual-references.json
@@ -190,6 +191,14 @@ header-includes: '<!--
 
   <meta name="citation_author_orcid" content="0000-0002-0208-3730" />
 
+  <meta name="citation_author" content="Fengling Hu" />
+
+  <meta name="citation_author_institution" content="Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America" />
+
+  <meta name="citation_author_orcid" content="0000-0003-1081-5038" />
+
+  <meta name="twitter:creator" content="@hufengling" />
+
   <link rel="canonical" href="https://greenelab.github.io/covid19-review/" />
 
   <meta property="og:url" content="https://greenelab.github.io/covid19-review/" />
@@ -202,11 +211,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/6a61ade8d97b8705ce4d6bd433f6ae6e7d5c0c38/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/baf5d3251f62b9514a84bcb53999725bd952f6fa/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/6a61ade8d97b8705ce4d6bd433f6ae6e7d5c0c38/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/baf5d3251f62b9514a84bcb53999725bd952f6fa/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/6a61ade8d97b8705ce4d6bd433f6ae6e7d5c0c38/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/baf5d3251f62b9514a84bcb53999725bd952f6fa/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -239,9 +248,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/6a61ade8d97b8705ce4d6bd433f6ae6e7d5c0c38/))
+([permalink](https://greenelab.github.io/covid19-review/v/baf5d3251f62b9514a84bcb53999725bd952f6fa/))
 was automatically generated
-from [greenelab/covid19-review@6a61ade](https://github.com/greenelab/covid19-review/tree/6a61ade8d97b8705ce4d6bd433f6ae6e7d5c0c38)
+from [greenelab/covid19-review@baf5d32](https://github.com/greenelab/covid19-review/tree/baf5d3251f62b9514a84bcb53999725bd952f6fa)
 on April 8, 2020.
 </em></small>
 
@@ -441,6 +450,17 @@ Instead, you should collect information from your local health department, the [
   <small>
      Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
      · Funded by the Gordon and Betty Moore Foundation (GBMF 4552)
+  </small>
+
++ **Fengling Hu**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0003-1081-5038](https://orcid.org/0000-0003-1081-5038)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [hufengling](https://github.com/hufengling)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [hufengling](https://twitter.com/hufengling)<br>
+  <small>
+     Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
   </small>
 
 
@@ -848,7 +868,84 @@ Summarize the state of the antiviral approach.
 
 ### Broad-Spectrum Pharmaceuticals
 
-#### Hydroxychloroquine
+##### Hydroxychloroquine and Chloroquine
+
+Hydroxychloroquine (HCQ) and chloroquine (CQ) are quinolones that have been widely used as anti-malarial and disease-modifying anti-rheumatic drugs in humans.
+HCQ and CQ act through the same mechanism of action, but HCQ is regarded to be safer [@doi:10.1136/ard.2008.101766].
+HCQ/CQ have been reported to have anti-viral effects, including in HIV-1, SARS-CoV, MERS-CoV, and SARS-CoV-2 [@doi:10/dh8phb; @doi:10.1128/AAC.03011-14; @doi:10.1093/cid/ciaa237; @doi:10.1038/s41422-020-0282-0].
+_In vitro_ studies of CQ use for SARs-CoV infection suggest anti-viral activity is due to inhibition of viral entry through elevation of endosomal pH and terminal glycosylation of angiotensin-converting enzyme 2, the cellular entry receptor [@doi:10.1186/1743-422X-2-69].
+In vitro studies of SARS-CoV-2 infection show both HCQ and CQ to be effective in inhibiting viral replication, with HCQ being more potent [@doi:10.1093/cid/ciaa237].
+Thus, there is excitement about HCQ as a potential therapeutic for SARS-CoV-2 and COVID-19.
+This section will discuss current efforts on assessing the potential impact of HCQ in treating COVID-19.
+
+###### Current Evidence
+
+Gautret et al conducted a non-randomized, non-blinded, non-placebo clinical trial on 42 hospitalized patients comparing HCQ to standard care [@doi:10.1016/j.ijantimicag.2020.105949].
+This trial found patients who received HCQ showed higher rates of virological clearance by nasopharyngeal swab on Days 3-6 when compared to standard care.
+This study also treated six patients with both HCQ + azithromycin and found this combination therapy to be more effective than HCQ alone.
+This study showed design and analysis weaknesses that severely limit interpretability of results.
+These weaknesses include: lack of randomization, lack of blinding, lack of placebo, lack of Intention-To-Treat analysis, lack of correction for sequential multiple comparisons, trial arms entirely confounded by hospital, false negatives in outcome measurements, lack of trial pre-registration, and small sample size.
+Two of these weaknesses are due to inappropriate data analysis and can therefore be corrected post-hoc by recalculating p-values (lack of Intention-To-Treat analysis and multiple comparisons.)
+However, all other weaknesses are fundamental design flaws and can not be corrected for.
+Thus, conclusions cannot be generalized outside of the study.
+Additionally, the International Society of Antimicrobial Chemotherapy, the scientific organization that publishes _International Journal of Antimicrobial Agents_ where the article appeared, has announced that the article does not meet its expected standard for publications [@url:https://www.isac.world/news-and-publications/official-isac-statement], although it has not been officially retracted.
+Because of the preliminary data presented in this study, the use of HCQ in COVID-19 treatment has subsequently been explored by other researchers.
+
+A randomized, non-placebo trial of 62 COVID-19 patients at the Renmin Hospital of Wuhan University studied whether HCQ decreased time to fever break or time to cough relief when compared to standard care [@doi:10.1101/2020.03.22.20040758].
+This trial found HCQ decreased both average time to fever break and average time to cough relief, defined as mild or no cough.
+However, this study also had flaws in trial design and analysis that prevent generalization of the results.
+These weaknesses include: lack of placebo, lack of correction for multiple primary outcomes, inappropriate choice of outcomes, lack of sufficient detail to understand analysis, drastic disparities between pre-registration and published protocol, and small sample size.
+The choice of outcomes may be inappropriate as both fevers and cough may break periodically without resolution of illness.
+Additionally, for these outcomes, the authors report 23/62 patients did not have fever and 25/62 patients did not have cough at the start of the study - the authors fail to describe how these patients were included in a study assessing time to fever break and time to cough relief.
+It is important to note here that the authors claim "neither the research performers nor the patients were aware of the treatment assignments."
+This seems impossible in a non-placebo trial - at the very least, providers would know whether they were administering a medication or not, and this knowledge could lead to systematic differences in how care is given.
+Correction for multiple primary outcomes can be adjusted post-hoc by recalculating p-values, but all other issues are design and statistical weaknesses that cannot be corrected for.
+Additionally, the observation of drastic disparities between pre-registration and published protocol may be suggestive of p-hacking.
+Conclusions cannot de generalized outside of the study, but the results support further investigation.
+
+A randomized trial from the Shanghai Public Health Clinical Center of 30 COVID-19 patients studied whether HCQ increased rates of virological clearance by respiratory pharyngeal swab on Day 7 post-treatment compared to standard care [@doi:10/drbx].
+This trial was published in Chinese with an abstract also in English.
+Only the English abstract was read and interpreted.
+The trial found HCQ showed comparable outcomes to standard care with regard to virological clearance rate, time to virological clearance, and time to body temperature normalization.
+A known weakness is small sample size.
+This problem suggests the study is underpowered to detect potentially useful differences and precludes interpretation of results.
+Additionally, because only the abstract could be read, other design and analysis issues could be present.
+Conclusions should be interpreted very cautiously.
+However, these preliminary negative results do reiterate the need for further study.
+
+A case study treated 11 consecutive patients with HCQ + azithromycin using the same dosing regime reported by Gautret et al [@doi:10.1016/j.medmal.2020.03.006].
+One patient died, two were transferred to the ICU, and one developed a prolonged QT interval leading to discontinuation of HCQ + azithromycin.
+As in the Gautret et al study, the outcome measurement was virological clearance at Day 6 post-treatment by nasopharyngeal swabs.
+Of the ten living patients on Day 6, eight of the patients remained positive for SARS-CoV-2 RNA.
+Interpretation of conclusions are severely limited by lack of comparison group and small sample size.
+However, these results stand in contrast to claims by Gautret et al that all six patients treated with HCQ + azithromycin tested negative for SARS-CoV-2 RNA by Day 6 post-treatment.
+This case study illustrates the need for better and further investigation.
+
+A Letter to the Editor was published in BioScience Trends claiming numerous clinical trials showed HCQ is superior to control treatment in inhibiting the exacerbation of COVID-19 pneumonia [@doi:10.5582/bst.2020.01047].
+This Letter has been cited by numerous primary literature, review articles, and media alike [@doi:10.7150/ijbs.45498; @doi:10.7150/ijbs.45053].
+Yet, this Letter's claims of clinical trials supporting HCQ use refer only to 15 pre-registration identifiers from the Chinese Clinical Trial Registry.
+When these identifiers are followed back to the registry, most trials claim they are not yet recruiting patients or are currently recruiting patients.
+For all of these 15 identifiers, no data uploads or links to publications could be located on the pre-registrations.
+At the very least, an inability to locate primary data means such claims cannot be verified.
+Additionally, citation of unavailable sources cast doubt on policies and research based on the assumption that HCQ is effective in treating COVID-19.
+
+###### Summary
+
+In vitro evidence shows HCQ may be an effective therapeutic against SARS-CoV-2 and COVID-19. 
+Multiple clinical studies have already been carried out to assess this possibility.
+All current studies are low-quality and have small sample sizes.
+Thus, interpretation is severely limited and must be done cautiously.
+Additionally, disagreements between studies demonstrate there is controversy on the effectiveness of HCQ, as well as HCQ + azithromycin combination therapy.
+<!-- 
+rishirajgoel to add text on Azithromycin
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4262884/
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5918160/
+https://www.ncbi.nlm.nih.gov/pubmed/28099856
+https://www.ncbi.nlm.nih.gov/pubmed/27911847
+-->
+This uncertainty is important to recognize clinically because HCQ-based treatments can lead to dangerous side effects like prolonged QT interval [@doi:10.1155/2016/4626279].
+HCQ use for COVID-19 also leads to shortages for anti-malarial or anti-rheumatic use, where it has been definitively proven to be effective.
+Further investigation of HCQ in large, rigorous, multi-center clinical trials is necessary.
 
 #### Nutraceuticals
 
@@ -998,7 +1095,7 @@ Neutralizing antibodies have been identified against various epitopes of the RBD
 
 ###### Spike (S) Neutralizing Antibody Anticipated Mechanisms
 
-Coronaviruses use trimeric spike (S) glycoproteins on their surface to bind to host cell receptors, such as ACE2, allowing for cell entry [@doi:10.1016/j.cell.2020.02.052; doi:10.1016/j.cell.2020.02.058].
+Coronaviruses use trimeric spike (S) glycoproteins on their surface to bind to host cell receptors, such as ACE2, allowing for cell entry [@doi:10.1016/j.cell.2020.02.052; @doi:10.1016/j.cell.2020.02.058].
 Each S glycoprotein protomer is comprised of an S1 domain, also called the receptor binding domain (RBD), and an S2 domain.
 The S1 domain binds to host cell receptors while the S2 domain facilitates the fusion between the viral envelope and host cell membranes [@doi:10.1517/14712590902763755].
 Although targeting of the host cell receptor ACE2 shows efficacy in inhibiting SARS-CoV-2 infection [@doi:10.1038/nature02145], given the physiological relevance of ACE2 [@doi:10/bsbp49], it would be favorable to target virus-specific structures rather than host receptors.
@@ -1253,6 +1350,7 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 |Bharath Ramsundar|None|2020-04-06|
 |Adam L. MacLean|None|2020-04-06|
 |Alexandra J. Lee|None|2020-04-07|
+|Fengling Hu|None|2020-04-08|
 
 ### Author Contributions
 
@@ -1276,6 +1374,7 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 |Bharath Ramsundar|Investigation, Writing - Review & Editing|
 |Adam L. MacLean|Writing - Original Draft|
 |Alexandra J. Lee|Writing - Original Draft|
+|Fengling Hu|Writing - Original Draft, Writing - Review & Editing|
 
 
 ## References {.page_break_before}

@@ -22,6 +22,7 @@
   <meta name="author" content="Bharath Ramsundar" />
   <meta name="author" content="Adam L. MacLean" />
   <meta name="author" content="Alexandra J. Lee" />
+  <meta name="author" content="Fengling Hu" />
   <meta name="dcterms.date" content="2020-04-08" />
   <meta name="keywords" content="covid-19, coronavirus, pandemic, viral infection" />
   <title>SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics</title>
@@ -120,15 +121,19 @@
   <meta name="citation_author" content="Alexandra J. Lee" />
   <meta name="citation_author_institution" content="Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America" />
   <meta name="citation_author_orcid" content="0000-0002-0208-3730" />
+  <meta name="citation_author" content="Fengling Hu" />
+  <meta name="citation_author_institution" content="Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America" />
+  <meta name="citation_author_orcid" content="0000-0003-1081-5038" />
+  <meta name="twitter:creator" content="@hufengling" />
   <link rel="canonical" href="https://greenelab.github.io/covid19-review/" />
   <meta property="og:url" content="https://greenelab.github.io/covid19-review/" />
   <meta property="twitter:url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/6a61ade8d97b8705ce4d6bd433f6ae6e7d5c0c38/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/6a61ade8d97b8705ce4d6bd433f6ae6e7d5c0c38/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/6a61ade8d97b8705ce4d6bd433f6ae6e7d5c0c38/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/baf5d3251f62b9514a84bcb53999725bd952f6fa/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/baf5d3251f62b9514a84bcb53999725bd952f6fa/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/baf5d3251f62b9514a84bcb53999725bd952f6fa/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -142,9 +147,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://greenelab.github.io/covid19-review/v/6a61ade8d97b8705ce4d6bd433f6ae6e7d5c0c38/">permalink</a>)
+(<a href="https://greenelab.github.io/covid19-review/v/baf5d3251f62b9514a84bcb53999725bd952f6fa/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/greenelab/covid19-review/tree/6a61ade8d97b8705ce4d6bd433f6ae6e7d5c0c38">greenelab/covid19-review@6a61ade</a>
+from <a href="https://github.com/greenelab/covid19-review/tree/baf5d3251f62b9514a84bcb53999725bd952f6fa">greenelab/covid19-review@baf5d32</a>
 on April 8, 2020.
 </em></small></p>
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -321,6 +326,16 @@ Department of Biological Sciences, University of Southern California, Los Angele
 <small>
 Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
 · Funded by the Gordon and Betty Moore Foundation (GBMF 4552)
+</small></p></li>
+<li><p><strong>Fengling Hu</strong><br>
+<img src="images/orcid.svg" class="inline_icon" alt="ORCID icon" />
+<a href="https://orcid.org/0000-0003-1081-5038">0000-0003-1081-5038</a>
+· <img src="images/github.svg" class="inline_icon" alt="GitHub icon" />
+<a href="https://github.com/hufengling">hufengling</a>
+· <img src="images/twitter.svg" class="inline_icon" alt="Twitter icon" />
+<a href="https://twitter.com/hufengling">hufengling</a><br>
+<small>
+Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
 </small></p></li>
 </ul>
 <h2 class="page_break_before" id="abstract">Abstract</h2>
@@ -602,161 +617,229 @@ They are typically combined with protease inhibitors, integrase inhibitors and e
 <h6 id="summary-6">Summary</h6>
 <p>Summarize the state of the antiviral approach.</p>
 <h3 id="broad-spectrum-pharmaceuticals">Broad-Spectrum Pharmaceuticals</h3>
-<h4 id="hydroxychloroquine">Hydroxychloroquine</h4>
+<h5 id="hydroxychloroquine-and-chloroquine">Hydroxychloroquine and Chloroquine</h5>
+<p>Hydroxychloroquine (HCQ) and chloroquine (CQ) are quinolones that have been widely used as anti-malarial and disease-modifying anti-rheumatic drugs in humans.
+HCQ and CQ act through the same mechanism of action, but HCQ is regarded to be safer <span class="citation" data-cites="IeML5mBm">[<a href="#ref-IeML5mBm" role="doc-biblioref">88</a>]</span>.
+HCQ/CQ have been reported to have anti-viral effects, including in HIV-1, SARS-CoV, MERS-CoV, and SARS-CoV-2 <span class="citation" data-cites="8Vf8rD2W 2AASZDqa 1GBsnkeLK IhdcvbzC">[<a href="#ref-IhdcvbzC" role="doc-biblioref">77</a>,<a href="#ref-8Vf8rD2W" role="doc-biblioref">89</a>,<a href="#ref-2AASZDqa" role="doc-biblioref">90</a>,<a href="#ref-1GBsnkeLK" role="doc-biblioref">91</a>]</span>.
+<em>In vitro</em> studies of CQ use for SARs-CoV infection suggest anti-viral activity is due to inhibition of viral entry through elevation of endosomal pH and terminal glycosylation of angiotensin-converting enzyme 2, the cellular entry receptor <span class="citation" data-cites="x6nInyCf">[<a href="#ref-x6nInyCf" role="doc-biblioref">92</a>]</span>.
+In vitro studies of SARS-CoV-2 infection show both HCQ and CQ to be effective in inhibiting viral replication, with HCQ being more potent <span class="citation" data-cites="1GBsnkeLK">[<a href="#ref-1GBsnkeLK" role="doc-biblioref">91</a>]</span>.
+Thus, there is excitement about HCQ as a potential therapeutic for SARS-CoV-2 and COVID-19.
+This section will discuss current efforts on assessing the potential impact of HCQ in treating COVID-19.</p>
+<h6 id="current-evidence-7">Current Evidence</h6>
+<p>Gautret et al conducted a non-randomized, non-blinded, non-placebo clinical trial on 42 hospitalized patients comparing HCQ to standard care <span class="citation" data-cites="ovHLMvCi">[<a href="#ref-ovHLMvCi" role="doc-biblioref">93</a>]</span>.
+This trial found patients who received HCQ showed higher rates of virological clearance by nasopharyngeal swab on Days 3-6 when compared to standard care.
+This study also treated six patients with both HCQ + azithromycin and found this combination therapy to be more effective than HCQ alone.
+This study showed design and analysis weaknesses that severely limit interpretability of results.
+These weaknesses include: lack of randomization, lack of blinding, lack of placebo, lack of Intention-To-Treat analysis, lack of correction for sequential multiple comparisons, trial arms entirely confounded by hospital, false negatives in outcome measurements, lack of trial pre-registration, and small sample size.
+Two of these weaknesses are due to inappropriate data analysis and can therefore be corrected post-hoc by recalculating p-values (lack of Intention-To-Treat analysis and multiple comparisons.)
+However, all other weaknesses are fundamental design flaws and can not be corrected for.
+Thus, conclusions cannot be generalized outside of the study.
+Additionally, the International Society of Antimicrobial Chemotherapy, the scientific organization that publishes <em>International Journal of Antimicrobial Agents</em> where the article appeared, has announced that the article does not meet its expected standard for publications <span class="citation" data-cites="10J3hBiMo">[<a href="#ref-10J3hBiMo" role="doc-biblioref">94</a>]</span>, although it has not been officially retracted.
+Because of the preliminary data presented in this study, the use of HCQ in COVID-19 treatment has subsequently been explored by other researchers.</p>
+<p>A randomized, non-placebo trial of 62 COVID-19 patients at the Renmin Hospital of Wuhan University studied whether HCQ decreased time to fever break or time to cough relief when compared to standard care <span class="citation" data-cites="wzHb7Mj5">[<a href="#ref-wzHb7Mj5" role="doc-biblioref">95</a>]</span>.
+This trial found HCQ decreased both average time to fever break and average time to cough relief, defined as mild or no cough.
+However, this study also had flaws in trial design and analysis that prevent generalization of the results.
+These weaknesses include: lack of placebo, lack of correction for multiple primary outcomes, inappropriate choice of outcomes, lack of sufficient detail to understand analysis, drastic disparities between pre-registration and published protocol, and small sample size.
+The choice of outcomes may be inappropriate as both fevers and cough may break periodically without resolution of illness.
+Additionally, for these outcomes, the authors report 23/62 patients did not have fever and 25/62 patients did not have cough at the start of the study - the authors fail to describe how these patients were included in a study assessing time to fever break and time to cough relief.
+It is important to note here that the authors claim “neither the research performers nor the patients were aware of the treatment assignments.”
+This seems impossible in a non-placebo trial - at the very least, providers would know whether they were administering a medication or not, and this knowledge could lead to systematic differences in how care is given.
+Correction for multiple primary outcomes can be adjusted post-hoc by recalculating p-values, but all other issues are design and statistical weaknesses that cannot be corrected for.
+Additionally, the observation of drastic disparities between pre-registration and published protocol may be suggestive of p-hacking.
+Conclusions cannot de generalized outside of the study, but the results support further investigation.</p>
+<p>A randomized trial from the Shanghai Public Health Clinical Center of 30 COVID-19 patients studied whether HCQ increased rates of virological clearance by respiratory pharyngeal swab on Day 7 post-treatment compared to standard care <span class="citation" data-cites="o5gwQA7W">[<a href="#ref-o5gwQA7W" role="doc-biblioref">96</a>]</span>.
+This trial was published in Chinese with an abstract also in English.
+Only the English abstract was read and interpreted.
+The trial found HCQ showed comparable outcomes to standard care with regard to virological clearance rate, time to virological clearance, and time to body temperature normalization.
+A known weakness is small sample size.
+This problem suggests the study is underpowered to detect potentially useful differences and precludes interpretation of results.
+Additionally, because only the abstract could be read, other design and analysis issues could be present.
+Conclusions should be interpreted very cautiously.
+However, these preliminary negative results do reiterate the need for further study.</p>
+<p>A case study treated 11 consecutive patients with HCQ + azithromycin using the same dosing regime reported by Gautret et al <span class="citation" data-cites="18KmvBOFr">[<a href="#ref-18KmvBOFr" role="doc-biblioref">97</a>]</span>.
+One patient died, two were transferred to the ICU, and one developed a prolonged QT interval leading to discontinuation of HCQ + azithromycin.
+As in the Gautret et al study, the outcome measurement was virological clearance at Day 6 post-treatment by nasopharyngeal swabs.
+Of the ten living patients on Day 6, eight of the patients remained positive for SARS-CoV-2 RNA.
+Interpretation of conclusions are severely limited by lack of comparison group and small sample size.
+However, these results stand in contrast to claims by Gautret et al that all six patients treated with HCQ + azithromycin tested negative for SARS-CoV-2 RNA by Day 6 post-treatment.
+This case study illustrates the need for better and further investigation.</p>
+<p>A Letter to the Editor was published in BioScience Trends claiming numerous clinical trials showed HCQ is superior to control treatment in inhibiting the exacerbation of COVID-19 pneumonia <span class="citation" data-cites="aiItPxSY">[<a href="#ref-aiItPxSY" role="doc-biblioref">98</a>]</span>.
+This Letter has been cited by numerous primary literature, review articles, and media alike <span class="citation" data-cites="1BdQKtXnY z8XnLYWM">[<a href="#ref-1BdQKtXnY" role="doc-biblioref">99</a>,<a href="#ref-z8XnLYWM" role="doc-biblioref">100</a>]</span>.
+Yet, this Letter’s claims of clinical trials supporting HCQ use refer only to 15 pre-registration identifiers from the Chinese Clinical Trial Registry.
+When these identifiers are followed back to the registry, most trials claim they are not yet recruiting patients or are currently recruiting patients.
+For all of these 15 identifiers, no data uploads or links to publications could be located on the pre-registrations.
+At the very least, an inability to locate primary data means such claims cannot be verified.
+Additionally, citation of unavailable sources cast doubt on policies and research based on the assumption that HCQ is effective in treating COVID-19.</p>
+<h6 id="summary-7">Summary</h6>
+<p>In vitro evidence shows HCQ may be an effective therapeutic against SARS-CoV-2 and COVID-19.
+Multiple clinical studies have already been carried out to assess this possibility.
+All current studies are low-quality and have small sample sizes.
+Thus, interpretation is severely limited and must be done cautiously.
+Additionally, disagreements between studies demonstrate there is controversy on the effectiveness of HCQ, as well as HCQ + azithromycin combination therapy.
+<!-- 
+rishirajgoel to add text on Azithromycin
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4262884/
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5918160/
+https://www.ncbi.nlm.nih.gov/pubmed/28099856
+https://www.ncbi.nlm.nih.gov/pubmed/27911847
+-->
+This uncertainty is important to recognize clinically because HCQ-based treatments can lead to dangerous side effects like prolonged QT interval <span class="citation" data-cites="dY9kXLAS">[<a href="#ref-dY9kXLAS" role="doc-biblioref">101</a>]</span>.
+HCQ use for COVID-19 also leads to shortages for anti-malarial or anti-rheumatic use, where it has been definitively proven to be effective.
+Further investigation of HCQ in large, rigorous, multi-center clinical trials is necessary.</p>
 <h4 id="nutraceuticals">Nutraceuticals</h4>
 <p>Considering the current pandemic, scientists and the medical community are scrambling to repurpose or discover novel host-directed therapies for which nutraceuticals hold some promise.
-Nutraceuticals are classified as supplements with health benefits beyond their basic nutritional value designed for the prophylaxis and treatment of disease <span class="citation" data-cites="xLPeszeO 2Us0gNMr">[<a href="#ref-xLPeszeO" role="doc-biblioref">88</a>,<a href="#ref-2Us0gNMr" role="doc-biblioref">89</a>]</span>.
+Nutraceuticals are classified as supplements with health benefits beyond their basic nutritional value designed for the prophylaxis and treatment of disease <span class="citation" data-cites="xLPeszeO 2Us0gNMr">[<a href="#ref-xLPeszeO" role="doc-biblioref">102</a>,<a href="#ref-2Us0gNMr" role="doc-biblioref">103</a>]</span>.
 Nutraceuticals purported to boost the immune response, reduce immunopathology, exhibit antiviral activities or prevent acute respiratory distress syndrome (ARDS) are being considered for their potential therapeutic value <span class="citation" data-cites="GT7yDBjv">[<a href="#ref-GT7yDBjv" role="doc-biblioref">48</a>]</span>.
 A host of potential candidates have been highlighted in the literature that target various aspects of the COVID-19 viral pathology, while others are thought to prime the host immune system.
-These candidates include vitamins and minerals along with extracts and omega-3 polyunsaturated fatty acids (n-3 PUFA) <span class="citation" data-cites="2hMFPQJR">[<a href="#ref-2hMFPQJR" role="doc-biblioref">90</a>]</span>.
+These candidates include vitamins and minerals along with extracts and omega-3 polyunsaturated fatty acids (n-3 PUFA) <span class="citation" data-cites="2hMFPQJR">[<a href="#ref-2hMFPQJR" role="doc-biblioref">104</a>]</span>.
 Considerable evidence in vitro and in vivo suggests that nutraceuticals containing phycocyanobilin, N-acetylcysteine, glucosamine, selenium or phase 2 inductive nutraceuticals (e.g. ferulic acid, lipoic acid, or sulforaphane) can prevent or modulate RNA virus infections via amplification of the signaling activity of mitochondrial antiviral-signaling protein (MAVS) and activation of toll-like receptor 7 (TLR7) <span class="citation" data-cites="eyBAUUCl">[<a href="#ref-eyBAUUCl" role="doc-biblioref">47</a>]</span>.
 While promising, further animal and human studies are required to assess the therapeutic potential of these various nutraceuticals against COVID-19.</p>
 <h5 id="n-3-pufa">n-3 PUFA</h5>
-<p>Another potential nutraceutical that has exhibited beneficial effects against various viral infections is n-3 PUFA <span class="citation" data-cites="2hMFPQJR">[<a href="#ref-2hMFPQJR" role="doc-biblioref">90</a>]</span>, such as eicosapentaenoic acid (EPA) and docosahexaenoic acid (DHA).
-EPA and DHA intake can come from a diet high in fish intake or through dietary supplementation with fish oils or purified oils <span class="citation" data-cites="E9PuVUHF">[<a href="#ref-E9PuVUHF" role="doc-biblioref">91</a>]</span>.</p>
+<p>Another potential nutraceutical that has exhibited beneficial effects against various viral infections is n-3 PUFA <span class="citation" data-cites="2hMFPQJR">[<a href="#ref-2hMFPQJR" role="doc-biblioref">104</a>]</span>, such as eicosapentaenoic acid (EPA) and docosahexaenoic acid (DHA).
+EPA and DHA intake can come from a diet high in fish intake or through dietary supplementation with fish oils or purified oils <span class="citation" data-cites="E9PuVUHF">[<a href="#ref-E9PuVUHF" role="doc-biblioref">105</a>]</span>.</p>
 <h6 id="potential-mechanisms">Potential Mechanisms</h6>
-<p>N-3 PUFA nutraceuticals can mediate inflammation and they have the capacity to modulate the adaptive immune response <span class="citation" data-cites="JNyhLAfe E9PuVUHF 2Us0gNMr">[<a href="#ref-2Us0gNMr" role="doc-biblioref">89</a>,<a href="#ref-E9PuVUHF" role="doc-biblioref">91</a>,<a href="#ref-JNyhLAfe" role="doc-biblioref">92</a>]</span>.
-Another potential mechanism by which n-3 PUFA could exert beneficial effects against viral infections is by acting as precursor molecules for the biosynthesis of endogenous specialised proresolving mediators (SPM) like protectins and resolvins that actively resolve inflammation and infection <span class="citation" data-cites="BIVORG2X">[<a href="#ref-BIVORG2X" role="doc-biblioref">93</a>]</span>.</p>
-<h6 id="current-evidence-7">Current Evidence</h6>
-<p>SPM have exhibited beneficial effects against a variety of lung infections including RNA viruses <span class="citation" data-cites="uPOTvvjR">[<a href="#ref-uPOTvvjR" role="doc-biblioref">94</a>]</span>.
-Indeed, protectin D1 has been shown to increase survival from H1N1 viral infection in mice by affecting the viral replication machinery <span class="citation" data-cites="fIo3ESPM">[<a href="#ref-fIo3ESPM" role="doc-biblioref">95</a>]</span>.
-Moreover, not all studies are in agreement that n-3 PUFA are effective against infections <span class="citation" data-cites="B8toe6Mr">[<a href="#ref-B8toe6Mr" role="doc-biblioref">96</a>]</span>.
-Indeed, the effectiveness of n-3 PUFA against infections is dependent on the dosage, timing, and the specific pathogens responsible <span class="citation" data-cites="3Xht24k3">[<a href="#ref-3Xht24k3" role="doc-biblioref">97</a>]</span>.</p>
-<h6 id="summary-7">Summary</h6>
+<p>N-3 PUFA nutraceuticals can mediate inflammation and they have the capacity to modulate the adaptive immune response <span class="citation" data-cites="JNyhLAfe E9PuVUHF 2Us0gNMr">[<a href="#ref-2Us0gNMr" role="doc-biblioref">103</a>,<a href="#ref-E9PuVUHF" role="doc-biblioref">105</a>,<a href="#ref-JNyhLAfe" role="doc-biblioref">106</a>]</span>.
+Another potential mechanism by which n-3 PUFA could exert beneficial effects against viral infections is by acting as precursor molecules for the biosynthesis of endogenous specialised proresolving mediators (SPM) like protectins and resolvins that actively resolve inflammation and infection <span class="citation" data-cites="BIVORG2X">[<a href="#ref-BIVORG2X" role="doc-biblioref">107</a>]</span>.</p>
+<h6 id="current-evidence-8">Current Evidence</h6>
+<p>SPM have exhibited beneficial effects against a variety of lung infections including RNA viruses <span class="citation" data-cites="uPOTvvjR">[<a href="#ref-uPOTvvjR" role="doc-biblioref">108</a>]</span>.
+Indeed, protectin D1 has been shown to increase survival from H1N1 viral infection in mice by affecting the viral replication machinery <span class="citation" data-cites="fIo3ESPM">[<a href="#ref-fIo3ESPM" role="doc-biblioref">109</a>]</span>.
+Moreover, not all studies are in agreement that n-3 PUFA are effective against infections <span class="citation" data-cites="B8toe6Mr">[<a href="#ref-B8toe6Mr" role="doc-biblioref">110</a>]</span>.
+Indeed, the effectiveness of n-3 PUFA against infections is dependent on the dosage, timing, and the specific pathogens responsible <span class="citation" data-cites="3Xht24k3">[<a href="#ref-3Xht24k3" role="doc-biblioref">111</a>]</span>.</p>
+<h6 id="summary-8">Summary</h6>
 <p>However, the overall lack of human studies in this area means there is limited evidence as to whether these nutraceuticals could affect COVID-19 infection.</p>
 <h5 id="zinc-supplements">Zinc Supplements</h5>
 <p>There is evidence that nutrient supplements may exhibit some benefit against RNA viral infections.
-Zinc is a trace metal obtained from dietary sources or supplementation that is important for the maintenance of immune cells involved in adaptive and innate immunity <span class="citation" data-cites="VMI1lOFR">[<a href="#ref-VMI1lOFR" role="doc-biblioref">98</a>]</span>.
+Zinc is a trace metal obtained from dietary sources or supplementation that is important for the maintenance of immune cells involved in adaptive and innate immunity <span class="citation" data-cites="VMI1lOFR">[<a href="#ref-VMI1lOFR" role="doc-biblioref">112</a>]</span>.
 Zinc supplements can be administered orally as a tablet or as a lozenge and they are available in many forms such zinc picolinate, zinc acetate, and zinc citrate.
 Zinc is also available from dietary sources including meat, seafood, nuts, seeds, legumes, and dairy.</p>
 <h6 id="potential-mechanisms-1">Potential Mechanisms</h6>
-<p>The role of zinc in immune function has been extensively reviewed <span class="citation" data-cites="VMI1lOFR">[<a href="#ref-VMI1lOFR" role="doc-biblioref">98</a>]</span>.
+<p>The role of zinc in immune function has been extensively reviewed <span class="citation" data-cites="VMI1lOFR">[<a href="#ref-VMI1lOFR" role="doc-biblioref">112</a>]</span>.
 Zinc is an important signaling molecule and zinc levels can alter host defense systems.
-In inflammatory situations such as an infection, zinc can regulate leukocyte immune responses and it can activate the nuclear factor kappa-light-chain-enhancer of activated B cells (NF-kB), thus altering cytokine production <span class="citation" data-cites="Qif5U0Ig 1CEzU1G34">[<a href="#ref-Qif5U0Ig" role="doc-biblioref">99</a>,<a href="#ref-1CEzU1G34" role="doc-biblioref">100</a>]</span>.
-In particular, zinc supplementation can increase natural killer cell levels, which are important cells for host defense against viral infections <span class="citation" data-cites="7ElRN12v VMI1lOFR">[<a href="#ref-VMI1lOFR" role="doc-biblioref">98</a>,<a href="#ref-7ElRN12v" role="doc-biblioref">101</a>]</span>.</p>
-<h6 id="current-evidence-8">Current Evidence</h6>
-<p>Adequate zinc intake has been associated with reduced incidence of infection <span class="citation" data-cites="kxuSwrCI">[<a href="#ref-kxuSwrCI" role="doc-biblioref">102</a>]</span> and antiviral immunity <span class="citation" data-cites="IAOnO0Gj">[<a href="#ref-IAOnO0Gj" role="doc-biblioref">103</a>]</span>.
-Similarly, a randomized, double-blind, placebo-controlled trial that administered zinc supplementation to elderly subjects over the course of a year found zinc deficiency to be associated with increased susceptibility to infection and that zinc deficiency could be prevented through supplementation <span class="citation" data-cites="kxuSwrCI">[<a href="#ref-kxuSwrCI" role="doc-biblioref">102</a>]</span>.
-Clinical trial data supports the utility of zinc to diminish the duration and severity of symptoms associated with common colds when it is provided within 24 hours of the onset of symptoms <span class="citation" data-cites="sgr0mlJK lPexOhy6">[<a href="#ref-sgr0mlJK" role="doc-biblioref">104</a>,<a href="#ref-lPexOhy6" role="doc-biblioref">105</a>]</span>.
-In coronaviruses specifically, in vitro evidence demonstrates that the combination of zinc (Zn2+) and zinc ionophores (pyrithione) can interrupt the replication mechanisms of SARS-CoV-GFP (a flourescently tagged SARS-CoV) and a variety of other RNA viruses <span class="citation" data-cites="6aOUJdHa NB1udFHF">[<a href="#ref-6aOUJdHa" role="doc-biblioref">106</a>,<a href="#ref-NB1udFHF" role="doc-biblioref">107</a>]</span>.</p>
-<h6 id="summary-8">Summary</h6>
+In inflammatory situations such as an infection, zinc can regulate leukocyte immune responses and it can activate the nuclear factor kappa-light-chain-enhancer of activated B cells (NF-kB), thus altering cytokine production <span class="citation" data-cites="Qif5U0Ig 1CEzU1G34">[<a href="#ref-Qif5U0Ig" role="doc-biblioref">113</a>,<a href="#ref-1CEzU1G34" role="doc-biblioref">114</a>]</span>.
+In particular, zinc supplementation can increase natural killer cell levels, which are important cells for host defense against viral infections <span class="citation" data-cites="7ElRN12v VMI1lOFR">[<a href="#ref-VMI1lOFR" role="doc-biblioref">112</a>,<a href="#ref-7ElRN12v" role="doc-biblioref">115</a>]</span>.</p>
+<h6 id="current-evidence-9">Current Evidence</h6>
+<p>Adequate zinc intake has been associated with reduced incidence of infection <span class="citation" data-cites="kxuSwrCI">[<a href="#ref-kxuSwrCI" role="doc-biblioref">116</a>]</span> and antiviral immunity <span class="citation" data-cites="IAOnO0Gj">[<a href="#ref-IAOnO0Gj" role="doc-biblioref">117</a>]</span>.
+Similarly, a randomized, double-blind, placebo-controlled trial that administered zinc supplementation to elderly subjects over the course of a year found zinc deficiency to be associated with increased susceptibility to infection and that zinc deficiency could be prevented through supplementation <span class="citation" data-cites="kxuSwrCI">[<a href="#ref-kxuSwrCI" role="doc-biblioref">116</a>]</span>.
+Clinical trial data supports the utility of zinc to diminish the duration and severity of symptoms associated with common colds when it is provided within 24 hours of the onset of symptoms <span class="citation" data-cites="sgr0mlJK lPexOhy6">[<a href="#ref-sgr0mlJK" role="doc-biblioref">118</a>,<a href="#ref-lPexOhy6" role="doc-biblioref">119</a>]</span>.
+In coronaviruses specifically, in vitro evidence demonstrates that the combination of zinc (Zn2+) and zinc ionophores (pyrithione) can interrupt the replication mechanisms of SARS-CoV-GFP (a flourescently tagged SARS-CoV) and a variety of other RNA viruses <span class="citation" data-cites="6aOUJdHa NB1udFHF">[<a href="#ref-6aOUJdHa" role="doc-biblioref">120</a>,<a href="#ref-NB1udFHF" role="doc-biblioref">121</a>]</span>.</p>
+<h6 id="summary-9">Summary</h6>
 <p>While overall there is encouraging data for zinc supplementation against the common cold and viral infections, there is currently limited evidence to suggest zinc supplementation has any beneficial effects against the current novel COVID-19, thus further research is imperative.
 However, it would be advisable to maintain a healthy diet to ensure an adequate zinc status to prevent the likelihood of an infection.</p>
 <h5 id="vitamin-c">Vitamin C</h5>
-<p>Vitamins B, C, D, and E have also been suggested as potential nutrient supplement interventions for COVID-19 <span class="citation" data-cites="2hMFPQJR 3RCeQRRc">[<a href="#ref-2hMFPQJR" role="doc-biblioref">90</a>,<a href="#ref-3RCeQRRc" role="doc-biblioref">108</a>]</span>.
+<p>Vitamins B, C, D, and E have also been suggested as potential nutrient supplement interventions for COVID-19 <span class="citation" data-cites="2hMFPQJR 3RCeQRRc">[<a href="#ref-2hMFPQJR" role="doc-biblioref">104</a>,<a href="#ref-3RCeQRRc" role="doc-biblioref">122</a>]</span>.
 In particular vitamin C has been proposed as a potential prophylactic and therapeutic agent against COVID-19.
 Vitamin C can be obtained via dietary sources such as fruit and vegetable or via supplementation.</p>
 <h6 id="potential-mechanisms-2">Potential Mechanisms</h6>
 <p>Vitamin C plays a signifiant role in promoting immune function due to its effects on various immune cells.
-Vitamin C affects inflammation by modulating cytokine production, decreasing histamine levels, enhancing the differentiation and proliferation of T- and B-lymphocytes, increasing antibody levels, and protecting against the negative effects of reactive oxygen species amongst other effects <span class="citation" data-cites="9czQt5cR RjFxOURM 13M3VAfY9">[<a href="#ref-9czQt5cR" role="doc-biblioref">109</a>,<a href="#ref-RjFxOURM" role="doc-biblioref">110</a>,<a href="#ref-13M3VAfY9" role="doc-biblioref">111</a>]</span>.
+Vitamin C affects inflammation by modulating cytokine production, decreasing histamine levels, enhancing the differentiation and proliferation of T- and B-lymphocytes, increasing antibody levels, and protecting against the negative effects of reactive oxygen species amongst other effects <span class="citation" data-cites="9czQt5cR RjFxOURM 13M3VAfY9">[<a href="#ref-9czQt5cR" role="doc-biblioref">123</a>,<a href="#ref-RjFxOURM" role="doc-biblioref">124</a>,<a href="#ref-13M3VAfY9" role="doc-biblioref">125</a>]</span>.
 During viral infections vitamin C is utilised as evinced by lower concentrations in leukocytes and lower concentrations of urinary vitamin C.
-Post-infection, these levels return to baseline ranges <span class="citation" data-cites="uQFCDDIy 10nBT1HbX 1Bj8VMlSk aEEZ8Pq9 gZRPoTM9">[<a href="#ref-uQFCDDIy" role="doc-biblioref">112</a>,<a href="#ref-10nBT1HbX" role="doc-biblioref">113</a>,<a href="#ref-1Bj8VMlSk" role="doc-biblioref">114</a>,<a href="#ref-aEEZ8Pq9" role="doc-biblioref">115</a>,<a href="#ref-gZRPoTM9" role="doc-biblioref">116</a>]</span>.</p>
-<h6 id="current-evidence-9">Current Evidence</h6>
-<p>A recent meta-analysis found consistent support for regular vitamin C supplementation reducing the duration of the common cold, but that supplementation with vitamin C (&gt; 200 mg) failed to reduce the incidence of colds <span class="citation" data-cites="Pb5PCH7y">[<a href="#ref-Pb5PCH7y" role="doc-biblioref">117</a>]</span>.
-Individual studies have found Vitamin C to reduce the susceptibility of patients to lower respiratory tract infections such as pneumonia <span class="citation" data-cites="JARvpqRw">[<a href="#ref-JARvpqRw" role="doc-biblioref">118</a>]</span>.
+Post-infection, these levels return to baseline ranges <span class="citation" data-cites="uQFCDDIy 10nBT1HbX 1Bj8VMlSk aEEZ8Pq9 gZRPoTM9">[<a href="#ref-uQFCDDIy" role="doc-biblioref">126</a>,<a href="#ref-10nBT1HbX" role="doc-biblioref">127</a>,<a href="#ref-1Bj8VMlSk" role="doc-biblioref">128</a>,<a href="#ref-aEEZ8Pq9" role="doc-biblioref">129</a>,<a href="#ref-gZRPoTM9" role="doc-biblioref">130</a>]</span>.</p>
+<h6 id="current-evidence-10">Current Evidence</h6>
+<p>A recent meta-analysis found consistent support for regular vitamin C supplementation reducing the duration of the common cold, but that supplementation with vitamin C (&gt; 200 mg) failed to reduce the incidence of colds <span class="citation" data-cites="Pb5PCH7y">[<a href="#ref-Pb5PCH7y" role="doc-biblioref">131</a>]</span>.
+Individual studies have found Vitamin C to reduce the susceptibility of patients to lower respiratory tract infections such as pneumonia <span class="citation" data-cites="JARvpqRw">[<a href="#ref-JARvpqRw" role="doc-biblioref">132</a>]</span>.
 A recent meta-analysis has demonstrated in twelve trials that vitamin C supplementation reduced the length of stay of patients in intensive care units (ICUs) by 7.8% (95% CI: 4.2% to 11.2%; p = 0.00003).
 Furthermore, high doses (1-3 g/day) significantly reduced the length of an ICU stay by 8.6% in six trials (p = 0.003).
-Vitamin C also shortened the duration of mechanical ventilation by 18.2% in three trials in which patients required intervention for over 24 hours (95% CI 7.7% to 27%; p = 0.001) <span class="citation" data-cites="DPhRTQw0">[<a href="#ref-DPhRTQw0" role="doc-biblioref">119</a>]</span>.
-Despite these findings, the CITRUS ALI study failed to show a benefit of a 96-hour infusion of vitamin C to treat ARDS, which is a severe complication of COVID-19 infection <span class="citation" data-cites="Rt5Aik4p">[<a href="#ref-Rt5Aik4p" role="doc-biblioref">120</a>]</span>.</p>
-<h6 id="summary-9">Summary</h6>
+Vitamin C also shortened the duration of mechanical ventilation by 18.2% in three trials in which patients required intervention for over 24 hours (95% CI 7.7% to 27%; p = 0.001) <span class="citation" data-cites="DPhRTQw0">[<a href="#ref-DPhRTQw0" role="doc-biblioref">133</a>]</span>.
+Despite these findings, the CITRUS ALI study failed to show a benefit of a 96-hour infusion of vitamin C to treat ARDS, which is a severe complication of COVID-19 infection <span class="citation" data-cites="Rt5Aik4p">[<a href="#ref-Rt5Aik4p" role="doc-biblioref">134</a>]</span>.</p>
+<h6 id="summary-10">Summary</h6>
 <p>The evidence suggests that vitamin C supplementation can shorten the duration of a cold, reduce an individual’s susceptibility to infections, and shorten a patient’s stay in ICU when administered at high doses.
 While there is anecdotal evidence from China and the United States that vitamin C is currently being used for the treatment of COVID-19, further controlled research is required.</p>
 <h5 id="vitamin-d">Vitamin D</h5>
 <p>In terms of other dietary supplements, vitamin D can modulate the adaptive and innate immune system and has been associated with various aspects of health.
 Vitamin D can be sourced through diet or supplementation, but it is mainly biosyntheised by the body on exposure to sunlight.</p>
 <h6 id="potential-mechanisms-3">Potential Mechanisms</h6>
-<p>Vitamin D deficiency is associated with an increased susceptibility to infection <span class="citation" data-cites="n3v9Thlz">[<a href="#ref-n3v9Thlz" role="doc-biblioref">121</a>]</span>.
-In particular, vitamin D deficient patients are at risk of developing acute respiratory infections <span class="citation" data-cites="iWLsflrG">[<a href="#ref-iWLsflrG" role="doc-biblioref">122</a>]</span> and ARDS <span class="citation" data-cites="iWLsflrG">[<a href="#ref-iWLsflrG" role="doc-biblioref">122</a>]</span>.
-1,25-dihydroxyvitamin D3 is the active form of vitamin D that is involved in adaptive and innate resopnses, whereby the vitamin D receptor is expressed in various immunne cells and vitamin D is an immunomodulator of antigen presenting cells, dendritic cells, macrophages, monocytes, and T- and B-lymphocytes <span class="citation" data-cites="n3v9Thlz nwEQBjV4">[<a href="#ref-n3v9Thlz" role="doc-biblioref">121</a>,<a href="#ref-nwEQBjV4" role="doc-biblioref">123</a>]</span>.
+<p>Vitamin D deficiency is associated with an increased susceptibility to infection <span class="citation" data-cites="n3v9Thlz">[<a href="#ref-n3v9Thlz" role="doc-biblioref">135</a>]</span>.
+In particular, vitamin D deficient patients are at risk of developing acute respiratory infections <span class="citation" data-cites="iWLsflrG">[<a href="#ref-iWLsflrG" role="doc-biblioref">136</a>]</span> and ARDS <span class="citation" data-cites="iWLsflrG">[<a href="#ref-iWLsflrG" role="doc-biblioref">136</a>]</span>.
+1,25-dihydroxyvitamin D3 is the active form of vitamin D that is involved in adaptive and innate resopnses, whereby the vitamin D receptor is expressed in various immunne cells and vitamin D is an immunomodulator of antigen presenting cells, dendritic cells, macrophages, monocytes, and T- and B-lymphocytes <span class="citation" data-cites="n3v9Thlz nwEQBjV4">[<a href="#ref-n3v9Thlz" role="doc-biblioref">135</a>,<a href="#ref-nwEQBjV4" role="doc-biblioref">137</a>]</span>.
 Due to its potential immunomodulating properties, vitamin D supplementation may be advantageous to maintain a healthy immune system.</p>
-<h6 id="current-evidence-10">Current Evidence</h6>
+<h6 id="current-evidence-11">Current Evidence</h6>
 <p>A recent preprint postulated that an individual’s vitamin D status may significantly affect one’s risk of developing COVID-19.
-This hypothesis was derived from the fact that the current pandemic occurred in winter in Wuhan China when 25-hydroxyvitamin D concentrations are at their lowest due to lack of sunlight, whereas in the Southern Hemisphere, where it was nearing the end of the summer, the number of cases was low at that time coinciding with higher 25-hydroxyvitamin D concentrations <span class="citation" data-cites="yBxajVXZ">[<a href="#ref-yBxajVXZ" role="doc-biblioref">124</a>]</span>.
+This hypothesis was derived from the fact that the current pandemic occurred in winter in Wuhan China when 25-hydroxyvitamin D concentrations are at their lowest due to lack of sunlight, whereas in the Southern Hemisphere, where it was nearing the end of the summer, the number of cases was low at that time coinciding with higher 25-hydroxyvitamin D concentrations <span class="citation" data-cites="yBxajVXZ">[<a href="#ref-yBxajVXZ" role="doc-biblioref">138</a>]</span>.
 The authors suggest that people at risk of developing COVID-19 should increase their vitamin D3 intake to reach 25-hydroxyvitamin D plasma concentrations above 40–60 ng/ml.
 The authors also suggest supplementation of vitamin D to treat infected patients and to prevent infection in hospital staff.
 While vitamin D is relatively inexpensive and safe to consume, caution is warranted when interpreting this review as it has yet to be determined whether vitamin D levels effect COVID-19 specifically.
 Likewise, it is assumed that COVID-19 may be seasonal, but there are multiple other factors at play that can affect vitamin D levels that need to be considered.
-These factors include an individual’s nutritional status, their age, their occupation, skin pigmentation, potential comorbidities, and the variation of exposure to sunlight due to latitude amongst others <span class="citation" data-cites="C3szSqIr">[<a href="#ref-C3szSqIr" role="doc-biblioref">125</a>]</span>.</p>
-<h6 id="summary-10">Summary</h6>
+These factors include an individual’s nutritional status, their age, their occupation, skin pigmentation, potential comorbidities, and the variation of exposure to sunlight due to latitude amongst others <span class="citation" data-cites="C3szSqIr">[<a href="#ref-C3szSqIr" role="doc-biblioref">139</a>]</span>.</p>
+<h6 id="summary-11">Summary</h6>
 <p>Supplementation of vitamin D and maintaining a healthy diet for optimum vitamin D status warrants further investigation.
 This is particularly important considering ‘stay in place’ guidance has been implemented in many densely populated cities around the world.
 This measure is likely to limit people’s exposure to sunlight and thus reduce endogenous synthesis of vitamin D, potentially weakening the immune system and increasing the risk of COVID-19 infection.</p>
 <h5 id="nutraceutical-conclusions">Nutraceutical Conclusions</h5>
 <p>Despite all the potential benefits of nutraceutical and dietary supplement interventions presented, currently there is a paucity of clinical evidence to support their use for the prevention or mitigation of COVID-19 infections.
-Nevertheless, optimal nutritional status will undoubtedly prime an individual’s immune system to protect against the effects of acute respiratory viral infections by supporting normal maintenance of the immune system <span class="citation" data-cites="1EaIsb9L2">[<a href="#ref-1EaIsb9L2" role="doc-biblioref">126</a>]</span>.
+Nevertheless, optimal nutritional status will undoubtedly prime an individual’s immune system to protect against the effects of acute respiratory viral infections by supporting normal maintenance of the immune system <span class="citation" data-cites="1EaIsb9L2">[<a href="#ref-1EaIsb9L2" role="doc-biblioref">140</a>]</span>.
 Overall, supplementation of vitamin C, vitamin D, and zinc may be an effective method of ensuring their adequate intake to maintain optimal immune function, which may also convey beneficial effects against viral infections due to their immunomodulatory effects.
-However, many supplements and nutraceuticals designed for various ailments are available in the United States and beyond that are not strictly regulated <span class="citation" data-cites="lMhFSIiF">[<a href="#ref-lMhFSIiF" role="doc-biblioref">127</a>]</span>.
+However, many supplements and nutraceuticals designed for various ailments are available in the United States and beyond that are not strictly regulated <span class="citation" data-cites="lMhFSIiF">[<a href="#ref-lMhFSIiF" role="doc-biblioref">141</a>]</span>.
 Indeed, there can be safety and efficacy concerns associated with many of these products.
 Often, the vulnerable memeber of society can be exploited in this regard and unfortunately the COVID-19 pandemic is no different.
-The Food and Drug Administration (FDA) has issued warnings to several companies for advertising falsified claims in relation to the preventative and therapeutic capabilities of their products against COVID-19 <span class="citation" data-cites="fez8aZAu">[<a href="#ref-fez8aZAu" role="doc-biblioref">128</a>]</span>.<br />
+The Food and Drug Administration (FDA) has issued warnings to several companies for advertising falsified claims in relation to the preventative and therapeutic capabilities of their products against COVID-19 <span class="citation" data-cites="fez8aZAu">[<a href="#ref-fez8aZAu" role="doc-biblioref">142</a>]</span>.<br />
 In light of these serious occurrences, it is pertinent to clarify that the nutraceuticals discussed in this review have been selected because of their possible relevance to the biological mechanisms that can beneficially affect viral and respiratory infections.
 Therefore, further intensive investigation is required to establish the effects of these nutraceticals, if any, against COVID-19.</p>
 <h3 id="biological-drugs-for-covid-19">Biological Drugs for COVID-19</h3>
 <h4 id="neutralizing-antibodies">Neutralizing Antibodies</h4>
 <p>Monoclonal antibodies (mAbs) have revolutionized the way we treat human diseases.
-As a result, they have become some of the best-selling drugs in the pharmaceutical market in recent years <span class="citation" data-cites="1AKi0FYUB">[<a href="#ref-1AKi0FYUB" role="doc-biblioref">129</a>]</span>.
-There are currently 79 FDA approved mAbs on the market including antibodies for viral infections (e.g. Ibalizumab for HIV and Palivizumab for RSV) <span class="citation" data-cites="1AKi0FYUB yumBaJ6U">[<a href="#ref-1AKi0FYUB" role="doc-biblioref">129</a>,<a href="#ref-yumBaJ6U" role="doc-biblioref">130</a>]</span>.
-Although vaccines remain the most important way to prevent viral infections, their development process is long and they fail to provide immediate prophylactic protection or treat ongoing infections <span class="citation" data-cites="181QWa7HL">[<a href="#ref-181QWa7HL" role="doc-biblioref">131</a>]</span>.
+As a result, they have become some of the best-selling drugs in the pharmaceutical market in recent years <span class="citation" data-cites="1AKi0FYUB">[<a href="#ref-1AKi0FYUB" role="doc-biblioref">143</a>]</span>.
+There are currently 79 FDA approved mAbs on the market including antibodies for viral infections (e.g. Ibalizumab for HIV and Palivizumab for RSV) <span class="citation" data-cites="1AKi0FYUB yumBaJ6U">[<a href="#ref-1AKi0FYUB" role="doc-biblioref">143</a>,<a href="#ref-yumBaJ6U" role="doc-biblioref">144</a>]</span>.
+Although vaccines remain the most important way to prevent viral infections, their development process is long and they fail to provide immediate prophylactic protection or treat ongoing infections <span class="citation" data-cites="181QWa7HL">[<a href="#ref-181QWa7HL" role="doc-biblioref">145</a>]</span>.
 For that reason, neutralizing antibodies have emerged to address these shortcomings.
-Virus-specific neutralizing antibodies commonly target viral surface glycoproteins or host structures, thereby inhibiting viral entry through receptor binding intereference <span class="citation" data-cites="dUnB3gD6 cwbHiM1o">[<a href="#ref-dUnB3gD6" role="doc-biblioref">132</a>,<a href="#ref-cwbHiM1o" role="doc-biblioref">133</a>]</span>.
+Virus-specific neutralizing antibodies commonly target viral surface glycoproteins or host structures, thereby inhibiting viral entry through receptor binding intereference <span class="citation" data-cites="dUnB3gD6 cwbHiM1o">[<a href="#ref-dUnB3gD6" role="doc-biblioref">146</a>,<a href="#ref-cwbHiM1o" role="doc-biblioref">147</a>]</span>.
 This section discusses current efforts in developing neutralizing antibodies against SARS-CoV-2 and how expertise gained from previous approaches for MERS-CoV and SARS-CoV may benefit antibody development.</p>
 <h5 id="spike-s-neutralizing-antibody">Spike (S) Neutralizing Antibody</h5>
-<p>During the first SARS epidemic in 2002, nAbs were found in SARS-CoV infected patients <span class="citation" data-cites="3gp7t98X KULxo48U">[<a href="#ref-3gp7t98X" role="doc-biblioref">134</a>,<a href="#ref-KULxo48U" role="doc-biblioref">135</a>]</span>.
-Several studies following up on these findings identified various S glycoprotein epitopes as the major targets of neutralizing antibodies against SARS-CoV <span class="citation" data-cites="MTcTiS7i">[<a href="#ref-MTcTiS7i" role="doc-biblioref">136</a>]</span>.
-The passive transfer of immune serum containing nAbs from SARS-CoV-infected mice resulted in protection of naïve mice from viral lower respiratory tract infection upon intranasal challenge <span class="citation" data-cites="rXzkS3gA">[<a href="#ref-rXzkS3gA" role="doc-biblioref">137</a>]</span>.
-Similarly, a meta-analysis suggested that administration of plasma from recovered SARS-CoV patients reduced mortality upon SARS-CoV infection <span class="citation" data-cites="RRx6YovP">[<a href="#ref-RRx6YovP" role="doc-biblioref">138</a>]</span>.</p>
+<p>During the first SARS epidemic in 2002, nAbs were found in SARS-CoV infected patients <span class="citation" data-cites="3gp7t98X KULxo48U">[<a href="#ref-3gp7t98X" role="doc-biblioref">148</a>,<a href="#ref-KULxo48U" role="doc-biblioref">149</a>]</span>.
+Several studies following up on these findings identified various S glycoprotein epitopes as the major targets of neutralizing antibodies against SARS-CoV <span class="citation" data-cites="MTcTiS7i">[<a href="#ref-MTcTiS7i" role="doc-biblioref">150</a>]</span>.
+The passive transfer of immune serum containing nAbs from SARS-CoV-infected mice resulted in protection of naïve mice from viral lower respiratory tract infection upon intranasal challenge <span class="citation" data-cites="rXzkS3gA">[<a href="#ref-rXzkS3gA" role="doc-biblioref">151</a>]</span>.
+Similarly, a meta-analysis suggested that administration of plasma from recovered SARS-CoV patients reduced mortality upon SARS-CoV infection <span class="citation" data-cites="RRx6YovP">[<a href="#ref-RRx6YovP" role="doc-biblioref">152</a>]</span>.</p>
 <p>Similar results have been observed for MERS-CoV infections, which emerged as the second coronavirus-related epidemic.
-Neutralizing antibodies have been identified against various epitopes of the RBD of the S glycoprotein [<span class="citation" data-cites="Ou3P9pGV"><a href="#ref-Ou3P9pGV" role="doc-biblioref">139</a></span>; doi:10.1128/JVI.00912-14].</p>
+Neutralizing antibodies have been identified against various epitopes of the RBD of the S glycoprotein [<span class="citation" data-cites="Ou3P9pGV"><a href="#ref-Ou3P9pGV" role="doc-biblioref">153</a></span>; doi:10.1128/JVI.00912-14].</p>
 <h6 id="spike-s-neutralizing-antibody-anticipated-mechanisms">Spike (S) Neutralizing Antibody Anticipated Mechanisms</h6>
-<p>Coronaviruses use trimeric spike (S) glycoproteins on their surface to bind to host cell receptors, such as ACE2, allowing for cell entry [<span class="citation" data-cites="15l3di3Wj"><a href="#ref-15l3di3Wj" role="doc-biblioref">43</a></span>; doi:10.1016/j.cell.2020.02.058].
+<p>Coronaviruses use trimeric spike (S) glycoproteins on their surface to bind to host cell receptors, such as ACE2, allowing for cell entry <span class="citation" data-cites="15l3di3Wj qcVbT0w4">[<a href="#ref-15l3di3Wj" role="doc-biblioref">43</a>,<a href="#ref-qcVbT0w4" role="doc-biblioref">154</a>]</span>.
 Each S glycoprotein protomer is comprised of an S1 domain, also called the receptor binding domain (RBD), and an S2 domain.
-The S1 domain binds to host cell receptors while the S2 domain facilitates the fusion between the viral envelope and host cell membranes <span class="citation" data-cites="MTcTiS7i">[<a href="#ref-MTcTiS7i" role="doc-biblioref">136</a>]</span>.
-Although targeting of the host cell receptor ACE2 shows efficacy in inhibiting SARS-CoV-2 infection <span class="citation" data-cites="2QTH37Xi">[<a href="#ref-2QTH37Xi" role="doc-biblioref">140</a>]</span>, given the physiological relevance of ACE2 <span class="citation" data-cites="1GLr0EJU">[<a href="#ref-1GLr0EJU" role="doc-biblioref">141</a>]</span>, it would be favorable to target virus-specific structures rather than host receptors.
+The S1 domain binds to host cell receptors while the S2 domain facilitates the fusion between the viral envelope and host cell membranes <span class="citation" data-cites="MTcTiS7i">[<a href="#ref-MTcTiS7i" role="doc-biblioref">150</a>]</span>.
+Although targeting of the host cell receptor ACE2 shows efficacy in inhibiting SARS-CoV-2 infection <span class="citation" data-cites="2QTH37Xi">[<a href="#ref-2QTH37Xi" role="doc-biblioref">155</a>]</span>, given the physiological relevance of ACE2 <span class="citation" data-cites="1GLr0EJU">[<a href="#ref-1GLr0EJU" role="doc-biblioref">156</a>]</span>, it would be favorable to target virus-specific structures rather than host receptors.
 This forms the rationale of developing neutralizing antibodies against the S glycoprotein, disrupting its interaction with ACE2 and other receptors and thereby inhibiting viral entry.</p>
 <h6 id="spike-s-neutralizing-antibody-current-evidence">Spike (S) Neutralizing Antibody Current Evidence</h6>
-<p>The first human neutralizing antibody against SARS-CoV-2 targeting the trimeric spike (S) glycoproteins has been developed using hybridoma technology, <span class="citation" data-cites="XcuzhxrJ">[<a href="#ref-XcuzhxrJ" role="doc-biblioref">142</a>]</span>, where antibody-producing B-cells developed by mice can be inserted into myeloma cells to produce a hybrid cell line (the hybridoma) that is grown in culture.
+<p>The first human neutralizing antibody against SARS-CoV-2 targeting the trimeric spike (S) glycoproteins has been developed using hybridoma technology, <span class="citation" data-cites="XcuzhxrJ">[<a href="#ref-XcuzhxrJ" role="doc-biblioref">157</a>]</span>, where antibody-producing B-cells developed by mice can be inserted into myeloma cells to produce a hybrid cell line (the hybridoma) that is grown in culture.
 The 47D11 clone was able to cross-neutralize SARS-CoV and SARS-CoV2 by a mechanism that is different from receptor binding interference.
-The exact mechanism of how this clone neutralizes SARS-CoV-2 and inhibits infection in vitro remains unknown, but a potential mechanism might be antibody induced destabilization of the membrane prefusion structure <span class="citation" data-cites="XcuzhxrJ Ftbm1M9p">[<a href="#ref-XcuzhxrJ" role="doc-biblioref">142</a>,<a href="#ref-Ftbm1M9p" role="doc-biblioref">143</a>]</span>.
-The ability of this antibody to prevent infection at a feasible dose needs to be validated in vivo, especially since in vitro neutralization effects have been shown to not be reflective of in vivo efficacy <span class="citation" data-cites="O1whWg6Q">[<a href="#ref-O1whWg6Q" role="doc-biblioref">144</a>]</span>.
+The exact mechanism of how this clone neutralizes SARS-CoV-2 and inhibits infection in vitro remains unknown, but a potential mechanism might be antibody induced destabilization of the membrane prefusion structure <span class="citation" data-cites="XcuzhxrJ Ftbm1M9p">[<a href="#ref-XcuzhxrJ" role="doc-biblioref">157</a>,<a href="#ref-Ftbm1M9p" role="doc-biblioref">158</a>]</span>.
+The ability of this antibody to prevent infection at a feasible dose needs to be validated in vivo, especially since in vitro neutralization effects have been shown to not be reflective of in vivo efficacy <span class="citation" data-cites="O1whWg6Q">[<a href="#ref-O1whWg6Q" role="doc-biblioref">159</a>]</span>.
 Only a week later, a different group successfully isolated multiple nAbs targeting the RBD of the S glycoprotein from blood samples taken from COVID-19 patients in China <span class="citation" data-cites="GhJYjnft">[<a href="#ref-GhJYjnft" role="doc-biblioref">44</a>]</span>.
 Interestingly, the patient isolated antibodies did not cross-react with RBD’s from SARS-CoV and MERS-CoV, although cross-reactivity to the trimeric spike proteins of SARS-CoV and MERS-CoV was observed.
 This suggests that the RBDs between the three coronavirus species are immunologically distinct and that the isolated nAbs targeting the RBD of SARS-CoV-2 are species specific.
 While this specificity is desirable, it also raises the question of whether these antibodies are more susceptible to viral escape mechanisms.
-Viral escape is a common resistance mechanism to nAbs therapy due to selective pressure from neutralizing antibodies <span class="citation" data-cites="pUnzB8wV 14motyCOm">[<a href="#ref-pUnzB8wV" role="doc-biblioref">145</a>,<a href="#ref-14motyCOm" role="doc-biblioref">146</a>]</span>.
-For HIV, broadly neutralizing antibodies (bnAbs) targeting the CD4 binding site (CD4bs) show greater neutralization breadth than monoclonal antibodies, which target only specific HIV strains <span class="citation" data-cites="oGHFF5Cm">[<a href="#ref-oGHFF5Cm" role="doc-biblioref">147</a>]</span>.
-For MERS-CoV, a combination of multiple neutralizing antibodies targeting different antigenic sites prevented neutralization escape <span class="citation" data-cites="hvjXMm9H">[<a href="#ref-hvjXMm9H" role="doc-biblioref">148</a>]</span>.
+Viral escape is a common resistance mechanism to nAbs therapy due to selective pressure from neutralizing antibodies <span class="citation" data-cites="pUnzB8wV 14motyCOm">[<a href="#ref-pUnzB8wV" role="doc-biblioref">160</a>,<a href="#ref-14motyCOm" role="doc-biblioref">161</a>]</span>.
+For HIV, broadly neutralizing antibodies (bnAbs) targeting the CD4 binding site (CD4bs) show greater neutralization breadth than monoclonal antibodies, which target only specific HIV strains <span class="citation" data-cites="oGHFF5Cm">[<a href="#ref-oGHFF5Cm" role="doc-biblioref">162</a>]</span>.
+For MERS-CoV, a combination of multiple neutralizing antibodies targeting different antigenic sites prevented neutralization escape <span class="citation" data-cites="hvjXMm9H">[<a href="#ref-hvjXMm9H" role="doc-biblioref">163</a>]</span>.
 It was found that the different antibody isolates did not target the same epitopes, suggesting that using them in combination might produce a synergistic effect that prevents viral escape <span class="citation" data-cites="GhJYjnft">[<a href="#ref-GhJYjnft" role="doc-biblioref">44</a>]</span>.
 It was also demonstrated that binding affinity of the antibodies does not reflect their capability to compete with ACE2 binding.
 Furthermore, no conclusions about correlations between the severity of disease and the ability to produce neutralizing antibodies can be drawn at this point.
 Rather, higher neutralizing antibody titers were more frequently found in patients with severe disease.
-Correspondingly, higher levels of anti-spike IgG were observed in patients that deceased from infection compared to patient that recovered <span class="citation" data-cites="tC5vJmwj">[<a href="#ref-tC5vJmwj" role="doc-biblioref">149</a>]</span>.</p>
+Correspondingly, higher levels of anti-spike IgG were observed in patients that deceased from infection compared to patient that recovered <span class="citation" data-cites="tC5vJmwj">[<a href="#ref-tC5vJmwj" role="doc-biblioref">164</a>]</span>.</p>
 <h6 id="spike-s-neutralizing-antibody-summary">Spike (S) Neutralizing Antibody Summary</h6>
 <p>Results from the SARS-CoV and MERS-CoV epidemics can provide valuable lessons for the design of neutralizing antibodies for the current outbreak.
 The findings for SARS-CoV and MERS can aid in identifying which structures constitute suitable targets for nAbs, despite the fact that the RBD appears to be distinct between the three coronavirus species.
-These studies also suggest that a combination of nAbs targeting distinct antigens might be necessary to provide protection <span class="citation" data-cites="hvjXMm9H">[<a href="#ref-hvjXMm9H" role="doc-biblioref">148</a>]</span>.
+These studies also suggest that a combination of nAbs targeting distinct antigens might be necessary to provide protection <span class="citation" data-cites="hvjXMm9H">[<a href="#ref-hvjXMm9H" role="doc-biblioref">163</a>]</span>.
 The biggest challenge remains identifying antibodies that not only bind to their target, but also prove to be beneficial for disease management.
-On that note, a recently published study indicates that anti-spike antibodies could make the disease worse rather than eliminating the virus <span class="citation" data-cites="tC5vJmwj">[<a href="#ref-tC5vJmwj" role="doc-biblioref">149</a>]</span>.
+On that note, a recently published study indicates that anti-spike antibodies could make the disease worse rather than eliminating the virus <span class="citation" data-cites="tC5vJmwj">[<a href="#ref-tC5vJmwj" role="doc-biblioref">164</a>]</span>.
 These findings underscores our current lack of understanding the full immune response to SARS-CoV-2.</p>
 <h5 id="anticipated-mechanism-5">Anticipated Mechanism</h5>
-<p>Why it may be useful</p>
-<h5 id="current-evidence-11">Current Evidence</h5>
-<p>A list of current studies and their results, using carefully the information requested in the therapeutic paper tickets.</p>
-<h5 id="summary-11">Summary</h5>
-<p>Summarize the state of the neutralizing antibody approach.</p>
-<h4 id="interferons">Interferons</h4>
-<p>Interferons (IFNs) are a family of cytokines crucial to activate the first (innate) immune system response against viral infections.
-Interferons are classified into three categories based on their receptor specificity: type I, II and III <span class="citation" data-cites="bZMKqj6e">[<a href="#ref-bZMKqj6e" role="doc-biblioref">51</a>]</span>.
-Specifically, IFNs I (IFN-𝛼 and 𝛽) and II (IFN-𝛾 ) induce the expression of antiviral proteins which bring the viral RNA to degradation <span class="citation" data-cites="LtFtUo2P">[<a href="#ref-LtFtUo2P" role="doc-biblioref">150</a>]</span>.
-Among these IFNs, IFN- 𝛽 was already found to strongly inhibit the replication of other corona viruses, such as SARS-Cov, in cell culture, while IFN-𝛼 and 𝛾 were shown to be less effective in this context <span class="citation" data-cites="LtFtUo2P">[<a href="#ref-LtFtUo2P" role="doc-biblioref">150</a>]</span>.
-There are evidences that patients with higher susceptibility to develop Acute respiratory distress syndrome (ARDS) show indeed deficiency of IFN- 𝛽.
-For instance, upon other Corona viruses infection IFN- 𝛽 expression and synthesis is impaired, so that the virus can in fact escape the innate immune response <span class="citation" data-cites="Nfu9kiae">[<a href="#ref-Nfu9kiae" role="doc-biblioref">151</a>]</span>.</p>
-<p>On March 18 2020 Synairgen plc has received approval to start a phase II trial for SNG001, an IFN- 𝛽-1a formulation to be delivered to lungs via inhalation.
-SNG001 was already shown to be effective reducing viral load in swine flu in vivo model, as well as it has been shown to be effective in the protection from other Corona virus infection in vitro (Synairgen plc, press release).</p>
-<h5 id="anticipated-mechanism-6">Anticipated Mechanism</h5>
 <p>Why it may be useful</p>
 <h5 id="current-evidence-12">Current Evidence</h5>
 <p>A list of current studies and their results, using carefully the information requested in the therapeutic paper tickets.</p>
 <h5 id="summary-12">Summary</h5>
+<p>Summarize the state of the neutralizing antibody approach.</p>
+<h4 id="interferons">Interferons</h4>
+<p>Interferons (IFNs) are a family of cytokines crucial to activate the first (innate) immune system response against viral infections.
+Interferons are classified into three categories based on their receptor specificity: type I, II and III <span class="citation" data-cites="bZMKqj6e">[<a href="#ref-bZMKqj6e" role="doc-biblioref">51</a>]</span>.
+Specifically, IFNs I (IFN-𝛼 and 𝛽) and II (IFN-𝛾 ) induce the expression of antiviral proteins which bring the viral RNA to degradation <span class="citation" data-cites="LtFtUo2P">[<a href="#ref-LtFtUo2P" role="doc-biblioref">165</a>]</span>.
+Among these IFNs, IFN- 𝛽 was already found to strongly inhibit the replication of other corona viruses, such as SARS-Cov, in cell culture, while IFN-𝛼 and 𝛾 were shown to be less effective in this context <span class="citation" data-cites="LtFtUo2P">[<a href="#ref-LtFtUo2P" role="doc-biblioref">165</a>]</span>.
+There are evidences that patients with higher susceptibility to develop Acute respiratory distress syndrome (ARDS) show indeed deficiency of IFN- 𝛽.
+For instance, upon other Corona viruses infection IFN- 𝛽 expression and synthesis is impaired, so that the virus can in fact escape the innate immune response <span class="citation" data-cites="Nfu9kiae">[<a href="#ref-Nfu9kiae" role="doc-biblioref">166</a>]</span>.</p>
+<p>On March 18 2020 Synairgen plc has received approval to start a phase II trial for SNG001, an IFN- 𝛽-1a formulation to be delivered to lungs via inhalation.
+SNG001 was already shown to be effective reducing viral load in swine flu in vivo model, as well as it has been shown to be effective in the protection from other Corona virus infection in vitro (Synairgen plc, press release).</p>
+<h5 id="anticipated-mechanism-6">Anticipated Mechanism</h5>
+<p>Why it may be useful</p>
+<h5 id="current-evidence-13">Current Evidence</h5>
+<p>A list of current studies and their results, using carefully the information requested in the therapeutic paper tickets.</p>
+<h5 id="summary-13">Summary</h5>
 <p>Summarize the state of interferons.</p>
 <h3 id="vaccines">Vaccines</h3>
 <p>Vaccines, widely recognized as one of the most significant advances in human health during the 20th century, can be used to bolser both individual and herd immunity to a virus by promoting the development of antibodies without infection.
@@ -768,33 +851,33 @@ SNG001 was already shown to be effective reducing viral load in swine flu in viv
 <p>Brief background on the therapeutic.</p>
 <h5 id="anticipated-mechanism-7">Anticipated Mechanism</h5>
 <p>Why it may be useful</p>
-<h5 id="current-evidence-13">Current Evidence</h5>
+<h5 id="current-evidence-14">Current Evidence</h5>
 <p>A list of current studies and their results, using carefully the information requested in the therapeutic paper tickets.</p>
-<h5 id="summary-13">Summary</h5>
+<h5 id="summary-14">Summary</h5>
 <p>Summarize the state of the vaccine approach.</p>
 <h4 id="rna-vaccines">RNA Vaccines</h4>
 <p>Brief background on the therapeutic.</p>
 <h5 id="anticipated-mechanism-8">Anticipated Mechanism</h5>
 <p>Why it may be useful</p>
-<h5 id="current-evidence-14">Current Evidence</h5>
+<h5 id="current-evidence-15">Current Evidence</h5>
 <p>A list of current studies and their results, using carefully the information requested in the therapeutic paper tickets.</p>
-<h5 id="summary-14">Summary</h5>
+<h5 id="summary-15">Summary</h5>
 <p>Summarize the state of the vaccine approach.</p>
 <h4 id="viral-particle-vaccines">Viral Particle Vaccines</h4>
 <p>Brief background on the therapeutic.</p>
 <h5 id="anticipated-mechanism-9">Anticipated Mechanism</h5>
 <p>Why it may be useful</p>
-<h5 id="current-evidence-15">Current Evidence</h5>
+<h5 id="current-evidence-16">Current Evidence</h5>
 <p>A list of current studies and their results, using carefully the information requested in the therapeutic paper tickets.</p>
-<h5 id="summary-15">Summary</h5>
+<h5 id="summary-16">Summary</h5>
 <p>Summarize the state of the vaccine approach.</p>
 <h4 id="oligonucleotide-therapies">Oligonucleotide Therapies</h4>
 <p>Background</p>
 <h5 id="anticipated-mechanism-10">Anticipated Mechanism</h5>
 <p>Why it may be useful</p>
-<h5 id="current-evidence-16">Current Evidence</h5>
+<h5 id="current-evidence-17">Current Evidence</h5>
 <p>A list of current studies and their results, using carefully the information requested in the therapeutic paper tickets.</p>
-<h5 id="summary-16">Summary</h5>
+<h5 id="summary-17">Summary</h5>
 <p>Summarize the state of the neutralizing antibody approach.</p>
 <h3 id="underexplored-therapeutics">Underexplored Therapeutics</h3>
 <p>A summary of therapeutic avenues that future research may explore. Possible alternatives to current options and an overview of drug development processes.</p>
@@ -802,7 +885,7 @@ SNG001 was already shown to be effective reducing viral load in swine flu in viv
 <h3 id="article-selection-and-evaluation">Article Selection and Evaluation</h3>
 <p>The authors solicited relevant articles to be submitted via <a href="https://github.com/greenelab/covid19-review">GitHub</a> for review.
 Articles were classified as <em>diagnostic</em>, <em>therapeutic</em>, or <em>other</em>.
-Following a framework often used for assessing medical literature, the review consisted of examining the methods used in the article, the assignment (whether the study was observational or randomized), the assessment, the results, the interpretation, and how well the study extrapolates <span class="citation" data-cites="17OQtAY4l">[<a href="#ref-17OQtAY4l" role="doc-biblioref">152</a>]</span>.</p>
+Following a framework often used for assessing medical literature, the review consisted of examining the methods used in the article, the assignment (whether the study was observational or randomized), the assessment, the results, the interpretation, and how well the study extrapolates <span class="citation" data-cites="17OQtAY4l">[<a href="#ref-17OQtAY4l" role="doc-biblioref">167</a>]</span>.</p>
 <h4 id="diagnostic-papers">Diagnostic Papers</h4>
 <h5 id="methods-1">Methods</h5>
 <p>Reviewers began by describing the study question(s) being investigated by the article.
@@ -844,7 +927,7 @@ They described whether any side effects or interactions with other drugs were id
 <h5 id="extrapolation-1">Extrapolation</h5>
 <p>Reviewers describe how the study may extrapolate to a different species or population.</p>
 <h3 id="collaborative-writing">Collaborative Writing</h3>
-<p>Crowd-sourced writing with Manubot <span class="citation" data-cites="YuJbg3zO">[<a href="#ref-YuJbg3zO" role="doc-biblioref">153</a>]</span>.</p>
+<p>Crowd-sourced writing with Manubot <span class="citation" data-cites="YuJbg3zO">[<a href="#ref-YuJbg3zO" role="doc-biblioref">168</a>]</span>.</p>
 <h2 class="page_break_before" id="additional-items">Additional Items</h2>
 <h3 id="competing-interests">Competing Interests</h3>
 <table>
@@ -946,6 +1029,11 @@ They described whether any side effects or interactions with other drugs were id
 <td>None</td>
 <td>2020-04-07</td>
 </tr>
+<tr class="odd">
+<td>Fengling Hu</td>
+<td>None</td>
+<td>2020-04-08</td>
+</tr>
 </tbody>
 </table>
 <h3 id="author-contributions">Author Contributions</h3>
@@ -1032,6 +1120,10 @@ They described whether any side effects or interactions with other drugs were id
 <tr class="even">
 <td>Alexandra J. Lee</td>
 <td>Writing - Original Draft</td>
+</tr>
+<tr class="odd">
+<td>Fengling Hu</td>
+<td>Writing - Original Draft, Writing - Review &amp; Editing</td>
 </tr>
 </tbody>
 </table>
@@ -1312,7 +1404,7 @@ DOI: <a href="https://doi.org/10.1016/j.pcad.2020.02.007">10.1016/j.pcad.2020.02
 <p>48. <strong>Reducing mortality from 2019-nCoV: host-directed therapies should be an option</strong><br />
 Alimuddin Zumla, David S Hui, Esam I Azhar, Ziad A Memish, Markus Maeurer<br />
 <em>The Lancet</em> (2020-02) <a href="https://doi.org/ggkd3b">https://doi.org/ggkd3b</a><br />
-DOI: <a href="https://doi.org/10.1016/s0140-6736(20)30305-6">10.1016/s0140-6736(20)30305-6</a></p>
+DOI: <a href="https://doi.org/10.1016/s0140-6736(20)30305-6">10.1016/s0140-6736(20)30305-6</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/32035018">32035018</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7133595">PMC7133595</a></p>
 </div>
 <div id="ref-vEFSIErd">
 <p>49. <strong>Coronavirus Disease 2019 (COVID-19)</strong><br />
@@ -1527,396 +1619,485 @@ DOI: <a href="https://doi.org/10.1056/nejmoa2001191">10.1056/nejmoa2001191</a> �
 <div id="ref-1CJoAQiUA">
 <p>87. <strong>Severe 2019-nCoV Remdesivir RCT - Full Text View - ClinicalTrials.gov</strong><a href="https://clinicaltrials.gov/ct2/show/NCT04257656">https://clinicaltrials.gov/ct2/show/NCT04257656</a></p>
 </div>
+<div id="ref-IeML5mBm">
+<p>88. <strong>Clinical efficacy and side effects of antimalarials in systemic lupus erythematosus: a systematic review</strong><br />
+G Ruiz-Irastorza, M Ramos-Casals, P Brito-Zeron, MA Khamashta<br />
+<em>Annals of the Rheumatic Diseases</em> (2010-01) <a href="https://doi.org/dfrv2q">https://doi.org/dfrv2q</a><br />
+DOI: <a href="https://doi.org/10.1136/ard.2008.101766">10.1136/ard.2008.101766</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/19103632">19103632</a></p>
+</div>
+<div id="ref-8Vf8rD2W">
+<p>89. <strong>New insights into the antiviral effects of chloroquine</strong><br />
+Andrea Savarino, Livia Di Trani, Isabella Donatelli, Roberto Cauda, Antonio Cassone<br />
+<em>The Lancet Infectious Diseases</em> (2006-02) <a href="https://doi.org/dh8phb">https://doi.org/dh8phb</a><br />
+DOI: <a href="https://doi.org/10.1016/s1473-3099(06)70361-9">10.1016/s1473-3099(06)70361-9</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/16439323">16439323</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7129107">PMC7129107</a></p>
+</div>
+<div id="ref-2AASZDqa">
+<p>90. <strong>Screening of an FDA-Approved Compound Library Identifies Four Small-Molecule Inhibitors of Middle East Respiratory Syndrome Coronavirus Replication in Cell Culture</strong><br />
+Adriaan H. de Wilde, Dirk Jochmans, Clara C. Posthuma, Jessika C. Zevenhoven-Dobbe, Stefan van Nieuwkoop, Theo M. Bestebroer, Bernadette G. van den Hoogen, Johan Neyts, Eric J. Snijder<br />
+<em>Antimicrobial Agents and Chemotherapy</em> (2014-08) <a href="https://doi.org/f59p8v">https://doi.org/f59p8v</a><br />
+DOI: <a href="https://doi.org/10.1128/aac.03011-14">10.1128/aac.03011-14</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/24841269">24841269</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4136071">PMC4136071</a></p>
+</div>
+<div id="ref-1GBsnkeLK">
+<p>91. <strong>In Vitro Antiviral Activity and Projection of Optimized Dosing Design of Hydroxychloroquine for the Treatment of Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2)</strong><br />
+Xueting Yao, Fei Ye, Miao Zhang, Cheng Cui, Baoying Huang, Peihua Niu, Xu Liu, Li Zhao, Erdan Dong, Chunli Song, … Dongyang Liu<br />
+<em>Clinical Infectious Diseases</em> (2020-03-09) <a href="https://doi.org/ggpx7z">https://doi.org/ggpx7z</a><br />
+DOI: <a href="https://doi.org/10.1093/cid/ciaa237">10.1093/cid/ciaa237</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/32150618">32150618</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7108130">PMC7108130</a></p>
+</div>
+<div id="ref-x6nInyCf">
+<p>92.<strong>:{unav)</strong><br />
+Martin J Vincent, Eric Bergeron, Suzanne Benjannet, Bobbie R Erickson, Pierre E Rollin, Thomas G Ksiazek, Nabil G Seidah, Stuart T Nichol<br />
+<em>Virology Journal</em> (2005) <a href="https://doi.org/dvbds4">https://doi.org/dvbds4</a><br />
+DOI: <a href="https://doi.org/10.1186/1743-422x-2-69">10.1186/1743-422x-2-69</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/16115318">16115318</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1232869">PMC1232869</a></p>
+</div>
+<div id="ref-ovHLMvCi">
+<p>93. <strong>Hydroxychloroquine and azithromycin as a treatment of COVID-19: results of an open-label non-randomized clinical trial</strong><br />
+Philippe Gautret, Jean-Christophe Lagier, Philippe Parola, Van Thuan Hoang, Line Meddeb, Morgane Mailhe, Barbara Doudier, Johan Courjon, Valérie Giordanengo, Vera Esteves Vieira, … Didier Raoult<br />
+<em>International Journal of Antimicrobial Agents</em> (2020-03) <a href="https://doi.org/dp7d">https://doi.org/dp7d</a><br />
+DOI: <a href="https://doi.org/10.1016/j.ijantimicag.2020.105949">10.1016/j.ijantimicag.2020.105949</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/32205204">32205204</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7102549">PMC7102549</a></p>
+</div>
+<div id="ref-10J3hBiMo">
+<p>94. <strong>Statement on IJAA paper | International Society of Antimicrobial Chemotherapy</strong><br />
+M. T. C. Media<br />
+<a href="https://www.isac.world/news-and-publications/official-isac-statement">https://www.isac.world/news-and-publications/official-isac-statement</a></p>
+</div>
+<div id="ref-wzHb7Mj5">
+<p>95. <strong>Efficacy of hydroxychloroquine in patients with COVID-19: results of a randomized clinical trial</strong><br />
+Zhaowei Chen, Jijia Hu, Zongwei Zhang, Shan Jiang, Shoumeng Han, Dandan Yan, Ruhong Zhuang, Ben Hu, Zhan Zhang<br />
+<em>medRxiv</em> (2020-03-31) <a href="https://doi.org/ggqm4v">https://doi.org/ggqm4v</a><br />
+DOI: <a href="https://doi.org/10.1101/2020.03.22.20040758">10.1101/2020.03.22.20040758</a></p>
+</div>
+<div id="ref-o5gwQA7W">
+<p>96. <strong>A pilot study of hydroxychloroquine in treatment of patients with common coronavirus disease-19 (COVID-19)</strong><br />
+CHEN Jun, LIU Danping, LIU Li, LIU Ping, XU Qingnian, XIA Lu, LING Yun, HUANG Dan, SONG Shuli, ZHANG Dandan, … LU Hongzhou<br />
+<em>Journal of Zhejiang University (Medical Sciences)</em> (2020-03) <a href="https://doi.org/10.3785/j.issn.1008-9292.2020.03.03">https://doi.org/10.3785/j.issn.1008-9292.2020.03.03</a><br />
+DOI: <a href="https://doi.org/10.3785/j.issn.1008-9292.2020.03.03">10.3785/j.issn.1008-9292.2020.03.03</a></p>
+</div>
+<div id="ref-18KmvBOFr">
+<p>97. <strong>No Evidence of Rapid Antiviral Clearance or Clinical Benefit with the Combination of Hydroxychloroquine and Azithromycin in Patients with Severe COVID-19 Infection</strong><br />
+Jean Michel Molina, Constance Delaugerre, Jerome Le Goff, Breno Mela-Lima, Diane Ponscarme, Lauriane Goldwirt, Nathalie de Castro<br />
+<em>Médecine et Maladies Infectieuses</em> (2020-03) <a href="https://doi.org/ggqzrb">https://doi.org/ggqzrb</a><br />
+DOI: <a href="https://doi.org/10.1016/j.medmal.2020.03.006">10.1016/j.medmal.2020.03.006</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/32240719">32240719</a></p>
+</div>
+<div id="ref-aiItPxSY">
+<p>98. <strong>Breakthrough: Chloroquine phosphate has shown apparent efficacy in treatment of COVID-19 associated pneumonia in clinical studies</strong><br />
+Jianjun Gao, Zhenxue Tian, Xu Yang<br />
+<em>BioScience Trends</em> (2020) <a href="https://doi.org/ggm3mv">https://doi.org/ggm3mv</a><br />
+DOI: <a href="https://doi.org/10.5582/bst.2020.01047">10.5582/bst.2020.01047</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/32074550">32074550</a></p>
+</div>
+<div id="ref-1BdQKtXnY">
+<p>99. <strong>Targeting the Endocytic Pathway and Autophagy Process as a Novel Therapeutic Strategy in COVID-19</strong><br />
+Naidi Yang, Han-Ming Shen<br />
+<em>International Journal of Biological Sciences</em> (2020) <a href="https://doi.org/ggqspm">https://doi.org/ggqspm</a><br />
+DOI: <a href="https://doi.org/10.7150/ijbs.45498">10.7150/ijbs.45498</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/32226290">32226290</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7098027">PMC7098027</a></p>
+</div>
+<div id="ref-z8XnLYWM">
+<p>100. <strong>SARS-CoV-2: an Emerging Coronavirus that Causes a Global Threat</strong><br />
+Jun Zheng<br />
+<em>International Journal of Biological Sciences</em> (2020) <a href="https://doi.org/ggqspr">https://doi.org/ggqspr</a><br />
+DOI: <a href="https://doi.org/10.7150/ijbs.45053">10.7150/ijbs.45053</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/32226285">32226285</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7098030">PMC7098030</a></p>
+</div>
+<div id="ref-dY9kXLAS">
+<p>101. <strong>Life Threatening Severe QTc Prolongation in Patient with Systemic Lupus Erythematosus due to Hydroxychloroquine</strong><br />
+John P. O’Laughlin, Parag H. Mehta, Brian C. Wong<br />
+<em>Case Reports in Cardiology</em> (2016) <a href="https://doi.org/ggqzrc">https://doi.org/ggqzrc</a><br />
+DOI: <a href="https://doi.org/10.1155/2016/4626279">10.1155/2016/4626279</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27478650">27478650</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4960328">PMC4960328</a></p>
+</div>
 <div id="ref-xLPeszeO">
-<p>88. <strong>Structural Design Principles for Delivery of Bioactive Components in Nutraceuticals and Functional Foods</strong><br />
+<p>102. <strong>Structural Design Principles for Delivery of Bioactive Components in Nutraceuticals and Functional Foods</strong><br />
 David Julian McClements, Eric Andrew Decker, Yeonhwa Park, Jochen Weiss<br />
 <em>Critical Reviews in Food Science and Nutrition</em> (2009-06-16) <a href="https://doi.org/dt68m4">https://doi.org/dt68m4</a><br />
 DOI: <a href="https://doi.org/10.1080/10408390902841529">10.1080/10408390902841529</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/19484636">19484636</a></p>
 </div>
 <div id="ref-2Us0gNMr">
-<p>89. <strong>Nutraceutical therapies for atherosclerosis</strong><br />
+<p>103. <strong>Nutraceutical therapies for atherosclerosis</strong><br />
 Joe W. E. Moss, Dipak P. Ramji<br />
 <em>Nature Reviews Cardiology</em> (2016-07-07) <a href="https://doi.org/f9g389">https://doi.org/f9g389</a><br />
 DOI: <a href="https://doi.org/10.1038/nrcardio.2016.103">10.1038/nrcardio.2016.103</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27383080">27383080</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5228762">PMC5228762</a></p>
 </div>
 <div id="ref-2hMFPQJR">
-<p>90. <strong>Potential interventions for novel coronavirus in China: A systematic review</strong><br />
+<p>104. <strong>Potential interventions for novel coronavirus in China: A systematic review</strong><br />
 Lei Zhang, Yunhui Liu<br />
 <em>Journal of Medical Virology</em> (2020-03-03) <a href="https://doi.org/ggpx57">https://doi.org/ggpx57</a><br />
 DOI: <a href="https://doi.org/10.1002/jmv.25707">10.1002/jmv.25707</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/32052466">32052466</a></p>
 </div>
 <div id="ref-E9PuVUHF">
-<p>91. <strong>Phospholipids of Animal and Marine Origin: Structure, Function, and Anti-Inflammatory Properties</strong><br />
+<p>105. <strong>Phospholipids of Animal and Marine Origin: Structure, Function, and Anti-Inflammatory Properties</strong><br />
 Ronan Lordan, Alexandros Tsoupras, Ioannis Zabetakis<br />
 <em>Molecules</em> (2017-11-14) <a href="https://doi.org/ggqmgq">https://doi.org/ggqmgq</a><br />
 DOI: <a href="https://doi.org/10.3390/molecules22111964">10.3390/molecules22111964</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29135918">29135918</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6150200">PMC6150200</a></p>
 </div>
 <div id="ref-JNyhLAfe">
-<p>92. <strong>Omega-3 polyunsaturated fatty acids and inflammatory processes: nutrition or pharmacology?</strong><br />
+<p>106. <strong>Omega-3 polyunsaturated fatty acids and inflammatory processes: nutrition or pharmacology?</strong><br />
 Philip C. Calder<br />
 <em>British Journal of Clinical Pharmacology</em> (2013-03) <a href="https://doi.org/ggqmgg">https://doi.org/ggqmgg</a><br />
 DOI: <a href="https://doi.org/10.1111/j.1365-2125.2012.04374.x">10.1111/j.1365-2125.2012.04374.x</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/22765297">22765297</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3575932">PMC3575932</a></p>
 </div>
 <div id="ref-BIVORG2X">
-<p>93. <strong>Proresolving Lipid Mediators and Mechanisms in the Resolution of Acute Inflammation</strong><br />
+<p>107. <strong>Proresolving Lipid Mediators and Mechanisms in the Resolution of Acute Inflammation</strong><br />
 Christopher D. Buckley, Derek W. Gilroy, Charles N. Serhan<br />
 <em>Immunity</em> (2014-03) <a href="https://doi.org/f5wntr">https://doi.org/f5wntr</a><br />
 DOI: <a href="https://doi.org/10.1016/j.immuni.2014.02.009">10.1016/j.immuni.2014.02.009</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/24656045">24656045</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4004957">PMC4004957</a></p>
 </div>
 <div id="ref-uPOTvvjR">
-<p>94. <strong>Specialized pro-resolving mediators: endogenous regulators of infection and inflammation</strong><br />
+<p>108. <strong>Specialized pro-resolving mediators: endogenous regulators of infection and inflammation</strong><br />
 Maria C. Basil, Bruce D. Levy<br />
 <em>Nature Reviews Immunology</em> (2015-12-21) <a href="https://doi.org/f9fgtd">https://doi.org/f9fgtd</a><br />
 DOI: <a href="https://doi.org/10.1038/nri.2015.4">10.1038/nri.2015.4</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26688348">26688348</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5242505">PMC5242505</a></p>
 </div>
 <div id="ref-fIo3ESPM">
-<p>95. <strong>The Lipid Mediator Protectin D1 Inhibits Influenza Virus Replication and Improves Severe Influenza</strong><br />
+<p>109. <strong>The Lipid Mediator Protectin D1 Inhibits Influenza Virus Replication and Improves Severe Influenza</strong><br />
 Masayuki Morita, Keiji Kuba, Akihiko Ichikawa, Mizuho Nakayama, Jun Katahira, Ryo Iwamoto, Tokiko Watanebe, Saori Sakabe, Tomo Daidoji, Shota Nakamura, … Yumiko Imai<br />
 <em>Cell</em> (2013-03) <a href="https://doi.org/f4rbgb">https://doi.org/f4rbgb</a><br />
 DOI: <a href="https://doi.org/10.1016/j.cell.2013.02.027">10.1016/j.cell.2013.02.027</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/23477864">23477864</a></p>
 </div>
 <div id="ref-B8toe6Mr">
-<p>96. <strong>Fish Oil-Fed Mice Have Impaired Resistance to Influenza Infection</strong><br />
+<p>110. <strong>Fish Oil-Fed Mice Have Impaired Resistance to Influenza Infection</strong><br />
 Nicole M. J. Schwerbrock, Erik A. Karlsson, Qing Shi, Patricia A. Sheridan, Melinda A. Beck<br />
 <em>The Journal of Nutrition</em> (2009-08) <a href="https://doi.org/dv45f4">https://doi.org/dv45f4</a><br />
 DOI: <a href="https://doi.org/10.3945/jn.109.108027">10.3945/jn.109.108027</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/19549756">19549756</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2709305">PMC2709305</a></p>
 </div>
 <div id="ref-3Xht24k3">
-<p>97. <strong>Modulation of host defence against bacterial and viral infections by omega-3 polyunsaturated fatty acids</strong><br />
+<p>111. <strong>Modulation of host defence against bacterial and viral infections by omega-3 polyunsaturated fatty acids</strong><br />
 Marie-Odile Husson, Delphine Ley, Céline Portal, Madeleine Gottrand, Thomas Hueso, Jean-Luc Desseyn, Frédéric Gottrand<br />
 <em>Journal of Infection</em> (2016-12) <a href="https://doi.org/f9pp2h">https://doi.org/f9pp2h</a><br />
 DOI: <a href="https://doi.org/10.1016/j.jinf.2016.10.001">10.1016/j.jinf.2016.10.001</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27746159">27746159</a></p>
 </div>
 <div id="ref-VMI1lOFR">
-<p>98. <strong>Zinc and immunity: An essential interrelation</strong><br />
+<p>112. <strong>Zinc and immunity: An essential interrelation</strong><br />
 Maria Maares, Hajo Haase<br />
 <em>Archives of Biochemistry and Biophysics</em> (2016-12) <a href="https://doi.org/f9c9b5">https://doi.org/f9c9b5</a><br />
 DOI: <a href="https://doi.org/10.1016/j.abb.2016.03.022">10.1016/j.abb.2016.03.022</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27021581">27021581</a></p>
 </div>
 <div id="ref-Qif5U0Ig">
-<p>99. <strong>Zinc-Dependent Suppression of TNF-α Production Is Mediated by Protein Kinase A-Induced Inhibition of Raf-1, IκB Kinase β, and NF-κB</strong><br />
+<p>113. <strong>Zinc-Dependent Suppression of TNF-α Production Is Mediated by Protein Kinase A-Induced Inhibition of Raf-1, IκB Kinase β, and NF-κB</strong><br />
 Verena von Bülow, Svenja Dubben, Gabriela Engelhardt, Silke Hebel, Birgit Plümäkers, Holger Heine, Lothar Rink, Hajo Haase<br />
 <em>The Journal of Immunology</em> (2007-09-15) <a href="https://doi.org/f3vs45">https://doi.org/f3vs45</a><br />
 DOI: <a href="https://doi.org/10.4049/jimmunol.179.6.4180">10.4049/jimmunol.179.6.4180</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/17785857">17785857</a></p>
 </div>
 <div id="ref-1CEzU1G34">
-<p>100. <strong>Zinc activates NF-κB in HUT-78 cells</strong><br />
+<p>114. <strong>Zinc activates NF-κB in HUT-78 cells</strong><br />
 Ananda S. Prasad, Bin Bao, Frances W. J. Beck, Fazlul H. Sarkar<br />
 <em>Journal of Laboratory and Clinical Medicine</em> (2001-10) <a href="https://doi.org/cnc6fr">https://doi.org/cnc6fr</a><br />
 DOI: <a href="https://doi.org/10.1067/mlc.2001.118108">10.1067/mlc.2001.118108</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/11574819">11574819</a></p>
 </div>
 <div id="ref-7ElRN12v">
-<p>101. <strong>Innate or Adaptive Immunity? The Example of Natural Killer Cells</strong><br />
+<p>115. <strong>Innate or Adaptive Immunity? The Example of Natural Killer Cells</strong><br />
 E. Vivier, D. H. Raulet, A. Moretta, M. A. Caligiuri, L. Zitvogel, L. L. Lanier, W. M. Yokoyama, S. Ugolini<br />
 <em>Science</em> (2011-01-06) <a href="https://doi.org/ckzg9g">https://doi.org/ckzg9g</a><br />
 DOI: <a href="https://doi.org/10.1126/science.1198687">10.1126/science.1198687</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/21212348">21212348</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3089969">PMC3089969</a></p>
 </div>
 <div id="ref-kxuSwrCI">
-<p>102. <strong>Zinc supplementation decreases incidence of infections in the elderly: effect of zinc on generation of cytokines and oxidative stress</strong><br />
+<p>116. <strong>Zinc supplementation decreases incidence of infections in the elderly: effect of zinc on generation of cytokines and oxidative stress</strong><br />
 Ananda S Prasad, Frances WJ Beck, Bin Bao, James T Fitzgerald, Diane C Snell, Joel D Steinberg, Lavoisier J Cardozo<br />
 <em>The American Journal of Clinical Nutrition</em> (2007-03) <a href="https://doi.org/ggqmgs">https://doi.org/ggqmgs</a><br />
 DOI: <a href="https://doi.org/10.1093/ajcn/85.3.837">10.1093/ajcn/85.3.837</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/17344507">17344507</a></p>
 </div>
 <div id="ref-IAOnO0Gj">
-<p>103. <strong>The Role of Zinc in Antiviral Immunity</strong><br />
+<p>117. <strong>The Role of Zinc in Antiviral Immunity</strong><br />
 Scott A Read, Stephanie Obeid, Chantelle Ahlenstiel, Golo Ahlenstiel<br />
 <em>Advances in Nutrition</em> (2019-07) <a href="https://doi.org/ggqmgr">https://doi.org/ggqmgr</a><br />
 DOI: <a href="https://doi.org/10.1093/advances/nmz013">10.1093/advances/nmz013</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31305906">31305906</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6628855">PMC6628855</a></p>
 </div>
 <div id="ref-sgr0mlJK">
-<p>104. <strong>Efficacy of Zinc Against Common Cold Viruses: An Overview</strong><br />
+<p>118. <strong>Efficacy of Zinc Against Common Cold Viruses: An Overview</strong><br />
 Darrell Hulisz<br />
 <em>Journal of the American Pharmacists Association</em> (2004-09) <a href="https://doi.org/cf6pmt">https://doi.org/cf6pmt</a><br />
 DOI: <a href="https://doi.org/10.1331/1544-3191.44.5.594.hulisz">10.1331/1544-3191.44.5.594.hulisz</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/15496046">15496046</a></p>
 </div>
 <div id="ref-lPexOhy6">
-<p>105. <strong>Zinc Lozenges May Shorten the Duration of Colds: A Systematic Review</strong><br />
+<p>119. <strong>Zinc Lozenges May Shorten the Duration of Colds: A Systematic Review</strong><br />
 Harri Harri<br />
 <em>The Open Respiratory Medicine Journal</em> (2011-06-23) <a href="https://doi.org/bndmfq">https://doi.org/bndmfq</a><br />
 DOI: <a href="https://doi.org/10.2174/1874306401105010051">10.2174/1874306401105010051</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/21769305">21769305</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3136969">PMC3136969</a></p>
 </div>
 <div id="ref-6aOUJdHa">
-<p>106. <strong>Zn2+ Inhibits Coronavirus and Arterivirus RNA Polymerase Activity In Vitro and Zinc Ionophores Block the Replication of These Viruses in Cell Culture</strong><br />
+<p>120. <strong>Zn2+ Inhibits Coronavirus and Arterivirus RNA Polymerase Activity In Vitro and Zinc Ionophores Block the Replication of These Viruses in Cell Culture</strong><br />
 Aartjan J. W. te Velthuis, Sjoerd H. E. van den Worm, Amy C. Sims, Ralph S. Baric, Eric J. Snijder, Martijn J. van Hemert<br />
 <em>PLoS Pathogens</em> (2010-11-04) <a href="https://doi.org/d95x4g">https://doi.org/d95x4g</a><br />
 DOI: <a href="https://doi.org/10.1371/journal.ppat.1001176">10.1371/journal.ppat.1001176</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/21079686">21079686</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2973827">PMC2973827</a></p>
 </div>
 <div id="ref-NB1udFHF">
-<p>107. <strong>The SARS-coronavirus papain-like protease: Structure, function and inhibition by designed antiviral compounds</strong><br />
+<p>121. <strong>The SARS-coronavirus papain-like protease: Structure, function and inhibition by designed antiviral compounds</strong><br />
 Yahira M. Báez-Santos, Sarah E. St. John, Andrew D. Mesecar<br />
 <em>Antiviral Research</em> (2015-03) <a href="https://doi.org/f63hjp">https://doi.org/f63hjp</a><br />
 DOI: <a href="https://doi.org/10.1016/j.antiviral.2014.12.015">10.1016/j.antiviral.2014.12.015</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25554382">25554382</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5896749">PMC5896749</a></p>
 </div>
 <div id="ref-3RCeQRRc">
-<p>108. <strong>Vitamin B12 May Inhibit RNA-Dependent-RNA Polymerase Activity of nsp12 from the COVID-19 Virus</strong><br />
+<p>122. <strong>Vitamin B12 May Inhibit RNA-Dependent-RNA Polymerase Activity of nsp12 from the COVID-19 Virus</strong><br />
 Naveen Narayanan, Deepak T. Nair<br />
 (2020-03-22) <a href="https://doi.org/ggqmjc">https://doi.org/ggqmjc</a><br />
 DOI: <a href="https://doi.org/10.20944/preprints202003.0347.v1">10.20944/preprints202003.0347.v1</a></p>
 </div>
 <div id="ref-9czQt5cR">
-<p>109. <strong>Vitamin C Mitigates Oxidative Stress and Tumor Necrosis Factor-Alpha in Severe Community-Acquired Pneumonia and LPS-Induced Macrophages</strong><br />
+<p>123. <strong>Vitamin C Mitigates Oxidative Stress and Tumor Necrosis Factor-Alpha in Severe Community-Acquired Pneumonia and LPS-Induced Macrophages</strong><br />
 Yuanyuan Chen, Guangyan Luo, Jiao Yuan, Yuanyuan Wang, Xiaoqiong Yang, Xiaoyun Wang, Guoping Li, Zhiguang Liu, Nanshan Zhong<br />
 <em>Mediators of Inflammation</em> (2014) <a href="https://doi.org/f6nb5f">https://doi.org/f6nb5f</a><br />
 DOI: <a href="https://doi.org/10.1155/2014/426740">10.1155/2014/426740</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25253919">25253919</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4165740">PMC4165740</a></p>
 </div>
 <div id="ref-RjFxOURM">
-<p>110. <strong>Intravenous infusion of ascorbic acid decreases serum histamine concentrations in patients with allergic and non-allergic diseases</strong><br />
+<p>124. <strong>Intravenous infusion of ascorbic acid decreases serum histamine concentrations in patients with allergic and non-allergic diseases</strong><br />
 Alexander F. Hagel, Christian M. Layritz, Wolfgang H. Hagel, Hans-Jürgen Hagel, Edith Hagel, Wolfgang Dauth, Jürgen Kressel, Tanja Regnet, Andreas Rosenberg, Markus F. Neurath, … Martin Raithel<br />
 <em>Naunyn-Schmiedeberg’s Archives of Pharmacology</em> (2013-05-11) <a href="https://doi.org/f48jsb">https://doi.org/f48jsb</a><br />
 DOI: <a href="https://doi.org/10.1007/s00210-013-0880-1">10.1007/s00210-013-0880-1</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/23666445">23666445</a></p>
 </div>
 <div id="ref-13M3VAfY9">
-<p>111. <strong>Vitamin C and Immune Function</strong><br />
+<p>125. <strong>Vitamin C and Immune Function</strong><br />
 Anitra Carr, Silvia Maggini<br />
 <em>Nutrients</em> (2017-11-03) <a href="https://doi.org/gfzrjs">https://doi.org/gfzrjs</a><br />
 DOI: <a href="https://doi.org/10.3390/nu9111211">10.3390/nu9111211</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29099763">29099763</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5707683">PMC5707683</a></p>
 </div>
 <div id="ref-uQFCDDIy">
-<p>112. <strong>Changes in Leucocyte Ascorbic Acid during the Common Cold</strong><br />
+<p>126. <strong>Changes in Leucocyte Ascorbic Acid during the Common Cold</strong><br />
 R. Hume, Elspeth Weyers<br />
 <em>Scottish Medical Journal</em> (2016-06-25) <a href="https://doi.org/ggqrfj">https://doi.org/ggqrfj</a><br />
 DOI: <a href="https://doi.org/10.1177/003693307301800102">10.1177/003693307301800102</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/4717661">4717661</a></p>
 </div>
 <div id="ref-10nBT1HbX">
-<p>113. <strong>ASCORBIC ACID FUNCTION AND METABOLISM DURING COLDS</strong><br />
+<p>127. <strong>ASCORBIC ACID FUNCTION AND METABOLISM DURING COLDS</strong><br />
 C. W. M. Wilson<br />
 <em>Annals of the New York Academy of Sciences</em> (1975-09) <a href="https://doi.org/bjfdtb">https://doi.org/bjfdtb</a><br />
 DOI: <a href="https://doi.org/10.1111/j.1749-6632.1975.tb29312.x">10.1111/j.1749-6632.1975.tb29312.x</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/1106304">1106304</a></p>
 </div>
 <div id="ref-1Bj8VMlSk">
-<p>114. <strong>Metabolism of ascorbic acid (vitamin C) in subjects infected with common cold viruses</strong><br />
+<p>128. <strong>Metabolism of ascorbic acid (vitamin C) in subjects infected with common cold viruses</strong><br />
 J. E. W. Davies, R. E. Hughes, Eleri Jones, Sylvia E. Reed, J. W. Craig, D. A. J. Tyrrell<br />
 <em>Biochemical Medicine</em> (1979-02) <a href="https://doi.org/fd22sv">https://doi.org/fd22sv</a><br />
 DOI: <a href="https://doi.org/10.1016/0006-2944(79)90058-9">10.1016/0006-2944(79)90058-9</a></p>
 </div>
 <div id="ref-aEEZ8Pq9">
-<p>115. <strong>Vitamin C and Infections</strong><br />
+<p>129. <strong>Vitamin C and Infections</strong><br />
 Harri Hemilä<br />
 <em>Nutrients</em> (2017-03-29) <a href="https://doi.org/gfkb9n">https://doi.org/gfkb9n</a><br />
 DOI: <a href="https://doi.org/10.3390/nu9040339">10.3390/nu9040339</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28353648">28353648</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5409678">PMC5409678</a></p>
 </div>
 <div id="ref-gZRPoTM9">
-<p>116. <strong>Vitamin C and the common cold</strong><br />
+<p>130. <strong>Vitamin C and the common cold</strong><br />
 Harri Hemilä<br />
 <em>British Journal of Nutrition</em> (2007-03-09) <a href="https://doi.org/fszhc6">https://doi.org/fszhc6</a><br />
 DOI: <a href="https://doi.org/10.1079/bjn19920004">10.1079/bjn19920004</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/1547201">1547201</a></p>
 </div>
 <div id="ref-Pb5PCH7y">
-<p>117. <strong>Vitamin C for preventing and treating the common cold</strong><br />
+<p>131. <strong>Vitamin C for preventing and treating the common cold</strong><br />
 Harri Hemilä, Elizabeth Chalker<br />
 <em>Cochrane Database of Systematic Reviews</em> (2013-01-31) <a href="https://doi.org/xz5">https://doi.org/xz5</a><br />
 DOI: <a href="https://doi.org/10.1002/14651858.cd000980.pub4">10.1002/14651858.cd000980.pub4</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/23440782">23440782</a></p>
 </div>
 <div id="ref-JARvpqRw">
-<p>118. <strong>Vitamin C intake and susceptibility to pneumonia</strong><br />
+<p>132. <strong>Vitamin C intake and susceptibility to pneumonia</strong><br />
 HARRI HEMILÄ<br />
 <em>The Pediatric Infectious Disease Journal</em> (1997-09) <a href="https://doi.org/fkvs9d">https://doi.org/fkvs9d</a><br />
 DOI: <a href="https://doi.org/10.1097/00006454-199709000-00003">10.1097/00006454-199709000-00003</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/9306475">9306475</a></p>
 </div>
 <div id="ref-DPhRTQw0">
-<p>119. <strong>Vitamin C Can Shorten the Length of Stay in the ICU: A Meta-Analysis</strong><br />
+<p>133. <strong>Vitamin C Can Shorten the Length of Stay in the ICU: A Meta-Analysis</strong><br />
 Harri Hemilä, Elizabeth Chalker<br />
 <em>Nutrients</em> (2019-03-27) <a href="https://doi.org/gfzscg">https://doi.org/gfzscg</a><br />
 DOI: <a href="https://doi.org/10.3390/nu11040708">10.3390/nu11040708</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30934660">30934660</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6521194">PMC6521194</a></p>
 </div>
 <div id="ref-Rt5Aik4p">
-<p>120. <strong>Effect of Vitamin C Infusion on Organ Failure and Biomarkers of Inflammation and Vascular Injury in Patients With Sepsis and Severe Acute Respiratory Failure</strong><br />
+<p>134. <strong>Effect of Vitamin C Infusion on Organ Failure and Biomarkers of Inflammation and Vascular Injury in Patients With Sepsis and Severe Acute Respiratory Failure</strong><br />
 Alpha A. Fowler, Jonathon D. Truwit, R. Duncan Hite, Peter E. Morris, Christine DeWilde, Anna Priday, Bernard Fisher, Leroy R. Thacker, Ramesh Natarajan, Donald F. Brophy, … Matthew Halquist<br />
 <em>JAMA</em> (2019-10-01) <a href="https://doi.org/ggqmh8">https://doi.org/ggqmh8</a><br />
 DOI: <a href="https://doi.org/10.1001/jama.2019.11825">10.1001/jama.2019.11825</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31573637">31573637</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6777268">PMC6777268</a></p>
 </div>
 <div id="ref-n3v9Thlz">
-<p>121. <strong>Vitamin D and the Immune System</strong><br />
+<p>135. <strong>Vitamin D and the Immune System</strong><br />
 Cynthia Aranow<br />
 <em>Journal of Investigative Medicine</em> (2015-12-15) <a href="https://doi.org/f3wh87">https://doi.org/f3wh87</a><br />
 DOI: <a href="https://doi.org/10.2310/jim.0b013e31821b8755">10.2310/jim.0b013e31821b8755</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/21527855">21527855</a></p>
 </div>
 <div id="ref-iWLsflrG">
-<p>122. <strong>Vitamin D in the prevention of acute respiratory infection: Systematic review of clinical studies</strong><br />
+<p>136. <strong>Vitamin D in the prevention of acute respiratory infection: Systematic review of clinical studies</strong><br />
 David A. Jolliffe, Christopher J. Griffiths, Adrian R. Martineau<br />
 <em>The Journal of Steroid Biochemistry and Molecular Biology</em> (2013-07) <a href="https://doi.org/ggqmh9">https://doi.org/ggqmh9</a><br />
 DOI: <a href="https://doi.org/10.1016/j.jsbmb.2012.11.017">10.1016/j.jsbmb.2012.11.017</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/23220552">23220552</a></p>
 </div>
 <div id="ref-nwEQBjV4">
-<p>123. <strong>Vitamin D: modulator of the immune system</strong><br />
+<p>137. <strong>Vitamin D: modulator of the immune system</strong><br />
 Femke Baeke, Tatiana Takiishi, Hannelie Korf, Conny Gysemans, Chantal Mathieu<br />
 <em>Current Opinion in Pharmacology</em> (2010-08) <a href="https://doi.org/d43qtf">https://doi.org/d43qtf</a><br />
 DOI: <a href="https://doi.org/10.1016/j.coph.2010.04.001">10.1016/j.coph.2010.04.001</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/20427238">20427238</a></p>
 </div>
 <div id="ref-yBxajVXZ">
-<p>124. <strong>Evidence That Vitamin D Supplementation Could Reduce Risk of Influenza and COVID-19 Infections and Deaths</strong><br />
+<p>138. <strong>Evidence That Vitamin D Supplementation Could Reduce Risk of Influenza and COVID-19 Infections and Deaths</strong><br />
 William B. Grant, Henry Lahore, Sharon L. McDonnell, Carole A. Baggerly, Christine B. French, Jennifer L. Aliano, Harjit Pal Bhattoa<br />
 (2020-03-30) <a href="https://doi.org/ggqmjb">https://doi.org/ggqmjb</a><br />
 DOI: <a href="https://doi.org/10.20944/preprints202003.0235.v2">10.20944/preprints202003.0235.v2</a></p>
 </div>
 <div id="ref-C3szSqIr">
-<p>125. <strong>Factors Affecting 25-Hydroxyvitamin D Concentration in Response to Vitamin D Supplementation</strong><br />
+<p>139. <strong>Factors Affecting 25-Hydroxyvitamin D Concentration in Response to Vitamin D Supplementation</strong><br />
 Hajar Mazahery, Pamela von Hurst<br />
 <em>Nutrients</em> (2015-06-25) <a href="https://doi.org/f7sztz">https://doi.org/f7sztz</a><br />
 DOI: <a href="https://doi.org/10.3390/nu7075111">10.3390/nu7075111</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26121531">26121531</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4516990">PMC4516990</a></p>
 </div>
 <div id="ref-1EaIsb9L2">
-<p>126. <strong>Optimal Nutritional Status for a Well-Functioning Immune System is an Important Factor to Protect Against Viral Infections</strong><br />
+<p>140. <strong>Optimal Nutritional Status for a Well-Functioning Immune System is an Important Factor to Protect Against Viral Infections</strong><br />
 Philip C. Calder, Anitra C. Carr, Adrian F. Gombart, Manfred Eggersdorfer<br />
 (2020-03-12) <a href="https://www.preprints.org/manuscript/202003.0199/v1">https://www.preprints.org/manuscript/202003.0199/v1</a></p>
 </div>
 <div id="ref-lMhFSIiF">
-<p>127. <strong>The frontier between nutrition and pharma: The international regulatory framework of functional foods, food supplements and nutraceuticals</strong><br />
+<p>141. <strong>The frontier between nutrition and pharma: The international regulatory framework of functional foods, food supplements and nutraceuticals</strong><br />
 Laura Domínguez Díaz, Virginia Fernández-Ruiz, Montaña Cámara<br />
 <em>Critical Reviews in Food Science and Nutrition</em> (2019-03-29) <a href="https://doi.org/ggqs3w">https://doi.org/ggqs3w</a><br />
 DOI: <a href="https://doi.org/10.1080/10408398.2019.1592107">10.1080/10408398.2019.1592107</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30924346">30924346</a></p>
 </div>
 <div id="ref-fez8aZAu">
-<p>128. <strong>Coronavirus Update: FDA and FTC Warn Seven Companies Selling Fraudulent Products that Claim to Treat or Prevent COVID-19</strong><br />
+<p>142. <strong>Coronavirus Update: FDA and FTC Warn Seven Companies Selling Fraudulent Products that Claim to Treat or Prevent COVID-19</strong><br />
 Office of the Commissioner<br />
 <em>FDA</em> (2020-03-27) <a href="https://www.fda.gov/news-events/press-announcements/coronavirus-update-fda-and-ftc-warn-seven-companies-selling-fraudulent-products-claim-treat-or">https://www.fda.gov/news-events/press-announcements/coronavirus-update-fda-and-ftc-warn-seven-companies-selling-fraudulent-products-claim-treat-or</a></p>
 </div>
 <div id="ref-1AKi0FYUB">
-<p>129. <strong>Development of therapeutic antibodies for the treatment of diseases</strong><br />
+<p>143. <strong>Development of therapeutic antibodies for the treatment of diseases</strong><br />
 Ruei-Min Lu, Yu-Chyi Hwang, I-Ju Liu, Chi-Chiu Lee, Han-Zen Tsai, Hsin-Jung Li, Han-Chung Wu<br />
 <em>Journal of Biomedical Science</em> (2020-01-02) <a href="https://doi.org/ggqbpx">https://doi.org/ggqbpx</a><br />
 DOI: <a href="https://doi.org/10.1186/s12929-019-0592-z">10.1186/s12929-019-0592-z</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31894001">31894001</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6939334">PMC6939334</a></p>
 </div>
 <div id="ref-yumBaJ6U">
-<p>130. <strong>Broadly Neutralizing Antiviral Antibodies</strong><br />
+<p>144. <strong>Broadly Neutralizing Antiviral Antibodies</strong><br />
 Davide Corti, Antonio Lanzavecchia<br />
 <em>Annual Review of Immunology</em> (2013-03-21) <a href="https://doi.org/gf25g8">https://doi.org/gf25g8</a><br />
 DOI: <a href="https://doi.org/10.1146/annurev-immunol-032712-095916">10.1146/annurev-immunol-032712-095916</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/23330954">23330954</a></p>
 </div>
 <div id="ref-181QWa7HL">
-<p>131. <strong>Neutralizing Monoclonal Antibodies as Promising Therapeutics against Middle East Respiratory Syndrome Coronavirus Infection</strong><br />
+<p>145. <strong>Neutralizing Monoclonal Antibodies as Promising Therapeutics against Middle East Respiratory Syndrome Coronavirus Infection</strong><br />
 Hui-Ju Han, Jian-Wei Liu, Hao Yu, Xue-Jie Yu<br />
 <em>Viruses</em> (2018-11-30) <a href="https://doi.org/ggp87v">https://doi.org/ggp87v</a><br />
 DOI: <a href="https://doi.org/10.3390/v10120680">10.3390/v10120680</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30513619">30513619</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6315345">PMC6315345</a></p>
 </div>
 <div id="ref-dUnB3gD6">
-<p>132. <strong>Ibalizumab Targeting CD4 Receptors, An Emerging Molecule in HIV Therapy</strong><br />
+<p>146. <strong>Ibalizumab Targeting CD4 Receptors, An Emerging Molecule in HIV Therapy</strong><br />
 Simona A. Iacob, Diana G. Iacob<br />
 <em>Frontiers in Microbiology</em> (2017-11-27) <a href="https://doi.org/gcn3kh">https://doi.org/gcn3kh</a><br />
 DOI: <a href="https://doi.org/10.3389/fmicb.2017.02323">10.3389/fmicb.2017.02323</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29230203">29230203</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5711820">PMC5711820</a></p>
 </div>
 <div id="ref-cwbHiM1o">
-<p>133. <strong>Product review on the monoclonal antibody palivizumab for prevention of respiratory syncytial virus infection</strong><br />
+<p>147. <strong>Product review on the monoclonal antibody palivizumab for prevention of respiratory syncytial virus infection</strong><br />
 Bernhard Resch<br />
 <em>Human Vaccines &amp; Immunotherapeutics</em> (2017-06-12) <a href="https://doi.org/ggqbps">https://doi.org/ggqbps</a><br />
 DOI: <a href="https://doi.org/10.1080/21645515.2017.1337614">10.1080/21645515.2017.1337614</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28605249">28605249</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5612471">PMC5612471</a></p>
 </div>
 <div id="ref-3gp7t98X">
-<p>134. <strong>Chronological evolution of IgM, IgA, IgG and neutralisation antibodies after infection with SARS-associated coronavirus</strong><br />
+<p>148. <strong>Chronological evolution of IgM, IgA, IgG and neutralisation antibodies after infection with SARS-associated coronavirus</strong><br />
 P.-R. Hsueh, L.-M. Huang, P.-J. Chen, C.-L. Kao, P.-C. Yang<br />
 <em>Clinical Microbiology and Infection</em> (2004-12) <a href="https://doi.org/cwwg87">https://doi.org/cwwg87</a><br />
-DOI: <a href="https://doi.org/10.1111/j.1469-0691.2004.01009.x">10.1111/j.1469-0691.2004.01009.x</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/15606632">15606632</a></p>
+DOI: <a href="https://doi.org/10.1111/j.1469-0691.2004.01009.x">10.1111/j.1469-0691.2004.01009.x</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/15606632">15606632</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7129952">PMC7129952</a></p>
 </div>
 <div id="ref-KULxo48U">
-<p>135. <strong>Neutralizing Antibodies in Patients with Severe Acute Respiratory Syndrome–Associated Coronavirus Infection</strong><br />
+<p>149. <strong>Neutralizing Antibodies in Patients with Severe Acute Respiratory Syndrome–Associated Coronavirus Infection</strong><br />
 Yuchun Nie, Guangwen Wang, Xuanling Shi, Hong Zhang, Yan Qiu, Zhongping He, Wei Wang, Gewei Lian, Xiaolei Yin, Liying Du, … Mingxiao Ding<br />
 <em>The Journal of Infectious Diseases</em> (2004-09-15) <a href="https://doi.org/cgqj5b">https://doi.org/cgqj5b</a><br />
 DOI: <a href="https://doi.org/10.1086/423286">10.1086/423286</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/15319862">15319862</a></p>
 </div>
 <div id="ref-MTcTiS7i">
-<p>136. <strong>Potent human monoclonal antibodies against SARS CoV, Nipah and Hendra viruses</strong><br />
+<p>150. <strong>Potent human monoclonal antibodies against SARS CoV, Nipah and Hendra viruses</strong><br />
 Ponraj Prabakaran, Zhongyu Zhu, Xiaodong Xiao, Arya Biragyn, Antony S Dimitrov, Christopher C Broder, Dimiter S Dimitrov<br />
 <em>Expert Opinion on Biological Therapy</em> (2009-04-08) <a href="https://doi.org/b88kw8">https://doi.org/b88kw8</a><br />
 DOI: <a href="https://doi.org/10.1517/14712590902763755">10.1517/14712590902763755</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/19216624">19216624</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2705284">PMC2705284</a></p>
 </div>
 <div id="ref-rXzkS3gA">
-<p>137. <strong>Prior Infection and Passive Transfer of Neutralizing Antibody Prevent Replication of Severe Acute Respiratory Syndrome Coronavirus in the Respiratory Tract of Mice</strong><br />
+<p>151. <strong>Prior Infection and Passive Transfer of Neutralizing Antibody Prevent Replication of Severe Acute Respiratory Syndrome Coronavirus in the Respiratory Tract of Mice</strong><br />
 K. Subbarao, J. McAuliffe, L. Vogel, G. Fahle, S. Fischer, K. Tatti, M. Packard, W.-J. Shieh, S. Zaki, B. Murphy<br />
 <em>Journal of Virology</em> (2004-03-11) <a href="https://doi.org/b8wr7c">https://doi.org/b8wr7c</a><br />
 DOI: <a href="https://doi.org/10.1128/jvi.78.7.3572-3577.2004">10.1128/jvi.78.7.3572-3577.2004</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/15016880">15016880</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC371090">PMC371090</a></p>
 </div>
 <div id="ref-RRx6YovP">
-<p>138. <strong>The Effectiveness of Convalescent Plasma and Hyperimmune Immunoglobulin for the Treatment of Severe Acute Respiratory Infections of Viral Etiology: A Systematic Review and Exploratory Meta-analysis</strong><br />
+<p>152. <strong>The Effectiveness of Convalescent Plasma and Hyperimmune Immunoglobulin for the Treatment of Severe Acute Respiratory Infections of Viral Etiology: A Systematic Review and Exploratory Meta-analysis</strong><br />
 John Mair-Jenkins, Maria Saavedra-Campos, J. Kenneth Baillie, Paul Cleary, Fu-Meng Khaw, Wei Shen Lim, Sophia Makki, Kevin D. Rooney, Jonathan S. Nguyen-Van-Tam, Charles R. Beck, Convalescent Plasma Study Group<br />
 <em>Journal of Infectious Diseases</em> (2015-01-01) <a href="https://doi.org/f632n7">https://doi.org/f632n7</a><br />
 DOI: <a href="https://doi.org/10.1093/infdis/jiu396">10.1093/infdis/jiu396</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25030060">25030060</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4264590">PMC4264590</a></p>
 </div>
 <div id="ref-Ou3P9pGV">
-<p>139. <strong>Identification of human neutralizing antibodies against MERS-CoV and their role in virus adaptive evolution</strong><br />
+<p>153. <strong>Identification of human neutralizing antibodies against MERS-CoV and their role in virus adaptive evolution</strong><br />
 X.-C. Tang, S. S. Agnihothram, Y. Jiao, J. Stanhope, R. L. Graham, E. C. Peterson, Y. Avnir, A. S. C. Tallarico, J. Sheehan, Q. Zhu, … W. A. Marasco<br />
 <em>Proceedings of the National Academy of Sciences</em> (2014-04-28) <a href="https://doi.org/smr">https://doi.org/smr</a><br />
 DOI: <a href="https://doi.org/10.1073/pnas.1402074111">10.1073/pnas.1402074111</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/24778221">24778221</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4024880">PMC4024880</a></p>
 </div>
+<div id="ref-qcVbT0w4">
+<p>154. <strong>Structure, Function, and Antigenicity of the SARS-CoV-2 Spike Glycoprotein</strong><br />
+Alexandra C. Walls, Young-Jun Park, M. Alejandra Tortorici, Abigail Wall, Andrew T. McGuire, David Veesler<br />
+<em>Cell</em> (2020-03) <a href="https://doi.org/dpvh">https://doi.org/dpvh</a><br />
+DOI: <a href="https://doi.org/10.1016/j.cell.2020.02.058">10.1016/j.cell.2020.02.058</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/32155444">32155444</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7102599">PMC7102599</a></p>
+</div>
 <div id="ref-2QTH37Xi">
-<p>140. <strong>Angiotensin-converting enzyme 2 is a functional receptor for the SARS coronavirus</strong><br />
+<p>155. <strong>Angiotensin-converting enzyme 2 is a functional receptor for the SARS coronavirus</strong><br />
 Wenhui Li, Michael J. Moore, Natalya Vasilieva, Jianhua Sui, Swee Kee Wong, Michael A. Berne, Mohan Somasundaran, John L. Sullivan, Katherine Luzuriaga, Thomas C. Greenough, … Michael Farzan<br />
 <em>Nature</em> (2003-11) <a href="https://doi.org/bqvpjh">https://doi.org/bqvpjh</a><br />
 DOI: <a href="https://doi.org/10.1038/nature02145">10.1038/nature02145</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/14647384">14647384</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7095016">PMC7095016</a></p>
 </div>
 <div id="ref-1GLr0EJU">
-<p>141. <strong>The Role of ACE2 in Cardiovascular Physiology</strong><br />
+<p>156. <strong>The Role of ACE2 in Cardiovascular Physiology</strong><br />
 Gavin Y. Oudit, Michael A. Crackower, Peter H. Backx, Josef M. Penninger<br />
 <em>Trends in Cardiovascular Medicine</em> (2003-04) <a href="https://doi.org/bsbp49">https://doi.org/bsbp49</a><br />
 DOI: <a href="https://doi.org/10.1016/s1050-1738(02)00233-5">10.1016/s1050-1738(02)00233-5</a></p>
 </div>
 <div id="ref-XcuzhxrJ">
-<p>142. <strong>A human monoclonal antibody blocking SARS-CoV-2 infection</strong><br />
+<p>157. <strong>A human monoclonal antibody blocking SARS-CoV-2 infection</strong><br />
 Chunyan Wang, Wentao Li, Dubravka Drabek, Nisreen M. A. Okba, Rien van Haperen, Albert D. M. E. Osterhaus, Frank J. M. van Kuppeveld, Bart L. Haagmans, Frank Grosveld, Berend-Jan Bosch<br />
 <em>bioRxiv</em> (2020-03-12) <a href="https://doi.org/ggnw4t">https://doi.org/ggnw4t</a><br />
 DOI: <a href="https://doi.org/10.1101/2020.03.11.987958">10.1101/2020.03.11.987958</a></p>
 </div>
 <div id="ref-Ftbm1M9p">
-<p>143. <strong>Unexpected Receptor Functional Mimicry Elucidates Activation of Coronavirus Fusion</strong><br />
+<p>158. <strong>Unexpected Receptor Functional Mimicry Elucidates Activation of Coronavirus Fusion</strong><br />
 Alexandra C. Walls, Xiaoli Xiong, Young-Jun Park, M. Alejandra Tortorici, Joost Snijder, Joel Quispe, Elisabetta Cameroni, Robin Gopal, Mian Dai, Antonio Lanzavecchia, … David Veesler<br />
 <em>Cell</em> (2019-02) <a href="https://doi.org/gft3jg">https://doi.org/gft3jg</a><br />
 DOI: <a href="https://doi.org/10.1016/j.cell.2018.12.028">10.1016/j.cell.2018.12.028</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30712865">30712865</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6751136">PMC6751136</a></p>
 </div>
 <div id="ref-O1whWg6Q">
-<p>144. <strong><em>In Vitro</em> Neutralization Is Not Predictive of Prophylactic Efficacy of Broadly Neutralizing Monoclonal Antibodies CR6261 and CR9114 against Lethal H2 Influenza Virus Challenge in Mice</strong><br />
+<p>159. <strong><em>In Vitro</em> Neutralization Is Not Predictive of Prophylactic Efficacy of Broadly Neutralizing Monoclonal Antibodies CR6261 and CR9114 against Lethal H2 Influenza Virus Challenge in Mice</strong><br />
 Troy C. Sutton, Elaine W. Lamirande, Kevin W. Bock, Ian N. Moore, Wouter Koudstaal, Muniza Rehman, Gerrit Jan Weverling, Jaap Goudsmit, Kanta Subbarao<br />
 <em>Journal of Virology</em> (2017-12-15) <a href="https://doi.org/ggqbpt">https://doi.org/ggqbpt</a><br />
 DOI: <a href="https://doi.org/10.1128/jvi.01603-17">10.1128/jvi.01603-17</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29046448">29046448</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5709608">PMC5709608</a></p>
 </div>
 <div id="ref-pUnzB8wV">
-<p>145. <strong>Human neutralizing antibodies against MERS coronavirus: implications for future immunotherapy</strong><br />
+<p>160. <strong>Human neutralizing antibodies against MERS coronavirus: implications for future immunotherapy</strong><br />
 Xian-Chun Tang, Wayne A Marasco<br />
 <em>Immunotherapy</em> (2015-07) <a href="https://doi.org/ggqbpz">https://doi.org/ggqbpz</a><br />
 DOI: <a href="https://doi.org/10.2217/imt.15.33">10.2217/imt.15.33</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26098703">26098703</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5068219">PMC5068219</a></p>
 </div>
 <div id="ref-14motyCOm">
-<p>146. <strong>A Potent and Broad Neutralizing Antibody Recognizes and Penetrates the HIV Glycan Shield</strong><br />
+<p>161. <strong>A Potent and Broad Neutralizing Antibody Recognizes and Penetrates the HIV Glycan Shield</strong><br />
 R. Pejchal, K. J. Doores, L. M. Walker, R. Khayat, P.-S. Huang, S.-K. Wang, R. L. Stanfield, J.-P. Julien, A. Ramos, M. Crispin, … I. A. Wilson<br />
 <em>Science</em> (2011-10-13) <a href="https://doi.org/bzqv8c">https://doi.org/bzqv8c</a><br />
 DOI: <a href="https://doi.org/10.1126/science.1213256">10.1126/science.1213256</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/21998254">21998254</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3280215">PMC3280215</a></p>
 </div>
 <div id="ref-oGHFF5Cm">
-<p>147. <strong>Broadly Neutralizing Antibodies against HIV: Back to Blood</strong><br />
+<p>162. <strong>Broadly Neutralizing Antibodies against HIV: Back to Blood</strong><br />
 Amir Dashti, Anthony L. DeVico, George K. Lewis, Mohammad M. Sajadi<br />
 <em>Trends in Molecular Medicine</em> (2019-03) <a href="https://doi.org/ggqbpr">https://doi.org/ggqbpr</a><br />
 DOI: <a href="https://doi.org/10.1016/j.molmed.2019.01.007">10.1016/j.molmed.2019.01.007</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30792120">30792120</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6401214">PMC6401214</a></p>
 </div>
 <div id="ref-hvjXMm9H">
-<p>148. <strong>Importance of Neutralizing Monoclonal Antibodies Targeting Multiple Antigenic Sites on the Middle East Respiratory Syndrome Coronavirus Spike Glycoprotein To Avoid Neutralization Escape</strong><br />
+<p>163. <strong>Importance of Neutralizing Monoclonal Antibodies Targeting Multiple Antigenic Sites on the Middle East Respiratory Syndrome Coronavirus Spike Glycoprotein To Avoid Neutralization Escape</strong><br />
 Lingshu Wang, Wei Shi, James D. Chappell, M. Gordon Joyce, Yi Zhang, Masaru Kanekiyo, Michelle M. Becker, Neeltje van Doremalen, Robert Fischer, Nianshuang Wang, … Barney S. Graham<br />
 <em>Journal of Virology</em> (2018-04-27) <a href="https://doi.org/ggqbpv">https://doi.org/ggqbpv</a><br />
 DOI: <a href="https://doi.org/10.1128/jvi.02002-17">10.1128/jvi.02002-17</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29514901">29514901</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5923077">PMC5923077</a></p>
 </div>
 <div id="ref-tC5vJmwj">
-<p>149. <strong>Anti–spike IgG causes severe acute lung injury by skewing macrophage responses during acute SARS-CoV infection</strong><br />
+<p>164. <strong>Anti–spike IgG causes severe acute lung injury by skewing macrophage responses during acute SARS-CoV infection</strong><br />
 Li Liu, Qiang Wei, Qingqing Lin, Jun Fang, Haibo Wang, Hauyee Kwok, Hangying Tang, Kenji Nishiura, Jie Peng, Zhiwu Tan, … Zhiwei Chen<br />
 <em>JCI Insight</em> (2019-02-21) <a href="https://doi.org/ggqbpw">https://doi.org/ggqbpw</a><br />
 DOI: <a href="https://doi.org/10.1172/jci.insight.123158">10.1172/jci.insight.123158</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30830861">30830861</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6478436">PMC6478436</a></p>
 </div>
 <div id="ref-LtFtUo2P">
-<p>150. <strong>The antiviral effect of interferon-beta against SARS-Coronavirus is not mediated by MxA protein</strong><br />
+<p>165. <strong>The antiviral effect of interferon-beta against SARS-Coronavirus is not mediated by MxA protein</strong><br />
 Martin Spiegel, Andreas Pichlmair, Elke Mühlberger, Otto Haller, Friedemann Weber<br />
 <em>Journal of Clinical Virology</em> (2004-07) <a href="https://doi.org/cmc3ds">https://doi.org/cmc3ds</a><br />
 DOI: <a href="https://doi.org/10.1016/j.jcv.2003.11.013">10.1016/j.jcv.2003.11.013</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/15135736">15135736</a></p>
 </div>
 <div id="ref-Nfu9kiae">
-<p>151. <strong>Coronavirus virulence genes with main focus on SARS-CoV envelope gene</strong><br />
+<p>166. <strong>Coronavirus virulence genes with main focus on SARS-CoV envelope gene</strong><br />
 Marta L. DeDiego, Jose L. Nieto-Torres, Jose M. Jimenez-Guardeño, Jose A. Regla-Nava, Carlos Castaño-Rodriguez, Raul Fernandez-Delgado, Fernando Usera, Luis Enjuanes<br />
 <em>Virus Research</em> (2014-12) <a href="https://doi.org/f6wm24">https://doi.org/f6wm24</a><br />
 DOI: <a href="https://doi.org/10.1016/j.virusres.2014.07.024">10.1016/j.virusres.2014.07.024</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25093995">25093995</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4261026">PMC4261026</a></p>
 </div>
 <div id="ref-17OQtAY4l">
-<p>152. <strong>Using the MAARIE Framework To Read the Research Literature</strong><br />
+<p>167. <strong>Using the MAARIE Framework To Read the Research Literature</strong><br />
 M. Corcoran<br />
 <em>American Journal of Occupational Therapy</em> (2006-07-01) <a href="https://doi.org/bqh97x">https://doi.org/bqh97x</a><br />
 DOI: <a href="https://doi.org/10.5014/ajot.60.4.367">10.5014/ajot.60.4.367</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/16915865">16915865</a></p>
 </div>
 <div id="ref-YuJbg3zO">
-<p>153. <strong>Open collaborative writing with Manubot</strong><br />
+<p>168. <strong>Open collaborative writing with Manubot</strong><br />
 Daniel S. Himmelstein, Vincent Rubinetti, David R. Slochower, Dongbo Hu, Venkat S. Malladi, Casey S. Greene, Anthony Gitter<br />
 <em>PLOS Computational Biology</em> (2019-06-24) <a href="https://doi.org/c7np">https://doi.org/c7np</a><br />
 DOI: <a href="https://doi.org/10.1371/journal.pcbi.1007128">10.1371/journal.pcbi.1007128</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31233491">31233491</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6611653">PMC6611653</a></p>
