@@ -220,72 +220,6 @@ clinical management and control of COVID19.
 *Summary generated as part of a project by students, postdocs and faculty at the Immunology Institute of the Icahn School of Medicine, Mount Sinai.*
 
 
-### Diarrhea may be underestimated: a missing link in 2019 novel coronavirus
-
-Liang et al. *medRxiv* [@doi:10.1101/2020.02.03.20020289]
-
-#### Keywords
-
-- SARS-CoV-2
-- diarrhea
-- ACE2
-- scRNA-seq
-
-#### Main Findings
-
-This study examined the incidence of diarrhea in
-patients infected with SARS-CoV-2 across three recently published
-cohorts and found that there are statistically significant differences
-by Fisher’s exact test. They report that this could be due to subjective
-diagnosis criterion for diarrhea or from patients first seeking medical
-care from gastroenterologist. In order to minimize nosocomial infections
-arising from unsuspected patients with diarrhea and gain comprehensive
-understanding of transmission routes for this viral pathogen, they
-compared the transcriptional levels of ACE2 of various human tissues
-from NCBI public database as well as in small intestine tissue from
-CD57BL/6 mice using single cell sequencing. They show that ACE2
-expression is not only increased in the human small intestine, but
-demonstrate a particular increase in mice enterocytes positioned on the
-surface of the intestinal lining exposed to viral pathogens. Given that
-ACE2 is the viral receptor for SARS-CoV-2 and also reported to regulate
-diarrhea, their data suggests the small intestine as a potential
-transmission route and diarrhea as a potentially underestimated symptom
-in COVID19 patients that must be carefully monitored. Interestingly,
-however, they show that ACE2 expression level is not elevated in human
-lung tissue.
-
-#### Limitations
-
-Although this study demonstrates a
-statistical difference in the incidence of diarrhea across three
-separate COVID19 patient cohorts, their conclusions are limited by a
-small sample size. Specifically, the p-value computed by Fisher’s exact
-test is based on a single patient cohort of only six cases of which 33%
-are reported to have diarrhea, while the remaining two larger cohorts
-with 41 and 99 cases report 3% and 2% diarrhea incidence, respectively.
-Despite showing significance, they would need to acquire larger sample
-sizes and cohorts to minimize random variability and draw meaningful
-conclusions. Furthermore, they do not address why ACE2 expression level
-is not elevated in human lung tissue despite it being a major
-established route of transmission for SARS-CoV-2. It could be helpful to
-validate this result by looking at ACE2 expression in mouse lung tissue.
-Finally, although this study is descriptive and shows elevated ACE2
-expression in small intestinal epithelial cells, it does not establish a
-mechanistic link to SARS-CoV-2 infection of the host. Overall, their
-claim that infected patients exhibiting diarrhea pose an increased risk
-to hospital staff needs to be further substantiated.
-
-#### Significance
-
-This study provides a possible transmission route and a
-potentially underappreciated clinical symptom for SARS-CoV-2 for better
-clinical management and control of COVID19.
-
-#### Credit
-
-*Summary generated as part of a project by students, postdocs and faculty at the Immunology Institute of the Icahn School of Medicine, Mount Sinai.*
-
-
 ### Specific ACE2 Expression in Cholangiocytes May Cause Liver Damage After 2019-nCoV Infection
 
 Chai et al. *bioRxiv* [@doi:10.1101/2020.02.03.931766]
@@ -345,6 +279,8 @@ infections..
 
 
 ### ACE2 expression by colonic epithelial cells is associated with viral infection, immunity and energy metabolism
+
+Wang et al. *medRxiv*. [@doi:10.1101/2020.02.05.20020545]
 
 #### Keywords
 
@@ -896,6 +832,54 @@ in these patients.
 *Review by Gabrielle Lubitz as part of a project by students, postdocs and faculty at the Immunology Institute of the Icahn School of Medicine, Mount Sinai.*
 
 
+a\. Title of the article : **Clinical Characteristics of 2019 Novel
+Infected Coronavirus Pneumonia：A Systemic Review and Meta-analysis**
+
+b\. Small number of Immunology Keywords (will be used in STEP 3)
+
+White Blood Cells, Lymphocytes, Neutrophils
+
+c\. A few lines that summarize the main findings of the article (the
+shorter the better!)
+
+The authors performed a meta analysis of literature on clinical,
+laboratory and radiologic characteristics of patients presenting with
+pneumonia related to SARSCoV2 infection, published up to Feb 6 2020.
+They found that symptoms that were mostly consistent among studies were
+sore throat, headache, diarrhea and rhinorrhea. Fever, cough, malaise
+and muscle pain were highly variable across studies. Leukopenia (mostly
+lymphocytopenia) and increased white blood cells were highly variable
+across studies. They identified three most common patterns seen on CT
+scan, but there was high variability across studies. Consistently across
+the studies examined, the authors found that about 75% of patients need
+supplemental oxygen therapy, about 23% mechanical ventilation and about
+5% extracorporeal membrane oxygenation (ECMO). The authors calculated a
+staggering pooled mortality incidence of 78% for these patients.
+
+d\. A critical analysis that explicit the limitations of the study, if
+any.
+
+The authors mention that the total number of studies included in this
+meta analysis is nine, however they also mentioned that only three
+studies reported individual patient data. It is overall unclear how many
+patients in total were included in their analysis. This is mostly
+relevant as they reported an incredibly high mortality (78%) and mention
+an absolute number of deaths of 26 cases overall. It is not clear from
+their report how the mortality rate was calculated.
+
+The data is based on reports from China and mostly from the Wuhan area,
+which somewhat limits the overall generalizability and applicability of
+these results.
+
+e\. Importance and implications of these findings in the context of the
+current epidemics
+
+This meta analysis offers some important data for clinicians to refer to
+when dealing with patients with COVID-19 and specifically with
+pneumonia. It is very helpful to set expectations about the course of
+the disease.
+
+
 ### Longitudinal characteristics of lymphocyte responses and cytokine profiles in the peripheral blood of SARS-CoV-2 infected patients
 
 Liu et al. *medRxiv* [@doi:10.1101/2020.02.16.20023671]
@@ -1405,10 +1389,7 @@ elicit robust immunity against CoV2.
 
 ### Structure, Function, and Antigenicity of the SARSCoV-2 Spike Glycoprotein
 
-[@doi:10.1016/j.cell.2020.02.058]
-
 #### Keywords
-
 - binding affinity
 - antigenicity
 - neutralizing antibody
@@ -1425,18 +1406,20 @@ explanation of the efficient transmission of SARS-CoV-2 between humans.
 Besides, Walls and colleagues described SARS-CoV-2 S glycoprotein S by
 Cryo-EM along with neutralizing polyclonal response against SAR-CoV-2 S
 from mice immunized with SAR-CoV and blocking SAR-CoV-2 S-mediated entry
-into VeroE6 infected cells.
+into VeroE6 infected cells.**
 
 #### Limitations
 
 The SARS-CoV-2 depends on the cell factors ACE2 and TMPRSS2, this
-last, according to a recent manuscript by Markus Hoffman et al. [@doi:10.1016/j.cell.2020.02.052]. The authors used green monkey (VeroE6) and hamster (BHK) cell
+last, according to a recent manuscript by Markus Hoffman et al., *Cell*,
+2020. The authors used green monkey (VeroE6) and hamster (BHK) cell
 lines in the experiments to drive its conclusions to humans; however, it
 is well known the caucasian colon adenocarcinoma human cell line
 (CaCo-2), highly express the hACE2 receptor as the TMPRSS2 protease as
 well. In humans, ACE2 protein is highly expressed in the
 gastrointestinal tract, which again, makes the CaCo-2 cell line suitable
 for the following SARS-CoV-2 studies.
+
 
 #### Significance
 
@@ -1447,9 +1430,7 @@ might help establish a precedent for initial drug design and treatment
 of the current global human coronavirus epidemic.
 
 #### Credit
-
-*This review was undertaken as part of a project by students, postdocs and faculty at the Immunology Institute of the Icahn School of Medicine, Mount Sinai.*
-
+*Review by postdocs and faculty at the Immunology Institute of the Icahn School of Medicine, Mount Sinai.*
 
 ### Breadth of concomitant immune responses underpinning viral clearance and patient recovery in a non-severe case of COVID-19
 
@@ -2370,20 +2351,20 @@ therapeutic intervention (ex: Eldelumab).
 *Review by Natalie Vaninov as part of a project by students, postdocs and faculty at the Immunology Institute of the Icahn School of Medicine, Mount Sinai.*
 
 
-Reviewed By: Zafar Mahmood Edited by: K Alexandropoulos
+### Antibody responses to SARS-CoV-2 in patients of novel coronavirus disease 2019
 
-[[]{#OLE_LINK6 .anchor}]{#OLE_LINK5 .anchor}**Antibody responses to
-SARS-CoV-2 in patients of novel coronavirus disease 2019**
+Zhao Jr. et al. *medRxiv*. [@doi:10.1101/2020.03.02.20030189]
 
-**doi:** <https://doi.org/10.1101/2020.03.02.20030189>
+#### Keywords
+- SARS-CoV-2 IgG
+- seroconversion rate
+- total Ab
+- Ig
+- IgM
 
-Quick Link
+#### Main Findings
 
-https://www.medrxiv.org/content/10.1101/2020.03.02.20030189v1
-
-*Keywords:* SARS-CoV-2 IgG, seroconversion rate, total Ab, Ig, IgM
-
-*Summary and Key Findings:* This study examined antibody responses in
+This study examined antibody responses in
 the blood of COVID-19 patients during the early SARS CoV2 outbreak in
 China. Total 535 plasma samples were collected from 173 patients (51.4%
 female) and were tested for seroconversion rate using ELISA. Authors
@@ -2425,7 +2406,9 @@ of the disease . The key findings are:
     noted that increases in of antibody titers were not always
     accompanied by RNA clearance.
 
-*Limitations*: Because different types of ELISA assays were used for
+#### Limitations
+
+Because different types of ELISA assays were used for
 determining antibody concentrations at different time points after
 disease onset, sequential seroconversion of total Ab, IgM and IgG may
 not represent actual temporal differences but rather differences in the
@@ -2434,7 +2417,9 @@ collected from patients in the later stage of illness, how long the
 antibodies could last remain unknown. For investigative dynamics of
 antibodies, more samples were required.
 
-*Relevance:* Total and IgG antibody titers could be used to understand
+#### Significance
+
+Total and IgG antibody titers could be used to understand
 the epidemiology of SARS CoV-2 infection and to assist in determining
 the level of humoral immune response in patients.
 
@@ -2443,6 +2428,10 @@ and RNA testing in the diagnosis and clinical management of COVID-19
 patients. The understanding of antibody responses and their half-life
 during and after SARS CoV2 infection is important and warrants further
 investigations.
+
+#### Credit
+
+*This review was undertaken by Zafar Mahmood and edited by K Alexandropoulos as part of a project by students, postdocs and faculty at the Immunology Institute of the Icahn School of Medicine, Mount Sinai.*
 
 
 ### Restoration of leukomonocyte counts is associated with viral clearance in COVID-19 hospitalized patients
@@ -2982,16 +2971,20 @@ patient management.
 *This review was undertaken as part of a project by students, postdocs and faculty at the Immunology Institute of the Icahn School of Medicine, Mount Sinai.*
 
 
-**Review by Tamar Plitt and Katherine Lindblad**
-10.1101/2020.03.06.980037
+### Monoclonal antibodies for the S2 subunit of spike of SARS-CoV cross-react with the newly-emerged SARS-CoV-2
 
-**Title:** Monoclonal antibodies for the S2 subunit of spike of SARS-CoV
-cross-react with the newly-emerged SARS-CoV-2
+[@doi:10.1101/2020.03.06.980037]
 
-**Keywords:** Coronavirus Disease 2019 (COVID-19); SARS-CoV-2; Spike
-protein; Cross- reactive antibodies
+#### Keywords
 
-**Summary**: Whole genome sequencing-based comparisons of the 2003
+- Coronavirus Disease 2019 (COVID-19)
+- SARS-CoV-2
+- Spike protein
+- Cross- reactive antibodies
+
+#### Main Findings
+
+Whole genome sequencing-based comparisons of the 2003
 Severe Acute Respiratory Syndrome Coronavirus (SARS-CoV) and the 2019
 SARS-CoV-2 revealed conserved receptor binding domain (RBD) and host
 cell receptor, angiotensin-converting enzyme 2 (ACE2). In line with
@@ -3006,7 +2999,9 @@ and binds through a novel epitope within the S2 subunit at amino acids
 overlap with these residues, suggesting that S2 subunit could be
 involved in inducing both, humoral and cell-mediated immunity.
 
-**Critical analysis**: The authors used previously generated mouse mAbs
+#### Limitations
+
+The authors used previously generated mouse mAbs
 against the S protein in SARS-CoV expressed in mammalian cell line.
 Future experimental validation using COVID-19 patient samples is needed
 to validate these findings. In addition, the results of these studies
@@ -3015,9 +3010,15 @@ effects of the mAb 1A9 in an animal model infected with this virus will
 help us better understand the host immune responses in COVID-19 and
 potential therapeutic vaccines.
 
-**Significance**: This study identified mAbs that recognize the new
+#### Significance
+
+This study identified mAbs that recognize the new
 coronavirus, SARS-Cov-2. These cross-reactive mAbs will help in
 developing diagnostic assays for COVID-19.
+
+#### Credit
+
+*This review was undertaken by Tamar Plitt and Katherine Lindblad as part of a project by students, postdocs and faculty at the Immunology Institute of the Icahn School of Medicine, Mount Sinai.*
 
 
 ### Mortality of COVID-19 is Associated with Cellular Immune Function Compared to Immune Function in Chinese Han Population
@@ -3970,16 +3971,20 @@ cytokine storm, in addition to the direct anti-viral effects of HCQ.
 *Review by Samarth Hegde as part of a project by students, postdocs and faculty at the Immunology Institute of the Icahn School of Medicine, Mount Sinai.*
 
 
-**Review by Katherine Lindblad and Tamar Plitt**
-10.1101/2020.03.16.994236
+### The sequence of human ACE2 is suboptimal for binding the S spike protein of SARS coronavirus 2
 
-Title: The sequence of human ACE2 is suboptimal for binding the S spike protein of SARS coronavirus 2
-=====================================================================================================
+[@doi:10.1101/2020.03.16.994236]
 
-**Keywords:** Coronavirus Disease 2019 (COVID-19); SARS-CoV-2; Spike
-protein S; ACE2
+#### Keywords
 
-**Summary**: Severe Acute Respiratory Syndrome Coronavirus 2
+- Coronavirus Disease 2019 (COVID-19)
+- SARS-CoV-2
+- Spike protein S
+- ACE2
+
+#### Main Findings
+
+Severe Acute Respiratory Syndrome Coronavirus 2
 (SARS-CoV-2) infects cells through S spike glycoprotein binding
 angiotensin-converting enzyme (ACE2) on host cells. S protein can bind
 both membrane-bound ACE2 and soluble ACE2 (sACE2), which can serve as a
@@ -3997,7 +4002,9 @@ identified numerous mutations in ACE2 that enhance RBD binding. This
 work serves to identify putative high affinity ACE2 therapeutics for the
 treatment of CoV-2.
 
-**Critical analysis**: The authors generated a large library of mutated
+#### Limitations
+
+The authors generated a large library of mutated
 ACE2, expressed them in human Expi293F cells, and performed deep
 mutagenesis to identify enhanced binders for the RBD of SARS-CoV-2 S
 protein. While these data serve as a useful resource, the ability of the
@@ -4008,12 +4015,20 @@ authors mentioned fusing the therapeutic ACE2 to Fc receptors to elicit
 beneficial host immune responses, which would need further design and
 validation.
 
-**Significance**: This study identified structural ACE2 mutants that
+#### Significance
+
+This study identified structural ACE2 mutants that
 have potential to serve as therapeutics in the treatment of SARS-CoV-2
 upon further testing and validation.
 
+#### Credit
+
+*This review was undertaken by Katherine Lindblad and Tamar Plitt as part of a project by students, postdocs and faculty at the Immunology Institute of the Icahn School of Medicine, Mount Sinai.*
+
 
 ### Heat inactivation of serum interferes with the immunoanalysis of antibodies to SARS-CoV-2
+
+Hu et al. *medRxiv*. [@doi:10.1101/2020.03.12.20034231]
 
 #### Keywords
 
@@ -4117,16 +4132,21 @@ are also underway [@doi:10.1128/JVI.02012-06; @doi:10.1101/2020.02.07.939389].
 *This review was undertaken as part of a project by students, postdocs and faculty at the Immunology Institute of the Icahn School of Medicine, Mount Sinai.*
 
 
-**Review by Tamar Plitt and Katherine Lindblad**
-10.1101/2020.03.18.20037994
+### Investigating the Impact of Asymptomatic Carriers on COVID-19 Transmission
 
-**Title:** Investigating the Impact of Asymptomatic Carriers on COVID-19
-Transmission
+[@doi:10.1101/2020.03.18.20037994]
 
-**Keywords:** Coronavirus Disease 2019 (COVID-19); SARS-CoV-2;
-asymptomatic carriers; mathematical model; transmission
+#### Keywords
 
-**Summary**: Multiple studies reported the same level of infectiousness
+- Coronavirus Disease 2019 (COVID-19)
+- SARS-CoV-2
+- asymptomatic carriers
+- mathematical model
+- transmission
+
+#### Main Findings
+
+Multiple studies reported the same level of infectiousness
 between symptomatic and asymptomatic carriers of SARS-CoV-2. Given that
 asymptomatic and undocumented carriers escape public health surveillance
 systems, a better mathematical model of transmission is needed to
@@ -4139,7 +4159,9 @@ countries during the first three weeks of community transmission. While
 current studies estimate R~0~ to be around 3, this model indicates that
 the value could range between 5.5 to 25.4.
 
-**Critical analysis**: The SEYAR model realistically depicts
+#### Limitations
+
+The SEYAR model realistically depicts
 transmission of the virus only during the initial stages of the disease.
 More data is necessary to better fit the model with current trends. In
 addition, multiple factors (e.g. behavioral patterns, surveillance
@@ -4147,10 +4169,16 @@ capabilities, environmental and socioeconomic factors) affect
 transmission of the virus and so, these factors must be taken into
 consideration when estimating the R~0~.
 
-**Significance**: Public health authorities use the basic reproductive
+#### Significance
+
+Public health authorities use the basic reproductive
 number to determine the severity of disease. An accurate estimate of
 R~0~ will inform intervention strategies. This model can be applied to
 different locations to assess the potential impact of COVID-19.
+
+#### Credit
+
+*This review was undertaken by Tamar Plitt and Katherine Lindblad as part of a project by students, postdocs and faculty at the Immunology Institute of the Icahn School of Medicine, Mount Sinai.*
 
 
 ### Antibody responses to SARS-CoV-2 in COVID-19 patients: the perspective application of serological tests in clinical practice
@@ -4378,17 +4406,22 @@ COVID-19 disease.
 *This review was undertaken as part of a project by students, postdocs and faculty at the Immunology Institute of the Icahn School of Medicine, Mount Sinai.*
 
 
-**Review by Katherine Lindblad and Tamar Plitt**
-10.1101/2020.03.18.20038513
+### Dynamic profile of severe or critical COVID-19 cases
 
-Title: Dynamic profile of severe or critical COVID-19 cases
-===========================================================
+[@doi:10.1101/2020.03.18.20038513]
 
-**Keywords:** Coronavirus Disease 2019 (COVID-19); SARS-CoV-2;
-progressive lymphopenia (PLD); T-lymphocytes; clinical data;
-co-infection; influenza A
+#### Keywords
+- Coronavirus Disease 2019 (COVID-19)
+- SARS-CoV-2
+- progressive lymphopenia (PLD)
+- T-lymphocytes
+- clinical data
+- co-infection
+- influenza A
 
-**Summary**: Authors evaluate clinical correlates of 10 patients (6 male
+#### Main Findings
+
+Authors evaluate clinical correlates of 10 patients (6 male
 and 4 female) hospitalized for severe Acute Respiratory Syndrome
 Coronavirus 2 (SARS-CoV-2). All patients required oxygen support and
 received broad spectrum antibiotics and 6 patients received anti-viral
@@ -4398,7 +4431,9 @@ progressive lymphopenia (PLD) and died. Peripheral blood (PB)
 lymphocytes were analyzed – low CD4 and CD8 counts were noted in most
 patients, though CD4:CD8 ratio remained normal.
 
-**Critical analysis**: The authors evaluated a small cohort of severe
+#### Limitations
+
+The authors evaluated a small cohort of severe
 SARS-CoV-2 cases and found an association between T cell lymphopenia and
 adverse outcomes. However, this is an extremely small and diverse cohort
 (40% of patients were co-infected with influenza A). These findings need
@@ -4406,9 +4441,15 @@ to be validated in a larger cohort. Additionally, the value of this data
 would be greatly increased by adding individual data points for each
 patient as well as by adding error bars to each of the figures.
 
-**Significance**: This study provides a collection of clinical data and
+#### Significance
+
+This study provides a collection of clinical data and
 tracks evolution of T lymphocyte in 10 patients hospitalized for
 SARS-CoV-2, of which 4 patients were co-infected with influenza A.
+
+#### Credit
+
+*This review was undertaken by Katherine Lindblad and Tamar Plitt as part of a project by students, postdocs and faculty at the Immunology Institute of the Icahn School of Medicine, Mount Sinai.*
 
 
 ### Association between Clinical, Laboratory and CT Characteristics and RT-PCR Results in the Follow-up of COVID-19 patients
@@ -4572,19 +4613,20 @@ diagnosis/management of COVID-19 patients.
 *This review was undertaken by Natalie Vaninov as part of a project by students, postdocs and faculty at the Immunology Institute of the Icahn School of Medicine, Mount Sinai.*
 
 
-Paper Title:
+### An orally bioavailable broad-spectrum antiviral inhibits SARS-CoV-2 and multiple 2 endemic, epidemic and bat coronavirus
 
-**An orally bioavailable broad-spectrum antiviral inhibits SARS-CoV-2
-and multiple 2 endemic, epidemic and bat coronavirus**
+Sheahan et al. *bioRxiv*. [@doi:10.1101/2020.03.19.997890]
 
-Sheahan et al. 2020
+#### Keywords
+- Treatment
+- Antiviral
+- Broad spectrum antiviral
+- ribonucleoside analog β-D-N4 30 hydroxycytidine (NHC)
+- Remdesivir
 
- 
+#### Main Findings
 
-Key Words: Treatment, Antiviral, Broad spectrum antiviral,
-ribonucleoside analog β-D-N4 30 –hydroxycytidine (NHC), Remdesivir
-
-  **Main Findings:** β-D-N4 30 –hydroxycytidine (NHC, EIDD-1931) is an
+β-D-N4 30 –hydroxycytidine (NHC, EIDD-1931) is an
 orally bioavailable ribonucleoside with antiviral activity against
 various RNA viruses including Ebola, Influenza and CoV. NHC activity
 introduce*d*~~s~~ mutations in the viral (but not cellular) RNA in a
@@ -4601,7 +4643,9 @@ initiation post infection. The authors also demonstrate that NHC reduces
 MERS-CoV infection titers, pathogenesis, and viral RNA in prophylactic
 and therapeutic settings.
 
-** Caveats:** Most of the experiments were conducted using MERS-CoV, and
+#### Limitations
+
+Most of the experiments were conducted using MERS-CoV, and
 SARS-CoV and a few experiments were conducted using other strains of CoV
 as opposed to SARS-CoV-2. The authors note the core residues that make
 up the RNA interaction sites (which constitutes the NHC interaction
@@ -4618,13 +4662,17 @@ for clinical disease onset in human patients from the time of infection
 compared to that of mice (24-48 hours), may associate with increased NHC
 effectiveness in the clinic.*
 
-**Importance:** Prophylactic or therapeutic oral administration of NHC
+#### Significance
+
+Prophylactic or therapeutic oral administration of NHC
 reduces lung titers and prevents acute lung failure in C57B\\6 mice
 infected with CoV. Given its *broad-spectrum antiviral activity, NHC
 could turn out to be a useful drug for treating current, emerging and
 future corona virus outbreaks.*
-
  
+#### Credit
+
+*This review was undertaken as part of a project by students, postdocs and faculty at the Immunology Institute of the Icahn School of Medicine, Mount Sinai.*
 
 
 ### Identification of antiviral drug candidates against SARS-CoV-2 from FDA-approved drugs
@@ -5064,90 +5112,6 @@ study will be important future work.
 *This review was undertaken by Tim O’Donnell, Maria Kuksin as part of a project by students, postdocs and faculty at the Immunology Institute of the Icahn School of Medicine, Mount Sinai.*
 
 
-### Characterisation of the transcriptome and proteome of SARS-CoV-2 using direct RNA sequencing and tandem mass spectrometry reveals evidence for a cell passage induced in-frame deletion in the spike glycoprotein that removes the furin-like cleavage site.
-
-Davidson et al. [@doi:10.1101/2020.03.22.002204]
-
-#### Keywords
-
-- Transcription
-- RNA-seq
-- proteomics
-- mass spec
-- furin cleavage site
-- mutation
-- pathogenicity
-
-#### Main Findings
-
-The authors performed long read RNA sequencing using an Oxford Nanopore
-MinION as well as tandem mass spec (MS) on Vero cells (a cell line
-derived from kidney cells of the African green monkey that is deficient
-in interferon) infected with SARS-CoV-2.
-
-The authors found that passage of the virus in Vero cells gave rise to a
-spontaneous 9 amino acid deletion (679-NSPRRARSV-687 to I) in the spike
-(S) protein. The deleted sequence overlaps a predicted furin cleavage
-site at the S1 / S2 domain boundary that is present in SARS-CoV-2 but
-not SARS-CoV or the closely related bat coronavirus RaTG13, which are
-cleaved at S1 / S2 by other proteases [@doi:10.1126/science.abb2507]. Furin cleavage sites at
-similar positions in other viruses have been linked to increased
-pathogenicity and greater cell tropism [@doi:10.1128/JVI.00797-10]. Loss of this site in
-SARS-CoV-2 has also already been shown to increase viral entry into Vero
-but not BHK cells (which are also interferon deficient) [@doi:10.1016/j.cell.2020.02.058]. The
-authors therefore make an important contribution in demonstrating that
-passage in Vero cells may lead to spontaneous loss of a key
-pathogenicity-conferring element in SARS-CoV-2.
-
-#### Limitations
-
-As the authors note, a similar study posted earlier by Kim et al., which
-also passaged SARS-CoV-2 in Vero cells, did not identify any loss in the
-S protein furin cleavage site [@doi:10.1101/2020.03.12.988865]. It therefore remains to be
-determined how likely it is that this mutation spontaneously arises. A
-quantitative investigation using multiple experimental replicas to
-understand the spontaneous viral mutation rate at this site and
-elsewhere would be informative. Also, the mechanistic basis for the
-higher viral fitness conferred by loss of the furin cleavage site in
-Vero cells – but, evidently, not in vivo in humans, as this site is
-maintained in all currently sequenced circulating isolates - remains to
-be understood.
-
-Due to the high base-call error rate of MinION sequencing, the authors’
-bioinformatic pipeline required aligning transcripts to a reference to
-correct sequencing artifacts. This presumably made it difficult or
-impossible to identify other kinds of mutations, such as single
-nucleotide substitutions, which may occur even more frequently than the
-deletions identified in this work. Pairing long read sequencing with
-higher-accuracy short-read sequencing may be one approach to overcome
-this issue.
-
-#### Significance
-
-As the authors suggest, animal studies using live virus challenge may
-need to periodically verify the genomic integrity of the virus, or
-potentially risk unknowingly using a likely less-pathogenic variant of
-the virus.
-
-More broadly, the results emphasize the complexity and plasticity of the
-SARS-CoV-2 viral transcriptome and proteome. For example, the authors
-found multiple versions of transcripts encoding the nucleocapsid (N)
-protein, each with different small internal deletions, some of which
-were verified for translation by MS. A number of peptides arising from
-translation of unexpected rearrangements of transcripts were also
-detected. Additionally, the authors identified phosphorylation of a
-number of viral proteins (N, M, ORF 3a, nsp3, nsp9, nsp12 and S). For
-any cases where these have functional consequences, targeting the
-kinases responsible could be an avenue for drug development.
-Understanding the functional consequences of the mutations, transcript
-variations, and post translational modifications identified in this
-study will be important future work.
-
-#### Credit
-
-*This review was undertaken by Tim O’Donnell, Maria Kuksin as part of a project by students, postdocs and faculty at the Immunology Institute of the Icahn School of Medicine, Mount Sinai.*
-
-
 ### A SARS-CoV-2-Human Protein-Protein Interaction Map Reveals Drug Targets and Potential Drug- Repurposing
 
 Gordon et al. *bioRxiv* [@doi:10.1101/2020.03.22.002386]
@@ -5195,16 +5159,19 @@ a valuable resource.
 *This review was undertaken as part of a project by students, postdocs and faculty at the Immunology Institute of the Icahn School of Medicine, Mount Sinai.*
 
 
-**Title**: First Clinical Study Using HCV Protease Inhibitor Danoprevir
-to Treat Naïve and Experienced COVID-19 Patients
+### First Clinical Study Using HCV Protease Inhibitor Danoprevir to Treat Naïve and Experienced COVID-19 Patients
 
-**Keywords**: Clinical study – HCV protease inhibitor – Danoprevir –
-Ritonavir – Covid19 treatment
+#### Keywords
+- Clinical study
+- HCV protease inhibitor
+- Danoprevir
+- Ritonavir
+- Covid19 treatment
 
-**Main findings**:
+#### Main Findings
 
 The authors treated 11 Covid-19 patients with Danoprevir, a
-commercialized HCV protease inhibitor^1(p4)^, boosted by ritonavir^2^, a
+commercialized HCV protease inhibitor [@doi:10.1128/AAC.00699-08]^(p4)^, boosted by ritonavir [@doi:10.14218/JCTH.2019.00033], a
 CYP3A4 inhibitor (which enhances the plasma concentration and
 bioavailabilty of Danoprevir). Two patients had never received
 anti-viral therapy before (=naïve), whereas nine patients were on
@@ -5217,7 +5184,7 @@ Lopinavir/Ritonavir did not have a negative PCR test, while after
 switching to Danoprevir/Ritonavir treatment, the first negative PCR test
 occurred at a median of two days.
 
-**Limitations**:
+#### Limitations
 
 The results of the study are very hard to interpret as there is no
 control group not receiving Danoprevir/Ritonavir treatment. This was
@@ -5227,34 +5194,23 @@ the experienced patients (18 to 66yo). The possibility that the patients
 would have recovered without Danoprevir/Ritonavir treatment cannot be
 excluded.
 
-**Relevance**:
+#### Significance
 
 The authors of the study treated patients with Danoprevir, with the
 rational to that this is an approved and well tolerated drug for HCV
-patients^2^, and that it could also target the protease from SARS-CoV-2
+patients [@doi:10.14218/JCTH.2019.00033], and that it could also target the protease from SARS-CoV-2
 (essential for viral replication and transcription). Indeed, homology
 modelling data indicated that HCV protease inhibitors have the highest
-binding affinity to Sars-Cov2 protease among other approved drugs ^3^.
+binding affinity to Sars-Cov2 protease among other approved drugs [@doi:10.1101/2020.02.05.936013].
 
 While this study shows that the combination of Danoprevir and Ritonavir
 might be beneficial for Covid-19 patients, additional clinical trials
 with more patients and with better methodology (randomization and
 control group) are needed to make further conclusions.
 
-1\. Seiwert SD, Andrews SW, Jiang Y, et al. Preclinical Characteristics
-of the Hepatitis C Virus NS3/4A Protease Inhibitor ITMN-191 (R7227).
-*Antimicrob Agents Chemother*. 2008;52(12):4432-4441.
-doi:10.1128/AAC.00699-08
+#### Credit
 
-2\. Xu X, Feng B, Guan Y, et al. Efficacy and Safety of All-oral, 12-week
-Ravidasvir Plus Ritonavir-boosted Danoprevir and Ribavirin in
-Treatment-naïve Noncirrhotic HCV Genotype 1 Patients: Results from a
-Phase 2/3 Clinical Trial in China. *J Clin Transl Hepatol*.
-2019;7(3):213-220. doi:10.14218/JCTH.2019.00033
-
-3\. Nguyen DD, Gao K, Chen J, Wang R, Wei G-W. Potentially highly potent
-drugs for 2019-nCoV. *bioRxiv*. February 2020:2020.02.05.936013.
-doi:10.1101/2020.02.05.936013
+*This review was undertaken as part of a project by students, postdocs and faculty at the Immunology Institute of the Icahn School of Medicine, Mount Sinai.*
 
 
 ### Efficacy of hydroxychloroquine in patients with COVID-19: results of a randomized clinical trial
@@ -5377,22 +5333,21 @@ these findings.
 *This review was undertaken as part of a project by students, postdocs and faculty at the Immunology Institute of the Icahn School of Medicine, Mount Sinai.*
 
 
-Edited By: Konstantina A
+### Serology characteristics of SARS-CoV-2 infection since the exposure and post symptoms onset
 
-**Serology characteristics of SARS-CoV-2 infection since the exposure
-and post symptoms onset**
+Lou et al. *medRxiv*. [@doi:10.1101/2020.03.23.20041707]
 
-Lou et al
+#### Keywords
 
-**doi: <https://doi.org/10.1101/2020.03.23.20041707>**
+- Seroconversion rate
+- Total Antibody
+- Ab
+- IgG and IgM
+- antibody
 
-Quick Link
-<https://www.medrxiv.org/content/10.1101/2020.03.23.20041707v1.full.pdf>
+#### Main Findings
 
-*Keywords:* Seroconversion rate, Total Antibody, Ab, IgG and IgM
-antibody.
-
-*Main Findings:* Currently, the diagnosis of SARS-CoV-2 infection
+Currently, the diagnosis of SARS-CoV-2 infection
 entirely depends on the detection of viral RNA using polymerase chain
 reaction (PCR) assays. False negative results are common, particularly
 when the samples are collected from upper respiratory. Serological
@@ -5406,11 +5361,13 @@ with a median seroconversion time of 15, 18 and 20 days-post exposure
 (d.p.e) or 9, 10- and 12-days post-onset (d.p.o). Seroconversion was
 first detected at day 7d.p.e in 98.9% of the patients. Interestingly
 they found that viral load declined as antibody levels increased. This
-was in contrast to a previous study^1^, showing that increased antibody
+was in contrast to a previous study [@doi:10.1101/2020.03.02.20030189], showing that increased antibody
 titers did not always correlate with RNA clearance (low number of
 patient sample).
 
-*Limitations*: Current knowledge of the antibody response to SAR-CoV-2
+#### Limitations
+
+Current knowledge of the antibody response to SAR-CoV-2
 infection and its mechanism is not yet well elucidated. Similar to the
 RNA test, the absence of antibody titers in the early stage of illness
 could not exclude the possibility of infection. A diagnostic test, which
@@ -5418,7 +5375,9 @@ is the aim of the authors, would not be useful at the early time points
 of infection but it could be used to screen asymptomatic patients or
 patients with mild disease at later times after exposure.
 
-*Relevance:* Understanding the antibody responses against SARS-CoV2 is
+#### Significance
+
+Understanding the antibody responses against SARS-CoV2 is
 useful in the development of a serological test for the diagnosis of
 COVID-19. This manuscript discussed acute antibody responses which can
 be deducted in plasma for diagnostic as well as prognostic purposes.
@@ -5426,12 +5385,9 @@ Thus, patient-derived plasma with known antibody titers may be used
 therapeutically for treating COVID-19 patients with severe illness.
 [[]{#OLE_LINK4 .anchor}]{#OLE_LINK3 .anchor}
 
-*Reference:*
+#### Credit
 
-1.  **Antibody responses to SARS-CoV-2 in patients of novel coronavirus
-    disease 2019**
-
-**doi:** <https://doi.org/10.1101/2020.03.02.20030189>
+*This review was undertaken and edited by Konstantina A as part of a project by students, postdocs and faculty at the Immunology Institute of the Icahn School of Medicine, Mount Sinai.*
 
 
 ### SARS-CoV-2 launches a unique transcriptional signature from in vitro, ex vivo, and in vivo systems
@@ -5853,18 +5809,21 @@ workers [@url:https://www.mcri.edu.au/BRACE], to assess if it can protect them a
 *This review was undertaken as part of a project by students, postdocs and faculty at the Immunology Institute of the Icahn School of Medicine, Mount Sinai.*
 
 
-**Non-neural expression of SARS-CoV-2 entry genes in the olfactory
-epithelium**
+### Non-neural expression of SARS-CoV-2 entry genes in the olfactory epithelium
 
-**suggests mechanisms underlying anosmia in COVID-19 patients**
+[@doi:10.1101/2020.03.25.009084]
 
-<https://doi.org/10.1101/2020.03.25.009084>
+#### Keywords
 
-*Immunology keywords*:
+- CoVID-19
+- 2019-nCoV
+- SARS-CoV-2
+- anosmia
+- olfaction
+- scRNAseq
 
-CoVID-19, 2019-nCoV, SARS-CoV-2, anosmia, olfaction, scRNAseq,
 
-*Summary of Findings*:
+#### Main Findings
 
 -   Study analyzed bulk and scRNAseq data of olfactory cell types from
     publicly-available mouse, nonhuman primate and human datasets.
@@ -5878,7 +5837,7 @@ CoVID-19, 2019-nCoV, SARS-CoV-2, anosmia, olfaction, scRNAseq,
     sustentacular cells was similar to expression in the remainder of
     the non-nasal respiratory tract.
 
-*Limitations*:
+#### Limitations
 
 -   Transcript data alone from healthy respiratory/olfactory cells is
     not sufficient to confirm infectivity of nasal passage, or to
@@ -5890,7 +5849,7 @@ CoVID-19, 2019-nCoV, SARS-CoV-2, anosmia, olfaction, scRNAseq,
     be critical to test this in CoVID-19 patient samples or mouse
     models.
 
-*Importance/Relevance:*
+#### Significance
 
 -   Study provides possible rationale for anosmia observed in several
     CoVID-19 patients.
@@ -5904,8 +5863,10 @@ CoVID-19, 2019-nCoV, SARS-CoV-2, anosmia, olfaction, scRNAseq,
     ST3GAL4*; this suggests wider mechanism of neuronal infectivity in
     other coronaviruses.
 
+#### Credit
+
 *Review by Samarth Hegde as part of a project by students, postdocs and
-faculty at the Immunology Institute of the Icahn school of medicine,
+faculty at the Immunology Institute of the Icahn School of Medicine,
 Mount Sinai.*
 
 
@@ -5979,14 +5940,15 @@ Mount Sinai.*
 *Review by Samarth Hegde as part of a project by students, postdocs and faculty at the Immunology Institute of the Icahn School of Medicine, Mount Sinai.*
 
 
-**Title:** The comparative superiority of IgM-IgG antibody test to
-real-time reverse transcriptase PCR detection for SARS-CoV-2 infection
-diagnosis
+### The comparative superiority of IgM-IgG antibody test to real-time reverse transcriptase PCR detection for SARS-CoV-2 infection diagnosis
 
-**Immunology keywords:** IgM/IgG antibody test, nucleic acid test,
-SARS-CoV-2 detection
+#### Keywords
 
-**Main Findings: **
+- IgM/IgG antibody test
+- nucleic acid test
+- SARS-CoV-2 detection
+
+#### Main Findings
 
 The study compares IgM and IgG antibody testing to RT-PCR detection of
 SARS-CoV-2 infection. 133 patients diagnosed with SARS-CoV-2 in Renmin
@@ -6001,7 +5963,7 @@ ratios were higher in antibody testing compared to RT-PCR detection,
 demonstrating a higher detection sensitivity of IgM-IgG testing for
 patients hospitalized with COVID-19 symptoms.
 
-**Limitations of the study:**
+#### Limitations
 
 This analysis only included one-time point of 133 hospitalized patients,
 and the time from symptom onset was not described. There was no
@@ -6012,181 +5974,129 @@ as well as asymptomatic individuals. It is critical to determine how
 early after infection/symptom onset antibodies can be detected and the
 duration of this immune response.
 
-**Relevance:**
+#### Significance
 
 The IgM-IgG combined testing is important to improve clinical
 sensitivity and diagnose COVID-19 patients. The combined antibody test
 shows higher sensitivity than individual IgM and IgG tests or nucleic
 acid-based methods, at least in patients hospitalized with symptoms.
 
-*Review by Erica Dalla as part of a project by students, postdocs and
-faculty at the Immunology Institute of the Icahn school of medicine,
-Mount Sinai.*
-
-
-**Cigarette smoke triggers the expansion of a subpopulation of
-respiratory epithelial cells that express the SARS-CoV-2 receptor ACE2**
-
-<https://doi.org/10.1101/2020.03.28.013672>
-
-*Immunology keywords*:
-
-CoVID-19, 2019-nCoV, SARS-CoV-2, respiration, cigarette, ACE2, lung
-
-*Summary of Findings*:
-
--   Study uses scRNAseq, bulk seq data and air-liquid interface culture
-    experiments to show that cigarette smoke causes a dose-dependent
-    upregulation of ACE2 in mouse and human lungs (transplantation,
-    tumor resection, or IPF datasets).
-
--   ACE2 was not up-regulated in patients with asthma or
-    lung-sarcoidosis or in mouse models of cystic fibrosis or carcinogen
-    exposure.
-
--   Cathepsin B (alternate protease involved in viral entry) is
-    increased in smoke-exposed mouse or human lungs.
-
--   Smoke triggers a protective expansion of mucus-secreting MUC5AC+
-    goblet and SCGB1A1+ club cells; ACE2 presence in these cells is
-    increased upon smoke exposure.
-
-*Limitations*:
-
--   Long-term smokers usually have several co-morbidities including
-    immune dysfunction, which can affect interpretation of CoV-2
-    susceptibility in these datasets. Ideally, analyses can control for
-    major co-morbidities across smokers and non-smokers (immune
-    suppression, cardiovascular disease and atherosclerosis).
-
--   Hyperplasia of ACE2+ goblet cells upon smoking needs to be separated
-    from ACE2 upregulation in existing goblet cells.
-
--   ACE2 expression increase alone does not confirm increased viral
-    entry into goblet cells; future studies with air-liquid interface
-    cultures testing CoV-2 infectivity in *ex vivo* epithelial cells
-    from human epithelial lines, ex vivo samples or hACE2 mice will be
-    very informative.
-
-*Importance/Relevance:*
-
--   This study may partially explain why smokers are more likely to
-    develop severe SARS-CoV-2 infections. Also, the reversibility of
-    ACE2 expression upon smoking cessation suggests that quitting
-    smoking could lessen CoV-2 susceptibility.
-
--   Absence of ACE2 upregulation in other lung inflammation pathologies
-    implies CoV-2 susceptibility might be smoking-specific, and not
-    fibrosis-specific.
-
--   Another preprint showed ACE2 expression increases in lung of
-    patients with CoV-2 co-morbidities such as hypertension
-    (<https://doi.org/10.1101/2020.03.21.20040261> ); these studies
-    collectively paint a better picture of CoV-2 susceptibility before
-    actual experiments can be carried out.
-
-*Review by Samarth Hegde as part of a project by students, postdocs and
-faculty at the Immunology Institute of the Icahn school of medicine,
-Mount Sinai.*
-
-
-### Integrative Bioinformatics Analysis Provides Insight into the Molecular Mechanisms of 2019-nCoV
-
-#### Keywords
-
-- ACE2
-- lungs
-- smoking
-- COPD
-- asthma
-- SARS-Cov
-- IL-1
-- IL-10
-- IL-6
-- IL-8
-
-#### Main Findings
-
-The authors used bioinformatics tools to identify features
-of ACE2 expression in the lungs of different patent groups: healthy,
-smokers, patients with chronic airway disease (i.e., COPD) or asthma.
-They used gene expression data publicly available from GEO that included
-lung tissues, bronchoalveolar lavage, bronchial epithelial cells, small
-airway epithelial cells, or SARS-Cov infected cells.
-
-The authors describe no significant differences in ACE2 expression in
-lung tissues of Healthy, COPD, and Asthma groups (p=0.85); or in BAL of
-Healthy and COPD (p=0.48); or in epithelial brushings of Healthy and
-Mild/Moderate/Severe Asthma (p=0.99). ACE2 was higher in the small
-airway epithelium of long-term smokers vs non-smokers (p&lt;0.001).
-Consistently, there was a trend of higher ACE2 expression in the
-bronchial airway epithelial cells 24h post-acute smoking exposure
-(p=0.073). Increasing ACE2 expression at 24h and 48h compared to 12h
-post SARS-Cov infection (p=0.026; n=3 at each time point) was also
-detected.
-
-15 lung samples’ data from healthy participants were separated into high
-and low ACE2 expression groups. “High” ACE2 expression was associated
-with the following GO pathways: innate and adaptive immune responses, B
-cell mediated immunity, cytokine secretion, and IL-1, IL-10, IL-6, IL-8
-cytokines. The authors speculate that a high basal ACE2 expression will
-increase susceptibility to SARS-CoV infection.
-
-In 3 samples SARS-Cov infection was associated with IL-1, IL-10 and IL-6
-cytokine production (GO pathways) at 24h. And later, at 48h, with T-cell
-activation and T-cell cytokine production. It is unclear whether those
-changes were statistically significant.
-
-The authors describe a time course quantification of immune infiltrates
-in epithelial cells infected with SARS-Cov infection. They state that in
-healthy donors ACE2 expression did not correlate with the immune cell
-infiltration. However, in SARS-Cov samples, at 48h they found that ACE2
-correlated with neutrophils, NK-, Th17-, Th2-, Th1- cells, and DCs.
-Again, while authors claim significance, the corresponding correlation
-coefficients and p-values are not presented in the text or figures. In
-addition, the source of the data for this analysis is not clear.
-
-Using network analysis, proteins SRC, FN1, MAPK3, LYN, MBP, NLRC4, NLRP1
-and PRKCD were found to be central (Hub proteins) in the regulating
-network of cytokine secretion after coronavirus infection. Authors
-conclude this indicates that these molecules were critically important
-in ACE2-induced inflammatory response. Additionally, authors speculate
-that the increased expression of ACE2 affected RPS3 and SRC, which were
-the two hub genes involved in viral replication and inflammatory
-response.
-
-#### Limitations
-
-The methods section is very limited and does not
-describe any of the statistical analyses; and description of the
-construction of the regulatory protein networks is also limited. For the
-findings in Figures 2 authors claim significance, which is not supported
-by p-values or coefficients. For the sample selection, would be useful
-if sample sizes and some of the patients’ demographics (e.g. age) were
-described.
-
-For the analysis of high vs low ACE2 expression in healthy subjects, it
-is not clear what was the cut off for ‘high’ expression and how it was
-determined. Additionally, further laboratory studies are warranted to
-confirm that high ACE2 gene expression would have high correlation with
-the amount of ACE2 protein on cell surface. For the GO pathway analysis
-significance was set at p&lt;0.05, but not adjusted for multiple
-comparisons.
-
-There were no samples with SARS-CoV-2 infection. While SARS-Cov and
-SARS-CoV-2 both use ACE2 to enter the host cells, the analysis only
-included data on SARS-Cov and any conclusions about SARS-CoV2 are
-limited.
-
-Upon checking GSE accession numbers of the datasets references, two
-might not be cited correctly: GSE37758 ("A spergillus niger: Control
-(fructose) vs. steam-exploded sugarcane induction (SEB)" was used in
-this paper as "lung tissue" data) and GSE14700 ("Steroid Pretreatment
-of Organ Donors to Prevent Postischemic Renal Allograft Failure: A
-Randomized, Controlled Trial" – was used as SARS-Cov infection data).
-
 #### Credit
 
-*This review was undertaken as part of a project by students, postdocs and faculty at the Immunology Institute of the Icahn School of Medicine, Mount Sinai.*
+*Review by Erica Dalla as part of a project by students, postdocs and
+faculty at the Immunology Institute of the Icahn School of Medicine,
+Mount Sinai.*
+
+
+### Virus-host interactome and proteomic survey of PMBCs from
+COVID-19 patients reveal potential virulence factors influencing
+SARS-CoV-2 pathogenesis
+
+#### Keywords
+- PBMC
+- virulence factors
+– interaction network
+– nsp9
+- nsp10
+– NKRF
+
+#### Main findings
+
+The authors identified **intra-viral protein-protein interactions**
+(PPI) with two different approaches: genome wide yeast-two hybrid (Y2H)
+and co-immunoprecipitation (co-IP). A total of 58 distinct PPI were
+characterized. A screen of **viral-host PPI** was also established by
+overexpressing all the SARS-CoV-2 genes with a Flag epitope into HEK293
+cells and purifying each protein complex. Interacting host proteins were
+then identified by liquid chromatography and tandem mass spectrometry.
+251 cellular proteins were identified, such as subunits of ATPase, 40S
+ribosomal proteins, T complex proteins and proteasome related proteins,
+for a total of 631 viral-host PPI. Several interactions suggesting
+protein-mediated modulation of the immune response were identified,
+highlighting the multiple ways SARS-CoV-2 might reprogram infected
+cells.
+
+Subsequently, the authors compared global proteome profiles of PBMCs
+from healthy donors (n=6) with PBMC from COVID-19 patients with mild
+(n=22) or severe (n=13) symptoms. 220 proteins were found to be
+differentially expressed between *healthy donors and mild COVID-19
+patients*, and a pathway analysis showed **a general activation of the
+innate immune response.** 553 proteins were differentially expressed
+between the PBMC of *mild and severe COVID-19 patients*, most of them
+(95%) being downregulated in severe patients*.* Functional pathway
+analysis indicated a defect of T cell activation and function in severe
+COVID-19. There was also evidence suggesting reduced antibody secretion
+by B cells. Together, these results suggest a **functional decline of
+adaptive immunity**. A FACS analysis of PBMC from severe patients
+indicated higher levels of IL6 and IL8 but not IL17 compared to mild
+patients.
+
+Finally, the authors focused on NKRF, an endogenous repressor of IL8/IL6
+synthesis that was previously identified as interacting with SARS-Cov-2
+nsp9,10,12,13 and 15. Individually expressed nsp9 and nsp10 (but not
+nsp12, nsp13, nsp15) induced both IL6 and IL8 in lung epithelial A459
+cells, indicating that nsp9 and nsp10 may be directly involved in the
+induction of these pro-inflammatory cytokines. The authors finally argue
+that nsp9 and nsp10 represent potential drug targets to prevent
+over-production of IL6 and IL8 in infected cells, and reducing the
+over-activation of neutrophils.
+
+### Limitations
+
+First, the authors seem to have forgotten to include the extended data
+in the manuscript, and their proteomic data does not seem to be publicly
+available for the moment, which limits greatly our analysis of their
+results.
+
+While this work provides important data on host and viral PPI, only 19
+interactions were identified by Y2H system but 52 with co-IP. The
+authors do not comment about what could lead to such differences between
+the two techniques and they don’t specify whether they detected the same
+interactions using the two techniques.
+
+Moreover, the PBMC protein quantification was performed comparing bulk
+PBMC. Consequently, protein differences likely reflect differences in
+cell populations rather than cell-intrinsic differences in protein
+expression. While this analysis is still interesting, a similar
+experiment performed on pre-sorted specific cell populations would allow
+measuring proteome dynamics at a higher resolution.
+
+Finally, the authors did not discussed their results in regards to
+another SARS-CoV-2 interactome of host-viral PPI that had been published
+previously^1^. This study reported 332 host-virus PPI, but no
+interaction of viral proteins with NKRF was found. Some interactions
+were found in both studies (eg. N and G3BP1, Orf6 and RAE1). However,
+the time point used to lyse the cells were different (40h previously vs
+72h here), which could explain some of the differences.
+
+#### Relevance
+
+The identification of many interactions between intra-viral and
+host-virus PPI provides an overview of host protein and pathways that
+are modulated by SARS-CoV-2, which can lead to the identification of
+potential targets for drug development.
+
+In the model proposed by the authors, nsp9 and nsp10 from SARS-Cov-2
+induce an over-expression of IL6 and IL8 by lung epithelial cells, which
+recruits neutrophils and could lead to an excess in lung infiltration.
+Nsp9 has been shown to be essential for viral replication for
+SARS-Cov-1^2^, and shares a 97% homology with nsp9 from SARS-Cov-2^3^.
+Further, nsp9 crystal structure was recently solved^3^, which can help
+to develop drug inhibitors if this protein is further confirmed as being
+important for the virulence of SARS-Cov-2.
+
+1\. Gordon DE, Jang GM, Bouhaddou M, et al. A SARS-CoV-2-Human
+Protein-Protein Interaction Map Reveals Drug Targets and Potential
+Drug-Repurposing. *bioRxiv*. March 2020:2020.03.22.002386.
+doi:10.1101/2020.03.22.002386
+
+2\. Miknis ZJ, Donaldson EF, Umland TC, Rimmer RA, Baric RS, Schultz LW.
+Severe acute respiratory syndrome coronavirus nsp9 dimerization is
+essential for efficient viral growth. *J Virol*. 2009;83(7):3007-3018.
+doi:10.1128/JVI.01505-08
+
+3\. Littler DR, Gully BS, Colson RN, Rossjohn J. *Crystal Structure of
+the SARS-CoV-2 Non-Structural Protein 9, Nsp9*. Molecular Biology; 2020.
+doi:10.1101/2020.03.28.013920
 
 
