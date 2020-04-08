@@ -21,7 +21,7 @@ author-meta:
 bibliography:
 - content/manual-references.bib
 - content/manual-references.json
-date-meta: '2020-04-07'
+date-meta: '2020-04-08'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -40,9 +40,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
 
-  <meta name="dc.date" content="2020-04-07" />
+  <meta name="dc.date" content="2020-04-08" />
 
-  <meta name="citation_publication_date" content="2020-04-07" />
+  <meta name="citation_publication_date" content="2020-04-08" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -202,11 +202,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/6148ace3f4119d160732c6cafb29ce34e67c37be/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/6a61ade8d97b8705ce4d6bd433f6ae6e7d5c0c38/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/6148ace3f4119d160732c6cafb29ce34e67c37be/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/6a61ade8d97b8705ce4d6bd433f6ae6e7d5c0c38/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/6148ace3f4119d160732c6cafb29ce34e67c37be/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/6a61ade8d97b8705ce4d6bd433f6ae6e7d5c0c38/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -239,10 +239,10 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/6148ace3f4119d160732c6cafb29ce34e67c37be/))
+([permalink](https://greenelab.github.io/covid19-review/v/6a61ade8d97b8705ce4d6bd433f6ae6e7d5c0c38/))
 was automatically generated
-from [greenelab/covid19-review@6148ace](https://github.com/greenelab/covid19-review/tree/6148ace3f4119d160732c6cafb29ce34e67c37be)
-on April 7, 2020.
+from [greenelab/covid19-review@6a61ade](https://github.com/greenelab/covid19-review/tree/6a61ade8d97b8705ce4d6bd433f6ae6e7d5c0c38)
+on April 8, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -573,7 +573,6 @@ R~0~ and R~t~ can be estimated directly from epidemiological data or inferred us
 Modeling approaches are typically based upon a classic epidemiological model structure: the susceptible-infected-recovered (SIR) model and its extensions [@doi:10.1126/science.272.5258.74]. 
 
 R~0~ for COVID-19 is estimated to lie in the range R~0~=1.4-6.5 [@doi:10/ggjvr7; @doi:10.1093/jtm/taaa021; @doi:10.1126/science.abb3221]; estimates vary considerably depending on the data and the methods used.
-Most estimates currently derive from populations in Asia, since outbreaks in Europe and North America are more recent.
 Data-derived estimates (i.e. those that do not incorporate SIR-type models into their analysis) typically predict lower values of R~0~.
 For data-derived estimates, in one study of international cases, the predicted value is R~0~=1.7 [@doi:10.1101/2020.03.21.20040329], in China (both Hubei province and nationwide), the value is predicted to lie in the range R~0~=2.0-3.6 [@doi:10.2139/ssrn.3524675; @doi:10.1101/2020.01.25.919787; @doi:10/ggjvr7], and on a cruise ship where an outbreak occurred, predicted R~0~=2.28 [@doi:10.1016/j.ijid.2020.02.033].
 SIR model-derived estimates of R~0~ range from 2.0 - 6.5 in China [@doi:10.3390/jcm9020462; @url:https://doi.org/10.1101/2020.01.27.20018952; @doi:10.1101/2020.01.23.916726; @doi:10.1101/2020.01.23.20018549] to R~0~=4.8 in France [@doi:10.1101/2020.03.22.20040915]. 
@@ -590,8 +589,13 @@ Metro data was also analyzed to estimate the effects of social distancing measur
 R~t~ decreased in Daegu from around 3 to <1 over the period that social distancing measures were introduced.
 In Seoul, R~t~ decreased slightly, but remained close to 1 (and larger than R~t~ in Daegu).
 This highlights that social distancing measures appeared to work to contain the infection in Daegu, but that in Seoul, R~t~ remains above 1, thus secondary outbreaks are possible.
-It also shows the importance of region-specific analysis: the large decline in case load nationwide is mainly due to the Daegu region, and could hide persistence of the epidemic in other regions, such as Seoul and Gyeonggi-do. 
-Similarly in Iran, estimates of R~t~ declined from 4.86 in the first week to 2.1 by the fourth week after the first cases in Iran were reported [@doi:10.1101/2020.03.20.20038422]. The authors attributed this decline to the effects of self-quarantine and government reductions in working time.
+It also shows the importance of region-specific analysis: the large decline in case load nationwide is mainly due to the Daegu region, and could hide persistence of the epidemic in other regions, such as Seoul and Gyeonggi-do.
+In Iran, estimates of R~t~ declined from 4.86 in the first week to 2.1 by the fourth week after the first cases were reported [@doi:10.1101/2020.03.20.20038422].
+In Europe, analysis of 11 countries inferred the dynamics of R~t~ over a time range from the beginning of the outbreak until March 28, 2020, by which point most countries had implemented major interventions (such as school closures, public gathering bans, and stay-at-home orders) [@doi:10.25561/77731].
+Across all countries, the mean R~t~ before interventions began was estimated as 3.87; R~t~ varied considerably, from below 3 in Norway to above 4.5 in Spain.
+After interventions, R~t~ decreased by an average of 64% across all countries, with mean R~t~=1.43.
+The lowest predicted value was 0.97 for Norway and the highest was 2.64 for Sweden (note that this is in part because Sweden did not implement social distancing measures on the same scale as other countries).
+The study concludes that while large changes in R~t~ are observed, it is too early to tell whether the interventions put into place are sufficient to decrease R~t~ below 1.
 
 ### Immune Response to SARS-CoV-2
 
