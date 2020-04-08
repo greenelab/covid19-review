@@ -156,6 +156,20 @@ authors:
       string: "None"
       lastapproved: !!str 2020-03-26
   -
+    github: rmrussell
+    name: Ronnie M. Russell
+    initials: RMR
+    orcid: 0000-0003-1484-4207
+    email: russr@pennmedicine.upenn.edu
+    contributions:
+      - Writing - Original Draft
+      - Writing - Review & Editing
+    affiliations:
+      - Department of Microbiology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
+    coi: 
+      string: "None"
+      lastapproved: !!str 2020-04-07
+  -
     github: aadattoli
     name: Anna Ada Dattoli
     initials: AAD
@@ -211,6 +225,21 @@ authors:
       string: "None"  
       lastapproved: !!str 2020-03-30 
   -
+    github: rbharath
+    name: Bharath Ramsundar
+    initials: BR
+    orcid: 0000-0001-8450-4262
+    twitter: rbhar90
+    email: bharath.ramsundar@gmail.com
+    contributions:
+      - Investigation
+      - Writing - Review & Editing
+    affiliations:
+      - The DeepChem Project, https://deepchem.io/
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-04-06
+  -
     github: alavendelm
     name: Adam L. MacLean
     initials: ALM
@@ -224,4 +253,17 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-04-06
-      
+  -
+    github: ajlee21
+    name: Alexandra J. Lee
+    initials: AJL
+    orcid: 0000-0002-0208-3730
+    email: ajlee21@pennmedicine.upenn.edu
+    contributions:
+      - Writing - Original Draft
+    affiliations:
+      - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-04-07
+    funders: the Gordon and Betty Moore Foundation (GBMF 4552)
