@@ -4292,10 +4292,6 @@ Authors describe development of a serological ELISA based assay for the detectio
 Validated serological tests are urgently needed to map the full spread of SARS-CoV-2 in the population and to determine the kinetics of the antibody response to SARS-CoV-2.  Furthermore, clinical trials are ongoing using plasma from patients who have recovered from SARS-CoV-2 as a therapeutic option.  An assay such as the one described in this study could be used to screen for strong antibody responses in recovered patients.  Furthermore, the assay could be used to screen health care workers for antibody responses to SARS-CoV-2 as personal protective equipment continues to dwindle.  The challenge going forward will be to standardize and scale-up the various in-house ELISA’s being developed in independent laboratories across the world.  
  
  
-
-
-
-
 ### A brief review of antiviral drugs evaluated in registered clinical trials for COVID-19
 
 Belhadi et al. [@doi:10.1101/2020.03.18.20038190]
@@ -6058,7 +6054,7 @@ that nsp9 and nsp10 represent potential drug targets to prevent
 over-production of IL6 and IL8 in infected cells, and reducing the
 over-activation of neutrophils.
 
-### Limitations
+#### Limitations
 
 First, the authors seem to have forgotten to include the extended data
 in the manuscript, and their proteomic data does not seem to be publicly
