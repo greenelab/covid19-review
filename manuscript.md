@@ -20,6 +20,7 @@ author-meta:
 - Alexandra J. Lee
 - Immunology Institute of the Icahn School of Medicine
 - Fengling Hu
+- Nafisa M. Jadavji
 bibliography:
 - content/manual-references.bib
 - content/manual-references.json
@@ -204,6 +205,16 @@ header-includes: '<!--
 
   <meta name="twitter:creator" content="@hufengling" />
 
+  <meta name="citation_author" content="Nafisa M. Jadavji" />
+
+  <meta name="citation_author_institution" content="Biomedical Science, Midwestern University, Glendale, AZ, United States of America" />
+
+  <meta name="citation_author_institution" content="Department of Neuroscience, Carleton University, Ottawa, Ontario, Canada" />
+
+  <meta name="citation_author_orcid" content="0000-0002-3557-7307" />
+
+  <meta name="twitter:creator" content="@nafisajadavji" />
+
   <link rel="canonical" href="https://greenelab.github.io/covid19-review/" />
 
   <meta property="og:url" content="https://greenelab.github.io/covid19-review/" />
@@ -216,11 +227,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/3653acc01857b9ce09d34c3c69c9e1996715fb3a/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/02217f9e28d135a67ebbd2b8edab02d2b77eac15/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/3653acc01857b9ce09d34c3c69c9e1996715fb3a/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/02217f9e28d135a67ebbd2b8edab02d2b77eac15/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/3653acc01857b9ce09d34c3c69c9e1996715fb3a/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/02217f9e28d135a67ebbd2b8edab02d2b77eac15/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -253,9 +264,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/3653acc01857b9ce09d34c3c69c9e1996715fb3a/))
+([permalink](https://greenelab.github.io/covid19-review/v/02217f9e28d135a67ebbd2b8edab02d2b77eac15/))
 was automatically generated
-from [greenelab/covid19-review@3653acc](https://github.com/greenelab/covid19-review/tree/3653acc01857b9ce09d34c3c69c9e1996715fb3a)
+from [greenelab/covid19-review@02217f9](https://github.com/greenelab/covid19-review/tree/02217f9e28d135a67ebbd2b8edab02d2b77eac15)
 on April 9, 2020.
 </em></small>
 
@@ -473,6 +484,18 @@ Instead, you should collect information from your local health department, the [
     [hufengling](https://twitter.com/hufengling)<br>
   <small>
      Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+  </small>
+
++ **Nafisa M. Jadavji**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-3557-7307](https://orcid.org/0000-0002-3557-7307)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [nafisajadavji](https://github.com/nafisajadavji)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [nafisajadavji](https://twitter.com/nafisajadavji)<br>
+  <small>
+     Biomedical Science, Midwestern University, Glendale, AZ, United States of America; Department of Neuroscience, Carleton University, Ottawa, Ontario, Canada
+     · Funded by American Heart Association (20AIREA35050015)
   </small>
 
 
@@ -1369,6 +1392,7 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 |Alexandra J. Lee|None|2020-04-07|
 |Immunology Institute of the Icahn School of Medicine|None|2020-04-07|
 |Fengling Hu|None|2020-04-08|
+|Nafisa M. Jadavji|None|2020-04-09|
 
 ### Author Contributions
 
@@ -1394,6 +1418,7 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 |Alexandra J. Lee|Writing - Original Draft|
 |Immunology Institute of the Icahn School of Medicine|Data Curation|
 |Fengling Hu|Writing - Original Draft, Writing - Review & Editing|
+|Nafisa M. Jadavji|Writing - Original Draft, Writing - Review & Editing|
 
 
 ## References {.page_break_before}
