@@ -293,3 +293,20 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-04-08
+  -
+    github: nafisajadavji
+    name: Nafisa M. Jadavji
+    initials: NMJ
+    orcid: 0000-0002-3557-7307
+    twitter: nafisajadavji
+    email: njadav@midwestern.edu
+    contributions:
+      - Writing - Original Draft
+      - Writing - Review & Editing
+    affiliations:
+    - Biomedical Science, Midwestern University, Glendale, AZ, United States of America
+    - Department of Neuroscience, Carleton University, Ottawa, Ontario, Canada
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-04-09
+    funders: American Heart Association (20AIREA35050015)
