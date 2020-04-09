@@ -158,3 +158,25 @@ The `gh-pages` branch uses [GitHub Pages](https://pages.github.com/) to host the
 + **PDF manuscript** at https://greenelab.github.io/covid19-review/manuscript.pdf
 
 For continuous integration configuration details, see [`.github/workflows/manubot.yaml`](.github/workflows/manubot.yaml) if using GitHub Actions or [`.travis.yml`](.travis.yml) if using Travis CI.
+
+### Updating Appendix 1
+
+Only maintainers need to update Appendix 1, which contains reviews from <https://github.com/ismms-himc/covid-19_sinai_reviews>, referred to as the "upstream" repository.
+The appendix content `content/95-ismms-himc-appendix.md` is automatically generated from the upstream repository so it should to be manually edited.
+Any errors in the appendix are corrected by submitted a pull request in the upstream repository.
+
+When the upstream repository is updated, a maintainer can run the following commands from the base directory of this repository:
+```sh
+# checkout a new branch, named using the current date, e.g. ismms-2020-04-09
+git checkout -b ismms-$(date '+%Y-%m-%d')
+# download the latest reviews from the upstream repository and re-write content/95-ismms-himc-appendix.md
+bash build/mssm-jc.sh
+```
+Then, they can proceed to add and commit `content/95-ismms-himc-appendix.md` in the new branch and make a pull request.
+
+The script `build/mssm-jc.sh` will add a comment to the top of the appendix that contains the SHA-1 hash of the upstream repository.
+For example,
+```
+<!-- Appendix source: https://github.com/ismms-himc/covid-19_sinai_reviews/tree/b8d8df55b4f2416da4ca3b7c765c8fff48acf5e3 -->
+```
+This can be used to track which version of the reviews appear in this manuscript.
