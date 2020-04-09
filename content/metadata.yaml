@@ -301,7 +301,7 @@ authors:
     twitter: nafisajadavji
     email: njadav@midwestern.edu
       - Biomedical Science, Midwestern University, Glendale, Phoenix, United States of America
-      - Department of Neuroscience, Carleton University, Ottawa, Ontario, Canada
+    - Department of Neuroscience, Carleton University, Ottawa, Ontario, Canada
     coi:
       string: "None"
       lastapproved: !!str 2020-04-09
