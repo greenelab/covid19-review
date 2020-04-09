@@ -267,7 +267,7 @@ authors:
       string: "None"
       lastapproved: !!str 2020-04-07
     funders: the Gordon and Betty Moore Foundation (GBMF 4552)
-    
+  -
     github: nafisajadavji
     name: Nafisa M. Jadavji
     initials: NMJ
