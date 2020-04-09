@@ -22,7 +22,7 @@ author-meta:
 bibliography:
 - content/manual-references.bib
 - content/manual-references.json
-date-meta: '2020-04-08'
+date-meta: '2020-04-09'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -41,9 +41,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
 
-  <meta name="dc.date" content="2020-04-08" />
+  <meta name="dc.date" content="2020-04-09" />
 
-  <meta name="citation_publication_date" content="2020-04-08" />
+  <meta name="citation_publication_date" content="2020-04-09" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -211,11 +211,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/baf5d3251f62b9514a84bcb53999725bd952f6fa/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/e42da8859b7bedf7f21164d0c29f4c384cf68f19/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/baf5d3251f62b9514a84bcb53999725bd952f6fa/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/e42da8859b7bedf7f21164d0c29f4c384cf68f19/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/baf5d3251f62b9514a84bcb53999725bd952f6fa/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/e42da8859b7bedf7f21164d0c29f4c384cf68f19/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -248,10 +248,10 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/baf5d3251f62b9514a84bcb53999725bd952f6fa/))
+([permalink](https://greenelab.github.io/covid19-review/v/e42da8859b7bedf7f21164d0c29f4c384cf68f19/))
 was automatically generated
-from [greenelab/covid19-review@baf5d32](https://github.com/greenelab/covid19-review/tree/baf5d3251f62b9514a84bcb53999725bd952f6fa)
-on April 8, 2020.
+from [greenelab/covid19-review@e42da88](https://github.com/greenelab/covid19-review/tree/e42da8859b7bedf7f21164d0c29f4c384cf68f19)
+on April 9, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -551,6 +551,11 @@ Coronaviruses are known to cause respiratory illnesses in humans through the fol
 
 *Presentation of COVID-19:* 
 Information is rapidly becoming available about the wide range of symptoms that can be associated with COVID-19 as well as the range of symptom severity, onset from exposure, and possible risk or protective factors...
+
+In a retrospective sample of COVID-19 patients in Wuhan observed during December 2019 and January 2020, [@doi:10/ggnxb3] found that a higher probability of mortality was associated with older age and higher Sequential Organ Failure Assessment score, as well as high levels of d-dimer. 
+Mortality also appeared to be associated with other biomarkers measured in blood samples including lactate dehydrogenase and cardiac troponin I, although these analyses may not have been appropriately corrected for multiple testing.
+They also found that survivors continued to shed the virus for a median of 20 days and a maximum of at least 37 days.
+
 
 #### Vaccines for Viruses: Strategies for and challenges to development
 
