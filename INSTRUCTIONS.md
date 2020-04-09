@@ -161,9 +161,10 @@ For continuous integration configuration details, see [`.github/workflows/manubo
 
 ### Updating Appendix 1
 
-Only maintainers need to update Appendix 1, which contains reviews from <https://github.com/ismms-himc/covid-19_sinai_reviews>, referred to as the "upstream" repository.
-The appendix content `content/95-ismms-himc-appendix.md` is automatically generated from the upstream repository so it should to be manually edited.
-Any errors in the appendix are corrected by submitted a pull request in the upstream repository.
+Only maintainers need to update Appendix 1, which contains reviews from <https://github.com/ismms-himc/covid-19_sinai_reviews>, referred to below as the "upstream" repository.
+The appendix content `content/95-ismms-himc-appendix.md` is automatically generated from the upstream repository.
+Therefore, it should not to be manually edited.
+Any errors in the appendix are corrected by submitting a pull request in the upstream repository.
 
 When the upstream repository is updated, a maintainer can run the following commands from the base directory of this repository:
 ```sh
