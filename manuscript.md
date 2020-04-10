@@ -227,11 +227,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/8b70eab9cf249e9cac73ce42fe90a2eb8befb6bd/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/20787edc4f03cb13185c27fe1aaf99f36f522164/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/8b70eab9cf249e9cac73ce42fe90a2eb8befb6bd/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/20787edc4f03cb13185c27fe1aaf99f36f522164/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/8b70eab9cf249e9cac73ce42fe90a2eb8befb6bd/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/20787edc4f03cb13185c27fe1aaf99f36f522164/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -264,9 +264,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/8b70eab9cf249e9cac73ce42fe90a2eb8befb6bd/))
+([permalink](https://greenelab.github.io/covid19-review/v/20787edc4f03cb13185c27fe1aaf99f36f522164/))
 was automatically generated
-from [greenelab/covid19-review@8b70eab](https://github.com/greenelab/covid19-review/tree/8b70eab9cf249e9cac73ce42fe90a2eb8befb6bd)
+from [greenelab/covid19-review@20787ed](https://github.com/greenelab/covid19-review/tree/20787edc4f03cb13185c27fe1aaf99f36f522164)
 on April 10, 2020.
 </em></small>
 
@@ -1497,6 +1497,8 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 
 This appendix contains reviews produced by the Immunology Institute of the Icahn School of Medicine
 
+
+<!-- Appendix source: https://github.com/ismms-himc/covid-19_sinai_reviews/tree/b8d8df55b4f2416da4ca3b7c765c8fff48acf5e3 -->
 
 ### Potent binding of 2019 novel coronavirus spike protein by a SARS coronavirus-specific human monoclonal antibody
 
@@ -4840,6 +4842,49 @@ antigen-antibody-based detection test kits and assays.
 *This review was edited by K. Alexandropoulos as part of a project by students, postdocs and faculty at the Immunology Institute of the Icahn School of Medicine, Mount Sinai.*
 
 
+**Heat inactivation of serum interferes with the immunoanalysis of
+antibodies to SARS-CoV-2**
+
+Heat inactivation, immunochromatography, diagnosis, serum antibodies,
+IgM, IgG
+
+*Summary*
+
+The use of heat inactivation to neutralize pathogens in serum samples
+collected from suspected COVID-19 patients reduces the sensitivity of a
+fluorescent immunochromatographic assay to detect anti-SARS-CoV-2 IgM
+and IgG.
+
+*Major findings*
+
+Coronaviruses can be killed by heat inactivation, and this is an
+important safety precaution in laboratory manipulation of clinical
+samples. However, the effect of this step on downstream
+SARS-CoV-2-specific serum antibody assays has not been examined. The
+authors tested the effect of heat inactivation (56 deg C for 30 minutes)
+versus no heat inactivation on a fluorescence immunochromatography
+assay. Heat inactivation reduced all IgM measurements by an average of
+54% and most IgG measurements (22/36 samples, average reduction of 50%),
+consistent with the lower thermal stability of IgM than that of IgG.
+Heat inactivation caused a subset of IgM but not IgG readings to fall
+below a specified positivity threshold.
+
+*Limitations*
+
+Limitations included the use of only one type of assay for testing heat
+inactivated vs non-inactivated sera, and the use of the same baseline
+for heat inactivated and non-inactivated sera. The results indicate that
+heat inactivation affects the quantification of SARS-CoV-2-antibody
+response, specially IgM, but still allows to distinguish positive
+specific IgG. Therefore, the effect of heat inactivation should be
+studied when designing assays that quantitatively associate
+immunoglobulin levels (especially IgM) to immune state.
+
+*Review by Andrew M. Leader as part of a project by students, postdocs
+and faculty at the Immunology Institute of the Icahn school of medicine,
+Mount Sinai.*
+
+
 ### Immune phenotyping based on neutrophil-to-lymphocyte ratio and IgG predicts disease severity and outcome for patients with COVID-19
 
 Zhang et al. *medRxiv* [@doi:10.1101/2020.03.12.20035048]
@@ -5537,54 +5582,62 @@ upon further testing and validation.
 *This review was undertaken by Katherine Lindblad and Tamar Plitt as part of a project by students, postdocs and faculty at the Immunology Institute of the Icahn School of Medicine, Mount Sinai.*
 
 
-### Heat inactivation of serum interferes with the immunoanalysis of antibodies to SARS-CoV-2
+***Title***:  A serological assay to detect SARS-Cov-2 seroconversion in
+humans
 
-Hu et al. *medRxiv*. [@doi:10.1101/2020.03.12.20034231]
+***Immunology keywords***:  specific serological assay - ELISA -
+seroconversion - antibody titers
 
-#### Keywords
+*Note: the authors of this review work in the same institution as the
+authors of the study*
 
-- Heat inactivation
-- immunochromatography
-- diagnosis
-- serum antibodies
-- IgM
-- IgG
+***Main findings***:  
 
-#### Main Findings
+Production of recombinant whole Spike (S) protein and the smaller
+Receptor Binding Domain (RBD) based on the sequence of Wuhan-Hu-1
+SARS-CoV-2 isolate. The S protein was modified to allow trimerization
+and increase stability. The authors compared the antibody reactivity of
+59 banked human serum samples (non-exposed) and 3 serum samples from
+confirmed SARS-CoV-2 infected patients. All Covid-19 patient sera
+reacted to the S protein and RBD domain compared to the control sera.
 
-Coronaviruses can be killed by heat inactivation, and this is an
-important safety precaution in laboratory manipulation of clinical
-samples. However, the effect of this step on downstream
-SARS-CoV-2-specific serum antibody assays has not been examined. The
-authors tested the effect of heat inactivation (56 deg C for 30 minutes)
-versus no heat inactivation on a fluorescence immunochromatography
-assay. Heat inactivation reduced all IgM measurements by an average of
-54% and most IgG measurements (22/36 samples, average reduction of 50%),
-consistent with the lower thermal stability of IgM than that of IgG.
-Heat inactivation caused a subset of IgM but not IgG readings to fall
-below a specified positivity threshold.
+The authors also characterized the antibody isotypes from the Covid-19
+patients, and observed stronger IgG3 response than IgG1. IgM and IgA
+responses were also prevalent.
 
-#### Limitations
+***Limitations of the study***:  
 
-Limitations included the use of only one type of assay for testing heat
-inactivated vs non-inactivated sera, and the use of the same baseline
-for heat inactivated and non-inactivated sera. The results indicate that
-heat inactivation affects the quantification of SARS-CoV-2-antibody
-response, specially IgM, but still allows to distinguish positive
-specific IgG. Therefore, the effect of heat inactivation should be
-studied when designing assays that quantitatively associate
-immunoglobulin levels (especially IgM) to immune state.
+The authors analyzed a total of 59 control human serum samples, and
+samples from only three different patients to test for reactivity
+against the RBD domain and full-length spike protein. It will be
+important to follow up with a larger number of patient samples to
+confirm the data obtained. Furthermore, it would be interesting to
+assess people at different age groups and determine whether unexposed
+control kids have a higher “background”.
 
-#### Significance
+Applications of the assay described in this study in diagnosis are
+limited, since antibody response should start to be detectable only one
+to two weeks after infection. Future studies will be required to assess
+how long after infection this assay allow to detect anti-CoV2
+antibodies. Finally, while likely, the association of seroconversion
+with protective immunity against SARS-Cov-2 infection still needs to be
+fully established.
 
-The use of heat inactivation to neutralize pathogens in serum samples
-collected from suspected COVID-19 patients reduces the sensitivity of a
-fluorescent immunochromatographic assay to detect anti-SARS-CoV-2 IgM
-and IgG.
+***Relevance***:
 
-#### Credit
-
-*Review by Andrew M. Leader as part of a project by students, postdocs and faculty at the Immunology Institute of the Icahn School of Medicine, Mount Sinai.*
+This study has strong implications in the research against SARS-Cov-2.
+First, it is now possible to perform serosurveys and determine who has
+been infected, allowing a more accurate estimate of infection prevalence
+and death rate. Second, if it is confirmed that re-infection does not
+happen (or is rare), this assay can be used as a tool to screen
+healthcare workers and prioritize immune ones to work with infected
+patients. Third, potential convalescent plasma donors can now be
+screened to help treating currently infected patients. Of note, this
+assay does not involve live virus handling. experimentally, this is an
+advantage as the assay does not require the precautions required by
+manipulation of live virus. Finally, the recombinant proteins described
+in this study represent new tools that can be used for further
+applications, including vaccine development.
 
 
 ### COMPARATIVE PATHOGENESIS OF COVID-19, MERS AND SARS IN A NON-HUMAN PRIMATE MODEL
@@ -6847,6 +6900,77 @@ these findings.
 *This review was undertaken as part of a project by students, postdocs and faculty at the Immunology Institute of the Icahn School of Medicine, Mount Sinai.*
 
 
+**Structure-based modeling of SARS-CoV-2 peptide/HLA-A02 antigens**
+
+<https://doi.org/10.1101/2020.03.23.004176>
+
+*Immunology keywords*:
+
+CoVID-19, 2019-nCoV, SARS-CoV-2, comparative, homology, peptide,
+modeling, simulation, HLA-A, antigen
+
+*Summary of Findings*:
+
+-   The authors utilize homology modeling to identify peptides from the
+    SARS-CoV-2 proteome that potentially bind HLA-A\*02:01.
+
+-   They utilize high-resolution X-ray structures of peptide/MHC
+    complexes on Protein Data Bank, substitute homologous peptides with
+    SARS-CoV-2 peptides, and calculate MHC/SARS-CoV-2 peptide Rosetta
+    binding energy.
+
+-   They select MHC/SARS-CoV-2 complex models with highest binding
+    energy for further study and publish models in an online database
+    (https://rosettamhc.chemistry.ucsc.edu).
+
+*Limitations*:
+
+-   The authors only utilize computational methods and predicted
+    SARS-CoV-2 peptides must be validated experimentally for
+    immunogenicity and clinical response.
+
+-   Due to computational burden and limited availability of high
+    resolution X-ray structures on PDB, authors only simulate 9-mer and
+    10-mer peptide binding to HLA-A\*02:01.
+
+-   Since the authors compare select existing X-ray structures as a
+    starting point, backbone conformations that deviate significantly
+    between test and template peptides are not captured. Furthermore,
+    Rosetta modeling protocols do not capture all possible structures
+    and binding energy scoring does not fully recapitulate fundamental
+    forces.^1,2^
+
+*Importance/Relevance:*
+
+-   The authors identify and publish high-scoring SARS-CoV-2 peptides
+    that may direct a targeted, experimental validation approach toward
+    a COVID-19 vaccine.
+
+-   The authors utilize Rosetta simulation to further filter results
+    from NetMHCpan 4.0, supporting machine learning prediction with
+    structural analysis.
+
+-   The authors develop RosettaMHC, a computationally efficient method
+    of leveraging existing X-ray structures for identification of
+    immunogenic peptides.
+
+*References:*
+
+1.  Bender, B. J., Cisneros, A., 3rd, Duran, A. M., Finn, J. A., Fu, D.,
+    Lokits, A. D., . . . Moretti, R. (2016). Protocols for Molecular
+    Modeling with Rosetta3 and RosettaScripts. Biochemistry, 55(34),
+    4748-4763. doi:10.1021/acs.biochem.6b00444
+
+2.  Alford, R. F., Leaver-Fay, A., Jeliazkov, J. R., O'Meara, M. J.,
+    DiMaio, F. P., Park, H., . . . Gray, J. J. (2017). The Rosetta
+    All-Atom Energy Function for Macromolecular Modeling and Design. J
+    Chem Theory Comput, 13(6), 3031-3048. doi:10.1021/acs.jctc.7b00125
+
+*Review by Jonathan Chung as part of a project by students, postdocs and
+faculty at the Immunology Institute of the Icahn school of medicine,
+Mount Sinai.*
+
+
 ### Serology characteristics of SARS-CoV-2 infection since the exposure and post symptoms onset
 
 Lou et al. *medRxiv*. [@doi:10.1101/2020.03.23.20041707]
@@ -7382,6 +7506,113 @@ workers [@url:https://www.mcri.edu.au/BRACE], to assess if it can protect them a
 *Review by Samarth Hegde as part of a project by students, postdocs and
 faculty at the Immunology Institute of the Icahn School of Medicine,
 Mount Sinai.*
+
+
+**The Novel Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2)
+Directly Decimates Human Spleens and Lymph Nodes**
+
+Review by Matthew D. Park
+
+Revised by Miriam Merad
+
+Keywords: COVID-19, SARS-CoV-2, spleen, lymph node, ACE2, macrophage
+
+*Main findings*
+
+It has been previously reported that COVID-19 patients exhibit severe
+lymphocytopenia, but the mechanism through which this depletion occurs
+has not been described. In order to characterize the cause and process
+of lymphocyte depletion in COVID-19 patients, the authors performed
+gross anatomical and *in situ* immune-histochemical analyses of spleens
+and lymph nodes (hilar and subscapular) obtained from post-mortem
+autopsies of 6 patients with confirmed positive viremia and 3 healthy
+controls (deceased due to vehicle accidents).
+
+Primary gross observations noted significant splenic and LN atrophy,
+hemorrhaging, and necrosis with congestion of interstitial blood vessels
+and large accumulation of mononuclear cells and massive lymphocyte
+death. They found that CD68^+^ CD169^+^ cells in the spleens, hilar and
+subscapular LN, and capillaries of these secondary lymphoid organs
+expressed the ACE2 receptor and stain positive for the SARS-CoV-2
+nucleoprotein (NP) antigen, while CD3^+^ T cells and B220^+^ B cells
+lacked both the ACE2 receptor and SARS-CoV-2 NP antigen. ACE2^+^ NP^+^
+CD169^+^ macrophages were positioned in the splenic marginal zone (MZ)
+and in the marginal sinuses of LN, which suggests that these macrophages
+were positioned to encounter invading pathogens first and may contribute
+to virus dissemination.
+
+Since SARS-CoV-2 does not directly infect lymphocytes, the authors
+hypothesized that the NP^+^ CD169^+^ macrophages are responsible for
+persistent activation of lymphocytes via Fas::FasL interactions that
+would mediate activation-induced cell death (AICD). Indeed, the
+expression of Fas was significantly higher in virus-infected tissue than
+that of healthy controls, and TUNEL staining showed significant
+lymphocytic apoptosis. Since pro-inflammatory cytokines like IL-6 and
+TNF-α can also engage cellular apoptosis and necrosis, the authors
+interrogated the cytokine expression of the secondary lymphoid organs
+from COVID-19 patients; IL-6, not TNF-α, was elevated in virus-infected
+splenic and lymph node tissues, compared to those of healthy controls,
+and immunofluorescent staining showed that IL-6 is primarily produced by
+the infected macrophages. *In vitro* infection of THP1 cells with
+SARS-CoV-2 spike protein resulted in selectively increased *Il6*
+expression, as opposed to *Il1b* and *Tnfa* transcription. Collectively,
+the authors concluded that a combination of Fas up-regulation and IL-6
+production by NP^+^ CD169^+^ macrophages induce AICD in lymphocytes in
+secondary lymphoid organs, resulting in lymphocytopenia.
+
+In summary, this study reports that CD169^+^ macrophages in the splenic
+MZ, subscapular LN, and the lining capillaries of the secondary lymphoid
+tissues express ACE2 and are susceptible to SARS-CoV-2 infection. The
+findings point to the potential role of these macrophages in viral
+dissemination, immunopathology of these secondary lymphoid organs,
+hyperinflammation and lymphopenia.
+
+*Limitations*
+
+*Technical*
+
+A notable technical limitation is the small number of samples (n=6);
+moreover, the analysis of these samples using multiplexed
+immunohistochemistry and immunofluorescence do not necessarily provide
+the depth of unbiased interrogation needed to better identify the cell
+types involved.
+
+*Biological*
+
+The available literature and ongoing unpublished studies, including
+single-cell experiments of spleen and LN from organ donors, do not
+indicate that ACE2 is expressed by macrophages; however, it remains
+possible that ACE2 expression may be triggered by type I IFN in COVID-19
+patients. Importantly, the SARS-CoV-2 NP staining of the macrophages
+does not necessarily reflect direct infection of these macrophages;
+instead, positive staining only indicates that these macrophages carry
+SARS-CoV-2 NP as antigen cargo, which may have been phagocytosed. Direct
+viral culture of macrophages isolated from the secondary lymphoid organs
+with SARS-CoV-2 is required to confirm the potential for direct
+infection of macrophages by SARS-CoV-2. Additionally, it is important to
+note that the low to negligible viremia reported in COVID-19 patients
+to-date does not favor a dissemination route via the blood, as suggested
+by this study, which would be necessary to explain the presence of
+virally infected cells in the spleen.
+
+*Relevance*
+
+Excess inflammation in response to SARS-CoV-2 infection is characterized
+by cytokine storm in many COVID-19 patients. The contribution of this
+pathology to the overall fatality rate due to COVID-19, not even
+necessarily directly due to SARS-CoV-2 infection, is significant. A
+better understanding of the full effect and source of some of these
+major cytokines, like IL-6, as well as the deficient immune responses,
+like lymphocytopenia, is urgently needed. In this study, the authors
+report severe tissue damage in spleens and lymph nodes of COVID-19
+patients and identify the role that CD169^+^ macrophages may play in the
+hyperinflammation and lymphocytopenia that are both characteristic of
+the disease. It may, therefore, be important to note the effects that
+IL-6 inhibitors like Tocilizumab and Sarilumab may specifically have on
+splenic and LN function. It is important to note that similar
+observations of severe splenic and LN necrosis and inflammation in
+patients infected with SARS-CoV-1 further support the potential
+importance and relevance of this study.
 
 
 ### Cigarette smoke triggers the expansion of a subpopulation of respiratory epithelial cells that express the SARS-CoV-2 receptor ACE2
