@@ -24,7 +24,7 @@ author-meta:
 bibliography:
 - content/manual-references.bib
 - content/manual-references.json
-date-meta: '2020-04-09'
+date-meta: '2020-04-10'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -43,9 +43,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
 
-  <meta name="dc.date" content="2020-04-09" />
+  <meta name="dc.date" content="2020-04-10" />
 
-  <meta name="citation_publication_date" content="2020-04-09" />
+  <meta name="citation_publication_date" content="2020-04-10" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -227,11 +227,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/02217f9e28d135a67ebbd2b8edab02d2b77eac15/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/8b70eab9cf249e9cac73ce42fe90a2eb8befb6bd/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/02217f9e28d135a67ebbd2b8edab02d2b77eac15/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/8b70eab9cf249e9cac73ce42fe90a2eb8befb6bd/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/02217f9e28d135a67ebbd2b8edab02d2b77eac15/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/8b70eab9cf249e9cac73ce42fe90a2eb8befb6bd/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -264,10 +264,10 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/02217f9e28d135a67ebbd2b8edab02d2b77eac15/))
+([permalink](https://greenelab.github.io/covid19-review/v/8b70eab9cf249e9cac73ce42fe90a2eb8befb6bd/))
 was automatically generated
-from [greenelab/covid19-review@02217f9](https://github.com/greenelab/covid19-review/tree/02217f9e28d135a67ebbd2b8edab02d2b77eac15)
-on April 9, 2020.
+from [greenelab/covid19-review@8b70eab](https://github.com/greenelab/covid19-review/tree/8b70eab9cf249e9cac73ce42fe90a2eb8befb6bd)
+on April 10, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -693,11 +693,74 @@ Considering the paucity of omics-level big data sets for SARS-CoV-2 up until now
 
 ### Current Strategies for Diagnosing COVID-19 and Similar Viral Infections
 
-Given the heterogeneity of symptom presentation across patients with COVID-19, the development of standardized protocols for testing samples for SARS-CoV-2 is urgent.
-Following the release of the genetic sequence of the virus by Chinese officials on January 12, 2020, the first tests for detecting the virus were released on XX, 2020.
-These tests used the following approach to identify the active virus in patient samples...
-However, many countries have struggled to acquire the tests required to keep pace with the epidemic.
-[Why is it so difficult to scale up testing? What are some of the considerations?]
+Given the high transmissibility of SARS-CoV-2, the development of reliable assays to detect SARS-CoV-2 infection even in asymptomatic carriers is vitally important. 
+For instance, the deployment of wide-scale diagnostic testing followed by the isolation of infected people has been a key factor in South Korea's successful strategy for controlling the spread of the virus. 
+Following the first release of the genetic sequence of the virus by Chinese officials on January 10 2020, the first test was released about 13 days later [@doi:10.2807/1560-7917.ES.2020.25.3.2000045]. 
+Identifying individuals who have contracted the infection is crucial to slowing down the global pandemic. 
+The assays available to date use the following approaches to identify the active virus in patient samples.
+
+#### RT-PCR 
+
+The Drosten Lab, from Germany, was the first lab to establish and validate a diagnostic test to detect SARS-Cov-2. 
+This test uses real-time PCR (RT-PCR) [@doi:10.2807/1560-7917.ES.2020.25.3.2000045] to detect several regions of the viral genome: the orf1b of the RNA dependent RNA polymerase (RdRP), the Envelope protein gene (E), and the Nucleocapsid protein gene (N). 
+In collaboration with several other labs in Europe and in China, the researchers confirmed the specificity of this test with respect to other coronaviruses against specimens from 297 patients infected with a broad range of respiratory agents. 
+Specifically this tests utilizes two probes against RdRP of which one is specific to SARS-CoV-2 [@doi:10.2807/1560-7917.ES.2020.25.3.2000045]. 
+Importantly, this assay did not give any false positive results.
+
+#### QRT-tPCR
+
+Around the same time, researchers in China developed a Quantitative Real Time Reverse Transcription PCR (QRT-tPCR) test to identify two region of the viral genome, orf1b and N region [@doi:10.1093/clinchem/hvaa029]. 
+Specifically, this assay was tested on samples coming from two COVID-19 patients, including a panel of positive and negative controls consisting of RNA extracted from several cultured viruses. 
+The assay uses the N gene to screen patients, while the orf1b is used to confirm the infection [@doi:10.1093/clinchem/hvaa029].
+In this case the test was designed to detect sabercoviruses, of which SARS-CoV-2 is one. 
+Considering that no other sarbecoviruses are currently known to infect humans, a positive test indicates that the patient is infected with SARS-CoV-2. 
+However, this test is not able to discriminate the genetics of viruses within the sabercovirus clade. 
+
+#### Limitation of PCR tests
+
+One advantage of PCR tests it their sensitivity; however, several limitations with these tests introduce challenges to high-throughput testing:
+
+
+1. False-negative responses, which can present a significant problem to large-scale testing.
+To reduce occurrence of false negatives, correct execution of the analysis is crucial [@doi:10.1038/d41587-020-00002-2]. 
+
+2. Uncertainty surrounding the SARS-Cov-2 viral shedding kinetics, which could affect the result of a test depending on when it was taken [@doi:10.1038/d41587-020-00002-2].
+
+3. Type of specimen, as it is not clear which clinical samples are best to detect the virus [@doi:10.1038/d41587-020-00002-2].
+
+4. Expensive machinery, which might be present in major hospitals and/or diagnostic centers but is often not available to smaller facilities [@doi:10.1126/science.abb8400]. 
+
+5. Timing of the test, which might take up to 4 days to give results [@doi:10.1126/science.abb8400].
+
+#### CRSPR test
+
+Recently, two American companies, Mammoth Biosciences and Sherlock Biosciences, proposed to use CRISPR technology [@doi:10.1016/j.cell.2014.05.010] to increase the speed of Coronavirus diagnostic testing [@doi:10.1101/2020.03.06.20032334]. 
+Their methodology includes RNA extraction from patient specimens followed by loop-mediated amplification (fast amplification) of the RNA and addition of the CRISPR reagents CAS12, which cuts the DNA or RNA, and the RNA guidance. 
+The RNA guidance helps CAS12 to direct the cut of a sequence corresponding to a piece of the coronavirus genome. 
+With this test, if CAS12 and its guide find a match in the RNA, then the cut occurs and the patient is positive for SARS-CoV-2.
+Specifically, when CAS12 is active, it also cuts a designed strand containing molecules that change color once they are free [@doi:10.1101/2020.03.06.20032334]. 
+This test can be as fast as 30 minutes, and the results indicator can be as simple as a color change on a strip [@doi:10.1126/science.abb8400].
+
+#### Limitation of CRISPR test
+
+False positives are a concern with this technique, as the guide RNA can recognize other interspersed sequences on the patient’s genome, resulting in a loss of specificity.
+
+#### Sierological Tests
+
+Despite diagnostic tests based on the detection of the genetic material can be quite sensitive, they cannot provide information about the real extent of the disease. In fact, they would not work on a recovered patient who defeated the virus. 
+In this context, immunity tests are significantly more informative. 
+In fact, they can help scientists figuring out why the disease has different course among patients, as well as what strategy might work to manage the spread of the infection. 
+Furthermore, sierological tests hold significant interest at present because they can be leveraged to advance economic recovery.
+For instance, people that have developed antibodies can return to work prior to the others, helping to develop the herd immunity which will prevent further diffusion of the virus.
+Several countries are now focused on implementing antibody tests, and in the United States, the FDA recently approved a sierological test by Cellex for use under emergency conditions [@url:https://www.fda.gov/media/136625/download].
+Specifically, the Cellex qSARS-CoV-2 IgG/IgM Rapid Test is a chromatographic immunoassay designed to qualitatively detect IgM and IgG antibodies against SARS-Cov-2 in the plasma of patients suspected to have developed the infection [@url:https://www.fda.gov/media/136625/download]. 
+Such tests allow for the progress of the viral disease to be understood, as IgM are the first antibodies produced by the body and indicate that the infection is active. 
+Once the body has responded to the infection, IgG are produced and gradually replace IgM, indicating that the body has developed immunogenic memory [@doi:10.1002/jmv.25820]. 
+The test cassette contains a pad of SARS-Cov-2 antigens and a nitrocellulose strip with lines for each of IgG and IgM, as well as a control (goat IgG) [@url:https://www.fda.gov/media/136625/download].
+In a specimen that contains antibodies against the SARS-CoV-2 antigen, the antibodies will bind to the strip and be captured by the IgM and/or IgG line(s), resulting in a change of color [@url:https://www.fda.gov/media/136625/download]. 
+With this particular assay results can be read within 15-20 minutes [@url:https://www.fda.gov/media/136625/download]. 
+Importantly, false positives can occur due to cross-reactivity with other antibodies depending on the clinical condition of the patient [@url:https://www.fda.gov/media/136625/download]. 
+Therefore, this test should be used in combination with RNA detection tests [@url:https://www.fda.gov/media/136625/download]. 
 
 ### Possible Alternatives to Current Practices for Identifying Active Cases
 
