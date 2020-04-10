@@ -163,12 +163,12 @@ For continuous integration configuration details, see [`.github/workflows/manubo
 
 Only maintainers need to update Appendix 1, which contains reviews from <https://github.com/ismms-himc/covid-19_sinai_reviews>, referred to below as the "upstream" repository.
 (Maintainers have been explicitly invited to take on this role.
-Very few contributors are acting as maintainers).
+Very few contributors are acting as maintainers.)
 The appendix content `content/95-ismms-himc-appendix.md` is automatically generated from the upstream repository.
 Therefore, it should not to be manually edited.
 Any errors in the appendix are corrected by submitting a pull request in the upstream repository.
 
-To manually edit a review, fork the repository at https://github.com/ismms-himc/covid-19_sinai_reviews
+To manually edit a review, fork the repository at <https://github.com/ismms-himc/covid-19_sinai_reviews>.
 Files in the [ISMMS markdown_files directory](https://github.com/ismms-himc/covid-19_sinai_reviews/tree/master/markdown_files) are labeled by DOI, with the `/` character replaced by a `-`.
 Create a PR to request changes to these files.
 Edits made in these files will propagate to the appendix once you follow the directions below.
