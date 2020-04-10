@@ -1,4 +1,4 @@
-<!-- Appendix source: https://github.com/ismms-himc/covid-19_sinai_reviews/tree/b8d8df55b4f2416da4ca3b7c765c8fff48acf5e3 -->
+<!-- Appendix source: https://github.com/ismms-himc/covid-19_sinai_reviews/tree/05d387bf10b829dad6bedb4bf313686750b78cc9 -->
 
 ### Potent binding of 2019 novel coronavirus spike protein by a SARS coronavirus-specific human monoclonal antibody
 
@@ -6005,6 +6005,61 @@ faculty at the Immunology Institute of the Icahn School of Medicine,
 Mount Sinai.*
 
 
+**Title: **
+
+**SARS-CoV-2 proteome microarray for mapping COVID-19 antibody
+interactions at amino acid resolution**
+
+**Immunology keywords:** SARS-CoV-2, COVID-19, high throughput, peptide
+microarray, antibody epitope screening
+
+**The main finding of the article: **
+
+This study screened the viral protein epitopes recognized by antibodies
+in the serum of 10 COVID-19 patients using a new SARS-CoV-2 proteome
+peptide microarray. The peptide library was constructed with 966 linear
+peptides, each 15 amino acids long with a 5 amino acid overlap, based on
+the protein sequences encoded by the genome of the Wuhan-Hu-1 strain.
+
+To investigate crossreactivity between SARS-CoV-1 and SARS-CoV-2, they
+tested rabbit monoclonal and polyclonal antibodies against SARS-CoV-1
+nucleocapsid (N) in the microarray. Antibodies against SARS-CoV-1 N
+displayed binding to the SARS-CoV-2 nucleocapsid (N) peptides.
+Polyclonal antibodies showed some crossreactivity to other epitopes from
+membrane (M), spike (S), ORF1ab and ORF8. This suggests that previous
+exposure to SARS-CoV-1 may induced antibodies recognizing both viruses.
+
+Screening of IgM and IgG antibodies from 10 COVID-19 patients showed
+that many antibodies targeted peptides on M, N, S, Orf1ab, Orf3a, Orf7a,
+and Orf8 from SARS-CoV-2, while immunodominant epitopes with antibodies
+in more than 80 % COVID-19 patients were present in N, S and Orf3. It is
+shown that the receptor binding domain (RBD) resides on S protein and
+RBD is important for SARS-CoV-2 to enter the host cells via ACE2. Among
+six epitopes on S protein, structural analysis predicted that three
+epitopes were located at the surface and three epitopes were located
+inside of the protein. Furthermore, some IgM antibodies from 1 patient
+and IgG antibodies from 2 patients bound to the same epitope (residue
+456-460, FRKSN) which resided within the RBD, and structural analysis
+determined that this epitope was located in the region of the RBD loop
+that engages with ACE2.
+
+**Critical analysis of the study:**
+
+In addition to the limitations mentioned in the manuscript, it would
+have been informative to do the analysis over the course of the disease.
+The pattern of antibody recognition, especially on S protein, and the
+course of antibodies of different isotypes recognizing the same peptide
+might correlate to the clinical course in these patients. It would alos
+have been informative to analyze the presence of cross-reactive
+antibodies from pateints previously exposed to SARS-CoV-1.
+
+**The importance and implications for the current epidemics:**
+
+This study identified linear immunodominant epitopes on SARS-CoV-2,
+Wuhan-Hu-1 strain. This is a valuable information to design vaccines
+that will elicit desirable immune responses.
+
+
 **The Novel Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2)
 Directly Decimates Human Spleens and Lymph Nodes**
 
@@ -6233,174 +6288,6 @@ faculty at the Immunology Institute of the Icahn School of Medicine,
 Mount Sinai.*
 
 
-### Virus-host interactome and proteomic survey of PMBCs from COVID-19 patients reveal potential virulence factors influencing SARS-CoV-2 pathogenesis
-
-Li et al. *bioRxiv*.
-[@doi:10.1101/2020.03.31.019216]
-
-#### Keywords
-- PBMC
-- virulence factors
-– interaction network
-– nsp9
-- nsp10
-– NKRF
-
-#### Main findings
-
-The authors identified **intra-viral protein-protein interactions**
-(PPI) with two different approaches: genome wide yeast-two hybrid (Y2H)
-and co-immunoprecipitation (co-IP). A total of 58 distinct PPI were
-characterized. A screen of **viral-host PPI** was also established by
-overexpressing all the SARS-CoV-2 genes with a Flag epitope into HEK293
-cells and purifying each protein complex. Interacting host proteins were
-then identified by liquid chromatography and tandem mass spectrometry.
-251 cellular proteins were identified, such as subunits of ATPase, 40S
-ribosomal proteins, T complex proteins and proteasome related proteins,
-for a total of 631 viral-host PPI. Several interactions suggesting
-protein-mediated modulation of the immune response were identified,
-highlighting the multiple ways SARS-CoV-2 might reprogram infected
-cells.
-
-Subsequently, the authors compared global proteome profiles of PBMCs
-from healthy donors (n=6) with PBMC from COVID-19 patients with mild
-(n=22) or severe (n=13) symptoms. 220 proteins were found to be
-differentially expressed between *healthy donors and mild COVID-19
-patients*, and a pathway analysis showed **a general activation of the
-innate immune response.** 553 proteins were differentially expressed
-between the PBMC of *mild and severe COVID-19 patients*, most of them
-(95%) being downregulated in severe patients*.* Functional pathway
-analysis indicated a defect of T cell activation and function in severe
-COVID-19. There was also evidence suggesting reduced antibody secretion
-by B cells. Together, these results suggest a **functional decline of
-adaptive immunity**. A FACS analysis of PBMC from severe patients
-indicated higher levels of IL6 and IL8 but not IL17 compared to mild
-patients.
-
-Finally, the authors focused on NKRF, an endogenous repressor of IL8/IL6
-synthesis that was previously identified as interacting with SARS-Cov-2
-nsp9,10,12,13 and 15. Individually expressed nsp9 and nsp10 (but not
-nsp12, nsp13, nsp15) induced both IL6 and IL8 in lung epithelial A459
-cells, indicating that nsp9 and nsp10 may be directly involved in the
-induction of these pro-inflammatory cytokines. The authors finally argue
-that nsp9 and nsp10 represent potential drug targets to prevent
-over-production of IL6 and IL8 in infected cells, and reducing the
-over-activation of neutrophils.
-
-#### Limitations
-
-First, the authors seem to have forgotten to include the extended data
-in the manuscript, and their proteomic data does not seem to be publicly
-available for the moment, which limits greatly our analysis of their
-results.
-
-While this work provides important data on host and viral PPI, only 19
-interactions were identified by Y2H system but 52 with co-IP. The
-authors do not comment about what could lead to such differences between
-the two techniques and they don’t specify whether they detected the same
-interactions using the two techniques.
-
-Moreover, the PBMC protein quantification was performed comparing bulk
-PBMC. Consequently, protein differences likely reflect differences in
-cell populations rather than cell-intrinsic differences in protein
-expression. While this analysis is still interesting, a similar
-experiment performed on pre-sorted specific cell populations would allow
-measuring proteome dynamics at a higher resolution.
-
-Finally, the authors did not discussed their results in regards to
-another SARS-CoV-2 interactome of host-viral PPI that had been published
-previously^1^. This study reported 332 host-virus PPI, but no
-interaction of viral proteins with NKRF was found. Some interactions
-were found in both studies (eg. N and G3BP1, Orf6 and RAE1). However,
-the time point used to lyse the cells were different (40h previously vs
-72h here), which could explain some of the differences.
-
-#### Relevance
-
-The identification of many interactions between intra-viral and
-host-virus PPI provides an overview of host protein and pathways that
-are modulated by SARS-CoV-2, which can lead to the identification of
-potential targets for drug development.
-
-In the model proposed by the authors, nsp9 and nsp10 from SARS-Cov-2
-induce an over-expression of IL6 and IL8 by lung epithelial cells, which
-recruits neutrophils and could lead to an excess in lung infiltration.
-Nsp9 has been shown to be essential for viral replication for
-SARS-Cov-1^2^, and shares a 97% homology with nsp9 from SARS-Cov-2^3^.
-Further, nsp9 crystal structure was recently solved^3^, which can help
-to develop drug inhibitors if this protein is further confirmed as being
-important for the virulence of SARS-Cov-2.
-
-1\. Gordon DE, Jang GM, Bouhaddou M, et al. A SARS-CoV-2-Human
-Protein-Protein Interaction Map Reveals Drug Targets and Potential
-Drug-Repurposing. *bioRxiv*. March 2020:2020.03.22.002386.
-doi:10.1101/2020.03.22.002386
-
-2\. Miknis ZJ, Donaldson EF, Umland TC, Rimmer RA, Baric RS, Schultz LW.
-Severe acute respiratory syndrome coronavirus nsp9 dimerization is
-essential for efficient viral growth. *J Virol*. 2009;83(7):3007-3018.
-doi:10.1128/JVI.01505-08
-
-3\. Littler DR, Gully BS, Colson RN, Rossjohn J. *Crystal Structure of
-the SARS-CoV-2 Non-Structural Protein 9, Nsp9*. Molecular Biology; 2020.
-doi:10.1101/2020.03.28.013920
-
-
-**Title: **
-
-**SARS-CoV-2 proteome microarray for mapping COVID-19 antibody
-interactions at amino acid resolution**
-
-**Immunology keywords:** SARS-CoV-2, COVID-19, high throughput, peptide
-microarray, antibody epitope screening
-
-**The main finding of the article: **
-
-This study screened the viral protein epitopes recognized by antibodies
-in the serum of 10 COVID-19 patients using a new SARS-CoV-2 proteome
-peptide microarray. The peptide library was constructed with 966 linear
-peptides, each 15 amino acids long with a 5 amino acid overlap, based on
-the protein sequences encoded by the genome of the Wuhan-Hu-1 strain.
-
-To investigate crossreactivity between SARS-CoV-1 and SARS-CoV-2, they
-tested rabbit monoclonal and polyclonal antibodies against SARS-CoV-1
-nucleocapsid (N) in the microarray. Antibodies against SARS-CoV-1 N
-displayed binding to the SARS-CoV-2 nucleocapsid (N) peptides.
-Polyclonal antibodies showed some crossreactivity to other epitopes from
-membrane (M), spike (S), ORF1ab and ORF8. This suggests that previous
-exposure to SARS-CoV-1 may induced antibodies recognizing both viruses.
-
-Screening of IgM and IgG antibodies from 10 COVID-19 patients showed
-that many antibodies targeted peptides on M, N, S, Orf1ab, Orf3a, Orf7a,
-and Orf8 from SARS-CoV-2, while immunodominant epitopes with antibodies
-in more than 80 % COVID-19 patients were present in N, S and Orf3. It is
-shown that the receptor binding domain (RBD) resides on S protein and
-RBD is important for SARS-CoV-2 to enter the host cells via ACE2. Among
-six epitopes on S protein, structural analysis predicted that three
-epitopes were located at the surface and three epitopes were located
-inside of the protein. Furthermore, some IgM antibodies from 1 patient
-and IgG antibodies from 2 patients bound to the same epitope (residue
-456-460, FRKSN) which resided within the RBD, and structural analysis
-determined that this epitope was located in the region of the RBD loop
-that engages with ACE2.
-
-**Critical analysis of the study:**
-
-In addition to the limitations mentioned in the manuscript, it would
-have been informative to do the analysis over the course of the disease.
-The pattern of antibody recognition, especially on S protein, and the
-course of antibodies of different isotypes recognizing the same peptide
-might correlate to the clinical course in these patients. It would alos
-have been informative to analyze the presence of cross-reactive
-antibodies from pateints previously exposed to SARS-CoV-1.
-
-**The importance and implications for the current epidemics:**
-
-This study identified linear immunodominant epitopes on SARS-CoV-2,
-Wuhan-Hu-1 strain. This is a valuable information to design vaccines
-that will elicit desirable immune responses.
-
-
 **Title:** Lectin-like Intestinal Defensin Inhibits 2019-nCoV Spike
 binding to ACE2
 
@@ -6519,6 +6406,119 @@ transmission from cats to human. Nevertheless, it clearly showed higher
 susceptibility of ferrets and domestic cats to SARS-CoV-2. This data
 strongly indicates the need for surveillance of possible infection and
 transmission of SARS-CoV-2 by domestic cats.
+
+
+### Virus-host interactome and proteomic survey of PMBCs from COVID-19 patients reveal potential virulence factors influencing SARS-CoV-2 pathogenesis
+
+Li et al. *bioRxiv*.
+[@doi:10.1101/2020.03.31.019216]
+
+#### Keywords
+- PBMC
+- virulence factors
+– interaction network
+– nsp9
+- nsp10
+– NKRF
+
+#### Main findings
+
+The authors identified **intra-viral protein-protein interactions**
+(PPI) with two different approaches: genome wide yeast-two hybrid (Y2H)
+and co-immunoprecipitation (co-IP). A total of 58 distinct PPI were
+characterized. A screen of **viral-host PPI** was also established by
+overexpressing all the SARS-CoV-2 genes with a Flag epitope into HEK293
+cells and purifying each protein complex. Interacting host proteins were
+then identified by liquid chromatography and tandem mass spectrometry.
+251 cellular proteins were identified, such as subunits of ATPase, 40S
+ribosomal proteins, T complex proteins and proteasome related proteins,
+for a total of 631 viral-host PPI. Several interactions suggesting
+protein-mediated modulation of the immune response were identified,
+highlighting the multiple ways SARS-CoV-2 might reprogram infected
+cells.
+
+Subsequently, the authors compared global proteome profiles of PBMCs
+from healthy donors (n=6) with PBMC from COVID-19 patients with mild
+(n=22) or severe (n=13) symptoms. 220 proteins were found to be
+differentially expressed between *healthy donors and mild COVID-19
+patients*, and a pathway analysis showed **a general activation of the
+innate immune response.** 553 proteins were differentially expressed
+between the PBMC of *mild and severe COVID-19 patients*, most of them
+(95%) being downregulated in severe patients*.* Functional pathway
+analysis indicated a defect of T cell activation and function in severe
+COVID-19. There was also evidence suggesting reduced antibody secretion
+by B cells. Together, these results suggest a **functional decline of
+adaptive immunity**. A FACS analysis of PBMC from severe patients
+indicated higher levels of IL6 and IL8 but not IL17 compared to mild
+patients.
+
+Finally, the authors focused on NKRF, an endogenous repressor of IL8/IL6
+synthesis that was previously identified as interacting with SARS-Cov-2
+nsp9,10,12,13 and 15. Individually expressed nsp9 and nsp10 (but not
+nsp12, nsp13, nsp15) induced both IL6 and IL8 in lung epithelial A459
+cells, indicating that nsp9 and nsp10 may be directly involved in the
+induction of these pro-inflammatory cytokines. The authors finally argue
+that nsp9 and nsp10 represent potential drug targets to prevent
+over-production of IL6 and IL8 in infected cells, and reducing the
+over-activation of neutrophils.
+
+#### Limitations
+
+First, the authors seem to have forgotten to include the extended data
+in the manuscript, and their proteomic data does not seem to be publicly
+available for the moment, which limits greatly our analysis of their
+results.
+
+While this work provides important data on host and viral PPI, only 19
+interactions were identified by Y2H system but 52 with co-IP. The
+authors do not comment about what could lead to such differences between
+the two techniques and they don’t specify whether they detected the same
+interactions using the two techniques.
+
+Moreover, the PBMC protein quantification was performed comparing bulk
+PBMC. Consequently, protein differences likely reflect differences in
+cell populations rather than cell-intrinsic differences in protein
+expression. While this analysis is still interesting, a similar
+experiment performed on pre-sorted specific cell populations would allow
+measuring proteome dynamics at a higher resolution.
+
+Finally, the authors did not discussed their results in regards to
+another SARS-CoV-2 interactome of host-viral PPI that had been published
+previously^1^. This study reported 332 host-virus PPI, but no
+interaction of viral proteins with NKRF was found. Some interactions
+were found in both studies (eg. N and G3BP1, Orf6 and RAE1). However,
+the time point used to lyse the cells were different (40h previously vs
+72h here), which could explain some of the differences.
+
+#### Relevance
+
+The identification of many interactions between intra-viral and
+host-virus PPI provides an overview of host protein and pathways that
+are modulated by SARS-CoV-2, which can lead to the identification of
+potential targets for drug development.
+
+In the model proposed by the authors, nsp9 and nsp10 from SARS-Cov-2
+induce an over-expression of IL6 and IL8 by lung epithelial cells, which
+recruits neutrophils and could lead to an excess in lung infiltration.
+Nsp9 has been shown to be essential for viral replication for
+SARS-Cov-1^2^, and shares a 97% homology with nsp9 from SARS-Cov-2^3^.
+Further, nsp9 crystal structure was recently solved^3^, which can help
+to develop drug inhibitors if this protein is further confirmed as being
+important for the virulence of SARS-Cov-2.
+
+1\. Gordon DE, Jang GM, Bouhaddou M, et al. A SARS-CoV-2-Human
+Protein-Protein Interaction Map Reveals Drug Targets and Potential
+Drug-Repurposing. *bioRxiv*. March 2020:2020.03.22.002386.
+doi:10.1101/2020.03.22.002386
+
+2\. Miknis ZJ, Donaldson EF, Umland TC, Rimmer RA, Baric RS, Schultz LW.
+Severe acute respiratory syndrome coronavirus nsp9 dimerization is
+essential for efficient viral growth. *J Virol*. 2009;83(7):3007-3018.
+doi:10.1128/JVI.01505-08
+
+3\. Littler DR, Gully BS, Colson RN, Rossjohn J. *Crystal Structure of
+the SARS-CoV-2 Non-Structural Protein 9, Nsp9*. Molecular Biology; 2020.
+doi:10.1101/2020.03.28.013920
 
 
 ***Title:*** Prediction and Evolution of B Cell Epitopes of Surface
