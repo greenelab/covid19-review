@@ -131,6 +131,12 @@ def getIssuesData():
     issues = getIssuesFromAPI()
     paperIssues = [issue for issue in issues if "New Paper (" in issue["title"]]
     paperIssuesDF = getIssuesDF(paperIssues)
+
+    # log the issues without valid DOIs
+    doesNotHaveValidDOI = [not doi.startswith("10") for doi in list(paperIssuesDF.index)]
+    issueLinksWithoutDOIs = list(paperIssuesDF.gh_issue_link[doesNotHaveValidDOI])
+    print('\n\nA valid DOIs could not be extracted from the following', len(issueLinksWithoutDOIs), 'issues:\n', issueLinksWithoutDOIs, '\n')
+
     return paperIssuesDF
 
 
