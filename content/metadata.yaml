@@ -310,3 +310,17 @@ authors:
       string: "None"
       lastapproved: !!str 2020-04-09
     funders: American Heart Association (20AIREA35050015)
+  - 
+    github: esell17
+    name: Elizabeth Sell
+    initials: ES
+    orcid: 0000-0002-9658-1107
+    email: Elizabeth.Sell@pennmedicine.upenn.edu
+    contributions:
+      - Writing - Original Draft
+      - Writing - Review & Editing
+    affiliations:
+      - Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-04-10
