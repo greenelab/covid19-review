@@ -24,7 +24,7 @@ author-meta:
 bibliography:
 - content/manual-references.bib
 - content/manual-references.json
-date-meta: '2020-04-10'
+date-meta: '2020-04-11'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -43,9 +43,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
 
-  <meta name="dc.date" content="2020-04-10" />
+  <meta name="dc.date" content="2020-04-11" />
 
-  <meta name="citation_publication_date" content="2020-04-10" />
+  <meta name="citation_publication_date" content="2020-04-11" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -227,11 +227,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/7b42fbc35963c20c521f920d0218fbaa3d872f0c/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/35fd8a8f3a50796963f4e5048c6a07d507a75939/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/7b42fbc35963c20c521f920d0218fbaa3d872f0c/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/35fd8a8f3a50796963f4e5048c6a07d507a75939/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/7b42fbc35963c20c521f920d0218fbaa3d872f0c/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/35fd8a8f3a50796963f4e5048c6a07d507a75939/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -264,10 +264,10 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/7b42fbc35963c20c521f920d0218fbaa3d872f0c/))
+([permalink](https://greenelab.github.io/covid19-review/v/35fd8a8f3a50796963f4e5048c6a07d507a75939/))
 was automatically generated
-from [greenelab/covid19-review@7b42fbc](https://github.com/greenelab/covid19-review/tree/7b42fbc35963c20c521f920d0218fbaa3d872f0c)
-on April 10, 2020.
+from [greenelab/covid19-review@35fd8a8](https://github.com/greenelab/covid19-review/tree/35fd8a8f3a50796963f4e5048c6a07d507a75939)
+on April 11, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -1299,19 +1299,31 @@ Vaccines, widely recognized as one of the most significant advances in human hea
 
 #### DNA Vaccines
 
-Brief background on the therapeutic.
+This vaccination method involves the direct introduction of a plasmid containing a DNA sequence encoding the antigen(s) against which an immune response is sought into appropriate tissues [@url:https://www.who.int/biologicals/areas/vaccines/dna/en/].
 
 ##### Anticipated Mechanism
 
-Why it may be useful
+This approach may offer several advantages over traditional vaccination approaches, such as the stimulation of both B- as well as T-cell responses and the absence of any infectious agent. 
 
 ##### Current Evidence
 
-A list of current studies and their results, using carefully the information requested in the therapeutic paper tickets.
+Currently, a Phase I safety and immunogenicity clinical trial of INO-4800, a prophylactic vaccine against SARS-CoV-2, is underway [@url:https://clinicaltrials.gov/ct2/show/NCT04336410]. 
+The vaccine developer Inovio Pharmaceuticals Technology is overseeing administration of INO-4800 by intradermal injection followed by electroporation with the CELLECTRA® device to healthy volunteers. 
+Electroporation is the application of brief electric pulses to tissues in order to permeabilize cell membranes in a transient and reversible manner. 
+It has been shown that electroporation can enhance vaccine efficacy by up to 100-fold, as measured by increases in antigen-specific antibody titers [@doi:10.1016/j.coi.2011.03.008].
+The safety of the CELLECTRA® device has been studied for over seven years, and these studies support the further development of electroporation as a safe vaccine delivery method [@doi:10.4161/hv.24702].
+The temporary formation of pores through electroporation facilitates the successful transportation of macromolecules into cells, allowing cells to robustly take up INO-4800 for the production of an antibody response. 
+
+Approved by the U.S. Food and Drug Administration (FDA) on April 6, 2020, the Phase I study is enrolling up to 40 healthy adult volunteers in Philadelphia, PA at the Perelman School of Medicine and at the Center for Pharmaceutical Research in Kansas City, MO. 
+The trial has two experimental arms corresponding to the two locations. 
+Participants in Experimental Group 1 will receive one intradermal injection of 1.0 milligram (mg) of INO-4800 followed by electroporation using the CELLECTRA® 2000 device twice, administered at Day 0 and Week 4. 
+Participants in Experimental Group 2 will receive two intradermal injections of 1.0 mg (total 2.0 mg per dosing visit) of INO-4800 followed by electroporation using the CELLECTRA® 2000 device, administered at Day 0 and Week 4.
+Safety data and the initial immune responses of participants from the trial are expected by the end of the summer of 2020. 
 
 ##### Summary
 
-Summarize the state of the vaccine approach.
+The development of a DNA vaccine against SARS-CoV-2 by Inovio could be an important step forward in the world's search for a COVID-19 vaccine.
+Although exciting, the cost of vaccine manufacturing and electroporation may make scaling the use of this technology for prophylactic use for the general public difficult. 
 
 #### RNA Vaccines
 
