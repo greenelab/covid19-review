@@ -1,3 +1,5 @@
+<!-- Appendix source: https://github.com/ismms-himc/covid-19_sinai_reviews/tree/05d387bf10b829dad6bedb4bf313686750b78cc9 -->
+
 ### Potent binding of 2019 novel coronavirus spike protein by a SARS coronavirus-specific human monoclonal antibody
 
 Tian et al. *Emerg Microbes Infect 2020* [@doi:10.1101/2020.01.28.923011]
@@ -3339,6 +3341,49 @@ antigen-antibody-based detection test kits and assays.
 *This review was edited by K. Alexandropoulos as part of a project by students, postdocs and faculty at the Immunology Institute of the Icahn School of Medicine, Mount Sinai.*
 
 
+**Heat inactivation of serum interferes with the immunoanalysis of
+antibodies to SARS-CoV-2**
+
+Heat inactivation, immunochromatography, diagnosis, serum antibodies,
+IgM, IgG
+
+*Summary*
+
+The use of heat inactivation to neutralize pathogens in serum samples
+collected from suspected COVID-19 patients reduces the sensitivity of a
+fluorescent immunochromatographic assay to detect anti-SARS-CoV-2 IgM
+and IgG.
+
+*Major findings*
+
+Coronaviruses can be killed by heat inactivation, and this is an
+important safety precaution in laboratory manipulation of clinical
+samples. However, the effect of this step on downstream
+SARS-CoV-2-specific serum antibody assays has not been examined. The
+authors tested the effect of heat inactivation (56 deg C for 30 minutes)
+versus no heat inactivation on a fluorescence immunochromatography
+assay. Heat inactivation reduced all IgM measurements by an average of
+54% and most IgG measurements (22/36 samples, average reduction of 50%),
+consistent with the lower thermal stability of IgM than that of IgG.
+Heat inactivation caused a subset of IgM but not IgG readings to fall
+below a specified positivity threshold.
+
+*Limitations*
+
+Limitations included the use of only one type of assay for testing heat
+inactivated vs non-inactivated sera, and the use of the same baseline
+for heat inactivated and non-inactivated sera. The results indicate that
+heat inactivation affects the quantification of SARS-CoV-2-antibody
+response, specially IgM, but still allows to distinguish positive
+specific IgG. Therefore, the effect of heat inactivation should be
+studied when designing assays that quantitatively associate
+immunoglobulin levels (especially IgM) to immune state.
+
+*Review by Andrew M. Leader as part of a project by students, postdocs
+and faculty at the Immunology Institute of the Icahn school of medicine,
+Mount Sinai.*
+
+
 ### Immune phenotyping based on neutrophil-to-lymphocyte ratio and IgG predicts disease severity and outcome for patients with COVID-19
 
 Zhang et al. *medRxiv* [@doi:10.1101/2020.03.12.20035048]
@@ -4036,54 +4081,62 @@ upon further testing and validation.
 *This review was undertaken by Katherine Lindblad and Tamar Plitt as part of a project by students, postdocs and faculty at the Immunology Institute of the Icahn School of Medicine, Mount Sinai.*
 
 
-### Heat inactivation of serum interferes with the immunoanalysis of antibodies to SARS-CoV-2
+***Title***:  A serological assay to detect SARS-Cov-2 seroconversion in
+humans
 
-Hu et al. *medRxiv*. [@doi:10.1101/2020.03.12.20034231]
+***Immunology keywords***:  specific serological assay - ELISA -
+seroconversion - antibody titers
 
-#### Keywords
+*Note: the authors of this review work in the same institution as the
+authors of the study*
 
-- Heat inactivation
-- immunochromatography
-- diagnosis
-- serum antibodies
-- IgM
-- IgG
+***Main findings***:  
 
-#### Main Findings
+Production of recombinant whole Spike (S) protein and the smaller
+Receptor Binding Domain (RBD) based on the sequence of Wuhan-Hu-1
+SARS-CoV-2 isolate. The S protein was modified to allow trimerization
+and increase stability. The authors compared the antibody reactivity of
+59 banked human serum samples (non-exposed) and 3 serum samples from
+confirmed SARS-CoV-2 infected patients. All Covid-19 patient sera
+reacted to the S protein and RBD domain compared to the control sera.
 
-Coronaviruses can be killed by heat inactivation, and this is an
-important safety precaution in laboratory manipulation of clinical
-samples. However, the effect of this step on downstream
-SARS-CoV-2-specific serum antibody assays has not been examined. The
-authors tested the effect of heat inactivation (56 deg C for 30 minutes)
-versus no heat inactivation on a fluorescence immunochromatography
-assay. Heat inactivation reduced all IgM measurements by an average of
-54% and most IgG measurements (22/36 samples, average reduction of 50%),
-consistent with the lower thermal stability of IgM than that of IgG.
-Heat inactivation caused a subset of IgM but not IgG readings to fall
-below a specified positivity threshold.
+The authors also characterized the antibody isotypes from the Covid-19
+patients, and observed stronger IgG3 response than IgG1. IgM and IgA
+responses were also prevalent.
 
-#### Limitations
+***Limitations of the study***:  
 
-Limitations included the use of only one type of assay for testing heat
-inactivated vs non-inactivated sera, and the use of the same baseline
-for heat inactivated and non-inactivated sera. The results indicate that
-heat inactivation affects the quantification of SARS-CoV-2-antibody
-response, specially IgM, but still allows to distinguish positive
-specific IgG. Therefore, the effect of heat inactivation should be
-studied when designing assays that quantitatively associate
-immunoglobulin levels (especially IgM) to immune state.
+The authors analyzed a total of 59 control human serum samples, and
+samples from only three different patients to test for reactivity
+against the RBD domain and full-length spike protein. It will be
+important to follow up with a larger number of patient samples to
+confirm the data obtained. Furthermore, it would be interesting to
+assess people at different age groups and determine whether unexposed
+control kids have a higher “background”.
 
-#### Significance
+Applications of the assay described in this study in diagnosis are
+limited, since antibody response should start to be detectable only one
+to two weeks after infection. Future studies will be required to assess
+how long after infection this assay allow to detect anti-CoV2
+antibodies. Finally, while likely, the association of seroconversion
+with protective immunity against SARS-Cov-2 infection still needs to be
+fully established.
 
-The use of heat inactivation to neutralize pathogens in serum samples
-collected from suspected COVID-19 patients reduces the sensitivity of a
-fluorescent immunochromatographic assay to detect anti-SARS-CoV-2 IgM
-and IgG.
+***Relevance***:
 
-#### Credit
-
-*Review by Andrew M. Leader as part of a project by students, postdocs and faculty at the Immunology Institute of the Icahn School of Medicine, Mount Sinai.*
+This study has strong implications in the research against SARS-Cov-2.
+First, it is now possible to perform serosurveys and determine who has
+been infected, allowing a more accurate estimate of infection prevalence
+and death rate. Second, if it is confirmed that re-infection does not
+happen (or is rare), this assay can be used as a tool to screen
+healthcare workers and prioritize immune ones to work with infected
+patients. Third, potential convalescent plasma donors can now be
+screened to help treating currently infected patients. Of note, this
+assay does not involve live virus handling. experimentally, this is an
+advantage as the assay does not require the precautions required by
+manipulation of live virus. Finally, the recombinant proteins described
+in this study represent new tools that can be used for further
+applications, including vaccine development.
 
 
 ### COMPARATIVE PATHOGENESIS OF COVID-19, MERS AND SARS IN A NON-HUMAN PRIMATE MODEL
@@ -4292,8 +4345,6 @@ Authors describe development of a serological ELISA based assay for the detectio
 Validated serological tests are urgently needed to map the full spread of SARS-CoV-2 in the population and to determine the kinetics of the antibody response to SARS-CoV-2.  Furthermore, clinical trials are ongoing using plasma from patients who have recovered from SARS-CoV-2 as a therapeutic option.  An assay such as the one described in this study could be used to screen for strong antibody responses in recovered patients.  Furthermore, the assay could be used to screen health care workers for antibody responses to SARS-CoV-2 as personal protective equipment continues to dwindle.  The challenge going forward will be to standardize and scale-up the various in-house ELISA’s being developed in independent laboratories across the world.  
  
  
-
-
 
 
 ### A brief review of antiviral drugs evaluated in registered clinical trials for COVID-19
@@ -5346,6 +5397,77 @@ these findings.
 *This review was undertaken as part of a project by students, postdocs and faculty at the Immunology Institute of the Icahn School of Medicine, Mount Sinai.*
 
 
+**Structure-based modeling of SARS-CoV-2 peptide/HLA-A02 antigens**
+
+<https://doi.org/10.1101/2020.03.23.004176>
+
+*Immunology keywords*:
+
+CoVID-19, 2019-nCoV, SARS-CoV-2, comparative, homology, peptide,
+modeling, simulation, HLA-A, antigen
+
+*Summary of Findings*:
+
+-   The authors utilize homology modeling to identify peptides from the
+    SARS-CoV-2 proteome that potentially bind HLA-A\*02:01.
+
+-   They utilize high-resolution X-ray structures of peptide/MHC
+    complexes on Protein Data Bank, substitute homologous peptides with
+    SARS-CoV-2 peptides, and calculate MHC/SARS-CoV-2 peptide Rosetta
+    binding energy.
+
+-   They select MHC/SARS-CoV-2 complex models with highest binding
+    energy for further study and publish models in an online database
+    (https://rosettamhc.chemistry.ucsc.edu).
+
+*Limitations*:
+
+-   The authors only utilize computational methods and predicted
+    SARS-CoV-2 peptides must be validated experimentally for
+    immunogenicity and clinical response.
+
+-   Due to computational burden and limited availability of high
+    resolution X-ray structures on PDB, authors only simulate 9-mer and
+    10-mer peptide binding to HLA-A\*02:01.
+
+-   Since the authors compare select existing X-ray structures as a
+    starting point, backbone conformations that deviate significantly
+    between test and template peptides are not captured. Furthermore,
+    Rosetta modeling protocols do not capture all possible structures
+    and binding energy scoring does not fully recapitulate fundamental
+    forces.^1,2^
+
+*Importance/Relevance:*
+
+-   The authors identify and publish high-scoring SARS-CoV-2 peptides
+    that may direct a targeted, experimental validation approach toward
+    a COVID-19 vaccine.
+
+-   The authors utilize Rosetta simulation to further filter results
+    from NetMHCpan 4.0, supporting machine learning prediction with
+    structural analysis.
+
+-   The authors develop RosettaMHC, a computationally efficient method
+    of leveraging existing X-ray structures for identification of
+    immunogenic peptides.
+
+*References:*
+
+1.  Bender, B. J., Cisneros, A., 3rd, Duran, A. M., Finn, J. A., Fu, D.,
+    Lokits, A. D., . . . Moretti, R. (2016). Protocols for Molecular
+    Modeling with Rosetta3 and RosettaScripts. Biochemistry, 55(34),
+    4748-4763. doi:10.1021/acs.biochem.6b00444
+
+2.  Alford, R. F., Leaver-Fay, A., Jeliazkov, J. R., O'Meara, M. J.,
+    DiMaio, F. P., Park, H., . . . Gray, J. J. (2017). The Rosetta
+    All-Atom Energy Function for Macromolecular Modeling and Design. J
+    Chem Theory Comput, 13(6), 3031-3048. doi:10.1021/acs.jctc.7b00125
+
+*Review by Jonathan Chung as part of a project by students, postdocs and
+faculty at the Immunology Institute of the Icahn school of medicine,
+Mount Sinai.*
+
+
 ### Serology characteristics of SARS-CoV-2 infection since the exposure and post symptoms onset
 
 Lou et al. *medRxiv*. [@doi:10.1101/2020.03.23.20041707]
@@ -5883,6 +6005,168 @@ faculty at the Immunology Institute of the Icahn School of Medicine,
 Mount Sinai.*
 
 
+**Title: **
+
+**SARS-CoV-2 proteome microarray for mapping COVID-19 antibody
+interactions at amino acid resolution**
+
+**Immunology keywords:** SARS-CoV-2, COVID-19, high throughput, peptide
+microarray, antibody epitope screening
+
+**The main finding of the article: **
+
+This study screened the viral protein epitopes recognized by antibodies
+in the serum of 10 COVID-19 patients using a new SARS-CoV-2 proteome
+peptide microarray. The peptide library was constructed with 966 linear
+peptides, each 15 amino acids long with a 5 amino acid overlap, based on
+the protein sequences encoded by the genome of the Wuhan-Hu-1 strain.
+
+To investigate crossreactivity between SARS-CoV-1 and SARS-CoV-2, they
+tested rabbit monoclonal and polyclonal antibodies against SARS-CoV-1
+nucleocapsid (N) in the microarray. Antibodies against SARS-CoV-1 N
+displayed binding to the SARS-CoV-2 nucleocapsid (N) peptides.
+Polyclonal antibodies showed some crossreactivity to other epitopes from
+membrane (M), spike (S), ORF1ab and ORF8. This suggests that previous
+exposure to SARS-CoV-1 may induced antibodies recognizing both viruses.
+
+Screening of IgM and IgG antibodies from 10 COVID-19 patients showed
+that many antibodies targeted peptides on M, N, S, Orf1ab, Orf3a, Orf7a,
+and Orf8 from SARS-CoV-2, while immunodominant epitopes with antibodies
+in more than 80 % COVID-19 patients were present in N, S and Orf3. It is
+shown that the receptor binding domain (RBD) resides on S protein and
+RBD is important for SARS-CoV-2 to enter the host cells via ACE2. Among
+six epitopes on S protein, structural analysis predicted that three
+epitopes were located at the surface and three epitopes were located
+inside of the protein. Furthermore, some IgM antibodies from 1 patient
+and IgG antibodies from 2 patients bound to the same epitope (residue
+456-460, FRKSN) which resided within the RBD, and structural analysis
+determined that this epitope was located in the region of the RBD loop
+that engages with ACE2.
+
+**Critical analysis of the study:**
+
+In addition to the limitations mentioned in the manuscript, it would
+have been informative to do the analysis over the course of the disease.
+The pattern of antibody recognition, especially on S protein, and the
+course of antibodies of different isotypes recognizing the same peptide
+might correlate to the clinical course in these patients. It would alos
+have been informative to analyze the presence of cross-reactive
+antibodies from pateints previously exposed to SARS-CoV-1.
+
+**The importance and implications for the current epidemics:**
+
+This study identified linear immunodominant epitopes on SARS-CoV-2,
+Wuhan-Hu-1 strain. This is a valuable information to design vaccines
+that will elicit desirable immune responses.
+
+
+**The Novel Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2)
+Directly Decimates Human Spleens and Lymph Nodes**
+
+Review by Matthew D. Park
+
+Revised by Miriam Merad
+
+Keywords: COVID-19, SARS-CoV-2, spleen, lymph node, ACE2, macrophage
+
+*Main findings*
+
+It has been previously reported that COVID-19 patients exhibit severe
+lymphocytopenia, but the mechanism through which this depletion occurs
+has not been described. In order to characterize the cause and process
+of lymphocyte depletion in COVID-19 patients, the authors performed
+gross anatomical and *in situ* immune-histochemical analyses of spleens
+and lymph nodes (hilar and subscapular) obtained from post-mortem
+autopsies of 6 patients with confirmed positive viremia and 3 healthy
+controls (deceased due to vehicle accidents).
+
+Primary gross observations noted significant splenic and LN atrophy,
+hemorrhaging, and necrosis with congestion of interstitial blood vessels
+and large accumulation of mononuclear cells and massive lymphocyte
+death. They found that CD68^+^ CD169^+^ cells in the spleens, hilar and
+subscapular LN, and capillaries of these secondary lymphoid organs
+expressed the ACE2 receptor and stain positive for the SARS-CoV-2
+nucleoprotein (NP) antigen, while CD3^+^ T cells and B220^+^ B cells
+lacked both the ACE2 receptor and SARS-CoV-2 NP antigen. ACE2^+^ NP^+^
+CD169^+^ macrophages were positioned in the splenic marginal zone (MZ)
+and in the marginal sinuses of LN, which suggests that these macrophages
+were positioned to encounter invading pathogens first and may contribute
+to virus dissemination.
+
+Since SARS-CoV-2 does not directly infect lymphocytes, the authors
+hypothesized that the NP^+^ CD169^+^ macrophages are responsible for
+persistent activation of lymphocytes via Fas::FasL interactions that
+would mediate activation-induced cell death (AICD). Indeed, the
+expression of Fas was significantly higher in virus-infected tissue than
+that of healthy controls, and TUNEL staining showed significant
+lymphocytic apoptosis. Since pro-inflammatory cytokines like IL-6 and
+TNF-α can also engage cellular apoptosis and necrosis, the authors
+interrogated the cytokine expression of the secondary lymphoid organs
+from COVID-19 patients; IL-6, not TNF-α, was elevated in virus-infected
+splenic and lymph node tissues, compared to those of healthy controls,
+and immunofluorescent staining showed that IL-6 is primarily produced by
+the infected macrophages. *In vitro* infection of THP1 cells with
+SARS-CoV-2 spike protein resulted in selectively increased *Il6*
+expression, as opposed to *Il1b* and *Tnfa* transcription. Collectively,
+the authors concluded that a combination of Fas up-regulation and IL-6
+production by NP^+^ CD169^+^ macrophages induce AICD in lymphocytes in
+secondary lymphoid organs, resulting in lymphocytopenia.
+
+In summary, this study reports that CD169^+^ macrophages in the splenic
+MZ, subscapular LN, and the lining capillaries of the secondary lymphoid
+tissues express ACE2 and are susceptible to SARS-CoV-2 infection. The
+findings point to the potential role of these macrophages in viral
+dissemination, immunopathology of these secondary lymphoid organs,
+hyperinflammation and lymphopenia.
+
+*Limitations*
+
+*Technical*
+
+A notable technical limitation is the small number of samples (n=6);
+moreover, the analysis of these samples using multiplexed
+immunohistochemistry and immunofluorescence do not necessarily provide
+the depth of unbiased interrogation needed to better identify the cell
+types involved.
+
+*Biological*
+
+The available literature and ongoing unpublished studies, including
+single-cell experiments of spleen and LN from organ donors, do not
+indicate that ACE2 is expressed by macrophages; however, it remains
+possible that ACE2 expression may be triggered by type I IFN in COVID-19
+patients. Importantly, the SARS-CoV-2 NP staining of the macrophages
+does not necessarily reflect direct infection of these macrophages;
+instead, positive staining only indicates that these macrophages carry
+SARS-CoV-2 NP as antigen cargo, which may have been phagocytosed. Direct
+viral culture of macrophages isolated from the secondary lymphoid organs
+with SARS-CoV-2 is required to confirm the potential for direct
+infection of macrophages by SARS-CoV-2. Additionally, it is important to
+note that the low to negligible viremia reported in COVID-19 patients
+to-date does not favor a dissemination route via the blood, as suggested
+by this study, which would be necessary to explain the presence of
+virally infected cells in the spleen.
+
+*Relevance*
+
+Excess inflammation in response to SARS-CoV-2 infection is characterized
+by cytokine storm in many COVID-19 patients. The contribution of this
+pathology to the overall fatality rate due to COVID-19, not even
+necessarily directly due to SARS-CoV-2 infection, is significant. A
+better understanding of the full effect and source of some of these
+major cytokines, like IL-6, as well as the deficient immune responses,
+like lymphocytopenia, is urgently needed. In this study, the authors
+report severe tissue damage in spleens and lymph nodes of COVID-19
+patients and identify the role that CD169^+^ macrophages may play in the
+hyperinflammation and lymphocytopenia that are both characteristic of
+the disease. It may, therefore, be important to note the effects that
+IL-6 inhibitors like Tocilizumab and Sarilumab may specifically have on
+splenic and LN function. It is important to note that similar
+observations of severe splenic and LN necrosis and inflammation in
+patients infected with SARS-CoV-1 further support the potential
+importance and relevance of this study.
+
+
 ### Cigarette smoke triggers the expansion of a subpopulation of respiratory epithelial cells that express the SARS-CoV-2 receptor ACE2
 
 [@doi:10.1101/2020.03.28.013672]
@@ -6004,6 +6288,126 @@ faculty at the Immunology Institute of the Icahn School of Medicine,
 Mount Sinai.*
 
 
+**Title:** Lectin-like Intestinal Defensin Inhibits 2019-nCoV Spike
+binding to ACE2
+
+**Immunology keywords:** defensins, spike protein, intestinal Paneth
+cells, ACE2 binding
+
+**Main Findings:**
+
+Human ACE2 was previously identified as the host receptor for
+SARS-CoV-2. Despite ACE2 being expressed in both lung alveolar
+epithelial cells and small intestine enterocytes, respiratory problems
+are the most common symptom after viral infection while intestinal
+symptoms are much less frequent. Thus, the authors here investigate the
+biology behind the observed protection of the intestinal epithelium from
+SARS-CoV-2. Human defensin 5 (HD5), produced by Paneth cells in the
+small intestine, was shown to interact with human ACE2, with a binding
+affinity of 39.3 nM by biolayer interferometry (BLI). A blocking
+experiment using different doses of HD5 coating ACE2 showed that HD5
+lowered viral spike protein S1 binding to ACE2. Further, a molecular
+dynamic simulation demonstrated a strong intermolecular interaction
+between HD5 and the ACE2 ligand binding domain. To test HD5 inhibitory
+effect on S1 binding to ACE2, human intestinal epithelium Caco-2 cells
+were preincubated with HD5. Preincubation strongly reduced adherence of
+S1 to surface of cells. HD5 was effective at a concentration as low as
+10 µg/mL, comparable to the concentration found in the intestinal fluid.
+
+**Limitations:**
+
+The study focuses exclusively on intestinal cells. However, HD5 could
+have been tested to block ACE2-S1 binding in human lung epithelial cells
+as a potential treatment strategy. It would be useful to know whether
+HD5 could also prevent viral entry in lung cells.
+
+**Relevance:**
+
+This work provides the first understanding of the different efficiency
+of viral entry and infection among ACE2-expressing cells and tissues.
+Specifically, the authors show that human defensin 5 produced in the
+small intestine is able to block binding between S1 and ACE2 necessary
+for viral entry into cells. The study provides a plausible explanation
+on why few patients show intestinal symptoms and suggests that patients
+with intestinal disease that decrease defensins’ production may be more
+susceptible to SARS-CoV-2. It also indicates that HD5 could be used as a
+molecule to be exogenously administered to patients to prevent viral
+infection in lung epithelial cells.
+
+
+**Title: **
+
+**Susceptibility of ferrets, cats, dogs and different domestic animals
+to SARS-coronavirus-2**
+
+**Immunology keywords:** SARS-CoV-2, ferret, cat, laboratory animal,
+domestic animals
+
+**The main finding of the article: **
+
+This study evaluated the susceptibility of different model laboratory
+animals (ferrets), as well as companion (cats and dogs), and domestic
+animals (pigs, chickens and ducks) to SARS-CoV-2. They tested infection
+with two SARS-CoV2 isolates, one from an environmental sample collected
+in the Huanan Seafood Market in Wuhan (F13-E) and the other from a human
+patient in Wuhan (CTan-H).
+
+*Ferrets* were inoculated with either of the two viruses by intranasal
+route with 10^5^ pfu, and the viral replication was evaluated. Two
+ferrets from each group were euthanized on day 4 post infection (p.i.).
+AT day 4 p.i., viral RNA and infectious viruses were detected only in
+upper respiratory tract (nasal turbinate, upper palate, tonisls, but not
+in the trachea, lungs or other tissues. Viral RNA and virus titer in the
+remaining ferrets were monitored in nasal washes and rectal swabs on
+days 2, 4, 6, 8 and 10 p.i. Viral RNA and infectious viruses were
+detected in nasal washes until day 8 p.i. One ferret in each group
+developed fever and loss of appetite on days 10 and 12 p.i., however,
+viral RNA was practically undetactable. These two ferrets showed severe
+lymphoplasmacytic perivasculitis and vasculitis in the lungs and lower
+antibody titers compare to other 4 ferrets.
+
+*Cats*. Five *s*ubadult 8-month-old domestic cats were inoculated with
+CTan-h virus and three uninfected cats were placed in a cage adjacent to
+each of the infected cats to monitor respiratory droplet transmission.
+Viral RNA was detected in the upper respiratory organs from all infected
+cats and in one out of three exposed cats. All infected (inoculated and
+exposed) cats developed elevated antibodies against SARS-CoV2. Viral
+replication studies with juvenile cats (70-100 days) revealed massive
+lesions in the nasal and tracheal mucosa epithelium and lungs of two
+inoculated cats which died or were euthanized on day 3 p.i., and
+infection in one out of three exposed cats. These results indicated
+SARS-CoV2 could replicate in cats, that juvenile cats were more
+susceptible that adults, and theat SARS-CoV2 could be transmit via
+respiratory droplets between cats.
+
+*Dogs and others.* Five 3-month-old beagle dogs were inoculated and
+housed with two uninoculated beagles in a room. Two virus inoculated
+dogs seroconverted, but others including two contact dogs were all
+seronegative for SARS-CoV2 and infectious virus was not detected in any
+swabs collected. Viral RNA was not detected in swabs from pigs,
+chickens, and ducks inoculated or contacted. These results indicated
+that dogs, pigs, chickens, and ducks might have low or no susceptibility
+to SARS-CoV2.
+
+**Critical analysis of the study:**
+
+This manuscript describes the viral replication and clinical symptoms of
+SARS-CoV2 infection in ferrets, and the SARS-CoV2 infection and
+transmission in cats. Clinical and pathological analysis was not
+performed in cats, therefore the correlation of virus titer with
+symptoms severity in the adult and juvenile cats could not be
+determined.
+
+**The importance and implications for the current epidemics:**
+
+SARS-CoV-2 transmission to tigers, cats and dogs has been previously
+reported. It should be noted that this manuscript did not evaluate the
+transmission from cats to human. Nevertheless, it clearly showed higher
+susceptibility of ferrets and domestic cats to SARS-CoV-2. This data
+strongly indicates the need for surveillance of possible infection and
+transmission of SARS-CoV-2 by domestic cats.
+
+
 ### Virus-host interactome and proteomic survey of PMBCs from COVID-19 patients reveal potential virulence factors influencing SARS-CoV-2 pathogenesis
 
 Li et al. *bioRxiv*.
@@ -6058,7 +6462,7 @@ that nsp9 and nsp10 represent potential drug targets to prevent
 over-production of IL6 and IL8 in infected cells, and reducing the
 over-activation of neutrophils.
 
-### Limitations
+#### Limitations
 
 First, the authors seem to have forgotten to include the extended data
 in the manuscript, and their proteomic data does not seem to be publicly
@@ -6115,5 +6519,62 @@ doi:10.1128/JVI.01505-08
 3\. Littler DR, Gully BS, Colson RN, Rossjohn J. *Crystal Structure of
 the SARS-CoV-2 Non-Structural Protein 9, Nsp9*. Molecular Biology; 2020.
 doi:10.1101/2020.03.28.013920
+
+
+***Title:*** Prediction and Evolution of B Cell Epitopes of Surface
+Protein in SARS-CoV-2
+
+***Keywords:*** SARS-CoV-2; Epitopes; Bioinformatics; Evolution
+
+***Summary/Main findings: ***
+
+Lon et al. used a bioinformatic analysis of the published SARS-CoV-2
+genomes in order to identify conserved linear and conformational B cell
+epitopes found on the spike (S), envelope (E), and membrane (M)
+proteins. The characterization of the surface proteins in this study
+began with an assessment of the peptide sequences in order to identify
+hydrophilicity indices and protein instability indices using the
+Port-Param tool in ExPASy. All three surface proteins were calculated to
+have an instability score under 40 indicating that they were stable.
+Linear epitopes were identified on the basis of surface probability and
+antigenicity, excluding regions of glycosylation. Using BepiPred 2.0
+(with a cutoff value of 0.35) and ABCpred (with a cutoff value of 0.51),
+4 linear B cell epitopes were predicted for the S protein, 1 epitope for
+the E protein, and 1 epitope for the M protein. For structural analysis,
+SARS-CoV assemblies published in the Protein Data Bank (PDB) acting as
+scaffolds for the SARS-CoV-2 S and E amino acid sequences were used for
+input into the SWISS-MODEL server in order to generate three-dimensional
+structural models for the assessment of conformational epitopes. Using
+Ellipro (cutoff value of 0.063) and SEPPA (cutoff value of 0.5), 1
+conformational epitope was identified for the S protein and 1 epitope
+was identified for the E protein, both of which are accessible on the
+surface of the virus. Finally, the Consurf Server was used to assess the
+conservation of these epitopes. All epitopes were conserved across the
+published SARS-CoV-2 genomes and one epitope of the spike protein was
+predicted to be the most stable across coronavirus phylogeny.
+
+***Critical Analysis/Limitations:***
+
+While this study provides a preliminary identification of potential
+linear and conformational B cell epitopes, the translational value of
+the epitopes described still needs extensive experimental validation to
+ascertain whether these elicit a humoral immune response. The
+conformational epitope analyses are also limited by the fact that they
+are based off of predicted 3D structure from homology comparisons and
+not direct crystal structures of the proteins themselves. Additionally,
+since there was not a published M protein with a high homology to
+SARS-CoV-2, no conformational epitopes were assessed for this protein.
+Finally, while evolutionary conservation is an important consideration
+in understanding the biology of the virus, conservation does not
+necessarily imply that these sites neutralize the virus or aid in
+non-neutralizing *in vivo* protection.
+
+***Relevance/Implications:***
+
+With further experimental validation that confirms that these epitopes
+induce effective antibody responses to the virus, the epitopes described
+can be used for the development of treatments and vaccines as well as
+better characterize the viral structure to more deeply understand
+pathogenesis.
 
 
