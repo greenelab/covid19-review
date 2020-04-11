@@ -21,6 +21,7 @@ author-meta:
 - Immunology Institute of the Icahn School of Medicine
 - Fengling Hu
 - Nafisa M. Jadavji
+- Elizabeth Sell
 bibliography:
 - content/manual-references.bib
 - content/manual-references.json
@@ -215,6 +216,12 @@ header-includes: '<!--
 
   <meta name="twitter:creator" content="@nafisajadavji" />
 
+  <meta name="citation_author" content="Elizabeth Sell" />
+
+  <meta name="citation_author_institution" content="Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America" />
+
+  <meta name="citation_author_orcid" content="0000-0002-9658-1107" />
+
   <link rel="canonical" href="https://greenelab.github.io/covid19-review/" />
 
   <meta property="og:url" content="https://greenelab.github.io/covid19-review/" />
@@ -227,11 +234,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/35fd8a8f3a50796963f4e5048c6a07d507a75939/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/3cfba8c088d70c5d35bb8267b7537050a5082f54/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/35fd8a8f3a50796963f4e5048c6a07d507a75939/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/3cfba8c088d70c5d35bb8267b7537050a5082f54/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/35fd8a8f3a50796963f4e5048c6a07d507a75939/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/3cfba8c088d70c5d35bb8267b7537050a5082f54/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -264,9 +271,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/35fd8a8f3a50796963f4e5048c6a07d507a75939/))
+([permalink](https://greenelab.github.io/covid19-review/v/3cfba8c088d70c5d35bb8267b7537050a5082f54/))
 was automatically generated
-from [greenelab/covid19-review@35fd8a8](https://github.com/greenelab/covid19-review/tree/35fd8a8f3a50796963f4e5048c6a07d507a75939)
+from [greenelab/covid19-review@3cfba8c](https://github.com/greenelab/covid19-review/tree/3cfba8c088d70c5d35bb8267b7537050a5082f54)
 on April 11, 2020.
 </em></small>
 
@@ -496,6 +503,15 @@ Instead, you should collect information from your local health department, the [
   <small>
      Biomedical Science, Midwestern University, Glendale, AZ, United States of America; Department of Neuroscience, Carleton University, Ottawa, Ontario, Canada
      · Funded by American Heart Association (20AIREA35050015)
+  </small>
+
++ **Elizabeth Sell**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-9658-1107](https://orcid.org/0000-0002-9658-1107)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [esell17](https://github.com/esell17)<br>
+  <small>
+     Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
   </small>
 
 
@@ -1487,6 +1503,7 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 |Immunology Institute of the Icahn School of Medicine|None|2020-04-07|
 |Fengling Hu|None|2020-04-08|
 |Nafisa M. Jadavji|None|2020-04-09|
+|Elizabeth Sell|None|2020-04-10|
 
 ### Author Contributions
 
@@ -1513,6 +1530,7 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 |Immunology Institute of the Icahn School of Medicine|Data Curation|
 |Fengling Hu|Writing - Original Draft, Writing - Review & Editing|
 |Nafisa M. Jadavji|Writing - Original Draft, Writing - Review & Editing|
+|Elizabeth Sell|Writing - Original Draft, Writing - Review & Editing|
 
 
 ## References {.page_break_before}
