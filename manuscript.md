@@ -25,7 +25,7 @@ author-meta:
 bibliography:
 - content/manual-references.bib
 - content/manual-references.json
-date-meta: '2020-04-11'
+date-meta: '2020-04-12'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -44,9 +44,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
 
-  <meta name="dc.date" content="2020-04-11" />
+  <meta name="dc.date" content="2020-04-12" />
 
-  <meta name="citation_publication_date" content="2020-04-11" />
+  <meta name="citation_publication_date" content="2020-04-12" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -234,11 +234,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/bbe11ff168a4f10245fb303689cc065b92ff6ea9/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/d6b92340c54db532ff65f9394b1b5737ebb0a8da/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/bbe11ff168a4f10245fb303689cc065b92ff6ea9/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/d6b92340c54db532ff65f9394b1b5737ebb0a8da/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/bbe11ff168a4f10245fb303689cc065b92ff6ea9/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/d6b92340c54db532ff65f9394b1b5737ebb0a8da/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -271,10 +271,10 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/bbe11ff168a4f10245fb303689cc065b92ff6ea9/))
+([permalink](https://greenelab.github.io/covid19-review/v/d6b92340c54db532ff65f9394b1b5737ebb0a8da/))
 was automatically generated
-from [greenelab/covid19-review@bbe11ff](https://github.com/greenelab/covid19-review/tree/bbe11ff168a4f10245fb303689cc065b92ff6ea9)
-on April 11, 2020.
+from [greenelab/covid19-review@d6b9234](https://github.com/greenelab/covid19-review/tree/d6b92340c54db532ff65f9394b1b5737ebb0a8da)
+on April 12, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -1513,15 +1513,15 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 |Casey S. Greene|Conceptualization, Software|
 |Michael P. Robson|Software|
 |Simina M. Boca|Methodology|
-|Nils Wellhausen|Writing - Original Draft, Writing - Review & Editing|
+|Nils Wellhausen|Writing - Original Draft, Writing - Review & Editing, Project Administration|
 |Ronan Lordan|Writing - Original Draft, Writing - Review & Editing|
-|Christian Brueffer|Writing - Original Draft|
+|Christian Brueffer|Writing - Original Draft, Writing - Review & Editing, Project Administration|
 |Sadipan Ray|Writing - Original Draft|
 |Lucy D\'Agostino McGowan|Methodology, Writing - Original Draft|
-|Anthony Gitter|Methodology|
+|Anthony Gitter|Methodology, Software, Project Administration|
 |Ronnie M. Russell|Writing - Original Draft, Writing - Review & Editing|
 |Anna Ada Dattoli|Writing - Original Draft|
-|Ryan Velazquez|Methodology|
+|Ryan Velazquez|Methodology, Software|
 |John P. Barton|Writing - Original Draft, Writing - Review & Editing|
 |Jeffrey M. Field|Writing - Original Draft|
 |Bharath Ramsundar|Investigation, Writing - Review & Editing|
