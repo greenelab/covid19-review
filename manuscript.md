@@ -234,11 +234,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/d6b92340c54db532ff65f9394b1b5737ebb0a8da/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/a2aaad3cf929803215a5a9f76628455c5ee60aea/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/d6b92340c54db532ff65f9394b1b5737ebb0a8da/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/a2aaad3cf929803215a5a9f76628455c5ee60aea/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/d6b92340c54db532ff65f9394b1b5737ebb0a8da/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/a2aaad3cf929803215a5a9f76628455c5ee60aea/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -271,9 +271,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/d6b92340c54db532ff65f9394b1b5737ebb0a8da/))
+([permalink](https://greenelab.github.io/covid19-review/v/a2aaad3cf929803215a5a9f76628455c5ee60aea/))
 was automatically generated
-from [greenelab/covid19-review@d6b9234](https://github.com/greenelab/covid19-review/tree/d6b92340c54db532ff65f9394b1b5737ebb0a8da)
+from [greenelab/covid19-review@a2aaad3](https://github.com/greenelab/covid19-review/tree/a2aaad3cf929803215a5a9f76628455c5ee60aea)
 on April 12, 2020.
 </em></small>
 
@@ -1013,6 +1013,10 @@ HCQ and CQ act through the same mechanism of action, but HCQ is regarded to be s
 HCQ/CQ have been reported to have anti-viral effects, including in HIV-1, SARS-CoV, MERS-CoV, and SARS-CoV-2 [@doi:10/dh8phb; @doi:10.1128/AAC.03011-14; @doi:10.1093/cid/ciaa237; @doi:10.1038/s41422-020-0282-0].
 _In vitro_ studies of CQ use for SARs-CoV infection suggest anti-viral activity is due to inhibition of viral entry through elevation of endosomal pH and terminal glycosylation of angiotensin-converting enzyme 2, the cellular entry receptor [@doi:10.1186/1743-422X-2-69].
 In vitro studies of SARS-CoV-2 infection show both HCQ and CQ to be effective in inhibiting viral replication, with HCQ being more potent [@doi:10.1093/cid/ciaa237].
+A case study of three COVID-19 patients reported presence of antiphospholipid antibodies in all three patients  [@doi:10.1056/NEJMc2007575]. 
+Antiphospholipid antibodies are central to the diagnosis of the antiphospholipid syndrome. 
+HCQ has been reported to be effective in treating Antiphospholipid Syndrome [@doi:10.1182/blood.V128.22.5023.5023; @doi:10.1016/j.autrev.2014.01.053; @doi:10.1182/asheducation-2016.1.714].
+
 Thus, there is excitement about HCQ as a potential therapeutic for SARS-CoV-2 and COVID-19.
 This section will discuss current efforts on assessing the potential impact of HCQ in treating COVID-19.
 
@@ -1066,6 +1070,7 @@ When these identifiers are followed back to the registry, most trials claim they
 For all of these 15 identifiers, no data uploads or links to publications could be located on the pre-registrations.
 At the very least, an inability to locate primary data means such claims cannot be verified.
 Additionally, citation of unavailable sources cast doubt on policies and research based on the assumption that HCQ is effective in treating COVID-19.
+
 
 ###### Summary
 
