@@ -77,6 +77,7 @@ authors:
     contributions:
       - Writing - Original Draft
       - Writing - Review & Editing
+      - Project Administration
     affiliations:
       - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
     coi:
@@ -106,6 +107,8 @@ authors:
     email: christian.brueffer@med.lu.se
     contributions:
       - Writing - Original Draft
+      - Writing - Review & Editing
+      - Project Administration
     affiliations:
       - Department of Clinical Sciences, Lund University, Lund, Sweden
     coi:
@@ -149,6 +152,8 @@ authors:
     email: gitter@biostat.wisc.edu
     contributions:
       - Methodology
+      - Software
+      - Project Administration
     affiliations:
       - Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, United States of America
       - Morgridge Institute for Research, Madison, Wisconsin, United States of America
@@ -191,6 +196,7 @@ authors:
     email: rnhvelazquez@gmail.com
     contributions:
       - Methodology
+      - Software
     affiliations:
       - Azimuth1, McLean, VA
     coi:
