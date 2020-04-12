@@ -234,11 +234,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/a2aaad3cf929803215a5a9f76628455c5ee60aea/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/2c21de9600de3ce4e08b83aec3d2aae9e64ffb23/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/a2aaad3cf929803215a5a9f76628455c5ee60aea/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/2c21de9600de3ce4e08b83aec3d2aae9e64ffb23/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/a2aaad3cf929803215a5a9f76628455c5ee60aea/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/2c21de9600de3ce4e08b83aec3d2aae9e64ffb23/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -271,9 +271,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/a2aaad3cf929803215a5a9f76628455c5ee60aea/))
+([permalink](https://greenelab.github.io/covid19-review/v/2c21de9600de3ce4e08b83aec3d2aae9e64ffb23/))
 was automatically generated
-from [greenelab/covid19-review@a2aaad3](https://github.com/greenelab/covid19-review/tree/a2aaad3cf929803215a5a9f76628455c5ee60aea)
+from [greenelab/covid19-review@2c21de9](https://github.com/greenelab/covid19-review/tree/2c21de9600de3ce4e08b83aec3d2aae9e64ffb23)
 on April 12, 2020.
 </em></small>
 
@@ -544,8 +544,8 @@ The first known cases were located in Wuhan City within the Hubei province of Ch
 At the time of the first situation report [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200121-sitrep-1-2019-ncov.pdf], 282 confirmed cases had been identified, primarily in China, but also 1-2 exported cases had been identified in several neighboring countries (Thailand, Japan, and the Republic of Korea).
 One week later, 4593 confirmed cases had been identified, spanning not only Asia, but also Australia, North America, and Europe [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128-sitrep-8-ncov-cleared.pdf].
 On March 11, 2020, WHO formally classified the situation as a pandemic [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200311-sitrep-51-covid-19.pdf].
-By WHO Situation Report 61, released on March 20, 2020, 266,073 confirmed cases had been reported worldwide, with cases on every continent except Antarctica [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200321-sitrep-61-covid-19.pdf].
-At this time, over 11,000 deaths had been reported worldwide.
+On April 4, 2020, the WHO reported that the global number of confirmed cases had surpassed one million [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200404-sitrep-75-covid-19.pdf?sfvrsn=99251b2b_4].
+At this time, over 92,000 deaths had been reported due to COVID-19 worldwide.
 
 [Note: Maybe add a graph here, update as new reports come out.]
 
@@ -563,6 +563,10 @@ This is a real-time, collaborative effort that welcomes submissions from scienti
 #### Classification:
 Coronaviridae, commonly called Coronavirus, is a family of positive-sense RNA viruses [@isbn:0781760607]. 
 Members of this family include the Middle East respiratory syndrome-related coronavirus (MERS-CoV) and Severe acute respiratory syndrome coronavirus (SARS-CoV), which are two species, as well as SARS-CoV-2 [@url:https://en.wikipedia.org/wiki/Coronaviridae#Taxonomy].
+Coronaviridae are classified into four main groups called alphacoronaviruses, betacoronaviruses, gammacoronaviruses and deltacoronaviruses. 
+Alphacoronaviruses and betacoronaviruses are mainly found in mammals such as bats, rodents, civets, and humans, whereas gammacoronaviruses and deltacoronaviruses are mainly found in birds.
+Phylogenetic analysis of a PCR amplicon fragment from five patients along with the total virus genome of 29.8 kilobases indicates that the virus is a novel betacoronavirus belonging to the B lineage, also known as sarbecovirus.
+The sarbecovirus lineage also includes the human SARS coronavirus [@doi:10/ggjs7j]. 
 
 #### Virion, morphology, structure:
 Coronavirus virions are spherical with diameters ranging between 100 to 160nm. 
@@ -603,14 +607,30 @@ Coronaviruses are known to cause respiratory illnesses in humans through the fol
 *Presentation of COVID-19:* 
 Information is rapidly becoming available about the wide range of symptoms that can be associated with COVID-19 as well as the range of symptom severity, onset from exposure, and possible risk or protective factors...
 
-In a retrospective sample of COVID-19 patients in Wuhan observed during December 2019 and January 2020, [@doi:10/ggnxb3] found that a higher probability of mortality was associated with older age and higher Sequential Organ Failure Assessment score, as well as high levels of d-dimer. 
-Mortality also appeared to be associated with other biomarkers measured in blood samples including lactate dehydrogenase and cardiac troponin I, although these analyses may not have been appropriately corrected for multiple testing.
+Retrospective samples of COVID-19 patients described the clinical presentations of patients infected with SARS-CoV-2 which included lower respiratory tract infection with fever, dry cough, and dyspnea [@doi:10/ggnxb3]. 
+[@doi:10/ggnxb3] noted that upper respiratory tract symptoms were less common, which suggests that the virus targets cells located in the lower respiratory tract. 
+The symptoms of infection by SARS-CoV-2 can vary greatly, making it difficult for public health agencies to provide clear recommendations for citizens regarding what symptoms indicate infection and should prompt isolation. 
+[@doi:10/ggnxb3] found that a higher probability of mortality was associated with older age and higher Sequential Organ Failure Assessment scores, as well as high levels of d-dimer. 
+Mortality might be associated with other biomarkers measured in blood samples including lactate dehydrogenase and cardiac troponin I, although these analyses may not have been appropriately corrected for multiple testing.
 They also found that survivors continued to shed the virus for a median of 20 days and a maximum of at least 37 days.
-
 
 #### Vaccines for Viruses: Strategies for and challenges to development
 
-What information is needed to develop a vaccine? How have vaccines for other viruses such as H1N1 been developed?
+Generally, the first step in producing a vaccine is characterizing the target.
+The genetic sequence of SARS-CoV-2 was published on January 11, 2020, which aided the global effort to develop a vaccine to prevent COVID-19.
+The Coalition for Epidemic Preparedness Innovations (CEPI) is coordinating global health agencies and pharmaceutical companies to develop vaccines against SARS-CoV-2.
+As of April 8, 2020, there were 115 vaccine candidates to prevent COVID-19, of which 78 were active. 
+Of the 78 active vaccine programs, 73 were in the preclinical or exploratory stage [@doi:10.1038/d41573-020-00073-5].
+
+Historically, an H1N1 influenza vaccine was developed relatively efficiently, mainly because influenza-vaccine technology had already been developed and regulatory agencies had already decided that vaccines produced using egg- and cell-based platforms could be licensed under the regulations used for a strain change.
+Critiques of the experience producing and distributing the H1N1 vaccine have stressed the need for alternative development-and-manufacturing platforms that can be readily adapted to new pathogens.
+Although a monovalent H1N1 vaccine was not available before the pandemic peaked in the United States and Europe, it was available soon afterward as a stand-alone vaccine that was eventually incorporated into the commercially available seasonal influenza vaccines [@doi:10.1056/NEJMp2005630].
+If H1N1 vaccine development provides any indication, considering developing and manufacturing platforms for promising COVID-19 vaccine trials early could hasten the emergence of an effective prophylactic vaccine against SARS-CoV-2. 
+
+Unlike many global vaccine development programs previously, such as with H1N1, the vaccine development landscape for COVID-19 includes vaccines produced by a wide array of technologies. 
+Experience in the field of oncology is encouraging COVID-19 vaccine developers to use next-generation approaches to vaccine development, which have led to the great diversity of vaccine development programs [@url:https://www.the-scientist.com/news-opinion/newer-vaccine-technologies-deployed-to-develop-covid-19-shot-67152]. 
+Diverse technology platforms include DNA, RNA, virus-like particle, recombinant protein, both replicating and non-replicating viral vectors, live attenuated virus, and inactivated virus approaches. 
+Given the wide range of vaccines under development, it is possible that some vaccine products may eventually be shown to be more effective in certain subpopulations, such as children, pregnant women, immunocompromised patients, the elderly, etc.
 
 #### Diagnostics and Therapeutics for Viruses
 
