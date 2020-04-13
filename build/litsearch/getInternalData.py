@@ -2,6 +2,7 @@ import pandas as pd
 import requests
 import json
 import base64
+import logging
 from manubot import cite
 
 
@@ -221,6 +222,9 @@ def mergePaperDataFrames(dataFramesList):
 
 
 # Main
+# log only critical manubot errors
+logger = logging.getLogger()
+logger.setLevel(logging.CRITICAL)
 print("\n -- getting issues data --")
 issuesData = getIssuesData()
 print(len(issuesData), "'New Paper' issues")
