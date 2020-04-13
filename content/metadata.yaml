@@ -329,4 +329,17 @@ authors:
       - Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
     coi:
       string: "None"
-      lastapproved: !!str 2020-04-10
+      lastapproved: !!str 2020-04-10    
+  - 
+    github: jinhui2
+    name: Jinhui Wang
+    initials: JW
+    orcid: 0000-0002-5796-8130
+    email: jinhui2@pennmedicine.upenn.edu
+    contributions:
+      - Writing - Revising & Editing
+    affiliations:
+      - Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+    coi:
+      string: "None"
+      lastapproved: !!str 
