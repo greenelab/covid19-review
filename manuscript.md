@@ -23,10 +23,11 @@ author-meta:
 - Nafisa M. Jadavji
 - Elizabeth Sell
 - Jinhui Wang
+- Diane N. Rafizadeh
 bibliography:
 - content/manual-references.bib
 - content/manual-references.json
-date-meta: '2020-04-13'
+date-meta: '2020-04-14'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -45,9 +46,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
 
-  <meta name="dc.date" content="2020-04-13" />
+  <meta name="dc.date" content="2020-04-14" />
 
-  <meta name="citation_publication_date" content="2020-04-13" />
+  <meta name="citation_publication_date" content="2020-04-14" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -229,6 +230,14 @@ header-includes: '<!--
 
   <meta name="citation_author_orcid" content="0000-0002-5796-8130" />
 
+  <meta name="citation_author" content="Diane N. Rafizadeh" />
+
+  <meta name="citation_author_institution" content="Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America" />
+
+  <meta name="citation_author_institution" content="Department of Chemistry, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America" />
+
+  <meta name="citation_author_orcid" content="0000-0002-2838-067X" />
+
   <link rel="canonical" href="https://greenelab.github.io/covid19-review/" />
 
   <meta property="og:url" content="https://greenelab.github.io/covid19-review/" />
@@ -241,11 +250,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/02782f8049f1ad30afc167ebe5b2c62261df979e/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/b4d862d9e3fdfdfe6a2edc100ebfa0fb828728ff/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/02782f8049f1ad30afc167ebe5b2c62261df979e/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/b4d862d9e3fdfdfe6a2edc100ebfa0fb828728ff/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/02782f8049f1ad30afc167ebe5b2c62261df979e/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/b4d862d9e3fdfdfe6a2edc100ebfa0fb828728ff/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -278,10 +287,10 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/02782f8049f1ad30afc167ebe5b2c62261df979e/))
+([permalink](https://greenelab.github.io/covid19-review/v/b4d862d9e3fdfdfe6a2edc100ebfa0fb828728ff/))
 was automatically generated
-from [greenelab/covid19-review@02782f8](https://github.com/greenelab/covid19-review/tree/02782f8049f1ad30afc167ebe5b2c62261df979e)
-on April 13, 2020.
+from [greenelab/covid19-review@b4d862d](https://github.com/greenelab/covid19-review/tree/b4d862d9e3fdfdfe6a2edc100ebfa0fb828728ff)
+on April 14, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -528,6 +537,16 @@ Instead, you should collect information from your local health department, the [
     [jinhui2](https://github.com/jinhui2)<br>
   <small>
      Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+  </small>
+
++ **Diane N. Rafizadeh**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-2838-067X](https://orcid.org/0000-0002-2838-067X)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [dianerafi](https://github.com/dianerafi)<br>
+  <small>
+     Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America; Department of Chemistry, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+     · Funded by NIH Medical Scientist Training Program T32 GM07170
   </small>
 
 
@@ -1546,6 +1565,7 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 |Nafisa M. Jadavji|None|2020-04-09|
 |Elizabeth Sell|None|2020-04-10|
 |Jinhui Wang|None|2020-04-13|
+|Diane N. Rafizadeh|None|2020-04-14|
 
 ### Author Contributions
 
@@ -1574,6 +1594,7 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 |Nafisa M. Jadavji|Writing - Original Draft, Writing - Review & Editing|
 |Elizabeth Sell|Writing - Original Draft, Writing - Review & Editing|
 |Jinhui Wang|Writing - Revising & Editing|
+|Diane N. Rafizadeh|Writing - Original Draft, Writing - Review & Editing|
 
 
 ## References {.page_break_before}
