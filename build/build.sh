@@ -82,4 +82,8 @@ if [ "${BUILD_DOCX:-}" = "true" ]; then
     --defaults="$PANDOC_DEFAULTS_DIR/docx.yaml"
 fi
 
+# Create sources output
+echo >&2 "Creating the sources cross-reference output"
+python build/litsearch/getInternalData.py
+
 echo >&2 "Build complete"
