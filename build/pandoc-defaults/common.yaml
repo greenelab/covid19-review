@@ -14,3 +14,5 @@ metadata:
   csl: build/assets/style.csl
   link-citations: true
 number-sections: true
+# a list of offsets at each heading level
+number-offset: [1,0,0,0,0,0]
