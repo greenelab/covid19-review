@@ -250,11 +250,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/b4d862d9e3fdfdfe6a2edc100ebfa0fb828728ff/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/c7223b3e133df42083c5250ccf9e2d6a9371e839/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/b4d862d9e3fdfdfe6a2edc100ebfa0fb828728ff/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/c7223b3e133df42083c5250ccf9e2d6a9371e839/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/b4d862d9e3fdfdfe6a2edc100ebfa0fb828728ff/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/c7223b3e133df42083c5250ccf9e2d6a9371e839/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -287,9 +287,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/b4d862d9e3fdfdfe6a2edc100ebfa0fb828728ff/))
+([permalink](https://greenelab.github.io/covid19-review/v/c7223b3e133df42083c5250ccf9e2d6a9371e839/))
 was automatically generated
-from [greenelab/covid19-review@b4d862d](https://github.com/greenelab/covid19-review/tree/b4d862d9e3fdfdfe6a2edc100ebfa0fb828728ff)
+from [greenelab/covid19-review@c7223b3](https://github.com/greenelab/covid19-review/tree/c7223b3e133df42083c5250ccf9e2d6a9371e839)
 on April 14, 2020.
 </em></small>
 
@@ -980,7 +980,7 @@ Although a clinical trial in the Democratic Republic of Congo found some evidenc
 
 Remdesivir is metabolized to GS-441524, an adenosine analog that inhibits a broad range of polymerases and then evades exonuclease repair causing chain termination [@doi:10.1074/jbc.AC120.013056; @doi:10.1128/mBio.00221-18; @doi:10.1038/s41422-020-0282-0].
 Although it was developed against Ebola, it also inhibits the MERS-CoV and SARS-CoV polymerase and inhibits coronavirus replication in cell culture assays with submicromolar IC50s [@doi:10.1126/scitranslmed.aal3653].
-It also inhibits SARS-CoV-2, showing synergy with chloroquine [@doi:10.1038/s41422-020-0282-0].
+It also inhibits SARS-CoV-2, showing synergy with chloroquine _in vitro_ [@doi:10.1038/s41422-020-0282-0].
 
 ###### Current Evidence
 
@@ -990,6 +990,17 @@ Remdesivir has also been reported to inhibit SARS-CoV-2 infection in a human cel
 The effectiveness of Remdesivir for treating patients with COVID-19 is currently under investigation.
 Remdesivir has been used on some COVID-19 patients under compassionate use guidelines [@doi:10.1126/science.abb7243, @doi:10.1056/NEJMoa2001191; @doi:10.1101/2020.03.09.20032896].
 All were in late stages of COVID-19 infection, and these reports are inconclusive about the drug's efficacy.
+Gilead Sciences, the maker of Remdesivir, led a recent publication that reported outcomes for compassionate use of the drug in 61 patients hospitalized with confirmed COVID-19.
+Here, 200mg of Remdesivir was administered intravenously on day 1, followed by a further 100mg/day for 9 days [@doi:10.1056/NEJMoa2007016].
+There were significant issues with the study design or lack thereof.
+There was no randomized control group.
+The inclusion criteria were variable: some patients only required low doses of oxygen, others required ventilation.
+The study included many sites, potentially with variable inclusion criteria and treatment protocols.
+Patients analyzed had mixed demographics.
+There was a short follow-up period of investigation.
+Some patients worsened, some patients died, and eight were excluded from the analysis mainly due to missing post-baseline information, thus their health is unaccounted for.
+Therefore, even though the study reported clinical improvement in 68% of the 53 patients ultimately evaluated, due to the significant issues with study design, it cannot be determined whether treatment with Remdesivir had an effect or whether these patients would have recovered regardless of treatment.
+As a result, the study does not alter our understanding of the efficacy of Remdesivir in this setting, and randomized controlled trials are still required.
 Remdesivir recently entered controlled clinical trials, and as of March 2020, there are six clinical trials underway to treat COVID-19 patients at both early and late stages of infection and in combinations with other drugs [@doi:10.1038/s41422-020-0282-0; @url:https://clinicaltrials.gov/ct2/show/NCT04292730; @url:https://clinicaltrials.gov/ct2/show/NCT04292899; @url:https://clinicaltrials.gov/ct2/show/NCT04280705; @url:https://www.clinicaltrialsregister.eu/ctr-search/trial/2020-000936-23/FR; @url:https://clinicaltrials.gov/ct2/show/NCT04252664; @url:https://clinicaltrials.gov/ct2/show/NCT04257656].
 
 ###### Summary
