@@ -15,6 +15,4 @@ metadata:
   link-citations: true
 number-sections: true
 # a list of offsets at each heading level
-number-offset: [1,0,0,0,0,0]
-# offset Manubot's use of level-1 headings for the title only
-shift-heading-level-by: -1
+number-offset: 1,0,0,0,0,0
