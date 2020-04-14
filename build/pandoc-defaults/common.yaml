@@ -1,4 +1,6 @@
 # Pandoc --defaults shared between Manubot output formats.
+# See documentation at https://github.com/jgm/pandoc/issues/5990
+# and https://pandoc.org/MANUAL.html#default-files
 from: markdown
 input-file: output/manuscript.md
 filters:
@@ -11,3 +13,4 @@ wrap: preserve
 metadata:
   csl: build/assets/style.csl
   link-citations: true
+number-sections: true
