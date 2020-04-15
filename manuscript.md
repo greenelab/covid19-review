@@ -250,11 +250,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/fc3dfe2edc6ccce8a749f2cf0b0f3668bd271991/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/ac64217d714db4267bb3c1e59f65e9fb39fed2fc/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/fc3dfe2edc6ccce8a749f2cf0b0f3668bd271991/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/ac64217d714db4267bb3c1e59f65e9fb39fed2fc/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/fc3dfe2edc6ccce8a749f2cf0b0f3668bd271991/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/ac64217d714db4267bb3c1e59f65e9fb39fed2fc/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -287,9 +287,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/fc3dfe2edc6ccce8a749f2cf0b0f3668bd271991/))
+([permalink](https://greenelab.github.io/covid19-review/v/ac64217d714db4267bb3c1e59f65e9fb39fed2fc/))
 was automatically generated
-from [greenelab/covid19-review@fc3dfe2](https://github.com/greenelab/covid19-review/tree/fc3dfe2edc6ccce8a749f2cf0b0f3668bd271991)
+from [greenelab/covid19-review@ac64217](https://github.com/greenelab/covid19-review/tree/ac64217d714db4267bb3c1e59f65e9fb39fed2fc)
 on April 15, 2020.
 </em></small>
 
@@ -706,7 +706,7 @@ Modeling approaches are typically based upon a classic epidemiological model str
 R~0~ for COVID-19 is estimated to lie in the range R~0~=1.4-6.5 [@doi:10/ggjvr7; @doi:10.1093/jtm/taaa021; @doi:10.1126/science.abb3221]; estimates vary considerably depending on the data and the methods used.
 Data-derived estimates (i.e. those that do not incorporate SIR-type models into their analysis) typically predict lower values of R~0~.
 For data-derived estimates, in one study of international cases, the predicted value is R~0~=1.7 [@doi:10.1101/2020.03.21.20040329], in China (both Hubei province and nationwide), the value is predicted to lie in the range R~0~=2.0-3.6 [@doi:10.2139/ssrn.3524675; @doi:10.1101/2020.01.25.919787; @doi:10/ggjvr7], and on a cruise ship where an outbreak occurred, predicted R~0~=2.28 [@doi:10.1016/j.ijid.2020.02.033].
-SIR model-derived estimates of R~0~ range from 2.0 - 6.5 in China [@doi:10.3390/jcm9020462; @url:https://doi.org/10.1101/2020.01.27.20018952; @doi:10.1101/2020.01.23.916726; @doi:10.1101/2020.01.23.20018549] to R~0~=4.8 in France [@doi:10.1101/2020.03.22.20040915]. 
+SIR model-derived estimates of R~0~ range from 2.0 - 6.5 in China [@doi:10.3390/jcm9020462; @doi:10.1101/2020.01.27.20018952; @doi:10.1101/2020.01.23.916726; @doi:10.1101/2020.01.23.20018549] to R~0~=4.8 in France [@doi:10.1101/2020.03.22.20040915]. 
 Using the same model as for the French population, this study estimated R~0~=2.6 in South Korea [@doi:10.1101/2020.03.22.20040915], which is consistent with other studies [@tag:Park2020_distancing].
 From a meta-analysis of studies estimating R~0~, [@doi:10.1093/jtm/taaa021] predict the median as R~0~=2.79. 
 
