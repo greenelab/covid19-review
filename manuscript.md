@@ -250,11 +250,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/79ae6d9d79ce4dabac8f326ac0564150d567527f/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/88fbdb769a6748df049165141e0572dececa1204/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/79ae6d9d79ce4dabac8f326ac0564150d567527f/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/88fbdb769a6748df049165141e0572dececa1204/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/79ae6d9d79ce4dabac8f326ac0564150d567527f/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/88fbdb769a6748df049165141e0572dececa1204/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -287,9 +287,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/79ae6d9d79ce4dabac8f326ac0564150d567527f/))
+([permalink](https://greenelab.github.io/covid19-review/v/88fbdb769a6748df049165141e0572dececa1204/))
 was automatically generated
-from [greenelab/covid19-review@79ae6d9](https://github.com/greenelab/covid19-review/tree/79ae6d9d79ce4dabac8f326ac0564150d567527f)
+from [greenelab/covid19-review@88fbdb7](https://github.com/greenelab/covid19-review/tree/88fbdb769a6748df049165141e0572dececa1204)
 on April 16, 2020.
 </em></small>
 
@@ -1524,34 +1524,36 @@ While still nascent, work in this area is promising.
 
 The authors solicited relevant articles to be submitted via [GitHub](https://github.com/greenelab/covid19-review) for review.
 Articles were classified as _diagnostic_, _therapeutic_, or _other_.
-Following a framework often used for assessing medical literature, the review consisted of examining the methods used in the article, the assignment (whether the study was observational or randomized), the assessment, the results, the interpretation, and how well the study extrapolates [@doi:10.5014/ajot.60.4.367].
+Following a framework often used for assessing medical literature, the review consisted of examining methods used in each relevant article, assignment (whether the study was observational or randomized), assessment, results, interpretation, and how well the study extrapolates [@doi:10.5014/ajot.60.4.367].
+
 
 #### Diagnostic Papers
 
 ##### Methods
 
 Reviewers began by describing the study question(s) being investigated by the article.
-They then described the study population, the sample size, the prevalence of the disease in the study population, if in human subjects, the countries / regions considered, the demographics of participants, the setting, and any remaining inclusion / exclusion criteria considered.
+They then described the study population, the sample size, the prevalence of the disease in the study population, countries / regions considered in case of human subjects, demographics of participants, the setting, and any remaining inclusion / exclusion criteria considered.
 They then described the reference test or "gold standard," if one was utilized.
 
 ##### Assignment
 
-Reviewers described how the new and reference tests were assigned and any further details about the study design, for example whether the diagnostic test was biased towards sicker or healthier individuals or very clear-cut positive/negative cases.
+Reviewers described how new and reference tests were assigned, including additional relevant details about the study design.
+For example, reviewers were asked whether the diagnostic test resulted in rigorous assignments of case status or was biased towards sicker or healthier individuals.
 
 ##### Assessment
 
 Reviewers described how the test was performed.
-For example, if provided, reviewers described the technical details of the assays used, when measurements were taken and by whom for both the standard and reference diagnostic tests.
-They then described how individuals were classified as positive or negative and whether there was evidence that the test results were precise or reproducible when repeated more than once.
-Reviewers described whether there was any missing data, whether some participants underwent only one test, or whether there were individuals with inconclusive results.
+For example, for both standard and reference tests, reviewers described technical details of assays used, when measurements were taken and by whom.
+Subsequently, they described how individuals were classified as positive or negative cases and whether results were precise and reproducible with repeated tests.
+Reviewers described whether there were any missing data, whether some participants underwent only one test, or whether there were individuals with inconclusive results.
 
 ##### Results
 
-Reviewers reported the estimated sensitivity, specificity, positive predictive value (PPV), and negative predicted value (NPV), as well as the confidence bounds around these measures, if provided.
+Reviewers reported the estimated sensitivity, specificity, positive predictive value (PPV), and negative predicted value (NPV), as well as confidence bounds around these measures, if provided.
 
 ##### Interpretation
 
-Reviewers reported how well the test ruled in or rules out disease based on the population, if there were identified side effects, and patient adherence.
+Reviewers reported how well the test ruled in or ruled out disease based on the population, if there were identified side effects, and patient adherence.
 
 ##### Extrapolation
 
@@ -1562,7 +1564,7 @@ Reviewers described how well this test will extrapolate outside the measured pop
 ##### Methods
 
 Reviewers began by describing the study question(s) being investigated by the article.
-They then described the study population, the sample size, the prevalence of the disease in the study population, if in human subjects, the countries / regions considered, the demographics of participants, the setting, and any remaining inclusion / exclusion criteria considered.
+They then described the study population, the sample size, the prevalence of the disease in the study population, countries / regions considered in case of human subjects, demographics of participants, the setting, and any remaining inclusion / exclusion criteria considered.
 
 ##### Assignment
 
@@ -1573,12 +1575,12 @@ Reviewers described how the treatment is assigned, whether it was an interventio
 ###### Outcome Assessment
 
 Reviewers described the outcome that was assessed and evaluated whether it was appropriate given the underlying study question.
-They described whether there was any missing data, for example whether there were individuals lost to follow up.
-They then describe whether there were any potential sources of bias, for example lack of blinding in a randomized controlled trial.
+They described whether there were any missing data such as whether there were individuals lost to follow up.
+They then describe whether there were any potential sources of bias such as lack of blinding in a randomized controlled trial.
 
 ###### Statistical Methods Assessment
 
-Reviewers describe which statistical methods were used for inference and whether the methods were appropriate for the study.
+Reviewers described which statistical methods were used for inference and whether applied methods were appropriate for the study.
 They then described whether adjustments were made for possible confounders.
 
 ##### Results
