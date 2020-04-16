@@ -250,11 +250,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/737f0c850bc154ab830f6355d80647cbc9b8201a/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/0ad98f299430d7c64af6056d02c89eede297ec2c/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/737f0c850bc154ab830f6355d80647cbc9b8201a/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/0ad98f299430d7c64af6056d02c89eede297ec2c/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/737f0c850bc154ab830f6355d80647cbc9b8201a/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/0ad98f299430d7c64af6056d02c89eede297ec2c/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -287,9 +287,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/737f0c850bc154ab830f6355d80647cbc9b8201a/))
+([permalink](https://greenelab.github.io/covid19-review/v/0ad98f299430d7c64af6056d02c89eede297ec2c/))
 was automatically generated
-from [greenelab/covid19-review@737f0c8](https://github.com/greenelab/covid19-review/tree/737f0c850bc154ab830f6355d80647cbc9b8201a)
+from [greenelab/covid19-review@0ad98f2](https://github.com/greenelab/covid19-review/tree/0ad98f299430d7c64af6056d02c89eede297ec2c)
 on April 16, 2020.
 </em></small>
 
@@ -302,7 +302,7 @@ If you are interested in guidelines on testing, therapies, or other issues relat
 Instead, you should collect information from your local health department, the [CDC's guidance](https://www.cdc.gov/coronavirus/2019-ncov/index.html), or your own government.
 ]{.banner .lightred}
 
-## Authors
+## Authors {.unnumbered}
 
 
 
@@ -551,7 +551,7 @@ Instead, you should collect information from your local health department, the [
 
 
 
-## Abstract {.page_break_before} 
+## Abstract {.page_break_before .unnumbered}
 Since late 2019, Coronavirus disease 2019 (COVID-19) has spread around the world, resulting in the declaration of a pandemic by the World Health Organization (WHO).
 This infectious disease is caused by the newly identified severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2).
 Research on the virus SARS-CoV-2 and the disease it causes is emerging rapidly through global scientific efforts.
@@ -563,7 +563,7 @@ We present information about the virus in the context of what is known about rel
 A broad scientific effort to understand this pandemic and related viruses and diseases will be fundamental to efforts to predict possible interventions.
 This text is an evolving and collaborative document that seeks to incorporate the ever-expanding body of information related to SARS-CoV-2 and COVID-19.
 
-## Where to Contribute
+## Where to Contribute {.unnumbered}
 Introduce Yourself (GitHub Issue) [https://github.com/greenelab/covid19-review/issues/17](https://github.com/greenelab/covid19-review/issues/17)
 
 Community Chat (Gitter Room) [https://gitter.im/covid19-review/community](https://gitter.im/covid19-review/community)
