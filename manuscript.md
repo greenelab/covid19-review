@@ -250,11 +250,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/88fbdb769a6748df049165141e0572dececa1204/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/6921dd568c26285811d78e253a651a6a16a01870/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/88fbdb769a6748df049165141e0572dececa1204/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/6921dd568c26285811d78e253a651a6a16a01870/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/88fbdb769a6748df049165141e0572dececa1204/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/6921dd568c26285811d78e253a651a6a16a01870/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -287,9 +287,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/88fbdb769a6748df049165141e0572dececa1204/))
+([permalink](https://greenelab.github.io/covid19-review/v/6921dd568c26285811d78e253a651a6a16a01870/))
 was automatically generated
-from [greenelab/covid19-review@88fbdb7](https://github.com/greenelab/covid19-review/tree/88fbdb769a6748df049165141e0572dececa1204)
+from [greenelab/covid19-review@6921dd5](https://github.com/greenelab/covid19-review/tree/6921dd568c26285811d78e253a651a6a16a01870)
 on April 16, 2020.
 </em></small>
 
@@ -555,10 +555,12 @@ Instead, you should collect information from your local health department, the [
 Since late 2019, Coronavirus disease 2019 (COVID-19) has spread around the world, resulting in the declaration of a pandemic by the World Health Organization (WHO).
 This infectious disease is caused by the newly identified severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2).
 Research on the virus SARS-CoV-2 and the disease it causes is emerging rapidly through global scientific efforts.
-The development of diagnostics, treatments, and vaccines will be critical to mitigating the impact of the virus.
-Here we present a collaborative effort to organize and consolidate the rapidly emerging scientific literature related to SARS-CoV-2.
-We present information about the virus in the context of what is known about related viruses and synthesize studies emerging about the diagnosis and treatment of COVID-19 alongside literature about related illnesses.
-A broad scientific effort to understand this pandemic and related viruses and diseases will be foundational to efforts to predict possible interventions.
+The development of approaches for the diagnosis and treatment of the disease will be critical to mitigating the impact of the virus.
+Scientific discussion of new and existing technologies and methods under investigation must be contextualized alongside a solid fundamental understanding of the virus and the disease it causes. 
+
+This manuscript represents a collaborative effort to organize and consolidate the rapidly emerging scientific literature related to SARS-CoV-2 and COVID-19.
+We present information about the virus in the context of what is known about related viruses, describe the pathogenesis of COVID-19, and synthesize studies emerging about the diagnosis and treatment of COVID-19 alongside literature about related illnesses.
+A broad scientific effort to understand this pandemic and related viruses and diseases will be fundamental to efforts to predict possible interventions.
 This text is an evolving and collaborative document that seeks to incorporate the ever-expanding body of information related to SARS-CoV-2 and COVID-19.
 
 ## Where to Contribute
@@ -580,6 +582,7 @@ At the time of the first situation report [@url:https://www.who.int/docs/default
 One week later, 4593 confirmed cases had been identified, spanning not only Asia, but also Australia, North America, and Europe [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128-sitrep-8-ncov-cleared.pdf].
 On March 11, 2020, WHO formally classified the situation as a pandemic [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200311-sitrep-51-covid-19.pdf].
 On April 4, 2020, the WHO reported that the global number of confirmed cases had surpassed one million [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200404-sitrep-75-covid-19.pdf?sfvrsn=99251b2b_4].
+
 At this time, over 130,000 deaths had been reported due to COVID-19 worldwide (April 15, 2020).
 
 [Note: Maybe add a graph here, update as new reports come out.]
@@ -628,28 +631,26 @@ The viral membrane fuses with the endosomal membrane to release the viral genome
 The replicase gene is translated and assembled into the viral replicase complex, which can synthesize dsRNA genome from the genomic ssRNA(+).
 The dsRNA genome is then transcribed and replicated to create viral mRNAs and new ssRNA(+) genomes [@doi:10.1007/978-1-4939-2438-7_1; @url:https://viralzone.expasy.org/30?outline=all_by_species].
 
-#### Transmission:
-In general, respiratory viruses like coronavirus can have multiple routes of person-to-person transmission including droplet transmission (i.e. inhalation for cough, sneeze), aerosol transmission (i.e. virus suspended in air), and contact transmission (i.e. contact with oral, nasal, and eye mucous membranes).
-While there does not appear to be experimental evidence to conclude which mode of transmission different coronaviruses use [@doi:10.1038/s41368-020-0075-9], it is suggested that the coronavirus person-to-person transmission is droplet-based using simulations [@doi:10.1056/NEJMoa032867] and trace studies[@doi:10.3390/ijerph15122757].
+#### Transmission
+In general, respiratory viruses like coronavirus can have multiple routes of person-to-person transmission including droplet transmission (i.e. inhalation for cough, sneeze), aerosol transmission (i.e. virus suspended in air), and contact transmission (i.e. contact with oral, nasal, and eye mucous membranes). 
+While there does not appear to be experimental evidence to conclude which mode of transmission different coronaviruses use [@doi:10.1038/s41368-020-0075-9], it has been suggested that the coronavirus person-to-person transmission is droplet-based using simulations [@doi:10.1056/NEJMoa032867] and trace studies [@doi:10.3390/ijerph15122757].
 
-### Origin of SARS-CoV-2
-[MERS and SARS? Where to put this?]
-[Specifically about SARS-CoV-2/COVID19?]
-The origin of the SARS-CoV-19 virus is not yet fully understood.
-Genomic analyses and comparisons to other known coronaviruses suggest that SARS-CoV-19 is unlikely to have originated from a laboratory -- either purposely engineered and released, or escaped -- and instead evolved naturally in an animal host [@doi:10.1038/s41591-020-0820-9].
+### SARS-CoV-2: Origin, Phylogenetics, and Evolution
+
+#### Origin of SARS-CoV-2
+The evolutionary origins of the SARS-CoV-2 virus are not yet fully understood.
+Genomic analyses and comparisons to other known coronaviruses suggest that SARS-CoV-2 is unlikely to have originated from a laboratory -- either purposely engineered and released, or escaped -- and instead evolved naturally in an animal host [@doi:10.1038/s41591-020-0820-9].
+
 Among known coronaviruses, SARS-CoV-19 has the closest overall sequence similarity to RaTG13 (~96%) found in a *Rhinolophus affinis* bat [@doi:10.1038/s41586-020-2012-7], while the receptor binding domain (RBD) is highly similar to that of viruses found in pangolins [@doi:10.1101/2020.02.19.950253].
 This suggests that SARS-CoV-19 may have originated in viral reservoirs of similar hosts, however current evidence cannot discriminate an origin of the virus before or after zoonotic transfer to humans [@doi:10.1038/s41591-020-0820-9].
 
-### Disease (COVID19)
+### COVID-19: Mechanisms and Presentation
 
 #### Mechanisms of Coronavirus-driven Disease in Humans
 
-Coronaviruses are known to cause respiratory illnesses in humans through the following possible mechanisms...[Summarize relevant mechanisms for cell entry & address evidence for/against ACE2 being important]
+Coronaviruses are known to cause respiratory illnesses in humans through the following possible mechanisms...[Summarize relevant mechanisms for cell entry & address evidence for/against ACE2 being important, etc.]
 
-#### Symptoms
-
-*Presentation of COVID-19:*
-Information is rapidly becoming available about the wide range of symptoms that can be associated with COVID-19 as well as the range of symptom severity, onset from exposure, and possible risk or protective factors...
+#### Presentation of COVID-19
 
 Retrospective samples of COVID-19 patients described the clinical presentations of patients infected with SARS-CoV-2 which included lower respiratory tract infection with fever, dry cough, and dyspnea [@doi:10/ggnxb3].
 [@doi:10/ggnxb3] noted that upper respiratory tract symptoms were less common, which suggests that the virus targets cells located in the lower respiratory tract.
@@ -658,32 +659,53 @@ The symptoms of infection by SARS-CoV-2 can vary greatly, making it difficult fo
 Mortality might be associated with other biomarkers measured in blood samples including lactate dehydrogenase and cardiac troponin I, although these analyses may not have been appropriately corrected for multiple testing.
 They also found that survivors continued to shed the virus for a median of 20 days and a maximum of at least 37 days.
 
-#### Vaccines for Viruses: Strategies for and challenges to development
+### Approaches to Understanding COVID-19
 
-Generally, the first step in producing a vaccine is characterizing the target.
-The genetic sequence of SARS-CoV-2 was published on January 11, 2020, which aided the global effort to develop a vaccine to prevent COVID-19.
-The Coalition for Epidemic Preparedness Innovations (CEPI) is coordinating global health agencies and pharmaceutical companies to develop vaccines against SARS-CoV-2.
-As of April 8, 2020, there were 115 vaccine candidates to prevent COVID-19, of which 78 were active.
-Of the 78 active vaccine programs, 73 were in the preclinical or exploratory stage [@doi:10.1038/d41573-020-00073-5].
+Scientific characterization of the SARS-CoV-2 virus and of the COVID-19 disease it causes is critical to controlling the current pandemic. 
+Several broad areas of research interact with each other, offering different pieces of information critical to understanding the virus and disease.
+A comprehensive understanding of the epidemic must unify basic scientific and medical research with public health and biotechnology.
 
-Historically, an H1N1 influenza vaccine was developed relatively efficiently, mainly because influenza-vaccine technology had already been developed and regulatory agencies had already decided that vaccines produced using egg- and cell-based platforms could be licensed under the regulations used for a strain change.
-Critiques of the experience producing and distributing the H1N1 vaccine have stressed the need for alternative development-and-manufacturing platforms that can be readily adapted to new pathogens.
-Although a monovalent H1N1 vaccine was not available before the pandemic peaked in the United States and Europe, it was available soon afterward as a stand-alone vaccine that was eventually incorporated into the commercially available seasonal influenza vaccines [@doi:10.1056/NEJMp2005630].
-If H1N1 vaccine development provides any indication, considering developing and manufacturing platforms for promising COVID-19 vaccine trials early could hasten the emergence of an effective prophylactic vaccine against SARS-CoV-2.
 
-Unlike many global vaccine development programs previously, such as with H1N1, the vaccine development landscape for COVID-19 includes vaccines produced by a wide array of technologies.
-Experience in the field of oncology is encouraging COVID-19 vaccine developers to use next-generation approaches to vaccine development, which have led to the great diversity of vaccine development programs [@url:https://www.the-scientist.com/news-opinion/newer-vaccine-technologies-deployed-to-develop-covid-19-shot-67152].
-Diverse technology platforms include DNA, RNA, virus-like particle, recombinant protein, both replicating and non-replicating viral vectors, live attenuated virus, and inactivated virus approaches.
-Given the wide range of vaccines under development, it is possible that some vaccine products may eventually be shown to be more effective in certain subpopulations, such as children, pregnant women, immunocompromised patients, the elderly, etc.
+#### Science & Medicine
 
-#### Diagnostics and Therapeutics for Viruses
+Understanding how the virus functions and interacts with the host is foundational to understanding pathogenesis and disease progression and to identifying available and novel approaches to treatment.
+Therefore, the fields of virology, immunology, and molecular biology are fundamental to characterizing SARS-CoV-2 and COVID-19.
+These topics can be approached using a range of techniques, including characterization of the host response from the cellular to systems level.
+Contextualizing SARS-CoV-2 in relation to other viruses that infect humans and other animals can further serve to elucidate the reaction of the human host to viral exposure.
+This information, when combined with an understanding of the biology of pharmaceutical and medical interventions, can guide new approaches to treatment.
+
+#### Public Health
+
+One necessary component of determining how to manage the outbreak is to understand epidemiological factors related to the transmission of the SARS-CoV-2 virus. 
+These can include characteristics such as when infected individuals are contagious, how the virus is transmitted between individuals, the range of symptoms associated with infection and/or contagiousness in different individuals, and how rapidly the virus propogates between individuals, etc.
+The development of diagnostic tools is critical to this goal.
+Accurate diagnoses on a large scale is necessary to collect the data needed to develop epidemiological models.
+Other areas of public health that address resource availability, inequity, human behavior, and other components that influence people's exposure to pathogens and ability to manage illness will also be critical to mounting a global response to the pandemic.
+Currently, this manuscript focuses primarily on contextualizing epidemiological characteristics such as reproduction number and dynamics of transmission that intersect with the fundamental biology of the virus or the development of therapeutic and diagnostic technologies.
+
+#### Biotechnology
+
+##### Diagnostics
 
 Two major concerns within diagnosis include the detection of current infections in individuals with and without symptoms, and the detection of past exposure without an active infection.
 In the latter category, identifying whether individuals can develop or have developed sustained immunity is also a major consideration.
+The development of high-throughput, affordable methods for detecting active infections and sustained immunity will be critical to understanding and controlling the disease.
 
-Within therapeutics, some possible efforts include efforts to identify strategies for the management of symptoms as well as the development of antivirals...
+- What are approaches that allow us to detect current infection or past exposure for other viruses?
+- What is sustained immunity and what are the indicators?
 
+##### Therapeutics
+
+The identification of interventions that can mitigate the effect of the virus on exposed and infected individuals is a significant research priority.
+Some possible approaches include the identification of existing pharmaceuticals that reduce the severity of infection, either by reducing the virus' virulence (e.g., antivirals) or managing the most severe symptoms of infection.
+Due to the long timeline for the development of novel pharmaceuticals, in most cases, research surrounding possible pharmaceutical interventions focuses on the identification and investigation of existing compounds whose mechanisms may be relevant to COVID-19.
+Other foci of current research include the identification of antibodies produced by survivors of COVID-19 and the development of vaccines.
+Understanding the mechanisms describing host-virus interactions between humans and SARS-CoV-2 are thus critical to identifying candidate therapeutics.
+
+### Summary
 In this review, we seek to consolidate information about efforts to develop strategies for diagnosis and therapeutics as new information is released by the scientific community.
+We include information from both traditional peer-reviewed scientific literature and from preprints, which typically have not undergone peer review but have been critically evaluated by the scientists involved in this effort.
+The goal of this manuscript is to present preliminary findings within the broader context of COVID-19 research and to identify the broad interpretations of new research, as well as limitations to interpretability.
 
 
 ## Pathogenesis
@@ -694,15 +716,14 @@ This section would also be great for the introduction of zoonotic diseases which
 
 #### Primary Transmission and Viral Entry
 
-[How does SARS-CoV-2 enter human cells?]
-[What cells are primary infection sites for SARS-CoV-2?]
-[What structural aspects allow for viral entry]?
+-How does SARS-CoV-2 enter human cells?
+-What cells are primary infection sites for SARS-CoV-2?
+-What structural aspects allow for viral entry?
 
 #### Viral Replication and Spreading
 
-[Renamed section with transmission dynamics below] 
-[Basic introduction into replication cycle]
-[What are the routes of transmission]
+-Basic introduction into replication cycle
+-What are the routes of transmission
 
 #### Reproduction Number and Dynamics of Transmission
 
@@ -739,12 +760,12 @@ The study concludes that while large changes in R~t~ are observed, it is too ear
 
 ### Immune Response to SARS-CoV-2
 
-[Cellular responses to SARS-CoV-2 infection]
-[What is causing neutropenia and lymphopenia observed in COVID-19 patients]
-[Antibody production against SARS-CoV-2 by patient who recovered vs patient who did not recover]
-[Cytokines and other soluble factors contribution to immune response]
+-Cellular responses to SARS-CoV-2 infection
+-What is causing neutropenia and lymphopenia observed in COVID-19 patients
+-Antibody production against SARS-CoV-2 by patient who recovered vs patient who did not recover
+-Cytokines and other soluble factors contribution to immune response
 
-### Systems level approaches for understanding SARS-CoV-2 pathogenesis
+### Systems-level approaches for understanding SARS-CoV-2 pathogenesis
 
 Systems biology provides a cross-disciplinary analytical platform integrating the different omics (genomics, transcriptomics, proteomics, metabolomics, and other omics approaches), bioinformatics, and computational strategies.
 These cutting-edge research approaches have enormous potential to study the complexity of biological systems and human diseases [@doi:10.1016/j.gpb.2012.08.004].
@@ -771,19 +792,18 @@ Considering the paucity of omics-level big data sets for SARS-CoV-2 up until now
 
 ## Diagnostics
 
-### Current Strategies for Diagnosing COVID-19 and Similar Viral Infections
-
 Given the high transmissibility of SARS-CoV-2, the development of reliable assays to detect SARS-CoV-2 infection even in asymptomatic carriers is vitally important.
 For instance, the deployment of wide-scale diagnostic testing followed by the isolation of infected people has been a key factor in South Korea's successful strategy for controlling the spread of the virus.
 Following the first release of the genetic sequence of the virus by Chinese officials on January 10 2020, the first test was released about 13 days later [@doi:10.2807/1560-7917.ES.2020.25.3.2000045].
 Identifying individuals who have contracted the infection is crucial to slowing down the global pandemic.
 The assays available to date use the following approaches to identify the active virus in patient samples.
+A range of diagnostic approaches from a methodological standpoint are being or could possibly be developed.
 
-#### Molecular Tests
+### Molecular Tests
 
 Molecular tests are often carried out from nasopharyngeal cavity samples, including throat wash and saliva [@doi:10/ggp4qx].
 
-##### RT-PCR
+#### RT-PCR
 
 The Drosten Lab, from Germany, was the first lab to establish and validate a diagnostic test to detect SARS-CoV-2.
 This test uses real-time reverse transcription PCR (RT-PCR) [@doi:10.2807/1560-7917.ES.2020.25.3.2000045] to detect several regions of the viral genome: the orf1b of the RNA dependent RNA polymerase (RdRP), the Envelope protein gene (E), and the Nucleocapsid protein gene (N).
@@ -791,7 +811,7 @@ In collaboration with several other labs in Europe and in China, the researchers
 Specifically this tests utilizes two probes against RdRP of which one is specific to SARS-CoV-2 [@doi:10.2807/1560-7917.ES.2020.25.3.2000045].
 Importantly, this assay did not give any false positive results.
 
-##### qRT-PCR
+#### qRT-PCR
 
 Around the same time, researchers in China developed a quantitative real-time reverse transcription PCR (qRT-PCR) test to identify two regions of the viral genome, orf1b and N region [@doi:10.1093/clinchem/hvaa029].
 Specifically, this assay was tested on samples coming from two COVID-19 patients, including a panel of positive and negative controls consisting of RNA extracted from several cultured viruses.
@@ -800,9 +820,10 @@ In this case the test was designed to detect sarbecoviruses, of which SARS-CoV-2
 Considering that no other sarbecoviruses are currently known to infect humans, a positive test indicates that the patient is infected with SARS-CoV-2.
 However, this test is not able to discriminate the genetics of viruses within the sarbecovirus clade.
 
-##### CRISPR test
+#### CRISPR test
 
-Recently, two American companies, Mammoth Biosciences and Sherlock Biosciences, proposed to use CRISPR technology [@doi:10.1016/j.cell.2014.05.010] to increase the speed of Coronavirus diagnostic testing [@doi:10.1101/2020.03.06.20032334].
+CRISPR technology has been identified as an approach that could increase the rate of diagnostic testing for COVID-19 [@doi:10.1016/j.cell.2014.05.010].
+CRISPR technologies produced by two American companies, Mammoth Biosciences and Sherlock Biosciences, are being used in the development of potential diagnostic tests for SARS-CoV-2 [@doi:10.1101/2020.03.06.20032334; @doi:10.1101/2020.02.26.967026].
 Their methodology includes the purification of RNA extracted from patient specimens followed by loop-mediated amplification (fast amplification) of the RNA and addition of the CRISPR reagents CAS12, which cuts the DNA or RNA, and the RNA guidance.
 The RNA guidance helps CAS12 to direct the cut of a sequence corresponding to a piece of the coronavirus genome (specifically, N, E and RdRP genes in the test designed by Mammoth).
 With this test, if CAS12 and its guide find a match in the RNA, then the cut occurs and the patient is positive for SARS-CoV-2.
@@ -812,9 +833,9 @@ This test shows a sensitivity range of 70-300 copies of the target RNA/ul.
 Furthermore, the assay needs very simple equipment and can be as fast as 30 minutes.
 Finally, the result indicator can be as simple as a color change on a strip [@doi:10.1126/science.abb8400].
 
-##### Limitation of Molecular Tests
+#### Limitation of Molecular Tests
 
-Molecular tests can detect only people that are currently infected, while they cannot detect someone who had developed the infection but has had since recovered.
+Tests that identify SARS-CoV-2 using nucleic-acid-based technologies will identify only individuals with current infections and are not appropriate for identifying individuals who have recovered from a previous infection.
 Within this category, different types of tests have different limitations.
 For example, PCR-based test can be highly sensitive, but in high-throughput settings they can show several problems:
 
@@ -829,15 +850,18 @@ False positives are a concern with this technique, as the guide RNA can recogniz
 
 Similarly, in tests that use CRISPR, false positives can occur due to the specificity of the technique, as the guide RNA can recognise other interspersed sequences on the patient’s genome.
 
-#### Sierological Tests
+### Sierological Tests
 
 Despite diagnostic tests based on the detection of the genetic material can be quite sensitive, they cannot provide information about the real extent of the disease.
 In fact, they would not work on a recovered patient who defeated the virus.
 In this context, immunity tests are significantly more informative.
-In fact, they can help scientists figuring out why the disease has different course among patients, as well as what strategy might work to manage the spread of the infection.
-Furthermore, sierological tests hold significant interest at present because they can be leveraged to advance economic recovery.
+Additionally, they can help scientists to understand why the disease has a different course among patients, as well as what strategy might work to manage the spread of the infection.
+Furthermore, serological tests hold significant interest at present because they can be leveraged to advance economic recovery.
 For instance, people that have developed antibodies can return to work prior to the others, helping to develop the herd immunity which will prevent further diffusion of the virus.
-Several countries are now focused on implementing antibody tests, and in the United States, the FDA recently approved a sierological test by Cellex for use under emergency conditions [@url:https://www.fda.gov/media/136625/download].
+
+#### Current Approaches
+
+Several countries are now focused on implementing antibody tests, and in the United States, the FDA recently approved a serological test by Cellex for use under emergency conditions [@url:https://www.fda.gov/media/136625/download].
 Specifically, the Cellex qSARS-CoV-2 IgG/IgM Rapid Test is a chromatographic immunoassay designed to qualitatively detect IgM and IgG antibodies against SARS-CoV-2 in the plasma of patients (blood sample) suspected to have developed the infection [@url:https://www.fda.gov/media/136625/download].
 Such tests allow for the progress of the viral disease to be understood, as IgM are the first antibodies produced by the body and indicate that the infection is active.
 Once the body has responded to the infection, IgG are produced and gradually replace IgM, indicating that the body has developed immunogenic memory [@doi:10.1002/jmv.25820].
@@ -847,28 +871,24 @@ With this particular assay results can be read within 15-20 minutes [@url:https:
 Other research groups, such as the Krammer lab of the Icahn School of Medicine at Mount Sinai proposed an ELISA test that detects IgG and IgM that react against the receptor binding domain (RBD) of the spike proteins (S) of the virus [@doi:10.1101/2020.03.17.20037713].
 The authors are now working to get the assay into clinical use [@url:https://www.livescience.com/coronavirus-tests-available.html].
 
-##### Limitations of Sierological Tests
+#### Limitations of Sierological Tests
 
 Importantly, false-positives can occur due to the cross-reactivity with other antibodies according to the clinical condition of the patient [@url:https://www.fda.gov/media/136625/download].
 Therefore, this test should be used in combination with RNA detection tests [@url:https://www.fda.gov/media/136625/download].
 
 ### Possible Alternatives to Current Practices for Identifying Active Cases
 
-[Are there other approaches that have worked for diagnosing other viruses at a rapid pace in large numbers of people?]
-[What are some approaches people are currently testing for detecting live viruses, especially SARS-CoV-2?]
+- Are there other approaches that have worked for diagnosing other viruses at a rapid pace in large numbers of people?
+- What are some approaches people are currently testing for detecting live viruses, especially SARS-CoV-2?
 
-### Detection of Past Exposure and/or Sustained Immunity
+### Challenges to Diagnostic Approaches
 
-[What are approaches that allow us to detect past exposure for other viruses?]
-[What efforts are underway to develop similar approaches for SARS-CoV-2?]
-[What is sustained immunity and what are the indicators?]
-
-### Limitations to Implementation of Large-Scale Testing
+#### Limitations to Implementation of Large-Scale Testing
 More informtion to follow.
 
-### Strategies and Considerations for Determining Whom to Test
+#### Strategies and Considerations for Determining Whom to Test
 
-Currently, Coronavirus tests are limited to people that are in danger of serious illness [https://www.cdc.gov/coronavirus/2019-nCoV/hcp/clinical-criteria.html].
+Currently, Coronavirus tests are limited to people that are in danger of serious illness [@url:https://www.cdc.gov/coronavirus/2019-nCoV/hcp/clinical-criteria.html].
 Specififcally, the individuals at risk include:
 
 - people with severe symptoms
@@ -876,7 +896,7 @@ Specififcally, the individuals at risk include:
 - people with underlying health conditions
 - pregnant women
 
-However, this methodology of testing administration does not detect a high proportion of infections.
+However, this method of testing administration does not detect a high proportion of infections.
 This includes individuals that are asymptomatic (potentially able to infect others) and individuals that are able to recover at home.
 Furthermore, individuals for whom the origin of the infection is uncertain are not tested.
 For instance, a recent study from the Imperial College estimates that in Italy the true number of infections is around 5.9 million against the 70,000 detected as of March 28th [@doi:10.25561/77731].
@@ -938,11 +958,12 @@ However, previous studies on RA showed that in patients treated with TCZ the rat
 Also, RA patients with chronic hepatitis B (HB) infection showed high risk of HB virus reactivation upon TCZ administration in combination with other RA drugs [@doi:10.1111/1756-185X.13010].
 These last findings highlight the need to search for a balance between impairing a harmful immune response, such as the one generated by the cytokine storm, and preventing the worsening of the clinical picture of the patients by potential new viral infections.
 This aspect is probably crucial to be investigated further in the trials that are about to start.
-Perhaps, the TCZ treatment would best suit patients with severely compromised lungs due to the COVID-19 infection and are therefore at greater risk of death, in order to stop the uncontrolled immune response before it’s too late.
 
-##### Summary
+Perhaps, the TCZ treatment would best suit patients with severely compromised lungs due to the Covid-19 infection and are therefore at greater risk of death, in order to stop the uncontrolled immune response before it’s too late.
+<!-##### Summary
 
 Summarize the state of the symptom management approach.
+-->
 
 ### Small Molecule Drugs for Targeting SARS-CoV-2
 
@@ -953,14 +974,14 @@ Importantly, SARS-CoV-2 is an RNA virus.
 Differently from a DNA virus, which can use the host enzymes to propagate itself, RNA viruses depends on their own polymerase, the RNA-dependent RNA polymerase (RdRP), in order to be replicated [@doi:10.1007/978-1-4939-2438-7; @doi:10.1002/jmv.25761].
 
 #### Nucleotide Analogs
-
+Removing this header for now, if we add additional nucleotide analogs, we can put it back
 Why one might use nucleotide analogs.
-
-##### Avigan
+#### Avigan
 
 Avigan (Flavipiravir, from Toyama chemical Fujifilm) is a drug which has been found effective to block viral amplification in the Influenza virus infection.
+Avigan is a nucleotide analog.
 
-###### Anticipated Mechanism
+##### Anticipated Mechanism
 
 Specifically, Avigan is a nucleoside precursor efficiently recognised as guanosine and adenosine analogue by the virus polymerase (RNA-dependent RNA polymerase).
 While a single incorporation does not influence RNA transcription, multiple events of incorporation lead to the arrest of RNA synthesis [@doi:10.1371/journal.pone.0068347].
@@ -971,27 +992,27 @@ The drug was tested on a sample of 80 patients (35 experimental sample, 45 contr
 Also lung body scan seem to look better in about 91% of the patients analysed [@doi:10.1016/j.eng.2020.03.007].
 However, the size of the sample is too small to give a powerful statistics, as well as the choice of the patients did not take into consideration important factors such as previous clinical conditions, sex, while there was no age categorisation.
 
-###### Current Evidence
+##### Current Evidence
 
 A list of current studies and their results, using carefully the information requested in the therapeutic paper tickets.
 
-###### Summary
+##### Summary
 
 Summarize the state of the antiviral approach.
 
-##### Remdesivir
+#### Remdesivir
 
-Remdesivir (GS-5734) was developed by Gilead Sciences to treat Ebola.
+Remdesivir (GS-5734) was developed by Gilead Sciences to treat Ebola Virus Disease.
 It does not have any FDA-approved use.
 Although a clinical trial in the Democratic Republic of Congo found some evidence of effectiveness against ebola, two antibody preparations were found to be more effective, and Remdesivir was not pursued [@doi:10.1056/NEJMoa1910993].
 
-###### Anticipated Mechanism
+##### Anticipated Mechanism
 
 Remdesivir is metabolized to GS-441524, an adenosine analog that inhibits a broad range of polymerases and then evades exonuclease repair causing chain termination [@doi:10.1074/jbc.AC120.013056; @doi:10.1128/mBio.00221-18; @doi:10.1038/s41422-020-0282-0].
 Although it was developed against Ebola, it also inhibits the MERS-CoV and SARS-CoV polymerase and inhibits coronavirus replication in cell culture assays with submicromolar IC50s [@doi:10.1126/scitranslmed.aal3653].
 It also inhibits SARS-CoV-2, showing synergy with chloroquine _in vitro_ [@doi:10.1038/s41422-020-0282-0].
 
-###### Current Evidence
+##### Current Evidence
 
 In addition to the previous work showing Remdesivir to be an effective treatment for viral pathogens such as SARS-CoV and MERS-CoV in cultured cells and animal models, a recent study found that administration of Remdesivir to non-human primate models resulted in 100% protection against infection by the Ebola virus.
 Remdesivir has also been reported to inhibit SARS-CoV-2 infection in a human cell line sensitive to the virus [@doi:10.1038/s41422-020-0282-0].
@@ -1012,7 +1033,7 @@ Therefore, even though the study reported clinical improvement in 68% of the 53 
 As a result, the study does not alter our understanding of the efficacy of Remdesivir in this setting, and randomized controlled trials are still required.
 Remdesivir recently entered controlled clinical trials, and as of March 2020, there are six clinical trials underway to treat COVID-19 patients at both early and late stages of infection and in combinations with other drugs [@doi:10.1038/s41422-020-0282-0; @url:https://clinicaltrials.gov/ct2/show/NCT04292730; @url:https://clinicaltrials.gov/ct2/show/NCT04292899; @url:https://clinicaltrials.gov/ct2/show/NCT04280705; @url:https://www.clinicaltrialsregister.eu/ctr-search/trial/2020-000936-23/FR; @url:https://clinicaltrials.gov/ct2/show/NCT04252664; @url:https://clinicaltrials.gov/ct2/show/NCT04257656].
 
-###### Summary
+##### Summary
 
 Remdesivir is a major drug candidate since it attacks the virus with high potency and known mechanism.
 Moreover, one of the most successful therapies for viral diseases is to target the viral replication machinery, which are typically virally encoded polymerases.
@@ -1021,51 +1042,43 @@ Note that the HIV and Herpes polymerases are a reverse transcriptase and a DNA p
 In clinical use, polymerase inhibitors show short term benefits for HIV patients but for long term benefits they must be part of combination regimens.
 They are typically combined with protease inhibitors, integrase inhibitors and even other polymerase inhibitors.   
 
-###### Current Evidence
-
-A list of current studies and their results, using carefully the information requested in the therapeutic paper tickets.
-
-###### Summary
-
-Summarize the state of the antiviral approach.
-
 #### Protease Inhibitors
 
 Why it may be useful
 
-##### Protease Inhibitor 1
+<!--#### Protease Inhibitor 1
 
-###### Anticipated Mechanism
+##### Anticipated Mechanism
 
-###### Current Evidence
+##### Current Evidence
 
 A list of current studies and their results, using carefully the information requested in the therapeutic paper tickets.
 
-###### Summary
+##### Summary
 
 Summarize the state of the antiviral approach.
-
+-->
 #### Molecules Targeting the Viral Envelope
 
 Why it may be useful
 
-##### Viral Envelope Targeter 1
+<!--##### Viral Envelope Targeter 1
 
-###### Anticipated Mechanism
+##### Anticipated Mechanism
 
-###### Current Evidence
+##### Current Evidence
 
 A list of current studies and their results, using carefully the information requested in the therapeutic paper tickets.
 
-###### Summary
+##### Summary
 
 Summarize the state of the antiviral approach.
-
+-->
 ### Drugs Targeting Host Proteins
 
 Brief background on the therapeutic.
 
-#### Drug (or drug class) 1
+<!--#### Drug (or drug class) 1
 
 ##### Viral Entry Receptors
 
@@ -1078,10 +1091,12 @@ A list of current studies and their results, using carefully the information req
 ###### Summary
 
 Summarize the state of the antiviral approach.
-
+-->
 ### Broad-Spectrum Pharmaceuticals
 
-##### Hydroxychloroquine and Chloroquine
+- Add some background on broad-spectrum pharmaceuticals
+
+#### Hydroxychloroquine and Chloroquine
 
 Hydroxychloroquine (HCQ) and chloroquine (CQ) are quinolones that have been widely used as anti-malarial and disease-modifying anti-rheumatic drugs in humans.
 HCQ and CQ act through the same mechanism of action, but HCQ is regarded to be safer [@doi:10.1136/ard.2008.101766].
@@ -1095,7 +1110,7 @@ HCQ has been reported to be effective in treating Antiphospholipid Syndrome [@do
 Thus, there is excitement about HCQ as a potential therapeutic for SARS-CoV-2 and COVID-19.
 This section will discuss current efforts on assessing the potential impact of HCQ in treating COVID-19.
 
-###### Current Evidence
+##### Current Evidence
 
 Gautret et al conducted a non-randomized, non-blinded, non-placebo clinical trial on 42 hospitalized patients comparing HCQ to standard care [@doi:10.1016/j.ijantimicag.2020.105949].
 This trial found patients who received HCQ showed higher rates of virological clearance by nasopharyngeal swab on Days 3-6 when compared to standard care.
@@ -1146,8 +1161,7 @@ For all of these 15 identifiers, no data uploads or links to publications could 
 At the very least, an inability to locate primary data means such claims cannot be verified.
 Additionally, citation of unavailable sources cast doubt on policies and research based on the assumption that HCQ is effective in treating COVID-19.
 
-
-###### Summary
+##### Summary
 
 In vitro evidence shows HCQ may be an effective therapeutic against SARS-CoV-2 and COVID-19. 
 Multiple clinical studies have already been carried out to assess this possibility.
@@ -1179,7 +1193,6 @@ While promising, further animal and human studies are required to assess the the
 
 Another potential nutraceutical that has exhibited beneficial effects against various viral infections is n-3 PUFA [@doi:10.1002/jmv.25707], such as eicosapentaenoic acid (EPA) and docosahexaenoic acid (DHA).
 EPA and DHA intake can come from a diet high in fish intake or through dietary supplementation with fish oils or purified oils [@doi:10.3390/molecules22111964].
-
 
 ###### Potential Mechanisms
 
@@ -1312,7 +1325,7 @@ Similarly, a meta-analysis suggested that administration of plasma from recovere
 Similar results have been observed for MERS-CoV infections, which emerged as the second coronavirus-related epidemic.
 Neutralizing antibodies have been identified against various epitopes of the RBD of the S glycoprotein [@doi:10.1073/pnas.1402074111; doi:10.1128/JVI.00912-14].
 
-###### Spike (S) Neutralizing Antibody Anticipated Mechanisms
+###### Anticipated Mechanisms
 
 Coronaviruses use trimeric spike (S) glycoproteins on their surface to bind to host cell receptors, such as ACE2, allowing for cell entry [@doi:10.1016/j.cell.2020.02.052; @doi:10.1016/j.cell.2020.02.058].
 Each S glycoprotein protomer is comprised of an S1 domain, also called the receptor binding domain (RBD), and an S2 domain.
@@ -1320,8 +1333,7 @@ The S1 domain binds to host cell receptors while the S2 domain facilitates the f
 Although targeting of the host cell receptor ACE2 shows efficacy in inhibiting SARS-CoV-2 infection [@doi:10.1038/nature02145], given the physiological relevance of ACE2 [@doi:10/bsbp49], it would be favorable to target virus-specific structures rather than host receptors.
 This forms the rationale of developing neutralizing antibodies against the S glycoprotein, disrupting its interaction with ACE2 and other receptors and thereby inhibiting viral entry.
 
-
-###### Spike (S) Neutralizing Antibody Current Evidence
+###### Current Evidence
 
 The first human neutralizing antibody against SARS-CoV-2 targeting the trimeric spike (S) glycoproteins has been developed using hybridoma technology, [@doi:10.1101/2020.03.11.987958], where antibody-producing B-cells developed by mice can be inserted into myeloma cells to produce a hybrid cell line (the hybridoma) that is grown in culture.
 The 47D11 clone was able to cross-neutralize SARS-CoV and SARS-CoV2 by a mechanism that is different from receptor binding interference.
@@ -1340,7 +1352,7 @@ Furthermore, no conclusions about correlations between the severity of disease a
 Rather, higher neutralizing antibody titers were more frequently found in patients with severe disease.
 Correspondingly, higher levels of anti-spike IgG were observed in patients that deceased from infection compared to patient that recovered [@doi:10.1172/jci.insight.123158].
 
-###### Spike (S) Neutralizing Antibody Summary 
+###### Summary 
 
 Results from the SARS-CoV and MERS-CoV epidemics can provide valuable lessons for the design of neutralizing antibodies for the current outbreak.
 The findings for SARS-CoV and MERS can aid in identifying which structures constitute suitable targets for nAbs, despite the fact that the RBD appears to be distinct between the three coronavirus species.
@@ -1349,6 +1361,7 @@ The biggest challenge remains identifying antibodies that not only bind to their
 On that note, a recently published study indicates that anti-spike antibodies could make the disease worse rather than eliminating the virus [@doi:10.1172/jci.insight.123158].
 These findings underscores our current lack of understanding the full immune response to SARS-CoV-2.
 
+<!-- Use the format below to add additional sections
 ##### Anticipated Mechanism
 
 Why it may be useful
@@ -1360,7 +1373,7 @@ A list of current studies and their results, using carefully the information req
 ##### Summary
 
 Summarize the state of the neutralizing antibody approach.
-
+-->
 #### Interferons
 
 Interferons (IFNs) are a family of cytokines crucial to activate the first (innate) immune system response against viral infections.
@@ -1385,14 +1398,27 @@ A list of current studies and their results, using carefully the information req
 
 Summarize the state of interferons.
 
+### Vaccines 
 
-### Vaccines
+#### Strategies for and challenges to vaccine development
 
-Vaccines, widely recognized as one of the most significant advances in human health during the 20th century, can be used to bolster both individual and herd immunity to a virus by promoting the development of antibodies without infection.
-[Are vaccines available for other coronaviruses or related viral illnesses?]
-[What are some of the challenges to developing a vaccine? What needs to be taken into account about how the virus works?]
-[Are there any challenges or opportunities unique to coronaviruses and/or SARS-CoV-2?]
-[What are some approaches being tested or considered?]
+Today, the first step in producing a vaccine often is characterizing the target.
+The genetic sequence of SARS-CoV-2 was published on January 11, 2020, which aided the global effort to develop a vaccine to prevent COVID-19.
+The Coalition for Epidemic Preparedness Innovations (CEPI) is coordinating global health agencies and pharmaceutical companies to develop vaccines against SARS-CoV-2.
+As of April 8, 2020, there were 115 vaccine candidates to prevent COVID-19, of which 78 were active. 
+Of the 78 active vaccine programs, 73 were in the preclinical or exploratory stage [@doi:10.1038/d41573-020-00073-5].
+
+
+Historically, an H1N1 influenza vaccine was developed relatively efficiently, mainly because influenza-vaccine technology had already been developed and regulatory agencies had already decided that vaccines produced using egg- and cell-based platforms could be licensed under the regulations used for a strain change.
+Critiques of the experience producing and distributing the H1N1 vaccine have stressed the need for alternative development-and-manufacturing platforms that can be readily adapted to new pathogens.
+Although a monovalent H1N1 vaccine was not available before the pandemic peaked in the United States and Europe, it was available soon afterward as a stand-alone vaccine that was eventually incorporated into the commercially available seasonal influenza vaccines [@doi:10.1056/NEJMp2005630].
+If H1N1 vaccine development provides any indication, considering developing and manufacturing platforms for promising COVID-19 vaccine trials early could hasten the emergence of an effective prophylactic vaccine against SARS-CoV-2. 
+
+Unlike many global vaccine development programs previously, such as with H1N1, the vaccine development landscape for COVID-19 includes vaccines produced by a wide array of technologies. 
+Experience in the field of oncology is encouraging COVID-19 vaccine developers to use next-generation approaches to vaccine development, which have led to the great diversity of vaccine development programs [@url:https://www.the-scientist.com/news-opinion/newer-vaccine-technologies-deployed-to-develop-covid-19-shot-67152]. 
+Diverse technology platforms include DNA, RNA, virus-like particle, recombinant protein, both replicating and non-replicating viral vectors, live attenuated virus, and inactivated virus approaches. 
+Given the wide range of vaccines under development, it is possible that some vaccine products may eventually be shown to be more effective in certain subpopulations, such as children, pregnant women, immunocompromised patients, the elderly, etc.
+
 
 #### DNA Vaccines
 
@@ -1442,7 +1468,7 @@ Summarize the state of the vaccine approach.
 
 Brief background on the therapeutic.	
 
-##### Anticipated Mechanism
+<!--##### Anticipated Mechanism
 
 Why it may be useful	
 
@@ -1453,12 +1479,12 @@ A list of current studies and their results, using carefully the information req
 ##### Summary
 
 Summarize the state of the vaccine approach.
-
+-->
 #### Oligonucleotide Therapies
 
-Background
+Add background and other information below
 
-##### Anticipated Mechanism
+<!--##### Anticipated Mechanism
 
 Why it may be useful
 
@@ -1469,7 +1495,7 @@ A list of current studies and their results, using carefully the information req
 ##### Summary
 
 Summarize the state of the neutralizing antibody approach.
-
+-->
 ### Underexplored Therapeutics
 
 The majority of current clinical trials and lines of investigation have focused on repurposing existing therapies to counter SARS-CoV-2 and treat its symptoms.
