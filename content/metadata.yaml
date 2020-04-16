@@ -221,7 +221,7 @@ authors:
     github: Jeff-Field
     name: Jeffrey M. Field
     initials: JMF
-    orcid: 000-0001-7161-7284
+    orcid: 0000-0001-7161-7284
     email: jfield@upenn.edu
     contributions:
       - Writing - Original Draft
@@ -315,7 +315,7 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-04-09
-    funders: American Heart Association (20AIREA35050015)
+    funders: the American Heart Association (20AIREA35050015)
   - 
     github: esell17
     name: Elizabeth Sell
