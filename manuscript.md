@@ -250,11 +250,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/495fac8a6d870ab62516d44c2cd04c64e7c25365/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/08b287290ee107df064fd81e6ce07314d4376150/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/495fac8a6d870ab62516d44c2cd04c64e7c25365/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/08b287290ee107df064fd81e6ce07314d4376150/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/495fac8a6d870ab62516d44c2cd04c64e7c25365/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/08b287290ee107df064fd81e6ce07314d4376150/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -287,9 +287,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/495fac8a6d870ab62516d44c2cd04c64e7c25365/))
+([permalink](https://greenelab.github.io/covid19-review/v/08b287290ee107df064fd81e6ce07314d4376150/))
 was automatically generated
-from [greenelab/covid19-review@495fac8](https://github.com/greenelab/covid19-review/tree/495fac8a6d870ab62516d44c2cd04c64e7c25365)
+from [greenelab/covid19-review@08b2872](https://github.com/greenelab/covid19-review/tree/08b287290ee107df064fd81e6ce07314d4376150)
 on April 16, 2020.
 </em></small>
 
@@ -845,11 +845,11 @@ The test cassette contains a pad of SARS-CoV-2 antigens and a nitrocellulose str
 In a specimen that contains antibodies against the SARS-CoV-2 antigen, the antibodies will bind to the strip and be captured by the IgM and/or IgG line(s), resulting in a change of color [@url:https://www.fda.gov/media/136625/download].
 With this particular assay results can be read within 15-20 minutes [@url:https://www.fda.gov/media/136625/download].
 Other research groups, such as the Krammer lab of the Icahn School of Medicine at Mount Sinai proposed an ELISA test that detects IgG and IgM that react against the receptor binding domain (RBD) of the spike proteins (S) of the virus [@doi:10.1101/2020.03.17.20037713].
-The authors are now working to get the assay into clinical use [https://www.livescience.com/coronavirus-tests-available.html].
+The authors are now working to get the assay into clinical use [@url:https://www.livescience.com/coronavirus-tests-available.html].
 
 ##### Limitations of Sierological Tests
 
-Importantly, false-positives can occur due to the cross-reactivity with other antibodies according to the clinical condition of the patient [https://www.fda.gov/media/136625/download].
+Importantly, false-positives can occur due to the cross-reactivity with other antibodies according to the clinical condition of the patient [@url:https://www.fda.gov/media/136625/download].
 Therefore, this test should be used in combination with RNA detection tests [@url:https://www.fda.gov/media/136625/download].
 
 ### Possible Alternatives to Current Practices for Identifying Active Cases
