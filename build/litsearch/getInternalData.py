@@ -175,6 +175,44 @@ def getCitationsData():
     return citationsDF
 
 
+# Pull-Request Functions
+def getPRsFromAPI():
+    """ Gets all the pull-requests; Needs to use pagination because of 100 per-request api limit
+    """
+    PRs = []
+    pageNumber = 1
+    numberOfPRsReturned = 1
+    while numberOfPRsReturned != 0:
+        PRsResponse = requests.get(
+            "https://api.github.com/repos/greenelab/covid19-review/pulls?state=all&per_page=50&page=" +
+            str(pageNumber), headers=headers)
+        PRs_page = json.loads(PRsResponse.text)
+        PRs = PRs + PRs_page
+        numberOfPRsReturned = len(PRs_page)
+        pageNumber += 1
+    return PRs
+
+
+def getRelevantPRData():
+    """ Gets the relevant data from the pull requests"""
+    prInfoFromAPI = getPRsFromAPI()
+    diffHeader = headers.copy()
+    diffHeader['Accept'] = "application/vnd.github.v3.diff"
+    textForReviewPRs = []
+    for PR in prInfoFromAPI:
+        labels = [label["name"] for label in PR['labels']]
+        if "Text for Review" in labels:
+            # Get diff from api
+            diffResponse = requests.get(PR["url"], headers=diffHeader)
+            # Add the info the list
+            textForReviewPRs.append({
+                "pull_request_link": PR["html_url"],
+                "diff": diffResponse.text
+            })
+    return textForReviewPRs
+
+
+# Data merging function
 def mergePaperDataFrames(dataFramesList):
     """ Combine a list of paper dataframes into one.
 
@@ -182,7 +220,6 @@ def mergePaperDataFrames(dataFramesList):
     Can have title and date columns; the tile and date from the first dataframe in the list will be kept in case of conflict.
     Any additional columns unique to dataset will be kept.
     """
-    print(sum([len(df) for df in dataFramesList]), "total items to merge")
 
     # Add "_#" to title and date columns of all but the first df
     for i in range(len(dataFramesList)):
@@ -221,6 +258,24 @@ def mergePaperDataFrames(dataFramesList):
     return merged
 
 
+def addPRLinks(sourcesDF, prData):
+    """ Adds a new column to a sourcesDF with the link to any relevant PR that has that DOI """
+    def addPRLinkToPaperRow(row):
+        prLinks = []
+        doi = str(row.doi)
+        if len(doi) < 1:
+            return
+        else:
+            for PR in prData:
+                if doi in PR["diff"]:
+                    prLinks.append(PR["pull_request_link"])
+            prLinksString = ",".join(prLinks)
+            return prLinksString
+
+    sourcesDF["gh_pull_request_links"] = sourcesDF.apply(addPRLinkToPaperRow, axis=1)
+    return sourcesDF
+
+
 # Main
 # log only critical manubot errors
 logger = logging.getLogger()
@@ -231,11 +286,15 @@ print(len(issuesData), "'New Paper' issues")
 print("\n -- getting citations data --")
 citationsData = getCitationsData()
 print(len(citationsData), "citations in the covid19-review paper")
-# TODO: pullRequestsData = getPullRequestData()
+relevantPRData = getRelevantPRData()
+print(len(relevantPRData), "'Text for Review' Pull-Requests")
 
-print("\n -- merging the data --")
+print("\n -- merging the issues and citations --")
+print(sum([len(df) for df in [citationsData, issuesData]]), "total items to merge")
 combinedData = mergePaperDataFrames([citationsData, issuesData])
 print(len(combinedData), "total items after merge")
+print("\n -- adding in the PR links --")
+combinedData = addPRLinks(combinedData, relevantPRData)
 
 
 combinedDataFilePath = "./output/sources_cross_reference.tsv"
