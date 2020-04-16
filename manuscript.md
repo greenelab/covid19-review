@@ -250,11 +250,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/6921dd568c26285811d78e253a651a6a16a01870/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/ef6311781f7db4ac152246970d71b4f1d66d6139/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/6921dd568c26285811d78e253a651a6a16a01870/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/ef6311781f7db4ac152246970d71b4f1d66d6139/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/6921dd568c26285811d78e253a651a6a16a01870/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/ef6311781f7db4ac152246970d71b4f1d66d6139/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -287,9 +287,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/6921dd568c26285811d78e253a651a6a16a01870/))
+([permalink](https://greenelab.github.io/covid19-review/v/ef6311781f7db4ac152246970d71b4f1d66d6139/))
 was automatically generated
-from [greenelab/covid19-review@6921dd5](https://github.com/greenelab/covid19-review/tree/6921dd568c26285811d78e253a651a6a16a01870)
+from [greenelab/covid19-review@ef63117](https://github.com/greenelab/covid19-review/tree/ef6311781f7db4ac152246970d71b4f1d66d6139)
 on April 16, 2020.
 </em></small>
 
@@ -716,9 +716,11 @@ This section would also be great for the introduction of zoonotic diseases which
 
 #### Primary Transmission and Viral Entry
 
--How does SARS-CoV-2 enter human cells?
--What cells are primary infection sites for SARS-CoV-2?
--What structural aspects allow for viral entry?
+ACE2 receptors have been identified as the binding site for SARS-CoV-2 in animals and humans [@doi:10.1038/nature02145; @doi:10.1007/s00134-020-05985-9; @doi:10.1128/JVI.00127-20]. 
+The virus invades host cells by using ACE2 for entry and the serine protease TMPRSS2 for S protein priming. 
+It then fuses with the membrane and enters the cell via endosomes [@doi:10.1016/j.cell.2020.02.052]. 
+The C-terminal domain of the SARS-CoV-2 S protein was identified as the key region of the virus that interacts with the human ACE2 (hACE2) receptor. 
+The crystal structure of the C-terminal domain of SARS-CoV-2 S protein in complex with human ACE2 reveals stronger interaction and higher affinity for receptor binding than SARS-CoV [doi:10.1016/j.cell.2020.03.045]. 
 
 #### Viral Replication and Spreading
 
