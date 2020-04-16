@@ -361,7 +361,7 @@ authors:
       string: "None"
       lastapproved: !!str 2020-04-14
     funders: NIH Medical Scientist Training Program T32 GM07170
-    -
+  -
     github: anskelly
     name: Ashwin N. Skelly
     initials: ANS
