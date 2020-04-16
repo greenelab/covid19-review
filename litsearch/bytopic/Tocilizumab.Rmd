@@ -1,6 +1,6 @@
 ---
 title: "Track Tocilizumab Literature"
-date: 2020-04-04 17:19:35
+date: 2020-04-15 15:50:46
 output: html_document
 knit: (function(input_file, encoding) {
   out_dir <- 'docs';
@@ -16,7 +16,7 @@ Tocilizumab, IL-6, interleukin-6
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-source('../R_Functions/Topic_Hub_Functions.R')
+source('../R_Functions/Topic_hub_functions.R')
 library("readr")
 library("ggplot2")
 library("kableExtra")
