@@ -259,11 +259,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/cd26cd836157c130aeafe27aeb1592b14c5c5be4/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/298394fb79d6aa0c91b8b27c278429ecf1fc07f3/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/cd26cd836157c130aeafe27aeb1592b14c5c5be4/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/298394fb79d6aa0c91b8b27c278429ecf1fc07f3/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/cd26cd836157c130aeafe27aeb1592b14c5c5be4/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/298394fb79d6aa0c91b8b27c278429ecf1fc07f3/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -296,9 +296,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/cd26cd836157c130aeafe27aeb1592b14c5c5be4/))
+([permalink](https://greenelab.github.io/covid19-review/v/298394fb79d6aa0c91b8b27c278429ecf1fc07f3/))
 was automatically generated
-from [greenelab/covid19-review@cd26cd8](https://github.com/greenelab/covid19-review/tree/cd26cd836157c130aeafe27aeb1592b14c5c5be4)
+from [greenelab/covid19-review@298394f](https://github.com/greenelab/covid19-review/tree/298394fb79d6aa0c91b8b27c278429ecf1fc07f3)
 on April 17, 2020.
 </em></small>
 
@@ -820,6 +820,22 @@ There is a high level of sequence homology between SARS-CoV-2 and SARS-CoV, and 
 However, despite the high level of sequence homology, certain protein structures might be immunologically distinct, prohibiting effective cross-neutralization across different SARS strains [@doi:10.1101/2020.03.21.990770].
 Consequently, earlier proteome-level studies on SARS-CoV can also provide some essential information regarding the new pathogen [@doi:10.1073/pnas.0407992101; @doi:10.1016/j.bbrc.2004.02.074].
 Considering the paucity of omics-level big data sets for SARS-CoV-2 up until now, existing data hubs that contain information for other coronaviruses such as UniProt, NCBI Genome Database, The Immune Epitope Database and Analysis Resource (IEDB), and The Virus Pathogen Resource (ViPR) will serve as useful resources for computational and bioinformatics research on SARS-CoV-2.
+Using such databases, the systems level reconstruction of the PPI (Protein-Protein Interaction) enabled the generation of hypotheses on the mechanism of action of SARS-CoV-2 and suggested drug targets.
+
+#### Protein-protein interaction networks
+
+In a first study [@doi:10.1101/2020.03.22.002386], 26 of the 29 SARS-CoV-2 proteins were cloned and expressed in HEK293T kidney cells and 332 high confidence human proteins that interact with them were consequently identified. 
+Notably, this study suggested the interaction of SARS-CoV-2 with innate immunity pathways.
+The ranking of pathogens with respect to their interactome similarity with SARS-CoV-2 suggested *West Nile Virus*, *Mycobacterium tuberculosis*, and *Human papillomavirus* as the top three hits.
+However, given the lung symptoms associated with COVID-19,  *Mycobacterium tuberculosis* host-pathogen interactome could provide new insights to the mechanism SARS-CoV-2 infection.
+In addition, it was suggested that the envelope protein E could disrupt the host bromodomain-containing proteins, i.e., BRD2 and BRD4, binding to histone. 
+The Spike protein S could likely intervene in the virus fusion through modulating the GOLGA7-ZDHHC5 acyl-transferase complex to increase palmitoylation.
+
+Another study [@doi:10.1101/2020.03.31.019216], used patient-derived peripheral blood mononuclear cells (PBMCs) to identify 251 host proteins targeted by SARS-CoV-2 and the disruption of more than 200 host proteins following the infection.
+The network analysis showed in particular that non-structural proteins 9 and 10 (nsp9 and nsp10) interacted with NKRF that usually represses NFKB. 
+This finding could explain the exacerbation of the immune response that shape the pathology and the high cytokine levels possibly due to the chemotaxis of neutrophils mediated by IL-8 and IL-6.
+Finally, it was suggested [@doi:10.1101/2020.04.09.033522] that protein E of both SARS-CoV and SARS-CoV-2 has a conserved Bcl-2 Homology 3 (BH3)-like motif, that could inhibit anti-apoptosis proteins BCL2 and trigger the apoptosis of T cells.
+Several known compounds were suggested to disrupt the host-pathogen protein interactome were suggested mostly through the inhibition of host proteins. 
 
 
 ## Diagnostics
@@ -1074,20 +1090,51 @@ They are typically combined with protease inhibitors, integrase inhibitors and e
 
 #### Protease Inhibitors
 
-Why it may be useful
+Several studies showed that viral proteases play an important role in the life cycle of (corona)viruses by modulating the cleavage of viral polyprotein precursors [@doi:10.2174/138161207780162971]. 
+Several FDA-approved drugs target proteases like like Lopinavir and Ritonavir in HIV infection, and Simeprevir in hepatitis C virus infection.
+In particular, serine protease inhibitors were suggested for the treatment of SARS and MERS viruses [@doi:10.1016/j.antiviral.2015.01.011].
+Recently, a study [@doi:10.1016/j.cell.2020.02.052] suggested that camostat mesylate, an FDA-approved protease inhibitor (PI) could block the the entry of SARS-CoV-2 into lung cells in vitro.
+However, to test the efficacy of PIs in patients, randomized clinical trials have to be concducted on patients and healthy volunteers..
 
-<!--#### Protease Inhibitor 1
+##### N3
+N3 is an inhibitor of Mpro, a 33.8-kDa SARS-CoV-2 protease that is involved in viral replication and transcription.
 
-##### Anticipated Mechanism
+###### Anticipated Mechanism
+N3 inhibits Mpro through binding to its substrate pocket.
 
 ##### Current Evidence
 
-A list of current studies and their results, using carefully the information requested in the therapeutic paper tickets.
+N3 was first designed computationally [@doi:10.1371/journal.pbio.0030324] to bind in the substrate binding pocket of the Mpro protease of SARS-like coronaviruses [@doi:10.1007/s13238-013-2841-3]. 
+Consequently, the structure N3-bound SARS-CoV-2 Mpro has been solved [@doi:10.1038/s41586-020-2223-y], which confirmed the computational prediction.
+Finally, N3 reduced the viral load in samples taken from patients.
 
 ##### Summary
 
-Summarize the state of the antiviral approach.
--->
+N3 is a computationally designed molecule that inhibits the viral transcription through inhibiting Mpro.
+Although N3 is a strong inhibitor of SARS-CoV-2 in vitro, its safety and efficacy have to be tested in healthy volunteers and patients.
+
+##### Ebselen
+Ebselen identified as Mpro protease inhibitor.
+It is currently investigated as an anti-oxidant drug [@doi:10.1007/s11033-014-3417-x].
+
+###### Anticipated Mechanism
+Ebselen inhibits Mpro through binding to its substrate pocket.
+
+###### Current Evidence
+
+After the design and confirmation of N3 as a highly potent Michael acceptor inhibitor and the identification of Mpro structure [@doi:10.1038/s41586-020-2223-y; @doi:10.1126/science.abb3405], 10000 compounds were screened for their in vitro anti-Mpro activity.
+The six leads that were identified were Ebselen, Disulfiram, Tideglusib, Carmofour, PX-12.
+When the compounds were further assayed on patient viral samples, Ebselen had the strongest potency in reducing the viral load.
+However, the authors cautioned that these compounds are likely promiscuous binders, which would diminish their therapeutic potential.
+
+###### Summary
+
+Ebselen is both a strong Mpro inhibitor and strong inhibitor of viral replication in vitro.
+The reduction of the viral load after exposure to Ebselen was even larger than N3.
+Ebselen is a very promising compound since its safety has been demonstrated in other indications. 
+However, Ebselen is likely a false positive since it is a promiscuous compound that can have many targets [@doi:10.1039/c8cc04258f].
+Therefore, compounds with higher specificity are required to effectively translate to clinical trials..
+
 #### Molecules Targeting the Viral Envelope
 
 Why it may be useful
