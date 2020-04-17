@@ -77,6 +77,7 @@ authors:
     contributions:
       - Writing - Original Draft
       - Writing - Review & Editing
+      - Project Administration
     affiliations:
       - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
     coi:
@@ -106,6 +107,8 @@ authors:
     email: christian.brueffer@med.lu.se
     contributions:
       - Writing - Original Draft
+      - Writing - Review & Editing
+      - Project Administration
     affiliations:
       - Department of Clinical Sciences, Lund University, Lund, Sweden
     coi:
@@ -149,6 +152,8 @@ authors:
     email: gitter@biostat.wisc.edu
     contributions:
       - Methodology
+      - Software
+      - Project Administration
     affiliations:
       - Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, United States of America
       - Morgridge Institute for Research, Madison, Wisconsin, United States of America
@@ -191,6 +196,7 @@ authors:
     email: rnhvelazquez@gmail.com
     contributions:
       - Methodology
+      - Software
     affiliations:
       - Azimuth1, McLean, VA
     coi:
@@ -215,7 +221,7 @@ authors:
     github: Jeff-Field
     name: Jeffrey M. Field
     initials: JMF
-    orcid: 000-0001-7161-7284
+    orcid: 0000-0001-7161-7284
     email: jfield@upenn.edu
     contributions:
       - Writing - Original Draft
@@ -309,7 +315,7 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-04-09
-    funders: American Heart Association (20AIREA35050015)
+    funders: the American Heart Association (20AIREA35050015)
   - 
     github: esell17
     name: Elizabeth Sell
@@ -323,18 +329,67 @@ authors:
       - Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
     coi:
       string: "None"
-      lastapproved: !!str 2020-04-10
--
-github: marouenbg
-name: Marouen Ben Guebila
-initials: MBG
-orcid: 0000-0001-5934-966X
-twitter: marouenbg
-email: marouen.b.guebila@gmail.com
-affiliations: 
-  - Department of Biostatistics, Harvard School of Public Health
-code of conduct:
-  confirmed: Yes
-coi:
-  string: "None"
-  lastapproved: !!str 2020-04-17
+      lastapproved: !!str 2020-04-10    
+  - 
+    github: jinhui2
+    name: Jinhui Wang
+    initials: JW
+    orcid: 0000-0002-5796-8130
+    email: jinhui2@pennmedicine.upenn.edu
+    contributions:
+      - Writing - Revising & Editing
+    affiliations:
+      - Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-04-13 
+  -
+    github: dianerafi
+    name: Diane N. Rafizadeh
+    initials: DNR
+    orcid: 0000-0002-2838-067X
+    email: diane.rafizadeh@pennmedicine.upenn.edu
+    contributions:
+      - Writing - Original Draft
+      - Writing - Review & Editing
+    affiliations:
+      - Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+      - Department of Chemistry, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+    code of conduct:
+      confirmed: yes
+    coi: 
+      string: "None"
+      lastapproved: !!str 2020-04-14
+    funders: NIH Medical Scientist Training Program T32 GM07170
+  -
+    github: anskelly
+    name: Ashwin N. Skelly
+    initials: ANS
+    orcid: 0000-0002-1565-3376
+    email: ashwin.skelly@pennmedicine.upenn.edu
+    contributions:
+      - Writing - Original Draft
+      - Writing - Review & Editing
+    affiliations:
+      - Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+      - Institute for Immunology, University of Pennsylvania Perelman School of Medicine, Philadelphia, United States of America
+    code of conduct:
+      confirmed: yes
+    coi: 
+      string: "None"
+      lastapproved: !!str 2020-04-16
+    funders: NIH Medical Scientist Training Program T32 GM07170
+  -
+    github: marouenbg
+    name: Marouen Ben Guebila
+    initials: MBG
+    orcid: 0000-0001-5934-966X
+    twitter: marouenbg
+    email: marouen.b.guebila@gmail.com
+    affiliations: 
+      - Department of Biostatistics, Harvard School of Public Health
+    code of conduct:
+      confirmed: Yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-04-17
