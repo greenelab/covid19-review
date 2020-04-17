@@ -212,6 +212,27 @@ def getRelevantPRData():
     return textForReviewPRs
 
 
+# Get Mt. Sinai data
+def addMtSinaiReviewLinks(df):
+    # Get list of papers reviewed
+    mtSinaiPapersResponse = requests.get("https://api.github.com/repos/ismms-himc/covid-19_sinai_reviews/contents/markdown_files", headers=headers)
+    mtSinaiPapers = json.loads(mtSinaiPapersResponse.text)
+    reviewedDOIs = [str(paper["name"].split(".md")[0]) for paper in mtSinaiPapers]
+
+    # Add a link to the review
+    def addLinkToReview(row):
+        try:
+            doiWithoutSlash = str(row.doi).replace("/", "-")
+            if doiWithoutSlash in reviewedDOIs:
+                return "https://github.com/ismms-himc/covid-19_sinai_reviews/tree/master/markdown_files/" + doiWithoutSlash + ".md"
+            else:
+                return
+        except:
+            return
+    df['Mt_Sinai_Review_link'] = df.apply(addLinkToReview, axis=1)
+    return df
+
+
 # Data merging function
 def mergePaperDataFrames(dataFramesList):
     """ Combine a list of paper dataframes into one.
@@ -295,6 +316,9 @@ combinedData = mergePaperDataFrames([citationsData, issuesData])
 print(len(combinedData), "total items after merge")
 print("\n -- adding in the PR links --")
 combinedData = addPRLinks(combinedData, relevantPRData)
+print("\n -- adding in Mt. Sinai review links --")
+combinedData = addMtSinaiReviewLinks(combinedData)
+combinedData.set_index('doi', inplace=True)
 
 
 combinedDataFilePath = "./output/sources_cross_reference.tsv"
