@@ -24,10 +24,11 @@ author-meta:
 - Elizabeth Sell
 - Jinhui Wang
 - Diane N. Rafizadeh
+- Ashwin N. Skelly
 bibliography:
 - content/manual-references.bib
 - content/manual-references.json
-date-meta: '2020-04-16'
+date-meta: '2020-04-17'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -46,9 +47,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
 
-  <meta name="dc.date" content="2020-04-16" />
+  <meta name="dc.date" content="2020-04-17" />
 
-  <meta name="citation_publication_date" content="2020-04-16" />
+  <meta name="citation_publication_date" content="2020-04-17" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -238,6 +239,14 @@ header-includes: '<!--
 
   <meta name="citation_author_orcid" content="0000-0002-2838-067X" />
 
+  <meta name="citation_author" content="Ashwin N. Skelly" />
+
+  <meta name="citation_author_institution" content="Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America" />
+
+  <meta name="citation_author_institution" content="Institute for Immunology, University of Pennsylvania Perelman School of Medicine, Philadelphia, United States of America" />
+
+  <meta name="citation_author_orcid" content="0000-0002-1565-3376" />
+
   <link rel="canonical" href="https://greenelab.github.io/covid19-review/" />
 
   <meta property="og:url" content="https://greenelab.github.io/covid19-review/" />
@@ -250,11 +259,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/0ad98f299430d7c64af6056d02c89eede297ec2c/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/cd26cd836157c130aeafe27aeb1592b14c5c5be4/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/0ad98f299430d7c64af6056d02c89eede297ec2c/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/cd26cd836157c130aeafe27aeb1592b14c5c5be4/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/0ad98f299430d7c64af6056d02c89eede297ec2c/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/cd26cd836157c130aeafe27aeb1592b14c5c5be4/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -287,10 +296,10 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/0ad98f299430d7c64af6056d02c89eede297ec2c/))
+([permalink](https://greenelab.github.io/covid19-review/v/cd26cd836157c130aeafe27aeb1592b14c5c5be4/))
 was automatically generated
-from [greenelab/covid19-review@0ad98f2](https://github.com/greenelab/covid19-review/tree/0ad98f299430d7c64af6056d02c89eede297ec2c)
-on April 16, 2020.
+from [greenelab/covid19-review@cd26cd8](https://github.com/greenelab/covid19-review/tree/cd26cd836157c130aeafe27aeb1592b14c5c5be4)
+on April 17, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -549,6 +558,16 @@ Instead, you should collect information from your local health department, the [
      · Funded by NIH Medical Scientist Training Program T32 GM07170
   </small>
 
++ **Ashwin N. Skelly**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-1565-3376](https://orcid.org/0000-0002-1565-3376)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [anskelly](https://github.com/anskelly)<br>
+  <small>
+     Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America; Institute for Immunology, University of Pennsylvania Perelman School of Medicine, Philadelphia, United States of America
+     · Funded by NIH Medical Scientist Training Program T32 GM07170
+  </small>
+
 
 
 ## Abstract {.page_break_before .unnumbered}
@@ -717,7 +736,6 @@ This section would also be great for the introduction of zoonotic diseases which
 #### Primary Transmission and Viral Entry
 
 Like that of SARS-CoV, SARS-CoV-2 entry into host cells is mediated by the interaction between the viral spike glycoprotein (S) and human angiotensin-converting enzyme 2 (ACE2) in humans and other animals [@doi:10.1126/science.1116480; @doi:10.1016/j.cell.2020.02.058; @doi:10.1126/science.abb2762; @doi:10.1038/s41586-020-2179-y; @doi:10.1101/2020.02.19.956235; @doi:10.1016/j.cell.2020.02.052; @doi:10.1016/j.cell.2020.03.045; @doi:10.1128/jvi.00127-20].
-ACE2 receptors have been identified as the binding site for SARS-CoV-2 in animals and humans [@doi:10.1038/nature02145; @doi:10.1007/s00134-020-05985-9; @doi:10.1128/JVI.00127-20]. 
 The S protein is a highly glycosylated trimer that requires two proteolytic cleavage events, leading to substantial conformational changes, to achieve viral fusion with the host cell membrane [@doi:10.1016/j.cell.2020.02.058; @doi:10.1126/science.abb2507]. 
 Each protomer is composed of an S1 and an S2 subunit, which mediate receptor binding and viral fusion, respectively. 
 The priming proteolytic events occur sequentially, first at the S1/S2 junction and then at the S2’ site, ultimately resulting in the shedding of the S1 subunit and transitioning of the S2 subunit to a more stable, fusion-conducive conformation. 
@@ -834,18 +852,16 @@ In this case the test was designed to detect sarbecoviruses, of which SARS-CoV-2
 Considering that no other sarbecoviruses are currently known to infect humans, a positive test indicates that the patient is infected with SARS-CoV-2.
 However, this test is not able to discriminate the genetics of viruses within the sarbecovirus clade.
 
-#### CRISPR test
+##### CRISPR-based detection
 
-CRISPR technology has been identified as an approach that could increase the rate of diagnostic testing for COVID-19 [@doi:10.1016/j.cell.2014.05.010].
-CRISPR technologies produced by two American companies, Mammoth Biosciences and Sherlock Biosciences, are being used in the development of potential diagnostic tests for SARS-CoV-2 [@doi:10.1101/2020.03.06.20032334; @doi:10.1101/2020.02.26.967026].
-Their methodology includes the purification of RNA extracted from patient specimens followed by loop-mediated amplification (fast amplification) of the RNA and addition of the CRISPR reagents CAS12, which cuts the DNA or RNA, and the RNA guidance.
-The RNA guidance helps CAS12 to direct the cut of a sequence corresponding to a piece of the coronavirus genome (specifically, N, E and RdRP genes in the test designed by Mammoth).
-With this test, if CAS12 and its guide find a match in the RNA, then the cut occurs and the patient is positive for SARS-CoV-2.
-Specifically, when CAS12 is active, it also cuts a designed strand containing molecules that change color once they are free [@doi:10.1101/2020.03.06.20032334].
-Mammoth's CRISPR test is designed to give a practical solution in areas that are at greater risk of infection (i.e. airports, local community hospitals).
-This test shows a sensitivity range of 70-300 copies of the target RNA/ul.
-Furthermore, the assay needs very simple equipment and can be as fast as 30 minutes.
-Finally, the result indicator can be as simple as a color change on a strip [@doi:10.1126/science.abb8400].
+Two American companies, Mammoth Biosciences and Sherlock Biosciences, adapted their CRISPR-based detection technology [@doi:10.1016/j.cell.2014.05.010] for COVID-19 diagnostics to increase testing throughput and accessibility [@doi:10.1101/2020.03.06.20032334].
+Their methodology involves purification of RNA extracted from patient specimens, amplification of extracted RNAs by loop-mediated amplification, a rapid, isothermal nucleic acid amplification technique, and application of their CRISPR-Cas12-based technology.
+In the assay designed by Mammoth Biosciences, guide RNAs were designed to recognize portions of sequences corresponding to the SARS-CoV-2 genome, specifically the N, E and RdRP regions.
+In the presence of SARS-CoV-2 genetic material, sequence recognition by the guide RNAs results in double-stranded DNA cleavage by Cas12, as well as cleavage of a single-stranded DNA molecular beacon.
+The cleavage of this molecular beacon acts as a colorimetric reporter that is subsequently read out in a lateral flow assay and indicates the positive presence of SARS-Cov-2 genetic material and therefore SARS-CoV-2 infection [@doi:10.1101/2020.03.06.20032334].
+This assay has been reported to have a sensitivity as high as detection of 70-300 copies of the target RNA/µl, requires simple, accessible equipment, and can output an easily-interpretable result in approximately 30 minutes [@doi:10.1126/science.abb8400].
+Initial testing with patient samples (n = 23) demonstrated a positive predictive value of 100% and a negative predictive value of 91.7%, which is highly competitive with the CDC's current testing standard using qRT-PCR. 
+This test seeks to develop a practical solution for rapid, low-barrier testing in areas that are at greater risk of infection, such as airports and local community hospitals.
 
 #### Limitation of Molecular Tests
 
@@ -1672,6 +1688,7 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 |Elizabeth Sell|None|2020-04-10|
 |Jinhui Wang|None|2020-04-13|
 |Diane N. Rafizadeh|None|2020-04-14|
+|Ashwin N. Skelly|None|2020-04-16|
 
 ### Author Contributions
 
@@ -1701,6 +1718,7 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 |Elizabeth Sell|Writing - Original Draft, Writing - Review & Editing|
 |Jinhui Wang|Writing - Revising & Editing|
 |Diane N. Rafizadeh|Writing - Original Draft, Writing - Review & Editing|
+|Ashwin N. Skelly|Writing - Original Draft, Writing - Review & Editing|
 
 
 ## References {.page_break_before}
