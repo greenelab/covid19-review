@@ -25,6 +25,7 @@ author-meta:
 - Jinhui Wang
 - Diane N. Rafizadeh
 - Ashwin N. Skelly
+- Marouen Ben Guebila
 bibliography:
 - content/manual-references.bib
 - content/manual-references.json
@@ -247,6 +248,14 @@ header-includes: '<!--
 
   <meta name="citation_author_orcid" content="0000-0002-1565-3376" />
 
+  <meta name="citation_author" content="Marouen Ben Guebila" />
+
+  <meta name="citation_author_institution" content="Department of Biostatistics, Harvard School of Public Health" />
+
+  <meta name="citation_author_orcid" content="0000-0001-5934-966X" />
+
+  <meta name="twitter:creator" content="@marouenbg" />
+
   <link rel="canonical" href="https://greenelab.github.io/covid19-review/" />
 
   <meta property="og:url" content="https://greenelab.github.io/covid19-review/" />
@@ -259,11 +268,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/298394fb79d6aa0c91b8b27c278429ecf1fc07f3/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/7a4368c0a2c5b76e1fc39a5217faaff214e900c4/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/298394fb79d6aa0c91b8b27c278429ecf1fc07f3/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/7a4368c0a2c5b76e1fc39a5217faaff214e900c4/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/298394fb79d6aa0c91b8b27c278429ecf1fc07f3/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/7a4368c0a2c5b76e1fc39a5217faaff214e900c4/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -296,9 +305,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/298394fb79d6aa0c91b8b27c278429ecf1fc07f3/))
+([permalink](https://greenelab.github.io/covid19-review/v/7a4368c0a2c5b76e1fc39a5217faaff214e900c4/))
 was automatically generated
-from [greenelab/covid19-review@298394f](https://github.com/greenelab/covid19-review/tree/298394fb79d6aa0c91b8b27c278429ecf1fc07f3)
+from [greenelab/covid19-review@7a4368c](https://github.com/greenelab/covid19-review/tree/7a4368c0a2c5b76e1fc39a5217faaff214e900c4)
 on April 17, 2020.
 </em></small>
 
@@ -566,6 +575,17 @@ Instead, you should collect information from your local health department, the [
   <small>
      Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America; Institute for Immunology, University of Pennsylvania Perelman School of Medicine, Philadelphia, United States of America
      · Funded by NIH Medical Scientist Training Program T32 GM07170
+  </small>
+
++ **Marouen Ben Guebila**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0001-5934-966X](https://orcid.org/0000-0001-5934-966X)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [marouenbg](https://github.com/marouenbg)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [marouenbg](https://twitter.com/marouenbg)<br>
+  <small>
+     Department of Biostatistics, Harvard School of Public Health
   </small>
 
 
@@ -1736,6 +1756,7 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 |Jinhui Wang|None|2020-04-13|
 |Diane N. Rafizadeh|None|2020-04-14|
 |Ashwin N. Skelly|None|2020-04-16|
+|Marouen Ben Guebila|None|2020-04-17|
 
 ### Author Contributions
 
@@ -1766,6 +1787,7 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 |Jinhui Wang|Writing - Revising & Editing|
 |Diane N. Rafizadeh|Writing - Original Draft, Writing - Review & Editing|
 |Ashwin N. Skelly|Writing - Original Draft, Writing - Review & Editing|
+|Marouen Ben Guebila||
 
 
 ## References {.page_break_before}
