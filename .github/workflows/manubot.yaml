@@ -12,6 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       GITHUB_PULL_REQUEST_SHA: ${{ github.event.pull_request.head.sha }}
+      CROSSREF_SOURCES: true
     steps:
       - name: Set Environment Variables
         run: |
