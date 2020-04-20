@@ -29,7 +29,7 @@ author-meta:
 bibliography:
 - content/manual-references.bib
 - content/manual-references.json
-date-meta: '2020-04-17'
+date-meta: '2020-04-20'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -48,9 +48,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
 
-  <meta name="dc.date" content="2020-04-17" />
+  <meta name="dc.date" content="2020-04-20" />
 
-  <meta name="citation_publication_date" content="2020-04-17" />
+  <meta name="citation_publication_date" content="2020-04-20" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -268,11 +268,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/7a4368c0a2c5b76e1fc39a5217faaff214e900c4/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/5698df17607e20680f36a66afaf26ed56dc2ad11/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/7a4368c0a2c5b76e1fc39a5217faaff214e900c4/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/5698df17607e20680f36a66afaf26ed56dc2ad11/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/7a4368c0a2c5b76e1fc39a5217faaff214e900c4/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/5698df17607e20680f36a66afaf26ed56dc2ad11/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -305,10 +305,10 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/7a4368c0a2c5b76e1fc39a5217faaff214e900c4/))
+([permalink](https://greenelab.github.io/covid19-review/v/5698df17607e20680f36a66afaf26ed56dc2ad11/))
 was automatically generated
-from [greenelab/covid19-review@7a4368c](https://github.com/greenelab/covid19-review/tree/7a4368c0a2c5b76e1fc39a5217faaff214e900c4)
-on April 17, 2020.
+from [greenelab/covid19-review@5698df1](https://github.com/greenelab/covid19-review/tree/5698df17607e20680f36a66afaf26ed56dc2ad11)
+on April 20, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -1175,20 +1175,19 @@ Summarize the state of the antiviral approach.
 
 Brief background on the therapeutic.
 
-<!--#### Drug (or drug class) 1
+#### Viral Entry Receptors
 
-##### Viral Entry Receptors
+Entry SARS-CoV-2 depends on ACE2 and TMPRSS2 [@doi:10.1016/j.cell.2020.02.052].
+In principle, drugs that reduce the expression of these proteins or sterically hinder viral interactions with them might reduce viral entry into cells.
 
-Why it may be useful
-
-###### Current Evidence
+#### Current Evidence
 
 A list of current studies and their results, using carefully the information requested in the therapeutic paper tickets.
 
-###### Summary
+#### Summary
 
 Summarize the state of the antiviral approach.
--->
+
 ### Broad-Spectrum Pharmaceuticals
 
 - Add some background on broad-spectrum pharmaceuticals
