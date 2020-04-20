@@ -299,6 +299,7 @@ def addPRLinks(sourcesDF, prData):
             return
         else:
             for PR in prData:
+                # TODO: use manubot to keep all DOIs consistent so that there will be no issues with short DOIs not matching up. (here and elsewhere)
                 if doi in PR["diff"]:
                     prLinks.append(PR["pull_request_link"])
             prLinksString = ",".join(prLinks)
