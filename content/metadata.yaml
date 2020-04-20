@@ -379,3 +379,17 @@ authors:
       string: "None"
       lastapproved: !!str 2020-04-16
     funders: NIH Medical Scientist Training Program T32 GM07170
+  -
+    github: marouenbg
+    name: Marouen Ben Guebila
+    initials: MBG
+    orcid: 0000-0001-5934-966X
+    twitter: marouenbg
+    email: marouen.b.guebila@gmail.com
+    affiliations: 
+      - Department of Biostatistics, Harvard School of Public Health
+    code of conduct:
+      confirmed: Yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-04-17
