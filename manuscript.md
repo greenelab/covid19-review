@@ -268,11 +268,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/5698df17607e20680f36a66afaf26ed56dc2ad11/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/4225c3eb809959c9c604a85f10915625ebcdfcdd/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/5698df17607e20680f36a66afaf26ed56dc2ad11/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/4225c3eb809959c9c604a85f10915625ebcdfcdd/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/5698df17607e20680f36a66afaf26ed56dc2ad11/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/4225c3eb809959c9c604a85f10915625ebcdfcdd/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -305,9 +305,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/5698df17607e20680f36a66afaf26ed56dc2ad11/))
+([permalink](https://greenelab.github.io/covid19-review/v/4225c3eb809959c9c604a85f10915625ebcdfcdd/))
 was automatically generated
-from [greenelab/covid19-review@5698df1](https://github.com/greenelab/covid19-review/tree/5698df17607e20680f36a66afaf26ed56dc2ad11)
+from [greenelab/covid19-review@4225c3e](https://github.com/greenelab/covid19-review/tree/4225c3eb809959c9c604a85f10915625ebcdfcdd)
 on April 20, 2020.
 </em></small>
 
@@ -1177,7 +1177,7 @@ Brief background on the therapeutic.
 
 #### Viral Entry Receptors
 
-Entry SARS-CoV-2 depends on ACE2 and TMPRSS2 [@doi:10.1016/j.cell.2020.02.052].
+Entry of SARS-CoV-2 into the cell depends on the ACE2 receptor and the enzyme encoded by _TMPRSS2_ [@doi:10.1016/j.cell.2020.02.052].
 In principle, drugs that reduce the expression of these proteins or sterically hinder viral interactions with them might reduce viral entry into cells.
 
 #### Current Evidence
