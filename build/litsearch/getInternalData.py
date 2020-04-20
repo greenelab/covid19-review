@@ -225,7 +225,7 @@ def addMtSinaiReviewLinks(df):
     citedDOIs = [str(citedDOI) for citedDOI in list(df[~df["Covid19-review_paperLink"].isnull()].doi)]
     newReviews = [doi for doi in reviewedDOIs if doi.replace('-', '/') not in citedDOIs]
     if len(newReviews) > 0:
-        print("\n -- New Reviewes in the Mt Sinai Repo... --")
+        print("\n -- New Reviews in the Mt Sinai Repo... --")
         print("Of the", len(reviewedDOIs), "papers reviewed in https://github.com/ismms-himc/covid-19_sinai_reviews, the following", len(newReviews), "aren't listed in the covid19-review paper:")
         for newReview in newReviews:
             print(newReview)
