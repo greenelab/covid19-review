@@ -198,7 +198,7 @@
 196	Risk factors related to hepatic injury in patients with corona virus disease 2019	3-10-2020	medRxiv	https://doi.org/ggq632	https://greenelab.github.io/covid19-review/#ref-5CGbn9Jj			10.1101/2020.02.28.20028514	
 197	Detectable serum SARS-CoV-2 viral load (RNAaemia) is closely associated with drastically elevated interleukin 6 (IL-6) level in critically ill COVID-19 patients	3-3-2020	medRxiv	https://doi.org/ggq633	https://greenelab.github.io/covid19-review/#ref-T0BDaXkw			10.1101/2020.02.29.20029520	
 198	Lymphopenia predicts disease severity of COVID-19: a descriptive and predictive study	3-3-2020	medRxiv	https://doi.org/ggq634	https://greenelab.github.io/covid19-review/#ref-uIwTzZkJ			10.1101/2020.03.01.20029074	
-199	The potential role of IL-6 in monitoring coronavirus disease 2019.	3-6-2020	medRxiv	https://doi.org/ggq635	https://greenelab.github.io/covid19-review/#ref-1GMxHWnxN			10.1101/2020.03.01.20029769	
+199	The potential role of IL-6 in monitoring severe case of coronavirus disease 2019	3-10-2020	medRxiv	https://doi.org/ggq635	https://greenelab.github.io/covid19-review/#ref-1GMxHWnxN			10.1101/2020.03.01.20029769	
 200	Clinical and Laboratory Profiles of 75 Hospitalized Patients with Novel Coronavirus Disease 2019 in Hefei, China	3-6-2020	medRxiv	https://doi.org/ggq636	https://greenelab.github.io/covid19-review/#ref-1B0vBwv1q			10.1101/2020.03.01.20029785	
 201	Exuberant elevation of IP-10, MCP-3 and IL-1ra during SARS-CoV-2 infection is associated with disease severity and fatal outcome	3-6-2020	medRxiv	https://doi.org/ggq637	https://greenelab.github.io/covid19-review/#ref-RyXNw87v			10.1101/2020.03.02.20029975	
 202	Antibody responses to SARS-CoV-2 in patients of novel coronavirus disease 2019	3-2-2020	medRxiv	https://doi.org/ggrbj6	https://greenelab.github.io/covid19-review/#ref-5HXuCa5t			10.1101/2020.03.02.20030189	
@@ -225,7 +225,7 @@
 223	Ocular conjunctival inoculation of SARS-CoV-2 can cause mild COVID-19 in Rhesus macaques	3-30-2020	bioRxiv	https://doi.org/ggq64r	https://greenelab.github.io/covid19-review/#ref-unVgVIfU			10.1101/2020.03.13.990036	
 224	Reinfection could not occur in SARS-CoV-2 infected rhesus macaques	3-14-2020	bioRxiv	https://doi.org/ggn8r8	https://greenelab.github.io/covid19-review/#ref-3XqFhi8l			10.1101/2020.03.13.990226	
 225	A highly conserved cryptic epitope in the receptor-binding domains of SARS-CoV-2 and SARS-CoV	3-14-2020	bioRxiv	https://doi.org/ggq64s	https://greenelab.github.io/covid19-review/#ref-6gQxRkWM			10.1101/2020.03.13.991570	
-226	Highly accurate and sensitive diagnostic detection of SARS-CoV-2 by digital PCR	3-30-2020	medRxiv	https://doi.org/ggqnqh	https://greenelab.github.io/covid19-review/#ref-UYD5T2mp	https://github.com/greenelab/covid19-review/issues/209	New Paper, Review Needed, biostatistics, diagnostic	10.1101/2020.03.14.20036129	
+226	Highly accurate and sensitive diagnostic detection of SARS-CoV-2 by digital PCR	3-30-2020	medRxiv	https://doi.org/ggqnqh	https://greenelab.github.io/covid19-review/#ref-UYD5T2mp			10.1101/2020.03.14.20036129	
 227	SARS-CoV-2 invades host cells via a novel route: CD147-spike protein	3-14-2020	bioRxiv	https://doi.org/ggq64t	https://greenelab.github.io/covid19-review/#ref-14y8UvAbH			10.1101/2020.03.14.988345	
 228	Blood single cell immune profiling reveals the interferon-MAPK pathway mediated adaptive immune response for COVID-19	3-17-2020	medRxiv	https://doi.org/ggq64v	https://greenelab.github.io/covid19-review/#ref-18l4l0nLX			10.1101/2020.03.15.20033472	
 229	Cross-reactive antibody response between SARS-CoV-2 and SARS-CoV infections	3-17-2020	bioRxiv	https://doi.org/ggq64w	https://greenelab.github.io/covid19-review/#ref-dM1rOHmH			10.1101/2020.03.15.993097	
@@ -362,36 +362,37 @@
 360						https://github.com/greenelab/covid19-review/issues/229	New Paper, Review Needed, immunology, virology	10.1101/2020.02.26.964882]	https://github.com/greenelab/covid19-review/pull/196
 361						https://github.com/greenelab/covid19-review/issues/222	New Paper	10.1038/s42254-020-0175-7	
 362						https://github.com/greenelab/covid19-review/issues/211	New Paper, Review Needed, biostatistics, pharmacology, therapeutic	10.1101/2020.04.10.20060558	
-363						https://github.com/greenelab/covid19-review/issues/195	New Paper, Review Needed, immunology, virology	10.1101/2020.04.09.033522]	https://github.com/greenelab/covid19-review/pull/193
-364						https://github.com/greenelab/covid19-review/issues/194	New Paper, Review Needed, immunology, virology	10.1101/2020.03.31.019216]	https://github.com/greenelab/covid19-review/pull/193
-365						https://github.com/greenelab/covid19-review/issues/191	New Paper, Review Needed, epidemiology	10.1101/2020.04.05.20054502	
-366						https://github.com/greenelab/covid19-review/issues/189	New Paper, Review Needed, biostatistics, pharmacology, therapeutic	10.1101/2020.04.08.20054551	
-367						https://github.com/greenelab/covid19-review/issues/185	New Paper, Review Needed, diagnostic	10.1101/2020.03.23.20041889	
-368						https://github.com/greenelab/covid19-review/issues/184	New Paper, Review Needed, diagnostic	10.1038/s41586-020-2196-x	
-369						https://github.com/greenelab/covid19-review/issues/177	New Paper, Review Needed	10.1001/jamaoto.2020.0832	
-370						https://github.com/greenelab/covid19-review/issues/168	New Paper, Review Needed, therapeutic	10.1126/scitranslmed.aac7462	
-371						https://github.com/greenelab/covid19-review/issues/167	New Paper, Review Needed, therapeutic	10.1038/nrmicro2147	
-372						https://github.com/greenelab/covid19-review/issues/166	New Paper, Review Needed, immunology, virology	10.1016/j.antiviral.2020.104742	
-373						https://github.com/greenelab/covid19-review/issues/145	New Paper, Review Needed, therapeutic	10.1016/j.cell.2020.04.004	
-374						https://github.com/greenelab/covid19-review/issues/143	Additional Reviews Welcome, New Paper, biostatistics, epidemiology	10/ggnxb3	https://github.com/greenelab/covid19-review/pull/215,https://github.com/greenelab/covid19-review/pull/200,https://github.com/greenelab/covid19-review/pull/196,https://github.com/greenelab/covid19-review/pull/187,https://github.com/greenelab/covid19-review/pull/164,https://github.com/greenelab/covid19-review/pull/75
-375						https://github.com/greenelab/covid19-review/issues/137	New Paper, Review Needed, immunology, pharmacology, virology	10.1016/j.cell.2020.02.052]	https://github.com/greenelab/covid19-review/pull/232,https://github.com/greenelab/covid19-review/pull/224,https://github.com/greenelab/covid19-review/pull/203,https://github.com/greenelab/covid19-review/pull/199,https://github.com/greenelab/covid19-review/pull/193,https://github.com/greenelab/covid19-review/pull/139,https://github.com/greenelab/covid19-review/pull/68
-376						https://github.com/greenelab/covid19-review/issues/134	New Paper, Review Needed, therapeutic	10.1101/2020.03.23.20039362	
-377						https://github.com/greenelab/covid19-review/issues/133	New Paper, Review Needed, biostatistics, immunology, virology	10.1101/2020.03.30.016931	
-378						https://github.com/greenelab/covid19-review/issues/129	New Paper, Review Needed, therapeutic	10.1101/2020.03.28.20045955	
-379						https://github.com/greenelab/covid19-review/issues/128	New Paper, Review Needed, therapeutic	10.1101/2020.03.19.20038984	
-380						https://github.com/greenelab/covid19-review/issues/127	New Paper, Review Needed, therapeutic	10.1101/2020.03.19.20039008	
-381						https://github.com/greenelab/covid19-review/issues/118	New Paper, Review Needed	10.1101/2020.03.27.009480v1	
-382						https://github.com/greenelab/covid19-review/issues/117	New Paper, Review Needed, diagnostic	10.1101/2020.03.26.20039438	
-383						https://github.com/greenelab/covid19-review/issues/114	New Paper, Review Needed, biostatistics, epidemiology	10.25561/77482]	
-384						https://github.com/greenelab/covid19-review/issues/108	New Paper, Review Needed	10.1038/s41586-020-2008-3]	
-385						https://github.com/greenelab/covid19-review/issues/107	New Paper, Review Needed	10.1101/2020.02.19.950253]	https://github.com/greenelab/covid19-review/pull/200,https://github.com/greenelab/covid19-review/pull/136,https://github.com/greenelab/covid19-review/pull/46
-386						https://github.com/greenelab/covid19-review/issues/106	New Paper, Review Needed	10.1038/s41586-020-2012-7]	https://github.com/greenelab/covid19-review/pull/203,https://github.com/greenelab/covid19-review/pull/200,https://github.com/greenelab/covid19-review/pull/136,https://github.com/greenelab/covid19-review/pull/68,https://github.com/greenelab/covid19-review/pull/46
-387						https://github.com/greenelab/covid19-review/issues/104	New Paper, Review Needed, epidemiology, virology	10.1056/nejmc2004973	
-388						https://github.com/greenelab/covid19-review/issues/103	New Paper, Review Needed, epidemiology	10.1126/science.abb3221]	https://github.com/greenelab/covid19-review/pull/171,https://github.com/greenelab/covid19-review/pull/121
-389						https://github.com/greenelab/covid19-review/issues/99	New Paper, Review Needed, pharmacology, therapeutic	10.1097/ta.0000000000002694	
-390						https://github.com/greenelab/covid19-review/issues/98	New Paper, Review Needed, pharmacology, therapeutic	10.1021/acscentsci.0c00272	
-391						https://github.com/greenelab/covid19-review/issues/97	Additional Reviews Welcome, New Paper	10.1101/2020.03.21.990770v2	
-392						https://github.com/greenelab/covid19-review/issues/91	New Paper, Review Needed	10.1101/2020.02.10.942748	
-393						https://github.com/greenelab/covid19-review/issues/85	New Paper, Review Needed	10/ggjr43]	https://github.com/greenelab/covid19-review/pull/215,https://github.com/greenelab/covid19-review/pull/136,https://github.com/greenelab/covid19-review/pull/68
-394						https://github.com/greenelab/covid19-review/issues/71	Additional Reviews Welcome, New Paper, pharmacology, therapeutic, virology	10.1056/nejmoa2001282	
-395						https://github.com/greenelab/covid19-review/issues/56	New Paper, Review Needed, immunology, pharmacology, therapeutic, virology	10.1016/j.drudis.2019.01.018	
+363						https://github.com/greenelab/covid19-review/issues/209	New Paper, Review Needed, biostatistics, diagnostic	10.1101/2020.03.14.20036129]	
+364						https://github.com/greenelab/covid19-review/issues/195	New Paper, Review Needed, immunology, virology	10.1101/2020.04.09.033522]	https://github.com/greenelab/covid19-review/pull/193
+365						https://github.com/greenelab/covid19-review/issues/194	New Paper, Review Needed, immunology, virology	10.1101/2020.03.31.019216]	https://github.com/greenelab/covid19-review/pull/193
+366						https://github.com/greenelab/covid19-review/issues/191	New Paper, Review Needed, epidemiology	10.1101/2020.04.05.20054502	
+367						https://github.com/greenelab/covid19-review/issues/189	New Paper, Review Needed, biostatistics, pharmacology, therapeutic	10.1101/2020.04.08.20054551	
+368						https://github.com/greenelab/covid19-review/issues/185	New Paper, Review Needed, diagnostic	10.1101/2020.03.23.20041889	
+369						https://github.com/greenelab/covid19-review/issues/184	New Paper, Review Needed, diagnostic	10.1038/s41586-020-2196-x	
+370						https://github.com/greenelab/covid19-review/issues/177	New Paper, Review Needed	10.1001/jamaoto.2020.0832	
+371						https://github.com/greenelab/covid19-review/issues/168	New Paper, Review Needed, therapeutic	10.1126/scitranslmed.aac7462	
+372						https://github.com/greenelab/covid19-review/issues/167	New Paper, Review Needed, therapeutic	10.1038/nrmicro2147	
+373						https://github.com/greenelab/covid19-review/issues/166	New Paper, Review Needed, immunology, virology	10.1016/j.antiviral.2020.104742	
+374						https://github.com/greenelab/covid19-review/issues/145	New Paper, Review Needed, therapeutic	10.1016/j.cell.2020.04.004	
+375						https://github.com/greenelab/covid19-review/issues/143	Additional Reviews Welcome, New Paper, biostatistics, epidemiology	10/ggnxb3	https://github.com/greenelab/covid19-review/pull/215,https://github.com/greenelab/covid19-review/pull/200,https://github.com/greenelab/covid19-review/pull/196,https://github.com/greenelab/covid19-review/pull/187,https://github.com/greenelab/covid19-review/pull/164,https://github.com/greenelab/covid19-review/pull/75
+376						https://github.com/greenelab/covid19-review/issues/137	New Paper, Review Needed, immunology, pharmacology, virology	10.1016/j.cell.2020.02.052]	https://github.com/greenelab/covid19-review/pull/232,https://github.com/greenelab/covid19-review/pull/224,https://github.com/greenelab/covid19-review/pull/203,https://github.com/greenelab/covid19-review/pull/199,https://github.com/greenelab/covid19-review/pull/193,https://github.com/greenelab/covid19-review/pull/139,https://github.com/greenelab/covid19-review/pull/68
+377						https://github.com/greenelab/covid19-review/issues/134	New Paper, Review Needed, therapeutic	10.1101/2020.03.23.20039362	
+378						https://github.com/greenelab/covid19-review/issues/133	New Paper, Review Needed, biostatistics, immunology, virology	10.1101/2020.03.30.016931	
+379						https://github.com/greenelab/covid19-review/issues/129	New Paper, Review Needed, therapeutic	10.1101/2020.03.28.20045955	
+380						https://github.com/greenelab/covid19-review/issues/128	New Paper, Review Needed, therapeutic	10.1101/2020.03.19.20038984	
+381						https://github.com/greenelab/covid19-review/issues/127	New Paper, Review Needed, therapeutic	10.1101/2020.03.19.20039008	
+382						https://github.com/greenelab/covid19-review/issues/118	New Paper, Review Needed	10.1101/2020.03.27.009480v1	
+383						https://github.com/greenelab/covid19-review/issues/117	New Paper, Review Needed, diagnostic	10.1101/2020.03.26.20039438	
+384						https://github.com/greenelab/covid19-review/issues/114	New Paper, Review Needed, biostatistics, epidemiology	10.25561/77482]	
+385						https://github.com/greenelab/covid19-review/issues/108	New Paper, Review Needed	10.1038/s41586-020-2008-3]	
+386						https://github.com/greenelab/covid19-review/issues/107	New Paper, Review Needed	10.1101/2020.02.19.950253]	https://github.com/greenelab/covid19-review/pull/200,https://github.com/greenelab/covid19-review/pull/136,https://github.com/greenelab/covid19-review/pull/46
+387						https://github.com/greenelab/covid19-review/issues/106	New Paper, Review Needed	10.1038/s41586-020-2012-7]	https://github.com/greenelab/covid19-review/pull/203,https://github.com/greenelab/covid19-review/pull/200,https://github.com/greenelab/covid19-review/pull/136,https://github.com/greenelab/covid19-review/pull/68,https://github.com/greenelab/covid19-review/pull/46
+388						https://github.com/greenelab/covid19-review/issues/104	New Paper, Review Needed, epidemiology, virology	10.1056/nejmc2004973	
+389						https://github.com/greenelab/covid19-review/issues/103	New Paper, Review Needed, epidemiology	10.1126/science.abb3221]	https://github.com/greenelab/covid19-review/pull/171,https://github.com/greenelab/covid19-review/pull/121
+390						https://github.com/greenelab/covid19-review/issues/99	New Paper, Review Needed, pharmacology, therapeutic	10.1097/ta.0000000000002694	
+391						https://github.com/greenelab/covid19-review/issues/98	New Paper, Review Needed, pharmacology, therapeutic	10.1021/acscentsci.0c00272	
+392						https://github.com/greenelab/covid19-review/issues/97	Additional Reviews Welcome, New Paper	10.1101/2020.03.21.990770v2	
+393						https://github.com/greenelab/covid19-review/issues/91	New Paper, Review Needed	10.1101/2020.02.10.942748	
+394						https://github.com/greenelab/covid19-review/issues/85	New Paper, Review Needed	10/ggjr43]	https://github.com/greenelab/covid19-review/pull/215,https://github.com/greenelab/covid19-review/pull/136,https://github.com/greenelab/covid19-review/pull/68
+395						https://github.com/greenelab/covid19-review/issues/71	Additional Reviews Welcome, New Paper, pharmacology, therapeutic, virology	10.1056/nejmoa2001282	
+396						https://github.com/greenelab/covid19-review/issues/56	New Paper, Review Needed, immunology, pharmacology, therapeutic, virology	10.1016/j.drudis.2019.01.018	
