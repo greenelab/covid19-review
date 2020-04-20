@@ -217,7 +217,18 @@ def addMtSinaiReviewLinks(df):
     # Get list of papers reviewed
     mtSinaiPapersResponse = requests.get("https://api.github.com/repos/ismms-himc/covid-19_sinai_reviews/contents/markdown_files", headers=headers)
     mtSinaiPapers = json.loads(mtSinaiPapersResponse.text)
+    # TODO: handle errors in the file names if they occur (see https://github.com/greenelab/covid19-review/pull/226#discussion_r410696328)
     reviewedDOIs = [str(paper["name"].split(".md")[0]) for paper in mtSinaiPapers]
+
+    # Check if there are Mt Sinai Reviews not in our paper
+    # This wouldn't pick up cases where the Mt. Sinai adds a new review for a paper that was alread cited elsewhere in our paper but it's probably better than nothing
+    citedDOIs = [str(citedDOI) for citedDOI in list(df[~df["Covid19-review_paperLink"].isnull()].doi)]
+    newReviews = [doi for doi in reviewedDOIs if doi.replace('-', '/') not in citedDOIs]
+    if len(newReviews) > 0:
+        print("\n -- New Reviewes in the Mt Sinai Repo... --")
+        print("Of the", len(reviewedDOIs), "papers reviewed in https://github.com/ismms-himc/covid-19_sinai_reviews, the following", len(newReviews), "aren't listed in the covid19-review paper:")
+        for newReview in newReviews:
+            print(newReview)
 
     # Add a link to the review
     def addLinkToReview(row):
