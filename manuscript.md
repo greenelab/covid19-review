@@ -29,7 +29,7 @@ author-meta:
 bibliography:
 - content/manual-references.bib
 - content/manual-references.json
-date-meta: '2020-04-20'
+date-meta: '2020-04-21'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -48,9 +48,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
 
-  <meta name="dc.date" content="2020-04-20" />
+  <meta name="dc.date" content="2020-04-21" />
 
-  <meta name="citation_publication_date" content="2020-04-20" />
+  <meta name="citation_publication_date" content="2020-04-21" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -268,11 +268,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/a56a7f4061b76d701ab140fc12a51e32201221fc/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/9673b81961f764054fb7b31bf4148517bf3beeca/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/a56a7f4061b76d701ab140fc12a51e32201221fc/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/9673b81961f764054fb7b31bf4148517bf3beeca/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/a56a7f4061b76d701ab140fc12a51e32201221fc/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/9673b81961f764054fb7b31bf4148517bf3beeca/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -305,10 +305,10 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/a56a7f4061b76d701ab140fc12a51e32201221fc/))
+([permalink](https://greenelab.github.io/covid19-review/v/9673b81961f764054fb7b31bf4148517bf3beeca/))
 was automatically generated
-from [greenelab/covid19-review@a56a7f4](https://github.com/greenelab/covid19-review/tree/a56a7f4061b76d701ab140fc12a51e32201221fc)
-on April 20, 2020.
+from [greenelab/covid19-review@9673b81](https://github.com/greenelab/covid19-review/tree/9673b81961f764054fb7b31bf4148517bf3beeca)
+on April 21, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -1364,15 +1364,23 @@ Post-infection, these levels return to baseline ranges [@doi:10.1177/00369330730
 
 A recent meta-analysis found consistent support for regular vitamin C supplementation reducing the duration of the common cold, but that supplementation with vitamin C (> 200 mg) failed to reduce the incidence of colds [@doi:10.1002/14651858.CD000980.pub4].
 Individual studies have found Vitamin C to reduce the susceptibility of patients to lower respiratory tract infections such as pneumonia [@doi:10.1097/00006454-199709000-00003].
-A recent meta-analysis has demonstrated in twelve trials that vitamin C supplementation reduced the length of stay of patients in intensive care units (ICUs) by 7.8% (95% CI: 4.2% to 11.2%; p = 0.00003).
+Another meta-analysis has demonstrated in twelve trials that vitamin C supplementation reduced the length of stay of patients in intensive care units (ICUs) by 7.8% (95% CI: 4.2% to 11.2%; p = 0.00003).
 Furthermore, high doses (1-3 g/day) significantly reduced the length of an ICU stay by 8.6% in six trials (p = 0.003).
 Vitamin C also shortened the duration of mechanical ventilation by 18.2% in three trials in which patients required intervention for over 24 hours (95% CI 7.7% to 27%; p = 0.001) [@doi:10.3390/nu11040708].
 Despite these findings, the CITRUS ALI study failed to show a benefit of a 96-hour infusion of vitamin C to treat ARDS, which is a severe complication of COVID-19 infection [@doi:10.1001/jama.2019.11825].
+Nevertheless, a randomized placebo-controlled trial [@url:https://clinicaltrials.gov/ct2/show/NCT04264533] has begun in Wuhan, China to investigate the intravenous infusion of vitamin C to treat pneumonia in 140 severe COVID-19 infected patients. 
+As summarized by Carr [@doi:10.1186/s13054-020-02851-4] the trial will not be completed until September 2020.
+Another trial in Italy [@url:https://clinicaltrials.gov/ct2/show/NCT04323514] intends to deliver a 10 g infusion of vitamin C to 500 severe COVID-19 patients with pneumonia to assess in-hospital mortality over a 72 hr period as the primary outcome. 
+The trial is currently recruiting and is due to run until March 2021.
+We will not know how effective vitamin C is as a therapeutic for quite some time due to the length of both trials.
+When completed, the trials will provide crucial evidence on the efficacy of vitamin C as a therapeutic for COVID-19 infection. 
 
 ###### Summary
 
-The evidence suggests that vitamin C supplementation can shorten the duration of a cold, reduce an individual's susceptibility to infections, and shorten a patient's stay in ICU when administered at high doses.
-While there is anecdotal evidence from China and the United States that vitamin C is currently being used for the treatment of COVID-19,  further controlled research is required.
+Some evidence suggests that vitamin C supplementation can shorten the duration of a cold, reduce an individual's susceptibility to infections, and shorten a patient's stay in an ICU when administered at high doses.
+We don't yet understand if these findings apply to COVID-19. 
+There are ongoing trials in China and Italy that will inform our understanding of the therapeutic value of vitamin C supplementation for COVID-19.  
+
 
 ##### Vitamin D
 
