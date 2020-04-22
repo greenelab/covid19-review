@@ -29,7 +29,7 @@ author-meta:
 bibliography:
 - content/manual-references.bib
 - content/manual-references.json
-date-meta: '2020-04-21'
+date-meta: '2020-04-22'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -48,9 +48,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
 
-  <meta name="dc.date" content="2020-04-21" />
+  <meta name="dc.date" content="2020-04-22" />
 
-  <meta name="citation_publication_date" content="2020-04-21" />
+  <meta name="citation_publication_date" content="2020-04-22" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -268,11 +268,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/9673b81961f764054fb7b31bf4148517bf3beeca/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/37b5f47df67fa650aa1998355ebaeaa404863d60/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/9673b81961f764054fb7b31bf4148517bf3beeca/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/37b5f47df67fa650aa1998355ebaeaa404863d60/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/9673b81961f764054fb7b31bf4148517bf3beeca/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/37b5f47df67fa650aa1998355ebaeaa404863d60/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -305,10 +305,10 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/9673b81961f764054fb7b31bf4148517bf3beeca/))
+([permalink](https://greenelab.github.io/covid19-review/v/37b5f47df67fa650aa1998355ebaeaa404863d60/))
 was automatically generated
-from [greenelab/covid19-review@9673b81](https://github.com/greenelab/covid19-review/tree/9673b81961f764054fb7b31bf4148517bf3beeca)
-on April 21, 2020.
+from [greenelab/covid19-review@37b5f47](https://github.com/greenelab/covid19-review/tree/37b5f47df67fa650aa1998355ebaeaa404863d60)
+on April 22, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -1569,19 +1569,61 @@ Although exciting, the cost of vaccine manufacturing and electroporation may mak
 
 #### RNA Vaccines
 
-Brief background on the therapeutic.
+RNA vaccines are nucleic-acid based modalities that code for viral antigens against which the human body elicits a humoral and cellular immune response. 
+The mRNA technology is transcribed _in vitro_ and delivered to cells via lipid nanoparticles (LNP). 
+They are recognized by ribosomes _in vivo_ and then translated and modified into functional proteins [@doi:10.3389/fimmu.2019.00594]. 
+The resulting intracellular viral proteins are displayed on surface MHC proteins, provoking a strong CD8+ T cell response as well as a CD4+ T cell and B cell-associated antibody responses [@doi:10.3389/fimmu.2019.00594]. 
+
+Naturally, mRNA is not very stable and can degrade quickly in the extracellular environment or the cytoplasm. 
+The LNP covering protects the mRNA from enzymatic degradation outside of the cell [@doi:10.4155/tde-2016-0006]. 
+Codon optimization to prevent secondary structure formation and modifications of the poly-A tail as well as the 5’ untranslated region to promote ribosomal complex binding can increase mRNA expression in cells. 
+Furthermore, purifying out dsRNA and immature RNA with FPLC (fast performance liquid chromatography) and HPLC (high performance liquid chromatography) technology will improve translation of the mRNA in the cell [@doi:10.3389/fimmu.2019.00594; @doi:10.1080/14760584.2017.1355245].
+
+mRNA vaccines confer many advantages over traditional viral vectored vaccines and DNA vaccines. 
+In comparison to live attenuated viruses, mRNA vaccines are non-infectious and can be synthetically produced in an egg-free, cell-free environment, and thereby reducing the risk of a detrimental immune response in the host [@doi:10.1016/j.immuni.2020.03.007]. 
+Unlike DNA vaccines, mRNA technologies are naturally degradable and non-integrating, and they do not need to cross the nuclear membrane in addition to the plasma membrane for their effects to be seen [@doi:10.3389/fimmu.2019.00594].  
+Furthermore, mRNA vaccines are easily, affordably, and rapidly scalable.
+
+Although mRNA vaccines have been developed for therapeutic and prophylactic purposes, none have been licensed or commercialized thus far.
+Nevertheless, they have show promise in animal models and preliminary clinical trials for several indications, including rabies, coronavirus, influenza, rabies, and cytomegalovirus [@url:https://clinicaltrials.gov/ct2/show/NCT01669096?term=mRNA+vaccine&draw=7]. 
+Preclinical data from Pardi et al. identified effective antibody generation against full-length FPLC-purified influenza hemagglutinin stalk-encoding mRNA in mice, rabbits, and ferrets [@doi:10.1038/s41467-018-05482-0]. 
+Similar immunological responses for mRNA vaccines were observed in humans in Phase I and II clinical trials operated by the pharmaceutical-development companies Curevac and Moderna for rabies, flu, and zika [@doi:10.1080/14760584.2017.1355245]. 
+
 
 ##### Anticipated Mechanism
 
-Why it may be useful
+Positively charged bilayer LNPs carrying the mRNA attract negatively charged cell membranes, endocytose into the cytoplasm [@doi:10.4155/tde-2016-0006], and facilitate endosomal escape. 
+LNPs can be coated with modalities recognized and engulfed by specific cell types. 
+LNPs 150nm or less effectively enter into lymphatic vessels. 
+
+There are three types of RNA vaccines: non-replicating, _in vivo_ self-replicating, and _in vitro_ dendritic cell non-replicating [@url:https://www.phgfoundation.org/briefing/rna-vaccines].  
+Non-replicating mRNA vaccines consist of a simple open reading frame (ORF) for the viral antigen flanked by the 5’ UTR and 3’ poly-A tail. 
+_In vivo_ self-replicating vaccines encode a modified viral genome derived from single-stranded, positive sense RNA alphaviruses [@doi:10.3389/fimmu.2019.00594; @doi:10.1080/14760584.2017.1355245]. 
+The RNA genome encodes the viral antigen along with proteins of the genome replication machinery, including an RNA polymerase.
+Structural proteins required for viral assembly are not included in the engineered genome [@doi:10.3389/fimmu.2019.00594]. 
+Self-replicating vaccines produce more viral antigens over a longer period of time, thereby evoking a more robust immune response[@url:https://www.phgfoundation.org/briefing/rna-vaccines].  
+Finally, _in vitro_ dendritic cell non-replicating RNA vaccines limit transfection to dendritic cells. 
+Dendritic cells are potent antigen presenting immune cells that easily take up mRNA and present fragments of the translated peptide on their MHC proteins, which can then interact with T cell receptors.  
+Ultimately, primed T follicular helper cells can stimulate germinal center B cells that also present the viral antigen to produce antibodies against the virus [@doi:10.1016/j.immuni.2014.10.004].
+These cells are isolated from the patient, grown and transfected _ex vivo_, and re-introduced to the patient [@doi:10.1038/nrd.2017.243].
+
 
 ##### Current Evidence
 
-A list of current studies and their results, using carefully the information requested in the therapeutic paper tickets.
+mRNA-1273 is the first COVID-19 vaccine to enter a phase I clinical in the United States.  
+ModernaTX, Inc. is currently spearheading an investigation on the immunogenicity and reactogenicity of mRNA-1273, a conventional lipid nanoparticle encapsulated RNA encoding a full-length prefusion stabilized spike (S) protein for SARS-Cov-2 [@url:https://clinicaltrials.gov/ct2/show/study/NCT04283461]. 
+Forty-five participants will be enrolled in the study and given an intramuscular injection of mRNA-1273 in their deltoid muscle on Day 1 and Day 29, and then followed for the next twelve months. 
+Healthy males and non-pregnant females aged 18-55 years are being recruited and will be divided in three dosage groups receiving either 25 micrograms, 100 mcg, or 250 mcg of the vaccine. 
+
+The study started on March 3rd, 2020, and is expected to complete by June 1st, 2021. 
+Emory Vaccine Center and Kaiser Permanent Washington Health Research Institute are currently recruiting participants with NIH Clinical Center expecting to recruit soon. 
+Reports on patient safety and reactogenicity will be recorded soon. 
+IgG ELISA assays on patient serology samples will study the immunogenicity of the vaccine [@url:https://clinicaltrials.gov/ct2/show/study/NCT04283461].
 
 ##### Summary
 
-Summarize the state of the vaccine approach.
+mRNA vaccines are promising tools in the prevention and control of pandemics. 
+mRNA-1273 is the only RNA vaccine for SARS-CoV-2 currently being tested in clinical trials and results are expected soon. 
 
 #### Viral Particle Vaccines
 
