@@ -92,6 +92,7 @@ def getDOIFromCitation(citation):
             DOI = citation.split(".org/")[1]
         elif citationContainsDOI(citation):
             DOI = citation.split("doi:")[1]
+            DOI = DOI.replace("]", "")
         elif citation == "unknown":
             DOI = "unknown"
         else:
@@ -244,6 +245,20 @@ def addMtSinaiReviewLinks(df):
     return df
 
 
+def getDuplicates(array):
+    seen = {}
+    dupes = []
+
+    for x in array:
+        if x not in seen:
+            seen[x] = 1
+        else:
+            if seen[x] == 1:
+                dupes.append(x)
+            seen[x] += 1
+    return dupes
+
+
 # Data merging function
 def mergePaperDataFrames(dataFramesList):
     """ Combine a list of paper dataframes into one.
@@ -266,6 +281,12 @@ def mergePaperDataFrames(dataFramesList):
         invalidDOI = [False if val else True for val in validDOI]
         dataFramesList_DOI.append(df[validDOI])
         dataFramesList_NoDOI.append(df[invalidDOI])
+
+    # Check if there are issues with duplicate DOIs
+    for df in dataFramesList_DOI:
+        duplicateDOIs = getDuplicates(list(df.index))
+        if len(duplicateDOIs) > 0:
+            raise ValueError('The following paper(s) has/have duplicate issues:', duplicateDOIs)
 
     # Merge on DOIs
     mergedOnDOI = pd.concat(dataFramesList_DOI, axis=1, sort=False)
