@@ -393,3 +393,17 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-04-17
+  -
+    github: likhithakolla 
+    name: Likhitha Kolla
+    initials: 
+    orcid: 
+    twitter: 
+    email: Likhitha.Kolla@Pennmedicine.upenn.edu
+    affiliations: 
+      - Department of XX, University of YY, City, State/Province, Country
+    code of conduct:
+      confirmed: Yes 
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-04-23
