@@ -29,7 +29,7 @@ author-meta:
 bibliography:
 - content/manual-references.bib
 - content/manual-references.json
-date-meta: '2020-04-22'
+date-meta: '2020-04-23'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -48,9 +48,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
 
-  <meta name="dc.date" content="2020-04-22" />
+  <meta name="dc.date" content="2020-04-23" />
 
-  <meta name="citation_publication_date" content="2020-04-22" />
+  <meta name="citation_publication_date" content="2020-04-23" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -268,11 +268,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/37b5f47df67fa650aa1998355ebaeaa404863d60/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/afc5011cc30dff6519739f04d2e4485b9d690027/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/37b5f47df67fa650aa1998355ebaeaa404863d60/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/afc5011cc30dff6519739f04d2e4485b9d690027/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/37b5f47df67fa650aa1998355ebaeaa404863d60/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/afc5011cc30dff6519739f04d2e4485b9d690027/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -305,10 +305,10 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/37b5f47df67fa650aa1998355ebaeaa404863d60/))
+([permalink](https://greenelab.github.io/covid19-review/v/afc5011cc30dff6519739f04d2e4485b9d690027/))
 was automatically generated
-from [greenelab/covid19-review@37b5f47](https://github.com/greenelab/covid19-review/tree/37b5f47df67fa650aa1998355ebaeaa404863d60)
-on April 22, 2020.
+from [greenelab/covid19-review@afc5011](https://github.com/greenelab/covid19-review/tree/afc5011cc30dff6519739f04d2e4485b9d690027)
+on April 23, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -827,10 +827,10 @@ The study concludes that while large changes in R~t~ are observed, it is too ear
 
 ### Immune Response to SARS-CoV-2
 
--Cellular responses to SARS-CoV-2 infection
--What is causing neutropenia and lymphopenia observed in COVID-19 patients
--Antibody production against SARS-CoV-2 by patient who recovered vs patient who did not recover
--Cytokines and other soluble factors contribution to immune response
+- Cellular responses to SARS-CoV-2 infection
+- What is causing neutropenia and lymphopenia observed in COVID-19 patients
+- Antibody production against SARS-CoV-2 by patient who recovered vs patient who did not recover
+- Cytokines and other soluble factors contribution to immune response
 
 ### Systems-level approaches for understanding SARS-CoV-2 pathogenesis
 
@@ -862,7 +862,7 @@ Using such databases, the systems level reconstruction of the PPI (Protein-Prote
 In a first study [@doi:10.1101/2020.03.22.002386], 26 of the 29 SARS-CoV-2 proteins were cloned and expressed in HEK293T kidney cells and 332 high confidence human proteins that interact with them were consequently identified. 
 Notably, this study suggested the interaction of SARS-CoV-2 with innate immunity pathways.
 The ranking of pathogens with respect to their interactome similarity with SARS-CoV-2 suggested *West Nile Virus*, *Mycobacterium tuberculosis*, and *Human papillomavirus* as the top three hits.
-However, given the lung symptoms associated with COVID-19,  *Mycobacterium tuberculosis* host-pathogen interactome could provide new insights to the mechanism SARS-CoV-2 infection.
+However, given the lung symptoms associated with COVID-19, *Mycobacterium tuberculosis* host-pathogen interactome could provide new insights to the mechanism SARS-CoV-2 infection.
 In addition, it was suggested that the envelope protein E could disrupt the host bromodomain-containing proteins, i.e., BRD2 and BRD4, binding to histone. 
 The Spike protein S could likely intervene in the virus fusion through modulating the GOLGA7-ZDHHC5 acyl-transferase complex to increase palmitoylation.
 
@@ -909,7 +909,7 @@ Two American companies, Mammoth Biosciences and Sherlock Biosciences, adapted th
 Their methodology involves purification of RNA extracted from patient specimens, amplification of extracted RNAs by loop-mediated amplification, a rapid, isothermal nucleic acid amplification technique, and application of their CRISPR-Cas12-based technology.
 In the assay designed by Mammoth Biosciences, guide RNAs were designed to recognize portions of sequences corresponding to the SARS-CoV-2 genome, specifically the N, E and RdRP regions.
 In the presence of SARS-CoV-2 genetic material, sequence recognition by the guide RNAs results in double-stranded DNA cleavage by Cas12, as well as cleavage of a single-stranded DNA molecular beacon.
-The cleavage of this molecular beacon acts as a colorimetric reporter that is subsequently read out in a lateral flow assay and indicates the positive presence of SARS-Cov-2 genetic material and therefore SARS-CoV-2 infection [@doi:10.1101/2020.03.06.20032334].
+The cleavage of this molecular beacon acts as a colorimetric reporter that is subsequently read out in a lateral flow assay and indicates the positive presence of SARS-CoV-2 genetic material and therefore SARS-CoV-2 infection [@doi:10.1101/2020.03.06.20032334].
 This assay has been reported to have a sensitivity as high as detection of 70-300 copies of the target RNA/µl, requires simple, accessible equipment, and can output an easily-interpretable result in approximately 30 minutes [@doi:10.1126/science.abb8400].
 Initial testing with patient samples (n = 23) demonstrated a positive predictive value of 100% and a negative predictive value of 91.7%, which is highly competitive with the CDC's current testing standard using qRT-PCR. 
 This test seeks to develop a practical solution for rapid, low-barrier testing in areas that are at greater risk of infection, such as airports and local community hospitals.
@@ -965,15 +965,15 @@ Therefore, this test should be used in combination with RNA detection tests [@ur
 ### Challenges to Diagnostic Approaches
 
 #### Limitations to Implementation of Large-Scale Testing
-More informtion to follow.
+More information to follow.
 
 #### Strategies and Considerations for Determining Whom to Test
 
 Currently, Coronavirus tests are limited to people that are in danger of serious illness [@url:https://www.cdc.gov/coronavirus/2019-nCoV/hcp/clinical-criteria.html].
-Specififcally, the individuals at risk include:
+Specifically, the individuals at risk include:
 
 - people with severe symptoms
-- people showing mild symptomps that have been in contact with a person who has developed the infection
+- people showing mild symptoms that have been in contact with a person who has developed the infection
 - people with underlying health conditions
 - pregnant women
 
@@ -1040,7 +1040,7 @@ Also, RA patients with chronic hepatitis B (HB) infection showed high risk of HB
 These last findings highlight the need to search for a balance between impairing a harmful immune response, such as the one generated by the cytokine storm, and preventing the worsening of the clinical picture of the patients by potential new viral infections.
 This aspect is probably crucial to be investigated further in the trials that are about to start.
 
-Perhaps, the TCZ treatment would best suit patients with severely compromised lungs due to the Covid-19 infection and are therefore at greater risk of death, in order to stop the uncontrolled immune response before it’s too late.
+Perhaps, the TCZ treatment would best suit patients with severely compromised lungs due to the COVID-19 infection and are therefore at greater risk of death, in order to stop the uncontrolled immune response before it’s too late.
 <!-##### Summary
 
 Summarize the state of the symptom management approach.
@@ -1129,7 +1129,7 @@ Several studies showed that viral proteases play an important role in the life c
 Several FDA-approved drugs target proteases like like Lopinavir and Ritonavir in HIV infection, and Simeprevir in hepatitis C virus infection.
 In particular, serine protease inhibitors were suggested for the treatment of SARS and MERS viruses [@doi:10.1016/j.antiviral.2015.01.011].
 Recently, a study [@doi:10.1016/j.cell.2020.02.052] suggested that camostat mesylate, an FDA-approved protease inhibitor (PI) could block the the entry of SARS-CoV-2 into lung cells in vitro.
-However, to test the efficacy of PIs in patients, randomized clinical trials have to be concducted on patients and healthy volunteers..
+However, to test the efficacy of PIs in patients, randomized clinical trials have to be conducted on patients and healthy volunteers.
 
 ##### N3
 N3 is an inhibitor of Mpro, a 33.8-kDa SARS-CoV-2 protease that is involved in viral replication and transcription.
@@ -1168,7 +1168,7 @@ Ebselen is both a strong Mpro inhibitor and strong inhibitor of viral replicatio
 The reduction of the viral load after exposure to Ebselen was even larger than N3.
 Ebselen is a very promising compound since its safety has been demonstrated in other indications. 
 However, Ebselen is likely a false positive since it is a promiscuous compound that can have many targets [@doi:10.1039/c8cc04258f].
-Therefore, compounds with higher specificity are required to effectively translate to clinical trials..
+Therefore, compounds with higher specificity are required to effectively translate to clinical trials.
 
 #### Molecules Targeting the Viral Envelope
 
@@ -1214,7 +1214,7 @@ HCQ and CQ act through the same mechanism of action, but HCQ is regarded to be s
 HCQ/CQ have been reported to have anti-viral effects, including in HIV-1, SARS-CoV, MERS-CoV, and SARS-CoV-2 [@doi:10/dh8phb; @doi:10.1128/AAC.03011-14; @doi:10.1093/cid/ciaa237; @doi:10.1038/s41422-020-0282-0].
 _In vitro_ studies of CQ use for SARS-CoV infection suggest anti-viral activity is due to inhibition of viral entry through elevation of endosomal pH and terminal glycosylation of angiotensin-converting enzyme 2, the cellular entry receptor [@doi:10.1186/1743-422X-2-69].
 In vitro studies of SARS-CoV-2 infection show both HCQ and CQ to be effective in inhibiting viral replication, with HCQ being more potent [@doi:10.1093/cid/ciaa237].
-A case study of three COVID-19 patients reported presence of antiphospholipid antibodies in all three patients  [@doi:10.1056/NEJMc2007575]. 
+A case study of three COVID-19 patients reported presence of antiphospholipid antibodies in all three patients [@doi:10.1056/NEJMc2007575].
 Antiphospholipid antibodies are central to the diagnosis of the antiphospholipid syndrome. 
 HCQ has been reported to be effective in treating Antiphospholipid Syndrome [@doi:10.1182/blood.V128.22.5023.5023; @doi:10.1016/j.autrev.2014.01.053; @doi:10.1182/asheducation-2016.1.714].
 
@@ -1294,7 +1294,7 @@ Further investigation of HCQ in large, rigorous, multi-center clinical trials is
 
 Considering the current pandemic, scientists and the medical community are scrambling to repurpose or discover novel host-directed therapies for which nutraceuticals hold some promise.
 Nutraceuticals are classified as supplements with health benefits beyond their basic nutritional value designed for the prophylaxis and treatment of disease [@doi:10.1080/10408390902841529; @doi:10.1038/nrcardio.2016.103].
-Nutraceuticals purported to boost the immune response, reduce  immunopathology, exhibit antiviral activities or prevent acute respiratory distress syndrome (ARDS) are being considered for their potential therapeutic value [@doi:10/ggkd3b].
+Nutraceuticals purported to boost the immune response, reduce immunopathology, exhibit antiviral activities or prevent acute respiratory distress syndrome (ARDS) are being considered for their potential therapeutic value [@doi:10/ggkd3b].
 A host of potential candidates have been highlighted in the literature that target various aspects of the COVID-19 viral pathology, while others are thought to prime the host immune system.
 These candidates include vitamins and minerals along with extracts and omega-3 polyunsaturated fatty acids (n-3 PUFA) [@doi:10.1002/jmv.25707].
 Considerable evidence in vitro and in vivo suggests that nutraceuticals containing phycocyanobilin, N-acetylcysteine, glucosamine, selenium or phase 2 inductive nutraceuticals (e.g. ferulic acid, lipoic acid, or sulforaphane) can prevent or modulate RNA virus infections via amplification of the signaling activity of mitochondrial antiviral-signaling protein (MAVS) and activation of toll-like receptor 7 (TLR7) [@doi:10.1016/j.pcad.2020.02.007]. 
@@ -1431,7 +1431,7 @@ As a result, they have become some of the best-selling drugs in the pharmaceutic
 There are currently 79 FDA approved mAbs on the market including antibodies for viral infections (e.g. Ibalizumab for HIV and Palivizumab for RSV) [@doi:10.1186/s12929-019-0592-z; @doi:10.1146/annurev-immunol-032712-095916].
 Although vaccines remain the most important way to prevent viral infections, their development process is long and they fail to provide immediate prophylactic protection or treat ongoing infections [@doi:10.3390/v10120680].
 For that reason, neutralizing antibodies have emerged to address these shortcomings.
-Virus-specific neutralizing antibodies commonly target viral surface glycoproteins or host structures, thereby inhibiting viral entry through receptor binding intereference [@doi:10.3389/fmicb.2017.02323; @doi:10.1080/21645515.2017.1337614].
+Virus-specific neutralizing antibodies commonly target viral surface glycoproteins or host structures, thereby inhibiting viral entry through receptor binding interference [@doi:10.3389/fmicb.2017.02323; @doi:10.1080/21645515.2017.1337614].
 This section discusses current efforts in developing neutralizing antibodies against SARS-CoV-2 and how expertise gained from previous approaches for MERS-CoV and SARS-CoV may benefit antibody development.
 
 ##### Spike (S) Neutralizing Antibody
@@ -1498,7 +1498,7 @@ Summarize the state of the neutralizing antibody approach.
 Interferons (IFNs) are a family of cytokines crucial to activate the first (innate) immune system response against viral infections.
 Interferons are classified into three categories based on their receptor specificity: type I, II and III [@doi:10.1128/mmbr.05015-11].
 Specifically, IFNs I (IFN-𝛼 and 𝛽) and II (IFN-𝛾 ) induce the expression of antiviral proteins which bring the viral RNA to degradation [@doi:10.1016/j.jcv.2003.11.013].
-Among these IFNs, IFN- 𝛽 was already found to strongly inhibit the replication of other corona viruses, such as SARS-Cov, in cell culture, while IFN-𝛼 and 𝛾 were shown to be less effective in this context [@doi:10.1016/j.jcv.2003.11.013].
+Among these IFNs, IFN- 𝛽 was already found to strongly inhibit the replication of other corona viruses, such as SARS-CoV, in cell culture, while IFN-𝛼 and 𝛾 were shown to be less effective in this context [@doi:10.1016/j.jcv.2003.11.013].
 There are evidences that patients with higher susceptibility to develop Acute respiratory distress syndrome (ARDS) show indeed deficiency of IFN- 𝛽.
 For instance, upon other Corona viruses infection IFN- 𝛽 expression and synthesis is impaired, so that the virus can in fact escape the innate immune response [@doi:10.1016/j.virusres.2014.07.024].
 
@@ -1611,7 +1611,7 @@ These cells are isolated from the patient, grown and transfected _ex vivo_, and 
 ##### Current Evidence
 
 mRNA-1273 is the first COVID-19 vaccine to enter a phase I clinical in the United States.  
-ModernaTX, Inc. is currently spearheading an investigation on the immunogenicity and reactogenicity of mRNA-1273, a conventional lipid nanoparticle encapsulated RNA encoding a full-length prefusion stabilized spike (S) protein for SARS-Cov-2 [@url:https://clinicaltrials.gov/ct2/show/study/NCT04283461]. 
+ModernaTX, Inc. is currently spearheading an investigation on the immunogenicity and reactogenicity of mRNA-1273, a conventional lipid nanoparticle encapsulated RNA encoding a full-length prefusion stabilized spike (S) protein for SARS-CoV-2 [@url:https://clinicaltrials.gov/ct2/show/study/NCT04283461].
 Forty-five participants will be enrolled in the study and given an intramuscular injection of mRNA-1273 in their deltoid muscle on Day 1 and Day 29, and then followed for the next twelve months. 
 Healthy males and non-pregnant females aged 18-55 years are being recruited and will be divided in three dosage groups receiving either 25 micrograms, 100 mcg, or 250 mcg of the vaccine. 
 
