@@ -386,8 +386,10 @@ authors:
     orcid: 0000-0001-5934-966X
     twitter: marouenbg
     email: marouen.b.guebila@gmail.com
+    contributions:
+      - Writing - Original Draft
     affiliations: 
-      - Department of Biostatistics, Harvard School of Public Health
+      - Department of Biostatistics, Harvard School of Public Health, Boston, Massachusetts, United States of America
     code of conduct:
       confirmed: Yes
     coi:
