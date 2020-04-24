@@ -15461,12 +15461,12 @@
       "date-parts": [
         [
           2020,
-          3,
-          29
+          4,
+          23
         ]
       ]
     },
-    "abstract": "Background: As reported by Iranian governments, the first cases of coronavirus (COVID-19) infections confirmed in Qom, Iran on February 19, 2020 (30 Bahman 1398). The number of identified cases afterward increased rapidly and the novel coronavirus spread to all provinces of the country. This study aimed to fit an epidemic model to the reported cases data to estimate the basic reproduction number (R_0) of COVID-19 in Iran. Methods: We used data from February 21, 2020, to March 18, 2020, on the number of cases reported by Iranian governments and we employed the SIR (Susceptible-Infectious-Removed) epidemic spreading model to fit the transmission model to the reported cases data by tuning the parameters in order to estimate the basic reproduction number of COVID-19 in Iran. Results: The value of reproduction number was estimated 4.86 in the first week and 4.5 in the second and decreasing from 4.29 to 2.1 in the third and fourth weeks. Conclusions: The results indicate that the basic reproduction number of COVID-19 is significantly larger than one. Based on the results, it is necessary to implement social distancing and a strict restriction on travelling to control the outbreak especially on Nowruz (Persian New Year).",
+    "abstract": "Background: As reported by Iranian governments, the first cases of coronavirus (COVID-19) infections confirmed in Qom, Iran on February 19, 2020 (30 Bahman 1398). The number of identified cases afterward increased rapidly and the novel coronavirus spread to all provinces of the country. This study aimed to fit an epidemic model to the reported cases data to estimate the basic reproduction number (R_0) of COVID-19 in Iran. Methods: We used data from February 21, 2020, to April 21, 2020, on the number of cases reported by Iranian governments and we employed the SIR (Susceptible-Infectious-Removed) epidemic spreading model to fit the transmission model to the reported cases data by tuning the parameters in order to estimate the basic reproduction number of COVID-19 in Iran. Results: The value of reproduction number was estimated 4.86 in the first week and 4.5 in the second week. it decreased from 4.29 to 2.37 in the next four weeks. At the seventh week of the outbreak the reproduction number was reduced below 1. Conclusions: The results indicate that the basic reproduction number of COVID-19 was significantly larger than one in the early stages of the outbreak. However, implementing social distancing and preventing travelling on Nowruz (Persian New Year) effectively reduced the reproduction number. Although the results indicate that reproduction number is below one, it is necessary to continue social distancing and control travelling to prevent causing a second wave of outbreak.",
     "container-title": "medRxiv",
     "DOI": "10.1101/2020.03.20.20038422",
     "publisher": "medRxiv",
@@ -17426,7 +17426,7 @@
       },
       {
         "family": "Lionnard",
-        "given": "Loic"
+        "given": "Loïc"
       },
       {
         "family": "Longhi",
@@ -17434,7 +17434,7 @@
       },
       {
         "family": "Hardwick",
-        "given": "Marie"
+        "given": "J. Marie"
       },
       {
         "family": "Combet",
@@ -17454,7 +17454,7 @@
         ]
       ]
     },
-    "abstract": "Following the outbreaks of severe acute respiratory syndrome coronavirus (SARS-CoV) in 2002 and Middle East respiratory syndrome coronavirus (MERS-CoV) in 2012, the novel coronavirus SARS-CoV-2 emerged at the end of 2019. SARS-CoV-2 is a highly infectious pathogen that rapidly spread around the world causing the worst pandemic in the past 100 years. SARS-CoV-2 shares high sequence homology with SARS-CoV and causes coronavirus disease 2019 (COVID-19), leading to pneumonia and severe acute respiratory distress syndrome. Although probably not as lethal as SARS-CoV, its robust transmissibility by asymptomatic individuals is an important contributor to the pandemic. Like other betacoronaviruses, SARS‐CoV‐2 encodes four major structural proteins: spike (S), membrane (M), nucleocapsid (N) and envelope (E). SARS-CoV E protein is abundant in infected cells and plays a crucial role in viral particle assembly. Moreover, the E proteins of SARS coronaviruses likely have important roles in pathogenesis by manipulating a number of cellular processes. Thus, SARS-CoV-2 E protein could also be a critical virulence factor. Ectopic expression of SARS-CoV E was reported to trigger apoptotic cell death of T lymphocytes, which could potentially contribute to the lymphopenia observed in fatal cases, though a causal association is unproven. A potential mechanism for inducing apoptosis was reported to involve an interaction between a putative Bcl-2 homology 3 (BH3)-like motif in SARS-CoV E and the anti-apoptotic host protein Bcl-xL. Here we provide the first computational evidence indicating that both the SARS-CoV E and SARS-CoV-2 E have a C-terminal BH3-like motif. We used available sequence data for SARS-CoV-2 and related coronaviruses combined with structural information to evaluate the structure to biological activity relationships of the SARS-CoV-2 E BH3-like motif. Our analysis reveals a predicted interactome for E that is extensively wired to the Bcl-2 apoptotic switch that could potentially be a therapeutic target. Last, network reconstruction identified both the BH3-binding protein Bcl-xL and the autophagy effector Beclin 1, another BH3-containing protein, as vulnerable nodes in the host cellular defense system against SARS-CoV-2.",
+    "abstract": "Following the outbreaks of severe acute respiratory syndrome coronavirus (SARS-CoV) in 2002 and Middle East respiratory syndrome coronavirus (MERS-CoV) in 2012, the novel coronavirus SARS-CoV-2 emerged at the end of 2019. SARS-CoV-2 is a highly infectious pathogen that rapidly spread around the world causing the worst pandemic in the past 100 years. SARS-CoV-2 shares high sequence homology with SARS-CoV and causes coronavirus disease 2019 (COVID-19), leading to pneumonia and severe acute respiratory distress syndrome. Although probably not as lethal as SARS-CoV, its robust transmissibility by asymptomatic individuals is an important contributor to the pandemic. Like other betacoronaviruses, SARS-CoV-2 encodes four major structural proteins: spike (S), membrane (M), nucleocapsid (N) and envelope (E). SARS-CoV E protein is abundant in infected cells and plays a crucial role in viral particle assembly. Moreover, the E proteins of SARS coronaviruses likely have important roles in pathogenesis by manipulating a number of cellular processes. Thus, SARS-CoV-2 E protein could also be a critical virulence factor. Ectopic expression of SARS-CoV E was reported to trigger apoptotic cell death of T lymphocytes, which could potentially contribute to the lymphopenia observed in fatal cases, though a causal association is unproven. A potential mechanism for inducing apoptosis was reported to involve an interaction between a putative Bcl-2 homology 3 (BH3)-like motif in SARS-CoV E and the anti-apoptotic host protein Bcl-xL. Here we provide the first computational evidence indicating that both the SARS-CoV E and SARS-CoV-2 E have a C-terminal BH3-like motif. We used available sequence data for SARS-CoV-2 and related coronaviruses combined with structural information to evaluate the structure to biological activity relationships of the SARS-CoV-2 E BH3-like motif. Our analysis reveals a predicted interactome for E that is extensively wired to the Bcl-2 apoptotic switch that could potentially be a therapeutic target. Last, network reconstruction identified both the BH3-binding protein Bcl-xL and the autophagy effector Beclin 1, another BH3-containing protein, as vulnerable nodes in the host cellular defense system against SARS-CoV-2.",
     "container-title": "bioRxiv",
     "DOI": "10.1101/2020.04.09.033522",
     "publisher": "bioRxiv",
@@ -23137,7 +23137,7 @@
         [
           "2020",
           4,
-          23
+          24
         ]
       ]
     },
@@ -23155,7 +23155,7 @@
         [
           "2020",
           4,
-          23
+          24
         ]
       ]
     },
@@ -23173,7 +23173,7 @@
         [
           "2020",
           4,
-          23
+          24
         ]
       ]
     },
@@ -23191,7 +23191,7 @@
         [
           "2020",
           4,
-          23
+          24
         ]
       ]
     },
@@ -23209,7 +23209,7 @@
         [
           "2020",
           4,
-          23
+          24
         ]
       ]
     },
@@ -23227,7 +23227,7 @@
         [
           "2020",
           4,
-          23
+          24
         ]
       ]
     },
@@ -23245,7 +23245,7 @@
         [
           "2020",
           4,
-          23
+          24
         ]
       ]
     },
@@ -23263,7 +23263,7 @@
         [
           "2020",
           4,
-          23
+          24
         ]
       ]
     },
@@ -23282,7 +23282,7 @@
         [
           "2020",
           4,
-          23
+          24
         ]
       ]
     },
@@ -23300,7 +23300,7 @@
         [
           "2020",
           4,
-          23
+          24
         ]
       ]
     },
@@ -23318,7 +23318,7 @@
         [
           "2020",
           4,
-          23
+          24
         ]
       ]
     },
@@ -23336,7 +23336,7 @@
         [
           "2020",
           4,
-          23
+          24
         ]
       ]
     },
@@ -23354,7 +23354,7 @@
         [
           "2020",
           4,
-          23
+          24
         ]
       ]
     },
@@ -23426,7 +23426,7 @@
         [
           "2020",
           4,
-          23
+          24
         ]
       ]
     },
@@ -23443,7 +23443,7 @@
         [
           "2020",
           4,
-          23
+          24
         ]
       ]
     },
@@ -23477,7 +23477,7 @@
         [
           "2020",
           4,
-          23
+          24
         ]
       ]
     },
@@ -23511,7 +23511,7 @@
         [
           "2020",
           4,
-          23
+          24
         ]
       ]
     },
@@ -23533,7 +23533,7 @@
         [
           "2020",
           4,
-          23
+          24
         ]
       ]
     },
@@ -23590,7 +23590,7 @@
         [
           "2020",
           4,
-          23
+          24
         ]
       ]
     },
@@ -23618,7 +23618,7 @@
         [
           "2020",
           4,
-          23
+          24
         ]
       ]
     },
@@ -23642,7 +23642,7 @@
         [
           "2020",
           4,
-          23
+          24
         ]
       ]
     },
@@ -23667,7 +23667,7 @@
         [
           "2020",
           4,
-          23
+          24
         ]
       ]
     },
@@ -23685,7 +23685,7 @@
         [
           "2020",
           4,
-          23
+          24
         ]
       ]
     },
@@ -23729,7 +23729,7 @@
         [
           "2020",
           4,
-          23
+          24
         ]
       ]
     },
@@ -23748,7 +23748,7 @@
         [
           "2020",
           4,
-          23
+          24
         ]
       ]
     },
@@ -23794,7 +23794,7 @@
         [
           "2020",
           4,
-          23
+          24
         ]
       ]
     },
@@ -23813,7 +23813,7 @@
         [
           "2020",
           4,
-          23
+          24
         ]
       ]
     },
@@ -23831,7 +23831,7 @@
         [
           "2020",
           4,
-          23
+          24
         ]
       ]
     },
@@ -23848,7 +23848,7 @@
         [
           "2020",
           4,
-          23
+          24
         ]
       ]
     },
