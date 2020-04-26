@@ -29,7 +29,7 @@ author-meta:
 bibliography:
 - content/manual-references.bib
 - content/manual-references.json
-date-meta: '2020-04-24'
+date-meta: '2020-04-26'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -48,9 +48,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
 
-  <meta name="dc.date" content="2020-04-24" />
+  <meta name="dc.date" content="2020-04-26" />
 
-  <meta name="citation_publication_date" content="2020-04-24" />
+  <meta name="citation_publication_date" content="2020-04-26" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -268,11 +268,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/9b15218c4b9758da016a55dd5d975aa5fd06271b/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/5670433689c5fab5d59bedbaa684e2902f397752/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/9b15218c4b9758da016a55dd5d975aa5fd06271b/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/5670433689c5fab5d59bedbaa684e2902f397752/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/9b15218c4b9758da016a55dd5d975aa5fd06271b/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/5670433689c5fab5d59bedbaa684e2902f397752/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -305,10 +305,10 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/9b15218c4b9758da016a55dd5d975aa5fd06271b/))
+([permalink](https://greenelab.github.io/covid19-review/v/5670433689c5fab5d59bedbaa684e2902f397752/))
 was automatically generated
-from [greenelab/covid19-review@9b15218](https://github.com/greenelab/covid19-review/tree/9b15218c4b9758da016a55dd5d975aa5fd06271b)
-on April 24, 2020.
+from [greenelab/covid19-review@5670433](https://github.com/greenelab/covid19-review/tree/5670433689c5fab5d59bedbaa684e2902f397752)
+on April 26, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -931,14 +931,14 @@ False positives are a concern with this technique, as the guide RNA can recogniz
 
 Similarly, in tests that use CRISPR, false positives can occur due to the specificity of the technique, as the guide RNA can recognise other interspersed sequences on the patient’s genome.
 
-### Sierological Tests
+### Serological Tests
 
-Despite diagnostic tests based on the detection of the genetic material can be quite sensitive, they cannot provide information about the real extent of the disease.
-In fact, they would not work on a recovered patient who defeated the virus.
+Despite diagnostic tests based on the detection of the genetic material can be quite sensitive, they cannot provide information about the extent of the disease over time.
+Most importantly, they would not work on a recovered patient who defeated the virus.
 In this context, immunity tests are significantly more informative.
 Additionally, they can help scientists to understand why the disease has a different course among patients, as well as what strategy might work to manage the spread of the infection.
-Furthermore, serological tests hold significant interest at present because they can be leveraged to advance economic recovery.
-For instance, people that have developed antibodies can return to work prior to the others, helping to develop the herd immunity which will prevent further diffusion of the virus.
+Furthermore, serological tests hold significant interest at present because they can provide information relevant to advancing economic recovery and allowing reopenings.
+For instance, people that have developed antibodies can plausibly return to work prior to the others, based on (still-unproven) protective immunity [@doi:10.1101/2020.04.14.20065771], and if extensive enough, herd immunity which will prevent further diffusion of the virus.
 
 #### Current Approaches
 
