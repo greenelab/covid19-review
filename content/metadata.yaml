@@ -391,7 +391,7 @@ authors:
     affiliations: 
       - Department of Biostatistics, Harvard School of Public Health, Boston, Massachusetts, United States of America
     code of conduct:
-      confirmed: Yes
+      confirmed: yes
     coi:
       string: "None"
       lastapproved: !!str 2020-04-17
@@ -407,7 +407,7 @@ authors:
     affiliations: 
       - Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
     code of conduct:
-      confirmed: Yes 
+      confirmed: yes 
     coi:
       string: "None"
       lastapproved: !!str 2020-04-23
