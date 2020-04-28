@@ -386,10 +386,46 @@ authors:
     orcid: 0000-0001-5934-966X
     twitter: marouenbg
     email: marouen.b.guebila@gmail.com
+    contributions:
+      - Writing - Original Draft
     affiliations: 
-      - Department of Biostatistics, Harvard School of Public Health
+      - Department of Biostatistics, Harvard School of Public Health, Boston, Massachusetts, United States of America
     code of conduct:
-      confirmed: Yes
+      confirmed: yes
     coi:
       string: "None"
       lastapproved: !!str 2020-04-17
+  -
+    github: likhithakolla 
+    name: Likhitha Kolla
+    initials: LK
+    orcid: 0000-0002-1169-906X
+    twitter: lkolla2018
+    email: Likhitha.Kolla@Pennmedicine.upenn.edu
+    contributions:
+      - Writing - Original Draft
+    affiliations: 
+      - Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+    code of conduct:
+      confirmed: yes 
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-04-23
+    funders: NIH Medical Scientist Training Program T32 GM07170
+  -
+    github: davidmanheim
+    name: David Manheim
+    initials: DM
+    orcid: 0000-0001-8599-8380
+    twitter: davidmanheim
+    email: davidmanheim@gmail.com
+    contributions:
+      - Writing - Original Draft
+      - Investigation
+    affiliations: 
+      - Risk and Health Communication Research Center, School of Public Health, University of Haifa, Haifa, Israel
+    code of conduct:
+      confirmed: yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-04-28
