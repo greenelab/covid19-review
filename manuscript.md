@@ -26,10 +26,12 @@ author-meta:
 - Diane N. Rafizadeh
 - Ashwin N. Skelly
 - Marouen Ben Guebila
+- Likhitha Kolla
+- David Manheim
 bibliography:
 - content/manual-references.bib
 - content/manual-references.json
-date-meta: '2020-04-26'
+date-meta: '2020-04-28'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -48,9 +50,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
 
-  <meta name="dc.date" content="2020-04-26" />
+  <meta name="dc.date" content="2020-04-28" />
 
-  <meta name="citation_publication_date" content="2020-04-26" />
+  <meta name="citation_publication_date" content="2020-04-28" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -250,11 +252,27 @@ header-includes: '<!--
 
   <meta name="citation_author" content="Marouen Ben Guebila" />
 
-  <meta name="citation_author_institution" content="Department of Biostatistics, Harvard School of Public Health" />
+  <meta name="citation_author_institution" content="Department of Biostatistics, Harvard School of Public Health, Boston, Massachusetts, United States of America" />
 
   <meta name="citation_author_orcid" content="0000-0001-5934-966X" />
 
   <meta name="twitter:creator" content="@marouenbg" />
+
+  <meta name="citation_author" content="Likhitha Kolla" />
+
+  <meta name="citation_author_institution" content="Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America" />
+
+  <meta name="citation_author_orcid" content="0000-0002-1169-906X" />
+
+  <meta name="twitter:creator" content="@lkolla2018" />
+
+  <meta name="citation_author" content="David Manheim" />
+
+  <meta name="citation_author_institution" content="Risk and Health Communication Research Center, School of Public Health, University of Haifa, Haifa, Israel" />
+
+  <meta name="citation_author_orcid" content="0000-0001-8599-8380" />
+
+  <meta name="twitter:creator" content="@davidmanheim" />
 
   <link rel="canonical" href="https://greenelab.github.io/covid19-review/" />
 
@@ -268,11 +286,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/5670433689c5fab5d59bedbaa684e2902f397752/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/571d50b91aa8224d35af3515b8ed25cfce34b157/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/5670433689c5fab5d59bedbaa684e2902f397752/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/571d50b91aa8224d35af3515b8ed25cfce34b157/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/5670433689c5fab5d59bedbaa684e2902f397752/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/571d50b91aa8224d35af3515b8ed25cfce34b157/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -305,10 +323,10 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/5670433689c5fab5d59bedbaa684e2902f397752/))
+([permalink](https://greenelab.github.io/covid19-review/v/571d50b91aa8224d35af3515b8ed25cfce34b157/))
 was automatically generated
-from [greenelab/covid19-review@5670433](https://github.com/greenelab/covid19-review/tree/5670433689c5fab5d59bedbaa684e2902f397752)
-on April 26, 2020.
+from [greenelab/covid19-review@571d50b](https://github.com/greenelab/covid19-review/tree/571d50b91aa8224d35af3515b8ed25cfce34b157)
+on April 28, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -585,7 +603,30 @@ Instead, you should collect information from your local health department, the [
     · ![Twitter icon](images/twitter.svg){.inline_icon}
     [marouenbg](https://twitter.com/marouenbg)<br>
   <small>
-     Department of Biostatistics, Harvard School of Public Health
+     Department of Biostatistics, Harvard School of Public Health, Boston, Massachusetts, United States of America
+  </small>
+
++ **Likhitha Kolla**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-1169-906X](https://orcid.org/0000-0002-1169-906X)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [likhithakolla](https://github.com/likhithakolla)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [lkolla2018](https://twitter.com/lkolla2018)<br>
+  <small>
+     Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+     · Funded by NIH Medical Scientist Training Program T32 GM07170
+  </small>
+
++ **David Manheim**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0001-8599-8380](https://orcid.org/0000-0001-8599-8380)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [davidmanheim](https://github.com/davidmanheim)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [davidmanheim](https://twitter.com/davidmanheim)<br>
+  <small>
+     Risk and Health Communication Research Center, School of Public Health, University of Haifa, Haifa, Israel
   </small>
 
 
@@ -1821,6 +1862,8 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 |Diane N. Rafizadeh|None|2020-04-14|
 |Ashwin N. Skelly|None|2020-04-16|
 |Marouen Ben Guebila|None|2020-04-17|
+|Likhitha Kolla|None|2020-04-23|
+|David Manheim|None|2020-04-28|
 
 ### Author Contributions
 
@@ -1851,7 +1894,9 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 |Jinhui Wang|Writing - Revising & Editing|
 |Diane N. Rafizadeh|Writing - Original Draft, Writing - Review & Editing|
 |Ashwin N. Skelly|Writing - Original Draft, Writing - Review & Editing|
-|Marouen Ben Guebila||
+|Marouen Ben Guebila|Writing - Original Draft|
+|Likhitha Kolla|Writing - Original Draft|
+|David Manheim|Writing - Original Draft, Investigation|
 
 
 ## References {.page_break_before}
