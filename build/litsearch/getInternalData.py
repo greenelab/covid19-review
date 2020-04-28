@@ -210,6 +210,9 @@ def getRelevantPRData():
                 "pull_request_link": PR["html_url"],
                 "diff": diffResponse.text
             })
+            if diffResponse.headers["X-RateLimit-Remaining"] < 2:
+                print('GitHub api rate limit will be exceeded; temporarily not including all PR data while fix is found')
+                break
     return textForReviewPRs
 
 
