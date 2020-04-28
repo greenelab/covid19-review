@@ -286,11 +286,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/571d50b91aa8224d35af3515b8ed25cfce34b157/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/d0fc32234701b9527587f1ecd13310e6bf2a1bf1/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/571d50b91aa8224d35af3515b8ed25cfce34b157/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/d0fc32234701b9527587f1ecd13310e6bf2a1bf1/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/571d50b91aa8224d35af3515b8ed25cfce34b157/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/d0fc32234701b9527587f1ecd13310e6bf2a1bf1/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -323,9 +323,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/571d50b91aa8224d35af3515b8ed25cfce34b157/))
+([permalink](https://greenelab.github.io/covid19-review/v/d0fc32234701b9527587f1ecd13310e6bf2a1bf1/))
 was automatically generated
-from [greenelab/covid19-review@571d50b](https://github.com/greenelab/covid19-review/tree/571d50b91aa8224d35af3515b8ed25cfce34b157)
+from [greenelab/covid19-review@d0fc322](https://github.com/greenelab/covid19-review/tree/d0fc32234701b9527587f1ecd13310e6bf2a1bf1)
 on April 28, 2020.
 </em></small>
 
@@ -1098,25 +1098,37 @@ Differently from a DNA virus, which can use the host enzymes to propagate itself
 #### Nucleotide Analogs
 Removing this header for now, if we add additional nucleotide analogs, we can put it back
 Why one might use nucleotide analogs.
-#### Avigan
+#### Favipiravir
 
-Avigan (Flavipiravir, from Toyama chemical Fujifilm) is a drug which has been found effective to block viral amplification in the Influenza virus infection.
-Avigan is a nucleotide analog.
+Favipiravir (T-705) was discovered by Toyama Chemical Co., Ltd. [@url:https://www.drugbank.ca/drugs/DB12466#reference-A191688].
+The drug was found to effective at blocking viral amplification in several Influenza subtypes as well as other RNA viruses (Flaviviridae, Picornaviridae) based on reduction in plaque formations [@doi:10.1128/AAC.46.4.977-981.2002] and viral replication in MDCK cells [@doi:10.1128/AAC.01051-06]. 
+Furthermore, inoculation of mice with Favipiravir was shown to increase survivability. 
+In 2014, the drug was approved in Japan for the treatment of patients infected with influenza that was resistant to conventional treatments, like neuraminidase inhibitors [@doi:10.2183/pjab.93.027].
 
 ##### Anticipated Mechanism
-
-Specifically, Avigan is a nucleoside precursor efficiently recognised as guanosine and adenosine analogue by the virus polymerase (RNA-dependent RNA polymerase).
-While a single incorporation does not influence RNA transcription, multiple events of incorporation lead to the arrest of RNA synthesis [@doi:10.1371/journal.pone.0068347].
-Importantly It was already shown that Avigan is able to give 100% coverage against the Ebola virus in mice [@doi:10.1016/j.antiviral.2014.02.014].
-Furthermore, there are evidences that drug might also work against Corona virus infection.
-For instance, a recent study showed its effectiveness compared to other antivirals such as lopinavir and ritonavir [@doi:10.1016/j.eng.2020.03.007].
-The drug was tested on a sample of 80 patients (35 experimental sample, 45 control group) and increased the speed of recovery (measured as viral clearance from the patient by RT-PCR) of about 4 days, compared to the control sample treated with the other anti-virals, such as Lopinavir and Ritonavir.
-Also lung body scan seem to look better in about 91% of the patients analysed [@doi:10.1016/j.eng.2020.03.007].
-However, the size of the sample is too small to give a powerful statistics, as well as the choice of the patients did not take into consideration important factors such as previous clinical conditions, sex, while there was no age categorisation.
+Favipiravir (6-fluoro-3-hydroxy-2-pyrazinecarboxamide) acts as a purine and purine nucleoside analogue that inhibits viral RNA polymerase in a dose dependent manner across a range of RNA viruses, including Influenza virus [@doi:10.1128/AAC.49.3.981-986.2005; @doi:10.1128/AAC.01074-08; @doi:10.1128/AAC.00356-07; @doi:https://doi.org/10.1016/j.bbrc.2012.07.034; @doi:10.1128/AAC.01219-10]. 
+Nucleotide/side are the natural building blocks for RNA synthesis.
+Because of this, modifications to these nucleotides/sides can disrupt key processes including replication [@doi:10.1016/j.antiviral.2018.04.004].
+Biochemical experiments showed that Favipiravir was recognized as a purine nucleoside analogue and incorporated into the viral RNA template. 
+A single incorporation does not influence RNA transcription; however, multiple events of incorporation lead to the arrest of RNA synthesis [@doi:10.1371/journal.pone.0068347].
+Evidence for T-705 inhibiting viral RNA polymerase are based on time-of-drug addition studies that found that viral loads were reduced with the addition of Favipiravir in early times post-infection [@doi:10.1128/AAC.49.3.981-986.2005; @doi:10.1016/j.bbrc.2012.07.034; @doi:10.1128/AAC.01219-10].
 
 ##### Current Evidence
-
-A list of current studies and their results, using carefully the information requested in the therapeutic paper tickets.
+The effectiveness of Favipiravir for treating patients with COVID-19 is currently under investigation.
+An open-label, nonrandomized, before-after controlled study was recently conducted [@doi:10.1016/j.eng.2020.03.007].
+The study included 80 COVID-19 patients (35 treated with Favipiravir, 45 control) from the isolation ward of the National Clinical Research Center for Infectious Diseases (The Third People’s Hospital of Shenzhen), Shenzhen, China.
+The patients in the control group were treated with other anti-virals, such as Lopinavir and Ritonavir.
+Treatment was applied on days 2-14; treatment stopped either when viral clearance was confirmed or at day 14.
+The efficacy of the treatment was measured by 1) the time until viral clearance using Kaplan-Meier survival curves, and 2) the improvement rate of chest computed tomography (CT) scans on day 14 after treatment.
+The study found that Favipiravir increased the speed of recovery (measured as viral clearance from the patient by RT-PCR) to 4 days compared to 11 days using other antivirals such as lopinavir and ritonavir. 
+Additionally, the lung CT scans of patients treated with Favipiravir showed significantly higher improvement rates (91%) on day 14 compared to control patients (62%).
+However, there were adverse side effects in 4 (11%) Favipiravir-treated patients and 25 (56%) control patients.
+The adverse side effects included: diarrhea, vomiting, nausea, rash, and liver and kidney injury.
+Overall, despite the study reporting clinical improvement in Favipiravir-treated patients, due to some issues with study design, it cannot be determined whether treatment with Favipiravir had an effect or whether these patients would have recovered regardless of any treatment.
+For example, although there were significant differences between the two treatment groups, follow-up analysis is necessary due to the small sample size.
+The selection of patients did not take into consideration important factors such as previous clinical conditions or sex, and there was no age categorization.
+The study was not randomized or blinded, and the baseline control group was another antiviral instead of a placebo.
+Therefore, randomized controlled trials are still required.
 
 ##### Summary
 
@@ -1312,7 +1324,32 @@ When these identifiers are followed back to the registry, most trials claim they
 For all of these 15 identifiers, no data uploads or links to publications could be located on the pre-registrations.
 At the very least, an inability to locate primary data means such claims cannot be verified.
 Additionally, citation of unavailable sources cast doubt on policies and research based on the assumption that HCQ is effective in treating COVID-19.
+A randomized, open-label, non-placebo trial of 150 COVID-19 patients was conducted in parallel in 16 government-designated COVID-19 centers in China to assess the safety and efficacy of HCQ [@doi:10.1101/2020.04.10.20060558].
+The trial examined the efficacy of HCQ in conjunction with standard of care (SOC) compared to SOC alone in 150 infected patients assigned randomly to the two respective groups (75 per group). 
+Most of the SARS-CoV-2 cases in this cohort were mild to moderate (98%), and the average age of the patients was 46 years.
+The primary endpoint of the study was the negative conversion rate of SARS-CoV-2 in 28 days, and the investigators found no difference in this parameter between the groups.
+The secondary endpoints were an amelioration of the symptoms of the disease such as axillary temperature ≤36.6°C, SpO2 >94% on room air, and disappearance of symptoms like shortness of breath, cough, and sore throat.
+The median time to symptom alleviation was similar across different conditions (19 days in HCQ+SOC vs. 21 days in SOC).
+However, the investigators reported an interesting finding revealed in _post hoc_ analysis: controlling for the administration of antivirals yielded an effect of HCQ on the alleviation of symptoms, with a reported hazard ratio of 8.83.
+However, the 95% confidence interval of 1.09 to 71.3 suggests that this analysis may be underpowered and should be interpreted cautiously, as only 28 patients total (14 in each group) met this criterion.
+Additionally, there was a non-significant trend towards a greater number of lymphocytes in the SOC+HCQ group compared to the SOC alone group (mean of 0.062 versus 0.008; p=0.57). 
+Given the improvement in CRP levels and the possible improvement in lymphocyte count, the authors hypothesized that the addition of HCQ to the current SOC could decrease the inflammatory response and subsequently prevent multiorgan failure and death. 
+Additionally, one of the key results of this trial was that the 30% of the patients receiving SOC+HCQ reported adverse outcomes as opposed to 8.8% of patients receiving only SOC. 
+The most common adverse outcome in the SOC+HCQ group was diarrhea (10% vs. 0% in the SOC group, p=0.004). 
 
+The study had a few limitations. 
+One of the limitations of the study was that the cohort mostly consisted of patients with mild to moderate symptoms, and the average age of analyzed patients was 46.
+This average may not be representative for COVID-19 patients because older age groups are known to be at higher risk.
+Although the authors claimed that HCQ could have beneficial effects in hindering disease progression, multiorgan failure, and death in COVID-19, this finding cannot be extrapolated to older patients or severe cases based on the evidence they present.
+Indeed, a larger sample needs to be tested to validate whether lymphocyte counts do increase in patients treated with SOC+HCQ; although the result in the present analysis appeared promising, it lacked statistical significance.
+Additionally, in this study, SOC included the use of antivirals (Lopinavir-Ritonavir, Arbidol, Oseltamivir, Virazole, Entecavir, Ganciclovir, and Interferon alfa), which appeared to introduce confounding effects. 
+Thus, to better assess the effects of HCQ, an alternate study design needs to be outlined where SOC does not involve the use of anti-virals.
+In this trial, the samples used to test for presence of the SARS-CoV-2 virus were collected from the upper respiratory tract, and the authors indicated that the use of upper respiratory samples may have introduced false negatives (e.g., [@doi:10.1001/jama.2020.3786]); thus, the identification of biomarkers that can be collected non-invasively would be valuable to studies such as this one.
+Another limitation of the study that the authors acknowledge was that the HCQ treatment began, on average, at a 16-day delay from the symptom onset.
+A quicker treatment regimen with HCQ needs to be investigated to elucidate how the drug affects early disease management.
+Overall, the study provides promising data, although all of the findings still need to be validated in independent population cohorts. 
+Their safety analysis indicated that the adverse effects of administering HCQ to mild and moderate COVID-19 cases were manageable. 
+Further investigation is necessary to confirm whether the drug indeed ameliorates symptoms and reduces inflammatory response.
 ##### Summary
 
 In vitro evidence shows HCQ may be an effective therapeutic against SARS-CoV-2 and COVID-19. 
