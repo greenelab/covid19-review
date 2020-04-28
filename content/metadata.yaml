@@ -361,3 +361,54 @@ authors:
       string: "None"
       lastapproved: !!str 2020-04-14
     funders: NIH Medical Scientist Training Program T32 GM07170
+  -
+    github: anskelly
+    name: Ashwin N. Skelly
+    initials: ANS
+    orcid: 0000-0002-1565-3376
+    email: ashwin.skelly@pennmedicine.upenn.edu
+    contributions:
+      - Writing - Original Draft
+      - Writing - Review & Editing
+    affiliations:
+      - Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+      - Institute for Immunology, University of Pennsylvania Perelman School of Medicine, Philadelphia, United States of America
+    code of conduct:
+      confirmed: yes
+    coi: 
+      string: "None"
+      lastapproved: !!str 2020-04-16
+    funders: NIH Medical Scientist Training Program T32 GM07170
+  -
+    github: marouenbg
+    name: Marouen Ben Guebila
+    initials: MBG
+    orcid: 0000-0001-5934-966X
+    twitter: marouenbg
+    email: marouen.b.guebila@gmail.com
+    contributions:
+      - Writing - Original Draft
+    affiliations: 
+      - Department of Biostatistics, Harvard School of Public Health, Boston, Massachusetts, United States of America
+    code of conduct:
+      confirmed: yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-04-17
+  -
+    github: likhithakolla 
+    name: Likhitha Kolla
+    initials: LK
+    orcid: 0000-0002-1169-906X
+    twitter: lkolla2018
+    email: Likhitha.Kolla@Pennmedicine.upenn.edu
+    contributions:
+      - Writing - Original Draft
+    affiliations: 
+      - Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+    code of conduct:
+      confirmed: yes 
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-04-23
+    funders: NIH Medical Scientist Training Program T32 GM07170

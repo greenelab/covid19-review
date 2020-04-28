@@ -92,6 +92,7 @@ def getDOIFromCitation(citation):
             DOI = citation.split(".org/")[1]
         elif citationContainsDOI(citation):
             DOI = citation.split("doi:")[1]
+            DOI = DOI.replace("]", "")
         elif citation == "unknown":
             DOI = "unknown"
         else:
@@ -212,6 +213,52 @@ def getRelevantPRData():
     return textForReviewPRs
 
 
+# Get Mt. Sinai data
+def addMtSinaiReviewLinks(df):
+    # Get list of papers reviewed
+    mtSinaiPapersResponse = requests.get("https://api.github.com/repos/ismms-himc/covid-19_sinai_reviews/contents/markdown_files", headers=headers)
+    mtSinaiPapers = json.loads(mtSinaiPapersResponse.text)
+    # TODO: handle errors in the file names if they occur (see https://github.com/greenelab/covid19-review/pull/226#discussion_r410696328)
+    reviewedDOIs = [str(paper["name"].split(".md")[0]) for paper in mtSinaiPapers]
+
+    # Check if there are Mt Sinai Reviews not in our paper
+    # This wouldn't pick up cases where the Mt. Sinai adds a new review for a paper that was alread cited elsewhere in our paper but it's probably better than nothing
+    citedDOIs = [str(citedDOI) for citedDOI in list(df[~df["Covid19-review_paperLink"].isnull()].doi)]
+    newReviews = [doi for doi in reviewedDOIs if doi.replace('-', '/') not in citedDOIs]
+    if len(newReviews) > 0:
+        print("\n -- New Reviews in the Mt Sinai Repo... --")
+        print("Of the", len(reviewedDOIs), "papers reviewed in https://github.com/ismms-himc/covid-19_sinai_reviews, the following", len(newReviews), "aren't listed in the covid19-review paper:")
+        for newReview in newReviews:
+            print(newReview)
+
+    # Add a link to the review
+    def addLinkToReview(row):
+        try:
+            doiWithoutSlash = str(row.doi).replace("/", "-")
+            if doiWithoutSlash in reviewedDOIs:
+                return "https://github.com/ismms-himc/covid-19_sinai_reviews/tree/master/markdown_files/" + doiWithoutSlash + ".md"
+            else:
+                return
+        except:
+            return
+    df['Mt_Sinai_Review_link'] = df.apply(addLinkToReview, axis=1)
+    return df
+
+
+def getDuplicates(array):
+    seen = {}
+    dupes = []
+
+    for x in array:
+        if x not in seen:
+            seen[x] = 1
+        else:
+            if seen[x] == 1:
+                dupes.append(x)
+            seen[x] += 1
+    return dupes
+
+
 # Data merging function
 def mergePaperDataFrames(dataFramesList):
     """ Combine a list of paper dataframes into one.
@@ -234,6 +281,12 @@ def mergePaperDataFrames(dataFramesList):
         invalidDOI = [False if val else True for val in validDOI]
         dataFramesList_DOI.append(df[validDOI])
         dataFramesList_NoDOI.append(df[invalidDOI])
+
+    # Check if there are issues with duplicate DOIs
+    for df in dataFramesList_DOI:
+        duplicateDOIs = getDuplicates(list(df.index))
+        if len(duplicateDOIs) > 0:
+            raise ValueError('The following paper(s) has/have duplicate issues:', duplicateDOIs)
 
     # Merge on DOIs
     mergedOnDOI = pd.concat(dataFramesList_DOI, axis=1, sort=False)
@@ -267,6 +320,7 @@ def addPRLinks(sourcesDF, prData):
             return
         else:
             for PR in prData:
+                # TODO: use manubot to keep all DOIs consistent so that there will be no issues with short DOIs not matching up. (here and elsewhere)
                 if doi in PR["diff"]:
                     prLinks.append(PR["pull_request_link"])
             prLinksString = ",".join(prLinks)
@@ -295,6 +349,9 @@ combinedData = mergePaperDataFrames([citationsData, issuesData])
 print(len(combinedData), "total items after merge")
 print("\n -- adding in the PR links --")
 combinedData = addPRLinks(combinedData, relevantPRData)
+print("\n -- adding in Mt. Sinai review links --")
+combinedData = addMtSinaiReviewLinks(combinedData)
+combinedData.set_index('doi', inplace=True)
 
 
 combinedDataFilePath = "./output/sources_cross_reference.tsv"
