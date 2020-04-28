@@ -412,3 +412,20 @@ authors:
       string: "None"
       lastapproved: !!str 2020-04-23
     funders: NIH Medical Scientist Training Program T32 GM07170
+  -
+    github: davidmanheim
+    name: David Manheim
+    initials: DM
+    orcid: 0000-0001-8599-8380
+    twitter: davidmanheim
+    email: davidmanheim@gmail.com
+    contributions:
+      - Writing - Original Draft
+      - Investigation
+    affiliations: 
+      - Risk and Health Communication Research Center, School of Public Health, University of Haifa, Haifa, Israel
+    code of conduct:
+      confirmed: yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-04-28
