@@ -31,7 +31,7 @@ author-meta:
 bibliography:
 - content/manual-references.bib
 - content/manual-references.json
-date-meta: '2020-04-28'
+date-meta: '2020-04-29'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -50,9 +50,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
 
-  <meta name="dc.date" content="2020-04-28" />
+  <meta name="dc.date" content="2020-04-29" />
 
-  <meta name="citation_publication_date" content="2020-04-28" />
+  <meta name="citation_publication_date" content="2020-04-29" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -286,11 +286,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/d0fc32234701b9527587f1ecd13310e6bf2a1bf1/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/f7c9a4653443dc1c00b446b760313e4d1d691698/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/d0fc32234701b9527587f1ecd13310e6bf2a1bf1/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/f7c9a4653443dc1c00b446b760313e4d1d691698/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/d0fc32234701b9527587f1ecd13310e6bf2a1bf1/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/f7c9a4653443dc1c00b446b760313e4d1d691698/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -323,10 +323,10 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/d0fc32234701b9527587f1ecd13310e6bf2a1bf1/))
+([permalink](https://greenelab.github.io/covid19-review/v/f7c9a4653443dc1c00b446b760313e4d1d691698/))
 was automatically generated
-from [greenelab/covid19-review@d0fc322](https://github.com/greenelab/covid19-review/tree/d0fc32234701b9527587f1ecd13310e6bf2a1bf1)
-on April 28, 2020.
+from [greenelab/covid19-review@f7c9a46](https://github.com/greenelab/covid19-review/tree/f7c9a4653443dc1c00b446b760313e4d1d691698)
+on April 29, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -1106,7 +1106,7 @@ Furthermore, inoculation of mice with Favipiravir was shown to increase survivab
 In 2014, the drug was approved in Japan for the treatment of patients infected with influenza that was resistant to conventional treatments, like neuraminidase inhibitors [@doi:10.2183/pjab.93.027].
 
 ##### Anticipated Mechanism
-Favipiravir (6-fluoro-3-hydroxy-2-pyrazinecarboxamide) acts as a purine and purine nucleoside analogue that inhibits viral RNA polymerase in a dose dependent manner across a range of RNA viruses, including Influenza virus [@doi:10.1128/AAC.49.3.981-986.2005; @doi:10.1128/AAC.01074-08; @doi:10.1128/AAC.00356-07; @doi:https://doi.org/10.1016/j.bbrc.2012.07.034; @doi:10.1128/AAC.01219-10]. 
+Favipiravir (6-fluoro-3-hydroxy-2-pyrazinecarboxamide) acts as a purine and purine nucleoside analogue that inhibits viral RNA polymerase in a dose dependent manner across a range of RNA viruses, including Influenza virus [@doi:10.1128/AAC.49.3.981-986.2005; @doi:10.1128/AAC.01074-08; @doi:10.1128/AAC.00356-07; @doi:10.1016/j.bbrc.2012.07.034; @doi:10.1128/AAC.01219-10]. 
 Nucleotide/side are the natural building blocks for RNA synthesis.
 Because of this, modifications to these nucleotides/sides can disrupt key processes including replication [@doi:10.1016/j.antiviral.2018.04.004].
 Biochemical experiments showed that Favipiravir was recognized as a purine nucleoside analogue and incorporated into the viral RNA template. 
