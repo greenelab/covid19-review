@@ -60,7 +60,7 @@ on_success:
   - |
       if [ "${SPELLCHECK:-}" = "true" ]; then
         SPELLING_ERROR_COUNT=($(wc -l $SPELLING_ERRORS_FILENAME))
-        appveyor AddMessage " <details><summary>Found $SPELLING_ERROR_COUNT potential spelling error(s). Preview:</summary>$(cat $SPELLING_ERRORS_FILENAME)"
+        appveyor AddMessage " <details><summary>Found $SPELLING_ERROR_COUNT potential spelling error(s). Preview:</summary>$(head -n 100 $SPELLING_ERRORS_FILENAME)"
         appveyor AddMessage "... </details>"
       fi
 
