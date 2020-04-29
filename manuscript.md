@@ -28,6 +28,7 @@ author-meta:
 - Marouen Ben Guebila
 - Likhitha Kolla
 - David Manheim
+- Soumita Ghosh
 bibliography:
 - content/manual-references.bib
 - content/manual-references.json
@@ -274,6 +275,12 @@ header-includes: '<!--
 
   <meta name="twitter:creator" content="@davidmanheim" />
 
+  <meta name="citation_author" content="Soumita Ghosh" />
+
+  <meta name="citation_author_institution" content="Institute of Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America" />
+
+  <meta name="citation_author_orcid" content="0000-0002-2783-2750" />
+
   <link rel="canonical" href="https://greenelab.github.io/covid19-review/" />
 
   <meta property="og:url" content="https://greenelab.github.io/covid19-review/" />
@@ -286,11 +293,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/f7c9a4653443dc1c00b446b760313e4d1d691698/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/d81047ad3223a28a2a035d7b2be3a65f53c8836c/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/f7c9a4653443dc1c00b446b760313e4d1d691698/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/d81047ad3223a28a2a035d7b2be3a65f53c8836c/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/f7c9a4653443dc1c00b446b760313e4d1d691698/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/d81047ad3223a28a2a035d7b2be3a65f53c8836c/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -323,9 +330,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/f7c9a4653443dc1c00b446b760313e4d1d691698/))
+([permalink](https://greenelab.github.io/covid19-review/v/d81047ad3223a28a2a035d7b2be3a65f53c8836c/))
 was automatically generated
-from [greenelab/covid19-review@f7c9a46](https://github.com/greenelab/covid19-review/tree/f7c9a4653443dc1c00b446b760313e4d1d691698)
+from [greenelab/covid19-review@d81047a](https://github.com/greenelab/covid19-review/tree/d81047ad3223a28a2a035d7b2be3a65f53c8836c)
 on April 29, 2020.
 </em></small>
 
@@ -627,6 +634,15 @@ Instead, you should collect information from your local health department, the [
     [davidmanheim](https://twitter.com/davidmanheim)<br>
   <small>
      Risk and Health Communication Research Center, School of Public Health, University of Haifa, Haifa, Israel
+  </small>
+
++ **Soumita Ghosh**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-2783-2750](https://orcid.org/0000-0002-2783-2750)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [soumitagh](https://github.com/soumitagh)<br>
+  <small>
+     Institute of Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
   </small>
 
 
@@ -1901,6 +1917,7 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 |Marouen Ben Guebila|None|2020-04-17|
 |Likhitha Kolla|None|2020-04-23|
 |David Manheim|None|2020-04-28|
+|Soumita Ghosh|None|2020-04-28|
 
 ### Author Contributions
 
@@ -1934,6 +1951,7 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 |Marouen Ben Guebila|Writing - Original Draft|
 |Likhitha Kolla|Writing - Original Draft|
 |David Manheim|Writing - Original Draft, Investigation|
+|Soumita Ghosh|Writing - Original Draft|
 
 
 ## References {.page_break_before}
