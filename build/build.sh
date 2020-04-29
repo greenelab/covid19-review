@@ -91,7 +91,7 @@ if [ "${SPELLCHECK:-}" = "true" ]; then
   #pandoc --lua-filter spellcheck.lua output/manuscript.md | uniq | while read word; do grep -ion "\<$word\>" content/*.md; done | sort -h -t ":" -k 1b,1 -k2,2 > output/spelling-errors.txt || true
   #echo >&2 "Filenames and line numbers with potential spelling errors:"
   #cat output/spelling-errors.txt
-  pandoc --lua-filter spellcheck.lua output/manuscript.md | uniq | sort > output/spelling-errors.txt || true
+  pandoc --lua-filter spellcheck.lua output/manuscript.md > output/spelling-errors.txt
   echo >&2 "Potential spelling errors:"
   cat output/spelling-errors.txt
 fi
