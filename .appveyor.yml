@@ -44,7 +44,7 @@ test_script:
   - |
       if [ "${SPELLCHECK:-}" = "true" ]; then
         SPELLING_ERRORS_FILENAME=spelling-errors-$APPVEYOR_BUILD_VERSION-${TRIGGERING_COMMIT:0:7}.txt
-        cp output/spelling-errors.txt $SPELLING_ERRORS_FILENAME;
+        cp output/spelling-errors.txt $SPELLING_ERRORS_FILENAME
         appveyor PushArtifact $SPELLING_ERRORS_FILENAME
       fi
 
