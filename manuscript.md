@@ -32,7 +32,7 @@ author-meta:
 bibliography:
 - content/manual-references.bib
 - content/manual-references.json
-date-meta: '2020-04-29'
+date-meta: '2020-04-30'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -51,9 +51,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
 
-  <meta name="dc.date" content="2020-04-29" />
+  <meta name="dc.date" content="2020-04-30" />
 
-  <meta name="citation_publication_date" content="2020-04-29" />
+  <meta name="citation_publication_date" content="2020-04-30" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -293,11 +293,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/d81047ad3223a28a2a035d7b2be3a65f53c8836c/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/642f1c1e689312ffea7c9096732c86d67eac71bd/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/d81047ad3223a28a2a035d7b2be3a65f53c8836c/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/642f1c1e689312ffea7c9096732c86d67eac71bd/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/d81047ad3223a28a2a035d7b2be3a65f53c8836c/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/642f1c1e689312ffea7c9096732c86d67eac71bd/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -330,10 +330,10 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/d81047ad3223a28a2a035d7b2be3a65f53c8836c/))
+([permalink](https://greenelab.github.io/covid19-review/v/642f1c1e689312ffea7c9096732c86d67eac71bd/))
 was automatically generated
-from [greenelab/covid19-review@d81047a](https://github.com/greenelab/covid19-review/tree/d81047ad3223a28a2a035d7b2be3a65f53c8836c)
-on April 29, 2020.
+from [greenelab/covid19-review@642f1c1](https://github.com/greenelab/covid19-review/tree/642f1c1e689312ffea7c9096732c86d67eac71bd)
+on April 30, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -1699,7 +1699,7 @@ Self-replicating vaccines produce more viral antigens over a longer period of ti
 Finally, _in vitro_ dendritic cell non-replicating RNA vaccines limit transfection to dendritic cells. 
 Dendritic cells are potent antigen presenting immune cells that easily take up mRNA and present fragments of the translated peptide on their MHC proteins, which can then interact with T cell receptors.  
 Ultimately, primed T follicular helper cells can stimulate germinal center B cells that also present the viral antigen to produce antibodies against the virus [@doi:10.1016/j.immuni.2014.10.004].
-These cells are isolated from the patient, grown and transfected _ex vivo_, and re-introduced to the patient [@doi:10.1038/nrd.2017.243].
+These cells are isolated from the patient, grown and transfected _ex vivo_, and reintroduced to the patient [@doi:10.1038/nrd.2017.243].
 
 
 ##### Current Evidence
