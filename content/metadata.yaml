@@ -449,3 +449,19 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-04-28
+  -
+    github: matfax
+    name: Matthias Fax
+    initials: MF
+    orcid: 0000-0002-0064-395X
+    email: matthias.fax@gmail.com
+    contributions:
+      - Writing - Review & Editing
+    affiliations:
+      - greensolid technologies, Bavaria, Germany
+      - IEEE Reliability Society, Vienna, Austria
+    code of conduct:
+      confirmed: yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-04-30
