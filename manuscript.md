@@ -29,10 +29,11 @@ author-meta:
 - Likhitha Kolla
 - David Manheim
 - Soumita Ghosh
+- Matthias Fax
 bibliography:
 - content/manual-references.bib
 - content/manual-references.json
-date-meta: '2020-04-30'
+date-meta: '2020-05-01'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -51,9 +52,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
 
-  <meta name="dc.date" content="2020-04-30" />
+  <meta name="dc.date" content="2020-05-01" />
 
-  <meta name="citation_publication_date" content="2020-04-30" />
+  <meta name="citation_publication_date" content="2020-05-01" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -281,6 +282,14 @@ header-includes: '<!--
 
   <meta name="citation_author_orcid" content="0000-0002-2783-2750" />
 
+  <meta name="citation_author" content="Matthias Fax" />
+
+  <meta name="citation_author_institution" content="greensolid technologies, Bavaria, Germany" />
+
+  <meta name="citation_author_institution" content="IEEE Reliability Society, Vienna, Austria" />
+
+  <meta name="citation_author_orcid" content="0000-0002-0064-395X" />
+
   <link rel="canonical" href="https://greenelab.github.io/covid19-review/" />
 
   <meta property="og:url" content="https://greenelab.github.io/covid19-review/" />
@@ -293,11 +302,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/3111b12e9072d703821d9d975134c0c634930d07/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/3f84c59cf8ddad699f625e62befaa4c55e48d165/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/3111b12e9072d703821d9d975134c0c634930d07/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/3f84c59cf8ddad699f625e62befaa4c55e48d165/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/3111b12e9072d703821d9d975134c0c634930d07/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/3f84c59cf8ddad699f625e62befaa4c55e48d165/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -330,10 +339,10 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/3111b12e9072d703821d9d975134c0c634930d07/))
+([permalink](https://greenelab.github.io/covid19-review/v/3f84c59cf8ddad699f625e62befaa4c55e48d165/))
 was automatically generated
-from [greenelab/covid19-review@3111b12](https://github.com/greenelab/covid19-review/tree/3111b12e9072d703821d9d975134c0c634930d07)
-on April 30, 2020.
+from [greenelab/covid19-review@3f84c59](https://github.com/greenelab/covid19-review/tree/3f84c59cf8ddad699f625e62befaa4c55e48d165)
+on May 1, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -643,6 +652,15 @@ Instead, you should collect information from your local health department, the [
     [soumitagh](https://github.com/soumitagh)<br>
   <small>
      Institute of Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+  </small>
+
++ **Matthias Fax**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-0064-395X](https://orcid.org/0000-0002-0064-395X)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [matfax](https://github.com/matfax)<br>
+  <small>
+     greensolid technologies, Bavaria, Germany; IEEE Reliability Society, Vienna, Austria
   </small>
 
 
@@ -1959,6 +1977,7 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 |Likhitha Kolla|None|2020-04-23|
 |David Manheim|None|2020-04-28|
 |Soumita Ghosh|None|2020-04-28|
+|Matthias Fax|None|2020-04-30|
 
 ### Author Contributions
 
@@ -1993,6 +2012,7 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 |Likhitha Kolla|Writing - Original Draft|
 |David Manheim|Writing - Original Draft, Investigation|
 |Soumita Ghosh|Writing - Original Draft|
+|Matthias Fax|Writing - Review & Editing|
 
 
 ## References {.page_break_before}
