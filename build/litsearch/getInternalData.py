@@ -206,9 +206,11 @@ def getRelevantPRData():
     # Load the closed PRs info from a file (caching the closed PR info to avoid exceeding the GitHub API Limit)
     closedPRFilePath = "./output/cache/closedPRDiffs.pkl"
     if os.path.exists(closedPRFilePath):
+        print('cached closedPRDiffs.pkl file present')
         with open(closedPRFilePath, "rb") as filePath:
             closedPRDiffs = pickle.load(filePath)
     else:
+        print('cached closedPRDiffs.pkl file NOT present')
         closedPRDiffs = {}
 
     for PR in prInfoFromAPI:
