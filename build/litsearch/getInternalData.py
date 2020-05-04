@@ -3,6 +3,8 @@ import requests
 import json
 import base64
 import logging
+import pickle
+import os.path
 from manubot import cite
 
 
@@ -200,19 +202,51 @@ def getRelevantPRData():
     diffHeader = headers.copy()
     diffHeader['Accept'] = "application/vnd.github.v3.diff"
     textForReviewPRs = []
+    
+    # Load the closed PRs info from a file (caching the closed PR info to avoid exceeding the GitHub API Limit)
+    closedPRFilePath = "./output/cache/closedPRDiffs.pkl"
+    if os.path.exists(closedPRFilePath):
+        print('cached closedPRDiffs.pkl file present')
+        with open(closedPRFilePath, "rb") as filePath:
+            closedPRDiffs = pickle.load(filePath)
+    else:
+        print('cached closedPRDiffs.pkl file NOT present')
+        closedPRDiffs = {}
+
     for PR in prInfoFromAPI:
         labels = [label["name"] for label in PR['labels']]
         if "Text for Review" in labels:
-            # Get diff from api
-            diffResponse = requests.get(PR["url"], headers=diffHeader)
+            if PR["state"] == "closed":
+                if PR["url"] in closedPRDiffs:
+                    # Get diff from cache
+                    diff = closedPRDiffs[PR["url"]]
+                else:
+                    # Get diff from api
+                    diffResponse = requests.get(PR["url"], headers=diffHeader)
+                    diff = diffResponse.text
+                    closedPRDiffs[PR["url"]] = diff
+                    if int(diffResponse.headers["X-RateLimit-Remaining"]) <= 2:
+                        print('GitHub api rate limit will be exceeded; Pull-Request diffs received thus far will be cached for later use')
+                        break
+            else:
+                diffResponse = requests.get(PR["url"], headers=diffHeader)
+                diff = diffResponse.text
+                if int(diffResponse.headers["X-RateLimit-Remaining"]) <= 2:
+                    print('GitHub api rate limit will be exceeded; Pull-Request diffs received thus far will be cached for later use')
+                    break
+
             # Add the info the list
             textForReviewPRs.append({
                 "pull_request_link": PR["html_url"],
-                "diff": diffResponse.text
+                "diff": diff
             })
-            if int(diffResponse.headers["X-RateLimit-Remaining"]) <= 2:
-                print('GitHub api rate limit will be exceeded; temporarily not including all PR data while fix is found')
-                break
+    
+    # Save closed PR info to file as cache
+    if not os.path.exists("./output/cache"):
+        os.mkdir("./output/cache")
+    with open(closedPRFilePath, "wb") as filePath:
+        pickle.dump(closedPRDiffs, filePath)
+
     return textForReviewPRs
 
 
