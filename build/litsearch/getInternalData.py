@@ -9,6 +9,10 @@ from manubot import cite
 headers = {}  # For Development you can insert your GH api token here and up the rate limit {'Authorization': 'token %s' % "<apiToken>"}
 
 
+def printReqRemaining(res):
+    print('API Requests Remaining:', res.headers["X-RateLimit-Remaining"])
+
+
 # Issues Helper Functions
 def getIssuesFromAPI():
     """ Gets all the issues and pull-requests (GH treats PRs like issues in the api)
@@ -21,6 +25,7 @@ def getIssuesFromAPI():
         issuesResponse = requests.get(
             "https://api.github.com/repos/greenelab/covid19-review/issues?state=all&per_page=50&page=" +
             str(pageNumber), headers=headers)
+        printReqRemaining(issuesResponse)
         issues_page = json.loads(issuesResponse.text)
         issues = issues + issues_page
         numberOfIssuesReturned = len(issues_page)
@@ -149,6 +154,7 @@ def getCitationsData():
     Gets the citation info from the referneces.json file in the output branch
     """
     citationsResponse = requests.get("https://api.github.com/repos/greenelab/covid19-review/contents/references.json?ref=output", headers=headers)
+    printReqRemaining(citationsResponse)
     citations = json.loads(base64.b64decode(json.loads(citationsResponse.text)["content"]))
     citationsDF = pd.DataFrame(citations)
     citationsDF["Covid19-review_paperLink"] = citationsDF.id.apply(lambda x: "https://greenelab.github.io/covid19-review/#ref-" + x)
@@ -187,6 +193,7 @@ def getPRsFromAPI():
         PRsResponse = requests.get(
             "https://api.github.com/repos/greenelab/covid19-review/pulls?state=all&per_page=50&page=" +
             str(pageNumber), headers=headers)
+        printReqRemaining(PRsResponse)
         PRs_page = json.loads(PRsResponse.text)
         PRs = PRs + PRs_page
         numberOfPRsReturned = len(PRs_page)
@@ -220,6 +227,7 @@ def getRelevantPRData():
 def addMtSinaiReviewLinks(df):
     # Get list of papers reviewed
     mtSinaiPapersResponse = requests.get("https://api.github.com/repos/ismms-himc/covid-19_sinai_reviews/contents/markdown_files", headers=headers)
+    printReqRemaining(mtSinaiPapersResponse)
     mtSinaiPapers = json.loads(mtSinaiPapersResponse.text)
     # TODO: handle errors in the file names if they occur (see https://github.com/greenelab/covid19-review/pull/226#discussion_r410696328)
     reviewedDOIs = [str(paper["name"].split(".md")[0]) for paper in mtSinaiPapers]
