@@ -38,9 +38,11 @@ jobs:
           activate-environment: manubot
           environment-file: build/environment.yml
           auto-activate-base: false
-          miniconda-version: 'latest'
+          miniconda-version: "latest"
       - name: Build Manuscript
         shell: bash --login {0}
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         run: bash build/build.sh
       - name: Upload Artifacts
         uses: actions/upload-artifact@v1

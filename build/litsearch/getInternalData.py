@@ -9,10 +9,11 @@ from manubot import cite
 
 
 headers = {}  # For Development you can insert your GH api token here and up the rate limit {'Authorization': 'token %s' % "<apiToken>"}
-
-
-def printReqRemaining(res):
-    print('API Requests Remaining:', res.headers["X-RateLimit-Remaining"])
+if "GITHUB_TOKEN" in os.environ:
+    print("GITHUB_TOKEN env variable is present.")
+    headers = {'Authorization': 'token %s' % os.environ["GITHUB_TOKEN"]}
+else:
+    print('GITHUB_TOKEN env variable is not present.')
 
 
 # Issues Helper Functions
@@ -27,7 +28,6 @@ def getIssuesFromAPI():
         issuesResponse = requests.get(
             "https://api.github.com/repos/greenelab/covid19-review/issues?state=all&per_page=50&page=" +
             str(pageNumber), headers=headers)
-        printReqRemaining(issuesResponse)
         issues_page = json.loads(issuesResponse.text)
         issues = issues + issues_page
         numberOfIssuesReturned = len(issues_page)
@@ -156,7 +156,6 @@ def getCitationsData():
     Gets the citation info from the referneces.json file in the output branch
     """
     citationsResponse = requests.get("https://api.github.com/repos/greenelab/covid19-review/contents/references.json?ref=output", headers=headers)
-    printReqRemaining(citationsResponse)
     citations = json.loads(base64.b64decode(json.loads(citationsResponse.text)["content"]))
     citationsDF = pd.DataFrame(citations)
     citationsDF["Covid19-review_paperLink"] = citationsDF.id.apply(lambda x: "https://greenelab.github.io/covid19-review/#ref-" + x)
@@ -195,7 +194,6 @@ def getPRsFromAPI():
         PRsResponse = requests.get(
             "https://api.github.com/repos/greenelab/covid19-review/pulls?state=all&per_page=50&page=" +
             str(pageNumber), headers=headers)
-        printReqRemaining(PRsResponse)
         PRs_page = json.loads(PRsResponse.text)
         PRs = PRs + PRs_page
         numberOfPRsReturned = len(PRs_page)
@@ -209,51 +207,20 @@ def getRelevantPRData():
     diffHeader = headers.copy()
     diffHeader['Accept'] = "application/vnd.github.v3.diff"
     textForReviewPRs = []
-    
-    # Load the closed PRs info from a file (caching the closed PR info to avoid exceeding the GitHub API Limit)
-    closedPRFilePath = "./output/cache/closedPRDiffs.pkl"
-    if os.path.exists(closedPRFilePath):
-        print('cached closedPRDiffs.pkl file present')
-        with open(closedPRFilePath, "rb") as filePath:
-            closedPRDiffs = pickle.load(filePath)
-    else:
-        print('cached closedPRDiffs.pkl file NOT present')
-        closedPRDiffs = {}
 
     for PR in prInfoFromAPI:
         labels = [label["name"] for label in PR['labels']]
         if "Text for Review" in labels:
-            if PR["state"] == "closed":
-                if PR["url"] in closedPRDiffs:
-                    # Get diff from cache
-                    diff = closedPRDiffs[PR["url"]]
-                else:
-                    # Get diff from api
-                    diffResponse = requests.get(PR["url"], headers=diffHeader)
-                    diff = diffResponse.text
-                    closedPRDiffs[PR["url"]] = diff
-                    if int(diffResponse.headers["X-RateLimit-Remaining"]) <= 2:
-                        print('GitHub api rate limit will be exceeded; Pull-Request diffs received thus far will be cached for later use')
-                        break
-            else:
-                diffResponse = requests.get(PR["url"], headers=diffHeader)
-                diff = diffResponse.text
-                if int(diffResponse.headers["X-RateLimit-Remaining"]) <= 2:
-                    print('GitHub api rate limit will be exceeded; Pull-Request diffs received thus far will be cached for later use')
-                    break
-
+            diffResponse = requests.get(PR["url"], headers=diffHeader)
+            diff = diffResponse.text
             # Add the info the list
             textForReviewPRs.append({
                 "pull_request_link": PR["html_url"],
                 "diff": diff
             })
-    
-    # Save closed PR info to file as cache
-    if not os.path.exists("./output/cache"):
-        os.mkdir("./output/cache")
-    with open(closedPRFilePath, "wb") as filePath:
-        pickle.dump(closedPRDiffs, filePath)
-
+            if int(diffResponse.headers["X-RateLimit-Remaining"]) <= 2:
+                print('GitHub api rate limit will be exceeded; the GITHUB_TOKEN env variable needs to be set.')
+                break
     return textForReviewPRs
 
 
@@ -261,7 +228,6 @@ def getRelevantPRData():
 def addMtSinaiReviewLinks(df):
     # Get list of papers reviewed
     mtSinaiPapersResponse = requests.get("https://api.github.com/repos/ismms-himc/covid-19_sinai_reviews/contents/markdown_files", headers=headers)
-    printReqRemaining(mtSinaiPapersResponse)
     mtSinaiPapers = json.loads(mtSinaiPapersResponse.text)
     # TODO: handle errors in the file names if they occur (see https://github.com/greenelab/covid19-review/pull/226#discussion_r410696328)
     reviewedDOIs = [str(paper["name"].split(".md")[0]) for paper in mtSinaiPapers]
