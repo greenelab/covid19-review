@@ -17,3 +17,10 @@ conda config \
 conda env create --quiet --file build/environment.yml
 conda list --name manubot
 conda activate manubot
+
+# Install Spellcheck filter for Pandoc
+if [ "${SPELLCHECK:-}" = "true" ]; then
+  sudo apt-get update -y
+  sudo apt-get install -y aspell aspell-en
+  wget https://raw.githubusercontent.com/agitter/lua-filters/25066659816b0c05c52da2699bac4ab09b8ca80b/spellcheck/spellcheck.lua
+fi

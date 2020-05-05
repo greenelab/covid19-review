@@ -38,3 +38,6 @@ Thumbs.db
 
 ## Text Editors
 .vscode
+
+## Spellcheck script
+spellcheck.lua
