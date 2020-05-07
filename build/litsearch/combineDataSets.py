@@ -34,7 +34,7 @@ def paper_info(row):
 
 if __name__ == "__main__":
     # Update external data, if not updated yet today, and read
-    metadata_fname = "../../output/AllenAI-metadata.csv"
+    metadata_fname = "./output/AllenAI-metadata.csv"
     if not os.path.exists(metadata_fname) or \
             dt.datetime.fromtimestamp(os.path.getctime(metadata_fname)).date() != \
             dt.datetime.now().date():
@@ -45,7 +45,7 @@ if __name__ == "__main__":
     print("AIA has {0} sources".format(len(AIA_metadata)))
 
     # Update internal dataset, which is maintained with CI
-    review_sources = pd.read_csv("../../output/sources_cross_reference.tsv",
+    review_sources = pd.read_csv("./output/sources_cross_reference.tsv",
                                  sep="\t")
     review_sources = clean_df(review_sources)
     review_sources.rename({"URL":"SecondaryURL"}, inplace=True, axis=1)
@@ -93,4 +93,4 @@ if __name__ == "__main__":
              for pub in num_pubs_missing.keys()
              if pub not in ["bioRxiv", "medRxiv"]])))
 
-    combined.to_csv("../../output/covid19-lit-all.tsv", sep="\t", index=False)
+    combined.to_csv("./output/covid19-lit-all.tsv", sep="\t", index=False)
