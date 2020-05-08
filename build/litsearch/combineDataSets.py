@@ -9,7 +9,6 @@ def update_AI(fname):
     url = 'https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/latest/metadata.csv'
     urllib.request.urlretrieve(url, filename=fname)
 
-def clean_df(df):
     df = df.dropna(subset=["doi"])
     return df
 
