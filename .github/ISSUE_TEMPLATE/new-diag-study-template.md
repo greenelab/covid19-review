@@ -26,6 +26,13 @@ Citation:
 * keyword 2 (replace me, copy and paste more than three if needed)
 * keyword 3 (replace me, copy and paste more than three if needed)
 
+## Please note the publication / review status
+<!--Replace one of the empty brackets below with [x].-->
+
+- [ ] Pre-print
+- [ ] New Peer-Reviewed Paper
+- [ ] Peer-Reviewed Paper (Pre-2020)
+
 ## Which areas of expertise are particularly relevant to the paper?
 <!--Replace the empty brackets below with [x].-->
 
