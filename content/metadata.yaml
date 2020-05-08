@@ -465,8 +465,8 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-04-30
--
-  github: byrdjb 
+  -
+    github: byrdjb 
     name: James Brian Byrd
     initials: JBB
     orcid: 0000-0002-0509-3520
