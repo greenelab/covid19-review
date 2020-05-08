@@ -78,7 +78,7 @@ if __name__ == "__main__":
     for source in ["bioRxiv", "medRxiv"]:
         if len(missing[missing["publication"] == source]) > 0:
             print("Abstract retrieved from {0} for these DOIs:".format(source))
-            print(missing[missing["publication"] == source]["doi"])
+            print(list(missing[missing["publication"] == source]["doi"]))
 
     # Update combined with information from bioRxiv/medRxiv
     combined.set_index("doi", inplace=True)
