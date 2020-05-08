@@ -38,13 +38,13 @@ if __name__ == "__main__":
         print("Update Allen AI metadata")
         update_AI(metadata_fname)
     AIA_metadata = pd.read_csv(metadata_fname, low_memory=False)
-    AIA_metadata = clean_df(AIA_metadata)
+    AIA_metadata = AIA_metadata.dropna(subset=["doi"])
     print("AIA has {0} sources".format(len(AIA_metadata)))
 
     # Update internal dataset, which is maintained with CI
     review_sources = pd.read_csv("./output/sources_cross_reference.tsv",
                                  sep="\t")
-    review_sources = clean_df(review_sources)
+    review_sources = review_sources.dropna(subset=["doi"])
     review_sources.rename({"URL":"SecondaryURL"}, inplace=True, axis=1)
     print("COVID-19 review has {0} sources".format(len(review_sources)))
 
