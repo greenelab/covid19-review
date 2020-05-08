@@ -465,3 +465,22 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-04-30
+-
+  github: byrdjb 
+    name: James Brian Byrd
+    initials: JBB
+    orcid: 0000-0002-0509-3520
+    twitter: thebyrdlab
+    email: jbbyrd@med.umich.edu
+    contributions:
+      - Writing - Original Draft
+    affiliations: 
+      - University of Michigan School of Medicine, Ann Arbor, Michigan, United States of America
+    code of conduct:
+      confirmed: yes 
+    coi:
+      string: "Funded by FastGrants to conduct a COVID-19-related clinical trial"
+      lastapproved: !!str 2020-04-23
+    funders:
+      - NIH K23HL128909
+      - FastGrants
