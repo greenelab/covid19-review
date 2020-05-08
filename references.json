@@ -16900,8 +16900,8 @@
       "date-parts": [
         [
           2020,
-          4,
-          16
+          5,
+          7
         ]
       ]
     },
@@ -18107,16 +18107,16 @@
       "date-parts": [
         [
           2020,
-          4,
-          14
+          5,
+          7
         ]
       ]
     },
-    "abstract": "Abstract Objectives To assess the efficacy and safety of hydroxychloroquine (HCQ) plus standard-of-care (SOC) compared with SOC alone in adult patients with COVID-19. Design Multicenter, open-label, randomized controlled trial. Setting 16 government-designated COVID-19 treatment centers in China through 11 to 29 in February 2020. Participants 150 patients hospitalized with COVID-19. 75 patients were assigned to HCQ plus SOC and 75 were assigned to SOC alone (control group). Interventions HCQ was administrated with a loading dose of 1, 200 mg daily for three days followed by a maintained dose of 800 mg daily for the remaining days (total treatment duration: 2 or 3 weeks for mild/moderate or severe patients, respectively). Main outcome measures The primary endpoint was the 28-day negative conversion rate of SARS-CoV-2. The assessed secondary endpoints were negative conversion rate at day 4, 7, 10, 14 or 21, the improvement rate of clinical symptoms within 28-day, normalization of C-reactive protein and blood lymphocyte count within 28-day. Primary and secondary analysis was by intention to treat. Adverse events were assessed in the safety population. Results The overall 28-day negative conversion rate was not different between SOC plus HCQ and SOC group (Kaplan-Meier estimates 85.4% versus 81.3%, P=0.341). Negative conversion rate at day 4, 7, 10, 14 or 21 was also similar between the two groups. No different 28-day symptoms alleviation rate was observed between the two groups. A significant efficacy of HCQ on alleviating symptoms was observed when the confounding effects of anti-viral agents were removed in the post-hoc analysis (Hazard ratio, 8.83, 95%CI, 1.09 to 71.3). This was further supported by a significantly greater reduction of CRP (6.986 in SOC plus HCQ versus 2.723 in SOC, milligram/liter, P=0.045) conferred by the addition of HCQ, which also led to more rapid recovery of lymphopenia, albeit no statistical significance. Adverse events were found in 8.8% of SOC and 30% of HCQ recipients with two serious adverse events. The most common adverse event in the HCQ recipients was diarrhea (10%). Conclusions The administration of HCQ did not result in a higher negative conversion rate but more alleviation of clinical symptoms than SOC alone in patients hospitalized with COVID-19 without receiving antiviral treatment, possibly through anti-inflammatory effects. Adverse events were significantly increased in HCQ recipients but no apparently increase of serious adverse events. Trial registration ChiCTR2000029868.",
+    "abstract": "Abstract Objectives To assess the efficacy and safety of hydroxychloroquine (HCQ) plus standard-of-care (SOC) compared with SOC alone in adult patients with COVID-19. Design Multicenter, open-label, randomized controlled trial. Setting 16 government-designated COVID-19 treatment centers in China through 11 to 29 in February 2020. Participants 150 patients hospitalized with laboratory-confirmed COVID-19 were included in the intention to treat analysis. 75 patients were assigned to HCQ plus SOC and 75 to SOC alone. Interventions HCQ was administrated with a loading dose of 1, 200 mg daily for three days followed by a maintained dose of 800 mg daily for the remaining days (total treatment duration: 2 or 3 weeks for mild/moderate or severe patients, respectively). Main outcome measures The primary outcome was whether participants had a negative conversion of SARS-CoV-2 by 28 days, and was analyzed according to the intention-to-treat principle. Adverse events were analyzed in the safety population in which HCQ recipients were participants who actually received at least one dose of HCQ and HCQ non-recipients were those actually managed with SOC alone. Results Among 150 patients, 148 were with mild to moderate disease and 2 were with severe disease. The mean days (±standard deviation, min to max) from symptoms onset to randomization was 16.6 (±10.5 days, 3 to 41 days). The negative conversion probability by 28 days in SOC plus HCQ group was 85.4% (95% confidence interval (CI) 73.8% to 93.8%), similar to that in the SOC group 81.3% (95%CI 71.2% to 89.6%). Between-group difference was 4.1% (95%CI -10.3% to 18.5%). In the safety population, adverse events were recorded in 7 (8.8%) HCQ non-recipients (N=80) and in 21 (30%) HCQ recipients (N=70). The most common adverse event in the HCQ recipients was diarrhea, reported in 7 (10%) patients. Two HCQ recipients reported serious adverse events. Conclusions The administration of HCQ did not result in a significantly higher negative conversion probability than SOC alone in patients mainly hospitalized with persistent mild to moderate COVID-19. Adverse events were higher in HCQ recipients than in HCQ non-recipients. Trial registration ChiCTR2000029868",
     "container-title": "medRxiv",
     "DOI": "10.1101/2020.04.10.20060558",
     "publisher": "medRxiv",
-    "title": "Hydroxychloroquine in patients with COVID-19: an open-label, randomized, controlled trial",
+    "title": "Hydroxychloroquine in patients mainly with mild to moderate COVID-19: an open-label, randomized, controlled trial",
     "URL": "https://doi.org/ggr68m",
     "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: doi:10.1101/2020.04.10.20060558"
   },
@@ -22199,6 +22199,73 @@
   },
   {
     "type": "article-journal",
+    "id": "4oZGCeCo",
+    "author": [
+      {
+        "family": "Han",
+        "given": "Chaoqun"
+      },
+      {
+        "family": "Duan",
+        "given": "Caihan"
+      },
+      {
+        "family": "Zhang",
+        "given": "Shengyan"
+      },
+      {
+        "family": "Spiegel",
+        "given": "Brennan"
+      },
+      {
+        "family": "Shi",
+        "given": "Huiying"
+      },
+      {
+        "family": "Wang",
+        "given": "Weijun"
+      },
+      {
+        "family": "Zhang",
+        "given": "Lei"
+      },
+      {
+        "family": "Lin",
+        "given": "Rong"
+      },
+      {
+        "family": "Liu",
+        "given": "Jun"
+      },
+      {
+        "family": "Ding",
+        "given": "Zhen"
+      },
+      {
+        "family": "Hou",
+        "given": "Xiaohua"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          4
+        ]
+      ]
+    },
+    "container-title": "The American Journal of Gastroenterology",
+    "DOI": "10.14309/ajg.0000000000000664",
+    "page": "1",
+    "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+    "title": "Digestive Symptoms in COVID-19 Patients With Mild Disease Severity",
+    "URL": "https://doi.org/ggtzm2",
+    "PMCID": "PMC7172493",
+    "PMID": "32301761",
+    "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: doi:10.14309/ajg.0000000000000664"
+  },
+  {
+    "type": "article-journal",
     "id": "MTcTiS7i",
     "author": [
       {
@@ -24586,7 +24653,7 @@
         [
           "2020",
           5,
-          7
+          8
         ]
       ]
     },
@@ -24594,11 +24661,31 @@
   },
   {
     "id": "JIeGI9UN",
-    "type": "webpage",
-    "title": "Study in Healthy Adults to Evaluate Gene Activation After Vaccination With GlaxoSmithKline (GSK) Biologicals' Candidate Tuberculosis (TB) Vaccine GSK 692342 - Full Text View - ClinicalTrials.gov",
-    "abstract": "Study in Healthy Adults to Evaluate Gene Activation After Vaccination With GlaxoSmithKline (GSK) Biologicals' Candidate Tuberculosis (TB) Vaccine GSK 692342 - Full Text View.",
+    "type": "report",
+    "title": "Evaluation of the Kinetics of mRNA Expression After Two Doses of GSK Biologicals' Candidate Tuberculosis (Tuberculosis) Vaccine GSK 692342 in Healthy Adults",
+    "publisher": "clinicaltrials.gov",
+    "genre": "Clinical trial registration",
+    "source": "clinicaltrials.gov",
+    "abstract": "The purpose of this study is to assess the safety and immunogenicity of two doses of the TB vaccine administered according to a 0, 1 month schedule. In, addition, blood samples collected at different time points after vaccination will be analysed to see when exactly genes are activated by the vaccine using an assay called mRNA expression profiling. The different methods for mRNA expression profiling using whole blood samples versus Peripheral Blood Mononuclear cell(s) (PBMCs), will also be compared.",
     "URL": "https://clinicaltrials.gov/ct2/show/NCT01669096",
-    "language": "en",
+    "note": "submitted: August 16, 2012\nThis CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://clinicaltrials.gov/ct2/show/NCT01669096?term",
+    "number": "NCT01669096",
+    "shortTitle": "Study in Healthy Adults to Evaluate Gene Activation After Vaccination With GlaxoSmithKline (GSK) Biologicals' Candidate Tuberculosis (TB) Vaccine GSK 692342",
+    "author": [
+      {
+        "family": "",
+        "given": "GlaxoSmithKline"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2019",
+          3,
+          20
+        ]
+      ]
+    },
     "accessed": {
       "date-parts": [
         [
@@ -24607,16 +24694,35 @@
           7
         ]
       ]
-    },
-    "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://clinicaltrials.gov/ct2/show/NCT01669096?term"
+    }
   },
   {
     "id": "DvAlA1ad",
-    "type": "webpage",
-    "title": "A Trial of Remdesivir in Adults With Mild and Moderate COVID-19 - Full Text View - ClinicalTrials.gov",
-    "abstract": "A Trial of Remdesivir in Adults With Mild and Moderate COVID-19 - Full Text View.",
+    "type": "report",
+    "title": "A Phase 3 Randomized, Double-blind, Placebo-controlled Multicenter Study to Evaluate the Efficacy and Safety of Remdesivir in Hospitalized Adult Patients With Mild and Moderate COVID-19.",
+    "publisher": "clinicaltrials.gov",
+    "genre": "Clinical trial registration",
+    "source": "clinicaltrials.gov",
+    "abstract": "In December 2019, Wuhan, in Hubei province, China, became the center of an outbreak of pneumonia of unknown cause. In a short time, Chinese scientists had shared the genome information of a novel coronavirus (SARS-CoV-2) from these pneumonia patients and developed a real-time reverse transcription PCR (real-time RT-PCR) diagnostic assay.\n\nGiven no specific antiviral therapy for COVID-19 and the availability of remdesvir as a potential antiviral agent based on pre-clinical studies in SARS-CoV and MERS-CoV infections, this randomized, controlled, double blind trial will evaluate the efficacy and safety of remdesivir in patients hospitalized with mild or moderate COVID-19.",
     "URL": "https://clinicaltrials.gov/ct2/show/NCT04252664",
-    "language": "en",
+    "note": "submitted: January 31, 2020\nThis CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://clinicaltrials.gov/ct2/show/NCT04252664",
+    "number": "NCT04252664",
+    "shortTitle": "A Trial of Remdesivir in Adults With Mild and Moderate COVID-19",
+    "author": [
+      {
+        "family": "Cao",
+        "given": "Bin"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2020",
+          4,
+          13
+        ]
+      ]
+    },
     "accessed": {
       "date-parts": [
         [
@@ -24625,16 +24731,35 @@
           7
         ]
       ]
-    },
-    "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://clinicaltrials.gov/ct2/show/NCT04252664"
+    }
   },
   {
     "id": "1CJoAQiUA",
-    "type": "webpage",
-    "title": "A Trial of Remdesivir in Adults With Severe COVID-19 - Full Text View - ClinicalTrials.gov",
-    "abstract": "A Trial of Remdesivir in Adults With Severe COVID-19 - Full Text View.",
+    "type": "report",
+    "title": "A Phase 3 Randomized, Double-blind, Placebo-controlled, Multicenter Study to Evaluate the Efficacy and Safety of Remdesivir in Hospitalized Adult Patients With Severe COVID-19.",
+    "publisher": "clinicaltrials.gov",
+    "genre": "Clinical trial registration",
+    "source": "clinicaltrials.gov",
+    "abstract": "In December 2019, Wuhan, in Hubei province, China, became the center of an outbreak of pneumonia of unknown cause. In a short time, Chinese scientists had shared the genome information of a novel coronavirus (SARS-CoV-2) from these pneumonia patients and developed a real-time reverse transcription PCR (real-time RT-PCR) diagnostic assay.\n\nGiven no specific antiviral therapy for COVID-19 and the ready availability of remdesvir as a potential antiviral agent, based on pre-clinical studies in SARS-CoV and MERS-CoV infections, this randomized, controlled, double blind trial will evaluate the efficacy and safety of remdesivir in patients hospitalized with severe COVID-19.",
     "URL": "https://clinicaltrials.gov/ct2/show/NCT04257656",
-    "language": "en",
+    "note": "submitted: January 31, 2020\nThis CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://clinicaltrials.gov/ct2/show/NCT04257656",
+    "number": "NCT04257656",
+    "shortTitle": "A Trial of Remdesivir in Adults With Severe COVID-19",
+    "author": [
+      {
+        "family": "Cao",
+        "given": "Bin"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2020",
+          4,
+          13
+        ]
+      ]
+    },
     "accessed": {
       "date-parts": [
         [
@@ -24643,16 +24768,35 @@
           7
         ]
       ]
-    },
-    "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://clinicaltrials.gov/ct2/show/NCT04257656"
+    }
   },
   {
     "id": "UgOAPpcH",
-    "type": "webpage",
-    "title": "Vitamin C Infusion for the Treatment of Severe 2019-nCoV Infected Pneumonia - Full Text View - ClinicalTrials.gov",
-    "abstract": "Vitamin C Infusion for the Treatment of Severe 2019-nCoV Infected Pneumonia - Full Text View.",
+    "type": "report",
+    "title": "Vitamin C Infusion for the Treatment of Severe 2019-nCoV Infected Pneumonia: a Prospective Randomized Clinical Trial",
+    "publisher": "clinicaltrials.gov",
+    "genre": "Clinical trial registration",
+    "source": "clinicaltrials.gov",
+    "abstract": "2019 new coronavirus (2019-nCoV) infected pneumonia, namely severe acute respiratory infection (SARI) has caused global concern and emergency. There is a lack of effective targeted antiviral drugs, and symptomatic supportive treatment is still the current main treatment for SARI.\n\nVitamin C is significant to human body and plays a role in reducing inflammatory response and preventing common cold. In addtion, a few studies have shown that vitamin C deficiency is related to the increased risk and severity of influenza infections.\n\nWe hypothize that Vitamin C infusion can help improve the prognosis of patients with SARI. Therefore, it is necessary to study the clinical efficacy and safety of vitamin C for the clinical management of SARI through randomized controlled trials during the current epidemic of SARI.",
     "URL": "https://clinicaltrials.gov/ct2/show/NCT04264533",
-    "language": "en",
+    "note": "submitted: February 4, 2020\nThis CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://clinicaltrials.gov/ct2/show/NCT04264533",
+    "number": "NCT04264533",
+    "shortTitle": "Vitamin C Infusion for the Treatment of Severe 2019-nCoV Infected Pneumonia",
+    "author": [
+      {
+        "family": "Peng",
+        "given": "ZhiYong"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          6
+        ]
+      ]
+    },
     "accessed": {
       "date-parts": [
         [
@@ -24661,16 +24805,35 @@
           7
         ]
       ]
-    },
-    "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://clinicaltrials.gov/ct2/show/NCT04264533"
+    }
   },
   {
     "id": "19tnPvv1p",
-    "type": "webpage",
-    "title": "Adaptive COVID-19 Treatment Trial (ACTT) - Full Text View - ClinicalTrials.gov",
-    "abstract": "Adaptive COVID-19 Treatment Trial (ACTT) - Full Text View.",
+    "type": "report",
+    "title": "A Multicenter, Adaptive, Randomized Blinded Controlled Trial of the Safety and Efficacy of Investigational Therapeutics for the Treatment of COVID-19 in Hospitalized Adults",
+    "publisher": "clinicaltrials.gov",
+    "genre": "Clinical trial registration",
+    "source": "clinicaltrials.gov",
+    "abstract": "This study is an adaptive, randomized, double-blind, placebo-controlled trial to evaluate the safety and efficacy of novel therapeutic agents in hospitalized adults diagnosed with COVID-19. The study is a multicenter trial that will be conducted in up to approximately 100 sites globally. The study will compare different investigational therapeutic agents to a control arm. There will be interim monitoring to introduce new arms and allow early stopping for futility, efficacy, or safety. If one therapy proves to be efficacious, then this treatment may become the control arm for comparison(s) with new experimental treatment(s). Any such change would be accompanied by an updated sample size. Because background standards of supportive care may evolve/improve over time as more is learned about successful management of COVID-19, comparisons of safety and efficacy will be based on data from concurrently randomized subjects. An independent Data and Safety Monitoring Board (DSMB) will actively monitor interim data to make recommendations about early study closure or changes to study arms. To evaluate the clinical efficacy, as assessed by time to recovery, of different investigational therapeutics as compared to the control arm.",
     "URL": "https://clinicaltrials.gov/ct2/show/NCT04280705",
-    "language": "en",
+    "note": "submitted: February 20, 2020\nThis CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://clinicaltrials.gov/ct2/show/NCT04280705",
+    "number": "NCT04280705",
+    "shortTitle": "Adaptive COVID-19 Treatment Trial (ACTT)",
+    "author": [
+      {
+        "family": "",
+        "given": "National Institute of Allergy and Infectious Diseases (NIAID)"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2020",
+          5,
+          6
+        ]
+      ]
+    },
     "accessed": {
       "date-parts": [
         [
@@ -24679,16 +24842,35 @@
           7
         ]
       ]
-    },
-    "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://clinicaltrials.gov/ct2/show/NCT04280705"
+    }
   },
   {
     "id": "8a4WEEFh",
-    "type": "webpage",
-    "title": "Study to Evaluate the Safety and Antiviral Activity of Remdesivir (GS-5734™) in Participants With Moderate Coronavirus Disease (COVID-19) Compared to Standard of Care Treatment - Full Text View - ClinicalTrials.gov",
-    "abstract": "Study to Evaluate the Safety and Antiviral Activity of Remdesivir (GS-5734™) in Participants With Moderate Coronavirus Disease (COVID-19) Compared to Standard of Care Treatment - Full Text View.",
+    "type": "report",
+    "title": "A Phase 3 Randomized Study to Evaluate the Safety and Antiviral Activity of Remdesivir (GS-5734™) in Participants With Moderate COVID-19 Compared to Standard of Care Treatment",
+    "publisher": "clinicaltrials.gov",
+    "genre": "Clinical trial registration",
+    "source": "clinicaltrials.gov",
+    "abstract": "The primary objective of this study is to evaluate the efficacy of 2 remdesivir (RDV) regimens compared to standard of care (SOC), with respect to clinical status assessed by a 7-point ordinal scale on Day 11.",
     "URL": "https://clinicaltrials.gov/ct2/show/NCT04292730",
-    "language": "en",
+    "note": "submitted: February 28, 2020\nThis CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://clinicaltrials.gov/ct2/show/NCT04292730",
+    "number": "NCT04292730",
+    "shortTitle": "Study to Evaluate the Safety and Antiviral Activity of Remdesivir (GS-5734™) in Participants With Moderate Coronavirus Disease (COVID-19) Compared to Standard of Care Treatment",
+    "author": [
+      {
+        "family": "",
+        "given": "Gilead Sciences"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2020",
+          5,
+          5
+        ]
+      ]
+    },
     "accessed": {
       "date-parts": [
         [
@@ -24697,16 +24879,35 @@
           7
         ]
       ]
-    },
-    "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://clinicaltrials.gov/ct2/show/NCT04292730"
+    }
   },
   {
     "id": "7LMnOrzx",
-    "type": "webpage",
-    "title": "Study to Evaluate the Safety and Antiviral Activity of Remdesivir (GS-5734™) in Participants With Severe Coronavirus Disease (COVID-19) - Full Text View - ClinicalTrials.gov",
-    "abstract": "Study to Evaluate the Safety and Antiviral Activity of Remdesivir (GS-5734™) in Participants With Severe Coronavirus Disease (COVID-19) - Full Text View.",
+    "type": "report",
+    "title": "A Phase 3 Randomized Study to Evaluate the Safety and Antiviral Activity of Remdesivir (GS-5734™) in Participants With Severe COVID-19",
+    "publisher": "clinicaltrials.gov",
+    "genre": "Clinical trial registration",
+    "source": "clinicaltrials.gov",
+    "abstract": "The primary objective of this study is to evaluate the efficacy of 2 remdesivir (RDV) regimens with respect to clinical status assessed by a 7-point ordinal scale on Day 14.",
     "URL": "https://clinicaltrials.gov/ct2/show/NCT04292899",
-    "language": "en",
+    "note": "submitted: February 28, 2020\nThis CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://clinicaltrials.gov/ct2/show/NCT04292899",
+    "number": "NCT04292899",
+    "shortTitle": "Study to Evaluate the Safety and Antiviral Activity of Remdesivir (GS-5734™) in Participants With Severe Coronavirus Disease (COVID-19)",
+    "author": [
+      {
+        "family": "",
+        "given": "Gilead Sciences"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2020",
+          5,
+          5
+        ]
+      ]
+    },
     "accessed": {
       "date-parts": [
         [
@@ -24715,17 +24916,35 @@
           7
         ]
       ]
-    },
-    "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://clinicaltrials.gov/ct2/show/NCT04292899"
+    }
   },
   {
     "id": "1CK3TJABI",
-    "type": "webpage",
-    "title": "Baricitinib in Symptomatic Patients Infected by COVID-19: an Open-label, Pilot Study. - Full Text View - ClinicalTrials.gov",
-    "abstract": "Baricitinib in Symptomatic Patients Infected by COVID-19: an Open-label, Pilot Study. - Full Text View.",
+    "type": "report",
+    "title": "Baricitinib Combined With Antiviral Therapy in Symptomatic Patients Infected by COVID-19: an Open-label, Pilot Study",
+    "publisher": "clinicaltrials.gov",
+    "genre": "Clinical trial registration",
+    "source": "clinicaltrials.gov",
+    "abstract": "There is no specific antiviral treatment recommended for COVID-19, and no vaccine is currently available. Baricitinib, an anti-Janus kinase inhibitor (anti-JAK) acting against JAK1 and JAK2. The drug was found capable to reduce or interrupt the passage of the virus into target cells, and to inhibit the JAK1- and JAK2-mediated cytokine release. The drug was licensed for the treatment of rheumatoid arthritis at the daily dose of 4 mg/orally, with excellent results in terms of clinical response and a good safety profile. Since baricitinib does not interact with antivirals due to its prevalent renal elimination, it may be used in combination.The evidence on the advantageous action of baricitinib on viral entry and cytokine outbreak constituted the rationale to perform a trial on patients with mild to moderate COVID-19 infection receiving baricitinib combined with antiviral therapy.",
     "URL": "https://clinicaltrials.gov/ct2/show/NCT04320277",
-    "shortTitle": "Baricitinib in Symptomatic Patients Infected by COVID-19",
-    "language": "en",
+    "note": "submitted: March 20, 2020\nThis CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://clinicaltrials.gov/ct2/show/NCT04320277",
+    "number": "NCT04320277",
+    "shortTitle": "Baricitinib in Symptomatic Patients Infected by COVID-19: an Open-label, Pilot Study.",
+    "author": [
+      {
+        "family": "Cantini",
+        "given": "Fabrizio"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2020",
+          4,
+          19
+        ]
+      ]
+    },
     "accessed": {
       "date-parts": [
         [
@@ -24734,16 +24953,34 @@
           7
         ]
       ]
-    },
-    "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://clinicaltrials.gov/ct2/show/NCT04320277"
+    }
   },
   {
     "id": "VPhcB5fH",
-    "type": "webpage",
-    "title": "Use of Ascorbic Acid in Patients With COVID 19 - Full Text View - ClinicalTrials.gov",
-    "abstract": "Use of Ascorbic Acid in Patients With COVID 19 - Full Text View.",
+    "type": "report",
+    "title": "Use of Ascorbic Acid in Patients With COVID 19",
+    "publisher": "clinicaltrials.gov",
+    "genre": "Clinical trial registration",
+    "source": "clinicaltrials.gov",
+    "abstract": "Different studies showed that ascorbic acid (vitaminC) positively affects the development and maturation of T-lymphocytes, in particular NK (natural Killer) cells involved in the immune response to viral agents. It also contributes to the inhibition of ROS production and to the remodulation of the cytokine network typical of systemic inflammatory syndrome.\n\nRecent studies have also demonstrated the effectiveness of vitamin C administration in terms of reducing mortality, in patients with sepsis hospitalized in intensive care wards.\n\nGiven this background, in the light of the current COVID-19 emergency, since the investigators cannot carry out a randomized controlled trial, it is their intention to conduct a study in the cohort of hospitalized patients with covid-19 pneumonia, administering 10 gr of vitamin C intravenously in addition to conventional therapy.",
     "URL": "https://clinicaltrials.gov/ct2/show/NCT04323514",
-    "language": "en",
+    "note": "submitted: March 18, 2020\nThis CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://clinicaltrials.gov/ct2/show/NCT04323514",
+    "number": "NCT04323514",
+    "author": [
+      {
+        "family": "MD",
+        "given": "Salvatore Corrao"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          24
+        ]
+      ]
+    },
     "accessed": {
       "date-parts": [
         [
@@ -24752,16 +24989,35 @@
           7
         ]
       ]
-    },
-    "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://clinicaltrials.gov/ct2/show/NCT04323514"
+    }
   },
   {
     "id": "K9Ob2OlF",
-    "type": "webpage",
-    "title": "Sarilumab COVID-19 - Full Text View - ClinicalTrials.gov",
-    "abstract": "Sarilumab COVID-19 - Full Text View.",
+    "type": "report",
+    "title": "An Adaptive Phase 2/3, Randomized, Double-blind, Placebo Controlled Study Assessing Efficacy and Safety of Sarilumab for Hospitalized Patients With COVID19",
+    "publisher": "clinicaltrials.gov",
+    "genre": "Clinical trial registration",
+    "source": "clinicaltrials.gov",
+    "abstract": "Primary Objectives:\n\nPhase 2: To evaluate the clinical efficacy of sarilumab relative to the control arm in adult patients hospitalized with severe COVID-19 Phase 3: To evaluate the clinical efficacy of sarilumab relative to the control arm in adult patients hospitalized with severe or critical COVID-19\n\nSecondary Objectives:\n\nPhase 2 and Phase 3\n\nEvaluate the clinical efficacy of sarilumab compared to the control arm by clinical severity\nEvaluate changes in the National Early Warning Score 2 (NEWS2)\nEvaluate the duration of predefined symptoms and signs (if applicable)\nEvaluate the duration of supplemental oxygen dependency (if applicable)\nEvaluate the incidence of new mechanical ventilation use during the study\nEvaluate the duration of new mechanical ventilation use during the Study\nEvaluate the proportion of patients requiring rescue medication during the 28-day period\nEvaluate need for admission into intensive care unit (ICU)\nEvaluate duration of hospitalization (days)\nEvaluate the 28-day mortality rate\n\nThe secondary safety objectives of the study are to evaluate the safety of sarilumab through hospitalization (up to day 29 if patient is still hospitalized) compared to the control arm as assessed by incidence of:\n\nSerious adverse events (SAEs)\nGrade 4 neutropenia (ANC<500/mmˆ3) with concurrent severe or life-threatening bacterial, invasive fungal, or opportunistic infection\nGrade ≥2 infusion related reactions\nGrade ≥2 hypersensitivity reactions\nIncrease in alanine transaminase (ALT) ≥3X upper limit of normal (ULN) (for patients with normal baseline) or >3X ULN AND at least 2-fold increase from baseline value (for patients with abnormal baseline)\nInvasive bacterial or fungal infections of clinical significance with confirmed diagnosis based on the investigator's assessment with appropriate diagnostic workups and consultations",
     "URL": "https://clinicaltrials.gov/ct2/show/NCT04327388",
-    "language": "en",
+    "note": "submitted: March 26, 2020\nThis CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://clinicaltrials.gov/ct2/show/NCT04327388",
+    "number": "NCT04327388",
+    "shortTitle": "Sarilumab COVID-19",
+    "author": [
+      {
+        "family": "",
+        "given": "Sanofi"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2020",
+          5,
+          6
+        ]
+      ]
+    },
     "accessed": {
       "date-parts": [
         [
@@ -24770,16 +25026,35 @@
           7
         ]
       ]
-    },
-    "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://clinicaltrials.gov/ct2/show/NCT04327388"
+    }
   },
   {
     "id": "HNx8txpX",
-    "type": "webpage",
-    "title": "Safety, Tolerability and Immunogenicity of INO-4800 for COVID-19 in Healthy Volunteers - Full Text View - ClinicalTrials.gov",
-    "abstract": "Safety, Tolerability and Immunogenicity of INO-4800 for COVID-19 in Healthy Volunteers - Full Text View.",
+    "type": "report",
+    "title": "Phase 1 Open-label Study to Evaluate the Safety, Tolerability and Immunogenicity of INO-4800, a Prophylactic Vaccine Against SARS-CoV-2, Administered Intradermally Followed by Electroporation in Healthy Volunteers",
+    "publisher": "clinicaltrials.gov",
+    "genre": "Clinical trial registration",
+    "source": "clinicaltrials.gov",
+    "abstract": "This is an open-label trial to evaluate the safety, tolerability and immunological profile of INO-4800 administered by intradermal (ID) injection followed by electroporation (EP) using CELLECTRA® 2000 device in healthy adult volunteers.",
     "URL": "https://clinicaltrials.gov/ct2/show/NCT04336410",
-    "language": "en",
+    "note": "submitted: April 3, 2020\nThis CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://clinicaltrials.gov/ct2/show/NCT04336410",
+    "number": "NCT04336410",
+    "shortTitle": "Safety, Tolerability and Immunogenicity of INO-4800 for COVID-19 in Healthy Volunteers",
+    "author": [
+      {
+        "family": "",
+        "given": "Inovio Pharmaceuticals"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2020",
+          4,
+          21
+        ]
+      ]
+    },
     "accessed": {
       "date-parts": [
         [
@@ -24788,16 +25063,35 @@
           7
         ]
       ]
-    },
-    "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://clinicaltrials.gov/ct2/show/NCT04336410"
+    }
   },
   {
     "id": "mwBHJeW6",
-    "type": "webpage",
-    "title": "Safety and Immunogenicity Study of 2019-nCoV Vaccine (mRNA-1273) for Prophylaxis of SARS-CoV-2 Infection (COVID-19) - Full Text View - ClinicalTrials.gov",
-    "abstract": "Safety and Immunogenicity Study of 2019-nCoV Vaccine (mRNA-1273) for Prophylaxis of SARS-CoV-2 Infection (COVID-19) - Full Text View.",
-    "URL": "https://clinicaltrials.gov/ct2/show/NCT04283461",
-    "language": "en",
+    "type": "report",
+    "title": "Phase I, Open-Label, Dose-Ranging Study of the Safety and Immunogenicity of 2019-nCoV Vaccine (mRNA-1273) in Healthy Adults",
+    "publisher": "clinicaltrials.gov",
+    "genre": "Clinical trial registration",
+    "source": "clinicaltrials.gov",
+    "abstract": "This is a phase I, open-label, dose ranging clinical trial in males and non-pregnant females, starting at 18 years of age, inclusive, who are in good health and meet all eligibility criteria. This clinical trial is designed to assess the safety, reactogenicity and immunogenicity of mRNA-1273 manufactured by ModernaTX, Inc. mRNA-1273 is a novel lipid nanoparticle (LNP)-encapsulated mRNA-based vaccine that encodes for a full-length, prefusion stabilized spike (S) protein of SARS-CoV-2. Enrollment will occur at up to 3 domestic clinical research sites. One hundred and five subjects will be enrolled into one of nine cohorts (25 micrograms [mcg], 100 mcg, and 250 mcg). Subjects will receive an intramuscular (IM) injection (0.5 milliliter [mL]) of mRNA-1273 on Days 1 and 29 in the deltoid muscle and will be followed through 12 months post second vaccination (Day 394). Follow-up visits will occur 1, 2, and 4 weeks post each vaccination (Days 8, 15, 29, 36, 43, and 57), as well as 3, 6, and 12 months post second vaccination (Days 119, 209, and 394). The primary objective is to evaluate the safety and reactogenicity of a 2-dose vaccination schedule of mRNA-1273, given 28 days apart, across 3 dosages in healthy adults.",
+    "URL": "https://clinicaltrials.gov/ct2/show/study/NCT04283461",
+    "note": "submitted: February 21, 2020\nThis CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://clinicaltrials.gov/ct2/show/study/NCT04283461",
+    "number": "study/NCT04283461",
+    "shortTitle": "Safety and Immunogenicity Study of 2019-nCoV Vaccine (mRNA-1273) for Prophylaxis of SARS-CoV-2 Infection (COVID-19)",
+    "author": [
+      {
+        "family": "",
+        "given": "National Institute of Allergy and Infectious Diseases (NIAID)"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2020",
+          4,
+          30
+        ]
+      ]
+    },
     "accessed": {
       "date-parts": [
         [
@@ -24806,8 +25100,7 @@
           7
         ]
       ]
-    },
-    "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://clinicaltrials.gov/ct2/show/study/NCT04283461"
+    }
   },
   {
     "URL": "https://escholarship.umassmed.edu/cgi/viewcontent.cgi?article",
@@ -24875,7 +25168,7 @@
         [
           "2020",
           5,
-          7
+          8
         ]
       ]
     },
@@ -24892,7 +25185,7 @@
         [
           "2020",
           5,
-          7
+          8
         ]
       ]
     },
@@ -24926,7 +25219,7 @@
         [
           "2020",
           5,
-          7
+          8
         ]
       ]
     },
@@ -24960,7 +25253,7 @@
         [
           "2020",
           5,
-          7
+          8
         ]
       ]
     },
@@ -24991,7 +25284,7 @@
         [
           "2020",
           5,
-          7
+          8
         ]
       ]
     },
@@ -25007,7 +25300,7 @@
         [
           "2020",
           5,
-          7
+          8
         ]
       ]
     },
@@ -25024,7 +25317,7 @@
         [
           "2020",
           5,
-          7
+          8
         ]
       ]
     },
@@ -25081,7 +25374,7 @@
         [
           "2020",
           5,
-          7
+          8
         ]
       ]
     },
@@ -25109,7 +25402,7 @@
         [
           "2020",
           5,
-          7
+          8
         ]
       ]
     },
@@ -25133,7 +25426,7 @@
         [
           "2020",
           5,
-          7
+          8
         ]
       ]
     },
@@ -25158,7 +25451,7 @@
         [
           "2020",
           5,
-          7
+          8
         ]
       ]
     },
@@ -25176,7 +25469,7 @@
         [
           "2020",
           5,
-          7
+          8
         ]
       ]
     },
@@ -25220,7 +25513,7 @@
         [
           "2020",
           5,
-          7
+          8
         ]
       ]
     },
@@ -25239,7 +25532,7 @@
         [
           "2020",
           5,
-          7
+          8
         ]
       ]
     },
@@ -25285,7 +25578,7 @@
         [
           "2020",
           5,
-          7
+          8
         ]
       ]
     },
@@ -25304,7 +25597,7 @@
         [
           "2020",
           5,
-          7
+          8
         ]
       ]
     },
@@ -25323,7 +25616,7 @@
         [
           "2020",
           5,
-          7
+          8
         ]
       ]
     },
@@ -25340,7 +25633,7 @@
         [
           "2020",
           5,
-          7
+          8
         ]
       ]
     },

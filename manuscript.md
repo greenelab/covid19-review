@@ -33,7 +33,7 @@ author-meta:
 bibliography:
 - content/manual-references.bib
 - content/manual-references.json
-date-meta: '2020-05-07'
+date-meta: '2020-05-08'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -52,9 +52,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
 
-  <meta name="dc.date" content="2020-05-07" />
+  <meta name="dc.date" content="2020-05-08" />
 
-  <meta name="citation_publication_date" content="2020-05-07" />
+  <meta name="citation_publication_date" content="2020-05-08" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -302,11 +302,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/778a6486a8d70eff25fb5d3573c4e9a94286e7d4/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/be130d39dd7478f85537aa00a39b99de0bb48c6e/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/778a6486a8d70eff25fb5d3573c4e9a94286e7d4/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/be130d39dd7478f85537aa00a39b99de0bb48c6e/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/778a6486a8d70eff25fb5d3573c4e9a94286e7d4/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/be130d39dd7478f85537aa00a39b99de0bb48c6e/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -339,10 +339,10 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/778a6486a8d70eff25fb5d3573c4e9a94286e7d4/))
+([permalink](https://greenelab.github.io/covid19-review/v/be130d39dd7478f85537aa00a39b99de0bb48c6e/))
 was automatically generated
-from [greenelab/covid19-review@778a648](https://github.com/greenelab/covid19-review/tree/778a6486a8d70eff25fb5d3573c4e9a94286e7d4)
-on May 7, 2020.
+from [greenelab/covid19-review@be130d3](https://github.com/greenelab/covid19-review/tree/be130d39dd7478f85537aa00a39b99de0bb48c6e)
+on May 8, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -1107,8 +1107,9 @@ In the following sections, we critically appraise the literature surrounding the
 ### Treatment of Symptoms
 
 The clinical picture of SARS-CoV-2 infection differs dramatically between individuals.
-Some are asymptomatic.
-Others experience mild COVID-19 symptoms, such as cough, sore throat and fever, while the most severe cases of COVID-19 include severe complications including pneumonia and Acute Respiratory Distress Syndrome (ARDS), which can lead to respiratory failure and death [@url:https://www.cdc.gov/coronavirus/2019-ncov/hcp/clinical-guidance-management-patients.html].
+Some are asymptomatic, and many experience mild COVID-19 symptoms.
+Mild symptoms commonly include fever and respiratory symptoms such as cough and sore throat, and, less commonly, gastrointestinal symptoms such as loss of appetite and vomiting [@doi:10.14309/ajg.0000000000000664]; some patients experience a combination of respiratory and gastrointestinal symptoms.
+The most severe cases of COVID-19 include severe complications such as pneumonia and Acute Respiratory Distress Syndrome (ARDS), which can lead to respiratory failure and death [@url:https://www.cdc.gov/coronavirus/2019-ncov/hcp/clinical-guidance-management-patients.html].
 Vaccines are one avenue to mitigate harm from viral pathogens, but in the case of a rapidly growing pandemic the longer timeframe of vaccine development and distribution means that there can be a key for treatments that palliate symptoms to avoid the most severe outcomes from infection.
 
 #### Tocilizumab
