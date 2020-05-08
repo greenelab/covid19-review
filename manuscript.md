@@ -302,11 +302,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/be130d39dd7478f85537aa00a39b99de0bb48c6e/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/c13ebf1552b69249c7d791b8738ccdebd0722324/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/be130d39dd7478f85537aa00a39b99de0bb48c6e/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/c13ebf1552b69249c7d791b8738ccdebd0722324/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/be130d39dd7478f85537aa00a39b99de0bb48c6e/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/c13ebf1552b69249c7d791b8738ccdebd0722324/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -339,9 +339,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/be130d39dd7478f85537aa00a39b99de0bb48c6e/))
+([permalink](https://greenelab.github.io/covid19-review/v/c13ebf1552b69249c7d791b8738ccdebd0722324/))
 was automatically generated
-from [greenelab/covid19-review@be130d3](https://github.com/greenelab/covid19-review/tree/be130d39dd7478f85537aa00a39b99de0bb48c6e)
+from [greenelab/covid19-review@c13ebf1](https://github.com/greenelab/covid19-review/tree/c13ebf1552b69249c7d791b8738ccdebd0722324)
 on May 8, 2020.
 </em></small>
 
@@ -1208,6 +1208,9 @@ Summarize the state of the antiviral approach.
 
 Remdesivir (GS-5734) was developed by Gilead Sciences to treat Ebola Virus Disease.
 It does not have any FDA-approved use.
+However, on May 1, 2020, the FDA issued an Emergency Use Authorization (EUA) for remdesivir for the treatment of hospitalized COVID-19 patients.
+The EUA was based on information from two clinical trials, NCT04280705 and NCT04292899
+[@url:https://clinicaltrials.gov/ct2/show/NCT04280705; @url:https://clinicaltrials.gov/ct2/show/NCT04292899; @url:https://www.fda.gov/media/137564/download].
 Although a clinical trial in the Democratic Republic of Congo found some evidence of effectiveness against ebola, two antibody preparations were found to be more effective, and Remdesivir was not pursued [@doi:10.1056/NEJMoa1910993].
 
 ##### Anticipated Mechanism
