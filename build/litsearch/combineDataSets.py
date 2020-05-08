@@ -9,8 +9,6 @@ def update_AI(fname):
     url = 'https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/latest/metadata.csv'
     urllib.request.urlretrieve(url, filename=fname)
 
-    df = df.dropna(subset=["doi"])
-    return df
 
 def paper_info(row):
     """Queries metadata from bioRxiv or medRxiv based on paper DOI
