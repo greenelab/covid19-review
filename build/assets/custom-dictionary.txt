@@ -301,6 +301,7 @@ eq
 esell
 et
 Etanercept
+EUA
 exogenously
 exonuclease
 ExPASy
