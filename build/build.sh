@@ -100,10 +100,12 @@ if [ "${SPELLCHECK:-}" = "true" ]; then
   cat output/spelling-error-locations.txt
 fi
 
-# Create sources output if requested via environment variable
-if [ "${CROSSREF_SOURCES:-}" = "true" ]; then
+# Create litsearch output if requested via environment variable
+if [ "${LITSEARCH:-}" = "true" ]; then
   echo >&2 "Creating the sources cross-reference output"
   python build/litsearch/getInternalData.py
+  echo >&2 "Getting ALLEN AI metadata and combining it with the sources cross-reference output and additional data from bioRxiv"
+  python build/litsearch/combineDataSets.py
 fi
 
 echo >&2 "Build complete"
