@@ -30,10 +30,11 @@ author-meta:
 - David Manheim
 - Soumita Ghosh
 - Matthias Fax
+- James Brian Byrd
 bibliography:
 - content/manual-references.bib
 - content/manual-references.json
-date-meta: '2020-05-08'
+date-meta: '2020-05-11'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -52,9 +53,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
 
-  <meta name="dc.date" content="2020-05-08" />
+  <meta name="dc.date" content="2020-05-11" />
 
-  <meta name="citation_publication_date" content="2020-05-08" />
+  <meta name="citation_publication_date" content="2020-05-11" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -290,6 +291,14 @@ header-includes: '<!--
 
   <meta name="citation_author_orcid" content="0000-0002-0064-395X" />
 
+  <meta name="citation_author" content="James Brian Byrd" />
+
+  <meta name="citation_author_institution" content="University of Michigan School of Medicine, Ann Arbor, Michigan, United States of America" />
+
+  <meta name="citation_author_orcid" content="0000-0002-0509-3520" />
+
+  <meta name="twitter:creator" content="@thebyrdlab" />
+
   <link rel="canonical" href="https://greenelab.github.io/covid19-review/" />
 
   <meta property="og:url" content="https://greenelab.github.io/covid19-review/" />
@@ -302,11 +311,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/8f84fb97ba83b794723757feb5474b010fb28205/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/38c3d0bcfa706c8b8ee7137a86539196194b07a5/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/8f84fb97ba83b794723757feb5474b010fb28205/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/38c3d0bcfa706c8b8ee7137a86539196194b07a5/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/8f84fb97ba83b794723757feb5474b010fb28205/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/38c3d0bcfa706c8b8ee7137a86539196194b07a5/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -339,10 +348,10 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/8f84fb97ba83b794723757feb5474b010fb28205/))
+([permalink](https://greenelab.github.io/covid19-review/v/38c3d0bcfa706c8b8ee7137a86539196194b07a5/))
 was automatically generated
-from [greenelab/covid19-review@8f84fb9](https://github.com/greenelab/covid19-review/tree/8f84fb97ba83b794723757feb5474b010fb28205)
-on May 8, 2020.
+from [greenelab/covid19-review@38c3d0b](https://github.com/greenelab/covid19-review/tree/38c3d0bcfa706c8b8ee7137a86539196194b07a5)
+on May 11, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -661,6 +670,18 @@ Instead, you should collect information from your local health department, the [
     [matfax](https://github.com/matfax)<br>
   <small>
      greensolid technologies, Bavaria, Germany; IEEE Reliability Society, Vienna, Austria
+  </small>
+
++ **James Brian Byrd**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-0509-3520](https://orcid.org/0000-0002-0509-3520)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [byrdjb](https://github.com/byrdjb)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [thebyrdlab](https://twitter.com/thebyrdlab)<br>
+  <small>
+     University of Michigan School of Medicine, Ann Arbor, Michigan, United States of America
+     · Funded by NIH K23HL128909; FastGrants
   </small>
 
 
@@ -1142,7 +1163,6 @@ Tocilizumab is a humanised monoclonal antibody that binds both to the insoluble 
 
 ##### Current Evidence
 
-Chinese doctors have started a trial enrolling 188 patients of which 14 with severe lung disease have shown clear sings of improvements, according to their results [@url:https://www.genengnews.com/virology/coronavirus/genentech-launches-phase-iii-trial-of-actemra-as-coronavirus-treatment/].
 Also, The AIFA (the Italian Drug Agency) approved the start of a new trial on March 19 recruiting patients at the initial stage of the infection [@url:https://www.univadis.co.uk/viewarticle/covid-19-italy-launches-an-independent-trial-on-tocilizumab-715741].
 Together with these independent trials, Roche, also in collaboration with the FDA, will start a randomised, double-blind, placebo-controlled phase III trial early April.
 The trial will enroll 330 patients globally, which will be followed for 60 days upon use of the drug via injection to analyze its efficiency/safety (Biopharma-reporter.com).
@@ -1172,29 +1192,29 @@ Why one might use nucleotide analogs.
 
 Favipiravir (T-705) was discovered by Toyama Chemical Co., Ltd. [@url:https://www.drugbank.ca/drugs/DB12466#reference-A191688].
 The drug was found to effective at blocking viral amplification in several Influenza subtypes as well as other RNA viruses (Flaviviridae, Picornaviridae) based on reduction in plaque formations [@doi:10.1128/AAC.46.4.977-981.2002] and viral replication in MDCK cells [@doi:10.1128/AAC.01051-06].
-Furthermore, inoculation of mice with Favipiravir was shown to increase survivability.
+Furthermore, inoculation of mice with favipiravir was shown to increase survivability.
 In 2014, the drug was approved in Japan for the treatment of patients infected with influenza that was resistant to conventional treatments, like neuraminidase inhibitors [@doi:10.2183/pjab.93.027].
 
 ##### Anticipated Mechanism
 Favipiravir (6-fluoro-3-hydroxy-2-pyrazinecarboxamide) acts as a purine and purine nucleoside analogue that inhibits viral RNA polymerase in a dose dependent manner across a range of RNA viruses, including Influenza virus [@doi:10.1128/AAC.49.3.981-986.2005; @doi:10.1128/AAC.01074-08; @doi:10.1128/AAC.00356-07; @doi:10.1016/j.bbrc.2012.07.034; @doi:10.1128/AAC.01219-10].
 Nucleotide/side are the natural building blocks for RNA synthesis.
 Because of this, modifications to these nucleotides/sides can disrupt key processes including replication [@doi:10.1016/j.antiviral.2018.04.004].
-Biochemical experiments showed that Favipiravir was recognized as a purine nucleoside analogue and incorporated into the viral RNA template.
+Biochemical experiments showed that favipiravir was recognized as a purine nucleoside analogue and incorporated into the viral RNA template.
 A single incorporation does not influence RNA transcription; however, multiple events of incorporation lead to the arrest of RNA synthesis [@doi:10.1371/journal.pone.0068347].
 Evidence for T-705 inhibiting viral RNA polymerase are based on time-of-drug addition studies that found that viral loads were reduced with the addition of Favipiravir in early times post-infection [@doi:10.1128/AAC.49.3.981-986.2005; @doi:10.1016/j.bbrc.2012.07.034; @doi:10.1128/AAC.01219-10].
 
 ##### Current Evidence
-The effectiveness of Favipiravir for treating patients with COVID-19 is currently under investigation.
+The effectiveness of favipiravir for treating patients with COVID-19 is currently under investigation.
 An open-label, nonrandomized, before-after controlled study was recently conducted [@doi:10.1016/j.eng.2020.03.007].
-The study included 80 COVID-19 patients (35 treated with Favipiravir, 45 control) from the isolation ward of the National Clinical Research Center for Infectious Diseases (The Third People’s Hospital of Shenzhen), Shenzhen, China.
-The patients in the control group were treated with other anti-virals, such as Lopinavir and Ritonavir.
+The study included 80 COVID-19 patients (35 treated with favipiravir, 45 control) from the isolation ward of the National Clinical Research Center for Infectious Diseases (The Third People’s Hospital of Shenzhen), Shenzhen, China.
+The patients in the control group were treated with other antivirals, such as lopinavir and ritonavir.
 Treatment was applied on days 2-14; treatment stopped either when viral clearance was confirmed or at day 14.
 The efficacy of the treatment was measured by 1) the time until viral clearance using Kaplan-Meier survival curves, and 2) the improvement rate of chest computed tomography (CT) scans on day 14 after treatment.
-The study found that Favipiravir increased the speed of recovery (measured as viral clearance from the patient by RT-PCR) to 4 days compared to 11 days using other antivirals such as lopinavir and ritonavir.
-Additionally, the lung CT scans of patients treated with Favipiravir showed significantly higher improvement rates (91%) on day 14 compared to control patients (62%).
-However, there were adverse side effects in 4 (11%) Favipiravir-treated patients and 25 (56%) control patients.
+The study found that favipiravir increased the speed of recovery (measured as viral clearance from the patient by RT-PCR) to 4 days compared to 11 days using other antivirals such as lopinavir and ritonavir.
+Additionally, the lung CT scans of patients treated with favipiravir showed significantly higher improvement rates (91%) on day 14 compared to control patients (62%).
+However, there were adverse side effects in 4 (11%) favipiravir-treated patients and 25 (56%) control patients.
 The adverse side effects included: diarrhea, vomiting, nausea, rash, and liver and kidney injury.
-Overall, despite the study reporting clinical improvement in Favipiravir-treated patients, due to some issues with study design, it cannot be determined whether treatment with Favipiravir had an effect or whether these patients would have recovered regardless of any treatment.
+Overall, despite the study reporting clinical improvement in favipiravir-treated patients, due to some issues with study design, it cannot be determined whether treatment with Favipiravir had an effect or whether these patients would have recovered regardless of any treatment.
 For example, although there were significant differences between the two treatment groups, follow-up analysis is necessary due to the small sample size.
 The selection of patients did not take into consideration important factors such as previous clinical conditions or sex, and there was no age categorization.
 The study was not randomized or blinded, and the baseline control group was another antiviral instead of a placebo.
@@ -1211,7 +1231,6 @@ It does not have any FDA-approved use.
 However, on May 1, 2020, the FDA issued an Emergency Use Authorization (EUA) for remdesivir for the treatment of hospitalized COVID-19 patients.
 The EUA was based on information from two clinical trials, NCT04280705 and NCT04292899
 [@url:https://clinicaltrials.gov/ct2/show/NCT04280705; @url:https://clinicaltrials.gov/ct2/show/NCT04292899; @url:https://www.fda.gov/media/137564/download].
-Although a clinical trial in the Democratic Republic of Congo found some evidence of effectiveness against ebola, two antibody preparations were found to be more effective, and Remdesivir was not pursued [@doi:10.1056/NEJMoa1910993].
 
 ##### Anticipated Mechanism
 
@@ -1221,14 +1240,15 @@ It also inhibits SARS-CoV-2, showing synergy with chloroquine _in vitro_ [@doi:1
 
 ##### Current Evidence
 
-In addition to the previous work showing Remdesivir to be an effective treatment for viral pathogens such as SARS-CoV and MERS-CoV in cultured cells and animal models, a recent study found that administration of Remdesivir to non-human primate models resulted in 100% protection against infection by the Ebola virus.
+In addition to the previous work showing remdesivir to be an effective treatment for viral pathogens such as SARS-CoV and MERS-CoV in cultured cells and animal models, a recent study found that administration of remdesivir to non-human primate models resulted in 100% protection against infection by the Ebola virus.
+Although a clinical trial in the Democratic Republic of Congo found some evidence of effectiveness against ebola, two antibody preparations were found to be more effective, and remdesivir was not pursued [@doi:10.1056/NEJMoa1910993].
 Remdesivir has also been reported to inhibit SARS-CoV-2 infection in a human cell line sensitive to the virus [@doi:10.1038/s41422-020-0282-0].
 
-The effectiveness of Remdesivir for treating patients with COVID-19 is currently under investigation.
+The effectiveness of remdesivir for treating patients with COVID-19 is currently under investigation.
 Remdesivir has been used on some COVID-19 patients under compassionate use guidelines [@doi:10.1126/science.abb7243, @doi:10.1056/NEJMoa2001191; @doi:10.1101/2020.03.09.20032896].
 All were in late stages of COVID-19 infection, and these reports are inconclusive about the drug's efficacy.
-Gilead Sciences, the maker of Remdesivir, led a recent publication that reported outcomes for compassionate use of the drug in 61 patients hospitalized with confirmed COVID-19.
-Here, 200mg of Remdesivir was administered intravenously on day 1, followed by a further 100mg/day for 9 days [@doi:10.1056/NEJMoa2007016].
+Gilead Sciences, the maker of remdesivir, led a recent publication that reported outcomes for compassionate use of the drug in 61 patients hospitalized with confirmed COVID-19.
+Here, 200mg of remdesivir was administered intravenously on day 1, followed by a further 100mg/day for 9 days [@doi:10.1056/NEJMoa2007016].
 There were significant issues with the study design or lack thereof.
 There was no randomized control group.
 The inclusion criteria were variable: some patients only required low doses of oxygen, others required ventilation.
@@ -1236,8 +1256,8 @@ The study included many sites, potentially with variable inclusion criteria and 
 Patients analyzed had mixed demographics.
 There was a short follow-up period of investigation.
 Some patients worsened, some patients died, and eight were excluded from the analysis mainly due to missing post-baseline information, thus their health is unaccounted for.
-Therefore, even though the study reported clinical improvement in 68% of the 53 patients ultimately evaluated, due to the significant issues with study design, it cannot be determined whether treatment with Remdesivir had an effect or whether these patients would have recovered regardless of treatment.
-As a result, the study does not alter our understanding of the efficacy of Remdesivir in this setting, and randomized controlled trials are still required.
+Therefore, even though the study reported clinical improvement in 68% of the 53 patients ultimately evaluated, due to the significant issues with study design, it cannot be determined whether treatment with remdesivir had an effect or whether these patients would have recovered regardless of treatment.
+As a result, the study does not alter our understanding of the efficacy of remdesivir in this setting, and randomized controlled trials are still required.
 Remdesivir recently entered controlled clinical trials, and as of March 2020, there are six clinical trials underway to treat COVID-19 patients at both early and late stages of infection and in combinations with other drugs [@doi:10.1038/s41422-020-0282-0; @url:https://clinicaltrials.gov/ct2/show/NCT04292730; @url:https://clinicaltrials.gov/ct2/show/NCT04292899; @url:https://clinicaltrials.gov/ct2/show/NCT04280705; @url:https://www.clinicaltrialsregister.eu/ctr-search/trial/2020-000936-23/FR; @url:https://clinicaltrials.gov/ct2/show/NCT04252664; @url:https://clinicaltrials.gov/ct2/show/NCT04257656].
 
 ##### Summary
@@ -1388,7 +1408,7 @@ Additionally, because only the abstract could be read, other design and analysis
 Conclusions should be interpreted very cautiously.
 However, these preliminary negative results do reiterate the need for further study.
 
-A case study treated 11 consecutive patients with HCQ + azithromycin using the same dosing regime reported by Gautret et al [@doi:10.1016/j.medmal.2020.03.006].
+A case study treated 11 consecutive patients with HCQ + azithromycin using the same dosing regime reported by Gautret et al. [@doi:10.1016/j.medmal.2020.03.006].
 One patient died, two were transferred to the ICU, and one developed a prolonged QT interval leading to discontinuation of HCQ + azithromycin.
 As in the Gautret et al study, the outcome measurement was virological clearance at Day 6 post-treatment by nasopharyngeal swabs.
 Of the ten living patients on Day 6, eight of the patients remained positive for SARS-CoV-2 RNA.
@@ -1654,7 +1674,7 @@ Summarize the state of the neutralizing antibody approach.
 
 Interferons (IFNs) are a family of cytokines crucial to activate the first (innate) immune system response against viral infections.
 Interferons are classified into three categories based on their receptor specificity: type I, II and III [@doi:10.1128/mmbr.05015-11].
-Specifically, IFNs I (IFN-𝛼 and 𝛽) and II (IFN-𝛾 ) induce the expression of antiviral proteins which bring the viral RNA to degradation [@doi:10.1016/j.jcv.2003.11.013].
+Specifically, IFNs I (IFN-𝛼 and 𝛽) and II (IFN-𝛾) induce the expression of antiviral proteins which bring the viral RNA to degradation [@doi:10.1016/j.jcv.2003.11.013].
 Among these IFNs, IFN- 𝛽 was already found to strongly inhibit the replication of other corona viruses, such as SARS-CoV, in cell culture, while IFN-𝛼 and 𝛾 were shown to be less effective in this context [@doi:10.1016/j.jcv.2003.11.013].
 There are evidences that patients with higher susceptibility to develop Acute respiratory distress syndrome (ARDS) show indeed deficiency of IFN- 𝛽.
 For instance, upon other Corona viruses infection IFN- 𝛽 expression and synthesis is impaired, so that the virus can in fact escape the innate immune response [@doi:10.1016/j.virusres.2014.07.024].
@@ -1982,6 +2002,7 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 |David Manheim|None|2020-04-28|
 |Soumita Ghosh|None|2020-04-28|
 |Matthias Fax|None|2020-04-30|
+|James Brian Byrd|Funded by FastGrants to conduct a COVID-19-related clinical trial|2020-04-23|
 
 ### Author Contributions
 
@@ -2017,6 +2038,7 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 |David Manheim|Writing - Original Draft, Investigation|
 |Soumita Ghosh|Writing - Original Draft|
 |Matthias Fax|Writing - Review & Editing|
+|James Brian Byrd|Writing - Original Draft, Writing - Review & Editing|
 
 
 ## References {.page_break_before}
