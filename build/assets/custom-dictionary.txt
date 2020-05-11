@@ -3,6 +3,8 @@ aadattoli
 ABCpred
 ABO
 acceptor
+ACEi
+ACEis
 acetylcysteine
 actemra
 adamlmaclean
@@ -39,6 +41,8 @@ anticorrelated
 antifungal
 antiphospholipid
 ApoA
+ARB
+ARBs
 Arbidol
 ARDS
 arrhythmias
@@ -297,6 +301,7 @@ eq
 esell
 et
 Etanercept
+EUA
 exogenously
 exonuclease
 ExPASy
@@ -601,6 +606,7 @@ MCP
 MDCK
 Meara
 medRxiv
+Mehra
 Melo
 Meplazumab
 mer
