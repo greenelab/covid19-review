@@ -28,7 +28,7 @@ def paper_info(row):
     return row
 
 if __name__ == "__main__":
-    # Update external data, if not updated yet today, and read
+    # Update external data
     metadata_fname = "./output/AllenAI-metadata.csv"
     print("Update Allen AI metadata")
     update_AI(metadata_fname)
