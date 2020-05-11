@@ -2,7 +2,6 @@ import pandas as pd
 import os
 import urllib.request
 import requests
-import datetime as dt
 
 def update_AI(fname):
     # Download most up-to-date metadata from Allen AI COVID-19 dataset
