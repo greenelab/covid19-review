@@ -1,14 +1,23 @@
 virology:
-    - '\[x\] virology'
+  - '\[x\] virology'
 
 epidemiology:
-    - '\[x\] epidemiology'
+  - '\[x\] epidemiology'
 
 biostatistics:
-    - '\[x\] biostatistics'
+  - '\[x\] biostatistics'
 
 immunology:
-    - '\[x\] immunology'
+  - '\[x\] immunology'
 
 pharmacology:
-    - '\[x\] pharmacology'
+  - '\[x\] pharmacology'
+
+New Peer-Reviewed Paper:
+  - '\[x\] New Peer-Reviewed Paper'
+
+Pre-print:
+  - '\[x\] Pre-print'
+
+Peer-Reviewed Paper (Pre-2020):
+  - '\[x\] Peer-Reviewed Paper Pre-2020'
