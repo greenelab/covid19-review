@@ -42,7 +42,7 @@ if __name__ == "__main__":
                                  sep="\t")
     review_sources = review_sources.dropna(subset=["doi"])
     review_sources.rename({"URL":"SecondaryURL"}, inplace=True, axis=1)
-    print("COVID-19 review has {0} sources".format(len(review_sources)))
+    print("COVID-19 review has examined {0} sources".format(len(review_sources)))
 
     # Add tracking from project to the Allen AI dataset
     combined = AIA_metadata.merge(review_sources,
