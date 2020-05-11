@@ -311,11 +311,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/38c3d0bcfa706c8b8ee7137a86539196194b07a5/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/2ee4e79a4bb52ac6504f49ae1a95b0303d285804/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/38c3d0bcfa706c8b8ee7137a86539196194b07a5/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/2ee4e79a4bb52ac6504f49ae1a95b0303d285804/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/38c3d0bcfa706c8b8ee7137a86539196194b07a5/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/2ee4e79a4bb52ac6504f49ae1a95b0303d285804/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -348,9 +348,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/38c3d0bcfa706c8b8ee7137a86539196194b07a5/))
+([permalink](https://greenelab.github.io/covid19-review/v/2ee4e79a4bb52ac6504f49ae1a95b0303d285804/))
 was automatically generated
-from [greenelab/covid19-review@38c3d0b](https://github.com/greenelab/covid19-review/tree/38c3d0bcfa706c8b8ee7137a86539196194b07a5)
+from [greenelab/covid19-review@2ee4e79](https://github.com/greenelab/covid19-review/tree/2ee4e79a4bb52ac6504f49ae1a95b0303d285804)
 on May 11, 2020.
 </em></small>
 
@@ -1000,7 +1000,7 @@ There are different reagents used for library preparation that are specific to i
 The Drosten Lab, from Germany, was the first lab to establish and validate a diagnostic test to detect SARS-CoV-2.
 This test uses RT-PCR with reverse transcription [@doi:10.2807/1560-7917.ES.2020.25.3.2000045] to detect several regions of the viral genome: the orf1b of the RNA dependent RNA polymerase (RdRP), the Envelope protein gene (E), and the Nucleocapsid protein gene (N).
 In collaboration with several other labs in Europe and in China, the researchers confirmed the specificity of this test with respect to other coronaviruses against specimens from 297 patients infected with a broad range of respiratory agents.
-Specifically this tests utilizes two probes against RdRP of which one is specific to SARS-CoV-2 [@doi:10.2807/1560-7917.ES.2020.25.3.2000045].
+Specifically this test utilizes two probes against RdRP of which one is specific to SARS-CoV-2 [@doi:10.2807/1560-7917.ES.2020.25.3.2000045].
 Importantly, this assay did not give any false positive results.
 
 
@@ -1072,7 +1072,7 @@ With this particular assay results can be read within 15-20 minutes [@url:https:
 Other research groups, such as the Krammer lab of the Icahn School of Medicine at Mount Sinai proposed an ELISA test that detects IgG and IgM that react against the receptor binding domain (RBD) of the spike proteins (S) of the virus [@doi:10.1101/2020.03.17.20037713].
 The authors are now working to get the assay into clinical use [@url:https://www.livescience.com/coronavirus-tests-available.html].
 
-#### Limitations of Sierological Tests
+#### Limitations of Serological Tests
 
 Importantly, false-positives can occur due to the cross-reactivity with other antibodies according to the clinical condition of the patient [@url:https://www.fda.gov/media/136625/download].
 Therefore, this test should be used in combination with RNA detection tests [@url:https://www.fda.gov/media/136625/download].
@@ -1344,6 +1344,17 @@ In principle, drugs that reduce the expression of these proteins or sterically h
 #### Current Evidence
 
 A list of current studies and their results, using carefully the information requested in the therapeutic paper tickets.
+
+Angiotensin-converting enzyme inhibitors and angiotensin II receptor blockers (ARBs) are among the most commonly prescribed medications [@url:https://clincalc.com/DrugStats/Drugs/Lisinopril; @doi:10.1056/NEJMp1901657].
+In the United States, for example, they are prescribed well over 100,000,000 times annually.
+Data from some animal models suggest several but not all ACE inhibitors and several ARBs increase ACE2 expression in cells of some organs [@doi:10.1093/cvr/cvaa097].
+Clinical studies have not established whether plasma ACE2 expression is increased in humans treated with these medications [@doi:10.1093/europace/euw246].
+While randomized clinical trials are ongoing, a variety of observational studies have examined the relationship between exposure to ACE inhibitors or ARBs and outcomes in patients with COVID-19.
+In an observational analysis of deaths among patients hospitalized with COVID-19, Mehra and colleagues reported that treatment with an ACE inhibitor at time of admission corresponded to an odds ratio of 0.33 [@doi:10.1056/NEJMoa2007621].
+In contrast, the authors did not find evidence of an association between exposure to an ARB at time of hospitalization and death.
+Because observational studies are subject to confounding, randomized controlled trials are the standard means of assessing the effects of medications, and the findings of this study cannot be interpreted as indicating a protective effect of the drug.
+Clinical trials testing the effects of ACE inhibitors or ARBs on COVID-19 outcomes are ongoing [@url:https://clinicaltrials.gov/ct2/show/NCT04338009; @url:https://clinicaltrials.gov/ct2/show/NCT04353596; @url:https://clinicaltrials.gov/ct2/show/NCT04311177; @url:https://clinicaltrials.gov/ct2/show/NCT04312009; @url:https://clinicaltrials.gov/ct2/show/NCT04330300; @url:https://clinicaltrials.gov/ct2/show/NCT04366050].
+Because these studies are interventional, they will provide important data for understanding whether exposure to ACEis or ARBs is associated with COVID-19 outcomes.
 
 #### Summary
 
