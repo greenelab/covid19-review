@@ -31,7 +31,7 @@ Citation:
 
 - [ ] Pre-print
 - [ ] New Peer-Reviewed Paper
-- [ ] Peer-Reviewed Paper (Pre-2020)
+- [ ] Peer-Reviewed Paper Pre-2020
 
 ## Which areas of expertise are particularly relevant to the paper?
 <!--Replace the empty brackets below with [x].-->
