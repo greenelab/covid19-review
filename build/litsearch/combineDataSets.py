@@ -31,11 +31,8 @@ def paper_info(row):
 if __name__ == "__main__":
     # Update external data, if not updated yet today, and read
     metadata_fname = "./output/AllenAI-metadata.csv"
-    if not os.path.exists(metadata_fname) or \
-            dt.datetime.fromtimestamp(os.path.getctime(metadata_fname)).date() != \
-            dt.datetime.now().date():
-        print("Update Allen AI metadata")
-        update_AI(metadata_fname)
+    print("Update Allen AI metadata")
+    update_AI(metadata_fname)
     AIA_metadata = pd.read_csv(metadata_fname, low_memory=False)
     AIA_metadata = AIA_metadata.dropna(subset=["doi"])
     print("AIA has {0} sources".format(len(AIA_metadata)))
