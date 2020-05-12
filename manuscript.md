@@ -34,7 +34,7 @@ author-meta:
 bibliography:
 - content/manual-references.bib
 - content/manual-references.json
-date-meta: '2020-05-11'
+date-meta: '2020-05-12'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -53,9 +53,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
 
-  <meta name="dc.date" content="2020-05-11" />
+  <meta name="dc.date" content="2020-05-12" />
 
-  <meta name="citation_publication_date" content="2020-05-11" />
+  <meta name="citation_publication_date" content="2020-05-12" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -311,11 +311,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/2ee4e79a4bb52ac6504f49ae1a95b0303d285804/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/c0c5762eddbe4e3a3fe9af88ae55e81a3e5d728f/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/2ee4e79a4bb52ac6504f49ae1a95b0303d285804/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/c0c5762eddbe4e3a3fe9af88ae55e81a3e5d728f/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/2ee4e79a4bb52ac6504f49ae1a95b0303d285804/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/c0c5762eddbe4e3a3fe9af88ae55e81a3e5d728f/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -348,10 +348,10 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/2ee4e79a4bb52ac6504f49ae1a95b0303d285804/))
+([permalink](https://greenelab.github.io/covid19-review/v/c0c5762eddbe4e3a3fe9af88ae55e81a3e5d728f/))
 was automatically generated
-from [greenelab/covid19-review@2ee4e79](https://github.com/greenelab/covid19-review/tree/2ee4e79a4bb52ac6504f49ae1a95b0303d285804)
-on May 11, 2020.
+from [greenelab/covid19-review@c0c5762](https://github.com/greenelab/covid19-review/tree/c0c5762eddbe4e3a3fe9af88ae55e81a3e5d728f)
+on May 12, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -881,10 +881,10 @@ Promisingly though, sera from convalescent SARS patients inhibited SARS-CoV-2 vi
 ##### Factors enhancing viral spreading
 
 Viral progression may be enhanced by active upregulation of ACE2 on cell surfaces following or during a response to infection.
-In several preliminary assays and an analysis of previous microarray data, Wang et. al. reported that ACE2 is significantly upregulated following infection of other coronaviruses, including SARS-CoV and MERS-CoV, as well as viruses such as rhinovirus and influenza virus [@doi:10.1101/2020.02.24.963348].
-Additionally, direct stimulation with inflammatory cytokines such as type I interferons resulted in upregulation of ACE2, with treated groups showing 4-fold higher ACE2 expression as compared to control groups at 18 hours post-treatment [@doi:10.1101/2020.02.24.963348].
+In several preliminary assays and an analysis of previous microarray data, Wang et al. reported that ACE2 is significantly upregulated following infection by other coronaviruses, including SARS-CoV and MERS-CoV, as well as viruses such as rhinovirus and influenza virus [@doi:10.1101/2020.02.24.963348].
+Additionally, direct stimulation with inflammatory cytokines such as type I interferons resulted in the upregulation of ACE2, with treated groups showing 4-fold higher ACE2 expression than control groups at 18 hours post-treatment [@doi:10.1101/2020.02.24.963348].
 Though whether SARS-CoV-2 infection facilitates positive regulation of its own transmission between host cells is still unclear, the host immune response itself likely plays a key role in mediating infection-associated pathologies.
-One severe example includes reports of cytokine storm-like responses in patients with particularly severe infections, in which the overproduction of inflammatory cytokines leads to systemic inflammation and potentially multi-organ failure, and may very well accelerate the spread of virus in the host [@doi:10.1101/2020.02.24.963348; @doi:10/ggnzmc].
+One severe example includes reports of cytokine storm-like responses in patients with particularly severe infections, in which the overproduction of inflammatory cytokines leads to systemic inflammation and potentially multi-organ failure, which may very well accelerate the spread of virus in the host [@doi:10.1101/2020.02.24.963348; @doi:10/ggnzmc].
 
 ##### Person-to-person transmission
 
@@ -955,10 +955,10 @@ Using such databases, the systems level reconstruction of the PPI (Protein-Prote
 
 #### Protein-protein interaction networks
 
-In a first study [@doi:10.1101/2020.03.22.002386], 26 of the 29 SARS-CoV-2 proteins were cloned and expressed in HEK293T kidney cells and 332 high confidence human proteins that interact with them were consequently identified.
-Notably, this study suggested the interaction of SARS-CoV-2 with innate immunity pathways.
-The ranking of pathogens with respect to their interactome similarity with SARS-CoV-2 suggested *West Nile Virus*, *Mycobacterium tuberculosis*, and *Human papillomavirus* as the top three hits.
-However, given the lung symptoms associated with COVID-19, *Mycobacterium tuberculosis* host-pathogen interactome could provide new insights to the mechanism SARS-CoV-2 infection.
+In an initial study [@doi:10.1101/2020.03.22.002386], 26 of the 29 SARS-CoV-2 proteins were cloned and expressed in HEK293T kidney cells, allowing for the identification of 332 high-confidence human proteins that interact with them.
+Notably, this study suggested that SARS-CoV-2 interacts with innate immunity pathways.
+The ranking of pathogens with respect to their interactome's similarity to SARS-CoV-2 suggested *West Nile Virus*, *Mycobacterium tuberculosis*, and *Human papillomavirus* as the top three hits.
+However, given the lung symptoms associated with COVID-19, the *Mycobacterium tuberculosis* host-pathogen interactome could also provide new insights to the mechanism of SARS-CoV-2 infection.
 In addition, it was suggested that the envelope protein E could disrupt the host bromodomain-containing proteins, i.e., BRD2 and BRD4, binding to histone.
 The Spike protein S could likely intervene in the virus fusion through modulating the GOLGA7-ZDHHC5 acyl-transferase complex to increase palmitoylation.
 
@@ -984,25 +984,26 @@ Molecular tests are used to identify distinct genomic subsequences of a viral mo
 This first requires identifying biospecimens that are likely to contain the virus in infected individuals and then acquiring these samples from the patient(s) to be tested.
 Common sources for a sample used in a molecular test include nasopharyngeal cavity samples, including throat wash and saliva [@doi:10/ggp4qx], or stool samples [@doi:10.1002/jmv.25742].
 Given a sample from a patient, molecular tests involve a number of steps to analyze a sample and produce results.
-These steps include sample pre-processing, followed by library preparation, and then sequencing itself [@doi:10.1016/j.biotechadv.2020.107537].
 When testing for RNA viruses like SARS-CoV-2, pre-processing is needed in order to create DNA, which can then be replicated during PCR, from the initial RNA sample.
-The DNA can then be manipulated and copied to produce quantities sufficient for the test, called amplification.
+The DNA can then be amplified with PCR.
+Some tests use the results of the PCR to determine presence or absence of the pathogen, but in other cases, it may be necessary to sequence the amplified DNA.
+Sequencing requires an additional pre-processing step: library preparation.
 Library preparation is the process of preparing the sample for sequencing, typically by fragmenting the sequences and adding adapters [@doi:10.1016/j.biotechadv.2020.107537].
 In some cases, library preparation can involve other modifications of the sample, such as adding "barcoding" to identify a particular sample in the sequence data, which is useful for pooling samples from multiple sources.
+There are different reagents used for library preparation that are specific to identifying one or more target sections with PCR [@doi:10.1021/acsnano.0c02624].
 Sequential pattern matching is then used to identify unique subsequences of the virus that identify it in specific.
 If sufficient subsequences are found, the test is considered positive.
 
 #### RT-PCR
 
-Real-Time Polymerase Chain Reaction (RT-PCR) tests measure the rate of amplification during PCR compared to a standard to detect the presence of a target.
-When the target is RNA, such as in the case of RNA viruses, the RNA must first be translated to DNA during pre-processing.
+Real-Time Polymerase Chain Reaction (RT-PCR) tests determine whether a target is present by measuring the rate of amplification during PCR compared to a standard.
+When the target is RNA, such as in the case of RNA viruses, the RNA must be converted into complementary DNA during pre-processing.
 There are different reagents used for library preparation that are specific to identifying one or more target sections with PCR [@doi:10.1021/acsnano.0c02624].
 The Drosten Lab, from Germany, was the first lab to establish and validate a diagnostic test to detect SARS-CoV-2.
-This test uses RT-PCR with reverse transcription [@doi:10.2807/1560-7917.ES.2020.25.3.2000045] to detect several regions of the viral genome: the orf1b of the RNA dependent RNA polymerase (RdRP), the Envelope protein gene (E), and the Nucleocapsid protein gene (N).
+This test uses RT-PCR with reverse transcription [@doi:10.2807/1560-7917.ES.2020.25.3.2000045] to detect several regions of the viral genome: the _ORF1b_ of the RNA dependent RNA polymerase (RdRP), the Envelope protein gene (_E_), and the Nucleocapsid protein gene (_N_).
 In collaboration with several other labs in Europe and in China, the researchers confirmed the specificity of this test with respect to other coronaviruses against specimens from 297 patients infected with a broad range of respiratory agents.
 Specifically this test utilizes two probes against RdRP of which one is specific to SARS-CoV-2 [@doi:10.2807/1560-7917.ES.2020.25.3.2000045].
 Importantly, this assay did not give any false positive results.
-
 
 #### qRT-PCR
 
@@ -1012,7 +1013,6 @@ The assay uses the _N_ gene to screen patients, while the _ORF1b_ gene region is
 In this case the test was designed to detect sequences conserved across sarbecoviruses, or viruses within the same subgenus as SARS-CoV-2.
 Considering that no other sarbecoviruses are currently known to infect humans, a positive test indicates that the patient is infected with SARS-CoV-2.
 However, this test is not able to discriminate the genetics of viruses within the sarbecovirus clade.
-
 
 #### Pooled and Automated PCR Testing
 
