@@ -311,11 +311,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/c0c5762eddbe4e3a3fe9af88ae55e81a3e5d728f/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/358caae232b37049ee52c15d8ce3070896a8949f/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/c0c5762eddbe4e3a3fe9af88ae55e81a3e5d728f/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/358caae232b37049ee52c15d8ce3070896a8949f/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/c0c5762eddbe4e3a3fe9af88ae55e81a3e5d728f/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/358caae232b37049ee52c15d8ce3070896a8949f/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -348,9 +348,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/c0c5762eddbe4e3a3fe9af88ae55e81a3e5d728f/))
+([permalink](https://greenelab.github.io/covid19-review/v/358caae232b37049ee52c15d8ce3070896a8949f/))
 was automatically generated
-from [greenelab/covid19-review@c0c5762](https://github.com/greenelab/covid19-review/tree/c0c5762eddbe4e3a3fe9af88ae55e81a3e5d728f)
+from [greenelab/covid19-review@358caae](https://github.com/greenelab/covid19-review/tree/358caae232b37049ee52c15d8ce3070896a8949f)
 on May 12, 2020.
 </em></small>
 
@@ -774,10 +774,10 @@ While there does not appear to be experimental evidence to conclude which mode o
 
 #### Origin of SARS-CoV-2
 The evolutionary origins of the SARS-CoV-2 virus are not yet fully understood.
-Genomic analyses and comparisons to other known coronaviruses suggest that SARS-CoV-2 is unlikely to have originated from a laboratory -- either purposely engineered and released, or escaped -- and instead evolved naturally in an animal host [@doi:10.1038/s41591-020-0820-9].
+Genomic analyses and comparisons to other known coronaviruses suggest that SARS-CoV-2 is unlikely to have originated in a laboratory -- either purposely engineered and released, or escaped -- and instead evolved naturally in an animal host [@doi:10.1038/s41591-020-0820-9].
 
-Among known coronaviruses, SARS-CoV-19 has the closest overall sequence similarity to RaTG13 (~96%) found in a *Rhinolophus affinis* bat [@doi:10.1038/s41586-020-2012-7], while the receptor binding domain (RBD) is highly similar to that of viruses found in pangolins [@doi:10.1101/2020.02.19.950253].
-This suggests that SARS-CoV-19 may have originated in viral reservoirs of similar hosts, however current evidence cannot discriminate an origin of the virus before or after zoonotic transfer to humans [@doi:10.1038/s41591-020-0820-9].
+Among known coronaviruses, SARS-CoV-2 has the closest overall sequence similarity to RaTG13 (~96%) found in a *Rhinolophus affinis* bat [@doi:10.1038/s41586-020-2012-7], while the receptor binding domain (RBD) is highly similar to that of viruses found in pangolins [@doi:10.1101/2020.02.19.950253].
+This suggests that SARS-CoV-2 may have originated in viral reservoirs of similar hosts; however, current evidence cannot discriminate an origin of the virus before or after zoonotic transfer to humans [@doi:10.1038/s41591-020-0820-9].
 
 ### COVID-19: Mechanisms and Presentation
 
@@ -812,7 +812,7 @@ This information, when combined with an understanding of the biology of pharmace
 #### Public Health
 
 One necessary component of determining how to manage the outbreak is to understand epidemiological factors related to the transmission of the SARS-CoV-2 virus.
-These can include characteristics such as when infected individuals are contagious, how the virus is transmitted between individuals, the range of symptoms associated with infection and/or contagiousness in different individuals, and how rapidly the virus propogates between individuals, etc.
+These can include characteristics such as when infected individuals are contagious, how the virus is transmitted between individuals, the range of symptoms associated with infection and/or contagiousness in different individuals, and how rapidly the virus propagates between individuals, etc.
 The development of diagnostic tools is critical to this goal.
 Accurate diagnoses on a large scale is necessary to collect the data needed to develop epidemiological models.
 Other areas of public health that address resource availability, inequity, human behavior, and other components that influence people's exposure to pathogens and ability to manage illness will also be critical to mounting a global response to the pandemic.
