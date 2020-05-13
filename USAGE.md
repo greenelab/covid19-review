@@ -226,9 +226,15 @@ Manubot uses the [timezone](https://en.wikipedia.org/wiki/List_of_tz_database_ti
 For example, setting the `TZ` environment variable to `Etc/UTC` directs the Manubot to use Coordinated Universal Time.
 
 We recommend authors add themselves to `metadata.yaml` via pull request (when requested by a maintainer), thereby signaling that they've read and approved the manuscript.
-The following YAML shows the supported key–value pairs for an author:  
+You will need to acknowledge any conflicts of interest (coi) that you have or use "None" for none. 
+For reference, here is the [the University of Pennsylvania policy for conflicts of interest in research](https://research.upenn.edu/wp-content/uploads/FCOI-Policy-Overview-5-28-19.pdf).
+Most institutions will have a similar set of policies.
+Additionally, you will need to confirm that you have read and agree to abide by the [Code of Conduct](CODE_OF_CONDUCT.md) for this project.
+
+The following YAML shows the supported key–value pairs for an individual author:  
 
 ```yaml
+-
 github: dhimmel  # strongly suggested
 name: Daniel S. Himmelstein  # mandatory
 initials: DSH  # optional
@@ -238,7 +244,13 @@ email: daniel.himmelstein@gmail.com  # suggested
 affiliations:  # as a list, strongly suggested
   - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
   - Department of Biological & Medical Informatics, University of California, San Francisco
-funders: GBMF4552  # optional
+code of conduct:
+  confirmed: No #change to Yes to indicate that you have read & agree to follow the code of conduct
+coi:
+  string: "None" #mandatory - update with any relevant conflicts of interest
+  lastapproved: !!str 2020-XX-XX #mandatory - update to current date
+funders:
+  - GBMF4552  # optional list of author's funding
 ```
 
 Note that `affiliations` should be a list to allow for multiple affiliations per author.
@@ -274,6 +286,13 @@ Open a [new issue](https://github.com/manubot/rootstock/issues/new) if you have 
 Changing the citation style or which interactive HTML plugins are loaded requires editing the build script [`build/build.sh`](build/build.sh).
 The citation style is determined by the Citation Style Language file specified by `CSL_PATH`.
 It can be changed to use other existing styles as [described here](https://github.com/manubot/rootstock/issues/242#issuecomment-507688339).
+
+## Spellchecking
+
+When the `SPELLCHECK` environment variable is `true`, the pandoc [spellcheck filter](https://github.com/pandoc/lua-filters/tree/master/spellcheck) is run.
+Potential spelling errors will be printed in the continuous integration log along with the files and line numbers in which they appeared.
+Words in `build/assets/custom-dictionary.txt` are ignored during spellchecking.
+Spellchecking is currently only supported for English language manuscripts and with Travis CI and AppVeyor continuous integration services.
 
 ## Manubot feedback
 
