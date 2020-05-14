@@ -34,7 +34,7 @@ author-meta:
 bibliography:
 - content/manual-references.bib
 - content/manual-references.json
-date-meta: '2020-05-13'
+date-meta: '2020-05-14'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -53,9 +53,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
 
-  <meta name="dc.date" content="2020-05-13" />
+  <meta name="dc.date" content="2020-05-14" />
 
-  <meta name="citation_publication_date" content="2020-05-13" />
+  <meta name="citation_publication_date" content="2020-05-14" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -311,11 +311,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/70c4d5d628586c6e62cafbe8ebc05951fdecfb70/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/26f0330bf8091acd2ffca9a64de5e87caf242451/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/70c4d5d628586c6e62cafbe8ebc05951fdecfb70/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/26f0330bf8091acd2ffca9a64de5e87caf242451/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/70c4d5d628586c6e62cafbe8ebc05951fdecfb70/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/26f0330bf8091acd2ffca9a64de5e87caf242451/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -348,10 +348,10 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/70c4d5d628586c6e62cafbe8ebc05951fdecfb70/))
+([permalink](https://greenelab.github.io/covid19-review/v/26f0330bf8091acd2ffca9a64de5e87caf242451/))
 was automatically generated
-from [greenelab/covid19-review@70c4d5d](https://github.com/greenelab/covid19-review/tree/70c4d5d628586c6e62cafbe8ebc05951fdecfb70)
-on May 13, 2020.
+from [greenelab/covid19-review@26f0330](https://github.com/greenelab/covid19-review/tree/26f0330bf8091acd2ffca9a64de5e87caf242451)
+on May 14, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -1060,7 +1060,7 @@ Additionally, they can help scientists to understand why the disease has a diffe
 Furthermore, serological tests hold significant interest at present because they can provide information relevant to advancing economic recovery and allowing reopenings.
 For instance, people that have developed antibodies can plausibly return to work prior to the others, based on (still-unproven) protective immunity [@doi:10.1101/2020.04.14.20065771]. 
 On a related note, for some infectious agents an epidemic can be stopped from growing through herd immunity in which enough of the population is immune to infection through vaccination and/or prior experience with infection.
-A simple SIR model predicts that to achieve the required level of exposure for herd immunity to be effective, at least (1-(1/R0)) fraction of the population must be immune or, equivalently, less than (1/R0) fraction of the population susceptible.
+A simple SIR model predicts that to achieve the required level of exposure for herd immunity to be effective, at least (1-(1/R0)) fraction of the population must be immune or, equivalently, less than (1/R0) fraction of the population susceptible [@isbn:9780199209996].
 However, for SARS-CoV-2 and COVID-19, because of the calculated R0 and mortality and the recorded per-region deaths and accumulated cases with the estimated factor of undetected cases, relying on herd immunity without vaccines and/or proven treatment options and/or strong non-pharmaceutical measures of prevention and control would likely result in a significant loss of life.
 
 #### Current Approaches
