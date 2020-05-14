@@ -320,7 +320,7 @@ authors:
       lastapproved: !!str 2020-04-09
     funders:
       - the American Heart Association (20AIREA35050015)
-  - 
+  -
     github: esell17
     name: Elizabeth Sell
     initials: ES
@@ -333,8 +333,8 @@ authors:
       - Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
     coi:
       string: "None"
-      lastapproved: !!str 2020-04-10    
-  - 
+      lastapproved: !!str 2020-04-10
+  -
     github: jinhui2
     name: Jinhui Wang
     initials: JW
@@ -346,7 +346,7 @@ authors:
       - Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
     coi:
       string: "None"
-      lastapproved: !!str 2020-04-13 
+      lastapproved: !!str 2020-04-13
   -
     github: dianerafi
     name: Diane N. Rafizadeh
@@ -361,7 +361,7 @@ authors:
       - Department of Chemistry, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
     code of conduct:
       confirmed: yes
-    coi: 
+    coi:
       string: "None"
       lastapproved: !!str 2020-04-14
     funders:
@@ -380,7 +380,7 @@ authors:
       - Institute for Immunology, University of Pennsylvania Perelman School of Medicine, Philadelphia, United States of America
     code of conduct:
       confirmed: yes
-    coi: 
+    coi:
       string: "None"
       lastapproved: !!str 2020-04-16
     funders:
@@ -394,7 +394,7 @@ authors:
     email: marouen.b.guebila@gmail.com
     contributions:
       - Writing - Original Draft
-    affiliations: 
+    affiliations:
       - Department of Biostatistics, Harvard School of Public Health, Boston, Massachusetts, United States of America
     code of conduct:
       confirmed: yes
@@ -402,7 +402,7 @@ authors:
       string: "None"
       lastapproved: !!str 2020-04-17
   -
-    github: likhithakolla 
+    github: likhithakolla
     name: Likhitha Kolla
     initials: LK
     orcid: 0000-0002-1169-906X
@@ -410,10 +410,10 @@ authors:
     email: Likhitha.Kolla@Pennmedicine.upenn.edu
     contributions:
       - Writing - Original Draft
-    affiliations: 
+    affiliations:
       - Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
     code of conduct:
-      confirmed: yes 
+      confirmed: yes
     coi:
       string: "None"
       lastapproved: !!str 2020-04-23
@@ -429,7 +429,7 @@ authors:
     contributions:
       - Writing - Original Draft
       - Investigation
-    affiliations: 
+    affiliations:
       - Risk and Health Communication Research Center, School of Public Health, University of Haifa, Haifa, Israel
     code of conduct:
       confirmed: yes
@@ -439,13 +439,13 @@ authors:
   -
     github: soumitagh
     name: Soumita Ghosh
-    initials: SG  
+    initials: SG
     orcid: 0000-0002-2783-2750
     email: soumita84@gmail.com
     contributions:
       - Writing - Original Draft
     affiliations:
-      - Institute of Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America    
+      - Institute of Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
     coi:
       string: "None"
       lastapproved: !!str 2020-04-28
@@ -466,7 +466,7 @@ authors:
       string: "None"
       lastapproved: !!str 2020-04-30
   -
-    github: byrdjb 
+    github: byrdjb
     name: James Brian Byrd
     initials: JBB
     orcid: 0000-0002-0509-3520
@@ -475,13 +475,35 @@ authors:
     contributions:
       - Writing - Original Draft
       - Writing - Review & Editing
-    affiliations: 
+    affiliations:
       - University of Michigan School of Medicine, Ann Arbor, Michigan, United States of America
     code of conduct:
-      confirmed: yes 
+      confirmed: yes
     coi:
       string: "Funded by FastGrants to conduct a COVID-19-related clinical trial"
       lastapproved: !!str 2020-04-23
     funders:
       - NIH K23HL128909
       - FastGrants
+
+
+  -
+    github: ypar
+    name: YoSon Park
+    initials: YP
+    orcid: 0000-0002-0465-4744
+    twitter: __yoson__
+    email: yoson.park@gmail.com
+    contributions:
+      - Writing - Original Draft
+      - Writing - Review & Editing
+      - Investigation
+    affiliations:
+      - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+    code of conduct:
+      confirmed: yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-04-30
+    funders: NHGRI R01 HG10067
+
