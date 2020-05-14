@@ -311,11 +311,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/26f0330bf8091acd2ffca9a64de5e87caf242451/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/ddf594ad6e0473be13533e0f36b56edc59ad0067/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/26f0330bf8091acd2ffca9a64de5e87caf242451/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/ddf594ad6e0473be13533e0f36b56edc59ad0067/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/26f0330bf8091acd2ffca9a64de5e87caf242451/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/ddf594ad6e0473be13533e0f36b56edc59ad0067/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -348,9 +348,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/26f0330bf8091acd2ffca9a64de5e87caf242451/))
+([permalink](https://greenelab.github.io/covid19-review/v/ddf594ad6e0473be13533e0f36b56edc59ad0067/))
 was automatically generated
-from [greenelab/covid19-review@26f0330](https://github.com/greenelab/covid19-review/tree/26f0330bf8091acd2ffca9a64de5e87caf242451)
+from [greenelab/covid19-review@ddf594a](https://github.com/greenelab/covid19-review/tree/ddf594ad6e0473be13533e0f36b56edc59ad0067)
 on May 14, 2020.
 </em></small>
 
@@ -1482,6 +1482,7 @@ https://www.ncbi.nlm.nih.gov/pubmed/28099856
 https://www.ncbi.nlm.nih.gov/pubmed/27911847
 -->
 This uncertainty is important to recognize clinically because HCQ-based treatments can lead to dangerous side effects like prolonged QT interval [@doi:10.1155/2016/4626279].
+There is now evidence of increased mortality among older men receiving HCQ, and administration of HCQ and HCQ+AZ did not decrease the use of mechanical ventilation in the admitted patients [@doi:10.1101/2020.04.16.20065920]. 
 HCQ use for COVID-19 also leads to shortages for anti-malarial or anti-rheumatic use, where it has been definitively proven to be effective.
 Further investigation of HCQ in large, rigorous, multi-center clinical trials is necessary.
 
