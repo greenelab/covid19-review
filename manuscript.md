@@ -34,7 +34,7 @@ author-meta:
 bibliography:
 - content/manual-references.bib
 - content/manual-references.json
-date-meta: '2020-05-14'
+date-meta: '2020-05-15'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -53,9 +53,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
 
-  <meta name="dc.date" content="2020-05-14" />
+  <meta name="dc.date" content="2020-05-15" />
 
-  <meta name="citation_publication_date" content="2020-05-14" />
+  <meta name="citation_publication_date" content="2020-05-15" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -311,11 +311,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/ddf594ad6e0473be13533e0f36b56edc59ad0067/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/3da530a63d51275da68786ad2487745c2c1548eb/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/ddf594ad6e0473be13533e0f36b56edc59ad0067/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/3da530a63d51275da68786ad2487745c2c1548eb/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/ddf594ad6e0473be13533e0f36b56edc59ad0067/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/3da530a63d51275da68786ad2487745c2c1548eb/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -348,10 +348,10 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/ddf594ad6e0473be13533e0f36b56edc59ad0067/))
+([permalink](https://greenelab.github.io/covid19-review/v/3da530a63d51275da68786ad2487745c2c1548eb/))
 was automatically generated
-from [greenelab/covid19-review@ddf594a](https://github.com/greenelab/covid19-review/tree/ddf594ad6e0473be13533e0f36b56edc59ad0067)
-on May 14, 2020.
+from [greenelab/covid19-review@3da530a](https://github.com/greenelab/covid19-review/tree/3da530a63d51275da68786ad2487745c2c1548eb)
+on May 15, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -724,6 +724,8 @@ At this time, over 130,000 deaths had been reported due to COVID-19 worldwide (A
 [So this is where manubot is particularly useful. it could pull from a public database / data table.]
 
 In this review, we seek to consolidate information about the virus in the context of related viruses and to synthesize what is known about the diagnosis and treatment of COVID-19 and related diseases.
+Further, we aim to amplify the true signal out of the vast noise produced by thousands of publications on the topic [@doi:10.1038/s42254-020-0175-7].
+We will critique, sort and distil informative contents out of the overwhelming flood of information and help the larger scientific community to be better educated on this critical subject affecting all of us.
 This is a real-time, collaborative effort that welcomes submissions from scientists worldwide.
 
 
