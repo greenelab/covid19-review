@@ -31,6 +31,7 @@ author-meta:
 - Soumita Ghosh
 - Matthias Fax
 - James Brian Byrd
+- YoSon Park
 bibliography:
 - content/manual-references.bib
 - content/manual-references.json
@@ -299,6 +300,14 @@ header-includes: '<!--
 
   <meta name="twitter:creator" content="@thebyrdlab" />
 
+  <meta name="citation_author" content="YoSon Park" />
+
+  <meta name="citation_author_institution" content="Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America" />
+
+  <meta name="citation_author_orcid" content="0000-0002-0465-4744" />
+
+  <meta name="twitter:creator" content="@__yoson__" />
+
   <link rel="canonical" href="https://greenelab.github.io/covid19-review/" />
 
   <meta property="og:url" content="https://greenelab.github.io/covid19-review/" />
@@ -311,11 +320,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/3da530a63d51275da68786ad2487745c2c1548eb/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/92ee675295a1fe21f028bdcbe399818b23d07e7c/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/3da530a63d51275da68786ad2487745c2c1548eb/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/92ee675295a1fe21f028bdcbe399818b23d07e7c/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/3da530a63d51275da68786ad2487745c2c1548eb/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/92ee675295a1fe21f028bdcbe399818b23d07e7c/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -348,9 +357,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/3da530a63d51275da68786ad2487745c2c1548eb/))
+([permalink](https://greenelab.github.io/covid19-review/v/92ee675295a1fe21f028bdcbe399818b23d07e7c/))
 was automatically generated
-from [greenelab/covid19-review@3da530a](https://github.com/greenelab/covid19-review/tree/3da530a63d51275da68786ad2487745c2c1548eb)
+from [greenelab/covid19-review@92ee675](https://github.com/greenelab/covid19-review/tree/92ee675295a1fe21f028bdcbe399818b23d07e7c)
 on May 15, 2020.
 </em></small>
 
@@ -682,6 +691,18 @@ Instead, you should collect information from your local health department, the [
   <small>
      University of Michigan School of Medicine, Ann Arbor, Michigan, United States of America
      · Funded by NIH K23HL128909; FastGrants
+  </small>
+
++ **YoSon Park**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-0465-4744](https://orcid.org/0000-0002-0465-4744)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [ypar](https://github.com/ypar)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [__yoson__](https://twitter.com/__yoson__)<br>
+  <small>
+     Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+     · Funded by NHGRI R01 HG10067
   </small>
 
 
@@ -2024,6 +2045,7 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 |Soumita Ghosh|None|2020-04-28|
 |Matthias Fax|None|2020-04-30|
 |James Brian Byrd|Funded by FastGrants to conduct a COVID-19-related clinical trial|2020-04-23|
+|YoSon Park|None|2020-04-30|
 
 ### Author Contributions
 
@@ -2060,6 +2082,7 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 |Soumita Ghosh|Writing - Original Draft|
 |Matthias Fax|Writing - Review & Editing|
 |James Brian Byrd|Writing - Original Draft, Writing - Review & Editing|
+|YoSon Park|Writing - Original Draft, Writing - Review & Editing, Investigation|
 
 
 ## References {.page_break_before}
