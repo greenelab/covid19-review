@@ -1,0 +1,370 @@
+import pandas as pd
+import requests
+import json
+import base64
+import logging
+import pickle
+import os.path
+from manubot import cite
+
+
+headers = {}  # For Development you can insert your GH api token here and up the rate limit {'Authorization': 'token %s' % "<apiToken>"}
+if "GITHUB_TOKEN" in os.environ:
+    print("GITHUB_TOKEN env variable is present.")
+    headers = {'Authorization': 'token %s' % os.environ["GITHUB_TOKEN"]}
+else:
+    print('GITHUB_TOKEN env variable is not present.')
+
+
+# Issues Helper Functions
+def getIssuesFromAPI():
+    """ Gets all the issues and pull-requests (GH treats PRs like issues in the api)
+    Needs to use pagination because of 100 per-request api limit
+    """
+    issues = []
+    pageNumber = 1
+    numberOfIssuesReturned = 1
+    while numberOfIssuesReturned != 0:
+        issuesResponse = requests.get(
+            "https://api.github.com/repos/greenelab/covid19-review/issues?state=all&per_page=50&page=" +
+            str(pageNumber), headers=headers)
+        issues_page = json.loads(issuesResponse.text)
+        issues = issues + issues_page
+        numberOfIssuesReturned = len(issues_page)
+        pageNumber += 1
+    return issues
+
+
+def getCitationFromIssue(issue):
+    """ Gets the citation from the github issue assuming the issue follows the New Paper issue template
+    Citation is typically a DOI but could be something else
+    """
+    try:
+        if "\nCitation: " in issue["body"]:
+            citation = issue["body"].split("\nCitation: ")[1].split(" ")[0]
+        else:
+            afterDOI = issue["body"].split("DOI:")[1]
+            citation = afterDOI.split(" ")[0]
+            if citation == "":
+                citation = afterDOI.split(" ")[1]
+        if "\r\n" in citation:
+            citation = citation.split("\r\n")[0]
+        if citation.startswith("@"):
+            citation = citation[1:]
+        return citation
+
+    except:
+        print(
+            "the citation could not be automatically extracted from the following issue: \n",
+            issue["title"])
+        return "unknown"
+
+
+def getPaperTitleFromIssue(issue):
+    """ gets the papers title using manubot; if manubot can't get title, extract from issue title """
+    try:
+        # Try using manubot
+        citekey = getCitationFromIssue(issue)
+        csl_item = cite.citekey_to_csl_item(citekey)
+        title = csl_item["title"]
+        return title
+    except:
+        # On error, try getting from issue title
+        try:
+            title = issue["title"].split(":")[1]
+            return title
+        except:
+            print(
+                "the paper title could not be automatically extracted from the following issue: \n",
+                issue["title"])
+            return "unknown"
+
+
+def citationContainsDOI(citation):
+    """ Checks if the citation contains a doi """
+    if citation.startswith("doi:"):
+        return True
+    elif citation.startswith("@doi:"):
+        return True
+    elif citation.startswith("[@doi"):
+        return True
+    else:
+        return False
+
+
+def getDOIFromCitation(citation):
+    """ pulls the DOI from the citation; built to handle the cases I've seen so far """
+    try:
+        if ".org/" in citation:
+            DOI = citation.split(".org/")[1]
+        elif citationContainsDOI(citation):
+            DOI = citation.split("doi:")[1]
+            DOI = DOI.replace("]", "")
+        elif citation == "unknown":
+            DOI = "unknown"
+        else:
+            DOI = citation
+        # DOIs are case insensitive but lower-case seems to be preferred and is what's used by manubot
+        DOI = DOI.lower()
+        return DOI
+    except:
+        return "unknown"
+
+
+def getIssuesDF(issues, removeDuplicates=True):
+    """ takes a list of github issues
+    Assumes they are all New Paper issues
+    Creates a data frame with doi, title, issueLink and issueLabels
+    issue labels is a comma seperated string
+    """
+    DOIs = []
+    titles = []
+    issue_links = []
+    lables = []
+    for issue in issues:
+        DOIs.append(getDOIFromCitation(getCitationFromIssue(issue)))
+        titles.append(getPaperTitleFromIssue(issue))
+        issue_links.append(issue["html_url"])
+        lables.append(", ".join([label["name"] for label in issue["labels"]]))
+    issuesDF = pd.DataFrame({
+        "doi": DOIs,
+        "title": titles,
+        "gh_issue_link": issue_links,
+        "gh_issue_labels": lables}).set_index("doi")
+    if removeDuplicates:
+        issuesDF = issuesDF[~issuesDF.gh_issue_labels.str.contains("duplicate")]
+    return issuesDF
+
+
+def getIssuesData():
+    issues = getIssuesFromAPI()
+    paperIssues = [issue for issue in issues if "New Paper (" in issue["title"]]
+    paperIssuesDF = getIssuesDF(paperIssues)
+
+    # log the issues without valid DOIs
+    doesNotHaveValidDOI = [not doi.startswith("10") for doi in list(paperIssuesDF.index)]
+    issueLinksWithoutDOIs = list(paperIssuesDF.gh_issue_link[doesNotHaveValidDOI])
+    print('\n\nA valid DOIs could not be extracted from the following', len(issueLinksWithoutDOIs), 'issues:\n', issueLinksWithoutDOIs, '\n')
+
+    return paperIssuesDF
+
+
+# Covid19-review citations functions
+def getCitationsData():
+    """ Gets a dataframe with doi, title, date, publication, url and covid19-review_paperLink
+    The covid19-review_paperLink is a link to that paper's citation in the html document (example: https://greenelab.github.io/covid19-review/#ref-Rt5Aik4p)
+    Gets the citation info from the referneces.json file in the output branch
+    """
+    citationsResponse = requests.get("https://api.github.com/repos/greenelab/covid19-review/contents/references.json?ref=output", headers=headers)
+    citations = json.loads(base64.b64decode(json.loads(citationsResponse.text)["content"]))
+    citationsDF = pd.DataFrame(citations)
+    citationsDF["Covid19-review_paperLink"] = citationsDF.id.apply(lambda x: "https://greenelab.github.io/covid19-review/#ref-" + x)
+    citationsDF = citationsDF[["DOI", "title", "issued", "container-title", "URL", "Covid19-review_paperLink"]]
+    citationsDF.rename(columns={"DOI": "doi", "issued": "date", "container-title": "publication"}, inplace=True)
+
+    # Convert date to string
+    def dateStringFromDateParts(row):
+        try:
+            dateParts = row['date']['date-parts'][0]
+            if len(dateParts) == 3:
+                return "-".join([str(dateParts[1]), str(dateParts[2]), str(dateParts[0])])
+            elif len(dateParts) == 2:
+                return "-".join([str(dateParts[1]), str(dateParts[0])])
+            elif len(dateParts) == 1:
+                return str(dateParts[0])
+            else:
+                return
+        except:
+            return
+
+    citationsDF.date = citationsDF.apply(dateStringFromDateParts, axis=1)
+
+    citationsDF.set_index("doi", inplace=True)
+    return citationsDF
+
+
+# Pull-Request Functions
+def getPRsFromAPI():
+    """ Gets all the pull-requests; Needs to use pagination because of 100 per-request api limit
+    """
+    PRs = []
+    pageNumber = 1
+    numberOfPRsReturned = 1
+    while numberOfPRsReturned != 0:
+        PRsResponse = requests.get(
+            "https://api.github.com/repos/greenelab/covid19-review/pulls?state=all&per_page=50&page=" +
+            str(pageNumber), headers=headers)
+        PRs_page = json.loads(PRsResponse.text)
+        PRs = PRs + PRs_page
+        numberOfPRsReturned = len(PRs_page)
+        pageNumber += 1
+    return PRs
+
+
+def getRelevantPRData():
+    """ Gets the relevant data from the pull requests"""
+    prInfoFromAPI = getPRsFromAPI()
+    diffHeader = headers.copy()
+    diffHeader['Accept'] = "application/vnd.github.v3.diff"
+    textForReviewPRs = []
+
+    for PR in prInfoFromAPI:
+        labels = [label["name"] for label in PR['labels']]
+        if "Text for Review" in labels:
+            diffResponse = requests.get(PR["url"], headers=diffHeader)
+            diff = diffResponse.text
+            # Add the info the list
+            textForReviewPRs.append({
+                "pull_request_link": PR["html_url"],
+                "diff": diff
+            })
+            if int(diffResponse.headers["X-RateLimit-Remaining"]) <= 2:
+                print('GitHub api rate limit will be exceeded; the GITHUB_TOKEN env variable needs to be set.')
+                break
+    return textForReviewPRs
+
+
+# Get Mt. Sinai data
+def addMtSinaiReviewLinks(df):
+    # Get list of papers reviewed
+    mtSinaiPapersResponse = requests.get("https://api.github.com/repos/ismms-himc/covid-19_sinai_reviews/contents/markdown_files", headers=headers)
+    mtSinaiPapers = json.loads(mtSinaiPapersResponse.text)
+    # TODO: handle errors in the file names if they occur (see https://github.com/greenelab/covid19-review/pull/226#discussion_r410696328)
+    reviewedDOIs = [str(paper["name"].split(".md")[0]) for paper in mtSinaiPapers]
+
+    # Check if there are Mt Sinai Reviews not in our paper
+    # This wouldn't pick up cases where the Mt. Sinai adds a new review for a paper that was alread cited elsewhere in our paper but it's probably better than nothing
+    citedDOIs = [str(citedDOI) for citedDOI in list(df[~df["Covid19-review_paperLink"].isnull()].doi)]
+    newReviews = [doi for doi in reviewedDOIs if doi.replace('-', '/') not in citedDOIs]
+    if len(newReviews) > 0:
+        print("\n -- New Reviews in the Mt Sinai Repo... --")
+        print("Of the", len(reviewedDOIs), "papers reviewed in https://github.com/ismms-himc/covid-19_sinai_reviews, the following", len(newReviews), "aren't listed in the covid19-review paper:")
+        for newReview in newReviews:
+            print(newReview)
+
+    # Add a link to the review
+    def addLinkToReview(row):
+        try:
+            doiWithoutSlash = str(row.doi).replace("/", "-")
+            if doiWithoutSlash in reviewedDOIs:
+                return "https://github.com/ismms-himc/covid-19_sinai_reviews/tree/master/markdown_files/" + doiWithoutSlash + ".md"
+            else:
+                return
+        except:
+            return
+    df['Mt_Sinai_Review_link'] = df.apply(addLinkToReview, axis=1)
+    return df
+
+
+def getDuplicates(array):
+    seen = {}
+    dupes = []
+
+    for x in array:
+        if x not in seen:
+            seen[x] = 1
+        else:
+            if seen[x] == 1:
+                dupes.append(x)
+            seen[x] += 1
+    return dupes
+
+
+# Data merging function
+def mergePaperDataFrames(dataFramesList):
+    """ Combine a list of paper dataframes into one.
+
+    Each data frame should have the doi as index.
+    Can have title and date columns; the tile and date from the first dataframe in the list will be kept in case of conflict.
+    Any additional columns unique to dataset will be kept.
+    """
+
+    # Add "_#" to title and date columns of all but the first df
+    for i in range(len(dataFramesList)):
+        if i == 0: continue
+        dataFramesList[i] = dataFramesList[i].rename(columns={"title": ("title_" + str(i)), "date": ("date_" + str(i))})
+
+    # Seperate into items with and without valid DOIs
+    dataFramesList_DOI = []
+    dataFramesList_NoDOI = []
+    for df in dataFramesList:
+        validDOI = [str(index).startswith("10") for index in df.index]
+        invalidDOI = [False if val else True for val in validDOI]
+        dataFramesList_DOI.append(df[validDOI])
+        dataFramesList_NoDOI.append(df[invalidDOI])
+
+    # Check if there are issues with duplicate DOIs
+    for df in dataFramesList_DOI:
+        duplicateDOIs = getDuplicates(list(df.index))
+        if len(duplicateDOIs) > 0:
+            raise ValueError('The following paper(s) has/have duplicate issues:', duplicateDOIs)
+
+    # Merge on DOIs
+    mergedOnDOI = pd.concat(dataFramesList_DOI, axis=1, sort=False)
+    mergedOnDOI['doi'] = mergedOnDOI.index
+
+    # TODO: merge on titles
+
+    # Add in the items that didn't have a DOI
+    dfsToMerge = dataFramesList_NoDOI
+    dfsToMerge.append(mergedOnDOI)
+    merged = pd.concat(dfsToMerge, axis=0, ignore_index=True, sort=False)
+
+    # Combine the title and date info from duplicate columns
+    for i in range(len(dataFramesList)):
+        if i == 0: continue
+        for col in ['title', 'date']:
+            secondaryCol = col + "_" + str(i)
+            if secondaryCol in merged.columns:
+                merged[col] = merged[col].combine_first(df[secondaryCol])
+                merged.drop(secondaryCol, axis=1, inplace=True)
+
+    return merged
+
+
+def addPRLinks(sourcesDF, prData):
+    """ Adds a new column to a sourcesDF with the link to any relevant PR that has that DOI """
+    def addPRLinkToPaperRow(row):
+        prLinks = []
+        doi = str(row.doi)
+        if len(doi) < 1:
+            return
+        else:
+            for PR in prData:
+                # TODO: use manubot to keep all DOIs consistent so that there will be no issues with short DOIs not matching up. (here and elsewhere)
+                if doi in PR["diff"]:
+                    prLinks.append(PR["pull_request_link"])
+            prLinksString = ",".join(prLinks)
+            return prLinksString
+
+    sourcesDF["gh_pull_request_links"] = sourcesDF.apply(addPRLinkToPaperRow, axis=1)
+    return sourcesDF
+
+
+# Main
+# log only critical manubot errors
+logger = logging.getLogger()
+logger.setLevel(logging.CRITICAL)
+print("\n -- getting issues data --")
+issuesData = getIssuesData()
+print(len(issuesData), "'New Paper' issues")
+print("\n -- getting citations data --")
+citationsData = getCitationsData()
+print(len(citationsData), "citations in the covid19-review paper")
+relevantPRData = getRelevantPRData()
+print(len(relevantPRData), "'Text for Review' Pull-Requests")
+
+print("\n -- merging the issues and citations --")
+print(sum([len(df) for df in [citationsData, issuesData]]), "total items to merge")
+combinedData = mergePaperDataFrames([citationsData, issuesData])
+print(len(combinedData), "total items after merge")
+print("\n -- adding in the PR links --")
+combinedData = addPRLinks(combinedData, relevantPRData)
+print("\n -- adding in Mt. Sinai review links --")
+combinedData = addMtSinaiReviewLinks(combinedData)
+combinedData.set_index('doi', inplace=True)
+
+
+combinedDataFilePath = "./output/sources_cross_reference.tsv"
+print("\n -- saving the data to ", combinedDataFilePath, " --")
+combinedData.to_csv(combinedDataFilePath, sep="\t")

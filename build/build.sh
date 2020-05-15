@@ -82,4 +82,30 @@ if [ "${BUILD_DOCX:-}" = "true" ]; then
     --defaults="$PANDOC_DEFAULTS_DIR/docx.yaml"
 fi
 
+# Spellcheck
+if [ "${SPELLCHECK:-}" = "true" ]; then
+  export ASPELL_CONF="add-extra-dicts $(pwd)/build/assets/custom-dictionary.txt; ignore-case true; ignore 1"
+
+  # Identify and store spelling errors
+  pandoc --lua-filter spellcheck.lua output/manuscript.md | sort -fu > output/spelling-errors.txt
+  echo >&2 "Potential spelling errors:"
+  cat output/spelling-errors.txt
+
+  # Find locations of spelling errors
+  # Use "|| true" after grep because otherwise this step of the pipeline will
+  # return exit code 1 if any of the markdown files do not contain a
+  # misspelled word
+  cat output/spelling-errors.txt | while read word; do grep -ion "\<$word\>" content/*.md; done | sort -h -t ":" -k 1b,1 -k2,2 > output/spelling-error-locations.txt || true
+  echo >&2 "Filenames and line numbers with potential spelling errors:"
+  cat output/spelling-error-locations.txt
+fi
+
+# Create litsearch output if requested via environment variable
+if [ "${LITSEARCH:-}" = "true" ]; then
+  echo >&2 "Creating the sources cross-reference output"
+  python build/litsearch/getInternalData.py
+  echo >&2 "Getting ALLEN AI metadata and combining it with the sources cross-reference output and additional data from bioRxiv"
+  python build/litsearch/combineDataSets.py
+fi
+
 echo >&2 "Build complete"
