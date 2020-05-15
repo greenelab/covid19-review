@@ -320,11 +320,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/92ee675295a1fe21f028bdcbe399818b23d07e7c/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/101daf8db57456067181906021c1895513c2fe4b/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/92ee675295a1fe21f028bdcbe399818b23d07e7c/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/101daf8db57456067181906021c1895513c2fe4b/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/92ee675295a1fe21f028bdcbe399818b23d07e7c/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/101daf8db57456067181906021c1895513c2fe4b/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -357,9 +357,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/92ee675295a1fe21f028bdcbe399818b23d07e7c/))
+([permalink](https://greenelab.github.io/covid19-review/v/101daf8db57456067181906021c1895513c2fe4b/))
 was automatically generated
-from [greenelab/covid19-review@92ee675](https://github.com/greenelab/covid19-review/tree/92ee675295a1fe21f028bdcbe399818b23d07e7c)
+from [greenelab/covid19-review@101daf8](https://github.com/greenelab/covid19-review/tree/101daf8db57456067181906021c1895513c2fe4b)
 on May 15, 2020.
 </em></small>
 
@@ -1140,100 +1140,66 @@ Individuals who are asymptomatic (i.e. potential spreaders) and individuals who 
 For instance, a recent study from the Imperial College estimates that in Italy the true number of infections is around 5.9 million against the 70,000 detected as of March 28th [@doi:10.25561/77731].
 
 
-## Therapeutics
+## Therapeutics and Prophylactics
 
-Given the rapid predicted spread of the disease, the development of therapeutics will be critical to mitigating its effect on health and the mortality rate.
-Typically, therapeutics can take a few forms.
-First, the treatment and reduction of symptoms can result in the reduction of the severity and risk associated with an active infection.
-Second, the development of antiviral drugs can drive a reduced recovery time for patients by inhibiting the development of the virus once an individual is infected.
-Finally, vaccines present a strategy for bolstering the immune response of the populus broadly to the virus, resulting in a lower rate of infection.
-All three of these strategies have been valuable elements of responses to other viruses, including coronaviruses, and are being investigated by researchers at present.
-Additionally, there have been suggestions within the scientific community that nutraceutical or dietary supplement interventions may prime an individual’s immune system to prevent or lessen the impact of RNA virus infections [@doi:10.1016/j.pcad.2020.02.007; @doi:10/ggkd3b].
-In the following sections, we critically appraise the literature surrounding the repurposing of existing treatments and development of novel therapeutics for the prevention, mitigation, and treatment of coronavirus infections.  
+Given the observed and predicted spread of COVID-19, the development of interventions will be critical to mitigating its effect on health and the mortality rate.
+Such interventions fall into two categories: therapeutics, which are meant to treat an already existing disease, and prophylactics, which are meant to prevent a disease from occurring.
+For infectious diseases such as COVID-19, the main prophylactics are vaccines; several types of vaccines are currently under development, as detailed below.
+While vaccines would be expected to save the largest number of lives by bolstering the immune response of the at-risk population broadly to the virus, which would result in a lower rate of infection, the vaccine development process is long, and they fail to provide immediate prophylactic protection or treat ongoing infections [@doi:10.3390/v10120680].
+This means that there is also an immediate need for treatments that palliate symptoms to avoid the most severe outcomes from infection.
+Therapeutics can generally either be considered for the treatment and reduction of symptoms --- to reduce the severity and risks associated with an active infection --- or as a more direct way of targeting the virus ("antivirals") --- to inhibit the development of the virus once an individual is infected.
+In the context of COVID-19, there is uncertainty surrounding the exact mechanism of action, as most therapies have secondary or off-target effects.
+Thus, for this section, we will classify both therapeutics and prophylactics according to their biological properties, specifically whether they are biologics (produced from components of organisms) or small molecules.
+Biologics include antibodies, interferons, and vaccines, while small molecules include drugs targeted at viral particles, drugs targeted at host proteins, and broad-based pharmaceuticals.
+Broad-based pharmaceuticals include the much-discussed drugs hydroxychloroquine and chloroquine, as well as nutraceuticals, which are dietary supplement interventions that may prime an individual’s immune system to prevent or lessen the impact of RNA virus infections [@doi:10.1016/j.pcad.2020.02.007; @doi:10/ggkd3b]; they have been considered for both treatment and prevention of COVID-19.
+In the following sections, we critically appraise the literature surrounding the repurposing of existing treatments and development of novel approaches for the prevention, mitigation, and treatment of coronavirus infections.  
 
 ### Treatment of Symptoms
 
-The clinical picture of SARS-CoV-2 infection differs dramatically between individuals.
-Some are asymptomatic, and many experience mild COVID-19 symptoms.
-Mild symptoms commonly include fever and respiratory symptoms such as cough and sore throat, and, less commonly, gastrointestinal symptoms such as loss of appetite and vomiting [@doi:10.14309/ajg.0000000000000664]; some patients experience a combination of respiratory and gastrointestinal symptoms.
-The most severe cases of COVID-19 include severe complications such as pneumonia and Acute Respiratory Distress Syndrome (ARDS), which can lead to respiratory failure and death [@url:https://www.cdc.gov/coronavirus/2019-ncov/hcp/clinical-guidance-management-patients.html].
-Vaccines are one avenue to mitigate harm from viral pathogens, but in the case of a rapidly growing pandemic the longer timeframe of vaccine development and distribution means that there can be a key for treatments that palliate symptoms to avoid the most severe outcomes from infection.
-
-#### Tocilizumab
-
-A recent study carried out on a sample of 191 adult COVID-19 in-patients at two Wuhan hospitals found that blood samples taken at admission contained significantly higher concentrations of interleukin-6 (IL-6) in patients who ultimately deceased compared to those who survived; average concentrations of IL-6 remained higher in the deceased group than the surviving group throughout hospitalization [@doi:10/ggnxb3].
-This suggests that these individuals may be experiencing a "cytokine storm", which refers to an excessive inflammatory response.
-IL-6 plays a key role in this response [@doi:10.1128/mmbr.05015-11].
-IL-6 is a pro-inflammatory cytokine belonging to the family of interleukins, which are immune system regulators that are primarily responsible for immune cell differentiation.
-Specifically, IL-6 promotes the differentiation of activated B cells into immunoglobulin-producing plasma cells [@pmid:9052836] and acts as a growth factor for hybridoma and myeloma cells [@pmid:8431556; @pmid:2104241].
-In addition, IL-6 also induces the differentiation of naïve CD4+ T cells into effector T-cell subsets [@doi:10.1158/2326-6066.CIR-14-0022].
-In this way interleukins regulate both the pro- and anti-inflammatory responses.
-In this context, the observation of elevated IL-6 in patients who died may reflect an over-production of proinflammatory interleukins.
-
-In a healthy situation the lung respiratory epithelium together with alveolar macrophages limits the activation of the immune system, ensuring homeostasis.
-The introduction of the S-protein from SARS-CoV to mouse macrophages was found to increase production of IL-6 and TNF-α [@doi:10.1016/j.virusres.2007.02.007], and deceased SARS-CoV patients were found to have intermediate levels of IL-6, IL-1𝛽, and TNF-α expressed in a number of ACE2-expressing cell types sampled from the lung and bronchial tissues during autopsy [@doi:10.1002/path.2067].
-However, other reports found the severe respiratory condition Acute Respiratory Distress Syndrome (ARDS) to be associated with elevated concentrations of IL-6 in BALF, but that concentrations of Tumor Necrosis Factor α (TNF-α) and IL-1𝛽 decreased with the onset of ARDS [@doi:10.1164/ajrccm.164.10.2104013].
-These cytokines enhance the pro-inflammatory reaction by increase acute-phase signaling, trafficking of immune cells to the site of primary infection, epithelial cell activation, and secondary cytokine production.
-The acute phase response to infection results in the heavy damage of the endothelium of blood vessels, which disrupts the balance between the pro- and anti-inflammatory response [@doi:10.1164/ajrccm.164.10.2104013].
-Thus, the holes generated allow not just for the passage of neutrophils, macrophages and lymphocytes to the site of the infection but also the accumulation of liquids into the lungs, which is the ultimate cause of the death in ARDS and Severe Acute Respiratory Syndrome (SARS) [@doi:10.1007/s00281-017-0629-x], also caused by the new coronavirus.
-Recently Chinese and Italian doctors have found that Tocilizumab (TCZ), or actemra by Roche, a drug commonly used to treat rheumatoid arthritis (RA), may palliate the most severe symptoms associated with COVID-19.
-
-##### Anticipated Mechanism
-
-Human IL-6 is a glycoprotein of 26 kDa that consists of 184 amino acids containing 2 potential N-glycosylation sites and four cysteine residues. 
-IL-6 binds to its receptor either in the insoluble (IL-6R) and soluble (sIL-6R) form.
-The receptor specificity determines the type of signaling. 
-Specifically, the binding of IL-6 to the cell membrane receptor IL-6R gives rise to the "classical transduction of the signaling", while its binding to sIL-6R generates the so-called "trans-signaling" [@doi:10.1016/j.cytogfr.2012.04.001; @doi:10.1042/bj3000281].
-IL-6 signaling occurs through 3 independent pathways: the Janus-activated kinase (JAK)-STAT3 pathway, the Ras/Mitogen-Activated Protein Kinases (MAPK) pathway and the Phosphoinositol-3 Kinase (PI3K)/Akt pathway [@doi:10.3389/fimmu.2016.00604].
-The ultimate result of the IL-6 cascade is to direct transcriptional activity of various promoters of pro-inflammatory cytokines, such as IL-1 and TFN, including IL-6 own regulation through the activity of NF-κB [@doi:10.3389/fimmu.2016.00604].
-Particularly, IL-6 synthesis is tightly regulated both transcriptionally and post-transcriptionally. 
-In this context, it has been shown that viral proteins can enhance transcription of the IL-6 gene, via strengthening the DNA-binding activity between several transcription factors and IL-6 gene-cis-regulatory elements [@doi:10.2492/inflammregen.33.054].
-TCZ is a humanised monoclonal antibody that binds both to the insoluble and soluble receptor of IL-6, de facto inhibiting the IL-6 immune cascade.
-
-##### Current Evidence
-
-Chinese doctors have started a trial enrolling 188 patients of which 14 with severe lung disease have shown clear signs of improvements, according to their results [@url:https://www.genengnews.com/virology/coronavirus/genentech-launches-phase-iii-trial-of-actemra-as-coronavirus-treatment/].
-Also, AIFA (the Italian Drug Agency) approved the start of a new trial on March 19 recruiting patients at the initial stage of the infection [@url:https://www.univadis.co.uk/viewarticle/covid-19-italy-launches-an-independent-trial-on-tocilizumab-715741].
-In addition to these independent trials, Roche, in collaboration with the FDA, will start a randomised, double-blind, placebo-controlled phase III trial in early April.
-The trial will enroll 330 patients globally, which will be followed for 60 days upon use of the drug via injection to analyze its efficiency/safety [@url:https://www.biopharma-reporter.com/Article/2020/03/19/Roche-enters-Phase-III-for-COVID-19-treatment].
-However, previous studies of RA showed that the rate of incident infections in clinical practice patients treated with TCZ was higher than the rate observed during clinical trial [@doi:10.1093/rheumatology/ker223].
-Also, RA patients with chronic hepatitis B (HB) infection showed high risk of HB virus reactivation upon TCZ administration in combination with other RA drugs [@doi:10.1111/1756-185X.13010].
-These last findings highlight the need to search for a balance between impairing a harmful immune response, such as the one generated by the cytokine storm, and preventing the worsening of the clinical picture of the patients by potential new viral infections.
-This aspect is probably crucial to be investigated further in upcoming trials.
-
-Perhaps, the TCZ treatment would best suit patients with severely compromised lungs due to the COVID-19 infection and are therefore at greater risk of death, in order to stop the uncontrolled immune response before it’s too late.
-<!-##### Summary
-
-Summarize the state of the symptom management approach.
+<!--
+I think it's OK to leave in a section like this to explain what this means. 
+It's different from eg palliative care in cancer.
+We can make sure it fits better into the rest of the section.
 -->
 
-### Small Molecule Drugs for Targeting SARS-CoV-2
+The clinical picture of SARS-CoV-2 infection differs dramatically between individuals.
+Some are asymptomatic.
+Others experience mild COVID-19 symptoms, such as cough, sore throat and fever, while the most severe cases of COVID-19 include severe complications including pneumonia and ARDS, which can lead to respiratory failure and death [@url:https://www.cdc.gov/coronavirus/2019-ncov/hcp/clinical-guidance-management-patients.html].
+Thus, specific drugs may be considered to alleviate these severe symptoms and reduce the risk of death.
+
+<!--
+Should include other emerging symptoms like cardiac complications, blood clots, etc.
+-->
+
+### Small Molecule Drugs
+
+#### Small Molecule Drugs for Targeting SARS-CoV-2
 
 The replication cycle of a virus within an epithelial host cell includes six basic steps that can be summarized as follows: i) attachment of the virus to the host cell; ii) penetration by endocytosis; iii) uncoating, classically defined as the release of viral contents into the host cell; iv) biosynthesis, during which the viral genetic material enters the nucleus where it gets replicated; v) assembly, where viral proteins are translated and new viral particles are assembled; vi) release, when the new viruses are released into the extracellular environment [@isbn:978-1405136457].
 Antiviral drugs do not kill the virus, rather they inhibit its amplification by impairing one of these steps.
 Nowadays, many of these drugs act during the biosynthesis step in order to inhibit the replication of viral genetic material.
 Importantly, SARS-CoV-2 is an RNA virus.
 In contrast to DNA viruses, which can use the host enzymes to propagate themselves, RNA viruses depends on their own polymerase, the RNA-dependent RNA polymerase (RdRP), for replication [@doi:10.1007/978-1-4939-2438-7; @doi:10.1002/jmv.25761].
+As noted above, even if a drug is meant to target the virus, it can also impact other processes in the host.
 
-#### Nucleotide Analogs
-Removing this header for now, if we add additional nucleotide analogs, we can put it back
-Why one might use nucleotide analogs.
-#### Favipiravir
+##### Nucleoside and Nucleotide Analogs
 
-Favipiravir (T-705) was discovered by Toyama Chemical Co., Ltd. [@url:https://www.drugbank.ca/drugs/DB12466#reference-A191688].
-The drug was found to effective at blocking viral amplification in several Influenza subtypes as well as other RNA viruses (Flaviviridae, Picornaviridae) based on reduction in plaque formations [@doi:10.1128/AAC.46.4.977-981.2002] and viral replication in MDCK cells [@doi:10.1128/AAC.01051-06].
+###### Favipiravir
+
+Favipiravir (Avigan) was discovered by Toyama Chemical Co., Ltd. [@url:https://www.drugbank.ca/drugs/DB12466#reference-A191688].
+The drug was found to effective at blocking viral amplification in several Influenza subtypes as well as other RNA viruses, such as Flaviviridae and Picornaviridae, through a reduction in plaque formation [@doi:10.1128/AAC.46.4.977-981.2002] and viral replication in MDCK cells [@doi:10.1128/AAC.01051-06].
 Furthermore, inoculation of mice with favipiravir was shown to increase survivability.
-In 2014, the drug was approved in Japan for the treatment of patients infected with influenza that was resistant to conventional treatments, like neuraminidase inhibitors [@doi:10.2183/pjab.93.027].
+In 2014, the drug was approved in Japan for the treatment of patients infected with influenza that was resistant to conventional treatments like neuraminidase inhibitors [@doi:10.2183/pjab.93.027].
 
-##### Anticipated Mechanism
-Favipiravir (6-fluoro-3-hydroxy-2-pyrazinecarboxamide) acts as a purine and purine nucleoside analogue that inhibits viral RNA polymerase in a dose dependent manner across a range of RNA viruses, including Influenza virus [@doi:10.1128/AAC.49.3.981-986.2005; @doi:10.1128/AAC.01074-08; @doi:10.1128/AAC.00356-07; @doi:10.1016/j.bbrc.2012.07.034; @doi:10.1128/AAC.01219-10].
+**Anticipated Mechanism.**
+Favipiravir (6-fluoro-3-hydroxy-2-pyrazinecarboxamide) acts as a purine and purine nucleoside analogue that inhibits viral RNA polymerase in a dose-dependent manner across a range of RNA viruses, including Influenza virus [@doi:10.1128/AAC.49.3.981-986.2005; @doi:10.1128/AAC.01074-08; @doi:10.1128/AAC.00356-07; @doi:10.1016/j.bbrc.2012.07.034; @doi:10.1128/AAC.01219-10].
 Nucleotide/side are the natural building blocks for RNA synthesis.
 Because of this, modifications to these nucleotides/sides can disrupt key processes including replication [@doi:10.1016/j.antiviral.2018.04.004].
 Biochemical experiments showed that favipiravir was recognized as a purine nucleoside analogue and incorporated into the viral RNA template.
 A single incorporation does not influence RNA transcription; however, multiple events of incorporation lead to the arrest of RNA synthesis [@doi:10.1371/journal.pone.0068347].
 Evidence for T-705 inhibiting viral RNA polymerase are based on time-of-drug addition studies that found that viral loads were reduced with the addition of Favipiravir in early times post-infection [@doi:10.1128/AAC.49.3.981-986.2005; @doi:10.1016/j.bbrc.2012.07.034; @doi:10.1128/AAC.01219-10].
 
-##### Current Evidence
+**Current Evidence.**
 The effectiveness of favipiravir for treating patients with COVID-19 is currently under investigation.
 An open-label, nonrandomized, before-after controlled study was recently conducted [@doi:10.1016/j.eng.2020.03.007].
 The study included 80 COVID-19 patients (35 treated with favipiravir, 45 control) from the isolation ward of the National Clinical Research Center for Infectious Diseases (The Third People’s Hospital of Shenzhen), Shenzhen, China.
@@ -1244,32 +1210,23 @@ The study found that favipiravir increased the speed of recovery (measured as vi
 Additionally, the lung CT scans of patients treated with favipiravir showed significantly higher improvement rates (91%) on day 14 compared to control patients (62%).
 However, there were adverse side effects in 4 (11%) favipiravir-treated patients and 25 (56%) control patients.
 The adverse side effects included: diarrhea, vomiting, nausea, rash, and liver and kidney injury.
-Overall, despite the study reporting clinical improvement in favipiravir-treated patients, due to some issues with study design, it cannot be determined whether treatment with Favipiravir had an effect or whether these patients would have recovered regardless of any treatment.
+Overall, despite the study reporting clinical improvement in favipiravir-treated patients, due to some issues with study design, it cannot be determined whether treatment with favipiravir had an effect or whether these patients would have recovered regardless of any treatment.
 For example, although there were significant differences between the two treatment groups, follow-up analysis is necessary due to the small sample size.
 The selection of patients did not take into consideration important factors such as previous clinical conditions or sex, and there was no age categorization.
 The study was not randomized or blinded, and the baseline control group was another antiviral instead of a placebo.
 Therefore, randomized controlled trials are still required.
 
-##### Summary
-
-Summarize the state of the antiviral approach.
-
-#### Remdesivir
+###### Remdesivir
 
 Remdesivir (GS-5734) was developed by Gilead Sciences to treat Ebola Virus Disease.
 It does not have any FDA-approved use.
-However, on May 1, 2020, the FDA issued an Emergency Use Authorization (EUA) for remdesivir for the treatment of hospitalized COVID-19 patients.
-The EUA was based on information from two clinical trials, NCT04280705 and NCT04292899
-[@url:https://clinicaltrials.gov/ct2/show/NCT04280705; @url:https://clinicaltrials.gov/ct2/show/NCT04292899; @url:https://www.fda.gov/media/137564/download].
 
-##### Anticipated Mechanism
-
-Remdesivir is metabolized to GS-441524, an adenosine analog that inhibits a broad range of polymerases and then evades exonuclease repair causing chain termination [@doi:10.1074/jbc.AC120.013056; @doi:10.1128/mBio.00221-18; @doi:10.1038/s41422-020-0282-0].
-Although it was developed against Ebola, it also inhibits the MERS-CoV and SARS-CoV polymerase and inhibits coronavirus replication in cell culture assays with submicromolar IC50s [@doi:10.1126/scitranslmed.aal3653].
+**Anticipated Mechanism.**
+Remdesivir is metabolized to GS-441524, an adenosine analog that inhibits a broad range of polymerases and then evades exonuclease repair, causing chain termination [@doi:10.1074/jbc.AC120.013056; @doi:10.1128/mBio.00221-18; @doi:10.1038/s41422-020-0282-0].
+Although it was developed against Ebola, it also inhibits polymerase and replication of the coronaviruses MERS-CoV and SARS-CoV in cell culture assays with submicromolar IC50s [@doi:10.1126/scitranslmed.aal3653].
 It also inhibits SARS-CoV-2, showing synergy with chloroquine _in vitro_ [@doi:10.1038/s41422-020-0282-0].
 
-##### Current Evidence
-
+**Current Evidence.**
 In addition to the previous work showing remdesivir to be an effective treatment for viral pathogens such as SARS-CoV and MERS-CoV in cultured cells and animal models, a recent study found that administration of remdesivir to non-human primate models resulted in 100% protection against infection by the Ebola virus.
 Although a clinical trial in the Democratic Republic of Congo found some evidence of effectiveness against ebola, two antibody preparations were found to be more effective, and remdesivir was not pursued [@doi:10.1056/NEJMoa1910993].
 Remdesivir has also been reported to inhibit SARS-CoV-2 infection in a human cell line sensitive to the virus [@doi:10.1038/s41422-020-0282-0].
@@ -1290,8 +1247,7 @@ Therefore, even though the study reported clinical improvement in 68% of the 53 
 As a result, the study does not alter our understanding of the efficacy of remdesivir in this setting, and randomized controlled trials are still required.
 Remdesivir recently entered controlled clinical trials, and as of March 2020, there are six clinical trials underway to treat COVID-19 patients at both early and late stages of infection and in combinations with other drugs [@doi:10.1038/s41422-020-0282-0; @url:https://clinicaltrials.gov/ct2/show/NCT04292730; @url:https://clinicaltrials.gov/ct2/show/NCT04292899; @url:https://clinicaltrials.gov/ct2/show/NCT04280705; @url:https://www.clinicaltrialsregister.eu/ctr-search/trial/2020-000936-23/FR; @url:https://clinicaltrials.gov/ct2/show/NCT04252664; @url:https://clinicaltrials.gov/ct2/show/NCT04257656].
 
-##### Summary
-
+**Summary.**
 Remdesivir is a major drug candidate since it attacks the virus with high potency and known mechanism.
 Moreover, one of the most successful therapies for viral diseases is to target the viral replication machinery, which are typically virally encoded polymerases.
 Small molecule drugs targeting viral polymerases are the backbones of treatments for other viral diseases including HIV and Herpes.
@@ -1299,104 +1255,87 @@ Note that the HIV and Herpes polymerases are a reverse transcriptase and a DNA p
 In clinical use, polymerase inhibitors show short term benefits for HIV patients but for long term benefits they must be part of combination regimens.
 They are typically combined with protease inhibitors, integrase inhibitors and even other polymerase inhibitors.   
 
-#### Protease Inhibitors
+##### Protease Inhibitors
 
 Several studies showed that viral proteases play an important role in the life cycle of (corona)viruses by modulating the cleavage of viral polyprotein precursors [@doi:10.2174/138161207780162971].
-Several FDA-approved drugs target proteases, including Lopinavir and Ritonavir for HIV infection and Simeprevir for hepatitis C virus infection.
+Several FDA-approved drugs target proteases, including lopinavir and ritonavir for HIV infection and simeprevir for hepatitis C virus infection.
 In particular, serine protease inhibitors were suggested for the treatment of SARS and MERS viruses [@doi:10.1016/j.antiviral.2015.01.011].
 Recently, a study [@doi:10.1016/j.cell.2020.02.052] suggested that camostat mesylate, an FDA-approved protease inhibitor (PI) could block the the entry of SARS-CoV-2 into lung cells in vitro.
 However, to test the efficacy of PIs in patients, randomized clinical trials have to be conducted on patients and healthy volunteers.
 
-##### N3
+###### N3
 N3 is an inhibitor of Mpro, a 33.8-kDa SARS-CoV-2 protease that is involved in viral replication and transcription.
 
-###### Anticipated Mechanism
+**Anticipated Mechanism.**
 N3 inhibits Mpro through binding to its substrate pocket.
 
-##### Current Evidence
-
+**Current Evidence.**
 N3 was first designed computationally [@doi:10.1371/journal.pbio.0030324] to bind in the substrate binding pocket of the Mpro protease of SARS-like coronaviruses [@doi:10.1007/s13238-013-2841-3].
 Subsequently, the structure of N3-bound SARS-CoV-2 Mpro was solved [@doi:10.1038/s41586-020-2223-y], confirming the computational prediction.
 Finally, N3 reduced the viral load in samples taken from patients.
 
-##### Summary
-
+**Summary.**
 N3 is a computationally designed molecule that inhibits the viral transcription through inhibiting Mpro.
 Although N3 is a strong inhibitor of SARS-CoV-2 in vitro, its safety and efficacy have to be tested in healthy volunteers and patients.
 
-##### Ebselen
+###### Ebselen
 Ebselen identified as Mpro protease inhibitor.
 It is currently investigated as an anti-oxidant drug [@doi:10.1007/s11033-014-3417-x].
 
-###### Anticipated Mechanism
+**Anticipated Mechanism.**
 Ebselen inhibits Mpro through binding to its substrate pocket.
 
-###### Current Evidence
-
+**Current Evidence.**
 After the design and confirmation of N3 as a highly potent Michael acceptor inhibitor and the identification of Mpro structure [@doi:10.1038/s41586-020-2223-y; @doi:10.1126/science.abb3405], 10000 compounds were screened for their in vitro anti-Mpro activity.
 The six leads that were identified were Ebselen, Disulfiram, Tideglusib, Carmofour, PX-12.
 When the compounds were further assayed on patient viral samples, Ebselen had the strongest potency in reducing the viral load.
 However, the authors cautioned that these compounds are likely promiscuous binders, which would diminish their therapeutic potential.
 
-###### Summary
-
+**Summary.**
 Ebselen is both a strong Mpro inhibitor and strong inhibitor of viral replication in vitro.
 The reduction of the viral load after exposure to Ebselen was even larger than N3.
 Ebselen is a very promising compound since its safety has been demonstrated in other indications.
 However, Ebselen is likely a false positive since it is a promiscuous compound that can have many targets [@doi:10.1039/c8cc04258f].
 Therefore, compounds with higher specificity are required to effectively translate to clinical trials.
 
-#### Molecules Targeting the Viral Envelope
+##### Molecules Targeting the Viral Envelope
 
 Why it may be useful
 
 <!--##### Viral Envelope Targeter 1
 
-##### Anticipated Mechanism
+**Anticipated Mechanism.**
 
-##### Current Evidence
+**Current Evidence.**
 
 A list of current studies and their results, using carefully the information requested in the therapeutic paper tickets.
 
-##### Summary
+**Summary.**
 
 Summarize the state of the antiviral approach.
 -->
-### Drugs Targeting Host Proteins
+#### Drugs Targeting Host Proteins
 
 Brief background on the therapeutic.
 
-#### Viral Entry Receptors
+##### Viral Entry Receptors
 
 Entry of SARS-CoV-2 into the cell depends on the ACE2 receptor and the enzyme encoded by _TMPRSS2_ [@doi:10.1016/j.cell.2020.02.052].
 In principle, drugs that reduce the expression of these proteins or sterically hinder viral interactions with them might reduce viral entry into cells.
 
-#### Current Evidence
-
+**Current Evidence.**
 A list of current studies and their results, using carefully the information requested in the therapeutic paper tickets.
 
-Angiotensin-converting enzyme inhibitors and angiotensin II receptor blockers (ARBs) are among the most commonly prescribed medications [@url:https://clincalc.com/DrugStats/Drugs/Lisinopril; @doi:10.1056/NEJMp1901657].
-In the United States, for example, they are prescribed well over 100,000,000 times annually.
-Data from some animal models suggest several but not all ACE inhibitors and several ARBs increase ACE2 expression in cells of some organs [@doi:10.1093/cvr/cvaa097].
-Clinical studies have not established whether plasma ACE2 expression is increased in humans treated with these medications [@doi:10.1093/europace/euw246].
-While randomized clinical trials are ongoing, a variety of observational studies have examined the relationship between exposure to ACE inhibitors or ARBs and outcomes in patients with COVID-19.
-In an observational analysis of deaths among patients hospitalized with COVID-19, Mehra and colleagues reported that treatment with an ACE inhibitor at time of admission corresponded to an odds ratio of 0.33 [@doi:10.1056/NEJMoa2007621].
-In contrast, the authors did not find evidence of an association between exposure to an ARB at time of hospitalization and death.
-Because observational studies are subject to confounding, randomized controlled trials are the standard means of assessing the effects of medications, and the findings of this study cannot be interpreted as indicating a protective effect of the drug.
-Clinical trials testing the effects of ACE inhibitors or ARBs on COVID-19 outcomes are ongoing [@url:https://clinicaltrials.gov/ct2/show/NCT04338009; @url:https://clinicaltrials.gov/ct2/show/NCT04353596; @url:https://clinicaltrials.gov/ct2/show/NCT04311177; @url:https://clinicaltrials.gov/ct2/show/NCT04312009; @url:https://clinicaltrials.gov/ct2/show/NCT04330300; @url:https://clinicaltrials.gov/ct2/show/NCT04366050].
-Because these studies are interventional, they will provide important data for understanding whether exposure to ACEis or ARBs is associated with COVID-19 outcomes.
-
-#### Summary
-
+**Summary.**
 Summarize the state of the antiviral approach.
 
-### Broad-Spectrum Pharmaceuticals
+#### Broad-Spectrum Pharmaceuticals
 
 - Add some background on broad-spectrum pharmaceuticals
 
-#### Hydroxychloroquine and Chloroquine
+##### Hydroxychloroquine and Chloroquine
 
-CQ and HCQ are lysosomotropic agents, meaning they are weak bases that can pass through the plasma membrane.
+Chloroquine (CQ) and hydroxychloroquine (HCQ) are lysosomotropic agents, meaning they are weak bases that can pass through the plasma membrane.
 Both drugs increase cellular pH by accumulating in their protonated form inside lysosomes [@doi:10.1186/1743-422X-8-163; @doi:10.1111/j.1529-8019.2007.00131.x].
 This shift in pH inhibits the breakdown of proteins and peptides by the lysosomes during the process of proteolysis [@doi:10.1111/j.1529-8019.2007.00131.x].
 A number of mechanisms have been proposed through which these drugs could influence the immune response to pathogen challenge.
@@ -1414,8 +1353,7 @@ Together, these studies triggered initial enthusiasm about the therapeutic poten
 However, as results from clinical studies have emerged, concerns about the efficacy and risks of treating COVID-19 with HCQ and CQ has led to the removal of these drugs from standard of care practices in several countries [@doi:10.1101/2020.04.07.20056424; @url:https://www.cnn.com/2020/04/13/health/chloroquine-risks-coronavirus-treatment-trials-study/index.html].
 This section will discuss the current information available on the administration of CQ and HCQ for the treatment of COVID-19.
 
-##### Current Evidence
-
+**Current Evidence.**
 Gautret et al conducted a non-randomized, non-blinded, non-placebo clinical trial on 42 hospitalized patients comparing HCQ to standard care [@doi:10.1016/j.ijantimicag.2020.105949].
 This trial found patients who received HCQ showed higher rates of virological clearance by nasopharyngeal swab on Days 3-6 when compared to standard care.
 This study also treated six patients with both HCQ + azithromycin and found this combination therapy to be more effective than HCQ alone.
@@ -1437,7 +1375,7 @@ It is important to note here that the authors claim "neither the research perfor
 This seems impossible in a non-placebo trial - at the very least, providers would know whether they were administering a medication or not, and this knowledge could lead to systematic differences in how care is given.
 Correction for multiple primary outcomes can be adjusted post-hoc by recalculating p-values, but all other issues are design and statistical weaknesses that cannot be corrected for.
 Additionally, the observation of drastic disparities between pre-registration and published protocol may be suggestive of p-hacking.
-Conclusions cannot be generalized outside of the study, but the results support further investigation.
+Conclusions cannot de generalized outside of the study, but the results support further investigation.
 
 A randomized trial from the Shanghai Public Health Clinical Center of 30 COVID-19 patients studied whether HCQ increased rates of virological clearance by respiratory pharyngeal swab on Day 7 post-treatment compared to standard care [@doi:10/drbx].
 This trial was published in Chinese along with an abstract in English.
@@ -1449,7 +1387,7 @@ Additionally, because only the abstract could be read, other design and analysis
 Conclusions should be interpreted very cautiously.
 However, these preliminary negative results do reiterate the need for further study.
 
-A case study treated 11 consecutive patients with HCQ + azithromycin using the same dosing regime reported by Gautret et al. [@doi:10.1016/j.medmal.2020.03.006].
+A case study treated 11 consecutive patients with HCQ + azithromycin using the same dosing regime reported by Gautret et al [@doi:10.1016/j.medmal.2020.03.006].
 One patient died, two were transferred to the ICU, and one developed a prolonged QT interval leading to discontinuation of HCQ + azithromycin.
 As in the Gautret et al study, the outcome measurement was virological clearance at Day 6 post-treatment by nasopharyngeal swabs.
 Of the ten living patients on Day 6, eight of the patients remained positive for SARS-CoV-2 RNA.
@@ -1490,8 +1428,8 @@ A quicker treatment regimen with HCQ needs to be investigated to elucidate how t
 Overall, the study provides promising data, although all of the findings still need to be validated in independent population cohorts.
 Their safety analysis indicated that the adverse effects of administering HCQ to mild and moderate COVID-19 cases were manageable.
 Further investigation is necessary to confirm whether the drug indeed ameliorates symptoms and reduces inflammatory response.
-##### Summary
 
+**Summary.**
 In vitro evidence shows HCQ may be an effective therapeutic against SARS-CoV-2 and COVID-19.
 Multiple clinical studies have already been carried out to assess this possibility.
 All current studies are low-quality and have small sample sizes.
@@ -1524,20 +1462,17 @@ While promising, further animal and human studies are required to assess the the
 Another potential nutraceutical that has exhibited beneficial effects against various viral infections is n-3 PUFA [@doi:10.1002/jmv.25707], such as eicosapentaenoic acid (EPA) and docosahexaenoic acid (DHA).
 EPA and DHA intake can come from a diet high in fish intake or through dietary supplementation with fish oils or purified oils [@doi:10.3390/molecules22111964].
 
-###### Potential Mechanisms
-
+**Potential Mechanisms.**
 N-3 PUFA nutraceuticals can mediate inflammation and they have the capacity to modulate the adaptive immune response [@doi:10.1111/j.1365-2125.2012.04374.x; @doi:10.3390/molecules22111964; @doi:10.1038/nrcardio.2016.103].
 Another potential mechanism by which n-3 PUFA could exert beneficial effects against viral infections is by acting as precursor molecules for the biosynthesis of endogenous specialised proresolving mediators (SPM) like protectins and resolvins that actively resolve inflammation and infection [@doi:10.1016/j.immuni.2014.02.009].
 
-###### Current Evidence
-
+**Current Evidence.**
 SPM have exhibited beneficial effects against a variety of lung infections including RNA viruses [@doi:10.1038/nri.2015.4].
 Indeed, protectin D1 has been shown to increase survival from H1N1 viral infection in mice by affecting the viral replication machinery [@doi:10.1016/j.cell.2013.02.027].
 Moreover, not all studies are in agreement that n-3 PUFA are effective against infections [@doi:10.3945/jn.109.108027].
 Indeed, the effectiveness of n-3 PUFA against infections is dependent on the dosage, timing, and the specific pathogens responsible [@doi:10.1016/j.jinf.2016.10.001].  
 
-###### Summary
-
+**Summary.**
 However, the overall lack of human studies in this area means there is limited evidence as to whether these nutraceuticals could affect COVID-19 infection.  
 
 ##### Zinc Supplements
@@ -1547,21 +1482,19 @@ Zinc is a trace metal obtained from dietary sources or supplementation that is i
 Zinc supplements can be administered orally as a tablet or as a lozenge and they are available in many forms, such as zinc picolinate, zinc acetate, and zinc citrate.
 Zinc is also available from dietary sources including meat, seafood, nuts, seeds, legumes, and dairy.
 
-###### Potential Mechanisms
-
+**Potential Mechanisms.**
 The role of zinc in immune function has been extensively reviewed [@doi:10.1016/j.abb.2016.03.022].
 Zinc is an important signaling molecule and zinc levels can alter host defense systems.
 In inflammatory situations such as an infection, zinc can regulate leukocyte immune responses and it can activate the nuclear factor kappa-light-chain-enhancer of activated B cells (NF-kB), thus altering cytokine production [@doi:10.4049/jimmunol.179.6.4180; @doi:10.1067/mlc.2001.118108].
 In particular, zinc supplementation can increase natural killer cell levels, which are important cells for host defense against viral infections [@doi:10.1126/science.1198687; @doi:10.1016/j.abb.2016.03.022].
 
-###### Current Evidence
-
+**Current Evidence.**
 Adequate zinc intake has been associated with reduced incidence of infection [@doi:10.1093/ajcn/85.3.837] and antiviral immunity [@doi:10.1093/advances/nmz013].
 Similarly, a randomized, double-blind, placebo-controlled trial that administered zinc supplementation to elderly subjects over the course of a year found zinc deficiency to be associated with increased susceptibility to infection and that zinc deficiency could be prevented through supplementation [@doi:10.1093/ajcn/85.3.837].
 Clinical trial data supports the utility of zinc to diminish the duration and severity of symptoms associated with common colds when it is provided within 24 hours of the onset of symptoms [@doi:10.1331/1544-3191.44.5.594.Hulisz; @doi:10.2174/1874306401105010051].
 In coronaviruses specifically, in vitro evidence demonstrates that the combination of zinc (Zn2+) and zinc ionophores (pyrithione) can interrupt the replication mechanisms of SARS-CoV-GFP (a flourescently tagged SARS-CoV) and a variety of other RNA viruses [@doi:10.1371/journal.ppat.1001176; @doi:10.1016/j.antiviral.2014.12.015].
 
-###### Summary
+**Summary.**
 
 While overall there is encouraging data for zinc supplementation against the common cold and viral infections, there is currently limited evidence to suggest zinc supplementation has any beneficial effects against the current novel COVID-19, thus further research is imperative.
 However, it would be advisable to maintain a healthy diet to ensure an adequate zinc status to prevent the likelihood of an infection.
@@ -1572,15 +1505,13 @@ Vitamins B, C, D, and E have also been suggested as potential nutrient supplemen
 In particular vitamin C has been proposed as a potential prophylactic and therapeutic agent against COVID-19.
 Vitamin C can be obtained via dietary sources such as fruit and vegetable or via supplementation.  
 
-###### Potential Mechanisms
-
+**Potential Mechanisms.**
 Vitamin C plays a significant role in promoting immune function due to its effects on various immune cells.
 Vitamin C affects inflammation by modulating cytokine production, decreasing histamine levels, enhancing the differentiation and proliferation of T- and B-lymphocytes, increasing antibody levels, and protecting against the negative effects of reactive oxygen species amongst other effects [@doi:10.1155/2014/426740; @doi:10.1007/s00210-013-0880-1; @doi:10.3390/nu9111211].
 During viral infections vitamin C is utilised as evinced by lower concentrations in leukocytes and lower concentrations of urinary vitamin C.
 Post-infection, these levels return to baseline ranges [@doi:10.1177/003693307301800102; @doi:10.1111/j.1749-6632.1975.tb29312.x; @doi:10/fd22sv; @doi:10.3390/nu9040339; @doi:10.1079/bjn19920004].
 
-###### Current Evidence
-
+**Current Evidence.**
 A recent meta-analysis found consistent support for regular vitamin C supplementation reducing the duration of the common cold, but that supplementation with vitamin C (> 200 mg) failed to reduce the incidence of colds [@doi:10.1002/14651858.CD000980.pub4].
 Individual studies have found Vitamin C to reduce the susceptibility of patients to lower respiratory tract infections such as pneumonia [@doi:10.1097/00006454-199709000-00003].
 Another meta-analysis has demonstrated in twelve trials that vitamin C supplementation reduced the length of stay of patients in intensive care units (ICUs) by 7.8% (95% CI: 4.2% to 11.2%; p = 0.00003).
@@ -1594,8 +1525,7 @@ The trial is currently recruiting and is due to run until March 2021.
 We will not know how effective vitamin C is as a therapeutic for quite some time due to the length of both trials.
 When completed, the trials will provide crucial evidence on the efficacy of vitamin C as a therapeutic for COVID-19 infection.
 
-###### Summary
-
+**Summary.**
 Some evidence suggests that vitamin C supplementation can shorten the duration of a cold, reduce an individual's susceptibility to infections, and shorten a patient's stay in an ICU when administered at high doses.
 We don't yet understand if these findings apply to COVID-19.
 There are ongoing trials in China and Italy that will inform our understanding of the therapeutic value of vitamin C supplementation for COVID-19.  
@@ -1606,15 +1536,13 @@ There are ongoing trials in China and Italy that will inform our understanding o
 In terms of other dietary supplements, vitamin D can modulate the adaptive and innate immune system and has been associated with various aspects of health.
 Vitamin D can be sourced through diet or supplementation, but it is mainly biosynthesized by the body on exposure to sunlight.
 
-###### Potential Mechanisms
-
+**Potential Mechanisms.**
 Vitamin D deficiency is associated with an increased susceptibility to infection [@doi:10.2310/JIM.0b013e31821b8755].
 In particular, vitamin D deficient patients are at risk of developing acute respiratory infections [@doi:10.1016/j.jsbmb.2012.11.017] and ARDS [@doi:10.1016/j.jsbmb.2012.11.017].
 1,25-dihydroxyvitamin D3 is the active form of vitamin D that is involved in adaptive and innate responses, whereby the vitamin D receptor is expressed in various immune cells and vitamin D is an immunomodulator of antigen presenting cells, dendritic cells, macrophages, monocytes, and T- and B-lymphocytes [@doi:10.2310/JIM.0b013e31821b8755; @doi:10.1016/j.coph.2010.04.001].
 Due to its potential immunomodulating properties, vitamin D supplementation may be advantageous to maintain a healthy immune system.
 
-###### Current Evidence
-
+**Current Evidence.**
 A recent preprint postulated that an individual’s vitamin D status may significantly affect one’s risk of developing COVID-19.
 This hypothesis was derived from the fact that the current pandemic occurred in winter in Wuhan China when 25-hydroxyvitamin D concentrations are at their lowest due to lack of sunlight, whereas in the Southern Hemisphere, where it was nearing the end of the summer, the number of cases was low at that time coinciding with higher 25-hydroxyvitamin D concentrations [@doi:10.20944/preprints202003.0235.v2].
 The authors suggest that people at risk of developing COVID-19 should increase their vitamin D3 intake to reach 25-hydroxyvitamin D plasma concentrations above 40–60 ng/ml.
@@ -1623,8 +1551,7 @@ While vitamin D is relatively inexpensive and safe to consume, caution is warran
 Likewise, it is assumed that COVID-19 may be seasonal, but there are multiple other factors at play that can affect vitamin D levels that need to be considered.
 These factors include an individual’s nutritional status, their age, their occupation, skin pigmentation, potential comorbidities, and the variation of exposure to sunlight due to latitude amongst others [@doi:10.3390/nu7075111].   
 
-###### Summary
-
+**Summary.**
 Supplementation of vitamin D and maintaining a healthy diet for optimum vitamin D status warrants further investigation.
 This is particularly important considering ‘stay in place’ guidance has been implemented in many densely populated cities around the world.
 This measure is likely to limit people’s exposure to sunlight and thus reduce endogenous synthesis of vitamin D, potentially weakening the immune system and increasing the risk of COVID-19 infection.
@@ -1641,14 +1568,63 @@ The Food and Drug Administration (FDA) has issued warnings to several companies 
 In light of these serious occurrences, it is pertinent to clarify that the nutraceuticals discussed in this review have been selected because of their possible relevance to the biological mechanisms that can beneficially affect viral and respiratory infections.
 Therefore, further intensive investigation is required to establish the effects of these nutraceuticals, if any, against COVID-19.
 
-### Biological Drugs for COVID-19
+### Biologics
+
+Biologics are produced from components of living organisms or viruses. They include antibodies such as the humanized monoclonal antibody
+(mAb) tocilizumab (TCZ), neutralizing antibodies (nAbs), and vaccines.
+
+#### Tocilizumab
+
+A recent study carried out on a sample of 191 adult COVID-19 in-patients at two Wuhan hospitals found that blood samples taken at admission contained significantly higher concentrations of interleukin-6 (IL-6) in patients who ultimately deceased compared to those who survived; average concentrations of IL-6 remained higher in the deceased group than the surviving group throughout hospitalization [@doi:10/ggnxb3].
+This suggests that these individuals may be experiencing a "cytokine storm", which refers to an excessive inflammatory response.
+IL-6 plays a key role in this response [@doi:10.1128/mmbr.05015-11].
+IL-6 is a pro-inflammatory cytokine belonging to the family of interleukins, which are immune system regulators that are primarily responsible for immune cell differentiation.
+Specifically, IL-6 promotes the differentiation of activated B cells into immunoglobulin-producing plasma cells [@pmid:9052836] and acts as a growth factor for hybridoma and myeloma cells [@pmid:8431556; @pmid:2104241].
+In addition, IL-6 also induces the differentiation of naïve CD4+ T cells into effector T-cell subsets [@doi:10.1158/2326-6066.CIR-14-0022].
+In this way interleukins regulate both the pro- and anti-inflammatory responses.
+In this context, the observation of elevated IL-6 in patients who died may reflect an over-production of proinflammatory interleukins.
+
+In a healthy situation the lung respiratory epithelium together with alveolar macrophages limits the activation of the immune system, ensuring homeostasis.
+The introduction of the S-protein from SARS-CoV to mouse macrophages was found to increase production of IL-6 and TNF-α [@doi:10.1016/j.virusres.2007.02.007], and deceased SARS-CoV patients were found to have intermediate levels of IL-6, IL-1𝛽, and TNF-α expressed in a number of ACE2-expressing cell types sampled from the lung and bronchial tissues during autopsy [@doi:10.1002/path.2067].
+However, other reports found the severe respiratory condition ARDS to be associated with elevated concentrations of IL-6 in BALF, but that concentrations of Tumor Necrosis Factor α (TNF-α) and IL-1𝛽 decreased with the onset of ARDS [@doi:10.1164/ajrccm.164.10.2104013].
+These cytokines enhance the pro-inflammatory reaction by increase acute-phase signaling, trafficking of immune cells to the site of primary infection, epithelial cell activation, and secondary cytokine production.
+The acute phase response to infection results in the heavy damage of the endothelium of blood vessels, which disrupts the balance between the pro- and anti-inflammatory response [@doi:10.1164/ajrccm.164.10.2104013].
+Thus, the holes generated allow not just for the passage of neutrophils, macrophages and lymphocytes to the site of the infection but also the accumulation of liquids into the lungs, which is the ultimate cause of the death in ARDS and Severe Acute Respiratory Syndrome (SARS) [@doi:10.1007/s00281-017-0629-x], also caused by the new coronavirus.
+Recently Chinese and Italian doctors have found that Tocilizumab (TCZ), or actemra by Roche, a drug commonly used to treat rheumatoid arthritis (RA), may palliate the most severe symptoms associated with COVID-19.
+
+##### Anticipated Mechanism
+
+Human IL-6 is a glycoprotein of 26 kDa that consists of 184 amino acids containing 2 potential N-glycosylation sites and four cysteine residues. 
+IL-6 binds to its receptor either in the insoluble (IL-6R) and soluble (sIL-6R) form.
+The receptor specificity determines the type of signaling. 
+Specifically, the binding of IL-6 to the cell membrane receptor IL-6R gives rise to the "classical transduction of the signaling", while its binding to sIL-6R generates the so-called "trans-signaling" [@doi:10.1016/j.cytogfr.2012.04.001; @doi:10.1042/bj3000281].
+IL-6 signaling occurs through 3 independent pathways: the Janus-activated kinase (JAK)-STAT3 pathway, the Ras/Mitogen-Activated Protein Kinases (MAPK) pathway and the Phosphoinositol-3 Kinase (PI3K)/Akt pathway [@doi:10.3389/fimmu.2016.00604].
+The ultimate result of the IL-6 cascade is to direct transcriptional activity of various promoters of pro-inflammatory cytokines, such as IL-1 and TFN, including IL-6 own regulation through the activity of NF-κB [@doi:10.3389/fimmu.2016.00604].
+Particularly, IL-6 synthesis is tightly regulated both transcriptionally and post-transcriptionally.
+In this context, it has been shown that viral proteins can enhance transcription of the IL-6 gene, via strengthening the DNA-binding activity between several transcription factors and IL-6 gene-cis-regulatory elements [@doi:10.2492/inflammregen.33.054].
+TCZ is a humanised monoclonal antibody that binds both to the insoluble and soluble receptor of IL-6, de facto inhibiting the IL-6 immune cascade.
+
+**Current Evidence.**
+Chinese doctors have started a trial enrolling 188 patients of which 14 with severe lung disease have shown clear signs of improvements, according to their results [@url:https://www.genengnews.com/virology/coronavirus/genentech-launches-phase-iii-trial-of-actemra-as-coronavirus-treatment/].
+Also, AIFA (the Italian Drug Agency) approved the start of a new trial on March 19 recruiting patients at the initial stage of the infection [@url:https://www.univadis.co.uk/viewarticle/covid-19-italy-launches-an-independent-trial-on-tocilizumab-715741].
+In addition to these independent trials, Roche, in collaboration with the FDA, will start a randomised, double-blind, placebo-controlled phase III trial in early April.
+The trial will enroll 330 patients globally, which will be followed for 60 days upon use of the drug via injection to analyze its efficiency/safety [@url:https://www.biopharma-reporter.com/Article/2020/03/19/Roche-enters-Phase-III-for-COVID-19-treatment].
+However, previous studies of RA showed that the rate of incident infections in clinical practice patients treated with TCZ was higher than the rate observed during clinical trial [@doi:10.1093/rheumatology/ker223].
+Also, RA patients with chronic hepatitis B (HB) infection showed high risk of HB virus reactivation upon TCZ administration in combination with other RA drugs [@doi:10.1111/1756-185X.13010].
+These last findings highlight the need to search for a balance between impairing a harmful immune response, such as the one generated by the cytokine storm, and preventing the worsening of the clinical picture of the patients by potential new viral infections.
+This aspect should be investigated further in upcoming trials.
+
+Perhaps, the TCZ treatment would best suit patients with severely compromised lungs due to the COVID-19 infection and are therefore at greater risk of death, in order to stop the uncontrolled immune response before it’s too late.
+<!-##### Summary
+
+Summarize the state of the symptom management approach.
+-->
 
 #### Neutralizing Antibodies
 
-Monoclonal antibodies (mAbs) have revolutionized the way we treat human diseases.
+Monoclonal antibodies have revolutionized the way we treat human diseases.
 As a result, they have become some of the best-selling drugs in the pharmaceutical market in recent years [@doi:10.1186/s12929-019-0592-z].
 There are currently 79 FDA approved mAbs on the market including antibodies for viral infections (e.g. Ibalizumab for HIV and Palivizumab for RSV) [@doi:10.1186/s12929-019-0592-z; @doi:10.1146/annurev-immunol-032712-095916].
-Although vaccines remain the most important way to prevent viral infections, their development process is long and they fail to provide immediate prophylactic protection or treat ongoing infections [@doi:10.3390/v10120680].
 For that reason, neutralizing antibodies have emerged to address these shortcomings.
 Virus-specific neutralizing antibodies commonly target viral surface glycoproteins or host structures, thereby inhibiting viral entry through receptor binding interference [@doi:10.3389/fmicb.2017.02323; @doi:10.1080/21645515.2017.1337614].
 This section discusses current efforts in developing neutralizing antibodies against SARS-CoV-2 and how expertise gained from previous approaches for MERS-CoV and SARS-CoV may benefit antibody development.
@@ -1663,16 +1639,14 @@ Similarly, a meta-analysis suggested that administration of plasma from recovere
 Similar results have been observed for MERS-CoV infections, which emerged as the second coronavirus-related epidemic.
 Neutralizing antibodies have been identified against various epitopes of the RBD of the S glycoprotein [@doi:10.1073/pnas.1402074111; doi:10.1128/JVI.00912-14].
 
-###### Anticipated Mechanisms
-
+**Anticipated Mechanisms.**
 Coronaviruses use trimeric spike (S) glycoproteins on their surface to bind to host cell receptors, such as ACE2, allowing for cell entry [@doi:10.1016/j.cell.2020.02.052; @doi:10.1016/j.cell.2020.02.058].
 Each S glycoprotein protomer is comprised of an S1 domain, also called the receptor binding domain (RBD), and an S2 domain.
 The S1 domain binds to host cell receptors while the S2 domain facilitates the fusion between the viral envelope and host cell membranes [@doi:10.1517/14712590902763755].
 Although targeting of the host cell receptor ACE2 shows efficacy in inhibiting SARS-CoV-2 infection [@doi:10.1038/nature02145], given the physiological relevance of ACE2 [@doi:10/bsbp49], it would be favorable to target virus-specific structures rather than host receptors.
 This forms the rationale of developing neutralizing antibodies against the S glycoprotein, disrupting its interaction with ACE2 and other receptors and thereby inhibiting viral entry.
 
-###### Current Evidence
-
+**Current Evidence.**
 The first human neutralizing antibody against SARS-CoV-2 targeting the trimeric spike (S) glycoproteins has been developed using hybridoma technology, [@doi:10.1101/2020.03.11.987958], where antibody-producing B-cells developed by mice can be inserted into myeloma cells to produce a hybrid cell line (the hybridoma) that is grown in culture.
 The 47D11 clone was able to cross-neutralize SARS-CoV and SARS-CoV2 by a mechanism that is different from receptor binding interference.
 The exact mechanism of how this clone neutralizes SARS-CoV-2 and inhibits infection in vitro remains unknown, but a potential mechanism might be antibody induced destabilization of the membrane prefusion structure [@doi:10.1101/2020.03.11.987958; @doi:10.1016/j.cell.2018.12.028].
@@ -1690,7 +1664,7 @@ Furthermore, no conclusions about correlations between the severity of disease a
 Rather, higher neutralizing antibody titers were more frequently found in patients with severe disease.
 Correspondingly, higher levels of anti-spike IgG were observed in patients that deceased from infection compared to patient that recovered [@doi:10.1172/jci.insight.123158].
 
-###### Summary
+**Summary.**
 
 Results from the SARS-CoV and MERS-CoV epidemics can provide valuable lessons for the design of neutralizing antibodies for the current outbreak.
 The findings for SARS-CoV and MERS can aid in identifying which structures constitute suitable targets for nAbs, despite the fact that the RBD appears to be distinct between the three coronavirus species.
@@ -1700,18 +1674,16 @@ On that note, a recently published study indicates that anti-spike antibodies co
 These findings underscores our current lack of understanding the full immune response to SARS-CoV-2.
 
 <!-- Use the format below to add additional sections
-##### Anticipated Mechanism
-
+**Anticipated Mechanism.**
 Why it may be useful
 
-##### Current Evidence
-
+**Current Evidence.**
 A list of current studies and their results, using carefully the information requested in the therapeutic paper tickets.
 
-##### Summary
-
+**Summary.**
 Summarize the state of the neutralizing antibody approach.
 -->
+
 #### Interferons
 
 Interferons (IFNs) are a family of cytokines crucial to activate the first (innate) immune system response against viral infections.
@@ -1721,24 +1693,22 @@ Among these IFNs, IFN-𝛽 has already been found to strongly inhibit the replic
 There is evidence that patients with higher susceptibility to ARDS indeed show deficiency in IFN- 𝛽.
 For instance, infection with other coronaviruses impairs IFN-𝛽 expression and synthesis, allowing the virus to escape the innate immune response [@doi:10.1016/j.virusres.2014.07.024].
 
-On March 18 2020 Synairgen plc has received approval to start a phase II trial for SNG001, an IFN-𝛽-1a formulation to be delivered to lungs via inhalation.
+On March 18 2020 Synairgen plc has received approval to start a phase II trial for SNG001, an IFN-𝛽-1a formulation to be delivered to the lungs via inhalation.
 SNG001 was already shown to be effective reducing viral load in swine flu in vivo model, as well as it has been shown to be effective in the protection from other Corona virus infection in vitro (Synairgen plc, press release).
 
-##### Anticipated Mechanism
-
+**Anticipated Mechanism.**
 Why it may be useful
 
-##### Current Evidence
+**Current Evidence.**
 
 A list of current studies and their results, using carefully the information requested in the therapeutic paper tickets.
 
-##### Summary
-
+**Summary.**
 Summarize the state of interferons.
 
-### Vaccines
+#### Vaccines
 
-#### Strategies for and challenges to vaccine development
+##### Strategies for and challenges to vaccine development
 
 Today, the first step in producing a vaccine often is characterizing the target.
 The genetic sequence of SARS-CoV-2 was published on January 11, 2020, which aided the global effort to develop a vaccine to prevent COVID-19.
@@ -1758,16 +1728,14 @@ Diverse technology platforms include DNA, RNA, virus-like particle, recombinant 
 Given the wide range of vaccines under development, it is possible that some vaccine products may eventually be shown to be more effective in certain subpopulations, such as children, pregnant women, immunocompromised patients, the elderly, etc.
 
 
-#### DNA Vaccines
+###### DNA Vaccines
 
 This vaccination method involves the direct introduction of a plasmid containing a DNA sequence encoding the antigen(s) against which an immune response is sought into appropriate tissues [@url:https://www.who.int/biologicals/areas/vaccines/dna/en/].
 
-##### Anticipated Mechanism
-
+**Anticipated Mechanism.**
 This approach may offer several advantages over traditional vaccination approaches, such as the stimulation of both B- as well as T-cell responses and the absence of any infectious agent.
 
-##### Current Evidence
-
+**Current Evidence.**
 Currently, a Phase I safety and immunogenicity clinical trial of INO-4800, a prophylactic vaccine against SARS-CoV-2, is underway [@url:https://clinicaltrials.gov/ct2/show/NCT04336410].
 The vaccine developer Inovio Pharmaceuticals Technology is overseeing administration of INO-4800 by intradermal injection followed by electroporation with the CELLECTRA® device to healthy volunteers.
 Electroporation is the application of brief electric pulses to tissues in order to permeabilize cell membranes in a transient and reversible manner.
@@ -1781,12 +1749,11 @@ Participants in Experimental Group 1 will receive one intradermal injection of 1
 Participants in Experimental Group 2 will receive two intradermal injections of 1.0 mg (total 2.0 mg per dosing visit) of INO-4800 followed by electroporation using the CELLECTRA® 2000 device, administered at Day 0 and Week 4.
 Safety data and the initial immune responses of participants from the trial are expected by the end of the summer of 2020.
 
-##### Summary
-
+**Summary.**
 The development of a DNA vaccine against SARS-CoV-2 by Inovio could be an important step forward in the world's search for a COVID-19 vaccine.
 Although exciting, the cost of vaccine manufacturing and electroporation may make scaling the use of this technology for prophylactic use for the general public difficult.
 
-#### RNA Vaccines
+###### RNA Vaccines
 
 RNA vaccines are nucleic-acid based modalities that code for viral antigens against which the human body elicits a humoral and cellular immune response.
 The mRNA technology is transcribed _in vitro_ and delivered to cells via lipid nanoparticles (LNP).
@@ -1809,8 +1776,7 @@ Preclinical data from Pardi et al. identified effective antibody generation agai
 Similar immunological responses for mRNA vaccines were observed in humans in Phase I and II clinical trials operated by the pharmaceutical-development companies Curevac and Moderna for rabies, flu, and zika [@doi:10.1080/14760584.2017.1355245].
 
 
-##### Anticipated Mechanism
-
+**Anticipated Mechanism.**
 Positively charged bilayer LNPs carrying the mRNA attract negatively charged cell membranes, endocytose into the cytoplasm [@doi:10.4155/tde-2016-0006], and facilitate endosomal escape.
 LNPs can be coated with modalities recognized and engulfed by specific cell types.
 LNPs 150nm or less effectively enter into lymphatic vessels.
@@ -1822,13 +1788,12 @@ The RNA genome encodes the viral antigen along with proteins of the genome repli
 Structural proteins required for viral assembly are not included in the engineered genome [@doi:10.3389/fimmu.2019.00594].
 Self-replicating vaccines produce more viral antigens over a longer period of time, thereby evoking a more robust immune response [@url:https://www.phgfoundation.org/briefing/rna-vaccines].
 Finally, _in vitro_ dendritic cell non-replicating RNA vaccines limit transfection to dendritic cells.
-Dendritic cells are potent antigen-presenting immune cells that easily take up mRNA and present fragments of the translated peptide on their MHC proteins, which can then interact with T cell receptors.
+Dendritic cells are potent antigen-presenting immune cells that easily take up mRNA and present fragments of the translated peptide on their MHC proteins, which can then interact with T cell receptors. 
 Ultimately, primed T follicular helper cells can stimulate germinal center B cells that also present the viral antigen to produce antibodies against the virus [@doi:10.1016/j.immuni.2014.10.004].
 These cells are isolated from the patient, grown and transfected _ex vivo_, and reintroduced to the patient [@doi:10.1038/nrd.2017.243].
 
 
-##### Current Evidence
-
+**Current Evidence.**
 mRNA-1273 is the first COVID-19 vaccine to enter a phase I clinical in the United States.  
 ModernaTX, Inc. is currently spearheading an investigation on the immunogenicity and reactogenicity of mRNA-1273, a conventional lipid nanoparticle encapsulated RNA encoding a full-length prefusion stabilized spike (S) protein for SARS-CoV-2 [@url:https://clinicaltrials.gov/ct2/show/study/NCT04283461].
 Forty-five participants will be enrolled in the study and given an intramuscular injection of mRNA-1273 in their deltoid muscle on Day 1 and Day 29, and then followed for the next twelve months.
@@ -1839,12 +1804,11 @@ Emory Vaccine Center and Kaiser Permanent Washington Health Research Institute a
 Reports on patient safety and reactogenicity will be recorded soon.
 IgG ELISA assays on patient serology samples will study the immunogenicity of the vaccine [@url:https://clinicaltrials.gov/ct2/show/study/NCT04283461].
 
-##### Summary
-
+**Summary.**
 mRNA vaccines are promising tools in the prevention and control of pandemics.
 mRNA-1273 is the only RNA vaccine for SARS-CoV-2 currently being tested in clinical trials and results are expected soon.
 
-#### Viral Particle Vaccines
+###### Viral Particle Vaccines
 
 Brief background on the therapeutic.
 
@@ -1852,15 +1816,13 @@ Brief background on the therapeutic.
 
 Why it may be useful
 
-##### Current Evidence
-
+**Current Evidence.**
 A list of current studies and their results, using carefully the information requested in the therapeutic paper tickets.
 
-##### Summary
-
+**Summary.**
 Summarize the state of the vaccine approach.
 -->
-#### Oligonucleotide Therapies
+##### Oligonucleotide Therapies
 
 Add background and other information below
 
@@ -1868,12 +1830,10 @@ Add background and other information below
 
 Why it may be useful
 
-##### Current Evidence
-
+**Current Evidence.**
 A list of current studies and their results, using carefully the information requested in the therapeutic paper tickets.
 
-##### Summary
-
+**Summary.**
 Summarize the state of the neutralizing antibody approach.
 -->
 ### Underexplored Therapeutics
