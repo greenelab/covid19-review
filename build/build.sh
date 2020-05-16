@@ -87,13 +87,22 @@ fi
 
 # Spellcheck
 if [ "${SPELLCHECK:-}" = "true" ]; then
+  # Rebuild the manuscript after removing the appendices so they are excluded from spellcheck
+  rm content/*appendix*.md
+  manubot process \
+    --content-directory=content \
+    --output-directory=spellcheck-output \
+    --cache-directory=ci/cache \
+    --skip-citations \
+    --log-level=CRITICAL
+
   export ASPELL_CONF="add-extra-dicts $(pwd)/build/assets/custom-dictionary.txt; ignore-case true; ignore 1"
 
   # Identify and store spelling errors
   pandoc \
     --data-dir="$PANDOC_DATA_DIR" \
     --lua-filter spellcheck.lua \
-    output/manuscript.md \
+    spellcheck-output/manuscript.md \
     | sort -fu > output/spelling-errors.txt
   echo >&2 "Potential spelling errors:"
   cat output/spelling-errors.txt
