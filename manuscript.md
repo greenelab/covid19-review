@@ -35,7 +35,7 @@ author-meta:
 bibliography:
 - content/manual-references.bib
 - content/manual-references.json
-date-meta: '2020-05-16'
+date-meta: '2020-05-18'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -54,9 +54,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
 
-  <meta name="dc.date" content="2020-05-16" />
+  <meta name="dc.date" content="2020-05-18" />
 
-  <meta name="citation_publication_date" content="2020-05-16" />
+  <meta name="citation_publication_date" content="2020-05-18" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -320,11 +320,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/76e9b916b3c064fa37201c1ce0f95144312dc8bb/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/b1abe60af67f1c4911079447f4f8e0f007f0ca69/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/76e9b916b3c064fa37201c1ce0f95144312dc8bb/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/b1abe60af67f1c4911079447f4f8e0f007f0ca69/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/76e9b916b3c064fa37201c1ce0f95144312dc8bb/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/b1abe60af67f1c4911079447f4f8e0f007f0ca69/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -357,10 +357,10 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/76e9b916b3c064fa37201c1ce0f95144312dc8bb/))
+([permalink](https://greenelab.github.io/covid19-review/v/b1abe60af67f1c4911079447f4f8e0f007f0ca69/))
 was automatically generated
-from [greenelab/covid19-review@76e9b91](https://github.com/greenelab/covid19-review/tree/76e9b916b3c064fa37201c1ce0f95144312dc8bb)
-on May 16, 2020.
+from [greenelab/covid19-review@b1abe60](https://github.com/greenelab/covid19-review/tree/b1abe60af67f1c4911079447f4f8e0f007f0ca69)
+on May 18, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -1740,7 +1740,7 @@ Unlike many global vaccine development programs previously, such as with H1N1, t
 Experience in the field of oncology is encouraging COVID-19 vaccine developers to use next-generation approaches to vaccine development, which have led to the great diversity of vaccine development programs [@url:https://www.the-scientist.com/news-opinion/newer-vaccine-technologies-deployed-to-develop-covid-19-shot-67152].
 Diverse technology platforms include DNA, RNA, virus-like particle, recombinant protein, both replicating and non-replicating viral vectors, live attenuated virus, and inactivated virus approaches.
 Given the wide range of vaccines under development, it is possible that some vaccine products may eventually be shown to be more effective in certain subpopulations, such as children, pregnant women, immunocompromised patients, the elderly, etc.
-
+The requirements for a successful vaccine trial and deployment are complex and may require coordination between government, industry, academia, and philanthropic entities [@doi:10.1126/science.abc5312].
 
 ###### DNA Vaccines
 

@@ -3,5 +3,5 @@ FastGrants
 HL
 NHGRI
 thebyrdlab
-YoSon
+yoson
 ypar
