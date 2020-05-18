@@ -12,7 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       GITHUB_PULL_REQUEST_SHA: ${{ github.event.pull_request.head.sha }}
-      CROSSREF_SOURCES: true
+      LITSEARCH: true
+      SPELLCHECK: true
     steps:
       - name: Set Environment Variables
         run: |
@@ -39,8 +40,16 @@ jobs:
           environment-file: build/environment.yml
           auto-activate-base: false
           miniconda-version: 'latest'
+      - name: Install Spellcheck
+        shell: bash --login {0}
+        run: |
+          if [ "${SPELLCHECK:-}" = "true" ]; then
+            bash ci/install-spellcheck.sh
+          fi
       - name: Build Manuscript
         shell: bash --login {0}
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         run: bash build/build.sh
       - name: Upload Artifacts
         uses: actions/upload-artifact@v1

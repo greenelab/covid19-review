@@ -3,6 +3,8 @@ aadattoli
 ABCpred
 ABO
 acceptor
+ACEi
+ACEis
 acetylcysteine
 actemra
 adamlmaclean
@@ -39,6 +41,8 @@ anticorrelated
 antifungal
 antiphospholipid
 ApoA
+ARB
+ARBs
 Arbidol
 ARDS
 arrhythmias
@@ -51,6 +55,7 @@ atazanavir
 ATPase
 AUC
 autophagy
+Avigan
 axillary
 azithromycin
 BAL
@@ -298,6 +303,7 @@ eq
 esell
 et
 Etanercept
+EUA
 exogenously
 exonuclease
 ExPASy
@@ -478,6 +484,7 @@ INO
 Inovio
 integrase
 interactome
+interactome’s
 interferometry
 interferons
 interleukins
@@ -602,6 +609,7 @@ MCP
 MDCK
 Meara
 medRxiv
+Mehra
 Melo
 Meplazumab
 mer
