@@ -320,11 +320,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/b1abe60af67f1c4911079447f4f8e0f007f0ca69/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/65d77439f60f7a04df1f459667880d17b98d31cc/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/b1abe60af67f1c4911079447f4f8e0f007f0ca69/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/65d77439f60f7a04df1f459667880d17b98d31cc/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/b1abe60af67f1c4911079447f4f8e0f007f0ca69/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/65d77439f60f7a04df1f459667880d17b98d31cc/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -357,9 +357,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/b1abe60af67f1c4911079447f4f8e0f007f0ca69/))
+([permalink](https://greenelab.github.io/covid19-review/v/65d77439f60f7a04df1f459667880d17b98d31cc/))
 was automatically generated
-from [greenelab/covid19-review@b1abe60](https://github.com/greenelab/covid19-review/tree/b1abe60af67f1c4911079447f4f8e0f007f0ca69)
+from [greenelab/covid19-review@65d7743](https://github.com/greenelab/covid19-review/tree/65d77439f60f7a04df1f459667880d17b98d31cc)
 on May 18, 2020.
 </em></small>
 
@@ -764,7 +764,8 @@ Most coronaviruses are considered zoonotic viruses with little to no transmissio
 A major group of coronaviruses include human coronaviruses (HCoVs) strains associated with multiple respiratory diseases of varying severity, ranging from common cold to severe pneumonia, with severe symptoms mostly observed in immunocompromised individuals [@doi:10.1086/377612].
 Approximately one-third of common cold infections in humans is attributable to four out of six previously known human coronaviruses (HCoV-229E, HCoV-NL63, HCoV-OC43 and HCoV-HKU1) that are globally circulating in the human population [@doi:10.1038/s41579-018-0118-9;@doi:10.3390/diseases4030026].
 In the past two decades, however, highly pathogenic human coronaviruses have been identified, including the severe acute respiratory syndrome coronavirus 1 (SARS-CoV-1) and the Middle East respiratory syndrome coronavirus (MERS-CoV) although both infections were confined to specific geographic regions [@doi:10.1038/nrmicro.2016.81;@doi:10.1038/s41579-018-0118-9].
-The current pandemic of COVID-19, caused by the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), represents an acute and rapidly spreading global health crisis with severe or fatal symptoms such as acute respiratory distress, acute lung injury and other pulmonary complications.
+The current pandemic of COVID-19, caused by the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), represents an acute and rapidly spreading global health crisis with symptoms for reported cases ranging from mild to severe or fatal [@url:https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html] and including outcomes such as acute respiratory distress, acute lung injury and other pulmonary complications.
+The possibility of asymptomatic cases is also being investigated.
 The transmission and mortality rate estimations of COVID-19 remain to be determined.
 
 [this section may be better as a figure panel + legend]
@@ -791,7 +792,11 @@ The dsRNA genome is then transcribed and replicated to create viral mRNAs and ne
 
 #### Transmission
 In general, respiratory viruses like coronavirus can have multiple routes of person-to-person transmission including droplet transmission (i.e. inhalation for cough, sneeze), aerosol transmission (i.e. virus suspended in air), and contact transmission (i.e. contact with oral, nasal, and eye mucous membranes).
-While there does not appear to be experimental evidence to conclude which mode of transmission different coronaviruses use [@doi:10.1038/s41368-020-0075-9], it has been suggested that the coronavirus person-to-person transmission is droplet-based using simulations [@doi:10.1056/NEJMoa032867] and trace studies [@doi:10.3390/ijerph15122757].
+Other modes of transmission, such as through touching surfaces or objects and then touching mucous membranes, can also be investigated.
+While existing evidence is insufficient to conclude which mode of transmission different coronaviruses use [@doi:10.1038/s41368-020-0075-9], simulations [@doi:10.1056/NEJMoa032867] and trace studies [@doi:10.3390/ijerph15122757] suggest that person-to-person transmission of coronaviruses is droplet based.
+Other aspects of transmission to investigate are the relationship between infectiousness and virus shedding with disease period or symptoms and also the proportions of cases that are attributable to various types of transmission events, such as transmission between relatives, nosocomial transmissions, and other possible types of interactions.
+Some information about these characteristics of transmission are available for the highly pathogenic coronaviruses SARS-CoV and MERS-CoV [@doi:10.1016/B978-0-12-385885-6.00009-2; @doi:10.1038/nrmicro.2016.81].
+For SARS-CoV-2 it is still being investigated whether, in addition to being spread by people who show symptoms,  the virus can be transmitted by people who do not show symptoms [@url:https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/how-covid-spreads.html], such as during the pre-symptomatic stage of infection or in people with asymptomatic infections (a presentation which sometimes occurs in other infectious diseases but is still being investigated for SARS-CoV-2).
 
 ### SARS-CoV-2: Origin, Phylogenetics, and Evolution
 
