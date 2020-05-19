@@ -320,11 +320,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/c8c39a110fc73716da7be04055ac57bb571e8c8f/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/99ee764eeeba7375bc3ecd1c2866e65765afe670/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/c8c39a110fc73716da7be04055ac57bb571e8c8f/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/99ee764eeeba7375bc3ecd1c2866e65765afe670/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/c8c39a110fc73716da7be04055ac57bb571e8c8f/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/99ee764eeeba7375bc3ecd1c2866e65765afe670/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -357,9 +357,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/c8c39a110fc73716da7be04055ac57bb571e8c8f/))
+([permalink](https://greenelab.github.io/covid19-review/v/99ee764eeeba7375bc3ecd1c2866e65765afe670/))
 was automatically generated
-from [greenelab/covid19-review@c8c39a1](https://github.com/greenelab/covid19-review/tree/c8c39a110fc73716da7be04055ac57bb571e8c8f)
+from [greenelab/covid19-review@99ee764](https://github.com/greenelab/covid19-review/tree/99ee764eeeba7375bc3ecd1c2866e65765afe670)
 on May 19, 2020.
 </em></small>
 
@@ -919,8 +919,12 @@ One severe example includes reports of cytokine storm-like responses in patients
 #### Reproduction Number and Dynamics of Transmission
 
 Accurate estimates of the reproduction number of a virus are crucial to understanding the dynamics of infection and to predict the effects of different interventions.
-The basic reproduction number, R~0~, is the expected number of new infections caused by one infected person, assuming no time dependence and a wholly susceptible population [@doi:10.1111/j.1467-9574.1996.tb01482.x].
-The effective reproduction number, R~t~, describes how the reproduction number may change over time, and is used to quantify deviations in R from R~0~, for example as some fraction of the population becomes infected, or as interventions are put into place.
+The basic reproduction number and the timescale of infection (measured by the infectious period and the exposed period) govern population-level epidemic dynamics, with R~0~ being one of most critical epidemiological parameters [@isbn:9780691116174].
+The basic reproduction number, R~0~, is the expected number of new (secondary) infections caused by one infected person, assuming no time dependence and a wholly susceptible population [@doi:10.1111/j.1467-9574.1996.tb01482.x].
+R~0~ is a unitless number which in mechanistic models is a combination of parameters principally related to the transmission rate (rate of infection transmitting interactions for an infectious individual) and the infectious period [@doi:10.1126/science.abb5659; @isbn:9780691116174].
+A pathogen can invade a susceptible population only if R~0~ > 1 [@isbn:9780691116174; @isbn:9780199209996].
+The effective reproduction number, R~t~, describes how the reproduction number may change over time, and is used to quantify deviations in R from R~0~ that would occur, for example, as some fraction of the population became infected or as interventions were put into place.
+When R~t~ is greater than 1, an epidemic grows (i.e., the proportion of the population that is infectious increases); when R~t~ is less than 1, the proportion of the population that is infectious decreases.
 R~0~ and R~t~ can be estimated directly from epidemiological data or inferred using mathematical modeling.
 Modeling approaches are typically based upon a classic epidemiological model structure: the susceptible-infected-recovered (SIR) model and its extensions [@doi:10.1126/science.272.5258.74].
 
@@ -948,6 +952,9 @@ Across all countries, the mean R~t~ before interventions began was estimated as 
 After interventions, R~t~ decreased by an average of 64% across all countries, with mean R~t~=1.43.
 The lowest predicted value was 0.97 for Norway and the highest was 2.64 for Sweden (note that this is in part because Sweden did not implement social distancing measures on the same scale as other countries).
 The study concludes that while large changes in R~t~ are observed, it is too early to tell whether the interventions put into place are sufficient to decrease R~t~ below 1.
+
+More generally, population-level epidemic dynamics can be both observed and modelled.
+Data and empirically determined biological mechanisms inform models, while models can be used to try to understand data and systems of interest or to make predictions about possible future dynamics, such as the estimation of capacity needs or the comparison of predicted outcomes among prevention and control strategies.
 
 ### Immune Response to SARS-CoV-2
 
