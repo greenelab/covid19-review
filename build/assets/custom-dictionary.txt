@@ -1,4 +1,4 @@
-personal_ws-1.1 en 1075 utf-8
+personal_ws-1.1 en 1092 utf-8
 aadattoli
 ABCpred
 ABO
@@ -232,6 +232,7 @@ Dattoli
 davidmanheim
 Dazhou
 DCs
+ddPCR
 decr
 DeepChem
 defensin
@@ -667,6 +668,10 @@ nanoparticles
 Nanopore
 nasopharyngeal
 naïve
+nanodroplet
+nanodroplets
+nanowell
+nanowells
 NCBI
 NCIP
 nCoV
@@ -969,6 +974,7 @@ subunit
 subunits
 sulforaphane
 summarised
+Suo
 superfamily
 supernatants
 survivability
