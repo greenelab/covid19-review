@@ -1,5 +1,33 @@
 <!-- Appendix source: https://github.com/ismms-himc/covid-19_sinai_reviews/tree/05d387bf10b829dad6bedb4bf313686750b78cc9 -->
 
+### Single-cell longitudinal analysis of SARS-CoV-2 infection in human bronchial epithelial cells
+Ravindra et al. bioRxiv [@doi:10.1101/2020.05.06.081695]
+
+#### Keywords
+COVID-19, SARS-CoV-2, HBECs, lung epithelium, scRNA-seq, in-vitro
+
+#### Experimental setup
+Using primary human bronchial epithelial cells (HBECs), also known as normal human bronchial epithelial (NHBE) cells, Ravindra and colleagues performed single-cell RNA sequencing of SARS-CoV-2 infected airway epithelium. They cultured HBECs at an air-liquid interface (ALI) for 28 days and then challenged the apical surface of the epithelium with SARS-CoV-2. The cultures were sequenced at 1, 2 and 3 days post-infection of SARS-CoV-2 (dpi) or without infection (mock). Experimental setup makes the study unique as ALI culture imitates the natural condition of the human bronchiolar epithelium. Therefore, the longitudinal analysis of infection would mimic as it occurs in the human body.
+
+#### Main Findings
+In addition to the reads expected to align immediately upstream of the canonical SARS-CoV-2 poly-A tail, authors detected peaks (aligned reads) towards 5’ of the genome, suggesting the existence of non-canonical, poly-adenylated sub-genomic RNAs of SARS-CoV-2.
+Ciliated, basal, club, and BC/Club cells are susceptible to SARS-CoV-2 infection whereas goblet, neuroendocrine, tuft cells, and ionocytes are relatively resistant to infection. 83% of infected cells at 1 dpi are ciliated cells, suggesting them as the point of entry. The increase in number of infected basal, club, and BC/Club cells increases with dpi, suggesting that these cells are major secondary targets.
+Authors confirmed the SARS-CoV-2 cell tropism by transmission electron microscopy. At 2 dpi, they observed numerous virus particles approximately 80 nm in size in ciliated cells.
+Authors divided the post infection single cells into two categories i.e. infected (≥ 10 viral transcripts count) and bystander cells. In infected cells, robust induction of both type I interferon (IFNB1) and type III interferons (IFNL1, IFNL2, and IFNL3) in ciliated, basal, club, and BC/club cells was observed. Interestingly, they observed broad interferon stimulated gene induction (IFI27, IFITM3, IFI6, MX1, and ISG15) in both infected and bystander cells of all cell types suggesting IFN from infected cells is acting in trans. However, chemokine induction (which leads to recruitment of immune cells) was observed only in infected cells.
+Differential expression analysis between infected and bystander cells revealed the increased expression of genes involved in apoptosis, translation initiation and viral gene expression and inflammation in all infected cell populations. In contrast, infected ciliated cells showed significant downregulation of genes involved in cilium function.
+
+#### Limitations/Suggestions/Questions
+I note that the manuscript is not the final version, therefore, will try to keep it short.
+As mock sample showed a small number of viral reads, authors could check the location of mapped reads in viral genome? Are the similar reads responsible for observed peak location towards 5’ in infected cells? May be filter out these reads from infected data.
+I would suggest to include expression comparison with NHBE data produced by “Imbalanced Host Response to SARS-CoV-2 Drives Development of COVID-19” [@doi:10.1016/j.cell.2020.04.026] and discuss the results.
+Do you observe high number of double positive cells for ACE2 and TMPRSS2 in infected cells?
+Are there any morphological differences in infected cells after day 1, 2, 3 or even longer? Do the cells start dying?
+Could not find PANTHER results on github.
+
+#### Reviewed by
+Vikas Bansal, DZNE, Tuebingen, Germany
+
+
 ### Potent binding of 2019 novel coronavirus spike protein by a SARS coronavirus-specific human monoclonal antibody
 
 Tian et al. *Emerg Microbes Infect 2020* [@doi:10.1101/2020.01.28.923011]
