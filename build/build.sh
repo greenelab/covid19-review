@@ -131,7 +131,6 @@ if [ "${LITSEARCH:-}" = "true" ]; then
   python build/litsearch/getInternalData.py
   echo >&2 "Getting ALLEN AI metadata and combining it with the sources cross-reference output and additional data from bioRxiv"
   python build/litsearch/combineDataSets.py
-  ls -l output/
 fi
 
 echo >&2 "Build complete"
