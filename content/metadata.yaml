@@ -114,8 +114,8 @@ authors:
     affiliations:
       - Department of Clinical Sciences, Lund University, Lund, Sweden
     coi:
-      string: "None"
-      lastapproved: !!str 2020-03-25
+      string: Employee and shareholder of SAGA Diagnostics AB.
+      lastapproved: !!str 2020-04-14
   -
     github: rays1987
     name: Sadipan Ray
