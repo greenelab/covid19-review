@@ -518,5 +518,8 @@ authors:
       - Visualization
     affiliations:
       - Biomedical Data Science and Machine Learning Group, DZNE, Tübingen, Germany
+    code of conduct:
+      confirmed: yes
     coi:
       string: "None"
+      lastapproved: !!str 2020-05-26
