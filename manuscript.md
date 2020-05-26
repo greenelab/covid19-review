@@ -35,7 +35,7 @@ author-meta:
 bibliography:
 - content/manual-references.bib
 - content/manual-references.json
-date-meta: '2020-05-19'
+date-meta: '2020-05-26'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -54,9 +54,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
 
-  <meta name="dc.date" content="2020-05-19" />
+  <meta name="dc.date" content="2020-05-26" />
 
-  <meta name="citation_publication_date" content="2020-05-19" />
+  <meta name="citation_publication_date" content="2020-05-26" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -320,11 +320,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/99ee764eeeba7375bc3ecd1c2866e65765afe670/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/e55295c86c6db9dabe6bfca6a86be219cb859152/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/99ee764eeeba7375bc3ecd1c2866e65765afe670/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/e55295c86c6db9dabe6bfca6a86be219cb859152/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/99ee764eeeba7375bc3ecd1c2866e65765afe670/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/e55295c86c6db9dabe6bfca6a86be219cb859152/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -357,10 +357,10 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/99ee764eeeba7375bc3ecd1c2866e65765afe670/))
+([permalink](https://greenelab.github.io/covid19-review/v/e55295c86c6db9dabe6bfca6a86be219cb859152/))
 was automatically generated
-from [greenelab/covid19-review@99ee764](https://github.com/greenelab/covid19-review/tree/99ee764eeeba7375bc3ecd1c2866e65765afe670)
-on May 19, 2020.
+from [greenelab/covid19-review@e55295c](https://github.com/greenelab/covid19-review/tree/e55295c86c6db9dabe6bfca6a86be219cb859152)
+on May 26, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -744,6 +744,10 @@ At this time, over 130,000 deaths had been reported due to COVID-19 worldwide (A
 [Note: Maybe add a graph here, update as new reports come out.]
 [So this is where manubot is particularly useful. it could pull from a public database / data table.]
 
+Some review articles on aspects of COVID-19 have already been published and may be of great usefulness.
+These have included reviews on the disease epidemiology [@doi:10.1016/j.molmed.2020.02.008], immunological response [@doi:10.1016/j.immuni.2020.05.002], and pharmacological treatments [@doi:10.1016/j.immuni.2020.05.002].
+However, research on these topics is proceeding so quickly that any static review is likely to quickly become dated.
+
 In this review, we seek to consolidate information about the virus in the context of related viruses and to synthesize what is known about the diagnosis and treatment of COVID-19 and related diseases.
 Further, we aim to amplify the true signal out of the vast noise produced by thousands of publications on the topic [@doi:10.1038/s42254-020-0175-7].
 We will critique, sort and distill informative contents out of the overwhelming flood of information and help the larger scientific community to be better educated on this critical subject affecting all of us.
@@ -809,11 +813,11 @@ This suggests that SARS-CoV-2 may have originated in viral reservoirs of similar
 
 ### COVID-19: Mechanisms and Presentation
 
-#### Mechanisms of Coronavirus-driven Disease in Humans
+#### Immunological Mechanisms of Coronavirus-driven Disease in Humans
 
 Coronaviruses are known to cause respiratory illnesses in humans through the following possible mechanisms...[Summarize relevant mechanisms for cell entry & address evidence for/against ACE2 being important, etc.]
 
-#### Presentation of COVID-19
+#### Clinical Presentation of COVID-19
 
 Retrospective samples of COVID-19 patients described the clinical presentations of patients infected with SARS-CoV-2 which included lower respiratory tract infection with fever, dry cough, and dyspnea [@doi:10/ggnxb3].
 [@doi:10/ggnxb3] noted that upper respiratory tract symptoms were less common, which suggests that the virus targets cells located in the lower respiratory tract.
@@ -822,12 +826,16 @@ The symptoms of infection by SARS-CoV-2 can vary greatly, making it difficult fo
 Mortality might be associated with other biomarkers measured in blood samples including lactate dehydrogenase and cardiac troponin I, although these analyses may not have been appropriately corrected for multiple testing.
 They also found that survivors continued to shed the virus for a median of 20 days and a maximum of at least 37 days.
 
+#### Molecular Mechanisms of COVID-19
+
+- How can we evaluate the human response to SARS-CoV-2 on a molecular level?
+- What can omics technologies tell us about changes in the body following SARS-CoV-2 infection?
+
 ### Approaches to Understanding COVID-19
 
 Scientific characterization of the SARS-CoV-2 virus and of the COVID-19 disease it causes is critical to controlling the current pandemic.
 Several broad areas of research interact with each other, offering different pieces of information critical to understanding the virus and disease.
 A comprehensive understanding of the epidemic must unify basic scientific and medical research with public health and biotechnology.
-
 
 #### Science & Medicine
 
