@@ -504,7 +504,6 @@ authors:
       string: "None"
       lastapproved: !!str 2020-04-30
     funders: NHGRI R01 HG10067
-    
   -
     github: bansalvi
     name: Vikas Bansal
