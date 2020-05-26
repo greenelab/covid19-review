@@ -1,7 +1,9 @@
+import gzip
 import pandas as pd
 import os
 import urllib.request
 import requests
+import shutil
 
 def update_AI(fname):
     # Download most up-to-date metadata from Allen AI COVID-19 dataset
@@ -35,6 +37,12 @@ if __name__ == "__main__":
     AIA_metadata = pd.read_csv(metadata_fname, low_memory=False)
     AIA_metadata = AIA_metadata.dropna(subset=["doi"])
     print("AIA has {0} sources".format(len(AIA_metadata)))
+
+    # Compress Allen AI data
+    with open(metadata_fname, 'rb') as f_in:
+        with gzip.open(metadata_fname + '.gz', 'wb') as f_out:
+            shutil.copyfileobj(f_in, f_out)
+    os.remove(metadata_fname)
 
     # Update internal dataset, which is maintained with CI
     review_sources = pd.read_csv("./output/sources_cross_reference.tsv",
@@ -85,4 +93,4 @@ if __name__ == "__main__":
              for pub in num_pubs_missing.keys()
              if pub not in ["bioRxiv", "medRxiv"]])))
 
-    combined.to_csv("./output/covid19-lit-all.tsv", sep="\t", index=False)
+    combined.to_csv("./output/covid19-lit-all.tsv.gz", sep="\t", index=False, compression='infer')
