@@ -320,11 +320,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/e55295c86c6db9dabe6bfca6a86be219cb859152/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/4317fb1009a699b446d63f2a846c59cb403a9cc4/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/e55295c86c6db9dabe6bfca6a86be219cb859152/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/4317fb1009a699b446d63f2a846c59cb403a9cc4/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/e55295c86c6db9dabe6bfca6a86be219cb859152/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/4317fb1009a699b446d63f2a846c59cb403a9cc4/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -357,9 +357,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/e55295c86c6db9dabe6bfca6a86be219cb859152/))
+([permalink](https://greenelab.github.io/covid19-review/v/4317fb1009a699b446d63f2a846c59cb403a9cc4/))
 was automatically generated
-from [greenelab/covid19-review@e55295c](https://github.com/greenelab/covid19-review/tree/e55295c86c6db9dabe6bfca6a86be219cb859152)
+from [greenelab/covid19-review@4317fb1](https://github.com/greenelab/covid19-review/tree/4317fb1009a699b446d63f2a846c59cb403a9cc4)
 on May 26, 2020.
 </em></small>
 
@@ -830,6 +830,24 @@ They also found that survivors continued to shed the virus for a median of 20 da
 
 - How can we evaluate the human response to SARS-CoV-2 on a molecular level?
 - What can omics technologies tell us about changes in the body following SARS-CoV-2 infection?
+
+SARS-CoV-2 is a novel human coronavirus, following SARS-CoV and MERS-CoV to become the third coronavirus causing severe pneumonia in humans to emerge in the 21st century [@doi:10.1016/bs.aivir.2018.01.001]. 
+Therefore, most of our current knowledge of the molecular mechanisms through which SARS-CoV-2 infects cells is obtained from studies on previously identified coronaviruses. 
+The entry of a coronavirus into a target cell is mediated by the binding of the viral spike (S) protein to a specific cellular receptor and the subsequent priming/cleavage of the S protein by cellular proteases [@doi:10/cf8chz; @doi:10.1016/j.antiviral.2020.104792]. 
+Angiotensin-Converting Enzyme 2 (ACE2) and Transmembrane Serine Protease 2 (TMPRSS2) have been identified as a prime receptor and a critical protease, respectively, facilitating SARS-CoV/CoV-2 entry into a target cell [@doi:10.1038/nature02145; @doi:10.1126/science.abb2507; @doi:10.1128/JVI.01542-10; @doi:10.1016/j.cell.2020.02.052; @doi:10.1128/JVI.02232-10]. 
+This finding has led to a hypothesized role for ACE2 and TMPRSS2 expression in determining which cells, tissues and organs are most likely to be infected by SARS-CoV-2.
+
+Recent clinical investigations of COVID-19 patients have detected SARS-CoV-2 transcripts in bronchoalveolar lavage fluid (93% of specimens), sputum (72%), nasal swabs (63%), fibrobronchoscopy brush biopsies (46%), pharyngeal swabs (32%), feces (29%) and blood (1%) [@doi:10.1001/jama.2020.3786]. 
+Two studies reported that SARS-CoV-2 could not be detected in the urine specimens [@doi:10.1001/jama.2020.3786; @doi:10.1001/jama.2020.3204]; however, a third study identified four urine samples (out of 58) that were positive for SARS-CoV-2 nucleic acids [@doi:10.1097/CM9.0000000000000774]. 
+Respiratory failure remains the leading cause of death for COVID-19 patients [@doi:10.1111/his.14134]. 
+Besides major pulmonary damage, SARS-CoV-2 infection can damage many other organ systems including the heart [@doi:10.1001/jamacardio.2020.0950], kidney [@doi:10.1038/s41585-020-0319-7; @doi:10.1186/s13054-020-02872-z], liver [@doi:10/ggpx6s], and gastrointestinal tract [@doi:10.1053/j.gastro.2020.02.055; @doi:10.1111/1751-2980.12851].
+It can even cause neurological complications [@doi:10.1016/j.bbi.2020.03.031]. 
+As it becomes clearer that SARS-CoV-2 infection can damage multiple organs, the scientific community is pursuing multiple avenues of investigation in order to build a consensus about how the virus affects the human body.
+To quickly associate the clinical outcomes with SARS-CoV-2 infection, researchers are taking advantage of “omics” technologies to profile the expression of coronavirus entry factors across the tissues.
+
+
+
+[Start with RNA-seq description and summarize studies so far including healthy and infected tissues/cells in vivo/in vitro]
 
 ### Approaches to Understanding COVID-19
 
