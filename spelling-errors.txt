@@ -8,6 +8,7 @@ DSHEA
 DZNE
 EFSA
 hypothesised
+infodemics
 investigational
 labelling
 phagocytosis
