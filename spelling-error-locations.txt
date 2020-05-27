@@ -1,0 +1,15 @@
+content/20.treatments.md:327:DSHEA
+content/20.treatments.md:330:labelling
+content/20.treatments.md:331:EFSA
+content/20.treatments.md:332:EFSA
+content/20.treatments.md:354:phagocytosis
+content/20.treatments.md:356:hypothesised
+content/20.treatments.md:361:antithrombotic
+content/20.treatments.md:361:prothrombotic
+content/20.treatments.md:362:antiplatelet
+content/20.treatments.md:363:antiplatelet
+content/20.treatments.md:363:investigational
+content/20.treatments.md:364:antiplatelet
+content/20.treatments.md:451:dimorphism
+content/20.treatments.md:453:Biobank
+content/20.treatments.md:454:Biobank
