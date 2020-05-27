@@ -504,4 +504,20 @@ authors:
       string: "None"
       lastapproved: !!str 2020-04-30
     funders: NHGRI R01 HG10067
-
+  -
+    github: bansalvi
+    name: Vikas Bansal
+    initials: VB
+    orcid: 0000-0002-0944-7226
+    twitter: VikasBansal1989
+    email: bansal.bioinfo@gmail.com
+    contributions:
+      - Writing - Original Draft
+      - Investigation
+    affiliations:
+      - Biomedical Data Science and Machine Learning Group, DZNE, Tübingen, Germany
+    code of conduct:
+      confirmed: yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-05-26
