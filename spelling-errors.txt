@@ -3,6 +3,7 @@ antithrombotic
 Bansal
 bansalvi
 Biobank
+clinicaltrials
 dimorphism
 DSHEA
 DZNE
