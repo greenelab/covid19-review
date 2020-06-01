@@ -40,6 +40,8 @@ anthonygitter
 anticorrelated
 antifungal
 antiphospholipid
+antiplatelet
+antithrombotic
 ApoA
 ARB
 ARBs
@@ -81,6 +83,7 @@ Bian
 bilayer
 bioavailabilty
 bioavailable
+Biobank
 Bioinformatic
 Bioinformatics
 biolayer
@@ -157,6 +160,7 @@ citrate
 clade
 CLDN
 Clin
+clinicaltrials
 clonality
 Clonally
 CMV
@@ -252,6 +256,7 @@ differentially
 dihydroxyvitamin
 DiMaio
 dimerization
+dimorphism
 Discotope
 Disulfiram
 docosahexaenoic
@@ -259,6 +264,7 @@ doi
 downregulated
 dPCR
 Drosten
+DSHEA
 dsRNA
 Duan
 ductal
@@ -272,6 +278,7 @@ ECMO
 ectodomain
 EF
 effector
+EFSA
 eg
 eGFR
 eicosapentaenoic
@@ -482,6 +489,8 @@ immunosuppressive
 incr
 infectable
 infectivity
+infodemic
+infodemics
 injectate
 INO
 Inovio
@@ -508,6 +517,7 @@ intratracheally
 intubated
 intubation
 invasively
+investigational
 ionophores
 IPF
 IQR
@@ -589,6 +599,7 @@ lysosomotropic
 mAb
 mAbs
 MacLean
+macrolide
 Macromolecular
 macromolecules
 Macrophage
@@ -756,6 +767,7 @@ permeabilize
 Pfaender
 pfu
 phagocytosed
+phagocytosis
 pharmacodynamic
 phenotypes
 phenotypic
@@ -825,6 +837,7 @@ proteolytic
 proteome
 proteomic
 proteomics
+prothrombotic
 protomer
 protomers
 protonated
