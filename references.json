@@ -30,8 +30,8 @@
       "date-parts": [
         [
           "2020",
-          5,
-          31
+          6,
+          4
         ]
       ]
     }
@@ -67,8 +67,8 @@
       "date-parts": [
         [
           "2020",
-          5,
-          31
+          6,
+          4
         ]
       ]
     }
@@ -104,8 +104,8 @@
       "date-parts": [
         [
           "2020",
-          5,
-          31
+          6,
+          4
         ]
       ]
     }
@@ -141,8 +141,8 @@
       "date-parts": [
         [
           "2020",
-          5,
-          31
+          6,
+          4
         ]
       ]
     }
@@ -178,8 +178,8 @@
       "date-parts": [
         [
           "2020",
-          5,
-          31
+          6,
+          4
         ]
       ]
     }
@@ -215,8 +215,8 @@
       "date-parts": [
         [
           "2020",
-          5,
-          31
+          6,
+          4
         ]
       ]
     }
@@ -244,7 +244,7 @@
         [
           "2020",
           5,
-          19
+          29
         ]
       ]
     },
@@ -252,8 +252,8 @@
       "date-parts": [
         [
           "2020",
-          5,
-          31
+          6,
+          4
         ]
       ]
     }
@@ -281,7 +281,7 @@
         [
           "2020",
           5,
-          12
+          29
         ]
       ]
     },
@@ -289,8 +289,8 @@
       "date-parts": [
         [
           "2020",
-          5,
-          31
+          6,
+          4
         ]
       ]
     }
@@ -326,8 +326,8 @@
       "date-parts": [
         [
           "2020",
-          5,
-          31
+          6,
+          4
         ]
       ]
     }
@@ -362,8 +362,8 @@
       "date-parts": [
         [
           "2020",
-          5,
-          31
+          6,
+          4
         ]
       ]
     }
@@ -399,8 +399,8 @@
       "date-parts": [
         [
           "2020",
-          5,
-          31
+          6,
+          4
         ]
       ]
     }
@@ -436,8 +436,8 @@
       "date-parts": [
         [
           "2020",
-          5,
-          31
+          6,
+          4
         ]
       ]
     }
@@ -473,8 +473,8 @@
       "date-parts": [
         [
           "2020",
-          5,
-          31
+          6,
+          4
         ]
       ]
     }
@@ -501,8 +501,8 @@
       "date-parts": [
         [
           "2020",
-          4,
-          21
+          6,
+          3
         ]
       ]
     },
@@ -510,8 +510,8 @@
       "date-parts": [
         [
           "2020",
-          5,
-          31
+          6,
+          4
         ]
       ]
     }
@@ -3844,8 +3844,8 @@
         "given": "Bérengère"
       },
       {
-        "family": "Selvan",
-        "given": "Myvizhi Esai"
+        "family": "Esai Selvan",
+        "given": "Myvizhi"
       },
       {
         "family": "Spindler",
@@ -3910,6 +3910,234 @@
       {
         "family": "Samstein",
         "given": "Robert M."
+      },
+      {
+        "family": "Agrawal",
+        "given": "Manasi"
+      },
+      {
+        "family": "Aleynick",
+        "given": "Mark"
+      },
+      {
+        "family": "Belabed",
+        "given": "Meriem"
+      },
+      {
+        "family": "Brown",
+        "given": "Matthew"
+      },
+      {
+        "family": "Casanova-Acebes",
+        "given": "Maria"
+      },
+      {
+        "family": "Catalan",
+        "given": "Jovani"
+      },
+      {
+        "family": "Centa",
+        "given": "Monica"
+      },
+      {
+        "family": "Charap",
+        "given": "Andrew"
+      },
+      {
+        "family": "Chan",
+        "given": "Andrew"
+      },
+      {
+        "family": "Chen",
+        "given": "Steven T."
+      },
+      {
+        "family": "Chung",
+        "given": "Jonathan"
+      },
+      {
+        "family": "Bozkus",
+        "given": "Cansu Cimen"
+      },
+      {
+        "family": "Cody",
+        "given": "Evan"
+      },
+      {
+        "family": "Cossarini",
+        "given": "Francesca"
+      },
+      {
+        "family": "Dalla",
+        "given": "Erica"
+      },
+      {
+        "family": "Fernandez",
+        "given": "Nicolas"
+      },
+      {
+        "family": "Grout",
+        "given": "John"
+      },
+      {
+        "family": "Ruan",
+        "given": "Dan Fu"
+      },
+      {
+        "family": "Hamon",
+        "given": "Pauline"
+      },
+      {
+        "family": "Humblin",
+        "given": "Etienne"
+      },
+      {
+        "family": "Jha",
+        "given": "Divya"
+      },
+      {
+        "family": "Kodysh",
+        "given": "Julia"
+      },
+      {
+        "family": "Leader",
+        "given": "Andrew"
+      },
+      {
+        "family": "Lin",
+        "given": "Matthew"
+      },
+      {
+        "family": "Lindblad",
+        "given": "Katherine"
+      },
+      {
+        "family": "Lozano-Ojalvo",
+        "given": "Daniel"
+      },
+      {
+        "family": "Lubitz",
+        "given": "Gabrielle"
+      },
+      {
+        "family": "Magen",
+        "given": "Assaf"
+      },
+      {
+        "family": "Mahmood",
+        "given": "Zafar"
+      },
+      {
+        "family": "Martinez-Delgado",
+        "given": "Gustavo"
+      },
+      {
+        "family": "Mateus-Tique",
+        "given": "Jaime"
+      },
+      {
+        "family": "Meritt",
+        "given": "Elliot"
+      },
+      {
+        "family": "Moon",
+        "given": "Chang"
+      },
+      {
+        "family": "Noel",
+        "given": "Justine"
+      },
+      {
+        "family": "O’Donnell",
+        "given": "Tim"
+      },
+      {
+        "family": "Ota",
+        "given": "Miyo"
+      },
+      {
+        "family": "Plitt",
+        "given": "Tamar"
+      },
+      {
+        "family": "Pothula",
+        "given": "Venu"
+      },
+      {
+        "family": "Redes",
+        "given": "Jamie"
+      },
+      {
+        "family": "Reyes Torres",
+        "given": "Ivan"
+      },
+      {
+        "family": "Roberto",
+        "given": "Mark"
+      },
+      {
+        "family": "Sanchez-Paulete",
+        "given": "Alfonso R."
+      },
+      {
+        "family": "Shang",
+        "given": "Joan"
+      },
+      {
+        "family": "Schanoski",
+        "given": "Alessandra Soares"
+      },
+      {
+        "family": "Suprun",
+        "given": "Maria"
+      },
+      {
+        "family": "Tran",
+        "given": "Michelle"
+      },
+      {
+        "family": "Vaninov",
+        "given": "Natalie"
+      },
+      {
+        "family": "Wilk",
+        "given": "C. Matthias"
+      },
+      {
+        "family": "Aguirre-Ghiso",
+        "given": "Julio"
+      },
+      {
+        "family": "Bogunovic",
+        "given": "Dusan"
+      },
+      {
+        "family": "Cho",
+        "given": "Judy"
+      },
+      {
+        "family": "Faith",
+        "given": "Jeremiah"
+      },
+      {
+        "family": "Grasset",
+        "given": "Emilie"
+      },
+      {
+        "family": "Heeger",
+        "given": "Peter"
+      },
+      {
+        "family": "Kenigsberg",
+        "given": "Ephraim"
+      },
+      {
+        "family": "Krammer",
+        "given": "Florian"
+      },
+      {
+        "family": "Laserson",
+        "given": "Uri"
       }
     ],
     "issued": {
@@ -3923,7 +4151,7 @@
     "container-title": "Immunity",
     "DOI": "10.1016/j.immuni.2020.05.002",
     "publisher": "Elsevier BV",
-    "title": "Immunology of COVID-19: current state of the science",
+    "title": "Immunology of COVID-19: Current State of the Science",
     "URL": "https://doi.org/ggt54g",
     "PMCID": "PMC7200337",
     "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: doi:10.1016/j.immuni.2020.05.002"
@@ -5472,6 +5700,8 @@
     "publisher": "Elsevier BV",
     "title": "Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study",
     "URL": "https://doi.org/ggnxb3",
+    "PMCID": "PMC7270627",
+    "PMID": "32171076",
     "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: doi:10.1016/s0140-6736(20)30566-3"
   },
   {
@@ -5519,6 +5749,8 @@
     "publisher": "Elsevier BV",
     "title": "COVID-19: consider cytokine storm syndromes and immunosuppression",
     "URL": "https://doi.org/ggnzmc",
+    "PMCID": "PMC7270045",
+    "PMID": "32192578",
     "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: doi:10.1016/s0140-6736(20)30628-0"
   },
   {
@@ -6166,8 +6398,8 @@
       "date-parts": [
         [
           2020,
-          2,
-          19
+          6,
+          3
         ]
       ]
     },
@@ -6886,6 +7118,36 @@
   },
   {
     "type": "article-journal",
+    "id": "j3rGUH1f",
+    "author": [
+      {
+        "family": "Schrezenmeier",
+        "given": "Eva"
+      },
+      {
+        "family": "Dörner",
+        "given": "Thomas"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          2,
+          7
+        ]
+      ]
+    },
+    "container-title": "Nature Reviews Rheumatology",
+    "DOI": "10.1038/s41584-020-0372-x",
+    "publisher": "Springer Science and Business Media LLC",
+    "title": "Mechanisms of action of hydroxychloroquine and chloroquine: implications for rheumatology",
+    "URL": "https://doi.org/ggzjnh",
+    "PMID": "32034323",
+    "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: doi:10.1038/s41584-020-0372-x"
+  },
+  {
+    "type": "article-journal",
     "id": "5ET1D3cK",
     "author": [
       {
@@ -6916,6 +7178,9 @@
     },
     "container-title": "Nature Reviews Urology",
     "DOI": "10.1038/s41585-020-0319-7",
+    "volume": "17",
+    "issue": "6",
+    "page": "314-315",
     "publisher": "Springer Science and Business Media LLC",
     "title": "The need for urogenital tract monitoring in COVID-19",
     "URL": "https://doi.org/ggv4xb",
@@ -7428,6 +7693,9 @@
     },
     "container-title": "Nature Reviews Physics",
     "DOI": "10.1038/s42254-020-0175-7",
+    "volume": "2",
+    "issue": "6",
+    "page": "274-275",
     "publisher": "Springer Science and Business Media LLC",
     "title": "How you can help with COVID-19 modelling",
     "URL": "https://doi.org/ggrsq3",
@@ -13043,20 +13311,12 @@
         "given": "Manman"
       },
       {
-        "family": "Yu",
-        "given": "Pengfei"
-      },
-      {
         "family": "Zheng",
         "given": "Sujun"
       },
       {
         "family": "Duan",
         "given": "Zhongping"
-      },
-      {
-        "family": "Liu",
-        "given": "Jing"
       },
       {
         "family": "Chen",
@@ -13072,15 +13332,15 @@
         [
           2020,
           3,
-          10
+          3
         ]
       ]
     },
-    "abstract": "Aims: Corona virus disease 2019 (COVID-19) has rapidly become the most severe public health issue all over the world. Despite respiratory symptoms, hepatic injury has also been observed in clinical settings. This study aimed to investigate the risk factors involved with hepatic injury in the patients with COVID-19. Methods: A total of 85 hospitalized patients who were diagnosed with COVID-19 in Beijing Youan Hospital were retrospectively analyzed. According to liver function, they were divided into ALT normal group (n=52) and ALT elevation group (n=33). Clinical features and laboratory data were compared between the two groups. The independent risk factors for liver injury were analyzed. Results: There were 33 patients with hepatic injury in our study, accounting for 38.8% (33/85). The patients in ALT elevation group were older than those in ALT normal group. The levels of lactic acid, CRP, myoglobin, and neutrophils were significantly higher in ALT elevation group. The lymphocytes and albumin were significantly lower in ALT elevation group. The proportion of severe and critical patients in ALT elevation group was significantly higher. Multivariate logistic regression analysis showed CRP ≥20 mg/L and lymphocyte count&lt; 1.1*10^9/L were independently related to hepatic injury. Conclusions: Lymphopenia and CRP may serve as the risk factors related to hepatic injury in patients with COVID-19, which might be related to inflammatory cytokine storm in liver injury. Early detection and timely treatment of hepatic injury in patients with COVID-19 are necessary.",
+    "abstract": "Aim: Coronavirus disease 2019 (COVID-19) has rapidly become the most severe public health issue all over the world. Despite acute respiratory failure, liver dysfunction has also been observed in clinical settings This study aimed to investigate the factors involved with hepatic injury in COVID-19 patients. Methods: A total of 26 hospitalized patients who were diagnosed with COVID-19 treated at Beijing Youan Hospital were retrospectively analyzed. According to the diagnostic criteria, they were divided into mild group (n=3), ordinary group (n=6), serious group (n=11) and critical group (n=6). Blood count, blood chemistry, coagulation test, liver and renal function, C-reactive protein, procalcitonin, lactic acid, cardiac markers and arterial partial pressure was compared between these groups. Independent risk factors of ALT increase was selected. Results:There were 8 patients with ALT elevation in the patients with COVID-19, accounting for 30.8% (8/26). There was no difference in sex ratio between normal and elevated ALT population, and there was an increasing trend in age. The CRP index was significantly higher in the population with elevated ALT, and the increase of CRP was independently related to ALT level, and the OR value was 1.023 (P = 0.024). Conclusions: COVID-19 related hepatic injury may be a result of cytokine storm syndrome, a positive correlative relationship between the increase of CRP and liver injury. Early detection and timely treatment of hepatic injury is necessary.",
     "container-title": "medRxiv",
     "DOI": "10.1101/2020.02.28.20028514",
     "publisher": "medRxiv",
-    "title": "Risk factors related to hepatic injury in patients with corona virus disease 2019",
+    "title": "The level of plasma C-reactive protein is closely related to the liver injury in patients with COVID-19",
     "URL": "https://doi.org/ggq632",
     "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: doi:10.1101/2020.02.28.20028514"
   },
@@ -22103,14 +22363,15 @@
         [
           2020,
           5,
-          11
+          29
         ]
       ]
     },
-    "abstract": "A public-private partnership and platform for harmonized clinical trials aims to accelerate licensure and distribution.",
     "container-title": "Science",
     "DOI": "10.1126/science.abc5312",
-    "page": "eabc5312",
+    "volume": "368",
+    "issue": "6494",
+    "page": "948-950",
     "publisher": "American Association for the Advancement of Science (AAAS)",
     "title": "A strategic approach to COVID-19 vaccine R&amp;D",
     "URL": "https://doi.org/ggwfck",
@@ -23895,6 +24156,7 @@
     "publisher": "Radiological Society of North America (RSNA)",
     "title": "Correlation of Chest CT and RT-PCR Testing in Coronavirus Disease 2019 (COVID-19) in China: A Report of 1014 Cases",
     "URL": "https://doi.org/ggmw6p",
+    "PMCID": "PMC7233399",
     "PMID": "32101510",
     "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: doi:10.1148/radiol.2020200642"
   },
@@ -23998,6 +24260,7 @@
     "publisher": "Radiological Society of North America (RSNA)",
     "title": "Performance of radiologists in differentiating COVID-19 from viral pneumonia on chest CT",
     "URL": "https://doi.org/ggnqw4",
+    "PMCID": "PMC7233414",
     "PMID": "32155105",
     "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: doi:10.1148/radiol.2020200823"
   },
@@ -28025,7 +28288,7 @@
         [
           "2020",
           6,
-          1
+          8
         ]
       ]
     },
@@ -28041,7 +28304,7 @@
         [
           "2020",
           6,
-          1
+          8
         ]
       ]
     },
@@ -28098,7 +28361,7 @@
         [
           "2020",
           6,
-          1
+          8
         ]
       ]
     },
@@ -28116,7 +28379,7 @@
         [
           "2020",
           6,
-          1
+          8
         ]
       ]
     },
@@ -28188,7 +28451,7 @@
         [
           "2020",
           6,
-          1
+          8
         ]
       ]
     },
@@ -28205,7 +28468,7 @@
         [
           "2020",
           6,
-          1
+          8
         ]
       ]
     },
@@ -28222,7 +28485,7 @@
         [
           "2020",
           6,
-          1
+          8
         ]
       ]
     },
@@ -28247,7 +28510,7 @@
         [
           "2020",
           6,
-          1
+          8
         ]
       ]
     },
@@ -28281,7 +28544,7 @@
         [
           "2020",
           6,
-          1
+          8
         ]
       ]
     },
@@ -28315,7 +28578,7 @@
         [
           "2020",
           6,
-          1
+          8
         ]
       ]
     },
@@ -28339,8 +28602,8 @@
       "date-parts": [
         [
           "2020",
-          5,
-          22
+          6,
+          1
         ]
       ]
     },
@@ -28349,7 +28612,7 @@
         [
           "2020",
           6,
-          1
+          8
         ]
       ]
     },
@@ -28383,7 +28646,7 @@
         [
           "2020",
           6,
-          1
+          8
         ]
       ]
     },
@@ -28414,7 +28677,7 @@
         [
           "2020",
           6,
-          1
+          8
         ]
       ]
     },
@@ -28430,7 +28693,7 @@
         [
           "2020",
           6,
-          1
+          8
         ]
       ]
     },
@@ -28447,7 +28710,7 @@
         [
           "2020",
           6,
-          1
+          8
         ]
       ]
     },
@@ -28504,7 +28767,7 @@
         [
           "2020",
           6,
-          1
+          8
         ]
       ]
     },
@@ -28539,7 +28802,7 @@
         [
           "2020",
           6,
-          1
+          8
         ]
       ]
     },
@@ -28567,7 +28830,7 @@
         [
           "2020",
           6,
-          1
+          8
         ]
       ]
     },
@@ -28591,7 +28854,7 @@
         [
           "2020",
           6,
-          1
+          8
         ]
       ]
     },
@@ -28616,7 +28879,7 @@
         [
           "2020",
           6,
-          1
+          8
         ]
       ]
     },
@@ -28634,7 +28897,7 @@
         [
           "2020",
           6,
-          1
+          8
         ]
       ]
     },
@@ -28678,7 +28941,7 @@
         [
           "2020",
           6,
-          1
+          8
         ]
       ]
     },
@@ -28697,7 +28960,7 @@
         [
           "2020",
           6,
-          1
+          8
         ]
       ]
     },
@@ -28743,17 +29006,36 @@
         [
           "2020",
           6,
-          1
+          8
         ]
       ]
     },
     "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://www.preprints.org/manuscript/202003.0199/v1"
   },
   {
-    "URL": "https://www.the-scientist.com/news-opinion/newer-vaccine-technologies-deployed-to-develop-covid-19-shot-67152",
-    "type": "webpage",
     "id": "wPl93ATP",
+    "type": "webpage",
+    "title": "Newer Vaccine Technologies Deployed to Develop COVID-19 Shot",
+    "container-title": "The Scientist Magazine®",
+    "abstract": "Researchers look to messenger RNA encased in nanoparticles, DNA plasmids, molecular clamps, and other approaches as they rush to design a vaccine against the new coronavirus.",
+    "URL": "https://www.the-scientist.com/news-opinion/newer-vaccine-technologies-deployed-to-develop-covid-19-shot-67152",
+    "language": "en",
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          6,
+          8
+        ]
+      ]
+    },
     "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://www.the-scientist.com/news-opinion/newer-vaccine-technologies-deployed-to-develop-covid-19-shot-67152"
+  },
+  {
+    "URL": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736",
+    "type": "webpage",
+    "id": "12edPQ3Y",
+    "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://www.thelancet.com/journals/lancet/article/PIIS0140-6736"
   },
   {
     "id": "123fXWICW",
@@ -28768,7 +29050,7 @@
         [
           "2020",
           6,
-          1
+          8
         ]
       ]
     },
@@ -28785,7 +29067,7 @@
         [
           "2020",
           6,
-          1
+          8
         ]
       ]
     },
