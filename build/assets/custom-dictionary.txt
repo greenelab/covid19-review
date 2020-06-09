@@ -676,6 +676,7 @@ myalgia
 Mycobacterium
 myeloma
 MZ
+NaCl
 Nafisa
 nafisajadavji
 nanoparticle
@@ -1059,6 +1060,7 @@ TTCR
 TUNEL
 turbinate
 ubadult
+UC
 UCI
 Umefinovir
 umifenovir
