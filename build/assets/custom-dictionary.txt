@@ -600,6 +600,7 @@ mAb
 mAbs
 MacLean
 macrolide
+macrolides
 Macromolecular
 macromolecules
 Macrophage
@@ -824,6 +825,7 @@ PRNT
 Procalcitonin
 profibrotic
 proinflammatory
+prophylactically
 propogates
 proresolving
 protease
@@ -1056,6 +1058,7 @@ trimeric
 trimerization
 troponin
 TTCR
+Tübingen
 TUNEL
 turbinate
 ubadult
@@ -1084,6 +1087,8 @@ Venu
 Vero
 VeroE
 VH
+Vikas
+VikasBansal
 Villanova
 ViPR
 virally
