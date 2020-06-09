@@ -308,6 +308,7 @@ epithelia
 epitope
 epitopes
 eq
+erythematosus
 esell
 et
 Etanercept
@@ -395,6 +396,7 @@ HBV
 HCoV
 HCoVs
 HCQ
+HCQ's
 HCV
 HD
 HDAC
