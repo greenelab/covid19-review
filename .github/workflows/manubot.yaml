@@ -50,8 +50,8 @@ jobs:
         shell: bash --login {0}
         run: |
           bash build/csse/generate-csse-stats.sh
-          echo "Updating content directory with $CSSE_JSON"
-          cp $CSSE_JSON content/csse/csse-stats.json
+          echo "Updating content directory CSSE statistics"
+          cp output/csse/csse-stats.json content/csse/csse-stats.json
       - name: Build Manuscript
         shell: bash --login {0}
         env:

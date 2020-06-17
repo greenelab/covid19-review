@@ -16,7 +16,7 @@ echo >&2 "Retrieving and processing reference metadata"
 manubot process \
   --content-directory=content \
   --output-directory=output \
-  --template-variables-path=content/who/who-stats.json \
+  --template-variables-path=content/csse/csse-stats.json \
   --cache-directory=ci/cache \
   --skip-citations \
   --log-level=INFO
