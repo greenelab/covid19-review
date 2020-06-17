@@ -14,7 +14,7 @@ def main(args):
     if('CSSE_COMMIT' in os.environ):
         csse_stats['csse_commit'] = os.environ['CSSE_COMMIT']
 
-    deaths_df = pd.read_csv(args.input_file)
+    deaths_df = pd.read_csv(args.input_csv)
     # The last column is the most recent date with data
     latest_deaths = deaths_df[deaths_df.columns[-1]]
     csse_stats['csse_date_pretty'] = latest_deaths.name
@@ -26,25 +26,32 @@ def main(args):
     cumulative_deaths = deaths_df.sum(axis=0)
     ax = cumulative_deaths.plot(kind='line')
     ax.set_ylabel('Global COVID-19 deaths')
-    ax.figure.savefig('tmp.png', bbox_inches = "tight")
-    ax.figure.savefig('tmp.svg', bbox_inches = "tight")
+    ax.figure.savefig(args.output_figure + '.png', bbox_inches = "tight")
+    ax.figure.savefig(args.output_figure + '.svg', bbox_inches = "tight")
+    print(f'Wrote {args.output_figure}.png and {args.output_figure}.svg')
 
-    # TODO update after moving figure files
-    csse_stats['csse_deaths_figure'] = '../tmp.png'
+    csse_stats['csse_deaths_figure'] = \
+        f'https://github.com/greenelab/covid19-review/raw/external-resources/{args.output_figure}.svg'
 
-    with open(args.output_file, 'w') as out_file:
+    with open(args.output_json, 'w') as out_file:
         json.dump(csse_stats, out_file, indent=2, sort_keys=True)
-    print(f'Wrote {args.output_file}')
+    print(f'Wrote {args.output_json}')
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
         description=__doc__,
         formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument('input_file',
-                        help='JHU CSSE COVID-19 global deaths input file',
+    parser.add_argument('input_csv',
+                        help='Path of the JHU CSSE COVID-19 global deaths ' \
+                        'input file',
                         type=str)
-    parser.add_argument('output_file',
-                        help='JSON file with extracted statistics',
+    parser.add_argument('output_json',
+                        help='Path of the JSON file with extracted statistics',
+                        type=str)
+    parser.add_argument('output_figure',
+                        help='Path of the output figure with daily global ' \
+                        'deaths without file type extension. Will be saved ' \
+                        'as .png and .svg.',
                         type=str)
 
     args = parser.parse_args()
