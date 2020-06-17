@@ -3,7 +3,7 @@
 # and a figure
 export CSSE_COMMIT=$(curl -sS https://api.github.com/repos/CSSEGISandData/COVID-19/branches/master | python -c "import sys, json; print(json.load(sys.stdin)['commit']['sha'])")
 CSSE_CSV=output/csse/time_series_covid19_deaths_global.csv
-CSSE_JSON=output/csse/csse-stats.json
+export CSSE_JSON=output/csse/csse-stats.json
 
 mkdir -p output/csse
 echo "Downloading JHU CSSE data from commit $CSSE_COMMIT"
