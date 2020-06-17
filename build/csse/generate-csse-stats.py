@@ -22,7 +22,6 @@ def main(args):
     csse_stats['csse_deaths'] = f'{total_deaths:,}'
 
     deaths_df = deaths_df.drop(columns=['Province/State', 'Country/Region', 'Lat', 'Long'])
-    print(deaths_df.columns)
     # TODO assert that all remaining columns are dates, convert date formatting
     cumulative_deaths = deaths_df.sum(axis=0)
     ax = cumulative_deaths.plot(kind='line')
