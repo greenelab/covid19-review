@@ -21,6 +21,15 @@ def main(args):
     total_deaths = latest_deaths.sum()
     csse_stats['csse_deaths'] = f'{total_deaths:,}'
 
+    deaths_df = deaths_df.drop(columns=['Province/State', 'Country/Region', 'Lat', 'Long'])
+    print(deaths_df.columns)
+    # TODO assert that all remaining columns are dates, convert date formatting
+    cumulative_deaths = deaths_df.sum(axis=0)
+    ax = cumulative_deaths.plot(kind='line')
+    ax.set_ylabel('Global COVID-19 deaths')
+    ax.figure.savefig('tmp.png', bbox_inches = "tight")
+    ax.figure.savefig('tmp.svg', bbox_inches = "tight")
+
     # TODO generate a summary figure of deaths by date
     csse_stats['csse_deaths_figure'] = 'https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/square.png'
 
