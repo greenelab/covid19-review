@@ -30,8 +30,8 @@ def main(args):
     ax.figure.savefig('tmp.png', bbox_inches = "tight")
     ax.figure.savefig('tmp.svg', bbox_inches = "tight")
 
-    # TODO generate a summary figure of deaths by date
-    csse_stats['csse_deaths_figure'] = 'https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/square.png'
+    # TODO update after moving figure files
+    csse_stats['csse_deaths_figure'] = '../tmp.png'
 
     with open(args.output_file, 'w') as out_file:
         json.dump(csse_stats, out_file, indent=2, sort_keys=True)
