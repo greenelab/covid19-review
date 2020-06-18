@@ -4,9 +4,17 @@ import json
 import os
 import pandas as pd
 
+def convert_date(csse_date):
+    '''Reformat CSSE style dates (MM/DD/YY) to Month DD, YYYY.
+    Throws a ValueError if csse_date cannot be parsed as a date.
+    '''
+    # Remove the leading zero of the day
+    # Assumes the year will not begin with 0
+    return datetime.datetime.strptime(csse_date, '%m/%d/%y').strftime('%B %d, %Y').replace(' 0', ' ')
+
 # Inspired by https://github.com/greenelab/meta-review/blob/master/analyses/deep-review-contrib/03.contrib-stats.ipynb
 def main(args):
-    ''' Extract statistics from the JHU CSSE COVID-19 global deaths dataset'''
+    '''Extract statistics from the JHU CSSE COVID-19 global deaths dataset'''
     csse_stats = dict()
     now = datetime.datetime.utcnow()
     csse_stats['csse_update_time_utc'] = now.isoformat()
@@ -17,15 +25,16 @@ def main(args):
     deaths_df = pd.read_csv(args.input_csv)
     # The last column is the most recent date with data
     latest_deaths = deaths_df[deaths_df.columns[-1]]
-    csse_stats['csse_date_pretty'] = latest_deaths.name
+    csse_stats['csse_date_pretty'] = convert_date(latest_deaths.name)
     total_deaths = latest_deaths.sum()
     csse_stats['csse_deaths'] = f'{total_deaths:,}'
 
     deaths_df = deaths_df.drop(columns=['Province/State', 'Country/Region', 'Lat', 'Long'])
-    # TODO assert that all remaining columns are dates, convert date formatting
+    deaths_df = deaths_df.rename(columns=convert_date)
     cumulative_deaths = deaths_df.sum(axis=0)
     ax = cumulative_deaths.plot(kind='line')
     ax.set_ylabel('Global COVID-19 deaths')
+    ax.set_xticklabels(ax.get_xticklabels(), rotation=45, ha='right')
     ax.figure.savefig(args.output_figure + '.png', bbox_inches = "tight")
     ax.figure.savefig(args.output_figure + '.svg', bbox_inches = "tight")
     print(f'Wrote {args.output_figure}.png and {args.output_figure}.svg')
