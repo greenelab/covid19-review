@@ -11,12 +11,16 @@ export TZ=Etc/UTC
 # Default Python to read/write text files using UTF-8 encoding
 export LC_ALL=en_US.UTF-8
 
+# Log the external-resources commit used when building the manuscript
+EXTERNAL_RESOURCES_COMMIT=$(curl -sS https://api.github.com/repos/greenelab/covid19-review/branches/external-resources | python -c "import sys, json; print(json.load(sys.stdin)['commit']['sha'])")
+echo >&2 "Using external-resources commit $EXTERNAL_RESOURCES_COMMIT"
+
 # Generate reference information
 echo >&2 "Retrieving and processing reference metadata"
 manubot process \
   --content-directory=content \
   --output-directory=output \
-  --template-variables-path=https://github.com/greenelab/covid19-review/raw/external-resources/csse/csse-stats.json \
+  --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/csse/csse-stats.json \
   --cache-directory=ci/cache \
   --skip-citations \
   --log-level=INFO
