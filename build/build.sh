@@ -16,7 +16,7 @@ echo >&2 "Retrieving and processing reference metadata"
 manubot process \
   --content-directory=content \
   --output-directory=output \
-  --template-variables-path=content/csse/csse-stats.json \
+  --template-variables-path=https://github.com/greenelab/covid19-review/raw/external-resources/csse/csse-stats.json \
   --cache-directory=ci/cache \
   --skip-citations \
   --log-level=INFO
