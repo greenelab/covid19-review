@@ -31,7 +31,7 @@
         [
           "2020",
           6,
-          15
+          18
         ]
       ]
     }
@@ -68,7 +68,7 @@
         [
           "2020",
           6,
-          15
+          18
         ]
       ]
     }
@@ -105,7 +105,7 @@
         [
           "2020",
           6,
-          15
+          18
         ]
       ]
     }
@@ -142,7 +142,7 @@
         [
           "2020",
           6,
-          15
+          18
         ]
       ]
     }
@@ -179,7 +179,7 @@
         [
           "2020",
           6,
-          15
+          18
         ]
       ]
     }
@@ -216,7 +216,7 @@
         [
           "2020",
           6,
-          15
+          18
         ]
       ]
     }
@@ -253,7 +253,7 @@
         [
           "2020",
           6,
-          15
+          18
         ]
       ]
     }
@@ -290,7 +290,7 @@
         [
           "2020",
           6,
-          15
+          18
         ]
       ]
     }
@@ -327,7 +327,7 @@
         [
           "2020",
           6,
-          15
+          18
         ]
       ]
     }
@@ -363,7 +363,7 @@
         [
           "2020",
           6,
-          15
+          18
         ]
       ]
     }
@@ -400,7 +400,7 @@
         [
           "2020",
           6,
-          15
+          18
         ]
       ]
     }
@@ -427,8 +427,8 @@
       "date-parts": [
         [
           "2020",
-          5,
-          29
+          6,
+          17
         ]
       ]
     },
@@ -437,7 +437,7 @@
         [
           "2020",
           6,
-          15
+          18
         ]
       ]
     }
@@ -474,7 +474,7 @@
         [
           "2020",
           6,
-          15
+          18
         ]
       ]
     }
@@ -511,7 +511,7 @@
         [
           "2020",
           6,
-          15
+          18
         ]
       ]
     }
@@ -2429,12 +2429,14 @@
       "date-parts": [
         [
           2020,
-          3
+          7
         ]
       ]
     },
     "container-title": "Brain, Behavior, and Immunity",
     "DOI": "10.1016/j.bbi.2020.03.031",
+    "volume": "87",
+    "page": "18-22",
     "publisher": "Elsevier BV",
     "title": "Nervous system involvement after infection with COVID-19 and other coronaviruses",
     "URL": "https://doi.org/ggq7s2",
@@ -2624,12 +2626,13 @@
       "date-parts": [
         [
           2020,
-          3
+          7
         ]
       ]
     },
     "container-title": "Biotechnology Advances",
     "DOI": "10.1016/j.biotechadv.2020.107537",
+    "volume": "41",
     "page": "107537",
     "publisher": "Elsevier BV",
     "title": "Library preparation for next generation sequencing: A review of automation strategies",
@@ -4215,12 +4218,15 @@
       "date-parts": [
         [
           2020,
-          5
+          6
         ]
       ]
     },
     "container-title": "Immunity",
     "DOI": "10.1016/j.immuni.2020.05.002",
+    "volume": "52",
+    "issue": "6",
+    "page": "910-941",
     "publisher": "Elsevier BV",
     "title": "Immunology of COVID-19: Current State of the Science",
     "URL": "https://doi.org/ggt54g",
@@ -13933,10 +13939,6 @@
         "given": "Yuhui"
       },
       {
-        "family": "Zhang",
-        "given": "Liling"
-      },
-      {
         "family": "Ma",
         "given": "Hong"
       },
@@ -13954,7 +13956,19 @@
       },
       {
         "family": "Zhang",
-        "given": "Xiaoyu"
+        "given": "Xiaoyun"
+      },
+      {
+        "family": "Zhao",
+        "given": "Yanxia"
+      },
+      {
+        "family": "Xia",
+        "given": "Zihan"
+      },
+      {
+        "family": "Zhang",
+        "given": "Liling"
       },
       {
         "family": "Wu",
@@ -13970,15 +13984,15 @@
         [
           2020,
           3,
-          6
+          10
         ]
       ]
     },
-    "abstract": "Abstract. Background: The outbreak of coronavirus disease 2019 (COVID-19) in Wuhan City, China spreads rapidly since December, 2019. Most patients show mild symptoms, but some of them develop into severe disease. There is currently no specific medication. The purpose of this study is to explore changes of markers in peripheral blood of severe COVID-19 patients, which may be of value in disease monitoring. Methods: Clinical data of patients with nonsevere and severe type COVID-19 diagnosed by laboratory test in our institution were collected. The relationship between peripheral blood cells and cytokines, clinical manifestation and outcome was analyzed. Results: A total of 69 severe type COVID-19 patients were included. On admission, the median age of severe cases was 56-year old, with 52.17% of female patient. The most common symptoms were fever (79.72%), coughing (63.77%), shortness of breath (57.97%) and fatigue (50.72%). Diarrhea is less common. The most common comorbidity is hypertension. Upon admission, the proportion of bilateral pulmonary involvement or interstitial pneumonia evidenced by CT imaging in severe cases was 60.87% and 27.54%, respectively. Compared with patients with nonsevere disease, those with severe disease showed lymphocytopenia. Elevated level of lactate dehydrogenase (LDH), C-reactive protein (CRP), ferritin and D-dimer was found in most cases. Two patients (2.9%) needed transfer to the intensive care unit. Baseline immunological parameters and most of the inflammatory parameters were basically within the normal range. However, baseline IL-6 was significantly increased in severe type which is closely related to the maximal body temperature during hospitalization and CT findings. Baseline IL-6 was also significantly related to the increase of baseline level of CRP, LDH, ferritin and D-dimer. The increase of baseline IL-6 level suggests that it may positively correlate with the severity of COVID-19. Among the 30 severe type patient whose level of IL-6 was assessed before and after treatment, significant decrease in IL-6 and improved CT assessment was found in 25 patients after treatment. Whereas the IL-6 level was further increased in 3 cases, which was closely related to the progression of pneumonia. It is suggested that IL-6 may be used as a biomarker for disease monitoring in severe COVID-19 patients. Conclusion: On admission, the baseline level of IL-6, CRP, LDH and ferritin was closely related to the severity of COVID-19, and the high level of IL-6 was significantly related to the clinical manifestation of severe type patients. The decrease of IL-6 was closely related to treatment effectiveness, while the increase of IL-6 indicated disease progression. Collectively, the dynamic change of IL-6 level can be used as a marker for disease monitoring in patients with severe COVID-19.",
+    "abstract": "Abstract. Background: The outbreak of coronavirus disease 2019 (COVID-19) in Wuhan City, China spreads rapidly since December, 2019. Most patients show mild symptoms, but some of them develop into severe disease. There is currently no specific medication. The purpose of this study is to to explore changes of markers in peripheral blood of severe COVID-19 patients, which may be of value in disease monitoring. Methods Clinical data of patients with nonsevere and severe type COVID-19 diagnosed by laboratory test in our institution were collected. The relationship between peripheral blood cells and cytokines, clinical manifestation and outcome was analyzed. Results A total of 69 severe type COVID-19 patients were included. On admission, the median age of severe cases was 56-year old, with 52.17% female patient. The most common symptoms were fever (79.72%), cough (63.77%), shortness of breath (57.97%) and fatigue (50.72%). Diarrhea is less common. The most common comorbidity is hypertension. Upon admission, the proportion of bilateral pulmonary involvement and interstitial abnormalities evidenced by chest computed tomography (CT) imaging in severe cases was 60.87% and 27.54%, respectively. Compared with patients with nonsevere disease, those with severe disease showed obvious lymphocytopenia. Elevated level of lactate dehydrogenase (LDH), C-reactive protein (CRP), ferritin and D-dimer was found in most cases. Two patients (2.9%) needed transfer to the intensive care unit. Baseline immunological parameters and most of the inflammatory parameters were basically within the normal range. However, baseline interleukin-6 (IL-6) was significantly increased in severe type, which was closely related to the maximal body temperature during hospitalization and to CT findings. Baseline IL-6 was also significantly related to the increase of baseline level of CRP, LDH, ferritin and D-dimer. The increase of baseline IL-6 level suggests that it may positively correlate with the severity of COVID-19. Among the 30 severe type patients whose IL-6 was assessed before and after treatment, significant decrease in IL-6 and improved CT assessment was found in 25 patients after treatment. Whereas the IL-6 level was further increased in 3 cases, which was closely related to disease progression. It is suggested that IL-6 may be used as a marker for disease monitoring in severe COVID-19 patients. Conclusions On admission, the baseline level of IL-6, CRP, LDH and ferritin was closely related to the severity of COVID-19, and the elevated IL-6 was significantly related to the clinical manifestation of severe type patients. The decrease of IL-6 was closely related to treatment effectiveness, while the increase of IL-6 indicated disease exacerbation. Collectively, the dynamic change of IL-6 level can be used as a marker for disease monitoring in patients with severe COVID-19.",
     "container-title": "medRxiv",
     "DOI": "10.1101/2020.03.01.20029769",
     "publisher": "medRxiv",
-    "title": "The potential role of IL-6 in monitoring coronavirus disease 2019.",
+    "title": "The potential role of IL-6 in monitoring severe case of coronavirus disease 2019",
     "URL": "https://doi.org/ggq635",
     "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: doi:10.1101/2020.03.01.20029769"
   },
@@ -22715,15 +22729,14 @@
         [
           2020,
           5,
-          29
+          11
         ]
       ]
     },
+    "abstract": "A public-private partnership and platform for harmonized clinical trials aims to accelerate licensure and distribution.",
     "container-title": "Science",
     "DOI": "10.1126/science.abc5312",
-    "volume": "368",
-    "issue": "6494",
-    "page": "948-950",
+    "page": "eabc5312",
     "publisher": "American Association for the Advancement of Science (AAAS)",
     "title": "A strategic approach to COVID-19 vaccine R&amp;D",
     "URL": "https://doi.org/ggwfck",
@@ -27664,6 +27677,7 @@
     "publisher": "MDPI AG",
     "title": "25-Hydroxyvitamin D Concentrations Are Lower in Patients with Positive PCR for SARS-CoV-2",
     "URL": "https://doi.org/ggvv76",
+    "PMCID": "PMC7285131",
     "PMID": "32397511",
     "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: doi:10.3390/nu12051359"
   },
@@ -28679,7 +28693,7 @@
         [
           "2020",
           6,
-          16
+          20
         ]
       ]
     },
@@ -28695,7 +28709,7 @@
         [
           "2020",
           6,
-          16
+          20
         ]
       ]
     },
@@ -28752,7 +28766,7 @@
         [
           "2020",
           6,
-          16
+          20
         ]
       ]
     },
@@ -28770,7 +28784,7 @@
         [
           "2020",
           6,
-          16
+          20
         ]
       ]
     },
@@ -28781,6 +28795,30 @@
     "type": "webpage",
     "id": "8tuFi6P7",
     "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://escholarship.umassmed.edu/cgi/viewcontent.cgi?article"
+  },
+  {
+    "id": "MrwDDw9R",
+    "type": "webpage",
+    "title": "COVID-19 Data Repository",
+    "container-title": "GitHub",
+    "abstract": "Novel Coronavirus (COVID-19) Cases, provided by JHU CSSE - CSSEGISandData/COVID-19",
+    "URL": "https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series",
+    "language": "en",
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          6,
+          19
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "Center for Systems Science and Engineering at Johns Hopkins University"
+      }
+    ],
+    "note": "This CSL JSON Item was loaded by Manubot v0.3.1 from a manual reference file.\nmanual_reference_filename: manual-references.json\noriginal_id: https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series\noriginal_standard_id: https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series\nstandard_id: url:https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series"
   },
   {
     "URL": "https://github.com/parksw3/Korea-analysis/blob/master/v1/korea.pdf",
@@ -28842,7 +28880,7 @@
         [
           "2020",
           6,
-          16
+          20
         ]
       ]
     },
@@ -28859,7 +28897,7 @@
         [
           "2020",
           6,
-          16
+          20
         ]
       ]
     },
@@ -28876,7 +28914,7 @@
         [
           "2020",
           6,
-          16
+          20
         ]
       ]
     },
@@ -28893,7 +28931,7 @@
         [
           "2020",
           6,
-          16
+          20
         ]
       ]
     },
@@ -28918,7 +28956,7 @@
         [
           "2020",
           6,
-          16
+          20
         ]
       ]
     },
@@ -28952,7 +28990,7 @@
         [
           "2020",
           6,
-          16
+          20
         ]
       ]
     },
@@ -28986,7 +29024,7 @@
         [
           "2020",
           6,
-          16
+          20
         ]
       ]
     },
@@ -29011,7 +29049,7 @@
         [
           "2020",
           6,
-          1
+          16
         ]
       ]
     },
@@ -29020,7 +29058,7 @@
         [
           "2020",
           6,
-          16
+          20
         ]
       ]
     },
@@ -29054,7 +29092,7 @@
         [
           "2020",
           6,
-          16
+          20
         ]
       ]
     },
@@ -29085,7 +29123,7 @@
         [
           "2020",
           6,
-          16
+          20
         ]
       ]
     },
@@ -29101,7 +29139,7 @@
         [
           "2020",
           6,
-          16
+          20
         ]
       ]
     },
@@ -29118,7 +29156,7 @@
         [
           "2020",
           6,
-          16
+          20
         ]
       ]
     },
@@ -29175,7 +29213,7 @@
         [
           "2020",
           6,
-          16
+          20
         ]
       ]
     },
@@ -29210,7 +29248,7 @@
         [
           "2020",
           6,
-          16
+          20
         ]
       ]
     },
@@ -29238,7 +29276,7 @@
         [
           "2020",
           6,
-          16
+          20
         ]
       ]
     },
@@ -29262,7 +29300,7 @@
         [
           "2020",
           6,
-          16
+          20
         ]
       ]
     },
@@ -29287,7 +29325,7 @@
         [
           "2020",
           6,
-          16
+          20
         ]
       ]
     },
@@ -29305,7 +29343,7 @@
         [
           "2020",
           6,
-          16
+          20
         ]
       ]
     },
@@ -29349,7 +29387,7 @@
         [
           "2020",
           6,
-          16
+          20
         ]
       ]
     },
@@ -29368,7 +29406,7 @@
         [
           "2020",
           6,
-          16
+          20
         ]
       ]
     },
@@ -29414,7 +29452,7 @@
         [
           "2020",
           6,
-          16
+          20
         ]
       ]
     },
@@ -29433,7 +29471,7 @@
         [
           "2020",
           6,
-          16
+          20
         ]
       ]
     },
@@ -29458,7 +29496,7 @@
         [
           "2020",
           6,
-          16
+          20
         ]
       ]
     },
@@ -29475,7 +29513,7 @@
         [
           "2020",
           6,
-          16
+          20
         ]
       ]
     },
