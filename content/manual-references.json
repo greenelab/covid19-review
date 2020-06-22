@@ -18,5 +18,28 @@
       "family": "Himmelstein"
     }
   ]
+},
+{
+  "id": "https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series",
+  "type": "webpage",
+  "title": "COVID-19 Data Repository",
+  "container-title": "GitHub",
+  "abstract": "Novel Coronavirus (COVID-19) Cases, provided by JHU CSSE - CSSEGISandData/COVID-19",
+  "URL": "https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series",
+  "language": "en",
+  "accessed": {
+    "date-parts": [
+      [
+        "2020",
+        6,
+        19
+      ]
+    ]
+  },
+  "author": [
+    {
+      "literal": "Center for Systems Science and Engineering at Johns Hopkins University"
+    }
+  ]
 }
 ]
