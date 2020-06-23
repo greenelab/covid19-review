@@ -40,6 +40,8 @@ anthonygitter
 anticorrelated
 antifungal
 antiphospholipid
+antiplatelet
+antithrombotic
 ApoA
 ARB
 ARBs
@@ -81,6 +83,7 @@ Bian
 bilayer
 bioavailabilty
 bioavailable
+Biobank
 Bioinformatic
 Bioinformatics
 biolayer
@@ -157,6 +160,7 @@ citrate
 clade
 CLDN
 Clin
+clinicaltrials
 clonality
 Clonally
 CMV
@@ -203,6 +207,7 @@ CRS
 CRSL
 Cryo
 CSF
+csse
 CTACK
 CTan
 CTL
@@ -252,6 +257,7 @@ differentially
 dihydroxyvitamin
 DiMaio
 dimerization
+dimorphism
 Discotope
 Disulfiram
 docosahexaenoic
@@ -259,6 +265,7 @@ doi
 downregulated
 dPCR
 Drosten
+DSHEA
 dsRNA
 Duan
 ductal
@@ -272,6 +279,7 @@ ECMO
 ectodomain
 EF
 effector
+EFSA
 eg
 eGFR
 eicosapentaenoic
@@ -301,6 +309,7 @@ epithelia
 epitope
 epitopes
 eq
+erythematosus
 esell
 et
 Etanercept
@@ -388,6 +397,7 @@ HBV
 HCoV
 HCoVs
 HCQ
+HCQ's
 HCV
 HD
 HDAC
@@ -482,6 +492,8 @@ immunosuppressive
 incr
 infectable
 infectivity
+infodemic
+infodemics
 injectate
 INO
 Inovio
@@ -508,6 +520,7 @@ intratracheally
 intubated
 intubation
 invasively
+investigational
 ionophores
 IPF
 IQR
@@ -589,6 +602,8 @@ lysosomotropic
 mAb
 mAbs
 MacLean
+macrolide
+macrolides
 Macromolecular
 macromolecules
 Macrophage
@@ -665,6 +680,7 @@ myalgia
 Mycobacterium
 myeloma
 MZ
+NaCl
 Nafisa
 nafisajadavji
 nanoparticle
@@ -756,6 +772,7 @@ permeabilize
 Pfaender
 pfu
 phagocytosed
+phagocytosis
 pharmacodynamic
 phenotypes
 phenotypic
@@ -812,6 +829,7 @@ PRNT
 Procalcitonin
 profibrotic
 proinflammatory
+prophylactically
 propogates
 proresolving
 protease
@@ -825,6 +843,7 @@ proteolytic
 proteome
 proteomic
 proteomics
+prothrombotic
 protomer
 protomers
 protonated
@@ -1043,9 +1062,11 @@ trimeric
 trimerization
 troponin
 TTCR
+Tübingen
 TUNEL
 turbinate
 ubadult
+UC
 UCI
 Umefinovir
 umifenovir
@@ -1071,6 +1092,8 @@ Venu
 Vero
 VeroE
 VH
+Vikas
+VikasBansal
 Villanova
 ViPR
 virally
