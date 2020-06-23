@@ -521,7 +521,7 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-05-26
- -
+  -
     github: scapone01
     name: Stephen Capone
     initials: SC
