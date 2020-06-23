@@ -31,7 +31,7 @@
         [
           "2020",
           6,
-          18
+          22
         ]
       ]
     }
@@ -68,7 +68,7 @@
         [
           "2020",
           6,
-          18
+          22
         ]
       ]
     }
@@ -105,7 +105,7 @@
         [
           "2020",
           6,
-          18
+          22
         ]
       ]
     }
@@ -142,7 +142,7 @@
         [
           "2020",
           6,
-          18
+          22
         ]
       ]
     }
@@ -179,7 +179,7 @@
         [
           "2020",
           6,
-          18
+          22
         ]
       ]
     }
@@ -216,7 +216,7 @@
         [
           "2020",
           6,
-          18
+          22
         ]
       ]
     }
@@ -253,7 +253,7 @@
         [
           "2020",
           6,
-          18
+          22
         ]
       ]
     }
@@ -290,7 +290,7 @@
         [
           "2020",
           6,
-          18
+          22
         ]
       ]
     }
@@ -327,7 +327,7 @@
         [
           "2020",
           6,
-          18
+          22
         ]
       ]
     }
@@ -363,7 +363,7 @@
         [
           "2020",
           6,
-          18
+          22
         ]
       ]
     }
@@ -400,7 +400,7 @@
         [
           "2020",
           6,
-          18
+          22
         ]
       ]
     }
@@ -437,7 +437,7 @@
         [
           "2020",
           6,
-          18
+          22
         ]
       ]
     }
@@ -474,7 +474,7 @@
         [
           "2020",
           6,
-          18
+          22
         ]
       ]
     }
@@ -511,7 +511,7 @@
         [
           "2020",
           6,
-          18
+          22
         ]
       ]
     }
@@ -1805,6 +1805,9 @@
     },
     "container-title": "Cancer and Metastasis Reviews",
     "DOI": "10.1007/s10555-020-09889-4",
+    "volume": "39",
+    "issue": "2",
+    "page": "337-340",
     "publisher": "Springer Science and Business Media LLC",
     "title": "Inflammation resolution: a dual-pronged approach to averting cytokine storms in COVID-19?",
     "URL": "https://doi.org/ggvv7w",
@@ -6479,8 +6482,8 @@
       "date-parts": [
         [
           2020,
-          2,
-          19
+          6,
+          3
         ]
       ]
     },
@@ -13651,12 +13654,20 @@
         "given": "Manman"
       },
       {
+        "family": "Yu",
+        "given": "Pengfei"
+      },
+      {
         "family": "Zheng",
         "given": "Sujun"
       },
       {
         "family": "Duan",
         "given": "Zhongping"
+      },
+      {
+        "family": "Liu",
+        "given": "Jing"
       },
       {
         "family": "Chen",
@@ -13672,15 +13683,15 @@
         [
           2020,
           3,
-          3
+          10
         ]
       ]
     },
-    "abstract": "Aim: Coronavirus disease 2019 (COVID-19) has rapidly become the most severe public health issue all over the world. Despite acute respiratory failure, liver dysfunction has also been observed in clinical settings This study aimed to investigate the factors involved with hepatic injury in COVID-19 patients. Methods: A total of 26 hospitalized patients who were diagnosed with COVID-19 treated at Beijing Youan Hospital were retrospectively analyzed. According to the diagnostic criteria, they were divided into mild group (n=3), ordinary group (n=6), serious group (n=11) and critical group (n=6). Blood count, blood chemistry, coagulation test, liver and renal function, C-reactive protein, procalcitonin, lactic acid, cardiac markers and arterial partial pressure was compared between these groups. Independent risk factors of ALT increase was selected. Results:There were 8 patients with ALT elevation in the patients with COVID-19, accounting for 30.8% (8/26). There was no difference in sex ratio between normal and elevated ALT population, and there was an increasing trend in age. The CRP index was significantly higher in the population with elevated ALT, and the increase of CRP was independently related to ALT level, and the OR value was 1.023 (P = 0.024). Conclusions: COVID-19 related hepatic injury may be a result of cytokine storm syndrome, a positive correlative relationship between the increase of CRP and liver injury. Early detection and timely treatment of hepatic injury is necessary.",
+    "abstract": "Aims: Corona virus disease 2019 (COVID-19) has rapidly become the most severe public health issue all over the world. Despite respiratory symptoms, hepatic injury has also been observed in clinical settings. This study aimed to investigate the risk factors involved with hepatic injury in the patients with COVID-19. Methods: A total of 85 hospitalized patients who were diagnosed with COVID-19 in Beijing Youan Hospital were retrospectively analyzed. According to liver function, they were divided into ALT normal group (n=52) and ALT elevation group (n=33). Clinical features and laboratory data were compared between the two groups. The independent risk factors for liver injury were analyzed. Results: There were 33 patients with hepatic injury in our study, accounting for 38.8% (33/85). The patients in ALT elevation group were older than those in ALT normal group. The levels of lactic acid, CRP, myoglobin, and neutrophils were significantly higher in ALT elevation group. The lymphocytes and albumin were significantly lower in ALT elevation group. The proportion of severe and critical patients in ALT elevation group was significantly higher. Multivariate logistic regression analysis showed CRP ≥20 mg/L and lymphocyte count&lt; 1.1*10^9/L were independently related to hepatic injury. Conclusions: Lymphopenia and CRP may serve as the risk factors related to hepatic injury in patients with COVID-19, which might be related to inflammatory cytokine storm in liver injury. Early detection and timely treatment of hepatic injury in patients with COVID-19 are necessary.",
     "container-title": "medRxiv",
     "DOI": "10.1101/2020.02.28.20028514",
     "publisher": "medRxiv",
-    "title": "The level of plasma C-reactive protein is closely related to the liver injury in patients with COVID-19",
+    "title": "Risk factors related to hepatic injury in patients with corona virus disease 2019",
     "URL": "https://doi.org/ggq632",
     "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: doi:10.1101/2020.02.28.20028514"
   },
@@ -13939,6 +13950,10 @@
         "given": "Yuhui"
       },
       {
+        "family": "Zhang",
+        "given": "Liling"
+      },
+      {
         "family": "Ma",
         "given": "Hong"
       },
@@ -13956,19 +13971,7 @@
       },
       {
         "family": "Zhang",
-        "given": "Xiaoyun"
-      },
-      {
-        "family": "Zhao",
-        "given": "Yanxia"
-      },
-      {
-        "family": "Xia",
-        "given": "Zihan"
-      },
-      {
-        "family": "Zhang",
-        "given": "Liling"
+        "given": "Xiaoyu"
       },
       {
         "family": "Wu",
@@ -13984,15 +13987,15 @@
         [
           2020,
           3,
-          10
+          6
         ]
       ]
     },
-    "abstract": "Abstract. Background: The outbreak of coronavirus disease 2019 (COVID-19) in Wuhan City, China spreads rapidly since December, 2019. Most patients show mild symptoms, but some of them develop into severe disease. There is currently no specific medication. The purpose of this study is to to explore changes of markers in peripheral blood of severe COVID-19 patients, which may be of value in disease monitoring. Methods Clinical data of patients with nonsevere and severe type COVID-19 diagnosed by laboratory test in our institution were collected. The relationship between peripheral blood cells and cytokines, clinical manifestation and outcome was analyzed. Results A total of 69 severe type COVID-19 patients were included. On admission, the median age of severe cases was 56-year old, with 52.17% female patient. The most common symptoms were fever (79.72%), cough (63.77%), shortness of breath (57.97%) and fatigue (50.72%). Diarrhea is less common. The most common comorbidity is hypertension. Upon admission, the proportion of bilateral pulmonary involvement and interstitial abnormalities evidenced by chest computed tomography (CT) imaging in severe cases was 60.87% and 27.54%, respectively. Compared with patients with nonsevere disease, those with severe disease showed obvious lymphocytopenia. Elevated level of lactate dehydrogenase (LDH), C-reactive protein (CRP), ferritin and D-dimer was found in most cases. Two patients (2.9%) needed transfer to the intensive care unit. Baseline immunological parameters and most of the inflammatory parameters were basically within the normal range. However, baseline interleukin-6 (IL-6) was significantly increased in severe type, which was closely related to the maximal body temperature during hospitalization and to CT findings. Baseline IL-6 was also significantly related to the increase of baseline level of CRP, LDH, ferritin and D-dimer. The increase of baseline IL-6 level suggests that it may positively correlate with the severity of COVID-19. Among the 30 severe type patients whose IL-6 was assessed before and after treatment, significant decrease in IL-6 and improved CT assessment was found in 25 patients after treatment. Whereas the IL-6 level was further increased in 3 cases, which was closely related to disease progression. It is suggested that IL-6 may be used as a marker for disease monitoring in severe COVID-19 patients. Conclusions On admission, the baseline level of IL-6, CRP, LDH and ferritin was closely related to the severity of COVID-19, and the elevated IL-6 was significantly related to the clinical manifestation of severe type patients. The decrease of IL-6 was closely related to treatment effectiveness, while the increase of IL-6 indicated disease exacerbation. Collectively, the dynamic change of IL-6 level can be used as a marker for disease monitoring in patients with severe COVID-19.",
+    "abstract": "Abstract. Background: The outbreak of coronavirus disease 2019 (COVID-19) in Wuhan City, China spreads rapidly since December, 2019. Most patients show mild symptoms, but some of them develop into severe disease. There is currently no specific medication. The purpose of this study is to explore changes of markers in peripheral blood of severe COVID-19 patients, which may be of value in disease monitoring. Methods: Clinical data of patients with nonsevere and severe type COVID-19 diagnosed by laboratory test in our institution were collected. The relationship between peripheral blood cells and cytokines, clinical manifestation and outcome was analyzed. Results: A total of 69 severe type COVID-19 patients were included. On admission, the median age of severe cases was 56-year old, with 52.17% of female patient. The most common symptoms were fever (79.72%), coughing (63.77%), shortness of breath (57.97%) and fatigue (50.72%). Diarrhea is less common. The most common comorbidity is hypertension. Upon admission, the proportion of bilateral pulmonary involvement or interstitial pneumonia evidenced by CT imaging in severe cases was 60.87% and 27.54%, respectively. Compared with patients with nonsevere disease, those with severe disease showed lymphocytopenia. Elevated level of lactate dehydrogenase (LDH), C-reactive protein (CRP), ferritin and D-dimer was found in most cases. Two patients (2.9%) needed transfer to the intensive care unit. Baseline immunological parameters and most of the inflammatory parameters were basically within the normal range. However, baseline IL-6 was significantly increased in severe type which is closely related to the maximal body temperature during hospitalization and CT findings. Baseline IL-6 was also significantly related to the increase of baseline level of CRP, LDH, ferritin and D-dimer. The increase of baseline IL-6 level suggests that it may positively correlate with the severity of COVID-19. Among the 30 severe type patient whose level of IL-6 was assessed before and after treatment, significant decrease in IL-6 and improved CT assessment was found in 25 patients after treatment. Whereas the IL-6 level was further increased in 3 cases, which was closely related to the progression of pneumonia. It is suggested that IL-6 may be used as a biomarker for disease monitoring in severe COVID-19 patients. Conclusion: On admission, the baseline level of IL-6, CRP, LDH and ferritin was closely related to the severity of COVID-19, and the high level of IL-6 was significantly related to the clinical manifestation of severe type patients. The decrease of IL-6 was closely related to treatment effectiveness, while the increase of IL-6 indicated disease progression. Collectively, the dynamic change of IL-6 level can be used as a marker for disease monitoring in patients with severe COVID-19.",
     "container-title": "medRxiv",
     "DOI": "10.1101/2020.03.01.20029769",
     "publisher": "medRxiv",
-    "title": "The potential role of IL-6 in monitoring severe case of coronavirus disease 2019",
+    "title": "The potential role of IL-6 in monitoring coronavirus disease 2019.",
     "URL": "https://doi.org/ggq635",
     "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: doi:10.1101/2020.03.01.20029769"
   },
@@ -22729,14 +22732,15 @@
         [
           2020,
           5,
-          11
+          29
         ]
       ]
     },
-    "abstract": "A public-private partnership and platform for harmonized clinical trials aims to accelerate licensure and distribution.",
     "container-title": "Science",
     "DOI": "10.1126/science.abc5312",
-    "page": "eabc5312",
+    "volume": "368",
+    "issue": "6494",
+    "page": "948-950",
     "publisher": "American Association for the Advancement of Science (AAAS)",
     "title": "A strategic approach to COVID-19 vaccine R&amp;D",
     "URL": "https://doi.org/ggwfck",
@@ -28693,7 +28697,7 @@
         [
           "2020",
           6,
-          20
+          23
         ]
       ]
     },
@@ -28709,7 +28713,7 @@
         [
           "2020",
           6,
-          20
+          23
         ]
       ]
     },
@@ -28766,7 +28770,7 @@
         [
           "2020",
           6,
-          20
+          23
         ]
       ]
     },
@@ -28784,7 +28788,7 @@
         [
           "2020",
           6,
-          20
+          23
         ]
       ]
     },
@@ -28880,7 +28884,7 @@
         [
           "2020",
           6,
-          20
+          23
         ]
       ]
     },
@@ -28897,7 +28901,7 @@
         [
           "2020",
           6,
-          20
+          23
         ]
       ]
     },
@@ -28914,7 +28918,7 @@
         [
           "2020",
           6,
-          20
+          23
         ]
       ]
     },
@@ -28931,7 +28935,7 @@
         [
           "2020",
           6,
-          20
+          23
         ]
       ]
     },
@@ -28956,7 +28960,7 @@
         [
           "2020",
           6,
-          20
+          23
         ]
       ]
     },
@@ -28990,7 +28994,7 @@
         [
           "2020",
           6,
-          20
+          23
         ]
       ]
     },
@@ -29024,7 +29028,7 @@
         [
           "2020",
           6,
-          20
+          23
         ]
       ]
     },
@@ -29058,7 +29062,7 @@
         [
           "2020",
           6,
-          20
+          23
         ]
       ]
     },
@@ -29092,7 +29096,7 @@
         [
           "2020",
           6,
-          20
+          23
         ]
       ]
     },
@@ -29123,7 +29127,7 @@
         [
           "2020",
           6,
-          20
+          23
         ]
       ]
     },
@@ -29139,7 +29143,7 @@
         [
           "2020",
           6,
-          20
+          23
         ]
       ]
     },
@@ -29156,7 +29160,7 @@
         [
           "2020",
           6,
-          20
+          23
         ]
       ]
     },
@@ -29213,7 +29217,7 @@
         [
           "2020",
           6,
-          20
+          23
         ]
       ]
     },
@@ -29248,7 +29252,7 @@
         [
           "2020",
           6,
-          20
+          23
         ]
       ]
     },
@@ -29276,7 +29280,7 @@
         [
           "2020",
           6,
-          20
+          23
         ]
       ]
     },
@@ -29300,7 +29304,7 @@
         [
           "2020",
           6,
-          20
+          23
         ]
       ]
     },
@@ -29325,7 +29329,7 @@
         [
           "2020",
           6,
-          20
+          23
         ]
       ]
     },
@@ -29343,7 +29347,7 @@
         [
           "2020",
           6,
-          20
+          23
         ]
       ]
     },
@@ -29387,7 +29391,7 @@
         [
           "2020",
           6,
-          20
+          23
         ]
       ]
     },
@@ -29406,7 +29410,7 @@
         [
           "2020",
           6,
-          20
+          23
         ]
       ]
     },
@@ -29452,7 +29456,7 @@
         [
           "2020",
           6,
-          20
+          23
         ]
       ]
     },
@@ -29471,7 +29475,7 @@
         [
           "2020",
           6,
-          20
+          23
         ]
       ]
     },
@@ -29496,7 +29500,7 @@
         [
           "2020",
           6,
-          20
+          23
         ]
       ]
     },
@@ -29513,7 +29517,7 @@
         [
           "2020",
           6,
-          20
+          23
         ]
       ]
     },
