@@ -542,8 +542,24 @@ authors:
     email: scapone01@gmail.com
     contributions:
       - Writing - Review & Editing
+      - Writing - Original Draft
     affiliations:
-      - St. George's University School of Medicine
+      - St. George's University School of Medicine, St. George's, Grenada
+    code of conduct:
+      confirmed: yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-06-23
+  -
+    github: dziakj1
+    name: John J. Dziak
+    initials: JJD
+    orcid: 0000-0003-0762-5495
+    email: dziakj1@gmail.com
+    contributions:
+      - Writing - Original Draft
+    affiliations:
+      - Edna Bennett Pierce Prevention Research Center, The Pennsylvania State University, University Park, PA, United States of America
     code of conduct:
       confirmed: yes
     coi:
