@@ -21,8 +21,8 @@ def main(args):
 
     if('CSSE_COMMIT' in os.environ):
         csse_stats['csse_commit'] = os.environ['CSSE_COMMIT']
-
-    deaths_df = pd.read_csv(args.input_csv)
+    print('args:', args)
+    deaths_df = pd.read_csv(args["input_csv"])
     # The last column is the most recent date with data
     latest_deaths = deaths_df[deaths_df.columns[-1]]
     csse_stats['csse_date_pretty'] = convert_date(latest_deaths.name)
@@ -30,21 +30,31 @@ def main(args):
     csse_stats['csse_deaths'] = f'{total_deaths:,}'
 
     deaths_df = deaths_df.drop(columns=['Province/State', 'Country/Region', 'Lat', 'Long'])
-    deaths_df = deaths_df.rename(columns=convert_date)
+    
     cumulative_deaths = deaths_df.sum(axis=0)
+    cumulative_deaths.index = pd.to_datetime(cumulative_deaths.index)
+    
     ax = cumulative_deaths.plot(kind='line')
     ax.set_ylabel('Global COVID-19 deaths')
-    ax.set_xticklabels(ax.get_xticklabels(), rotation=45, ha='right')
-    ax.figure.savefig(args.output_figure + '.png', bbox_inches = "tight")
-    ax.figure.savefig(args.output_figure + '.svg', bbox_inches = "tight")
-    print(f'Wrote {args.output_figure}.png and {args.output_figure}.svg')
+    ax.get_yaxis().set_major_formatter(matplotlib.ticker.FuncFormatter(lambda x, p: format(int(x), ',')))
+    ax.set_ylim(bottom=0)    
+    ax.spines['top'].set_visible(False)
+    ax.spines['right'].set_visible(False)
+    ax.minorticks_off()
+    ax.grid(color="lightgray")
+    
+    ax.figure.savefig(args["output_figure"] + '.png', bbox_inches = "tight")
+    ax.figure.savefig(args["output_figure"] + '.svg', bbox_inches = "tight")
+
+
+    print(f'Wrote {args["output_figure"]}.png and {args["output_figure"]}.svg')
 
     csse_stats['csse_deaths_figure'] = \
-        f'https://github.com/greenelab/covid19-review/raw/external-resources/{args.output_figure}.svg'
+        f'https://github.com/greenelab/covid19-review/raw/external-resources/{args["output_figure"]}.svg'
 
-    with open(args.output_json, 'w') as out_file:
+    with open(args["output_json"], 'w') as out_file:
         json.dump(csse_stats, out_file, indent=2, sort_keys=True)
-    print(f'Wrote {args.output_json}')
+    print(f'Wrote {args["output_json"]}')
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
