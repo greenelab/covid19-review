@@ -21,7 +21,6 @@ def main(args):
 
     if('CSSE_COMMIT' in os.environ):
         csse_stats['csse_commit'] = os.environ['CSSE_COMMIT']
-    print('args:', args)
     deaths_df = pd.read_csv(args["input_csv"])
     # The last column is the most recent date with data
     latest_deaths = deaths_df[deaths_df.columns[-1]]
@@ -34,7 +33,7 @@ def main(args):
     cumulative_deaths = deaths_df.sum(axis=0)
     cumulative_deaths.index = pd.to_datetime(cumulative_deaths.index)
     
-    ax = cumulative_deaths.plot(kind='line')
+    ax = cumulative_deaths.plot(kind='line', linewidth=2)
     ax.set_ylabel('Global COVID-19 deaths')
     ax.get_yaxis().set_major_formatter(matplotlib.ticker.FuncFormatter(lambda x, p: format(int(x), ',')))
     ax.set_ylim(bottom=0)    
