@@ -62,6 +62,8 @@ axillary
 azithromycin
 BAL
 BALF
+Bansal
+bansalvi
 Bao
 barcoding
 Baric
@@ -81,6 +83,7 @@ Bharath
 BHK
 Bian
 bilayer
+bioactive
 bioavailabilty
 bioavailable
 Biobank
@@ -164,6 +167,8 @@ clinicaltrials
 clonality
 Clonally
 CMV
+coagulative
+coagulopathy
 Colonic
 colonocytes
 colorectal
@@ -253,6 +258,7 @@ dexamethasone
 DHA
 dianerafi
 Dibene
+DIC
 differentially
 dihydroxyvitamin
 DiMaio
@@ -271,6 +277,9 @@ Duan
 ductal
 dyspnea
 dysregulation
+Dziak
+dziakj
+DZNE
 ebolavirus
 EBOV
 Ebselen
@@ -331,6 +340,7 @@ Favipiravir
 FBG
 Fc
 FCN
+FDP
 Fengling
 ferritin
 ferroprotein
@@ -453,6 +463,7 @@ hypoxia
 IAV
 IBD
 IC
+icosapent
 iCre
 ICUs
 IEDB
@@ -517,6 +528,7 @@ intraperitoneal
 intraperitoneally
 intratracheal
 intratracheally
+intravascular
 intubated
 intubation
 invasively
@@ -723,6 +735,7 @@ NLRC
 NLRP
 nonrandomized
 nosocomial
+novo
 NPV
 nsp
 NSPRRARSV
@@ -735,6 +748,7 @@ O’Meara
 OC
 olfaction
 omics
+opacities
 orchitis
 orcid
 Orf
@@ -885,7 +899,6 @@ re
 reactogenicity
 Readme
 recombinant
-redmesivir
 remdesivir
 Renmin
 reopenings
@@ -894,6 +907,7 @@ representativeness
 repressor
 repurpose
 repurposing
+resveratrol
 resolvins
 respirations
 responders
@@ -939,6 +953,7 @@ sarcoidosis
 Sarilumab
 SARSCoV
 scalable
+Scapone
 SCGB
 scRNA
 scRNAseq
@@ -1108,15 +1123,20 @@ vitro
 vivo
 VL
 Vmax
+von
 VSV
+VWF
 WBC
 WBCs
 weakpoints
 Wellhausen
 wikidata
 Wildtype
+Willebrand
 Xu
+Yael
 Yelin
+yemarshall
 YHLO
 yoson
 ypar
