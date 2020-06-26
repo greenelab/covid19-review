@@ -1,9 +1,0 @@
-content/02.introduction.md:115:coagulopathy
-content/02.introduction.md:115:FDP
-content/02.introduction.md:116:DIC
-content/02.introduction.md:116:intravascular
-content/02.introduction.md:118:coagulative
-content/02.introduction.md:118:von
-content/02.introduction.md:118:VWF
-content/02.introduction.md:118:Willebrand
-content/02.introduction.md:126:opacities
