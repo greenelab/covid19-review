@@ -3,6 +3,7 @@ import datetime
 import json
 import os
 import pandas as pd
+import matplotlib
 
 def convert_date(csse_date):
     '''Reformat CSSE style dates (MM/DD/YY) to Month DD, YYYY.
@@ -21,7 +22,7 @@ def main(args):
 
     if('CSSE_COMMIT' in os.environ):
         csse_stats['csse_commit'] = os.environ['CSSE_COMMIT']
-    deaths_df = pd.read_csv(args["input_csv"])
+    deaths_df = pd.read_csv(args.input_csv)
     # The last column is the most recent date with data
     latest_deaths = deaths_df[deaths_df.columns[-1]]
     csse_stats['csse_date_pretty'] = convert_date(latest_deaths.name)
@@ -42,18 +43,18 @@ def main(args):
     ax.minorticks_off()
     ax.grid(color="lightgray")
     
-    ax.figure.savefig(args["output_figure"] + '.png', bbox_inches = "tight")
-    ax.figure.savefig(args["output_figure"] + '.svg', bbox_inches = "tight")
+    ax.figure.savefig(args.output_figure + '.png', bbox_inches = "tight")
+    ax.figure.savefig(args.output_figure + '.svg', bbox_inches = "tight")
 
 
-    print(f'Wrote {args["output_figure"]}.png and {args["output_figure"]}.svg')
+    print(f'Wrote {args.output_figure}.png and {args.output_figure}.svg')
 
     csse_stats['csse_deaths_figure'] = \
-        f'https://github.com/greenelab/covid19-review/raw/external-resources/{args["output_figure"]}.svg'
+        f'https://github.com/greenelab/covid19-review/raw/external-resources/{args.output_figure}.svg'
 
-    with open(args["output_json"], 'w') as out_file:
+    with open(args.output_json, 'w') as out_file:
         json.dump(csse_stats, out_file, indent=2, sort_keys=True)
-    print(f'Wrote {args["output_json"]}')
+    print(f'Wrote {args.output_json}')
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
