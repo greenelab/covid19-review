@@ -19,6 +19,6 @@ echo "Downloading EBM Data Lab COVID-19 TrialsTracker data from commit $EBM_COMM
 curl -fsSL https://github.com/ebmdatalab/covid_trials_tracker-covid/raw/$EBM_COMMIT_SHA/$EBM_REPO_PATH > $EBM_INPUT_JSON
 
 echo "Generating EBM Data Lab COVID-19 TrialsTracker statistics and figure"
-#python ebmdatalab/generate-ebmdatalab-stats.py $EBM_INPUT_JSON $EBM_STATS_JSON $EBM_FIG
+python ebmdatalab/generate-ebmdatalab-stats.py $EBM_INPUT_JSON $EBM_STATS_JSON $EBM_FIG
 
 #rm $EBM_INPUT_JSON
