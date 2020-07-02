@@ -48,7 +48,7 @@ def main(args):
     trials_df.columns = header
     trials_df = trials_df.set_index('index')
     
-    ebm_stats['ebm_trials'] = len(trials_df.index)
+    ebm_stats['ebm_trials'] = f'{len(trials_df.index):,}'
     
     # Get the most recent trial update
     most_recent_update = pd.to_datetime(trials_df['last_updated']).max()
