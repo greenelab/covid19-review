@@ -1,9 +1,13 @@
 import argparse
 import datetime
 import json
+import matplotlib
 import os
 import pandas as pd
-import matplotlib
+import urllib.request
+
+from manubot.cite.citekey import url_to_citekey
+from manubot.cite.doi import get_short_doi_url
 
 def convert_date(git_date):
     '''Reformat git commit style datetimes (ISO 8601) to Month DD, YYYY.
@@ -18,6 +22,18 @@ def convert_date(git_date):
     # Remove the leading zero of the day
     # Assumes the year will not begin with 0
     return datetime.datetime.fromisoformat(git_date).strftime('%B %d, %Y').replace(' 0', ' ')
+
+def extract_citekey(results_url):
+    '''Extract a Manubot citation key from the results URL. Uses short DOI if
+    citekey is a DOI and contains parentheses.'''
+    citekey = url_to_citekey(results_url)
+    # citekey typically in the form doi:10.1101/2020.05.31.20114520 or
+    # url:https://clinicaltrials.gov/ct2/show/results/NCT04323592
+    if(citekey.startswith ('doi:') and ('(' in citekey or ')' in citekey)):
+        short_doi_url = get_short_doi_url(citekey)
+        # URL in the form https://doi.org/ggvw2s
+        citekey = short_doi_url.replace('https://doi.org', 'doi:10')
+    return citekey
 
 # Inspired by https://github.com/greenelab/meta-review/blob/master/analyses/deep-review-contrib/03.contrib-stats.ipynb
 def main(args):
@@ -56,6 +72,13 @@ def main(args):
     # Assumes the year will not begin with 0
     most_recent_update = most_recent_update.strftime('%B %d, %Y').replace(' 0', ' ')
     ebm_stats['ebm_date_pretty'] = most_recent_update
+    
+    trial_results = trials_df[trials_df['results_url'] != 'No Results']['results_url']
+    ebm_stats['ebm_trials_results'] = f'{len(trial_results):,}'
+    
+    # Some results entries have multiple URLs
+    trial_results_citekeys = [extract_citekey(results_url) for results in trial_results for results_url in results.split()]
+    ebm_stats['ebm_trials_results_citekeys'] = sorted(set(trial_results_citekeys))
     
     with open(args.output_json, 'w') as out_file:
         json.dump(ebm_stats, out_file, indent=2, sort_keys=True)
