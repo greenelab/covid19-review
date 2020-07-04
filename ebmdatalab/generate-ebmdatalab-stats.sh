@@ -21,4 +21,4 @@ curl -fsSL https://github.com/ebmdatalab/covid_trials_tracker-covid/raw/$EBM_COM
 echo "Generating EBM Data Lab COVID-19 TrialsTracker statistics and figure"
 python ebmdatalab/generate-ebmdatalab-stats.py $EBM_INPUT_JSON $EBM_STATS_JSON $EBM_FIG
 
-#rm $EBM_INPUT_JSON
+rm $EBM_INPUT_JSON

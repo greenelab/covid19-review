@@ -4,6 +4,7 @@
   "ebm_commit_sha": "7eab06b7933032c828bffe7c02a2fba34c7dcfa9",
   "ebm_date_pretty": "June 30, 2020",
   "ebm_trials": "3,733",
+  "ebm_trials_figure": "https://github.com/greenelab/covid19-review/raw/external-resources/ebmdatalab/ebmdatalab-trials.svg",
   "ebm_trials_results": "88",
   "ebm_trials_results_citekeys": [
     "doi:10.1001/jama.2020.10044",
@@ -98,5 +99,5 @@
     "doi:10/ggvw2s",
     "url:https://clinicaltrials.gov/ct2/show/results/NCT04323592"
   ],
-  "ebm_update_time_utc": "2020-07-04T13:25:51.469070"
+  "ebm_update_time_utc": "2020-07-04T20:57:18.863400"
 }

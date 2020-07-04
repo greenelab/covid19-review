@@ -1,7 +1,7 @@
 import argparse
 import datetime
 import json
-import matplotlib
+import matplotlib.pyplot as plt
 import os
 import pandas as pd
 import urllib.request
@@ -79,6 +79,38 @@ def main(args):
     # Some results entries have multiple URLs
     trial_results_citekeys = [extract_citekey(results_url) for results in trial_results for results_url in results.split()]
     ebm_stats['ebm_trials_results_citekeys'] = sorted(set(trial_results_citekeys))
+    
+    plt.rc('font', size=14)
+    plt.rc('figure', titlesize=24)
+    fig, axes = plt.subplots(nrows=2, ncols=2, figsize=(20, 12), constrained_layout=True)
+    
+    # Plot trial recruitment status
+    ax = trials_df['recruitment_status'].value_counts(ascending=True).plot(kind='barh', ax=axes[0, 0])
+    ax.set_title('Clinical trials recruitment status')
+
+    # Plot trial phase
+    ax = trials_df['phase'].value_counts(ascending=True).plot(kind='barh', ax=axes[0, 1])
+    ax.set_title('Clinical trials phase')
+    
+    # Plot trial phase
+    ax = trials_df['study_type'].value_counts(ascending=True).plot(kind='barh', ax=axes[1, 0])
+    ax.set_title('Clinical trials study type')
+    
+    # PLot common interventions
+    # Only include trials with an intervention and interventions in >= 10 trials
+    intervention_counts = trials_df['intervention'].value_counts(ascending=True)
+    intervention_counts = intervention_counts.drop(labels='No Intervention')
+    intervention_counts = intervention_counts[intervention_counts >= 10]
+    ax = intervention_counts.plot(kind='barh', ax=axes[1, 1])
+    ax.set_title('Clinical trials common interventions')
+    
+    fig.savefig(args.output_figure + '.png', bbox_inches = "tight")
+    fig.savefig(args.output_figure + '.svg', bbox_inches = "tight")
+    
+    print(f'Wrote {args.output_figure}.png and {args.output_figure}.svg')
+    
+    ebm_stats['ebm_trials_figure'] = \
+        f'https://github.com/greenelab/covid19-review/raw/external-resources/{args.output_figure}.svg'
     
     with open(args.output_json, 'w') as out_file:
         json.dump(ebm_stats, out_file, indent=2, sort_keys=True)
