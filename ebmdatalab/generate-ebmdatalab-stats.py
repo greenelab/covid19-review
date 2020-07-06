@@ -85,15 +85,24 @@ def main(args):
     fig, axes = plt.subplots(nrows=2, ncols=2, figsize=(20, 12), constrained_layout=True)
     
     # Plot trial recruitment status
-    ax = trials_df['recruitment_status'].value_counts(ascending=True).plot(kind='barh', ax=axes[0, 0])
+    # Only include trials with a recruitment status
+    recruitment_counts = trials_df['recruitment_status'].value_counts(ascending=True)
+    recruitment_counts = recruitment_counts.drop(labels='No Status Given')
+    ax = recruitment_counts.plot(kind='barh', ax=axes[0, 0])
     ax.set_title('Clinical trials recruitment status')
 
     # Plot trial phase
-    ax = trials_df['phase'].value_counts(ascending=True).plot(kind='barh', ax=axes[0, 1])
+    # Only include trials with a reported phase
+    phase_counts = trials_df['phase'].value_counts(ascending=True)
+    phase_counts = phase_counts.drop(labels='Not Applicable')
+    ax = phase_counts.plot(kind='barh', ax=axes[0, 1])
     ax.set_title('Clinical trials phase')
     
     # Plot trial phase
-    ax = trials_df['study_type'].value_counts(ascending=True).plot(kind='barh', ax=axes[1, 0])
+    # Only include study types used in >= 5 trials
+    study_type_counts = trials_df['study_type'].value_counts(ascending=True)
+    study_type_counts = study_type_counts[study_type_counts >= 5]
+    ax = study_type_counts.plot(kind='barh', ax=axes[1, 0])
     ax.set_title('Clinical trials study type')
     
     # PLot common interventions
