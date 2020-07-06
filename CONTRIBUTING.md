@@ -49,7 +49,7 @@ Are there any ambiguities, oversimplifications, or topics you think should be cl
 If you have questions about the topic broadly, or want to discuss theory, how it may relate to other sections of the paper or to other fields, etc., you are encouraged to open an issue and start this discussion!
 One of the goals of this project is to get scientists from different disciplines working together and thinking creatively about the problems related to COVID-19.
 You can tag a PR in an issue by typing "\#" and the number of the PR (beside the title). 
-(For example, #100 will call up the PR that added a a code of conduct).
+(For example, #100 will call up the PR that added a code of conduct).
 
 ### The How-To of Review
 

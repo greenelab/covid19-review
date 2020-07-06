@@ -1,0 +1,39 @@
+name: Update external resources
+on:
+  schedule:
+    # Run every day at 00:00
+    - cron:  '0 0 * * *'
+
+jobs:
+  update_external_resources:
+    name: Update external resources
+    runs-on: ubuntu-latest
+    steps:
+      # Scheduled workflows run on the default branch
+      - name: Checkout external-resources branch
+        uses: actions/checkout@v2
+        with:
+          ref: external-resources
+      - name: Install environment
+        uses: goanpeca/setup-miniconda@v1
+        with:
+          activate-environment: covid19
+          environment-file: environment.yml
+          auto-activate-base: false
+          miniconda-version: 'latest'
+      - name: Update JHU CSSE data
+        shell: bash --login {0}
+        run: bash csse/generate-csse-stats.sh
+      # Committing the figures first and then the csse-stats.json separately
+      # may be a better option
+      # That would allow pinning the figures to a specific commit
+      - name: Commit JHU CSSE data
+        uses: EndBug/add-and-commit@v4
+        with:
+          add: 'csse/*'
+          author_name: GitHub Actions
+          author_email: actions@github.com
+          message: 'Update JHU CSSE data'
+          ref: external-resources
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
