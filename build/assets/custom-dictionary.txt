@@ -126,6 +126,7 @@ CaCo
 calcitonin
 camostat
 Cao
+capita
 capsids
 Carleton
 Carmofour
@@ -193,6 +194,7 @@ corticosteroid
 corticosteroids
 CoV
 CoV’s
+covariates
 COVID
 CoVs
 CoVZC
@@ -264,6 +266,7 @@ dihydroxyvitamin
 DiMaio
 dimerization
 dimorphism
+disaggregate
 Discotope
 Disulfiram
 docosahexaenoic
@@ -900,6 +903,7 @@ reactogenicity
 Readme
 recombinant
 remdesivir
+remediating
 Renmin
 reopenings
 replicase
