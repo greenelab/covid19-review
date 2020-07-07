@@ -77,6 +77,7 @@ Belhadi
 BepiPred
 Bérengère
 betacoronavirus
+betacoronaviruses
 BG
 BH
 Bharath
@@ -137,6 +138,7 @@ CCL
 CCLE
 CDC’s
 cDNA
+CEACAM
 CELLECTRA
 Cellex
 CEPI
@@ -193,6 +195,7 @@ corticosteroid
 corticosteroids
 CoV
 CoV’s
+covalently
 COVID
 CoVs
 CoVZC
@@ -215,6 +218,7 @@ CSF
 csse
 CTACK
 CTan
+CTD
 CTL
 CTLA
 CTLs
@@ -360,6 +364,7 @@ follicular
 FOS
 FP
 FPLC
+frameshifting
 FRKSN
 frontline
 FSC
@@ -695,6 +700,7 @@ MZ
 NaCl
 Nafisa
 nafisajadavji
+nanometers
 nanoparticle
 nanoparticles
 Nanopore
@@ -712,6 +718,7 @@ NCT
 necropsies
 Nederland
 NetMHCpan
+Neu
 neuraminidase
 Neuroscience
 neutropenia
@@ -739,6 +746,7 @@ novo
 NPV
 nsp
 NSPRRARSV
+NTD
 nucleocapsid
 nucleoprotein
 nucleotides
@@ -779,6 +787,7 @@ PBMC
 PBMCs
 PCR
 PDB
+peplomers
 PepSite
 perivasculitis
 permalink
@@ -822,6 +831,7 @@ polypeptide
 polyprotein
 populus
 positivity
+postfusion
 Postischemic
 Pothula
 PPAR
