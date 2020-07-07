@@ -31,7 +31,7 @@
         [
           "2020",
           7,
-          1
+          6
         ]
       ]
     }
@@ -68,7 +68,7 @@
         [
           "2020",
           7,
-          1
+          6
         ]
       ]
     }
@@ -105,7 +105,7 @@
         [
           "2020",
           7,
-          1
+          6
         ]
       ]
     }
@@ -142,7 +142,7 @@
         [
           "2020",
           7,
-          1
+          6
         ]
       ]
     }
@@ -179,7 +179,7 @@
         [
           "2020",
           7,
-          1
+          6
         ]
       ]
     }
@@ -216,7 +216,7 @@
         [
           "2020",
           7,
-          1
+          6
         ]
       ]
     }
@@ -253,7 +253,7 @@
         [
           "2020",
           7,
-          1
+          6
         ]
       ]
     }
@@ -290,7 +290,7 @@
         [
           "2020",
           7,
-          1
+          6
         ]
       ]
     }
@@ -327,7 +327,7 @@
         [
           "2020",
           7,
-          1
+          6
         ]
       ]
     }
@@ -364,7 +364,7 @@
         [
           "2020",
           7,
-          1
+          6
         ]
       ]
     }
@@ -401,7 +401,7 @@
         [
           "2020",
           7,
-          1
+          6
         ]
       ]
     }
@@ -437,7 +437,7 @@
         [
           "2020",
           7,
-          1
+          6
         ]
       ]
     }
@@ -474,7 +474,7 @@
         [
           "2020",
           7,
-          1
+          6
         ]
       ]
     }
@@ -511,7 +511,7 @@
         [
           "2020",
           7,
-          1
+          6
         ]
       ]
     }
@@ -548,7 +548,7 @@
         [
           "2020",
           7,
-          1
+          6
         ]
       ]
     }
@@ -585,7 +585,7 @@
         [
           "2020",
           7,
-          1
+          6
         ]
       ]
     }
@@ -612,8 +612,8 @@
       "date-parts": [
         [
           "2020",
-          6,
-          3
+          7,
+          2
         ]
       ]
     },
@@ -622,7 +622,7 @@
         [
           "2020",
           7,
-          1
+          6
         ]
       ]
     }
@@ -659,7 +659,7 @@
         [
           "2020",
           7,
-          1
+          6
         ]
       ]
     }
@@ -696,7 +696,7 @@
         [
           "2020",
           7,
-          1
+          6
         ]
       ]
     }
@@ -733,7 +733,7 @@
         [
           "2020",
           7,
-          1
+          6
         ]
       ]
     }
@@ -7736,8 +7736,8 @@
       "date-parts": [
         [
           2020,
-          2,
-          19
+          6,
+          3
         ]
       ]
     },
@@ -15683,12 +15683,20 @@
         "given": "Manman"
       },
       {
+        "family": "Yu",
+        "given": "Pengfei"
+      },
+      {
         "family": "Zheng",
         "given": "Sujun"
       },
       {
         "family": "Duan",
         "given": "Zhongping"
+      },
+      {
+        "family": "Liu",
+        "given": "Jing"
       },
       {
         "family": "Chen",
@@ -15704,15 +15712,15 @@
         [
           2020,
           3,
-          3
+          10
         ]
       ]
     },
-    "abstract": "Aim: Coronavirus disease 2019 (COVID-19) has rapidly become the most severe public health issue all over the world. Despite acute respiratory failure, liver dysfunction has also been observed in clinical settings This study aimed to investigate the factors involved with hepatic injury in COVID-19 patients. Methods: A total of 26 hospitalized patients who were diagnosed with COVID-19 treated at Beijing Youan Hospital were retrospectively analyzed. According to the diagnostic criteria, they were divided into mild group (n=3), ordinary group (n=6), serious group (n=11) and critical group (n=6). Blood count, blood chemistry, coagulation test, liver and renal function, C-reactive protein, procalcitonin, lactic acid, cardiac markers and arterial partial pressure was compared between these groups. Independent risk factors of ALT increase was selected. Results:There were 8 patients with ALT elevation in the patients with COVID-19, accounting for 30.8% (8/26). There was no difference in sex ratio between normal and elevated ALT population, and there was an increasing trend in age. The CRP index was significantly higher in the population with elevated ALT, and the increase of CRP was independently related to ALT level, and the OR value was 1.023 (P = 0.024). Conclusions: COVID-19 related hepatic injury may be a result of cytokine storm syndrome, a positive correlative relationship between the increase of CRP and liver injury. Early detection and timely treatment of hepatic injury is necessary.",
+    "abstract": "Aims: Corona virus disease 2019 (COVID-19) has rapidly become the most severe public health issue all over the world. Despite respiratory symptoms, hepatic injury has also been observed in clinical settings. This study aimed to investigate the risk factors involved with hepatic injury in the patients with COVID-19. Methods: A total of 85 hospitalized patients who were diagnosed with COVID-19 in Beijing Youan Hospital were retrospectively analyzed. According to liver function, they were divided into ALT normal group (n=52) and ALT elevation group (n=33). Clinical features and laboratory data were compared between the two groups. The independent risk factors for liver injury were analyzed. Results: There were 33 patients with hepatic injury in our study, accounting for 38.8% (33/85). The patients in ALT elevation group were older than those in ALT normal group. The levels of lactic acid, CRP, myoglobin, and neutrophils were significantly higher in ALT elevation group. The lymphocytes and albumin were significantly lower in ALT elevation group. The proportion of severe and critical patients in ALT elevation group was significantly higher. Multivariate logistic regression analysis showed CRP ≥20 mg/L and lymphocyte count&lt; 1.1*10^9/L were independently related to hepatic injury. Conclusions: Lymphopenia and CRP may serve as the risk factors related to hepatic injury in patients with COVID-19, which might be related to inflammatory cytokine storm in liver injury. Early detection and timely treatment of hepatic injury in patients with COVID-19 are necessary.",
     "container-title": "medRxiv",
     "DOI": "10.1101/2020.02.28.20028514",
     "publisher": "medRxiv",
-    "title": "The level of plasma C-reactive protein is closely related to the liver injury in patients with COVID-19",
+    "title": "Risk factors related to hepatic injury in patients with corona virus disease 2019",
     "URL": "https://doi.org/ggq632",
     "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: doi:10.1101/2020.02.28.20028514"
   },
@@ -26911,6 +26919,63 @@
   },
   {
     "type": "article-journal",
+    "id": "19quOF2kK",
+    "author": [
+      {
+        "family": "Cohen",
+        "given": "Jordana B."
+      },
+      {
+        "family": "Hanff",
+        "given": "Thomas C."
+      },
+      {
+        "family": "South",
+        "given": "Andrew M."
+      },
+      {
+        "family": "Sparks",
+        "given": "Matthew A."
+      },
+      {
+        "family": "Hiremath",
+        "given": "Swapnil"
+      },
+      {
+        "family": "Bress",
+        "given": "Adam P."
+      },
+      {
+        "family": "Byrd",
+        "given": "J. Brian"
+      },
+      {
+        "family": "Chirinos",
+        "given": "Julio A."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          5
+        ]
+      ]
+    },
+    "container-title": "Circulation Research",
+    "DOI": "10.1161/circresaha.120.317205",
+    "volume": "126",
+    "issue": "12",
+    "publisher": "Ovid Technologies (Wolters Kluwer Health)",
+    "title": "Response by Cohen et al to Letter Regarding Article, “Association of Inpatient Use of Angiotensin-Converting Enzyme Inhibitors and Angiotensin II Receptor Blockers With Mortality Among Patients With Hypertension Hospitalized With COVID-19”",
+    "URL": "https://doi.org/gg3xsg",
+    "PMCID": "PMC7265880",
+    "PMID": "32496917",
+    "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: doi:10.1161/circresaha.120.317205"
+  },
+  {
+    "type": "article-journal",
     "id": "FYgN6gUL",
     "author": [
       {
@@ -29065,6 +29130,88 @@
   },
   {
     "type": "article-journal",
+    "id": "k5xEN3Ke",
+    "author": [
+      {
+        "family": "Sparks",
+        "given": "Matthew A."
+      },
+      {
+        "family": "South",
+        "given": "Andrew"
+      },
+      {
+        "family": "Welling",
+        "given": "Paul"
+      },
+      {
+        "family": "Luther",
+        "given": "J. Matt"
+      },
+      {
+        "family": "Cohen",
+        "given": "Jordana"
+      },
+      {
+        "family": "Byrd",
+        "given": "James Brian"
+      },
+      {
+        "family": "Burrell",
+        "given": "Louise M."
+      },
+      {
+        "family": "Batlle",
+        "given": "Daniel"
+      },
+      {
+        "family": "Tomlinson",
+        "given": "Laurie"
+      },
+      {
+        "family": "Bhalla",
+        "given": "Vivek"
+      },
+      {
+        "family": "Rheault",
+        "given": "Michelle N."
+      },
+      {
+        "family": "Soler",
+        "given": "María José"
+      },
+      {
+        "family": "Swaminathan",
+        "given": "Sundar"
+      },
+      {
+        "family": "Hiremath",
+        "given": "Swapnil"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          7
+        ]
+      ]
+    },
+    "container-title": "Clinical Journal of the American Society of Nephrology",
+    "DOI": "10.2215/cjn.03530320",
+    "volume": "15",
+    "issue": "5",
+    "page": "714-716",
+    "publisher": "American Society of Nephrology (ASN)",
+    "title": "Sound Science before Quick Judgement Regarding RAS Blockade in COVID-19",
+    "URL": "https://doi.org/ggq8gn",
+    "PMCID": "PMC7269218",
+    "PMID": "32220930",
+    "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: doi:10.2215/cjn.03530320"
+  },
+  {
+    "type": "article-journal",
     "id": "pUnzB8wV",
     "author": [
       {
@@ -30973,7 +31120,7 @@
         [
           "2020",
           7,
-          6
+          7
         ]
       ]
     },
@@ -31347,11 +31494,30 @@
         [
           "2020",
           7,
-          6
+          7
         ]
       ]
     },
     "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:http://www.fda.gov"
+  },
+  {
+    "id": "1Hrsy8Hiq",
+    "type": "webpage",
+    "title": "ACE2 and HYPERTENSION",
+    "container-title": "NephJC",
+    "abstract": "ACE2, coronavirus, COVID19, SARS, hypertension",
+    "URL": "http://www.nephjc.com/news/covidace2",
+    "language": "en-US",
+    "accessed": {
+      "date-parts": [
+        [
+          "2020",
+          7,
+          7
+        ]
+      ]
+    },
+    "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:http://www.nephjc.com/news/covidace2"
   },
   {
     "id": "4DAIEbQF",
@@ -31363,7 +31529,7 @@
         [
           "2020",
           7,
-          6
+          7
         ]
       ]
     },
@@ -31380,7 +31546,7 @@
         [
           "2020",
           7,
-          6
+          7
         ]
       ]
     },
@@ -31437,7 +31603,7 @@
         [
           "2020",
           7,
-          6
+          7
         ]
       ]
     },
@@ -31455,7 +31621,7 @@
         [
           "2020",
           7,
-          6
+          7
         ]
       ]
     },
@@ -31551,7 +31717,7 @@
         [
           "2020",
           7,
-          6
+          7
         ]
       ]
     },
@@ -31568,7 +31734,7 @@
         [
           "2020",
           7,
-          6
+          7
         ]
       ]
     },
@@ -31585,7 +31751,7 @@
         [
           "2020",
           7,
-          6
+          7
         ]
       ]
     },
@@ -31602,7 +31768,7 @@
         [
           "2020",
           7,
-          6
+          7
         ]
       ]
     },
@@ -31627,7 +31793,7 @@
         [
           "2020",
           7,
-          6
+          7
         ]
       ]
     },
@@ -31661,7 +31827,7 @@
         [
           "2020",
           7,
-          6
+          7
         ]
       ]
     },
@@ -31695,7 +31861,7 @@
         [
           "2020",
           7,
-          6
+          7
         ]
       ]
     },
@@ -31729,7 +31895,7 @@
         [
           "2020",
           7,
-          6
+          7
         ]
       ]
     },
@@ -31763,7 +31929,7 @@
         [
           "2020",
           7,
-          6
+          7
         ]
       ]
     },
@@ -31794,7 +31960,7 @@
         [
           "2020",
           7,
-          6
+          7
         ]
       ]
     },
@@ -31810,7 +31976,7 @@
         [
           "2020",
           7,
-          6
+          7
         ]
       ]
     },
@@ -31827,7 +31993,7 @@
         [
           "2020",
           7,
-          6
+          7
         ]
       ]
     },
@@ -31875,7 +32041,7 @@
         [
           "2020",
           7,
-          6
+          7
         ]
       ]
     },
@@ -31910,7 +32076,7 @@
         [
           "2020",
           7,
-          6
+          7
         ]
       ]
     },
@@ -31938,7 +32104,7 @@
         [
           "2020",
           7,
-          6
+          7
         ]
       ]
     },
@@ -31962,7 +32128,7 @@
         [
           "2020",
           7,
-          6
+          7
         ]
       ]
     },
@@ -31987,7 +32153,7 @@
         [
           "2020",
           7,
-          6
+          7
         ]
       ]
     },
@@ -32005,7 +32171,7 @@
         [
           "2020",
           7,
-          6
+          7
         ]
       ]
     },
@@ -32049,7 +32215,7 @@
         [
           "2020",
           7,
-          6
+          7
         ]
       ]
     },
@@ -32068,7 +32234,7 @@
         [
           "2020",
           7,
-          6
+          7
         ]
       ]
     },
@@ -32114,7 +32280,7 @@
         [
           "2020",
           7,
-          6
+          7
         ]
       ]
     },
@@ -32133,7 +32299,7 @@
         [
           "2020",
           7,
-          6
+          7
         ]
       ]
     },
@@ -32158,7 +32324,7 @@
         [
           "2020",
           7,
-          6
+          7
         ]
       ]
     },
@@ -32175,7 +32341,7 @@
         [
           "2020",
           7,
-          6
+          7
         ]
       ]
     },
