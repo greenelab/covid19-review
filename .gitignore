@@ -11,6 +11,9 @@ webpage/v
 # Manubot cache directory
 ci/cache
 
+# Pandoc filters downloaded during continuous integration setup
+build/pandoc/filters/spellcheck.lua
+
 # Python
 __pycache__/
 *.pyc
@@ -38,3 +41,6 @@ Thumbs.db
 
 ## Text Editors
 .vscode
+
+## Spellcheck script
+spellcheck.lua

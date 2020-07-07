@@ -24,7 +24,8 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-03-22
-    funders: the Gordon and Betty Moore Foundation (GBMF 4552)
+    funders:
+      - the Gordon and Betty Moore Foundation (GBMF 4552)
   -
     github: cgreene
     name: Casey S. Greene
@@ -41,7 +42,8 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-03-22
-    funders: the Gordon and Betty Moore Foundation (GBMF 4552)
+    funders:
+      - the Gordon and Betty Moore Foundation (GBMF 4552)
   -
     github: mprobson
     name: Michael P. Robson
@@ -112,8 +114,8 @@ authors:
     affiliations:
       - Department of Clinical Sciences, Lund University, Lund, Sweden
     coi:
-      string: "None"
-      lastapproved: !!str 2020-03-25
+      string: Employee and shareholder of SAGA Diagnostics AB.
+      lastapproved: !!str 2020-04-14
   -
     github: rays1987
     name: Sadipan Ray
@@ -221,7 +223,7 @@ authors:
     github: Jeff-Field
     name: Jeffrey M. Field
     initials: JMF
-    orcid: 000-0001-7161-7284
+    orcid: 0000-0001-7161-7284
     email: jfield@upenn.edu
     contributions:
       - Writing - Original Draft
@@ -272,7 +274,8 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-04-07
-    funders: the Gordon and Betty Moore Foundation (GBMF 4552)
+    funders:
+      - the Gordon and Betty Moore Foundation (GBMF 4552)
   -
     github: ismms-himc
     name: Immunology Institute of the Icahn School of Medicine
@@ -315,8 +318,9 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-04-09
-    funders: American Heart Association (20AIREA35050015)
-  - 
+    funders:
+      - the American Heart Association (20AIREA35050015)
+  -
     github: esell17
     name: Elizabeth Sell
     initials: ES
@@ -329,8 +333,8 @@ authors:
       - Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
     coi:
       string: "None"
-      lastapproved: !!str 2020-04-10    
-  - 
+      lastapproved: !!str 2020-04-10
+  -
     github: jinhui2
     name: Jinhui Wang
     initials: JW
@@ -342,7 +346,7 @@ authors:
       - Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
     coi:
       string: "None"
-      lastapproved: !!str 2020-04-13 
+      lastapproved: !!str 2020-04-13
   -
     github: dianerafi
     name: Diane N. Rafizadeh
@@ -357,7 +361,207 @@ authors:
       - Department of Chemistry, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
     code of conduct:
       confirmed: yes
-    coi: 
+    coi:
       string: "None"
       lastapproved: !!str 2020-04-14
-    funders: NIH Medical Scientist Training Program T32 GM07170
+    funders:
+      - NIH Medical Scientist Training Program T32 GM07170
+  -
+    github: anskelly
+    name: Ashwin N. Skelly
+    initials: ANS
+    orcid: 0000-0002-1565-3376
+    email: ashwin.skelly@pennmedicine.upenn.edu
+    contributions:
+      - Writing - Original Draft
+      - Writing - Review & Editing
+    affiliations:
+      - Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+      - Institute for Immunology, University of Pennsylvania Perelman School of Medicine, Philadelphia, United States of America
+    code of conduct:
+      confirmed: yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-04-16
+    funders:
+      - NIH Medical Scientist Training Program T32 GM07170
+  -
+    github: marouenbg
+    name: Marouen Ben Guebila
+    initials: MBG
+    orcid: 0000-0001-5934-966X
+    twitter: marouenbg
+    email: marouen.b.guebila@gmail.com
+    contributions:
+      - Writing - Original Draft
+    affiliations:
+      - Department of Biostatistics, Harvard School of Public Health, Boston, Massachusetts, United States of America
+    code of conduct:
+      confirmed: yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-04-17
+  -
+    github: likhithakolla
+    name: Likhitha Kolla
+    initials: LK
+    orcid: 0000-0002-1169-906X
+    twitter: lkolla2018
+    email: Likhitha.Kolla@Pennmedicine.upenn.edu
+    contributions:
+      - Writing - Original Draft
+    affiliations:
+      - Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+    code of conduct:
+      confirmed: yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-04-23
+    funders:
+      - NIH Medical Scientist Training Program T32 GM07170
+  -
+    github: davidmanheim
+    name: David Manheim
+    initials: DM
+    orcid: 0000-0001-8599-8380
+    twitter: davidmanheim
+    email: davidmanheim@gmail.com
+    contributions:
+      - Writing - Original Draft
+      - Investigation
+    affiliations:
+      - Risk and Health Communication Research Center, School of Public Health, University of Haifa, Haifa, Israel
+    code of conduct:
+      confirmed: yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-04-28
+  -
+    github: soumitagh
+    name: Soumita Ghosh
+    initials: SG
+    orcid: 0000-0002-2783-2750
+    email: soumita84@gmail.com
+    contributions:
+      - Writing - Original Draft
+    affiliations:
+      - Institute of Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-04-28
+  -
+    github: matfax
+    name: Matthias Fax
+    initials: MF
+    orcid: 0000-0002-0064-395X
+    email: matthias.fax@gmail.com
+    contributions:
+      - Writing - Review & Editing
+    affiliations:
+      - greensolid technologies, Bavaria, Germany
+      - IEEE Reliability Society, Vienna, Austria
+    code of conduct:
+      confirmed: yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-04-30
+  -
+    github: byrdjb
+    name: James Brian Byrd
+    initials: JBB
+    orcid: 0000-0002-0509-3520
+    twitter: thebyrdlab
+    email: jbbyrd@med.umich.edu
+    contributions:
+      - Writing - Original Draft
+      - Writing - Review & Editing
+    affiliations:
+      - University of Michigan School of Medicine, Ann Arbor, Michigan, United States of America
+    code of conduct:
+      confirmed: yes
+    coi:
+      string: "Funded by FastGrants to conduct a COVID-19-related clinical trial"
+      lastapproved: !!str 2020-04-23
+    funders:
+      - NIH K23HL128909
+      - FastGrants
+  -
+    github: ypar
+    name: YoSon Park
+    initials: YP
+    orcid: 0000-0002-0465-4744
+    twitter: __yoson__
+    email: yoson.park@gmail.com
+    contributions:
+      - Writing - Original Draft
+      - Writing - Review & Editing
+      - Investigation
+    affiliations:
+      - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+    code of conduct:
+      confirmed: yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-04-30
+    funders: NHGRI R01 HG10067
+  -
+    github: yemarshall
+    name: Yael Evelyn Marshall
+    initials: YEM
+    orcid: 0000-0003-3723-9683
+    contributions:
+      - Writing - Original Draft
+      - Writing - Review & Editing
+    code of conduct:
+      confirmed: yes
+    coi:
+      string: "None"
+      last approved: !!str 2020-06-21    
+  -
+    github: bansalvi
+    name: Vikas Bansal
+    initials: VB
+    orcid: 0000-0002-0944-7226
+    twitter: VikasBansal1989
+    email: bansal.bioinfo@gmail.com
+    contributions:
+      - Writing - Original Draft
+      - Investigation
+    affiliations:
+      - Biomedical Data Science and Machine Learning Group, DZNE, Tübingen, Germany
+    code of conduct:
+      confirmed: yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-05-26
+  -
+    github: scapone01
+    name: Stephen Capone
+    initials: SC
+    orcid: 0000-0001-7231-1535
+    email: scapone01@gmail.com
+    contributions:
+      - Writing - Review & Editing
+      - Writing - Original Draft
+    affiliations:
+      - St. George's University School of Medicine, St. George's, Grenada
+    code of conduct:
+      confirmed: yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-06-23
+  -
+    github: dziakj1
+    name: John J. Dziak
+    initials: JJD
+    orcid: 0000-0003-0762-5495
+    email: dziakj1@gmail.com
+    contributions:
+      - Writing - Original Draft
+    affiliations:
+      - Edna Bennett Pierce Prevention Research Center, The Pennsylvania State University, University Park, PA, United States of America
+    code of conduct:
+      confirmed: yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-06-23
