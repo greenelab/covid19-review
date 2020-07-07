@@ -30,7 +30,7 @@ jobs:
         run: bash csse/generate-csse-stats.sh
       - name: Update EBM Data Lab data
         shell: bash --login {0}
-        run: ebmdatalab/generate-ebmdatalab-stats.sh
+        run: bash ebmdatalab/generate-ebmdatalab-stats.sh
       # Committing the figures first and then the *-stats.json files separately
       # may be a better option
       # That would allow pinning the figures to a specific commit
