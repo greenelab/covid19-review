@@ -62,6 +62,8 @@ axillary
 azithromycin
 BAL
 BALF
+Bansal
+bansalvi
 Bao
 barcoding
 Baric
@@ -75,12 +77,14 @@ Belhadi
 BepiPred
 Bérengère
 betacoronavirus
+betacoronaviruses
 BG
 BH
 Bharath
 BHK
 Bian
 bilayer
+bioactive
 bioavailabilty
 bioavailable
 Biobank
@@ -134,6 +138,7 @@ CCL
 CCLE
 CDC’s
 cDNA
+CEACAM
 CELLECTRA
 Cellex
 CEPI
@@ -164,6 +169,8 @@ clinicaltrials
 clonality
 Clonally
 CMV
+coagulative
+coagulopathy
 Colonic
 colonocytes
 colorectal
@@ -188,6 +195,7 @@ corticosteroid
 corticosteroids
 CoV
 CoV’s
+covalently
 COVID
 CoVs
 CoVZC
@@ -210,6 +218,7 @@ CSF
 csse
 CTACK
 CTan
+CTD
 CTL
 CTLA
 CTLs
@@ -253,6 +262,7 @@ dexamethasone
 DHA
 dianerafi
 Dibene
+DIC
 differentially
 dihydroxyvitamin
 DiMaio
@@ -271,6 +281,9 @@ Duan
 ductal
 dyspnea
 dysregulation
+Dziak
+dziakj
+DZNE
 ebolavirus
 EBOV
 Ebselen
@@ -331,6 +344,7 @@ Favipiravir
 FBG
 Fc
 FCN
+FDP
 Fengling
 ferritin
 ferroprotein
@@ -350,6 +364,7 @@ follicular
 FOS
 FP
 FPLC
+frameshifting
 FRKSN
 frontline
 FSC
@@ -453,6 +468,7 @@ hypoxia
 IAV
 IBD
 IC
+icosapent
 iCre
 ICUs
 IEDB
@@ -517,6 +533,7 @@ intraperitoneal
 intraperitoneally
 intratracheal
 intratracheally
+intravascular
 intubated
 intubation
 invasively
@@ -683,6 +700,7 @@ MZ
 NaCl
 Nafisa
 nafisajadavji
+nanometers
 nanoparticle
 nanoparticles
 Nanopore
@@ -700,6 +718,7 @@ NCT
 necropsies
 Nederland
 NetMHCpan
+Neu
 neuraminidase
 Neuroscience
 neutropenia
@@ -723,9 +742,11 @@ NLRC
 NLRP
 nonrandomized
 nosocomial
+novo
 NPV
 nsp
 NSPRRARSV
+NTD
 nucleocapsid
 nucleoprotein
 nucleotides
@@ -735,6 +756,7 @@ O’Meara
 OC
 olfaction
 omics
+opacities
 orchitis
 orcid
 Orf
@@ -765,6 +787,7 @@ PBMC
 PBMCs
 PCR
 PDB
+peplomers
 PepSite
 perivasculitis
 permalink
@@ -808,6 +831,7 @@ polypeptide
 polyprotein
 populus
 positivity
+postfusion
 Postischemic
 Pothula
 PPAR
@@ -885,7 +909,6 @@ re
 reactogenicity
 Readme
 recombinant
-redmesivir
 remdesivir
 Renmin
 reopenings
@@ -894,6 +917,7 @@ representativeness
 repressor
 repurpose
 repurposing
+resveratrol
 resolvins
 respirations
 responders
@@ -939,6 +963,7 @@ sarcoidosis
 Sarilumab
 SARSCoV
 scalable
+Scapone
 SCGB
 scRNA
 scRNAseq
@@ -1108,15 +1133,20 @@ vitro
 vivo
 VL
 Vmax
+von
 VSV
+VWF
 WBC
 WBCs
 weakpoints
 Wellhausen
 wikidata
 Wildtype
+Willebrand
 Xu
+Yael
 Yelin
+yemarshall
 YHLO
 yoson
 ypar
