@@ -3,6 +3,10 @@ on:
   schedule:
     # Run every day at 00:00
     - cron:  '0 0 * * *'
+  # Temporarily run on pull requests to test
+  pull_request:
+    branches:
+      - master
 
 jobs:
   update_external_resources:
@@ -24,16 +28,19 @@ jobs:
       - name: Update JHU CSSE data
         shell: bash --login {0}
         run: bash csse/generate-csse-stats.sh
-      # Committing the figures first and then the csse-stats.json separately
+      - name: Update EBM Data Lab data
+        shell: bash --login {0}
+        run: ebmdatalab/generate-ebmdatalab-stats.sh
+      # Committing the figures first and then the *-stats.json files separately
       # may be a better option
       # That would allow pinning the figures to a specific commit
-      - name: Commit JHU CSSE data
+      - name: Commit JHU CSSE and EBM Data Lab data
         uses: EndBug/add-and-commit@v4
         with:
-          add: 'csse/*'
+          add: 'csse/* ebmdatalab/*'
           author_name: GitHub Actions
           author_email: actions@github.com
-          message: 'Update JHU CSSE data'
+          message: 'Update JHU CSSE and EBM Data Lab data'
           ref: external-resources
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
