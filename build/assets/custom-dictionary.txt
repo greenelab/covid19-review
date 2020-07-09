@@ -83,6 +83,7 @@ BH
 Bharath
 BHK
 Bian
+Bifidobacterium
 bilayer
 bioactive
 bioavailabilty
@@ -131,6 +132,7 @@ capsids
 Carleton
 Carmofour
 Cas
+casei
 Cathepsin
 cathepsins
 cbrueffer
@@ -312,7 +314,9 @@ endocytosis
 endosomal
 endosomes
 endothelium
+endotoxins
 Entecavir
+Enterococcus
 enterocytes
 enterovirus
 eosino
@@ -336,6 +340,7 @@ expiratory
 extracorporeal
 FACS
 facto
+faecalis
 faeces
 FaO
 Fas
@@ -383,6 +388,7 @@ ggjr
 ggjvr
 ggkd
 ggnzmc
+GG
 GGO
 Ghosh
 github
@@ -575,6 +581,7 @@ Krammer
 Kuksin
 labelled
 laboratorial
+Lactobacillus
 Lafaille
 latex
 lavages
@@ -658,6 +665,7 @@ methylprednisolone
 MHC
 MHV
 microarray
+microbiota
 micrograms
 microsphere
 microspheres
@@ -711,6 +719,7 @@ nanodroplet
 nanodroplets
 nanowell
 nanowells
+nasogastric
 NCBI
 NCIP
 nCoV
@@ -851,6 +860,8 @@ presymptomatic
 Pretreatment
 PRKCD
 PRNT
+probiotic
+probiotics
 Procalcitonin
 profibrotic
 proinflammatory
@@ -924,6 +935,7 @@ respirations
 responders
 Resus
 Retinopathy
+rhamnosus
 Rhinolophus
 rhinorrhea
 riboendonuclease
@@ -1019,6 +1031,7 @@ subpopulation
 subpopulations
 subscapular
 subsequences
+subtilis
 subtypes
 subunit
 subunits
