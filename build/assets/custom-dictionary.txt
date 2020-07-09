@@ -376,6 +376,7 @@ frontline
 FSC
 Fu
 FURIN
+galactooligosaccharides
 Gammacoronaviruses
 Ganciclovir
 gastroenterologist
