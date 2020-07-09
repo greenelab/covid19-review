@@ -565,7 +565,7 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-06-23
--
+  -
     github: kevinsunofficial
     name: YuCheng Sun
     initials: YS
@@ -579,7 +579,7 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-07-09
--
+  -
     github: qiyanjun
     name: Yanjun Qi
     initials: YQ
