@@ -578,7 +578,7 @@ authors:
       confirmed: yes
     coi:
       string: "None"
-      lastapproved: !!str 2020-7-9
+      lastapproved: !!str 2020-07-09
 -
     github: qiyanjun
     name: Yanjun Qi
@@ -594,4 +594,4 @@ authors:
       confirmed: yes
     coi:
       string: "None"
-      lastapproved: !!str 2020-7-9
+      lastapproved: !!str 2020-07-09
