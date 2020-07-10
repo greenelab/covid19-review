@@ -180,6 +180,7 @@ colorectal
 colorimetric
 Colson
 combinatorial
+comorbid
 comorbidies
 comorbidities
 comorbidity
@@ -1035,6 +1036,7 @@ submicromolar
 suboptimal
 subpopulation
 subpopulations
+subsample
 subscapular
 subsequences
 subtilis
