@@ -1,7 +1,7 @@
 {
-  "csse_commit": "d1a7ad2472996889bc9fe23cf4c8b4b18353b764",
-  "csse_date_pretty": "July 8, 2020",
-  "csse_deaths": "549,468",
+  "csse_commit": "fa291d0d2f4c688f58417783ac6af5502aea247e",
+  "csse_date_pretty": "July 9, 2020",
+  "csse_deaths": "554,924",
   "csse_deaths_figure": "https://github.com/greenelab/covid19-review/raw/external-resources/csse/csse-deaths.svg",
-  "csse_update_time_utc": "2020-07-10T00:27:06.229690"
+  "csse_update_time_utc": "2020-07-11T00:26:57.520996"
 }
