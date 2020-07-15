@@ -3,7 +3,6 @@ import requests
 import json
 import base64
 import logging
-import pickle
 import os.path
 from manubot import cite
 
@@ -155,8 +154,11 @@ def getCitationsData():
     The covid19-review_paperLink is a link to that paper's citation in the html document (example: https://greenelab.github.io/covid19-review/#ref-Rt5Aik4p)
     Gets the citation info from the referneces.json file in the output branch
     """
-    citationsResponse = requests.get("https://api.github.com/repos/greenelab/covid19-review/contents/references.json?ref=output", headers=headers)
-    citations = json.loads(base64.b64decode(json.loads(citationsResponse.text)["content"]))
+    # Follows https://github.com/simonw/irma-scrapers/issues/1
+    citationsResponse = requests.get("https://api.github.com/repos/greenelab/covid19-review/git/trees/output", headers=headers).json()
+    treeEntry = [t for t in citationsResponse["tree"] if t["path"] == "references.json"][0]    
+    citations = json.loads(base64.b64decode(requests.get(treeEntry["url"]).json()["content"]))
+
     citationsDF = pd.DataFrame(citations)
     citationsDF["Covid19-review_paperLink"] = citationsDF.id.apply(lambda x: "https://greenelab.github.io/covid19-review/#ref-" + x)
     citationsDF = citationsDF[["DOI", "title", "issued", "container-title", "URL", "Covid19-review_paperLink"]]
