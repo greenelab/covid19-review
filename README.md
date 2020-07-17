@@ -7,3 +7,4 @@ The manuscript on the `master` branch refers to these statistics and figures by 
 ## External resources
 - `csse`: [COVID-19 Data Repository](https://github.com/CSSEGISandData/COVID-19) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University
 - `ebmdatalab`: [COVID-19 TrialsTracker data](https://github.com/ebmdatalab/covid_trials_tracker-covid) from the Evidence-Based Medicine Data Lab at the University of Oxford
+- `version-figures.sh`: a script that updates the JSON statistics files to use the versioned figure URLs
