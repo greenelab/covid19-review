@@ -868,7 +868,7 @@ Pothula
 PPAR
 PPARG
 PPI
-PPRs
+PRRs
 PPV
 pre
 preclinical
