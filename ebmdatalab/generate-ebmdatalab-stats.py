@@ -98,14 +98,14 @@ def main(args):
     ax = phase_counts.plot(kind='barh', ax=axes[0, 1])
     ax.set_title('Clinical trials phase')
     
-    # Plot trial phase
+    # Plot study type
     # Only include study types used in >= 5 trials
     study_type_counts = trials_df['study_type'].value_counts(ascending=True)
     study_type_counts = study_type_counts[study_type_counts >= 5]
     ax = study_type_counts.plot(kind='barh', ax=axes[1, 0])
     ax.set_title('Clinical trials study type')
     
-    # PLot common interventions
+    # Plot common interventions
     # Only include trials with an intervention and interventions in >= 10 trials
     intervention_counts = trials_df['intervention'].value_counts(ascending=True)
     intervention_counts = intervention_counts.drop(labels='No Intervention')
@@ -118,8 +118,10 @@ def main(args):
     
     print(f'Wrote {args.output_figure}.png and {args.output_figure}.svg')
     
+    # The placeholder will be replaced by the actual SHA-1 hash in separate
+    # script after the updated image is committed
     ebm_stats['ebm_trials_figure'] = \
-        f'https://github.com/greenelab/covid19-review/raw/external-resources/{args.output_figure}.svg'
+        f'https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/{args.output_figure}.svg'
     
     with open(args.output_json, 'w') as out_file:
         json.dump(ebm_stats, out_file, indent=2, sort_keys=True)

@@ -18,6 +18,9 @@ EBM_FIG=ebmdatalab/ebmdatalab-trials
 echo "Downloading EBM Data Lab COVID-19 TrialsTracker data from commit $EBM_COMMIT_SHA authored $EBM_COMMIT_DATE"
 curl -fsSL https://github.com/ebmdatalab/covid_trials_tracker-covid/raw/$EBM_COMMIT_SHA/$EBM_REPO_PATH > $EBM_INPUT_JSON
 
+# After running this Python script to generate the figures, commit the figures
+# and run the version-figures.sh script to update the EBM_STATS_JSON with the
+# versioned figure URL
 echo "Generating EBM Data Lab COVID-19 TrialsTracker statistics and figure"
 python ebmdatalab/generate-ebmdatalab-stats.py $EBM_INPUT_JSON $EBM_STATS_JSON $EBM_FIG
 
