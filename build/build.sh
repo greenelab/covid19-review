@@ -21,6 +21,7 @@ manubot process \
   --content-directory=content \
   --output-directory=output \
   --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/csse/csse-stats.json \
+  --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/ebmdatalab/ebmdatalab-stats.json \
   --cache-directory=ci/cache \
   --skip-citations \
   --log-level=INFO
