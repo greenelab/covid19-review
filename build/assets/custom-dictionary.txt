@@ -8,6 +8,7 @@ ACEis
 acetylcysteine
 actemra
 adamlmaclean
+adenocarcinomic
 adenosine
 adenovirus
 ADRS
@@ -83,6 +84,7 @@ BH
 Bharath
 BHK
 Bian
+Bifidobacterium
 bilayer
 bioactive
 bioavailabilty
@@ -125,12 +127,14 @@ BST
 byrdjb
 CaCo
 calcitonin
+Calu
 camostat
 Cao
 capsids
 Carleton
 Carmofour
 Cas
+casei
 Cathepsin
 cathepsins
 cbrueffer
@@ -150,6 +154,7 @@ Characterisation
 Charap
 Chemiluminescence
 chemiluminescent
+chemokine
 chemokines
 chemotaxis
 Chloroquine
@@ -280,6 +285,7 @@ dsRNA
 Duan
 ductal
 dyspnea
+dysregulated
 dysregulation
 Dziak
 dziakj
@@ -311,7 +317,9 @@ endocytosis
 endosomal
 endosomes
 endothelium
+endotoxins
 Entecavir
+Enterococcus
 enterocytes
 enterovirus
 eosino
@@ -335,6 +343,7 @@ expiratory
 extracorporeal
 FACS
 facto
+faecalis
 faeces
 FaO
 Fas
@@ -351,6 +360,7 @@ ferroprotein
 FEV
 FGDSVEEVL
 Fibrinogen
+fibroblast
 fibrobronchoscopy
 FiO
 Flaviviridae
@@ -370,6 +380,7 @@ frontline
 FSC
 Fu
 FURIN
+galactooligosaccharides
 Gammacoronaviruses
 Ganciclovir
 gastroenterologist
@@ -382,6 +393,7 @@ ggjr
 ggjvr
 ggkd
 ggnzmc
+GG
 GGO
 Ghosh
 github
@@ -408,6 +420,7 @@ hACE
 Halie
 Hamon
 HB
+HBEC
 HBV
 HCoV
 HCoVs
@@ -442,6 +455,8 @@ HLA
 HMGBs
 hoc
 homology
+hpi
+HPIV
 HPLC
 HSC
 HSST
@@ -474,6 +489,7 @@ ICUs
 IEDB
 IFITM
 IFN
+IFNB
 IFNs
 IFNy
 IG
@@ -544,6 +560,8 @@ IQR
 IRF
 IRQ
 isbn
+ISG
+ISGs
 ismms
 isothermal
 isotype
@@ -574,6 +592,7 @@ Krammer
 Kuksin
 labelled
 laboratorial
+Lactobacillus
 Lafaille
 latex
 lavages
@@ -610,6 +629,7 @@ LY
 LYM
 lymphocytic
 lymphocytopenia
+lymphokines
 lymphopenia
 lymphoplasmacytic
 LYN
@@ -639,6 +659,7 @@ Marseille
 Matsuyama
 MAVS
 MBP
+mCherry
 mcg
 MCP
 MDCK
@@ -657,6 +678,7 @@ methylprednisolone
 MHC
 MHV
 microarray
+microbiota
 micrograms
 microsphere
 microspheres
@@ -686,6 +708,7 @@ Morgridge
 mortem
 Mpro
 mprobson
+MRC
 mRNA
 mRNAs
 mTOR
@@ -710,6 +733,7 @@ nanodroplet
 nanodroplets
 nanowell
 nanowells
+nasogastric
 NCBI
 NCIP
 nCoV
@@ -727,6 +751,7 @@ neutrophilia
 Neutrophils
 NFKB
 ng
+NHBE
 NHC
 NHGRI
 niclosamide
@@ -774,6 +799,7 @@ Paneth
 pangolins
 PaO
 papillomavirus
+parainfluenza
 Param
 Pardi
 parenchyma
@@ -850,6 +876,8 @@ presymptomatic
 Pretreatment
 PRKCD
 PRNT
+probiotic
+probiotics
 Procalcitonin
 profibrotic
 proinflammatory
@@ -923,6 +951,7 @@ respirations
 responders
 Resus
 Retinopathy
+rhamnosus
 Rhinolophus
 rhinorrhea
 riboendonuclease
@@ -1013,11 +1042,13 @@ sterically
 strikethrough
 subgenus
 submicromolar
+submucosal
 suboptimal
 subpopulation
 subpopulations
 subscapular
 subsequences
+subtilis
 subtypes
 subunit
 subunits
@@ -1032,6 +1063,7 @@ SV
 svg
 svgs
 Synairgen
+syncytial
 Taguchi
 Tamar
 tamefoxtime
@@ -1047,6 +1079,7 @@ theat
 thebyrdlab
 Thevarajan
 THP
+thromboinflammation
 thymosin
 Tian
 Tideglusib
@@ -1111,6 +1144,7 @@ utilised
 UTR
 Vaninov
 vasculitis
+Vascepa
 Vav
 ve
 Venu
@@ -1143,6 +1177,7 @@ Wellhausen
 wikidata
 Wildtype
 Willebrand
+Wyler
 Xu
 Yael
 Yelin
