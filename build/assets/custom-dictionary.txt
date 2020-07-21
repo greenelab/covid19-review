@@ -12,6 +12,8 @@ adamlmaclean
 adenocarcinomic
 adenosine
 adenovirus
+adjuvant
+adjuvants
 affinis
 agitter
 Agostino
@@ -500,10 +502,12 @@ immunoinformatics
 immunologically
 immunomodulating
 immunomodulator
+immunomodulators
 immunomodulatory
 immunopathology
 immunophenotyping
 immunoprecipitation
+immunostimulants
 immunosuppressant
 immunosuppression
 immunosuppressive
@@ -776,6 +780,7 @@ overexpression
 overexuberant
 Palivizumab
 palmitoylation
+PAMPs
 Paneth
 pangolins
 PaO
@@ -878,6 +883,7 @@ prothrombotic
 protomer
 protomers
 protonated
+PRRs
 pseudotyped
 pseudovirus
 pseudoviruses
