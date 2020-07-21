@@ -31,7 +31,7 @@
         [
           "2020",
           7,
-          18
+          21
         ]
       ]
     }
@@ -68,7 +68,7 @@
         [
           "2020",
           7,
-          18
+          21
         ]
       ]
     }
@@ -105,7 +105,7 @@
         [
           "2020",
           7,
-          18
+          21
         ]
       ]
     }
@@ -142,7 +142,7 @@
         [
           "2020",
           7,
-          18
+          21
         ]
       ]
     }
@@ -179,7 +179,7 @@
         [
           "2020",
           7,
-          18
+          21
         ]
       ]
     }
@@ -216,7 +216,7 @@
         [
           "2020",
           7,
-          18
+          21
         ]
       ]
     }
@@ -253,7 +253,7 @@
         [
           "2020",
           7,
-          18
+          21
         ]
       ]
     }
@@ -290,7 +290,7 @@
         [
           "2020",
           7,
-          18
+          21
         ]
       ]
     }
@@ -327,7 +327,7 @@
         [
           "2020",
           7,
-          18
+          21
         ]
       ]
     }
@@ -354,8 +354,8 @@
       "date-parts": [
         [
           "2020",
-          6,
-          30
+          7,
+          17
         ]
       ]
     },
@@ -364,7 +364,7 @@
         [
           "2020",
           7,
-          18
+          21
         ]
       ]
     }
@@ -401,7 +401,7 @@
         [
           "2020",
           7,
-          18
+          21
         ]
       ]
     }
@@ -439,7 +439,7 @@
         [
           "2020",
           7,
-          18
+          21
         ]
       ]
     }
@@ -475,7 +475,7 @@
         [
           "2020",
           7,
-          18
+          21
         ]
       ]
     }
@@ -512,7 +512,7 @@
         [
           "2020",
           7,
-          18
+          21
         ]
       ]
     }
@@ -549,7 +549,7 @@
         [
           "2020",
           7,
-          18
+          21
         ]
       ]
     }
@@ -586,7 +586,7 @@
         [
           "2020",
           7,
-          18
+          21
         ]
       ]
     }
@@ -623,7 +623,7 @@
         [
           "2020",
           7,
-          18
+          21
         ]
       ]
     }
@@ -660,7 +660,7 @@
         [
           "2020",
           7,
-          18
+          21
         ]
       ]
     }
@@ -697,7 +697,7 @@
         [
           "2020",
           7,
-          18
+          21
         ]
       ]
     }
@@ -734,7 +734,7 @@
         [
           "2020",
           7,
-          18
+          21
         ]
       ]
     }
@@ -771,7 +771,7 @@
         [
           "2020",
           7,
-          18
+          21
         ]
       ]
     }
@@ -807,7 +807,7 @@
         [
           "2020",
           7,
-          18
+          21
         ]
       ]
     }
@@ -844,7 +844,7 @@
         [
           "2020",
           7,
-          18
+          21
         ]
       ]
     }
@@ -880,7 +880,7 @@
         [
           "2020",
           7,
-          18
+          21
         ]
       ]
     }
@@ -917,7 +917,7 @@
         [
           "2020",
           7,
-          18
+          21
         ]
       ]
     }
@@ -954,7 +954,7 @@
         [
           "2020",
           7,
-          18
+          21
         ]
       ]
     }
@@ -991,7 +991,7 @@
         [
           "2020",
           7,
-          18
+          21
         ]
       ]
     }
@@ -1028,7 +1028,7 @@
         [
           "2020",
           7,
-          18
+          21
         ]
       ]
     }
@@ -1065,7 +1065,7 @@
         [
           "2020",
           7,
-          18
+          21
         ]
       ]
     }
@@ -1102,7 +1102,7 @@
         [
           "2020",
           7,
-          18
+          21
         ]
       ]
     }
@@ -1139,7 +1139,7 @@
         [
           "2020",
           7,
-          18
+          21
         ]
       ]
     }
@@ -1176,7 +1176,7 @@
         [
           "2020",
           7,
-          18
+          21
         ]
       ]
     }
@@ -1213,7 +1213,7 @@
         [
           "2020",
           7,
-          18
+          21
         ]
       ]
     }
@@ -1250,7 +1250,7 @@
         [
           "2020",
           7,
-          18
+          21
         ]
       ]
     }
@@ -1287,7 +1287,7 @@
         [
           "2020",
           7,
-          18
+          21
         ]
       ]
     }
@@ -1324,7 +1324,7 @@
         [
           "2020",
           7,
-          18
+          21
         ]
       ]
     }
@@ -1591,13 +1591,16 @@
       "date-parts": [
         [
           2020,
-          6,
-          8
+          7,
+          21
         ]
       ]
     },
     "container-title": "JAMA",
     "DOI": "10.1001/jama.2020.10369",
+    "volume": "324",
+    "issue": "3",
+    "page": "259",
     "publisher": "American Medical Association (AMA)",
     "title": "Clinical Characteristics of 58 Children With a Pediatric Inflammatory Multisystem Syndrome Temporally Associated With SARS-CoV-2",
     "URL": "https://doi.org/gg2v75",
@@ -18087,12 +18090,20 @@
         "given": "Manman"
       },
       {
+        "family": "Yu",
+        "given": "Pengfei"
+      },
+      {
         "family": "Zheng",
         "given": "Sujun"
       },
       {
         "family": "Duan",
         "given": "Zhongping"
+      },
+      {
+        "family": "Liu",
+        "given": "Jing"
       },
       {
         "family": "Chen",
@@ -18108,15 +18119,15 @@
         [
           2020,
           3,
-          3
+          10
         ]
       ]
     },
-    "abstract": "Aim: Coronavirus disease 2019 (COVID-19) has rapidly become the most severe public health issue all over the world. Despite acute respiratory failure, liver dysfunction has also been observed in clinical settings This study aimed to investigate the factors involved with hepatic injury in COVID-19 patients. Methods: A total of 26 hospitalized patients who were diagnosed with COVID-19 treated at Beijing Youan Hospital were retrospectively analyzed. According to the diagnostic criteria, they were divided into mild group (n=3), ordinary group (n=6), serious group (n=11) and critical group (n=6). Blood count, blood chemistry, coagulation test, liver and renal function, C-reactive protein, procalcitonin, lactic acid, cardiac markers and arterial partial pressure was compared between these groups. Independent risk factors of ALT increase was selected. Results:There were 8 patients with ALT elevation in the patients with COVID-19, accounting for 30.8% (8/26). There was no difference in sex ratio between normal and elevated ALT population, and there was an increasing trend in age. The CRP index was significantly higher in the population with elevated ALT, and the increase of CRP was independently related to ALT level, and the OR value was 1.023 (P = 0.024). Conclusions: COVID-19 related hepatic injury may be a result of cytokine storm syndrome, a positive correlative relationship between the increase of CRP and liver injury. Early detection and timely treatment of hepatic injury is necessary.",
+    "abstract": "Aims: Corona virus disease 2019 (COVID-19) has rapidly become the most severe public health issue all over the world. Despite respiratory symptoms, hepatic injury has also been observed in clinical settings. This study aimed to investigate the risk factors involved with hepatic injury in the patients with COVID-19. Methods: A total of 85 hospitalized patients who were diagnosed with COVID-19 in Beijing Youan Hospital were retrospectively analyzed. According to liver function, they were divided into ALT normal group (n=52) and ALT elevation group (n=33). Clinical features and laboratory data were compared between the two groups. The independent risk factors for liver injury were analyzed. Results: There were 33 patients with hepatic injury in our study, accounting for 38.8% (33/85). The patients in ALT elevation group were older than those in ALT normal group. The levels of lactic acid, CRP, myoglobin, and neutrophils were significantly higher in ALT elevation group. The lymphocytes and albumin were significantly lower in ALT elevation group. The proportion of severe and critical patients in ALT elevation group was significantly higher. Multivariate logistic regression analysis showed CRP ≥20 mg/L and lymphocyte count&lt; 1.1*10^9/L were independently related to hepatic injury. Conclusions: Lymphopenia and CRP may serve as the risk factors related to hepatic injury in patients with COVID-19, which might be related to inflammatory cytokine storm in liver injury. Early detection and timely treatment of hepatic injury in patients with COVID-19 are necessary.",
     "container-title": "medRxiv",
     "DOI": "10.1101/2020.02.28.20028514",
     "publisher": "medRxiv",
-    "title": "The level of plasma C-reactive protein is closely related to the liver injury in patients with COVID-19",
+    "title": "Risk factors related to hepatic injury in patients with corona virus disease 2019",
     "URL": "https://doi.org/ggq632",
     "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: doi:10.1101/2020.02.28.20028514"
   },
@@ -35071,7 +35082,7 @@
         [
           "2020",
           7,
-          20
+          21
         ]
       ]
     },
@@ -35090,7 +35101,7 @@
         [
           "2020",
           7,
-          20
+          21
         ]
       ]
     },
@@ -35106,7 +35117,7 @@
         [
           "2020",
           7,
-          20
+          21
         ]
       ]
     },
@@ -35123,7 +35134,7 @@
         [
           "2020",
           7,
-          20
+          21
         ]
       ]
     },
@@ -35180,7 +35191,7 @@
         [
           "2020",
           7,
-          20
+          21
         ]
       ]
     },
@@ -35198,7 +35209,7 @@
         [
           "2020",
           7,
-          20
+          21
         ]
       ]
     },
@@ -35294,7 +35305,7 @@
         [
           "2020",
           7,
-          20
+          21
         ]
       ]
     },
@@ -35311,7 +35322,7 @@
         [
           "2020",
           7,
-          20
+          21
         ]
       ]
     },
@@ -35328,7 +35339,7 @@
         [
           "2020",
           7,
-          20
+          21
         ]
       ]
     },
@@ -35345,7 +35356,7 @@
         [
           "2020",
           7,
-          20
+          21
         ]
       ]
     },
@@ -35370,7 +35381,7 @@
         [
           "2020",
           7,
-          20
+          21
         ]
       ]
     },
@@ -35404,7 +35415,7 @@
         [
           "2020",
           7,
-          20
+          21
         ]
       ]
     },
@@ -35438,7 +35449,7 @@
         [
           "2020",
           7,
-          20
+          21
         ]
       ]
     },
@@ -35472,7 +35483,7 @@
         [
           "2020",
           7,
-          20
+          21
         ]
       ]
     },
@@ -35506,7 +35517,7 @@
         [
           "2020",
           7,
-          20
+          21
         ]
       ]
     },
@@ -35540,7 +35551,7 @@
         [
           "2020",
           7,
-          20
+          21
         ]
       ]
     },
@@ -35571,7 +35582,7 @@
         [
           "2020",
           7,
-          20
+          21
         ]
       ]
     },
@@ -35587,7 +35598,7 @@
         [
           "2020",
           7,
-          20
+          21
         ]
       ]
     },
@@ -35604,7 +35615,7 @@
         [
           "2020",
           7,
-          20
+          21
         ]
       ]
     },
@@ -35612,12 +35623,43 @@
   },
   {
     "URL": "https://www.fda.gov/media/136625/download",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          7
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "James",
+        "given": ""
+      }
+    ],
     "type": "webpage",
     "id": "n6sKSpIk",
     "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://www.fda.gov/media/136625/download"
   },
   {
     "URL": "https://www.fda.gov/media/137564/download",
+    "title": "  FDa logo for letterhead  ",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          1
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "JBowers",
+        "given": ""
+      }
+    ],
     "type": "webpage",
     "id": "1BYoe0y2H",
     "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://www.fda.gov/media/137564/download"
@@ -35652,7 +35694,7 @@
         [
           "2020",
           7,
-          20
+          21
         ]
       ]
     },
@@ -35687,7 +35729,7 @@
         [
           "2020",
           7,
-          20
+          21
         ]
       ]
     },
@@ -35715,7 +35757,7 @@
         [
           "2020",
           7,
-          20
+          21
         ]
       ]
     },
@@ -35723,6 +35765,22 @@
   },
   {
     "URL": "https://www.governor.ny.gov/sites/governor.ny.gov/files/atoms/files/NYForwardReopeningGuide.pdf",
+    "title": "\n            \n               PowerPoint Presentation\n            \n         ",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          15
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Markman",
+        "given": "David"
+      }
+    ],
     "type": "webpage",
     "id": "IldxlHwA",
     "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://www.governor.ny.gov/sites/governor.ny.gov/files/atoms/files/NYForwardReopeningGuide.pdf"
@@ -35745,7 +35803,7 @@
         [
           "2020",
           7,
-          20
+          21
         ]
       ]
     },
@@ -35770,7 +35828,7 @@
         [
           "2020",
           7,
-          20
+          21
         ]
       ]
     },
@@ -35788,7 +35846,7 @@
         [
           "2020",
           7,
-          20
+          21
         ]
       ]
     },
@@ -35832,7 +35890,7 @@
         [
           "2020",
           7,
-          20
+          21
         ]
       ]
     },
@@ -35851,7 +35909,7 @@
         [
           "2020",
           7,
-          20
+          21
         ]
       ]
     },
@@ -35870,7 +35928,7 @@
         [
           "2020",
           7,
-          20
+          21
         ]
       ]
     },
@@ -35895,7 +35953,7 @@
         [
           "2020",
           7,
-          20
+          21
         ]
       ]
     },
@@ -35912,7 +35970,7 @@
         [
           "2020",
           7,
-          20
+          21
         ]
       ]
     },
@@ -35926,30 +35984,97 @@
   },
   {
     "URL": "https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200121-sitrep-1-2019-ncov.pdf",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          1,
+          27
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Cramer",
+        "given": ""
+      }
+    ],
     "type": "webpage",
     "id": "Vb5KFWnO",
     "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200121-sitrep-1-2019-ncov.pdf"
   },
   {
     "URL": "https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128-sitrep-8-ncov-cleared.pdf",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          1,
+          28
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Ikejezie, Mr. Juniorcaius (WDC)",
+        "given": ""
+      }
+    ],
     "type": "webpage",
     "id": "fLTiwToY",
     "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128-sitrep-8-ncov-cleared.pdf"
   },
   {
     "URL": "https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200311-sitrep-51-covid-19.pdf",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          3,
+          11
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Ikejezie, Mr. Juniorcaius (WDC)",
+        "given": ""
+      }
+    ],
     "type": "webpage",
     "id": "x9975iBK",
     "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200311-sitrep-51-covid-19.pdf"
   },
   {
     "URL": "https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200404-sitrep-75-covid-19.pdf?sfvrsn",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          4,
+          5
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Ikejezie, Mr. Juniorcaius (WDC)",
+        "given": ""
+      }
+    ],
     "type": "webpage",
     "id": "12u4h9N8z",
     "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200404-sitrep-75-covid-19.pdf?sfvrsn"
   },
   {
     "URL": "https://www.who.int/emergencies/diseases/managing-epidemics-interactive.pdf",
+    "title": "\n            \n               WHO_logo_DRGrey\n            \n         ",
+    "author": [
+      {
+        "family": "WHO /Gary Hampton",
+        "given": ""
+      }
+    ],
     "type": "webpage",
     "id": "NsGPWKWP",
     "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://www.who.int/emergencies/diseases/managing-epidemics-interactive.pdf"
