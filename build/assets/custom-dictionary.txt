@@ -286,6 +286,7 @@ dysregulation
 Dziak
 dziakj
 DZNE
+Eberwine
 ebm
 ebolavirus
 EBOV
@@ -544,6 +545,7 @@ invasively
 investigational
 ionophores
 IPF
+Ipsita
 IQR
 IRF
 IRQ
@@ -577,6 +579,7 @@ kinases
 Kolla
 Konstantina
 Krammer
+Krishnan
 Kuksin
 labelled
 laboratorial
