@@ -12,6 +12,8 @@ adamlmaclean
 adenocarcinomic
 adenosine
 adenovirus
+adjuvant
+adjuvants
 affinis
 agitter
 Agostino
@@ -288,6 +290,7 @@ dysregulation
 Dziak
 dziakj
 DZNE
+Eberwine
 ebm
 ebolavirus
 EBOV
@@ -504,10 +507,12 @@ immunoinformatics
 immunologically
 immunomodulating
 immunomodulator
+immunomodulators
 immunomodulatory
 immunopathology
 immunophenotyping
 immunoprecipitation
+immunostimulants
 immunosuppressant
 immunosuppression
 immunosuppressive
@@ -544,6 +549,7 @@ invasively
 investigational
 ionophores
 IPF
+Ipsita
 IQR
 IRF
 IRQ
@@ -577,6 +583,7 @@ kinases
 Kolla
 Konstantina
 Krammer
+Krishnan
 Kuksin
 labelled
 laboratorial
@@ -781,6 +788,7 @@ overexpression
 overexuberant
 Palivizumab
 palmitoylation
+PAMPs
 Paneth
 pangolins
 PaO
@@ -883,6 +891,7 @@ prothrombotic
 protomer
 protomers
 protonated
+PRRs
 pseudotyped
 pseudovirus
 pseudoviruses
