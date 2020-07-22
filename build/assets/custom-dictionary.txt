@@ -442,6 +442,7 @@ hilar
 himc
 Hirai
 histochemical
+histocompatibility
 histological
 histone
 histones
