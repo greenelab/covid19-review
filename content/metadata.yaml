@@ -598,14 +598,14 @@ authors:
       lastapproved: !!str 2020-07-09
   -
     github: LSH2126
-    name: [fill in]
-    initials: [fill in]
-    orcid: [fill in]
-    email: [fill in]
+    name: Lamonica Shinholster
+    initials: LS
+    orcid: 0000-0001-6285-005X
+    email: lamonica.y.shinholster@live.mercer.edu
     contributions:
       - Writing - Original Draft
     affiliations:
-      - [fill in]
+      - Mercer University, Macon, GA, United States of America
     code of conduct:
       confirmed: yes
     coi:
