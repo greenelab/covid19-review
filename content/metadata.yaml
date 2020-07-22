@@ -596,3 +596,18 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-07-09
+  -
+    github: LSH2126
+    name: [fill in]
+    initials: [fill in]
+    orcid: [fill in]
+    email: [fill in]
+    contributions:
+      - Writing - Original Draft
+    affiliations:
+      - [fill in]
+    code of conduct:
+      confirmed: yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-07-22
