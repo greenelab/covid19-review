@@ -127,9 +127,11 @@ BST
 byrdjb
 CaCo
 calcitonin
+Calmette
 Calu
 camostat
 Cao
+capita
 capsids
 Carleton
 Carmofour
@@ -180,6 +182,7 @@ colorectal
 colorimetric
 Colson
 combinatorial
+comorbid
 comorbidities
 comorbidity
 Comput
@@ -198,6 +201,7 @@ corticosteroids
 CoV
 CoV’s
 covalently
+covariates
 COVID
 CoVs
 CoVZC
@@ -269,6 +273,7 @@ dihydroxyvitamin
 DiMaio
 dimerization
 dimorphism
+disaggregate
 DiscoTope
 Disulfiram
 docosahexaenoic
@@ -407,6 +412,7 @@ GSE
 GTEx
 Guangdong
 Guebila
+Guerin
 Gyeonggi
 hACE
 Halie
@@ -430,11 +436,13 @@ hematopoietic
 hepatoma
 hepatotropic
 Herst
+heterologous
 HGF
 hilar
 himc
 Hirai
 histochemical
+histocompatibility
 histological
 histone
 histones
@@ -602,6 +610,7 @@ Likhitha
 likhithakolla
 Lindblad
 lipoic
+lipopolysaccharide
 littermates
 Liu
 lkolla
@@ -673,6 +682,7 @@ micrograms
 microsphere
 microspheres
 Miknis
+minoritized
 MIP
 Mitogen
 mmHg
@@ -851,6 +861,7 @@ Pothula
 PPAR
 PPARG
 PPI
+PRRs
 PPV
 pre
 preclinical
@@ -925,6 +936,7 @@ reactogenicity
 Readme
 recombinant
 remdesivir
+remediating
 Renmin
 reopenings
 replicase
@@ -1024,6 +1036,7 @@ submucosal
 suboptimal
 subpopulation
 subpopulations
+subsample
 subscapular
 subsequences
 subtilis
@@ -1065,6 +1078,7 @@ titer
 titers
 TLM
 TLR
+TLRs
 TMPRSS
 TNF
 Tnfa
