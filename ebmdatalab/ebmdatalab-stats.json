@@ -4,7 +4,7 @@
   "ebm_commit_sha": "e39ab30b7a94aa387db9f7ce2c1f8255e0919e59",
   "ebm_date_pretty": "July 7, 2020",
   "ebm_trials": "3,985",
-  "ebm_trials_figure": "https://github.com/greenelab/covid19-review/raw/c2bfb89aac075275423364ca8c20a826d2ffdcfc/ebmdatalab/ebmdatalab-trials.svg",
+  "ebm_trials_figure": "https://github.com/greenelab/covid19-review/raw/84fd6ae9e0279bedbbe0f03bb59c65bb7d31266a/ebmdatalab/ebmdatalab-trials.svg",
   "ebm_trials_results": "101",
   "ebm_trials_results_citekeys": [
     "doi:10.1001/jama.2020.10044",
@@ -115,5 +115,5 @@
     "doi:10/ggvw2s",
     "url:https://clinicaltrials.gov/ct2/show/results/NCT04323592"
   ],
-  "ebm_update_time_utc": "2020-07-22T00:27:44.905815"
+  "ebm_update_time_utc": "2020-07-23T00:28:02.683314"
 }
