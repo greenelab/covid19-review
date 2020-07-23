@@ -131,6 +131,7 @@ Calmette
 Calu
 camostat
 Cao
+capita
 capsids
 Carleton
 Carmofour
@@ -181,6 +182,7 @@ colorectal
 colorimetric
 Colson
 combinatorial
+comorbid
 comorbidities
 comorbidity
 Comput
@@ -199,6 +201,7 @@ corticosteroids
 CoV
 CoV’s
 covalently
+covariates
 COVID
 CoVs
 CoVZC
@@ -270,6 +273,7 @@ dihydroxyvitamin
 DiMaio
 dimerization
 dimorphism
+disaggregate
 DiscoTope
 Disulfiram
 docosahexaenoic
@@ -438,6 +442,7 @@ hilar
 himc
 Hirai
 histochemical
+histocompatibility
 histological
 histone
 histones
@@ -677,6 +682,7 @@ micrograms
 microsphere
 microspheres
 Miknis
+minoritized
 MIP
 Mitogen
 mmHg
@@ -930,6 +936,7 @@ reactogenicity
 Readme
 recombinant
 remdesivir
+remediating
 Renmin
 reopenings
 replicase
@@ -1029,6 +1036,7 @@ submucosal
 suboptimal
 subpopulation
 subpopulations
+subsample
 subscapular
 subsequences
 subtilis
