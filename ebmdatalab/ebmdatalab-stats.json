@@ -1,15 +1,16 @@
 {
-  "ebm_commit_date": "2020-07-15T17:50:16Z",
-  "ebm_commit_date_pretty": "July 15, 2020",
-  "ebm_commit_sha": "e39ab30b7a94aa387db9f7ce2c1f8255e0919e59",
-  "ebm_date_pretty": "July 7, 2020",
-  "ebm_trials": "3,985",
-  "ebm_trials_figure": "https://github.com/greenelab/covid19-review/raw/82b7ebce058c8286f0e62b931e9cfb24787580c4/ebmdatalab/ebmdatalab-trials.svg",
-  "ebm_trials_results": "101",
+  "ebm_commit_date": "2020-07-24T16:47:42Z",
+  "ebm_commit_date_pretty": "July 24, 2020",
+  "ebm_commit_sha": "4daba5cde5c544fd308e582b981579188bd1d30c",
+  "ebm_date_pretty": "July 17, 2020",
+  "ebm_trials": "4,282",
+  "ebm_trials_figure": "https://github.com/greenelab/covid19-review/raw/6a0d2c865aa62a7e171419af45d41cfa0eef3e5d/ebmdatalab/ebmdatalab-trials.svg",
+  "ebm_trials_results": "104",
   "ebm_trials_results_citekeys": [
     "doi:10.1001/jama.2020.10044",
     "doi:10.1001/jamanetworkopen.2020.13136",
     "doi:10.1001/jamanetworkopen.2020.8857",
+    "doi:10.1007/s00125-020-05180-x",
     "doi:10.1016/j.bja.2020.02.020",
     "doi:10.1016/j.eng.2020.03.007",
     "doi:10.1016/j.ijantimicag.2020.105949",
@@ -17,6 +18,7 @@
     "doi:10.1056/NEJMoa2001282",
     "doi:10.1056/NEJMoa2015301",
     "doi:10.1056/NEJMoa2016638",
+    "doi:10.1056/NEJMoa2019014",
     "doi:10.1056/NEJMoa2022483",
     "doi:10.1056/nejmoa2007764",
     "doi:10.1073/pnas.2004168117",
@@ -105,6 +107,7 @@
     "doi:10.1101/2020.07.12.20151316",
     "doi:10.1101/2020.07.15.20151852",
     "doi:10.1128/AAC.01177-20",
+    "doi:10.1136/annrheumdis-2020-217627",
     "doi:10.1186/s12931-020-01352-w",
     "doi:10.14336/AD.2020.0228",
     "doi:10.3785/j.issn.1008-9292.2020.03.03",
@@ -115,5 +118,5 @@
     "doi:10/ggvw2s",
     "url:https://clinicaltrials.gov/ct2/show/results/NCT04323592"
   ],
-  "ebm_update_time_utc": "2020-07-24T00:29:03.823110"
+  "ebm_update_time_utc": "2020-07-25T00:28:39.648810"
 }
