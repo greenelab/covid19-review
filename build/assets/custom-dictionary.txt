@@ -684,6 +684,7 @@ microspheres
 Miknis
 minoritized
 MIP
+MIS-C
 Mitogen
 mmHg
 mmol
@@ -714,6 +715,7 @@ mTOR
 MUC
 mucosa
 multiorgan
+multisystem
 mutagenesis
 myalgia
 Mycobacterium
