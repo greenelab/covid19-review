@@ -123,6 +123,9 @@ def main(args):
     ebm_stats['ebm_trials_figure'] = \
         f'https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/{args.output_figure}.svg'
     
+    # Tabulate number of trials for pharmaceuticals of interest
+    ebm_stats['ebm_tocilizumab_ct'] = str(trials_df['intervention'].str.contains('tocilizumab', case=False).sum())
+    
     with open(args.output_json, 'w') as out_file:
         json.dump(ebm_stats, out_file, indent=2, sort_keys=True)
     print(f'Wrote {args.output_json}')
