@@ -24,16 +24,29 @@ jobs:
       - name: Update JHU CSSE data
         shell: bash --login {0}
         run: bash csse/generate-csse-stats.sh
-      # Committing the figures first and then the csse-stats.json separately
-      # may be a better option
-      # That would allow pinning the figures to a specific commit
-      - name: Commit JHU CSSE data
+      - name: Update EBM Data Lab data
+        shell: bash --login {0}
+        run: bash ebmdatalab/generate-ebmdatalab-stats.sh
+      - name: Commit JHU CSSE and EBM Data Lab figures
         uses: EndBug/add-and-commit@v4
         with:
-          add: 'csse/*'
+          add: '*/*.png */*.svg'
           author_name: GitHub Actions
           author_email: actions@github.com
-          message: 'Update JHU CSSE data'
+          message: 'Update JHU CSSE and EBM Data Lab figures'
+          ref: external-resources
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Update figure versions
+        shell: bash --login {0}
+        run: bash version-figures.sh
+      - name: Commit JHU CSSE and EBM Data Lab statistics
+        uses: EndBug/add-and-commit@v4
+        with:
+          add: '*/*.json'
+          author_name: GitHub Actions
+          author_email: actions@github.com
+          message: 'Update JHU CSSE and EBM Data Lab statistics'
           ref: external-resources
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

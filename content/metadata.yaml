@@ -65,6 +65,7 @@ authors:
     email: smb310@georgetown.edu
     contributions:
       - Methodology
+      - Writing - Review & Editing
     affiliations:
       - Innovation Center for Biomedical Informatics, Georgetown University Medical Center, Washington, District of Columbia, United States of America
     coi:
@@ -80,6 +81,7 @@ authors:
       - Writing - Original Draft
       - Writing - Review & Editing
       - Project Administration
+      - Visualization
     affiliations:
       - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
     coi:
@@ -182,7 +184,7 @@ authors:
     initials: AAD
     orcid: 0000-0003-1462-831X
     twitter: aadattoli
-    email: annaada.dattoli@gmail.com
+    email: anna.dattoli@pennmedicine.upenn.edu
     contributions:
       - Writing - Original Draft
     affiliations:
@@ -565,3 +567,47 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-06-23
+  -
+    github: kevinsunofficial
+    name: YuCheng Sun
+    initials: YS
+    email: ys4aj@virginia.edu
+    contributions:
+      - Visualization
+    affiliations:
+      - Department of Computer Science, University of Virginia, Charlottesville, VA, United States of America
+    code of conduct:
+      confirmed: yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-07-09
+  -
+    github: qiyanjun
+    name: Yanjun Qi
+    initials: YQ
+    orcid: 0000-0002-5796-7453
+    email: yanjun.research@gmail.com
+    contributions:
+      - Visualization
+    affiliations:
+      - Department of Computer Science, University of Virginia, Charlottesville, VA, United States of America
+    code of conduct:
+      confirmed: yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-07-09
+  -
+    github: LSH2126
+    name: Lamonica Shinholster
+    initials: LS
+    orcid: 0000-0001-6285-005X
+    email: lamonica.y.shinholster@live.mercer.edu
+    contributions:
+      - Writing - Original Draft
+    affiliations:
+      - Mercer University, Macon, GA, United States of America
+    code of conduct:
+      confirmed: yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-07-22
