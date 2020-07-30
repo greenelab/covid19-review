@@ -5,7 +5,7 @@
   "ebm_date_pretty": "July 17, 2020",
   "ebm_tocilizumab_ct": "68",
   "ebm_trials": "4,282",
-  "ebm_trials_figure": "https://github.com/greenelab/covid19-review/raw/16de86b1ca7160f56663de4ed897e1bc1e86116c/ebmdatalab/ebmdatalab-trials.svg",
+  "ebm_trials_figure": "https://github.com/greenelab/covid19-review/raw/1ab09c775f8bc5c06ff0a8e1d6c9ee61be6bbc17/ebmdatalab/ebmdatalab-trials.svg",
   "ebm_trials_results": "104",
   "ebm_trials_results_citekeys": [
     "doi:10.1001/jama.2020.10044",
@@ -119,5 +119,5 @@
     "doi:10/ggvw2s",
     "url:https://clinicaltrials.gov/ct2/show/results/NCT04323592"
   ],
-  "ebm_update_time_utc": "2020-07-29T00:27:51.756102"
+  "ebm_update_time_utc": "2020-07-30T00:28:47.713854"
 }
