@@ -245,7 +245,8 @@ authors:
       - Investigation
       - Writing - Review & Editing
     affiliations:
-      - The DeepChem Project, https://deepchem.io/
+      - recent PhD, Stanford University, Stanford, CA, USA
+      - Lead Developer for the DeepChem Project, https://deepchem.io/, multiple locations, USA
     coi:
       string: "None"
       lastapproved: !!str 2020-04-06
