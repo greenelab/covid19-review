@@ -460,7 +460,7 @@
 {
   "URL": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2020-000936-23/FR",
   "type": "webpage",
-  "id": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2020-000936-23/FR",
+  "id": "url:https://www.clinicaltrialsregister.eu/ctr-search/trial/2020-000936-23/FR",
   "title": "Multi-centre, adaptive, randomized trial of the safety and efficacy of treatments of COVID-19 in hospitalized adults",
   "container-title": "EU Clinical Trials Register",
   "issued": {
@@ -693,7 +693,7 @@
   "id": "doi:10.2174/1874306401105010051",
   "author": [
     {
-      "family": "Hemilä",
+      "family": "HemilÃ¤",
       "given": "Harri"
     }
   ],
@@ -799,7 +799,7 @@
 {
   "id": "url:http://www.news.sanofi.us/2020-03-16-Sanofi-and-Regeneron-begin-global-Kevzara-R-sarilumab-clinical-trial-program-in-patients-with-severe-COVID-19",
   "type": "webpage",
-  "title": "Sanofi and Regeneron begin global Kevzara® (sarilumab) clinical trial program in patients with severe COVID-19",
+  "title": "Sanofi and Regeneron begin global KevzaraÂ® (sarilumab) clinical trial program in patients with severe COVID-19",
   "container-title": "Sanofi",
   "URL": "http://www.news.sanofi.us/2020-03-16-Sanofi-and-Regeneron-begin-global-Kevzara-R-sarilumab-clinical-trial-program-in-patients-with-severe-COVID-19",
   "issued": {
