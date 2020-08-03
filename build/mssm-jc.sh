@@ -3,7 +3,7 @@
 # Get the SHA-1 hash of the latest commit on the master branch
 # See https://developer.github.com/v3/repos/branches/
 # and https://stackoverflow.com/questions/1955505/parsing-json-with-unix-tools
-ISMMS_COMMIT=$(curl -sS https://api.github.com/repos/ismms-himc/covid-19_sinai_reviews/branches/master | python -c "import sys, json; print(json.load(sys.stdin)['commit']['sha'])")
+ISMMS_COMMIT=05d387bf10b829dad6bedb4bf313686750b78cc9
 
 echo "Downloading content from commit $ISMMS_COMMIT"
 curl -fsSL https://github.com/ismms-himc/covid-19_sinai_reviews/archive/$ISMMS_COMMIT.zip > output/MSSM.zip
