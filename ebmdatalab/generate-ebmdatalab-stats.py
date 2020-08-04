@@ -37,6 +37,45 @@ def extract_citekey(results_url):
         citekey = short_doi_url.replace('https://doi.org', 'doi:10')
     return citekey
 
+def assign_ISO(countries):
+    # Match country names with ISO codes
+    # Input: pd.Series of country names
+    # Returns: dictionary of matches
+
+    # Need to hard code a few countries that aren't registered using standard names, so
+    # initializing the single_country_codes database with these values
+    country_codes = {"South Korea": "KOR", "Democratic Republic of Congo": "COD",
+                     "Democratic Republic of the Congo": "COD"}
+
+    # Identify the most likely 3-letter ISO code for each country
+    failed_matches = list()
+    for country in countries:
+        if country not in country_codes.keys():
+            try:
+                hit = pycountry.countries.get(name=country)
+                if hit == None:
+                    # If the name isn't an exact match, try alternatives
+                    # .search_fuzzy matching returns a list, whereas .get retrieves data as class Country
+                    hit = pycountry.countries.search_fuzzy(country)
+                    if len(hit) > 1:
+                        hit = pycountry.countries.search_fuzzy(country + ",")
+                    elif type(hit) == None:
+                        hit = pycountry.countries.get(official_name=country)
+            except LookupError:
+                failed_matches.append(country)
+                continue
+
+            if type(hit) == list and len(hit) == 1:
+                country_codes[country] = hit[0].alpha_3
+            elif type(hit) == list or type(hit) == None:
+                failed_matches.append(country)
+            else:
+                country_codes[country] = hit.alpha_3
+
+    # Print warning about failures and return successes as dictionary
+    print("Failed to assign country codes to:", ", ".join(failed_matches))
+    return(country_codes)
+
 # Inspired by https://github.com/greenelab/meta-review/blob/master/analyses/deep-review-contrib/03.contrib-stats.ipynb
 def main(args):
     '''Extract statistics from the EBM Data Lab COVID-19 TrialsTracker dataset'''
@@ -118,29 +157,34 @@ def main(args):
     fig.savefig(args.output_figure + '.png', bbox_inches = "tight")
     fig.savefig(args.output_figure + '.svg', bbox_inches = "tight")
     
-    # Identify frequencies of each country in single-country and multi-country clinical trials
-    multi_countries = trials_df['countries'][trials_df['countries'].str.contains(',')]
-    multi_countries = pd.Series([country for country_list in multi_countries.str.split(',') for country in country_list])
-    multi_country_counts = multi_countries.value_counts()
+    # Identify the names of each country in single-country and multi-country clinical trials
+    # Multi refers to trials that have multiple country names, comma-separated
+    # One trial lists every country on Earth and formatted the data inconsistently, so drop it
+    valid_country = trials_df[trials_df['countries'] != "No Country Given"]
+    valid_country = valid_country[valid_country['trial_id'] != "ISRCTN80453162"]
+    single_countries = valid_country['countries'][~valid_country['countries'].str.contains(',')]
+    multi_countries = valid_country["countries"][valid_country["countries"].str.contains(',')]
+    multi_countries = pd.Series(
+        [country for country_list in multi_countries.str.split(',') for country in country_list]
+    )
 
-    single_countries = trials_df['countries'][~trials_df['countries'].str.contains(',')]
-    single_country_counts = single_countries.value_counts()
-    single_country_counts = single_country_counts.drop(labels='No Country Given')
+    # Identify the 3-letter ISO codes for each unique country
+    unique_countries = single_countries.append(multi_countries).str.strip().drop_duplicates()
+    country_codes = assign_ISO(unique_countries)
 
-    # Match country names in EBM data with ISO codes (more stable than names)    
-    for c in single_country_counts.index:
-        print(c)
-        try:
-             code = pycountry.countries.get(name=c).alpha_3
-        except LookupError():
-             hits = pycountry.countries.search_fuzzy(c)
-             if len(hits) == 1:
-                 code = 
-    print(single_country_codes)
+    #multi_countries_codes = pd.DataFrame(multi_countries).join(
+    print(pd.DataFrame.from_dict(country_codes, orient="index") )
+    print(multi_countries.index)
+    #, columns=["countries", "code"]), on="countries")
+    #print(multi_countries_codes)
+    #multi_country_counts = multi_countries.value_counts()
+    #single_country_codes = assign_ISO(single_countries)
+    #single_country_counts = pd.DataFrame(single_countries .value_counts()
+    #print(single_country_counts)
+    exit(0)
+
     # Generate two-pane choropleth visualizing world map with number of representations in clinical trial data
     world = geopandas.read_file(geopandas.datasets.get_path('naturalearth_lowres'))
-    print(single_country_counts.index)
-    print(world.head())
 
     for unmatched_country in single_country_counts.index[~single_country_counts.index.isin(world["name"])]:
         print(pycountry.countries.get(name=unmatched_country))
