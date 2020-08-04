@@ -6,6 +6,7 @@ import os
 import pandas as pd
 import urllib.request
 import geopandas
+import pycountry
 
 from manubot.cite.citekey import url_to_citekey
 from manubot.cite.doi import get_short_doi_url
@@ -126,10 +127,24 @@ def main(args):
     single_country_counts = single_countries.value_counts()
     single_country_counts = single_country_counts.drop(labels='No Country Given')
 
+    # Match country names in EBM data with ISO codes (more stable than names)    
+    for c in single_country_counts.index:
+        print(c)
+        try:
+             code = pycountry.countries.get(name=c).alpha_3
+        except LookupError():
+             hits = pycountry.countries.search_fuzzy(c)
+             if len(hits) == 1:
+                 code = 
+    print(single_country_codes)
     # Generate two-pane choropleth visualizing world map with number of representations in clinical trial data
     world = geopandas.read_file(geopandas.datasets.get_path('naturalearth_lowres'))
     print(single_country_counts.index)
-    print(world.index)
+    print(world.head())
+
+    for unmatched_country in single_country_counts.index[~single_country_counts.index.isin(world["name"])]:
+        print(pycountry.countries.get(name=unmatched_country))
+    
     #fig, ax = plt.subplots(1, 1)
     
     exit(0) 
