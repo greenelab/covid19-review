@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 import os
 import pandas as pd
 import urllib.request
+import geopandas
 
 from manubot.cite.citekey import url_to_citekey
 from manubot.cite.doi import get_short_doi_url
@@ -116,6 +117,22 @@ def main(args):
     fig.savefig(args.output_figure + '.png', bbox_inches = "tight")
     fig.savefig(args.output_figure + '.svg', bbox_inches = "tight")
     
+    # Identify frequencies of each country in single-country and multi-country clinical trials
+    multi_countries = trials_df['countries'][trials_df['countries'].str.contains(',')]
+    multi_countries = pd.Series([country for country_list in multi_countries.str.split(',') for country in country_list])
+    multi_country_counts = multi_countries.value_counts()
+
+    single_countries = trials_df['countries'][~trials_df['countries'].str.contains(',')]
+    single_country_counts = single_countries.value_counts()
+    single_country_counts = single_country_counts.drop(labels='No Country Given')
+
+    # Generate two-pane choropleth visualizing world map with number of representations in clinical trial data
+    world = geopandas.read_file(geopandas.datasets.get_path('naturalearth_lowres'))
+    print(single_country_counts.index)
+    print(world.index)
+    #fig, ax = plt.subplots(1, 1)
+    
+    exit(0) 
     print(f'Wrote {args.output_figure}.png and {args.output_figure}.svg')
     
     # The placeholder will be replaced by the actual SHA-1 hash in separate
