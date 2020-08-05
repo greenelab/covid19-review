@@ -7,10 +7,7 @@ import pandas as pd
 import urllib.request
 import geopandas
 import pycountry
-import geoplot as gplt
 from datetime import date
-from bokeh.models import GeoJSONDataSource, LinearColorMapper, ColorBar
-from bokeh import palettes
 
 from manubot.cite.citekey import url_to_citekey
 from manubot.cite.doi import get_short_doi_url
@@ -42,9 +39,13 @@ def extract_citekey(results_url):
     return citekey
 
 def assign_ISO(countries):
-    # Match country names with ISO codes
-    # Input: pd.Series of country names
-    # Returns: dictionary of matches
+    """
+    Match country names with ISO codes
+    Input: series of country names
+    Returns: dictionary of matches
+    :type countries: pd.Series
+    """
+
 
     # Need to hard code a few countries that aren't registered using standard names, so
     # initializing the single_country_codes database with these values
@@ -57,13 +58,13 @@ def assign_ISO(countries):
         if country not in country_codes.keys():
             try:
                 hit = pycountry.countries.get(name=country)
-                if hit == None:
+                if hit is None:
                     # If the name isn't an exact match, try alternatives
                     # .search_fuzzy matching returns a list, whereas .get retrieves data as class Country
                     hit = pycountry.countries.search_fuzzy(country)
                     if len(hit) > 1:
                         hit = pycountry.countries.search_fuzzy(country + ",")
-                    elif type(hit) == None:
+                    elif type(hit) is None:
                         hit = pycountry.countries.get(official_name=country)
             except LookupError:
                 failed_matches.append(country)
@@ -71,14 +72,14 @@ def assign_ISO(countries):
 
             if type(hit) == list and len(hit) == 1:
                 country_codes[country] = hit[0].alpha_3
-            elif type(hit) == list or type(hit) == None:
+            elif type(hit) == list or type(hit) is None:
                 failed_matches.append(country)
             else:
                 country_codes[country] = hit.alpha_3
 
     # Print warning about failures and return successes as dictionary
-    print("Failed to assign country codes to:", ", ".join(failed_matches))
-    return(country_codes)
+    print("Could not assign country codes to:", ", ".join(failed_matches))
+    return country_codes
 
 # Inspired by https://github.com/greenelab/meta-review/blob/master/analyses/deep-review-contrib/03.contrib-stats.ipynb
 def main(args):
@@ -163,8 +164,9 @@ def main(args):
 
     print(f'Wrote {args.output_figure}.png and {args.output_figure}.svg')
     
-    # Identify the names of each country in single-country and multi-country clinical trials
-    # Multi refers to trials that have multiple country names, comma-separated
+    # Clean and separate the names of each country in single-country and multi-country clinical trials
+    # Single-country trials have only a single name (string) in the `countries` field
+    # Multi refers to trials that have multiple names, comma-separated
     # One trial lists every country on Earth and formatted the data inconsistently, so drop it
     valid_country = trials_df[trials_df['countries'] != "No Country Given"]
     valid_country = valid_country[valid_country['trial_id'] != "ISRCTN80453162"]
@@ -175,24 +177,31 @@ def main(args):
     )
 
     # Identify the 3-letter ISO codes for each unique country
+    # Remove any leading/trailing whitespace that may result from splitting above
     unique_countries = single_countries.append(multi_countries).str.strip().drop_duplicates()
     country_codes = pd.DataFrame.from_dict(assign_ISO(unique_countries), orient="index", columns=["iso_a3"])
 
     # Map the ISO codes onto the country data and count the frequency
-    single_countries_codes = pd.DataFrame(single_countries, index=single_countries).join(country_codes)["iso_a3"]
+    single_countries_codes = pd.DataFrame(single_countries,
+                                          index=single_countries).join(country_codes)["iso_a3"]
     single_countries_codes = single_countries_codes.dropna()
     single_countries_counts = single_countries_codes.value_counts().rename("single_countries_counts")
-    multi_countries_codes = pd.DataFrame(multi_countries.str.strip(), index=multi_countries.str.strip()).join(country_codes)["iso_a3"]
+    multi_countries_codes = pd.DataFrame(multi_countries.str.strip(),
+                                         index=multi_countries.str.strip()).join(country_codes)["iso_a3"]
     multi_countries_codes = multi_countries_codes.dropna()
     multi_countries_counts = multi_countries_codes.value_counts().rename("multi_countries_counts")
 
     # Map frequency data onto the geopandas geographical data for units with ISO code
     # geopandas uses -99 as N/A for this field
+    # We don't need to evaluate Antarctica
     countries_mapping = geopandas.read_file(geopandas.datasets.get_path('naturalearth_lowres'))
     countries_mapping = countries_mapping[countries_mapping.name != "Antarctica"]
     countries_mapping = countries_mapping[countries_mapping['iso_a3'] != "-99"]
     for count_data in [single_countries_counts, multi_countries_counts]:
-        countries_mapping = countries_mapping.merge(pd.DataFrame(count_data), how="left", left_on="iso_a3", right_index=True)
+        countries_mapping = countries_mapping.merge(pd.DataFrame(count_data),
+                                                    how="left",
+                                                    left_on="iso_a3",
+                                                    right_index=True)
 
     # Generate two-part choropleth visualizing world map with number of clinical trial data counted
     fig, (ax1, ax2) = plt.subplots(nrows=2, ncols=1, figsize=(20, 16))
@@ -206,13 +215,12 @@ def main(args):
     countries_mapping.plot(column='multi_countries_counts', ax=ax2, legend=True, cmap="Purples")
     ax2.set_title("Number of Multi-Country Clinical Trials Recruiting by Country")
     ax2.annotate(f'Source: EBM Data Lab COVID-19 TrialsTracker, %s' % date.today().strftime("%b-%d-%Y"),
-                 xy=(-10, -10))
+                 xy=(0,0), xycoords="axes points")
 
     plt.savefig(args.output_map + '.png', bbox_inches = "tight")
     plt.savefig(args.output_map + '.svg', bbox_inches = "tight")
 
     print(f'Wrote {args.output_map}.png and {args.output_map}.svg')
-    exit(0)
     
     # The placeholder will be replaced by the actual SHA-1 hash in separate
     # script after the updated image is committed
