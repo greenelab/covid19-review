@@ -5,7 +5,6 @@ from datetime import date
 import matplotlib.pyplot as plt
 import os
 import pandas as pd
-import urllib.request
 import geopandas
 import pycountry
 
@@ -57,22 +56,22 @@ def assign_ISO(countries):
         if country not in country_codes.keys():
             try:
                 hit = pycountry.countries.get(name=country)
-                if hit is None:
+                if isinstance(hit, type(None)):
                     # .get retrieves data as class Country
                     # if it can't find a match, try alternative methods
                     # .search_fuzzy matching returns a list
                     hit = pycountry.countries.search_fuzzy(country)
                     if len(hit) > 1:
                         hit = pycountry.countries.search_fuzzy(country + ",")
-                    elif type(hit) is None:
+                    elif isinstance(hit, type(None)):
                         hit = pycountry.countries.get(official_name=country)
             except LookupError:
                 failed_matches.append(country)
                 continue
 
-            if type(hit) == list and len(hit) == 1:
+            if isinstance(hit, list) and len(hit) == 1:
                 country_codes[country] = hit[0].alpha_3
-            elif type(hit) == list or type(hit) is None:
+            elif isinstance(hit, (list, type(None))):
                 failed_matches.append(country)
             else:
                 country_codes[country] = hit.alpha_3
@@ -204,15 +203,12 @@ def main(args):
                                           index=single_countries).join(country_codes)["iso_a3"]
     single_countries_codes = single_countries_codes.dropna()
     single_countries_counts = single_countries_codes.value_counts()
-    #single_countries_counts = single_countries_counts.rename("single_countries_counts")
     multi_countries_codes = \
         pd.DataFrame(multi_countries.str.strip(),
                      index=multi_countries.str.strip()).join(country_codes)["iso_a3"]
     multi_countries_codes = multi_countries_codes.dropna()
     multi_countries_counts = multi_countries_codes.value_counts()
-    #multi_countries_counts = multi_countries_counts.rename("multi_countries_counts")
-    all_counts = single_countries_counts.\
-        to_frame(name = 'single_countries_counts').\
+    all_counts = single_countries_counts.to_frame(name='single_countries_counts').\
         merge(multi_countries_counts.to_frame(name='multi_countries_counts'),
               how="outer",
               left_index=True,
@@ -222,12 +218,13 @@ def main(args):
     # geopandas uses -99 as N/A for this field
     # We don't need to evaluate Antarctica
     countries_mapping = geopandas.read_file(geopandas.datasets.get_path('naturalearth_lowres'))
-    countries_mapping = countries_mapping[countries_mapping.name != "Antarctica"]
     countries_mapping = lowres_fix(countries_mapping)
+    countries_mapping = countries_mapping[(countries_mapping.name != "Antarctica") &
+                                          (countries_mapping.iso_a3 != "-99")]
     countries_mapping = countries_mapping.merge(all_counts,
                                                 how="left",
-                                                left_on="iso_a3",
-                                                right_index=True)
+                                                right_index=True,
+                                                left_on="iso_a3")
 
     # Generate two-part choropleth of world map with # of clinical trials counted
     fig, (ax1, ax2) = plt.subplots(nrows=2, ncols=1, figsize=(20, 16))
@@ -279,7 +276,7 @@ if __name__ == '__main__':
                         'as .png and .svg.',
                         type=str)
     parser.add_argument('output_map',
-                         help='Path of the output choropleth (world map figure) ' \
+                        help='Path of the output choropleth (world map figure) ' \
                         'with geographic clinical trial frequencies, without file ' \
                         'type extension. Will be saved as .png and .svg.',
                         type=str)
