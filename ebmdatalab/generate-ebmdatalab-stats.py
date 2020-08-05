@@ -9,6 +9,8 @@ import geopandas
 import pycountry
 import geoplot as gplt
 from datetime import date
+from bokeh.models import GeoJSONDataSource, LinearColorMapper, ColorBar
+from bokeh import palettes
 
 from manubot.cite.citekey import url_to_citekey
 from manubot.cite.doi import get_short_doi_url
@@ -179,25 +181,34 @@ def main(args):
     # Map the ISO codes onto the country data and count the frequency
     single_countries_codes = pd.DataFrame(single_countries, index=single_countries).join(country_codes)["iso_a3"]
     single_countries_codes = single_countries_codes.dropna()
-    single_countries_counts = single_countries_codes.value_counts().rename("single_country_counts")
-
+    single_countries_counts = single_countries_codes.value_counts().rename("single_countries_counts")
     multi_countries_codes = pd.DataFrame(multi_countries.str.strip(), index=multi_countries.str.strip()).join(country_codes)["iso_a3"]
     multi_countries_codes = multi_countries_codes.dropna()
-    multi_countries_counts = multi_countries_codes.value_counts().rename("multi_country_counts")
+    multi_countries_counts = multi_countries_codes.value_counts().rename("multi_countries_counts")
 
-    # Map frequency data onto the geopandas geographical data
-    world_data = geopandas.read_file(geopandas.datasets.get_path('naturalearth_lowres')).set_index("iso_a3")
-    countries_mapping = world_data.merge(
-        pd.DataFrame(single_countries_counts), how="inner", left_index=True, right_index=True).merge(
-        pd.DataFrame(multi_countries_counts), how="inner", left_index=True, right_index=True)
+    # Map frequency data onto the geopandas geographical data for units with ISO code
+    # geopandas uses -99 as N/A for this field
+    countries_mapping = geopandas.read_file(geopandas.datasets.get_path('naturalearth_lowres'))
+    countries_mapping = countries_mapping[countries_mapping['iso_a3'] != "-99"]
+    for count_data in [single_countries_counts, multi_countries_counts]:
+        countries_mapping = countries_mapping.merge(pd.DataFrame(count_data), how="left", left_on="iso_a3", right_index=True)
 
     # Generate two-part choropleth visualizing world map with number of clinical trial data counted
+    color_palette = LinearColorMapper(palette=palettes.Magma[256],
+                                     low=1,
+                                     high=max(
+                                         countries_mapping["single_countries_counts"].max(skipna=True),
+                                         countries_mapping["multi_countries_counts"].max(skipna=True)),
+                                     nan_color = '#d9d9d9')
     fig, (ax1, ax2) = plt.subplots(nrows=2, ncols=1, figsize=(20, 16))
     ax1.set_title("Locations of Single-Country Clinical Trials")
-    ax1 = gplt.choropleth(countries_mapping, hue = countries_mapping['single_country_counts'],
-                        legend=True, ax=ax1) #countries_mapping.plot(column='single_country_counts', ax=ax1, legend=True)
+    ax1 = gplt.choropleth(countries_mapping,
+                          projection=geopandas.read_file(geopandas.datasets.get_path('naturalearth_lowres')),
+                          hue = countries_mapping['single_countries_counts'].dropna(),
+                          legend=True,
+                          ax=ax1)
     ax2.set_title("Locations of Multi-Country Clinical Trials")
-    ax2 = gplt.choropleth(countries_mapping, hue = countries_mapping['multi_country_counts'],
+    ax2 = gplt.choropleth(countries_mapping, hue = countries_mapping['multi_countries_counts'],
                           legend=True, ax=ax2)
     ax2.annotate(f'Source: EBM Data Lab COVID-19 TrialsTracker, %s' % date.today().strftime("%b-%d-%Y"),
                  xy=(-168, -68))
