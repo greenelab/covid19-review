@@ -189,29 +189,24 @@ def main(args):
     # Map frequency data onto the geopandas geographical data for units with ISO code
     # geopandas uses -99 as N/A for this field
     countries_mapping = geopandas.read_file(geopandas.datasets.get_path('naturalearth_lowres'))
+    countries_mapping = countries_mapping[countries_mapping.name != "Antarctica"]
     countries_mapping = countries_mapping[countries_mapping['iso_a3'] != "-99"]
     for count_data in [single_countries_counts, multi_countries_counts]:
         countries_mapping = countries_mapping.merge(pd.DataFrame(count_data), how="left", left_on="iso_a3", right_index=True)
 
     # Generate two-part choropleth visualizing world map with number of clinical trial data counted
-    color_palette = LinearColorMapper(palette=palettes.Magma[256],
-                                     low=1,
-                                     high=max(
-                                         countries_mapping["single_countries_counts"].max(skipna=True),
-                                         countries_mapping["multi_countries_counts"].max(skipna=True)),
-                                     nan_color = '#d9d9d9')
     fig, (ax1, ax2) = plt.subplots(nrows=2, ncols=1, figsize=(20, 16))
-    ax1.set_title("Locations of Single-Country Clinical Trials")
-    ax1 = gplt.choropleth(countries_mapping,
-                          projection=geopandas.read_file(geopandas.datasets.get_path('naturalearth_lowres')),
-                          hue = countries_mapping['single_countries_counts'].dropna(),
-                          legend=True,
-                          ax=ax1)
-    ax2.set_title("Locations of Multi-Country Clinical Trials")
-    ax2 = gplt.choropleth(countries_mapping, hue = countries_mapping['multi_countries_counts'],
-                          legend=True, ax=ax2)
+    fig.patch.set_visible(False)
+    ax1.axis('off')
+    ax2.axis('off')
+    countries_mapping.boundary.plot(ax=ax1, edgecolor="black")
+    countries_mapping.plot(column='single_countries_counts', ax=ax1, legend=True)
+    ax1.set_title("Number of Single-Country Clinical Trials Recruiting by Country")
+    countries_mapping.boundary.plot(ax=ax2, edgecolor="black")
+    countries_mapping.plot(column='multi_countries_counts', ax=ax2, legend=True, cmap="Purples")
+    ax2.set_title("Number of Multi-Country Clinical Trials Recruiting by Country")
     ax2.annotate(f'Source: EBM Data Lab COVID-19 TrialsTracker, %s' % date.today().strftime("%b-%d-%Y"),
-                 xy=(-168, -68))
+                 xy=(-10, -10))
 
     plt.savefig(args.output_map + '.png', bbox_inches = "tight")
     plt.savefig(args.output_map + '.svg', bbox_inches = "tight")
