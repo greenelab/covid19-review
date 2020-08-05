@@ -46,7 +46,6 @@ def assign_ISO(countries):
     :type countries: pd.Series
     """
 
-
     # Need to hard code a few countries that aren't registered using standard names, so
     # initializing the country_codes database with these irregular values
     country_codes = {"South Korea": "KOR", "Democratic Republic of Congo": "COD",
