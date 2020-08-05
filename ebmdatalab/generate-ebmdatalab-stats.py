@@ -170,28 +170,23 @@ def main(args):
 
     # Identify the 3-letter ISO codes for each unique country
     unique_countries = single_countries.append(multi_countries).str.strip().drop_duplicates()
-    country_codes = assign_ISO(unique_countries)
+    country_codes = pd.DataFrame.from_dict(assign_ISO(unique_countries), orient="index", columns=["iso_a3"])
 
-    #multi_countries_codes = pd.DataFrame(multi_countries).join(
-    print(pd.DataFrame.from_dict(country_codes, orient="index") )
-    print(multi_countries.index)
-    #, columns=["countries", "code"]), on="countries")
-    #print(multi_countries_codes)
-    #multi_country_counts = multi_countries.value_counts()
-    #single_country_codes = assign_ISO(single_countries)
-    #single_country_counts = pd.DataFrame(single_countries .value_counts()
-    #print(single_country_counts)
-    exit(0)
+    # Map the ISO codes onto the country data and count the frequency
+    single_countries_codes = pd.DataFrame(single_countries, index=single_countries).join(country_codes)["iso_a3"]
+    single_countries_codes = single_countries_codes.dropna()
+    single_countries_counts = single_countries_codes.value_counts()
+    multi_countries_codes = pd.DataFrame(multi_countries.str.strip(), index=multi_countries.str.strip()).join(country_codes)["iso_a3"]
+    multi_countries_codes = multi_countries_codes.dropna()
+    multi_countries_counts = multi_countries_codes.value_counts()
 
     # Generate two-pane choropleth visualizing world map with number of representations in clinical trial data
-    world = geopandas.read_file(geopandas.datasets.get_path('naturalearth_lowres'))
-
-    for unmatched_country in single_country_counts.index[~single_country_counts.index.isin(world["name"])]:
-        print(pycountry.countries.get(name=unmatched_country))
-    
+    world_data = geopandas.read_file(geopandas.datasets.get_path('naturalearth_lowres')).set_index("iso_a3")
+    countries_mapping = world_data.join(pd.DataFrame(single_countries_counts)) #.join(multi_countries_counts)
+    print(countries_mapping)
     #fig, ax = plt.subplots(1, 1)
-    
-    exit(0) 
+    #print(pd.DataFrame(multi_countries_counts, index=multi_countries_counts["iso_a3"]).join(world, on="iso_a3"))
+
     print(f'Wrote {args.output_figure}.png and {args.output_figure}.svg')
     
     # The placeholder will be replaced by the actual SHA-1 hash in separate
