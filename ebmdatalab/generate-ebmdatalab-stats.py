@@ -48,7 +48,7 @@ def assign_ISO(countries):
 
 
     # Need to hard code a few countries that aren't registered using standard names, so
-    # initializing the single_country_codes database with these values
+    # initializing the country_codes database with these irregular values
     country_codes = {"South Korea": "KOR", "Democratic Republic of Congo": "COD",
                      "Democratic Republic of the Congo": "COD"}
 
@@ -81,6 +81,21 @@ def assign_ISO(countries):
     # Print warning about failures and return successes as dictionary
     print("Could not assign country codes to:", ", ".join(failed_matches))
     return country_codes
+
+def lowres_fix(world):
+    """
+    There is an issue with the map data source from geopandas where ISO codes are missing
+    for several countries. This fix was proposed by @tommycarstensen at
+    https://github.com/geopandas/geopandas/issues/1041
+
+    :param world: dataframe (read in with geopandas)
+    :return: dataframe (geopandas formatted)
+    """
+    world.loc[world['name'] == 'France', 'iso_a3'] = 'FRA'
+    world.loc[world['name'] == 'Norway', 'iso_a3'] = 'NOR'
+    world.loc[world['name'] == 'Somaliland', 'iso_a3'] = 'SOM'
+    world.loc[world['name'] == 'Kosovo', 'iso_a3'] = 'RKS'
+    return world
 
 # Inspired by https://github.com/greenelab/meta-review/blob/master/analyses/deep-review-contrib/03.contrib-stats.ipynb
 def main(args):
@@ -189,25 +204,31 @@ def main(args):
     single_countries_codes = pd.DataFrame(single_countries,
                                           index=single_countries).join(country_codes)["iso_a3"]
     single_countries_codes = single_countries_codes.dropna()
-    single_countries_counts = \
-        single_countries_codes.value_counts().rename("single_countries_counts")
+    single_countries_counts = single_countries_codes.value_counts()
+    #single_countries_counts = single_countries_counts.rename("single_countries_counts")
     multi_countries_codes = \
         pd.DataFrame(multi_countries.str.strip(),
                      index=multi_countries.str.strip()).join(country_codes)["iso_a3"]
     multi_countries_codes = multi_countries_codes.dropna()
-    multi_countries_counts = multi_countries_codes.value_counts().rename("multi_countries_counts")
+    multi_countries_counts = multi_countries_codes.value_counts()
+    #multi_countries_counts = multi_countries_counts.rename("multi_countries_counts")
+    all_counts = single_countries_counts.\
+        to_frame(name = 'single_countries_counts').\
+        merge(multi_countries_counts.to_frame(name='multi_countries_counts'),
+              how="outer",
+              left_index=True,
+              right_index=True)
 
     # Map frequency data onto the geopandas geographical data for units with ISO code
     # geopandas uses -99 as N/A for this field
     # We don't need to evaluate Antarctica
     countries_mapping = geopandas.read_file(geopandas.datasets.get_path('naturalearth_lowres'))
     countries_mapping = countries_mapping[countries_mapping.name != "Antarctica"]
-    countries_mapping = countries_mapping[countries_mapping['iso_a3'] != "-99"]
-    for count_data in [single_countries_counts, multi_countries_counts]:
-        countries_mapping = countries_mapping.merge(pd.DataFrame(count_data),
-                                                    how="left",
-                                                    left_on="iso_a3",
-                                                    right_index=True)
+    countries_mapping = lowres_fix(countries_mapping)
+    countries_mapping = countries_mapping.merge(all_counts,
+                                                how="left",
+                                                left_on="iso_a3",
+                                                right_index=True)
 
     # Generate two-part choropleth of world map with # of clinical trials counted
     fig, (ax1, ax2) = plt.subplots(nrows=2, ncols=1, figsize=(20, 16))
