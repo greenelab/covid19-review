@@ -614,7 +614,7 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-07-22
--
+  -
     github: Sergey-Knyazev
     name: Sergey Knyazev
     initials: SK
