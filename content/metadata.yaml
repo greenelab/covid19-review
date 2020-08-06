@@ -614,6 +614,8 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-07-22
+    funders:
+      - the Center for Global Genomics and Health Equity at the University of Pennsylvania
   -
     github: Sergey-Knyazev
     name: Sergey Knyazev
