@@ -614,3 +614,19 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-07-22
+  -
+    github: Sergey-Knyazev
+    name: Sergey Knyazev
+    initials: SK
+    orcid: 0000-0003-0385-1831
+    twitter: SeKnyaz
+    email: sergey.n.knyazev@gmail.com
+    contributions:
+      - Writing - Original Draft
+    affiliations:
+      - Georgia State University, GA, United States of America
+    code of conduct:
+      confirmed: yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-08-03
