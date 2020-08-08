@@ -1,12 +1,12 @@
 {
-  "ebm_commit_date": "2020-07-24T16:47:42Z",
-  "ebm_commit_date_pretty": "July 24, 2020",
-  "ebm_commit_sha": "4daba5cde5c544fd308e582b981579188bd1d30c",
-  "ebm_date_pretty": "July 17, 2020",
-  "ebm_tocilizumab_ct": "68",
-  "ebm_trials": "4,282",
-  "ebm_trials_figure": "https://github.com/greenelab/covid19-review/raw/6367185f649803dcd4de4c7e441369afb0801148/ebmdatalab/ebmdatalab-trials.svg",
-  "ebm_trials_results": "104",
+  "ebm_commit_date": "2020-08-07T12:08:10Z",
+  "ebm_commit_date_pretty": "August 7, 2020",
+  "ebm_commit_sha": "689a042f4d5c49eedc66a6c1affb63796189c932",
+  "ebm_date_pretty": "July 28, 2020",
+  "ebm_tocilizumab_ct": "74",
+  "ebm_trials": "4,550",
+  "ebm_trials_figure": "https://github.com/greenelab/covid19-review/raw/9f04184a201d002a7c88000b033322282abc4346/ebmdatalab/ebmdatalab-trials.svg",
+  "ebm_trials_results": "105",
   "ebm_trials_results_citekeys": [
     "doi:10.1001/jama.2020.10044",
     "doi:10.1001/jamanetworkopen.2020.13136",
@@ -117,7 +117,8 @@
     "doi:10/ggnxb3",
     "doi:10/ggtgvt",
     "doi:10/ggvw2s",
-    "url:https://clinicaltrials.gov/ct2/show/results/NCT04323592"
+    "url:https://clinicaltrials.gov/ct2/show/results/NCT04323592",
+    "url:https://clinicaltrials.gov/ct2/show/results/NCT04410159"
   ],
-  "ebm_update_time_utc": "2020-08-07T00:31:23.588439"
+  "ebm_update_time_utc": "2020-08-08T00:31:03.064271"
 }
