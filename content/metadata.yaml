@@ -617,6 +617,24 @@ authors:
       string: "None"
       lastapproved: !!str 2020-08-03
   -
+    github: SystemsResearch
+    name: Dimitri Perrin
+    initials: DP
+    orcid: 0000-0002-4007-5256
+    twitter: dperrin
+    email: dimitri.perrin@qut.edu.au
+    contributions:
+      - Writing - Original Draft
+      - Writing - Review & Editing
+    affiliations:
+      - School of Computer Science, Queensland University of Technology, Brisbane, Australia
+      - Centre for Data Science, Queensland University of Technology, Brisbane, Australia
+    code of conduct:
+      confirmed: yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-08-11
+  -
     github: smangul1
     name: Serghei Mangul
     initials: SM
