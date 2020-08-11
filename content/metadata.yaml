@@ -598,6 +598,8 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-07-22
+    funders:
+      - the Center for Global Genomics and Health Equity at the University of Pennsylvania
   -
     github: Sergey-Knyazev
     name: Sergey Knyazev
@@ -614,3 +616,19 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-08-03
+  -
+    github: smangul1
+    name: Serghei Mangul
+    initials: SM
+    orcid: 0000-0003-4770-3443
+    twitter: serghei_mangul
+    email: serghei.mangul@gmail.com
+    contributions:
+      - Writing - Review & Editing
+    affiliations:
+      - Department of Clinical Pharmacy, School of Pharmacy, University of Southern California, CA, United States of America
+    code of conduct:
+      confirmed: Yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-08-07

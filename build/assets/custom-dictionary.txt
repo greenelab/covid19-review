@@ -600,6 +600,7 @@ latex
 lavages
 LDH
 Lectin
+lentivirus
 leukocytosis
 leukomonocyte
 Leukopenia
@@ -906,6 +907,7 @@ PRRs
 pseudotyped
 pseudovirus
 pseudoviruses
+PsVNA
 pts
 pubmed
 PUFA
