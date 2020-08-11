@@ -65,6 +65,7 @@ authors:
     email: smb310@georgetown.edu
     contributions:
       - Methodology
+      - Writing - Review & Editing
     affiliations:
       - Innovation Center for Biomedical Informatics, Georgetown University Medical Center, Washington, District of Columbia, United States of America
     coi:
@@ -80,6 +81,7 @@ authors:
       - Writing - Original Draft
       - Writing - Review & Editing
       - Project Administration
+      - Visualization
     affiliations:
       - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
     coi:
@@ -182,7 +184,7 @@ authors:
     initials: AAD
     orcid: 0000-0003-1462-831X
     twitter: aadattoli
-    email: annaada.dattoli@gmail.com
+    email: anna.dattoli@pennmedicine.upenn.edu
     contributions:
       - Writing - Original Draft
     affiliations:
@@ -521,3 +523,112 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-05-26
+  -
+    github: scapone01
+    name: Stephen Capone
+    initials: SC
+    orcid: 0000-0001-7231-1535
+    email: scapone01@gmail.com
+    contributions:
+      - Writing - Review & Editing
+      - Writing - Original Draft
+    affiliations:
+      - St. George's University School of Medicine, St. George's, Grenada
+    code of conduct:
+      confirmed: yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-06-23
+  -
+    github: dziakj1
+    name: John J. Dziak
+    initials: JJD
+    orcid: 0000-0003-0762-5495
+    email: dziakj1@gmail.com
+    contributions:
+      - Writing - Original Draft
+    affiliations:
+      - Edna Bennett Pierce Prevention Research Center, The Pennsylvania State University, University Park, PA, United States of America
+    code of conduct:
+      confirmed: yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-06-23
+  -
+    github: kevinsunofficial
+    name: YuCheng Sun
+    initials: YS
+    email: ys4aj@virginia.edu
+    contributions:
+      - Visualization
+    affiliations:
+      - Department of Computer Science, University of Virginia, Charlottesville, VA, United States of America
+    code of conduct:
+      confirmed: yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-07-09
+  -
+    github: qiyanjun
+    name: Yanjun Qi
+    initials: YQ
+    orcid: 0000-0002-5796-7453
+    email: yanjun.research@gmail.com
+    contributions:
+      - Visualization
+    affiliations:
+      - Department of Computer Science, University of Virginia, Charlottesville, VA, United States of America
+    code of conduct:
+      confirmed: yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-07-09
+  -
+    github: LSH2126
+    name: Lamonica Shinholster
+    initials: LS
+    orcid: 0000-0001-6285-005X
+    email: lamonica.y.shinholster@live.mercer.edu
+    contributions:
+      - Writing - Original Draft
+    affiliations:
+      - Mercer University, Macon, GA, United States of America
+    code of conduct:
+      confirmed: yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-07-22
+    funders:
+      - the Center for Global Genomics and Health Equity at the University of Pennsylvania
+  -
+    github: Sergey-Knyazev
+    name: Sergey Knyazev
+    initials: SK
+    orcid: 0000-0003-0385-1831
+    twitter: SeKnyaz
+    email: sergey.n.knyazev@gmail.com
+    contributions:
+      - Writing - Original Draft
+    affiliations:
+      - Georgia State University, GA, United States of America
+    code of conduct:
+      confirmed: yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-08-03
+  -
+    github: smangul1
+    name: Serghei Mangul
+    initials: SM
+    orcid: 0000-0003-4770-3443
+    twitter: serghei_mangul
+    email: serghei.mangul@gmail.com
+    contributions:
+      - Writing - Review & Editing
+    affiliations:
+      - Department of Clinical Pharmacy, School of Pharmacy, University of Southern California, CA, United States of America
+    code of conduct:
+      confirmed: Yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-08-07
