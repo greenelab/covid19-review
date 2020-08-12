@@ -32,7 +32,6 @@ author-meta:
 - Matthias Fax
 - James Brian Byrd
 - YoSon Park
-- Yael Evelyn Marshall
 - Vikas Bansal
 - Stephen Capone
 - John J. Dziak
@@ -40,11 +39,13 @@ author-meta:
 - Yanjun Qi
 - Lamonica Shinholster
 - Sergey Knyazev
+- Dimitri Perrin
+- Serghei Mangul
 bibliography:
 - content/manual-references.bib
 - content/manual-references.json
-date-meta: '2020-08-05'
-header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta name=\"citation_title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta property=\"og:title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta property=\"twitter:title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta name=\"dc.date\" content=\"2020-08-05\" />\n<meta name=\"citation_publication_date\" content=\"2020-08-05\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Halie M. Rando\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7688-1770\" />\n<meta name=\"twitter:creator\" content=\"@tamefoxtime\" />\n<meta name=\"citation_author\" content=\"Casey S. Greene\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Childhood Cancer Data Lab, Alex&#39;s Lemonade Stand Foundation, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8713-9213\" />\n<meta name=\"twitter:creator\" content=\"@GreeneScientist\" />\n<meta name=\"citation_author\" content=\"Michael P. Robson\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computing Sciences, Villanova University, Villanova, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-4859-0033\" />\n<meta name=\"citation_author\" content=\"Simina M. Boca\" />\n<meta name=\"citation_author_institution\" content=\"Innovation Center for Biomedical Informatics, Georgetown University Medical Center, Washington, District of Columbia, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1400-3398\" />\n<meta name=\"citation_author\" content=\"Nils Wellhausen\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8955-7582\" />\n<meta name=\"citation_author\" content=\"Ronan Lordan\" />\n<meta name=\"citation_author_institution\" content=\"Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104-5158, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-9668-3368\" />\n<meta name=\"twitter:creator\" content=\"@el_ronan\" />\n<meta name=\"citation_author\" content=\"Christian Brueffer\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical Sciences, Lund University, Lund, Sweden\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3826-0989\" />\n<meta name=\"twitter:creator\" content=\"@cbrueffer\" />\n<meta name=\"citation_author\" content=\"Sadipan Ray\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology &amp; Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA\" />\n<meta name=\"citation_author_institution\" content=\"Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9960-5768\" />\n<meta name=\"citation_author\" content=\"Lucy D\\&#39;Agostino McGowan\" />\n<meta name=\"citation_author_institution\" content=\"Department of Mathematics and Statistics, Wake Forest University, Winston-Salem, North Carolina, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7297-9359\" />\n<meta name=\"twitter:creator\" content=\"@LucyStats\" />\n<meta name=\"citation_author\" content=\"Anthony Gitter\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Morgridge Institute for Research, Madison, Wisconsin, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5324-9833\" />\n<meta name=\"twitter:creator\" content=\"@anthonygitter\" />\n<meta name=\"citation_author\" content=\"Ronnie M. Russell\" />\n<meta name=\"citation_author_institution\" content=\"Department of Microbiology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1484-4207\" />\n<meta name=\"citation_author\" content=\"Anna Ada Dattoli\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology &amp; Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1462-831X\" />\n<meta name=\"twitter:creator\" content=\"@aadattoli\" />\n<meta name=\"citation_author\" content=\"Ryan Velazquez\" />\n<meta name=\"citation_author_institution\" content=\"Azimuth1, McLean, VA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3655-3403\" />\n<meta name=\"citation_author\" content=\"John P. Barton\" />\n<meta name=\"citation_author_institution\" content=\"Department of Physics and Astronomy, University of California-Riverside, Riverside, California, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1467-421X\" />\n<meta name=\"twitter:creator\" content=\"@_jpbarton\" />\n<meta name=\"citation_author\" content=\"Jeffrey M. Field\" />\n<meta name=\"citation_author_institution\" content=\"Department of Pharmacology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7161-7284\" />\n<meta name=\"citation_author\" content=\"Bharath Ramsundar\" />\n<meta name=\"citation_author_institution\" content=\"The DeepChem Project, https://deepchem.io/\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8450-4262\" />\n<meta name=\"twitter:creator\" content=\"@rbhar90\" />\n<meta name=\"citation_author\" content=\"Adam L. MacLean\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biological Sciences, University of Southern California, Los Angeles, California, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0689-7907\" />\n<meta name=\"twitter:creator\" content=\"@adamlmaclean\" />\n<meta name=\"citation_author\" content=\"Alexandra J. Lee\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0208-3730\" />\n<meta name=\"citation_author\" content=\"Immunology Institute of the Icahn School of Medicine\" />\n<meta name=\"citation_author_institution\" content=\"Immunology Institute of the Icahn School of Medicine\" />\n<meta name=\"citation_author\" content=\"Fengling Hu\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1081-5038\" />\n<meta name=\"twitter:creator\" content=\"@hufengling\" />\n<meta name=\"citation_author\" content=\"Nafisa M. Jadavji\" />\n<meta name=\"citation_author_institution\" content=\"Biomedical Science, Midwestern University, Glendale, AZ, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Department of Neuroscience, Carleton University, Ottawa, Ontario, Canada\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3557-7307\" />\n<meta name=\"twitter:creator\" content=\"@nafisajadavji\" />\n<meta name=\"citation_author\" content=\"Elizabeth Sell\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9658-1107\" />\n<meta name=\"citation_author\" content=\"Jinhui Wang\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5796-8130\" />\n<meta name=\"citation_author\" content=\"Diane N. Rafizadeh\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Department of Chemistry, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2838-067X\" />\n<meta name=\"citation_author\" content=\"Ashwin N. Skelly\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Institute for Immunology, University of Pennsylvania Perelman School of Medicine, Philadelphia, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1565-3376\" />\n<meta name=\"citation_author\" content=\"Marouen Ben Guebila\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics, Harvard School of Public Health, Boston, Massachusetts, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-5934-966X\" />\n<meta name=\"twitter:creator\" content=\"@marouenbg\" />\n<meta name=\"citation_author\" content=\"Likhitha Kolla\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1169-906X\" />\n<meta name=\"twitter:creator\" content=\"@lkolla2018\" />\n<meta name=\"citation_author\" content=\"David Manheim\" />\n<meta name=\"citation_author_institution\" content=\"Risk and Health Communication Research Center, School of Public Health, University of Haifa, Haifa, Israel\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8599-8380\" />\n<meta name=\"twitter:creator\" content=\"@davidmanheim\" />\n<meta name=\"citation_author\" content=\"Soumita Ghosh\" />\n<meta name=\"citation_author_institution\" content=\"Institute of Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2783-2750\" />\n<meta name=\"citation_author\" content=\"Matthias Fax\" />\n<meta name=\"citation_author_institution\" content=\"greensolid technologies, Bavaria, Germany\" />\n<meta name=\"citation_author_institution\" content=\"IEEE Reliability Society, Vienna, Austria\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0064-395X\" />\n<meta name=\"citation_author\" content=\"James Brian Byrd\" />\n<meta name=\"citation_author_institution\" content=\"University of Michigan School of Medicine, Ann Arbor, Michigan, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0509-3520\" />\n<meta name=\"twitter:creator\" content=\"@thebyrdlab\" />\n<meta name=\"citation_author\" content=\"YoSon Park\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0465-4744\" />\n<meta name=\"twitter:creator\" content=\"@__yoson__\" />\n<meta name=\"citation_author\" content=\"Yael Evelyn Marshall\" />\n<meta name=\"citation_author_institution\" content=\"recent PhD, Princeton University, Princeton, NJ, USA\" />\n<meta name=\"citation_author_institution\" content=\"freelance copyeditor, multiple locations, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3723-9683\" />\n<meta name=\"citation_author\" content=\"Vikas Bansal\" />\n<meta name=\"citation_author_institution\" content=\"Biomedical Data Science and Machine Learning Group, DZNE, T\xFCbingen, Germany\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0944-7226\" />\n<meta name=\"twitter:creator\" content=\"@VikasBansal1989\" />\n<meta name=\"citation_author\" content=\"Stephen Capone\" />\n<meta name=\"citation_author_institution\" content=\"St. George&#39;s University School of Medicine, St. George&#39;s, Grenada\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7231-1535\" />\n<meta name=\"citation_author\" content=\"John J. Dziak\" />\n<meta name=\"citation_author_institution\" content=\"Edna Bennett Pierce Prevention Research Center, The Pennsylvania State University, University Park, PA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0762-5495\" />\n<meta name=\"citation_author\" content=\"YuCheng Sun\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computer Science, University of Virginia, Charlottesville, VA, United States of America\" />\n<meta name=\"citation_author\" content=\"Yanjun Qi\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computer Science, University of Virginia, Charlottesville, VA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5796-7453\" />\n<meta name=\"citation_author\" content=\"Lamonica Shinholster\" />\n<meta name=\"citation_author_institution\" content=\"Mercer University, Macon, GA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-6285-005X\" />\n<meta name=\"citation_author\" content=\"Sergey Knyazev\" />\n<meta name=\"citation_author_institution\" content=\"Georgia State University, GA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0385-1831\" />\n<meta name=\"twitter:creator\" content=\"@SeKnyaz\" />\n<link rel=\"canonical\" href=\"https://greenelab.github.io/covid19-review/\" />\n<meta property=\"og:url\" content=\"https://greenelab.github.io/covid19-review/\" />\n<meta property=\"twitter:url\" content=\"https://greenelab.github.io/covid19-review/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://greenelab.github.io/covid19-review/\" />\n<meta name=\"citation_pdf_url\" content=\"https://greenelab.github.io/covid19-review/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://greenelab.github.io/covid19-review/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://greenelab.github.io/covid19-review/v/e3bd8788f136f10b3f5ea117b15e48049c6a96a2/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://greenelab.github.io/covid19-review/v/e3bd8788f136f10b3f5ea117b15e48049c6a96a2/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://greenelab.github.io/covid19-review/v/e3bd8788f136f10b3f5ea117b15e48049c6a96a2/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
+date-meta: '2020-08-12'
+header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta name=\"citation_title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta property=\"og:title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta property=\"twitter:title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta name=\"dc.date\" content=\"2020-08-12\" />\n<meta name=\"citation_publication_date\" content=\"2020-08-12\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Halie M. Rando\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7688-1770\" />\n<meta name=\"twitter:creator\" content=\"@tamefoxtime\" />\n<meta name=\"citation_author\" content=\"Casey S. Greene\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Childhood Cancer Data Lab, Alex&#39;s Lemonade Stand Foundation, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8713-9213\" />\n<meta name=\"twitter:creator\" content=\"@GreeneScientist\" />\n<meta name=\"citation_author\" content=\"Michael P. Robson\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computing Sciences, Villanova University, Villanova, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-4859-0033\" />\n<meta name=\"citation_author\" content=\"Simina M. Boca\" />\n<meta name=\"citation_author_institution\" content=\"Innovation Center for Biomedical Informatics, Georgetown University Medical Center, Washington, District of Columbia, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1400-3398\" />\n<meta name=\"citation_author\" content=\"Nils Wellhausen\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8955-7582\" />\n<meta name=\"citation_author\" content=\"Ronan Lordan\" />\n<meta name=\"citation_author_institution\" content=\"Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104-5158, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-9668-3368\" />\n<meta name=\"twitter:creator\" content=\"@el_ronan\" />\n<meta name=\"citation_author\" content=\"Christian Brueffer\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical Sciences, Lund University, Lund, Sweden\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3826-0989\" />\n<meta name=\"twitter:creator\" content=\"@cbrueffer\" />\n<meta name=\"citation_author\" content=\"Sadipan Ray\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology &amp; Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA\" />\n<meta name=\"citation_author_institution\" content=\"Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9960-5768\" />\n<meta name=\"citation_author\" content=\"Lucy D\\&#39;Agostino McGowan\" />\n<meta name=\"citation_author_institution\" content=\"Department of Mathematics and Statistics, Wake Forest University, Winston-Salem, North Carolina, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7297-9359\" />\n<meta name=\"twitter:creator\" content=\"@LucyStats\" />\n<meta name=\"citation_author\" content=\"Anthony Gitter\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Morgridge Institute for Research, Madison, Wisconsin, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5324-9833\" />\n<meta name=\"twitter:creator\" content=\"@anthonygitter\" />\n<meta name=\"citation_author\" content=\"Ronnie M. Russell\" />\n<meta name=\"citation_author_institution\" content=\"Department of Microbiology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1484-4207\" />\n<meta name=\"citation_author\" content=\"Anna Ada Dattoli\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology &amp; Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1462-831X\" />\n<meta name=\"twitter:creator\" content=\"@aadattoli\" />\n<meta name=\"citation_author\" content=\"Ryan Velazquez\" />\n<meta name=\"citation_author_institution\" content=\"Azimuth1, McLean, VA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3655-3403\" />\n<meta name=\"citation_author\" content=\"John P. Barton\" />\n<meta name=\"citation_author_institution\" content=\"Department of Physics and Astronomy, University of California-Riverside, Riverside, California, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1467-421X\" />\n<meta name=\"twitter:creator\" content=\"@_jpbarton\" />\n<meta name=\"citation_author\" content=\"Jeffrey M. Field\" />\n<meta name=\"citation_author_institution\" content=\"Department of Pharmacology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7161-7284\" />\n<meta name=\"citation_author\" content=\"Bharath Ramsundar\" />\n<meta name=\"citation_author_institution\" content=\"The DeepChem Project, https://deepchem.io/\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8450-4262\" />\n<meta name=\"twitter:creator\" content=\"@rbhar90\" />\n<meta name=\"citation_author\" content=\"Adam L. MacLean\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biological Sciences, University of Southern California, Los Angeles, California, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0689-7907\" />\n<meta name=\"twitter:creator\" content=\"@adamlmaclean\" />\n<meta name=\"citation_author\" content=\"Alexandra J. Lee\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0208-3730\" />\n<meta name=\"citation_author\" content=\"Immunology Institute of the Icahn School of Medicine\" />\n<meta name=\"citation_author_institution\" content=\"Immunology Institute of the Icahn School of Medicine\" />\n<meta name=\"citation_author\" content=\"Fengling Hu\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1081-5038\" />\n<meta name=\"twitter:creator\" content=\"@hufengling\" />\n<meta name=\"citation_author\" content=\"Nafisa M. Jadavji\" />\n<meta name=\"citation_author_institution\" content=\"Biomedical Science, Midwestern University, Glendale, AZ, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Department of Neuroscience, Carleton University, Ottawa, Ontario, Canada\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3557-7307\" />\n<meta name=\"twitter:creator\" content=\"@nafisajadavji\" />\n<meta name=\"citation_author\" content=\"Elizabeth Sell\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9658-1107\" />\n<meta name=\"citation_author\" content=\"Jinhui Wang\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5796-8130\" />\n<meta name=\"citation_author\" content=\"Diane N. Rafizadeh\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Department of Chemistry, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2838-067X\" />\n<meta name=\"citation_author\" content=\"Ashwin N. Skelly\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Institute for Immunology, University of Pennsylvania Perelman School of Medicine, Philadelphia, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1565-3376\" />\n<meta name=\"citation_author\" content=\"Marouen Ben Guebila\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics, Harvard School of Public Health, Boston, Massachusetts, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-5934-966X\" />\n<meta name=\"twitter:creator\" content=\"@marouenbg\" />\n<meta name=\"citation_author\" content=\"Likhitha Kolla\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1169-906X\" />\n<meta name=\"twitter:creator\" content=\"@lkolla2018\" />\n<meta name=\"citation_author\" content=\"David Manheim\" />\n<meta name=\"citation_author_institution\" content=\"Risk and Health Communication Research Center, School of Public Health, University of Haifa, Haifa, Israel\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8599-8380\" />\n<meta name=\"twitter:creator\" content=\"@davidmanheim\" />\n<meta name=\"citation_author\" content=\"Soumita Ghosh\" />\n<meta name=\"citation_author_institution\" content=\"Institute of Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2783-2750\" />\n<meta name=\"citation_author\" content=\"Matthias Fax\" />\n<meta name=\"citation_author_institution\" content=\"greensolid technologies, Bavaria, Germany\" />\n<meta name=\"citation_author_institution\" content=\"IEEE Reliability Society, Vienna, Austria\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0064-395X\" />\n<meta name=\"citation_author\" content=\"James Brian Byrd\" />\n<meta name=\"citation_author_institution\" content=\"University of Michigan School of Medicine, Ann Arbor, Michigan, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0509-3520\" />\n<meta name=\"twitter:creator\" content=\"@thebyrdlab\" />\n<meta name=\"citation_author\" content=\"YoSon Park\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0465-4744\" />\n<meta name=\"twitter:creator\" content=\"@__yoson__\" />\n<meta name=\"citation_author\" content=\"Vikas Bansal\" />\n<meta name=\"citation_author_institution\" content=\"Biomedical Data Science and Machine Learning Group, DZNE, T\xFCbingen, Germany\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0944-7226\" />\n<meta name=\"twitter:creator\" content=\"@VikasBansal1989\" />\n<meta name=\"citation_author\" content=\"Stephen Capone\" />\n<meta name=\"citation_author_institution\" content=\"St. George&#39;s University School of Medicine, St. George&#39;s, Grenada\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7231-1535\" />\n<meta name=\"citation_author\" content=\"John J. Dziak\" />\n<meta name=\"citation_author_institution\" content=\"Edna Bennett Pierce Prevention Research Center, The Pennsylvania State University, University Park, PA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0762-5495\" />\n<meta name=\"citation_author\" content=\"YuCheng Sun\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computer Science, University of Virginia, Charlottesville, VA, United States of America\" />\n<meta name=\"citation_author\" content=\"Yanjun Qi\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computer Science, University of Virginia, Charlottesville, VA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5796-7453\" />\n<meta name=\"citation_author\" content=\"Lamonica Shinholster\" />\n<meta name=\"citation_author_institution\" content=\"Mercer University, Macon, GA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-6285-005X\" />\n<meta name=\"citation_author\" content=\"Sergey Knyazev\" />\n<meta name=\"citation_author_institution\" content=\"Georgia State University, GA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0385-1831\" />\n<meta name=\"twitter:creator\" content=\"@SeKnyaz\" />\n<meta name=\"citation_author\" content=\"Dimitri Perrin\" />\n<meta name=\"citation_author_institution\" content=\"School of Computer Science, Queensland University of Technology, Brisbane, Australia\" />\n<meta name=\"citation_author_institution\" content=\"Centre for Data Science, Queensland University of Technology, Brisbane, Australia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-4007-5256\" />\n<meta name=\"twitter:creator\" content=\"@dperrin\" />\n<meta name=\"citation_author\" content=\"Serghei Mangul\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical Pharmacy, School of Pharmacy, University of Southern California, CA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-4770-3443\" />\n<meta name=\"twitter:creator\" content=\"@serghei_mangul\" />\n<link rel=\"canonical\" href=\"https://greenelab.github.io/covid19-review/\" />\n<meta property=\"og:url\" content=\"https://greenelab.github.io/covid19-review/\" />\n<meta property=\"twitter:url\" content=\"https://greenelab.github.io/covid19-review/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://greenelab.github.io/covid19-review/\" />\n<meta name=\"citation_pdf_url\" content=\"https://greenelab.github.io/covid19-review/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://greenelab.github.io/covid19-review/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://greenelab.github.io/covid19-review/v/d1816ef75c81d69b1156e13d5555c9bc3cc88b54/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://greenelab.github.io/covid19-review/v/d1816ef75c81d69b1156e13d5555c9bc3cc88b54/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://greenelab.github.io/covid19-review/v/d1816ef75c81d69b1156e13d5555c9bc3cc88b54/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
 keywords:
 - covid-19
 - coronavirus
@@ -65,10 +66,10 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/e3bd8788f136f10b3f5ea117b15e48049c6a96a2/))
+([permalink](https://greenelab.github.io/covid19-review/v/d1816ef75c81d69b1156e13d5555c9bc3cc88b54/))
 was automatically generated
-from [greenelab/covid19-review@e3bd878](https://github.com/greenelab/covid19-review/tree/e3bd8788f136f10b3f5ea117b15e48049c6a96a2)
-on August 5, 2020.
+from [greenelab/covid19-review@d1816ef](https://github.com/greenelab/covid19-review/tree/d1816ef75c81d69b1156e13d5555c9bc3cc88b54)
+on August 12, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -413,15 +414,6 @@ Instead, you should collect information from your local health department, the [
      · Funded by NHGRI R01 HG10067
   </small>
 
-+ **Yael Evelyn Marshall**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0003-3723-9683](https://orcid.org/0000-0003-3723-9683)
-    · ![GitHub icon](images/github.svg){.inline_icon}
-    [yemarshall](https://github.com/yemarshall)<br>
-  <small>
-     recent PhD, Princeton University, Princeton, NJ, USA; freelance copyeditor, multiple locations, USA
-  </small>
-
 + **Vikas Bansal**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0002-0944-7226](https://orcid.org/0000-0002-0944-7226)
@@ -474,6 +466,7 @@ Instead, you should collect information from your local health department, the [
     [LSH2126](https://github.com/LSH2126)<br>
   <small>
      Mercer University, Macon, GA, United States of America
+     · Funded by the Center for Global Genomics and Health Equity at the University of Pennsylvania
   </small>
 
 + **Sergey Knyazev**<br>
@@ -485,6 +478,28 @@ Instead, you should collect information from your local health department, the [
     [SeKnyaz](https://twitter.com/SeKnyaz)<br>
   <small>
      Georgia State University, GA, United States of America
+  </small>
+
++ **Dimitri Perrin**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-4007-5256](https://orcid.org/0000-0002-4007-5256)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [SystemsResearch](https://github.com/SystemsResearch)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [dperrin](https://twitter.com/dperrin)<br>
+  <small>
+     School of Computer Science, Queensland University of Technology, Brisbane, Australia; Centre for Data Science, Queensland University of Technology, Brisbane, Australia
+  </small>
+
++ **Serghei Mangul**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0003-4770-3443](https://orcid.org/0000-0003-4770-3443)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [smangul1](https://github.com/smangul1)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [serghei_mangul](https://twitter.com/serghei_mangul)<br>
+  <small>
+     Department of Clinical Pharmacy, School of Pharmacy, University of Southern California, CA, United States of America
   </small>
 
 
@@ -521,12 +536,12 @@ Most of these cases were in China, but 1-2 exported cases had also been identifi
 One week later, 4,593 confirmed cases had been identified, spanning not only Asia, but also Australia, North America, and Europe [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128-sitrep-8-ncov-cleared.pdf].
 On March 11, 2020, WHO formally classified the situation as a pandemic [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200311-sitrep-51-covid-19.pdf].
 On April 4, 2020, the WHO reported that the global number of confirmed cases had surpassed one million [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200404-sitrep-75-covid-19.pdf].
-693,694 COVID-19 deaths had been reported worldwide as of August 3, 2020 (Figure @fig:csse-deaths).
+736,191 COVID-19 deaths had been reported worldwide as of August 10, 2020 (Figure @fig:csse-deaths).
 
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
-](https://github.com/greenelab/covid19-review/raw/0aac192de03c88150334e99773b670080e641f0a/csse/csse-deaths.svg "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
+](https://github.com/greenelab/covid19-review/raw/e3027fc632f5ce17fd4497e43c8c24e5e18e6115/csse/csse-deaths.svg "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
 
 Several review articles on aspects of COVID-19 have already been published.
 These have included reviews on the disease epidemiology [@doi:10.1016/j.molmed.2020.02.008], immunological response [@doi:10.1016/j.immuni.2020.05.002], diagnostics [@doi:10.1126/scitranslmed.abc1931], and pharmacological treatments [@doi:10.1016/j.immuni.2020.05.002; @doi:10.1001/jama.2020.6019].
@@ -586,13 +601,14 @@ Nevertheless, genomic data show some significant statistical evidence of ongoing
 There are two known variants of the spike protein that differ by a single amino acid at position 614 (G614 and D614), and there is evidence that G614 has already become dominant over D614 by June 2020 [@doi:10.1016/j.cell.2020.06.043].
 While there is a hypothesis that this genomic change increased the SARS-CoV-2 infectivity and virulence, there is no data yet to support or discard this hypothesis reliably [@doi:10.1016/j.cell.2020.06.040].
 The study [@doi:10.1016/j.meegid.2020.104351] has reported more than 198 recurrent mutations using a dataset of 7666 curated sequences showing the dynamic of SARS-CoV-2 evolution.
-Overall, while it is obvious that SARS-CoV-2 exhibits moderate potential for further evolution, much uncertainty remains about SARS-CoV-2's evolutionary trends and their consequences.
+Overall, while it is evident that SARS-CoV-2 exhibits moderate potential for further evolution, much uncertainty remains about SARS-CoV-2's evolutionary trends and their consequences due to a limited number of studies addressing the ongoing evolution of SARS-CoV-2.
 
-The numerous mutations [@doi:10.1186/s12967-020-02344-6; @doi:10.1093/nsr/nwaa036; @doi:10.1016/j.meegid.2020.104351] observed in SARS-CoV-2 individual genome sequences can be used as signals during outbreak investigations and discovering of transmission patterns.
+The numerous mutations [@doi:10.1186/s12967-020-02344-6; @doi:10.1093/nsr/nwaa036; @doi:10.1016/j.meegid.2020.104351] observed in individual SARS-CoV-2 genome sequences signal transmission patterns and can be used during outbreak investigations.
+Similar mutations observed in several patients may indicate that the patients belong to the same transmission group.
+The tracking of SARS-CoV-2 mutations is recognized as an essential tool for controlling outbreaks that may provide valuable insights into the paths of SARS-CoV-2's spread [@doi:10/d5mg].
+Several studies used phylogenetic analysis to determine the source of local COVID-19 outbreaks in Connecticut (USA), [@doi:10.1016/j.cell.2020.04.021], the New York City area (USA) [@doi:10.1126/science.abc1917], and Iceland [@doi:10.1056/NEJMoa2006100].
+There is an ongoing effort to collect SARS-CoV-2 genomes throughout the COVID-19 outbreak, and as of August 7, 2020, more than 78,000 genome sequences have been collected from patients.
 The sequencing data can be found at GISAID [@https://www.gisaid.org/], NCBI [@https://www.ncbi.nlm.nih.gov/sars-cov-2/], and COVID-19 data portal [@https://www.covid19dataportal.org/].
-The databases contain more than 75,000 SARS-CoV-2 genome sequences sampled and sequenced from the patients from December 2019 to July 2020.
-This data helped determine the source of local COVID-19 outbreaks in Connecticut (USA), [@doi:10.1016/j.cell.2020.04.021], the New York City area (USA) [@doi:10.1126/science.abc1917], and Iceland [@doi:10.1056/NEJMoa2006100].
-The tracking of SARS-CoV-2 mutations is recognized as an important tool for controlling outbreaks that may provide valuable insights into the paths of SARS-CoV-2's spread [@doi:10/d5mg].
 
 #### Transmission
 
@@ -734,13 +750,13 @@ Although these are difficult to disaggregate, they suggest different possible in
 The epidemiological characteristics and clinical presentation of COVID-19 may differ somewhat in different areas of the world, presumably due to differential reporting, different age structures, and/or different risk factors [@doi:10.1007/s00592-020-01546-0].
 Furthermore, because different subpopulations may have somewhat different vulnerabilities, needs, and resources, we recommend that researchers publishing studies on diagnostics and therapeutics take extra care to be clear about the demographic and medical characteristics of their sample, in order to facilitate discussions of the degree to which results may generalize or differ in other settings.
 
-Several studies on disparities in COVID-19 have compared groups in terms of their probability of a severe outcome (like hospitalization or death) given that a person is diagnosed.  
-The larger population of all exposed or all infected people usually cannot directly be studied, or even identified, because of the existence of undetected infections.  
-In contrast, [@doi:10.1038/s41586-020-2521-4] were able to compare overall rates of death from COVID-19, not simply in the subsample of diagnosed individuals, thus combining the probability of infection with the probability of death given infection.  
-This was done using a dataset of 17 million adults in the United Kingdom.  
-In this administrative dataset, [@doi:10.1038/s41586-020-2521-4] found that male sex, older age, economic deprivation, nonwhite ethnicity (principally Black or South Asian), obesity, diabetes,  asthma, and several other comorbid conditions were associated with a higher risk of death from COVID-19. 
-They cautioned that despite the large sample size, their observational data did not directly provide information on the causal mechanisms which led to these statistical associations.  
-However, the ethnic and economic disparities did not vanish when adjusting for observed preexisting conditions.  
+Several studies on disparities in COVID-19 have compared groups in terms of their probability of a severe outcome (like hospitalization or death) given that a person is diagnosed.
+Early in the pandemic, it is more difficult to study or identify the larger population of all exposed or all infected people because of the existence of undetected infections; over the course of the pandemic, indirect estimates of infection rates through modeling improve and more direct estimates through a combination of serological tests, sampling methods and statistical methods have been made possible through biotechnology developments.
+In contrast, [@doi:10.1038/s41586-020-2521-4] were able to compare overall rates of death from COVID-19, not simply in the subsample of diagnosed individuals, thus combining the probability of infection with the probability of death given infection.
+This was done using a dataset of 17 million adults in the United Kingdom.
+In this administrative dataset, [@doi:10.1038/s41586-020-2521-4] found that male sex, older age, economic deprivation, nonwhite ethnicity (principally Black or South Asian), obesity, diabetes,  asthma, and several other comorbid conditions were associated with a higher risk of death from COVID-19.
+They cautioned that despite the large sample size, their observational data did not directly provide information on the causal mechanisms which led to these statistical associations.
+However, the ethnic and economic disparities did not vanish when adjusting for observed preexisting conditions.
 [@doi:10.1038/s41586-020-2521-4] also found that the predictive value of socioeconomic status seemed to increase over time, perhaps because many higher-paid workers were able to transition to working online.
  
 Besides the direct harms caused by infection, many populations are in indirect risk of serious harm due to the social and economic effects of the pandemic and of the efforts needed to fight it.  
@@ -864,22 +880,30 @@ One severe example includes reports of cytokine storm-like responses in patients
 
 #### Reproduction Number and Dynamics of Transmission
 
-Accurate estimates of the reproduction number of a virus are crucial to understanding the dynamics of infection and to predict the effects of different interventions.
-The basic reproduction number and the timescale of infection (measured by the infectious period and the exposed period) govern population-level epidemic dynamics, with R~0~ being one of most critical epidemiological parameters [@isbn:9780691116174].
-The basic reproduction number, R~0~, is the expected number of new (secondary) infections caused by one infected person, assuming no time dependence and a wholly susceptible population [@doi:10.1111/j.1467-9574.1996.tb01482.x].
-R~0~ is a unitless number which in mechanistic models is a combination of parameters principally related to the transmission rate (rate of infection transmitting interactions for an infectious individual) and the infectious period [@doi:10.1126/science.abb5659; @isbn:9780691116174].
+Disease spread dynamics can be estimated using R~0~, the basic reproduction number, and R~t~, the effective reproduction number. 
+Thus, accurate estimates are crucial to understanding the dynamics of infection and to predict the effects of different interventions.
+R~0~ and the timescale of infection (measured by the infectious period and the exposed period) govern population-level epidemic dynamics, with R~0~ being one of the most important epidemiological parameters [@isbn:9780691116174]. 
+R~0~ is the average number of new (secondary) infections caused by one infected person, assuming a wholly susceptible population [@doi:10.1111/j.1467-9574.1996.tb01482.x]. 
+A simple mechanistic model used to describe infectious disease dynamics is a susceptible-infected-recovered (SIR) compartmental model. 
+In this formulation individuals move through three states: susceptible, infected, and recovered; two parameters, $\gamma$ and $\beta$, specify the rate at which the infectious recover, and the infection transmission rate, respectively. 
+In this simple formulation, R~0~ is estimated as the ratio of $\beta$ and $\gamma$.[@doi:10.1126/science.abb5659; @isbn:9780691116174]. 
 A pathogen can invade a susceptible population only if R~0~ > 1 [@isbn:9780691116174; @isbn:9780199209996].
-The effective reproduction number, R~t~, describes how the reproduction number may change over time, and is used to quantify deviations in R from R~0~ that would occur, for example, as some fraction of the population became infected or as interventions were put into place.
+The spread of an infectious disease at a particular time t can be quantified by R~t~, the effective reproduction number, which assumes that part of the population has already recovered (and thus gained immunity to reinfection) or that mitigating interventions were put into place.
+For example, if only a fraction S~t~ of the population is still susceptible, R~t~ = S~t~ x R~0~.
 When R~t~ is greater than 1, an epidemic grows (i.e., the proportion of the population that is infectious increases); when R~t~ is less than 1, the proportion of the population that is infectious decreases.
 R~0~ and R~t~ can be estimated directly from epidemiological data or inferred using mathematical modeling.
-Modeling approaches are typically based upon a classic epidemiological model structure: the susceptible-infected-recovered (SIR) model and its extensions [@https://doi.org/10.1098/rspa.1927.0118; @doi:10.1038/280361a0].
+Modeling approaches are typically based upon a classic epidemiological model structure: the SIR model and its extensions [@https://doi.org/10.1098/rspa.1927.0118; @doi:10.1038/280361a0]. 
+In the context of SARS-CoV-2, more complex modified susceptible-exposed-infectious-recovered (SEIR) models are commonly used.[need citations]
 
 Estimates of R~0~ for COVID-19 lie in the range R~0~=1.4-6.5 [@doi:10/ggjvr7; @doi:10.1093/jtm/taaa021; @doi:10.1126/science.abb3221].
-Variation in R~0~ is expected between different populations and the estimated values of R~0~ discussed below are for specific populations in specific environments. The different estimates of R~0~ should not be interpreted as a range of estimates of the same underlying parameter.
-Data-derived estimates (i.e. those that do not incorporate SIR-type models into their analysis) typically predict lower values of R~0~.
-For data-derived estimates, in one study of international cases, the predicted value is R~0~=1.7 [@doi:10.1101/2020.03.21.20040329], in China (both Hubei province and nationwide), the value is predicted to lie in the range R~0~=2.0-3.6 [@doi:10.2139/ssrn.3524675; @doi:10.1101/2020.01.25.919787; @doi:10/ggjvr7], and on a cruise ship where an outbreak occurred, predicted R~0~=2.28 [@doi:10.1016/j.ijid.2020.02.033].
-SIR model-derived estimates of R~0~ range from 2.0 - 6.5 in China [@doi:10.3390/jcm9020462; @doi:10.1101/2020.01.27.20018952; @doi:10.1101/2020.01.23.916726; @doi:10.1101/2020.01.23.20018549] to R~0~=4.8 in France [@doi:10.1101/2020.03.22.20040915].
-Using the same model as for the French population, this study estimated R~0~=2.6 in South Korea [@doi:10.1101/2020.03.22.20040915], which is consistent with other studies [@tag:Park2020_distancing].
+Variation in R~0~ is expected between different populations and the estimated values of R~0~ discussed below are for specific populations in specific environments. 
+The different estimates of R~0~ should not necessarily be interpreted as a range of estimates of the same underlying parameter.
+
+<!--I am not quite sure about this next paragraph. Most sophisticated models now incorporate "data" in their SEIR formulation, so I'm not sure it's accurate to draw the distinction.-->
+
+In one study of international cases, the predicted value is R~0~=1.7 [@doi:10.1101/2020.03.21.20040329], in China (both Hubei province and nationwide), the value is predicted to lie in the range R~0~=2.0-3.6 [@doi:10.2139/ssrn.3524675; @doi:10.1101/2020.01.25.919787; @doi:10/ggjvr7], and on a cruise ship where an outbreak occurred, predicted R~0~=2.28 [@doi:10.1016/j.ijid.2020.02.033].
+SEIR model-derived estimates of R~0~ range from 2.0 - 6.5 in China [@doi:10.3390/jcm9020462; @doi:10.1101/2020.01.27.20018952; @doi:10.1101/2020.01.23.916726; @doi:10.1101/2020.01.23.20018549] to R~0~=4.8 in France [@doi:10.1101/2020.03.22.20040915].
+Using the same model as for the French population, a study estimated R~0~=2.6 in South Korea [@doi:10.1101/2020.03.22.20040915], which is consistent with other studies [@tag:Park2020_distancing].
 From a meta-analysis of studies estimating R~0~, [@doi:10.1093/jtm/taaa021] predict the median as R~0~=2.79.
 
 Inference of the effective reproduction number can provide insight into how populations respond to an infection, and the effectiveness of interventions.
@@ -897,15 +921,13 @@ In Iran, estimates of R~t~ declined from 4.86 in the first week to 2.1 by the fo
 In Europe, analysis of 11 countries inferred the dynamics of R~t~ over a time range from the beginning of the outbreak until March 28, 2020, by which point most countries had implemented major interventions (such as school closures, public gathering bans, and stay-at-home orders) [@doi:10.25561/77731].
 Across all countries, the mean R~t~ before interventions began was estimated as 3.87; R~t~ varied considerably, from below 3 in Norway to above 4.5 in Spain.
 After interventions, R~t~ decreased by an average of 64% across all countries, with mean R~t~=1.43.
-The lowest predicted value was 0.97 for Norway and the highest was 2.64 for Sweden (note that this is in part because Sweden did not implement social distancing measures on the same scale as other countries).
+The lowest predicted value was 0.97 for Norway and the highest was 2.64 for Sweden, which may be in part because Sweden did not implement social distancing measures on the same scale as other countries.
 The study concludes that while large changes in R~t~ are observed, it is too early to tell whether the interventions put into place are sufficient to decrease R~t~ below 1.
 
 More generally, population-level epidemic dynamics can be both observed and modelled [@doi:10.1126/science.abb5659].
 Data and empirically determined biological mechanisms inform models, while models can be used to try to understand data and systems of interest or to make predictions about possible future dynamics, such as the estimation of capacity needs [@doi:10.1073/pnas.2004064117] or the comparison of predicted outcomes among prevention and control strategies [@doi:10/ggp3xq; @doi:10.1073/pnas.2004978117].
-Many current efforts to model R~t~ have led to tools that assist the visualization of estimates in real time (or over recent intervals) [@url:https://epiforecasts.io/covid; @url:https://rt.live].
+Many current efforts to model R~t~ have led to tools that assist the visualization of estimates in real time or over recent intervals [@url:https://epiforecasts.io/covid; @url:https://rt.live].
 While these may be valuable resources, it is important to note that the estimates arise from models containing many assumptions and are dependent on the quality of the data they use, which varies widely by region.
-
-
 
 ### Immune Response to SARS-CoV-2
 
@@ -1083,14 +1105,46 @@ Although these approaches are also PCR based, they allow for more rapid scaling 
 
 ##### CRISPR-based detection
 
-Two American companies, Mammoth Biosciences and Sherlock Biosciences, adapted their CRISPR-based detection technology [@doi:10.1016/j.cell.2014.05.010] for COVID-19 diagnostics to increase testing throughput and accessibility [@doi:10.1101/2020.03.06.20032334].
-Their methodology involves purification of RNA extracted from patient specimens, amplification of extracted RNAs by loop-mediated amplification, a rapid, isothermal nucleic acid amplification technique, and application of their CRISPR-Cas12-based technology.
-In the assay designed by Mammoth Biosciences, guide RNAs were designed to recognize portions of sequences corresponding to the SARS-CoV-2 genome, specifically the N, E and RdRP regions.
+Two CRISPR-associated nucleases, Cas12 and Cas13, have been used for nucleic acid detection. 
+Multiple assays exploiting these nucleases have emerged as potential diagnostic tools for the rapid detection of SARS-CoV-2 genetic material and therefore SARS-CoV-2 infection.
+
+The SHERLOCK method (Specific High-sensitivity Enzymatic Reporter unLOCKing) from Sherlock Biosciences relies on Cas13a to discriminate between inputs that differ by a single nucleotide at very low concentrations [@doi:10.1126/science.aam9321].
+The target RNA is amplified by RT-RPA and T7 transcription, and the amplified product activates Cas13a. 
+The nuclease then cleaves a reporter RNA, which liberates a fluorescent dye from a quencher.
+Several groups have used the SHERLOCK method to detect SARS-CoV-2 viral RNA. 
+An early study reported that the method could detect 7.5 copies of viral RNA in all 10 replicates, 2.5 copies in 6 out of 10, and 1.25 copies in 2 out of 10 runs [@doi:10.1101/2020.02.22.20025460]. 
+It also reported 100% specificity and sensitivity on 114 RNA samples from clinical respiratory samples (61 suspected cases, among which 52 were confirmed and 9 ruled out by metagenomic next-generation sequencing, 17 nCoV-/hCoV+ cases and 36 samples from healthy subjects), and a reaction turn-around time of 40 minutes. 
+A separate study screened four designs of SHERLOCK and extensively tested the best-performing assay.
+They determined the limit of detection to be 10 copies/&mu;l using both fluorescent and lateral flow detection [@doi:10.1101/2020.02.26.967026].
+Lateral flow test strips are simple to use and read, but there are limitations in terms of availability and cost per test.
+Another group therefore proposed the CREST protocol (Cas13-based, Rugged, Equitable, Scalable Testing), which uses a P51 cardboard fluorescence visualizer, powered by a 9V battery, for the detection of Cas13 activity instead of immunochromatography [@doi:10.1101/2020.04.20.052159].
+CREST can be run, from RNA sample to result, with no need for AC power or a dedicated facility, with minimal handling in approximately 2 hours.
+Testing was performed on 14 nasopharyngeal swabs.
+CREST picked up the same positives as the CDC-recommended TaqMan assay with the exception of one borderline sample that displayed low quality RNA.
+
+The DETECTR method (DNA Endonuclease-Targeted CRISPR Trans Reporter) from Mammoth Biosciences involves purification of RNA extracted from patient specimens, amplification of extracted RNAs by loop-mediated amplification, a rapid, isothermal nucleic acid amplification technique, and application of their Cas12-based technology.
+In their assay, guide RNAs were designed to recognize portions of sequences corresponding to the SARS-CoV-2 genome, specifically the N2 and E regions [@doi:10.1038/s41587-020-0513-4].
 In the presence of SARS-CoV-2 genetic material, sequence recognition by the guide RNAs results in double-stranded DNA cleavage by Cas12, as well as cleavage of a single-stranded DNA molecular beacon.
-The cleavage of this molecular beacon acts as a colorimetric reporter that is subsequently read out in a lateral flow assay and indicates the positive presence of SARS-CoV-2 genetic material and therefore SARS-CoV-2 infection [@doi:10.1101/2020.03.06.20032334].
-This assay has been reported to have a sensitivity as high as detection of 70-300 copies of the target RNA/µl, requires simple, accessible equipment, and can output an easily-interpretable result in approximately 30 minutes [@doi:10.1126/science.abb8400].
-Initial testing with patient samples (n = 23) demonstrated a positive predictive value of 100% and a negative predictive value of 91.7%, which is highly competitive with the CDC's current testing standard using qRT-PCR.
-This test seeks to develop a practical solution for rapid, low-barrier testing in areas that are at greater risk of infection, such as airports and local community hospitals.
+The cleavage of this molecular beacon acts as a colorimetric reporter that is subsequently read out in a lateral flow assay and indicates the positive presence of SARS-CoV-2 genetic material and therefore SARS-CoV-2 infection.
+The 40-minute assay is considered positive if there is detection of both the E and N genes or presumptive positive if there is detection of either of them.
+The assay had 95% positive predictive agreement and 100% negative predictive agreement with the US Centers for Disease Control and Prevention SARS-CoV-2 real-time RT–PCR assay.
+The estimated limit of detection was 10 copies per &mu;l reaction, versus 1 copy per &mu;l reaction for the CDC assay.
+These results have been confirmed by other DETECTR approaches.
+Using RTRPA for amplification, another group detected 10 copies of synthetic SARS-CoV-2 RNA per &mu;l of input within 60 minutes of RNA sample preparation in a proof-of-principle evaluation [@doi:10.1101/2020.02.29.971127].
+The DETECTR protocol was improved by combining RT-RPA and CRISPR-based detection in a one-pot reaction that incubates at a single temperature, and by using dual crRNAs (which increases sensitivity).
+This new assay, known as All-In-One Dual CRISPR-Cas12a (AIOD-CRISPR), detected 4.6 copies of SARS-CoV-2 RNA per &mu;l of input in 40 minutes [@doi:10.1101/2020.03.19.998724].
+Another single-tube, constant-temperature approach using Cas12b instead of Cas12a achieved a detection limit of 5 copies/&mu;l in 40-60 minutes [@doi:10.1101/2020.04.10.023358].
+It was also reported that that electric field gradients can be used to control and accelerate CRISPR assays by co-focusing Cas12-gRNA, reporters, and target [@doi:10.1101/2020.05.21.109637].
+The authors generated an appropriate electric field gradient using a selective ionic focusing technique known as isotachophoresis (ITP) implemented on a microfluidic chip.
+They also used  ITP for automated purification of target RNA from raw nasopharyngeal swab samples.
+Combining this ITP purification with loop-mediated isothermal amplification, their ITP-enhanced assay to achieved detection of SARS-CoV-2 RNA (from raw sample to result) in 30 minutes.
+
+There is an increasing body of evidence that CRISPR-based assays offer a practical solution for rapid, low-barrier testing in areas that are at greater risk of infection, such as airports and local community hospitals.
+In the largest study to date, DETECTR was compared to qRT-PCR on 378 patient samples [@doi:10.1101/2020.07.27.20147249].
+The authors reported a 95% reproducibility.
+Both techniques were equally sensitive in detecting SARS-CoV-2.
+Lateral flow strips showed a 100% correlation to the high-throughput DETECTR assay. Importantly, DETECTR was 100% specific for SARS-CoV-2 and did not detect other human coronaviruses. 
+
 
 #### Limitation of Molecular Tests
 
@@ -1175,7 +1229,7 @@ Specifically, the individuals at risk include:
 However, this method of testing administration does not detect a high proportion of infections and does not allow for test-and-trace methods to be used.
 Individuals who are asymptomatic (i.e. potential spreaders) and individuals who are able to recover at home are therefore often unaware of their status.
 For instance, a recent study from Imperial College estimates that in Italy the true number of infections is around 5.9 million in a total population ~60 million, compared to the 70,000 detected as of March 28th [@doi:10.25561/77731].
-Another analysis, which examined New York state, indicated that as of May 2020, approximately 300,000 cases had been reported in a total population of approximately 20 million, corresponding to ~1.5% of the population, but 12% of individuals tested statewide and up to ~20% in some places tested positive when evaluated with antibody tests [@url:https://www.governor.ny.gov/sites/governor.ny.gov/files/atoms/files/NYForwardReopeningGuide.pdf].
+Another analysis, which examined New York state, indicated that as of May 2020, approximately 300,000 cases had been reported in a total population of approximately 20 million, corresponding to ~1.5% of the population, but ~12% of individuals sampled statewide were estimated as positive through antibody tests (along with indications of spatial heterogeneity at higher resolution) [@url:https://www.governor.ny.gov/sites/governor.ny.gov/files/atoms/files/NYForwardReopeningGuide.pdf].
 
 
 ## Therapeutics and Prophylactics
@@ -1195,13 +1249,13 @@ In the following sections, we critically appraise the literature and clinical tr
 
 ![
 **COVID-19 clinical trials.**
-There are 4,282 COVID-19 clinical trials and 104 trials with results as of July 17, 2020.
+There are 4,550 COVID-19 clinical trials and 105 trials with results as of July 28, 2020.
 The recruitment statuses and trial phases are shown only for trials in which the status or phase is recorded.
 The study types include only types used in at least five trials.
 The common interventions are all interventions used in at least ten trials.
 Combinations of interventions, such as Hydroxychloroquine + Azithromycin, are tallied separately from the individual interventions.
 Trials data are from the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709].
-](https://github.com/greenelab/covid19-review/raw/0aac192de03c88150334e99773b670080e641f0a/ebmdatalab/ebmdatalab-trials.svg "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/e3027fc632f5ce17fd4497e43c8c24e5e18e6115/ebmdatalab/ebmdatalab-trials.svg "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 
 ### Treatment of Symptoms
@@ -1945,7 +1999,6 @@ The Coalition for Epidemic Preparedness Innovations (CEPI) is coordinating globa
 As of April 8, 2020, there were 115 vaccine candidates to prevent COVID-19, of which 78 were active.
 Of the 78 active vaccine programs, 73 were in the preclinical or exploratory stage [@doi:10.1038/d41573-020-00073-5].
 
-
 Historically, an H1N1 influenza vaccine was developed relatively efficiently, mainly because influenza-vaccine technology had already been developed and regulatory agencies had already decided that vaccines produced using egg- and cell-based platforms could be licensed under the regulations used for a strain change.
 Critiques of the experience producing and distributing the H1N1 vaccine have stressed the need for alternative development-and-manufacturing platforms that can be readily adapted to new pathogens.
 Although a monovalent H1N1 vaccine was not available before the pandemic peaked in the United States and Europe, it was available soon afterward as a stand-alone vaccine that was eventually incorporated into the commercially available seasonal influenza vaccines [@doi:10.1056/NEJMp2005630].
@@ -1956,6 +2009,7 @@ Experience in the field of oncology is encouraging COVID-19 vaccine developers t
 Diverse technology platforms include DNA, RNA, virus-like particle, recombinant protein, both replicating and non-replicating viral vectors, live attenuated virus, and inactivated virus approaches.
 Given the wide range of vaccines under development, it is possible that some vaccine products may eventually be shown to be more effective in certain subpopulations, such as children, pregnant women, immunocompromised patients, the elderly, etc.
 The requirements for a successful vaccine trial and deployment are complex and may require coordination between government, industry, academia, and philanthropic entities [@doi:10.1126/science.abc5312].
+While little is currently known about immunity to SARS-CoV-2, vaccine development typically tests for serum neutralizing activity, as this has been established as a biomarker for adaptive immunity in other respiratory illnesses [@doi:10.1056/NEJMoa2022483].
 
 ###### DNA Vaccines
 
@@ -1985,7 +2039,7 @@ Although exciting, the cost of vaccine manufacturing and electroporation may mak
 ###### RNA Vaccines
 
 RNA vaccines are nucleic-acid based modalities that code for viral antigens against which the human body elicits a humoral and cellular immune response.
-The mRNA technology is transcribed _in vitro_ and delivered to cells via lipid nanoparticles (LNP).
+The mRNA technology is transcribed _in vitro_ and delivered to cells via lipid nanoparticles (LNP) [@doi:10.1002/eji.1830230749].
 They are recognized by ribosomes _in vivo_ and then translated and modified into functional proteins [@doi:10.3389/fimmu.2019.00594].
 The resulting intracellular viral proteins are displayed on surface MHC proteins, provoking a strong CD8+ T cell response as well as a CD4+ T cell and B cell-associated antibody responses [@doi:10.3389/fimmu.2019.00594].
 
@@ -1994,7 +2048,7 @@ The LNP covering protects the mRNA from enzymatic degradation outside of the cel
 Codon optimization to prevent secondary structure formation and modifications of the poly-A tail as well as the 5’ untranslated region to promote ribosomal complex binding can increase mRNA expression in cells.
 Furthermore, purifying out dsRNA and immature RNA with FPLC (fast performance liquid chromatography) and HPLC (high performance liquid chromatography) technology will improve translation of the mRNA in the cell [@doi:10.3389/fimmu.2019.00594; @doi:10.1080/14760584.2017.1355245].
 
-mRNA vaccines confer many advantages over traditional viral vectored vaccines and DNA vaccines.
+Vaccines based on mRNA delivery confer many advantages over traditional viral vectored vaccines and DNA vaccines.
 In comparison to live attenuated viruses, mRNA vaccines are non-infectious and can be synthetically produced in an egg-free, cell-free environment, thereby reducing the risk of a detrimental immune response in the host [@doi:10.1016/j.immuni.2020.03.007].
 Unlike DNA vaccines, mRNA technologies are naturally degradable and non-integrating, and they do not need to cross the nuclear membrane in addition to the plasma membrane for their effects to be seen [@doi:10.3389/fimmu.2019.00594].
 Furthermore, mRNA vaccines are easily, affordably, and rapidly scalable.
@@ -2003,7 +2057,6 @@ Although mRNA vaccines have been developed for therapeutic and prophylactic purp
 Nevertheless, they have shown promise in animal models and preliminary clinical trials for several indications, including rabies, coronavirus, influenza, and cytomegalovirus [@clinicaltrials:NCT01669096].
 Preclinical data from Pardi et al. identified effective antibody generation against full-length FPLC-purified influenza hemagglutinin stalk-encoding mRNA in mice, rabbits, and ferrets [@doi:10.1038/s41467-018-05482-0].
 Similar immunological responses for mRNA vaccines were observed in humans in Phase I and II clinical trials operated by the pharmaceutical-development companies Curevac and Moderna for rabies, flu, and zika [@doi:10.1080/14760584.2017.1355245].
-
 
 **Anticipated Mechanism.**
 Positively charged bilayer LNPs carrying the mRNA attract negatively charged cell membranes, endocytose into the cytoplasm [@doi:10.4155/tde-2016-0006], and facilitate endosomal escape.
@@ -2021,21 +2074,26 @@ Dendritic cells are potent antigen-presenting immune cells that easily take up m
 Ultimately, primed T follicular helper cells can stimulate germinal center B cells that also present the viral antigen to produce antibodies against the virus [@doi:10.1016/j.immuni.2014.10.004].
 These cells are isolated from the patient, grown and transfected _ex vivo_, and reintroduced to the patient [@doi:10.1038/nrd.2017.243].
 
-
 **Current Evidence.**
-mRNA-1273 is the first COVID-19 vaccine to enter a phase I clinical in the United States.
+mRNA-1273 was the first COVID-19 vaccine to enter a phase I clinical in the United States.
 ModernaTX, Inc. is currently spearheading an investigation on the immunogenicity and reactogenicity of mRNA-1273, a conventional lipid nanoparticle encapsulated RNA encoding a full-length prefusion stabilized spike (S) protein for SARS-CoV-2 [@clinicaltrials:NCT04283461].
-Forty-five participants will be enrolled in the study and given an intramuscular injection of mRNA-1273 in their deltoid muscle on Day 1 and Day 29, and then followed for the next twelve months.
-Healthy males and non-pregnant females aged 18-55 years are being recruited and will be divided in three dosage groups receiving either 25 micrograms, 100 mcg, or 250 mcg of the vaccine.
+In a study that is ongoing, forty-five participants were enrolled and given intramuscular injections of mRNA-1273 in their deltoid muscle on day 1 and day 29, and then followed for the next twelve months.
+Healthy males and non-pregnant females aged 18-55 years were recruited for this study and divided into three groups receiving 25, 100, or 250 micrograms (&mu;g) of mRNA-1273.
+IgG ELISA assays on patient serology samples are being used to examine the immunogenicity of the vaccine [@clinicaltrials:NCT04283461].
 
-The study started on March 3rd, 2020, and is expected to complete by June 1st, 2021.
-Emory Vaccine Center and Kaiser Permanent Washington Health Research Institute are currently recruiting participants with NIH Clinical Center expecting to recruit soon.
-Reports on patient safety and reactogenicity will be recorded soon.
-IgG ELISA assays on patient serology samples will study the immunogenicity of the vaccine [@clinicaltrials:NCT04283461].
+A preliminary report describing initial safety and immunogenicity findings is now available [@doi:10.1056/NEJMoa2022483].
+Binding antibodies were observed at two weeks after the first dose at all concentrations.
+At the time point one week after the second dose was administered on day 29, the pseudotyped lentivirus reporter single-round-of-infection neutralization assay (PsVNA), which was used to assess neutralizing activity, reached a median level similar to the median observed in convalescent plasma samples.
+Participants reported mild and moderate systemic adverse events after the day 1 injection, and one severe local event was observed in each of the two highest dose levels.
+The second injection led to severe systemic adverse events for three of the participants at the highest dose levels, with one participant in the group being evaluated at an urgent care center on the day after the second dose.
+The reported localized adverse events from the second dose were similar to those from the first.
 
 **Summary.**
-mRNA vaccines are promising tools in the prevention and control of pandemics.
-mRNA-1273 is the only RNA vaccine for SARS-CoV-2 currently being tested in clinical trials and results are expected soon.
+mRNA vaccines are promising tools in the prevention and control of pandemics because they may sidestep many challenges associated with traditional vaccine design and manufacturing.
+mRNA-1273 is the only RNA vaccine for SARS-CoV-2 for which preliminary results are available.
+This early in the development process, placebo-blinded and randomized results are not yet available, but the initial results are promising.
+In the dose ranging study, even the lowest dose of 25 &mu;g of mRNA-1273 appeared to be sufficient to induce an immunogenicity profile comparable to that observed in convalescent plasma and appeared to be well tolerated among the population of healthy, non-pregnant participants from 18-55 years of age.
+Based on the preliminary results from mRNA-1273 [@doi:10.1056/NEJMoa2022483], a new trial aims to enroll 30,000 participants who will be randomized for two injections of 100 &mu;g of mRNA-1273 or placebo, again spaced 28 days apart [@clinicaltrials:NCT04470427].
 
 ###### Viral Particle Vaccines
 
@@ -2120,8 +2178,8 @@ Upcoming work may explore the specificity of nAbs for their target, mechanisms b
 There is also some research into possible potential therapeutics or prophylactics which interact with components of the innate immune response.
 For example, there are a variety of toll-like receptors (TLRs) which are examples of pattern recognition receptors (PRRs), innate immune response components which recognize pathogen-associated molecular patterns (PAMPs) and damage-associated molecular patterns (DAMPs).
 Note that TLRs form a part of innate immune recognition and can more generally contribute to promoting both innate and adaptive responses [@ISBN:9780815332183].
-In mouse models, poly(I:C) and lipopolysaccharide, which are agonists of toll-like receptors TLR3 and TLR4, respectively, showed protective effects when administered prior to SARS-CoV exposure [@doi:10.1128/JVI.01410-12].
-Therefore, TLR agonists and antagonists hold some potential for broad-spectrum prophylaxis.
+In mouse models, poly(I:C) and CpG, which are agonists of toll-like receptors TLR3 and TLR9, respectively, showed protective effects when administered prior to SARS-CoV infection [@doi:10.1128/JVI.01410-12].
+Therefore, TLR agonists hold some potential for broad-spectrum prophylaxis.
 Another type of approach which is being investigated is the possible use of what is termed trained immunity, in particular as elicited by non-SARS-CoV-2 whole-microorganism vaccines (or other microbial stimuli), as a tool which might be shown to generate heterologous protective effects with respect to SARS-CoV-2 susceptibility or severity [@doi:10.1016/j.cell.2020.04.042].
 In a recent review [@doi:10.1038/s41577-020-0285-6], trained immunity was defined as forms of memory which are temporary (e.g., months or years, and reversible), displayed by innate immune cells and innate immune features of other cells, displayed as increased responsiveness to future same or heterologous pathogen infection or sometimes decreased responsiveness or immunological tolerance, and established through epigenetic and metabolic mechanisms.
 One type of stimulus which research indicates can induce trained immunity is bacillus Calmette-Guerin (BCG) vaccination.
@@ -2284,7 +2342,6 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 |Matthias Fax|None|2020-04-30|
 |James Brian Byrd|Funded by FastGrants to conduct a COVID-19-related clinical trial|2020-04-23|
 |YoSon Park|None|2020-04-30|
-|Yael Evelyn Marshall|None||
 |Vikas Bansal|None|2020-05-26|
 |Stephen Capone|None|2020-06-23|
 |John J. Dziak|None|2020-06-23|
@@ -2292,6 +2349,8 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 |Yanjun Qi|None|2020-07-09|
 |Lamonica Shinholster|None|2020-07-22|
 |Sergey Knyazev|None|2020-08-03|
+|Dimitri Perrin|None|2020-08-11|
+|Serghei Mangul|None|2020-08-07|
 
 ### Author Contributions
 
@@ -2329,7 +2388,6 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 |Matthias Fax|Writing - Review & Editing|
 |James Brian Byrd|Writing - Original Draft, Writing - Review & Editing|
 |YoSon Park|Writing - Original Draft, Writing - Review & Editing, Investigation|
-|Yael Evelyn Marshall|Writing - Original Draft, Writing - Review & Editing|
 |Vikas Bansal|Writing - Original Draft, Investigation|
 |Stephen Capone|Writing - Review & Editing, Writing - Original Draft|
 |John J. Dziak|Writing - Original Draft|
@@ -2337,10 +2395,13 @@ Crowd-sourced writing with Manubot [@doi:10.1371/journal.pcbi.1007128].
 |Yanjun Qi|Visualization|
 |Lamonica Shinholster|Writing - Original Draft|
 |Sergey Knyazev|Writing - Original Draft|
+|Dimitri Perrin|Writing - Original Draft, Writing - Review & Editing|
+|Serghei Mangul|Writing - Review & Editing|
 
 ### Acknowledgements
 
 We thank Nick DeVito for assistance with the Evidence-Based Medicine Data Lab COVID-19 TrialsTracker data.
+We thank Yael Evelyn Marshall who contributed writing (original draft) as well as reviewing and editing of pieces of the text but who did not formally approve the manuscript.
 We are grateful to the following contributors for reviewing pieces of the text: Nadia Danilova, James Eberwine and Ipsita Krishnan.
 
 

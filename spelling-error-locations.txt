@@ -1,3 +1,0 @@
-content/02.introduction.md:69:coevolution
-content/02.introduction.md:81:gisaid
-content/02.introduction.md:81:GISAID
