@@ -118,6 +118,7 @@ bocavirus
 Bouhaddou
 bovis
 BRD
+Brescia
 bromodomain
 bronchioles
 bronchoalveolar
@@ -178,6 +179,7 @@ Clonally
 CMV
 coagulative
 coagulopathy
+cobicistat
 coevolution
 Colonic
 colonocytes
@@ -217,6 +219,7 @@ Cre
 creatinine
 CRF
 CRISPR
+Crohn's
 CRP
 crRNAs
 CRRT
@@ -224,6 +227,7 @@ CRS
 CRSL
 Cryo
 CSF
+CSS
 csse
 CTACK
 CTan
@@ -251,6 +255,7 @@ Daegu
 Dalla
 Danilova
 Danoprevir
+darunavir
 dataset
 datasets
 Dattoli
@@ -529,6 +534,7 @@ immunostimulants
 immunosuppressant
 immunosuppression
 immunosuppressive
+IMV
 infectable
 infectivity
 infodemic
@@ -595,6 +601,7 @@ kDa
 KDM
 kevinsunofficial
 kilobases
+kilodaltons
 kinases
 Knyazev
 Kolla
@@ -732,6 +739,7 @@ mRNAs
 mTOR
 MUC
 mucosa
+mucosal
 multiorgan
 multisystem
 mutagenesis
@@ -785,6 +793,7 @@ NLR
 NLRC
 NLRP
 nonrandomized
+nonsevere
 nosocomial
 novo
 NPV
@@ -1080,6 +1089,7 @@ Suo
 superfamily
 supernatants
 survivability
+survivorship
 sustentacular
 SV
 svg
@@ -1146,6 +1156,7 @@ UC
 UCI
 umifenovir
 Umland
+unadjusted
 uncoating
 Underexplored
 underpowered
