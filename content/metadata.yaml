@@ -650,3 +650,19 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-08-07
+  -
+    github: shiktadas
+    name: Shikta Das
+    initials: SD
+    orcid: [need info]
+    twitter: shikta_das
+    email: [need info]
+    contributions:
+      - Writing - Review & Editing
+    affiliations:
+      - [need info]
+    code of conduct:
+      confirmed: Yes [need you to say it's OK]
+    coi:
+      string: "None" [let us know if you have any conflicts of interest we should report]
+      lastapproved: !!str 2020-08-07
