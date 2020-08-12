@@ -135,8 +135,10 @@ fi
 if [ "${LITSEARCH:-}" = "true" ]; then
   echo >&2 "Creating the sources cross-reference output"
   python build/litsearch/getInternalData.py
-  echo >&2 "Getting ALLEN AI metadata and combining it with the sources cross-reference output and additional data from bioRxiv"
-  python build/litsearch/combineDataSets.py
+  # Disable Allen AI cross-referencing to avoid error:
+  # 'remote: error: File AllenAI-metadata.csv.gz is 102.43 MB; this exceeds GitHub's file size limit of 100.00 MB'
+  #echo >&2 "Getting ALLEN AI metadata and combining it with the sources cross-reference output and additional data from bioRxiv"
+  #python build/litsearch/combineDataSets.py
 fi
 
 echo >&2 "Build complete"
