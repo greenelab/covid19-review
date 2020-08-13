@@ -36,14 +36,16 @@ authors:
     contributions:
       - Conceptualization
       - Software
+      - Writing - Review & Editing
     affiliations:
       - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
       - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Philadelphia, Pennsylvania, United States of America
     coi:
       string: "None"
-      lastapproved: !!str 2020-03-22
+      lastapproved: !!str 2020-08-13
     funders:
       - the Gordon and Betty Moore Foundation (GBMF 4552)
+      - the National Human Genome Research Institute (R01 HG010067)
   -
     github: mprobson
     name: Michael P. Robson
@@ -70,7 +72,7 @@ authors:
       - Innovation Center for Biomedical Informatics, Georgetown University Medical Center, Washington, District of Columbia, United States of America
     coi:
       string: "None"
-      lastapproved: !!str 2020-03-23
+      lastapproved: !!str 2020-08-12
   -
     github: nilswellhausen
     name: Nils Wellhausen
@@ -101,7 +103,7 @@ authors:
       - Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104-5158, USA
     coi:
       string: "None"
-      lastapproved: !!str 2020-03-25
+      lastapproved: !!str 2020-08-13
   -
     github: cbrueffer
     name: Christian Brueffer
@@ -158,12 +160,19 @@ authors:
       - Methodology
       - Software
       - Project Administration
+      - Writing - Original Draft
+      - Writing - Review & Editing
+      - Visualization
     affiliations:
       - Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, United States of America
       - Morgridge Institute for Research, Madison, Wisconsin, United States of America
+    code of conduct:
+      confirmed: Yes
     coi:
-      string: "None"
-      lastapproved: !!str 2020-03-26
+      string: "Filed a provisional patent application with the Wisconsin Alumni Research Foundation related to classifying activated T cells"
+      lastapproved: !!str 2020-08-12
+    funders:
+      - John W. and Jeanne M. Rowe Center for Research in Virology
   -
     github: rmrussell
     name: Ronnie M. Russell
@@ -538,7 +547,7 @@ authors:
       confirmed: yes
     coi:
       string: "None"
-      lastapproved: !!str 2020-06-23
+      lastapproved: !!str 2020-08-12
   -
     github: dziakj1
     name: John J. Dziak
@@ -553,7 +562,7 @@ authors:
       confirmed: yes
     coi:
       string: "None"
-      lastapproved: !!str 2020-06-23
+      lastapproved: !!str 2020-08-12
   -
     github: kevinsunofficial
     name: YuCheng Sun
