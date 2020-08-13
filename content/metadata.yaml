@@ -160,12 +160,19 @@ authors:
       - Methodology
       - Software
       - Project Administration
+      - Writing - Original Draft
+      - Writing - Review & Editing
+      - Visualization
     affiliations:
       - Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, United States of America
       - Morgridge Institute for Research, Madison, Wisconsin, United States of America
+    code of conduct:
+      confirmed: Yes
     coi:
-      string: "None"
-      lastapproved: !!str 2020-03-26
+      string: "Filed a provisional patent application with the Wisconsin Alumni Research Foundation related to classifying activated T cells"
+      lastapproved: !!str 2020-08-12
+    funders:
+      - John W. and Jeanne M. Rowe Center for Research in Virology
   -
     github: rmrussell
     name: Ronnie M. Russell
