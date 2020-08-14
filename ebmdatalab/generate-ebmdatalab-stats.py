@@ -123,6 +123,44 @@ def lowres_fix(world):
     world.loc[world['name'] == 'Kosovo', 'iso_a3'] = 'RKS'
     return world
 
+def tabulate_countries(trials_df):
+    # Clean and separate the names of each country in single-country and
+    # multi-country clinical trials. Single-country trials have only a single
+    # name (string) in the `countries` field. Multi-country trials have
+    # multiple comma-separated names.
+    # Drop 1 trial that lists every country.
+    valid_country = trials_df[trials_df['countries'] != "No Country Given"]
+    valid_country = valid_country[valid_country['trial_id'] != "ISRCTN80453162"]
+    single_countries = valid_country['countries'][~valid_country['countries'].str.contains(',')]
+    multi_countries = valid_country["countries"][valid_country["countries"].str.contains(',')]
+    multi_countries = pd.Series(
+        [country for country_list in multi_countries.str.split(',') for country in country_list]
+    )
+
+    # Identify the 3-letter ISO codes for each unique country
+    # Remove any leading/trailing whitespace that may result from splitting above
+    unique_countries = single_countries.append(multi_countries).str.strip().drop_duplicates()
+    country_codes = pd.DataFrame.from_dict(assign_ISO(unique_countries),
+                                           orient="index",
+                                           columns=["iso_a3"])
+
+    # Map the ISO codes onto the country data and count the frequency
+    single_countries_codes = pd.DataFrame(single_countries,
+                                          index=single_countries).join(country_codes)["iso_a3"]
+    single_countries_codes = single_countries_codes.dropna()
+    single_countries_counts = single_countries_codes.value_counts()
+    multi_countries_codes = \
+        pd.DataFrame(multi_countries.str.strip(),
+                     index=multi_countries.str.strip()).join(country_codes)["iso_a3"]
+    multi_countries_codes = multi_countries_codes.dropna()
+    multi_countries_counts = multi_countries_codes.value_counts()
+    all_counts = single_countries_counts.to_frame(name='single_countries_counts').\
+        merge(multi_countries_counts.to_frame(name='multi_countries_counts'),
+              how="outer",
+              left_index=True,
+              right_index=True)
+    return all_counts
+
 
 # Inspired by https://github.com/greenelab/meta-review/blob/master/analyses/deep-review-contrib/03.contrib-stats.ipynb
 def main(args):
@@ -207,41 +245,8 @@ def main(args):
 
     print(f'Wrote {args.output_figure}.png and {args.output_figure}.svg')
 
-    # Clean and separate the names of each country in single-country and
-    # multi-country clinical trials. Single-country trials have only a single
-    # name (string) in the `countries` field. Multi-country trials have
-    # multiple comma-separated names.
-    # Drop 1 trial that lists every country.
-    valid_country = trials_df[trials_df['countries'] != "No Country Given"]
-    valid_country = valid_country[valid_country['trial_id'] != "ISRCTN80453162"]
-    single_countries = valid_country['countries'][~valid_country['countries'].str.contains(',')]
-    multi_countries = valid_country["countries"][valid_country["countries"].str.contains(',')]
-    multi_countries = pd.Series(
-        [country for country_list in multi_countries.str.split(',') for country in country_list]
-    )
-
-    # Identify the 3-letter ISO codes for each unique country
-    # Remove any leading/trailing whitespace that may result from splitting above
-    unique_countries = single_countries.append(multi_countries).str.strip().drop_duplicates()
-    country_codes = pd.DataFrame.from_dict(assign_ISO(unique_countries),
-                                           orient="index",
-                                           columns=["iso_a3"])
-
-    # Map the ISO codes onto the country data and count the frequency
-    single_countries_codes = pd.DataFrame(single_countries,
-                                          index=single_countries).join(country_codes)["iso_a3"]
-    single_countries_codes = single_countries_codes.dropna()
-    single_countries_counts = single_countries_codes.value_counts()
-    multi_countries_codes = \
-        pd.DataFrame(multi_countries.str.strip(),
-                     index=multi_countries.str.strip()).join(country_codes)["iso_a3"]
-    multi_countries_codes = multi_countries_codes.dropna()
-    multi_countries_counts = multi_countries_codes.value_counts()
-    all_counts = single_countries_counts.to_frame(name='single_countries_counts').\
-        merge(multi_countries_counts.to_frame(name='multi_countries_counts'),
-              how="outer",
-              left_index=True,
-              right_index=True)
+    # Count geographic representation by ISO3 code
+    all_counts = tabulate_countries(trials_df)
 
     # Map frequency data onto the geopandas geographical data for units with ISO code
     # geopandas uses -99 as N/A for this field
@@ -279,7 +284,7 @@ def main(args):
     # script after the updated image is committed
     ebm_stats['ebm_trials_figure'] = \
         f'https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/{args.output_figure}.svg'
-ebm_stats['ebm_map_figure'] = \
+    ebm_stats['ebm_map_figure'] = \
         f'https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/{args.output_map}.svg'
     # Tabulate number of trials for pharmaceuticals of interest
     ebm_stats['ebm_tocilizumab_ct'] = \
