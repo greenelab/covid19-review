@@ -104,7 +104,7 @@ def assign_ISO(countries):
             else:
                 failed_matches.append(country)
     # Print warning about failures and return successes as dictionary
-    print("Could not assign country codes to:", ", ".join(failed_matches))
+    print("Could not assign country codes to: ", ", ".join(failed_matches))
     return country_codes
 
 
@@ -279,7 +279,8 @@ def main(args):
     # script after the updated image is committed
     ebm_stats['ebm_trials_figure'] = \
         f'https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/{args.output_figure}.svg'
-
+ebm_stats['ebm_map_figure'] = \
+        f'https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/{args.output_map}.svg'
     # Tabulate number of trials for pharmaceuticals of interest
     ebm_stats['ebm_tocilizumab_ct'] = \
         str(trials_df['intervention'].str.contains('tocilizumab', case=False).sum())
