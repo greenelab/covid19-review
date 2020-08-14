@@ -14,6 +14,7 @@ export EBM_COMMIT_DATE=$(echo $EBM_COMMIT_JSON | python -c "import sys, json; pr
 EBM_INPUT_JSON=ebmdatalab/trials_latest.json
 EBM_STATS_JSON=ebmdatalab/ebmdatalab-stats.json
 EBM_FIG=ebmdatalab/ebmdatalab-trials
+EBM_MAP=ebmdatalab/ebmdatalab-map
 
 echo "Downloading EBM Data Lab COVID-19 TrialsTracker data from commit $EBM_COMMIT_SHA authored $EBM_COMMIT_DATE"
 curl -fsSL https://github.com/ebmdatalab/covid_trials_tracker-covid/raw/$EBM_COMMIT_SHA/$EBM_REPO_PATH > $EBM_INPUT_JSON
@@ -22,6 +23,6 @@ curl -fsSL https://github.com/ebmdatalab/covid_trials_tracker-covid/raw/$EBM_COM
 # and run the version-figures.sh script to update the EBM_STATS_JSON with the
 # versioned figure URL
 echo "Generating EBM Data Lab COVID-19 TrialsTracker statistics and figure"
-python ebmdatalab/generate-ebmdatalab-stats.py $EBM_INPUT_JSON $EBM_STATS_JSON $EBM_FIG
+python ebmdatalab/generate-ebmdatalab-stats.py $EBM_INPUT_JSON $EBM_STATS_JSON $EBM_FIG $EBM_MAP
 
 rm $EBM_INPUT_JSON
