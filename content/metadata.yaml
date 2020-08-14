@@ -663,15 +663,16 @@ authors:
     github: shiktadas
     name: Shikta Das
     initials: SD
-    orcid: [need info]
+    orcid: 0000-0002-8291-2788
     twitter: shikta_das
-    email: [need info]
+    email: shikta_das@yahoo.co.uk
     contributions:
       - Writing - Review & Editing
     affiliations:
-      - [need info]
+      - C4X Discovery, London, United Kingdom
+      - Medical Research Council LHA, Institute of Cardiovascular Studies, University College London, London, United Kingdom
     code of conduct:
-      confirmed: Yes [need you to say it's OK]
+      confirmed: Yes
     coi:
-      string: "None" [let us know if you have any conflicts of interest we should report]
-      lastapproved: !!str 2020-08-07
+      string: "None"
+      lastapproved: !!str 2020-08-13
