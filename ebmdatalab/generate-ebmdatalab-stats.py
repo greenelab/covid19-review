@@ -104,7 +104,7 @@ def assign_ISO(countries):
             else:
                 failed_matches.append(country)
     # Print warning about failures and return successes as dictionary
-    print("Could not assign country codes to: ", ", ".join(failed_matches))
+    print("Could not assign country codes to:", ", ".join(failed_matches))
     return country_codes
 
 
