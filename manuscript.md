@@ -45,8 +45,8 @@ author-meta:
 bibliography:
 - content/manual-references.bib
 - content/manual-references.json
-date-meta: '2020-08-19'
-header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta name=\"citation_title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta property=\"og:title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta property=\"twitter:title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta name=\"dc.date\" content=\"2020-08-19\" />\n<meta name=\"citation_publication_date\" content=\"2020-08-19\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Halie M. Rando\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7688-1770\" />\n<meta name=\"twitter:creator\" content=\"@tamefoxtime\" />\n<meta name=\"citation_author\" content=\"Casey S. Greene\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Childhood Cancer Data Lab, Alex&#39;s Lemonade Stand Foundation, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8713-9213\" />\n<meta name=\"twitter:creator\" content=\"@GreeneScientist\" />\n<meta name=\"citation_author\" content=\"Michael P. Robson\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computing Sciences, Villanova University, Villanova, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-4859-0033\" />\n<meta name=\"citation_author\" content=\"Simina M. Boca\" />\n<meta name=\"citation_author_institution\" content=\"Innovation Center for Biomedical Informatics, Georgetown University Medical Center, Washington, District of Columbia, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1400-3398\" />\n<meta name=\"citation_author\" content=\"Nils Wellhausen\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8955-7582\" />\n<meta name=\"citation_author\" content=\"Ronan Lordan\" />\n<meta name=\"citation_author_institution\" content=\"Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104-5158, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-9668-3368\" />\n<meta name=\"twitter:creator\" content=\"@el_ronan\" />\n<meta name=\"citation_author\" content=\"Christian Brueffer\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical Sciences, Lund University, Lund, Sweden\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3826-0989\" />\n<meta name=\"twitter:creator\" content=\"@cbrueffer\" />\n<meta name=\"citation_author\" content=\"Sadipan Ray\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology &amp; Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA\" />\n<meta name=\"citation_author_institution\" content=\"Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9960-5768\" />\n<meta name=\"citation_author\" content=\"Lucy D\\&#39;Agostino McGowan\" />\n<meta name=\"citation_author_institution\" content=\"Department of Mathematics and Statistics, Wake Forest University, Winston-Salem, North Carolina, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7297-9359\" />\n<meta name=\"twitter:creator\" content=\"@LucyStats\" />\n<meta name=\"citation_author\" content=\"Anthony Gitter\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Morgridge Institute for Research, Madison, Wisconsin, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5324-9833\" />\n<meta name=\"twitter:creator\" content=\"@anthonygitter\" />\n<meta name=\"citation_author\" content=\"Ronnie M. Russell\" />\n<meta name=\"citation_author_institution\" content=\"Department of Microbiology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1484-4207\" />\n<meta name=\"citation_author\" content=\"Anna Ada Dattoli\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology &amp; Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1462-831X\" />\n<meta name=\"twitter:creator\" content=\"@aadattoli\" />\n<meta name=\"citation_author\" content=\"Ryan Velazquez\" />\n<meta name=\"citation_author_institution\" content=\"Azimuth1, McLean, VA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3655-3403\" />\n<meta name=\"citation_author\" content=\"John P. Barton\" />\n<meta name=\"citation_author_institution\" content=\"Department of Physics and Astronomy, University of California-Riverside, Riverside, California, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1467-421X\" />\n<meta name=\"twitter:creator\" content=\"@_jpbarton\" />\n<meta name=\"citation_author\" content=\"Jeffrey M. Field\" />\n<meta name=\"citation_author_institution\" content=\"Department of Pharmacology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7161-7284\" />\n<meta name=\"citation_author\" content=\"Bharath Ramsundar\" />\n<meta name=\"citation_author_institution\" content=\"The DeepChem Project, https://deepchem.io/\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8450-4262\" />\n<meta name=\"twitter:creator\" content=\"@rbhar90\" />\n<meta name=\"citation_author\" content=\"Adam L. MacLean\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biological Sciences, University of Southern California, Los Angeles, California, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0689-7907\" />\n<meta name=\"twitter:creator\" content=\"@adamlmaclean\" />\n<meta name=\"citation_author\" content=\"Alexandra J. Lee\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0208-3730\" />\n<meta name=\"citation_author\" content=\"Immunology Institute of the Icahn School of Medicine\" />\n<meta name=\"citation_author_institution\" content=\"Immunology Institute of the Icahn School of Medicine\" />\n<meta name=\"citation_author\" content=\"Fengling Hu\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1081-5038\" />\n<meta name=\"twitter:creator\" content=\"@hufengling\" />\n<meta name=\"citation_author\" content=\"Nafisa M. Jadavji\" />\n<meta name=\"citation_author_institution\" content=\"Biomedical Science, Midwestern University, Glendale, AZ, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Department of Neuroscience, Carleton University, Ottawa, Ontario, Canada\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3557-7307\" />\n<meta name=\"twitter:creator\" content=\"@nafisajadavji\" />\n<meta name=\"citation_author\" content=\"Elizabeth Sell\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9658-1107\" />\n<meta name=\"citation_author\" content=\"Jinhui Wang\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5796-8130\" />\n<meta name=\"citation_author\" content=\"Diane N. Rafizadeh\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Department of Chemistry, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2838-067X\" />\n<meta name=\"citation_author\" content=\"Ashwin N. Skelly\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Institute for Immunology, University of Pennsylvania Perelman School of Medicine, Philadelphia, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1565-3376\" />\n<meta name=\"citation_author\" content=\"Marouen Ben Guebila\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics, Harvard School of Public Health, Boston, Massachusetts, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-5934-966X\" />\n<meta name=\"twitter:creator\" content=\"@marouenbg\" />\n<meta name=\"citation_author\" content=\"Likhitha Kolla\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1169-906X\" />\n<meta name=\"twitter:creator\" content=\"@lkolla2018\" />\n<meta name=\"citation_author\" content=\"David Manheim\" />\n<meta name=\"citation_author_institution\" content=\"Risk and Health Communication Research Center, School of Public Health, University of Haifa, Haifa, Israel\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8599-8380\" />\n<meta name=\"twitter:creator\" content=\"@davidmanheim\" />\n<meta name=\"citation_author\" content=\"Soumita Ghosh\" />\n<meta name=\"citation_author_institution\" content=\"Institute of Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2783-2750\" />\n<meta name=\"citation_author\" content=\"Matthias Fax\" />\n<meta name=\"citation_author_institution\" content=\"greensolid technologies, Bavaria, Germany\" />\n<meta name=\"citation_author_institution\" content=\"IEEE Reliability Society, Vienna, Austria\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0064-395X\" />\n<meta name=\"citation_author\" content=\"James Brian Byrd\" />\n<meta name=\"citation_author_institution\" content=\"University of Michigan School of Medicine, Ann Arbor, Michigan, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0509-3520\" />\n<meta name=\"twitter:creator\" content=\"@thebyrdlab\" />\n<meta name=\"citation_author\" content=\"YoSon Park\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0465-4744\" />\n<meta name=\"twitter:creator\" content=\"@__yoson__\" />\n<meta name=\"citation_author\" content=\"Vikas Bansal\" />\n<meta name=\"citation_author_institution\" content=\"Biomedical Data Science and Machine Learning Group, DZNE, T\xFCbingen, Germany\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0944-7226\" />\n<meta name=\"twitter:creator\" content=\"@VikasBansal1989\" />\n<meta name=\"citation_author\" content=\"Stephen Capone\" />\n<meta name=\"citation_author_institution\" content=\"St. George&#39;s University School of Medicine, St. George&#39;s, Grenada\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7231-1535\" />\n<meta name=\"citation_author\" content=\"John J. Dziak\" />\n<meta name=\"citation_author_institution\" content=\"Edna Bennett Pierce Prevention Research Center, The Pennsylvania State University, University Park, PA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0762-5495\" />\n<meta name=\"citation_author\" content=\"YuCheng Sun\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computer Science, University of Virginia, Charlottesville, VA, United States of America\" />\n<meta name=\"citation_author\" content=\"Yanjun Qi\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computer Science, University of Virginia, Charlottesville, VA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5796-7453\" />\n<meta name=\"citation_author\" content=\"Lamonica Shinholster\" />\n<meta name=\"citation_author_institution\" content=\"Mercer University, Macon, GA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-6285-005X\" />\n<meta name=\"citation_author\" content=\"Sergey Knyazev\" />\n<meta name=\"citation_author_institution\" content=\"Georgia State University, GA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0385-1831\" />\n<meta name=\"twitter:creator\" content=\"@SeKnyaz\" />\n<meta name=\"citation_author\" content=\"Dimitri Perrin\" />\n<meta name=\"citation_author_institution\" content=\"School of Computer Science, Queensland University of Technology, Brisbane, Australia\" />\n<meta name=\"citation_author_institution\" content=\"Centre for Data Science, Queensland University of Technology, Brisbane, Australia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-4007-5256\" />\n<meta name=\"twitter:creator\" content=\"@dperrin\" />\n<meta name=\"citation_author\" content=\"Serghei Mangul\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical Pharmacy, School of Pharmacy, University of Southern California, CA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-4770-3443\" />\n<meta name=\"twitter:creator\" content=\"@serghei_mangul\" />\n<meta name=\"citation_author\" content=\"Shikta Das\" />\n<meta name=\"citation_author_institution\" content=\"C4X Discovery, London, United Kingdom\" />\n<meta name=\"citation_author_institution\" content=\"Medical Research Council LHA, Institute of Cardiovascular Studies, University College London, London, United Kingdom\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-8291-2788\" />\n<meta name=\"twitter:creator\" content=\"@shikta_das\" />\n<link rel=\"canonical\" href=\"https://greenelab.github.io/covid19-review/\" />\n<meta property=\"og:url\" content=\"https://greenelab.github.io/covid19-review/\" />\n<meta property=\"twitter:url\" content=\"https://greenelab.github.io/covid19-review/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://greenelab.github.io/covid19-review/\" />\n<meta name=\"citation_pdf_url\" content=\"https://greenelab.github.io/covid19-review/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://greenelab.github.io/covid19-review/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://greenelab.github.io/covid19-review/v/99b6f739b5cb23a022d19e12b8b5a9f918998952/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://greenelab.github.io/covid19-review/v/99b6f739b5cb23a022d19e12b8b5a9f918998952/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://greenelab.github.io/covid19-review/v/99b6f739b5cb23a022d19e12b8b5a9f918998952/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
+date-meta: '2020-08-20'
+header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta name=\"citation_title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta property=\"og:title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta property=\"twitter:title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta name=\"dc.date\" content=\"2020-08-20\" />\n<meta name=\"citation_publication_date\" content=\"2020-08-20\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Halie M. Rando\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7688-1770\" />\n<meta name=\"twitter:creator\" content=\"@tamefoxtime\" />\n<meta name=\"citation_author\" content=\"Casey S. Greene\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Childhood Cancer Data Lab, Alex&#39;s Lemonade Stand Foundation, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8713-9213\" />\n<meta name=\"twitter:creator\" content=\"@GreeneScientist\" />\n<meta name=\"citation_author\" content=\"Michael P. Robson\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computing Sciences, Villanova University, Villanova, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-4859-0033\" />\n<meta name=\"citation_author\" content=\"Simina M. Boca\" />\n<meta name=\"citation_author_institution\" content=\"Innovation Center for Biomedical Informatics, Georgetown University Medical Center, Washington, District of Columbia, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1400-3398\" />\n<meta name=\"citation_author\" content=\"Nils Wellhausen\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8955-7582\" />\n<meta name=\"citation_author\" content=\"Ronan Lordan\" />\n<meta name=\"citation_author_institution\" content=\"Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104-5158, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-9668-3368\" />\n<meta name=\"twitter:creator\" content=\"@el_ronan\" />\n<meta name=\"citation_author\" content=\"Christian Brueffer\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical Sciences, Lund University, Lund, Sweden\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3826-0989\" />\n<meta name=\"twitter:creator\" content=\"@cbrueffer\" />\n<meta name=\"citation_author\" content=\"Sadipan Ray\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology &amp; Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA\" />\n<meta name=\"citation_author_institution\" content=\"Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9960-5768\" />\n<meta name=\"citation_author\" content=\"Lucy D\\&#39;Agostino McGowan\" />\n<meta name=\"citation_author_institution\" content=\"Department of Mathematics and Statistics, Wake Forest University, Winston-Salem, North Carolina, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7297-9359\" />\n<meta name=\"twitter:creator\" content=\"@LucyStats\" />\n<meta name=\"citation_author\" content=\"Anthony Gitter\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Morgridge Institute for Research, Madison, Wisconsin, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5324-9833\" />\n<meta name=\"twitter:creator\" content=\"@anthonygitter\" />\n<meta name=\"citation_author\" content=\"Ronnie M. Russell\" />\n<meta name=\"citation_author_institution\" content=\"Department of Microbiology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1484-4207\" />\n<meta name=\"citation_author\" content=\"Anna Ada Dattoli\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology &amp; Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1462-831X\" />\n<meta name=\"twitter:creator\" content=\"@aadattoli\" />\n<meta name=\"citation_author\" content=\"Ryan Velazquez\" />\n<meta name=\"citation_author_institution\" content=\"Azimuth1, McLean, VA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3655-3403\" />\n<meta name=\"citation_author\" content=\"John P. Barton\" />\n<meta name=\"citation_author_institution\" content=\"Department of Physics and Astronomy, University of California-Riverside, Riverside, California, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1467-421X\" />\n<meta name=\"twitter:creator\" content=\"@_jpbarton\" />\n<meta name=\"citation_author\" content=\"Jeffrey M. Field\" />\n<meta name=\"citation_author_institution\" content=\"Department of Pharmacology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7161-7284\" />\n<meta name=\"citation_author\" content=\"Bharath Ramsundar\" />\n<meta name=\"citation_author_institution\" content=\"The DeepChem Project, https://deepchem.io/\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8450-4262\" />\n<meta name=\"twitter:creator\" content=\"@rbhar90\" />\n<meta name=\"citation_author\" content=\"Adam L. MacLean\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biological Sciences, University of Southern California, Los Angeles, California, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0689-7907\" />\n<meta name=\"twitter:creator\" content=\"@adamlmaclean\" />\n<meta name=\"citation_author\" content=\"Alexandra J. Lee\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0208-3730\" />\n<meta name=\"citation_author\" content=\"Immunology Institute of the Icahn School of Medicine\" />\n<meta name=\"citation_author_institution\" content=\"Immunology Institute of the Icahn School of Medicine\" />\n<meta name=\"citation_author\" content=\"Fengling Hu\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1081-5038\" />\n<meta name=\"twitter:creator\" content=\"@hufengling\" />\n<meta name=\"citation_author\" content=\"Nafisa M. Jadavji\" />\n<meta name=\"citation_author_institution\" content=\"Biomedical Science, Midwestern University, Glendale, AZ, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Department of Neuroscience, Carleton University, Ottawa, Ontario, Canada\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3557-7307\" />\n<meta name=\"twitter:creator\" content=\"@nafisajadavji\" />\n<meta name=\"citation_author\" content=\"Elizabeth Sell\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9658-1107\" />\n<meta name=\"citation_author\" content=\"Jinhui Wang\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5796-8130\" />\n<meta name=\"citation_author\" content=\"Diane N. Rafizadeh\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Department of Chemistry, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2838-067X\" />\n<meta name=\"citation_author\" content=\"Ashwin N. Skelly\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Institute for Immunology, University of Pennsylvania Perelman School of Medicine, Philadelphia, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1565-3376\" />\n<meta name=\"citation_author\" content=\"Marouen Ben Guebila\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics, Harvard School of Public Health, Boston, Massachusetts, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-5934-966X\" />\n<meta name=\"twitter:creator\" content=\"@marouenbg\" />\n<meta name=\"citation_author\" content=\"Likhitha Kolla\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1169-906X\" />\n<meta name=\"twitter:creator\" content=\"@lkolla2018\" />\n<meta name=\"citation_author\" content=\"David Manheim\" />\n<meta name=\"citation_author_institution\" content=\"Risk and Health Communication Research Center, School of Public Health, University of Haifa, Haifa, Israel\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8599-8380\" />\n<meta name=\"twitter:creator\" content=\"@davidmanheim\" />\n<meta name=\"citation_author\" content=\"Soumita Ghosh\" />\n<meta name=\"citation_author_institution\" content=\"Institute of Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2783-2750\" />\n<meta name=\"citation_author\" content=\"Matthias Fax\" />\n<meta name=\"citation_author_institution\" content=\"greensolid technologies, Bavaria, Germany\" />\n<meta name=\"citation_author_institution\" content=\"IEEE Reliability Society, Vienna, Austria\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0064-395X\" />\n<meta name=\"citation_author\" content=\"James Brian Byrd\" />\n<meta name=\"citation_author_institution\" content=\"University of Michigan School of Medicine, Ann Arbor, Michigan, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0509-3520\" />\n<meta name=\"twitter:creator\" content=\"@thebyrdlab\" />\n<meta name=\"citation_author\" content=\"YoSon Park\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0465-4744\" />\n<meta name=\"twitter:creator\" content=\"@__yoson__\" />\n<meta name=\"citation_author\" content=\"Vikas Bansal\" />\n<meta name=\"citation_author_institution\" content=\"Biomedical Data Science and Machine Learning Group, DZNE, T\xFCbingen, Germany\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0944-7226\" />\n<meta name=\"twitter:creator\" content=\"@VikasBansal1989\" />\n<meta name=\"citation_author\" content=\"Stephen Capone\" />\n<meta name=\"citation_author_institution\" content=\"St. George&#39;s University School of Medicine, St. George&#39;s, Grenada\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7231-1535\" />\n<meta name=\"citation_author\" content=\"John J. Dziak\" />\n<meta name=\"citation_author_institution\" content=\"Edna Bennett Pierce Prevention Research Center, The Pennsylvania State University, University Park, PA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0762-5495\" />\n<meta name=\"citation_author\" content=\"YuCheng Sun\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computer Science, University of Virginia, Charlottesville, VA, United States of America\" />\n<meta name=\"citation_author\" content=\"Yanjun Qi\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computer Science, University of Virginia, Charlottesville, VA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5796-7453\" />\n<meta name=\"citation_author\" content=\"Lamonica Shinholster\" />\n<meta name=\"citation_author_institution\" content=\"Mercer University, Macon, GA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-6285-005X\" />\n<meta name=\"citation_author\" content=\"Sergey Knyazev\" />\n<meta name=\"citation_author_institution\" content=\"Georgia State University, GA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0385-1831\" />\n<meta name=\"twitter:creator\" content=\"@SeKnyaz\" />\n<meta name=\"citation_author\" content=\"Dimitri Perrin\" />\n<meta name=\"citation_author_institution\" content=\"School of Computer Science, Queensland University of Technology, Brisbane, Australia\" />\n<meta name=\"citation_author_institution\" content=\"Centre for Data Science, Queensland University of Technology, Brisbane, Australia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-4007-5256\" />\n<meta name=\"twitter:creator\" content=\"@dperrin\" />\n<meta name=\"citation_author\" content=\"Serghei Mangul\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical Pharmacy, School of Pharmacy, University of Southern California, CA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-4770-3443\" />\n<meta name=\"twitter:creator\" content=\"@serghei_mangul\" />\n<meta name=\"citation_author\" content=\"Shikta Das\" />\n<meta name=\"citation_author_institution\" content=\"C4X Discovery, London, United Kingdom\" />\n<meta name=\"citation_author_institution\" content=\"Medical Research Council LHA, Institute of Cardiovascular Studies, University College London, London, United Kingdom\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-8291-2788\" />\n<meta name=\"twitter:creator\" content=\"@shikta_das\" />\n<link rel=\"canonical\" href=\"https://greenelab.github.io/covid19-review/\" />\n<meta property=\"og:url\" content=\"https://greenelab.github.io/covid19-review/\" />\n<meta property=\"twitter:url\" content=\"https://greenelab.github.io/covid19-review/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://greenelab.github.io/covid19-review/\" />\n<meta name=\"citation_pdf_url\" content=\"https://greenelab.github.io/covid19-review/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://greenelab.github.io/covid19-review/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://greenelab.github.io/covid19-review/v/f9bcb3b0060ed51603a5309ebfbfb1ee129ea042/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://greenelab.github.io/covid19-review/v/f9bcb3b0060ed51603a5309ebfbfb1ee129ea042/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://greenelab.github.io/covid19-review/v/f9bcb3b0060ed51603a5309ebfbfb1ee129ea042/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
 keywords:
 - covid-19
 - coronavirus
@@ -67,10 +67,10 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/99b6f739b5cb23a022d19e12b8b5a9f918998952/))
+([permalink](https://greenelab.github.io/covid19-review/v/f9bcb3b0060ed51603a5309ebfbfb1ee129ea042/))
 was automatically generated
-from [greenelab/covid19-review@99b6f73](https://github.com/greenelab/covid19-review/tree/99b6f739b5cb23a022d19e12b8b5a9f918998952)
-on August 19, 2020.
+from [greenelab/covid19-review@f9bcb3b](https://github.com/greenelab/covid19-review/tree/f9bcb3b0060ed51603a5309ebfbfb1ee129ea042)
+on August 20, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -541,8 +541,6 @@ More information about how to contribute is available in a README document on Gi
 
 ## Introduction {.page_break_before}
 
-### General Background
-
 On January 21, 2020, the World Health Organization (WHO) released its first report concerning what is now known as the Coronavirus Disease 2019 (COVID-19) [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200121-sitrep-1-2019-ncov.pdf].
 This infectious disease came to international attention on December 31, 2019 following an announcement by national officials in China describing 44 cases of a respiratory infection of unknown cause.
 The first known cases were located in Wuhan City within the Hubei province of China, but the disease spread rapidly throughout China and subsequently around the world.
@@ -551,18 +549,17 @@ Most of these cases were in China, but 1-2 exported cases had also been identifi
 One week later, 4,593 confirmed cases had been identified, spanning not only Asia, but also Australia, North America, and Europe [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128-sitrep-8-ncov-cleared.pdf].
 On March 11, 2020, WHO formally classified the situation as a pandemic [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200311-sitrep-51-covid-19.pdf].
 On April 4, 2020, the WHO reported that the global number of confirmed cases had surpassed one million [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200404-sitrep-75-covid-19.pdf].
-774,034 COVID-19 deaths had been reported worldwide as of August 17, 2020 (Figure @fig:csse-deaths).
+780,908 COVID-19 deaths had been reported worldwide as of August 18, 2020 (Figure @fig:csse-deaths).
 
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
-](https://github.com/greenelab/covid19-review/raw/f42fe8f8d45417f45c0a9cd5edfcd55a990fed7b/csse/csse-deaths.svg "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
+](https://github.com/greenelab/covid19-review/raw/1b8b8587e308d72f2eb64552425a242509904dce/csse/csse-deaths.svg "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
 
 Several review articles on aspects of COVID-19 have already been published.
 These have included reviews on the disease epidemiology [@doi:10.1016/j.molmed.2020.02.008], immunological response [@doi:10.1016/j.immuni.2020.05.002], diagnostics [@doi:10.1126/scitranslmed.abc1931], and pharmacological treatments [@doi:10.1016/j.immuni.2020.05.002; @doi:10.1001/jama.2020.6019].
 Others [@doi:10.1038/d41591-020-00026-w] and [@doi:10.1001/jama.2020.12839] provide narrative reviews of progress on some important ongoing COVID-19 research questions.
 However, research on these topics is proceeding so quickly that any static review is likely to quickly become dated.
-
 Our goal was to consolidate information about the virus in the context of related viruses and to synthesize rapidly emerging literature centered on the diagnosis and treatment of COVID-19.
 We developed infrastructure centered on the Manubot publishing system [@doi:10.1371/journal.pcbi.1007128] to manage hundreds of contributions from the community to this living, scholarly document.
 We designed software to develop living figures like Figure @fig:csse-deaths, which automatically update using external data sources.
@@ -571,116 +568,56 @@ Thus, our approach has been to develop a real-time, collaborative effort that we
 This document represents the first snapshot, which aims to reflect the state of the field as of August, 2020.
 We plan to refine and expand this document until technologies to mitigate the pandemic are widely available.
 
-### About Coronaviruses
+### Interdisciplinary Context
 
-#### Coronavirus Genome and Structure
+Collaboration across several broad areas of research is critical, as different areas provide different information and context necessary to understanding the virus and disease.
+This review provides a biological perspective on the SARS-CoV-2 virus and efforts to identify biomedical developments targeted at COVID-19.
+We provide only brief summaries of two other important perspectives on this pandemic: epidemiology and public health.
+Epidemiological analysis has investigated properties related to infection and transmission such as when infected individuals are contagious, how the virus is transmitted between individuals, the range of symptoms associated with infection and/or contagiousness in different individuals, and how rapidly the virus propagates between individuals, etc.
+Other areas of public health that address resource availability, inequity, human behavior, and other components that influence people's exposure to pathogens and ability to manage illness will also be critical to mounting a global response to the pandemic.
+Public health strategies to manage epidemics include anticipation and early detection of emerging diseases (aided by rapid development of diagnostics), containment (using strategies to test, trace and isolate such as widespread testing, contact tracing, quarantining and isolation), control and mitigation of spread (including social distancing), and elimination and eradication.
+An effective public health response requires response coordination, disease surveillance and intervention monitoring, risk communication and health education (including education about personal protective equipment and hand hygiene and containment of “infodemics” of false information), non-pharmaceutical measures to prevent and reduce transmission, and health interventions such as vaccines and other pharmaceuticals that can reduce transmission, curb morbidity and mortality, and mitigate the effects on health systems and other sectors of society [@isbn:978-92-4-156553-0].
+<!--I think non-pharmaceutical interventions are already in categories above (tracing, social distancing, lockdowns etc)-->
+These fields intersect with the topics addressed in this manuscript because they both inform and benefit from relevant biotechnological developments (e.g., accurate and fast diagnostic testing).
+However, the present analysis focuses less on human and social factors and more on the basic biology of infection, diagnosis, and recovery. 
 
-All viruses in the *Nidovirales* order share fundamental characteristics: they are enveloped and non-segmented and have positive-sense (ssRNA+) genomes that contain many non-structural genes originating through ribosomal frameshifting [@doi:10.1007/978-1-4939-2438-7_1].
-Coronaviruses (CoVs; order *Nidovirales*, family *Coronaviridae*, subfamily *Orthocoronavirinae*) are have some of the largest viral RNA genomes, ranging from 27 kilobases (Kb) to 32 Kb in length.
-The SARS-CoV-2 genome lies in the middle of this range at 29,903 bp [@doi:10/ggjr43].
-Genome organization is highly conserved within the order [@doi:10.1007/978-1-4939-2438-7_1].
-A replicase gene comprises about two-thirds of the genome of coronaviruses.
-This polypeptide is translated into 16 non-structural proteins (nsp1-16, except in Gammacoronaviruses, where nsp1 is absent) that form replication machinery used to synthesize viral RNA [@doi:10.1002/jmv.25681].
-The remaining third of the genome encodes structural proteins, including the spike (S), membrane (M), envelope (E), and nucleocapsid (N) proteins.
-Additional accessory genes are sometimes present between these two regions, depending on the species or strain.
-<!-- TODO: Add a figure showing the structure of the genome.-->
-<!-- Also, everything focuses on S! Should we also talk about others?-->
+### Rapid Characterization of SARS-CoV-2 
 
-Coronaviruses are classified into four genera: alpha, beta, delta and gamma coronaviruses.
-Among them, alpha and beta coronaviruses infect mammalian species, gamma coronaviruses infect avian species and delta coronaviruses infect both mammalian and avian species [@doi:10.1146/annurev-virology-110615-042301].
-The viruses were initially subdivided into these genera based on antigenic relationships of the spike (S), membrane (M), envelope (E), and nucleocapsid (N) proteins but are now divided by phylogenetic clustering.
-<!-- this section may be better as a figure panel + legend-->
-Phylogenetic analysis of a PCR amplicon fragment from five patients along with the total virus genome of 29.8 Kb indicates that SARS-CoV-2 is a novel betacoronavirus belonging to the B lineage, also known as sarbecovirus, which also includes the human SARS coronavirus [@doi:10/ggjs7j].
-
-Most coronaviruses are considered zoonotic viruses with little to no transmission observed in humans.
-However, coronaviruses include human coronavirus (HCoV) strains associated with multiple respiratory diseases of varying severity, ranging from common cold to severe pneumonia, with severe symptoms mostly observed in immunocompromised individuals [@doi:10.1086/377612].
-Approximately one-third of common cold infections in humans is attributable to four out of six previously known human coronaviruses (HCoV-229E, HCoV-NL63, HCoV-OC43 and HCoV-HKU1) that are globally circulating in the human population [@doi:10.1038/s41579-018-0118-9;@doi:10.3390/diseases4030026].
-In the past two decades, however, highly pathogenic human coronaviruses have been identified, including the severe acute respiratory syndrome coronavirus 1 (SARS-CoV-1) and the Middle East respiratory syndrome coronavirus (MERS-CoV) although both infections were largely confined to specific geographic regions [@doi:10.1038/nrmicro.2016.81;@doi:10.1038/s41579-018-0118-9; @doi:10.1016/bs.aivir.2018.01.001].
-The current pandemic of COVID-19, caused by the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), represents an acute global health crisis with symptoms for reported cases ranging from mild to severe or fatal [@url:https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html] and including outcomes such as acute respiratory distress, acute lung injury and other pulmonary complications.
-The possibility of asymptomatic cases is also being investigated.
-The transmission and mortality rate estimations of COVID-19 are likely dynamic based on both public health and medical interventions.
-<!-- I think there are better estimates now (about 50% asymptomatic I think, once you take out the presymptomatic).-->
-<!-- Most credible IFR estimates I've seen are between 0.5-1.5%, depending on the population. CFRs will be greater and vary a lot.-->
+Because the SARS-CoV-2 virus was not identified until COVID-19 was already a major health concern, scientists and physicians have used information about related viruses and diseases to guide both investigations of the biology of the virus and disease and the development of diagnostic, prophylactic, and therapeutic approaches.
+<!-- To Do: When/how did they figure out it was a coronavirus?-->
+The first genome sequence of the SARS-CoV-2 virus was produced in January 2020 [cite].
+Genomic analyses have made it possible to place the virus phylogenetically relative to coronaviruses infecting humans and other animals and to study diversity within the viral species.
+This rapid contextualization of the virus has made it possible to develop hypotheses rapidly about how the virus might infect cells, transmit between people, and respond to existing therapeutics.
+<!--To Do for HMR: Talk about Oxford vaccine group and virology attempts to have an open-ended response ready?--> 
+Understanding coronaviruses as a taxon and how humans respond to viral threats is foundational to understanding the pathogenesis of SARS-CoV-2 and the COVID-19 pandemic. 
 
 #### Origin and Evolution
-The hypothesis best supported by the collected genomic data is that SARS-CoV-2 has a zoonotic origin.
+
+A significant breakthrough in SARS-CoV-2 research was achieved through the successful full-length genome sequencing of the pathogen [@doi:10.1038/s41586-020-2008-3; @doi:10/ggjr43; @doi:10.1038/s41586-020-2012-7].
+Multiple research groups have drafted the genome sequence of SARS-CoV-2 based on sequencing of clinical samples collected from bronchoalveolar lavage fluid (BALF) [@doi:10.1038/s41586-020-2008-3; @doi:10.1038/s41586-020-2012-7] or from BALF, throat swabs, or isolates of the virus cultured from BALF [@doi:10/ggjr43].
+SARS-CoV-2 had significant sequence homology with coronaviruses known to infect humans, with about 79% identity to SARS-CoV and 50% to MERS-CoV [@doi:10/ggjr43].
+However, the highest degree of similarity was observed between SARS-CoV-2 and bat-derived SARS-like coronaviruses (bat-SL-CoVZC45 and bat-SL-CoVZXC21) [@doi:10/ggjr43; @doi:10.1038/s41586-020-2012-7].
+The identity between SARS-CoV-2 and RATG13 is as high as 96.2% [@doi:10.1038/s41586-020-2012-7; @doi:10.1093/nsr/nwaa036].
+Nevertheless, some fragments between SARS-CoV-2 and RATG13 have a difference of up to 17%, suggesting a complex natural selection process during zoonotic transfer.
+While the _S_ region is highly similar to that of viruses found in pangolins [@doi:10.1101/2020.02.19.950253], there is no consensus about the origin of S in SARS-CoV-2.
+It could potentially be the result either of recombination or coevolution [@doi:10.1093/nsr/nwaa036; @doi:10.1126/sciadv.abb9153].
+
+All the same, the evidence strongly supports a zoonotic origin of SARS-CoV-2.
 Though the intermediate host serving as the source for the zoonotic introduction of SARS-CoV-2 to human populations has not yet been identified, the SARS-CoV-2 virus has been placed within the coronavirus phylogeny through comparative genomic analyses.
 Genomic analyses and comparisons to other known coronaviruses suggest that SARS-CoV-2 is unlikely to have originated in a laboratory -- either purposely engineered and released, or escaped -- and instead evolved naturally in an animal host [@doi:10.1038/s41591-020-0820-9].
-Human SARS-CoV-2 is genetically closer to bat RATG13 than to any other known virus, including human SARS-CoV.
-The similarity between SARS-CoV-2 and RATG13 is as high as 96.2%, while the similarity between SARS-CoV-2 and SARS-CoV is only 79% [@doi:10.1038/s41586-020-2012-7; @doi:10.1093/nsr/nwaa036].
-Nevertheless, some fragments between SARS-CoV-2 and RATG13 have a difference of up to 17%, suggesting a complex natural selection process during zoonotic transfer.
-While the S fragment is highly similar to that of viruses found in pangolins [@doi:10.1101/2020.02.19.950253], there is no consensus about the origin of S in SARS-CoV-2.
-It could potentially be the result either of recombination or coevolution [@doi:10.1093/nsr/nwaa036; @doi:10.1126/sciadv.abb9153].
 Regardless, while there is substantial support for the zoonotic origin of SARS-CoV-2, a lot remains unknown, causing issues regarding the SARS-CoV-2 evolutionary pattern [@doi:10.1038/s41591-020-0820-9, @doi:10.1038/s41586-020-2012-7]. <!-- TODO: I don't understand what this sentence is conveying -->
 
-After zoonotic transfer, SARS-CoV-2 continued evolving in the human population [@doi:10.1186/s12967-020-02344-6].
-The SARS-CoV-2 mutation rate is moderate compared to other RNA viruses [@doi:10.1016/j.meegid.2020.104351], and that restricts SARS-CoV-2 evolution pace.
-Nevertheless, genomic data show some significant statistical evidence of ongoing evolution.
-There are two known variants of the spike protein that differ by a single amino acid at position 614 (G614 and D614), and there is evidence that G614 has already become dominant over D614 by June 2020 [@doi:10.1016/j.cell.2020.06.043].
-While there is a hypothesis that this genomic change increased the SARS-CoV-2 infectivity and virulence, there is no data yet to support or discard this hypothesis reliably [@doi:10.1016/j.cell.2020.06.040].
-One study [@doi:10.1016/j.meegid.2020.104351] has reported more than 198 recurrent mutations using a dataset of 7666 curated sequences showing the dynamic of SARS-CoV-2 evolution.
-Much uncertainty remains about SARS-CoV-2's evolutionary trends though it is evident that SARS-CoV-2 exhibits moderate potential for further evolution.
-
-The numerous mutations [@doi:10.1186/s12967-020-02344-6; @doi:10.1093/nsr/nwaa036; @doi:10.1016/j.meegid.2020.104351] observed in individual SARS-CoV-2 genome sequences signal transmission patterns and can be used during outbreak investigations.
+Genetic variation in SARS-CoV-2 has been used to elucidate patterns over time and space.
+Numerous mutations [@doi:10.1186/s12967-020-02344-6; @doi:10.1093/nsr/nwaa036; @doi:10.1016/j.meegid.2020.104351] observed in individual SARS-CoV-2 genome sequences can be used to trace transmission patterns and have provided insight during outbreak investigations. <!--move citations to later in sentence?-->
 Similar mutations observed in several patients may indicate that the patients belong to the same transmission group.
 The tracking of SARS-CoV-2 mutations is recognized as an essential tool for controlling outbreaks that may provide valuable insights into the paths of SARS-CoV-2's spread [@doi:10/d5mg].
 Several studies used phylogenetic analysis to determine the source of local COVID-19 outbreaks in Connecticut (USA), [@doi:10.1016/j.cell.2020.04.021], the New York City area (USA) [@doi:10.1126/science.abc1917], and Iceland [@doi:10.1056/NEJMoa2006100].
 There is an ongoing effort to collect SARS-CoV-2 genomes throughout the COVID-19 outbreak, and as of August 7, 2020, more than 78,000 genome sequences have been collected from patients. <!-- TODO: consider auto-updating this -->
 The sequencing data can be found at GISAID [@https://www.gisaid.org/], NCBI [@https://www.ncbi.nlm.nih.gov/sars-cov-2/], and COVID-19 data portal [@https://www.covid19dataportal.org/].
 
-#### Transmission
+#### Human Immune Response to Viral Threats
 
-In general, respiratory viruses like coronavirus can have multiple routes of person-to-person transmission including droplet transmission (i.e. inhalation for cough, sneeze), aerosol transmission (i.e. virus suspended in air), and contact transmission (i.e. contact with oral, nasal, and eye mucous membranes).
-Other modes of transmission, such as through touching surfaces or objects and then touching mucous membranes, can also be investigated.
-While droplet-based and contact were initially considered to be the primary modes of SARS-CoV-2 transmission [@doi:10.1038/s41368-020-0075-9], as additional information has emerged, the possibility of aerosol transmission has also been raised [@doi:10.1126/science.abc6197; @doi:10.1056/NEJMc2004973; @doi:10.1093/cid/ciaa939].
-Other aspects of transmission to investigate are the relationship between infectiousness and virus shedding with disease period or symptoms and also the proportions of cases that are attributable to various types of transmission events, such as transmission between relatives, nosocomial transmissions, and other possible types of interactions.
-Some information about these characteristics of transmission are available for the highly pathogenic coronaviruses SARS-CoV and MERS-CoV [@doi:10.1016/B978-0-12-385885-6.00009-2; @doi:10.1038/nrmicro.2016.81].
-For SARS-CoV-2 it is still being investigated whether, in addition to being spread by people who show symptoms,  the virus can be transmitted by people who do not show symptoms [@url:https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/how-covid-spreads.html], such as during the pre-symptomatic stage of infection or in people with asymptomatic infections.
-<!-- TODO I filed https://github.com/greenelab/covid19-review/issues/609 about this line -->
-
-#### Cell Entry and Replication
-
-Coronavirus virions are spherical with diameters ranging from 100 to 160 nanometers (nm).
-The virion is made up of a lipid envelope in which peplomers of 2-3 spike (S) glycoproteins are anchored, creating a distinctive "crown" shape for which the family of viruses was named [@isbn:978-0781760607; @doi:10/dvvg2h].
-The replication process is initiated by the viral spike protein: first, the virus binds to a host cell, and then the viral membrane fuses with the endosomal membrane to release the viral genome into the host cytoplasm.
-<!-- It seems like this info is on SARS-CoV, not on SARS-CoV-2. I think we should only include the parts that are relevant or maybe note that some things may not be known about SARS-CoV-2, in which case, we make assumptions based on SARS-CoV.-->
-The coronavirus spike protein is structured in three segments: the ectodomain, a transmembrane anchor, and an intracellular tail [@doi:10.1128/JVI.02615-14].
-The ectodomain contains two subdomains known as the S1 and S2 subunits, with the S1 (N-terminal) subunit guiding the binding of the virus to a host cell receptor and the S2 (C-terminal) subunit guiding the fusion process [@doi:10.1128/JVI.02615-14].
-<!-- Is it worth going into more detail about siganl peptides and secretory pathways? Not sure whether this is relevant information.-->
-The ectodomain forms the crown-like structures on the viral membrane, with the S1 domain forming the head of the crown and containing the Receptor Binding Motif (RBM) that binds a host receptor, while the S2 domain forms the stalk that supports the head [@doi:10.1038/nrmicro2090].
-Among betacoronaviruses, some are known to bind to CEACAM1, Neu 5,9 Ac2, and Angiotensin-Converting Enzyme 2 (ACE2) [@doi:10.3390/v4061011].
-Both SARS-CoV and SARS-CoV-2 bind to ACE2.
-
-After the virus binds to a host cell receptor, the viral and plasma membranes must then fuse.
-Many coronaviruses are cleaved at the S1-S2 boundary and remain non-covalently bound until fusion to the host cell is achieved, with the S1 subunit stabilizing the S2 subunit during the membrane fusion process [@doi:10.1016/j.cell.2020.02.058].
-This priming of the S protein is induced by the binding of cellular proteases [@doi:10/cf8chz; @doi:10.1016/j.antiviral.2020.104792].
-ACE2 and Transmembrane Serine Protease 2 (TMPRSS2) have been identified as a prime receptor and a critical protease, respectively, facilitating SARS-CoV/CoV-2 entry into a target cell [@doi:10.1038/nature02145; @doi:10.1126/science.abb2507; @doi:10.1128/JVI.01542-10; @doi:10.1016/j.cell.2020.02.052; @doi:10.1128/JVI.02232-10].
-This finding has led to a hypothesized role for ACE2 and TMPRSS2 expression in determining which cells, tissues and organs are most likely to be infected by SARS-CoV-2.
-A second cleavage site within S2 is thought to activate _S_ for fusion by inducing conformational change [@doi:10.1016/j.cell.2020.02.058].
-Electron microscopy suggests that in some coronaviruses, including SARS-CoV and MERS-CoV, a six-helix bundle separates the two subunits in the postfusion conformation, and the unusual length of this bundle facilitates membrane fusion through the release of additional energy [@doi:10.1146/annurev-virology-110615-042301].
-However, research in SARS-CoV suggests that, in addition to fusion with the plasma membrane, viruses may also be taken up by cells through endocytosis [@doi:10.1038/cr.2008.15].
-<!-- This is very interesting and seems like it could be relevant to virulence (?), but I don't know enough cell biology to expand on it. Another reference that seems useful is doi.org/10.1146/annurev-biochem-060208-104626-->
-Once the virus enters a host cell, the replicase gene is translated and assembled into the viral replicase complex, which can synthesize dsRNA genome from the genomic ssRNA(+).
-Finally, the dsRNA genome is transcribed and replicated to create viral mRNAs and new ssRNA(+) genomes [@doi:10.1007/978-1-4939-2438-7_1; @url:https://viralzone.expasy.org/30?outline=all_by_species].
-
-Thus, most of the viral entry process is determined by the viral genome, but the initial step, when the virus binds to a host receptor, also depends on the virus being able to recognize the host receptor.
-Coronaviruses such as SARS-CoV, SARS-CoV-2, and MERS-CoV may therefore be engaged in an evolutionary arms race with the human immune system [@doi:10.1101/2020.05.13.093658; @doi:10.1101/2020.05.14.096131; @doi:10.1186/1743-422X-10-304].
-Two "hot spots" within human ACE2 have been identified as driving the strong binding affinity between this receptor and two sites in SARS-CoV [@doi:10.1146/annurev-virology-110615-042301].
-Coronaviruses bind to a range of host receptors [@doi:10.3390/v4061011; @doi:10.1016/j.jmb.2020.04.009], with binding conserved only at the genus level [@doi:10.1146/annurev-virology-110615-042301].
-The S1 domain of the spike protein, which contains the RBM, evolves more rapidly than _S_'s S2 domain [@doi:10.3390/v4061011; @doi:10.1016/j.jmb.2020.04.009].
-However, even within the S1 domain, some regions are more conserved than others, with the receptors in S1's N-terminal domain (S1-NTD) evolving more rapidly than those in its C-terminal domain (S1-CTD) [@doi:10.1016/j.jmb.2020.04.009].
-Both S1-NTD and S1-CTD are involved in receptor binding and can function as receptor binding domains (RBDs) to bind proteins and sugars [@doi:10.3390/v4061011], but RBDs in the S1-NTD typically bind to sugars, while those in the S1-CTD recognize protein receptors [@doi:10.1146/annurev-virology-110615-042301].
-Viral receptors show higher affinity with protein receptors than sugar receptors [@doi:10.1146/annurev-virology-110615-042301], which suggests that positive selection on or relaxed conservation of the S1-NTD preferentially might reduce the risk of a deleterious mutation that would prevent binding.
-<!--also positive selection on MHC/HLA? Seems worth mentioning somewhere, possibly here?...-->
-Cell entry by the virus is a critical component to pathogenesis and therefore an important process to understand when examining possible therapeutics.
-Pathogenesis is made up of three major components: entry, replication, and spread [@isbn:0-9631172-1-1 {chap. 45}].
-<!-- We should probably mention more about spread in this section & add spread to the title... or make a spread section-->
-
-### COVID-19: Infection and Presentation
-
-#### Immunological Mechanisms of Coronavirus-driven Disease in Humans
-
-One way that humans respond to viral threats is through the immune response.
+Understanding the fundamental organization of the human immune response to viral threats is critical to understanding the varied response to SARS-CoV-2.
 The human immune system utilizes a variety of innate and adaptive responses to protect against the pathogens it encounters.
 The innate immune system consists of barriers, such as the skin, mucous secretions, neutrophils, macrophages, and dendritic cells.
 It also includes cell-surface receptors that can recognize the molecular patterns of pathogens.
@@ -690,10 +627,179 @@ These components of the immune system typically act together; the innate respons
 After a virus enters into a host cell, its antigen is presented by major histocompatibility complex 1 (MHC 1) molecules and is then recognized by cytotoxic T lymphocytes.
 One of the main immune responses that contribute to the onset of Acute Respiratory Distress Syndrome (ARDS) in COVID-19 patients is the cytokine storm, which causes an extreme inflammatory response due to a release of pro-inflammatory cytokines and chemokines by immune effector cells.
 In addition to respiratory distress, this mechanism can lead to organ failure and death in severe COVID-19 cases [@doi:10.1016/j.jpha.2020.03.001].
+Research in response to prior outbreaks of hCoV-borne infections, such as SARS and MERS, have provided a strong foundation for hypotheses about the pathogenesis of SARS-CoV-2 as well as potential diagnostic and therapeutic approaches. 
 
-##### Cytokine Storm
+### Role of the COVID-19 Review
+<!-- Rough draft, but basically: distill signal from noise to help accelerate the discovery process-->
 
-<!-- As I am cleaning up the text, I'll move the cytokine storm text here, as right now it's very decentralized and one of our goals is to merge everything together in the intro!-->
+With the worldwide scientific community uniting during 2020 to investigate SARS-CoV-2 and COVID-19 from a wide range of perspectives, findings from many disciplines are relevant on a rapid timescale to a broad scientific audience.
+Additionally, many findings are published as preprints, which are available prior to going through the peer review process.
+As a result, centralizing, summarizing, and critiquing new literature broadly relevant to COVID-19 can help to expedite the interdisciplinary scientific process that is currently happening at an advanced pace. 
+We are particularly interested in providing background to the development of diagnostic, prophylactic, and therapeutic approaches to COVID-19.
+Two major concerns within diagnosis include the detection of current infections in individuals with and without symptoms, and the detection of past exposure without an active infection.
+In the latter category, identifying whether individuals can develop or have developed sustained immunity is also a major consideration.
+The development of high-throughput, affordable methods for detecting active infections and sustained immunity will be critical to understanding and controlling the disease.
+The identification of interventions that can mitigate the effect of the virus on exposed and infected individuals is a significant research priority.
+Some possible approaches include the identification of existing pharmaceuticals that reduce the severity of infection, either by reducing the virus' virulence (e.g., antivirals) or managing the most severe symptoms of infection.
+Due to the long timeline for the development of novel pharmaceuticals, in most cases, research surrounding possible pharmaceutical interventions focuses on the identification and investigation of existing compounds whose mechanisms may be relevant to COVID-19.
+Other foci of current research include the identification of antibodies produced by survivors of COVID-19 and the development of vaccines.
+Understanding the mechanisms describing host-virus interactions between humans and SARS-CoV-2 is thus critical to identifying candidate therapeutics.
+
+Thus, in this review, we seek to consolidate information about efforts to develop strategies for diagnosis and therapeutics as new information is released by the scientific community.
+We include information from both traditional peer-reviewed scientific literature and from preprints, which typically have not undergone peer review but have been critically evaluated by the scientists involved in this effort.
+The goal of this manuscript is to present preliminary findings within the broader context of COVID-19 research and to identify the broad interpretations of new research, as well as limitations to interpretability.
+
+
+## Virology
+
+Examining the structure and basic functions of the SARS-CoV-2 virus is useful for understanding and predicting its pathogenesis and transmission.
+Genomic analysis of the virus provided early information about its phylogenetic position among other coronaviruses.
+These viruses are widely studied and their genomes are highly conserved, leading to strong hypotheses early on about how the structure and functions of the virus. 
+
+### Coronaviruses
+
+Coronaviruses (CoVs; order *Nidovirales*, family *Coronaviridae*, subfamily *Orthocoronavirinae*) are identified by their distinctive "crown-like" shape.
+These large viruses have spherical virions ranging from 100 to 160 nanometers (nm) in diameter.
+The virion is made up of a lipid envelope in which peplomers of 2-3 spike (S) glycoproteins are anchored, creating the crown [@isbn:978-0781760607; @doi:10/dvvg2h].
+Coronaviruses are classified into four genera: alpha, beta, delta and gamma coronaviruses.
+Among them, alpha and beta coronaviruses infect mammalian species, gamma coronaviruses infect avian species and delta coronaviruses infect both mammalian and avian species [@doi:10.1146/annurev-virology-110615-042301].
+The viruses were initially subdivided into these genera based on antigenic relationships of the spike (S), membrane (M), envelope (E), and nucleocapsid (N) proteins but are now divided by phylogenetic clustering.
+<!-- this section may be better as a figure panel + legend-->
+Phylogenetic analysis of a PCR amplicon fragment from five patients along with the total virus genome of 29.8 Kb indicates that SARS-CoV-2 is a novel betacoronavirus belonging to the B lineage, also known as sarbecovirus, which also includes the human SARS coronavirus [@doi:10/ggjs7j].
+
+### Genome Structure
+
+All viruses in the *Nidovirales* order share fundamental characteristics: they are enveloped and non-segmented and have positive-sense (ssRNA+) genomes that contain many non-structural genes originating through ribosomal frameshifting [@doi:10.1007/978-1-4939-2438-7_1].
+Coronaviruses have some of the largest viral RNA genomes, ranging from 27 kilobases (Kb) to 32 Kb in length.
+The SARS-CoV-2 genome lies in the middle of this range at 29,903 bp [@doi:10/ggjr43].
+Genome organization is highly conserved within the order [@doi:10.1007/978-1-4939-2438-7_1].
+A replicase gene comprises about two-thirds of the genome of coronaviruses.
+This polypeptide is translated into 16 non-structural proteins (nsp1-16, except in Gammacoronaviruses, where nsp1 is absent) that form replication machinery used to synthesize viral RNA [@doi:10.1002/jmv.25681].
+The remaining third of the genome encodes structural proteins, including the spike (S), membrane (M), envelope (E), and nucleocapsid (N) proteins.
+Additional accessory genes are sometimes present between these two regions, depending on the species or strain.
+<!-- TODO: Add a figure showing the structure of the genome.-->
+<!-- Also, everything focuses on S! Should we also talk about others?-->
+Much attention has been focused on the S protein, which is a critical structure involved in cell entry.
+This structure has been visualized using cryo-electron microscopy [@doi:10.1126/science.abb2507].
+
+### Mechanisms of Cell Entry
+
+In SARS-CoV, the most similar hCoV, the replication process is initiated by the viral spike protein: first, the virus binds to a host cell, and then the viral membrane fuses with the endosomal membrane to release the viral genome into the host cytoplasm.
+The coronavirus spike protein is structured in three segments: the ectodomain, a transmembrane anchor, and an intracellular tail [@doi:10.1128/JVI.02615-14].
+The ectodomain contains two subdomains known as the S1 and S2 subunits, with the S1 (N-terminal) subunit guiding the binding of the virus to a host cell receptor and the S2 (C-terminal) subunit guiding the fusion process [@doi:10.1128/JVI.02615-14].
+<!-- Is it worth going into more detail about siganl peptides and secretory pathways? Not sure whether this is relevant information.-->
+The ectodomain forms the crown-like structures on the viral membrane, with the S1 domain forming the head of the crown and containing the Receptor Binding Motif (RBM) that binds a host receptor, while the S2 domain forms the stalk that supports the head [@doi:10.1038/nrmicro2090].
+Coronaviruses bind to a range of host receptors [@doi:10.3390/v4061011; @doi:10.1016/j.jmb.2020.04.009], with binding conserved only at the genus level [@doi:10.1146/annurev-virology-110615-042301].
+Betacoronaviruses are known to bind to CEACAM1, Neu 5,9 Ac2, and Angiotensin-Converting Enzyme 2 (ACE2) [@doi:10.3390/v4061011].
+Similar to SARS-CoV, SARS-CoV-2 exhibits redundancy in which host proteases it can use to cleave the S protein [@doi:10.1016/j.cell.2020.02.052].
+Specifically, both transmembrane protease serine protease-2 (TMPRSS2) and cathepsins B/L have been shown to mediate SARS-CoV-2 S protein proteolytic priming, and small molecule inhibition of these enzymes fully inhibited viral entry _in vitro_ [@doi:10.1016/j.cell.2020.02.052; @doi:10.1038/s41467-020-15562-9].
+
+After the virus binds to a host cell receptor, the viral and plasma membranes must then fuse.
+Many coronaviruses are cleaved at the S1-S2 boundary and remain non-covalently bound until fusion to the host cell is achieved, with the S1 subunit stabilizing the S2 subunit during the membrane fusion process [@doi:10.1016/j.cell.2020.02.058].
+This priming of the S protein is induced by the binding of cellular proteases [@doi:10/cf8chz; @doi:10.1016/j.antiviral.2020.104792].
+A second cleavage site within S2 is thought to activate _S_ for fusion by inducing conformational change [@doi:10.1016/j.cell.2020.02.058].
+Electron microscopy suggests that in some coronaviruses, including SARS-CoV and MERS-CoV, a six-helix bundle separates the two subunits in the postfusion conformation, and the unusual length of this bundle facilitates membrane fusion through the release of additional energy [@doi:10.1146/annurev-virology-110615-042301].
+However, research in SARS-CoV suggests that, in addition to fusion with the plasma membrane, viruses may also be taken up by cells through endocytosis [@doi:10.1038/cr.2008.15].
+<!-- This is very interesting and seems like it could be relevant to virulence (?), but I don't know enough cell biology to expand on it. Another reference that seems useful is doi.org/10.1146/annurev-biochem-060208-104626-->
+Once the virus enters a host cell, the replicase gene is translated and assembled into the viral replicase complex, which can synthesize dsRNA genome from the genomic ssRNA(+).
+Finally, the dsRNA genome is transcribed and replicated to create viral mRNAs and new ssRNA(+) genomes [@doi:10.1007/978-1-4939-2438-7_1; @url:https://viralzone.expasy.org/30?outline=all_by_species].
+
+### Host-CoV Dynamics
+
+Most coronaviruses are considered zoonotic viruses with little to no transmission observed in humans.
+However, coronaviruses include human coronavirus (HCoV) strains associated with multiple respiratory diseases of varying severity, ranging from common cold to severe pneumonia, with severe symptoms mostly observed in immunocompromised individuals [@doi:10.1086/377612].
+Approximately one-third of common cold infections in humans is attributable to four out of six previously known human coronaviruses (HCoV-229E, HCoV-NL63, HCoV-OC43 and HCoV-HKU1) that are globally circulating in the human population [@doi:10.1038/s41579-018-0118-9;@doi:10.3390/diseases4030026].
+In the past two decades, however, highly pathogenic human coronaviruses have been identified, including the severe acute respiratory syndrome coronavirus 1 (SARS-CoV-1) and the Middle East respiratory syndrome coronavirus (MERS-CoV) although both infections were largely confined to specific geographic regions [@doi:10.1038/nrmicro.2016.81;@doi:10.1038/s41579-018-0118-9; @doi:10.1016/bs.aivir.2018.01.001].
+
+### Evolution and Virulence
+
+Comparative genomic analysis reveals that several regions of the coronavirus genome are likely critical to virulence. 
+The S1 domain of the spike protein, which contains the RBM, evolves more rapidly than _S_'s S2 domain [@doi:10.3390/v4061011; @doi:10.1016/j.jmb.2020.04.009].
+However, even within the S1 domain, some regions are more conserved than others, with the receptors in S1's N-terminal domain (S1-NTD) evolving more rapidly than those in its C-terminal domain (S1-CTD) [@doi:10.1016/j.jmb.2020.04.009].
+Both S1-NTD and S1-CTD are involved in receptor binding and can function as receptor binding domains (RBDs) to bind proteins and sugars [@doi:10.3390/v4061011], but RBDs in the S1-NTD typically bind to sugars, while those in the S1-CTD recognize protein receptors [@doi:10.1146/annurev-virology-110615-042301].
+Viral receptors show higher affinity with protein receptors than sugar receptors [@doi:10.1146/annurev-virology-110615-042301], which suggests that positive selection on or relaxed conservation of the S1-NTD preferentially might reduce the risk of a deleterious mutation that would prevent binding.
+The SARS-CoV-2 S protein also contains a RRAR furin recognition site at the S1/S2 junction [@doi:10.1016/j.cell.2020.02.058; @doi:10.1126/science.abb2507], setting it apart from bat coronavirus RaTG13, with which it shares 96% genome sequence identity, and SARS-CoV [@doi:10.1038/s41586-020-2012-7].
+Such furin cleavage sites are commonly found in highly virulent influenza viruses, and as such may contribute to the heightened pathogenicity of SARS-CoV-2 [@doi:10/bvgh5b; @doi:10.1006/viro.1999.9716].
+Cell entry by the virus is a critical component to pathogenesis and therefore an important process to understand when examining possible therapeutics.
+
+Evolution in SARS-CoV-2 has also been observed over a short timescale.
+After zoonotic transfer, SARS-CoV-2 continued evolving in the human population [@doi:10.1186/s12967-020-02344-6].
+The SARS-CoV-2 mutation rate is moderate compared to other RNA viruses [@doi:10.1016/j.meegid.2020.104351], and that restricts SARS-CoV-2 evolution pace.
+Nevertheless, genomic data show some significant statistical evidence of ongoing evolution.
+There are two known variants of the spike protein that differ by a single amino acid at position 614 (G614 and D614), and there is evidence that G614 has already become dominant over D614 by June 2020 [@doi:10.1016/j.cell.2020.06.043].
+While there is a hypothesis that this genomic change increased the SARS-CoV-2 infectivity and virulence, there is no data yet to support or discard this hypothesis reliably [@doi:10.1016/j.cell.2020.06.040].
+One study [@doi:10.1016/j.meegid.2020.104351] has reported more than 198 recurrent mutations using a dataset of 7666 curated sequences showing the dynamic of SARS-CoV-2 evolution.
+Much uncertainty remains about SARS-CoV-2's evolutionary trends though it is evident that SARS-CoV-2 exhibits moderate potential for further evolution.
+
+
+
+## Pathogenesis
+
+Pathogenesis is made up of three major components: entry, replication, and spread [@isbn:0-9631172-1-1 {chap. 45}].
+The basic mechanisms of cell entry are known to be similar among coronaviruses and are discussed above.
+hCoV are not common, but  combining existing research in SARS-CoV and new research in SARS-CoV-2 led to early hypotheses about how the SARS-CoV-2 virus was likely to infect human cells. 
+These insights led to predictions about which tissues, organs, and systems would be most susceptible to SARS-CoV-2 infection.
+The current pandemic of COVID-19, caused by the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), represents an acute global health crisis with symptoms for reported cases ranging from mild to severe or fatal [@url:https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html] and including outcomes such as acute respiratory distress, acute lung injury and other pulmonary complications.
+
+### Cell Susceptibility
+
+ACE2 and Transmembrane Serine Protease 2 (TMPRSS2) have been identified as a prime receptor and a critical protease, respectively, facilitating SARS-CoV/CoV-2 entry into a target cell [@doi:10.1038/nature02145; @doi:10.1126/science.abb2507; @doi:10.1128/JVI.01542-10; @doi:10.1016/j.cell.2020.02.052; @doi:10.1128/JVI.02232-10].
+This finding has led to a hypothesized role for ACE2 and TMPRSS2 expression in determining which cells, tissues and organs are most likely to be infected by SARS-CoV-2.
+The ACE2 receptor is expressed in numerous organs, such as the heart, kidney, and intestine, but most prominently in alveolar epithelial cells, which is expected to contribute to the virus' association with lung pathology [@doi:10.1101/2020.02.24.963348; @doi:10.1007/s00134-020-05985-9].
+Clinical investigations of COVID-19 patients have detected SARS-CoV-2 transcripts in bronchoalveolar lavage fluid (93% of specimens), sputum (72%), nasal swabs (63%), fibrobronchoscopy brush biopsies (46%), pharyngeal swabs (32%), feces (29%) and blood (1%) [@doi:10.1001/jama.2020.3786].
+Two studies reported that SARS-CoV-2 could not be detected in the urine specimens [@doi:10.1001/jama.2020.3786; @doi:10.1001/jama.2020.3204]; however, a third study identified four urine samples (out of 58) that were positive for SARS-CoV-2 nucleic acids [@doi:10.1097/CM9.0000000000000774].
+Respiratory failure remains the leading cause of death for COVID-19 patients [@doi:10.1111/his.14134].
+Besides major pulmonary damage, SARS-CoV-2 infection can damage many other organ systems including the heart [@doi:10.1001/jamacardio.2020.0950], kidney [@doi:10.1038/s41585-020-0319-7; @doi:10.1186/s13054-020-02872-z], liver [@doi:10/ggpx6s], and gastrointestinal tract [@doi:10.1053/j.gastro.2020.02.055; @doi:10.1111/1751-2980.12851].
+As it becomes clearer that SARS-CoV-2 infection can damage multiple organs, the scientific community is pursuing multiple avenues of investigation in order to build a consensus about how the virus affects the human body.
+
+To quickly associate the clinical outcomes with SARS-CoV-2 infection, researchers are taking advantage of “omics” technologies to profile the expression of coronavirus entry factors across the tissues. <!-- TODO: refs? if it stays here -->
+Viral progression may be enhanced by active upregulation of ACE2 on cell surfaces following or during a response to infection.
+In several preliminary assays and an analysis of previous microarray data, Wang et al. reported that ACE2 is significantly upregulated following infection by other coronaviruses, including SARS-CoV and MERS-CoV, as well as viruses such as rhinovirus and influenza virus [@doi:10.1101/2020.02.24.963348].
+Additionally, direct stimulation with inflammatory cytokines such as type I interferons resulted in the upregulation of ACE2, with treated groups showing 4-fold higher ACE2 expression than control groups at 18 hours post-treatment [@doi:10.1101/2020.02.24.963348].
+Though whether SARS-CoV-2 infection facilitates positive regulation of its own transmission between host cells is still unclear, the host immune response itself likely plays a key role in mediating infection-associated pathologies.
+One severe example includes reports of cytokine storm-like responses in patients with particularly severe infections, in which the overproduction of inflammatory cytokines leads to systemic inflammation and potentially multi-organ failure, which may very well accelerate the spread of virus in the host [@doi:10.1101/2020.02.24.963348; @doi:10/ggnzmc].
+[@doi:10.1016/j.immuni.2020.06.017] describe the concept of the cytokine storm in detail, although [@doi:10.1001/jamainternmed.2020.3313] claim that the widespread use of the term can be misleading.
+
+### Virulence of SARS-CoV-2 in Humans
+
+Like that of SARS-CoV, SARS-CoV-2 entry into host cells is mediated by the interaction between the viral spike glycoprotein (S) and human angiotensin-converting enzyme 2 (ACE2) [@doi:10.1126/science.1116480; @doi:10.1016/j.cell.2020.02.058; @doi:10.1126/science.abb2762; @doi:10.1038/s41586-020-2179-y; @doi:10.1101/2020.02.19.956235; @doi:10.1016/j.cell.2020.02.052; @doi:10.1016/j.cell.2020.03.045; @doi:10.1128/jvi.00127-20].
+Differences between the two viruses in their interactions between the S protein and hACE2 may also partially account for the increased transmissibility seen in the current COVID-19 pandemic.
+Recent studies have reported conflicting binding constants for the S protein-hACE2 interaction, though they agree that SARS-CoV-2 S protein binds with equal if not greater affinity than does SARS-CoV S protein [@doi:10.1016/j.cell.2020.02.058; @doi:10.1101/2020.02.19.956235; @doi:10.1126/science.abb2507].
+The C-terminal domain of the SARS-CoV-2 S protein in particular was identified as the key region of the virus that interacts with the human ACE2 (hACE2) receptor, and the crystal structure of the C-terminal domain of SARS-CoV-2 S protein in complex with human ACE2 reveals stronger interaction and higher affinity for receptor binding than SARS-CoV [@doi:10.1016/j.cell.2020.03.045].
+Among the 14 key binding residues identified in the SARS-CoV S protein, 8 are conserved in SARS-CoV-2 and the remaining 6 are semi-conservatively substituted, potentially explaining variation in binding affinity [@doi:10.1016/j.cell.2020.02.058; @doi:10.1101/2020.02.19.956235].
+Recent crystal structures have shown that the receptor-binding domain (RBD) of SARS-CoV-2 S protein, like that of other coronaviruses, undergoes stochastic hinge-like movement that flips it from a “closed” conformation, in which key binding residues are hidden at the interface between protomers, to an “open” one [@doi:10.1016/j.cell.2020.02.058; @doi:10.1126/science.abb2507].
+Because the RBD plays such a critical role in viral entry, blocking its interaction with ACE2 represents a promising therapeutic approach.
+Nevertheless, despite the high structural homology between SARS-CoV-2 RBD and that from SARS-CoV, monoclonal antibodies targeting SARS-CoV-RBD failed to bind SARS-CoV-2-RBD [@doi:10.1126/science.abb2507].
+Promisingly though, sera from convalescent SARS patients inhibited SARS-CoV-2 viral entry _in vitro_, albeit with lower efficiency than it inhibited SARS-CoV [@doi:10.1016/j.cell.2020.02.052].
+
+### Immune Response to SARS-CoV-2
+
+<!--- Cellular responses to SARS-CoV-2 infection
+- What is causing neutropenia and lymphopenia observed in COVID-19 patients
+- Antibody production against SARS-CoV-2 by patient who recovered vs patient who did not recover
+- Cytokines and other soluble factors contribution to immune response
+-->
+Pathogens have developed ways to evade the immune system as well as various ways to manipulate the host immunity.
+<!--Lamonica's section goes here -->
+
+Disease symptoms can be caused by a pathogen or by the reaction of the immune system to the pathogen.
+The host immune system can defend against infection but can also sometimes cause too much damage to the host [@isbn:9780815332183; @isbn:9780071283663].
+There is a review on interferon-mediated innate antiviral responses initiated by the virus-infected cells themselves, which can sometimes have inflammatory and other systemic effects [@doi:10.1016/j.chom.2020.05.008].
+Also, there is a review on the innate immune system response with a focus on innate immune cells and responses other than the interferon-mediated responses; the review also approaches the question of how the innate immune response can confer protection or induce pathogenesis through a dysregulated response [@doi:10.1016/j.chom.2020.05.009].
+There are also acquired immunity responses to SARS-CoV-2.
+There is a review on the levels of different SARS-CoV-2-specific antibodies detected over the course of an infection [@doi:10.3389/fimmu.2020.00879].
+A review of T-cell mediated responses to respiratory coronaviruses notes a large reduction in T-cells associated with the acute phase of SARS (from SARS-CoV-1) [@doi:10.1007/s12026-014-8534-z].
+So far, some articles and reviews on SARS-CoV-2 mention evidence for reduction in the number of CD4 and CD19 T-cells as well as NK-cells [@doi:10.1016/j.chom.2020.04.009; @doi:10.1016/j.chom.2020.05.009].
+As a brief immunology background primer for vaccines, which we discuss later, we note that adaptive immunity also has mechanisms for long-term immunity: during a first exposure to a pathogen innate and also later acquired immune responses operate; at the same time, the acquired immune system forms memory B cells and memory T cells based on this experience so that on a possible future second exposure to the same pathogen an earlier/faster and stronger acquired immune response is generated which largely prevents or greatly reduces infection.
+Vaccines are in general attenuated or inactivated pathogens or antigen parts of pathogens which are meant to generate long-term memory of a pathogen so that if a person is exposed to the same pathogen in the future they will have a strong immunity memory response; we will describe specific research into vaccines in detail later.
+Other immune system features and pathogen-immune system interactions which are related to particular diagnostics and therapeutics are described within the Diagnostics and Therapeutics sections.
+
+#### Cytokine Storm
+
+In progress
+<!--
+Note: As I am cleaning up the text, I'll move the cytokine storm text here, as right now it's very decentralized and one of our goals is to merge everything together in the intro!
+
 IL-6 promotes the differentiation of activated B cells into immunoglobulin-producing plasma cells [@pmid:9052836] and acts as a growth factor for hybridoma and myeloma cells [@pmid:8431556; @pmid:2104241].
 In addition, IL-6 also induces the differentiation of naïve CD4+ T cells into effector T-cell subsets [@doi:10.1158/2326-6066.CIR-14-0022].
 In this way interleukins regulate both the pro- and anti-inflammatory responses.
@@ -701,18 +807,16 @@ In this way interleukins regulate both the pro- and anti-inflammatory responses.
 In a healthy situation the lung respiratory epithelium together with alveolar macrophages limits the activation of the immune system, ensuring homeostasis.
 The introduction of the S-protein from SARS-CoV to mouse macrophages was found to increase production of IL-6 and TNF-α [@doi:10.1016/j.virusres.2007.02.007], and deceased SARS-CoV patients were found to have intermediate levels of IL-6, IL-1𝛽, and TNF-α expressed in a number of ACE2-expressing cell types sampled from the lung and bronchial tissues during autopsy [@doi:10.1002/path.2067].
 However, other reports found the severe respiratory condition ARDS to be associated with elevated concentrations of IL-6 in BALF, but that concentrations of Tumor Necrosis Factor α (TNF-α) and IL-1𝛽 decreased with the onset of ARDS [@doi:10.1164/ajrccm.164.10.2104013].
-<!--
-
-Just to clarify, is the point here that SARS patients have intermediate levels of IL-6 but other respiratory conditions, like ARDS have higher levels of IL-6?
-
-As a non-immunologist, my high level understanding of what is written is: IL-6 plays a role in regulating the immune response to infection. And different IL-6 levels are found depending on the disease. This IL-6 cytokine causes a large immune response that damages cells and is fatal. - @ajlee21
--->
+<!--Note: Just to clarify, is the point here that SARS patients have intermediate levels of IL-6 but other respiratory conditions, like ARDS have higher levels of IL-6? As a non-immunologist, my high level understanding of what is written is: IL-6 plays a role in regulating the immune response to infection. And different IL-6 levels are found depending on the disease. This IL-6 cytokine causes a large immune response that damages cells and is fatal. - @ajlee21 -->
 These cytokines enhance the pro-inflammatory reaction by increase acute-phase signaling, trafficking of immune cells to the site of primary infection, epithelial cell activation, and secondary cytokine production.
 The acute phase response to infection results in the heavy damage of the endothelium of blood vessels, which disrupts the balance between the pro- and anti-inflammatory response [@doi:10.1164/ajrccm.164.10.2104013].
 Thus, the holes generated allow not just for the passage of neutrophils, macrophages and lymphocytes to the site of the infection but also the accumulation of liquids into the lungs, which is the ultimate cause of the death in ARDS and Severe Acute Respiratory Syndrome (SARS) [@doi:10.1007/s00281-017-0629-x], also caused by the new coronavirus.
 <!-- Suggestion: define distinction between Cytokine Release Syndrome and Cytokine Storm Syndrome-->
+One severe example includes reports of cytokine storm-like responses in patients with particularly severe infections, in which the overproduction of inflammatory cytokines leads to systemic inflammation and potentially multi-organ failure, which may very well accelerate the spread of virus in the host [@doi:10.1101/2020.02.24.963348; @doi:10/ggnzmc].
+[@doi:10.1016/j.immuni.2020.06.017] describe the concept of the cytokine storm in detail, although [@doi:10.1001/jamainternmed.2020.3313] claim that the widespread use of the term can be misleading.
+-->
 
-#### Clinical Presentation of COVID-19
+### Clinical Presentation of COVID-19
 
 <!-- TODO: there is more literature on this now - we might want to go back and see if we still like this -->
 A great diversity of symptom profiles has been observed for COVID-19, although a large study from Wuhan, China suggests fever and cough as the two most common symptoms on admission [@doi:10.1056/NEJMoa2002032].
@@ -753,176 +857,109 @@ Gastrointestinal symptoms such as vomiting or diarrhea were occasionally reporte
 Radiologic findings were not always reported in the case studies reviewed by [@doi:10.1001/jamapediatrics.2020.1467], but when they were mentioned they included bronchial thickening, ground-glass opacities, and/or inflammatory lesions.
 Neurological symptoms have also been reported [@doi:10.1001/jamaneurol.2020.2687].
 
-These analyses indicate that generally, most pediatric cases of COVID-19 are not severe.  
+These analyses indicate that generally, most pediatric cases of COVID-19 are not severe.
 However, serious complications and, in rare cases, death have occurred [@doi:10.1016/j.eclinm.2020.100433].
 Of particular interest, children have occasionally experienced a serious inflammatory syndrome, multisystem inflammatory syndrome in children (MIS-C), after COVID-19 infection.
 This syndrome is similar in some respects to Kawasaki disease or to Kawasaki disease shock syndrome [@doi:10.1093/jpids/piaa069;@doi:10.1001/jama.2020.10369; @doi:10.1016/j.ajem.2020.05.117] and is thought to be a distinct clinical manifestation of SARS-CoV-2 due to its distinct cytokine profile and the presence of burr cells in peripheral blood smears [@doi:10.1172/JCI140970].
 MIS-C has been associated with heart failure in some cases [@doi:10.1161/CIRCULATIONAHA.120.048360].
 [@doi:10/gg4sd6] reported a single case of an adult who appeared to show symptoms similar to MIS-C after exposure to COVID-19, but cautioned against broad conclusions; [@doi:10.1016/j.ajem.2020.06.053] reported another such possible adult case.
 
-#### Subpopulations of Special Concern  
+### Systems Approaches to Pathogenesis
 
-<!-- TODO: I think this section could use a revisiting. I think we should deal with the male sex and older age portion in an initial paragraph. After that, it looks like the racial burdens are likely to be attributable in large part to systemic racism - incarceration, wage discrimination, housing discrimination, and more - both now and in the past. Right now this jumps around b/w groups and presents discrimination as the basis in disparities as a possibility but not necessarily a likely contributor. I also worry that it makes many of these things research questions, even though one of the resources we cite ( 10.1093/tbm/ibaa055 ) includes policy recommendations. In short, it feels like we list a bunch of proximal causes but don't tie things back to the overarching likely cause. Finally, the way genetic factors are brought up makes me worry that someone might have, as a takeaway, that genetics may play a driving role in disparities at this level. Discussed in https://github.com/greenelab/covid19-review/issues/610 -->
+Systems biology provides a cross-disciplinary analytical platform integrating the different omics (genomics, transcriptomics, proteomics, metabolomics, and other omics approaches), bioinformatics, and computational strategies.
+These cutting-edge research approaches have enormous potential to study the complexity of biological systems and human diseases [@doi:10.1016/j.gpb.2012.08.004].
+Over the last decade, systems biology approaches have been used widely to study the pathogenesis of diverse types of life-threatening acute and chronic infectious diseases [@doi:10.1038/s41576-020-0212-5].
+Omics-based studies also provided meaningful information regarding host immune responses and surrogate protein markers in several viral, bacterial and protozoan infections [@doi:10.1002/prca.201300074].
+The complex pathogenesis and clinical manifestations of SARS-CoV-2 infection are not understood adequately yet.
+The genome sequence of the pathogen subsequently allowed its phylogenetic characterization and prediction of its protein expression profile, which is crucial for understanding the pathogenesis and virulence of this novel viral infection.
 
-In the context of the United States, persons diagnosed with COVID-19 are more likely to require hospitalization if they are of male sex, of older age, and/or of Black/African American background [@doi:10.1377/hlthaff.2020.00598; @doi:10.15585/mmwr.mm6925e1].
-African Americans have also been reported to have disproportionate risk of kidney complications from COVID-19 [@doi:10.1016/j.kint.2020.05.006].
-In addition to African Americans, disproportionate harm and mortality from COVID-19 has also been noted in Latino/Hispanic communities and in Native American / Alaskan Native communities such as the Navajo nation [@doi:10.1001/jama.2020.8598; @doi:10.1136/bmj.m1483; @doi:10.1111/jrh.12451; https://www.nytimes.com/2020/04/09/us/coronavirus-navajo-nation.html?searchResultPosition=10; @url:https://www.nytimes.com/interactive/2020/07/05/us/coronavirus-latinos-african-americans-cdc-data.html; @doi:10.1093/tbm/ibaa055].
-In Brazil, where the pandemic has also been severe, indigenous communities are likewise at special risk [@doi:10.1126/science.abc0073].
-The sizable racial disparities observed may be due to a number of factors, including different levels of pre-existing co-morbidities, such as hypertension, diabetes or lung diseases.
-They may also be influenced by the disproportionate socioeconomic burdens placed on many people of color, which can correspond to greater economic difficulties, more hazardous or crowded work or living conditions, or reduced access to health care [@doi:10.1377/hlthaff.2020.00598; @doi:10.1016/j.kint.2020.05.006; @doi:10.1001/jamanetworkopen.2020.12403].
-This might cause infections to be less likely to be diagnosed unless or until they were very severe; in the sample studied by [@doi:10.1377/hlthaff.2020.00598], African Americans were more likely to be diagnosed in hospital, while other groups were more likely to have been diagnosed in ambulatory settings in the community.
-More research is needed for analyzing and remediating these disparities [@doi:10.1093/tbm/ibaa055].
+#### Proteomics
 
-People living in certain locations may be especially vulnerable to harm.
-In a preprint, [@doi:10.1101/2020.04.05.20054502] provided observational evidence that geographical areas in the United States that suffer from worse air pollution by fine particulate matter have also suffered more COVID-19 deaths per capita, after adjusting for demographic covariates.
-Although lack of individual-level exposure data and the impossibility of randomization make it difficult to elucidate the exact causal mechanism, this finding would be consistent with similar findings for all-cause mortality (e.g., [@doi:10.1073/pnas.1803222115]).
-Individuals in nursing homes / skilled nursing facilities [@doi:10.1001/jama.2020.11642] and in some prisons and detention centers [@doi:10.1001/jamainternmed.2020.1856; @doi:10.1001/jama.2020.12528] have also been exposed to higher risk of infection.
-Certain occupations, such as health care work, can put individuals at increased risk [@doi:10.1002/ajim.23145; @doi:10.1371/journal.pone.0232452; @url:https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/causesofdeath/bulletins/coronaviruscovid19relateddeathsbyoccupationenglandandwales/deathsregistereduptoandincluding20april2020; @url:https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/articles/whichoccupationshavethehighestpotentialexposuretothecoronaviruscovid19/2020-05-11;
-@url:https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/892085/disparities_review.pdf].
+<!--Some of the text below might need to be rearranged or  moved to other places in the paper-->
+Availability of the genome sequence of SARS-CoV-2 enhances the potential for subsequent proteome-level studies to provide further mechanistic insights into the virus' complex pathogenesis.
+Even though no comprehensive proteomic analysis of the pathogen or of patients suffering from its infection has yet been reported, one forthcoming study has demonstrated SARS-CoV-2 infected host cell proteomics using human Caco–2 cells as an infection model [@doi:10.1038/s41586-020-2332-7].
+The authors observed SARS-CoV-2 induced alterations in multiple vital physiological pathways, including translation, splicing, carbon metabolism and nucleic acid metabolism in the host cells.
+There is a high level of sequence homology between SARS-CoV-2 and SARS-CoV, and sera from convalescent SARS-CoV patients might show some efficacy to cross-neutralize SARS-CoV-2-S-driven entry [@doi:10.1016/j.cell.2020.02.052].
+However, despite the high level of sequence homology, certain protein structures might be immunologically distinct, prohibiting effective cross-neutralization across different SARS strains [@doi:10.1101/2020.03.21.990770].
+Consequently, earlier proteome-level studies on SARS-CoV can also provide some essential information regarding the new pathogen [@doi:10.1073/pnas.0407992101; @doi:10.1016/j.bbrc.2004.02.074].
+Considering the paucity of omics-level big data sets for SARS-CoV-2 up until now, existing data hubs that contain information for other coronaviruses such as UniProt, NCBI Genome Database, The Immune Epitope Database and Analysis Resource (IEDB), and The Virus Pathogen Resource (ViPR) will serve as useful resources for computational and bioinformatics research on SARS-CoV-2.
+Using such databases, the systems level reconstruction of the PPI (Protein-Protein Interaction) enabled the generation of hypotheses on the mechanism of action of SARS-CoV-2 and suggested drug targets.
+In an initial study [@doi:10.1101/2020.03.22.002386], 26 of the 29 SARS-CoV-2 proteins were cloned and expressed in HEK293T kidney cells, allowing for the identification of 332 high-confidence human proteins that interact with them.
+Notably, this study suggested that SARS-CoV-2 interacts with innate immunity pathways.
+The ranking of pathogens with respect to their interactome's similarity to SARS-CoV-2 suggested *West Nile Virus*, *Mycobacterium tuberculosis*, and *Human papillomavirus* as the top three hits.
+However, given the lung symptoms associated with COVID-19, the *Mycobacterium tuberculosis* host-pathogen interactome could also provide new insights to the mechanism of SARS-CoV-2 infection.
+In addition, it was suggested that the envelope protein E could disrupt the host bromodomain-containing proteins, i.e., BRD2 and BRD4, binding to histone.
+The Spike protein S could likely intervene in the virus fusion through modulating the GOLGA7-ZDHHC5 acyl-transferase complex to increase palmitoylation.
 
-Many other factors influence risk of serious COVID-19 outcomes.
-Genetic factors may play a role in risk of respiratory failure for COVID-19 [@doi:10.1056/NEJMoa2020283; @doi:10.1093/gerona/glaa131; @doi:10.1101/2020.06.16.155101].
-Diabetes may increase the risk of lengthy hospitalization [@doi:10.1016/j.cmet.2020.04.021] or of death [@doi:10.1016/j.cmet.2020.04.021;@doi:10.1007/s00592-020-01546-0].
-[@doi:10.1111/dom.14057] and [@doi:10.1152/ajpendo.00124.2020] discuss possible ways in which COVID-19 and diabetes may interact.
-Obesity also appears to be associated with higher risk of severe outcomes from SARS-CoV-2 [@doi:10.1016/j.metabol.2020.154262; @doi:10.1101/2020.04.23.20076042].
-Obesity is considered an underlying risk factor for other health problems, and the mechanism for its contributions to COVID-19 hospitalization or mortality is not yet clear [@doi:10.1016/j.medj.2020.06.005].
+Another study [@doi:10.1101/2020.03.31.019216], used patient-derived peripheral blood mononuclear cells (PBMCs) to identify 251 host proteins targeted by SARS-CoV-2 and the disruption of more than 200 host proteins following the infection.
+The network analysis showed in particular that non-structural proteins 9 and 10 (nsp9 and nsp10) interacted with NKRF that usually represses NFKB.
+This finding could explain the exacerbation of the immune response that shape the pathology and the high cytokine levels possibly due to the chemotaxis of neutrophils mediated by IL-8 and IL-6.
+Finally, it was suggested [@doi:10.1101/2020.04.09.033522] that protein E of both SARS-CoV and SARS-CoV-2 has a conserved Bcl-2 Homology 3 (BH3)-like motif, that could inhibit anti-apoptosis proteins BCL2 and trigger the apoptosis of T cells.
+Several known compounds were suggested to disrupt the host-pathogen protein interactome were suggested mostly through the inhibition of host proteins.
 
-Studies of disparities and differences among groups in rates of hospitalization or death from COVID-19 are complicated by the fact that risk may be elevated in multiple ways.
-An individual may be more likely to be exposed to the virus, more likely to get infected once exposed, more likely to have serious complications once infected, be less likely to get adequate help once they are seriously ill.
-Although these are difficult to disaggregate, they suggest different possible interventions and each deserves consideration.
-The epidemiological characteristics and clinical presentation of COVID-19 may differ somewhat in different areas of the world, presumably due to differential reporting, different age structures, and/or different risk factors [@doi:10.1007/s00592-020-01546-0].
-Furthermore, because different subpopulations may have somewhat different vulnerabilities, needs, and resources, we recommend that researchers publishing studies on diagnostics and therapeutics take extra care to be clear about the demographic and medical characteristics of their sample, in order to facilitate discussions of the degree to which results may generalize or differ in other settings.
+#### Transcriptomics
 
-Several studies on disparities in COVID-19 have compared groups in terms of their probability of a severe outcome (like hospitalization or death) given that a person is diagnosed.
-Early in the pandemic, it is more difficult to study or identify the larger population of all exposed or all infected people because of the existence of undetected infections; over the course of the pandemic, indirect estimates of infection rates through modeling improve and more direct estimates through a combination of serological tests, sampling methods and statistical methods have been made possible through biotechnology developments.
-In contrast, [@doi:10.1038/s41586-020-2521-4] were able to compare overall rates of death from COVID-19, not simply in the subsample of diagnosed individuals, thus combining the probability of infection with the probability of death given infection. <!-- TODO: In contrast with what? -->
-This was done using a dataset of 17 million adults in the United Kingdom.
-In this administrative dataset, [@doi:10.1038/s41586-020-2521-4] found that male sex, older age, economic deprivation, nonwhite ethnicity (principally Black or South Asian), obesity, diabetes,  asthma, and several other comorbid conditions were associated with a higher risk of death from COVID-19.
-They cautioned that despite the large sample size, their observational data did not directly provide information on the causal mechanisms which led to these statistical associations.
-However, the ethnic and economic disparities did not vanish when adjusting for observed preexisting conditions.
-[@doi:10.1038/s41586-020-2521-4] also found that the predictive value of socioeconomic status seemed to increase over time, perhaps because many higher-paid workers were able to transition to working online.
+To quickly associate the clinical outcomes with SARS-CoV-2 infection, researchers are taking advantage of “omics” technologies to profile the expression of coronavirus entry factors across the tissues/cells and also to measure the host transcriptional response after virus infection.
+Two studies profiled expression after SARS-CoV-2 infection in multiple human cell lines (Figure {@fig:cell-lines-moi}A) [@doi:10.1016/j.cell.2020.04.026; @doi:10.1101/2020.05.05.079194].
+The first study, which is by Blanco-Melo et al., performed an in-depth analysis of the transcriptional response to SARS-CoV-2 in comparison to other respiratory viruses, including MERS-CoV, SARS-CoV, human parainfluenza virus 3 (HPIV3), respiratory syncytial virus (RSV), and influenza A virus (IAV).
+They analyzed the responses of three human cell lines: A549 (adenocarcinomic human alveolar basal epithelial cells), Calu-3 (human airway epithelial cells derived from human bronchial submucosal glands), and MRC-5 (human fetal lung fibroblast cells).
+As the viral receptor ACE2 has low expression in A549 cells, authors also supplemented A549 cells with adenovirus (AdV)-based vectors expressing mCherry (a fluorescent protein used as a control) or ACE2 (A549-ACE2).
+All infections were performed at a high multiplicity of infections (MOI, 2–5), with the exception of A549-ACE2 cells, which were infected with SARS-CoV-2 at both low (0.2 MOI) and high MOI (2 MOI).
+Poly(A) bulk RNA sequencing (RNA-seq) of host cells was performed at 24 hours post-infection (hpi) of all the viruses except IAV (9-12 hours).
+The authors also measured host transcriptional responses to SARS-CoV-2 in primary normal human bronchial epithelial cells (HBEC or NHBE cells), nasal washes of ferrets as an animal model, and lung samples from two COVID-19 patients.
+Additionally, they measured transcriptional responses to IAV in NHBE cells and nasal washes of ferrets.
+Differential expression (DE) analysis was then carried out to compare infected cells with control cells that underwent only a mock treatment.
+In general, the interferons (IFNs) activate intracellular antimicrobial programs and are the major first line of defense against viruses [@doi:10.1016/j.chom.2020.05.008].
+IFNs are a type of cytokines along with chemokines, interleukins (IL), lymphokines and tumor necrosis factor (TNF).
+Cytokines can be classified based on the nature of the immune response or based on their specific roles, as reviewed by [@doi:10.1016/j.bbamcr.2014.05.014]).
+In the hosts where SARS-CoV-2 was able to replicate efficiently, DE analysis revealed that the transcriptional response was significantly different from the response to all of the other viruses tested.
+A unique proinflammatory cytokine signature associated with SARS-CoV-2 was present under both high- and low-MOI conditions.
+The cytokines IL-6 and IL1RA were uniquely elevated in response to SARS-CoV-2.
+However, A549-ACE2 cells in the low-MOI condition showed no significant IFN-I or IFN-III expression, but did in cells at high MOI.
+This finding suggests that IFN induction is MOI dependent.
+Similarly, in cells from the NHBE line, ferrets, and COVID-19 patients, they found significant enrichment of chemokine signaling but no significant induction of IFN-I or IFN-III.
+Together, these results suggest that in contrast to common respiratory viruses, SARS-CoV-2 induces a limited antiviral state with low IFN-I or IFN-III expression and a moderate IFN-stimulated genes (ISG) response.
+However, the low IFN induction in ACE2-expressing A549 cells could be overcome by using a 10-fold increase in SARS-CoV-2 (MOI, 2), suggesting a SARS-CoV-2 antagonist that is rendered ineffective under high-MOI conditions [@doi:10.1016/j.cell.2020.04.026].
+This hypothesis was further supported by a recent study [@doi:10.1101/2020.05.11.088179] that showed that the SARS-CoV-2 _ORF3b_ gene suppresses IFNB1 promoter activity (IFN-I induction) more efficiently than the SARS-CoV_ORF3b_ gene, which is considerably longer.
 
-Besides the direct harms caused by infection, many populations are in indirect risk of serious harm due to the social and economic effects of the pandemic and of the efforts needed to fight it.  
-These might include individuals with substance use disorder [@doi:10.7326/M20-1141], victims of natural disasters [@doi:10.1038/s41558-020-0804-2], and victims of human trafficking [@doi:10.1016/j.eclinm.2020.100409].
-The pandemic could also delay the fight against other major infectious diseases, such as HIV, malaria and tuberculosis, potentially leading to a further increase of mortality [@doi:10.25561/78670].
-Although they are beyond the scope of this paper, further research is needed in order to prevent these harms. <!-- there are already some policy recommendations in literature that we cite - we should probably direct folks there. I think we probably want a stronger synthesis and closing than this -->
+A second study by Wyler et al. [@doi:10.1101/2020.05.05.079194] examined three human cell lines: H1299 (human non-small cell lung carcinoma cell line), Calu-3, and Caco-2 (human epithelial colorectal adenocarcinoma cell line).
+They performed a comprehensive analysis of the transcriptional response to SARS-CoV-2 and SARS-CoV at different hpi (4-36 hours) with an MOI of 0.3.
+Using poly(A) bulk RNA-seq, the authors found negligible susceptibility of H1299 cells (< 0.08 viral read percentage of total reads) in contrast to Caco-2 and Calu-3 cells (>10% of viral reads), suggesting a role of cell-type specific host factors.
+Based on visual inspection (microscopy images) and transcriptional profiling, the authors showed distinct responses associated with different hosts following infection.
+In contrast to Caco-2, SARS-CoV-2 infected Calu-3 cells showed signs of impaired growth and cell death at 24 hpi, as well as moderate IFN induction with a strong up-regulation of ISGs.
+Interestingly, the response is similar to SARS-CoV-2 infected Calu-3 cells at ~7-fold higher MOI performed by Blanco-Melo et al., suggesting that IFN induction is not MOI dependent in Calu-3 cells, in contrast to reports using A549-ACE2 cells.
+The discrepancy could be explained by the observations that Calu-3 cells are highly susceptible to SARS-CoV-2 with rapid virus replication [@doi:10.1038/s41467-020-15562-9], whereas A549 cells are incompatible with SARS-CoV-2 infection [@doi:10.1101/2020.03.02.972935].
+We performed a correlation analysis of the host expression response (RNA fold change compared to the mock infection) using the publicly available analyzed data from Blanco-Melo et al. and Wyler et al. (Figure {@fig:cell-lines-moi}B) [@doi:10.1016/j.cell.2020.04.026; @doi:10.1101/2020.05.05.079194].
+In general, we found high correlations among the same host irrespective of the study and the virus infected, suggesting that the response is host-specific.
+For instance, Calu-3 cells infected with SARS-CoV by Wyler et al. and Calu-3 cells infected with SARS-CoV-2 by Blanco-Melo et al. had a Pearson's correlation coefficient of 0.8 (Figure {@fig:cell-lines-moi}B).
+Moreover, COVID-19 patients had the lowest correlations among all the cells used, with the highest value being 0.29.
+This discrepancy suggests that the _in vitro_ models used may not necessarily imitate the human response, underscoring the importance of follow-up in additional models.
 
-#### Molecular Mechanisms of COVID-19 <!--TODO: I think this should be merged with other sections in the intro - cell entry & replication, for instance -->
+![**Profiling and correlation of expression response after respiratory viruses infection in various hosts.** (A) Overview of hosts and respiratory viruses used in two studies [@doi:10.1016/j.cell.2020.04.026; @doi:10.1101/2020.05.05.079194]. MOI:Multiplicity of infections; PFU:Plaque-forming unit; a:ACE2-expressing A549 cells; b:Data used from GSE56192. (B) Pearson's correlation of expression response (Log2 fold change) between various hosts. Note that we used the data from bulk RNA-seq produced after the infection of unmodified viruses.](images/cell-lines-moi.jpg){#fig:cell-lines-moi secno=1}
 
-<!-- How can we evaluate the human response to SARS-CoV-2 on a molecular level?-->
-<!-- What can omics technologies tell us about changes in the body following SARS-CoV-2 infection?-->
-
-Most of our current knowledge of the molecular mechanisms through which SARS-CoV-2 infects cells is obtained from studies on previously identified coronaviruses.
-The entry of a coronavirus into a target cell is mediated by the binding of the viral spike (S) protein to a specific cellular receptor and the subsequent priming/cleavage of the S protein by cellular proteases [@doi:10/cf8chz; @doi:10.1016/j.antiviral.2020.104792].
-Angiotensin-Converting Enzyme 2 (ACE2) and Transmembrane Serine Protease 2 (TMPRSS2) have been identified as a prime receptor and a critical protease, respectively, facilitating SARS-CoV/CoV-2 entry into a target cell [@doi:10.1038/nature02145; @doi:10.1126/science.abb2507; @doi:10.1128/JVI.01542-10; @doi:10.1016/j.cell.2020.02.052; @doi:10.1128/JVI.02232-10].
-This finding has led to a hypothesized role for ACE2 and TMPRSS2 expression in determining which cells, tissues and organs are most likely to be infected by SARS-CoV-2.
-
-Recent clinical investigations of COVID-19 patients have detected SARS-CoV-2 transcripts in bronchoalveolar lavage fluid (93% of specimens), sputum (72%), nasal swabs (63%), fibrobronchoscopy brush biopsies (46%), pharyngeal swabs (32%), feces (29%) and blood (1%) [@doi:10.1001/jama.2020.3786].
-Two studies reported that SARS-CoV-2 could not be detected in the urine specimens [@doi:10.1001/jama.2020.3786; @doi:10.1001/jama.2020.3204]; however, a third study identified four urine samples (out of 58) that were positive for SARS-CoV-2 nucleic acids [@doi:10.1097/CM9.0000000000000774].
-Respiratory failure remains the leading cause of death for COVID-19 patients [@doi:10.1111/his.14134].
-Besides major pulmonary damage, SARS-CoV-2 infection can damage many other organ systems including the heart [@doi:10.1001/jamacardio.2020.0950], kidney [@doi:10.1038/s41585-020-0319-7; @doi:10.1186/s13054-020-02872-z], liver [@doi:10/ggpx6s], and gastrointestinal tract [@doi:10.1053/j.gastro.2020.02.055; @doi:10.1111/1751-2980.12851].
-As it becomes clearer that SARS-CoV-2 infection can damage multiple organs, the scientific community is pursuing multiple avenues of investigation in order to build a consensus about how the virus affects the human body.
-To quickly associate the clinical outcomes with SARS-CoV-2 infection, researchers are taking advantage of “omics” technologies to profile the expression of coronavirus entry factors across the tissues. <!-- TODO: refs? if it stays here -->
-
-### Approaches to Understanding COVID-19 <!-- TODO: based on https://github.com/greenelab/covid19-review/pull/611/files#r472381656 let's come back to this once we restructure (#610 and maybe others) and see if this introduces what we will and won't cover effectively. -->
-
-Scientific characterization of the SARS-CoV-2 virus and of the COVID-19 disease it causes is critical to controlling the current pandemic.
-Several broad areas of research interact with each other, offering different pieces of information critical to understanding the virus and disease.
-A comprehensive understanding of the epidemic must unify biomedical research with public health and biotechnology.
-The current scope of our review focuses primarily on the development of new technologies, both diagnostics and therapeutics.
-
-#### Biomedical Research into Disease Mechanisms
-
-Understanding how the virus functions and interacts with the host is foundational to understanding pathogenesis and disease progression and to identifying available and novel approaches to treatment.
-Therefore, the fields of virology, immunology, and molecular biology are fundamental to characterizing SARS-CoV-2 and COVID-19.
-These topics can be approached using a range of techniques, including characterization of the host response from the cellular to systems level.
-Contextualizing SARS-CoV-2 in relation to other viruses that infect humans and other animals can further serve to elucidate the reaction of the human host to viral exposure.
-This information, when combined with an understanding of the biology of pharmaceutical and medical interventions, can guide new approaches to treatment.
-
-#### Public Health Monitoring and Research
-
-One necessary component of determining how to manage the outbreak is to understand epidemiological factors related to the transmission of the SARS-CoV-2 virus.
-These can include characteristics such as when infected individuals are contagious, how the virus is transmitted between individuals, the range of symptoms associated with infection and/or contagiousness in different individuals, and how rapidly the virus propagates between individuals, etc.
-The development of diagnostic tools is critical to this goal.
-Accurate diagnoses on a large scale is necessary to collect the data needed to develop epidemiological models.
-Other areas of public health that address resource availability, inequity, human behavior, and other components that influence people's exposure to pathogens and ability to manage illness will also be critical to mounting a global response to the pandemic.
-Public health strategies to manage epidemics include anticipation and early detection of emerging diseases (aided by rapid development of diagnostics), containment (using strategies to test, trace and isolate such as widespread testing, contact tracing, quarantining and isolation), control and mitigation of spread (including social distancing), and elimination and eradication.
-An effective public health response requires response coordination, disease surveillance and intervention monitoring, risk communication and health education (including education about personal protective equipment and hand hygiene and containment of “infodemics” of false information), non-pharmaceutical measures to prevent and reduce transmission, and health interventions such as vaccines and other pharmaceuticals that can reduce transmission, curb morbidity and mortality, and mitigate the effects on health systems and other sectors of society [@isbn:978-92-4-156553-0].
-<!--I think non-pharmaceutical interventions are already in categories above (tracing, social distancing, lockdowns etc)-->
-Currently, this manuscript focuses primarily on contextualizing epidemiological characteristics such as reproduction number and dynamics of transmission that intersect with the fundamental biology of the virus or the development of therapeutic and diagnostic technologies.
-
-#### Biotechnology Development
-
-##### Diagnostics
-
-Two major concerns within diagnosis include the detection of current infections in individuals with and without symptoms, and the detection of past exposure without an active infection.
-In the latter category, identifying whether individuals can develop or have developed sustained immunity is also a major consideration.
-The development of high-throughput, affordable methods for detecting active infections and sustained immunity will be critical to understanding and controlling the disease.
-
-<!-- What are approaches that allow us to detect current infection or past exposure for other viruses?-->
-<!-- What is sustained immunity and what are the indicators?-->
-
-##### Therapeutics
-
-The identification of interventions that can mitigate the effect of the virus on exposed and infected individuals is a significant research priority.
-Some possible approaches include the identification of existing pharmaceuticals that reduce the severity of infection, either by reducing the virus' virulence (e.g., antivirals) or managing the most severe symptoms of infection.
-Due to the long timeline for the development of novel pharmaceuticals, in most cases, research surrounding possible pharmaceutical interventions focuses on the identification and investigation of existing compounds whose mechanisms may be relevant to COVID-19.
-Other foci of current research include the identification of antibodies produced by survivors of COVID-19 and the development of vaccines.
-Understanding the mechanisms describing host-virus interactions between humans and SARS-CoV-2 is thus critical to identifying candidate therapeutics.
-
-### Summary
-In this review, we seek to consolidate information about efforts to develop strategies for diagnosis and therapeutics as new information is released by the scientific community.
-We include information from both traditional peer-reviewed scientific literature and from preprints, which typically have not undergone peer review but have been critically evaluated by the scientists involved in this effort.
-The goal of this manuscript is to present preliminary findings within the broader context of COVID-19 research and to identify the broad interpretations of new research, as well as limitations to interpretability.
+<!-- Start with scRNA-seq studies in healthy tissues (may be put this before Blanco-Melo et al), then summarize scRNA-seq studies in COVID-19 patients] -->
 
 
-## Pathogenesis
+## Transmission, Susceptibility, and Presentation
 
-### Mechanism of Host Infection by SARS-CoV-2
+### Mechanism of Transmission
 
-This section would also be great for the introduction of zoonotic diseases which has been shown to be the origin of SARS-CoV2.
+<!-- TODO See https://github.com/greenelab/covid19-review/issues/609 -->
+<!-- Section has not been updated except to define relationship to pathogenesis-->
+In general, respiratory viruses like coronavirus can have multiple routes of person-to-person transmission including droplet transmission (i.e. inhalation for cough, sneeze), aerosol transmission (i.e. virus suspended in air), and contact transmission (i.e. contact with oral, nasal, and eye mucous membranes).
+These biological sources are considered to hold particular risk due to the pathogenesis of the virus (see below).
+Other modes of transmission, such as through touching surfaces or objects and then touching mucous membranes, can also be investigated.
+While droplet-based and contact were initially considered to be the primary modes of SARS-CoV-2 transmission [@doi:10.1038/s41368-020-0075-9], as additional information has emerged, the possibility of aerosol transmission has also been raised [@doi:10.1126/science.abc6197; @doi:10.1056/NEJMc2004973; @doi:10.1093/cid/ciaa939].
+Other aspects of transmission to investigate are the relationship between infectiousness and virus shedding with disease period or symptoms and also the proportions of cases that are attributable to various types of transmission events, such as transmission between relatives, nosocomial transmissions, and other possible types of interactions.
+Some information about these characteristics of transmission are available for the highly pathogenic coronaviruses SARS-CoV and MERS-CoV [@doi:10.1016/B978-0-12-385885-6.00009-2; @doi:10.1038/nrmicro.2016.81].
+For SARS-CoV-2 it is still being investigated whether, in addition to being spread by people who show symptoms,  the virus can be transmitted by people who do not show symptoms [@url:https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/how-covid-spreads.html], such as during the pre-symptomatic stage of infection or in people with asymptomatic infections.
+The current pandemic of COVID-19, caused by the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), represents an acute global health crisis with symptoms for reported cases ranging from mild to severe or fatal [@url:https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html] and including outcomes such as acute respiratory distress, acute lung injury and other pulmonary complications.
+The possibility of asymptomatic cases is also being investigated.
+The transmission and mortality rate estimations of COVID-19 are likely dynamic based on both public health and medical interventions.
+<!-- I think there are better estimates now (about 50% asymptomatic I think, once you take out the presymptomatic).-->
+<!-- Most credible IFR estimates I've seen are between 0.5-1.5%, depending on the population. CFRs will be greater and vary a lot.-->
 
-#### Primary Transmission and Viral Entry
-
-Like that of SARS-CoV, SARS-CoV-2 entry into host cells is mediated by the interaction between the viral spike glycoprotein (S) and human angiotensin-converting enzyme 2 (ACE2) in humans and other animals [@doi:10.1126/science.1116480; @doi:10.1016/j.cell.2020.02.058; @doi:10.1126/science.abb2762; @doi:10.1038/s41586-020-2179-y; @doi:10.1101/2020.02.19.956235; @doi:10.1016/j.cell.2020.02.052; @doi:10.1016/j.cell.2020.03.045; @doi:10.1128/jvi.00127-20].
-The ACE2 receptor is expressed in numerous organs, such as the heart, kidney, and intestine, but most prominently in alveolar epithelial cells, which is expected to contribute to the virus' association with lung pathology [@doi:10.1101/2020.02.24.963348; @doi:10.1007/s00134-020-05985-9].
-The S protein is a highly glycosylated trimer that requires two proteolytic cleavage events, leading to substantial conformational changes, to achieve viral fusion with the host cell membrane [@doi:10.1016/j.cell.2020.02.058; @doi:10.1126/science.abb2507].
-Each protomer is composed of an S1 and an S2 subunit, which mediate receptor binding and viral fusion, respectively.
-The priming proteolytic events occur sequentially, first at the S1/S2 junction and then at the S2’ site, ultimately resulting in the shedding of the S1 subunit and transitioning of the S2 subunit to a more stable, fusion-conducive conformation.
-
-Similar to SARS-CoV, SARS-CoV-2 exhibits redundancy in which host proteases it can use to cleave the S protein [@doi:10.1016/j.cell.2020.02.052].
-Specifically, both transmembrane protease serine protease-2 (TMPRSS2) and cathepsins B/L have been shown to mediate SARS-CoV-2 S protein proteolytic priming, and small molecule inhibition of these enzymes fully inhibited viral entry _in vitro_ [@doi:10.1016/j.cell.2020.02.052; @doi:10.1038/s41467-020-15562-9].
-Interestingly, SARS-CoV-2 S protein also contains a RRAR furin recognition site at the S1/S2 junction [@doi:10.1016/j.cell.2020.02.058; @doi:10.1126/science.abb2507], setting it apart from bat coronavirus RaTG13, with which it shares 96% genome sequence identity, and SARS-CoV [@doi:10.1038/s41586-020-2012-7].
-Such furin cleavage sites are commonly found in highly virulent influenza viruses, and as such may contribute to the heightened pathogenicity of SARS-CoV-2 [@doi:10/bvgh5b; @doi:10.1006/viro.1999.9716].
-Differences in S protein sequence between SARS-CoV and SARS-CoV-2 may also partially account for the increased transmissibility seen in the current COVID-19 pandemic.
-Recent studies have reported conflicting binding constants for the S protein-hACE2 interaction, though they agree that SARS-CoV-2 S protein binds with equal if not greater affinity than does SARS-CoV S protein [@doi:10.1016/j.cell.2020.02.058; @doi:10.1101/2020.02.19.956235; @doi:10.1126/science.abb2507].
-The C-terminal domain of the SARS-CoV-2 S protein in particular was identified as the key region of the virus that interacts with the human ACE2 (hACE2) receptor, and the crystal structure of the C-terminal domain of SARS-CoV-2 S protein in complex with human ACE2 reveals stronger interaction and higher affinity for receptor binding than SARS-CoV [@doi:10.1016/j.cell.2020.03.045].
-Among the 14 key binding residues identified in the SARS-CoV S protein, 8 are conserved in SARS-CoV-2 and the remaining 6 are semi-conservatively substituted, potentially explaining variation in binding affinity [@doi:10.1016/j.cell.2020.02.058; @doi:10.1101/2020.02.19.956235].
-Recent crystal structures have shown that the receptor-binding domain (RBD) of SARS-CoV-2 S protein, like that of other coronaviruses, undergoes stochastic hinge-like movement that flips it from a “closed” conformation, in which key binding residues are hidden at the interface between protomers, to an “open” one [@doi:10.1016/j.cell.2020.02.058; @doi:10.1126/science.abb2507].
-Because the RBD plays such a critical role in viral entry, blocking its interaction with ACE2 represents a promising therapeutic approach. Nevertheless, despite the high structural homology between SARS-CoV-2 RBD and that from SARS-CoV, monoclonal antibodies targeting SARS-CoV-RBD failed to bind SARS-CoV-2-RBD [@doi:10.1126/science.abb2507].
-Promisingly though, sera from convalescent SARS patients inhibited SARS-CoV-2 viral entry in vitro, albeit with lower efficiency than it inhibited SARS-CoV [@doi:10.1016/j.cell.2020.02.052].
-
-#### Viral Replication and Spreading
-
-- Basic introduction into replication cycle
-- What are the routes of transmission
-
-##### Mechanism of viral replication within cells
-
-##### Mechanism of viral spreading to neighbor cells
-
-##### Factors enhancing viral spreading
-
-Viral progression may be enhanced by active upregulation of ACE2 on cell surfaces following or during a response to infection.
-In several preliminary assays and an analysis of previous microarray data, Wang et al. reported that ACE2 is significantly upregulated following infection by other coronaviruses, including SARS-CoV and MERS-CoV, as well as viruses such as rhinovirus and influenza virus [@doi:10.1101/2020.02.24.963348].
-Additionally, direct stimulation with inflammatory cytokines such as type I interferons resulted in the upregulation of ACE2, with treated groups showing 4-fold higher ACE2 expression than control groups at 18 hours post-treatment [@doi:10.1101/2020.02.24.963348].
-Though whether SARS-CoV-2 infection facilitates positive regulation of its own transmission between host cells is still unclear, the host immune response itself likely plays a key role in mediating infection-associated pathologies.
-One severe example includes reports of cytokine storm-like responses in patients with particularly severe infections, in which the overproduction of inflammatory cytokines leads to systemic inflammation and potentially multi-organ failure, which may very well accelerate the spread of virus in the host [@doi:10.1101/2020.02.24.963348; @doi:10/ggnzmc].
-[@doi:10.1016/j.immuni.2020.06.017] describe the concept of the cytokine storm in detail, although [@doi:10.1001/jamainternmed.2020.3313] claim that the widespread use of the term can be misleading.
-
-##### Person-to-person transmission
-
-#### Reproduction Number and Dynamics of Transmission
+### Dynamics of Transmission
 
 Disease spread dynamics can be estimated using R~0~, the basic reproduction number, and R~t~, the effective reproduction number.
 Thus, accurate estimates are crucial to understanding the dynamics of infection and to predict the effects of different interventions.
@@ -973,110 +1010,53 @@ Data and empirically determined biological mechanisms inform models, while model
 Many current efforts to model R~t~ have led to tools that assist the visualization of estimates in real time or over recent intervals [@url:https://epiforecasts.io/covid; @url:https://rt.live].
 While these may be valuable resources, it is important to note that the estimates arise from models containing many assumptions and are dependent on the quality of the data they use, which varies widely by region.
 
-### Immune Response to SARS-CoV-2
+### Factors Influencing Susceptibility
 
-- Cellular responses to SARS-CoV-2 infection
-- What is causing neutropenia and lymphopenia observed in COVID-19 patients
-- Antibody production against SARS-CoV-2 by patient who recovered vs patient who did not recover
-- Cytokines and other soluble factors contribution to immune response
+<!-- TODO: I think this section could use a revisiting. I think we should deal with the male sex and older age portion in an initial paragraph. After that, it looks like the racial burdens are likely to be attributable in large part to systemic racism - incarceration, wage discrimination, housing discrimination, and more - both now and in the past. Right now this jumps around b/w groups and presents discrimination as the basis in disparities as a possibility but not necessarily a likely contributor. I also worry that it makes many of these things research questions, even though one of the resources we cite ( 10.1093/tbm/ibaa055 ) includes policy recommendations. In short, it feels like we list a bunch of proximal causes but don't tie things back to the overarching likely cause. Finally, the way genetic factors are brought up makes me worry that someone might have, as a takeaway, that genetics may play a driving role in disparities at this level. Discussed in https://github.com/greenelab/covid19-review/issues/610 -->
 
-Pathogens infect hosts and are fought by host immune defenses.
-However, pathogens have developed ways to evade the immune system as well as various ways to manipulate the host immunity.
-Other general complexities to consider include the following: disease symptoms can be due to a pathogen or due to the reaction of the immune system to the pathogen; the host immune system can defend against infection but it can also sometimes cause too much damage to the host [@isbn:9780815332183; @isbn:9780071283663].
-For SARS-CoV-2, we briefly mention here some of the reviews which describe the primary research literature so far along with some context.
-There is a review on interferon-mediated innate antiviral responses initiated by the virus-infected cells themselves, which can sometimes have inflammatory and other systemic effects [@doi:10.1016/j.chom.2020.05.008].
-Also, there is a review on the innate immune system response with a focus on innate immune cells and responses other than the interferon-mediated responses; the review also approaches the question of how the innate immune response can confer protection or induce pathogenesis through a dysregulated response [@doi:10.1016/j.chom.2020.05.009].
-There are also acquired immunity responses to SARS-CoV-2.
-There is a review on the levels of different SARS-CoV-2-specific antibodies detected over the course of an infection [@doi:10.3389/fimmu.2020.00879].
-A review of T-cell mediated responses to respiratory coronaviruses notes a large reduction in T-cells associated with the acute phase of SARS (from SARS-CoV-1) [@doi:10.1007/s12026-014-8534-z].
-So far, some articles and reviews on SARS-CoV-2 mention evidence for reduction in the number of CD4 and CD19 T-cells as well as NK-cells [@doi:10.1016/j.chom.2020.04.009; @doi:10.1016/j.chom.2020.05.009].
-As a brief immunology background primer for vaccines, which we discuss later, we note that adaptive immunity also has mechanisms for long-term immunity: during a first exposure to a pathogen innate and also later acquired immune responses operate; at the same time, the acquired immune system forms memory B cells and memory T cells based on this experience so that on a possible future second exposure to the same pathogen an earlier/faster and stronger acquired immune response is generated which largely prevents or greatly reduces infection.
-Vaccines are in general attenuated or inactivated pathogens or antigen parts of pathogens which are meant to generate long-term memory of a pathogen so that if a person is exposed to the same pathogen in the future they will have a strong immunity memory response; we will describe specific research into vaccines in detail later.
-Other immune system features and pathogen-immune system interactions which are related to particular diagnostics and therapeutics are described within the Diagnostics and Therapeutics sections.
+In the context of the United States, persons diagnosed with COVID-19 are more likely to require hospitalization if they are of male sex, of older age, and/or of Black/African American background [@doi:10.1377/hlthaff.2020.00598; @doi:10.15585/mmwr.mm6925e1].
+African Americans have also been reported to have disproportionate risk of kidney complications from COVID-19 [@doi:10.1016/j.kint.2020.05.006].
+In addition to African Americans, disproportionate harm and mortality from COVID-19 has also been noted in Latino/Hispanic communities and in Native American / Alaskan Native communities such as the Navajo nation [@doi:10.1001/jama.2020.8598; @doi:10.1136/bmj.m1483; @doi:10.1111/jrh.12451; https://www.nytimes.com/2020/04/09/us/coronavirus-navajo-nation.html?searchResultPosition=10; @url:https://www.nytimes.com/interactive/2020/07/05/us/coronavirus-latinos-african-americans-cdc-data.html; @doi:10.1093/tbm/ibaa055].
+In Brazil, where the pandemic has also been severe, indigenous communities are likewise at special risk [@doi:10.1126/science.abc0073].
+The sizable racial disparities observed may be due to a number of factors, including different levels of pre-existing co-morbidities, such as hypertension, diabetes or lung diseases.
+They may also be influenced by the disproportionate socioeconomic burdens placed on many people of color, which can correspond to greater economic difficulties, more hazardous or crowded work or living conditions, or reduced access to health care [@doi:10.1377/hlthaff.2020.00598; @doi:10.1016/j.kint.2020.05.006; @doi:10.1001/jamanetworkopen.2020.12403].
+This might cause infections to be less likely to be diagnosed unless or until they were very severe; in the sample studied by [@doi:10.1377/hlthaff.2020.00598], African Americans were more likely to be diagnosed in hospital, while other groups were more likely to have been diagnosed in ambulatory settings in the community.
+More research is needed for analyzing and remediating these disparities [@doi:10.1093/tbm/ibaa055].
 
-### Systems-level approaches for understanding SARS-CoV-2 pathogenesis
+People living in certain locations may be especially vulnerable to harm.
+In a preprint, [@doi:10.1101/2020.04.05.20054502] provided observational evidence that geographical areas in the United States that suffer from worse air pollution by fine particulate matter have also suffered more COVID-19 deaths per capita, after adjusting for demographic covariates.
+Although lack of individual-level exposure data and the impossibility of randomization make it difficult to elucidate the exact causal mechanism, this finding would be consistent with similar findings for all-cause mortality (e.g., [@doi:10.1073/pnas.1803222115]).
+Individuals in nursing homes / skilled nursing facilities [@doi:10.1001/jama.2020.11642] and in some prisons and detention centers [@doi:10.1001/jamainternmed.2020.1856; @doi:10.1001/jama.2020.12528] have also been exposed to higher risk of infection.
+Certain occupations, such as health care work, can put individuals at increased risk [@doi:10.1002/ajim.23145; @doi:10.1371/journal.pone.0232452; @url:https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/causesofdeath/bulletins/coronaviruscovid19relateddeathsbyoccupationenglandandwales/deathsregistereduptoandincluding20april2020; @url:https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/articles/whichoccupationshavethehighestpotentialexposuretothecoronaviruscovid19/2020-05-11;
+@url:https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/892085/disparities_review.pdf].
 
-Systems biology provides a cross-disciplinary analytical platform integrating the different omics (genomics, transcriptomics, proteomics, metabolomics, and other omics approaches), bioinformatics, and computational strategies.
-These cutting-edge research approaches have enormous potential to study the complexity of biological systems and human diseases [@doi:10.1016/j.gpb.2012.08.004].
-Over the last decade, systems biology approaches have been used widely to study the pathogenesis of diverse types of life-threatening acute and chronic infectious diseases [@doi:10.1038/s41576-020-0212-5].
-Omics-based studies also provided meaningful information regarding host immune responses and surrogate protein markers in several viral, bacterial and protozoan infections [@doi:10.1002/prca.201300074].
+Many other factors influence risk of serious COVID-19 outcomes.
+Genetic factors may play a role in risk of respiratory failure for COVID-19 [@doi:10.1056/NEJMoa2020283; @doi:10.1093/gerona/glaa131; @doi:10.1101/2020.06.16.155101].
+Diabetes may increase the risk of lengthy hospitalization [@doi:10.1016/j.cmet.2020.04.021] or of death [@doi:10.1016/j.cmet.2020.04.021;@doi:10.1007/s00592-020-01546-0].
+[@doi:10.1111/dom.14057] and [@doi:10.1152/ajpendo.00124.2020] discuss possible ways in which COVID-19 and diabetes may interact.
+Obesity also appears to be associated with higher risk of severe outcomes from SARS-CoV-2 [@doi:10.1016/j.metabol.2020.154262; @doi:10.1101/2020.04.23.20076042].
+Obesity is considered an underlying risk factor for other health problems, and the mechanism for its contributions to COVID-19 hospitalization or mortality is not yet clear [@doi:10.1016/j.medj.2020.06.005].
 
-The complex pathogenesis and clinical manifestations of SARS-CoV-2 infection are not understood adequately yet.
-A significant breakthrough in SARS-CoV-2 research was achieved through the successful full-length genome sequencing of the pathogen [@doi:10.1038/s41586-020-2008-3; @doi:10/ggjr43; @doi:10.1038/s41586-020-2012-7].
-Multiple research groups have drafted the genome sequence of SARS-CoV-2 based on sequencing of clinical samples collected from bronchoalveolar lavage fluid (BALF) [@doi:10.1038/s41586-020-2008-3; @doi:10.1038/s41586-020-2012-7] or from BALF, throat swabs, or isolates of the virus cultured from BALF [@doi:10/ggjr43].
-Importantly, SARS-CoV-2 has significant sequence homology with SARS-CoV (about 79%) and also to some extent with MERS-CoV (about 50%) [@doi:10/ggjr43].
-However, a higher level of similarity (about 90%) has been observed between SARS-CoV-2 and bat-derived SARS-like coronaviruses (bat-SL-CoVZC45 and bat-SL-CoVZXC21), indicating a possible origin in bats [@doi:10/ggjr43; @doi:10.1038/s41586-020-2012-7].
+Studies of disparities and differences among groups in rates of hospitalization or death from COVID-19 are complicated by the fact that risk may be elevated in multiple ways.
+An individual may be more likely to be exposed to the virus, more likely to get infected once exposed, more likely to have serious complications once infected, be less likely to get adequate help once they are seriously ill.
+Although these are difficult to disaggregate, they suggest different possible interventions and each deserves consideration.
+The epidemiological characteristics and clinical presentation of COVID-19 may differ somewhat in different areas of the world, presumably due to differential reporting, different age structures, and/or different risk factors [@doi:10.1007/s00592-020-01546-0].
+Furthermore, because different subpopulations may have somewhat different vulnerabilities, needs, and resources, we recommend that researchers publishing studies on diagnostics and therapeutics take extra care to be clear about the demographic and medical characteristics of their sample, in order to facilitate discussions of the degree to which results may generalize or differ in other settings.
 
-The genome sequence of the pathogen subsequently allowed its phylogenetic characterization and prediction of its protein expression profile, which is crucial for understanding the pathogenesis and virulence of this novel viral infection.
-Availability of the genome sequence of SARS-CoV-2 enhances the potential for subsequent proteome-level studies to provide further mechanistic insights into the virus' complex pathogenesis.
-Of note, the cryo-electron microscopy structure of the SARS-CoV-2 spike (S) glycoprotein, which plays an important role in the early steps of viral infection, was reported very recently [@doi:10.1126/science.abb2507].
-Even though no comprehensive proteomic analysis of the pathogen or of patients suffering from its infection has yet been reported, one forthcoming study has demonstrated SARS-CoV-2 infected host cell proteomics using human Caco–2 cells as an infection model [@doi:10.1038/s41586-020-2332-7].
-The authors observed SARS-CoV-2 induced alterations in multiple vital physiological pathways, including translation, splicing, carbon metabolism and nucleic acid metabolism in the host cells.
+Several studies on disparities in COVID-19 have compared groups in terms of their probability of a severe outcome (like hospitalization or death) given that a person is diagnosed.
+Early in the pandemic, it is more difficult to study or identify the larger population of all exposed or all infected people because of the existence of undetected infections; over the course of the pandemic, indirect estimates of infection rates through modeling improve and more direct estimates through a combination of serological tests, sampling methods and statistical methods have been made possible through biotechnology developments.
+In contrast, [@doi:10.1038/s41586-020-2521-4] were able to compare overall rates of death from COVID-19, not simply in the subsample of diagnosed individuals, thus combining the probability of infection with the probability of death given infection. <!-- TODO: In contrast with what? -->
+This was done using a dataset of 17 million adults in the United Kingdom.
+In this administrative dataset, [@doi:10.1038/s41586-020-2521-4] found that male sex, older age, economic deprivation, nonwhite ethnicity (principally Black or South Asian), obesity, diabetes,  asthma, and several other comorbid conditions were associated with a higher risk of death from COVID-19.
+They cautioned that despite the large sample size, their observational data did not directly provide information on the causal mechanisms which led to these statistical associations.
+However, the ethnic and economic disparities did not vanish when adjusting for observed preexisting conditions.
+[@doi:10.1038/s41586-020-2521-4] also found that the predictive value of socioeconomic status seemed to increase over time, perhaps because many higher-paid workers were able to transition to working online.
 
-There is a high level of sequence homology between SARS-CoV-2 and SARS-CoV, and sera from convalescent SARS-CoV patients might show some efficacy to cross-neutralize SARS-CoV-2-S-driven entry [@doi:10.1016/j.cell.2020.02.052].
-However, despite the high level of sequence homology, certain protein structures might be immunologically distinct, prohibiting effective cross-neutralization across different SARS strains [@doi:10.1101/2020.03.21.990770].
-Consequently, earlier proteome-level studies on SARS-CoV can also provide some essential information regarding the new pathogen [@doi:10.1073/pnas.0407992101; @doi:10.1016/j.bbrc.2004.02.074].
-Considering the paucity of omics-level big data sets for SARS-CoV-2 up until now, existing data hubs that contain information for other coronaviruses such as UniProt, NCBI Genome Database, The Immune Epitope Database and Analysis Resource (IEDB), and The Virus Pathogen Resource (ViPR) will serve as useful resources for computational and bioinformatics research on SARS-CoV-2.
-Using such databases, the systems level reconstruction of the PPI (Protein-Protein Interaction) enabled the generation of hypotheses on the mechanism of action of SARS-CoV-2 and suggested drug targets.
+Besides the direct harms caused by infection, many populations are in indirect risk of serious harm due to the social and economic effects of the pandemic and of the efforts needed to fight it.
+These might include individuals with substance use disorder [@doi:10.7326/M20-1141], victims of natural disasters [@doi:10.1038/s41558-020-0804-2], and victims of human trafficking [@doi:10.1016/j.eclinm.2020.100409].
+The pandemic could also delay the fight against other major infectious diseases, such as HIV, malaria and tuberculosis, potentially leading to a further increase of mortality [@doi:10.25561/78670].
+Although they are beyond the scope of this paper, further research is needed in order to prevent these harms. <!-- there are already some policy recommendations in literature that we cite - we should probably direct folks there. I think we probably want a stronger synthesis and closing than this -->
 
-#### Protein-protein interaction networks
-
-In an initial study [@doi:10.1101/2020.03.22.002386], 26 of the 29 SARS-CoV-2 proteins were cloned and expressed in HEK293T kidney cells, allowing for the identification of 332 high-confidence human proteins that interact with them.
-Notably, this study suggested that SARS-CoV-2 interacts with innate immunity pathways.
-The ranking of pathogens with respect to their interactome's similarity to SARS-CoV-2 suggested *West Nile Virus*, *Mycobacterium tuberculosis*, and *Human papillomavirus* as the top three hits.
-However, given the lung symptoms associated with COVID-19, the *Mycobacterium tuberculosis* host-pathogen interactome could also provide new insights to the mechanism of SARS-CoV-2 infection.
-In addition, it was suggested that the envelope protein E could disrupt the host bromodomain-containing proteins, i.e., BRD2 and BRD4, binding to histone.
-The Spike protein S could likely intervene in the virus fusion through modulating the GOLGA7-ZDHHC5 acyl-transferase complex to increase palmitoylation.
-
-Another study [@doi:10.1101/2020.03.31.019216], used patient-derived peripheral blood mononuclear cells (PBMCs) to identify 251 host proteins targeted by SARS-CoV-2 and the disruption of more than 200 host proteins following the infection.
-The network analysis showed in particular that non-structural proteins 9 and 10 (nsp9 and nsp10) interacted with NKRF that usually represses NFKB.
-This finding could explain the exacerbation of the immune response that shape the pathology and the high cytokine levels possibly due to the chemotaxis of neutrophils mediated by IL-8 and IL-6.
-Finally, it was suggested [@doi:10.1101/2020.04.09.033522] that protein E of both SARS-CoV and SARS-CoV-2 has a conserved Bcl-2 Homology 3 (BH3)-like motif, that could inhibit anti-apoptosis proteins BCL2 and trigger the apoptosis of T cells.
-Several known compounds were suggested to disrupt the host-pathogen protein interactome were suggested mostly through the inhibition of host proteins.
-
-#### Transcriptomics of COVID-19
-
-To quickly associate the clinical outcomes with SARS-CoV-2 infection, researchers are taking advantage of “omics” technologies to profile the expression of coronavirus entry factors across the tissues/cells and also to measure the host transcriptional response after virus infection.
-Although we make an effort to evaluate all relevant studies, we realize that this area is rapidly evolving.
-
-Two studies profiled expression after SARS-CoV-2 infection in multiple human cell lines (Figure {@fig:cell-lines-moi}A) [@doi:10.1016/j.cell.2020.04.026; @doi:10.1101/2020.05.05.079194].
-The first study, which is by Blanco-Melo et al., performed an in-depth analysis of the transcriptional response to SARS-CoV-2 in comparison to other respiratory viruses, including MERS-CoV, SARS-CoV, human parainfluenza virus 3 (HPIV3), respiratory syncytial virus (RSV), and influenza A virus (IAV).
-They analyzed the responses of three human cell lines: A549 (adenocarcinomic human alveolar basal epithelial cells), Calu-3 (human airway epithelial cells derived from human bronchial submucosal glands), and MRC-5 (human fetal lung fibroblast cells).
-As the viral receptor ACE2 has low expression in A549 cells, authors also supplemented A549 cells with adenovirus (AdV)-based vectors expressing mCherry (a fluorescent protein used as a control) or ACE2 (A549-ACE2).
-All infections were performed at a high multiplicity of infections (MOI, 2–5), with the exception of A549-ACE2 cells, which were infected with SARS-CoV-2 at both low (0.2 MOI) and high MOI (2 MOI).
-Poly(A) bulk RNA sequencing (RNA-seq) of host cells was performed at 24 hours post-infection (hpi) of all the viruses except IAV (9-12 hours).
-The authors also measured host transcriptional responses to SARS-CoV-2 in primary normal human bronchial epithelial cells (HBEC or NHBE cells), nasal washes of ferrets as an animal model, and lung samples from two COVID-19 patients.
-Additionally, they measured transcriptional responses to IAV in NHBE cells and nasal washes of ferrets.
-Differential expression (DE) analysis was then carried out to compare infected cells with control cells that underwent only a mock treatment.
-In general, the interferons (IFNs) activate intracellular antimicrobial programs and are the major first line of defense against viruses [@doi:10.1016/j.chom.2020.05.008].
-IFNs are a type of cytokines along with chemokines, interleukins (IL), lymphokines and tumor necrosis factor (TNF).
-Cytokines can be classified based on the nature of the immune response or based on their specific roles, as reviewed by [@doi:10.1016/j.bbamcr.2014.05.014]).
-In the hosts where SARS-CoV-2 was able to replicate efficiently, DE analysis revealed that the transcriptional response was significantly different from the response to all of the other viruses tested.
-A unique proinflammatory cytokine signature associated with SARS-CoV-2 was present under both high- and low-MOI conditions.
-The cytokines IL-6 and IL1RA were uniquely elevated in response to SARS-CoV-2.
-However, A549-ACE2 cells in the low-MOI condition showed no significant IFN-I or IFN-III expression, but did in cells at high MOI.
-This finding suggests that IFN induction is MOI dependent.
-Similarly, in cells from the NHBE line, ferrets, and COVID-19 patients, they found significant enrichment of chemokine signaling but no significant induction of IFN-I or IFN-III.
-Together, these results suggest that in contrast to common respiratory viruses, SARS-CoV-2 induces a limited antiviral state with low IFN-I or IFN-III expression and a moderate IFN-stimulated genes (ISG) response.
-However, the low IFN induction in ACE2-expressing A549 cells could be overcome by using a 10-fold increase in SARS-CoV-2 (MOI, 2), suggesting a SARS-CoV-2 antagonist that is rendered ineffective under high-MOI conditions [@doi:10.1016/j.cell.2020.04.026].
-This hypothesis was further supported by a recent study [@doi:10.1101/2020.05.11.088179] that showed that the SARS-CoV-2 _ORF3b_ gene suppresses IFNB1 promoter activity (IFN-I induction) more efficiently than the SARS-CoV_ORF3b_ gene, which is considerably longer.
-
-A second study by Wyler et al. [@doi:10.1101/2020.05.05.079194] examined three human cell lines: H1299 (human non-small cell lung carcinoma cell line), Calu-3, and Caco-2 (human epithelial colorectal adenocarcinoma cell line).
-They performed a comprehensive analysis of the transcriptional response to SARS-CoV-2 and SARS-CoV at different hpi (4-36 hours) with an MOI of 0.3.
-Using poly(A) bulk RNA-seq, the authors found negligible susceptibility of H1299 cells (< 0.08 viral read percentage of total reads) in contrast to Caco-2 and Calu-3 cells (>10% of viral reads), suggesting a role of cell-type specific host factors.
-Based on visual inspection (microscopy images) and transcriptional profiling, the authors showed distinct responses associated with different hosts following infection.
-In contrast to Caco-2, SARS-CoV-2 infected Calu-3 cells showed signs of impaired growth and cell death at 24 hpi, as well as moderate IFN induction with a strong up-regulation of ISGs.
-Interestingly, the response is similar to SARS-CoV-2 infected Calu-3 cells at ~7-fold higher MOI performed by Blanco-Melo et al., suggesting that IFN induction is not MOI dependent in Calu-3 cells, in contrast to reports using A549-ACE2 cells.
-The discrepancy could be explained by the observations that Calu-3 cells are highly susceptible to SARS-CoV-2 with rapid virus replication [@doi:10.1038/s41467-020-15562-9], whereas A549 cells are incompatible with SARS-CoV-2 infection [@doi:10.1101/2020.03.02.972935].
-We performed a correlation analysis of the host expression response (RNA fold change compared to the mock infection) using the publicly available analyzed data from Blanco-Melo et al. and Wyler et al. (Figure {@fig:cell-lines-moi}B) [@doi:10.1016/j.cell.2020.04.026; @doi:10.1101/2020.05.05.079194].
-In general, we found high correlations among the same host irrespective of the study and the virus infected, suggesting that the response is host-specific.
-For instance, Calu-3 cells infected with SARS-CoV by Wyler et al. and Calu-3 cells infected with SARS-CoV-2 by Blanco-Melo et al. had a Pearson's correlation coefficient of 0.8 (Figure {@fig:cell-lines-moi}B).
-Moreover, COVID-19 patients had the lowest correlations among all the cells used, with the highest value being 0.29.
-This discrepancy suggests that the _in vitro_ models used may not necessarily imitate the human response, underscoring the importance of follow-up in additional models.
-
-![**Profiling and correlation of expression response after respiratory viruses infection in various hosts.** (A) Overview of hosts and respiratory viruses used in two studies [@doi:10.1016/j.cell.2020.04.026; @doi:10.1101/2020.05.05.079194]. MOI:Multiplicity of infections; PFU:Plaque-forming unit; a:ACE2-expressing A549 cells; b:Data used from GSE56192. (B) Pearson's correlation of expression response (Log2 fold change) between various hosts. Note that we used the data from bulk RNA-seq produced after the infection of unmodified viruses.](images/cell-lines-moi.jpg){#fig:cell-lines-moi secno=1}
-
-<!-- Start with scRNA-seq studies in healthy tissues (may be put this before Blanco-Melo et al), then summarize scRNA-seq studies in COVID-19 patients] -->
 
 
 ## Diagnostics
@@ -1313,7 +1293,7 @@ The study types include only types used in at least five trials.
 The common interventions are all interventions used in at least ten trials.
 Combinations of interventions, such as Hydroxychloroquine + Azithromycin, are tallied separately from the individual interventions.
 Trials data are from the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709].
-](https://github.com/greenelab/covid19-review/raw/f42fe8f8d45417f45c0a9cd5edfcd55a990fed7b/ebmdatalab/ebmdatalab-trials.svg "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/1b8b8587e308d72f2eb64552425a242509904dce/ebmdatalab/ebmdatalab-trials.svg "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 
 ### Treatment of Symptoms
