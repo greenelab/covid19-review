@@ -861,8 +861,9 @@ Phosphoinositol
 photochemistry
 photoprotective
 phycocyanobilin
-Phylogenetic
-Phylogenetics
+phylogenetic
+phylogenetically
+phylogenetics
 picolinate
 Picornaviridae
 PLA
