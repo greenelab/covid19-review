@@ -5,10 +5,10 @@ dperrin
 dvvg
 el
 LHA
-mangul
+Mangul
 Perrin
-Serghei
-shikta
+serghei
+Shikta
 shiktadas
 smangul
 SystemsResearch
