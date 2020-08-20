@@ -52,6 +52,7 @@ ARBs
 Arbidol
 ARDS
 arrhythmias
+arXiv
 ASBT
 Ashwin
 aspartate
@@ -289,6 +290,7 @@ DiscoTope
 Disulfiram
 docosahexaenoic
 doi
+DOIs
 downregulated
 dPCR
 Drosten
@@ -304,6 +306,7 @@ dziakj
 DZNE
 Eberwine
 ebm
+EBM's
 ebolavirus
 EBOV
 Ebselen
@@ -397,6 +400,7 @@ Gautret
 GBMF
 generalizability
 genomic
+geopandas
 GFP
 ggjr
 ggjvr
@@ -676,8 +680,9 @@ MAPK
 Markus
 Marouen
 marouenbg
-matfax
 Marseille
+matfax
+MatPlotLib
 Matsuyama
 MAVS
 MBP
@@ -938,6 +943,7 @@ pts
 pubmed
 PUFA
 PUMC
+pycountry
 pyrazinecarboxamide
 pyrithione
 Qi
