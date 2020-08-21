@@ -749,6 +749,7 @@ multiorgan
 multisystem
 mutagenesis
 myalgia
+myalgias
 Mycobacterium
 myeloma
 MZ
