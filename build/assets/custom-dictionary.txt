@@ -832,6 +832,7 @@ Palivizumab
 palmitoylation
 PAMPs
 Paneth
+pangolin
 pangolins
 PaO
 papillomavirus
@@ -996,6 +997,7 @@ Retinopathy
 rhamnosus
 Rhinolophus
 rhinorrhea
+Ribavirin
 riboendonuclease
 ribonucleoside
 ribonucleotide
