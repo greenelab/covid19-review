@@ -182,7 +182,7 @@ def main(args):
     # https://github.com/ebmdatalab/covid_trials_tracker-covid/blob/6c2b9965b170aa6c53e7f755692a4f221de694bf/notebooks/diffable_python/ictrp_data_handling.py#L544
     header = ['index', 'trial_id', 'registry', 'registration_date', 'start_date', \
               'retrospective_registration', 'sponsor', 'recruitment_status', \
-              'phase', 'study_type', 'countries', 'title', 'study_category', \
+              'phase', 'study_type', 'countries', 'title', 'acronym', 'study_category', \
               'intervention', 'intervention_list', 'enrollment', \
               'primary_completion_date', 'full_completion_date', 'registy_url', \
               'results_type', 'results_published_date', 'results_url', 'last_updated', \
