@@ -9,6 +9,7 @@ acetylcysteine
 acknowledgements
 Actemra
 adamlmaclean
+adaptor
 adenocarcinomic
 adenosine
 adenovirus
@@ -292,6 +293,7 @@ docosahexaenoic
 doi
 DOIs
 downregulated
+downregulates
 dPCR
 Drosten
 DSHEA
@@ -330,6 +332,7 @@ endo
 endocytose
 endocytosis
 endonuclease
+endonucleolytic
 endosomal
 endosomes
 endothelium
@@ -1162,6 +1165,7 @@ TTCR
 Tübingen
 TUNEL
 turbinate
+ubiquitination
 UC
 UCI
 umifenovir
