@@ -53,6 +53,7 @@ ARBs
 Arbidol
 ARDS
 arrhythmias
+arXiv
 ASBT
 Ashwin
 aspartate
@@ -290,6 +291,7 @@ DiscoTope
 Disulfiram
 docosahexaenoic
 doi
+DOIs
 downregulated
 downregulates
 dPCR
@@ -306,6 +308,7 @@ dziakj
 DZNE
 Eberwine
 ebm
+EBM's
 ebolavirus
 EBOV
 Ebselen
@@ -400,6 +403,7 @@ Gautret
 GBMF
 generalizability
 genomic
+geopandas
 GFP
 ggjr
 ggjvr
@@ -679,8 +683,9 @@ MAPK
 Markus
 Marouen
 marouenbg
-matfax
 Marseille
+matfax
+MatPlotLib
 Matsuyama
 MAVS
 MBP
@@ -747,6 +752,7 @@ multiorgan
 multisystem
 mutagenesis
 myalgia
+myalgias
 Mycobacterium
 myeloma
 MZ
@@ -829,6 +835,7 @@ Palivizumab
 palmitoylation
 PAMPs
 Paneth
+pangolin
 pangolins
 PaO
 papillomavirus
@@ -864,8 +871,9 @@ Phosphoinositol
 photochemistry
 photoprotective
 phycocyanobilin
-Phylogenetic
-Phylogenetics
+phylogenetic
+phylogenetically
+phylogenetics
 picolinate
 Picornaviridae
 PLA
@@ -940,6 +948,7 @@ pts
 pubmed
 PUFA
 PUMC
+pycountry
 pyrazinecarboxamide
 pyrithione
 Qi
@@ -991,6 +1000,7 @@ Retinopathy
 rhamnosus
 Rhinolophus
 rhinorrhea
+Ribavirin
 riboendonuclease
 ribonucleoside
 ribonucleotide
