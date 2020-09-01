@@ -136,6 +136,7 @@ Calu
 camostat
 Cao
 capita
+capsid
 capsids
 Carleton
 Carmofour
@@ -273,6 +274,7 @@ deltoid
 demethylases
 Dendritic
 Deprez
+der
 detectible
 DETECTR
 DeVito
@@ -1084,6 +1086,7 @@ SRC
 ssRNA
 sterically
 strikethrough
+subclades
 subgenus
 submicromolar
 submucosal
@@ -1210,6 +1213,7 @@ VPM
 von
 VSV
 VWF
+Waals
 WBC
 WBCs
 Wellhausen
