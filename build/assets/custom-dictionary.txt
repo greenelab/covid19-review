@@ -201,6 +201,7 @@ ConSurf
 contaminations
 contexture
 COPD
+coronaviral
 Coronaviridae
 Coronavirus
 coronaviruses
@@ -794,6 +795,7 @@ NHC
 NHGRI
 niclosamide
 Nidovirales
+nidoviruses
 Nie
 Nils
 nilswellhausen
@@ -835,6 +837,7 @@ overexpression
 overexuberant
 Palivizumab
 palmitoylation
+PAMP
 PAMPs
 Paneth
 pangolin
@@ -983,6 +986,7 @@ re
 reactogenicity
 Readme
 recombinant
+reexposure
 remdesivir
 remediating
 Renmin
