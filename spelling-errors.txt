@@ -6,7 +6,7 @@ dperrin
 dvvg
 el
 LHA
-Mangul
+mangul
 Perrin
 serghei
 shikta
