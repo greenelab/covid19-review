@@ -677,3 +677,19 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-08-13
+  -
+    github: gregszetoAI
+    name: Gregory L Szeto
+    initials: GLS
+    orcid: 0000-0001-7604-1333
+    twitter: greg_szeto
+    email: greg.szeto@alleninstitute.org
+    contributions:
+      - Writing - Review & Editing
+    affiliations:
+      - Allen Institute for Immunology, Seattle, WA, United States of America
+    code of conduct:
+      confirmed: Yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-09-04
