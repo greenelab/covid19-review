@@ -7,9 +7,9 @@ dvvg
 el
 gregszetoAI
 LHA
-mangul
+Mangul
 Perrin
-Serghei
+serghei
 shikta
 shiktadas
 smangul
