@@ -101,6 +101,7 @@ biolayer
 biologics
 biomarker
 biomarkers
+biomedicine
 bioorganometallic
 Biopharma
 bioRxiv
@@ -336,6 +337,7 @@ endocytose
 endocytosis
 endonuclease
 endonucleolytic
+endophenotypic
 endosomal
 endosomes
 endothelium
