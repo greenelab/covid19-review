@@ -46,6 +46,7 @@ anticorrelated
 antifungal
 antiphospholipid
 antiplatelet
+antiproliferative
 antithrombotic
 ApoA
 ARB
@@ -533,6 +534,7 @@ immunofluorescent
 immunogenic
 immunogenicity
 immunohistochemistry
+immunohistological
 immunoinformatics
 immunologically
 immunomodulating
@@ -557,6 +559,7 @@ INOVIO
 integrase
 interactome
 interactome’s
+intercellular
 interferometry
 interferons
 interleukins
@@ -892,6 +895,7 @@ plasmids
 plasmon
 plc
 PLD
+pleiotropic
 Plitt
 PMBCs
 pmc
