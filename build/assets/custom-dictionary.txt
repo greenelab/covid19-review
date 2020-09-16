@@ -15,6 +15,7 @@ adenosine
 adenovirus
 adjuvant
 adjuvants
+aerosolized
 affinis
 agitter
 Agostino
@@ -392,6 +393,7 @@ fluticasone
 FN
 foci
 follicular
+fomite
 FOS
 FP
 FPLC
@@ -653,6 +655,7 @@ Liu
 lkolla
 LNP
 LNPs
+lockdown
 Lokits
 lopinavir
 Lordan
@@ -1220,6 +1223,7 @@ vivo
 VL
 Vmax
 VPM
+Vo
 von
 VSV
 VWF
