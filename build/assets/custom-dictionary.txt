@@ -546,6 +546,7 @@ immunomodulatory
 immunopathology
 immunophenotyping
 immunoprecipitation
+immunoregulatory
 immunostimulants
 immunosuppressant
 immunosuppression
