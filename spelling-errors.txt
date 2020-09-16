@@ -14,5 +14,5 @@ shikta
 shiktadas
 smangul
 SystemsResearch
-szeto
+Szeto
 TRAF
