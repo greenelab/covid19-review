@@ -518,6 +518,7 @@ IFN
 IFNB
 IFNs
 IFNy
+IFR
 IG
 IgA
 IgG
