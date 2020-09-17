@@ -1,6 +1,6 @@
 Centre
 chz
-das
+Das
 Dimitri
 dperrin
 dvvg
@@ -14,5 +14,5 @@ shikta
 shiktadas
 smangul
 SystemsResearch
-Szeto
+szeto
 TRAF
