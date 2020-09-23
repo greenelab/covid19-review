@@ -1,6 +1,6 @@
 Centre
 chz
-Das
+das
 Dimitri
 dperrin
 dvvg
@@ -9,10 +9,10 @@ gregszetoAI
 LHA
 Mangul
 Perrin
-Serghei
+serghei
 shikta
 shiktadas
 smangul
 SystemsResearch
-szeto
+Szeto
 TRAF
