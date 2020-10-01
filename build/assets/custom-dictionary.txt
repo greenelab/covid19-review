@@ -486,6 +486,7 @@ HLA
 HMGBs
 hoc
 homology
+homozygosity
 hpi
 HPIV
 HPLC
@@ -1073,8 +1074,10 @@ Sergey
 seroconversion
 seroconverted
 serologic
-Serological
+serological
 seronegative
+seroprevalence
+serosurvey
 serosurveys
 severities
 SEYAR
