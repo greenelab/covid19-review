@@ -1,3 +1,4 @@
+BAME
 Centre
 chz
 Das
@@ -9,9 +10,10 @@ gregszetoAI
 LHA
 Mangul
 Perrin
-Serghei
-Shikta
+serghei
+shikta
 shiktadas
+SinsOfOmission
 smangul
 SystemsResearch
 Szeto
