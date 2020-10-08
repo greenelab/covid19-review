@@ -1,1 +1,13 @@
 content/08.transmission.md:242:BAME
+content/20.treatments.md:130:polyproteins
+content/20.treatments.md:131:polyproteins
+content/20.treatments.md:139:carmofur
+content/20.treatments.md:141:organoselenium
+content/20.treatments.md:143:selenosulfide
+content/20.treatments.md:144:antioxidative
+content/20.treatments.md:145:ebeslen
+content/20.treatments.md:146:ebselen's
+content/20.treatments.md:554:oncolytic
+content/20.treatments.md:554:virotherapy
+content/20.treatments.md:555:catabolized
+content/20.treatments.md:557:physiochemical
