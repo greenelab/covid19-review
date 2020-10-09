@@ -4,7 +4,7 @@ carmofur
 catabolized
 Centre
 chz
-Das
+das
 Dimitri
 dperrin
 dvvg
@@ -13,7 +13,7 @@ ebselen’s
 el
 gregszetoAI
 LHA
-mangul
+Mangul
 oncolytic
 organoselenium
 Perrin
@@ -21,11 +21,11 @@ physiochemical
 polyproteins
 selenosulfide
 Serghei
-Shikta
+shikta
 shiktadas
 SinsOfOmission
 smangul
 SystemsResearch
-szeto
+Szeto
 TRAF
 virotherapy
