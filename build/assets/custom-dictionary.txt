@@ -586,6 +586,7 @@ INOVIO
 integrase
 interactome
 interactome’s
+interactomes
 intercellular
 intercorrelated
 interferometry
