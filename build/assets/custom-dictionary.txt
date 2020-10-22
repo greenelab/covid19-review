@@ -1239,7 +1239,8 @@ umifenovir
 Umland
 unadjusted
 uncoating
-Underexplored
+underexplored
+underinsured
 underpowered
 underreported
 unicode
