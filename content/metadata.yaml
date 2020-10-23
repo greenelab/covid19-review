@@ -602,6 +602,8 @@ authors:
       - Writing - Original Draft
     affiliations:
       - Mercer University, Macon, GA, United States of America
+    code of conduct:
+      confirmed: yes
     coi:
       string: "None"
       lastapproved: !!str 2020-07-22
