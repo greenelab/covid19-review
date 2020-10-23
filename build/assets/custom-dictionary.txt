@@ -624,7 +624,7 @@ kDa
 KDM
 kevinsunofficial
 kilobases
-kilodaltons
+kilodalton
 kinases
 Knyazev
 Kolla
@@ -691,6 +691,7 @@ macrolides
 Macromolecular
 macromolecules
 Macrophage
+Madin
 maEBOV
 Magen
 Mahmood
@@ -757,6 +758,7 @@ Moretti
 Morgridge
 mortem
 Mpro
+Mpro's
 mprobson
 MRC
 mRNA
