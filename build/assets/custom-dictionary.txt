@@ -13,6 +13,7 @@ adaptor
 adenocarcinomic
 adenosine
 adenovirus
+Adhanom
 adjuvant
 adjuvants
 aerosolized
@@ -178,6 +179,8 @@ chemotaxis
 Chloroquine
 Cholangiocyte
 cholangiocytes
+choropleth
+choropleths
 chromatographic
 chz
 Ciclesonide
@@ -438,6 +441,7 @@ ggks
 ggnzmc
 GG
 GGO
+Ghebreyesus
 Ghosh
 GISAID
 github
@@ -549,7 +553,7 @@ IgM
 IGs
 IHC
 immunoanalysis
-Immunoassay
+immunoassay
 immunochromatographic
 immunochromatography
 immunocompromised
@@ -576,6 +580,7 @@ immunosuppressant
 immunosuppression
 immunosuppressive
 IMV
+inconclusivity
 infectable
 infectivity
 infodemic
@@ -1183,6 +1188,7 @@ tamefoxtime
 TaqMan
 TCR
 TCZ
+Tedros
 TEM
 TfH
 TFN
