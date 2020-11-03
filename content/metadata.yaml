@@ -19,6 +19,8 @@ authors:
       - Writing - Original Draft
       - Writing - Review & Editing
       - Methodology
+    code of conduct:
+      confirmed: Yes
     affiliations:
       - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
     coi:
@@ -37,6 +39,8 @@ authors:
       - Conceptualization
       - Software
       - Writing - Review & Editing
+    code of conduct:
+      confirmed: No
     affiliations:
       - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
       - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Philadelphia, Pennsylvania, United States of America
@@ -54,6 +58,8 @@ authors:
     email: michael.robson@villanova.edu
     contributions:
       - Software
+    code of conduct:
+      confirmed: No
     affiliations:
       - Department of Computing Sciences, Villanova University, Villanova, Pennsylvania, United States of America
     coi:
@@ -68,6 +74,8 @@ authors:
     contributions:
       - Methodology
       - Writing - Review & Editing
+    code of conduct:
+      confirmed: No
     affiliations:
       - Innovation Center for Biomedical Informatics, Georgetown University Medical Center, Washington, District of Columbia, United States of America
     coi:
@@ -84,6 +92,8 @@ authors:
       - Writing - Review & Editing
       - Project Administration
       - Visualization
+    code of conduct:
+      confirmed: No
     affiliations:
       - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
     coi:
@@ -99,6 +109,8 @@ authors:
     contributions:
       - Writing - Original Draft
       - Writing - Review & Editing
+    code of conduct:
+      confirmed: No
     affiliations:
       - Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104-5158, USA
     coi:
@@ -115,6 +127,8 @@ authors:
       - Writing - Original Draft
       - Writing - Review & Editing
       - Project Administration
+    code of conduct:
+      confirmed: No
     affiliations:
       - Department of Clinical Sciences, Lund University, Lund, Sweden
     coi:
@@ -128,6 +142,8 @@ authors:
     email: sandipan.ray@pennmedicine.upenn.edu
     contributions:
       - Writing - Original Draft
+    code of conduct:
+      confirmed: No
     affiliations:
       - Department of Systems Pharmacology & Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
       - Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
@@ -144,6 +160,8 @@ authors:
     contributions:
       - Methodology
       - Writing - Original Draft
+    code of conduct:
+      confirmed: No
     affiliations:
       - Department of Mathematics and Statistics, Wake Forest University, Winston-Salem, North Carolina, United States of America
     coi:
@@ -182,6 +200,8 @@ authors:
     contributions:
       - Writing - Original Draft
       - Writing - Review & Editing
+    code of conduct:
+      confirmed: No
     affiliations:
       - Department of Microbiology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
     coi:
@@ -196,6 +216,8 @@ authors:
     email: anna.dattoli@pennmedicine.upenn.edu
     contributions:
       - Writing - Original Draft
+    code of conduct:
+      confirmed: No
     affiliations:
       - Department of Systems Pharmacology & Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
     coi:
@@ -210,6 +232,8 @@ authors:
     contributions:
       - Methodology
       - Software
+    code of conduct:
+      confirmed: No
     affiliations:
       - Azimuth1, McLean, VA
     coi:
@@ -225,6 +249,8 @@ authors:
     contributions:
       - Writing - Original Draft
       - Writing - Review & Editing
+    code of conduct:
+      confirmed: No
     affiliations:
       - Department of Physics and Astronomy, University of California-Riverside, Riverside, California, United States of America
     coi:
@@ -238,6 +264,8 @@ authors:
     email: jfield@upenn.edu
     contributions:
       - Writing - Original Draft
+    code of conduct:
+      confirmed: No
     affiliations:
       - Department of Pharmacology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
     coi:
@@ -253,6 +281,8 @@ authors:
     contributions:
       - Investigation
       - Writing - Review & Editing
+    code of conduct:
+      confirmed: No
     affiliations:
       - The DeepChem Project, https://deepchem.io/
     coi:
@@ -267,6 +297,8 @@ authors:
     email: macleana@usc.edu
     contributions:
       - Writing - Original Draft
+    code of conduct:
+      confirmed: No
     affiliations:
       - Department of Biological Sciences, University of Southern California, Los Angeles, California, United States of America
     coi:
@@ -280,6 +312,8 @@ authors:
     email: ajlee21@pennmedicine.upenn.edu
     contributions:
       - Writing - Original Draft
+    code of conduct:
+      confirmed: No
     affiliations:
       - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
     coi:
@@ -293,6 +327,8 @@ authors:
     initials: IIISM
     contributions:
       - Data Curation
+    code of conduct:
+      confirmed: No
     affiliations:
       - Immunology Institute of the Icahn School of Medicine
     coi:
@@ -308,6 +344,8 @@ authors:
     contributions:
       - Writing - Original Draft
       - Writing - Review & Editing
+    code of conduct:
+      confirmed: No
     affiliations:
       - Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
     coi:
@@ -323,6 +361,8 @@ authors:
     contributions:
       - Writing - Original Draft
       - Writing - Review & Editing
+    code of conduct:
+      confirmed: No
     affiliations:
     - Biomedical Science, Midwestern University, Glendale, AZ, United States of America
     - Department of Neuroscience, Carleton University, Ottawa, Ontario, Canada
@@ -340,6 +380,8 @@ authors:
     contributions:
       - Writing - Original Draft
       - Writing - Review & Editing
+    code of conduct:
+      confirmed: No
     affiliations:
       - Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
     coi:
@@ -353,6 +395,8 @@ authors:
     email: jinhui2@pennmedicine.upenn.edu
     contributions:
       - Writing - Revising & Editing
+    code of conduct:
+      confirmed: No
     affiliations:
       - Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
     coi:
@@ -455,6 +499,8 @@ authors:
     email: soumita84@gmail.com
     contributions:
       - Writing - Original Draft
+    code of conduct:
+      confirmed: No
     affiliations:
       - Institute of Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
     coi:
