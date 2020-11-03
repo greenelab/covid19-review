@@ -98,7 +98,7 @@ authors:
       - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
     coi:
       string: "None"
-      lastapproved: !!str 2020-03-22
+      lastapproved: !!str 2020-11-03
   -
     github: RLordan
     name: Ronan Lordan
