@@ -115,7 +115,7 @@ authors:
       - Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104-5158, USA
     coi:
       string: "None"
-      lastapproved: !!str 2020-08-13
+      lastapproved: !!str 2020-11-03
   -
     github: cbrueffer
     name: Christian Brueffer
