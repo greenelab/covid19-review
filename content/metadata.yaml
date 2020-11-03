@@ -93,12 +93,12 @@ authors:
       - Project Administration
       - Visualization
     code of conduct:
-      confirmed: No
+      confirmed: Yes
     affiliations:
       - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
     coi:
       string: "None"
-      lastapproved: !!str 2020-03-22
+      lastapproved: !!str 2020-11-03
   -
     github: RLordan
     name: Ronan Lordan
@@ -110,12 +110,12 @@ authors:
       - Writing - Original Draft
       - Writing - Review & Editing
     code of conduct:
-      confirmed: No
+      confirmed: Yes
     affiliations:
       - Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104-5158, USA
     coi:
       string: "None"
-      lastapproved: !!str 2020-08-13
+      lastapproved: !!str 2020-11-03
   -
     github: cbrueffer
     name: Christian Brueffer
