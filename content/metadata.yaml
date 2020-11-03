@@ -455,7 +455,7 @@ authors:
       confirmed: yes
     coi:
       string: "None"
-      lastapproved: !!str 2020-04-17
+      lastapproved: !!str 2020-11-04
   -
     github: likhithakolla
     name: Likhitha Kolla
