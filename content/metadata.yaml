@@ -80,7 +80,7 @@ authors:
       - Innovation Center for Biomedical Informatics, Georgetown University Medical Center, Washington, District of Columbia, United States of America
     coi:
       string: "None"
-      lastapproved: !!str 2020-08-12
+      lastapproved: !!str 2020-11-07
   -
     github: nilswellhausen
     name: Nils Wellhausen
