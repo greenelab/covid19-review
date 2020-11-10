@@ -434,11 +434,11 @@ authors:
     affiliations:
       - Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
       - Institute for Immunology, University of Pennsylvania Perelman School of Medicine, Philadelphia, United States of America
-    code of conduct:
+    code of conduct: yes
       confirmed: yes
     coi:
       string: "None"
-      lastapproved: !!str 2020-04-16
+      lastapproved: !!str 2020-11-11
     funders:
       - NIH Medical Scientist Training Program T32 GM07170
   -
