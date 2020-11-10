@@ -702,6 +702,7 @@ LSH
 Lubitz
 LucyMcGowan
 LucyStats
+Lukan
 Lund
 Lv
 LW
@@ -1198,6 +1199,7 @@ TCR
 TCZ
 Tedros
 TEM
+Temitayo
 TfH
 TFN
 TGF
@@ -1217,6 +1219,7 @@ titers
 TLM
 TLR
 TLRs
+tlukan
 TMPRSS
 TNF
 Tnfa
