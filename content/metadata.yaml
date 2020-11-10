@@ -233,12 +233,12 @@ authors:
       - Methodology
       - Software
     code of conduct:
-      confirmed: No
+      confirmed: Yes
     affiliations:
       - Azimuth1, McLean, VA
     coi:
       string: "None"
-      lastapproved: !!str 2020-04-04
+      lastapproved: !!str 2020-11-10
   -
     github: johnbarton
     name: John P. Barton
