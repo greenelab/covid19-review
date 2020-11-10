@@ -670,7 +670,7 @@ authors:
       confirmed: yes
     coi:
       string: "None"
-      lastapproved: !!str 2020-08-26
+      lastapproved: !!str 2020-11-10
   -
     github: Sergey-Knyazev
     name: Sergey Knyazev
