@@ -612,7 +612,7 @@ authors:
       lastapproved: !!str 2020-08-12
   -
     github: kevinsunofficial
-    name: YuCheng Sun
+    name: Yuchen Sun
     initials: YS
     email: ys4aj@virginia.edu
     contributions:
@@ -623,7 +623,7 @@ authors:
       confirmed: yes
     coi:
       string: "None"
-      lastapproved: !!str 2020-07-09
+      lastapproved: !!str 2020-11-11
   -
     github: qiyanjun
     name: Yanjun Qi
