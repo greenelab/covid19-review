@@ -187,8 +187,8 @@ authors:
     code of conduct:
       confirmed: Yes
     coi:
-      string: "Filed a provisional patent application with the Wisconsin Alumni Research Foundation related to classifying activated T cells"
-      lastapproved: !!str 2020-08-12
+      string: "Filed a patent application with the Wisconsin Alumni Research Foundation related to classifying activated T cells"
+      lastapproved: !!str 2020-11-10
     funders:
       - John W. and Jeanne M. Rowe Center for Research in Virology
   -
