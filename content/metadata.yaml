@@ -312,13 +312,14 @@ authors:
     email: ajlee21@pennmedicine.upenn.edu
     contributions:
       - Writing - Original Draft
+      - Writing - Review & Editing
     code of conduct:
-      confirmed: No
+      confirmed: Yes
     affiliations:
       - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
     coi:
       string: "None"
-      lastapproved: !!str 2020-04-07
+      lastapproved: !!str 2020-11-09
     funders:
       - the Gordon and Betty Moore Foundation (GBMF 4552)
   -
@@ -500,12 +501,12 @@ authors:
     contributions:
       - Writing - Original Draft
     code of conduct:
-      confirmed: No
+      confirmed: yes
     affiliations:
       - Institute of Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
     coi:
       string: "None"
-      lastapproved: !!str 2020-04-28
+      lastapproved: !!str 2020-11-09
   -
     github: matfax
     name: Matthias Fax
