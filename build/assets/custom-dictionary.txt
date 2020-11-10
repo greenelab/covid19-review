@@ -343,6 +343,7 @@ ECMO
 ectodomain
 EF
 effector
+EFIC
 EFSA
 eGFR
 eicosapentaenoic
@@ -397,6 +398,7 @@ Favipiravir
 FBG
 Fc
 FCN
+FDA's
 FDP
 Fengling
 ferritin
@@ -667,6 +669,7 @@ Lactobacillus
 Lafaille
 Lamonica
 latex
+Latinx
 lavages
 LDH
 Lectin
@@ -882,6 +885,8 @@ organoids
 organoselenium
 Orthocoronavirinae
 Oseltamivir
+othered
+othering
 overexpressing
 overexpression
 overexuberant
