@@ -742,3 +742,19 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-09-04
+  - 
+    github: lubianat
+    name: Tiago Lubiana 
+    initials: TL
+    orcid: 0000-0003-2473-2313
+    twitter: lubianat
+    email: tiago.lubiana.alves@usp.br
+    contributions:
+      - Writing - Review & Editing
+    affiliations:
+      - Department of Clinical and Toxicological Analyses, School of Pharmaceutical Sciences, University of São Paulo, São Paulo, Brazil
+    code of conduct:
+      confirmed: Yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-11-11
