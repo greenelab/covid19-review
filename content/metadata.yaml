@@ -161,12 +161,12 @@ authors:
       - Methodology
       - Writing - Original Draft
     code of conduct:
-      confirmed: No
+      confirmed: Yes
     affiliations:
       - Department of Mathematics and Statistics, Wake Forest University, Winston-Salem, North Carolina, United States of America
     coi:
-      string: "None"
-      lastapproved: !!str 2020-03-26
+      string: "Received consulting fees from Acelity and Sanofi in the past five years"
+      lastapproved: !!str 2020-11-10
   -
     github: agitter
     name: Anthony Gitter
@@ -609,7 +609,7 @@ authors:
       confirmed: yes
     coi:
       string: "None"
-      lastapproved: !!str 2020-08-12
+      lastapproved: !!str 2020-11-11
   -
     github: kevinsunofficial
     name: YuCheng Sun
