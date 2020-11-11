@@ -486,12 +486,13 @@ authors:
       - Writing - Original Draft
       - Investigation
     affiliations:
+      - 1DaySooner, Delaware, United States of America
       - Risk and Health Communication Research Center, School of Public Health, University of Haifa, Haifa, Israel
     code of conduct:
       confirmed: yes
     coi:
       string: "None"
-      lastapproved: !!str 2020-04-28
+      lastapproved: !!str 2020-11-11
   -
     github: soumitagh
     name: Soumita Ghosh
