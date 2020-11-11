@@ -133,7 +133,7 @@ authors:
       - Department of Clinical Sciences, Lund University, Lund, Sweden
     coi:
       string: Employee and shareholder of SAGA Diagnostics AB.
-      lastapproved: !!str 2020-11-07
+      lastapproved: !!str 2020-11-11
   -
     github: rays1987
     name: Sadipan Ray
@@ -383,12 +383,12 @@ authors:
       - Writing - Original Draft
       - Writing - Review & Editing
     code of conduct:
-      confirmed: No
+      confirmed: Yes
     affiliations:
       - Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
     coi:
       string: "None"
-      lastapproved: !!str 2020-04-10
+      lastapproved: !!str 2020-11-11
   -
     github: jinhui2
     name: Jinhui Wang
@@ -604,6 +604,7 @@ authors:
     email: dziakj1@gmail.com
     contributions:
       - Writing - Original Draft
+      - Writing - Review & Editing
     affiliations:
       - Edna Bennett Pierce Prevention Research Center, The Pennsylvania State University, University Park, PA, United States of America
     code of conduct:
@@ -741,3 +742,19 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-09-04
+  - 
+    github: lubianat
+    name: Tiago Lubiana 
+    initials: TL
+    orcid: 0000-0003-2473-2313
+    twitter: lubianat
+    email: tiago.lubiana.alves@usp.br
+    contributions:
+      - Writing - Review & Editing
+    affiliations:
+      - Department of Clinical and Toxicological Analyses, School of Pharmaceutical Sciences, University of São Paulo, São Paulo, Brazil
+    code of conduct:
+      confirmed: Yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-11-11
