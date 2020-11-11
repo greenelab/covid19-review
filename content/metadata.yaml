@@ -434,7 +434,7 @@ authors:
     affiliations:
       - Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
       - Institute for Immunology, University of Pennsylvania Perelman School of Medicine, Philadelphia, United States of America
-    code of conduct: yes
+    code of conduct:
       confirmed: yes
     coi:
       string: "None"
