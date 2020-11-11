@@ -654,7 +654,7 @@ authors:
       confirmed: yes
     coi:
       string: "None"
-      lastapproved: !!str 2020-07-22
+      lastapproved: !!str 2020-11-11
     funders:
       - the Center for Global Genomics and Health Equity at the University of Pennsylvania
   -
