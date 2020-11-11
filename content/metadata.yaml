@@ -297,13 +297,14 @@ authors:
     email: macleana@usc.edu
     contributions:
       - Writing - Original Draft
+      - Writing - Review & Editing
     code of conduct:
-      confirmed: No
+      confirmed: Yes
     affiliations:
       - Department of Biological Sciences, University of Southern California, Los Angeles, California, United States of America
     coi:
       string: "None"
-      lastapproved: !!str 2020-04-06
+      lastapproved: !!str 2020-11-11
   -
     github: ajlee21
     name: Alexandra J. Lee
