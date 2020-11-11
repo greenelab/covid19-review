@@ -250,12 +250,12 @@ authors:
       - Writing - Original Draft
       - Writing - Review & Editing
     code of conduct:
-      confirmed: No
+      confirmed: Yes
     affiliations:
       - Department of Physics and Astronomy, University of California-Riverside, Riverside, California, United States of America
     coi:
       string: "None"
-      lastapproved: !!str 2020-04-06
+      lastapproved: !!str 2020-11-11
   -
     github: Jeff-Field
     name: Jeffrey M. Field
