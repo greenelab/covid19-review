@@ -192,22 +192,6 @@ authors:
     funders:
       - John W. and Jeanne M. Rowe Center for Research in Virology
   -
-    github: rmrussell
-    name: Ronnie M. Russell
-    initials: RMR
-    orcid: 0000-0003-1484-4207
-    email: russr@pennmedicine.upenn.edu
-    contributions:
-      - Writing - Original Draft
-      - Writing - Review & Editing
-    code of conduct:
-      confirmed: No
-    affiliations:
-      - Department of Microbiology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
-    coi:
-      string: "None"
-      lastapproved: !!str 2020-04-07
-  -
     github: aadattoli
     name: Anna Ada Dattoli
     initials: AAD
