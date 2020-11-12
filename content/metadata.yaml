@@ -59,12 +59,12 @@ authors:
     contributions:
       - Software
     code of conduct:
-      confirmed: No
+      confirmed: Yes
     affiliations:
       - Department of Computing Sciences, Villanova University, Villanova, Pennsylvania, United States of America
     coi:
       string: "None"
-      lastapproved: !!str 2020-03-23
+      lastapproved: !!str 2020-11-12
   -
     github: SiminaB
     name: Simina M. Boca
