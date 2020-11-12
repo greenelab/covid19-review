@@ -1,4 +1,5 @@
 ## Appendix B {.page_break_before}
+Contributors were asked to complete this template to summarize and evaluate new papers related to diagnostics.
 
 
 <!--Hi there! Please use the template below as a guide for what information about this paper to include. It's ok to leave fields blank so that other contributors can fill them in later, or to add fields that you think are important.-->
@@ -167,6 +168,7 @@ _Check off the components as they are completed. If the component is not applica
 - [ ] Summary of reliability
 
 ## Appendix C {.page_break_before}
+Contributors were asked to complete this template to summarize and evaluate new papers related to therapeutics.
 
 
 <!--Hi there! Please use the template below as a guide for what information about this paper to include. It's ok to leave fields blank so that other contributors can fill them in later, or to add fields that you think are important.-->
@@ -366,6 +368,7 @@ _Check off the components as they are completed. If the component is not applica
 - [ ] Summary of reliability
 
 ## Appendix D {.page_break_before}
+Contributors were asked to complete this template to summarize and evaluate new papers related to topics besides therapeutics and diagnostics.
 
 
 <!--Hi there! Please use the template below as a guide for what information about this paper to include. It's ok to leave fields blank so that other contributors can fill them in later, or to add fields that you think are important.-->
