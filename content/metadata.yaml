@@ -250,12 +250,12 @@ authors:
     contributions:
       - Writing - Original Draft
     code of conduct:
-      confirmed: No
+      confirmed: yes
     affiliations:
       - Department of Pharmacology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
     coi:
       string: "None"
-      lastapproved: !!str 2020-03-30
+      lastapproved: !!str 2020-11-12
   -
     github: rbharath
     name: Bharath Ramsundar
@@ -526,7 +526,7 @@ authors:
       confirmed: yes
     coi:
       string: "Funded by FastGrants to conduct a COVID-19-related clinical trial"
-      lastapproved: !!str 2020-04-23
+      lastapproved: !!str 2020-11-12
     funders:
       - NIH K23HL128909
       - FastGrants
