@@ -866,6 +866,7 @@ Nutraceuticals
 O’Meara
 obesogenic
 OC
+ODSP
 olfaction
 omics
 oncolytic
@@ -1088,6 +1089,7 @@ Sadipan
 Salomé
 Samarth
 Sangeun
+Sanofi
 SaO
 SAR
 sarbecovirus

@@ -133,7 +133,7 @@ authors:
       - Department of Clinical Sciences, Lund University, Lund, Sweden
     coi:
       string: Employee and shareholder of SAGA Diagnostics AB.
-      lastapproved: !!str 2020-11-07
+      lastapproved: !!str 2020-11-11
   -
     github: rays1987
     name: Sadipan Ray
@@ -161,12 +161,12 @@ authors:
       - Methodology
       - Writing - Original Draft
     code of conduct:
-      confirmed: No
+      confirmed: Yes
     affiliations:
       - Department of Mathematics and Statistics, Wake Forest University, Winston-Salem, North Carolina, United States of America
     coi:
-      string: "None"
-      lastapproved: !!str 2020-03-26
+      string: "Received consulting fees from Acelity and Sanofi in the past five years"
+      lastapproved: !!str 2020-11-10
   -
     github: agitter
     name: Anthony Gitter
@@ -250,12 +250,12 @@ authors:
       - Writing - Original Draft
       - Writing - Review & Editing
     code of conduct:
-      confirmed: No
+      confirmed: Yes
     affiliations:
       - Department of Physics and Astronomy, University of California-Riverside, Riverside, California, United States of America
     coi:
       string: "None"
-      lastapproved: !!str 2020-04-06
+      lastapproved: !!str 2020-11-11
   -
     github: Jeff-Field
     name: Jeffrey M. Field
@@ -282,12 +282,12 @@ authors:
       - Investigation
       - Writing - Review & Editing
     code of conduct:
-      confirmed: No
+      confirmed: Yes
     affiliations:
       - The DeepChem Project, https://deepchem.io/
     coi:
       string: "None"
-      lastapproved: !!str 2020-04-06
+      lastapproved: !!str 2020-11-11
   -
     github: alavendelm
     name: Adam L. MacLean
@@ -297,13 +297,14 @@ authors:
     email: macleana@usc.edu
     contributions:
       - Writing - Original Draft
+      - Writing - Review & Editing
     code of conduct:
-      confirmed: No
+      confirmed: Yes
     affiliations:
       - Department of Biological Sciences, University of Southern California, Los Angeles, California, United States of America
     coi:
       string: "None"
-      lastapproved: !!str 2020-04-06
+      lastapproved: !!str 2020-11-11
   -
     github: ajlee21
     name: Alexandra J. Lee
@@ -382,12 +383,12 @@ authors:
       - Writing - Original Draft
       - Writing - Review & Editing
     code of conduct:
-      confirmed: No
+      confirmed: Yes
     affiliations:
       - Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
     coi:
       string: "None"
-      lastapproved: !!str 2020-04-10
+      lastapproved: !!str 2020-11-11
   -
     github: jinhui2
     name: Jinhui Wang
@@ -438,7 +439,7 @@ authors:
       confirmed: yes
     coi:
       string: "None"
-      lastapproved: !!str 2020-04-16
+      lastapproved: !!str 2020-11-11
     funders:
       - NIH Medical Scientist Training Program T32 GM07170
   -
@@ -456,7 +457,7 @@ authors:
       confirmed: yes
     coi:
       string: "None"
-      lastapproved: !!str 2020-11-04
+      lastapproved: !!str 2020-11-11
   -
     github: likhithakolla
     name: Likhitha Kolla
@@ -595,7 +596,7 @@ authors:
       confirmed: yes
     coi:
       string: "None"
-      lastapproved: !!str 2020-08-12
+      lastapproved: !!str 2020-11-11
   -
     github: dziakj1
     name: John J. Dziak
@@ -604,6 +605,7 @@ authors:
     email: dziakj1@gmail.com
     contributions:
       - Writing - Original Draft
+      - Writing - Review & Editing
     affiliations:
       - Edna Bennett Pierce Prevention Research Center, The Pennsylvania State University, University Park, PA, United States of America
     code of conduct:
@@ -613,7 +615,7 @@ authors:
       lastapproved: !!str 2020-11-11
   -
     github: kevinsunofficial
-    name: YuCheng Sun
+    name: Yuchen Sun
     initials: YS
     email: ys4aj@virginia.edu
     contributions:
@@ -624,7 +626,7 @@ authors:
       confirmed: yes
     coi:
       string: "None"
-      lastapproved: !!str 2020-07-09
+      lastapproved: !!str 2020-11-11
   -
     github: qiyanjun
     name: Yanjun Qi
@@ -654,7 +656,7 @@ authors:
       confirmed: yes
     coi:
       string: "None"
-      lastapproved: !!str 2020-07-22
+      lastapproved: !!str 2020-11-11
     funders:
       - the Center for Global Genomics and Health Equity at the University of Pennsylvania
   -
@@ -691,7 +693,7 @@ authors:
       confirmed: yes
     coi:
       string: "None"
-      lastapproved: !!str 2020-08-11
+      lastapproved: !!str 2020-11-11
   -
     github: smangul1
     name: Serghei Mangul
@@ -741,3 +743,19 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-09-04
+  - 
+    github: lubianat
+    name: Tiago Lubiana 
+    initials: TL
+    orcid: 0000-0003-2473-2313
+    twitter: lubianat
+    email: tiago.lubiana.alves@usp.br
+    contributions:
+      - Writing - Review & Editing
+    affiliations:
+      - Department of Clinical and Toxicological Analyses, School of Pharmaceutical Sciences, University of São Paulo, São Paulo, Brazil
+    code of conduct:
+      confirmed: Yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-11-11
