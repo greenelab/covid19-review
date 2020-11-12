@@ -14810,8 +14810,8 @@
       "date-parts": [
         [
           2020,
-          6,
-          3
+          2,
+          19
         ]
       ]
     },
@@ -29354,7 +29354,7 @@
         ]
       ]
     },
-    "abstract": "The outbreak of the novel coronavirus disease 2019 (COVID-19) infection began in December 2019 in Wuhan, and rapidly spread to many provinces in China. The number of cases has increased markedly in Anhui, but information on the clinical characteristics of patients is limited. We reported 75 patients with COVID-19 in the First Affiliated Hospital of USTC from Jan 21 to Feb 16, 2020, Hefei, Anhui Province, China. COVID-19 infection was confirmed by real-time RT-PCR of respiratory nasopharyngeal swab samples. Epidemiological, clinical and laboratory data were collected and analyzed. Of the 75 patients with COVID-19, 61 (81.33%) had a direct or indirect exposure history to Wuhan. Common symptoms at onset included fever (66 [88.0%] of 75 patients) and dry cough (62 [82.67%]). Of the patients without fever, cough could be the only or primary symptom. The most prominent laboratory abnormalities were lymphopenia, decreased percentage of lymphocytes (LYM%), decreased CD4+ and CD8+ T cell counts, elevated C-reactive protein (CRP) and lactate dehydrogenase (LDH). Patients with elevated interleukin 6 (IL-6) showed significant decreases in the LYM%, CD4+ and CD8+ T cell counts. Besides, the percentage of neutrophils, CRP, LDH and Procalcitonin levels increased significantly. We concluded that COVID-19 could cause different degrees of hematological abnormalities and damage of internal organs. Hematological profiles including LYM, LDH, CRP and IL-6 could be indicators of diseases severity and evaluation of treatment effectiveness. Antiviral treatment requires a comprehensive and supportive approach. Further targeted therapy should be determined based on individual clinical manifestations and laboratory indicators.",
+    "abstract": "The outbreak of the novel coronavirus disease 2019 (COVID-19) infection began in December 2019 in Wuhan, and rapidly spread to many provinces in China. The number of cases has increased markedly in Anhui, but information on the clinical characteristics of patients is limited. We reported 75 patients with COVID-19 in the First Affiliated Hospital of USTC from Jan 21 to Feb 16, 2020, Hefei, Anhui Province, China. COVID-19 infection was confirmed by real-time RT-PCR of respiratory nasopharyngeal swab samples. Epidemiological, clinical and laboratory data were collected and analyzed. Of the 75 patients with COVID-19, 61 (81.33%) had a direct or indirect exposure history to Wuhan. Common symptoms at onset included fever (66 [88.0%] of 75 patients) and dry cough (62 [82.67%]). Of the patients without fever, cough could be the only or primary symptom. The most prominent laboratory abnormalities were lymphopenia, decreased percentage of lymphocytes (LYM%), decreased CD4 and CD8 T cell counts, elevated C-reactive protein (CRP) and lactate dehydrogenase (LDH). Patients with elevated interleukin 6 (IL-6) showed significant decreases in the LYM%, CD4 and CD8 T cell counts. Besides, the percentage of neutrophils, CRP, LDH and Procalcitonin levels increased significantly. We concluded that COVID-19 could cause different degrees of hematological abnormalities and damage of internal organs. Hematological profiles including LYM, LDH, CRP and IL-6 could be indicators of diseases severity and evaluation of treatment effectiveness. Antiviral treatment requires a comprehensive and supportive approach. Further targeted therapy should be determined based on individual clinical manifestations and laboratory indicators.",
     "container-title": "Cold Spring Harbor Laboratory",
     "DOI": "10.1101/2020.03.01.20029785",
     "publisher": "Cold Spring Harbor Laboratory",

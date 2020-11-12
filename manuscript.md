@@ -47,7 +47,7 @@ bibliography:
 - content/manual-references.bib
 - content/manual-references.json
 date-meta: '2020-11-12'
-header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta name=\"citation_title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta property=\"og:title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta property=\"twitter:title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta name=\"dc.date\" content=\"2020-11-12\" />\n<meta name=\"citation_publication_date\" content=\"2020-11-12\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Halie M. Rando\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7688-1770\" />\n<meta name=\"twitter:creator\" content=\"@tamefoxtime\" />\n<meta name=\"citation_author\" content=\"Casey S. Greene\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Childhood Cancer Data Lab, Alex&#39;s Lemonade Stand Foundation, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8713-9213\" />\n<meta name=\"twitter:creator\" content=\"@GreeneScientist\" />\n<meta name=\"citation_author\" content=\"Michael P. Robson\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computing Sciences, Villanova University, Villanova, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-4859-0033\" />\n<meta name=\"citation_author\" content=\"Simina M. Boca\" />\n<meta name=\"citation_author_institution\" content=\"Innovation Center for Biomedical Informatics, Georgetown University Medical Center, Washington, District of Columbia, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1400-3398\" />\n<meta name=\"citation_author\" content=\"Nils Wellhausen\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8955-7582\" />\n<meta name=\"citation_author\" content=\"Ronan Lordan\" />\n<meta name=\"citation_author_institution\" content=\"Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104-5158, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-9668-3368\" />\n<meta name=\"twitter:creator\" content=\"@el_ronan\" />\n<meta name=\"citation_author\" content=\"Christian Brueffer\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical Sciences, Lund University, Lund, Sweden\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3826-0989\" />\n<meta name=\"twitter:creator\" content=\"@cbrueffer\" />\n<meta name=\"citation_author\" content=\"Sandipan Ray\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology &amp; Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA\" />\n<meta name=\"citation_author_institution\" content=\"Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9960-5768\" />\n<meta name=\"citation_author\" content=\"Lucy D\\&#39;Agostino McGowan\" />\n<meta name=\"citation_author_institution\" content=\"Department of Mathematics and Statistics, Wake Forest University, Winston-Salem, North Carolina, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7297-9359\" />\n<meta name=\"twitter:creator\" content=\"@LucyStats\" />\n<meta name=\"citation_author\" content=\"Anthony Gitter\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Morgridge Institute for Research, Madison, Wisconsin, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5324-9833\" />\n<meta name=\"twitter:creator\" content=\"@anthonygitter\" />\n<meta name=\"citation_author\" content=\"Anna Ada Dattoli\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology &amp; Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1462-831X\" />\n<meta name=\"twitter:creator\" content=\"@aadattoli\" />\n<meta name=\"citation_author\" content=\"Ryan Velazquez\" />\n<meta name=\"citation_author_institution\" content=\"Azimuth1, McLean, VA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3655-3403\" />\n<meta name=\"citation_author\" content=\"John P. Barton\" />\n<meta name=\"citation_author_institution\" content=\"Department of Physics and Astronomy, University of California-Riverside, Riverside, California, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1467-421X\" />\n<meta name=\"twitter:creator\" content=\"@_jpbarton\" />\n<meta name=\"citation_author\" content=\"Jeffrey M. Field\" />\n<meta name=\"citation_author_institution\" content=\"Department of Pharmacology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7161-7284\" />\n<meta name=\"citation_author\" content=\"Bharath Ramsundar\" />\n<meta name=\"citation_author_institution\" content=\"The DeepChem Project, https://deepchem.io/\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8450-4262\" />\n<meta name=\"twitter:creator\" content=\"@rbhar90\" />\n<meta name=\"citation_author\" content=\"Adam L. MacLean\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biological Sciences, University of Southern California, Los Angeles, California, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0689-7907\" />\n<meta name=\"twitter:creator\" content=\"@adamlmaclean\" />\n<meta name=\"citation_author\" content=\"Alexandra J. Lee\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0208-3730\" />\n<meta name=\"citation_author\" content=\"Immunology Institute of the Icahn School of Medicine\" />\n<meta name=\"citation_author_institution\" content=\"Immunology Institute of the Icahn School of Medicine\" />\n<meta name=\"citation_author\" content=\"Fengling Hu\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1081-5038\" />\n<meta name=\"twitter:creator\" content=\"@hufengling\" />\n<meta name=\"citation_author\" content=\"Nafisa M. Jadavji\" />\n<meta name=\"citation_author_institution\" content=\"Biomedical Science, Midwestern University, Glendale, AZ, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Department of Neuroscience, Carleton University, Ottawa, Ontario, Canada\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3557-7307\" />\n<meta name=\"twitter:creator\" content=\"@nafisajadavji\" />\n<meta name=\"citation_author\" content=\"Elizabeth Sell\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9658-1107\" />\n<meta name=\"citation_author\" content=\"Jinhui Wang\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5796-8130\" />\n<meta name=\"citation_author\" content=\"Diane N. Rafizadeh\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Department of Chemistry, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2838-067X\" />\n<meta name=\"citation_author\" content=\"Ashwin N. Skelly\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Institute for Immunology, University of Pennsylvania Perelman School of Medicine, Philadelphia, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1565-3376\" />\n<meta name=\"citation_author\" content=\"Marouen Ben Guebila\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics, Harvard School of Public Health, Boston, Massachusetts, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-5934-966X\" />\n<meta name=\"twitter:creator\" content=\"@marouenbg\" />\n<meta name=\"citation_author\" content=\"Likhitha Kolla\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1169-906X\" />\n<meta name=\"twitter:creator\" content=\"@lkolla2018\" />\n<meta name=\"citation_author\" content=\"David Manheim\" />\n<meta name=\"citation_author_institution\" content=\"1DaySooner, Delaware, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Risk and Health Communication Research Center, School of Public Health, University of Haifa, Haifa, Israel\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8599-8380\" />\n<meta name=\"twitter:creator\" content=\"@davidmanheim\" />\n<meta name=\"citation_author\" content=\"Soumita Ghosh\" />\n<meta name=\"citation_author_institution\" content=\"Institute of Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2783-2750\" />\n<meta name=\"citation_author\" content=\"Matthias Fax\" />\n<meta name=\"citation_author_institution\" content=\"greensolid technologies, Bavaria, Germany\" />\n<meta name=\"citation_author_institution\" content=\"IEEE Reliability Society, Vienna, Austria\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0064-395X\" />\n<meta name=\"citation_author\" content=\"James Brian Byrd\" />\n<meta name=\"citation_author_institution\" content=\"University of Michigan School of Medicine, Ann Arbor, Michigan, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0509-3520\" />\n<meta name=\"twitter:creator\" content=\"@thebyrdlab\" />\n<meta name=\"citation_author\" content=\"YoSon Park\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0465-4744\" />\n<meta name=\"twitter:creator\" content=\"@__yoson__\" />\n<meta name=\"citation_author\" content=\"Vikas Bansal\" />\n<meta name=\"citation_author_institution\" content=\"Biomedical Data Science and Machine Learning Group, DZNE, T\xFCbingen, Germany\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0944-7226\" />\n<meta name=\"twitter:creator\" content=\"@VikasBansal1989\" />\n<meta name=\"citation_author\" content=\"Stephen Capone\" />\n<meta name=\"citation_author_institution\" content=\"St. George&#39;s University School of Medicine, St. George&#39;s, Grenada\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7231-1535\" />\n<meta name=\"citation_author\" content=\"John J. Dziak\" />\n<meta name=\"citation_author_institution\" content=\"Edna Bennett Pierce Prevention Research Center, The Pennsylvania State University, University Park, PA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0762-5495\" />\n<meta name=\"citation_author\" content=\"Yuchen Sun\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computer Science, University of Virginia, Charlottesville, VA, United States of America\" />\n<meta name=\"citation_author\" content=\"Yanjun Qi\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computer Science, University of Virginia, Charlottesville, VA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5796-7453\" />\n<meta name=\"citation_author\" content=\"Lamonica Shinholster\" />\n<meta name=\"citation_author_institution\" content=\"Mercer University, Macon, GA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-6285-005X\" />\n<meta name=\"citation_author\" content=\"Sergey Knyazev\" />\n<meta name=\"citation_author_institution\" content=\"Georgia State University, GA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0385-1831\" />\n<meta name=\"twitter:creator\" content=\"@SeKnyaz\" />\n<meta name=\"citation_author\" content=\"Dimitri Perrin\" />\n<meta name=\"citation_author_institution\" content=\"School of Computer Science, Queensland University of Technology, Brisbane, Australia\" />\n<meta name=\"citation_author_institution\" content=\"Centre for Data Science, Queensland University of Technology, Brisbane, Australia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-4007-5256\" />\n<meta name=\"twitter:creator\" content=\"@dperrin\" />\n<meta name=\"citation_author\" content=\"Serghei Mangul\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical Pharmacy, School of Pharmacy, University of Southern California, CA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-4770-3443\" />\n<meta name=\"twitter:creator\" content=\"@serghei_mangul\" />\n<meta name=\"citation_author\" content=\"Shikta Das\" />\n<meta name=\"citation_author_institution\" content=\"C4X Discovery, London, United Kingdom\" />\n<meta name=\"citation_author_institution\" content=\"Medical Research Council LHA, Institute of Cardiovascular Studies, University College London, London, United Kingdom\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-8291-2788\" />\n<meta name=\"twitter:creator\" content=\"@shikta_das\" />\n<meta name=\"citation_author\" content=\"Gregory L Szeto\" />\n<meta name=\"citation_author_institution\" content=\"Allen Institute for Immunology, Seattle, WA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7604-1333\" />\n<meta name=\"twitter:creator\" content=\"@greg_szeto\" />\n<meta name=\"citation_author\" content=\"Tiago Lubiana\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical and Toxicological Analyses, School of Pharmaceutical Sciences, University of S\xE3o Paulo, S\xE3o Paulo, Brazil\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2473-2313\" />\n<meta name=\"twitter:creator\" content=\"@lubianat\" />\n<link rel=\"canonical\" href=\"https://greenelab.github.io/covid19-review/\" />\n<meta property=\"og:url\" content=\"https://greenelab.github.io/covid19-review/\" />\n<meta property=\"twitter:url\" content=\"https://greenelab.github.io/covid19-review/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://greenelab.github.io/covid19-review/\" />\n<meta name=\"citation_pdf_url\" content=\"https://greenelab.github.io/covid19-review/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://greenelab.github.io/covid19-review/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://greenelab.github.io/covid19-review/v/9c1a41dac501719b5f7cb1893d0465ecef812a73/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://greenelab.github.io/covid19-review/v/9c1a41dac501719b5f7cb1893d0465ecef812a73/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://greenelab.github.io/covid19-review/v/9c1a41dac501719b5f7cb1893d0465ecef812a73/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<meta property=\"og:image\" content=\"https://github.com/greenelab/covid19-review/raw/9c1a41dac501719b5f7cb1893d0465ecef812a73/content/images/thumbnail.png\" />\n<meta property=\"twitter:image\" content=\"https://github.com/greenelab/covid19-review/raw/9c1a41dac501719b5f7cb1893d0465ecef812a73/content/images/thumbnail.png\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
+header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta name=\"citation_title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta property=\"og:title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta property=\"twitter:title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta name=\"dc.date\" content=\"2020-11-12\" />\n<meta name=\"citation_publication_date\" content=\"2020-11-12\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Halie M. Rando\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7688-1770\" />\n<meta name=\"twitter:creator\" content=\"@tamefoxtime\" />\n<meta name=\"citation_author\" content=\"Casey S. Greene\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Childhood Cancer Data Lab, Alex&#39;s Lemonade Stand Foundation, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8713-9213\" />\n<meta name=\"twitter:creator\" content=\"@GreeneScientist\" />\n<meta name=\"citation_author\" content=\"Michael P. Robson\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computing Sciences, Villanova University, Villanova, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-4859-0033\" />\n<meta name=\"citation_author\" content=\"Simina M. Boca\" />\n<meta name=\"citation_author_institution\" content=\"Innovation Center for Biomedical Informatics, Georgetown University Medical Center, Washington, District of Columbia, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1400-3398\" />\n<meta name=\"citation_author\" content=\"Nils Wellhausen\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8955-7582\" />\n<meta name=\"citation_author\" content=\"Ronan Lordan\" />\n<meta name=\"citation_author_institution\" content=\"Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104-5158, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-9668-3368\" />\n<meta name=\"twitter:creator\" content=\"@el_ronan\" />\n<meta name=\"citation_author\" content=\"Christian Brueffer\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical Sciences, Lund University, Lund, Sweden\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3826-0989\" />\n<meta name=\"twitter:creator\" content=\"@cbrueffer\" />\n<meta name=\"citation_author\" content=\"Sandipan Ray\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology &amp; Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA\" />\n<meta name=\"citation_author_institution\" content=\"Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9960-5768\" />\n<meta name=\"citation_author\" content=\"Lucy D\\&#39;Agostino McGowan\" />\n<meta name=\"citation_author_institution\" content=\"Department of Mathematics and Statistics, Wake Forest University, Winston-Salem, North Carolina, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7297-9359\" />\n<meta name=\"twitter:creator\" content=\"@LucyStats\" />\n<meta name=\"citation_author\" content=\"Anthony Gitter\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Morgridge Institute for Research, Madison, Wisconsin, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5324-9833\" />\n<meta name=\"twitter:creator\" content=\"@anthonygitter\" />\n<meta name=\"citation_author\" content=\"Anna Ada Dattoli\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology &amp; Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1462-831X\" />\n<meta name=\"twitter:creator\" content=\"@aadattoli\" />\n<meta name=\"citation_author\" content=\"Ryan Velazquez\" />\n<meta name=\"citation_author_institution\" content=\"Azimuth1, McLean, VA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3655-3403\" />\n<meta name=\"citation_author\" content=\"John P. Barton\" />\n<meta name=\"citation_author_institution\" content=\"Department of Physics and Astronomy, University of California-Riverside, Riverside, California, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1467-421X\" />\n<meta name=\"twitter:creator\" content=\"@_jpbarton\" />\n<meta name=\"citation_author\" content=\"Jeffrey M. Field\" />\n<meta name=\"citation_author_institution\" content=\"Department of Pharmacology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7161-7284\" />\n<meta name=\"citation_author\" content=\"Bharath Ramsundar\" />\n<meta name=\"citation_author_institution\" content=\"The DeepChem Project, https://deepchem.io/\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8450-4262\" />\n<meta name=\"twitter:creator\" content=\"@rbhar90\" />\n<meta name=\"citation_author\" content=\"Adam L. MacLean\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biological Sciences, University of Southern California, Los Angeles, California, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0689-7907\" />\n<meta name=\"twitter:creator\" content=\"@adamlmaclean\" />\n<meta name=\"citation_author\" content=\"Alexandra J. Lee\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0208-3730\" />\n<meta name=\"citation_author\" content=\"Immunology Institute of the Icahn School of Medicine\" />\n<meta name=\"citation_author_institution\" content=\"Immunology Institute of the Icahn School of Medicine\" />\n<meta name=\"citation_author\" content=\"Fengling Hu\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1081-5038\" />\n<meta name=\"twitter:creator\" content=\"@hufengling\" />\n<meta name=\"citation_author\" content=\"Nafisa M. Jadavji\" />\n<meta name=\"citation_author_institution\" content=\"Biomedical Science, Midwestern University, Glendale, AZ, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Department of Neuroscience, Carleton University, Ottawa, Ontario, Canada\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3557-7307\" />\n<meta name=\"twitter:creator\" content=\"@nafisajadavji\" />\n<meta name=\"citation_author\" content=\"Elizabeth Sell\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9658-1107\" />\n<meta name=\"citation_author\" content=\"Jinhui Wang\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5796-8130\" />\n<meta name=\"citation_author\" content=\"Diane N. Rafizadeh\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Department of Chemistry, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2838-067X\" />\n<meta name=\"citation_author\" content=\"Ashwin N. Skelly\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Institute for Immunology, University of Pennsylvania Perelman School of Medicine, Philadelphia, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1565-3376\" />\n<meta name=\"citation_author\" content=\"Marouen Ben Guebila\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics, Harvard School of Public Health, Boston, Massachusetts, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-5934-966X\" />\n<meta name=\"twitter:creator\" content=\"@marouenbg\" />\n<meta name=\"citation_author\" content=\"Likhitha Kolla\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1169-906X\" />\n<meta name=\"twitter:creator\" content=\"@lkolla2018\" />\n<meta name=\"citation_author\" content=\"David Manheim\" />\n<meta name=\"citation_author_institution\" content=\"1DaySooner, Delaware, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Risk and Health Communication Research Center, School of Public Health, University of Haifa, Haifa, Israel\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8599-8380\" />\n<meta name=\"twitter:creator\" content=\"@davidmanheim\" />\n<meta name=\"citation_author\" content=\"Soumita Ghosh\" />\n<meta name=\"citation_author_institution\" content=\"Institute of Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2783-2750\" />\n<meta name=\"citation_author\" content=\"Matthias Fax\" />\n<meta name=\"citation_author_institution\" content=\"greensolid technologies, Bavaria, Germany\" />\n<meta name=\"citation_author_institution\" content=\"IEEE Reliability Society, Vienna, Austria\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0064-395X\" />\n<meta name=\"citation_author\" content=\"James Brian Byrd\" />\n<meta name=\"citation_author_institution\" content=\"University of Michigan School of Medicine, Ann Arbor, Michigan, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0509-3520\" />\n<meta name=\"twitter:creator\" content=\"@thebyrdlab\" />\n<meta name=\"citation_author\" content=\"YoSon Park\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0465-4744\" />\n<meta name=\"twitter:creator\" content=\"@__yoson__\" />\n<meta name=\"citation_author\" content=\"Vikas Bansal\" />\n<meta name=\"citation_author_institution\" content=\"Biomedical Data Science and Machine Learning Group, DZNE, T\xFCbingen, Germany\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0944-7226\" />\n<meta name=\"twitter:creator\" content=\"@VikasBansal1989\" />\n<meta name=\"citation_author\" content=\"Stephen Capone\" />\n<meta name=\"citation_author_institution\" content=\"St. George&#39;s University School of Medicine, St. George&#39;s, Grenada\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7231-1535\" />\n<meta name=\"citation_author\" content=\"John J. Dziak\" />\n<meta name=\"citation_author_institution\" content=\"Edna Bennett Pierce Prevention Research Center, The Pennsylvania State University, University Park, PA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0762-5495\" />\n<meta name=\"citation_author\" content=\"Yuchen Sun\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computer Science, University of Virginia, Charlottesville, VA, United States of America\" />\n<meta name=\"citation_author\" content=\"Yanjun Qi\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computer Science, University of Virginia, Charlottesville, VA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5796-7453\" />\n<meta name=\"citation_author\" content=\"Lamonica Shinholster\" />\n<meta name=\"citation_author_institution\" content=\"Mercer University, Macon, GA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-6285-005X\" />\n<meta name=\"citation_author\" content=\"Sergey Knyazev\" />\n<meta name=\"citation_author_institution\" content=\"Georgia State University, GA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0385-1831\" />\n<meta name=\"twitter:creator\" content=\"@SeKnyaz\" />\n<meta name=\"citation_author\" content=\"Dimitri Perrin\" />\n<meta name=\"citation_author_institution\" content=\"School of Computer Science, Queensland University of Technology, Brisbane, Australia\" />\n<meta name=\"citation_author_institution\" content=\"Centre for Data Science, Queensland University of Technology, Brisbane, Australia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-4007-5256\" />\n<meta name=\"twitter:creator\" content=\"@dperrin\" />\n<meta name=\"citation_author\" content=\"Serghei Mangul\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical Pharmacy, School of Pharmacy, University of Southern California, CA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-4770-3443\" />\n<meta name=\"twitter:creator\" content=\"@serghei_mangul\" />\n<meta name=\"citation_author\" content=\"Shikta Das\" />\n<meta name=\"citation_author_institution\" content=\"C4X Discovery, London, United Kingdom\" />\n<meta name=\"citation_author_institution\" content=\"Medical Research Council LHA, Institute of Cardiovascular Studies, University College London, London, United Kingdom\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-8291-2788\" />\n<meta name=\"twitter:creator\" content=\"@shikta_das\" />\n<meta name=\"citation_author\" content=\"Gregory L Szeto\" />\n<meta name=\"citation_author_institution\" content=\"Allen Institute for Immunology, Seattle, WA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7604-1333\" />\n<meta name=\"twitter:creator\" content=\"@greg_szeto\" />\n<meta name=\"citation_author\" content=\"Tiago Lubiana\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical and Toxicological Analyses, School of Pharmaceutical Sciences, University of S\xE3o Paulo, S\xE3o Paulo, Brazil\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2473-2313\" />\n<meta name=\"twitter:creator\" content=\"@lubianat\" />\n<link rel=\"canonical\" href=\"https://greenelab.github.io/covid19-review/\" />\n<meta property=\"og:url\" content=\"https://greenelab.github.io/covid19-review/\" />\n<meta property=\"twitter:url\" content=\"https://greenelab.github.io/covid19-review/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://greenelab.github.io/covid19-review/\" />\n<meta name=\"citation_pdf_url\" content=\"https://greenelab.github.io/covid19-review/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://greenelab.github.io/covid19-review/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://greenelab.github.io/covid19-review/v/c713321a48813827fbcc0506e9d5ca83c60f0e97/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://greenelab.github.io/covid19-review/v/c713321a48813827fbcc0506e9d5ca83c60f0e97/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://greenelab.github.io/covid19-review/v/c713321a48813827fbcc0506e9d5ca83c60f0e97/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<meta property=\"og:image\" content=\"https://github.com/greenelab/covid19-review/raw/c713321a48813827fbcc0506e9d5ca83c60f0e97/content/images/thumbnail.png\" />\n<meta property=\"twitter:image\" content=\"https://github.com/greenelab/covid19-review/raw/c713321a48813827fbcc0506e9d5ca83c60f0e97/content/images/thumbnail.png\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
 keywords:
 - covid-19
 - coronavirus
@@ -68,9 +68,9 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/9c1a41dac501719b5f7cb1893d0465ecef812a73/))
+([permalink](https://greenelab.github.io/covid19-review/v/c713321a48813827fbcc0506e9d5ca83c60f0e97/))
 was automatically generated
-from [greenelab/covid19-review@9c1a41d](https://github.com/greenelab/covid19-review/tree/9c1a41dac501719b5f7cb1893d0465ecef812a73)
+from [greenelab/covid19-review@c713321](https://github.com/greenelab/covid19-review/tree/c713321a48813827fbcc0506e9d5ca83c60f0e97)
 on November 12, 2020.
 </em></small>
 
@@ -2740,7 +2740,7 @@ Reviewers describe how the study may extrapolate to a different species or popul
 |---|---|---|
 |Halie M. Rando|None|2020-03-22|
 |Casey S. Greene|None|2020-11-07|
-|Michael P. Robson|None|2020-03-23|
+|Michael P. Robson|None|2020-11-12|
 |Simina M. Boca|None|2020-11-07|
 |Nils Wellhausen|None|2020-11-03|
 |Ronan Lordan|None|2020-11-03|
@@ -2847,7 +2847,7 @@ We are grateful to the following contributors for reviewing pieces of the text: 
 [@synairgen-SNG001]: https://www.synairgen.com/wp-content/uploads/2020/03/200318-Synairgen-to-start-trial-of-SNG001-in-COVID-19-imminently-.pdf
 
 
-## Appendix 1 {.page_break_before}
+## Appendix A {.page_break_before}
 
 This appendix contains reviews produced by the Immunology Institute of the Icahn School of Medicine
 
@@ -9433,3 +9433,440 @@ better characterize the viral structure to more deeply understand
 pathogenesis.
 
 
+
+
+## Appendix B {.page_break_before}
+Contributors were asked to complete this template to summarize and evaluate new papers related to diagnostics.
+
+
+<!--Hi there! Please use the template below as a guide for what information about this paper to include. It's ok to leave fields blank so that other contributors can fill them in later, or to add fields that you think are important.-->
+
+Title: Please edit the title to add the name of the paper after the colon
+
+Please paste a link to the paper or a citation here:
+
+Link:
+
+What is the paper's [Manubot-style citation](https://github.com/greenelab/covid19-review/blob/master/USAGE.md#citations)?
+<!--Leave the citation blank if you are unsure.-->
+
+Citation:
+
+Please list some keywords (3-10) that help identify the relevance of this paper to COVID-19
+
+* keyword 1 (replace me, copy and paste more than three if needed)
+* keyword 2 (replace me, copy and paste more than three if needed)
+* keyword 3 (replace me, copy and paste more than three if needed)
+
+Please note the publication / review status
+<!--Replace one of the empty brackets below with [x].-->
+
+- [ ] Pre-print
+- [ ] New Peer-Reviewed Paper
+- [ ] Peer-Reviewed Paper Pre-2020
+
+Which areas of expertise are particularly relevant to the paper?
+<!--Replace the empty brackets below with [x].-->
+
+- [ ] virology
+- [ ] epidemiology
+- [ ] biostatistics
+- [ ] immunology
+- [ ] pharmacology
+
+<!-- The following questions are the things that we'll want to answer about each paper reporting a diagnostic. If you are ready to answer some of them now, please create the issue, then answer them in a comment. Otherwise, just create the issue so that a future reviewer can address them in the comments.-->
+
+Questions to answer about each paper:
+
+Please provide 1-2 sentences introducing the study and its main findings
+
+
+
+Study question(s) being investigated:
+
+What type of testing scenario is being considered?
+
+Is it a screening test (used for individuals with no symptoms), diagnostic test (used for individuals with symptoms), or definitive test (used for individuals who have had previous positive test results on diagnostic or screening tests)?
+
+Study population:
+
+What is the model system (e.g., human study, animal model, cell line study)?
+
+What is the sample size?
+
+What is the "pre-test" probability of disease in the study population (i.e., what is the anticipated prevalence of the disease?)
+
+For human studies, the following are related to the pre-test probability:
+
+What countries/regions are considered?
+
+What is the age range, gender, other relevant characteristics?
+
+What is the setting of the study (e.g., random sample of school children, retirement communities, etc.)?
+
+What other specific inclusion-exclusion criteria are considered?
+
+Reference test:
+
+What reference test is considered as a "gold standard" comparator for the test under investigation?
+
+Test assignment:
+
+How are the new and reference tests assigned?
+
+Examples of assignment could include: Recruited individuals have initially undergone neither the new nor the reference test; individuals tested as positive or negative by the reference test undergo the new test; individuals who have undertaken the new test are assessed by the standard test.
+
+Are there any other relevant details about the study design?
+
+Depending on how individuals are chosen, the test may be biasing towards more sick or less sick individuals or very clear-cut positive/negative cases.
+Any factors that would influence this bias should be included here.
+
+Test conduct:
+
+How were tests performed?
+
+Describe technical details of assays used, when measurements were taken and by whom, etc. for both the new and standard tests.
+
+Test Assessment
+
+Describe how individuals are classified as positive or negative, e.g. if a threshold is used.
+
+Is there evidence that the test is precise/reproducible when repeated more than once?
+
+Are measurements complete?
+
+For example: Do some participants undergo just one test (the new or the reference test)?
+Are there individuals with inconclusive results?
+
+Results summary:
+
+What are the estimated sensitivity, specificity, positive predictive value (PPV), and negative predicted value (NPV)?
+
+Note that the PPV and NPV represent "post-test" probabilities of disease and are generally more meaningful than sensitivity and specificity.
+Sometimes the post-test odds will be given instead.
+
+What are the confidence bounds around these intervals?
+
+Interpretation of results for study population:
+
+How good is the test at ruling in or ruling out a disease based on the post-test probabilities?
+
+Are there identified side affects of the test?
+
+Is patient adherence to the test likely to be an issue?
+
+Extrapolation of conclusions to other groups of individuals
+
+How well is the test likely to work in populations with different pretest odds?
+
+For example, if the prevalence is lower, then the PPV will also be lower, but the NPV will be higher.
+
+How costly is the test?
+
+How difficult is it to perform the test in different settings?
+
+Could the test be combined with other existing tests?
+
+Summary of reliability
+
+1-2 sentences on concluding remarks, including summary of strengths, weaknesses, limitations.
+
+Progress
+
+_Check off the components as they are completed. If the component is not applicable, check the box as well._
+
+<!--Check off the components that you have completed. It is fine if you have not completed all of them, we hope others will add on in the comments. Switch to "Preview" mode to click the box(es), or else replace the empty brackets below with [x].-->
+
+- [ ] 1-2 sentences introducing the study and its main findings
+- [ ] Describe testing scenario 
+- [ ] Describe model system 
+- [ ] Sample size 
+- [ ] Describe prevalnce of disease 
+- [ ] Describe countries/regions are considered 
+- [ ] Describe age range, gender, other relevant characteristics 
+- [ ] Describe setting of the study 
+- [ ] Describe other specific inclusion-exclusion criteria 
+- [ ] Describe "gold standard" 
+- [ ] Describe how  the new and reference tests assigned 
+- [ ] Describe other relevant details about the study design 
+- [ ] Describe how the tests were performed 
+- [ ] Describe how individuals are classified as positive or negative 
+- [ ] Describe if test is precise/reproducible 
+- [ ] Describe whether measurements are complete 
+- [ ] What are the estimated sensitivity, specificity, positive predictive value (PPV), and negative predicted value (NPV)? 
+- [ ] What are the confidence bounds around these intervals? 
+- [ ] Describe post-test probabilities 
+- [ ] Describe side affects of the test 
+- [ ] Describe patient adherence 
+- [ ] Describe how it will extrapolate 
+- [ ] How costly is the test? 
+- [ ] How difficult is it to perform the test in different settings? 
+- [ ] Could the test be combined with other existing tests?
+- [ ] Summary of reliability
+
+## Appendix C {.page_break_before}
+Contributors were asked to complete this template to summarize and evaluate new papers related to therapeutics.
+
+
+<!--Hi there! Please use the template below as a guide for what information about this paper to include. It's ok to leave fields blank so that other contributors can fill them in later, or to add fields that you think are important.-->
+
+Title: Please edit the title to add the name of the paper after the colon
+
+Please paste a link to the paper or a citation here:
+
+Link:
+
+What is the paper's [Manubot-style citation](https://github.com/greenelab/covid19-review/blob/master/USAGE.md#citations)?
+<!--Leave the citation blank if you are unsure.-->
+
+Citation:
+
+Please list some keywords (3-10) that help identify the relevance of this paper to COVID-19
+
+* keyword 1 (replace me, copy and paste more than three if needed)
+* keyword 2 (replace me, copy and paste more than three if needed)
+* keyword 3 (replace me, copy and paste more than three if needed)
+
+Please note the publication / review status
+<!--Replace one of the empty brackets below with [x].-->
+
+- [ ] Pre-print
+- [ ] New Peer-Reviewed Paper
+- [ ] Peer-Reviewed Paper Pre-2020
+
+Which areas of expertise are particularly relevant to the paper? 
+<!--Replace the empty brackets below with [x].-->
+
+- [ ] virology
+- [ ] epidemiology
+- [ ] biostatistics
+- [ ] immunology
+- [ ] pharmacology
+
+<!-- The following questions are the things that we'll want to answer about each paper reporting a diagnostic. If you are ready to answer some of them now, please create the issue, then answer them in a comment. Otherwise, just create the issue so that a future reviewer can address them in the comments.-->
+
+Questions to answer about each paper:
+
+Please provide 1-2 sentences introducing the study and its main findings
+
+
+Study question(s) being investigated:
+
+How many/what drugs/combinations are being considered?
+
+
+What are the main hypotheses being tested?
+
+
+Study population:
+
+What is the model system (e.g., human study, animal model, cell line study)?
+
+
+What is the sample size? If multiple groups are considered, give sample size for each group (including controls).
+
+* number treated with treatment A
+* number treated with treatment B
+
+For human studies:
+
+What countries/regions are considered?
+
+What is the age range, gender, other relevant characteristics?
+
+What is the setting of the study (random sample of school children, inpatient, outpatient, etc)?
+
+What other specific inclusion-exclusion criteria are considered?
+
+For example, do the investigators exclude patients with diagnosed neoplasms or patients over/under a certain age?
+
+
+Treatment assignment:
+
+How are treatments assigned?
+
+For example, is it an interventional or an observational study?
+
+Is the study randomized?
+
+A study can be interventional but not randomized (e.g., a phase I or II clinical trial is interventional but often not randomized).
+
+Provide other relevant details about the design.
+
+This includes possible treatment stratification (e.g., within litters for animal studies, within hospitals for human studies), possible confounding variables (e.g., having a large age range of individuals), possible risks of bias and how they are addressed (e.g., is there masking in a clinical trial? how are individuals chosen in an observational study?).
+
+
+Outcome Assessment:
+
+Describe the outcome that is assessed and whether it is appropriate.
+
+For example: Is the outcome assessed by a clinician or is it self-reported?
+Is the outcome based on viral load or a functional measurement (e.g., respiratory function, discharge from hospital)?
+What method is used to measure the outcome?
+How long after a treatment is the outcome measured?
+
+Are outcome measurements complete?
+
+For example, are there individuals lost to follow up?
+
+Are outcome measurements subject to various kinds of bias?
+
+For example, a lack of masking in randomized clinical trials.
+
+
+Statistical Methods Assessment:
+
+What methods are used for inference?
+
+For example, logistic regression, nonparametric methods.
+
+Are the methods appropriate for the study?
+
+For example, are clustered data treated independently or are clusters adjusted for, such as different hospitals or litters?
+
+Are adjustments made for possible confounders?
+
+For example, adjustment for age, sex, or comorbidities.
+
+
+Results Summary:
+
+What is the estimated association?
+
+For example, is it an estimated odds ratio, a median difference in detected cases, etc?
+
+What measures of confidence or statistical significance are provided?
+
+For example, confidence intervals, p-values, and/or Bayes factors.
+
+
+Interpretation of results for study population:
+
+Can we make a causal interpretation for the individuals in the study of drug -> outcome, such as "taking drug A improves likelihood of survival twofold over taking drug B."
+
+For example, with a well-performed animal study or randomized trial it is often possible to infer causality.
+If is an observational study, does it match up with some of the Bradford Hill criteria? https://www.edwardtufte.com/tufte/hill https://en.wikipedia.org/wiki/Bradford_Hill_criteria
+
+Are there identified side effects or interactions with other drugs?
+
+For example, is the treatment known to cause liver damage or to not be prescribed for individuals with certain comorbities?
+
+Are there specific subgroups with different findings?
+
+For example, do individuals with a specific baseline seem to do particularly well? Be particularly cautious with respect to multiple testing here.
+
+
+Extrapolation of conclusions to other groups of individuals not specifically included in the study:
+
+If the study is an animal study, which animal and how relevant is that model?
+
+Is the model system appropriate? Is there evidence from past use that it's highly-relevant to therapeutic design in this context?
+
+If it is a human study, what characteristics of the study population may support/limit extrapolation?
+
+* Can results extrapolate easily to other similar groups? (e.g., same country, similar age groups)
+* What would happen if conditions are extended in terms of dose or duration?
+* Can results be extrapolated to other populations or in very different settings? (e.g., different age group, primary care setting vs emergency department etc)
+
+
+Summary of reliability
+
+1-2 sentences on concluding remarks, including summary of strengths, weaknesses, limitations.
+
+Progress
+
+_Check off the components as they are completed. If the component is not applicable, check the box as well._
+
+<!--Check off the components that you have completed. It is fine if you have not completed all of them, we hope others will add on in the comments. Switch to "Preview" mode to click the box(es), or else replace the empty brackets below with [x].-->
+
+- [ ] 1-2 sentences introducing the study and its main findings
+- [ ] Describe How many/what drugs/combinations are being considered 
+- [ ] Describe the model system
+- [ ] What is the sample size? 
+- [ ] What countries/regions are considered 
+- [ ] What is the age range, gender, other relevant characteristics 
+- [ ] Describe study setting 
+- [ ] Describe  other specific inclusion-exclusion criteria 
+- [ ] Describe how treatments are assigned
+- [ ] Describe randomization (or not) and other relavent details about the design
+- [ ] Describe the outcome that is assessed and whether it is appropriate.
+- [ ] Describe whether the outcome measurements are complete
+- [ ] Are outcome measurements subject to various kinds of bias?
+- [ ] Describe methods used for inference
+- [ ] Describe whether the methods are appropriate for the study
+- [ ] Are adjustments made for possible confounders?
+- [ ] Describe the estimated association
+- [ ] What measures of confidence or statistical significance are provided?
+- [ ] Describe whether a causal interpretation can be made
+- [ ] Are there identified side effects or interactions with other drugs?
+- [ ] Are there specific subgroups with different findings?
+- [ ] If the study is an animal study, which animal and how relevant is that model?
+- [ ] If it is a human study, what characteristics of the study population may support/limit extrapolation?
+- [ ] Summary of reliability
+
+## Appendix D {.page_break_before}
+Contributors were asked to complete this template to summarize and evaluate new papers related to topics besides therapeutics and diagnostics.
+
+
+<!--Hi there! Please use the template below as a guide for what information about this paper to include. It's ok to leave fields blank so that other contributors can fill them in later, or to add fields that you think are important.-->
+
+Title: Please edit the title to add the name of the paper after the colon.
+
+General Information
+Please paste a link to the paper or a citation here:
+
+Link:
+
+What is the paper's [Manubot-style citation](https://github.com/greenelab/covid19-review/blob/master/USAGE.md#citations)?
+<!--Leave the citation blank if you are unsure.-->
+
+Citation:
+
+Is this paper primarily relevant to Background or Pathogenesis? 
+<!--Replace the empty brackets below with [x].
+If it's primarily relevant to Diagnostics or Therapeutics, please go back and use the associated template-->
+
+- [ ] Background
+- [ ] Pathogenesis
+- [ ] Methods
+
+Please list some keywords (3-10) that help identify the relevance of this paper to COVID-19
+
+* keyword 1 (replace me, copy and paste more than three if needed)
+* keyword 2 (replace me, copy and paste more than three if needed)
+* keyword 3 (replace me, copy and paste more than three if needed)
+
+Please note the publication / review status
+<!--Replace one of the empty brackets below with [x].-->
+
+- [ ] Pre-print
+- [ ] New Peer-Reviewed Paper
+- [ ] Peer-Reviewed Paper Pre-2020
+
+Which areas of expertise are particularly relevant to the paper?
+<!--Replace the empty brackets below with [x].-->
+
+- [ ] virology
+- [ ] epidemiology
+- [ ] biostatistics
+- [ ] immunology
+- [ ] pharmacology
+- [ ] other:
+
+<!-- STOP
+Please fill out as much of the above as you feel able, then:
+   (1) Select all the text below and cut it onto your clipboard
+   (2) Submit this issue using the green button below
+   (3) If you would like to submit a summary of the paper, paste the cut text from your clipboard to a new comment below and fill in the summary information
+-->
+Summary
+
+Suggested questions to answer about each paper:
+- What did they analyze?
+- What methods did they use?
+- Does this paper study COVID-19, SARS-CoV-2, or a related disease and/or virus?
+- What is the main finding (or a few main takeaways)?
+- What does this paper tell us about the background and/or diagnostics/therapeutics for COVID-19 / SARS-CoV-2?
+- Do you have any concerns about methodology or the interpretation of these results beyond this analysis?
+
+Any comments or notes?
