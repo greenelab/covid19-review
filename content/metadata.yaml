@@ -369,7 +369,7 @@ authors:
     - Department of Neuroscience, Carleton University, Ottawa, Ontario, Canada
     coi:
       string: "None"
-      lastapproved: !!str 2020-04-09
+      lastapproved: !!str 2020-11-11
     funders:
       - the American Heart Association (20AIREA35050015)
   -
