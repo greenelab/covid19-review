@@ -349,13 +349,13 @@ authors:
       - Writing - Original Draft
       - Writing - Review & Editing
     code of conduct:
-      confirmed: No
+      confirmed: Yes
     affiliations:
     - Biomedical Science, Midwestern University, Glendale, AZ, United States of America
     - Department of Neuroscience, Carleton University, Ottawa, Ontario, Canada
     coi:
       string: "None"
-      lastapproved: !!str 2020-04-09
+      lastapproved: !!str 2020-11-11
     funders:
       - the American Heart Association (20AIREA35050015)
   -
