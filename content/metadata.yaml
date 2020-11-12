@@ -547,7 +547,7 @@ authors:
       confirmed: yes
     coi:
       string: "None"
-      lastapproved: !!str 2020-04-30
+      lastapproved: !!str 2020-11-11
     funders: NHGRI R01 HG10067
   -
     github: bansalvi
