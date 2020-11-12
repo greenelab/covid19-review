@@ -13,6 +13,7 @@ adaptor
 adenocarcinomic
 adenosine
 adenovirus
+Adhanom
 adjuvant
 adjuvants
 aerosolized
@@ -179,6 +180,8 @@ chemotaxis
 Chloroquine
 Cholangiocyte
 cholangiocytes
+choropleth
+choropleths
 chromatographic
 chz
 Ciclesonide
@@ -340,6 +343,7 @@ ECMO
 ectodomain
 EF
 effector
+EFIC
 EFSA
 eGFR
 eicosapentaenoic
@@ -394,6 +398,7 @@ Favipiravir
 FBG
 Fc
 FCN
+FDA's
 FDP
 Fengling
 ferritin
@@ -439,6 +444,7 @@ ggks
 ggnzmc
 GG
 GGO
+Ghebreyesus
 Ghosh
 GISAID
 github
@@ -550,7 +556,7 @@ IgM
 IGs
 IHC
 immunoanalysis
-Immunoassay
+immunoassay
 immunochromatographic
 immunochromatography
 immunocompromised
@@ -577,6 +583,7 @@ immunosuppressant
 immunosuppression
 immunosuppressive
 IMV
+inconclusivity
 infectable
 infectivity
 infodemic
@@ -662,6 +669,7 @@ Lactobacillus
 Lafaille
 Lamonica
 latex
+Latinx
 lavages
 LDH
 Lectin
@@ -695,6 +703,7 @@ LSH
 Lubitz
 LucyMcGowan
 LucyStats
+Lukan
 Lund
 Lv
 LW
@@ -879,6 +888,8 @@ organoids
 organoselenium
 Orthocoronavirinae
 Oseltamivir
+othered
+othering
 overexpressing
 overexpression
 overexuberant
@@ -1191,7 +1202,9 @@ tamefoxtime
 TaqMan
 TCR
 TCZ
+Tedros
 TEM
+Temitayo
 TfH
 TFN
 TGF
@@ -1211,6 +1224,7 @@ titers
 TLM
 TLR
 TLRs
+tlukan
 TMPRSS
 TNF
 Tnfa

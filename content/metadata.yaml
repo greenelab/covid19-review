@@ -645,6 +645,21 @@ authors:
     funders:
       - the Center for Global Genomics and Health Equity at the University of Pennsylvania
   -
+    github: tlukan
+    name: Temitayo Lukan
+    initials: TL
+    email: tlukan@sas.upenn.edu
+    contributions:
+      - Writing - Original Draft
+      - Investigation
+    affiliations:
+      - University of Pennsylvania, Philadelphia, PA, United States of America
+    code of conduct:
+      confirmed: yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-11-10
+  -
     github: Sergey-Knyazev
     name: Sergey Knyazev
     initials: SK
