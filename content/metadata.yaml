@@ -136,20 +136,21 @@ authors:
       lastapproved: !!str 2020-11-11
   -
     github: rays1987
-    name: Sadipan Ray
+    name: Sandipan Ray
     initials: SR
     orcid: 0000-0002-9960-5768
     email: sandipan.ray@pennmedicine.upenn.edu
     contributions:
       - Writing - Original Draft
+      - Writing - Review & Editing
     code of conduct:
-      confirmed: No
+      confirmed: Yes
     affiliations:
       - Department of Systems Pharmacology & Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
       - Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
     coi:
       string: "None"
-      lastapproved: !!str 2020-03-25
+      lastapproved: !!str 2020-11-11
   -
     github: LucyMcGowan
     name: Lucy D\'Agostino McGowan
@@ -191,22 +192,6 @@ authors:
       lastapproved: !!str 2020-11-10
     funders:
       - John W. and Jeanne M. Rowe Center for Research in Virology
-  -
-    github: rmrussell
-    name: Ronnie M. Russell
-    initials: RMR
-    orcid: 0000-0003-1484-4207
-    email: russr@pennmedicine.upenn.edu
-    contributions:
-      - Writing - Original Draft
-      - Writing - Review & Editing
-    code of conduct:
-      confirmed: No
-    affiliations:
-      - Department of Microbiology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
-    coi:
-      string: "None"
-      lastapproved: !!str 2020-04-07
   -
     github: aadattoli
     name: Anna Ada Dattoli
@@ -420,7 +405,7 @@ authors:
       confirmed: yes
     coi:
       string: "None"
-      lastapproved: !!str 2020-04-14
+      lastapproved: !!str 2020-11-11
     funders:
       - NIH Medical Scientist Training Program T32 GM07170
   -
@@ -439,7 +424,7 @@ authors:
       confirmed: yes
     coi:
       string: "None"
-      lastapproved: !!str 2020-04-16
+      lastapproved: !!str 2020-11-11
     funders:
       - NIH Medical Scientist Training Program T32 GM07170
   -
@@ -487,12 +472,13 @@ authors:
       - Writing - Original Draft
       - Investigation
     affiliations:
+      - 1DaySooner, Delaware, United States of America
       - Risk and Health Communication Research Center, School of Public Health, University of Haifa, Haifa, Israel
     code of conduct:
       confirmed: yes
     coi:
       string: "None"
-      lastapproved: !!str 2020-04-28
+      lastapproved: !!str 2020-11-11
   -
     github: soumitagh
     name: Soumita Ghosh
@@ -674,7 +660,7 @@ authors:
       confirmed: yes
     coi:
       string: "None"
-      lastapproved: !!str 2020-08-03
+      lastapproved: !!str 2020-11-11
   -
     github: SystemsResearch
     name: Dimitri Perrin
@@ -708,7 +694,7 @@ authors:
       confirmed: Yes
     coi:
       string: "None"
-      lastapproved: !!str 2020-08-07
+      lastapproved: !!str 2020-11-11
   -
     github: shiktadas
     name: Shikta Das
