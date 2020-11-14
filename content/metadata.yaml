@@ -351,8 +351,8 @@ authors:
     code of conduct:
       confirmed: Yes
     affiliations:
-    - Biomedical Science, Midwestern University, Glendale, AZ, United States of America
-    - Department of Neuroscience, Carleton University, Ottawa, Ontario, Canada
+      - Biomedical Science, Midwestern University, Glendale, AZ, United States of America
+      - Department of Neuroscience, Carleton University, Ottawa, Ontario, Canada
     coi:
       string: "None"
       lastapproved: !!str 2020-11-11
@@ -494,7 +494,7 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-11-09
- -
+  -
     github: byrdjb
     name: James Brian Byrd
     initials: JBB
@@ -727,9 +727,9 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-09-04
-  - 
+  -
     github: lubianat
-    name: Tiago Lubiana 
+    name: Tiago Lubiana
     initials: TL
     orcid: 0000-0003-2473-2313
     twitter: lubianat
