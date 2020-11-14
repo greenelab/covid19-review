@@ -59,12 +59,12 @@ authors:
     contributions:
       - Software
     code of conduct:
-      confirmed: No
+      confirmed: Yes
     affiliations:
       - Department of Computing Sciences, Villanova University, Villanova, Pennsylvania, United States of America
     coi:
       string: "None"
-      lastapproved: !!str 2020-03-23
+      lastapproved: !!str 2020-11-12
   -
     github: SiminaB
     name: Simina M. Boca
@@ -250,12 +250,12 @@ authors:
     contributions:
       - Writing - Original Draft
     code of conduct:
-      confirmed: No
+      confirmed: yes
     affiliations:
       - Department of Pharmacology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
     coi:
       string: "None"
-      lastapproved: !!str 2020-03-30
+      lastapproved: !!str 2020-11-12
   -
     github: rbharath
     name: Bharath Ramsundar
@@ -349,13 +349,13 @@ authors:
       - Writing - Original Draft
       - Writing - Review & Editing
     code of conduct:
-      confirmed: No
+      confirmed: Yes
     affiliations:
-    - Biomedical Science, Midwestern University, Glendale, AZ, United States of America
-    - Department of Neuroscience, Carleton University, Ottawa, Ontario, Canada
+      - Biomedical Science, Midwestern University, Glendale, AZ, United States of America
+      - Department of Neuroscience, Carleton University, Ottawa, Ontario, Canada
     coi:
       string: "None"
-      lastapproved: !!str 2020-04-09
+      lastapproved: !!str 2020-11-11
     funders:
       - the American Heart Association (20AIREA35050015)
   -
@@ -495,22 +495,6 @@ authors:
       string: "None"
       lastapproved: !!str 2020-11-09
   -
-    github: matfax
-    name: Matthias Fax
-    initials: MF
-    orcid: 0000-0002-0064-395X
-    email: matthias.fax@gmail.com
-    contributions:
-      - Writing - Review & Editing
-    affiliations:
-      - greensolid technologies, Bavaria, Germany
-      - IEEE Reliability Society, Vienna, Austria
-    code of conduct:
-      confirmed: yes
-    coi:
-      string: "None"
-      lastapproved: !!str 2020-04-30
-  -
     github: byrdjb
     name: James Brian Byrd
     initials: JBB
@@ -526,7 +510,7 @@ authors:
       confirmed: yes
     coi:
       string: "Funded by FastGrants to conduct a COVID-19-related clinical trial"
-      lastapproved: !!str 2020-04-23
+      lastapproved: !!str 2020-11-12
     funders:
       - NIH K23HL128909
       - FastGrants
@@ -547,7 +531,7 @@ authors:
       confirmed: yes
     coi:
       string: "None"
-      lastapproved: !!str 2020-04-30
+      lastapproved: !!str 2020-11-11
     funders: NHGRI R01 HG10067
   -
     github: bansalvi
@@ -645,6 +629,21 @@ authors:
     funders:
       - the Center for Global Genomics and Health Equity at the University of Pennsylvania
   -
+    github: tlukan
+    name: Temitayo Lukan
+    initials: TL
+    email: tlukan@sas.upenn.edu
+    contributions:
+      - Writing - Original Draft
+      - Investigation
+    affiliations:
+      - University of Pennsylvania, Philadelphia, PA, United States of America
+    code of conduct:
+      confirmed: yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-11-10
+  -
     github: Sergey-Knyazev
     name: Sergey Knyazev
     initials: SK
@@ -728,9 +727,9 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-09-04
-  - 
+  -
     github: lubianat
-    name: Tiago Lubiana 
+    name: Tiago Lubiana
     initials: TL
     orcid: 0000-0003-2473-2313
     twitter: lubianat
