@@ -32890,6 +32890,10 @@
         "given": "Yang"
       },
       {
+        "family": "Sheng",
+        "given": "Sitong"
+      },
+      {
         "family": "Wang",
         "given": "Xia"
       },
@@ -32908,6 +32912,14 @@
       {
         "family": "Zhao",
         "given": "Yang"
+      },
+      {
+        "family": "Zhang",
+        "given": "Xiaoying"
+      },
+      {
+        "family": "Zhu",
+        "given": "Tao"
       },
       {
         "family": "Peng",
@@ -32943,10 +32955,11 @@
         [
           2020,
           3,
-          18
+          30
         ]
       ]
     },
+    "abstract": "The outbreak of COVID-19 caused by a novel Coronavirus (termed SARS-CoV-2) has spread to over 140 countries around the world. Currently, reverse transcription quantitative qPCR (RT-qPCR) is used as the gold standard for diagnostics of SARS-CoV-2. However, the positive rate of RT-qPCR assay of pharyngeal swab samples are reported to vary from 30∼60%. More accurate and sensitive methods are urgently needed to support the quality assurance of the RT-qPCR or as an alternative diagnostic approach.",
     "container-title": "Cold Spring Harbor Laboratory",
     "DOI": "10.1101/2020.03.14.20036129",
     "publisher": "Cold Spring Harbor Laboratory",
@@ -53633,7 +53646,7 @@
         [
           "2020",
           11,
-          16
+          17
         ]
       ]
     },
