@@ -146,8 +146,7 @@ authors:
     code of conduct:
       confirmed: Yes
     affiliations:
-      - Department of Systems Pharmacology & Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
-      - Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
+      - Department of Biotechnology, Indian Institute of Technology Hyderabad, Kandi, Sangareddy 502285, Telangana, India
     coi:
       string: "None"
       lastapproved: !!str 2020-11-11
