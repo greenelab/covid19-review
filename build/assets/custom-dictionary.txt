@@ -722,6 +722,7 @@ biologics
 biomarker
 biomarkers
 biomedicine
+BioNTech
 bioorganometallic
 biospecimen
 biospecimens
@@ -1091,6 +1092,9 @@ mmHg
 mmol
 modelled
 modelling
+Moderna
+ModernaTX
+modRNA
 modulatory
 mometasone
 monocyte
