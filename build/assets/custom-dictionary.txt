@@ -113,6 +113,7 @@ biomarker
 biomarkers
 biomedicine
 BioNTech
+BioNTech's
 bioorganometallic
 Biopharma
 bioRxiv
