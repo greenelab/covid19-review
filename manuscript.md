@@ -46,8 +46,8 @@ author-meta:
 bibliography:
 - content/manual-references.bib
 - content/manual-references.json
-date-meta: '2020-11-30'
-header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta name=\"citation_title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta property=\"og:title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta property=\"twitter:title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta name=\"dc.date\" content=\"2020-11-30\" />\n<meta name=\"citation_publication_date\" content=\"2020-11-30\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Halie M. Rando\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7688-1770\" />\n<meta name=\"twitter:creator\" content=\"@tamefoxtime\" />\n<meta name=\"citation_author\" content=\"Casey S. Greene\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Childhood Cancer Data Lab, Alex&#39;s Lemonade Stand Foundation, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8713-9213\" />\n<meta name=\"twitter:creator\" content=\"@GreeneScientist\" />\n<meta name=\"citation_author\" content=\"Michael P. Robson\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computing Sciences, Villanova University, Villanova, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-4859-0033\" />\n<meta name=\"citation_author\" content=\"Simina M. Boca\" />\n<meta name=\"citation_author_institution\" content=\"Innovation Center for Biomedical Informatics, Georgetown University Medical Center, Washington, District of Columbia, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1400-3398\" />\n<meta name=\"citation_author\" content=\"Nils Wellhausen\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8955-7582\" />\n<meta name=\"citation_author\" content=\"Ronan Lordan\" />\n<meta name=\"citation_author_institution\" content=\"Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104-5158, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-9668-3368\" />\n<meta name=\"twitter:creator\" content=\"@el_ronan\" />\n<meta name=\"citation_author\" content=\"Christian Brueffer\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical Sciences, Lund University, Lund, Sweden\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3826-0989\" />\n<meta name=\"twitter:creator\" content=\"@cbrueffer\" />\n<meta name=\"citation_author\" content=\"Sandipan Ray\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biotechnology, Indian Institute of Technology Hyderabad, Kandi, Sangareddy 502285, Telangana, India\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9960-5768\" />\n<meta name=\"citation_author\" content=\"Lucy D\\&#39;Agostino McGowan\" />\n<meta name=\"citation_author_institution\" content=\"Department of Mathematics and Statistics, Wake Forest University, Winston-Salem, North Carolina, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7297-9359\" />\n<meta name=\"twitter:creator\" content=\"@LucyStats\" />\n<meta name=\"citation_author\" content=\"Anthony Gitter\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Morgridge Institute for Research, Madison, Wisconsin, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5324-9833\" />\n<meta name=\"twitter:creator\" content=\"@anthonygitter\" />\n<meta name=\"citation_author\" content=\"Anna Ada Dattoli\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology &amp; Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1462-831X\" />\n<meta name=\"twitter:creator\" content=\"@aadattoli\" />\n<meta name=\"citation_author\" content=\"Ryan Velazquez\" />\n<meta name=\"citation_author_institution\" content=\"Azimuth1, McLean, VA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3655-3403\" />\n<meta name=\"citation_author\" content=\"John P. Barton\" />\n<meta name=\"citation_author_institution\" content=\"Department of Physics and Astronomy, University of California-Riverside, Riverside, California, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1467-421X\" />\n<meta name=\"twitter:creator\" content=\"@_jpbarton\" />\n<meta name=\"citation_author\" content=\"Jeffrey M. Field\" />\n<meta name=\"citation_author_institution\" content=\"Department of Pharmacology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7161-7284\" />\n<meta name=\"citation_author\" content=\"Bharath Ramsundar\" />\n<meta name=\"citation_author_institution\" content=\"The DeepChem Project, https://deepchem.io/\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8450-4262\" />\n<meta name=\"twitter:creator\" content=\"@rbhar90\" />\n<meta name=\"citation_author\" content=\"Adam L. MacLean\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biological Sciences, University of Southern California, Los Angeles, California, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0689-7907\" />\n<meta name=\"twitter:creator\" content=\"@adamlmaclean\" />\n<meta name=\"citation_author\" content=\"Alexandra J. Lee\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0208-3730\" />\n<meta name=\"citation_author\" content=\"Immunology Institute of the Icahn School of Medicine\" />\n<meta name=\"citation_author_institution\" content=\"Immunology Institute of the Icahn School of Medicine\" />\n<meta name=\"citation_author\" content=\"Fengling Hu\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1081-5038\" />\n<meta name=\"twitter:creator\" content=\"@hufengling\" />\n<meta name=\"citation_author\" content=\"Nafisa M. Jadavji\" />\n<meta name=\"citation_author_institution\" content=\"Biomedical Science, Midwestern University, Glendale, AZ, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Department of Neuroscience, Carleton University, Ottawa, Ontario, Canada\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3557-7307\" />\n<meta name=\"twitter:creator\" content=\"@nafisajadavji\" />\n<meta name=\"citation_author\" content=\"Elizabeth Sell\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9658-1107\" />\n<meta name=\"citation_author\" content=\"Jinhui Wang\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5796-8130\" />\n<meta name=\"citation_author\" content=\"Diane N. Rafizadeh\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Department of Chemistry, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2838-067X\" />\n<meta name=\"citation_author\" content=\"Ashwin N. Skelly\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Institute for Immunology, University of Pennsylvania Perelman School of Medicine, Philadelphia, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1565-3376\" />\n<meta name=\"citation_author\" content=\"Marouen Ben Guebila\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics, Harvard School of Public Health, Boston, Massachusetts, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-5934-966X\" />\n<meta name=\"twitter:creator\" content=\"@marouenbg\" />\n<meta name=\"citation_author\" content=\"Likhitha Kolla\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1169-906X\" />\n<meta name=\"twitter:creator\" content=\"@lkolla2018\" />\n<meta name=\"citation_author\" content=\"David Manheim\" />\n<meta name=\"citation_author_institution\" content=\"1DaySooner, Delaware, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Risk and Health Communication Research Center, School of Public Health, University of Haifa, Haifa, Israel\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8599-8380\" />\n<meta name=\"twitter:creator\" content=\"@davidmanheim\" />\n<meta name=\"citation_author\" content=\"Soumita Ghosh\" />\n<meta name=\"citation_author_institution\" content=\"Institute of Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2783-2750\" />\n<meta name=\"citation_author\" content=\"James Brian Byrd\" />\n<meta name=\"citation_author_institution\" content=\"University of Michigan School of Medicine, Ann Arbor, Michigan, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0509-3520\" />\n<meta name=\"twitter:creator\" content=\"@thebyrdlab\" />\n<meta name=\"citation_author\" content=\"YoSon Park\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0465-4744\" />\n<meta name=\"twitter:creator\" content=\"@__yoson__\" />\n<meta name=\"citation_author\" content=\"Vikas Bansal\" />\n<meta name=\"citation_author_institution\" content=\"Biomedical Data Science and Machine Learning Group, DZNE, T\xFCbingen, Germany\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0944-7226\" />\n<meta name=\"twitter:creator\" content=\"@VikasBansal1989\" />\n<meta name=\"citation_author\" content=\"Stephen Capone\" />\n<meta name=\"citation_author_institution\" content=\"St. George&#39;s University School of Medicine, St. George&#39;s, Grenada\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7231-1535\" />\n<meta name=\"citation_author\" content=\"John J. Dziak\" />\n<meta name=\"citation_author_institution\" content=\"Edna Bennett Pierce Prevention Research Center, The Pennsylvania State University, University Park, PA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0762-5495\" />\n<meta name=\"citation_author\" content=\"Yuchen Sun\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computer Science, University of Virginia, Charlottesville, VA, United States of America\" />\n<meta name=\"citation_author\" content=\"Yanjun Qi\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computer Science, University of Virginia, Charlottesville, VA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5796-7453\" />\n<meta name=\"citation_author\" content=\"Lamonica Shinholster\" />\n<meta name=\"citation_author_institution\" content=\"Mercer University, Macon, GA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-6285-005X\" />\n<meta name=\"citation_author\" content=\"Temitayo Lukan\" />\n<meta name=\"citation_author_institution\" content=\"University of Pennsylvania, Philadelphia, PA, United States of America\" />\n<meta name=\"citation_author\" content=\"Sergey Knyazev\" />\n<meta name=\"citation_author_institution\" content=\"Georgia State University, GA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0385-1831\" />\n<meta name=\"twitter:creator\" content=\"@SeKnyaz\" />\n<meta name=\"citation_author\" content=\"Dimitri Perrin\" />\n<meta name=\"citation_author_institution\" content=\"School of Computer Science, Queensland University of Technology, Brisbane, Australia\" />\n<meta name=\"citation_author_institution\" content=\"Centre for Data Science, Queensland University of Technology, Brisbane, Australia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-4007-5256\" />\n<meta name=\"twitter:creator\" content=\"@dperrin\" />\n<meta name=\"citation_author\" content=\"Serghei Mangul\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical Pharmacy, School of Pharmacy, University of Southern California, CA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-4770-3443\" />\n<meta name=\"twitter:creator\" content=\"@serghei_mangul\" />\n<meta name=\"citation_author\" content=\"Shikta Das\" />\n<meta name=\"citation_author_institution\" content=\"C4X Discovery, London, United Kingdom\" />\n<meta name=\"citation_author_institution\" content=\"Medical Research Council LHA, Institute of Cardiovascular Studies, University College London, London, United Kingdom\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-8291-2788\" />\n<meta name=\"twitter:creator\" content=\"@shikta_das\" />\n<meta name=\"citation_author\" content=\"Gregory L Szeto\" />\n<meta name=\"citation_author_institution\" content=\"Allen Institute for Immunology, Seattle, WA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7604-1333\" />\n<meta name=\"twitter:creator\" content=\"@greg_szeto\" />\n<meta name=\"citation_author\" content=\"Tiago Lubiana\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical and Toxicological Analyses, School of Pharmaceutical Sciences, University of S\xE3o Paulo, S\xE3o Paulo, Brazil\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2473-2313\" />\n<meta name=\"twitter:creator\" content=\"@lubianat\" />\n<link rel=\"canonical\" href=\"https://greenelab.github.io/covid19-review/\" />\n<meta property=\"og:url\" content=\"https://greenelab.github.io/covid19-review/\" />\n<meta property=\"twitter:url\" content=\"https://greenelab.github.io/covid19-review/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://greenelab.github.io/covid19-review/\" />\n<meta name=\"citation_pdf_url\" content=\"https://greenelab.github.io/covid19-review/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://greenelab.github.io/covid19-review/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://greenelab.github.io/covid19-review/v/9ad237ac923871a4a11abef976a5767593021473/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://greenelab.github.io/covid19-review/v/9ad237ac923871a4a11abef976a5767593021473/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://greenelab.github.io/covid19-review/v/9ad237ac923871a4a11abef976a5767593021473/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<meta property=\"og:image\" content=\"https://github.com/greenelab/covid19-review/raw/9ad237ac923871a4a11abef976a5767593021473/content/images/thumbnail.png\" />\n<meta property=\"twitter:image\" content=\"https://github.com/greenelab/covid19-review/raw/9ad237ac923871a4a11abef976a5767593021473/content/images/thumbnail.png\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
+date-meta: '2020-12-21'
+header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta name=\"citation_title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta property=\"og:title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta property=\"twitter:title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta name=\"dc.date\" content=\"2020-12-21\" />\n<meta name=\"citation_publication_date\" content=\"2020-12-21\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Halie M. Rando\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7688-1770\" />\n<meta name=\"twitter:creator\" content=\"@tamefoxtime\" />\n<meta name=\"citation_author\" content=\"Casey S. Greene\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Childhood Cancer Data Lab, Alex&#39;s Lemonade Stand Foundation, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8713-9213\" />\n<meta name=\"twitter:creator\" content=\"@GreeneScientist\" />\n<meta name=\"citation_author\" content=\"Michael P. Robson\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computing Sciences, Villanova University, Villanova, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-4859-0033\" />\n<meta name=\"citation_author\" content=\"Simina M. Boca\" />\n<meta name=\"citation_author_institution\" content=\"Innovation Center for Biomedical Informatics, Georgetown University Medical Center, Washington, District of Columbia, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1400-3398\" />\n<meta name=\"citation_author\" content=\"Nils Wellhausen\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8955-7582\" />\n<meta name=\"citation_author\" content=\"Ronan Lordan\" />\n<meta name=\"citation_author_institution\" content=\"Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104-5158, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-9668-3368\" />\n<meta name=\"twitter:creator\" content=\"@el_ronan\" />\n<meta name=\"citation_author\" content=\"Christian Brueffer\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical Sciences, Lund University, Lund, Sweden\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3826-0989\" />\n<meta name=\"twitter:creator\" content=\"@cbrueffer\" />\n<meta name=\"citation_author\" content=\"Sandipan Ray\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biotechnology, Indian Institute of Technology Hyderabad, Kandi, Sangareddy 502285, Telangana, India\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9960-5768\" />\n<meta name=\"citation_author\" content=\"Lucy D\\&#39;Agostino McGowan\" />\n<meta name=\"citation_author_institution\" content=\"Department of Mathematics and Statistics, Wake Forest University, Winston-Salem, North Carolina, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7297-9359\" />\n<meta name=\"twitter:creator\" content=\"@LucyStats\" />\n<meta name=\"citation_author\" content=\"Anthony Gitter\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Morgridge Institute for Research, Madison, Wisconsin, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5324-9833\" />\n<meta name=\"twitter:creator\" content=\"@anthonygitter\" />\n<meta name=\"citation_author\" content=\"Anna Ada Dattoli\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology &amp; Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1462-831X\" />\n<meta name=\"twitter:creator\" content=\"@aadattoli\" />\n<meta name=\"citation_author\" content=\"Ryan Velazquez\" />\n<meta name=\"citation_author_institution\" content=\"Azimuth1, McLean, VA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3655-3403\" />\n<meta name=\"citation_author\" content=\"John P. Barton\" />\n<meta name=\"citation_author_institution\" content=\"Department of Physics and Astronomy, University of California-Riverside, Riverside, California, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1467-421X\" />\n<meta name=\"twitter:creator\" content=\"@_jpbarton\" />\n<meta name=\"citation_author\" content=\"Jeffrey M. Field\" />\n<meta name=\"citation_author_institution\" content=\"Department of Pharmacology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7161-7284\" />\n<meta name=\"citation_author\" content=\"Bharath Ramsundar\" />\n<meta name=\"citation_author_institution\" content=\"The DeepChem Project, https://deepchem.io/\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8450-4262\" />\n<meta name=\"twitter:creator\" content=\"@rbhar90\" />\n<meta name=\"citation_author\" content=\"Adam L. MacLean\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biological Sciences, University of Southern California, Los Angeles, California, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0689-7907\" />\n<meta name=\"twitter:creator\" content=\"@adamlmaclean\" />\n<meta name=\"citation_author\" content=\"Alexandra J. Lee\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0208-3730\" />\n<meta name=\"citation_author\" content=\"Immunology Institute of the Icahn School of Medicine\" />\n<meta name=\"citation_author_institution\" content=\"Immunology Institute of the Icahn School of Medicine\" />\n<meta name=\"citation_author\" content=\"Fengling Hu\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1081-5038\" />\n<meta name=\"twitter:creator\" content=\"@hufengling\" />\n<meta name=\"citation_author\" content=\"Nafisa M. Jadavji\" />\n<meta name=\"citation_author_institution\" content=\"Biomedical Science, Midwestern University, Glendale, AZ, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Department of Neuroscience, Carleton University, Ottawa, Ontario, Canada\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3557-7307\" />\n<meta name=\"twitter:creator\" content=\"@nafisajadavji\" />\n<meta name=\"citation_author\" content=\"Elizabeth Sell\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9658-1107\" />\n<meta name=\"citation_author\" content=\"Jinhui Wang\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5796-8130\" />\n<meta name=\"citation_author\" content=\"Diane N. Rafizadeh\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Department of Chemistry, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2838-067X\" />\n<meta name=\"citation_author\" content=\"Ashwin N. Skelly\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Institute for Immunology, University of Pennsylvania Perelman School of Medicine, Philadelphia, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1565-3376\" />\n<meta name=\"citation_author\" content=\"Marouen Ben Guebila\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics, Harvard School of Public Health, Boston, Massachusetts, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-5934-966X\" />\n<meta name=\"twitter:creator\" content=\"@marouenbg\" />\n<meta name=\"citation_author\" content=\"Likhitha Kolla\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1169-906X\" />\n<meta name=\"twitter:creator\" content=\"@lkolla2018\" />\n<meta name=\"citation_author\" content=\"David Manheim\" />\n<meta name=\"citation_author_institution\" content=\"1DaySooner, Delaware, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Risk and Health Communication Research Center, School of Public Health, University of Haifa, Haifa, Israel\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8599-8380\" />\n<meta name=\"twitter:creator\" content=\"@davidmanheim\" />\n<meta name=\"citation_author\" content=\"Soumita Ghosh\" />\n<meta name=\"citation_author_institution\" content=\"Institute of Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2783-2750\" />\n<meta name=\"citation_author\" content=\"James Brian Byrd\" />\n<meta name=\"citation_author_institution\" content=\"University of Michigan School of Medicine, Ann Arbor, Michigan, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0509-3520\" />\n<meta name=\"twitter:creator\" content=\"@thebyrdlab\" />\n<meta name=\"citation_author\" content=\"YoSon Park\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0465-4744\" />\n<meta name=\"twitter:creator\" content=\"@__yoson__\" />\n<meta name=\"citation_author\" content=\"Vikas Bansal\" />\n<meta name=\"citation_author_institution\" content=\"Biomedical Data Science and Machine Learning Group, DZNE, T\xFCbingen, Germany\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0944-7226\" />\n<meta name=\"twitter:creator\" content=\"@VikasBansal1989\" />\n<meta name=\"citation_author\" content=\"Stephen Capone\" />\n<meta name=\"citation_author_institution\" content=\"St. George&#39;s University School of Medicine, St. George&#39;s, Grenada\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7231-1535\" />\n<meta name=\"citation_author\" content=\"John J. Dziak\" />\n<meta name=\"citation_author_institution\" content=\"Edna Bennett Pierce Prevention Research Center, The Pennsylvania State University, University Park, PA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0762-5495\" />\n<meta name=\"citation_author\" content=\"Yuchen Sun\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computer Science, University of Virginia, Charlottesville, VA, United States of America\" />\n<meta name=\"citation_author\" content=\"Yanjun Qi\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computer Science, University of Virginia, Charlottesville, VA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5796-7453\" />\n<meta name=\"citation_author\" content=\"Lamonica Shinholster\" />\n<meta name=\"citation_author_institution\" content=\"Mercer University, Macon, GA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-6285-005X\" />\n<meta name=\"citation_author\" content=\"Temitayo Lukan\" />\n<meta name=\"citation_author_institution\" content=\"University of Pennsylvania, Philadelphia, PA, United States of America\" />\n<meta name=\"citation_author\" content=\"Sergey Knyazev\" />\n<meta name=\"citation_author_institution\" content=\"Georgia State University, GA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0385-1831\" />\n<meta name=\"twitter:creator\" content=\"@SeKnyaz\" />\n<meta name=\"citation_author\" content=\"Dimitri Perrin\" />\n<meta name=\"citation_author_institution\" content=\"School of Computer Science, Queensland University of Technology, Brisbane, Australia\" />\n<meta name=\"citation_author_institution\" content=\"Centre for Data Science, Queensland University of Technology, Brisbane, Australia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-4007-5256\" />\n<meta name=\"twitter:creator\" content=\"@dperrin\" />\n<meta name=\"citation_author\" content=\"Serghei Mangul\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical Pharmacy, School of Pharmacy, University of Southern California, CA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-4770-3443\" />\n<meta name=\"twitter:creator\" content=\"@serghei_mangul\" />\n<meta name=\"citation_author\" content=\"Shikta Das\" />\n<meta name=\"citation_author_institution\" content=\"C4X Discovery, London, United Kingdom\" />\n<meta name=\"citation_author_institution\" content=\"Medical Research Council LHA, Institute of Cardiovascular Studies, University College London, London, United Kingdom\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-8291-2788\" />\n<meta name=\"twitter:creator\" content=\"@shikta_das\" />\n<meta name=\"citation_author\" content=\"Gregory L Szeto\" />\n<meta name=\"citation_author_institution\" content=\"Allen Institute for Immunology, Seattle, WA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7604-1333\" />\n<meta name=\"twitter:creator\" content=\"@greg_szeto\" />\n<meta name=\"citation_author\" content=\"Tiago Lubiana\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical and Toxicological Analyses, School of Pharmaceutical Sciences, University of S\xE3o Paulo, S\xE3o Paulo, Brazil\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2473-2313\" />\n<meta name=\"twitter:creator\" content=\"@lubianat\" />\n<link rel=\"canonical\" href=\"https://greenelab.github.io/covid19-review/\" />\n<meta property=\"og:url\" content=\"https://greenelab.github.io/covid19-review/\" />\n<meta property=\"twitter:url\" content=\"https://greenelab.github.io/covid19-review/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://greenelab.github.io/covid19-review/\" />\n<meta name=\"citation_pdf_url\" content=\"https://greenelab.github.io/covid19-review/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://greenelab.github.io/covid19-review/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://greenelab.github.io/covid19-review/v/afd156b5bcc254c41be05683e8b1cd78f22f2ae3/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://greenelab.github.io/covid19-review/v/afd156b5bcc254c41be05683e8b1cd78f22f2ae3/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://greenelab.github.io/covid19-review/v/afd156b5bcc254c41be05683e8b1cd78f22f2ae3/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<meta property=\"og:image\" content=\"https://github.com/greenelab/covid19-review/raw/afd156b5bcc254c41be05683e8b1cd78f22f2ae3/content/images/thumbnail.png\" />\n<meta property=\"twitter:image\" content=\"https://github.com/greenelab/covid19-review/raw/afd156b5bcc254c41be05683e8b1cd78f22f2ae3/content/images/thumbnail.png\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
 keywords:
 - covid-19
 - coronavirus
@@ -68,10 +68,10 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/9ad237ac923871a4a11abef976a5767593021473/))
+([permalink](https://greenelab.github.io/covid19-review/v/afd156b5bcc254c41be05683e8b1cd78f22f2ae3/))
 was automatically generated
-from [greenelab/covid19-review@9ad237a](https://github.com/greenelab/covid19-review/tree/9ad237ac923871a4a11abef976a5767593021473)
-on November 30, 2020.
+from [greenelab/covid19-review@afd156b](https://github.com/greenelab/covid19-review/tree/afd156b5bcc254c41be05683e8b1cd78f22f2ae3)
+on December 21, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -697,7 +697,26 @@ We include information from both traditional peer-reviewed scientific literature
 The goal of this manuscript is to present preliminary findings within the broader context of COVID-19 research and to identify the broad interpretations of new research, as well as limitations to interpretability.
 
 
-## Pathogenesis
+## Pathogenesis and Transmission
+
+### Abstract
+
+### Introduction
+
+On January 21, 2020, the World Health Organization (WHO) released its first report concerning what is now known as the Coronavirus Disease 2019 (COVID-19) [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200121-sitrep-1-2019-ncov.pdf].
+This infectious disease came to international attention on December 31, 2019 following an announcement by national officials in China describing 44 cases of a respiratory infection of unknown cause.
+The first known cases were located in Wuhan City within the Hubei province of China, but the disease spread rapidly throughout China and subsequently around the world.
+At the time of the WHO's first situation report [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200121-sitrep-1-2019-ncov.pdf], 282 confirmed cases had been identified.
+Most of these cases were in China, but one to two exported cases had also been identified in each of several neighboring countries (Thailand, Japan, and the Republic of Korea).
+One week later, 4,593 confirmed cases had been identified, spanning not only Asia, but also Australia, North America, and Europe [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128-sitrep-8-ncov-cleared.pdf].
+On March 11, 2020, the WHO formally classified the situation as a pandemic [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200311-sitrep-51-covid-19.pdf].
+On April 4, 2020, the WHO reported that the global number of confirmed cases had surpassed one million [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200404-sitrep-75-covid-19.pdf].
+1,311,192 COVID-19 deaths had been reported worldwide as of November 14, 2020 (Figure @fig:csse-deaths).
+
+![
+**Cumulative global COVID-19 deaths since January 22, 2020.**
+Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
+](https://github.com/greenelab/covid19-review/raw/4e99844ab1268d89af5080504b20ed76b3b6cc02/csse/csse-deaths.svg "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
 
 The current COVID-19 pandemic, caused by the SARS-CoV-2 virus, represents an acute global health crisis where symptoms can range from mild to severe or fatal [@url:https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html], can affect a variety of organs and systems, and includes outcomes such as acute respiratory distress and acute lung injury, among other complications.
 Viral pathogenesis is typically broken down into three major components: entry, replication, and spread [@isbn:0-9631172-1-1 {chap. 45}].
@@ -984,9 +1003,6 @@ This pattern of convergent evolution at some sites could indicate that certain m
 While it is evident that SARS-CoV-2 exhibits moderate potential for ongoing and future evolution, the relationship between mutations and pathogenicity is not yet known.
 Additional data is needed in order to understand patterns of evolutionary change and whether they are likely to affect virulence.
 
-
-## Transmission and Susceptibility
-
 ### Mechanism of Transmission
 
 Person-to-person viral transmission of a virus can occur through several possible mechanisms.
@@ -1205,11 +1221,62 @@ What is shared across these groups is instead a history of disenfranchisement un
 A large analysis of over 11,000 COVID-19 patients hospitalized in 92 hospitals across U.S. states revealed that Black patients were younger, more often female, more likely to be on Medicaid, more likely to have comorbidities, and came from neighborhoods identified as more economically deprived than white patients [@doi:10.1001/jamanetworkopen.2020.18039].
 This study reported that when these factors were accounted for, the differences in mortality between Black and white patients were no longer significant.
 Thus, the current evidence suggests that the apparent correlations between ancestry and health outcomes must be examined in the appropriate social context.
-We explore the role these social factors have played in shaping the COVID-19 pandemic broadly in the Discussion.
 
+### Conclusions
+
+As with other HCoV, the immune response to SARS-CoV-2 is likely driven by detection of its spike protein, which allows it to enter cells through the ACE2 receptor.
+Epithelial cells have also emerged as the major cellular target of the virus, contextualizing the respiratory and gastrointestinal symptoms that are frequently observed in COVID-19.
+
+Characterizing the rate of infection and fatality rates hinges on the availability of rapid and accurate diagnostic testing.
+
+
+## Evolutionary and Genomic Analysis of SARS-CoV-2
+
+### Abstract
+
+### Introduction
+
+### Initial Characterization of SARS-CoV-2
+
+The first genome sequence of the virus was released on January 3, 2020 and revealed that the cluster of pneumonia cases seen in Wuhan were caused by a novel coronavirus [@doi:10.46234/ccdcw2020.017].
+Multiple research groups have drafted the genome sequence of SARS-CoV-2 based on sequences developed from clinical samples collected from the lower respiratory tract, namely bronchoalveolar lavage fluid (BALF), and the upper respiratory tract, in the form of throat swabs [@doi:10.1038/s41586-020-2008-3; @doi:10.1038/s41586-020-2012-7; @doi:10/ggjr43].
+Analysis of the SARS-CoV-2 genome revealed significant sequence homology with two coronaviruses known to infect humans, with about 79% identity to SARS-CoV-1 and 50% to MERS-CoV [@doi:10/ggjr43].
+However, the highest degree of similarity was observed between SARS-CoV-2 and bat-derived SARS-like coronaviruses (bat-SL-CoVZC45 and bat-SL-CoVZXC21) [@doi:10/ggjr43; @doi:10.1038/s41586-020-2012-7], with identity between SARS-CoV-2 and RATG13 as high as 96.2% [@doi:10.1038/s41586-020-2012-7; @doi:10.1093/nsr/nwaa036].
+This evidence therefore suggests the SARS-CoV-2 virus is the result of zoonotic transfer of a virus from bats to humans.
+Nevertheless, some fragments between SARS-CoV-2 and RATG13 differ by up to 17%, suggesting a complex natural selection process during zoonotic transfer.
+While the _S_ region is highly similar to that of viruses found in pangolins [@doi:10.1101/2020.02.19.950253], there is no consensus about the origin of _S_ in SARS-CoV-2, as it could potentially be the result either of recombination or coevolution [@doi:10.1093/nsr/nwaa036; @doi:10.1126/sciadv.abb9153].
+Though the intermediate host serving as the source for the zoonotic introduction of SARS-CoV-2 to human populations has not yet been identified, the SARS-CoV-2 virus has been placed within the coronavirus phylogeny through comparative genomic analyses.
+Genomic analyses and comparisons to other known coronaviruses suggest that SARS-CoV-2 is unlikely to have originated in a laboratory -- either purposely engineered and released, or escaped -- and instead evolved naturally in an animal host [@doi:10.1038/s41591-020-0820-9].
+While the position of the SARS-CoV-2 virus within the coronavirus phylogeny has been largely resolved, the functional consequences of molecular variation between this virus and other viruses, such as its bat and pangolin sister taxa or SARS-CoV-1, remain unknown [@doi:10.1038/s41591-020-0820-9, @doi:10.1038/s41586-020-2012-7].
+Fortunately, the basic genome structure of coronaviruses is highly conserved, and insight into the mechanisms the virus uses to enter cells, replicate, and spread is likely to be available from prior research in coronaviruses.
+
+### Coronaviruses and Humans Hosts
+
+Coronaviruses have long been known to infect animals and have been the subject of veterinary medical investigations and vaccine development efforts due to their effect on the health of companion and agricultural animals [@doi:10/ckfn8b].
+Most coronaviruses show little to no transmission in humans.
+However, today it is thought that approximately one-third of common cold infections are caused by four human coronaviruses (HCoV): _Human coronavirus 229E_ (HCoV-229E), _Human coronavirus NL63_ (HCoV-NL63), _Human coronavirus OC43_ (HCoV-OC43), and _Human coronavirus HKU1_ (HCoV-HKU1) [@doi:10.1038/s41579-018-0118-9; @doi:10.3390/diseases4030026].
+The first HCoV were identified in the 1960s: HCoV-229E in 1965 [@doi:10.3181/00379727-121-30734] and HCoV-OC43 in 1967 [@doi:10.1073/pnas.57.4.933].
+Both of these viruses cause cold-like symptoms [@doi:10.1186/1743-422X-1-7; @pmid:20700397].
+Two additional HCoV were subsequently identified [@doi:10.1038/nm1024; @doi:10.1128/JVI.79.2.884-895.2005].
+In 2003, HCoV-NL63 [@doi:10.1038/nm1024] was first identified in a 7-month-old infant and then in clinical specimens collected from seven additional patients, five of whom were infants younger than 1 year old and the remainder of whom were adults.
+CoV-HKU1 was identified in samples collected from a 71-year-old pneumonia patient in 2004 and then found in samples collected from a second adult patient [@doi:10.1128/JVI.79.2.884-895.2005].
+These viruses are associated with respiratory diseases of varying severity, ranging from common cold to severe pneumonia, with severe symptoms mostly observed in immunocompromised individuals [@doi:10.1086/377612].
+In addition to these relatively mild HCoV, however, highly pathogenic human coronaviruses have been identified, including _Severe acute respiratory syndrome-related coronavirus_ (SARS-CoV or SARS-CoV-1) and _Middle East respiratory syndrome-related coronavirus_ (MERS-CoV) [@doi:10.1038/nrmicro.2016.81; @doi:10.1038/s41579-018-0118-9; @doi:10.1016/bs.aivir.2018.01.001].
+
+### Conclusions
+
+As of October 2020 the SARS-CoV-2 virus remains a serious worldwide threat.
+The scientific community has responded by rapidly collecting and disseminating information about the SARS-CoV-2 virus and the associated illness, COVID-19.
+The rapid identification of the genomic sequence of the virus allowed for early contextualization of SARS-CoV-2 among other known respiratory viruses.
+The pathogen is a coronavirus that is closely related to SARS-CoV-1, which caused the SARS pandemics of the early 2000s.
+Knowing the phylogenetic context and genomic sequence of the virus then allowed for rapid insights into its structure and pathogenesis.
 
 
 ## Diagnostics
+
+### Abstract
+
+### Introduction
 
 Identifying individuals who have contracted COVID-19 is crucial to slowing down the global pandemic.
 Given the high transmissibility of SARS-CoV-2, the development of reliable assays to detect SARS-CoV-2 infection even in asymptomatic carriers is vitally important.
@@ -1221,6 +1288,18 @@ Molecular tests are essential for identifying individuals for treatment and aler
 While serological tests may be of interest to individuals who wish to confirm they were infected with SARS-CoV-2 in the past, their potential for false positives means that they are not currently recommended for this use.
 However, serological tests provide population-level information for epidemiological analysis, as they can be used to estimate the extent of the infection in a given area.
 Thus, they may be useful in efforts to better understand the percent of cases that manifest as severe versus mild and for guiding public health and economic decisions regarding resource allocation and counter-disease measures.
+
+Understanding the fundamental organization of the human immune response to viral threats is critical to understanding the varied response to SARS-CoV-2.
+The human immune system utilizes a variety of innate and adaptive responses to protect against the pathogens it encounters.
+The innate immune system consists of barriers, such as the skin, mucous secretions, neutrophils, macrophages, and dendritic cells.
+It also includes cell-surface receptors that can recognize the molecular patterns of pathogens.
+The adaptive immune system utilizes antigen-specific receptors that are expressed on B and T lymphocytes.
+These components of the immune system typically act together; the innate response acts first, and the adaptive response begins to act several days after initial infection following the clonal expansion of T and B cells [@doi:10.1016/j.jaci.2005.09.034].
+After a virus enters into a host cell, its antigen is presented by major histocompatibility complex 1 (MHC 1) molecules and is then recognized by cytotoxic T lymphocytes.
+
+In the case of COVID-19, there is also concern about the immune system becoming over-active.
+One of the main immune responses contributing to the onset of acute respiratory distress syndrome (ARDS) in COVID-19 patients is cytokine storm syndrome (CSS), which causes an extreme inflammatory response due to a release of pro-inflammatory cytokines and chemokines by immune effector cells.
+In addition to respiratory distress, this mechanism can lead to organ failure and death in severe COVID-19 cases [@doi:10.1016/j.jpha.2020.03.001].
 
 ### Molecular Tests
 
@@ -1426,8 +1505,27 @@ Another analysis, which examined New York state, indicated that as of May, 2020,
 This corresponded to ~1.5% of the population, but ~12% of individuals sampled statewide were estimated as positive through antibody tests (along with indications of spatial heterogeneity at higher resolution) [@url:https://www.governor.ny.gov/sites/governor.ny.gov/files/atoms/files/NYForwardReopeningGuide.pdf].
 Technological advancements that facilitate widespread, rapid testing will therefore improve the potential to accurately assess the rate of infection and aid in controlling the virus' spread.
 
+### Conclusions
+
+Major advancements have been made in identifying diagnostic approaches.
+The development of diagnostic technologies have been rapid, beginning with the release of the SARS-CoV-2 viral genome sequence in January.
+As of October 2020, a range of diagnostic tests have become available.
+One class of tests uses PCR (RT-PCR or qRT-PCR) to assess the presence of SARS-CoV-2 RNA, while another typically uses ELISA to test for the presence of antibodies to SARS-CoV-2.
+The former approach is useful for identifying active infections, while the latter measures hallmarks of the immune response and therefore can detect either active infections or immunity gained from prior infection.
+Combining these tests leads to extremely accurate detection of SARS-CoV-2 infection (98.6%), but when used alone, PCR-based tests are recommended before 5.5 days after the onset of the illness and antibody tests after 5.5 days [@doi:10.1001/jama.2020.8259].
+Other strategies for testing can also influence the tests' accuracy, such as the use of nasopharyngeal swabs versus BALF [@doi:10.1001/jama.2020.8259], which allow for trade-offs between patient's comfort and test sensitivity.
+Additionally, technologies such as digital PCR may allow for scale-up in the throughput of diagnostic testing, facilitating widespread testing.
+One major question that remains is whether people who recover from SARS-CoV-2 develop sustained immunity, and over what period this immunity is expected to last.
+Some reports have suggested that some patients may develop COVID-19 reinfections (e.g., [@doi:10/ghfgkt]), but the rates of reinfection are currently unknown.
+Serologic testing combined with PCR testing will be critical to confirming purported cases of reinfection and to identifying the duration over which immunity is retained and to understanding reinfection risks.
+
+
 
 ## Prophylactics and Therapeutics
+
+### Abstract
+
+### Introduction
 
 Given the worldwide spread of COVID-19, the identification and development of prophylactic and therapeutic interventions hold valuable potential for controlling the impact of the disease.
 Such interventions fall into two categories: prophylactics, which are meant to prevent a disease from occurring, and therapeutics, which are meant to treat existing disease.
@@ -1452,6 +1550,37 @@ The common interventions are all interventions used in at least ten trials.
 Combinations of interventions, such as Hydroxychloroquine + Azithromycin, are tallied separately from the individual interventions.
 Trials data are from the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709].
 ](https://github.com/greenelab/covid19-review/raw/4e99844ab1268d89af5080504b20ed76b3b6cc02/ebmdatalab/ebmdatalab-trials.svg "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+
+A great diversity of symptom profiles has been observed for COVID-19, although a large study from Wuhan, China suggests fever and cough as the two most common symptoms on admission [@doi:10.1056/NEJMoa2002032].
+One early retrospective study in China described the clinical presentations of patients infected with SARS-CoV-2 as including lower respiratory tract infection with fever, dry cough, and dyspnea [@doi:10/ggnxb3].
+This study [@doi:10/ggnxb3] noted that upper respiratory tract symptoms were less common, which suggests that the virus targets cells located in the lower respiratory tract.
+However, data from the New York City region [@doi:10.1001/jama.2020.6775; @doi:10.1056/NEJMc2010419] showed variable rates of fever as a presenting symptom, suggesting that symptoms may not be consistent across samples.
+These differences are present when comparing both between institutions in similar locations and between different regions experiencing COVID-19 outbreaks, leading to conflicting reports of the frequency of fever as a presenting symptom for patients upon hospital admission.
+For example, even within New York City, one study [@doi:10.1001/jama.2020.6775] identified low oxygen saturation (<90% without the use of supplemental oxygen or ventilation support) in a significant percentage of patients upon presentation, while another study [@doi:10.1056/NEJMc2010419] reported cough, fever, and dyspnea as the most common presenting symptoms.
+The variability of both which symptoms present and their severity makes it difficult for public health agencies to provide clear recommendations for citizens regarding what symptoms indicate SARS-CoV-2 infection and should prompt isolation.
+
+At the time that SARS-CoV-1 emerged in the early 2000s, no HCoV had been identified in almost 40 years [@doi:10.1038/nrmicro.2016.81].
+The first case of SARS was reported in November 2002 in the Guangdong Province of China, and over the following month, the disease spread more widely within China and then into several countries across multiple continents [@doi:10.1093/ajcp/aqaa029; @doi:10.1038/nrmicro.2016.81].
+Unlike previously identified HCoV, SARS was much more severe, with an estimated death rate of 9.5% [@doi:10.1093/ajcp/aqaa029].
+It was also highly contagious via droplet transmission, with a basic reproduction number (R~0~) of 4 (i.e., each person infected was estimated to infect four other people) [@doi:10.1093/ajcp/aqaa029].
+However, the identity of the virus behind the infection remained unknown until April of 2003, when the SARS-CoV-1 virus was identified through a worldwide scientific effort spearheaded by the WHO [@doi:10.1038/nrmicro.2016.81].
+SARS-CoV-1 belonged to a distinct lineage from the two other HCoV known at the time [@doi:10.1093/ajcp/aqaa029].
+By July 2003, the SARS outbreak was officially determined to be under control, with the success credited to infection management practices [@doi:10.1038/nrmicro.2016.81].
+A decade later, a second outbreak of severe respiratory illness associated with a coronavirus emerged, this time in the Arabian Peninsula.
+This disease, known as Middle East respiratory syndrome (MERS), was linked to another novel coronavirus, MERS-CoV.
+The fatality rate associated with MERS is much higher than that of SARS, at almost 35%, but the disease is much less easily transmitted, with an R~0~ of 1 [@doi:10.1093/ajcp/aqaa029].
+Although MERS is still circulating, its low reproduction number has allowed for its spread to be contained [@doi:10.1093/ajcp/aqaa029].
+The COVID-19 pandemic is thus associated with the seventh HCoV to be identified and the fifth since the turn of the millennium, though additional HCoVs may be in circulation but remain undetected.
+
+SARS-CoV-1 and MERS-CoV were ultimately managed largely through infection management practices (e.g., mask wearing) and properties of the virus itself (i.e., low rate of transmission), respectively [@doi:10.1038/nrmicro.2016.81; @doi:10.1093/ajcp/aqaa029].
+Vaccines were not used to control either virus, although vaccine development programs were established for SARS-CoV-1 [@doi:10.3390/v11010059].
+In general, care for SARS and MERS patients focuses on supportive care and symptom management [@doi:10.1093/ajcp/aqaa029].
+Clinical treatments for SARS and MERS developed during the outbreaks generally do not have strong evidence supporting their use.
+Common treatments included Ribavirin, an antiviral, often in combination with corticosteroids or sometimes interferon (IFN) medications, which would both be expected to have immunomodulatory effects [@doi:10.1038/nrmicro.2016.81].
+However, retrospective and _in vitro_ analyses have reported inconclusive results of these treatments on SARS and the SARS-CoV-1 virus, respectively [@doi:10.1038/nrmicro.2016.81].
+IFNs and Ribavirin have shown promise in _in vitro_ analyses of MERS, but their clinical effectiveness remains unknown [@doi:10.1038/nrmicro.2016.81].
+Therefore, only limited strategy for the pharmaceutical management of COVID-19 can be adopted from previous severe HCoV infections.
+Research in response to prior outbreaks of HCoV-borne infections, such as SARS and MERS, have, however, provided a strong foundation for hypotheses about the pathogenesis of SARS-CoV-2 as well as potential diagnostic and therapeutic approaches.
 
 ### Small Molecule Drugs
 
@@ -1853,197 +1982,6 @@ Note: I think this section was added elsewhere, so commenting out to be moved or
 Due to the relationship between coronaviral infections, ARDS, and the toll-like receptors TLR3 and TLR4, TLR agonists and antagonists hold some potential for broad-spectrum prophylaxis.
 In mouse models, poly(I:C) and lipopolysaccharide, which are agonists of TLR3 and TLR4, respectively, showed protective effects when administered prior to SARS-CoV-1 exposure [@doi:10.1128/JVI.01410-12].
 -->
-#### Nutraceuticals and Dietary Supplements
-
-Given the current pandemic, scientists and the medical community are scrambling to repurpose or discover novel host-directed therapies.
-For the general public in particular, whether nutraceuticals or dietary supplements can provide any prophylactic or therapeutic benefit has been a topic of interest.
-Nutraceuticals are classified as supplements with health benefits beyond their basic nutritional value [@doi:10.1080/10408390902841529; @doi:10.1038/nrcardio.2016.103].
-The key difference between a dietary supplement and a nutraceutical is that nutraceuticals should not only supplement the diet, but also aid in the prophylaxis and/or treatment of a disorder or disease [@doi:10.1208/ps050325]. 
-In the United States, dietary supplement and nutraceutical sales were worth $345 million for the entirety of 2019, whereas sales reached $435 million during the six-week period of the outbreak that ended on April 5 of 2020, which grew by a further $151 million by May 17 2020 [@url:https://www.nutritionaloutlook.com/view/peak-dietary-supplement-sales-leveling-during-covid-19-pandemic-growth-still-remains-strong].
-The increase in sales was driven by a consumer perception that dietary supplements and nutraceuticals would protect consumers from infection and/or mitigate the impact of infection due to the various "immune-boosting" claims of these various products [@doi:10.1016/j.tifs.2020.09.001; @url:https://kerry.com/insights/kerrydigest/2020/5-food-and-beverage-trends-in-europe-during-covid-19].
-Therefore, these alternative treatments and prophylactics are also important to consider in the context of COVID-19, especially since their regulation is less rigorous than that of pharmaceuticals in many places.
-Unlike pharmaceuticals, nutraceuticals do not entirely fall under the responsibility of the FDA, but they are monitored as dietary supplements according to the Dietary Supplement, Health and Education Act 1994 (DSHEA) [@url:https://ods.od.nih.gov/About/DSHEA_Wording.aspx] and the Food and Drug Administration Modernization Act 1997 [@url:https://www.fda.gov/regulatory-information/selected-amendments-fdc-act/food-and-drug-administration-modernization-act-fdama-1997].
-Due to the increased sales of dietary supplements and nutraceuticals, the FDA established the Office of Dietary Supplement Programs (ODSP) in 1996 to increase surveillance.
-However, there is significant concern that these acts do not adequately protect the consumer as they ascribe responsibility on the manufacturers to ensure safety of the product before manufacturing or marketing [@doi:10.1080/17512433.2018.1464911].
-Likewise, manufacturers are not required to register or seek approval from the FDA to produce or sell food supplements or nutraceuticals.
-Health or nutrient content claims for labeling purposes are approved based on an authoritative statement from the Academy of Sciences or relevant federal authorities once the FDA has been notified and on the basis that the information is known to be true and not deceptive [@doi:10.1080/17512433.2018.1464911].
-In Europe, health claims are permitted on a product label only following compliance and authorization according to the European Food Safety Authority (EFSA) guidelines on nutrition and health claims [@url:https://ec.europa.eu/food/safety/labelling_nutrition/claims/register/public].
-EFSA does not currently distinguish between food supplements and nutraceuticals for health claim applications of new products, as claim authorization is dependent on the availability of clinical data in order to substantiate efficacy [@doi:10.1111/bcp.13496].
-These guidelines seem to provide more protection to consumers.
-Currently, there is a debate among scientists and regulatory authorities over developing a regulatory framework to deal with the challenges of safety and health claim substantiation for nutraceuticals [@doi:10.1111/bcp.13496; @doi:10.1080/17512433.2018.1464911].
-As a result, studies of supplements and nutraceuticals do not necessarily follow the same rigorous clinical trial framework used for pharmaceuticals.
-
-Nutraceuticals and supplements purported to "boost" the immune response, reduce immunopathology, exhibit antiviral activities, or prevent ARDS are being considered for their potential therapeutic value [@doi:10/ggkd3b].
-A host of potential candidates have been highlighted in the literature that target various aspects of the COVID-19 viral pathology, while others are thought to prime the host immune system.
-These candidates include vitamins and minerals along with extracts and omega-3 polyunsaturated fatty acids (n-3 PUFA) [@doi:10.1002/jmv.25707].
-_In vitro_ and _in vivo_ studies suggest that nutraceuticals containing phycocyanobilin, N-acetylcysteine, glucosamine, selenium or phase 2 inductive nutraceuticals (e.g. ferulic acid, lipoic acid, or sulforaphane) can prevent or modulate RNA virus infections via amplification of the signaling activity of mitochondrial antiviral-signaling protein (MAVS) and activation of toll-like receptor 7 (TLR7) [@doi:10.1016/j.pcad.2020.02.007].
-While promising, further animal and human studies are required to assess the therapeutic potential of these various nutraceuticals against COVID-19.
-
-##### n-3 PUFA
-
-One supplement that has been explored for beneficial effects against various viral infections is n-3 PUFA [@doi:10.1002/jmv.25707], such as eicosapentaenoic acid (EPA) and docosahexaenoic acid (DHA).
-EPA and DHA intake can come from a diet high in fish or through dietary supplementation with fish oils or purified oils [@doi:10.1039/c9fo01742a].
-They can mediate inflammation and therefore may have the capacity to modulate the adaptive immune response [@doi:10.1111/j.1365-2125.2012.04374.x; @doi:10.1039/c9fo01742a; @doi:10.1038/nrcardio.2016.103].
-Another potential mechanism that has led to interest in n-3 PUFA for viral infections is its potential as a precursor molecule for the biosynthesis of endogenous specialized proresolving mediators (SPM), such as protectins and resolvins, that actively resolve inflammation and infection [@doi:10.1016/j.immuni.2014.02.009].
-Finally, some COVID-19 patients, particularly those with comorbidities, are at a significant risk of thrombotic complications including arterial and venous thrombosis [@doi:10.1182/blood.2020006000; @doi:10.1007/s11239-020-02134-3].
-Therefore, the use of prophylactic and therapeutic anticoagulants and antithrombotic agents is under consideration [@doi:10.1016/j.jacc.2020.04.031], which could potentially include n-3 PUFA.
-
-SPM have exhibited beneficial effects against a variety of lung infections, including some caused by RNA viruses [@doi:10.1038/nri.2015.4].
-Indeed, protectin D1 has been shown to increase survival from H1N1 viral infection in mice by affecting the viral replication machinery [@doi:10.1016/j.cell.2013.02.027].
-Several mechanisms for SPM have been proposed, including preventing the release of pro-inflammatory cytokines and chemokines or increasing phagocytosis of cellular debris by macrophages [@doi:10.1038/nature13479].
-In influenza, SPM promote antiviral B lymphocytic activities [@doi:10.4049/jimmunol.1302795], and protectin D1 has been shown to increase survival from H1N1 viral infection in mice by affecting the viral replication machinery [@doi:10.1016/j.cell.2013.02.027].
-It is hypothesized that SPM could aid in the resolution of the cytokine storm and pulmonary inflammation associated with COVID-19 [@doi:10.1007/s10555-020-09889-4].
-However, not all studies are in agreement that n-3 PUFA is effective against infections [@doi:10.3945/jn.109.108027].
-At a minimum, the effectiveness of n-3 PUFA against infections would be dependent on the dosage, timing, and the specific pathogens responsible [@doi:10.1016/j.jinf.2016.10.001].
-On another level, there is still the question of whether fish oils can raise the levels of SPM levels upon ingestion and in response to acute inflammation in humans [@doi:10.1194/jlr.M060392].
-
-The increased risk of thrombotic complications in COVID-19 infected patients was reported relatively late in comparison to other manifestations of COVID-19 [@doi:10.1016/j.thromres.2020.04.013; @doi:10.1182/blood.2020006000].
-Considering that there is significant evidence that n-3 fatty acids and other fish oil-derived lipids possess antithrombotic properties and anti-inflammatory properties [@doi:10.1016/j.prostaglandins.2018.09.005; @doi:10.1016/j.blre.2020.100694], they may have therapeutic value against the prothrombotic complications of COVID-19.
-Based on concern among the medical community that the use of investigational therapeutics on COVID-19 patients already on antiplatelet therapies due to a pre-existing comorbidities may lead to issues with dosing and drug choice, and/or negative drug-drug interactions [@doi:10.1016/j.jacc.2020.04.031], this supplementation holds particular interest for the treatment of patients already receiving pharmaceutical antiplatelet therapies.
-As a result, the use of other therapeutics, such as dietary sources of n-3 fatty acids or nutraceuticals with antiplatelet activities, may be beneficial and warrant further investigation.
-A new clinical trial [@clinicaltrials:NCT04412018] is currently recruiting COVID-19 positive patients to investigate the anti-inflammatory activity of a recently developed, highly purified nutraceutical derivative of EPA known as icosapent ethyl (Vascepa^TM^) [@doi:10.1056/NEJMoa1812792].
-Other randomized controlled trials are in the preparatory stages with the intention of investigating the administration of EPA and other bioactive compounds to COVID-19 positive patients to determine whether anti-inflammatory effects or disease state improvements are observed [@clinicaltrials:NCT04335032; @clinicaltrials:NCT04323228].
-Finally, while there have been studies investigating the therapeutic value of n-3 fatty acids against ARDS in humans, there is still limited evidence of their effectiveness [@doi:10.3390/ijms21093104].
-It should be noted that the overall lack of human studies in this area means there is limited evidence as to whether these supplements and nutraceuticals could affect COVID-19 infection.
-Consequently, clinical trials have been proposed and many are in the preparatory stages.
-These trials will investigate whether the anti-inflammatory potential of n-3 PUFA and their derivatives is beneficial in the treatment of COVID-19.
-Therefore, the evidence is not present to draw conclusions about whether n-3 PUFA will be useful in treating COVID-19, but as there is likely little harm associated with a diet rich in fish oils, interest in these products by the general public is unlikely to have negative effects. 
-
-##### Zinc
-
-There is evidence that certain nutrient supplements may exhibit some benefit against RNA viral infections.
-Zinc is a trace metal obtained from dietary sources or supplementation that is important for the maintenance of immune cells involved in adaptive and innate immunity [@doi:10.1016/j.abb.2016.03.022].
-Zinc supplements can be administered orally as a tablet or as a lozenge and they are available in many forms, such as zinc picolinate, zinc acetate, and zinc citrate.
-Zinc is also available from dietary sources including meat, seafood, nuts, seeds, legumes, and dairy.
-The role of zinc in immune function has been extensively reviewed [@doi:10.1016/j.abb.2016.03.022].
-Zinc is an important signaling molecule and zinc levels can alter host defense systems.
-In inflammatory situations such as an infection, zinc can regulate leukocyte immune responses and it can activate the nuclear factor kappa-light-chain-enhancer of activated B cells (NF-kB), thus altering cytokine production [@doi:10.4049/jimmunol.179.6.4180; @doi:10.1067/mlc.2001.118108].
-In particular, zinc supplementation can increase natural killer cell levels, which are important cells for host defense against viral infections [@doi:10.1126/science.1198687; @doi:10.1016/j.abb.2016.03.022].
-
-Adequate zinc intake has been associated with reduced incidence of infection [@doi:10.1093/ajcn/85.3.837] and antiviral immunity [@doi:10.1093/advances/nmz013].
-Similarly, a randomized, double-blind, placebo-controlled trial that administered zinc supplementation to elderly subjects over the course of a year found zinc deficiency to be associated with increased susceptibility to infection and that zinc deficiency could be prevented through supplementation [@doi:10.1093/ajcn/85.3.837].
-Clinical trial data supports the utility of zinc to diminish the duration and severity of symptoms associated with common colds when it is provided within 24 hours of the onset of symptoms [@doi:10.1331/1544-3191.44.5.594.Hulisz; @doi:10.2174/1874306401105010051].
-In coronaviruses specifically, _in vitro_ evidence demonstrates that the combination of zinc (Zn2+) and zinc ionophores (pyrithione) can interrupt the replication mechanisms of SARS-CoV-GFP (a fluorescently tagged SARS-CoV-1) and a variety of other RNA viruses [@doi:10.1371/journal.ppat.1001176; @doi:10.1016/j.antiviral.2014.12.015].
-Currently, there are over twenty clinical trials registered with the intention to use zinc in a preventative or therapeutic manner.
-However, many of these trials proposed the use of zinc in conjunction with hydroxychloroquine and azithromycin [@clinicaltrials:NCT04370782; @clinicaltrials:NCT04377646; @clinicaltrials:NCT04395768; @clinicaltrials:NCT04373733], and it is not known how the lack of evidence supporting the use of hydroxychloroquine will affect investigation of zinc.
-Other trials, however, are investigating zinc in conjunction with other supplements such as vitamin C or n-3 PUFA [@clinicaltrials:NCT04342728; @clinicaltrials:NCT04323228].
-Though there is, overall, encouraging data for zinc supplementation against the common cold and viral infections, there is currently limited evidence to suggest zinc supplementation has any beneficial effects against the current novel COVID-19; thus, the clinical trials that are currently underway will provide vital information on the efficacious use of zinc in COVID-19 prevention and/or treatment.
-However, given the limited risk, maintaining a healthy diet to ensure an adequate zinc status may be advisable for individuals seeking to reduce their likelihood of infection.
-
-##### Vitamin C
-
-Vitamins B, C, D, and E have also been suggested as potential nutrient supplement interventions for COVID-19 [@doi:10.1002/jmv.25707; @doi:10.20944/preprints202003.0347.v1].
-In particular vitamin C has been proposed as a potential therapeutic agent against COVID-19.
-Vitamin C can be obtained via dietary sources such as fruit and vegetable or via supplementation.
-Vitamin C plays a significant role in promoting immune function due to its effects on various immune cells.
-It affects inflammation by modulating cytokine production, decreasing histamine levels, enhancing the differentiation and proliferation of T- and B-lymphocytes, increasing antibody levels, and protecting against the negative effects of reactive oxygen species amongst other effects [@doi:10.1155/2014/426740; @doi:10.1007/s00210-013-0880-1; @doi:10.3390/nu9111211].
-Vitamin C is utilized by the body during viral infections, as evinced by lower concentrations in leukocytes and lower concentrations of urinary vitamin C.
-Post-infection, these levels return to baseline ranges [@doi:10.1177/003693307301800102; @doi:10.1111/j.1749-6632.1975.tb29312.x; @doi:10/fd22sv; @doi:10.3390/nu9040339; @doi:10.1079/bjn19920004].
-
-A recent meta-analysis found consistent support for regular vitamin C supplementation reducing the duration of the common cold, but that supplementation with vitamin C (> 200 mg) failed to reduce the incidence of colds [@doi:10.1002/14651858.CD000980.pub4].
-Individual studies have found Vitamin C to reduce the susceptibility of patients to lower respiratory tract infections such as pneumonia [@doi:10.1097/00006454-199709000-00003].
-Another meta-analysis has demonstrated in twelve trials that vitamin C supplementation reduced the length of stay of patients in intensive care units (ICUs) by 7.8% (95% CI: 4.2% to 11.2%; p = 0.00003).
-Furthermore, high doses (1-3 g/day) significantly reduced the length of an ICU stay by 8.6% in six trials (p = 0.003).
-Vitamin C also shortened the duration of mechanical ventilation by 18.2% in three trials in which patients required intervention for over 24 hours (95% CI 7.7% to 27%; p = 0.001) [@doi:10.3390/nu11040708].
-Despite these findings, the CITRUS ALI study failed to show a benefit of a 96-hour infusion of vitamin C to treat ARDS, which is a severe complication of COVID-19 infection [@doi:10.1001/jama.2019.11825].
-Nevertheless, a randomized placebo-controlled trial [@clinicaltrials:NCT04264533] has begun in Wuhan, China to investigate the intravenous infusion of vitamin C to treat pneumonia in 140 severe COVID-19 infected patients.
-As summarized by Carr [@doi:10.1186/s13054-020-02851-4] the trial will not be completed until September 2020.
-Another trial in Italy [@clinicaltrials:NCT04323514] intends to deliver a 10 g infusion of vitamin C to 500 severe COVID-19 patients with pneumonia to assess in-hospital mortality over a 72 hr period as the primary outcome.
-The trial is currently recruiting and is due to run until March 2021.
-We will not know how effective vitamin C is as a therapeutic for quite some time due to the length of both trials.
-These are not the only trials investigating the potential value of vitamin C, as there are currently (as of October 2020) over fifteen trials registered with clinicaltrials.gov that are either recruiting or are currently in preparation.
-When completed, the trials will provide crucial evidence on the efficacy of vitamin C as a therapeutic for COVID-19 infection.
-Thus, some evidence suggests that vitamin C supplementation or infusion can shorten the duration of a cold, reduce an individual's susceptibility to infections, and shorten a patient's stay in an ICU when administered at high doses, but we don't yet understand if these findings apply to COVID-19.
-There are ongoing trials in China and Italy that will inform our understanding of the therapeutic value of vitamin C supplementation for COVID-19.
-Once again, vitamin C intake is likely to be part of a healthy diet and the vitamin likely presents minimal risk, but its potential prophylactic or therapeutic effects against COVID-19 are unknown.
-
-##### Vitamin D
-
-In terms of other dietary supplements, vitamin D can modulate the adaptive and innate immune system and has been associated with various aspects of health.
-Vitamin D can be sourced through diet or supplementation, but it is mainly biosynthesized by the body on exposure to sunlight.
-Vitamin D deficiency is associated with an increased susceptibility to infection [@doi:10.2310/JIM.0b013e31821b8755].
-In particular, vitamin D deficient patients are at risk of developing acute respiratory infections [@doi:10.1016/j.jsbmb.2012.11.017] and ARDS [@doi:10.1016/j.jsbmb.2012.11.017].
-1,25-dihydroxyvitamin D3 is the more active form of vitamin D that is involved in adaptive and innate responses, however, due to a short half life of a few hours, it is measured by its longer lasting precursor 25-hydroxyvitamin D. The vitamin D receptor is expressed in various immune cells and vitamin D is an immunomodulator of antigen presenting cells, dendritic cells, macrophages, monocytes, and T- and B-lymphocytes [@doi:10.2310/JIM.0b013e31821b8755; @doi:10.1016/j.coph.2010.04.001].
-Due to its potential immunomodulating properties, vitamin D supplementation may be advantageous to maintain a healthy immune system.
-
-One influential review postulated that an individual’s vitamin D status may significantly affect their risk of developing COVID-19 [@doi:10.3390/nu12040988].
-This hypothesis was derived from the fact that the current pandemic emerged in winter in Wuhan China when 25-hydroxyvitamin D concentrations are at their lowest due to a lack of sunlight, whereas in the Southern Hemisphere, where it was nearing the end of the summer and higher 25-hydroxyvitamin D concentrations would be higher, the number of cases was low.
-The authors suggested that people at risk of developing COVID-19 should increase their vitamin D3 intake to reach 25-hydroxyvitamin D plasma concentrations above 40–60 ng/ml.
-The authors also suggest high-dose supplementation of vitamin D to treat infected patients and to prevent infection in hospital staff [@doi:10.3390/nu12040988].
-While vitamin D is relatively inexpensive and safe to consume, caution is warranted when interpreting this review as it has yet to be determined whether vitamin D levels affect COVID-19 outside of this geographic/climatic correlation.
-Likewise, though it is assumed that COVID-19 may be seasonal, multiple other factors that can affect vitamin D levels should also be considered.
-These factors include an individual’s nutritional status, their age, their occupation, skin pigmentation, potential comorbidities, and the variation of exposure to sunlight due to latitude amongst others.
-As the pandemic evolves, further research has investigated some of the potential links identified in the Grant et al. review [@doi:10.3390/nu12040988] between vitamin D and COVID-19 and sought to shed light on whether there is any prophylactic and/or therapeutic relationship.
-A study in Switzerland demonstrated that 27 SARS-CoV-2 positive patients exhibited 25-hydroxyvitamin D plasma concentrations that were significantly lower (11.1 ng/ml) than those of SARS-CoV-2 negative patients (24.6 ng/ml; p = 0.004), an association that held when stratifying for patients greater than 70 years old [@doi:10.3390/nu12051359].
-These findings seem to be supported by a Belgian observational study of 186 SARS-CoV-2 positive patients exhibiting symptoms of pneumonia, where 25-hydroxyvitamin D plasma concentrations were measured and a CT scan of the lungs was obtained upon hospitalization [@doi:10.1101/2020.05.01.20079376].
-A significant difference in 25-hydroxyvitamin D levels was observed between the SARS-CoV-2 patients and 2,717 season-matched diseased controls.
-Both female and male patients possessed lower median 25-hydroxyvitamin D concentrations than the control group (18.6 ng/ml versus 21.5 ng/ml; p = 0.0016) and a higher rate of vitamin D deficiency (58.6% versus 42.5%).
-Evidence of sexual dimorphism was apparent, as female patients had equivalent levels of 23-hydroxyvitamin D to the control group, whereas male patients were deficient in 25-hydroxyvitamin D relative to male controls (67% versus 49%; p = 0.0006).
-Notably, vitamin D deficiency was progressively lower in males with advancing radiological disease stages (p = 0.001).
-These studies are supported by several others that indicate that vitamin D status may be an independent risk factor for the severity of COVID-19 [@doi:10.1371/journal.pone.0239799; @doi:10.1016/j.jiph.2020.06.021; @doi:10.1111/febs.15495; @doi:10.1001/jamanetworkopen.2020.19722] and in COVID-19 patients relative to population-based controls [@doi:10.1210/clinem/dgaa733].
-Indeed, serum concentrations of 25-hydroxyvitamin D above 30 ng/ml, which indicate vitamin D sufficiency, seems to be associated with a reduction in serum C-reactive protein (CRP), an inflammatory marker, along with increased lymphocyte levels, which suggests that vitamin D levels may modulate the immune response by reducing risk for cytokine storm in response to SARS-CoV-2 infection. 
-Despite these studies potentially linking vitamin D status with COVID-19 severity, an examination of the UK Biobank did not support this thesis [@doi:10.1016/j.dsx.2020.04.050].
-This analysis examined 25-hydroxyvitamin D concentrations in 348,598 UK Biobank participants, of which 449 were SARS-CoV-2 positive.
-However, this study has caused considerable debate that will likely be settled following further studies [@doi:10.1111/cen.14276; @doi:10.1016/j.dsx.2020.05.046].
-There is significant interest in the link between vitamin D and COVID-19, hence the multitude of studies published in the literature of varying quality and the clinical trials underway.
-One trial is currently investigating the utility of vitamin D as an immune-modulating agent by monitoring whether administration of vitamin D precipitates an improvement of health status in non-severe symptomatic patients infected with COVID-19 or whether vitamin D prevents patient deterioration [@clinicaltrials:NCT04334005].
-Other trials are also underway examining various factors including mortality, symptom recovery, severity of disease, rates of ventilation, inflammatory markers such as CRP and IL-6, blood cell counts, and the prophylactic capacity of vitamin D administration [@clinicaltrials:NCT04385940; @clinicaltrials:NCT04334005; @clinicaltrials:NCT04411446; @clinicaltrials:NCT04344041].
-Concomitant administration of vitamin D with pharmaceuticals such as aspirin [@clinicaltrials:NCT04363840] and bioactive molecules such as resveratrol [@clinicaltrials:NCT04400890] are also under investigation.
-
-While there is increasing evidence that vitamin D status is linked to COVID-19 outcomes, the effectiveness of its supplementation remains open for debate.
-Once again, supplementation of vitamin D and maintaining a healthy diet for optimum vitamin D status is unlikely to carry major health risks while the possible link between vitamin D status and COVID-19 is investigated.
-However, pursuing to elevate vitamin D levels through sunlight exposure does carry additional risks, as many densely populated cities and countries around the world are sporadically utilizing "shelter in place" orders to enforce social distancing guidelines, especially with cases rising again as winter 2020 approaches.
-Given the lack of conclusive evidence in support of vitamin D supplementation, it is not clear that these guidelines present additional risk.
-However, to the extent that people are able to maintain safe exposure to sunlight, there is a possibility that it could improve endogenous synthesis of vitamin D, potentially strengthening the immune system.
-
-##### Probiotics
-
-Probiotics are “live microorganisms that, when administered in adequate amounts, confer a health benefit on the host” [@doi:10.1038/nrgastro.2014.66].
-Some studies suggest that probiotics are beneficial against common viral infections and there is modest evidence to suggest that they can modulate the immune response [@doi:10.4082/kjfm.2013.34.1.2; @doi:10.2174/1381612824666180116163411], and as a result it has been hypothesized that probiotics may have therapeutic value worthy of investigation against SARS-CoV-2 [@doi:10.3389/fpubh.2020.00186].
-Probiotics and next-generation probiotics, which are more akin to pharmacological-grade supplements, have been associated with multiple potential beneficial effects for allergies, digestive tract disorders, and even metabolic diseases through their anti-inflammatory and immunomodulatory effects [@doi:10.1038/nmicrobiol.2017.57; @doi:10.1093/advances/nmy063].
-However, the mechanisms by which probiotics affect these various conditions would likely differ among strains, with the ultimate effect of the probiotic depending on the heterogeneous set of bacteria present [@doi:10.1093/advances/nmy063].
-Some of the beneficial effects of probiotics include reducing inflammation by promoting the expression of anti-inflammatory mediators, inhibiting toll-like receptors (TLR) 2 and 4, direct competition with pathogens, the synthesis of antimicrobial substances or other metabolites, improving intestinal barrier function, and/or favorably altering the gut microbiota and the brain-gut axis [@doi:10.1016/j.earlhumdev.2019.05.010; @doi:10.1093/advances/nmy063; @doi:10.1159/000342079].
-However, there is also a bi-directional relationship between the lungs and gut microbiota known as the gut-lung axis [@doi:10.1038/mi.2011.55], whereby gut microbial metabolites and endotoxins may affect the lungs via the circulatory system and the lung microbiota in return may affect the gut [@doi:10.1111/cmi.12966].
-Therefore, the gut-lung axis may play role in our future understanding of COVID-19 pathogenesis and become a target for probiotic treatments [@doi:10.1016/j.virusres.2020.198018].
-
-Probiotics have tentatively been associated with the reduction of risk and duration of viral upper respiratory tract infections [@doi:10.1007/s10096-014-2086-y; @doi:10.1002/14651858.CD006895.pub3; @doi:10.1016/j.ijantimicag.2008.11.005].
-Some meta-analyses that have assessed the efficacy of probiotics in viral respiratory infections have reported moderate reductions in the incidence and duration of infection [@doi:10.1002/14651858.CD006895.pub3; @doi:10.1017/S0007114514000075].
-Indeed, randomized controlled trials have shown that administering _Bacillus subtilis_ and _Enterococcus faecalis_ [@doi:10.1007/s00134-016-4303-x], _Lactobacillus rhamnosus GG_ [@doi:10.1164/rccm.200912-1853OC], or _Lactobacillus casei_ and _Bifidobacterium breve_ with galactooligosaccharides [@doi:10.1186/s13054-018-2167-x] via the nasogastric tube to ventilated patients reduced the occurrence of ventilator-associated pneumonia in comparison to the respective control groups in studies of viral infections and sepsis.
-These findings are supported by a recently published meta-analysis [@doi:10.4187/respcare.07097].
-There is a significant risk of ventilator-associated bacterial pneumonia in COVID-19 patients [@doi:10.6084/m9.figshare.12340496], but it can be challenging for clinicians to diagnose this infection due to the fact that severe COVID-19 infection presents with the symptoms of pneumonia [@doi:10.1186/s13054-020-03013-2].
-Therefore, an effective prophylactic therapy for ventilator-associated pneumonia in severe COVID-19 patients would be of significant therapeutic value.
-
-Probiotics are generally synonymous with the treatment of gastrointestinal issues due to their supposed anti-inflammatory and immunomodulatory effects [@doi:10/d2qp].
-Notably, gastrointestinal symptoms commonly occur in COVID-19 patients [@doi:10.1053/j.gastro.2020.03.020], and the ACE2 receptor is highly expressed in enterocytes of the ileum and colon, suggesting that these organs may be a potential route of infection [@doi:10.1101/2020.01.30.927806; @doi:10.1038/cr.2016.152].
-Indeed, SARS-CoV-2 viral RNA has been detected in human feces [@doi:10/ggq8zp], and fecal-oral transmission of the virus has not yet been ruled out [@doi:10/ggpx7s].
-Rectal swabs of some SARS-CoV-2 positive pediatric patients persistently tested positive for several days despite negative nasopharyngeal tests, indicating the potential for fecal viral shedding [@doi:10.1038/s41591-020-0817-4].
-However, there is conflicting evidence for the therapeutic value of various probiotics against the incidence or severity of gastrointestinal symptoms in viral or bacterial infections such as gastroenteritis [@doi:10.1007/s00203-017-1400-3; @doi:10.1056/NEJMoa1802597].
-Nevertheless, it has been proposed that the administration of probiotics to COVID-19 patients and healthcare workers may prevent or ameliorate the gastrointestinal symptoms of COVID-19, a hypothesis that several clinical trials are now preparing to investigate [@clinicaltrials:NCT04420676; @clinicaltrials:NCT04366180].
-Other studies are investigating whether probiotics may affect patient outcomes following SARS-CoV-2 infection [@clinicaltrials:NCT04390477].
-
-Generally, the efficacy of probiotic use is a controversial topic among scientists.
-In Europe, EFSA has banned the term probiotics on products labels, which has elicited either criticism for EFSA or support for probiotics from researchers in the field [@doi:10.1016/j.bpg.2015.12.001; @doi:10.1017/S000711451100287X; @doi:10.1038/nrgastro.2014.66].
-This is due to the hyperbolic claims placed on the labels of various probiotic products, which lack rigorous scientific data to support their efficacy.
-Overall, the data supporting probiotics in the treatment or prevention of many different disorders and diseases is not conclusive as the quality of the evidence is generally considered low [@doi:10.1007/s10096-014-2086-y].
-However, in the case of probiotics and respiratory infections, the evidence seems to be supportive of their potential therapeutic value.
-Consequently, several investigations are underway to investigate the prophylactic and therapeutic potential of probiotics for COVID-19.
-However, blind use of conventional probiotics for COVID-19 is cautioned against until the pathogenesis of SARS-CoV-2 is further established [@doi:10/d2qq].
-Until clinical trials investigating the prophylactic and therapeutic potential of probiotics for COVID-19 are complete, it is not possible to provide an evidence-based recommendation for their use.
-
-##### Nutraceutical and Dietary Supplement Conclusions
-
-Despite all the potential benefits of nutraceutical and dietary supplement interventions presented, currently there is a paucity of clinical evidence to support their use for the prevention or mitigation of COVID-19 infections.
-Nevertheless, optimal nutritional status can prime an individual’s immune system to protect against the effects of acute respiratory viral infections by supporting normal maintenance of the immune system [@doi:10.3390/nu12041181; @doi:10.3390/nu12051466].
-Nutritional strategies can also play a role in the treatment of hospitalized patients, as malnutrition is a risk to COVID-19 patients [@doi:10.1038/s41430-020-0664-x].
-Overall, supplementation of vitamin C, vitamin D, and zinc may be an effective method of ensuring their adequate intake to maintain optimal immune function, which may also convey beneficial effects against viral infections due to their immunomodulatory effects.
-However, many supplements and nutraceuticals designed for various ailments are available in the United States and beyond that are not strictly regulated [@doi:10.1080/10408398.2019.1592107].
-Indeed, there can be safety and efficacy concerns associated with many of these products.
-Often, the vulnerable members of society can be exploited in this regard and unfortunately the COVID-19 pandemic is no different.
-The Food and Drug Administration (FDA) has issued warnings to several companies for advertising falsified claims in relation to the preventative and therapeutic capabilities of their products against COVID-19 [@url:https://www.fda.gov/news-events/press-announcements/coronavirus-update-fda-and-ftc-warn-seven-companies-selling-fraudulent-products-claim-treat-or].
-In light of these serious occurrences, it is pertinent to clarify that the nutraceuticals discussed in this review have been selected because of their possible relevance to the biological mechanisms that can beneficially affect viral and respiratory infections and because they are currently under clinical investigation.
-Therefore, further intensive investigation is required to establish the effects of these nutraceuticals, if any, against COVID-19.
-Until effective therapeutics are established, the most effective mitigation strategies consist of encouraging standard public health practices such as regular hand washing with soap, wearing a face mask, and covering a cough with your elbow [@url:https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html], along with following social distancing measures, "shelter in place" guidelines, expansive testing, and contact tracing [@doi:10.1101/2020.03.27.20045815; @doi:10.3201/eid2608.201093].
-
 ### Biologics
 
 Biologics are produced from components of living organisms or viruses.
@@ -2371,8 +2309,12 @@ Additionally, given that severe SARS-CoV-2 may be associated with a dysregulated
 The article [@doi:10.1016/j.cell.2020.04.042] proposes that trained immunity might lead to an earlier and stronger response, which could in turn reduce viremia and the risk of later, detrimental immunopathology.
 While trained immunity is an interesting possible avenue to complement vaccine development efforts through the use of an existing vaccine, additional research is required to assess whether the BCG vaccine is likely to confer trained immunity in the case of SARS-CoV-2.
 
-### Summary of Prophylactics and Therapeutics
+### Discussion
 
+As COVID-19 cases have been more widely characterized, it has become clear that the disease presentation is highly heterogeneous.
+Many cases, especially in younger adults, present with mild symptoms or even asymptomatically, while others, especially in older adults, can be severe or fatal.
+In children, the SARS-CoV-2 virus can present as two distinct diseases, COVID-19 or MIS-C.
+While the overall infection fatality rate remains unknown, estimates suggest that it is not more than 1%; however, the severity of many non-lethal cases makes COVID-19 an ongoing, significant concern.
 Currently, there are several possible prophylactics and therapeutics under investigation.
 Early public attention focused on potential treatments whose therapeutic/prophylactic value has subsequently been disproved or remains under question, such as HCQ and some nutraceuticals, respectively.
 Advances in prophylactics continue to develop, with several vaccines currently in clinical trials.
@@ -2386,34 +2328,6 @@ At present, a number of promising avenues continue to be explored.
 Potential therapeutics currently being studied target the SARS-CoV-2 or modify the host environment through many different mechanisms.
 Here, the relationship between the virus and several therapeutics described above are visualized.
 ](images/N001-LifeCyclePlusDrugs.png){#fig:therapeutics secno=1}
-
-
-## Discussion
-
-As of October 2020 the SARS-CoV-2 virus remains a serious worldwide threat.
-The scientific community has responded by rapidly collecting and disseminating information about the SARS-CoV-2 virus and the associated illness, COVID-19.
-The rapid identification of the genomic sequence of the virus allowed for early contextualization of SARS-CoV-2 among other known respiratory viruses.
-The pathogen is a coronavirus that is closely related to SARS-CoV-1, which caused the SARS pandemics of the early 2000s.
-Knowing the phylogenetic context and genomic sequence of the virus then allowed for rapid insights into its structure and pathogenesis.
-As with other HCoV, the immune response to SARS-CoV-2 is likely driven by detection of its spike protein, which allows it to enter cells through the ACE2 receptor.
-Epithelial cells have also emerged as the major cellular target of the virus, contextualizing the respiratory and gastrointestinal symptoms that are frequently observed in COVID-19.
-However, as COVID-19 cases have been more widely characterized, it has become clear that the disease presentation is highly heterogeneous.
-Many cases, especially in younger adults, present with mild symptoms or even asymptomatically, while others, especially in older adults, can be severe or fatal.
-In children, the SARS-CoV-2 virus can present as two distinct diseases, COVID-19 or MIS-C.
-While the overall infection fatality rate remains unknown, estimates suggest that it is not more than 1%; however, the severity of many non-lethal cases makes COVID-19 an ongoing, significant concern.
-
-Characterizing the rate of infection and fatality rates hinges on the availability of rapid and accurate diagnostic testing.
-Major advancements have been made in identifying diagnostic approaches.
-The development of diagnostic technologies have been rapid, beginning with the release of the SARS-CoV-2 viral genome sequence in January.
-As of October 2020, a range of diagnostic tests have become available.
-One class of tests uses PCR (RT-PCR or qRT-PCR) to assess the presence of SARS-CoV-2 RNA, while another typically uses ELISA to test for the presence of antibodies to SARS-CoV-2.
-The former approach is useful for identifying active infections, while the latter measures hallmarks of the immune response and therefore can detect either active infections or immunity gained from prior infection.
-Combining these tests leads to extremely accurate detection of SARS-CoV-2 infection (98.6%), but when used alone, PCR-based tests are recommended before 5.5 days after the onset of the illness and antibody tests after 5.5 days [@doi:10.1001/jama.2020.8259].
-Other strategies for testing can also influence the tests' accuracy, such as the use of nasopharyngeal swabs versus BALF [@doi:10.1001/jama.2020.8259], which allow for trade-offs between patient's comfort and test sensitivity.
-Additionally, technologies such as digital PCR may allow for scale-up in the throughput of diagnostic testing, facilitating widespread testing.
-One major question that remains is whether people who recover from SARS-CoV-2 develop sustained immunity, and over what period this immunity is expected to last.
-Some reports have suggested that some patients may develop COVID-19 reinfections (e.g., [@doi:10/ghfgkt]), but the rates of reinfection are currently unknown.
-Serologic testing combined with PCR testing will be critical to confirming purported cases of reinfection and to identifying the duration over which immunity is retained and to understanding reinfection risks.
 
 One of the goals of characterizing the immune response is to identify strategies for the prophylactic enhancements of immunity.
 Though some concerns remain about the duration of sustained immunity for convalescents, vaccine development efforts are ongoing and show initial promising results.
@@ -2454,10 +2368,6 @@ Intriguing new options are emerging, however.
 Beta-D-N4-hydroxycytidine (NHC) is an orally bioavailable ribonucleotide analog showing broad-spectrum activity against RNA viruses, which may inhibit SARS-CoV-2 replication _in vitro_ and _in vivo_ in mouse models of HCoVs [@doi:10.1126/scitranslmed.abb5883].
 A range of other antivirals are also in development.
 Development of antivirals will be further facilitated as research reveals more information about the interaction of SARS-CoV-2 with the host cell and host cell genome, mechanisms of viral replication, mechanisms of viral assembly, and mechanisms of viral release to other cells; this can allow researchers to target specific stages and structures of the viral life cycle.
-Many researchers have also focused their attention to the potential use of dietary supplements and nutraceuticals.
-Indeed, there has been recent interest for the potential use of vitamin D as a prophylactic and therapeutic agent against COVID-19 as several observational studies have linked low vitamin D status to its incidence [@doi:10.1111/joim.13149; @doi:10.1001/jamanetworkopen.2020.19722]. 
-These associations have yet to be confirmed and rigorous trials are required before considering supplementation recommendations.
-However, the nutritional status and general health of a patient can affect their outcomes in various diseases, thus it would be pertinent to advise people to follow a healthy diet and life style to the best of their ability to prevent nutrient deficiencies and insufficiencies and to maintain a healthy immune system [@doi:10.1093/advances/nmaa125].
 Finally, antibodies against viruses, also known as antiviral monoclonal antibodies, could be an alternative as well and are described in detail in an above section.
 The goal of antiviral antibodies is to neutralize viruses through either cell-killing activity or blocking of viral replication [@doi:10.1016/j.tim.2015.07.005].
 They may also engage the host immune response, encouraging the immune system to hone in on the virus.
@@ -2481,6 +2391,211 @@ Currently, crystal structures of the SARS-CoV-2 main protease have recently been
 Much work remains to be done to determine further crystal structures of other viral components, understand the relative utility of targeting different viral components, perform additional small molecule inhibitor screens, and determine the safety and efficacy of the potential inhibitors.
 While still nascent, work in this area is promising.
 Over the longer term, this approach and others may lead to the development of novel therapeutics specifically for COVID-19 and SARS-CoV-2.
+
+
+
+## Nutraceuticals
+
+### Abstract
+
+### Introduction
+
+Given the current pandemic, scientists and the medical community are scrambling to repurpose or discover novel host-directed therapies.
+For the general public in particular, whether nutraceuticals or dietary supplements can provide any prophylactic or therapeutic benefit has been a topic of interest.
+Nutraceuticals are classified as supplements with health benefits beyond their basic nutritional value [@doi:10.1080/10408390902841529; @doi:10.1038/nrcardio.2016.103].
+The key difference between a dietary supplement and a nutraceutical is that nutraceuticals should not only supplement the diet, but also aid in the prophylaxis and/or treatment of a disorder or disease [@doi:10.1208/ps050325].
+In the United States, dietary supplement and nutraceutical sales were worth $345 million for the entirety of 2019, whereas sales reached $435 million during the six-week period of the outbreak that ended on April 5 of 2020, which grew by a further $151 million by May 17 2020 [@url:https://www.nutritionaloutlook.com/view/peak-dietary-supplement-sales-leveling-during-covid-19-pandemic-growth-still-remains-strong].
+The increase in sales was driven by a consumer perception that dietary supplements and nutraceuticals would protect consumers from infection and/or mitigate the impact of infection due to the various "immune-boosting" claims of these various products [@doi:10.1016/j.tifs.2020.09.001; @url:https://kerry.com/insights/kerrydigest/2020/5-food-and-beverage-trends-in-europe-during-covid-19].
+Therefore, these alternative treatments and prophylactics are also important to consider in the context of COVID-19, especially since their regulation is less rigorous than that of pharmaceuticals in many places.
+Unlike pharmaceuticals, nutraceuticals do not entirely fall under the responsibility of the FDA, but they are monitored as dietary supplements according to the Dietary Supplement, Health and Education Act 1994 (DSHEA) [@url:https://ods.od.nih.gov/About/DSHEA_Wording.aspx] and the Food and Drug Administration Modernization Act 1997 [@url:https://www.fda.gov/regulatory-information/selected-amendments-fdc-act/food-and-drug-administration-modernization-act-fdama-1997].
+Due to the increased sales of dietary supplements and nutraceuticals, the FDA established the Office of Dietary Supplement Programs (ODSP) in 1996 to increase surveillance.
+However, there is significant concern that these acts do not adequately protect the consumer as they ascribe responsibility on the manufacturers to ensure safety of the product before manufacturing or marketing [@doi:10.1080/17512433.2018.1464911].
+Likewise, manufacturers are not required to register or seek approval from the FDA to produce or sell food supplements or nutraceuticals.
+Health or nutrient content claims for labeling purposes are approved based on an authoritative statement from the Academy of Sciences or relevant federal authorities once the FDA has been notified and on the basis that the information is known to be true and not deceptive [@doi:10.1080/17512433.2018.1464911].
+In Europe, health claims are permitted on a product label only following compliance and authorization according to the European Food Safety Authority (EFSA) guidelines on nutrition and health claims [@url:https://ec.europa.eu/food/safety/labelling_nutrition/claims/register/public].
+EFSA does not currently distinguish between food supplements and nutraceuticals for health claim applications of new products, as claim authorization is dependent on the availability of clinical data in order to substantiate efficacy [@doi:10.1111/bcp.13496].
+These guidelines seem to provide more protection to consumers.
+Currently, there is a debate among scientists and regulatory authorities over developing a regulatory framework to deal with the challenges of safety and health claim substantiation for nutraceuticals [@doi:10.1111/bcp.13496; @doi:10.1080/17512433.2018.1464911].
+As a result, studies of supplements and nutraceuticals do not necessarily follow the same rigorous clinical trial framework used for pharmaceuticals.
+
+Nutraceuticals and supplements purported to "boost" the immune response, reduce immunopathology, exhibit antiviral activities, or prevent ARDS are being considered for their potential therapeutic value [@doi:10/ggkd3b].
+A host of potential candidates have been highlighted in the literature that target various aspects of the COVID-19 viral pathology, while others are thought to prime the host immune system.
+These candidates include vitamins and minerals along with extracts and omega-3 polyunsaturated fatty acids (n-3 PUFA) [@doi:10.1002/jmv.25707].
+_In vitro_ and _in vivo_ studies suggest that nutraceuticals containing phycocyanobilin, N-acetylcysteine, glucosamine, selenium or phase 2 inductive nutraceuticals (e.g. ferulic acid, lipoic acid, or sulforaphane) can prevent or modulate RNA virus infections via amplification of the signaling activity of mitochondrial antiviral-signaling protein (MAVS) and activation of toll-like receptor 7 (TLR7) [@doi:10.1016/j.pcad.2020.02.007].
+While promising, further animal and human studies are required to assess the therapeutic potential of these various nutraceuticals against COVID-19.
+
+### n-3 PUFA
+
+One supplement that has been explored for beneficial effects against various viral infections is n-3 PUFA [@doi:10.1002/jmv.25707], such as eicosapentaenoic acid (EPA) and docosahexaenoic acid (DHA).
+EPA and DHA intake can come from a diet high in fish or through dietary supplementation with fish oils or purified oils [@doi:10.1039/c9fo01742a].
+They can mediate inflammation and therefore may have the capacity to modulate the adaptive immune response [@doi:10.1111/j.1365-2125.2012.04374.x; @doi:10.1039/c9fo01742a; @doi:10.1038/nrcardio.2016.103].
+Another potential mechanism that has led to interest in n-3 PUFA for viral infections is its potential as a precursor molecule for the biosynthesis of endogenous specialized proresolving mediators (SPM), such as protectins and resolvins, that actively resolve inflammation and infection [@doi:10.1016/j.immuni.2014.02.009].
+Finally, some COVID-19 patients, particularly those with comorbidities, are at a significant risk of thrombotic complications including arterial and venous thrombosis [@doi:10.1182/blood.2020006000; @doi:10.1007/s11239-020-02134-3].
+Therefore, the use of prophylactic and therapeutic anticoagulants and antithrombotic agents is under consideration [@doi:10.1016/j.jacc.2020.04.031], which could potentially include n-3 PUFA.
+
+SPM have exhibited beneficial effects against a variety of lung infections, including some caused by RNA viruses [@doi:10.1038/nri.2015.4].
+Indeed, protectin D1 has been shown to increase survival from H1N1 viral infection in mice by affecting the viral replication machinery [@doi:10.1016/j.cell.2013.02.027].
+Several mechanisms for SPM have been proposed, including preventing the release of pro-inflammatory cytokines and chemokines or increasing phagocytosis of cellular debris by macrophages [@doi:10.1038/nature13479].
+In influenza, SPM promote antiviral B lymphocytic activities [@doi:10.4049/jimmunol.1302795], and protectin D1 has been shown to increase survival from H1N1 viral infection in mice by affecting the viral replication machinery [@doi:10.1016/j.cell.2013.02.027].
+It is hypothesized that SPM could aid in the resolution of the cytokine storm and pulmonary inflammation associated with COVID-19 [@doi:10.1007/s10555-020-09889-4].
+However, not all studies are in agreement that n-3 PUFA is effective against infections [@doi:10.3945/jn.109.108027].
+At a minimum, the effectiveness of n-3 PUFA against infections would be dependent on the dosage, timing, and the specific pathogens responsible [@doi:10.1016/j.jinf.2016.10.001].
+On another level, there is still the question of whether fish oils can raise the levels of SPM levels upon ingestion and in response to acute inflammation in humans [@doi:10.1194/jlr.M060392].
+
+The increased risk of thrombotic complications in COVID-19 infected patients was reported relatively late in comparison to other manifestations of COVID-19 [@doi:10.1016/j.thromres.2020.04.013; @doi:10.1182/blood.2020006000].
+Considering that there is significant evidence that n-3 fatty acids and other fish oil-derived lipids possess antithrombotic properties and anti-inflammatory properties [@doi:10.1016/j.prostaglandins.2018.09.005; @doi:10.1016/j.blre.2020.100694], they may have therapeutic value against the prothrombotic complications of COVID-19.
+Based on concern among the medical community that the use of investigational therapeutics on COVID-19 patients already on antiplatelet therapies due to a pre-existing comorbidities may lead to issues with dosing and drug choice, and/or negative drug-drug interactions [@doi:10.1016/j.jacc.2020.04.031], this supplementation holds particular interest for the treatment of patients already receiving pharmaceutical antiplatelet therapies.
+As a result, the use of other therapeutics, such as dietary sources of n-3 fatty acids or nutraceuticals with antiplatelet activities, may be beneficial and warrant further investigation.
+A new clinical trial [@clinicaltrials:NCT04412018] is currently recruiting COVID-19 positive patients to investigate the anti-inflammatory activity of a recently developed, highly purified nutraceutical derivative of EPA known as icosapent ethyl (Vascepa^TM^) [@doi:10.1056/NEJMoa1812792].
+Other randomized controlled trials are in the preparatory stages with the intention of investigating the administration of EPA and other bioactive compounds to COVID-19 positive patients to determine whether anti-inflammatory effects or disease state improvements are observed [@clinicaltrials:NCT04335032; @clinicaltrials:NCT04323228].
+Finally, while there have been studies investigating the therapeutic value of n-3 fatty acids against ARDS in humans, there is still limited evidence of their effectiveness [@doi:10.3390/ijms21093104].
+It should be noted that the overall lack of human studies in this area means there is limited evidence as to whether these supplements and nutraceuticals could affect COVID-19 infection.
+Consequently, clinical trials have been proposed and many are in the preparatory stages.
+These trials will investigate whether the anti-inflammatory potential of n-3 PUFA and their derivatives is beneficial in the treatment of COVID-19.
+Therefore, the evidence is not present to draw conclusions about whether n-3 PUFA will be useful in treating COVID-19, but as there is likely little harm associated with a diet rich in fish oils, interest in these products by the general public is unlikely to have negative effects.
+
+### Zinc
+
+There is evidence that certain nutrient supplements may exhibit some benefit against RNA viral infections.
+Zinc is a trace metal obtained from dietary sources or supplementation that is important for the maintenance of immune cells involved in adaptive and innate immunity [@doi:10.1016/j.abb.2016.03.022].
+Zinc supplements can be administered orally as a tablet or as a lozenge and they are available in many forms, such as zinc picolinate, zinc acetate, and zinc citrate.
+Zinc is also available from dietary sources including meat, seafood, nuts, seeds, legumes, and dairy.
+The role of zinc in immune function has been extensively reviewed [@doi:10.1016/j.abb.2016.03.022].
+Zinc is an important signaling molecule and zinc levels can alter host defense systems.
+In inflammatory situations such as an infection, zinc can regulate leukocyte immune responses and it can activate the nuclear factor kappa-light-chain-enhancer of activated B cells (NF-kB), thus altering cytokine production [@doi:10.4049/jimmunol.179.6.4180; @doi:10.1067/mlc.2001.118108].
+In particular, zinc supplementation can increase natural killer cell levels, which are important cells for host defense against viral infections [@doi:10.1126/science.1198687; @doi:10.1016/j.abb.2016.03.022].
+
+Adequate zinc intake has been associated with reduced incidence of infection [@doi:10.1093/ajcn/85.3.837] and antiviral immunity [@doi:10.1093/advances/nmz013].
+Similarly, a randomized, double-blind, placebo-controlled trial that administered zinc supplementation to elderly subjects over the course of a year found zinc deficiency to be associated with increased susceptibility to infection and that zinc deficiency could be prevented through supplementation [@doi:10.1093/ajcn/85.3.837].
+Clinical trial data supports the utility of zinc to diminish the duration and severity of symptoms associated with common colds when it is provided within 24 hours of the onset of symptoms [@doi:10.1331/1544-3191.44.5.594.Hulisz; @doi:10.2174/1874306401105010051].
+In coronaviruses specifically, _in vitro_ evidence demonstrates that the combination of zinc (Zn2+) and zinc ionophores (pyrithione) can interrupt the replication mechanisms of SARS-CoV-GFP (a fluorescently tagged SARS-CoV-1) and a variety of other RNA viruses [@doi:10.1371/journal.ppat.1001176; @doi:10.1016/j.antiviral.2014.12.015].
+Currently, there are over twenty clinical trials registered with the intention to use zinc in a preventative or therapeutic manner.
+However, many of these trials proposed the use of zinc in conjunction with hydroxychloroquine and azithromycin [@clinicaltrials:NCT04370782; @clinicaltrials:NCT04377646; @clinicaltrials:NCT04395768; @clinicaltrials:NCT04373733], and it is not known how the lack of evidence supporting the use of hydroxychloroquine will affect investigation of zinc.
+Other trials, however, are investigating zinc in conjunction with other supplements such as vitamin C or n-3 PUFA [@clinicaltrials:NCT04342728; @clinicaltrials:NCT04323228].
+Though there is, overall, encouraging data for zinc supplementation against the common cold and viral infections, there is currently limited evidence to suggest zinc supplementation has any beneficial effects against the current novel COVID-19; thus, the clinical trials that are currently underway will provide vital information on the efficacious use of zinc in COVID-19 prevention and/or treatment.
+However, given the limited risk, maintaining a healthy diet to ensure an adequate zinc status may be advisable for individuals seeking to reduce their likelihood of infection.
+
+### Vitamin C
+
+Vitamins B, C, D, and E have also been suggested as potential nutrient supplement interventions for COVID-19 [@doi:10.1002/jmv.25707; @doi:10.20944/preprints202003.0347.v1].
+In particular vitamin C has been proposed as a potential therapeutic agent against COVID-19.
+Vitamin C can be obtained via dietary sources such as fruit and vegetable or via supplementation.
+Vitamin C plays a significant role in promoting immune function due to its effects on various immune cells.
+It affects inflammation by modulating cytokine production, decreasing histamine levels, enhancing the differentiation and proliferation of T- and B-lymphocytes, increasing antibody levels, and protecting against the negative effects of reactive oxygen species amongst other effects [@doi:10.1155/2014/426740; @doi:10.1007/s00210-013-0880-1; @doi:10.3390/nu9111211].
+Vitamin C is utilized by the body during viral infections, as evinced by lower concentrations in leukocytes and lower concentrations of urinary vitamin C.
+Post-infection, these levels return to baseline ranges [@doi:10.1177/003693307301800102; @doi:10.1111/j.1749-6632.1975.tb29312.x; @doi:10/fd22sv; @doi:10.3390/nu9040339; @doi:10.1079/bjn19920004].
+
+A recent meta-analysis found consistent support for regular vitamin C supplementation reducing the duration of the common cold, but that supplementation with vitamin C (> 200 mg) failed to reduce the incidence of colds [@doi:10.1002/14651858.CD000980.pub4].
+Individual studies have found Vitamin C to reduce the susceptibility of patients to lower respiratory tract infections such as pneumonia [@doi:10.1097/00006454-199709000-00003].
+Another meta-analysis has demonstrated in twelve trials that vitamin C supplementation reduced the length of stay of patients in intensive care units (ICUs) by 7.8% (95% CI: 4.2% to 11.2%; p = 0.00003).
+Furthermore, high doses (1-3 g/day) significantly reduced the length of an ICU stay by 8.6% in six trials (p = 0.003).
+Vitamin C also shortened the duration of mechanical ventilation by 18.2% in three trials in which patients required intervention for over 24 hours (95% CI 7.7% to 27%; p = 0.001) [@doi:10.3390/nu11040708].
+Despite these findings, the CITRUS ALI study failed to show a benefit of a 96-hour infusion of vitamin C to treat ARDS, which is a severe complication of COVID-19 infection [@doi:10.1001/jama.2019.11825].
+Nevertheless, a randomized placebo-controlled trial [@clinicaltrials:NCT04264533] has begun in Wuhan, China to investigate the intravenous infusion of vitamin C to treat pneumonia in 140 severe COVID-19 infected patients.
+As summarized by Carr [@doi:10.1186/s13054-020-02851-4] the trial will not be completed until September 2020.
+Another trial in Italy [@clinicaltrials:NCT04323514] intends to deliver a 10 g infusion of vitamin C to 500 severe COVID-19 patients with pneumonia to assess in-hospital mortality over a 72 hr period as the primary outcome.
+The trial is currently recruiting and is due to run until March 2021.
+We will not know how effective vitamin C is as a therapeutic for quite some time due to the length of both trials.
+These are not the only trials investigating the potential value of vitamin C, as there are currently (as of October 2020) over fifteen trials registered with clinicaltrials.gov that are either recruiting or are currently in preparation.
+When completed, the trials will provide crucial evidence on the efficacy of vitamin C as a therapeutic for COVID-19 infection.
+Thus, some evidence suggests that vitamin C supplementation or infusion can shorten the duration of a cold, reduce an individual's susceptibility to infections, and shorten a patient's stay in an ICU when administered at high doses, but we don't yet understand if these findings apply to COVID-19.
+There are ongoing trials in China and Italy that will inform our understanding of the therapeutic value of vitamin C supplementation for COVID-19.
+Once again, vitamin C intake is likely to be part of a healthy diet and the vitamin likely presents minimal risk, but its potential prophylactic or therapeutic effects against COVID-19 are unknown.
+
+### Vitamin D
+
+In terms of other dietary supplements, vitamin D can modulate the adaptive and innate immune system and has been associated with various aspects of health.
+Vitamin D can be sourced through diet or supplementation, but it is mainly biosynthesized by the body on exposure to sunlight.
+Vitamin D deficiency is associated with an increased susceptibility to infection [@doi:10.2310/JIM.0b013e31821b8755].
+In particular, vitamin D deficient patients are at risk of developing acute respiratory infections [@doi:10.1016/j.jsbmb.2012.11.017] and ARDS [@doi:10.1016/j.jsbmb.2012.11.017].
+1,25-dihydroxyvitamin D3 is the more active form of vitamin D that is involved in adaptive and innate responses, however, due to a short half life of a few hours, it is measured by its longer lasting precursor 25-hydroxyvitamin D. The vitamin D receptor is expressed in various immune cells and vitamin D is an immunomodulator of antigen presenting cells, dendritic cells, macrophages, monocytes, and T- and B-lymphocytes [@doi:10.2310/JIM.0b013e31821b8755; @doi:10.1016/j.coph.2010.04.001].
+Due to its potential immunomodulating properties, vitamin D supplementation may be advantageous to maintain a healthy immune system.
+
+One influential review postulated that an individual’s vitamin D status may significantly affect their risk of developing COVID-19 [@doi:10.3390/nu12040988].
+This hypothesis was derived from the fact that the current pandemic emerged in winter in Wuhan China when 25-hydroxyvitamin D concentrations are at their lowest due to a lack of sunlight, whereas in the Southern Hemisphere, where it was nearing the end of the summer and higher 25-hydroxyvitamin D concentrations would be higher, the number of cases was low.
+The authors suggested that people at risk of developing COVID-19 should increase their vitamin D3 intake to reach 25-hydroxyvitamin D plasma concentrations above 40–60 ng/ml.
+The authors also suggest high-dose supplementation of vitamin D to treat infected patients and to prevent infection in hospital staff [@doi:10.3390/nu12040988].
+While vitamin D is relatively inexpensive and safe to consume, caution is warranted when interpreting this review as it has yet to be determined whether vitamin D levels affect COVID-19 outside of this geographic/climatic correlation.
+Likewise, though it is assumed that COVID-19 may be seasonal, multiple other factors that can affect vitamin D levels should also be considered.
+These factors include an individual’s nutritional status, their age, their occupation, skin pigmentation, potential comorbidities, and the variation of exposure to sunlight due to latitude amongst others.
+As the pandemic evolves, further research has investigated some of the potential links identified in the Grant et al. review [@doi:10.3390/nu12040988] between vitamin D and COVID-19 and sought to shed light on whether there is any prophylactic and/or therapeutic relationship.
+A study in Switzerland demonstrated that 27 SARS-CoV-2 positive patients exhibited 25-hydroxyvitamin D plasma concentrations that were significantly lower (11.1 ng/ml) than those of SARS-CoV-2 negative patients (24.6 ng/ml; p = 0.004), an association that held when stratifying for patients greater than 70 years old [@doi:10.3390/nu12051359].
+These findings seem to be supported by a Belgian observational study of 186 SARS-CoV-2 positive patients exhibiting symptoms of pneumonia, where 25-hydroxyvitamin D plasma concentrations were measured and a CT scan of the lungs was obtained upon hospitalization [@doi:10.1101/2020.05.01.20079376].
+A significant difference in 25-hydroxyvitamin D levels was observed between the SARS-CoV-2 patients and 2,717 season-matched diseased controls.
+Both female and male patients possessed lower median 25-hydroxyvitamin D concentrations than the control group (18.6 ng/ml versus 21.5 ng/ml; p = 0.0016) and a higher rate of vitamin D deficiency (58.6% versus 42.5%).
+Evidence of sexual dimorphism was apparent, as female patients had equivalent levels of 23-hydroxyvitamin D to the control group, whereas male patients were deficient in 25-hydroxyvitamin D relative to male controls (67% versus 49%; p = 0.0006).
+Notably, vitamin D deficiency was progressively lower in males with advancing radiological disease stages (p = 0.001).
+These studies are supported by several others that indicate that vitamin D status may be an independent risk factor for the severity of COVID-19 [@doi:10.1371/journal.pone.0239799; @doi:10.1016/j.jiph.2020.06.021; @doi:10.1111/febs.15495; @doi:10.1001/jamanetworkopen.2020.19722] and in COVID-19 patients relative to population-based controls [@doi:10.1210/clinem/dgaa733].
+Indeed, serum concentrations of 25-hydroxyvitamin D above 30 ng/ml, which indicate vitamin D sufficiency, seems to be associated with a reduction in serum C-reactive protein (CRP), an inflammatory marker, along with increased lymphocyte levels, which suggests that vitamin D levels may modulate the immune response by reducing risk for cytokine storm in response to SARS-CoV-2 infection.
+Despite these studies potentially linking vitamin D status with COVID-19 severity, an examination of the UK Biobank did not support this thesis [@doi:10.1016/j.dsx.2020.04.050].
+This analysis examined 25-hydroxyvitamin D concentrations in 348,598 UK Biobank participants, of which 449 were SARS-CoV-2 positive.
+However, this study has caused considerable debate that will likely be settled following further studies [@doi:10.1111/cen.14276; @doi:10.1016/j.dsx.2020.05.046].
+There is significant interest in the link between vitamin D and COVID-19, hence the multitude of studies published in the literature of varying quality and the clinical trials underway.
+One trial is currently investigating the utility of vitamin D as an immune-modulating agent by monitoring whether administration of vitamin D precipitates an improvement of health status in non-severe symptomatic patients infected with COVID-19 or whether vitamin D prevents patient deterioration [@clinicaltrials:NCT04334005].
+Other trials are also underway examining various factors including mortality, symptom recovery, severity of disease, rates of ventilation, inflammatory markers such as CRP and IL-6, blood cell counts, and the prophylactic capacity of vitamin D administration [@clinicaltrials:NCT04385940; @clinicaltrials:NCT04334005; @clinicaltrials:NCT04411446; @clinicaltrials:NCT04344041].
+Concomitant administration of vitamin D with pharmaceuticals such as aspirin [@clinicaltrials:NCT04363840] and bioactive molecules such as resveratrol [@clinicaltrials:NCT04400890] are also under investigation.
+
+While there is increasing evidence that vitamin D status is linked to COVID-19 outcomes, the effectiveness of its supplementation remains open for debate.
+Once again, supplementation of vitamin D and maintaining a healthy diet for optimum vitamin D status is unlikely to carry major health risks while the possible link between vitamin D status and COVID-19 is investigated.
+However, pursuing to elevate vitamin D levels through sunlight exposure does carry additional risks, as many densely populated cities and countries around the world are sporadically utilizing "shelter in place" orders to enforce social distancing guidelines, especially with cases rising again as winter 2020 approaches.
+Given the lack of conclusive evidence in support of vitamin D supplementation, it is not clear that these guidelines present additional risk.
+However, to the extent that people are able to maintain safe exposure to sunlight, there is a possibility that it could improve endogenous synthesis of vitamin D, potentially strengthening the immune system.
+
+### Probiotics
+
+Probiotics are “live microorganisms that, when administered in adequate amounts, confer a health benefit on the host” [@doi:10.1038/nrgastro.2014.66].
+Some studies suggest that probiotics are beneficial against common viral infections and there is modest evidence to suggest that they can modulate the immune response [@doi:10.4082/kjfm.2013.34.1.2; @doi:10.2174/1381612824666180116163411], and as a result it has been hypothesized that probiotics may have therapeutic value worthy of investigation against SARS-CoV-2 [@doi:10.3389/fpubh.2020.00186].
+Probiotics and next-generation probiotics, which are more akin to pharmacological-grade supplements, have been associated with multiple potential beneficial effects for allergies, digestive tract disorders, and even metabolic diseases through their anti-inflammatory and immunomodulatory effects [@doi:10.1038/nmicrobiol.2017.57; @doi:10.1093/advances/nmy063].
+However, the mechanisms by which probiotics affect these various conditions would likely differ among strains, with the ultimate effect of the probiotic depending on the heterogeneous set of bacteria present [@doi:10.1093/advances/nmy063].
+Some of the beneficial effects of probiotics include reducing inflammation by promoting the expression of anti-inflammatory mediators, inhibiting toll-like receptors (TLR) 2 and 4, direct competition with pathogens, the synthesis of antimicrobial substances or other metabolites, improving intestinal barrier function, and/or favorably altering the gut microbiota and the brain-gut axis [@doi:10.1016/j.earlhumdev.2019.05.010; @doi:10.1093/advances/nmy063; @doi:10.1159/000342079].
+However, there is also a bi-directional relationship between the lungs and gut microbiota known as the gut-lung axis [@doi:10.1038/mi.2011.55], whereby gut microbial metabolites and endotoxins may affect the lungs via the circulatory system and the lung microbiota in return may affect the gut [@doi:10.1111/cmi.12966].
+Therefore, the gut-lung axis may play role in our future understanding of COVID-19 pathogenesis and become a target for probiotic treatments [@doi:10.1016/j.virusres.2020.198018].
+
+Probiotics have tentatively been associated with the reduction of risk and duration of viral upper respiratory tract infections [@doi:10.1007/s10096-014-2086-y; @doi:10.1002/14651858.CD006895.pub3; @doi:10.1016/j.ijantimicag.2008.11.005].
+Some meta-analyses that have assessed the efficacy of probiotics in viral respiratory infections have reported moderate reductions in the incidence and duration of infection [@doi:10.1002/14651858.CD006895.pub3; @doi:10.1017/S0007114514000075].
+Indeed, randomized controlled trials have shown that administering _Bacillus subtilis_ and _Enterococcus faecalis_ [@doi:10.1007/s00134-016-4303-x], _Lactobacillus rhamnosus GG_ [@doi:10.1164/rccm.200912-1853OC], or _Lactobacillus casei_ and _Bifidobacterium breve_ with galactooligosaccharides [@doi:10.1186/s13054-018-2167-x] via the nasogastric tube to ventilated patients reduced the occurrence of ventilator-associated pneumonia in comparison to the respective control groups in studies of viral infections and sepsis.
+These findings are supported by a recently published meta-analysis [@doi:10.4187/respcare.07097].
+There is a significant risk of ventilator-associated bacterial pneumonia in COVID-19 patients [@doi:10.6084/m9.figshare.12340496], but it can be challenging for clinicians to diagnose this infection due to the fact that severe COVID-19 infection presents with the symptoms of pneumonia [@doi:10.1186/s13054-020-03013-2].
+Therefore, an effective prophylactic therapy for ventilator-associated pneumonia in severe COVID-19 patients would be of significant therapeutic value.
+
+Probiotics are generally synonymous with the treatment of gastrointestinal issues due to their supposed anti-inflammatory and immunomodulatory effects [@doi:10/d2qp].
+Notably, gastrointestinal symptoms commonly occur in COVID-19 patients [@doi:10.1053/j.gastro.2020.03.020], and the ACE2 receptor is highly expressed in enterocytes of the ileum and colon, suggesting that these organs may be a potential route of infection [@doi:10.1101/2020.01.30.927806; @doi:10.1038/cr.2016.152].
+Indeed, SARS-CoV-2 viral RNA has been detected in human feces [@doi:10/ggq8zp], and fecal-oral transmission of the virus has not yet been ruled out [@doi:10/ggpx7s].
+Rectal swabs of some SARS-CoV-2 positive pediatric patients persistently tested positive for several days despite negative nasopharyngeal tests, indicating the potential for fecal viral shedding [@doi:10.1038/s41591-020-0817-4].
+However, there is conflicting evidence for the therapeutic value of various probiotics against the incidence or severity of gastrointestinal symptoms in viral or bacterial infections such as gastroenteritis [@doi:10.1007/s00203-017-1400-3; @doi:10.1056/NEJMoa1802597].
+Nevertheless, it has been proposed that the administration of probiotics to COVID-19 patients and healthcare workers may prevent or ameliorate the gastrointestinal symptoms of COVID-19, a hypothesis that several clinical trials are now preparing to investigate [@clinicaltrials:NCT04420676; @clinicaltrials:NCT04366180].
+Other studies are investigating whether probiotics may affect patient outcomes following SARS-CoV-2 infection [@clinicaltrials:NCT04390477].
+
+Generally, the efficacy of probiotic use is a controversial topic among scientists.
+In Europe, EFSA has banned the term probiotics on products labels, which has elicited either criticism for EFSA or support for probiotics from researchers in the field [@doi:10.1016/j.bpg.2015.12.001; @doi:10.1017/S000711451100287X; @doi:10.1038/nrgastro.2014.66].
+This is due to the hyperbolic claims placed on the labels of various probiotic products, which lack rigorous scientific data to support their efficacy.
+Overall, the data supporting probiotics in the treatment or prevention of many different disorders and diseases is not conclusive as the quality of the evidence is generally considered low [@doi:10.1007/s10096-014-2086-y].
+However, in the case of probiotics and respiratory infections, the evidence seems to be supportive of their potential therapeutic value.
+Consequently, several investigations are underway to investigate the prophylactic and therapeutic potential of probiotics for COVID-19.
+However, blind use of conventional probiotics for COVID-19 is cautioned against until the pathogenesis of SARS-CoV-2 is further established [@doi:10/d2qq].
+Until clinical trials investigating the prophylactic and therapeutic potential of probiotics for COVID-19 are complete, it is not possible to provide an evidence-based recommendation for their use.
+
+### Conclusions
+
+Despite all the potential benefits of nutraceutical and dietary supplement interventions presented, currently there is a paucity of clinical evidence to support their use for the prevention or mitigation of COVID-19 infections.
+Nevertheless, optimal nutritional status can prime an individual’s immune system to protect against the effects of acute respiratory viral infections by supporting normal maintenance of the immune system [@doi:10.3390/nu12041181; @doi:10.3390/nu12051466].
+Nutritional strategies can also play a role in the treatment of hospitalized patients, as malnutrition is a risk to COVID-19 patients [@doi:10.1038/s41430-020-0664-x].
+Overall, supplementation of vitamin C, vitamin D, and zinc may be an effective method of ensuring their adequate intake to maintain optimal immune function, which may also convey beneficial effects against viral infections due to their immunomodulatory effects.
+However, many supplements and nutraceuticals designed for various ailments are available in the United States and beyond that are not strictly regulated [@doi:10.1080/10408398.2019.1592107].
+Indeed, there can be safety and efficacy concerns associated with many of these products.
+Often, the vulnerable members of society can be exploited in this regard and unfortunately the COVID-19 pandemic is no different.
+The Food and Drug Administration (FDA) has issued warnings to several companies for advertising falsified claims in relation to the preventative and therapeutic capabilities of their products against COVID-19 [@url:https://www.fda.gov/news-events/press-announcements/coronavirus-update-fda-and-ftc-warn-seven-companies-selling-fraudulent-products-claim-treat-or].
+In light of these serious occurrences, it is pertinent to clarify that the nutraceuticals discussed in this review have been selected because of their possible relevance to the biological mechanisms that can beneficially affect viral and respiratory infections and because they are currently under clinical investigation.
+Therefore, further intensive investigation is required to establish the effects of these nutraceuticals, if any, against COVID-19.
+Until effective therapeutics are established, the most effective mitigation strategies consist of encouraging standard public health practices such as regular hand washing with soap, wearing a face mask, and covering a cough with your elbow [@url:https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html], along with following social distancing measures, "shelter in place" guidelines, expansive testing, and contact tracing [@doi:10.1101/2020.03.27.20045815; @doi:10.3201/eid2608.201093].
+
+Many researchers have also focused their attention to the potential use of dietary supplements and nutraceuticals.
+Indeed, there has been recent interest for the potential use of vitamin D as a prophylactic and therapeutic agent against COVID-19 as several observational studies have linked low vitamin D status to its incidence [@doi:10.1111/joim.13149; @doi:10.1001/jamanetworkopen.2020.19722].
+These associations have yet to be confirmed and rigorous trials are required before considering supplementation recommendations.
+However, the nutritional status and general health of a patient can affect their outcomes in various diseases, thus it would be pertinent to advise people to follow a healthy diet and life style to the best of their ability to prevent nutrient deficiencies and insufficiencies and to maintain a healthy immune system [@doi:10.1093/advances/nmaa125].
+
+
+## Social Factors Influencing COVID-19 Exposure and Outcomes
 
 ### Social Factors Influencing COVID-19 Outcomes
 
@@ -2596,7 +2711,7 @@ Differential access to clinical trials raises concerns because it introduces bia
 Concerns about bias in clinical trials need to address both trial recruitment and operation.
 In the present crisis, such biases are particularly salient because COVID-19 is a disease of global concern.
 Treatment is needed by people all over the world, and clinical research that characterizes treatment outcomes in a variety of populations is critically important.
- 
+
 Global representation in clinical trials is important to ensuring that experimental treatments are available equally to COVID-19 patients who may need them.
 The advantage to a patient of participation in a clinical trial is that they may receive an experimental treatment they would not have been able to access otherwise.
 The potential downsides of participation include that the efficacy and side effects of such treatments are often poorly characterized and that patients who enroll in clinical trials will in some cases run the risk of being assigned to a placebo condition where they do not receive the treatment but miss out on opportunities to receive other treatments.
@@ -2622,7 +2737,7 @@ Another concern with the heterogeneous international distribution of clinical tr
 Additionally, even within a single state in the United States (Maryland), geography was found to influence the likelihood of being recruited into or enrolled in a clinical trial, with patients in under-served rural areas less likely to enroll [@doi:10.1016/j.cdp.2005.12.001].
 Thus, geography both on the global and local levels may influence when treatments and vaccines are available and who is able to access them.
 Efforts such as the African Union's efforts to coordinate and promote vaccine development [@doi:10/fgzk] are therefore critical to promoting equity in the COVID-19 response.
- 
+
 
 Even when patients are located within the geographic recruitment area of clinical trials, however, there can still be demographic inequalities in enrollment.
 When efforts are made to ensure equal opportunity to participate in clinical trials, there is no significant difference in participation among racial/ethnic groups [@doi:10.1002/cncr.28483].
@@ -2642,7 +2757,7 @@ Some studies suggest communication between physicians and patients impacts wheth
 For example, researchers utilized a linguistic analysis to assess mean word count of phrases related to clinical trial enrollment, such as voluntary participation, clinical trial, etc. [@doi:10.1002/cncr.28483].
 The data indicated that the mean word count of the entire visit was 1.5 times more for white patients in comparison to Black patients.
 In addition, the greatest disparity between white and Black patients' experience was the discussion of risks, with over 2 times as many risk-related words spoken with white patients than Black patients [@doi:10.1002/cncr.28483].
-The trends observed for other clinical trials raise the concern that COVID-19 clinical trial information may not be discussed as thoroughly or as often with Black patients compared to white patients. 
+The trends observed for other clinical trials raise the concern that COVID-19 clinical trial information may not be discussed as thoroughly or as often with Black patients compared to white patients.
 
  These discrepancies are especially concerning given that many COVID-19 treatments are being or are considered being made available to patients prior to FDA approval through Emergency Use Authorizations.
 In the past, African-Americans have been over-represented relative to national demographics in use of the FDA's Exception From Informed Consent (EFIC) pathway [@doi:10.1377/hlthaff.2018.0501].
@@ -2676,7 +2791,121 @@ A multidisciplinary perspective is critical to understanding this evolving crisi
 We intend to publish additional updates as the situation evolves.
 
 
-## Methods
+
+## Discussion
+
+As of October 2020 the SARS-CoV-2 virus remains a serious worldwide threat.
+The scientific community has responded by rapidly collecting and disseminating information about the SARS-CoV-2 virus and the associated illness, COVID-19.
+The rapid identification of the genomic sequence of the virus allowed for early contextualization of SARS-CoV-2 among other known respiratory viruses.
+The pathogen is a coronavirus that is closely related to SARS-CoV-1, which caused the SARS pandemics of the early 2000s.
+Knowing the phylogenetic context and genomic sequence of the virus then allowed for rapid insights into its structure and pathogenesis.
+As with other HCoV, the immune response to SARS-CoV-2 is likely driven by detection of its spike protein, which allows it to enter cells through the ACE2 receptor.
+Epithelial cells have also emerged as the major cellular target of the virus, contextualizing the respiratory and gastrointestinal symptoms that are frequently observed in COVID-19.
+However, as COVID-19 cases have been more widely characterized, it has become clear that the disease presentation is highly heterogeneous.
+Many cases, especially in younger adults, present with mild symptoms or even asymptomatically, while others, especially in older adults, can be severe or fatal.
+In children, the SARS-CoV-2 virus can present as two distinct diseases, COVID-19 or MIS-C.
+While the overall infection fatality rate remains unknown, estimates suggest that it is not more than 1%; however, the severity of many non-lethal cases makes COVID-19 an ongoing, significant concern.
+
+Characterizing the rate of infection and fatality rates hinges on the availability of rapid and accurate diagnostic testing.
+Major advancements have been made in identifying diagnostic approaches.
+The development of diagnostic technologies have been rapid, beginning with the release of the SARS-CoV-2 viral genome sequence in January.
+As of October 2020, a range of diagnostic tests have become available.
+One class of tests uses PCR (RT-PCR or qRT-PCR) to assess the presence of SARS-CoV-2 RNA, while another typically uses ELISA to test for the presence of antibodies to SARS-CoV-2.
+The former approach is useful for identifying active infections, while the latter measures hallmarks of the immune response and therefore can detect either active infections or immunity gained from prior infection.
+Combining these tests leads to extremely accurate detection of SARS-CoV-2 infection (98.6%), but when used alone, PCR-based tests are recommended before 5.5 days after the onset of the illness and antibody tests after 5.5 days [@doi:10.1001/jama.2020.8259].
+Other strategies for testing can also influence the tests' accuracy, such as the use of nasopharyngeal swabs versus BALF [@doi:10.1001/jama.2020.8259], which allow for trade-offs between patient's comfort and test sensitivity.
+Additionally, technologies such as digital PCR may allow for scale-up in the throughput of diagnostic testing, facilitating widespread testing.
+One major question that remains is whether people who recover from SARS-CoV-2 develop sustained immunity, and over what period this immunity is expected to last.
+Some reports have suggested that some patients may develop COVID-19 reinfections (e.g., [@doi:10/ghfgkt]), but the rates of reinfection are currently unknown.
+Serologic testing combined with PCR testing will be critical to confirming purported cases of reinfection and to identifying the duration over which immunity is retained and to understanding reinfection risks.
+
+One of the goals of characterizing the immune response is to identify strategies for the prophylactic enhancements of immunity.
+Though some concerns remain about the duration of sustained immunity for convalescents, vaccine development efforts are ongoing and show initial promising results.
+The Moderna trial, for example, reported that the neutralizing activity in participants who received two doses of the vaccine was similar to that observed in convalescent plasma.
+Vaccine development for COVID-19 is progressing rapidly compared to typical timelines, but vaccine development is still a lengthy process.
+In the meantime, some advances have also been made in the treatment of patients with COVID-19.
+As cases have become better characterized, it has become evident that many patients experience an initial immune response to the virus that is typically characterized by fever, cough, dyspnea, and related symptoms.
+However, the most serious concern is cytokine release syndrome, when the body's immune response becomes dysregulated, resulting in an extreme inflammatory response.
+The RECOVERY trial, a large-scale, multi-arm trial enrolling about 15% of all COVID-19 patients in the United Kingdom, was the first to identify that the widely available steroid dexamethasone seems to be beneficial for patients suffering from this immune dysregulation [@doi:10.1101/2020.06.22.20137273].
+Efforts to identify therapeutic treatments to treat patients early in the course of infection have been more ambiguous.
+Early interest in the drugs hydroxychloroquine and chloroquine yielded no promising results from studies with robust experimental designs.
+The experimental drug remdesivir, which was developed for Ebola, has received enough support from early analyses to receive FDA approval, but results have been mixed.
+The potential for other drugs, such as tocilizumab, to reduce recovery time remains unclear, but some early results were promising.
+
+### Additional Therapeutics of Interest
+
+Given what is currently known about these therapeutics for COVID-19, a number of related therapies beyond those explored above may also prove to be of interest.
+For example, the demonstrated benefit of dexamethasone and the ongoing potential of tocilizumab for treatment of COVID-19 suggests that other anti-inflammatory agents might also hold value for the treatment of COVID-19.
+Given that current evidence about treating COVID-19 with dexamethasone suggests that the need to curtail the cytokine storm inflammatory response to the virus can transcend the risks of immunosuppression, exploration of more anti-inflammatory agents may be warranted.
+While dexamethasone is considered widely available and generally affordable, the high costs of biologics such as tocilizumab therapy may present obstacles to wide-scale distribution of this drug if it proves of value.
+At the doses used for rheumatoid arthritis patients, the cost for tocilizumab ranges from $179.20 to $896 per dose for the IV form and $355 for the pre-filled syringe [@url:https://www.ncbi.nlm.nih.gov/books/NBK349513/table/T43/].
+There are several anti-inflammatory agents used for the treatment of autoimmune diseases that may also be able to counter the effects of the cytokine storm induced by the virus, some of which, such as cyclosporine, are likely to be more cost-effective and readily available than biologics [@url:https://escholarship.umassmed.edu/meyers_pp/385].
+While tocilizumab targets IL-6, several other inflammatory markers could be potential targets, including TNF-alpha.
+Inhibition of TNF-alpha by an inhibitor such as Etanercept has been previously suggested for treatment of SARS-CoV-1 [@doi:10.1185/030079903125002757] and may be relevant for SARS-CoV-2 as well.
+Another anti-IL-6 antibody, sarilumab, is also being investigated [@url:http://www.news.sanofi.us/2020-03-16-Sanofi-and-Regeneron-begin-global-Kevzara-R-sarilumab-clinical-trial-program-in-patients-with-severe-COVID-19; @clinicaltrials:NCT04327388].
+Baricitinib and other small molecule inhibitors of the Janus-activated kinase pathway also curtail the inflammatory response and have been suggested as potential options for SARS-CoV-2 infections [@doi:10/dph5].
+Baricitinib in particular may be able to reduce the ability of SARS-CoV-2 to infect lung cells [@doi:10/ggnrsx].
+Clinical trials studying baricitinib in COVID-19 have already begun in the US and in Italy [@url:https://investor.lilly.com/news-releases/news-release-details/lilly-begins-clinical-testing-therapies-covid-19; @clinicaltrials:NCT04320277].
+Identification and targeting of further inflammatory markers that are relevant in SARS-CoV-2 infection may be of value for curtailing the inflammatory response and lung damage.
+
+In addition to immunosuppressive treatments that are most beneficial late in disease progression, much research is focused on identifying treatments would be likely to benefit early-stage patients.
+For example, although studies of hydroxychloroquine have not supported the early theory-driven interest in this antiviral treatment, alternative compounds with related mechanisms may still have potential.
+Hydroxyferroquine derivatives of HCQ have been described as a class of bioorganometallic compounds that exert antiviral effects with some selectivity for SARS-CoV-1 _in vitro_ [@doi:10.1021/jm0601856].
+Future work could explore whether such compounds exert antiviral effects against SARS-CoV-2 and whether they would be safer for use in COVID-19.
+Another potential approach is the development of antivirals, which could be broad-spectrum, specific to coronaviruses, or targeted to SARS-CoV-2.
+Development of new antivirals is complicated by the fact that none have yet been approved for human coronaviruses.
+Intriguing new options are emerging, however.
+Beta-D-N4-hydroxycytidine (NHC) is an orally bioavailable ribonucleotide analog showing broad-spectrum activity against RNA viruses, which may inhibit SARS-CoV-2 replication _in vitro_ and _in vivo_ in mouse models of HCoVs [@doi:10.1126/scitranslmed.abb5883].
+A range of other antivirals are also in development.
+Development of antivirals will be further facilitated as research reveals more information about the interaction of SARS-CoV-2 with the host cell and host cell genome, mechanisms of viral replication, mechanisms of viral assembly, and mechanisms of viral release to other cells; this can allow researchers to target specific stages and structures of the viral life cycle.
+Many researchers have also focused their attention to the potential use of dietary supplements and nutraceuticals.
+Indeed, there has been recent interest for the potential use of vitamin D as a prophylactic and therapeutic agent against COVID-19 as several observational studies have linked low vitamin D status to its incidence [@doi:10.1111/joim.13149; @doi:10.1001/jamanetworkopen.2020.19722]. 
+These associations have yet to be confirmed and rigorous trials are required before considering supplementation recommendations.
+However, the nutritional status and general health of a patient can affect their outcomes in various diseases, thus it would be pertinent to advise people to follow a healthy diet and life style to the best of their ability to prevent nutrient deficiencies and insufficiencies and to maintain a healthy immune system [@doi:10.1093/advances/nmaa125].
+Finally, antibodies against viruses, also known as antiviral monoclonal antibodies, could be an alternative as well and are described in detail in an above section.
+The goal of antiviral antibodies is to neutralize viruses through either cell-killing activity or blocking of viral replication [@doi:10.1016/j.tim.2015.07.005].
+They may also engage the host immune response, encouraging the immune system to hone in on the virus.
+Given the cytokine storm that results from immune system activation in response to the virus, which has been implicated in worsening of the disease, a neutralizing antibody (nAb) may be preferable.
+Upcoming work may explore the specificity of nAbs for their target, mechanisms by which the nAbs impede the virus, and improvements to antibody structure that may enhance the ability of the antibody to block viral activity.
+
+Some research is also investigating potential therapeutics and prophylactics that would interact with components of the innate immune response.
+For example, there are a variety of TLRs, PRRs that recognize PAMPs and DAMPs.
+TLRs form a part of innate immune recognition and can more generally contribute to promoting both innate and adaptive responses [@ISBN:9780815332183].
+In mouse models, poly(I:C) and CpG, which are agonists of toll-like receptors TLR3 and TLR9, respectively, showed protective effects when administered prior to SARS-CoV-1 infection [@doi:10.1128/JVI.01410-12].
+Therefore, TLR agonists hold some potential for broad-spectrum prophylaxis.
+
+Given that a large number of clinical trials are currently in progress, more information about the potential of these and other therapeutics should become available over time.
+This information, combined with advances in understanding the molecular structure and viral pathogenesis of SARS-CoV-2, may lead to a more complete understanding of how the virus affects the human host and what strategies can improve outcomes.
+To date, investigations of potential therapeutics for COVID-19 have focused primarily on repurposing existing drugs.
+This approach is necessary given the urgency of the situation as well as the extensive time required for developing and testing new therapies.
+However, in the long-term, new drugs specific for treatment of COVID-19 may also enter development.
+Development of novel drugs is likely to be guided by what is known about the pathogenesis and molecular structure of SARS-CoV-2.
+For example, understanding the various structural components of SARS-CoV-2 may allow for the development of small molecule inhibitors of those components.
+Currently, crystal structures of the SARS-CoV-2 main protease have recently been resolved [@doi:10.1038/s41586-020-2223-y; @url:https://www.diamond.ac.uk/covid-19/for-scientists/Main-protease-structure-and-XChem.html], and efforts are already in place to perform screens for small molecule inhibitors of the main protease, which have yielded potential hits [@doi:10.1038/s41586-020-2223-y].
+Much work remains to be done to determine further crystal structures of other viral components, understand the relative utility of targeting different viral components, perform additional small molecule inhibitor screens, and determine the safety and efficacy of the potential inhibitors.
+While still nascent, work in this area is promising.
+Over the longer term, this approach and others may lead to the development of novel therapeutics specifically for COVID-19 and SARS-CoV-2.
+
+
+
+## Application of an Open Publishing Framework to an Emerging Public health Crisis
+
+### Abstract
+
+### Introduction
+
+As international attention remains focused on the ongoing public health crisis, the scientific community has responded by mobilizing resources and turning much of its attention to the virus and disease.
+This rapid influx of information is disseminated by traditional publishing mechanisms, preprint servers, and press releases, which provide a venue for scientists to release findings without undergoing the formal publication process.
+While having information available is valuable to efforts to understand and combat COVID-19, many contributions come from researchers across a wide range of fields who have varying degrees of experience working on coronaviruses and related topics.
+The volume of information available, much of which has not gone through rigorous peer review, presents a significant challenge to individual efforts to keep abreast of the state of COVID-19 research [@doi:10.1038/s42254-020-0175-7].
+However, research on these topics is proceeding so rapidly that any static review is likely to quickly become dated.
+Our goal as a community is to consolidate information about the virus in the context of related viruses and to synthesize rapidly emerging literature centered on the diagnosis and treatment of COVID-19.
+We used an open publishing framework, Manubot [@doi:10.1371/journal.pcbi.1007128], to manage hundreds of contributions from the community to create a living, scholarly document.
+We designed software to generate figures, such as Figure @fig:csse-deaths, that automatically update using external data sources.
+Our primary goal is to sort and distill informative content out of the overwhelming flood of information [@doi:10.1038/s42254-020-0175-7] and help the broader scientific community become more conversant on this critical subject.
+Thus, our approach has been to develop a real-time, collaborative effort that welcomes submissions from scientists worldwide into this ongoing effort.
+This document represents the first snapshot, which aims to reflect the state of the field as of October, 2020.
+We plan to refine and expand this document until technologies to mitigate the pandemic are widely available.
 
 In an effort to keep pace as new information about COVID-19 and SARS-CoV-2 becomes available, this project is an open, collaborative effort that invited contributions from the scientific community broadly, similar to previous efforts to develop collaborative reviews [@doi:10.1098/rsif.2017.0387; @url:https://greenelab.github.io/deep-review].
 Contributors were recruited by word of mouth and on Twitter.
@@ -2797,6 +3026,30 @@ They described whether any side effects or interactions with other drugs were id
 ##### Extrapolation
 
 Reviewers describe how the study may extrapolate to a different species or population.
+
+### Conclusions
+
+![**Summary of the relationships among topics covered in this review.**](images/N000-overview.png){#fig:overview secno=1}
+
+Several review articles on aspects of COVID-19 have already been published.
+These have included reviews on the disease epidemiology [@doi:10.1016/j.molmed.2020.02.008], immunological response [@doi:10.1016/j.immuni.2020.05.002], diagnostics [@doi:10.1126/scitranslmed.abc1931], and pharmacological treatments [@doi:10.1016/j.immuni.2020.05.002; @doi:10.1001/jama.2020.6019].
+Others [@doi:10.1038/d41591-020-00026-w; @doi:10.1001/jama.2020.12839] provide narrative reviews of progress on some important ongoing COVID-19 research questions.
+With the worldwide scientific community uniting during 2020 to investigate SARS-CoV-2 and COVID-19 from a wide range of perspectives, findings from many disciplines are relevant on a rapid timescale to a broad scientific audience.
+Additionally, many findings are published as preprints, which are available prior to going through the peer review process.
+As a result, centralizing, summarizing, and critiquing new literature broadly relevant to COVID-19 can help to expedite the interdisciplinary scientific process that is currently happening at an advanced pace.
+We are particularly interested in providing background to the development of diagnostic, prophylactic, and therapeutic approaches to COVID-19.
+Two major concerns within diagnosis include the detection of current infections in individuals with and without symptoms, and the detection of past exposure without an active infection.
+In the latter category, identifying whether individuals can develop or have developed sustained immunity is also a major consideration.
+The development of high-throughput, affordable methods for detecting active infections and sustained immunity will be critical to understanding and controlling the disease.
+The identification of interventions that can mitigate the effect of the virus on exposed and infected individuals is a significant research priority.
+Some possible approaches include the identification of existing pharmaceuticals that reduce the severity of infection, either by reducing the virus' virulence (e.g., antivirals) or managing the most severe symptoms of infection.
+Due to the long timeline for the development of novel pharmaceuticals, in most cases, research surrounding possible pharmaceutical interventions focuses on the identification and investigation of existing compounds whose mechanisms may be relevant to COVID-19.
+Other foci of current research include the identification of antibodies produced by survivors of COVID-19 and the development of vaccines.
+Understanding the mechanisms describing host-virus interactions between humans and SARS-CoV-2 is thus critical to identifying candidate therapeutics.
+An overview of the topics covered is visualized in Figure @fig:overview.
+Thus, in this review, we seek to consolidate information about efforts to develop strategies for diagnosis and therapeutics as new information is released by the scientific community.
+We include information from both traditional peer-reviewed scientific literature and from preprints, which typically have not undergone peer review but have been critically evaluated by the scientists involved in this effort.
+The goal of this manuscript is to present preliminary findings within the broader context of COVID-19 research and to identify the broad interpretations of new research, as well as limitations to interpretability.
 
 
 ## Additional Items {.page_break_before} 
