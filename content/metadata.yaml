@@ -742,3 +742,20 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-11-11
+  -
+    github: davemai
+    name: David Mai
+    initials: DM
+    orcid: 0000-0002-9238-0164
+    twitter: daveomai
+    email: damai@seas.upenn.edu
+    contributions:
+      - Writing - Original Draft
+      - Writing - Review & Editing
+    affiliations:
+      - Department of Bioengineering, University of Pennsylvania, Philadelphia, PA, USA
+    code of conduct:
+      confirmed: Yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2021-01-08
