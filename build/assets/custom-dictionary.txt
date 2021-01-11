@@ -86,6 +86,7 @@ Baric
 Baricitinib
 Basigin
 basophil
+BatCoV
 BCG
 BCL
 BCR
