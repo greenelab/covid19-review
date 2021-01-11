@@ -5,6 +5,7 @@ ABO
 acceptor
 ACEi
 ACEis
+Acelity
 acetylcysteine
 acknowledgements
 Actemra
@@ -13,6 +14,7 @@ adaptor
 adenocarcinomic
 adenosine
 adenovirus
+adenoviruses
 Adhanom
 adjuvant
 adjuvants
@@ -110,6 +112,8 @@ biologics
 biomarker
 biomarkers
 biomedicine
+BioNTech
+BioNTech's
 bioorganometallic
 Biopharma
 bioRxiv
@@ -124,6 +128,7 @@ Blanco
 BLI
 bnAbs
 BNP
+BNT
 Boca
 bocavirus
 Bouhaddou
@@ -283,6 +288,7 @@ datasets
 Dattoli
 Das
 davidmanheim
+DaySooner
 Dazhou
 DCs
 ddPCR
@@ -382,6 +388,7 @@ estradiol
 et
 Etanercept
 EUA
+EVD
 exogenously
 exonuclease
 ExPASy
@@ -649,6 +656,7 @@ JSON
 Ju
 Kamphorst
 Kanolkhar
+Kandi
 Kaplan
 Kd
 kDa
@@ -700,6 +708,8 @@ Lokits
 lopinavir
 Lordan
 LSH
+Lubiana
+lubianat
 Lubitz
 LucyMcGowan
 LucyStats
@@ -870,6 +880,7 @@ nuclease
 nucleases
 nucleocapsid
 nucleoprotein
+nucleosides
 nucleotides
 nutraceutical
 Nutraceuticals
@@ -913,6 +924,7 @@ pathogenicity
 pathologic
 pathologies
 pathophysiology
+Paulo
 PBMC
 PBMCs
 PCR
@@ -1097,12 +1109,14 @@ RTRPA
 Ruan
 SAA
 sACE
-Sadipan
+Sandipan
 Salomé
 Samarth
+Sangareddy
 Sangeun
 Sanofi
 SaO
+São
 SAR
 sarbecovirus
 sarbecoviruses
@@ -1204,6 +1218,7 @@ TaqMan
 TCR
 TCZ
 Tedros
+Telangana
 TEM
 Temitayo
 TfH
@@ -1214,6 +1229,7 @@ Thevarajan
 THP
 thromboinflammation
 thymosin
+Tiago
 Tian
 Tideglusib
 timecourse
@@ -1322,7 +1338,7 @@ yemarshall
 YHLO
 yoson
 ypar
-YuCheng
+Yuchen
 Yuki
 Zafar
 ZDHHC
