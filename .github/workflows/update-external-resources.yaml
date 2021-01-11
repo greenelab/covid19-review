@@ -15,7 +15,7 @@ jobs:
         with:
           ref: external-resources
       - name: Install environment
-        uses: goanpeca/setup-miniconda@v1
+        uses: conda-incubator/setup-miniconda@v2
         with:
           activate-environment: covid19
           environment-file: environment.yml
