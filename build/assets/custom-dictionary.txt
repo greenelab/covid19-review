@@ -1295,6 +1295,10 @@ shiktadas
 silico
 situ
 smangul
+SNG
+SNP
+sociocultural
+Soumita
 soumitagh
 spectrometry
 spirulan
@@ -1327,6 +1331,8 @@ survivorship
 sustentacular
 svg
 svgs
+symptomology
+Synairgen
 syncytial
 syndemic
 tamefoxtime
