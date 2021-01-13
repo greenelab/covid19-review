@@ -1169,6 +1169,7 @@ SL
 smangul
 SNG
 SNP
+sociocultural
 Soumita
 soumitagh
 spectrometry
@@ -1207,6 +1208,7 @@ sustentacular
 SV
 svg
 svgs
+symptomology
 Synairgen
 syncytial
 syndemic
