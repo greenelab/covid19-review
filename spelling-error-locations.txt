@@ -1,3 +1,5 @@
+content/07.pathogenesis.md:17:deltacoronaviruses
+content/07.pathogenesis.md:187:illnesss
 content/21.nutraceuticals.md:40:begining
 content/21.nutraceuticals.md:45:fdama
 content/21.nutraceuticals.md:45:FDAMA
