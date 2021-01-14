@@ -1,2 +1,0 @@
-content/07.pathogenesis.md:17:deltacoronaviruses
-content/07.pathogenesis.md:187:illnesss
