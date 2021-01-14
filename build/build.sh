@@ -16,15 +16,17 @@ EXTERNAL_RESOURCES_COMMIT=$(curl -sS https://api.github.com/repos/greenelab/covi
 echo >&2 "Using external-resources commit $EXTERNAL_RESOURCES_COMMIT"
 
 # Generate reference information
-echo >&2 "Retrieving and processing reference metadata"
-manubot process \
-  --content-directory=content \
-  --output-directory=output \
-  --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/csse/csse-stats.json \
-  --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/ebmdatalab/ebmdatalab-stats.json \
-  --cache-directory=ci/cache \
-  --skip-citations \
-  --log-level=INFO
+if [ "${BUILD_HTML:-}" != "false" ]; then
+  echo >&2 "Retrieving and processing reference metadata"
+  manubot process \
+    --content-directory=content \
+    --output-directory=output \
+    --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/csse/csse-stats.json \
+    --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/ebmdatalab/ebmdatalab-stats.json \
+    --cache-directory=ci/cache \
+    --skip-citations \
+    --log-level=INFO
+fi
 
 # Pandoc's configuration is specified via files of option defaults
 # located in the $PANDOC_DATA_DIR/defaults directory.
@@ -150,6 +152,17 @@ if [ "${BUILD_INDIVIDUAL:-}" = "true" ]; then
   # Remove all markdown files not needed for the pathogenesis manuscript
   find content -type f \( -not -name "*pathogenesis*" -and -not -name "*matter*" -and -not -name "*contribs*" -and -name "*.md" \) | xargs rm
   ls content
+
+  echo >&2 "Retrieving and processing reference metadata for the pathogenesis manuscript"
+  manubot process \
+    --content-directory=content \
+    --output-directory=output \
+    --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/csse/csse-stats.json \
+    --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/ebmdatalab/ebmdatalab-stats.json \
+    --cache-directory=ci/cache \
+    --skip-citations \
+    --log-level=INFO
+
   pandoc --verbose \
     --data-dir="$PANDOC_DATA_DIR" \
     --defaults=common.yaml \
