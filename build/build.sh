@@ -148,13 +148,14 @@ fi
 if [ "${BUILD_INDIVIDUAL:-}" = "true" ]; then
   echo >&2 "Exporting Word Docx pathogenesis manuscript"
   # Remove all markdown files not needed for the pathogenesis manuscript
-  find content -type f \( -not -name '*pathogenesis*' -and -not -name '*matter*' -and -not -name '*contribs*' -and -name '*.md' \) | xargs rm
+  find content -type f \( -not -name "*pathogenesis*" -and -not -name "*matter*" -and -not -name "*contribs*" -and -name "*.md" \) | xargs rm
   ls content
   pandoc --verbose \
     --data-dir="$PANDOC_DATA_DIR" \
     --defaults=common.yaml \
-    --defaults=docx.yaml
-  mv manuscript.docx pathogenesis-manuscript.docx
+    --defaults=docx.yaml \
+    --metadata=title:"pathogenesis Pathogenesis PATHOGENESIS!!!"
+    mv manuscript.docx pathogenesis-manuscript.docx
 fi
 
 echo >&2 "Build complete"
