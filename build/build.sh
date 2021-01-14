@@ -152,6 +152,7 @@ if [ "${BUILD_INDIVIDUAL:-}" = "true" ]; then
     --data-dir="$PANDOC_DATA_DIR" \
     --defaults=common.yaml \
     --defaults=docx.yaml
+  mv manuscript.docx pathogenesis-manuscript.docx
 fi
 
 echo >&2 "Build complete"
