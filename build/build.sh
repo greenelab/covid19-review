@@ -155,7 +155,7 @@ if [ "${BUILD_INDIVIDUAL:-}" = "true" ]; then
     --defaults=common.yaml \
     --defaults=docx.yaml \
     --metadata=title:"pathogenesis Pathogenesis PATHOGENESIS!!!"
-    mv manuscript.docx pathogenesis-manuscript.docx
+    mv output/manuscript.docx output/pathogenesis-manuscript.docx
 fi
 
 echo >&2 "Build complete"
