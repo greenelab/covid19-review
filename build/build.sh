@@ -35,11 +35,13 @@ mkdir -p output
 
 # Create HTML output
 # https://pandoc.org/MANUAL.html
-echo >&2 "Exporting HTML manuscript"
-pandoc --verbose \
-  --data-dir="$PANDOC_DATA_DIR" \
-  --defaults=common.yaml \
-  --defaults=html.yaml
+if [ "${BUILD_HTML:-}" != "false" ]; then
+  echo >&2 "Exporting HTML manuscript"
+  pandoc --verbose \
+    --data-dir="$PANDOC_DATA_DIR" \
+    --defaults=common.yaml \
+    --defaults=html.yaml
+fi
 
 # Set DOCKER_RUNNING to a non-empty string if docker is running, otherwise null.
 DOCKER_RUNNING="$(docker info &> /dev/null && echo "yes" || true)"
