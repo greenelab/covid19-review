@@ -19,6 +19,8 @@ authors:
       - Writing - Original Draft
       - Writing - Review & Editing
       - Methodology
+    code of conduct:
+      confirmed: Yes
     affiliations:
       - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
     coi:
@@ -36,14 +38,18 @@ authors:
     contributions:
       - Conceptualization
       - Software
+      - Writing - Review & Editing
+    code of conduct:
+      confirmed: Yes
     affiliations:
       - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
       - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Philadelphia, Pennsylvania, United States of America
     coi:
       string: "None"
-      lastapproved: !!str 2020-03-22
+      lastapproved: !!str 2020-11-07
     funders:
       - the Gordon and Betty Moore Foundation (GBMF 4552)
+      - the National Human Genome Research Institute (R01 HG010067)
   -
     github: mprobson
     name: Michael P. Robson
@@ -52,11 +58,13 @@ authors:
     email: michael.robson@villanova.edu
     contributions:
       - Software
+    code of conduct:
+      confirmed: Yes
     affiliations:
       - Department of Computing Sciences, Villanova University, Villanova, Pennsylvania, United States of America
     coi:
       string: "None"
-      lastapproved: !!str 2020-03-23
+      lastapproved: !!str 2020-11-12
   -
     github: SiminaB
     name: Simina M. Boca
@@ -66,11 +74,13 @@ authors:
     contributions:
       - Methodology
       - Writing - Review & Editing
+    code of conduct:
+      confirmed: Yes
     affiliations:
       - Innovation Center for Biomedical Informatics, Georgetown University Medical Center, Washington, District of Columbia, United States of America
     coi:
       string: "None"
-      lastapproved: !!str 2020-03-23
+      lastapproved: !!str 2020-11-07
   -
     github: nilswellhausen
     name: Nils Wellhausen
@@ -82,11 +92,13 @@ authors:
       - Writing - Review & Editing
       - Project Administration
       - Visualization
+    code of conduct:
+      confirmed: Yes
     affiliations:
       - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
     coi:
       string: "None"
-      lastapproved: !!str 2020-03-22
+      lastapproved: !!str 2020-11-03
   -
     github: RLordan
     name: Ronan Lordan
@@ -97,11 +109,13 @@ authors:
     contributions:
       - Writing - Original Draft
       - Writing - Review & Editing
+    code of conduct:
+      confirmed: Yes
     affiliations:
       - Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104-5158, USA
     coi:
       string: "None"
-      lastapproved: !!str 2020-03-25
+      lastapproved: !!str 2020-11-03
   -
     github: cbrueffer
     name: Christian Brueffer
@@ -113,25 +127,29 @@ authors:
       - Writing - Original Draft
       - Writing - Review & Editing
       - Project Administration
+    code of conduct:
+      confirmed: Yes
     affiliations:
       - Department of Clinical Sciences, Lund University, Lund, Sweden
     coi:
       string: Employee and shareholder of SAGA Diagnostics AB.
-      lastapproved: !!str 2020-04-14
+      lastapproved: !!str 2020-11-11
   -
     github: rays1987
-    name: Sadipan Ray
+    name: Sandipan Ray
     initials: SR
     orcid: 0000-0002-9960-5768
     email: sandipan.ray@pennmedicine.upenn.edu
     contributions:
       - Writing - Original Draft
+      - Writing - Review & Editing
+    code of conduct:
+      confirmed: Yes
     affiliations:
-      - Department of Systems Pharmacology & Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
-      - Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
+      - Department of Biotechnology, Indian Institute of Technology Hyderabad, Kandi, Sangareddy 502285, Telangana, India
     coi:
       string: "None"
-      lastapproved: !!str 2020-03-25
+      lastapproved: !!str 2020-11-11
   -
     github: LucyMcGowan
     name: Lucy D\'Agostino McGowan
@@ -142,11 +160,13 @@ authors:
     contributions:
       - Methodology
       - Writing - Original Draft
+    code of conduct:
+      confirmed: Yes
     affiliations:
       - Department of Mathematics and Statistics, Wake Forest University, Winston-Salem, North Carolina, United States of America
     coi:
-      string: "None"
-      lastapproved: !!str 2020-03-26
+      string: "Received consulting fees from Acelity and Sanofi in the past five years"
+      lastapproved: !!str 2020-11-10
   -
     github: agitter
     name: Anthony Gitter
@@ -158,26 +178,19 @@ authors:
       - Methodology
       - Software
       - Project Administration
+      - Writing - Original Draft
+      - Writing - Review & Editing
+      - Visualization
     affiliations:
       - Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, United States of America
       - Morgridge Institute for Research, Madison, Wisconsin, United States of America
+    code of conduct:
+      confirmed: Yes
     coi:
-      string: "None"
-      lastapproved: !!str 2020-03-26
-  -
-    github: rmrussell
-    name: Ronnie M. Russell
-    initials: RMR
-    orcid: 0000-0003-1484-4207
-    email: russr@pennmedicine.upenn.edu
-    contributions:
-      - Writing - Original Draft
-      - Writing - Review & Editing
-    affiliations:
-      - Department of Microbiology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
-    coi:
-      string: "None"
-      lastapproved: !!str 2020-04-07
+      string: "Filed a patent application with the Wisconsin Alumni Research Foundation related to classifying activated T cells"
+      lastapproved: !!str 2020-11-10
+    funders:
+      - John W. and Jeanne M. Rowe Center for Research in Virology
   -
     github: aadattoli
     name: Anna Ada Dattoli
@@ -187,6 +200,8 @@ authors:
     email: anna.dattoli@pennmedicine.upenn.edu
     contributions:
       - Writing - Original Draft
+    code of conduct:
+      confirmed: No
     affiliations:
       - Department of Systems Pharmacology & Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
     coi:
@@ -201,11 +216,13 @@ authors:
     contributions:
       - Methodology
       - Software
+    code of conduct:
+      confirmed: Yes
     affiliations:
       - Azimuth1, McLean, VA
     coi:
       string: "None"
-      lastapproved: !!str 2020-04-04
+      lastapproved: !!str 2020-11-10
   -
     github: johnbarton
     name: John P. Barton
@@ -216,11 +233,13 @@ authors:
     contributions:
       - Writing - Original Draft
       - Writing - Review & Editing
+    code of conduct:
+      confirmed: Yes
     affiliations:
       - Department of Physics and Astronomy, University of California-Riverside, Riverside, California, United States of America
     coi:
       string: "None"
-      lastapproved: !!str 2020-04-06
+      lastapproved: !!str 2020-11-11
   -
     github: Jeff-Field
     name: Jeffrey M. Field
@@ -229,11 +248,13 @@ authors:
     email: jfield@upenn.edu
     contributions:
       - Writing - Original Draft
+    code of conduct:
+      confirmed: yes
     affiliations:
       - Department of Pharmacology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
     coi:
       string: "None"
-      lastapproved: !!str 2020-03-30
+      lastapproved: !!str 2020-11-12
   -
     github: rbharath
     name: Bharath Ramsundar
@@ -244,11 +265,13 @@ authors:
     contributions:
       - Investigation
       - Writing - Review & Editing
+    code of conduct:
+      confirmed: Yes
     affiliations:
       - The DeepChem Project, https://deepchem.io/
     coi:
       string: "None"
-      lastapproved: !!str 2020-04-06
+      lastapproved: !!str 2020-11-11
   -
     github: alavendelm
     name: Adam L. MacLean
@@ -258,11 +281,14 @@ authors:
     email: macleana@usc.edu
     contributions:
       - Writing - Original Draft
+      - Writing - Review & Editing
+    code of conduct:
+      confirmed: Yes
     affiliations:
       - Department of Biological Sciences, University of Southern California, Los Angeles, California, United States of America
     coi:
       string: "None"
-      lastapproved: !!str 2020-04-06
+      lastapproved: !!str 2020-11-11
   -
     github: ajlee21
     name: Alexandra J. Lee
@@ -271,11 +297,14 @@ authors:
     email: ajlee21@pennmedicine.upenn.edu
     contributions:
       - Writing - Original Draft
+      - Writing - Review & Editing
+    code of conduct:
+      confirmed: Yes
     affiliations:
       - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
     coi:
       string: "None"
-      lastapproved: !!str 2020-04-07
+      lastapproved: !!str 2020-11-09
     funders:
       - the Gordon and Betty Moore Foundation (GBMF 4552)
   -
@@ -284,6 +313,8 @@ authors:
     initials: IIISM
     contributions:
       - Data Curation
+    code of conduct:
+      confirmed: No
     affiliations:
       - Immunology Institute of the Icahn School of Medicine
     coi:
@@ -299,6 +330,8 @@ authors:
     contributions:
       - Writing - Original Draft
       - Writing - Review & Editing
+    code of conduct:
+      confirmed: No
     affiliations:
       - Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
     coi:
@@ -314,12 +347,14 @@ authors:
     contributions:
       - Writing - Original Draft
       - Writing - Review & Editing
+    code of conduct:
+      confirmed: Yes
     affiliations:
-    - Biomedical Science, Midwestern University, Glendale, AZ, United States of America
-    - Department of Neuroscience, Carleton University, Ottawa, Ontario, Canada
+      - Biomedical Science, Midwestern University, Glendale, AZ, United States of America
+      - Department of Neuroscience, Carleton University, Ottawa, Ontario, Canada
     coi:
       string: "None"
-      lastapproved: !!str 2020-04-09
+      lastapproved: !!str 2020-11-11
     funders:
       - the American Heart Association (20AIREA35050015)
   -
@@ -331,11 +366,13 @@ authors:
     contributions:
       - Writing - Original Draft
       - Writing - Review & Editing
+    code of conduct:
+      confirmed: Yes
     affiliations:
       - Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
     coi:
       string: "None"
-      lastapproved: !!str 2020-04-10
+      lastapproved: !!str 2020-11-11
   -
     github: jinhui2
     name: Jinhui Wang
@@ -344,6 +381,8 @@ authors:
     email: jinhui2@pennmedicine.upenn.edu
     contributions:
       - Writing - Revising & Editing
+    code of conduct:
+      confirmed: No
     affiliations:
       - Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
     coi:
@@ -365,7 +404,7 @@ authors:
       confirmed: yes
     coi:
       string: "None"
-      lastapproved: !!str 2020-04-14
+      lastapproved: !!str 2020-11-11
     funders:
       - NIH Medical Scientist Training Program T32 GM07170
   -
@@ -384,7 +423,7 @@ authors:
       confirmed: yes
     coi:
       string: "None"
-      lastapproved: !!str 2020-04-16
+      lastapproved: !!str 2020-11-11
     funders:
       - NIH Medical Scientist Training Program T32 GM07170
   -
@@ -402,7 +441,7 @@ authors:
       confirmed: yes
     coi:
       string: "None"
-      lastapproved: !!str 2020-04-17
+      lastapproved: !!str 2020-11-11
   -
     github: likhithakolla
     name: Likhitha Kolla
@@ -418,7 +457,7 @@ authors:
       confirmed: yes
     coi:
       string: "None"
-      lastapproved: !!str 2020-04-23
+      lastapproved: !!str 2020-11-16
     funders:
       - NIH Medical Scientist Training Program T32 GM07170
   -
@@ -432,12 +471,13 @@ authors:
       - Writing - Original Draft
       - Investigation
     affiliations:
+      - 1DaySooner, Delaware, United States of America
       - Risk and Health Communication Research Center, School of Public Health, University of Haifa, Haifa, Israel
     code of conduct:
       confirmed: yes
     coi:
       string: "None"
-      lastapproved: !!str 2020-04-28
+      lastapproved: !!str 2020-11-11
   -
     github: soumitagh
     name: Soumita Ghosh
@@ -446,27 +486,13 @@ authors:
     email: soumita84@gmail.com
     contributions:
       - Writing - Original Draft
+    code of conduct:
+      confirmed: yes
     affiliations:
       - Institute of Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
     coi:
       string: "None"
-      lastapproved: !!str 2020-04-28
-  -
-    github: matfax
-    name: Matthias Fax
-    initials: MF
-    orcid: 0000-0002-0064-395X
-    email: matthias.fax@gmail.com
-    contributions:
-      - Writing - Review & Editing
-    affiliations:
-      - greensolid technologies, Bavaria, Germany
-      - IEEE Reliability Society, Vienna, Austria
-    code of conduct:
-      confirmed: yes
-    coi:
-      string: "None"
-      lastapproved: !!str 2020-04-30
+      lastapproved: !!str 2020-11-09
   -
     github: byrdjb
     name: James Brian Byrd
@@ -483,7 +509,7 @@ authors:
       confirmed: yes
     coi:
       string: "Funded by FastGrants to conduct a COVID-19-related clinical trial"
-      lastapproved: !!str 2020-04-23
+      lastapproved: !!str 2020-11-12
     funders:
       - NIH K23HL128909
       - FastGrants
@@ -504,7 +530,7 @@ authors:
       confirmed: yes
     coi:
       string: "None"
-      lastapproved: !!str 2020-04-30
+      lastapproved: !!str 2020-11-11
     funders: NHGRI R01 HG10067
   -
     github: bansalvi
@@ -538,7 +564,7 @@ authors:
       confirmed: yes
     coi:
       string: "None"
-      lastapproved: !!str 2020-06-23
+      lastapproved: !!str 2020-11-11
   -
     github: dziakj1
     name: John J. Dziak
@@ -547,16 +573,17 @@ authors:
     email: dziakj1@gmail.com
     contributions:
       - Writing - Original Draft
+      - Writing - Review & Editing
     affiliations:
       - Edna Bennett Pierce Prevention Research Center, The Pennsylvania State University, University Park, PA, United States of America
     code of conduct:
       confirmed: yes
     coi:
       string: "None"
-      lastapproved: !!str 2020-06-23
+      lastapproved: !!str 2020-11-11
   -
     github: kevinsunofficial
-    name: YuCheng Sun
+    name: Yuchen Sun
     initials: YS
     email: ys4aj@virginia.edu
     contributions:
@@ -567,7 +594,7 @@ authors:
       confirmed: yes
     coi:
       string: "None"
-      lastapproved: !!str 2020-07-09
+      lastapproved: !!str 2020-11-11
   -
     github: qiyanjun
     name: Yanjun Qi
@@ -597,9 +624,24 @@ authors:
       confirmed: yes
     coi:
       string: "None"
-      lastapproved: !!str 2020-07-22
+      lastapproved: !!str 2020-11-11
     funders:
       - the Center for Global Genomics and Health Equity at the University of Pennsylvania
+  -
+    github: tlukan
+    name: Temitayo Lukan
+    initials: TL
+    email: tlukan@sas.upenn.edu
+    contributions:
+      - Writing - Original Draft
+      - Investigation
+    affiliations:
+      - University of Pennsylvania, Philadelphia, PA, United States of America
+    code of conduct:
+      confirmed: yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-11-10
   -
     github: Sergey-Knyazev
     name: Sergey Knyazev
@@ -609,10 +651,111 @@ authors:
     email: sergey.n.knyazev@gmail.com
     contributions:
       - Writing - Original Draft
+      - Writing - Review & Editing
     affiliations:
       - Georgia State University, GA, United States of America
     code of conduct:
       confirmed: yes
     coi:
       string: "None"
-      lastapproved: !!str 2020-08-03
+      lastapproved: !!str 2020-11-11
+  -
+    github: SystemsResearch
+    name: Dimitri Perrin
+    initials: DP
+    orcid: 0000-0002-4007-5256
+    twitter: dperrin
+    email: dimitri.perrin@qut.edu.au
+    contributions:
+      - Writing - Original Draft
+      - Writing - Review & Editing
+    affiliations:
+      - School of Computer Science, Queensland University of Technology, Brisbane, Australia
+      - Centre for Data Science, Queensland University of Technology, Brisbane, Australia
+    code of conduct:
+      confirmed: yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-11-11
+  -
+    github: smangul1
+    name: Serghei Mangul
+    initials: SM
+    orcid: 0000-0003-4770-3443
+    twitter: serghei_mangul
+    email: serghei.mangul@gmail.com
+    contributions:
+      - Writing - Review & Editing
+    affiliations:
+      - Department of Clinical Pharmacy, School of Pharmacy, University of Southern California, CA, United States of America
+    code of conduct:
+      confirmed: Yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-11-11
+  -
+    github: shiktadas
+    name: Shikta Das
+    initials: SD
+    orcid: 0000-0002-8291-2788
+    twitter: shikta_das
+    email: shikta_das@yahoo.co.uk
+    contributions:
+      - Writing - Review & Editing
+    affiliations:
+      - C4X Discovery, London, United Kingdom
+      - Medical Research Council LHA, Institute of Cardiovascular Studies, University College London, London, United Kingdom
+    code of conduct:
+      confirmed: Yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-08-13
+  -
+    github: gregszetoAI
+    name: Gregory L Szeto
+    initials: GLS
+    orcid: 0000-0001-7604-1333
+    twitter: greg_szeto
+    email: greg.szeto@alleninstitute.org
+    contributions:
+      - Writing - Review & Editing
+    affiliations:
+      - Allen Institute for Immunology, Seattle, WA, United States of America
+    code of conduct:
+      confirmed: Yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-11-16
+  -
+    github: lubianat
+    name: Tiago Lubiana
+    initials: TL
+    orcid: 0000-0003-2473-2313
+    twitter: lubianat
+    email: tiago.lubiana.alves@usp.br
+    contributions:
+      - Writing - Review & Editing
+    affiliations:
+      - Department of Clinical and Toxicological Analyses, School of Pharmaceutical Sciences, University of São Paulo, São Paulo, Brazil
+    code of conduct:
+      confirmed: Yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2020-11-11
+  -
+    github: davemai
+    name: David Mai
+    initials: DM
+    orcid: 0000-0002-9238-0164
+    twitter: daveomai
+    email: damai@seas.upenn.edu
+    contributions:
+      - Writing - Original Draft
+      - Writing - Review & Editing
+    affiliations:
+      - Department of Bioengineering, University of Pennsylvania, Philadelphia, PA, USA
+    code of conduct:
+      confirmed: Yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2021-01-08
