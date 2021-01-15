@@ -153,7 +153,8 @@ if [ "${BUILD_INDIVIDUAL:-}" = "true" ]; then
 
   # Copy all content, then remove all markdown files not needed for the pathogenesis manuscript
   mkdir -p content/pathogenesis
-  cp content/* content/pathogenesis
+  # Ignore errors about not copying directories
+  cp content/* content/pathogenesis || true
   cp -r content/images/ content/pathogenesis
   find content/pathogenesis -type f \( -not -name "*pathogenesis*" -and -not -name "*matter*" -and -not -name "*contribs*" -and -name "*.md" \) | xargs rm
   ls content/pathogenesis
