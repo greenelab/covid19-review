@@ -16,7 +16,8 @@ EXTERNAL_RESOURCES_COMMIT=$(curl -sS https://api.github.com/repos/greenelab/covi
 echo >&2 "Using external-resources commit $EXTERNAL_RESOURCES_COMMIT"
 
 # Generate reference information
-if [ "${BUILD_HTML:-}" != "false" ]; then
+# Can skip this step if only building the individual manuscripts
+if [ "${BUILD_HTML:-}" != "false" ] || [ "${BUILD_PDF:-}" != "false" ] || [ "${BUILD_DOCX:-}" = "true" ]; then
   echo >&2 "Retrieving and processing reference metadata"
   manubot process \
     --content-directory=content \
@@ -149,14 +150,17 @@ fi
 # Initially only builds the pathogenesis manuscript
 if [ "${BUILD_INDIVIDUAL:-}" = "true" ]; then
   echo >&2 "Exporting Word Docx pathogenesis manuscript"
-  # Remove all markdown files not needed for the pathogenesis manuscript
-  find content -type f \( -not -name "*pathogenesis*" -and -not -name "*matter*" -and -not -name "*contribs*" -and -name "*.md" \) | xargs rm
-  ls content
+
+  # Copy all content, then remove all markdown files not needed for the pathogenesis manuscript
+  cp -r content/ pathogenesis
+  mv pathogenesis/ content/pathogenesis
+  find content/pathogenesis -type f \( -not -name "*pathogenesis*" -and -not -name "*matter*" -and -not -name "*contribs*" -and -name "*.md" \) | xargs rm
+  ls content/pathogenesis
 
   echo >&2 "Retrieving and processing reference metadata for the pathogenesis manuscript"
   manubot process \
-    --content-directory=content \
-    --output-directory=output \
+    --content-directory=content/pathogenesis \
+    --output-directory=output/pathogenesis \
     --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/csse/csse-stats.json \
     --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/ebmdatalab/ebmdatalab-stats.json \
     --cache-directory=ci/cache \
@@ -168,7 +172,7 @@ if [ "${BUILD_INDIVIDUAL:-}" = "true" ]; then
     --defaults=common.yaml \
     --defaults=docx.yaml \
     --metadata=title:"pathogenesis Pathogenesis PATHOGENESIS!!!"
-    mv output/manuscript.docx output/pathogenesis-manuscript.docx
+    mv output/pathogenesis/manuscript.docx output/pathogenesis-manuscript.docx
 fi
 
 echo >&2 "Build complete"
