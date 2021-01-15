@@ -152,8 +152,9 @@ if [ "${BUILD_INDIVIDUAL:-}" = "true" ]; then
   echo >&2 "Exporting Word Docx pathogenesis manuscript"
 
   # Copy all content, then remove all markdown files not needed for the pathogenesis manuscript
-  cp -r content/ pathogenesis
-  mv pathogenesis/ content/pathogenesis
+  mkdir -p content/pathogenesis
+  cp content/* content/pathogenesis
+  cp -r content/images/ content/pathogenesis
   find content/pathogenesis -type f \( -not -name "*pathogenesis*" -and -not -name "*matter*" -and -not -name "*contribs*" -and -name "*.md" \) | xargs rm
   ls content/pathogenesis
 
@@ -172,6 +173,7 @@ if [ "${BUILD_INDIVIDUAL:-}" = "true" ]; then
     --defaults=common.yaml \
     --defaults=docx.yaml \
     --metadata=title:"pathogenesis Pathogenesis PATHOGENESIS!!!"
+    output/pathogenesis/manuscript.md
     mv output/pathogenesis/manuscript.docx output/pathogenesis-manuscript.docx
 fi
 
