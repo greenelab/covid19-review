@@ -31,6 +31,10 @@ authors:
     manuscripts:
       pathogenesis:
         order: 1
+      evolution:
+        order: 1
+      diagnostics:
+        order: 1
   -
     github: cgreene
     name: Casey S. Greene
