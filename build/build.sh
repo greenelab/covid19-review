@@ -161,10 +161,17 @@ if [ "${BUILD_INDIVIDUAL:-}" = "true" ]; then
   cp -r content/images/ content/pathogenesis
   find content/pathogenesis -type f \( -not -name "*pathogenesis*" -and -not -name "*matter*" -and -not -name "*contribs*" -and -name "*.md" \) | xargs rm
 
+  # Select the authors for the individual manuscript
+  python build/select-authors.py --keyword pathogenesis --path content/pathogenesis/metadata.yaml
+
   # Use the first line of the Markdown file as the manuscript title, overriding the title from metadata.yaml
   INDIVIDUAL_TITLE=$(head --lines 1 content/pathogenesis/*.pathogenesis.md | sed 's/^#*\ //')
   # Remove the section title from the start of the individual manuscript
   tail -n +2 content/pathogenesis/07.pathogenesis.md > content/pathogenesis/07.pathogenesis.md.tmp && mv content/pathogenesis/07.pathogenesis.md.tmp content/pathogenesis/07.pathogenesis.md
+
+  # Set a variable indicating which individual manuscript is being processed
+  # This is used to modify some of of the boilerplate Markdown, like the front matter
+  echo "individual: pathogenesis" >> content/pathogenesis/pathogenesis.yaml
 
   echo >&2 "Retrieving and processing reference metadata for the pathogenesis manuscript"
   manubot process \
@@ -172,6 +179,7 @@ if [ "${BUILD_INDIVIDUAL:-}" = "true" ]; then
     --output-directory=output/pathogenesis \
     --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/csse/csse-stats.json \
     --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/ebmdatalab/ebmdatalab-stats.json \
+    --template-variables-path=content/pathogenesis/pathogenesis.yaml \
     --cache-directory=ci/cache \
     --skip-citations \
     --log-level=INFO
@@ -184,6 +192,7 @@ if [ "${BUILD_INDIVIDUAL:-}" = "true" ]; then
     output/pathogenesis/manuscript.md
     mv output/manuscript.docx output/pathogenesis-manuscript.docx
 
+  rm -rf output/pathogenesis
 fi
 
 echo >&2 "Build complete"

@@ -28,6 +28,9 @@ authors:
       lastapproved: !!str 2020-03-22
     funders:
       - the Gordon and Betty Moore Foundation (GBMF 4552)
+    manuscripts:
+      pathogenesis:
+        order: 1
   -
     github: cgreene
     name: Casey S. Greene
@@ -50,6 +53,9 @@ authors:
     funders:
       - the Gordon and Betty Moore Foundation (GBMF 4552)
       - the National Human Genome Research Institute (R01 HG010067)
+    manuscripts:
+      pathogenesis:
+        order: 1
   -
     github: mprobson
     name: Michael P. Robson
@@ -81,6 +87,9 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-11-07
+    manuscripts:
+      pathogenesis:
+        order: 1
   -
     github: nilswellhausen
     name: Nils Wellhausen
@@ -99,6 +108,9 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-11-03
+    manuscripts:
+      pathogenesis:
+        order: 1
   -
     github: RLordan
     name: Ronan Lordan
@@ -116,6 +128,9 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-11-03
+    manuscripts:
+      pathogenesis:
+        order: 1
   -
     github: cbrueffer
     name: Christian Brueffer
@@ -134,6 +149,9 @@ authors:
     coi:
       string: Employee and shareholder of SAGA Diagnostics AB.
       lastapproved: !!str 2020-11-11
+    manuscripts:
+      pathogenesis:
+        order: 1
   -
     github: rays1987
     name: Sandipan Ray
@@ -150,6 +168,9 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-11-11
+    manuscripts:
+      pathogenesis:
+        order: 1
   -
     github: LucyMcGowan
     name: Lucy D\'Agostino McGowan
@@ -167,6 +188,9 @@ authors:
     coi:
       string: "Received consulting fees from Acelity and Sanofi in the past five years"
       lastapproved: !!str 2020-11-10
+    manuscripts:
+      pathogenesis:
+        order: 1
   -
     github: agitter
     name: Anthony Gitter
@@ -191,6 +215,9 @@ authors:
       lastapproved: !!str 2020-11-10
     funders:
       - John W. and Jeanne M. Rowe Center for Research in Virology
+    manuscripts:
+      pathogenesis:
+        order: 1
   -
     github: aadattoli
     name: Anna Ada Dattoli
@@ -223,6 +250,9 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-11-10
+    manuscripts:
+      pathogenesis:
+        order: 1
   -
     github: johnbarton
     name: John P. Barton
@@ -240,6 +270,9 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-11-11
+    manuscripts:
+      pathogenesis:
+        order: 1
   -
     github: Jeff-Field
     name: Jeffrey M. Field
@@ -289,6 +322,9 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-11-11
+    manuscripts:
+      pathogenesis:
+        order: 1
   -
     github: ajlee21
     name: Alexandra J. Lee
@@ -307,6 +343,9 @@ authors:
       lastapproved: !!str 2020-11-09
     funders:
       - the Gordon and Betty Moore Foundation (GBMF 4552)
+    manuscripts:
+      pathogenesis:
+        order: 1
   -
     github: ismms-himc
     name: Immunology Institute of the Icahn School of Medicine
@@ -373,6 +412,9 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-11-11
+    manuscripts:
+      pathogenesis:
+        order: 1
   -
     github: jinhui2
     name: Jinhui Wang
@@ -388,6 +430,9 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-04-13
+    manuscripts:
+      pathogenesis:
+        order: 1
   -
     github: dianerafi
     name: Diane N. Rafizadeh
@@ -426,6 +471,9 @@ authors:
       lastapproved: !!str 2020-11-11
     funders:
       - NIH Medical Scientist Training Program T32 GM07170
+    manuscripts:
+      pathogenesis:
+        order: 1
   -
     github: marouenbg
     name: Marouen Ben Guebila
@@ -442,6 +490,9 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-11-11
+    manuscripts:
+      pathogenesis:
+        order: 1
   -
     github: likhithakolla
     name: Likhitha Kolla
@@ -513,6 +564,9 @@ authors:
     funders:
       - NIH K23HL128909
       - FastGrants
+    manuscripts:
+      pathogenesis:
+        order: 1
   -
     github: ypar
     name: YoSon Park
@@ -532,6 +586,9 @@ authors:
       string: "None"
       lastapproved: !!str 2020-11-11
     funders: NHGRI R01 HG10067
+    manuscripts:
+      pathogenesis:
+        order: 1
   -
     github: bansalvi
     name: Vikas Bansal
@@ -549,6 +606,9 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-05-26
+    manuscripts:
+      pathogenesis:
+        order: 1
   -
     github: scapone01
     name: Stephen Capone
@@ -581,6 +641,9 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-11-11
+    manuscripts:
+      pathogenesis:
+        order: 1
   -
     github: kevinsunofficial
     name: Yuchen Sun
@@ -627,6 +690,9 @@ authors:
       lastapproved: !!str 2020-11-11
     funders:
       - the Center for Global Genomics and Health Equity at the University of Pennsylvania
+    manuscripts:
+      pathogenesis:
+        order: 1
   -
     github: tlukan
     name: Temitayo Lukan
@@ -659,6 +725,9 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-11-11
+    manuscripts:
+      pathogenesis:
+        order: 1
   -
     github: SystemsResearch
     name: Dimitri Perrin
@@ -693,6 +762,9 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-11-11
+    manuscripts:
+      pathogenesis:
+        order: 1
   -
     github: shiktadas
     name: Shikta Das
@@ -726,6 +798,9 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-11-16
+    manuscripts:
+      pathogenesis:
+        order: 1
   -
     github: lubianat
     name: Tiago Lubiana
@@ -742,6 +817,9 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-11-11
+    manuscripts:
+      pathogenesis:
+        order: 1
   -
     github: davemai
     name: David Mai
@@ -759,3 +837,6 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2021-01-08
+    manuscripts:
+      pathogenesis:
+        order: 1
