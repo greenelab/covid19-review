@@ -1,5 +1,6 @@
 # Derived from https://github.com/greenelab/deep-review/blob/75f2dd8c61099a17235a4b8de0567b2364901e4d/build/randomize-authors.py
-# by Daniel Himmelstein
+# by Daniel Himmelstein under the CC0 1.0 license
+# https://github.com/greenelab/deep-review#license
 
 import argparse
 import pathlib
@@ -7,7 +8,6 @@ import sys
 
 import yaml
 from manubot.util import read_serialized_data
-from manubot.process.ci import get_continuous_integration_parameters
 
 
 def parse_args():
@@ -16,7 +16,7 @@ def parse_args():
         "Overwrites metadata.yaml."
     )
     parser.add_argument(
-        "--keyword", required=True, help="keyword indicating the individual manuscript"
+        "--keyword", required=True, help="keyword indicating the individual manuscript (e.g. pathogenesis)"
     )
     parser.add_argument(
         "--path", default="content/metadata.yaml", help="path to metadata.yaml"
@@ -39,7 +39,6 @@ def dump_yaml(obj, path):
             allow_unicode=True,
         )
         write_file.write("\n")
-
 
 if __name__ == "__main__":
     """
