@@ -173,14 +173,17 @@ if [ "${BUILD_INDIVIDUAL:-}" = "true" ]; then
     --skip-citations \
     --log-level=INFO
 
-  # Can override metadata here, could read title from file
+  ls -l output/pathogenesis
+
   pandoc --verbose \
     --data-dir="$PANDOC_DATA_DIR" \
     --defaults=common.yaml \
     --defaults=docx.yaml \
-#    --metadata=title:"pathogenesis Pathogenesis PATHOGENESIS!!!"
     output/pathogenesis/manuscript.md
     mv output/pathogenesis/manuscript.docx output/pathogenesis-manuscript.docx
+
+  # Can override metadata in pandoc call, could read title from file
+#    --metadata=title:"pathogenesis Pathogenesis PATHOGENESIS!!!"
 fi
 
 echo >&2 "Build complete"

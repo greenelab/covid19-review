@@ -8,7 +8,7 @@ skip_branch_with_pr: true
 # to only build commits from pull requests
 branches:
   only:
-    - master
+    - none
 
 # Only run AppVeyor on commits that modify at least one of the following files
 # Delete these lines to run AppVeyor on all master branch commits
