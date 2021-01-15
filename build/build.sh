@@ -162,7 +162,7 @@ if [ "${BUILD_INDIVIDUAL:-}" = "true" ]; then
   find content/pathogenesis -type f \( -not -name "*pathogenesis*" -and -not -name "*matter*" -and -not -name "*contribs*" -and -name "*.md" \) | xargs rm
 
   # Select the authors for the individual manuscript
-  python build/select-authors.py --keyword pathogenesis --path content/pathogenesis/metadata.yaml
+  python build/update-author-metadata.py --keyword pathogenesis --path content/pathogenesis/metadata.yaml
 
   # Use the first line of the Markdown file as the manuscript title, overriding the title from metadata.yaml
   INDIVIDUAL_TITLE=$(head --lines 1 content/pathogenesis/*.pathogenesis.md | sed 's/^#*\ //')

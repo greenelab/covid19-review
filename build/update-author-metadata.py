@@ -13,11 +13,12 @@ MISSING_CONTRIBUTIONS = ["**MISSING**"]
 
 def parse_args():
     parser = argparse.ArgumentParser(
-        description="Select authors for an individual manuscript from metadata.authors. "
-        "Overwrites metadata.yaml."
+        description="Select authors for an individual manuscript from metadata.authors "
+        "or update author metadata for the merged manuscript. Overwrites metadata.yaml."
     )
     parser.add_argument(
-        "--keyword", required=True, help="keyword indicating the individual manuscript (e.g. pathogenesis)"
+        "--keyword", required=True, help="keyword indicating the individual manuscript "
+        "(e.g. 'pathogenesis') or 'merged' to update author metadata for the merged manuscript"
     )
     parser.add_argument(
         "--path", default="content/metadata.yaml", help="path to metadata.yaml"
@@ -41,15 +42,18 @@ def dump_yaml(obj, path):
         )
         write_file.write("\n")
 
-if __name__ == "__main__":
+def update_merged(path):
+    """
+    Update author contributions for the merged manuscript by taking the union
+    of all contributions on individual manuscripts
+    """
+    
+def update_individual(path, keyword):
     """
     Select authors for an individual manuscript. Expects the manuscript keyword
-    to be in a list called manuscripts for each author.
+    to be in a dictionary called manuscripts for each author of that manuscript.
     """
-    args = parse_args()
-    keyword = args.keyword
-    
-    metadata = read_serialized_data(args.path)
+    metadata = read_serialized_data(path)
     authors = metadata.get("authors", [])
     individual_authors = [author for author in authors if "manuscripts" in author and keyword in author["manuscripts"]]
     # Sort authors by their numeric order for this individual manuscript
@@ -68,4 +72,11 @@ if __name__ == "__main__":
 
     sys.stderr.write(f"Found {len(individual_authors)} authors for {keyword} manuscript\n")
     metadata["authors"] = individual_authors
-    dump_yaml(metadata, args.path)
+    dump_yaml(metadata, path)
+
+if __name__ == "__main__":
+    args = parse_args()
+    if args.keyword.lower() == "merged":
+        update_merged(args.path)
+    else:
+        update_individual(args.path, args.keyword)
