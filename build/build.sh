@@ -43,7 +43,8 @@ if [ "${BUILD_HTML:-}" != "false" ]; then
   pandoc --verbose \
     --data-dir="$PANDOC_DATA_DIR" \
     --defaults=common.yaml \
-    --defaults=html.yaml
+    --defaults=html.yaml \
+    output/manuscript.md
 fi
 
 # Set DOCKER_RUNNING to a non-empty string if docker is running, otherwise null.
@@ -59,7 +60,8 @@ if [ "${BUILD_PDF:-}" != "false" ] && [ -z "$DOCKER_RUNNING" ]; then
     --data-dir="$PANDOC_DATA_DIR" \
     --defaults=common.yaml \
     --defaults=html.yaml \
-    --defaults=pdf-weasyprint.yaml
+    --defaults=pdf-weasyprint.yaml \
+    output/manuscript.md
   rm images
 fi
 
@@ -93,7 +95,8 @@ if [ "${BUILD_DOCX:-}" = "true" ]; then
   pandoc --verbose \
     --data-dir="$PANDOC_DATA_DIR" \
     --defaults=common.yaml \
-    --defaults=docx.yaml
+    --defaults=docx.yaml \
+    output/manuscript.md
 fi
 
 # Spellcheck
