@@ -174,7 +174,7 @@ if [ "${BUILD_INDIVIDUAL:-}" = "true" ]; then
   pandoc --verbose \
     --data-dir="$PANDOC_DATA_DIR" \
     --defaults=common.yaml \
-    --defaults=docx.yaml
+    --defaults=docx.yaml \
 #    --metadata=title:"pathogenesis Pathogenesis PATHOGENESIS!!!"
     output/pathogenesis/manuscript.md
     mv output/pathogenesis/manuscript.docx output/pathogenesis-manuscript.docx
