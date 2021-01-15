@@ -18,6 +18,9 @@ echo >&2 "Using external-resources commit $EXTERNAL_RESOURCES_COMMIT"
 # Generate reference information
 # Can skip this step if only building the individual manuscripts
 if [ "${BUILD_HTML:-}" != "false" ] || [ "${BUILD_PDF:-}" != "false" ] || [ "${BUILD_DOCX:-}" = "true" ]; then
+  echo >&2 "Updating contributions for merged manuscript"
+  python build/update-author-metadata.py --keyword=merged --path=content/metadata.yaml
+
   echo >&2 "Retrieving and processing reference metadata"
   manubot process \
     --content-directory=content \

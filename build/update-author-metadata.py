@@ -45,9 +45,33 @@ def dump_yaml(obj, path):
 def update_merged(path):
     """
     Update author contributions for the merged manuscript by taking the union
-    of all contributions on individual manuscripts
+    of all contributions on individual manuscripts. Overwrites existing
+    contributions for the author that are not associated with an individual
+    manuscript.
     """
+    metadata = read_serialized_data(path)
+    authors = metadata.get("authors", [])
     
+    # Set contributions to the union of all manuscript-specific contributions
+    for author in authors:
+        contributions = set()
+        if "manuscripts" in author:
+            for manuscript in author["manuscripts"].keys():
+                # A list of the author's contributions for each individual manuscript
+                individual_contributions = author["manuscripts"][manuscript].get("contributions", MISSING_CONTRIBUTIONS)
+                contributions.update(individual_contributions)
+        else:
+            contributions.update(MISSING_CONTRIBUTIONS)
+
+        if MISSING_CONTRIBUTIONS[0] in contributions:
+            sys.stderr.write(f"Missing contributions for {author['name']}\n")
+
+        author["contributions"] = sorted(contributions)
+
+    sys.stderr.write(f"Updating contributions for {len(authors)} authors for merged manuscript\n")
+    metadata["authors"] = authors
+    dump_yaml(metadata, path)
+
 def update_individual(path, keyword):
     """
     Select authors for an individual manuscript. Expects the manuscript keyword

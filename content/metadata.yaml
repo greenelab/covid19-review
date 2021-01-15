@@ -39,8 +39,14 @@ authors:
           - D
       evolution:
         order: 1
+        contributions:
+          - D
+          - E
       diagnostics:
         order: 1
+        contributions:
+          - A
+          - E
   -
     github: cgreene
     name: Casey S. Greene

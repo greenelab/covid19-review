@@ -14,7 +14,7 @@ jobs:
       GITHUB_PULL_REQUEST_SHA: ${{ github.event.pull_request.head.sha }}
       LITSEARCH: false
       SPELLCHECK: false
-      BUILD_HTML: false
+      BUILD_HTML: true
       BUILD_PDF: false
       BUILD_DOCX: false
       BUILD_INDIVIDUAL: true
