@@ -164,15 +164,17 @@ if [ "${BUILD_INDIVIDUAL:-}" = "true" ]; then
     --output-directory=output/pathogenesis \
     --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/csse/csse-stats.json \
     --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/ebmdatalab/ebmdatalab-stats.json \
+    --template-variables-path=content/pathogenesis/pathogenesis-metadata.yaml \
     --cache-directory=ci/cache \
     --skip-citations \
     --log-level=INFO
 
+  # Can override metadata here, could read title from file
   pandoc --verbose \
     --data-dir="$PANDOC_DATA_DIR" \
     --defaults=common.yaml \
-    --defaults=docx.yaml \
-    --metadata=title:"pathogenesis Pathogenesis PATHOGENESIS!!!"
+    --defaults=docx.yaml
+#    --metadata=title:"pathogenesis Pathogenesis PATHOGENESIS!!!"
     output/pathogenesis/manuscript.md
     mv output/pathogenesis/manuscript.docx output/pathogenesis-manuscript.docx
 fi
