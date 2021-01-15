@@ -160,7 +160,11 @@ if [ "${BUILD_INDIVIDUAL:-}" = "true" ]; then
   cp content/* content/pathogenesis || true
   cp -r content/images/ content/pathogenesis
   find content/pathogenesis -type f \( -not -name "*pathogenesis*" -and -not -name "*matter*" -and -not -name "*contribs*" -and -name "*.md" \) | xargs rm
-  ls content/pathogenesis
+
+  # Use the first line of the Markdown file as the manuscript title, overriding the title from metadata.yaml
+  INDIVIDUAL_TITLE=$(head --lines 1 content/pathogenesis/*.pathogenesis.md | sed 's/^#*\ //')
+  # Remove the section title from the start of the individual manuscript
+  tail -n +2 content/pathogenesis/07.pathogenesis.md > content/pathogenesis/07.pathogenesis.md.tmp && mv content/pathogenesis/07.pathogenesis.md.tmp content/pathogenesis/07.pathogenesis.md
 
   echo >&2 "Retrieving and processing reference metadata for the pathogenesis manuscript"
   manubot process \
@@ -168,22 +172,18 @@ if [ "${BUILD_INDIVIDUAL:-}" = "true" ]; then
     --output-directory=output/pathogenesis \
     --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/csse/csse-stats.json \
     --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/ebmdatalab/ebmdatalab-stats.json \
-    --template-variables-path=content/pathogenesis/pathogenesis-metadata.yaml \
     --cache-directory=ci/cache \
     --skip-citations \
     --log-level=INFO
-
-  ls -l output/pathogenesis
 
   pandoc --verbose \
     --data-dir="$PANDOC_DATA_DIR" \
     --defaults=common.yaml \
     --defaults=docx.yaml \
+    --metadata=title:"$INDIVIDUAL_TITLE" \
     output/pathogenesis/manuscript.md
-    mv output/pathogenesis/manuscript.docx output/pathogenesis-manuscript.docx
+    mv output/manuscript.docx output/pathogenesis-manuscript.docx
 
-  # Can override metadata in pandoc call, could read title from file
-#    --metadata=title:"pathogenesis Pathogenesis PATHOGENESIS!!!"
 fi
 
 echo >&2 "Build complete"
