@@ -31,6 +31,11 @@ authors:
     manuscripts:
       pathogenesis:
         order: 1
+        contributions:
+          - A
+          - B
+          - C
+          - D
       evolution:
         order: 1
       diagnostics:
@@ -60,6 +65,10 @@ authors:
     manuscripts:
       pathogenesis:
         order: 1
+        contributions:
+          - Z
+          - Y
+          - X
   -
     github: mprobson
     name: Michael P. Robson

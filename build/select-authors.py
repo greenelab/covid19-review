@@ -9,6 +9,7 @@ import sys
 import yaml
 from manubot.util import read_serialized_data
 
+MISSING_CONTRIBUTIONS = ["**MISSING**"]
 
 def parse_args():
     parser = argparse.ArgumentParser(
@@ -56,6 +57,14 @@ if __name__ == "__main__":
     # the default order is -1, which should move them to the front of the author list
     # Sort by name to break ties
     individual_authors.sort(key=lambda author: (author["manuscripts"][keyword].get("order", -1), author["name"]))
+
+    # Set contributions to the appropriate manuscript-specific contributions
+    for author in individual_authors:
+        # A list of the author's contributions for this manuscript
+        contributions = author["manuscripts"][keyword].get("contributions", MISSING_CONTRIBUTIONS)
+        if contributions == MISSING_CONTRIBUTIONS:
+            sys.stderr.write(f"Missing {keyword} contributions for {author['name']}\n")
+        author["contributions"] = sorted(contributions)
 
     sys.stderr.write(f"Found {len(individual_authors)} authors for {keyword} manuscript\n")
     metadata["authors"] = individual_authors
