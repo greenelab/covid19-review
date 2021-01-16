@@ -68,6 +68,10 @@ def update_merged(path):
 
         author["contributions"] = sorted(contributions)
 
+        # Check whether code of conduct has been approved
+        if "code of conduct" not in author or "confirmed" not in author["code of conduct"] or not author["code of conduct"]["confirmed"]:
+            sys.stderr.write(f"{author['name']} has not approved the code of conduct\n")
+
     sys.stderr.write(f"Updating contributions for {len(authors)} authors for merged manuscript\n")
     metadata["authors"] = authors
     dump_yaml(metadata, path)
@@ -76,9 +80,17 @@ def update_individual(path, keyword):
     """
     Select authors for an individual manuscript. Expects the manuscript keyword
     to be in a dictionary called manuscripts for each author of that manuscript.
+    Updates contributions to be the manuscript-specific contributions. Builds the
+    list of consortium members.
     """
     metadata = read_serialized_data(path)
     authors = metadata.get("authors", [])
+
+    # Consortium members are all authors who are not consortia
+    # Sort members by the last token of their name
+    consortium_members = [author["name"] for author in authors if "consortium" not in author or not author["consortium"]]
+    metadata["consortiummembers"] = sorted(consortium_members, key=lambda name: name.split()[-1])
+
     individual_authors = [author for author in authors if "manuscripts" in author and keyword in author["manuscripts"]]
     # Sort authors by their numeric order for this individual manuscript
     # If the author has the manuscript keyword, which indicates authorship, but not an order
@@ -95,6 +107,7 @@ def update_individual(path, keyword):
         author["contributions"] = sorted(contributions)
 
     sys.stderr.write(f"Found {len(individual_authors)} authors for {keyword} manuscript\n")
+
     metadata["authors"] = individual_authors
     dump_yaml(metadata, path)
 

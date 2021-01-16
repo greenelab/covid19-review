@@ -381,6 +381,7 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-04-07
+    consortium: Yes
   -
     github: hufengling
     name: Fengling Hu
@@ -862,3 +863,16 @@ authors:
     manuscripts:
       pathogenesis:
         order: 1
+  -
+    name: COVID-19 Review Consortium
+    code of conduct:
+      confirmed: Yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2021-01-16
+    consortium: Yes
+    manuscripts:
+      pathogenesis:
+        order: 2
+        contributions:
+          - Project Administration
