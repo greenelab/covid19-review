@@ -1288,6 +1288,7 @@ seroconverted
 serologic
 serological
 seronegative
+seropositivity
 seroprevalence
 serosurvey
 serosurveys
