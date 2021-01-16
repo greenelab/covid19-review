@@ -53,6 +53,7 @@ def update_merged(path):
     authors = metadata.get("authors", [])
     
     # Set contributions to the union of all manuscript-specific contributions
+    # Use general contributions if there are no manuscript-specific contributions
     for author in authors:
         contributions = set()
         if "manuscripts" in author:
@@ -60,6 +61,8 @@ def update_merged(path):
                 # A list of the author's contributions for each individual manuscript
                 individual_contributions = author["manuscripts"][manuscript].get("contributions", MISSING_CONTRIBUTIONS)
                 contributions.update(individual_contributions)
+        elif "contributions" in author:
+            contributions.update(author["contributions"])
         else:
             contributions.update(MISSING_CONTRIBUTIONS)
 
