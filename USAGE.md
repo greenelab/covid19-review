@@ -271,9 +271,9 @@ manuscripts: # mandatory dictionary of which individual mauscripts the author co
 Note that `affiliations` should be a list to allow for multiple affiliations per author.
 
 The metadata is processed by `build/update-author-metadata.py` before building the merged or individual manuscripts.
-For the merged manuscript, the contributions are the union of all contributions of all individual manuscripts.
+For the merged manuscript, the contributions are the union of all contributions of all individual manuscripts or the general contributions if the author is not an author of any individual manuscript.
 For an individual manuscript, only authors with the manuscript keyword are included in the author list.
-All authors are included in the consortium memberships, except those that are already a consortium name as indicated by `consortium: Yes`.
+All authors are included in the consortium, except those that are already a consortium name as indicated by `consortium: Yes`.
 
 ### Thumbnail
 
