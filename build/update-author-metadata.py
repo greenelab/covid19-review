@@ -42,15 +42,25 @@ def dump_yaml(obj, path):
         )
         write_file.write("\n")
 
+def generate_consortium_members(authors):
+    """
+    Generate the list of consortium members from the authors
+    """
+    # Consortium members are all authors who are not consortia
+    # Sort members by the last token of their name
+    consortium_members = [author["name"] for author in authors if "consortium" not in author or not author["consortium"]]
+    return sorted(consortium_members, key=lambda name: name.split()[-1])
+
 def update_merged(path):
     """
     Update author contributions for the merged manuscript by taking the union
     of all contributions on individual manuscripts. Overwrites existing
     contributions for the author that are not associated with an individual
-    manuscript.
+    manuscript.  Builds the list of consortium members.
     """
     metadata = read_serialized_data(path)
     authors = metadata.get("authors", [])
+    metadata["consortiummembers"] = generate_consortium_members(authors)
     
     # Set contributions to the union of all manuscript-specific contributions
     # Use general contributions if there are no manuscript-specific contributions
@@ -88,11 +98,7 @@ def update_individual(path, keyword):
     """
     metadata = read_serialized_data(path)
     authors = metadata.get("authors", [])
-
-    # Consortium members are all authors who are not consortia
-    # Sort members by the last token of their name
-    consortium_members = [author["name"] for author in authors if "consortium" not in author or not author["consortium"]]
-    metadata["consortiummembers"] = sorted(consortium_members, key=lambda name: name.split()[-1])
+    metadata["consortiummembers"] = generate_consortium_members(authors)
 
     individual_authors = [author for author in authors if "manuscripts" in author and keyword in author["manuscripts"]]
     # Sort authors by their numeric order for this individual manuscript
