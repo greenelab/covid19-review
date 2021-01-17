@@ -70,6 +70,11 @@ fi
 
 # If Docker is available, use athenapdf to create PDF
 if [ "${BUILD_PDF:-}" != "false" ] && [ -n "$DOCKER_RUNNING" ]; then
+  if [ ! -f manuscript.html ]; then
+    echo >&2 "Missing file manuscript.html. Set BUILD_HTML environment variable to true."
+    exit 1
+  fi
+
   echo >&2 "Exporting PDF manuscript using Docker + Athena"
   if [ "${CI:-}" = "true" ]; then
     # Incease --delay for CI builds to ensure the webpage fully renders, even when the CI server is under high load.
