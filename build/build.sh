@@ -70,8 +70,8 @@ fi
 
 # If Docker is available, use athenapdf to create PDF
 if [ "${BUILD_PDF:-}" != "false" ] && [ -n "$DOCKER_RUNNING" ]; then
-  if [ ! -f manuscript.html ]; then
-    echo >&2 "Missing file manuscript.html. Set BUILD_HTML environment variable to true."
+  if [ ! -f output/manuscript.html ]; then
+    echo >&2 "Missing file output/manuscript.html. Set BUILD_HTML environment variable to true."
     exit 1
   fi
 
