@@ -44,11 +44,12 @@ author-meta:
 - Gregory L Szeto
 - Tiago Lubiana
 - David Mai
+- COVID-19 Review Consortium
 bibliography:
 - content/manual-references.bib
 - content/manual-references.json
-date-meta: '2021-01-15'
-header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta name=\"citation_title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta property=\"og:title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta property=\"twitter:title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta name=\"dc.date\" content=\"2021-01-15\" />\n<meta name=\"citation_publication_date\" content=\"2021-01-15\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Halie M. Rando\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, Aurora, Colorado, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7688-1770\" />\n<meta name=\"twitter:creator\" content=\"@tamefoxtime\" />\n<meta name=\"citation_author\" content=\"Casey S. Greene\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Childhood Cancer Data Lab, Alex&#39;s Lemonade Stand Foundation, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, Aurora, Colorado, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Center for Health AI, University of Colorado School of Medicine, Aurora, Colorado, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8713-9213\" />\n<meta name=\"twitter:creator\" content=\"@GreeneScientist\" />\n<meta name=\"citation_author\" content=\"Michael P. Robson\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computing Sciences, Villanova University, Villanova, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-4859-0033\" />\n<meta name=\"citation_author\" content=\"Simina M. Boca\" />\n<meta name=\"citation_author_institution\" content=\"Innovation Center for Biomedical Informatics, Georgetown University Medical Center, Washington, District of Columbia, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1400-3398\" />\n<meta name=\"citation_author\" content=\"Nils Wellhausen\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8955-7582\" />\n<meta name=\"citation_author\" content=\"Ronan Lordan\" />\n<meta name=\"citation_author_institution\" content=\"Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104-5158, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-9668-3368\" />\n<meta name=\"twitter:creator\" content=\"@el_ronan\" />\n<meta name=\"citation_author\" content=\"Christian Brueffer\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical Sciences, Lund University, Lund, Sweden\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3826-0989\" />\n<meta name=\"twitter:creator\" content=\"@cbrueffer\" />\n<meta name=\"citation_author\" content=\"Sandipan Ray\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biotechnology, Indian Institute of Technology Hyderabad, Kandi, Sangareddy 502285, Telangana, India\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9960-5768\" />\n<meta name=\"citation_author\" content=\"Lucy D\\&#39;Agostino McGowan\" />\n<meta name=\"citation_author_institution\" content=\"Department of Mathematics and Statistics, Wake Forest University, Winston-Salem, North Carolina, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7297-9359\" />\n<meta name=\"twitter:creator\" content=\"@LucyStats\" />\n<meta name=\"citation_author\" content=\"Anthony Gitter\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Morgridge Institute for Research, Madison, Wisconsin, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5324-9833\" />\n<meta name=\"twitter:creator\" content=\"@anthonygitter\" />\n<meta name=\"citation_author\" content=\"Anna Ada Dattoli\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology &amp; Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1462-831X\" />\n<meta name=\"twitter:creator\" content=\"@aadattoli\" />\n<meta name=\"citation_author\" content=\"Ryan Velazquez\" />\n<meta name=\"citation_author_institution\" content=\"Azimuth1, McLean, VA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3655-3403\" />\n<meta name=\"citation_author\" content=\"John P. Barton\" />\n<meta name=\"citation_author_institution\" content=\"Department of Physics and Astronomy, University of California-Riverside, Riverside, California, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1467-421X\" />\n<meta name=\"twitter:creator\" content=\"@_jpbarton\" />\n<meta name=\"citation_author\" content=\"Jeffrey M. Field\" />\n<meta name=\"citation_author_institution\" content=\"Department of Pharmacology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7161-7284\" />\n<meta name=\"citation_author\" content=\"Bharath Ramsundar\" />\n<meta name=\"citation_author_institution\" content=\"The DeepChem Project, https://deepchem.io/\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8450-4262\" />\n<meta name=\"twitter:creator\" content=\"@rbhar90\" />\n<meta name=\"citation_author\" content=\"Adam L. MacLean\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biological Sciences, University of Southern California, Los Angeles, California, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0689-7907\" />\n<meta name=\"twitter:creator\" content=\"@adamlmaclean\" />\n<meta name=\"citation_author\" content=\"Alexandra J. Lee\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0208-3730\" />\n<meta name=\"citation_author\" content=\"Immunology Institute of the Icahn School of Medicine\" />\n<meta name=\"citation_author_institution\" content=\"Immunology Institute of the Icahn School of Medicine\" />\n<meta name=\"citation_author\" content=\"Fengling Hu\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1081-5038\" />\n<meta name=\"twitter:creator\" content=\"@hufengling\" />\n<meta name=\"citation_author\" content=\"Nafisa M. Jadavji\" />\n<meta name=\"citation_author_institution\" content=\"Biomedical Science, Midwestern University, Glendale, AZ, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Department of Neuroscience, Carleton University, Ottawa, Ontario, Canada\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3557-7307\" />\n<meta name=\"twitter:creator\" content=\"@nafisajadavji\" />\n<meta name=\"citation_author\" content=\"Elizabeth Sell\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9658-1107\" />\n<meta name=\"citation_author\" content=\"Jinhui Wang\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5796-8130\" />\n<meta name=\"citation_author\" content=\"Diane N. Rafizadeh\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Department of Chemistry, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2838-067X\" />\n<meta name=\"citation_author\" content=\"Ashwin N. Skelly\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Institute for Immunology, University of Pennsylvania Perelman School of Medicine, Philadelphia, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1565-3376\" />\n<meta name=\"citation_author\" content=\"Marouen Ben Guebila\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics, Harvard School of Public Health, Boston, Massachusetts, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-5934-966X\" />\n<meta name=\"twitter:creator\" content=\"@marouenbg\" />\n<meta name=\"citation_author\" content=\"Likhitha Kolla\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1169-906X\" />\n<meta name=\"twitter:creator\" content=\"@lkolla2018\" />\n<meta name=\"citation_author\" content=\"David Manheim\" />\n<meta name=\"citation_author_institution\" content=\"1DaySooner, Delaware, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Risk and Health Communication Research Center, School of Public Health, University of Haifa, Haifa, Israel\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8599-8380\" />\n<meta name=\"twitter:creator\" content=\"@davidmanheim\" />\n<meta name=\"citation_author\" content=\"Soumita Ghosh\" />\n<meta name=\"citation_author_institution\" content=\"Institute of Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2783-2750\" />\n<meta name=\"citation_author\" content=\"James Brian Byrd\" />\n<meta name=\"citation_author_institution\" content=\"University of Michigan School of Medicine, Ann Arbor, Michigan, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0509-3520\" />\n<meta name=\"twitter:creator\" content=\"@thebyrdlab\" />\n<meta name=\"citation_author\" content=\"YoSon Park\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0465-4744\" />\n<meta name=\"twitter:creator\" content=\"@__yoson__\" />\n<meta name=\"citation_author\" content=\"Vikas Bansal\" />\n<meta name=\"citation_author_institution\" content=\"Biomedical Data Science and Machine Learning Group, DZNE, T\xFCbingen, Germany\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0944-7226\" />\n<meta name=\"twitter:creator\" content=\"@VikasBansal1989\" />\n<meta name=\"citation_author\" content=\"Stephen Capone\" />\n<meta name=\"citation_author_institution\" content=\"St. George&#39;s University School of Medicine, St. George&#39;s, Grenada\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7231-1535\" />\n<meta name=\"citation_author\" content=\"John J. Dziak\" />\n<meta name=\"citation_author_institution\" content=\"Edna Bennett Pierce Prevention Research Center, The Pennsylvania State University, University Park, PA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0762-5495\" />\n<meta name=\"citation_author\" content=\"Yuchen Sun\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computer Science, University of Virginia, Charlottesville, VA, United States of America\" />\n<meta name=\"citation_author\" content=\"Yanjun Qi\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computer Science, University of Virginia, Charlottesville, VA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5796-7453\" />\n<meta name=\"citation_author\" content=\"Lamonica Shinholster\" />\n<meta name=\"citation_author_institution\" content=\"Mercer University, Macon, GA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-6285-005X\" />\n<meta name=\"citation_author\" content=\"Temitayo Lukan\" />\n<meta name=\"citation_author_institution\" content=\"University of Pennsylvania, Philadelphia, PA, United States of America\" />\n<meta name=\"citation_author\" content=\"Sergey Knyazev\" />\n<meta name=\"citation_author_institution\" content=\"Georgia State University, GA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0385-1831\" />\n<meta name=\"twitter:creator\" content=\"@SeKnyaz\" />\n<meta name=\"citation_author\" content=\"Dimitri Perrin\" />\n<meta name=\"citation_author_institution\" content=\"School of Computer Science, Queensland University of Technology, Brisbane, Australia\" />\n<meta name=\"citation_author_institution\" content=\"Centre for Data Science, Queensland University of Technology, Brisbane, Australia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-4007-5256\" />\n<meta name=\"twitter:creator\" content=\"@dperrin\" />\n<meta name=\"citation_author\" content=\"Serghei Mangul\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical Pharmacy, School of Pharmacy, University of Southern California, CA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-4770-3443\" />\n<meta name=\"twitter:creator\" content=\"@serghei_mangul\" />\n<meta name=\"citation_author\" content=\"Shikta Das\" />\n<meta name=\"citation_author_institution\" content=\"C4X Discovery, London, United Kingdom\" />\n<meta name=\"citation_author_institution\" content=\"Medical Research Council LHA, Institute of Cardiovascular Studies, University College London, London, United Kingdom\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-8291-2788\" />\n<meta name=\"twitter:creator\" content=\"@shikta_das\" />\n<meta name=\"citation_author\" content=\"Gregory L Szeto\" />\n<meta name=\"citation_author_institution\" content=\"Allen Institute for Immunology, Seattle, WA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7604-1333\" />\n<meta name=\"twitter:creator\" content=\"@greg_szeto\" />\n<meta name=\"citation_author\" content=\"Tiago Lubiana\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical and Toxicological Analyses, School of Pharmaceutical Sciences, University of S\xE3o Paulo, S\xE3o Paulo, Brazil\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2473-2313\" />\n<meta name=\"twitter:creator\" content=\"@lubianat\" />\n<meta name=\"citation_author\" content=\"David Mai\" />\n<meta name=\"citation_author_institution\" content=\"Department of Bioengineering, University of Pennsylvania, Philadelphia, PA, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9238-0164\" />\n<meta name=\"twitter:creator\" content=\"@daveomai\" />\n<link rel=\"canonical\" href=\"https://greenelab.github.io/covid19-review/\" />\n<meta property=\"og:url\" content=\"https://greenelab.github.io/covid19-review/\" />\n<meta property=\"twitter:url\" content=\"https://greenelab.github.io/covid19-review/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://greenelab.github.io/covid19-review/\" />\n<meta name=\"citation_pdf_url\" content=\"https://greenelab.github.io/covid19-review/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://greenelab.github.io/covid19-review/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://greenelab.github.io/covid19-review/v/95788ba9325fd8c7b1642d6e6c2dc0b953b36874/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://greenelab.github.io/covid19-review/v/95788ba9325fd8c7b1642d6e6c2dc0b953b36874/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://greenelab.github.io/covid19-review/v/95788ba9325fd8c7b1642d6e6c2dc0b953b36874/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<meta property=\"og:image\" content=\"https://github.com/greenelab/covid19-review/raw/95788ba9325fd8c7b1642d6e6c2dc0b953b36874/content/images/thumbnail.png\" />\n<meta property=\"twitter:image\" content=\"https://github.com/greenelab/covid19-review/raw/95788ba9325fd8c7b1642d6e6c2dc0b953b36874/content/images/thumbnail.png\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
+date-meta: '2021-01-19'
+header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta name=\"citation_title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta property=\"og:title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta property=\"twitter:title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta name=\"dc.date\" content=\"2021-01-19\" />\n<meta name=\"citation_publication_date\" content=\"2021-01-19\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Halie M. Rando\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, Aurora, Colorado, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7688-1770\" />\n<meta name=\"twitter:creator\" content=\"@tamefoxtime\" />\n<meta name=\"citation_author\" content=\"Casey S. Greene\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Childhood Cancer Data Lab, Alex&#39;s Lemonade Stand Foundation, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, Aurora, Colorado, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Center for Health AI, University of Colorado School of Medicine, Aurora, Colorado, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8713-9213\" />\n<meta name=\"twitter:creator\" content=\"@GreeneScientist\" />\n<meta name=\"citation_author\" content=\"Michael P. Robson\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computing Sciences, Villanova University, Villanova, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-4859-0033\" />\n<meta name=\"citation_author\" content=\"Simina M. Boca\" />\n<meta name=\"citation_author_institution\" content=\"Innovation Center for Biomedical Informatics, Georgetown University Medical Center, Washington, District of Columbia, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1400-3398\" />\n<meta name=\"citation_author\" content=\"Nils Wellhausen\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8955-7582\" />\n<meta name=\"citation_author\" content=\"Ronan Lordan\" />\n<meta name=\"citation_author_institution\" content=\"Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104-5158, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-9668-3368\" />\n<meta name=\"twitter:creator\" content=\"@el_ronan\" />\n<meta name=\"citation_author\" content=\"Christian Brueffer\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical Sciences, Lund University, Lund, Sweden\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3826-0989\" />\n<meta name=\"twitter:creator\" content=\"@cbrueffer\" />\n<meta name=\"citation_author\" content=\"Sandipan Ray\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biotechnology, Indian Institute of Technology Hyderabad, Kandi, Sangareddy 502285, Telangana, India\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9960-5768\" />\n<meta name=\"citation_author\" content=\"Lucy D\\&#39;Agostino McGowan\" />\n<meta name=\"citation_author_institution\" content=\"Department of Mathematics and Statistics, Wake Forest University, Winston-Salem, North Carolina, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7297-9359\" />\n<meta name=\"twitter:creator\" content=\"@LucyStats\" />\n<meta name=\"citation_author\" content=\"Anthony Gitter\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Morgridge Institute for Research, Madison, Wisconsin, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5324-9833\" />\n<meta name=\"twitter:creator\" content=\"@anthonygitter\" />\n<meta name=\"citation_author\" content=\"Anna Ada Dattoli\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology &amp; Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1462-831X\" />\n<meta name=\"twitter:creator\" content=\"@aadattoli\" />\n<meta name=\"citation_author\" content=\"Ryan Velazquez\" />\n<meta name=\"citation_author_institution\" content=\"Azimuth1, McLean, VA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3655-3403\" />\n<meta name=\"citation_author\" content=\"John P. Barton\" />\n<meta name=\"citation_author_institution\" content=\"Department of Physics and Astronomy, University of California-Riverside, Riverside, California, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1467-421X\" />\n<meta name=\"twitter:creator\" content=\"@_jpbarton\" />\n<meta name=\"citation_author\" content=\"Jeffrey M. Field\" />\n<meta name=\"citation_author_institution\" content=\"Department of Pharmacology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7161-7284\" />\n<meta name=\"citation_author\" content=\"Bharath Ramsundar\" />\n<meta name=\"citation_author_institution\" content=\"The DeepChem Project, https://deepchem.io/\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8450-4262\" />\n<meta name=\"twitter:creator\" content=\"@rbhar90\" />\n<meta name=\"citation_author\" content=\"Adam L. MacLean\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biological Sciences, University of Southern California, Los Angeles, California, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0689-7907\" />\n<meta name=\"twitter:creator\" content=\"@adamlmaclean\" />\n<meta name=\"citation_author\" content=\"Alexandra J. Lee\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0208-3730\" />\n<meta name=\"citation_author\" content=\"Immunology Institute of the Icahn School of Medicine\" />\n<meta name=\"citation_author_institution\" content=\"Immunology Institute of the Icahn School of Medicine\" />\n<meta name=\"citation_author\" content=\"Fengling Hu\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1081-5038\" />\n<meta name=\"twitter:creator\" content=\"@hufengling\" />\n<meta name=\"citation_author\" content=\"Nafisa M. Jadavji\" />\n<meta name=\"citation_author_institution\" content=\"Biomedical Science, Midwestern University, Glendale, AZ, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Department of Neuroscience, Carleton University, Ottawa, Ontario, Canada\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3557-7307\" />\n<meta name=\"twitter:creator\" content=\"@nafisajadavji\" />\n<meta name=\"citation_author\" content=\"Elizabeth Sell\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9658-1107\" />\n<meta name=\"citation_author\" content=\"Jinhui Wang\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5796-8130\" />\n<meta name=\"citation_author\" content=\"Diane N. Rafizadeh\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Department of Chemistry, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2838-067X\" />\n<meta name=\"citation_author\" content=\"Ashwin N. Skelly\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Institute for Immunology, University of Pennsylvania Perelman School of Medicine, Philadelphia, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1565-3376\" />\n<meta name=\"citation_author\" content=\"Marouen Ben Guebila\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics, Harvard School of Public Health, Boston, Massachusetts, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-5934-966X\" />\n<meta name=\"twitter:creator\" content=\"@marouenbg\" />\n<meta name=\"citation_author\" content=\"Likhitha Kolla\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1169-906X\" />\n<meta name=\"twitter:creator\" content=\"@lkolla2018\" />\n<meta name=\"citation_author\" content=\"David Manheim\" />\n<meta name=\"citation_author_institution\" content=\"1DaySooner, Delaware, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Risk and Health Communication Research Center, School of Public Health, University of Haifa, Haifa, Israel\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8599-8380\" />\n<meta name=\"twitter:creator\" content=\"@davidmanheim\" />\n<meta name=\"citation_author\" content=\"Soumita Ghosh\" />\n<meta name=\"citation_author_institution\" content=\"Institute of Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2783-2750\" />\n<meta name=\"citation_author\" content=\"James Brian Byrd\" />\n<meta name=\"citation_author_institution\" content=\"University of Michigan School of Medicine, Ann Arbor, Michigan, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0509-3520\" />\n<meta name=\"twitter:creator\" content=\"@thebyrdlab\" />\n<meta name=\"citation_author\" content=\"YoSon Park\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0465-4744\" />\n<meta name=\"twitter:creator\" content=\"@__yoson__\" />\n<meta name=\"citation_author\" content=\"Vikas Bansal\" />\n<meta name=\"citation_author_institution\" content=\"Biomedical Data Science and Machine Learning Group, DZNE, T\xFCbingen, Germany\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0944-7226\" />\n<meta name=\"twitter:creator\" content=\"@VikasBansal1989\" />\n<meta name=\"citation_author\" content=\"Stephen Capone\" />\n<meta name=\"citation_author_institution\" content=\"St. George&#39;s University School of Medicine, St. George&#39;s, Grenada\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7231-1535\" />\n<meta name=\"citation_author\" content=\"John J. Dziak\" />\n<meta name=\"citation_author_institution\" content=\"Edna Bennett Pierce Prevention Research Center, The Pennsylvania State University, University Park, PA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0762-5495\" />\n<meta name=\"citation_author\" content=\"Yuchen Sun\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computer Science, University of Virginia, Charlottesville, VA, United States of America\" />\n<meta name=\"citation_author\" content=\"Yanjun Qi\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computer Science, University of Virginia, Charlottesville, VA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5796-7453\" />\n<meta name=\"citation_author\" content=\"Lamonica Shinholster\" />\n<meta name=\"citation_author_institution\" content=\"Mercer University, Macon, GA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-6285-005X\" />\n<meta name=\"citation_author\" content=\"Temitayo Lukan\" />\n<meta name=\"citation_author_institution\" content=\"University of Pennsylvania, Philadelphia, PA, United States of America\" />\n<meta name=\"citation_author\" content=\"Sergey Knyazev\" />\n<meta name=\"citation_author_institution\" content=\"Georgia State University, GA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0385-1831\" />\n<meta name=\"twitter:creator\" content=\"@SeKnyaz\" />\n<meta name=\"citation_author\" content=\"Dimitri Perrin\" />\n<meta name=\"citation_author_institution\" content=\"School of Computer Science, Queensland University of Technology, Brisbane, Australia\" />\n<meta name=\"citation_author_institution\" content=\"Centre for Data Science, Queensland University of Technology, Brisbane, Australia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-4007-5256\" />\n<meta name=\"twitter:creator\" content=\"@dperrin\" />\n<meta name=\"citation_author\" content=\"Serghei Mangul\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical Pharmacy, School of Pharmacy, University of Southern California, CA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-4770-3443\" />\n<meta name=\"twitter:creator\" content=\"@serghei_mangul\" />\n<meta name=\"citation_author\" content=\"Shikta Das\" />\n<meta name=\"citation_author_institution\" content=\"C4X Discovery, London, United Kingdom\" />\n<meta name=\"citation_author_institution\" content=\"Medical Research Council LHA, Institute of Cardiovascular Studies, University College London, London, United Kingdom\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-8291-2788\" />\n<meta name=\"twitter:creator\" content=\"@shikta_das\" />\n<meta name=\"citation_author\" content=\"Gregory L Szeto\" />\n<meta name=\"citation_author_institution\" content=\"Allen Institute for Immunology, Seattle, WA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7604-1333\" />\n<meta name=\"twitter:creator\" content=\"@greg_szeto\" />\n<meta name=\"citation_author\" content=\"Tiago Lubiana\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical and Toxicological Analyses, School of Pharmaceutical Sciences, University of S\xE3o Paulo, S\xE3o Paulo, Brazil\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2473-2313\" />\n<meta name=\"twitter:creator\" content=\"@lubianat\" />\n<meta name=\"citation_author\" content=\"David Mai\" />\n<meta name=\"citation_author_institution\" content=\"Department of Bioengineering, University of Pennsylvania, Philadelphia, PA, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9238-0164\" />\n<meta name=\"twitter:creator\" content=\"@daveomai\" />\n<meta name=\"citation_author\" content=\"COVID-19 Review Consortium\" />\n<link rel=\"canonical\" href=\"https://greenelab.github.io/covid19-review/\" />\n<meta property=\"og:url\" content=\"https://greenelab.github.io/covid19-review/\" />\n<meta property=\"twitter:url\" content=\"https://greenelab.github.io/covid19-review/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://greenelab.github.io/covid19-review/\" />\n<meta name=\"citation_pdf_url\" content=\"https://greenelab.github.io/covid19-review/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://greenelab.github.io/covid19-review/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://greenelab.github.io/covid19-review/v/40cd0ec2f200ac148680dd053433cd52fdd84478/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://greenelab.github.io/covid19-review/v/40cd0ec2f200ac148680dd053433cd52fdd84478/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://greenelab.github.io/covid19-review/v/40cd0ec2f200ac148680dd053433cd52fdd84478/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<meta property=\"og:image\" content=\"https://github.com/greenelab/covid19-review/raw/40cd0ec2f200ac148680dd053433cd52fdd84478/content/images/thumbnail.png\" />\n<meta property=\"twitter:image\" content=\"https://github.com/greenelab/covid19-review/raw/40cd0ec2f200ac148680dd053433cd52fdd84478/content/images/thumbnail.png\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
 keywords:
 - covid-19
 - coronavirus
@@ -69,10 +70,10 @@ title: 'SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeut
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/95788ba9325fd8c7b1642d6e6c2dc0b953b36874/))
+([permalink](https://greenelab.github.io/covid19-review/v/40cd0ec2f200ac148680dd053433cd52fdd84478/))
 was automatically generated
-from [greenelab/covid19-review@95788ba](https://github.com/greenelab/covid19-review/tree/95788ba9325fd8c7b1642d6e6c2dc0b953b36874)
-on January 15, 2021.
+from [greenelab/covid19-review@40cd0ec](https://github.com/greenelab/covid19-review/tree/40cd0ec2f200ac148680dd053433cd52fdd84478)
+on January 19, 2021.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -88,457 +89,355 @@ Instead, you should collect information from your local health department, the [
 
 
 
-+ **Halie M. Rando**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0001-7688-1770](https://orcid.org/0000-0001-7688-1770)
-    · ![GitHub icon](images/github.svg){.inline_icon}
-    [rando2](https://github.com/rando2)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **Halie M. Rando**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0001-7688-1770](https://orcid.org/0000-0001-7688-1770) · ![GitHub icon](images/github.svg){.inline_icon}
+    [rando2](https://github.com/rando2) · ![Twitter icon](images/twitter.svg){.inline_icon}
     [tamefoxtime](https://twitter.com/tamefoxtime)<br>
   <small>
      Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America; Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, Aurora, Colorado, United States of America
      · Funded by the Gordon and Betty Moore Foundation (GBMF 4552)
   </small>
 
-+ **Casey S. Greene**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0001-8713-9213](https://orcid.org/0000-0001-8713-9213)
-    · ![GitHub icon](images/github.svg){.inline_icon}
-    [cgreene](https://github.com/cgreene)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **Casey S. Greene**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0001-8713-9213](https://orcid.org/0000-0001-8713-9213) · ![GitHub icon](images/github.svg){.inline_icon}
+    [cgreene](https://github.com/cgreene) · ![Twitter icon](images/twitter.svg){.inline_icon}
     [GreeneScientist](https://twitter.com/GreeneScientist)<br>
   <small>
      Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America; Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Philadelphia, Pennsylvania, United States of America; Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, Aurora, Colorado, United States of America; Center for Health AI, University of Colorado School of Medicine, Aurora, Colorado, United States of America
      · Funded by the Gordon and Betty Moore Foundation (GBMF 4552); the National Human Genome Research Institute (R01 HG010067)
   </small>
 
-+ **Michael P. Robson**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-4859-0033](https://orcid.org/0000-0002-4859-0033)
-    · ![GitHub icon](images/github.svg){.inline_icon}
++ **Michael P. Robson**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-4859-0033](https://orcid.org/0000-0002-4859-0033) · ![GitHub icon](images/github.svg){.inline_icon}
     [mprobson](https://github.com/mprobson)<br>
   <small>
      Department of Computing Sciences, Villanova University, Villanova, Pennsylvania, United States of America
   </small>
 
-+ **Simina M. Boca**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-1400-3398](https://orcid.org/0000-0002-1400-3398)
-    · ![GitHub icon](images/github.svg){.inline_icon}
++ **Simina M. Boca**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-1400-3398](https://orcid.org/0000-0002-1400-3398) · ![GitHub icon](images/github.svg){.inline_icon}
     [SiminaB](https://github.com/SiminaB)<br>
   <small>
      Innovation Center for Biomedical Informatics, Georgetown University Medical Center, Washington, District of Columbia, United States of America
   </small>
 
-+ **Nils Wellhausen**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0001-8955-7582](https://orcid.org/0000-0001-8955-7582)
-    · ![GitHub icon](images/github.svg){.inline_icon}
++ **Nils Wellhausen**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0001-8955-7582](https://orcid.org/0000-0001-8955-7582) · ![GitHub icon](images/github.svg){.inline_icon}
     [nilswellhausen](https://github.com/nilswellhausen)<br>
   <small>
      Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
   </small>
 
-+ **Ronan Lordan**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0001-9668-3368](https://orcid.org/0000-0001-9668-3368)
-    · ![GitHub icon](images/github.svg){.inline_icon}
-    [RLordan](https://github.com/RLordan)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **Ronan Lordan**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0001-9668-3368](https://orcid.org/0000-0001-9668-3368) · ![GitHub icon](images/github.svg){.inline_icon}
+    [RLordan](https://github.com/RLordan) · ![Twitter icon](images/twitter.svg){.inline_icon}
     [el_ronan](https://twitter.com/el_ronan)<br>
   <small>
      Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104-5158, USA
   </small>
 
-+ **Christian Brueffer**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-3826-0989](https://orcid.org/0000-0002-3826-0989)
-    · ![GitHub icon](images/github.svg){.inline_icon}
-    [cbrueffer](https://github.com/cbrueffer)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **Christian Brueffer**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-3826-0989](https://orcid.org/0000-0002-3826-0989) · ![GitHub icon](images/github.svg){.inline_icon}
+    [cbrueffer](https://github.com/cbrueffer) · ![Twitter icon](images/twitter.svg){.inline_icon}
     [cbrueffer](https://twitter.com/cbrueffer)<br>
   <small>
      Department of Clinical Sciences, Lund University, Lund, Sweden
   </small>
 
-+ **Sandipan Ray**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-9960-5768](https://orcid.org/0000-0002-9960-5768)
-    · ![GitHub icon](images/github.svg){.inline_icon}
++ **Sandipan Ray**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-9960-5768](https://orcid.org/0000-0002-9960-5768) · ![GitHub icon](images/github.svg){.inline_icon}
     [rays1987](https://github.com/rays1987)<br>
   <small>
      Department of Biotechnology, Indian Institute of Technology Hyderabad, Kandi, Sangareddy 502285, Telangana, India
   </small>
 
-+ **Lucy D\'Agostino McGowan**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0001-7297-9359](https://orcid.org/0000-0001-7297-9359)
-    · ![GitHub icon](images/github.svg){.inline_icon}
-    [LucyMcGowan](https://github.com/LucyMcGowan)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **Lucy D\'Agostino McGowan**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0001-7297-9359](https://orcid.org/0000-0001-7297-9359) · ![GitHub icon](images/github.svg){.inline_icon}
+    [LucyMcGowan](https://github.com/LucyMcGowan) · ![Twitter icon](images/twitter.svg){.inline_icon}
     [LucyStats](https://twitter.com/LucyStats)<br>
   <small>
      Department of Mathematics and Statistics, Wake Forest University, Winston-Salem, North Carolina, United States of America
   </small>
 
-+ **Anthony Gitter**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-5324-9833](https://orcid.org/0000-0002-5324-9833)
-    · ![GitHub icon](images/github.svg){.inline_icon}
-    [agitter](https://github.com/agitter)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **Anthony Gitter**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-5324-9833](https://orcid.org/0000-0002-5324-9833) · ![GitHub icon](images/github.svg){.inline_icon}
+    [agitter](https://github.com/agitter) · ![Twitter icon](images/twitter.svg){.inline_icon}
     [anthonygitter](https://twitter.com/anthonygitter)<br>
   <small>
      Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, United States of America; Morgridge Institute for Research, Madison, Wisconsin, United States of America
      · Funded by John W. and Jeanne M. Rowe Center for Research in Virology
   </small>
 
-+ **Anna Ada Dattoli**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0003-1462-831X](https://orcid.org/0000-0003-1462-831X)
-    · ![GitHub icon](images/github.svg){.inline_icon}
-    [aadattoli](https://github.com/aadattoli)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **Anna Ada Dattoli**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0003-1462-831X](https://orcid.org/0000-0003-1462-831X) · ![GitHub icon](images/github.svg){.inline_icon}
+    [aadattoli](https://github.com/aadattoli) · ![Twitter icon](images/twitter.svg){.inline_icon}
     [aadattoli](https://twitter.com/aadattoli)<br>
   <small>
      Department of Systems Pharmacology & Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
   </small>
 
-+ **Ryan Velazquez**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-3655-3403](https://orcid.org/0000-0002-3655-3403)
-    · ![GitHub icon](images/github.svg){.inline_icon}
++ **Ryan Velazquez**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-3655-3403](https://orcid.org/0000-0002-3655-3403) · ![GitHub icon](images/github.svg){.inline_icon}
     [rdvelazquez](https://github.com/rdvelazquez)<br>
   <small>
      Azimuth1, McLean, VA
   </small>
 
-+ **John P. Barton**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0003-1467-421X](https://orcid.org/0000-0003-1467-421X)
-    · ![GitHub icon](images/github.svg){.inline_icon}
-    [johnbarton](https://github.com/johnbarton)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **John P. Barton**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0003-1467-421X](https://orcid.org/0000-0003-1467-421X) · ![GitHub icon](images/github.svg){.inline_icon}
+    [johnbarton](https://github.com/johnbarton) · ![Twitter icon](images/twitter.svg){.inline_icon}
     [_jpbarton](https://twitter.com/_jpbarton)<br>
   <small>
      Department of Physics and Astronomy, University of California-Riverside, Riverside, California, United States of America
   </small>
 
-+ **Jeffrey M. Field**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0001-7161-7284](https://orcid.org/0000-0001-7161-7284)
-    · ![GitHub icon](images/github.svg){.inline_icon}
++ **Jeffrey M. Field**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0001-7161-7284](https://orcid.org/0000-0001-7161-7284) · ![GitHub icon](images/github.svg){.inline_icon}
     [Jeff-Field](https://github.com/Jeff-Field)<br>
   <small>
      Department of Pharmacology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
   </small>
 
-+ **Bharath Ramsundar**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0001-8450-4262](https://orcid.org/0000-0001-8450-4262)
-    · ![GitHub icon](images/github.svg){.inline_icon}
-    [rbharath](https://github.com/rbharath)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **Bharath Ramsundar**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0001-8450-4262](https://orcid.org/0000-0001-8450-4262) · ![GitHub icon](images/github.svg){.inline_icon}
+    [rbharath](https://github.com/rbharath) · ![Twitter icon](images/twitter.svg){.inline_icon}
     [rbhar90](https://twitter.com/rbhar90)<br>
   <small>
      The DeepChem Project, https://deepchem.io/
   </small>
 
-+ **Adam L. MacLean**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0003-0689-7907](https://orcid.org/0000-0003-0689-7907)
-    · ![GitHub icon](images/github.svg){.inline_icon}
-    [alavendelm](https://github.com/alavendelm)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **Adam L. MacLean**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0003-0689-7907](https://orcid.org/0000-0003-0689-7907) · ![GitHub icon](images/github.svg){.inline_icon}
+    [alavendelm](https://github.com/alavendelm) · ![Twitter icon](images/twitter.svg){.inline_icon}
     [adamlmaclean](https://twitter.com/adamlmaclean)<br>
   <small>
      Department of Biological Sciences, University of Southern California, Los Angeles, California, United States of America
   </small>
 
-+ **Alexandra J. Lee**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-0208-3730](https://orcid.org/0000-0002-0208-3730)
-    · ![GitHub icon](images/github.svg){.inline_icon}
++ **Alexandra J. Lee**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-0208-3730](https://orcid.org/0000-0002-0208-3730) · ![GitHub icon](images/github.svg){.inline_icon}
     [ajlee21](https://github.com/ajlee21)<br>
   <small>
      Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
      · Funded by the Gordon and Betty Moore Foundation (GBMF 4552)
   </small>
 
-+ **Immunology Institute of the Icahn School of Medicine**<br>
-    · ![GitHub icon](images/github.svg){.inline_icon}
++ **Immunology Institute of the Icahn School of Medicine**<br> · ![GitHub icon](images/github.svg){.inline_icon}
     [ismms-himc](https://github.com/ismms-himc)<br>
   <small>
      Immunology Institute of the Icahn School of Medicine
   </small>
 
-+ **Fengling Hu**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0003-1081-5038](https://orcid.org/0000-0003-1081-5038)
-    · ![GitHub icon](images/github.svg){.inline_icon}
-    [hufengling](https://github.com/hufengling)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **Fengling Hu**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0003-1081-5038](https://orcid.org/0000-0003-1081-5038) · ![GitHub icon](images/github.svg){.inline_icon}
+    [hufengling](https://github.com/hufengling) · ![Twitter icon](images/twitter.svg){.inline_icon}
     [hufengling](https://twitter.com/hufengling)<br>
   <small>
      Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
   </small>
 
-+ **Nafisa M. Jadavji**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-3557-7307](https://orcid.org/0000-0002-3557-7307)
-    · ![GitHub icon](images/github.svg){.inline_icon}
-    [nafisajadavji](https://github.com/nafisajadavji)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **Nafisa M. Jadavji**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-3557-7307](https://orcid.org/0000-0002-3557-7307) · ![GitHub icon](images/github.svg){.inline_icon}
+    [nafisajadavji](https://github.com/nafisajadavji) · ![Twitter icon](images/twitter.svg){.inline_icon}
     [nafisajadavji](https://twitter.com/nafisajadavji)<br>
   <small>
      Biomedical Science, Midwestern University, Glendale, AZ, United States of America; Department of Neuroscience, Carleton University, Ottawa, Ontario, Canada
      · Funded by the American Heart Association (20AIREA35050015)
   </small>
 
-+ **Elizabeth Sell**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-9658-1107](https://orcid.org/0000-0002-9658-1107)
-    · ![GitHub icon](images/github.svg){.inline_icon}
++ **Elizabeth Sell**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-9658-1107](https://orcid.org/0000-0002-9658-1107) · ![GitHub icon](images/github.svg){.inline_icon}
     [esell17](https://github.com/esell17)<br>
   <small>
      Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
   </small>
 
-+ **Jinhui Wang**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-5796-8130](https://orcid.org/0000-0002-5796-8130)
-    · ![GitHub icon](images/github.svg){.inline_icon}
++ **Jinhui Wang**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-5796-8130](https://orcid.org/0000-0002-5796-8130) · ![GitHub icon](images/github.svg){.inline_icon}
     [jinhui2](https://github.com/jinhui2)<br>
   <small>
      Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
   </small>
 
-+ **Diane N. Rafizadeh**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-2838-067X](https://orcid.org/0000-0002-2838-067X)
-    · ![GitHub icon](images/github.svg){.inline_icon}
++ **Diane N. Rafizadeh**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-2838-067X](https://orcid.org/0000-0002-2838-067X) · ![GitHub icon](images/github.svg){.inline_icon}
     [dianerafi](https://github.com/dianerafi)<br>
   <small>
      Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America; Department of Chemistry, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
      · Funded by NIH Medical Scientist Training Program T32 GM07170
   </small>
 
-+ **Ashwin N. Skelly**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-1565-3376](https://orcid.org/0000-0002-1565-3376)
-    · ![GitHub icon](images/github.svg){.inline_icon}
++ **Ashwin N. Skelly**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-1565-3376](https://orcid.org/0000-0002-1565-3376) · ![GitHub icon](images/github.svg){.inline_icon}
     [anskelly](https://github.com/anskelly)<br>
   <small>
      Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America; Institute for Immunology, University of Pennsylvania Perelman School of Medicine, Philadelphia, United States of America
      · Funded by NIH Medical Scientist Training Program T32 GM07170
   </small>
 
-+ **Marouen Ben Guebila**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0001-5934-966X](https://orcid.org/0000-0001-5934-966X)
-    · ![GitHub icon](images/github.svg){.inline_icon}
-    [marouenbg](https://github.com/marouenbg)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **Marouen Ben Guebila**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0001-5934-966X](https://orcid.org/0000-0001-5934-966X) · ![GitHub icon](images/github.svg){.inline_icon}
+    [marouenbg](https://github.com/marouenbg) · ![Twitter icon](images/twitter.svg){.inline_icon}
     [marouenbg](https://twitter.com/marouenbg)<br>
   <small>
      Department of Biostatistics, Harvard School of Public Health, Boston, Massachusetts, United States of America
   </small>
 
-+ **Likhitha Kolla**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-1169-906X](https://orcid.org/0000-0002-1169-906X)
-    · ![GitHub icon](images/github.svg){.inline_icon}
-    [likhithakolla](https://github.com/likhithakolla)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **Likhitha Kolla**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-1169-906X](https://orcid.org/0000-0002-1169-906X) · ![GitHub icon](images/github.svg){.inline_icon}
+    [likhithakolla](https://github.com/likhithakolla) · ![Twitter icon](images/twitter.svg){.inline_icon}
     [lkolla2018](https://twitter.com/lkolla2018)<br>
   <small>
      Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
      · Funded by NIH Medical Scientist Training Program T32 GM07170
   </small>
 
-+ **David Manheim**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0001-8599-8380](https://orcid.org/0000-0001-8599-8380)
-    · ![GitHub icon](images/github.svg){.inline_icon}
-    [davidmanheim](https://github.com/davidmanheim)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **David Manheim**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0001-8599-8380](https://orcid.org/0000-0001-8599-8380) · ![GitHub icon](images/github.svg){.inline_icon}
+    [davidmanheim](https://github.com/davidmanheim) · ![Twitter icon](images/twitter.svg){.inline_icon}
     [davidmanheim](https://twitter.com/davidmanheim)<br>
   <small>
      1DaySooner, Delaware, United States of America; Risk and Health Communication Research Center, School of Public Health, University of Haifa, Haifa, Israel
   </small>
 
-+ **Soumita Ghosh**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-2783-2750](https://orcid.org/0000-0002-2783-2750)
-    · ![GitHub icon](images/github.svg){.inline_icon}
++ **Soumita Ghosh**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-2783-2750](https://orcid.org/0000-0002-2783-2750) · ![GitHub icon](images/github.svg){.inline_icon}
     [soumitagh](https://github.com/soumitagh)<br>
   <small>
      Institute of Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
   </small>
 
-+ **James Brian Byrd**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-0509-3520](https://orcid.org/0000-0002-0509-3520)
-    · ![GitHub icon](images/github.svg){.inline_icon}
-    [byrdjb](https://github.com/byrdjb)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **James Brian Byrd**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-0509-3520](https://orcid.org/0000-0002-0509-3520) · ![GitHub icon](images/github.svg){.inline_icon}
+    [byrdjb](https://github.com/byrdjb) · ![Twitter icon](images/twitter.svg){.inline_icon}
     [thebyrdlab](https://twitter.com/thebyrdlab)<br>
   <small>
      University of Michigan School of Medicine, Ann Arbor, Michigan, United States of America
      · Funded by NIH K23HL128909; FastGrants
   </small>
 
-+ **YoSon Park**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-0465-4744](https://orcid.org/0000-0002-0465-4744)
-    · ![GitHub icon](images/github.svg){.inline_icon}
-    [ypar](https://github.com/ypar)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **YoSon Park**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-0465-4744](https://orcid.org/0000-0002-0465-4744) · ![GitHub icon](images/github.svg){.inline_icon}
+    [ypar](https://github.com/ypar) · ![Twitter icon](images/twitter.svg){.inline_icon}
     [__yoson__](https://twitter.com/__yoson__)<br>
   <small>
      Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
      · Funded by NHGRI R01 HG10067
   </small>
 
-+ **Vikas Bansal**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-0944-7226](https://orcid.org/0000-0002-0944-7226)
-    · ![GitHub icon](images/github.svg){.inline_icon}
-    [bansalvi](https://github.com/bansalvi)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **Vikas Bansal**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-0944-7226](https://orcid.org/0000-0002-0944-7226) · ![GitHub icon](images/github.svg){.inline_icon}
+    [bansalvi](https://github.com/bansalvi) · ![Twitter icon](images/twitter.svg){.inline_icon}
     [VikasBansal1989](https://twitter.com/VikasBansal1989)<br>
   <small>
      Biomedical Data Science and Machine Learning Group, DZNE, Tübingen, Germany
   </small>
 
-+ **Stephen Capone**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0001-7231-1535](https://orcid.org/0000-0001-7231-1535)
-    · ![GitHub icon](images/github.svg){.inline_icon}
++ **Stephen Capone**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0001-7231-1535](https://orcid.org/0000-0001-7231-1535) · ![GitHub icon](images/github.svg){.inline_icon}
     [scapone01](https://github.com/scapone01)<br>
   <small>
      St. George's University School of Medicine, St. George's, Grenada
   </small>
 
-+ **John J. Dziak**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0003-0762-5495](https://orcid.org/0000-0003-0762-5495)
-    · ![GitHub icon](images/github.svg){.inline_icon}
++ **John J. Dziak**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0003-0762-5495](https://orcid.org/0000-0003-0762-5495) · ![GitHub icon](images/github.svg){.inline_icon}
     [dziakj1](https://github.com/dziakj1)<br>
   <small>
      Edna Bennett Pierce Prevention Research Center, The Pennsylvania State University, University Park, PA, United States of America
   </small>
 
-+ **Yuchen Sun**<br>
-    · ![GitHub icon](images/github.svg){.inline_icon}
++ **Yuchen Sun**<br> · ![GitHub icon](images/github.svg){.inline_icon}
     [kevinsunofficial](https://github.com/kevinsunofficial)<br>
   <small>
      Department of Computer Science, University of Virginia, Charlottesville, VA, United States of America
   </small>
 
-+ **Yanjun Qi**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-5796-7453](https://orcid.org/0000-0002-5796-7453)
-    · ![GitHub icon](images/github.svg){.inline_icon}
++ **Yanjun Qi**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-5796-7453](https://orcid.org/0000-0002-5796-7453) · ![GitHub icon](images/github.svg){.inline_icon}
     [qiyanjun](https://github.com/qiyanjun)<br>
   <small>
      Department of Computer Science, University of Virginia, Charlottesville, VA, United States of America
   </small>
 
-+ **Lamonica Shinholster**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0001-6285-005X](https://orcid.org/0000-0001-6285-005X)
-    · ![GitHub icon](images/github.svg){.inline_icon}
++ **Lamonica Shinholster**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0001-6285-005X](https://orcid.org/0000-0001-6285-005X) · ![GitHub icon](images/github.svg){.inline_icon}
     [LSH2126](https://github.com/LSH2126)<br>
   <small>
      Mercer University, Macon, GA, United States of America
      · Funded by the Center for Global Genomics and Health Equity at the University of Pennsylvania
   </small>
 
-+ **Temitayo Lukan**<br>
-    · ![GitHub icon](images/github.svg){.inline_icon}
++ **Temitayo Lukan**<br> · ![GitHub icon](images/github.svg){.inline_icon}
     [tlukan](https://github.com/tlukan)<br>
   <small>
      University of Pennsylvania, Philadelphia, PA, United States of America
   </small>
 
-+ **Sergey Knyazev**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0003-0385-1831](https://orcid.org/0000-0003-0385-1831)
-    · ![GitHub icon](images/github.svg){.inline_icon}
-    [Sergey-Knyazev](https://github.com/Sergey-Knyazev)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **Sergey Knyazev**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0003-0385-1831](https://orcid.org/0000-0003-0385-1831) · ![GitHub icon](images/github.svg){.inline_icon}
+    [Sergey-Knyazev](https://github.com/Sergey-Knyazev) · ![Twitter icon](images/twitter.svg){.inline_icon}
     [SeKnyaz](https://twitter.com/SeKnyaz)<br>
   <small>
      Georgia State University, GA, United States of America
   </small>
 
-+ **Dimitri Perrin**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-4007-5256](https://orcid.org/0000-0002-4007-5256)
-    · ![GitHub icon](images/github.svg){.inline_icon}
-    [SystemsResearch](https://github.com/SystemsResearch)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **Dimitri Perrin**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-4007-5256](https://orcid.org/0000-0002-4007-5256) · ![GitHub icon](images/github.svg){.inline_icon}
+    [SystemsResearch](https://github.com/SystemsResearch) · ![Twitter icon](images/twitter.svg){.inline_icon}
     [dperrin](https://twitter.com/dperrin)<br>
   <small>
      School of Computer Science, Queensland University of Technology, Brisbane, Australia; Centre for Data Science, Queensland University of Technology, Brisbane, Australia
   </small>
 
-+ **Serghei Mangul**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0003-4770-3443](https://orcid.org/0000-0003-4770-3443)
-    · ![GitHub icon](images/github.svg){.inline_icon}
-    [smangul1](https://github.com/smangul1)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **Serghei Mangul**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0003-4770-3443](https://orcid.org/0000-0003-4770-3443) · ![GitHub icon](images/github.svg){.inline_icon}
+    [smangul1](https://github.com/smangul1) · ![Twitter icon](images/twitter.svg){.inline_icon}
     [serghei_mangul](https://twitter.com/serghei_mangul)<br>
   <small>
      Department of Clinical Pharmacy, School of Pharmacy, University of Southern California, CA, United States of America
   </small>
 
-+ **Shikta Das**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-8291-2788](https://orcid.org/0000-0002-8291-2788)
-    · ![GitHub icon](images/github.svg){.inline_icon}
-    [shiktadas](https://github.com/shiktadas)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **Shikta Das**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-8291-2788](https://orcid.org/0000-0002-8291-2788) · ![GitHub icon](images/github.svg){.inline_icon}
+    [shiktadas](https://github.com/shiktadas) · ![Twitter icon](images/twitter.svg){.inline_icon}
     [shikta_das](https://twitter.com/shikta_das)<br>
   <small>
      C4X Discovery, London, United Kingdom; Medical Research Council LHA, Institute of Cardiovascular Studies, University College London, London, United Kingdom
   </small>
 
-+ **Gregory L Szeto**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0001-7604-1333](https://orcid.org/0000-0001-7604-1333)
-    · ![GitHub icon](images/github.svg){.inline_icon}
-    [gregszetoAI](https://github.com/gregszetoAI)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **Gregory L Szeto**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0001-7604-1333](https://orcid.org/0000-0001-7604-1333) · ![GitHub icon](images/github.svg){.inline_icon}
+    [gregszetoAI](https://github.com/gregszetoAI) · ![Twitter icon](images/twitter.svg){.inline_icon}
     [greg_szeto](https://twitter.com/greg_szeto)<br>
   <small>
      Allen Institute for Immunology, Seattle, WA, United States of America
   </small>
 
-+ **Tiago Lubiana**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0003-2473-2313](https://orcid.org/0000-0003-2473-2313)
-    · ![GitHub icon](images/github.svg){.inline_icon}
-    [lubianat](https://github.com/lubianat)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **Tiago Lubiana**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0003-2473-2313](https://orcid.org/0000-0003-2473-2313) · ![GitHub icon](images/github.svg){.inline_icon}
+    [lubianat](https://github.com/lubianat) · ![Twitter icon](images/twitter.svg){.inline_icon}
     [lubianat](https://twitter.com/lubianat)<br>
   <small>
      Department of Clinical and Toxicological Analyses, School of Pharmaceutical Sciences, University of São Paulo, São Paulo, Brazil
   </small>
 
-+ **David Mai**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-9238-0164](https://orcid.org/0000-0002-9238-0164)
-    · ![GitHub icon](images/github.svg){.inline_icon}
-    [davemai](https://github.com/davemai)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **David Mai**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-9238-0164](https://orcid.org/0000-0002-9238-0164) · ![GitHub icon](images/github.svg){.inline_icon}
+    [davemai](https://github.com/davemai) · ![Twitter icon](images/twitter.svg){.inline_icon}
     [daveomai](https://twitter.com/daveomai)<br>
   <small>
      Department of Bioengineering, University of Pennsylvania, Philadelphia, PA, USA
   </small>
 
++ **COVID-19 Review Consortium**<br><br>
+  <small>
+  </small>
+
+
+
+**COVID-19 Review Consortium:**
+Vikas Bansal, John P. Barton, Simina M. Boca, Christian Brueffer, James Brian Byrd, Stephen Capone, Shikta Das, Anna Ada Dattoli, John J. Dziak, Jeffrey M. Field, Soumita Ghosh, Anthony Gitter, Casey S. Greene, Marouen Ben Guebila, Fengling Hu, Nafisa M. Jadavji, Sergey Knyazev, Likhitha Kolla, Alexandra J. Lee, Ronan Lordan, Tiago Lubiana, Temitayo Lukan, Adam L. MacLean, David Mai, Serghei Mangul, David Manheim, Lucy D\'Agostino McGowan, YoSon Park, Dimitri Perrin, Yanjun Qi, Diane N. Rafizadeh, Bharath Ramsundar, Halie M. Rando, Sandipan Ray, Michael P. Robson, Elizabeth Sell, Lamonica Shinholster, Ashwin N. Skelly, Yuchen Sun, Gregory L Szeto, Ryan Velazquez, Jinhui Wang, Nils Wellhausen
 
 
 ## Abstract {.page_break_before .unnumbered}
@@ -573,12 +472,12 @@ Most of these cases were in China, but one to two exported cases had also been i
 One week later, 4,593 confirmed cases had been identified, spanning not only Asia, but also Australia, North America, and Europe [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128-sitrep-8-ncov-cleared.pdf].
 On March 11, 2020, the WHO formally classified the situation as a pandemic [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200311-sitrep-51-covid-19.pdf].
 On April 4, 2020, the WHO reported that the global number of confirmed cases had surpassed one million [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200404-sitrep-75-covid-19.pdf].
-<!--1,978,737 COVID-19 deaths had been reported worldwide as of January 13, 2021 (Figure @fig:csse-deaths).
+<!--2,030,831 COVID-19 deaths had been reported worldwide as of January 17, 2021 (Figure @fig:csse-deaths).
 
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
-](https://github.com/greenelab/covid19-review/raw/5fa2fe2cfc87a1f42f011877dfd17909fb43168f/csse/csse-deaths.svg "Global COVID-19 deaths"){#fig:csse-deaths secno=1} -->
+](https://github.com/greenelab/covid19-review/raw/cb0166a2994b816a597175cec4a749607c894cc3/csse/csse-deaths.svg "Global COVID-19 deaths"){#fig:csse-deaths secno=1} -->
 
 As international attention remains focused on the ongoing public health crisis, the scientific community has responded by mobilizing resources and turning much of its attention to the virus and disease.
 This rapid influx of information is disseminated by traditional publishing mechanisms, preprint servers, and press releases, which provide a venue for scientists to release findings without undergoing the formal publication process.
@@ -1570,12 +1469,12 @@ Thus, there is also an immediate need for treatments that palliate symptoms and 
 Fortunately, prior developments during other recent pandemics, especially those caused by human coronaviruses (HCoV), has provided a number of hypotheses guiding a biomedical approach to the novel coronavirus infection.
 
 <!--Possibly swap deaths for cases and compare to SARS cases, then down to Prior HCoV section?-->
-1,978,737 COVID-19 deaths had been reported worldwide as of January 13, 2021 (Figure @fig:csse-deaths).
+2,030,831 COVID-19 deaths had been reported worldwide as of January 17, 2021 (Figure @fig:csse-deaths).
 
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
-](https://github.com/greenelab/covid19-review/raw/5fa2fe2cfc87a1f42f011877dfd17909fb43168f/csse/csse-deaths.svg "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
+](https://github.com/greenelab/covid19-review/raw/cb0166a2994b816a597175cec4a749607c894cc3/csse/csse-deaths.svg "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
 
 #### Lessons from Prior HCoV Outbreaks
 
@@ -1636,7 +1535,7 @@ The study types include only types used in at least five trials.
 The common interventions are all interventions used in at least ten trials.
 Combinations of interventions, such as Hydroxychloroquine + Azithromycin, are tallied separately from the individual interventions.
 Trials data are from the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709].
-](https://github.com/greenelab/covid19-review/raw/5fa2fe2cfc87a1f42f011877dfd17909fb43168f/ebmdatalab/ebmdatalab-trials.svg "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/cb0166a2994b816a597175cec4a749607c894cc3/ebmdatalab/ebmdatalab-trials.svg "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 ### Small Molecule Drugs
 
@@ -3030,7 +2929,7 @@ Trials that recruit across multiple countries do appear to broaden geographic re
 The density of clinical trials is reported at the country level.
 As of November 9, 2020, there are 6,417 trials in the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709].
 The top figure demonstrates the density of trials recruiting only from a singular country, while the bottom shows the distribution of recruitment for trials that involve more than one country.
-](https://github.com/greenelab/covid19-review/raw/5fa2fe2cfc87a1f42f011877dfd17909fb43168f/ebmdatalab/ebmdatalab-map.svg "COVID-19 clinical trials"){#fig:ebm-map secno=1}
+](https://github.com/greenelab/covid19-review/raw/cb0166a2994b816a597175cec4a749607c894cc3/ebmdatalab/ebmdatalab-map.svg "COVID-19 clinical trials"){#fig:ebm-map secno=1}
 
 A few different concerns arise from this skewed geographic representation in clinical trial recruitment.
 First, treatments such as remdesivir that are promising but primarily available to clinical trial participants are unlikely to be accessible by people in many countries.
@@ -3404,55 +3303,57 @@ The goal of this manuscript is to present preliminary findings within the broade
 |Gregory L Szeto|None|2020-11-16|
 |Tiago Lubiana|None|2020-11-11|
 |David Mai|None|2021-01-08|
+|COVID-19 Review Consortium|None|2021-01-16|
 
 ### Author Contributions
 
 |Author|Contributions|
 |---|---|
-|Halie M. Rando|Project Administration, Writing - Original Draft, Writing - Review & Editing, Methodology|
-|Casey S. Greene|Conceptualization, Software, Writing - Review & Editing|
+|Halie M. Rando|A, B, C, D, E|
+|Casey S. Greene|X, Y, Z|
 |Michael P. Robson|Software|
-|Simina M. Boca|Methodology, Writing - Review & Editing|
-|Nils Wellhausen|Writing - Original Draft, Writing - Review & Editing, Project Administration, Visualization|
-|Ronan Lordan|Writing - Original Draft, Writing - Review & Editing|
-|Christian Brueffer|Writing - Original Draft, Writing - Review & Editing, Project Administration|
-|Sandipan Ray|Writing - Original Draft, Writing - Review & Editing|
-|Lucy D\'Agostino McGowan|Methodology, Writing - Original Draft|
-|Anthony Gitter|Methodology, Software, Project Administration, Writing - Original Draft, Writing - Review & Editing, Visualization|
+|Simina M. Boca|**MISSING**|
+|Nils Wellhausen|**MISSING**|
+|Ronan Lordan|**MISSING**|
+|Christian Brueffer|**MISSING**|
+|Sandipan Ray|**MISSING**|
+|Lucy D\'Agostino McGowan|**MISSING**|
+|Anthony Gitter|**MISSING**|
 |Anna Ada Dattoli|Writing - Original Draft|
-|Ryan Velazquez|Methodology, Software|
-|John P. Barton|Writing - Original Draft, Writing - Review & Editing|
+|Ryan Velazquez|**MISSING**|
+|John P. Barton|**MISSING**|
 |Jeffrey M. Field|Writing - Original Draft|
 |Bharath Ramsundar|Investigation, Writing - Review & Editing|
-|Adam L. MacLean|Writing - Original Draft, Writing - Review & Editing|
-|Alexandra J. Lee|Writing - Original Draft, Writing - Review & Editing|
+|Adam L. MacLean|**MISSING**|
+|Alexandra J. Lee|**MISSING**|
 |Immunology Institute of the Icahn School of Medicine|Data Curation|
 |Fengling Hu|Writing - Original Draft, Writing - Review & Editing|
 |Nafisa M. Jadavji|Writing - Original Draft, Writing - Review & Editing|
-|Elizabeth Sell|Writing - Original Draft, Writing - Review & Editing|
-|Jinhui Wang|Writing - Revising & Editing|
+|Elizabeth Sell|**MISSING**|
+|Jinhui Wang|**MISSING**|
 |Diane N. Rafizadeh|Writing - Original Draft, Writing - Review & Editing|
-|Ashwin N. Skelly|Writing - Original Draft, Writing - Review & Editing|
-|Marouen Ben Guebila|Writing - Original Draft|
+|Ashwin N. Skelly|**MISSING**|
+|Marouen Ben Guebila|**MISSING**|
 |Likhitha Kolla|Writing - Original Draft|
-|David Manheim|Writing - Original Draft, Investigation|
+|David Manheim|Investigation, Writing - Original Draft|
 |Soumita Ghosh|Writing - Original Draft|
-|James Brian Byrd|Writing - Original Draft, Writing - Review & Editing|
-|YoSon Park|Writing - Original Draft, Writing - Review & Editing, Investigation|
-|Vikas Bansal|Writing - Original Draft, Investigation|
-|Stephen Capone|Writing - Review & Editing, Writing - Original Draft|
-|John J. Dziak|Writing - Original Draft, Writing - Review & Editing|
+|James Brian Byrd|**MISSING**|
+|YoSon Park|**MISSING**|
+|Vikas Bansal|**MISSING**|
+|Stephen Capone|Writing - Original Draft, Writing - Review & Editing|
+|John J. Dziak|**MISSING**|
 |Yuchen Sun|Visualization|
 |Yanjun Qi|Visualization|
-|Lamonica Shinholster|Writing - Original Draft|
-|Temitayo Lukan|Writing - Original Draft, Investigation|
-|Sergey Knyazev|Writing - Original Draft, Writing - Review & Editing|
+|Lamonica Shinholster|**MISSING**|
+|Temitayo Lukan|Investigation, Writing - Original Draft|
+|Sergey Knyazev|**MISSING**|
 |Dimitri Perrin|Writing - Original Draft, Writing - Review & Editing|
-|Serghei Mangul|Writing - Review & Editing|
+|Serghei Mangul|**MISSING**|
 |Shikta Das|Writing - Review & Editing|
-|Gregory L Szeto|Writing - Review & Editing|
-|Tiago Lubiana|Writing - Review & Editing|
-|David Mai|Writing - Original Draft, Writing - Review & Editing|
+|Gregory L Szeto|**MISSING**|
+|Tiago Lubiana|**MISSING**|
+|David Mai|**MISSING**|
+|COVID-19 Review Consortium|Project Administration|
 
 ### Acknowledgements
 
