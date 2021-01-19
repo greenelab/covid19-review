@@ -14,7 +14,10 @@ jobs:
       GITHUB_PULL_REQUEST_SHA: ${{ github.event.pull_request.head.sha }}
       LITSEARCH: false
       SPELLCHECK: true
-      BUILD_DOCX: true
+      BUILD_HTML: true
+      BUILD_PDF: true
+      BUILD_DOCX: false
+      BUILD_INDIVIDUAL: true
     steps:
       - name: Set Environment Variables
         run: |

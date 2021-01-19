@@ -2,7 +2,6 @@
 # See documentation at https://github.com/jgm/pandoc/issues/5990
 # and https://pandoc.org/MANUAL.html#default-files
 from: markdown
-input-file: output/manuscript.md
 filters:
 - pandoc-fignos
 - pandoc-eqnos
