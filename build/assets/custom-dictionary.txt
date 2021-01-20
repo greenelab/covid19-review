@@ -1332,7 +1332,7 @@ survivorship
 sustentacular
 svg
 svgs
-symptomology
+symptomatology
 Synairgen
 syncytial
 syndemic
