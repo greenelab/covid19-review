@@ -882,7 +882,8 @@ authors:
     orcid: https://orcid.org/0000-0003-1715-5191
     email: rishi.goel@pennmedicine.upenn.edu
     twitter: rishirajgoel
-    code of conduct: Yes
+    code of conduct:
+      confirmed: Yes
     affiliations:
       - Institute for Immunology, University of Pennsylvania, Philadelphia, PA, United States of America
     coi:
