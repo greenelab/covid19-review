@@ -883,7 +883,8 @@ authors:
     email: rishi.goel@pennmedicine.upenn.edu
     twitter: rishirajgoel
     code of conduct: yes
-    affiliation(s): Institute for Immunology, University of Pennsylvania, Philadelphia, PA, United States of America
+    affiliations:
+      - Institute for Immunology, University of Pennsylvania, Philadelphia, PA, United States of America
     coi:
       string: "None"
       lastapproved: !!str 2021-01-20
