@@ -67,7 +67,7 @@ authors:
       - Center for Health AI, University of Colorado School of Medicine, Aurora, Colorado, United States of America
     coi:
       string: "None"
-      lastapproved: !!str 2020-11-07
+      lastapproved: !!str 2020-01-20
     funders:
       - the Gordon and Betty Moore Foundation (GBMF 4552)
       - the National Human Genome Research Institute (R01 HG010067)
@@ -882,7 +882,7 @@ authors:
     orcid: https://orcid.org/0000-0003-1715-5191
     email: rishi.goel@pennmedicine.upenn.edu
     twitter: rishirajgoel
-    code of conduct: yes
+    code of conduct: Yes
     affiliations:
       - Institute for Immunology, University of Pennsylvania, Philadelphia, PA, United States of America
     coi:
