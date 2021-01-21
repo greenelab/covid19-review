@@ -72,7 +72,7 @@ authors:
       - the National Human Genome Research Institute (R01 HG010067)
     manuscripts:
       pathogenesis:
-        order: 7
+        order: 8
         contributions:
           - Conceptualization
           - Software
@@ -157,7 +157,9 @@ authors:
       lastapproved: !!str 2020-11-03
     manuscripts:
       pathogenesis:
-        order: 1
+        order: 6
+        contributions:
+          - Writing - Review & Editing
   -
     github: cbrueffer
     name: Christian Brueffer
@@ -764,7 +766,7 @@ authors:
       - the Center for Global Genomics and Health Equity at the University of Pennsylvania
     manuscripts:
       pathogenesis:
-        order: 1
+        order: 4
         contributions:
           - Writing - Original Draft
   -
@@ -801,7 +803,7 @@ authors:
       lastapproved: !!str 2020-11-11
     manuscripts:
       pathogenesis:
-        order: 5
+        order: 4
         contributions:
           - Writing - Review & Editing
           - Writing - Original Draft
@@ -841,7 +843,9 @@ authors:
       lastapproved: !!str 2020-11-11
     manuscripts:
       pathogenesis:
-        order: 1
+        order: 7
+        contributions:
+          - Writing - Review & Editing
   -
     github: shiktadas
     name: Shikta Das
@@ -952,7 +956,7 @@ authors:
       lastapproved: !!str 2021-01-20
     manuscripts:
       pathogenesis:
-        order: 1
+        order: 7
         contributions:
           - Writing - Original Draft
           - Writing - Review & Editing
