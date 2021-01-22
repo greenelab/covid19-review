@@ -72,7 +72,7 @@ authors:
       - the National Human Genome Research Institute (R01 HG010067)
     manuscripts:
       pathogenesis:
-        order: 8
+        order: 10
         contributions:
           - Conceptualization
           - Software
@@ -255,7 +255,12 @@ authors:
       - John W. and Jeanne M. Rowe Center for Research in Virology
     manuscripts:
       pathogenesis:
-        order: 1
+        order: 9
+        contributions:
+          - Methodology
+          - Software
+          - Project Administration
+          - Writing - Review & Editing
   -
     github: aadattoli
     name: Anna Ada Dattoli
@@ -938,7 +943,7 @@ authors:
     consortium: Yes
     manuscripts:
       pathogenesis:
-        order: 2
+        order: 8
         contributions:
           - Project Administration
   -
