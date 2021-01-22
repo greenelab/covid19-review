@@ -233,6 +233,7 @@ Ghebreyesus
 Ghosh
 Gitter
 Glycoprotein
+Goel
 GreeneScientist
 Guangdong
 Guebila
@@ -491,6 +492,7 @@ RTRPA
 RaTG
 Radiographic
 Rafizadeh
+Raj
 Ramsundar
 Rando
 Rapamycin
@@ -503,6 +505,7 @@ Retinopathy
 Rhinolophus
 Ribavirin
 Rimmer
+Rishi
 Ronan
 RosettaMHC
 RosettaScripts
@@ -1266,6 +1269,7 @@ ribonucleoside
 ribonucleotide
 ribosomal
 ribosomes
+rishirajgoel
 ritonavir
 rmrussell
 rootstock
