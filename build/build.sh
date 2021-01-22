@@ -158,49 +158,55 @@ if [ "${LITSEARCH:-}" = "true" ]; then
 fi
 
 # Build DOCX outputs for individual manuscripts
-# Initially only builds the pathogenesis manuscript
+# Builds all manuscripts listed in content/individual-manuscript.txt
+# Expect one individual manuscript keyword (e.g. pathogenesis) per line
+# Strip trailing whitespace
 if [ "${BUILD_INDIVIDUAL:-}" = "true" ]; then
-  echo >&2 "Exporting Word Docx pathogenesis manuscript"
+  for INDIVIDUAL_KEYWORD in $(cat content/individual-manuscripts.txt | sed 's/[[:space:]]*$//'); do
+    echo >&2 "Exporting Word Docx $INDIVIDUAL_KEYWORD manuscript"
 
-  # Copy all content, then remove all markdown files not needed for the pathogenesis manuscript
-  mkdir -p content/pathogenesis
-  # Ignore errors about not copying directories
-  cp content/* content/pathogenesis || true
-  cp -r content/images/ content/pathogenesis
-  find content/pathogenesis -type f \( -not -name "*pathogenesis*" -and -not -name "*matter*" -and -not -name "*contribs*" -and -name "*.md" \) | xargs rm
+    # Copy all content, then remove all markdown files not needed for the individual manuscript
+    mkdir -p content/$INDIVIDUAL_KEYWORD
+    # Ignore errors about not copying directories
+    cp content/* content/$INDIVIDUAL_KEYWORD || true
+    cp -r content/images/ content/$INDIVIDUAL_KEYWORD
+    find content/$INDIVIDUAL_KEYWORD -type f \( -not -name "*$INDIVIDUAL_KEYWORD*" -and -not -name "*matter*" -and -not -name "*contribs*" -and -name "*.md" \) | xargs rm
 
-  # Select the authors for the individual manuscript
-  python build/update-author-metadata.py --keyword pathogenesis --path content/pathogenesis/metadata.yaml
+    # Select the authors for the individual manuscript
+    python build/update-author-metadata.py --keyword $INDIVIDUAL_KEYWORD --path content/$INDIVIDUAL_KEYWORD/metadata.yaml
 
-  # Use the first line of the Markdown file as the manuscript title, overriding the title from metadata.yaml
-  INDIVIDUAL_TITLE=$(head --lines 1 content/pathogenesis/*.pathogenesis.md | sed 's/^#*\ //')
-  # Remove the section title from the start of the individual manuscript
-  tail -n +2 content/pathogenesis/07.pathogenesis.md > content/pathogenesis/07.pathogenesis.md.tmp && mv content/pathogenesis/07.pathogenesis.md.tmp content/pathogenesis/07.pathogenesis.md
+    # Use the first line of the Markdown file as the manuscript title, overriding the title from metadata.yaml
+    INDIVIDUAL_TITLE=$(head --lines 1 content/$INDIVIDUAL_KEYWORD/*.$INDIVIDUAL_KEYWORD.md | sed 's/^#*\ //')
+    INDIVIDUAL_MARKDOWN=$(find content/$INDIVIDUAL_KEYWORD/*.$INDIVIDUAL_KEYWORD.md)
+    # Remove the section title from the start of the individual manuscript
+    tail -n +2 $INDIVIDUAL_MARKDOWN > $INDIVIDUAL_MARKDOWN.tmp && mv $INDIVIDUAL_MARKDOWN.tmp $INDIVIDUAL_MARKDOWN
 
-  # Set a variable indicating which individual manuscript is being processed
-  # This is used to modify some of of the boilerplate Markdown, like the front matter
-  echo "individual: pathogenesis" >> content/pathogenesis/pathogenesis.yaml
+    # Set a variable indicating which individual manuscript is being processed
+    # This is used to modify some of of the boilerplate Markdown, like the front matter
+    echo "individual: $INDIVIDUAL_KEYWORD" >> content/$INDIVIDUAL_KEYWORD/$INDIVIDUAL_KEYWORD.yaml
 
-  echo >&2 "Retrieving and processing reference metadata for the pathogenesis manuscript"
-  manubot process \
-    --content-directory=content/pathogenesis \
-    --output-directory=output/pathogenesis \
-    --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/csse/csse-stats.json \
-    --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/ebmdatalab/ebmdatalab-stats.json \
-    --template-variables-path=content/pathogenesis/pathogenesis.yaml \
-    --cache-directory=ci/cache \
-    --skip-citations \
-    --log-level=INFO
+    echo >&2 "Retrieving and processing reference metadata for the $INDIVIDUAL_KEYWORD manuscript"
+    manubot process \
+      --content-directory=content/$INDIVIDUAL_KEYWORD \
+      --output-directory=output/$INDIVIDUAL_KEYWORD \
+      --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/csse/csse-stats.json \
+      --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/ebmdatalab/ebmdatalab-stats.json \
+      --template-variables-path=content/$INDIVIDUAL_KEYWORD/$INDIVIDUAL_KEYWORD.yaml \
+      --cache-directory=ci/cache \
+      --skip-citations \
+      --log-level=INFO
 
-  pandoc --verbose \
-    --data-dir="$PANDOC_DATA_DIR" \
-    --defaults=common.yaml \
-    --defaults=docx.yaml \
-    --metadata=title:"$INDIVIDUAL_TITLE" \
-    output/pathogenesis/manuscript.md
-    mv output/manuscript.docx output/pathogenesis-manuscript.docx
+    pandoc --verbose \
+      --data-dir="$PANDOC_DATA_DIR" \
+      --defaults=common.yaml \
+      --defaults=docx.yaml \
+      --metadata=title:"$INDIVIDUAL_TITLE" \
+      output/$INDIVIDUAL_KEYWORD/manuscript.md
+      mv output/manuscript.docx output/$INDIVIDUAL_KEYWORD-manuscript.docx
 
-  rm -rf output/pathogenesis
+    rm -rf content/$INDIVIDUAL_KEYWORD
+    rm -rf output/$INDIVIDUAL_KEYWORD
+  done
 fi
 
 echo >&2 "Build complete"
