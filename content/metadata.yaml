@@ -26,17 +26,16 @@ authors:
       - Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, Aurora, Colorado, United States of America
     coi:
       string: "None"
-      lastapproved: !!str 2020-03-22
+      lastapproved: !!str 2021-01-20
     funders:
       - the Gordon and Betty Moore Foundation (GBMF 4552)
     manuscripts:
       pathogenesis:
         order: 1
         contributions:
-          - A
-          - B
-          - C
-          - D
+          - Project Administration
+          - Writing - Original Draft
+          - Writing - Review & Editing
       evolution:
         order: 1
         contributions:
@@ -73,11 +72,11 @@ authors:
       - the National Human Genome Research Institute (R01 HG010067)
     manuscripts:
       pathogenesis:
-        order: 1
+        order: 10
         contributions:
-          - Z
-          - Y
-          - X
+          - Conceptualization
+          - Software
+          - Writing - Review & Editing
   -
     github: mprobson
     name: Michael P. Robson
@@ -111,7 +110,9 @@ authors:
       lastapproved: !!str 2020-11-07
     manuscripts:
       pathogenesis:
-        order: 1
+        order: 4
+        contributions:
+          - Writing - Review & Editing
   -
     github: nilswellhausen
     name: Nils Wellhausen
@@ -132,7 +133,11 @@ authors:
       lastapproved: !!str 2020-11-03
     manuscripts:
       pathogenesis:
-        order: 1
+        order: 4
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
+          - Visualization
   -
     github: RLordan
     name: Ronan Lordan
@@ -152,7 +157,9 @@ authors:
       lastapproved: !!str 2020-11-03
     manuscripts:
       pathogenesis:
-        order: 1
+        order: 6
+        contributions:
+          - Writing - Review & Editing
   -
     github: cbrueffer
     name: Christian Brueffer
@@ -173,7 +180,10 @@ authors:
       lastapproved: !!str 2020-11-11
     manuscripts:
       pathogenesis:
-        order: 1
+        order: 6
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
   -
     github: rays1987
     name: Sandipan Ray
@@ -192,7 +202,10 @@ authors:
       lastapproved: !!str 2020-11-11
     manuscripts:
       pathogenesis:
-        order: 1
+        order: 3
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
   -
     github: LucyMcGowan
     name: Lucy D\'Agostino McGowan
@@ -212,7 +225,10 @@ authors:
       lastapproved: !!str 2020-11-10
     manuscripts:
       pathogenesis:
-        order: 1
+        order: 4
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
   -
     github: agitter
     name: Anthony Gitter
@@ -239,7 +255,12 @@ authors:
       - John W. and Jeanne M. Rowe Center for Research in Virology
     manuscripts:
       pathogenesis:
-        order: 1
+        order: 9
+        contributions:
+          - Methodology
+          - Software
+          - Project Administration
+          - Writing - Review & Editing
   -
     github: aadattoli
     name: Anna Ada Dattoli
@@ -265,6 +286,7 @@ authors:
     contributions:
       - Methodology
       - Software
+      - Writing - Review & Editing
     code of conduct:
       confirmed: Yes
     affiliations:
@@ -274,7 +296,9 @@ authors:
       lastapproved: !!str 2020-11-10
     manuscripts:
       pathogenesis:
-        order: 1
+        order: 6
+        contributions:
+          - Writing - Review & Editing
   -
     github: johnbarton
     name: John P. Barton
@@ -294,7 +318,10 @@ authors:
       lastapproved: !!str 2020-11-11
     manuscripts:
       pathogenesis:
-        order: 1
+        order: 7
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
   -
     github: Jeff-Field
     name: Jeffrey M. Field
@@ -346,7 +373,10 @@ authors:
       lastapproved: !!str 2020-11-11
     manuscripts:
       pathogenesis:
-        order: 1
+        order: 2
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
   -
     github: ajlee21
     name: Alexandra J. Lee
@@ -367,7 +397,10 @@ authors:
       - the Gordon and Betty Moore Foundation (GBMF 4552)
     manuscripts:
       pathogenesis:
-        order: 1
+        order: 2
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
   -
     github: ismms-himc
     name: Immunology Institute of the Icahn School of Medicine
@@ -437,7 +470,10 @@ authors:
       lastapproved: !!str 2020-11-11
     manuscripts:
       pathogenesis:
-        order: 1
+        order: 4
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
   -
     github: jinhui2
     name: Jinhui Wang
@@ -452,10 +488,12 @@ authors:
       - Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
     coi:
       string: "None"
-      lastapproved: !!str 2020-04-13
+      lastapproved: !!str 2021-01-21
     manuscripts:
       pathogenesis:
-        order: 1
+        order: 6
+        contributions:
+          - Writing - Review & Editing
   -
     github: dianerafi
     name: Diane N. Rafizadeh
@@ -496,7 +534,10 @@ authors:
       - NIH Medical Scientist Training Program T32 GM07170
     manuscripts:
       pathogenesis:
-        order: 1
+        order: 4
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
   -
     github: marouenbg
     name: Marouen Ben Guebila
@@ -515,7 +556,10 @@ authors:
       lastapproved: !!str 2020-11-11
     manuscripts:
       pathogenesis:
-        order: 1
+        order: 4
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft1
   -
     github: likhithakolla
     name: Likhitha Kolla
@@ -589,7 +633,10 @@ authors:
       - FastGrants
     manuscripts:
       pathogenesis:
-        order: 1
+        order: 6
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
   -
     github: ypar
     name: YoSon Park
@@ -611,7 +658,10 @@ authors:
     funders: NHGRI R01 HG10067
     manuscripts:
       pathogenesis:
-        order: 1
+        order: 4
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
   -
     github: bansalvi
     name: Vikas Bansal
@@ -621,7 +671,7 @@ authors:
     email: bansal.bioinfo@gmail.com
     contributions:
       - Writing - Original Draft
-      - Investigation
+      - Writing - Review & Editing
     affiliations:
       - Biomedical Data Science and Machine Learning Group, DZNE, Tübingen, Germany
     code of conduct:
@@ -631,7 +681,10 @@ authors:
       lastapproved: !!str 2020-05-26
     manuscripts:
       pathogenesis:
-        order: 1
+        order: 3
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
   -
     github: scapone01
     name: Stephen Capone
@@ -666,7 +719,10 @@ authors:
       lastapproved: !!str 2020-11-11
     manuscripts:
       pathogenesis:
-        order: 1
+        order: 4
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
   -
     github: kevinsunofficial
     name: Yuchen Sun
@@ -715,7 +771,9 @@ authors:
       - the Center for Global Genomics and Health Equity at the University of Pennsylvania
     manuscripts:
       pathogenesis:
-        order: 1
+        order: 4
+        contributions:
+          - Writing - Original Draft
   -
     github: tlukan
     name: Temitayo Lukan
@@ -750,7 +808,10 @@ authors:
       lastapproved: !!str 2020-11-11
     manuscripts:
       pathogenesis:
-        order: 1
+        order: 4
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
   -
     github: SystemsResearch
     name: Dimitri Perrin
@@ -787,7 +848,9 @@ authors:
       lastapproved: !!str 2020-11-11
     manuscripts:
       pathogenesis:
-        order: 1
+        order: 7
+        contributions:
+          - Writing - Review & Editing
   -
     github: shiktadas
     name: Shikta Das
@@ -823,7 +886,9 @@ authors:
       lastapproved: !!str 2020-11-16
     manuscripts:
       pathogenesis:
-        order: 1
+        order: 7
+        contributions:
+          - Writing - Review & Editing
   -
     github: lubianat
     name: Tiago Lubiana
@@ -842,7 +907,9 @@ authors:
       lastapproved: !!str 2020-11-11
     manuscripts:
       pathogenesis:
-        order: 1
+        order: 7
+        contributions:
+          - Writing - Review & Editing
   -
     github: davemai
     name: David Mai
@@ -862,7 +929,10 @@ authors:
       lastapproved: !!str 2021-01-08
     manuscripts:
       pathogenesis:
-        order: 1
+        order: 5
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
   -
     name: COVID-19 Review Consortium
     code of conduct:
@@ -873,7 +943,7 @@ authors:
     consortium: Yes
     manuscripts:
       pathogenesis:
-        order: 2
+        order: 8
         contributions:
           - Project Administration
   -
@@ -891,7 +961,7 @@ authors:
       lastapproved: !!str 2021-01-20
     manuscripts:
       pathogenesis:
-        order: 1
+        order: 7
         contributions:
           - Writing - Original Draft
           - Writing - Review & Editing
