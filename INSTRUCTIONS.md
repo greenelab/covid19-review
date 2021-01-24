@@ -158,6 +158,7 @@ The `gh-pages` branch uses [GitHub Pages](https://pages.github.com/) to host the
 + **PDF manuscript** at https://greenelab.github.io/covid19-review/manuscript.pdf
 
 For continuous integration configuration details, see [`.github/workflows/manubot.yaml`](.github/workflows/manubot.yaml) if using GitHub Actions or [`.travis.yml`](.travis.yml) if using Travis CI.
+See the [`.github/workflows/update-external-resources.yaml`](.github/workflows/update-external-resources.yaml) for more information about the scheduled workflow that updates the contents of the `external-resources` branch.
 
 ### Updating Appendix 1
 
