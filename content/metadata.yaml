@@ -653,8 +653,8 @@ authors:
     code of conduct:
       confirmed: yes
     coi:
-      string: "None"
-      lastapproved: !!str 2020-11-11
+      string: "Now employed by Pfizer (subsequent to contributions to this project)"
+      lastapproved: !!str 2020-01-22
     funders: NHGRI R01 HG10067
     manuscripts:
       pathogenesis:
@@ -673,12 +673,12 @@ authors:
       - Writing - Original Draft
       - Writing - Review & Editing
     affiliations:
-      - Biomedical Data Science and Machine Learning Group, DZNE, Tübingen, Germany
+      - Biomedical Data Science and Machine Learning Group, German Center for Neurodegenerative Diseases, Tübingen 72076, Germany
     code of conduct:
       confirmed: yes
     coi:
       string: "None"
-      lastapproved: !!str 2020-05-26
+      lastapproved: !!str 2021-01-25
     manuscripts:
       pathogenesis:
         order: 3
@@ -701,6 +701,12 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-11-11
+    manuscripts:
+      pathogenesis:
+        order: 4
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
   -
     github: dziakj1
     name: John J. Dziak
