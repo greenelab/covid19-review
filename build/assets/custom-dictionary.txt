@@ -412,6 +412,7 @@ NHGRI
 NK
 NKRF
 NL
+NLP
 NLR
 NLRC
 NLRP
@@ -499,6 +500,7 @@ Rapamycin
 Ras
 RdRP
 Readme
+Regeneron
 Renmin
 Resus
 Retinopathy
@@ -923,6 +925,7 @@ hydroxyvitamin
 hyperglycemic
 hyperinflammation
 hypoalbuminemia
+hypogammaglobulinemia
 hypoproteinemia
 hypoxia
 iCre
@@ -1133,6 +1136,7 @@ organoids
 organoselenium
 othered
 othering
+outcompeting
 overexpressing
 overexpression
 overexuberant
