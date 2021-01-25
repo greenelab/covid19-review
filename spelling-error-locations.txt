@@ -1,1 +1,3 @@
 content/07.pathogenesis.md:392:IFRs
+content/70.coi-contribs.md:17:Himmelstein
+content/70.coi-contribs.md:17:Rubinetti
