@@ -653,8 +653,8 @@ authors:
     code of conduct:
       confirmed: yes
     coi:
-      string: "None"
-      lastapproved: !!str 2020-11-11
+      string: "Now employed by Pfizer (subsequent to contributions to this project)"
+      lastapproved: !!str 2020-01-22
     funders: NHGRI R01 HG10067
     manuscripts:
       pathogenesis:
