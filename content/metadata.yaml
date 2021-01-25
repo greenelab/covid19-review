@@ -701,6 +701,12 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-11-11
+    manuscripts:
+      pathogenesis:
+        order: 4
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
   -
     github: dziakj1
     name: John J. Dziak
