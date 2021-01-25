@@ -68,6 +68,9 @@ def update_merged(path):
         contributions = set()
         if "manuscripts" in author:
             for manuscript in author["manuscripts"].keys():
+                if manuscript.lower() == "contributions":
+                    raise IndentationError(f"Contributions for {author['name']} should be "
+                        "indented under a specific manuscript\n")
                 # A list of the author's contributions for each individual manuscript
                 individual_contributions = author["manuscripts"][manuscript].get("contributions", MISSING_CONTRIBUTIONS)
                 contributions.update(individual_contributions)
