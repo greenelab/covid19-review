@@ -252,6 +252,7 @@ HDAC
 HDL
 HEK
 HGF
+Himmelstein
 HKU
 HL
 HLA
@@ -284,6 +285,7 @@ IFNB
 IFNs
 IFNy
 IFR
+IFRs
 IG
 IGs
 IHC
@@ -455,6 +457,7 @@ PRKCD
 PRNT
 PRRs
 PUFA
+PUFAs
 PUMC
 PaO
 Palivizumab
@@ -482,6 +485,7 @@ RBD
 RBDs
 RBM
 RCT
+RCTs
 RLordan
 RNAemia
 RNAs
@@ -513,6 +517,7 @@ RosettaMHC
 RosettaScripts
 Rossjohn
 Ruan
+Rubinetti
 SAA
 SAR
 SARC
@@ -828,6 +833,7 @@ ebselen
 ebselen's
 ectodomain
 effector
+eicosanoids
 eicosapentaenoic
 el
 encephalomyelitis
@@ -866,6 +872,7 @@ floxed
 fluorescently
 fluoro
 fluticasone
+fnx
 foci
 follicular
 fomite
@@ -882,6 +889,7 @@ ggjvr
 ggkd
 ggks
 ggnzmc
+ggvd
 github
 glomerular
 glomeruli
@@ -1104,6 +1112,7 @@ naïve
 necropsies
 neuraminic
 neuraminidase
+neurodegenerative
 neutropenia
 neutrophil
 neutrophilia
