@@ -217,6 +217,7 @@ Fengling
 FiO
 Fibrinogen
 Flaviviridae
+FO
 Fu
 GBMF
 GFP
@@ -813,6 +814,7 @@ dihydroxyvitamin
 dimerization
 dimorphism
 disaggregate
+dl
 docosahexaenoic
 doi
 downregulated
