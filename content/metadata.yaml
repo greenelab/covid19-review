@@ -71,7 +71,7 @@ authors:
       - Center for Health AI, University of Colorado School of Medicine, Aurora, Colorado, United States of America
     coi:
       string: "None"
-      lastapproved: !!str 2020-01-20
+      lastapproved: !!str 2021-01-20
     funders:
       - the Gordon and Betty Moore Foundation (GBMF 4552)
       - the National Human Genome Research Institute (R01 HG010067)
