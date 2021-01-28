@@ -23,11 +23,29 @@ authors:
       confirmed: Yes
     affiliations:
       - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+      - Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, Aurora, Colorado, United States of America
     coi:
       string: "None"
-      lastapproved: !!str 2020-03-22
+      lastapproved: !!str 2021-01-20
     funders:
       - the Gordon and Betty Moore Foundation (GBMF 4552)
+    manuscripts:
+      pathogenesis:
+        order: 1
+        contributions:
+          - Project Administration
+          - Writing - Original Draft
+          - Writing - Review & Editing
+      evolution:
+        order: 1
+        contributions:
+          - D
+          - E
+      diagnostics:
+        order: 1
+        contributions:
+          - A
+          - E
   -
     github: cgreene
     name: Casey S. Greene
@@ -44,12 +62,21 @@ authors:
     affiliations:
       - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
       - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Philadelphia, Pennsylvania, United States of America
+      - Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, Aurora, Colorado, United States of America
+      - Center for Health AI, University of Colorado School of Medicine, Aurora, Colorado, United States of America
     coi:
       string: "None"
-      lastapproved: !!str 2020-11-07
+      lastapproved: !!str 2020-01-20
     funders:
       - the Gordon and Betty Moore Foundation (GBMF 4552)
       - the National Human Genome Research Institute (R01 HG010067)
+    manuscripts:
+      pathogenesis:
+        order: 10
+        contributions:
+          - Conceptualization
+          - Software
+          - Writing - Review & Editing
   -
     github: mprobson
     name: Michael P. Robson
@@ -81,6 +108,11 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-11-07
+    manuscripts:
+      pathogenesis:
+        order: 4
+        contributions:
+          - Writing - Review & Editing
   -
     github: nilswellhausen
     name: Nils Wellhausen
@@ -99,6 +131,13 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-11-03
+    manuscripts:
+      pathogenesis:
+        order: 4
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
+          - Visualization
   -
     github: RLordan
     name: Ronan Lordan
@@ -116,6 +155,11 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-11-03
+    manuscripts:
+      pathogenesis:
+        order: 6
+        contributions:
+          - Writing - Review & Editing
   -
     github: cbrueffer
     name: Christian Brueffer
@@ -134,6 +178,12 @@ authors:
     coi:
       string: Employee and shareholder of SAGA Diagnostics AB.
       lastapproved: !!str 2020-11-11
+    manuscripts:
+      pathogenesis:
+        order: 6
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
   -
     github: rays1987
     name: Sandipan Ray
@@ -150,6 +200,12 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-11-11
+    manuscripts:
+      pathogenesis:
+        order: 3
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
   -
     github: LucyMcGowan
     name: Lucy D\'Agostino McGowan
@@ -167,6 +223,12 @@ authors:
     coi:
       string: "Received consulting fees from Acelity and Sanofi in the past five years"
       lastapproved: !!str 2020-11-10
+    manuscripts:
+      pathogenesis:
+        order: 4
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
   -
     github: agitter
     name: Anthony Gitter
@@ -191,6 +253,14 @@ authors:
       lastapproved: !!str 2020-11-10
     funders:
       - John W. and Jeanne M. Rowe Center for Research in Virology
+    manuscripts:
+      pathogenesis:
+        order: 9
+        contributions:
+          - Methodology
+          - Software
+          - Project Administration
+          - Writing - Review & Editing
   -
     github: aadattoli
     name: Anna Ada Dattoli
@@ -216,6 +286,7 @@ authors:
     contributions:
       - Methodology
       - Software
+      - Writing - Review & Editing
     code of conduct:
       confirmed: Yes
     affiliations:
@@ -223,6 +294,11 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-11-10
+    manuscripts:
+      pathogenesis:
+        order: 6
+        contributions:
+          - Writing - Review & Editing
   -
     github: johnbarton
     name: John P. Barton
@@ -240,6 +316,12 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-11-11
+    manuscripts:
+      pathogenesis:
+        order: 7
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
   -
     github: Jeff-Field
     name: Jeffrey M. Field
@@ -289,6 +371,12 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-11-11
+    manuscripts:
+      pathogenesis:
+        order: 2
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
   -
     github: ajlee21
     name: Alexandra J. Lee
@@ -307,6 +395,12 @@ authors:
       lastapproved: !!str 2020-11-09
     funders:
       - the Gordon and Betty Moore Foundation (GBMF 4552)
+    manuscripts:
+      pathogenesis:
+        order: 2
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
   -
     github: ismms-himc
     name: Immunology Institute of the Icahn School of Medicine
@@ -320,6 +414,7 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-04-07
+    consortium: Yes
   -
     github: hufengling
     name: Fengling Hu
@@ -373,6 +468,12 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-11-11
+    manuscripts:
+      pathogenesis:
+        order: 4
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
   -
     github: jinhui2
     name: Jinhui Wang
@@ -387,7 +488,12 @@ authors:
       - Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
     coi:
       string: "None"
-      lastapproved: !!str 2020-04-13
+      lastapproved: !!str 2021-01-21
+    manuscripts:
+      pathogenesis:
+        order: 6
+        contributions:
+          - Writing - Review & Editing
   -
     github: dianerafi
     name: Diane N. Rafizadeh
@@ -426,6 +532,12 @@ authors:
       lastapproved: !!str 2020-11-11
     funders:
       - NIH Medical Scientist Training Program T32 GM07170
+    manuscripts:
+      pathogenesis:
+        order: 4
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
   -
     github: marouenbg
     name: Marouen Ben Guebila
@@ -442,6 +554,12 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-11-11
+    manuscripts:
+      pathogenesis:
+        order: 4
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
   -
     github: likhithakolla
     name: Likhitha Kolla
@@ -513,6 +631,12 @@ authors:
     funders:
       - NIH K23HL128909
       - FastGrants
+    manuscripts:
+      pathogenesis:
+        order: 6
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
   -
     github: ypar
     name: YoSon Park
@@ -529,9 +653,15 @@ authors:
     code of conduct:
       confirmed: yes
     coi:
-      string: "None"
-      lastapproved: !!str 2020-11-11
+      string: "Now employed by Pfizer (subsequent to contributions to this project)"
+      lastapproved: !!str 2020-01-22
     funders: NHGRI R01 HG10067
+    manuscripts:
+      pathogenesis:
+        order: 4
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
   -
     github: bansalvi
     name: Vikas Bansal
@@ -541,14 +671,20 @@ authors:
     email: bansal.bioinfo@gmail.com
     contributions:
       - Writing - Original Draft
-      - Investigation
+      - Writing - Review & Editing
     affiliations:
-      - Biomedical Data Science and Machine Learning Group, DZNE, Tübingen, Germany
+      - Biomedical Data Science and Machine Learning Group, German Center for Neurodegenerative Diseases, Tübingen 72076, Germany
     code of conduct:
       confirmed: yes
     coi:
       string: "None"
-      lastapproved: !!str 2020-05-26
+      lastapproved: !!str 2021-01-25
+    manuscripts:
+      pathogenesis:
+        order: 3
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
   -
     github: scapone01
     name: Stephen Capone
@@ -565,6 +701,12 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-11-11
+    manuscripts:
+      pathogenesis:
+        order: 4
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
   -
     github: dziakj1
     name: John J. Dziak
@@ -581,6 +723,12 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-11-11
+    manuscripts:
+      pathogenesis:
+        order: 4
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
   -
     github: kevinsunofficial
     name: Yuchen Sun
@@ -627,6 +775,11 @@ authors:
       lastapproved: !!str 2020-11-11
     funders:
       - the Center for Global Genomics and Health Equity at the University of Pennsylvania
+    manuscripts:
+      pathogenesis:
+        order: 4
+        contributions:
+          - Writing - Original Draft
   -
     github: tlukan
     name: Temitayo Lukan
@@ -653,12 +806,18 @@ authors:
       - Writing - Original Draft
       - Writing - Review & Editing
     affiliations:
-      - Georgia State University, GA, United States of America
+      - Georgia State University, Atlanta, GA, United States of America
     code of conduct:
       confirmed: yes
     coi:
       string: "None"
       lastapproved: !!str 2020-11-11
+    manuscripts:
+      pathogenesis:
+        order: 4
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
   -
     github: SystemsResearch
     name: Dimitri Perrin
@@ -687,12 +846,17 @@ authors:
     contributions:
       - Writing - Review & Editing
     affiliations:
-      - Department of Clinical Pharmacy, School of Pharmacy, University of Southern California, CA, United States of America
+      - Department of Clinical Pharmacy, School of Pharmacy, University of Southern California, Los Angeles, CA, United States of America
     code of conduct:
       confirmed: Yes
     coi:
       string: "None"
       lastapproved: !!str 2020-11-11
+    manuscripts:
+      pathogenesis:
+        order: 7
+        contributions:
+          - Writing - Review & Editing
   -
     github: shiktadas
     name: Shikta Das
@@ -726,6 +890,11 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-11-16
+    manuscripts:
+      pathogenesis:
+        order: 7
+        contributions:
+          - Writing - Review & Editing
   -
     github: lubianat
     name: Tiago Lubiana
@@ -742,6 +911,11 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-11-11
+    manuscripts:
+      pathogenesis:
+        order: 7
+        contributions:
+          - Writing - Review & Editing
   -
     github: davemai
     name: David Mai
@@ -759,3 +933,41 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2021-01-08
+    manuscripts:
+      pathogenesis:
+        order: 5
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
+  -
+    name: COVID-19 Review Consortium
+    code of conduct:
+      confirmed: Yes
+    coi:
+      string: "None"
+      lastapproved: !!str 2021-01-16
+    consortium: Yes
+    manuscripts:
+      pathogenesis:
+        order: 8
+        contributions:
+          - Project Administration
+  -
+    name: Rishi Raj Goel
+    initials: RRG
+    orcid: https://orcid.org/0000-0003-1715-5191
+    email: rishi.goel@pennmedicine.upenn.edu
+    twitter: rishirajgoel
+    code of conduct:
+      confirmed: Yes
+    affiliations:
+      - Institute for Immunology, University of Pennsylvania, Philadelphia, PA, United States of America
+    coi:
+      string: "None"
+      lastapproved: !!str 2021-01-20
+    manuscripts:
+      pathogenesis:
+        order: 7
+        contributions:
+          - Writing - Original Draft
+          - Writing - Review & Editing
