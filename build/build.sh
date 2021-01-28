@@ -16,15 +16,21 @@ EXTERNAL_RESOURCES_COMMIT=$(curl -sS https://api.github.com/repos/greenelab/covi
 echo >&2 "Using external-resources commit $EXTERNAL_RESOURCES_COMMIT"
 
 # Generate reference information
-echo >&2 "Retrieving and processing reference metadata"
-manubot process \
-  --content-directory=content \
-  --output-directory=output \
-  --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/csse/csse-stats.json \
-  --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/ebmdatalab/ebmdatalab-stats.json \
-  --cache-directory=ci/cache \
-  --skip-citations \
-  --log-level=INFO
+# Can skip this step if only building the individual manuscripts
+if [ "${BUILD_HTML:-}" != "false" ] || [ "${BUILD_PDF:-}" != "false" ] || [ "${BUILD_DOCX:-}" = "true" ]; then
+  echo >&2 "Updating contributions for merged manuscript"
+  python build/update-author-metadata.py --keyword=merged --path=content/metadata.yaml
+
+  echo >&2 "Retrieving and processing reference metadata"
+  manubot process \
+    --content-directory=content \
+    --output-directory=output \
+    --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/csse/csse-stats.json \
+    --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/ebmdatalab/ebmdatalab-stats.json \
+    --cache-directory=ci/cache \
+    --skip-citations \
+    --log-level=INFO
+fi
 
 # Pandoc's configuration is specified via files of option defaults
 # located in the $PANDOC_DATA_DIR/defaults directory.
@@ -35,11 +41,14 @@ mkdir -p output
 
 # Create HTML output
 # https://pandoc.org/MANUAL.html
-echo >&2 "Exporting HTML manuscript"
-pandoc --verbose \
-  --data-dir="$PANDOC_DATA_DIR" \
-  --defaults=common.yaml \
-  --defaults=html.yaml
+if [ "${BUILD_HTML:-}" != "false" ]; then
+  echo >&2 "Exporting HTML manuscript"
+  pandoc --verbose \
+    --data-dir="$PANDOC_DATA_DIR" \
+    --defaults=common.yaml \
+    --defaults=html.yaml \
+    output/manuscript.md
+fi
 
 # Set DOCKER_RUNNING to a non-empty string if docker is running, otherwise null.
 DOCKER_RUNNING="$(docker info &> /dev/null && echo "yes" || true)"
@@ -54,12 +63,18 @@ if [ "${BUILD_PDF:-}" != "false" ] && [ -z "$DOCKER_RUNNING" ]; then
     --data-dir="$PANDOC_DATA_DIR" \
     --defaults=common.yaml \
     --defaults=html.yaml \
-    --defaults=pdf-weasyprint.yaml
+    --defaults=pdf-weasyprint.yaml \
+    output/manuscript.md
   rm images
 fi
 
 # If Docker is available, use athenapdf to create PDF
 if [ "${BUILD_PDF:-}" != "false" ] && [ -n "$DOCKER_RUNNING" ]; then
+  if [ ! -f output/manuscript.html ]; then
+    echo >&2 "Missing file output/manuscript.html. Set BUILD_HTML environment variable to true."
+    exit 1
+  fi
+
   echo >&2 "Exporting PDF manuscript using Docker + Athena"
   if [ "${CI:-}" = "true" ]; then
     # Incease --delay for CI builds to ensure the webpage fully renders, even when the CI server is under high load.
@@ -88,7 +103,8 @@ if [ "${BUILD_DOCX:-}" = "true" ]; then
   pandoc --verbose \
     --data-dir="$PANDOC_DATA_DIR" \
     --defaults=common.yaml \
-    --defaults=docx.yaml
+    --defaults=docx.yaml \
+    output/manuscript.md
 fi
 
 # Spellcheck
@@ -139,6 +155,58 @@ if [ "${LITSEARCH:-}" = "true" ]; then
   # 'remote: error: File AllenAI-metadata.csv.gz is 102.43 MB; this exceeds GitHub's file size limit of 100.00 MB'
   #echo >&2 "Getting ALLEN AI metadata and combining it with the sources cross-reference output and additional data from bioRxiv"
   #python build/litsearch/combineDataSets.py
+fi
+
+# Build DOCX outputs for individual manuscripts
+# Builds all manuscripts listed in content/individual-manuscript.txt
+# Expect one individual manuscript keyword (e.g. pathogenesis) per line
+# Strip trailing whitespace
+if [ "${BUILD_INDIVIDUAL:-}" = "true" ]; then
+  for INDIVIDUAL_KEYWORD in $(cat content/individual-manuscripts.txt | sed 's/[[:space:]]*$//'); do
+    echo >&2 "Exporting Word Docx $INDIVIDUAL_KEYWORD manuscript"
+
+    # Copy all content, then remove all markdown files not needed for the individual manuscript
+    mkdir -p content/$INDIVIDUAL_KEYWORD
+    # Ignore errors about not copying directories
+    cp content/* content/$INDIVIDUAL_KEYWORD || true
+    cp -r content/images/ content/$INDIVIDUAL_KEYWORD
+    find content/$INDIVIDUAL_KEYWORD -type f \( -not -name "*$INDIVIDUAL_KEYWORD*" -and -not -name "*matter*" -and -not -name "*contribs*" -and -name "*.md" \) | xargs rm
+
+    # Select the authors for the individual manuscript
+    python build/update-author-metadata.py --keyword $INDIVIDUAL_KEYWORD --path content/$INDIVIDUAL_KEYWORD/metadata.yaml
+
+    # Use the first line of the Markdown file as the manuscript title, overriding the title from metadata.yaml
+    INDIVIDUAL_TITLE=$(head --lines 1 content/$INDIVIDUAL_KEYWORD/*.$INDIVIDUAL_KEYWORD.md | sed 's/^#*\ //')
+    INDIVIDUAL_MARKDOWN=$(find content/$INDIVIDUAL_KEYWORD/*.$INDIVIDUAL_KEYWORD.md)
+    # Remove the section title from the start of the individual manuscript
+    tail -n +2 $INDIVIDUAL_MARKDOWN > $INDIVIDUAL_MARKDOWN.tmp && mv $INDIVIDUAL_MARKDOWN.tmp $INDIVIDUAL_MARKDOWN
+
+    # Set a variable indicating which individual manuscript is being processed
+    # This is used to modify some of of the boilerplate Markdown, like the front matter
+    echo "individual: $INDIVIDUAL_KEYWORD" >> content/$INDIVIDUAL_KEYWORD/$INDIVIDUAL_KEYWORD.yaml
+
+    echo >&2 "Retrieving and processing reference metadata for the $INDIVIDUAL_KEYWORD manuscript"
+    manubot process \
+      --content-directory=content/$INDIVIDUAL_KEYWORD \
+      --output-directory=output/$INDIVIDUAL_KEYWORD \
+      --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/csse/csse-stats.json \
+      --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/ebmdatalab/ebmdatalab-stats.json \
+      --template-variables-path=content/$INDIVIDUAL_KEYWORD/$INDIVIDUAL_KEYWORD.yaml \
+      --cache-directory=ci/cache \
+      --skip-citations \
+      --log-level=INFO
+
+    pandoc --verbose \
+      --data-dir="$PANDOC_DATA_DIR" \
+      --defaults=common.yaml \
+      --defaults=docx.yaml \
+      --metadata=title:"$INDIVIDUAL_TITLE" \
+      output/$INDIVIDUAL_KEYWORD/manuscript.md
+      mv output/manuscript.docx output/$INDIVIDUAL_KEYWORD-manuscript.docx
+
+    rm -rf content/$INDIVIDUAL_KEYWORD
+    rm -rf output/$INDIVIDUAL_KEYWORD
+  done
 fi
 
 echo >&2 "Build complete"

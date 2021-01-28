@@ -217,6 +217,7 @@ Fengling
 FiO
 Fibrinogen
 Flaviviridae
+FO
 Fu
 GBMF
 GFP
@@ -233,6 +234,7 @@ Ghebreyesus
 Ghosh
 Gitter
 Glycoprotein
+Goel
 GreeneScientist
 Guangdong
 Guebila
@@ -251,6 +253,7 @@ HDAC
 HDL
 HEK
 HGF
+Himmelstein
 HKU
 HL
 HLA
@@ -283,6 +286,7 @@ IFNB
 IFNs
 IFNy
 IFR
+IFRs
 IG
 IGs
 IHC
@@ -411,6 +415,7 @@ NHGRI
 NK
 NKRF
 NL
+NLP
 NLR
 NLRC
 NLRP
@@ -453,6 +458,7 @@ PRKCD
 PRNT
 PRRs
 PUFA
+PUFAs
 PUMC
 PaO
 Palivizumab
@@ -480,6 +486,7 @@ RBD
 RBDs
 RBM
 RCT
+RCTs
 RLordan
 RNAemia
 RNAs
@@ -491,23 +498,27 @@ RTRPA
 RaTG
 Radiographic
 Rafizadeh
+Raj
 Ramsundar
 Rando
 Rapamycin
 Ras
 RdRP
 Readme
+Regeneron
 Renmin
 Resus
 Retinopathy
 Rhinolophus
 Ribavirin
 Rimmer
+Rishi
 Ronan
 RosettaMHC
 RosettaScripts
 Rossjohn
 Ruan
+Rubinetti
 SAA
 SAR
 SARC
@@ -750,6 +761,7 @@ coagulative
 coagulopathy
 cobicistat
 coevolution
+colloidal
 colonocytes
 colorectal
 colorimetric
@@ -803,6 +815,7 @@ dihydroxyvitamin
 dimerization
 dimorphism
 disaggregate
+dl
 docosahexaenoic
 doi
 downregulated
@@ -823,6 +836,7 @@ ebselen
 ebselen's
 ectodomain
 effector
+eicosanoids
 eicosapentaenoic
 el
 encephalomyelitis
@@ -861,6 +875,7 @@ floxed
 fluorescently
 fluoro
 fluticasone
+fnx
 foci
 follicular
 fomite
@@ -877,6 +892,7 @@ ggjvr
 ggkd
 ggks
 ggnzmc
+ggvd
 github
 glomerular
 glomeruli
@@ -920,6 +936,7 @@ hydroxyvitamin
 hyperglycemic
 hyperinflammation
 hypoalbuminemia
+hypogammaglobulinemia
 hypoproteinemia
 hypoxia
 iCre
@@ -1098,6 +1115,7 @@ naïve
 necropsies
 neuraminic
 neuraminidase
+neurodegenerative
 neutropenia
 neutrophil
 neutrophilia
@@ -1130,6 +1148,7 @@ organoids
 organoselenium
 othered
 othering
+outcompeting
 overexpressing
 overexpression
 overexuberant
@@ -1266,6 +1285,7 @@ ribonucleoside
 ribonucleotide
 ribosomal
 ribosomes
+rishirajgoel
 ritonavir
 rmrussell
 rootstock
@@ -1333,7 +1353,7 @@ survivorship
 sustentacular
 svg
 svgs
-symptomology
+symptomatology
 Synairgen
 syncytial
 syndemic
