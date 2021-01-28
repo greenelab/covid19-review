@@ -16,6 +16,10 @@ Format conversion is done using [Pandoc](https://pandoc.org/MANUAL.html).
 Each file specifies a set of pandoc `--defaults` options for a given format.
 To change the options, either edit the YAML files directly or add additional `--defaults` files.
 
+If the `BUILD_HTML` or `BUILD_PDF` environment variables are not false or the `BUILD_DOCX` environment variable is set to `true`, the build script will produce a merged manuscript with content from all individual manuscripts.
+If the `BUILD_INDIVIDUAL` environment variable is set to `true`, a DOCX file for each individual manuscript will be created.
+The individual manuscripts to build are specified in the file `content/individual-manuscripts.txt`.
+
 ## Environment
 
 Note: currently, **Windows is not supported**.

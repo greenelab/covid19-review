@@ -250,12 +250,30 @@ code of conduct:
   confirmed: No #change to Yes to indicate that you have read & agree to follow the code of conduct
 coi:
   string: "None" #mandatory - update with any relevant conflicts of interest
-  lastapproved: !!str 2020-XX-XX #mandatory - update to current date
+  lastapproved: !!str 2021-MM-DD #mandatory - update to current date
 funders:
   - GBMF4552  # optional list of author's funding
+consortium: Yes # optional Boolean variable indicating this is a consortium author
+manuscripts: # mandatory dictionary of which individual mauscripts the author contributed to
+  pathogenesis: # keyword indicating an individual manuscript
+    order: 1 # the author order for this individual manuscript
+    contributions: # a list of contributions for this individual manuscript
+      - Writing - Original Draft
+      - Writing - Review & Editing
+      - Project Administration
+  evolution:
+    order: 2
+    contributions:
+      - Writing - Review & Editing
+      - Visualization
 ```
 
 Note that `affiliations` should be a list to allow for multiple affiliations per author.
+
+The metadata is processed by `build/update-author-metadata.py` before building the merged or individual manuscripts.
+For the merged manuscript, the contributions are the union of all contributions of all individual manuscripts or the general contributions if the author is not an author of any individual manuscript.
+For an individual manuscript, only authors with the manuscript keyword are included in the author list.
+All authors are included in the consortium, except those that are already a consortium name as indicated by `consortium: Yes`.
 
 ### Thumbnail
 
