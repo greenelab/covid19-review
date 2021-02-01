@@ -22,6 +22,7 @@ Agostino
 Akt
 Alexandropoulos
 Allograft
+Amazonas
 Anhui
 ApoA
 Arbidol
@@ -379,6 +380,7 @@ MacLean
 Macromolecular
 Macrophage
 Madin
+Manaus
 Magen
 Mahmood
 Manheim
@@ -395,6 +397,7 @@ Merad
 Miknis
 Mitogen
 Moderna
+Moderna’s
 ModernaTX
 Monophosphoryl
 Moreira
@@ -528,6 +531,7 @@ SEIR
 SEPPA
 SEYAR
 SL
+SMQ
 SNG
 SNP
 SPM
@@ -582,10 +586,12 @@ TUNEL
 Taguchi
 Tamar
 TaqMan
+TaqPath
 Tedros
 Telangana
 Temitayo
 TfH
+ThermoFisher
 Thevarajan
 Tiago
 Tian
@@ -605,6 +611,8 @@ Umland
 UniProt
 VH
 VL
+VOC
+VOCs
 VPM
 VSV
 VWF
@@ -690,6 +698,7 @@ antiproliferative
 antithrombotic
 arXiv
 arrhythmias
+ascendency
 aspartate
 asymptomatically
 atazanavir
@@ -1005,6 +1014,7 @@ investigational
 ionophores
 isbn
 ismms
+isogenic
 isotachophoresis
 isothermal
 isotype
@@ -1311,6 +1321,7 @@ seroconverted
 serologic
 serological
 seronegative
+seropositive
 seroprevalence
 serosurvey
 serosurveys

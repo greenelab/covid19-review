@@ -13,7 +13,7 @@ authors:
     initials: HMR
     orcid: 0000-0001-7688-1770
     twitter: tamefoxtime
-    email: halie.rando@pennmedicine.upenn.edu
+    email: halie.rando@cuanschutz.edu
     contributions:
       - Project Administration
       - Writing - Original Draft
@@ -36,6 +36,11 @@ authors:
           - Project Administration
           - Writing - Original Draft
           - Writing - Review & Editing
+      nutraceuticals:
+        order: 2
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
       evolution:
         order: 1
         contributions:
@@ -66,7 +71,7 @@ authors:
       - Center for Health AI, University of Colorado School of Medicine, Aurora, Colorado, United States of America
     coi:
       string: "None"
-      lastapproved: !!str 2020-01-20
+      lastapproved: !!str 2021-01-20
     funders:
       - the Gordon and Betty Moore Foundation (GBMF 4552)
       - the National Human Genome Research Institute (R01 HG010067)
@@ -77,6 +82,11 @@ authors:
           - Conceptualization
           - Software
           - Writing - Review & Editing
+      nutraceuticals:
+        order: 4
+        contributions:
+          - Project Administration
+          - Supervision
   -
     github: mprobson
     name: Michael P. Robson
@@ -160,6 +170,13 @@ authors:
         order: 6
         contributions:
           - Writing - Review & Editing
+      nutraceuticals:
+        order: 1
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
+          - Conceptualization
+          - Project Administration
   -
     github: cbrueffer
     name: Christian Brueffer
@@ -952,7 +969,12 @@ authors:
         order: 8
         contributions:
           - Project Administration
+      nutraceuticals:
+        order: 3
+        contributions:
+          - Project Administration
   -
+    github: rishirajgoel
     name: Rishi Raj Goel
     initials: RRG
     orcid: https://orcid.org/0000-0003-1715-5191
