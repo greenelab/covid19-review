@@ -722,6 +722,7 @@ biologics
 biomarker
 biomarkers
 biomedicine
+BioNTech
 bioorganometallic
 biospecimen
 biospecimens
@@ -866,6 +867,7 @@ epigenetics
 epithelia
 epitope
 epitopes
+erythema
 erythematosus
 esell
 estradiol
@@ -1048,6 +1050,7 @@ lopinavir
 lubianat
 lymphocytic
 lymphocytopenia
+lymphadenopathy
 lymphokines
 lymphopenia
 lymphoplasmacytic
@@ -1286,6 +1289,7 @@ representativeness
 repressor
 reproducibility
 repurpose
+repurposed
 repurposing
 resolvins
 respirations
