@@ -1,8 +1,0 @@
-content/20.pharmaceuticals.md:818:AstraZeneca
-content/20.pharmaceuticals.md:822:Janssen’s
-content/20.pharmaceuticals.md:828:CoronaVac
-content/20.pharmaceuticals.md:828:SinoVac's
-content/20.pharmaceuticals.md:831:Sinopharm
-content/20.pharmaceuticals.md:837:Novavax
-content/20.pharmaceuticals.md:837:NVX
-content/21.nutraceuticals.md:6:repurposed
