@@ -28,6 +28,7 @@ ApoA
 Arbidol
 Ashwin
 Assaf
+AstraZeneca
 Avigan
 BAL
 BALF
@@ -130,6 +131,7 @@ Colonic
 Colson
 Comput
 ConSurf
+CoronaVac
 Coronaviridae
 Coronavirus
 CpG
@@ -312,6 +314,7 @@ JJF
 JSON
 Jadavji
 Jang
+Janssen’s
 Jeliazkov
 Jeon
 Jinyintan
@@ -399,6 +402,7 @@ Mitogen
 Moderna
 Moderna’s
 ModernaTX
+ModernaTX’s
 Monophosphoryl
 Moreira
 Moretti
@@ -437,7 +441,9 @@ Neutrophils
 Nidovirales
 Nie
 Nils
+Novavax
 Nutraceuticals
+NVX
 OC
 ODSP
 Orf
@@ -560,6 +566,8 @@ Silmitasertib
 Simeprevir
 Simina
 SiminaB
+Sinopharm
+SinoVac’s
 SinsOfOmission
 Skelly
 Soumita
