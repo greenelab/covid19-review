@@ -115,7 +115,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -133,7 +133,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -336,7 +336,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -354,7 +354,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -447,7 +447,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -465,7 +465,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -483,7 +483,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -612,7 +612,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -630,7 +630,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -686,7 +686,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -704,7 +704,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -758,7 +758,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -849,7 +849,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -905,7 +905,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -960,7 +960,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -979,7 +979,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -997,7 +997,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -1126,7 +1126,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -1255,7 +1255,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -1273,7 +1273,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -1402,7 +1402,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -1420,7 +1420,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -1438,7 +1438,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -22159,6 +22159,9 @@
     },
     "container-title": "Nature Neuroscience",
     "DOI": "10.1038/s41593-020-00758-5",
+    "volume": "24",
+    "issue": "2",
+    "page": "168-175",
     "publisher": "Springer Science and Business Media LLC",
     "title": "Olfactory transmucosal SARS-CoV-2 invasion as a port of central nervous system entry in individuals with COVID-19",
     "URL": "https://doi.org/fk46",
@@ -45994,7 +45997,7 @@
       },
       {
         "family": "Barnes",
-        "given": "Christopher O"
+        "given": "Christopher O."
       },
       {
         "family": "Finkin",
@@ -46014,11 +46017,11 @@
       },
       {
         "family": "Lieberman",
-        "given": "Jenna A"
+        "given": "Jenna A."
       },
       {
         "family": "Oliveira",
-        "given": "Thiago Y"
+        "given": "Thiago Y."
       },
       {
         "family": "Yang",
@@ -46026,11 +46029,11 @@
       },
       {
         "family": "Abernathy",
-        "given": "Morgan E"
+        "given": "Morgan E."
       },
       {
         "family": "Huey-Tubman",
-        "given": "Kathryn E"
+        "given": "Kathryn E."
       },
       {
         "family": "Hurley",
@@ -46042,7 +46045,7 @@
       },
       {
         "family": "West",
-        "given": "Kamille A"
+        "given": "Kamille A."
       },
       {
         "family": "Gordon",
@@ -46050,15 +46053,15 @@
       },
       {
         "family": "Millard",
-        "given": "Katrina G"
+        "given": "Katrina G."
       },
       {
         "family": "Ramos",
         "given": "Victor"
       },
       {
-        "family": "Silva",
-        "given": "Justin Da"
+        "family": "Da Silva",
+        "given": "Justin"
       },
       {
         "family": "Xu",
@@ -46066,7 +46069,7 @@
       },
       {
         "family": "Colbert",
-        "given": "Robert A"
+        "given": "Robert A."
       },
       {
         "family": "Patel",
@@ -46074,10 +46077,10 @@
       },
       {
         "family": "Dizon",
-        "given": "Juan P"
+        "given": "Juan"
       },
       {
-        "family": "Unson-O'Brien",
+        "family": "Unson-O’Brien",
         "given": "Cecille"
       },
       {
@@ -46094,7 +46097,7 @@
       },
       {
         "family": "Bjorkman",
-        "given": "Pamela J"
+        "given": "Pamela J."
       },
       {
         "family": "Casellas",
@@ -46106,11 +46109,11 @@
       },
       {
         "family": "Bieniasz",
-        "given": "Paul D"
+        "given": "Paul D."
       },
       {
         "family": "Nussenzweig",
-        "given": "Michel C"
+        "given": "Michel C."
       }
     ],
     "issued": {
@@ -46122,7 +46125,7 @@
         ]
       ]
     },
-    "abstract": "To date severe acute respiratory syndrome coronavirus-2 (SARS-CoV-2) has infected nearly 100 million individuals resulting in over two million deaths. Many vaccines are being deployed to prevent coronavirus disease-2019 (COVID-19) including two novel mRNA-based vaccines. These vaccines elicit neutralizing antibodies and appear to be safe and effective, but the precise nature of the elicited antibodies is not known. Here we report on the antibody and memory B cell responses in a cohort of 20 volunteers who received either the Moderna (mRNA-1273) or Pfizer-BioNTech (BNT162b2) vaccines. Consistent with prior reports, 8 weeks after the second vaccine injection volunteers showed high levels of IgM, and IgG anti-SARS-CoV-2 spike protein (S), receptor binding domain (RBD) binding titers. Moreover, the plasma neutralizing activity, and the relative numbers of RBD-specific memory B cells were equivalent to individuals who recovered from natural infection. However, activity against SARS-CoV-2 variants encoding E484K or N501Y or the K417N:E484K:N501Y combination was reduced by a small but significant margin. Consistent with these findings, vaccine-elicited monoclonal antibodies (mAbs) potently neutralize SARS-CoV-2, targeting a number of different RBD epitopes epitopes in common with mAbs isolated from infected donors. Structural analyses of mAbs complexed with S trimer suggest that vaccine- and virus-encoded S adopts similar conformations to induce equivalent anti-RBD antibodies. However, neutralization by 14 of the 17 most potent mAbs tested was reduced or abolished by either K417N, or E484K, or N501Y mutations. Notably, the same mutations were selected when recombinant vesicular stomatitis virus (rVSV)/SARS-CoV-2 S was cultured in the presence of the vaccine elicited mAbs. Taken together the results suggest that the monoclonal antibodies in clinical use should be tested against newly arising variants, and that mRNA vaccines may need to be updated periodically to avoid potential loss of clinical efficacy.",
+    "abstract": "To date severe acute respiratory syndrome coronavirus-2 (SARS-CoV-2) has infected over 100 million individuals resulting in over two million deaths. Many vaccines are being deployed to prevent coronavirus disease 2019 (COVID-19) including two novel mRNA-based vaccines . These vaccines elicit neutralizing antibodies and appear to be safe and effective, but the precise nature of the elicited antibodies is not known . Here we report on the antibody and memory B cell responses in a cohort of 20 volunteers who received either the Moderna (mRNA-1273) or Pfizer-BioNTech (BNT162b2) vaccines. Consistent with prior reports, 8 weeks after the second vaccine injection volunteers showed high levels of IgM, and IgG anti-SARS-CoV-2 spike protein (S) and receptor binding domain (RBD) binding titers . Moreover, the plasma neutralizing activity, and the relative numbers of RBD-specific memory B cells were equivalent to individuals who recovered from natural infection . However, activity against SARS-CoV-2 variants encoding E484K or N501Y or the K417N:E484K:N501Y combination was reduced by a small but significant margin. Consistent with these findings, vaccine-elicited monoclonal antibodies (mAbs) potently neutralize SARS-CoV-2, targeting a number of different RBD epitopes in common with mAbs isolated from infected donors. Structural analyses of mAbs complexed with S trimer suggest that vaccine- and virus-encoded S adopts similar conformations to induce equivalent anti-RBD antibodies. However, neutralization by 14 of the 17 most potent mAbs tested was reduced or abolished by either K417N, or E484K, or N501Y mutations. Notably, the same mutations were selected when recombinant vesicular stomatitis virus (rVSV)/SARS-CoV-2 S was cultured in the presence of the vaccine elicited mAbs. Taken together the results suggest that the monoclonal antibodies in clinical use should be tested against newly arising variants, and that mRNA vaccines may need to be updated periodically to avoid potential loss of clinical efficacy.",
     "container-title": "Cold Spring Harbor Laboratory",
     "DOI": "10.1101/2021.01.15.426911",
     "publisher": "Cold Spring Harbor Laboratory",
@@ -56198,8 +56201,6 @@
     "publisher": "Public Library of Science (PLoS)",
     "title": "The efficacy and safety of hydroxychloroquine for COVID-19 prophylaxis: A systematic review and meta-analysis of randomized trials",
     "URL": "https://doi.org/ghsv36",
-    "PMCID": "PMC7787432",
-    "PMID": "33406138",
     "note": "This CSL JSON Item was automatically generated by Manubot v0.4.1 using citation-by-identifier.\nstandard_id: doi:10.1371/journal.pone.0244778"
   },
   {
@@ -58586,7 +58587,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -58628,7 +58629,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -62544,7 +62545,6 @@
     "publisher": "Daedalus Enterprises",
     "title": "Immunonutrition for Adults With ARDS: Results From a Cochrane Systematic Review and Meta-Analysis",
     "URL": "https://doi.org/fj2p",
-    "PMID": "31506339",
     "note": "This CSL JSON Item was automatically generated by Manubot v0.4.1 using citation-by-identifier.\nstandard_id: doi:10.4187/respcare.06965"
   },
   {
@@ -63430,7 +63430,7 @@
         [
           2021,
           2,
-          1
+          2
         ]
       ]
     },
@@ -63718,7 +63718,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     }
@@ -63865,7 +63865,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -63880,7 +63880,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -63914,7 +63914,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -63930,7 +63930,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -63946,7 +63946,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -63962,7 +63962,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -63978,7 +63978,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -63997,7 +63997,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -64014,7 +64014,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -64073,7 +64073,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -64174,7 +64174,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -64183,7 +64183,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     }
@@ -64212,7 +64212,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     }
@@ -64276,7 +64276,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -64482,8 +64482,8 @@
       "date-parts": [
         [
           "2021",
-          1,
-          30
+          2,
+          1
         ]
       ]
     },
@@ -64492,7 +64492,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -64550,7 +64550,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -64567,7 +64567,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -64584,7 +64584,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -64631,7 +64631,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -64648,7 +64648,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -64705,7 +64705,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -64753,7 +64753,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -64782,7 +64782,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -64810,7 +64810,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -64838,7 +64838,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -64866,7 +64866,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -64894,7 +64894,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -64912,7 +64912,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -64929,7 +64929,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -64939,13 +64939,13 @@
     "id": "3Hg8dHMg",
     "type": "webpage",
     "title": "Bloomberg - Are you a robot?",
-    "URL": "https://www.bloomberg.com/tosv2.html?vid=&uuid=453207e0-649a-11eb-9fad-e3e8a5f2d8cd&url=L3ByZXNzLXJlbGVhc2VzLzIwMjAtMDgtMDMvcHJvYmlvdGljcy1tYXJrZXQtd29ydGgtNzYtNy1iaWxsaW9uLWJ5LTIwMjctZXhjbHVzaXZlLXJlcG9ydC1jb3ZlcmluZy1wcmUtYW5kLXBvc3QtY292aWQtMTktbWFya2V0LWFuYWx5c2lzLWJ5LW1ldGljdWxvdXM=",
+    "URL": "https://www.bloomberg.com/tosv2.html?vid=&uuid=fcbd0ae0-6562-11eb-8f42-7d63f2512019&url=L3ByZXNzLXJlbGVhc2VzLzIwMjAtMDgtMDMvcHJvYmlvdGljcy1tYXJrZXQtd29ydGgtNzYtNy1iaWxsaW9uLWJ5LTIwMjctZXhjbHVzaXZlLXJlcG9ydC1jb3ZlcmluZy1wcmUtYW5kLXBvc3QtY292aWQtMTktbWFya2V0LWFuYWx5c2lzLWJ5LW1ldGljdWxvdXM=",
     "accessed": {
       "date-parts": [
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -64974,7 +64974,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -64998,7 +64998,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -65047,7 +65047,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -65081,7 +65081,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -65115,7 +65115,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -65149,7 +65149,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -65183,7 +65183,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -65217,7 +65217,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -65251,7 +65251,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -65270,7 +65270,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -65289,7 +65289,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -65383,7 +65383,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     }
@@ -65398,7 +65398,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -65417,7 +65417,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -65509,7 +65509,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -65544,7 +65544,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -65622,7 +65622,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -65658,7 +65658,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -65693,7 +65693,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -65728,7 +65728,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -65756,7 +65756,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -65773,7 +65773,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -65789,7 +65789,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -65805,7 +65805,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -65840,7 +65840,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -65874,7 +65874,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -65892,7 +65892,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -65964,7 +65964,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -65989,7 +65989,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -66015,64 +66015,25 @@
     "note": "This CSL JSON Item was automatically generated by Manubot v0.4.0 using citation-by-identifier.\nstandard_id: url:https://www.mcri.edu.au/BRACE\nThis CSL JSON Item was loaded by Manubot v0.4.1 from a manual reference file.\nmanual_reference_filename: manual-references.json"
   },
   {
-    "id": "7fZ9eyMk",
-    "type": "webpage",
+    "URL": "https://www.ncbi.nlm.nih.gov/books/NBK349513/table/T43",
     "title": "Table 1, Cost-Comparison Table for Biologic Disease-Modifying Drugs for Rheumatoid Arthritis",
-    "genre": "Text",
-    "URL": "https://www.ncbi.nlm.nih.gov/books/NBK349513/table/T43/",
-    "language": "en",
-    "author": [
-      {
-        "family": "Information",
-        "given": "National Center for Biotechnology"
-      },
-      {
-        "family": "Pike",
-        "given": "U. S. National Library of Medicine 8600 Rockville"
-      },
-      {
-        "family": "MD",
-        "given": "Bethesda"
-      },
-      {
-        "family": "Usa",
-        "given": "20894"
-      }
-    ],
     "issued": {
       "date-parts": [
         [
-          "2015",
+          2015,
           8
         ]
       ]
     },
-    "accessed": {
-      "date-parts": [
-        [
-          "2021",
-          2,
-          1
-        ]
-      ]
-    },
+    "type": "webpage",
+    "id": "7fZ9eyMk",
     "note": "This CSL JSON Item was automatically generated by Manubot v0.4.1 using citation-by-identifier.\nstandard_id: url:https://www.ncbi.nlm.nih.gov/books/NBK349513/table/T43"
   },
   {
-    "id": "RrqhkfKV",
-    "type": "webpage",
-    "title": "Home - Genome - NCBI",
-    "abstract": "This resource organizes information on genomes including sequences, maps, chromosomes, assemblies, and annotations.",
     "URL": "https://www.ncbi.nlm.nih.gov/genome",
-    "accessed": {
-      "date-parts": [
-        [
-          "2021",
-          2,
-          1
-        ]
-      ]
-    },
+    "title": "Home - Genome - NCBI",
+    "type": "webpage",
+    "id": "RrqhkfKV",
     "note": "This CSL JSON Item was automatically generated by Manubot v0.4.1 using citation-by-identifier.\nstandard_id: url:https://www.ncbi.nlm.nih.gov/genome"
   },
   {
@@ -66087,7 +66048,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -66106,7 +66067,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -66124,7 +66085,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -66156,7 +66117,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -66182,7 +66143,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -66208,7 +66169,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -66226,7 +66187,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -66244,7 +66205,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -66281,7 +66242,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -66334,7 +66295,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -66400,7 +66361,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -66419,7 +66380,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -66461,7 +66422,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -66507,7 +66468,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -66592,7 +66553,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -66609,7 +66570,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -66627,7 +66588,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
@@ -66752,7 +66713,7 @@
         [
           "2021",
           2,
-          1
+          2
         ]
       ]
     },
