@@ -13,7 +13,7 @@ For basic formatting, check out the [CommonMark Help](https://commonmark.org/hel
 In addition, Manubot supports an extended version of markdown, tailored for scholarly writing, which includes [Pandoc's Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown) and the extensions discussed below.
 
 The `content/02.delete-me.md` file in the Rootstock repository shows many of the elements and formatting options supported by Manubot.
-See the [raw markdown](https://gitlab.com/manubot/rootstock/blob/master/content/02.delete-me.md#L) in this file and compare it to the [rendered manuscript](https://manubot.github.io/rootstock/).
+See the [raw markdown](https://gitlab.com/manubot/rootstock/blob/main/content/02.delete-me.md#L) in this file and compare it to the [rendered manuscript](https://manubot.github.io/rootstock/).
 
 Within a paragraph in markdown, single newlines are interpreted as whitespace (same as a space).
 A paragraph's source does not need to contain newlines.
@@ -110,6 +110,19 @@ When choosing which source to use for a citation, we recommend the following ord
 9. For references that do not have any of the above persistent identifiers, the citation key does not need to include a prefix.
    Citing `@old-manuscript` will work, but only if reference metadata is [provided manually](#reference-metadata).
 
+Manubot is able to infer certain prefixes,
+such some citations can be formatted like `@accession` (without a prefix).
+Examples includes DOIs like `@10.15363/thinklab.4` or `@10/993`,
+PMC / PubMed identifiers like `@PMC4497619` or `@26158728`,
+arXiv identifier like `@1508.06576v2`,
+and Wikidata identifiers like `@Q50051684`.
+To disable citekey prefix inference, add the following to `metadata.yaml`:
+
+```yaml
+pandoc:
+  manubot-infer-citekey-prefixes: false
+```
+
 Cite multiple items at once like:
 
 ```md
@@ -136,7 +149,7 @@ By default, `pandoc-manubot-cite` does not fail upon invalid citations, although
 
 ```yaml
 pandoc:
-  manubot-fail-on-errors: True
+  manubot-fail-on-errors: true
 ```
 
 #### Citation aliases
