@@ -714,6 +714,7 @@ autophagy
 avascular
 axillary
 azithromycin
+baloxavir
 bansalvi
 barcoding
 basophil
@@ -1078,6 +1079,7 @@ macrolides
 macromolecules
 mangul
 manubot
+marboxil
 marouenbg
 matfax
 mcg
