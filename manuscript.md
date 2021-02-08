@@ -248,13 +248,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/cf3b4928b9e4832a08448219bc243be5b02f530d/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/cf3b4928b9e4832a08448219bc243be5b02f530d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/cf3b4928b9e4832a08448219bc243be5b02f530d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/7018bd49ef370b789afb4d24f8c9bf612111024d/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/7018bd49ef370b789afb4d24f8c9bf612111024d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/7018bd49ef370b789afb4d24f8c9bf612111024d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/cf3b4928b9e4832a08448219bc243be5b02f530d/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/cf3b4928b9e4832a08448219bc243be5b02f530d/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/7018bd49ef370b789afb4d24f8c9bf612111024d/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/7018bd49ef370b789afb4d24f8c9bf612111024d/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -276,9 +276,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/cf3b4928b9e4832a08448219bc243be5b02f530d/))
+([permalink](https://greenelab.github.io/covid19-review/v/7018bd49ef370b789afb4d24f8c9bf612111024d/))
 was automatically generated
-from [greenelab/covid19-review@cf3b492](https://github.com/greenelab/covid19-review/tree/cf3b4928b9e4832a08448219bc243be5b02f530d)
+from [greenelab/covid19-review@7018bd4](https://github.com/greenelab/covid19-review/tree/7018bd49ef370b789afb4d24f8c9bf612111024d)
 on February 8, 2021.
 </em></small>
 
@@ -1628,7 +1628,7 @@ Using RTRPA for amplification, another group detected 10 copies of synthetic SAR
 The DETECTR protocol was improved by combining RT-RPA and CRISPR-based detection in a one-pot reaction that incubates at a single temperature, and by using dual crRNAs (which increases sensitivity).
 This new assay, known as All-In-One Dual CRISPR-Cas12a (AIOD-CRISPR), detected 4.6 copies of SARS-CoV-2 RNA per &mu;l of input in 40 minutes [@doi:10.1101/2020.03.19.998724].
 Another single-tube, constant-temperature approach using Cas12b instead of Cas12a achieved a detection limit of 5 copies/&mu;l in 40-60 minutes [@doi:10.1101/2020.04.10.023358].
-It was also reported that that electric field gradients can be used to control and accelerate CRISPR assays by co-focusing Cas12-gRNA, reporters, and target [@doi:10.1101/2020.05.21.109637].
+It was also reported that electric field gradients can be used to control and accelerate CRISPR assays by co-focusing Cas12-gRNA, reporters, and target [@doi:10.1101/2020.05.21.109637].
 The authors generated an appropriate electric field gradient using a selective ionic focusing technique known as isotachophoresis (ITP) implemented on a microfluidic chip.
 They also used ITP for automated purification of target RNA from raw nasopharyngeal swab samples.
 Combining this ITP purification with loop-mediated isothermal amplification, their ITP-enhanced assay to achieved detection of SARS-CoV-2 RNA (from raw sample to result) in 30 minutes.
@@ -2730,7 +2730,7 @@ In coronaviruses specifically, _in vitro_ evidence has demonstrated that the com
 Currently, there are over twenty clinical trials registered with the intention to use zinc in a preventative or therapeutic manner for COVID-19.
 However, many of these trials proposed the use of zinc in conjunction with hydroxychloroquine and azithromycin [@clinicaltrials:NCT04370782; @clinicaltrials:NCT04377646; @clinicaltrials:NCT04395768; @clinicaltrials:NCT04373733], and it is not known how the lack of evidence supporting the use of hydroxychloroquine will affect investigation of zinc.
 One retrospective observational study of New York University Langone hospitals in New York compared outcomes among hospitalized COVID-19 patients administered hydroxychloroquine and azithromycin with zinc sulfate (n = 411) versus hydroxychloroquine and azithromycin alone (n = 521).
-Notably, zinc is the only treatment that was used in this trial that is still under consideration as a therapeutic agent due to to the lack of efficacy and potential adverse events associated with hydroxychloroquine and azithromycin against COVID-19 [@doi:10.1056/NEJMoa2019014; @doi:10.1371/journal.pone.0244778; @doi:10.1016/j.cmi.2020.08.022].
+Notably, zinc is the only treatment that was used in this trial that is still under consideration as a therapeutic agent due to the lack of efficacy and potential adverse events associated with hydroxychloroquine and azithromycin against COVID-19 [@doi:10.1056/NEJMoa2019014; @doi:10.1371/journal.pone.0244778; @doi:10.1016/j.cmi.2020.08.022].
 While the addition of zinc sulfate did not affect the duration of hospitalization, the length of ICU stays or patient ventilation duration, univariate analyses indicated that zinc did increase the frequency of patients discharged and decreased the requirement for ventilation, referrals to the ICU, mortality [@doi:10.1099/jmm.0.001250].
 However, a smaller retrospective study at Hoboken University Medical Center New Jersey failed to find an association between zinc supplementation and survival of hospitalized patients [@doi:10.1016/j.chest.2020.06.082].
 Therefore, whether zinc contributes to COVID-19 recovery remains unclear.
@@ -2843,7 +2843,7 @@ Despite vitamin D deficiency being a widespread issue in the United States [@doi
 These are just some examples of how public health guidance has responded to the emerging evidence regarding vitamin D and COVID-19.
 Outside of official recommendations, there is also evidence that individuals may be paying increased attention to their vitamin D levels, as a survey of Polish consumers showed that 56% of respondents used vitamin D during the pandemic [@doi:10.3390/nu13010054].
 However, some companies have used the emerging evidence surrounding vitamin D to sell products that claim to prevent and treat COVID-19, which in one incident required a federal court to intervene and issue an injunction barring the sale of vitamin-D-related products due to the lack of clinical data supporting these claims [@url:https://www.justice.gov/opa/pr/court-orders-georgia-defendants-stop-selling-vitamin-d-products-treatments-covid-19-and-other].
-It it clear that further studies and clinical trials are required to conclusively determine the prophylactic and therapeutic potential of vitamin D supplementation against COVID-19.
+It is clear that further studies and clinical trials are required to conclusively determine the prophylactic and therapeutic potential of vitamin D supplementation against COVID-19.
 Until such time that sufficient evidence emerges, individuals should follow their national guidelines surrounding vitamin D intake to achieve vitamin D sufficiency.
 
 ### Probiotics
