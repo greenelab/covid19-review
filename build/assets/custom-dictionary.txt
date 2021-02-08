@@ -948,6 +948,7 @@ hpi
 hufengling
 humoral
 hybridoma
+hydrocortisone
 hydrophilicity
 hydroxy
 hydroxycytidine
