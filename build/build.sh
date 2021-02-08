@@ -92,6 +92,7 @@ if [ "${BUILD_PDF:-}" != "false" ] && [ -n "$DOCKER_RUNNING" ]; then
     arachnysdocker/athenapdf:2.16.0 \
     athenapdf \
     --delay=${MANUBOT_ATHENAPDF_DELAY:-1100} \
+    --timeout=240 \
     --pagesize=A4 \
     manuscript.html manuscript.pdf
   rm -rf output/images
