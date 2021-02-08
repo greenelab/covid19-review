@@ -19,6 +19,7 @@
 <script>
   // start script
   function start() {
+    if (window.matchMedia('print')) return;
     // get citation elements
     const query = ".references div[id*='ref-']";
     const elements = document.querySelectorAll(query);
