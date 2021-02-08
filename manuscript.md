@@ -248,13 +248,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/b65cd7403acf1a7c38b98ecc3656e2c10b660f69/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/b65cd7403acf1a7c38b98ecc3656e2c10b660f69/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/b65cd7403acf1a7c38b98ecc3656e2c10b660f69/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/cf3b4928b9e4832a08448219bc243be5b02f530d/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/cf3b4928b9e4832a08448219bc243be5b02f530d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/cf3b4928b9e4832a08448219bc243be5b02f530d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/b65cd7403acf1a7c38b98ecc3656e2c10b660f69/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/b65cd7403acf1a7c38b98ecc3656e2c10b660f69/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/cf3b4928b9e4832a08448219bc243be5b02f530d/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/cf3b4928b9e4832a08448219bc243be5b02f530d/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -276,9 +276,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/b65cd7403acf1a7c38b98ecc3656e2c10b660f69/))
+([permalink](https://greenelab.github.io/covid19-review/v/cf3b4928b9e4832a08448219bc243be5b02f530d/))
 was automatically generated
-from [greenelab/covid19-review@b65cd74](https://github.com/greenelab/covid19-review/tree/b65cd7403acf1a7c38b98ecc3656e2c10b660f69)
+from [greenelab/covid19-review@cf3b492](https://github.com/greenelab/covid19-review/tree/cf3b4928b9e4832a08448219bc243be5b02f530d)
 on February 8, 2021.
 </em></small>
 
@@ -2313,14 +2313,16 @@ Additionally, dexamethasone is a widely available and affordable medication, rai
 <!-- TO DO: Check the status since this came out?-->
 
 The results of the RECOVERY trial's analysis of dexamethasone suggest that this therapeutic is effective primarily in patients who had been experiencing symptoms for at least seven days and patients who were not breathing independently [@doi:10.1056/NEJMoa2021436].
+A meta-analysis that evaluated the results of the RECOVERY trial alongside trials of other corticosteroids, such as hydrocortisone, similarly concluded that corticosteroids may be beneficial to patients with severe COVID-19 who are receiving oxygen supplementation [@doi:10.1053/j.jvca.2020.11.057].
 Thus, it seems likely that dexamethasone is useful for treating inflammation associated with immunopathy or cytokine release syndrome.
 In fact, corticosteroids such as dexamethasone are sometimes used to treat cytokine release syndrome (CRS) [@doi:10.1182/blood-2014-05-552729].
 It is not surprising that administration of an immunosuppressant would be most beneficial when the immune system was dysregulated towards inflammation.
 However, it is also unsurprising that care must be taken in administering an immunosuppressant to patients fighting a viral infection.
 In particular, the concern has been raised that treatment with dexamethasone might increase patient susceptibility to concurrent (e.g., nosocomial) infections [@doi:10.23812/20-EDITORIAL_1-5].
-Additionally, the drug could potentially slow viral clearance and inhibit patients' ability to develop antibodies to SARS-CoV-2 [@doi:10.23812/20-EDITORIAL_1-5; @doi:10/ggks86]. 
+Additionally, the drug could potentially slow viral clearance and inhibit patients' ability to develop antibodies to SARS-CoV-2 [@doi:10.23812/20-EDITORIAL_1-5; @doi:10/ggks86], and the lack of data about viral clearance has been put forward as a major limitation of the RECOVERY trial [@doi:10/ftk4].
 Furthermore, dexamethasone has been associated with side effects that include psychosis, glucocorticoid-induced diabetes, and avascular necrosis [@doi:10/ggks86], and the RECOVERY trial did not report outcomes with enough detail to be able to determine whether they observed similar complications.
-However, since these results were released, strategies have been proposed for administering dexamethasone alongside more targeted treatments to minimize the likelihood of negative side effects [@doi:10.23812/20-EDITORIAL_1-5].
+The effects of dexamethasone have also been found to differ among populations, especially in high-income versus middle- or low-income countries [@doi:10/gg42kx].
+However, since the RECOVERY trial's results were released, strategies have been proposed for administering dexamethasone alongside more targeted treatments to minimize the likelihood of negative side effects [@doi:10.23812/20-EDITORIAL_1-5].
 Given the available evidence, dexamethasone is currently the most promising treatment for severe COVID-19.
 
 ### Biologics
