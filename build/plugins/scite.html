@@ -19,7 +19,8 @@
 <script>
   // start script
   function start() {
-    if (window.matchMedia('print')) return;
+    // if printing, exit and don't show badges
+    if (window.matchMedia('print').matches) return;
     // get citation elements
     const query = ".references div[id*='ref-']";
     const elements = document.querySelectorAll(query);
