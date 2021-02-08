@@ -1,4 +1,5 @@
-# Pandoc --defaults for HTML output.
+# Pandoc --defaults for athenapdf output.
+# Derived from html.yaml but disables scite
 # Load on top of common defaults.
 to: html5
 output-file: output/manuscript.html
