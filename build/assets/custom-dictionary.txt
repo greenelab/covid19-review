@@ -448,6 +448,7 @@ OC
 ODSP
 Orf
 Orthocoronavirinae
+OSCI
 Oseltamivir
 O’Meara
 PAMP
@@ -540,6 +541,7 @@ SL
 SMQ
 SNG
 SNP
+SPI
 SPM
 SPP
 SPR
@@ -949,6 +951,7 @@ hpi
 hufengling
 humoral
 hybridoma
+hydrocortisone
 hydrophilicity
 hydroxy
 hydroxycytidine
@@ -1139,6 +1142,7 @@ nanowells
 nasogastric
 nasopharyngeal
 naïve
+nebulized
 necropsies
 neuraminic
 neuraminidase
