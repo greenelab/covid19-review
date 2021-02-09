@@ -80,7 +80,7 @@ if [ "${BUILD_PDF:-}" != "false" ] && [ -n "$DOCKER_RUNNING" ]; then
   pandoc --verbose \
     --data-dir="$PANDOC_DATA_DIR" \
     --defaults=common.yaml \
-    --defaults=athendapdf.yaml \
+    --defaults=athenapdf.yaml \
     output/manuscript.md
 
   echo >&2 "Exporting PDF manuscript using Docker + Athena"
