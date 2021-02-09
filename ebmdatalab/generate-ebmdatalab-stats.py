@@ -283,9 +283,9 @@ def main(args):
     # The placeholder will be replaced by the actual SHA-1 hash in separate
     # script after the updated image is committed
     ebm_stats['ebm_trials_figure'] = \
-        f'https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/{args.output_figure}.svg'
+        f'https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/{args.output_figure}.png'
     ebm_stats['ebm_map_figure'] = \
-        f'https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/{args.output_map}.svg'
+        f'https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/{args.output_map}.png'
     # Tabulate number of trials for pharmaceuticals of interest
     ebm_stats['ebm_tocilizumab_ct'] = \
         str(trials_df['intervention'].str.contains('tocilizumab', case=False).sum())

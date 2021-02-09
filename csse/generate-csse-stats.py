@@ -52,7 +52,7 @@ def main(args):
     # The placeholder will be replaced by the actual SHA-1 hash in separate
     # script after the updated image is committed
     csse_stats['csse_deaths_figure'] = \
-        f'https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/{args.output_figure}.svg'
+        f'https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/{args.output_figure}.png'
 
     with open(args.output_json, 'w') as out_file:
         json.dump(csse_stats, out_file, indent=2, sort_keys=True)
