@@ -43,7 +43,7 @@ def main(args):
     ax.minorticks_off()
     ax.grid(color="lightgray")
     
-    ax.figure.savefig(args.output_figure + '.png', bbox_inches = "tight")
+    ax.figure.savefig(args.output_figure + '.png', dpi=300, bbox_inches = "tight")
     ax.figure.savefig(args.output_figure + '.svg', bbox_inches = "tight")
 
 

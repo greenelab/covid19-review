@@ -240,7 +240,7 @@ def main(args):
     ax = intervention_counts.plot(kind='barh', ax=axes[1, 1])
     ax.set_title('Clinical trials common interventions')
 
-    fig.savefig(args.output_figure + '.png', bbox_inches = "tight")
+    fig.savefig(args.output_figure + '.png', dpi=300, bbox_inches = "tight")
     fig.savefig(args.output_figure + '.svg', bbox_inches = "tight")
 
     print(f'Wrote {args.output_figure}.png and {args.output_figure}.svg')
@@ -275,7 +275,7 @@ def main(args):
                  date.today().strftime("%b-%d-%Y"),
                  xy=(0, 0), xycoords="axes points")
 
-    plt.savefig(args.output_map + '.png', bbox_inches="tight")
+    plt.savefig(args.output_map + '.png', dpi=300, bbox_inches="tight")
     plt.savefig(args.output_map + '.svg', bbox_inches="tight")
 
     print(f'Wrote {args.output_map}.png and {args.output_map}.svg')
