@@ -257,13 +257,13 @@
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/bf8ef5f2997ff5804e2a68d7b716fb7b312eea08/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/bf8ef5f2997ff5804e2a68d7b716fb7b312eea08/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/bf8ef5f2997ff5804e2a68d7b716fb7b312eea08/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/193ae040cc1bd27604a5aa9d16158e60ffe79b97/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/193ae040cc1bd27604a5aa9d16158e60ffe79b97/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/193ae040cc1bd27604a5aa9d16158e60ffe79b97/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/bf8ef5f2997ff5804e2a68d7b716fb7b312eea08/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/bf8ef5f2997ff5804e2a68d7b716fb7b312eea08/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/193ae040cc1bd27604a5aa9d16158e60ffe79b97/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/193ae040cc1bd27604a5aa9d16158e60ffe79b97/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -275,9 +275,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://greenelab.github.io/covid19-review/v/bf8ef5f2997ff5804e2a68d7b716fb7b312eea08/">permalink</a>)
+(<a href="https://greenelab.github.io/covid19-review/v/193ae040cc1bd27604a5aa9d16158e60ffe79b97/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/greenelab/covid19-review/tree/bf8ef5f2997ff5804e2a68d7b716fb7b312eea08">greenelab/covid19-review@bf8ef5f</a>
+from <a href="https://github.com/greenelab/covid19-review/tree/193ae040cc1bd27604a5aa9d16158e60ffe79b97">greenelab/covid19-review@193ae04</a>
 on February 9, 2021.
 </em></small></p>
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -19207,6 +19207,59 @@ Please fill out as much of the above as you feel able, then:
   span[id^="eq:"] > span.math.display > span {
     /* nudge to make room for equation auto-number and anchor */
     margin-right: 60px !important;
+  }
+</style>
+<!-- 
+  Scite Plugin (third party)
+
+  Adds a Scite badge next to each citation in the references section.
+  See https://scite.ai/.
+-->
+
+<script
+  async
+  type="application/javascript"
+  src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"
+></script>
+
+<script>
+  // start script
+  function start() {
+    // get citation elements
+    const query = ".references div[id*='ref-']";
+    const elements = document.querySelectorAll(query);
+    for (const element of elements) addBadge(element);
+  }
+
+  // add badge in citation element
+  function addBadge(element) {
+    // get citation text
+    const text = element.innerText;
+    // find doi string, eg "DOI: xxxxx/xxxxx"
+    const match = text.match(/DOI:\s+(\S*)/) || {};
+    const doi = match[1];
+    if (!doi) return;
+    // create cite badge and put after citation
+    const badge = document.createElement("div");
+    badge.innerHTML = `print: ${window.matchMedia("print").matches} screen: ${window.matchMedia("screen").matches}`;
+    badge.classList.add("scite-badge");
+    badge.setAttribute("data-doi", doi);
+    badge.setAttribute("data-layout", "horizontal");
+    badge.setAttribute("data-show-zero", "true");
+    element.append(badge);
+    // modify preceding citation <p> element
+    const p = element.querySelector("p");
+    if (p) p.style.marginBottom = "0";
+  }
+
+  // start script when document is finished loading
+  window.addEventListener("load", start);
+</script>
+
+<style>
+  .scite-badge {
+    text-indent: 0;
+    margin-top: 10px;
   }
 </style>
 </body>
