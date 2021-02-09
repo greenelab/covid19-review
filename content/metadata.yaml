@@ -760,6 +760,11 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-11-11
+    manuscripts:
+      pathogenesis:
+        order: 4
+        contributions:
+          - Visualization
   -
     github: qiyanjun
     name: Yanjun Qi
@@ -775,6 +780,11 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-07-09
+    manuscripts:
+      pathogenesis:
+        order: 4
+        contributions:
+          - Visualization
   -
     github: LSH2126
     name: Lamonica Shinholster
