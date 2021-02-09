@@ -70,12 +70,6 @@ fi
 
 # If Docker is available, use athenapdf to create PDF
 if [ "${BUILD_PDF:-}" != "false" ] && [ -n "$DOCKER_RUNNING" ]; then
-# No longer needed, run pandoc again with different settings for the athendapdf build
-#  if [ ! -f output/manuscript.html ]; then
-#    echo >&2 "Missing file output/manuscript.html. Set BUILD_HTML environment variable to true."
-#    exit 1
-#  fi
-
   echo >&2 "Exporting HTML manuscript for Athena"
   pandoc --verbose \
     --data-dir="$PANDOC_DATA_DIR" \
