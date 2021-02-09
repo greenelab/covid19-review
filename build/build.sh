@@ -104,7 +104,7 @@ if [ "${BUILD_PDF:-}" != "false" ] && [ -n "$DOCKER_RUNNING" ]; then
     --pagesize=A4 \
     manuscript-athena.html manuscript.pdf
   rm -rf output/images
-  rm manuscript-athena.html
+  rm output/manuscript-athena.html
 fi
 
 # Create DOCX output (if BUILD_DOCX environment variable equals "true")
