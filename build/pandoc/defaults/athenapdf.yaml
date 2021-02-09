@@ -2,7 +2,7 @@
 # Derived from html.yaml but disables scite
 # Load on top of common defaults.
 to: html5
-output-file: output/manuscript.html
+output-file: output/manuscript-athena.html
 # include-before-body:
 ### third-party plugins
 #- build/plugins/d3.html
