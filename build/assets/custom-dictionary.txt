@@ -448,6 +448,7 @@ OC
 ODSP
 Orf
 Orthocoronavirinae
+OSCI
 Oseltamivir
 O’Meara
 PAMP
@@ -1139,6 +1140,7 @@ nanowells
 nasogastric
 nasopharyngeal
 naïve
+nebulized
 necropsies
 neuraminic
 neuraminidase
