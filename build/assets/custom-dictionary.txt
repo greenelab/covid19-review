@@ -541,6 +541,7 @@ SL
 SMQ
 SNG
 SNP
+SPI
 SPM
 SPP
 SPR
@@ -950,6 +951,7 @@ hpi
 hufengling
 humoral
 hybridoma
+hydrocortisone
 hydrophilicity
 hydroxy
 hydroxycytidine
