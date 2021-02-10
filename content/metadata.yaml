@@ -24,6 +24,7 @@ authors:
     affiliations:
       - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
       - Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, Aurora, Colorado, United States of America
+      - Center for Health AI, University of Colorado School of Medicine, Aurora, Colorado, United States of America
     coi:
       string: "None"
       lastapproved: !!str 2021-01-20
@@ -41,6 +42,12 @@ authors:
         contributions:
           - Writing - Review & Editing
           - Writing - Original Draft
+      pharmaceuticals:
+        order: 1
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
+          - Project Administration
       evolution:
         order: 1
         contributions:
@@ -87,6 +94,11 @@ authors:
         contributions:
           - Project Administration
           - Supervision
+      pharmaceuticals:
+        order: 11
+        contributions:
+          - Writing - Review & Editing
+          - Project Administration
   -
     github: mprobson
     name: Michael P. Robson
@@ -123,6 +135,11 @@ authors:
         order: 4
         contributions:
           - Writing - Review & Editing
+      pharmaceuticals:
+        order: 9
+        contributions:
+          - Writing - Review & Editing
+          - Project Administration
   -
     github: nilswellhausen
     name: Nils Wellhausen
@@ -147,6 +164,13 @@ authors:
         contributions:
           - Writing - Review & Editing
           - Writing - Original Draft
+          - Visualization
+      pharmaceuticals:
+        order: 2
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
+          - Project Administration
           - Visualization
   -
     github: RLordan
@@ -177,6 +201,12 @@ authors:
           - Writing - Original Draft
           - Conceptualization
           - Project Administration
+      pharmaceuticals:
+        order: 6
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
+          - Project Administration
   -
     github: cbrueffer
     name: Christian Brueffer
@@ -201,6 +231,11 @@ authors:
         contributions:
           - Writing - Review & Editing
           - Writing - Original Draft
+      pharmaceuticals:
+        order: 7
+        contributions:
+          - Writing - Review & Editing
+          - Project Administration
   -
     github: rays1987
     name: Sandipan Ray
@@ -278,6 +313,13 @@ authors:
           - Software
           - Project Administration
           - Writing - Review & Editing
+      pharmaceuticals:
+        order: 10
+        contributions:
+          - Writing - Review & Editing
+          - Project Administration
+          - Visualization
+          - Software
   -
     github: aadattoli
     name: Anna Ada Dattoli
@@ -294,6 +336,11 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-03-26
+    manuscripts:
+      pharmaceuticals:
+        order: 4
+        contributions:
+          - Writing - Original Draft
   -
     github: rdvelazquez
     name: Ryan Velazquez
@@ -354,6 +401,12 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-11-12
+    manuscripts:
+      pharmaceuticals:
+        order: 6
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
   -
     github: rbharath
     name: Bharath Ramsundar
@@ -371,6 +424,10 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-11-11
+      pharmaceuticals:
+        order: 7
+        contributions:
+          - Writing - Review & Editing
   -
     github: alavendelm
     name: Adam L. MacLean
@@ -418,6 +475,11 @@ authors:
         contributions:
           - Writing - Review & Editing
           - Writing - Original Draft
+      pharmaceuticals:
+        order: 5
+        contributions:
+          - Writing - Original Draft
+          - Writing - Review & Editing
   -
     github: ismms-himc
     name: Immunology Institute of the Icahn School of Medicine
@@ -449,6 +511,11 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-04-08
+    manuscripts:
+      pharmaceuticals:
+        order: 4
+        contributions:
+          - Writing - Original Draft
   -
     github: nafisajadavji
     name: Nafisa M. Jadavji
@@ -469,6 +536,12 @@ authors:
       lastapproved: !!str 2020-11-11
     funders:
       - the American Heart Association (20AIREA35050015)
+    manuscripts:
+      pharmaceuticals:
+        order: 6
+        contributions:
+          - Writing - Review & Editing
+          - Supervision
   -
     github: esell17
     name: Elizabeth Sell
@@ -511,6 +584,10 @@ authors:
         order: 6
         contributions:
           - Writing - Review & Editing
+      pharmaceuticals:
+        order: 7
+        contributions:
+          - Writing - Original Draft
   -
     github: dianerafi
     name: Diane N. Rafizadeh
@@ -530,6 +607,13 @@ authors:
       lastapproved: !!str 2020-11-11
     funders:
       - NIH Medical Scientist Training Program T32 GM07170
+    manuscripts:
+      pharmaceuticals:
+        order: 5
+        contributions:
+          - Writing - Original Draft
+          - Writing - Review & Editing
+          - Project Administration
   -
     github: anskelly
     name: Ashwin N. Skelly
@@ -555,6 +639,10 @@ authors:
         contributions:
           - Writing - Review & Editing
           - Writing - Original Draft
+      pharmaceuticals:
+        order: 7
+        contributions:
+          - Writing - Review & Editing
   -
     github: marouenbg
     name: Marouen Ben Guebila
@@ -576,6 +664,10 @@ authors:
         order: 4
         contributions:
           - Writing - Review & Editing
+          - Writing - Original Draft
+      pharmaceuticals:
+        order: 6
+        contributions:
           - Writing - Original Draft
   -
     github: likhithakolla
@@ -628,6 +720,11 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-11-09
+    manuscripts:
+      pharmaceuticals:
+        order: 3
+        contributions:
+          - Writing - Original Draft
   -
     github: byrdjb
     name: James Brian Byrd
@@ -654,6 +751,10 @@ authors:
         contributions:
           - Writing - Review & Editing
           - Writing - Original Draft
+      pharmaceuticals:
+        order: 5
+        contributions:
+          - Writing - Original Draft
   -
     github: ypar
     name: YoSon Park
@@ -679,6 +780,10 @@ authors:
         contributions:
           - Writing - Review & Editing
           - Writing - Original Draft
+      pharmaceuticals:
+        order: 7
+        contributions:
+          - Writing - Review & Editing
   -
     github: bansalvi
     name: Vikas Bansal
@@ -765,6 +870,10 @@ authors:
         order: 4
         contributions:
           - Visualization
+      pharmaceuticals:
+        order: 5
+        contributions:
+          - Visualization
   -
     github: qiyanjun
     name: Yanjun Qi
@@ -783,6 +892,10 @@ authors:
     manuscripts:
       pathogenesis:
         order: 4
+        contributions:
+          - Visualization
+      pharmaceuticals:
+        order: 5
         contributions:
           - Visualization
   -
@@ -983,6 +1096,10 @@ authors:
         order: 3
         contributions:
           - Project Administration
+      pharmaceuticals:
+        order: 8
+        contributions:
+          - Project Administration
   -
     github: rishirajgoel
     name: Rishi Raj Goel
@@ -1002,4 +1119,8 @@ authors:
         order: 7
         contributions:
           - Writing - Original Draft
+          - Writing - Review & Editing
+      pharmaceuticals:
+        order: 7
+        contributions:
           - Writing - Review & Editing
