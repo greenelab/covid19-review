@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2021-02-09'
+date-meta: '2021-02-10'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -64,8 +64,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2021-02-09" />
-  <meta name="citation_publication_date" content="2021-02-09" />
+  <meta name="dc.date" content="2021-02-10" />
+  <meta name="citation_publication_date" content="2021-02-10" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -75,6 +75,7 @@ header-includes: |-
   <meta name="citation_author" content="Halie M. Rando" />
   <meta name="citation_author_institution" content="Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America" />
   <meta name="citation_author_institution" content="Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, Aurora, Colorado, United States of America" />
+  <meta name="citation_author_institution" content="Center for Health AI, University of Colorado School of Medicine, Aurora, Colorado, United States of America" />
   <meta name="citation_author_orcid" content="0000-0001-7688-1770" />
   <meta name="twitter:creator" content="@tamefoxtime" />
   <meta name="citation_author" content="Casey S. Greene" />
@@ -248,13 +249,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/193ae040cc1bd27604a5aa9d16158e60ffe79b97/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/193ae040cc1bd27604a5aa9d16158e60ffe79b97/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/193ae040cc1bd27604a5aa9d16158e60ffe79b97/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/69f37172049d7a763351a7682833fa81b1eb8ae9/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/69f37172049d7a763351a7682833fa81b1eb8ae9/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/69f37172049d7a763351a7682833fa81b1eb8ae9/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/193ae040cc1bd27604a5aa9d16158e60ffe79b97/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/193ae040cc1bd27604a5aa9d16158e60ffe79b97/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/69f37172049d7a763351a7682833fa81b1eb8ae9/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/69f37172049d7a763351a7682833fa81b1eb8ae9/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -276,10 +277,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/193ae040cc1bd27604a5aa9d16158e60ffe79b97/))
+([permalink](https://greenelab.github.io/covid19-review/v/69f37172049d7a763351a7682833fa81b1eb8ae9/))
 was automatically generated
-from [greenelab/covid19-review@193ae04](https://github.com/greenelab/covid19-review/tree/193ae040cc1bd27604a5aa9d16158e60ffe79b97)
-on February 9, 2021.
+from [greenelab/covid19-review@69f3717](https://github.com/greenelab/covid19-review/tree/69f37172049d7a763351a7682833fa81b1eb8ae9)
+on February 10, 2021.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -300,7 +301,7 @@ Instead, you should collect information from your local health department, the [
     [rando2](https://github.com/rando2) · ![Twitter icon](images/twitter.svg){.inline_icon}
     [tamefoxtime](https://twitter.com/tamefoxtime)<br>
   <small>
-     Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America; Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, Aurora, Colorado, United States of America
+     Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America; Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, Aurora, Colorado, United States of America; Center for Health AI, University of Colorado School of Medicine, Aurora, Colorado, United States of America
      · Funded by the Gordon and Betty Moore Foundation (GBMF 4552)
   </small>
 
@@ -689,12 +690,12 @@ Most of these cases were in China, but one to two exported cases had also been i
 One week later, 4,593 confirmed cases had been identified, spanning not only Asia, but also Australia, North America, and Europe [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128-sitrep-8-ncov-cleared.pdf].
 On March 11, 2020, the WHO formally classified the situation as a pandemic [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200311-sitrep-51-covid-19.pdf].
 On April 4, 2020, the WHO reported that the global number of confirmed cases had surpassed one million [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200404-sitrep-75-covid-19.pdf].
-<!--2,317,201 COVID-19 deaths had been reported worldwide as of February 7, 2021 (Figure @fig:csse-deaths).
+<!--2,325,512 COVID-19 deaths had been reported worldwide as of February 8, 2021 (Figure @fig:csse-deaths).
 
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
-](https://github.com/greenelab/covid19-review/raw/e3e151d77355cd0fd7344751c91859f82bfb7af3/csse/csse-deaths.svg "Global COVID-19 deaths"){#fig:csse-deaths secno=1} -->
+](https://github.com/greenelab/covid19-review/raw/fe2ebd48c2606770c794b8f04ed40de691c48eee/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1} -->
 
 As international attention remains focused on the ongoing public health crisis, the scientific community has responded by mobilizing resources and turning much of its attention to the virus and disease.
 This rapid influx of information is disseminated by traditional publishing mechanisms, preprint servers, and press releases, which provide a venue for scientists to release findings without undergoing the formal publication process.
@@ -1774,7 +1775,7 @@ Some reports have suggested that some patients may develop COVID-19 reinfections
 Serologic testing combined with PCR testing will be critical to confirming purported cases of reinfection and to identifying the duration over which immunity is retained and to understanding reinfection risks.
 
 
-## Identification and Development of Prophylactics and Therapeutics for COVID-19 
+## Identification and Development of Prophylactics and Therapeutics for COVID-19
 
 ### Abstract
 
@@ -1787,7 +1788,7 @@ As a result, a small number of therapeutics have already been authorized by regu
 Here, we describe a range of approaches for the treatment of COVID-19, along with their proposed mechanisms of action and the current status of clinical investigation into each candidate.
 The status of these investigations will continue to evolve, and this review will be updated as progress is made.
 
-### Importance 
+### Importance
 
 The COVID-19 pandemic is a rapidly evolving crisis.
 With the worldwide scientific community shifting focus onto the SARS-CoV-2 virus and the disease it causes, a large number of possible pharmaceutical approaches for treatment and prevention have been proposed.
@@ -1809,12 +1810,12 @@ Prophylactics bolster immunity to prevent an individual from contracting a disea
 While vaccine development programs have attracted significant attention and produced a number of promising candidates, there is also an immediate need for treatments that palliate symptoms and prevent the most severe outcomes from infection.
 Fortunately, prior developments during other recent pandemics, especially those caused by human coronaviruses (HCoV), has provided a number of hypotheses guiding a biomedical approach to the novel coronavirus infection.
 
-2,317,201 COVID-19 deaths had been reported worldwide as of February 7, 2021 (Figure @fig:csse-deaths).
+2,325,512 COVID-19 deaths had been reported worldwide as of February 8, 2021 (Figure @fig:csse-deaths).
 
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
-](https://github.com/greenelab/covid19-review/raw/e3e151d77355cd0fd7344751c91859f82bfb7af3/csse/csse-deaths.svg "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
+](https://github.com/greenelab/covid19-review/raw/fe2ebd48c2606770c794b8f04ed40de691c48eee/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
 
 #### Lessons from Prior HCoV Outbreaks
 
@@ -1874,7 +1875,7 @@ The study types include only types used in at least five trials.
 The common interventions are all interventions used in at least ten trials.
 Combinations of interventions, such as Hydroxychloroquine + Azithromycin, are tallied separately from the individual interventions.
 Trials data are from the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709].
-](https://github.com/greenelab/covid19-review/raw/e3e151d77355cd0fd7344751c91859f82bfb7af3/ebmdatalab/ebmdatalab-trials.svg "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/fe2ebd48c2606770c794b8f04ed40de691c48eee/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 ### Small Molecule Drugs
 
@@ -1937,7 +1938,7 @@ The sample size for this study was very small, with 29 total patients enrolled, 
 The second study was larger, with 96 patients enrolled, and also utilized a randomized design.
 This study enrolled only patients with mild to moderate symptoms and randomized them into two groups: one receiving CQ in addition to SOC, and the other receiving favipiravir in addition to SOC.
 This study reported a non-significant trend for patients receiving favipiravir to have a shorter hospital stay and less likelihood of progressing to mechanical ventilation or to an oxygen saturation < 90%.
-However, given the fact that favipiravir was being compared to CQ, which is now widely understood to be ineffective for treating COVID-19, these results do not suggest that favipiravir was likely to have had a strong effect on these outcomes. 
+However, given the fact that favipiravir was being compared to CQ, which is now widely understood to be ineffective for treating COVID-19, these results do not suggest that favipiravir was likely to have had a strong effect on these outcomes.
 On the other hand, another trial of 60 patients reported a significant effect of favipiravir on viral clearance at four days (a secondary endpoint), but not at 10 days (the primary endpoint) [@doi:10.1093/cid/ciaa1176].
 This study, as well as a prior study of favipiravir [@doi:10/ftgm], also reported that the drug was generally well-tolerated.
 Thus, in combination, these small studies suggest that the effects of favipiravir as a treatment for COVID-19 cannot be determined based on the available evidence, but additionally, none raise major concerns about the safety profile of the drug.
@@ -2045,7 +2046,7 @@ Although N3 is a strong inhibitor of SARS-CoV-2 _in vitro_, its safety and effic
 After the design and confirmation of N3 as a highly potent Michael acceptor inhibitor and the identification of Mpro's structure [@doi:10.1038/s41586-020-2223-y; @doi:10.1126/science.abb3405], 10,000 compounds were screened for their _in vitro_ anti-Mpro activity.
 The six leads that were identified were ebselen, disulfiram, tideglusib, carmofur, and PX-12.
 _In vitro_ analysis revealed that Ebselen had the strongest potency in reducing the viral load in SARS-CoV-2-infected Vero cells [@doi:10.1038/s41586-020-2223-y].
-Ebselen is an organoselenium compound with anti-inflammatory and antioxidant properties [@doi:10.1007/s11033-014-3417-x] 
+Ebselen is an organoselenium compound with anti-inflammatory and antioxidant properties [@doi:10.1007/s11033-014-3417-x].
 It has been proposed as a possible treatment for conditions ranging from bipolar disorder to diabetes to heart disease [@doi:10.1007/s11033-014-3417-x], and a preliminary investigation of ebselen as a treatment for noise-induced hearing loss provided promising reports of its safety [@doi:10/gbwnbv].
 For COVID-19, the NSP5 in SARS-CoV-2 contains a cysteine at the active site of Mpro, and ebselen is able to inactivate the protease by bonding covalently with this cysteine to form a selenosulfide [@doi:10.1007/s11033-014-3417-x; @doi:10.1016/j.freeradbiomed.2020.06.032].
 Interestingly there has been some argument that selenium deficiency may be associated with more severe COVID-19 outcomes [@doi:10.3390/nu12072098; @doi:10.1017/S0007114520003128; @doi:10.1016/j.redox.2020.101715], possibly indicating that its antioxidative properties are protective [@doi:10.1016/j.freeradbiomed.2020.06.032].
@@ -2278,7 +2279,7 @@ Several countries have now removed CQ/HCQ from their SOC for COVID-19 due to the
 
 ##### Dexamethasone
 
-Dexamethasone (9α-fluoro-16α-methylprednisolone) is a synthetic corticosteroid that binds to glucocorticoid receptors [@doi:10.1021/cr068203e; @url:https://www.cebm.net/covid-19/dexamethasone/].
+Dexamethasone (9&alpha;-fluoro-16&alpha;-methylprednisolone) is a synthetic corticosteroid that binds to glucocorticoid receptors [@doi:10.1021/cr068203e; @url:https://www.cebm.net/covid-19/dexamethasone/].
 It was first synthesized in the late 1950s as an anti-inflammatory and has been used to treat RA and other inflammatory conditions [@doi:10.1021/ja01545a061; @doi:10.1001/jama.1960.03030070009002].
 Steroids such as dexamethasone are widely available and affordable, and they are often used to treat community-acquired pneumonia [@doi:10.1038/s41392-020-0127-9].
 A clinical trial that began in 2012 recently reported that dexamethasone may improve outcomes for patients with ARDS [@doi:10/ggpxzc].
@@ -2289,8 +2290,8 @@ In response to stress, corticotropin‐releasing hormone stimulates the release 
 While catecholamines are often associated with the fight-or-flight response, the specific role that glucocorticoids play is less clear, although they are thought to be important to restoring homeostasis [@doi:10.1159/000054578].
 Immune challenge is a stressor that is known to interact closely with the stress response.
 The immune system can therefore interact with the central nervous system; for example, macrophages can both respond to and produce catecholamines [@doi:10.1016/j.cyto.2015.01.008].
-Additionally, the production of both catecholamines and glucocorticoids is associated with inhibition of proinflammatory cytokines such as IL-6, IL-12, and tumor necrosis factor-α (TNF‐α) and the stimulation of anti-inflammatory cytokines such as IL-10, meaning that the stress response can regulate inflammatory immune activity [@doi:10.1111/j.1749-6632.2002.tb04229.x].
-Administration of dexamethasone has been found to correspond to dose-dependent inhibition of IL-12 production, but not to affect IL-10 [@PMID:8902882]; the fact that this relationship could be disrupted by administration of a glucocorticoid-receptor antagonist suggests that it is regulated by the receptor itself [@PMID:8902882]. <!-- TO DO: waiting for full text of this paper, this is based on abstract and citations-->
+Additionally, the production of both catecholamines and glucocorticoids is associated with inhibition of proinflammatory cytokines such as IL-6, IL-12, and tumor necrosis factor-&alpha; (TNF‐&alpha;) and the stimulation of anti-inflammatory cytokines such as IL-10, meaning that the stress response can regulate inflammatory immune activity [@doi:10.1111/j.1749-6632.2002.tb04229.x].
+Administration of dexamethasone has been found to correspond to dose-dependent inhibition of IL-12 production, but not to affect IL-10 [@PMID:8902882]; the fact that this relationship could be disrupted by administration of a glucocorticoid-receptor antagonist suggests that it is regulated by the receptor itself [@PMID:8902882].
 Thus, the administration of dexamethasone for COVID-19 is likely to simulate the release of glucocorticoids endogenously during stress, resulting in binding of the synthetic steroid to the glucocorticoid receptor and the associated inhibition of the production of proinflammatory cytokines.
 In this model, dexamethasone reduces inflammation by stimulating the biological mechanism that reduces inflammation following a threat such as immune challenge.
 Immunosuppressive drugs such as steroids are typically contraindicated in the setting of infection [@doi:10.1177/2040622313485275], but because COVID-19 results in hyperinflammation that appears to contribute to mortality via lung damage, immunosuppression may be a helpful approach to treatment [@doi:10/ggnzmc].
@@ -2336,7 +2337,7 @@ There are many differences on the development side between biologics and synthes
 Biologics are typically orders of magnitude larger than small molecule drugs, and their physiochemical properties are often much less understood [@doi:10.2174/138920006774832604].
 They are often heat sensitive, and their toxicity can vary, as it is not directly associated with the primary effects of the drug [@doi:10.2174/138920006774832604].
 However, this class includes some extremely significant medical breakthroughs, including insulin for the management of diabetes and the smallpox vaccine.
-As a result, biologics are another possible avenue through which the pharmacological management of SARS-CoV-2 infection can be approached. 
+As a result, biologics are another possible avenue through which the pharmacological management of SARS-CoV-2 infection can be approached.
 
 #### Tocilizumab
 
@@ -2350,12 +2351,12 @@ Additionally, IL-6 levels remained higher throughout the course of hospitalizati
 This finding provided some early evidence that COVID-19 deaths may be induced by the hyperactive immune response, often referred to as CRS or cytokine storm syndrome (CSS), as IL-6 plays a key role in this response [@doi:10.1128/mmbr.05015-11].
 In this context, the observation of elevated IL-6 in patients who died may reflect an over-production of proinflammatory interleukins, suggesting that TCZ could potentially palliate some of the most severe symptoms of COVID-19 associated with increased cytokine production.
 
-Human IL-6 is a 26-kDa glycoprotein that consists of 184 amino acids and contains two potential N-glycosylation sites and four cysteine residues. 
-It binds to a type I cytokine receptor (IL-6Rα or glycoprotein 80) that exists in both membrane-bound (IL-6Rα) and soluble (sIL-6Rα) forms [@doi:10.3389/fimmu.2016.00604].
-It is not the binding of IL-6 to the receptor that initiates pro- and/or anti-inflammatory signaling, but rather the binding of the complex to another subunit, known as IL-6Rβ or glycoprotein 130 (gp13) [@doi:10.7150/ijbs.4989; @doi:10.3389/fimmu.2016.00604].
-Unlike membrane-bound IL-6Rα, which is only found on hepatocytes and some types of leukocytes, gp130 is found on most cells [@doi:10.1007/s00430-006-0019-9].
-When IL-6 binds to sIL-6Rα, the complex can then bind to a gp130 protein on any cell [@doi:10.1007/s00430-006-0019-9].
-The binding of IL-6 to IL-6Rα is termed classical signaling, while its binding to sIL-6Rα is termed trans-signaling [@doi:10.1016/j.cytogfr.2012.04.001; @doi:10.1042/bj3000281; @doi:10.1007/s00430-006-0019-9].
+Human IL-6 is a 26-kDa glycoprotein that consists of 184 amino acids and contains two potential N-glycosylation sites and four cysteine residues.
+It binds to a type I cytokine receptor (IL-6R&alpha; or glycoprotein 80) that exists in both membrane-bound (IL-6R&alpha;) and soluble (sIL-6R&alpha;) forms [@doi:10.3389/fimmu.2016.00604].
+It is not the binding of IL-6 to the receptor that initiates pro- and/or anti-inflammatory signaling, but rather the binding of the complex to another subunit, known as IL-6R&beta; or glycoprotein 130 (gp13) [@doi:10.7150/ijbs.4989; @doi:10.3389/fimmu.2016.00604].
+Unlike membrane-bound IL-6R&alpha;, which is only found on hepatocytes and some types of leukocytes, gp130 is found on most cells [@doi:10.1007/s00430-006-0019-9].
+When IL-6 binds to sIL-6R&alpha;, the complex can then bind to a gp130 protein on any cell [@doi:10.1007/s00430-006-0019-9].
+The binding of IL-6 to IL-6R&alpha; is termed classical signaling, while its binding to sIL-6R&alpha; is termed trans-signaling [@doi:10.1016/j.cytogfr.2012.04.001; @doi:10.1042/bj3000281; @doi:10.1007/s00430-006-0019-9].
 These two signaling processes are thought to play different roles in health and illness.
 For example, trans-signaling may play a role in the proliferation of mucosal T-helper TH2 cells associated with asthma, while an earlier step in this proliferation process may be regulated by classical signaling [@doi:10.1007/s00430-006-0019-9].
 Similarly, IL-6 is known to play a role in Crohn's Disease via trans-, but not classical, signaling [@doi:10.1007/s00430-006-0019-9].
@@ -2363,7 +2364,7 @@ Both classical and trans-signaling can occur through three independent pathways:
 These signaling pathways are involved in a variety of different functions, including cell type differentiation, immunoglobulin synthesis, and cellular survival signaling pathways, respectively [@doi:10.3389/fimmu.2016.00604].
 The ultimate result of the IL-6 cascade is to direct transcriptional activity of various promoters of pro-inflammatory cytokines, such as IL-1, TFN, and even IL-6 itself, through the activity of NF-κB [@doi:10.3389/fimmu.2016.00604].
 IL-6 synthesis is tightly regulated both transcriptionally and post-transcriptionally, and it has been shown that viral proteins can enhance transcription of the IL-6 gene by strengthening the DNA-binding activity between several transcription factors and IL-6 gene-cis-regulatory elements [@doi:10.2492/inflammregen.33.054].
-Therefore, drugs inhibiting the binding of IL-6 to IL-6Rα or sIL-6Rα are of interest for combating the hyperactive inflammatory response characteristic of CRS and CSS.
+Therefore, drugs inhibiting the binding of IL-6 to IL-6R&alpha; or sIL-6R&alpha; are of interest for combating the hyperactive inflammatory response characteristic of CRS and CSS.
 TCZ is a humanized monoclonal antibody that binds both to the insoluble and soluble receptor of IL-6, providing de facto inhibition of the IL-6 immune cascade.
 
 Tocilizumab is being administered either as an intervention or as concomitant medication in 84 COVID-19 clinical trials (Figure @fig:ebm-trials).
@@ -2393,12 +2394,12 @@ All the same, the multivariate HR, which adjusted for these clinical and demogra
 They reported improvement of survival outcomes after the addition of TCZ to their SOC regime, with 11 of 23 patients (47.8%) admitted prior to March 13th dying compared to 2 of 62 (3.2%) admitted afterwards.
 They also reported a reduced progression to mechanical ventilation in the TCZ group.
 However, this study also holds a significant limitation: the time delay between the two groups means that knowledge about how to treat the disease likely improved over this timeframe as well.
-All the same, the results of these observational retrospective studies provide support for TCZ as a pharmaceutical of interest for follow-up in clinical trials. 
+All the same, the results of these observational retrospective studies provide support for TCZ as a pharmaceutical of interest for follow-up in clinical trials.
 
 In addition to the retrospective observational studies, other analysis have utilized a retrospective case-control design to match pairs of patients with similar baseline characteristics, only one of whom received TCZ for COVID-19.
 In one such study, TCZ was significantly associated with a reduced risk of progression to ICU admission or death [@doi:10.1016/j.medmal.2020.05.001].
 This study examined only 20 patients treated with TCZ (all but one of the patients treated with TCZ in the hospital during the study period) and compared them to 25 patients receiving SOC.
-For the combined primary endpoint of death and/or ICU admission, only 25% of patients receiving TCZ progressed to an endpoint compared to 72% in the SOC group (_p_ = 0.002, presumably based on a chi-square test based on the information provided in the text). 
+For the combined primary endpoint of death and/or ICU admission, only 25% of patients receiving TCZ progressed to an endpoint compared to 72% in the SOC group (_p_ = 0.002, presumably based on a chi-square test based on the information provided in the text).
 When the two endpoints were examined separately, progression to invasive medical ventilation remained significant (32% SOC compared to 0% TCZ, _p_ = 0.006) but not for mortality (48% SOC compared to 25% TCZ, _p_ = 0.066).
 In contrast, a study that compared 96 patients treated with TCZ to 97 patients treated with SOC only in New York City found that differences in mortality did not differ between the two groups, but that this difference did become significant when intubated patients were excluded from the analysis [@doi:10.1093/qjmed/hcaa206].
 Taken together, these findings suggest that future clinical trials of TCZ may want to include intubation as an endpoint.
@@ -2422,7 +2423,7 @@ Previous studies have investigated, with varying results, a possible increased r
 In the investigation of 544 Italian COVID-19 patients, the group treated with TCZ was found to be more likely to develop secondary infections, with 24% compared to 4% in the control group [@doi:10/d2pk].
 Reactivation of hepatitis B and herpes simplex virus 1 was also reported in a small number of patients in this study, all of whom were receiving TCZ.
 A July 2020 case report described negative outcomes of two COVID-19 patients after receiving TCZ, including one death; however, both patients were intubated and had entered septic shock prior to receiving TCZ [@doi:10.1016/j.chest.2020.04.024], likely indicating a severe level of cytokine production.
-Additionally, D-dimer and sIL2R levels were reported by one study to increase in patients treated with TCZ, which raised concerns because of the potential association between elevated D-dimer levels and thrombosis and between sIL2R and diseases where T-cell regulation is compromised [@doi:10.1016/j.chest.2020.06.006]. 
+Additionally, D-dimer and sIL2R levels were reported by one study to increase in patients treated with TCZ, which raised concerns because of the potential association between elevated D-dimer levels and thrombosis and between sIL2R and diseases where T-cell regulation is compromised [@doi:10.1016/j.chest.2020.06.006].
 An increased risk of bacterial infection was also identified in a systematic review of the literature, based on the unadjusted estimates reported [@doi:10.2139/ssrn.3642653].
 In summary, TCZ administration to COVID-19 patients is not without risks, may introduce additional risk of developing secondary infections, and should be approached especially cautiously for patients who have latent viral infections.
 
@@ -2508,7 +2509,7 @@ One important consideration is the stage of COVID-19 infection analyzed in each 
 The Synairgen trial enrolled only patients who were not receiving invasive ventilation, corresponding to a less severe stage of disease than many patients enrolled in the SOLIDARITY trial, as well as a lower overall rate of mortality [@doi:10/ftmj].
 Additionally, the methods of administration differed between the two trials, with the SOLIDARITY trial administering IFN-𝛽-1a subcutaneously [@doi:10/ftmj].
 The differences in findings between the studies suggests that the method of administration might be relevant to outcomes, with nebulized IFN-𝛽-1a more directly targeting receptors in the lungs.
-A trial that analyzed the effect of subcutaneously administered IFN-β-1a on patients with ARDS between 2015 and 2017 had also reported no effect on 28-day mortality [@10.1001/jama.2019.22525], while a smaller study analyzing the effect of subcutaneous IFN administration did find a significant improvement in 28-day mortality for COVID-19 [@doi:10.1128/AAC.01061-20].
+A trial that analyzed the effect of subcutaneously administered IFN-&beta;-1a on patients with ARDS between 2015 and 2017 had also reported no effect on 28-day mortality [@10.1001/jama.2019.22525], while a smaller study analyzing the effect of subcutaneous IFN administration did find a significant improvement in 28-day mortality for COVID-19 [@doi:10.1128/AAC.01061-20].
 At present, several ongoing clinical trials are investigating the potential effects of IFN-𝛽-1a, including in combination with therapeutics such as remdesivir [@clinicaltrials:NCT04492475] and administered via inhalation [@clinicaltrials:NCT04385095].
 Thus, as additional information becomes available, a more detailed understanding of whether and under which circumstances IFN-𝛽-1a is beneficial to COVID-19 patients should develop.
 
@@ -2549,8 +2550,8 @@ Current evidence supporting the treatment of severe COVID-19 with dexamethasone 
 While dexamethasone is considered widely available and generally affordable, the high costs of biologics such as tocilizumab therapy may present obstacles to wide-scale distribution of this drug if it proves of value.
 At the doses used for RA patients, the cost for tocilizumab ranges from $179.20 to $896 per dose for the IV form and $355 for the pre-filled syringe [@url:https://www.ncbi.nlm.nih.gov/books/NBK349513/table/T43/].
 Several other anti-inflammatory agents used for the treatment of autoimmune diseases may also be able to counter the effects of the cytokine storm induced by the virus, and some of these, such as cyclosporine, are likely to be more cost-effective and readily available than biologics [@url:https://escholarship.umassmed.edu/meyers_pp/385].
-While tocilizumab targets IL-6, several other inflammatory markers could be potential targets, including TNF-α.
-Inhibition of TNF-α by a compound such as Etanercept was previously suggested for treatment of SARS-CoV-1 [@doi:10.1185/030079903125002757] and may be relevant for SARS-CoV-2 as well.
+While tocilizumab targets IL-6, several other inflammatory markers could be potential targets, including TNF-&alpha;.
+Inhibition of TNF-&alpha; by a compound such as Etanercept was previously suggested for treatment of SARS-CoV-1 [@doi:10.1185/030079903125002757] and may be relevant for SARS-CoV-2 as well.
 Another anti-IL-6 antibody, sarilumab, is also being investigated [@url:http://www.news.sanofi.us/2020-03-16-Sanofi-and-Regeneron-begin-global-Kevzara-R-sarilumab-clinical-trial-program-in-patients-with-severe-COVID-19; @clinicaltrials:NCT04327388].
 Baricitinib and other small molecule inhibitors of the Janus-activated kinase pathway also curtail the inflammatory response and have been suggested as potential options for SARS-CoV-2 infections [@doi:10/dph5].
 Baricitinib, in particular, may be able to reduce the ability of SARS-CoV-2 to infect lung cells [@doi:10/ggnrsx].
@@ -3437,7 +3438,7 @@ Trials that recruit across multiple countries do appear to broaden geographic re
 The density of clinical trials is reported at the country level.
 As of November 9, 2020, there are 6,417 trials in the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709].
 The top figure demonstrates the density of trials recruiting only from a singular country, while the bottom shows the distribution of recruitment for trials that involve more than one country.
-](https://github.com/greenelab/covid19-review/raw/e3e151d77355cd0fd7344751c91859f82bfb7af3/ebmdatalab/ebmdatalab-map.svg "COVID-19 clinical trials"){#fig:ebm-map secno=1}
+](https://github.com/greenelab/covid19-review/raw/fe2ebd48c2606770c794b8f04ed40de691c48eee/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
 
 A few different concerns arise from this skewed geographic representation in clinical trial recruitment.
 First, treatments such as remdesivir that are promising but primarily available to clinical trial participants are unlikely to be accessible by people in many countries.
@@ -3820,26 +3821,26 @@ The goal of this manuscript is to present preliminary findings within the broade
 |Halie M. Rando|A, D, E, Project Administration, Writing - Original Draft, Writing - Review & Editing|
 |Casey S. Greene|Conceptualization, Project Administration, Software, Supervision, Writing - Review & Editing|
 |Michael P. Robson|Software|
-|Simina M. Boca|Writing - Review & Editing|
-|Nils Wellhausen|Visualization, Writing - Original Draft, Writing - Review & Editing|
+|Simina M. Boca|Project Administration, Writing - Review & Editing|
+|Nils Wellhausen|Project Administration, Visualization, Writing - Original Draft, Writing - Review & Editing|
 |Ronan Lordan|Conceptualization, Project Administration, Writing - Original Draft, Writing - Review & Editing|
-|Christian Brueffer|Writing - Original Draft, Writing - Review & Editing|
+|Christian Brueffer|Project Administration, Writing - Original Draft, Writing - Review & Editing|
 |Sandipan Ray|Writing - Original Draft, Writing - Review & Editing|
 |Lucy D\'Agostino McGowan|Writing - Original Draft, Writing - Review & Editing|
-|Anthony Gitter|Methodology, Project Administration, Software, Writing - Review & Editing|
+|Anthony Gitter|Methodology, Project Administration, Software, Visualization, Writing - Review & Editing|
 |Anna Ada Dattoli|Writing - Original Draft|
 |Ryan Velazquez|Writing - Review & Editing|
 |John P. Barton|Writing - Original Draft, Writing - Review & Editing|
-|Jeffrey M. Field|Writing - Original Draft|
+|Jeffrey M. Field|Writing - Original Draft, Writing - Review & Editing|
 |Bharath Ramsundar|Investigation, Writing - Review & Editing|
 |Adam L. MacLean|Writing - Original Draft, Writing - Review & Editing|
 |Alexandra J. Lee|Writing - Original Draft, Writing - Review & Editing|
 |Immunology Institute of the Icahn School of Medicine|Data Curation|
-|Fengling Hu|Writing - Original Draft, Writing - Review & Editing|
-|Nafisa M. Jadavji|Writing - Original Draft, Writing - Review & Editing|
+|Fengling Hu|Writing - Original Draft|
+|Nafisa M. Jadavji|Supervision, Writing - Review & Editing|
 |Elizabeth Sell|Writing - Original Draft, Writing - Review & Editing|
-|Jinhui Wang|Writing - Review & Editing|
-|Diane N. Rafizadeh|Writing - Original Draft, Writing - Review & Editing|
+|Jinhui Wang|Writing - Original Draft, Writing - Review & Editing|
+|Diane N. Rafizadeh|Project Administration, Writing - Original Draft, Writing - Review & Editing|
 |Ashwin N. Skelly|Writing - Original Draft, Writing - Review & Editing|
 |Marouen Ben Guebila|Writing - Original Draft, Writing - Review & Editing|
 |Likhitha Kolla|Writing - Original Draft|
