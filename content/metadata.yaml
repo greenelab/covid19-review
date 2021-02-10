@@ -866,6 +866,10 @@ authors:
       string: "None"
       lastapproved: !!str 2020-11-11
     manuscripts:
+      pathogenesis:
+        order: 4
+        contributions:
+          - Visualization
       pharmaceuticals:
         order: 5
         contributions:
@@ -886,6 +890,10 @@ authors:
       string: "None"
       lastapproved: !!str 2020-07-09
     manuscripts:
+      pathogenesis:
+        order: 4
+        contributions:
+          - Visualization
       pharmaceuticals:
         order: 5
         contributions:
