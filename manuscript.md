@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2021-02-10'
+date-meta: '2021-02-11'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -64,8 +64,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2021-02-10" />
-  <meta name="citation_publication_date" content="2021-02-10" />
+  <meta name="dc.date" content="2021-02-11" />
+  <meta name="citation_publication_date" content="2021-02-11" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -249,13 +249,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/68e774e8e2c0c8f9c6d2e9075b3bd4c1c0d3b860/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/68e774e8e2c0c8f9c6d2e9075b3bd4c1c0d3b860/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/68e774e8e2c0c8f9c6d2e9075b3bd4c1c0d3b860/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/5822da1e097d49fb38a7d428fce08296475aaa07/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/5822da1e097d49fb38a7d428fce08296475aaa07/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/5822da1e097d49fb38a7d428fce08296475aaa07/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/68e774e8e2c0c8f9c6d2e9075b3bd4c1c0d3b860/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/68e774e8e2c0c8f9c6d2e9075b3bd4c1c0d3b860/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/5822da1e097d49fb38a7d428fce08296475aaa07/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/5822da1e097d49fb38a7d428fce08296475aaa07/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -277,10 +277,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/68e774e8e2c0c8f9c6d2e9075b3bd4c1c0d3b860/))
+([permalink](https://greenelab.github.io/covid19-review/v/5822da1e097d49fb38a7d428fce08296475aaa07/))
 was automatically generated
-from [greenelab/covid19-review@68e774e](https://github.com/greenelab/covid19-review/tree/68e774e8e2c0c8f9c6d2e9075b3bd4c1c0d3b860)
-on February 10, 2021.
+from [greenelab/covid19-review@5822da1](https://github.com/greenelab/covid19-review/tree/5822da1e097d49fb38a7d428fce08296475aaa07)
+on February 11, 2021.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -690,12 +690,12 @@ Most of these cases were in China, but one to two exported cases had also been i
 One week later, 4,593 confirmed cases had been identified, spanning not only Asia, but also Australia, North America, and Europe [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128-sitrep-8-ncov-cleared.pdf].
 On March 11, 2020, the WHO formally classified the situation as a pandemic [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200311-sitrep-51-covid-19.pdf].
 On April 4, 2020, the WHO reported that the global number of confirmed cases had surpassed one million [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200404-sitrep-75-covid-19.pdf].
-<!--2,325,512 COVID-19 deaths had been reported worldwide as of February 8, 2021 (Figure @fig:csse-deaths).
+<!--2,341,104 COVID-19 deaths had been reported worldwide as of February 9, 2021 (Figure @fig:csse-deaths).
 
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
-](https://github.com/greenelab/covid19-review/raw/fe2ebd48c2606770c794b8f04ed40de691c48eee/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1} -->
+](https://github.com/greenelab/covid19-review/raw/d6a1b50233412eb17be0cdd498936cdd35ba58a5/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1} -->
 
 As international attention remains focused on the ongoing public health crisis, the scientific community has responded by mobilizing resources and turning much of its attention to the virus and disease.
 This rapid influx of information is disseminated by traditional publishing mechanisms, preprint servers, and press releases, which provide a venue for scientists to release findings without undergoing the formal publication process.
@@ -1810,12 +1810,12 @@ Prophylactics bolster immunity to prevent an individual from contracting a disea
 While vaccine development programs have attracted significant attention and produced a number of promising candidates, there is also an immediate need for treatments that palliate symptoms and prevent the most severe outcomes from infection.
 Fortunately, prior developments during other recent pandemics, especially those caused by human coronaviruses (HCoV), has provided a number of hypotheses guiding a biomedical approach to the novel coronavirus infection.
 
-2,325,512 COVID-19 deaths had been reported worldwide as of February 8, 2021 (Figure @fig:csse-deaths).
+2,341,104 COVID-19 deaths had been reported worldwide as of February 9, 2021 (Figure @fig:csse-deaths).
 
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
-](https://github.com/greenelab/covid19-review/raw/fe2ebd48c2606770c794b8f04ed40de691c48eee/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
+](https://github.com/greenelab/covid19-review/raw/d6a1b50233412eb17be0cdd498936cdd35ba58a5/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
 
 #### Lessons from Prior HCoV Outbreaks
 
@@ -1875,7 +1875,7 @@ The study types include only types used in at least five trials.
 The common interventions are all interventions used in at least ten trials.
 Combinations of interventions, such as Hydroxychloroquine + Azithromycin, are tallied separately from the individual interventions.
 Trials data are from the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709].
-](https://github.com/greenelab/covid19-review/raw/fe2ebd48c2606770c794b8f04ed40de691c48eee/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/d6a1b50233412eb17be0cdd498936cdd35ba58a5/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 ### Small Molecule Drugs
 
@@ -1888,10 +1888,11 @@ Small molecule drugs today encompass a wide range of therapeutics beyond antibio
 
 Antiviral drugs against SARS-CoV-2 are designed to inhibit replication of a virus within an epithelial host cell.
 This process requires inhibiting the replication cycle of a virus by disrupting one of six fundamental steps [@isbn:978-1405136457].
-In the first of these steps, the virus attaches to the host cell, which it next penetrates through endocytosis.
+In the first of these steps, the virus attaches to and enters the host cell through endocytosis.
 Then the virus undergoes uncoating, which is classically defined as the release of viral contents into the host cell.
 Next, the viral genetic material enters the nucleus where it gets replicated during the biosynthesis stage.
-During the assembly stage, viral proteins are translated, allowing new viral particles to be assembled, and during the final step, release, the new viruses are released into the extracellular environment.
+During the assembly stage, viral proteins are translated, allowing new viral particles to be assembled.
+In the final step new viruses are released into the extracellular environment.
 Many antiviral drugs are designed to inhibit the replication of viral genetic material during the biosynthesis step.
 Unlike DNA viruses, which can use the host enzymes to propagate themselves, RNA viruses like SARS-CoV-2 depend on their own polymerase, the RNA-dependent RNA polymerase (RdRP), for replication [@doi:10.1007/978-1-4939-2438-7; @doi:10.1002/jmv.25761].
 Targeting RdRP is therefore an effective strategy for antivirals against RNA viruses and is the proposed mechanism underlying the treatment of SARS and MERS with Ribavirin [@doi:10.1080/17460441.2019.1581171].
@@ -1965,7 +1966,7 @@ The inclusion criteria were variable: some patients only required low doses of o
 The study included many sites, potentially with variable inclusion criteria and treatment protocols.
 The patients analyzed had mixed demographics.
 There was a short follow-up period of investigation.
-Some patients worsened, some patients died, and eight were excluded from the analysis mainly due to missing post-baseline information; thus, their health is unaccounted for.
+Some patients worsened, some patients died, and eight were excluded from the analysis mainly due to missing post-baseline information; thus, their health was unaccounted for.
 Therefore, even though the study reported clinical improvement in 68% of the 53 patients ultimately evaluated, due to the significant issues with study design, it could not be determined whether treatment with remdesivir had an effect or whether these patients would have recovered regardless of treatment.
 Another study comparing 5- and 10-day treatment regimens reported similar results but was also limited because of the lack of a placebo control [@doi:10.1056/NEJMoa2015301].
 These studies did not alter the understanding of the efficacy of remdesivir in treating COVID-19, but the encouraging results provided motivation for placebo-controlled studies.
@@ -1997,7 +1998,7 @@ Additionally, the authors compared data from their study with data from three ot
 The adjusted rate ratio for death based on this meta-analysis was 0.91.
 These results thus do not support the previous findings that remdesivir reduced median recovery time and mortality risk in COVID-19 patients.
 
-In response to the results of the Solidarity trial, Gilead, which manufactures remdesivir under the name Veklury^R, released a statement pointing to the fact that the Solidarity trial was not placebo-controlled or double-blind and at the time of the statement had not been peer reviewed [@url:https://www.gilead.com/news-and-press/company-statements/gilead-sciences-statement-on-the-solidarity-trial]; these sentiments have been echoed elsewhere [@doi:10.1093/eurheartj/ehaa934].
+In response to the results of the Solidarity trial, Gilead, which manufactures remdesivir, released a statement pointing to the fact that the Solidarity trial was not placebo-controlled or double-blind and at the time of the statement had not been peer reviewed [@url:https://www.gilead.com/news-and-press/company-statements/gilead-sciences-statement-on-the-solidarity-trial]; these sentiments have been echoed elsewhere [@doi:10.1093/eurheartj/ehaa934].
 Other critiques of this study have noted that antivirals are not typically targeted at patients with severe illness, and therefore remdesivir could be more beneficial for patients with mild rather than severe cases [@url:https://www.sciencemag.org/news/2020/10/very-very-bad-look-remdesivir-first-fda-approved-covid-19-drug; @doi:10.1056/NEJMe2034294].
 However, the publication associated with the trial sponsored by Gilead did purport an effect of remdesivir on patients with severe disease, identifying an 11 versus 18 day recovery period (rate ratio for recovery: 1.31, 95% CI 1.12 to 1.52), although the results of a significance test were not provided [@doi:10.1056/NEJMoa2007764].
 Additionally, a smaller analysis of 598 patients, of whom two-thirds were randomized to receive remdesivir for either 5 or 10 days, reported a small effect of treatment with remdesivir for five days relative to standard of care in patients with moderate COVID-19 [@doi:10.1001/jama.2020.16349].
@@ -3438,7 +3439,7 @@ Trials that recruit across multiple countries do appear to broaden geographic re
 The density of clinical trials is reported at the country level.
 As of November 9, 2020, there are 6,417 trials in the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709].
 The top figure demonstrates the density of trials recruiting only from a singular country, while the bottom shows the distribution of recruitment for trials that involve more than one country.
-](https://github.com/greenelab/covid19-review/raw/fe2ebd48c2606770c794b8f04ed40de691c48eee/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
+](https://github.com/greenelab/covid19-review/raw/d6a1b50233412eb17be0cdd498936cdd35ba58a5/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
 
 A few different concerns arise from this skewed geographic representation in clinical trial recruitment.
 First, treatments such as remdesivir that are promising but primarily available to clinical trial participants are unlikely to be accessible by people in many countries.
