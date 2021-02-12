@@ -1,4 +1,6 @@
 input_id	dealiased_id	standard_id	short_id
+individual-pathogenesis	arxiv:2102.01521	arxiv:2102.01521	r366f5T3
+individual-nutraceuticals	arxiv:2102.02250	arxiv:2102.02250	1B22G6dja
 url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200121-sitrep-1-2019-ncov.pdf	url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200121-sitrep-1-2019-ncov.pdf	url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200121-sitrep-1-2019-ncov.pdf	Vb5KFWnO
 url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128-sitrep-8-ncov-cleared.pdf	url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128-sitrep-8-ncov-cleared.pdf	url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128-sitrep-8-ncov-cleared.pdf	fLTiwToY
 url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200311-sitrep-51-covid-19.pdf	url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200311-sitrep-51-covid-19.pdf	url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200311-sitrep-51-covid-19.pdf	x9975iBK
@@ -365,7 +367,6 @@ doi:10.1007/s13246-020-00865-4	doi:10.1007/s13246-020-00865-4	doi:10.1007/s13246
 url:https://www.cdc.gov/coronavirus/2019-nCoV/hcp/clinical-criteria.html	url:https://www.cdc.gov/coronavirus/2019-nCoV/hcp/clinical-criteria.html	url:https://www.cdc.gov/coronavirus/2019-nCoV/hcp/clinical-criteria.html	OB8BJiwj
 url:https://www.governor.ny.gov/sites/governor.ny.gov/files/atoms/files/NYForwardReopeningGuide.pdf	url:https://www.governor.ny.gov/sites/governor.ny.gov/files/atoms/files/NYForwardReopeningGuide.pdf	url:https://www.governor.ny.gov/sites/governor.ny.gov/files/atoms/files/NYForwardReopeningGuide.pdf	IldxlHwA
 doi:10.1001/jama.2020.8259	doi:10.1001/jama.2020.8259	doi:10.1001/jama.2020.8259	CC4sPeuO
-individual-pathogenesis	arxiv:2102.01521	arxiv:2102.01521	r366f5T3
 https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series	https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series	url:https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series	MrwDDw9R
 doi:10.1056/NEJMoa1211721	doi:10.1056/NEJMoa1211721	doi:10.1056/nejmoa1211721	7Ee6Sz9l
 doi:10.1101/2020.06.15.20131540	doi:10.1101/2020.06.15.20131540	doi:10.1101/2020.06.15.20131540	xnPm1mx8
@@ -561,8 +562,8 @@ doi:10.1172/jci.insight.123158	doi:10.1172/jci.insight.123158	doi:10.1172/jci.in
 doi:10.1016/j.jcv.2003.11.013	doi:10.1016/j.jcv.2003.11.013	doi:10.1016/j.jcv.2003.11.013	LtFtUo2P
 doi:10.1016/j.virusres.2014.07.024	doi:10.1016/j.virusres.2014.07.024	doi:10.1016/j.virusres.2014.07.024	Nfu9kiae
 clinicaltrials:NCT04385095	clinicaltrials:NCT04385095	clinicaltrials:NCT04385095	5GxCGzrT
-synairgen-SNG001	https://www.synairgen.com/wp-content/uploads/2020/03/200318-Synairgen-to-start-trial-of-SNG001-in-COVID-19-imminently-.pdf	url:https://www.synairgen.com/wp-content/uploads/2020/03/200318-Synairgen-to-start-trial-of-SNG001-in-COVID-19-imminently-.pdf	s9C2iFSR
-url:https://www.synairgen.com/wp-content/uploads/2020/07/200720-Synairgen-announces-positive-results-from-trial-of-SNG001-in-hospitalised-COVID-19-patients.pdf	url:https://www.synairgen.com/wp-content/uploads/2020/07/200720-Synairgen-announces-positive-results-from-trial-of-SNG001-in-hospitalised-COVID-19-patients.pdf	url:https://www.synairgen.com/wp-content/uploads/2020/07/200720-Synairgen-announces-positive-results-from-trial-of-SNG001-in-hospitalised-COVID-19-patients.pdf	4Tx92JMv
+synairgen-SNG001-March-2020	synairgen-SNG001-March-2020	synairgen-SNG001-March-2020	7k9Wp9or
+synairgen-SNG001-July-2020	synairgen-SNG001-July-2020	synairgen-SNG001-July-2020	bD1bgfSb
 doi:10/ghjzm4	doi:10/ghjzm4	doi:10.1016/s2213-2600(20)30511-7	qFDbLzcP
 doi:10/ftmj	doi:10/ftmj	doi:10.1016/s2213-2600(20)30523-3	11hbhD5Rk
 10.1001/jama.2019.22525	10.1001/jama.2019.22525	doi:10.1001/jama.2019.22525	B2urVDo5
