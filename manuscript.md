@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2021-02-11'
+date-meta: '2021-02-12'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -64,8 +64,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2021-02-11" />
-  <meta name="citation_publication_date" content="2021-02-11" />
+  <meta name="dc.date" content="2021-02-12" />
+  <meta name="citation_publication_date" content="2021-02-12" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -249,13 +249,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/5822da1e097d49fb38a7d428fce08296475aaa07/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/5822da1e097d49fb38a7d428fce08296475aaa07/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/5822da1e097d49fb38a7d428fce08296475aaa07/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/c416bb3246187a6aea9a94f8695807123994fd34/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/c416bb3246187a6aea9a94f8695807123994fd34/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/c416bb3246187a6aea9a94f8695807123994fd34/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/5822da1e097d49fb38a7d428fce08296475aaa07/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/5822da1e097d49fb38a7d428fce08296475aaa07/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/c416bb3246187a6aea9a94f8695807123994fd34/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/c416bb3246187a6aea9a94f8695807123994fd34/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -277,10 +277,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/5822da1e097d49fb38a7d428fce08296475aaa07/))
+([permalink](https://greenelab.github.io/covid19-review/v/c416bb3246187a6aea9a94f8695807123994fd34/))
 was automatically generated
-from [greenelab/covid19-review@5822da1](https://github.com/greenelab/covid19-review/tree/5822da1e097d49fb38a7d428fce08296475aaa07)
-on February 11, 2021.
+from [greenelab/covid19-review@c416bb3](https://github.com/greenelab/covid19-review/tree/c416bb3246187a6aea9a94f8695807123994fd34)
+on February 12, 2021.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -690,12 +690,12 @@ Most of these cases were in China, but one to two exported cases had also been i
 One week later, 4,593 confirmed cases had been identified, spanning not only Asia, but also Australia, North America, and Europe [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128-sitrep-8-ncov-cleared.pdf].
 On March 11, 2020, the WHO formally classified the situation as a pandemic [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200311-sitrep-51-covid-19.pdf].
 On April 4, 2020, the WHO reported that the global number of confirmed cases had surpassed one million [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200404-sitrep-75-covid-19.pdf].
-<!--2,341,104 COVID-19 deaths had been reported worldwide as of February 9, 2021 (Figure @fig:csse-deaths).
+<!--2,354,561 COVID-19 deaths had been reported worldwide as of February 10, 2021 (Figure @fig:csse-deaths).
 
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
-](https://github.com/greenelab/covid19-review/raw/d6a1b50233412eb17be0cdd498936cdd35ba58a5/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1} -->
+](https://github.com/greenelab/covid19-review/raw/63d77f6dd1352bbaeaa48f27ed1200032e9058c6/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1} -->
 
 As international attention remains focused on the ongoing public health crisis, the scientific community has responded by mobilizing resources and turning much of its attention to the virus and disease.
 This rapid influx of information is disseminated by traditional publishing mechanisms, preprint servers, and press releases, which provide a venue for scientists to release findings without undergoing the formal publication process.
@@ -1810,12 +1810,12 @@ Prophylactics bolster immunity to prevent an individual from contracting a disea
 While vaccine development programs have attracted significant attention and produced a number of promising candidates, there is also an immediate need for treatments that palliate symptoms and prevent the most severe outcomes from infection.
 Fortunately, prior developments during other recent pandemics, especially those caused by human coronaviruses (HCoV), has provided a number of hypotheses guiding a biomedical approach to the novel coronavirus infection.
 
-2,341,104 COVID-19 deaths had been reported worldwide as of February 9, 2021 (Figure @fig:csse-deaths).
+2,354,561 COVID-19 deaths had been reported worldwide as of February 10, 2021 (Figure @fig:csse-deaths).
 
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
-](https://github.com/greenelab/covid19-review/raw/d6a1b50233412eb17be0cdd498936cdd35ba58a5/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
+](https://github.com/greenelab/covid19-review/raw/63d77f6dd1352bbaeaa48f27ed1200032e9058c6/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
 
 #### Lessons from Prior HCoV Outbreaks
 
@@ -1875,7 +1875,7 @@ The study types include only types used in at least five trials.
 The common interventions are all interventions used in at least ten trials.
 Combinations of interventions, such as Hydroxychloroquine + Azithromycin, are tallied separately from the individual interventions.
 Trials data are from the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709].
-](https://github.com/greenelab/covid19-review/raw/d6a1b50233412eb17be0cdd498936cdd35ba58a5/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/63d77f6dd1352bbaeaa48f27ed1200032e9058c6/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 ### Small Molecule Drugs
 
@@ -2119,7 +2119,7 @@ However, as more evidence has emerged, it has become clear that HCQ/CQ offer no 
 
 The initial study evaluating HCQ as a treatment for COVID-19 patients was published on March 20, 2020 by Gautret et al. [@doi:10.1016/j.ijantimicag.2020.105949].
 This non-randomized, non-blinded, non-placebo clinical trial compared HCQ to standard of care (SOC) in 42 hospitalized patients in southern France.
-It reported that patients who received HCQ showed higher rates of virological clearance by nasopharyngeal swab on Days 3-6 when compared to SOC.
+It reported that patients who received HCQ showed higher rates of virological clearance by nasopharyngeal swab on days 3-6 when compared to SOC.
 This study also treated six patients with both HCQ + AZ and found this combination therapy to be more effective than HCQ alone.
 However, the design and analyses used showed weaknesses that severely limit interpretability of results, including the lack of randomization, lack of blinding, lack of placebo, lack of Intention-To-Treat analysis, lack of correction for sequential multiple comparisons, trial arms entirely confounded by hospital, false negatives in outcome measurements, lack of trial pre-registration, and small sample size.
 Two of these weaknesses are due to inappropriate data analysis and can therefore be corrected _post hoc_ by recalculating the p-values (lack of Intention-To-Treat analysis and multiple comparisons).
@@ -2130,10 +2130,10 @@ The International Society of Antimicrobial Chemotherapy, the scientific organiza
 Because of the preliminary data presented in this study, HCQ treatment was subsequently explored by other researchers.
 About one week later, a follow-up case study reported that 11 consecutive patients were treated with HCQ + AZ using the same dosing regimen [@doi:10.1016/j.medmal.2020.03.006].
 One patient died, two were transferred to the intensive care unit (ICU), and one developed a prolonged QT interval, leading to discontinuation of HCQ + AZ administration.
-As in the Gautret et al. study, the outcome assessed was virological clearance at Day 6 post-treatment, as measured from nasopharyngeal swabs.
-Of the ten living patients on Day 6, eight remained positive for SARS-CoV-2 RNA.
+As in the Gautret et al. study, the outcome assessed was virological clearance at day 6 post-treatment, as measured from nasopharyngeal swabs.
+Of the ten living patients on day 6, eight remained positive for SARS-CoV-2 RNA.
 Like in the original study, interpretability was severely limited by the lack of a comparison group and the small sample size.
-However, these results stand in contrast to the claims by Gautret et al. that all six patients treated with HCQ + AZ tested negative for SARS-CoV-2 RNA by Day 6 post-treatment.
+However, these results stand in contrast to the claims by Gautret et al. that all six patients treated with HCQ + AZ tested negative for SARS-CoV-2 RNA by day 6 post-treatment.
 This case study illustrated the need for further investigation using robust study design to evaluate the efficacy of HCQ and/or CQ.
 
 On April 10, 2020, a randomized, non-placebo trial of 62 COVID-19 patients at the Renmin Hospital of Wuhan University was released [@doi:10.1101/2020.03.22.20040758].
@@ -3439,7 +3439,7 @@ Trials that recruit across multiple countries do appear to broaden geographic re
 The density of clinical trials is reported at the country level.
 As of November 9, 2020, there are 6,417 trials in the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709].
 The top figure demonstrates the density of trials recruiting only from a singular country, while the bottom shows the distribution of recruitment for trials that involve more than one country.
-](https://github.com/greenelab/covid19-review/raw/d6a1b50233412eb17be0cdd498936cdd35ba58a5/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
+](https://github.com/greenelab/covid19-review/raw/63d77f6dd1352bbaeaa48f27ed1200032e9058c6/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
 
 A few different concerns arise from this skewed geographic representation in clinical trial recruitment.
 First, treatments such as remdesivir that are promising but primarily available to clinical trial participants are unlikely to be accessible by people in many countries.
