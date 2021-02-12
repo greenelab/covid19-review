@@ -192,7 +192,7 @@ def main(args):
     trials_df = trials_df.set_index('index')
 
     # Filter out trials that are not interventional
-    interventional_trials = trials_df[trials_df["study_type"] == "Interventional"]]
+    interventional_trials = trials_df[trials_df["study_type"] == "Interventional"]
 
     ebm_stats['ebm_all_trials'] = f'{len(trials_df.index):,}'
     ebm_stats['ebm_interv_trials'] = f'{len(interventional_trials.index):,}'
