@@ -240,7 +240,7 @@ def main(args):
     ax = intervention_counts.plot(kind='barh', ax=axes[1, 1])
     ax.set_title('Clinical trials common interventions')
 
-    fig.savefig(args.output_figure + '.png', bbox_inches = "tight")
+    fig.savefig(args.output_figure + '.png', dpi=300, bbox_inches = "tight")
     fig.savefig(args.output_figure + '.svg', bbox_inches = "tight")
 
     print(f'Wrote {args.output_figure}.png and {args.output_figure}.svg')
@@ -275,7 +275,7 @@ def main(args):
                  date.today().strftime("%b-%d-%Y"),
                  xy=(0, 0), xycoords="axes points")
 
-    plt.savefig(args.output_map + '.png', bbox_inches="tight")
+    plt.savefig(args.output_map + '.png', dpi=300, bbox_inches="tight")
     plt.savefig(args.output_map + '.svg', bbox_inches="tight")
 
     print(f'Wrote {args.output_map}.png and {args.output_map}.svg')
@@ -283,9 +283,9 @@ def main(args):
     # The placeholder will be replaced by the actual SHA-1 hash in separate
     # script after the updated image is committed
     ebm_stats['ebm_trials_figure'] = \
-        f'https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/{args.output_figure}.svg'
+        f'https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/{args.output_figure}.png'
     ebm_stats['ebm_map_figure'] = \
-        f'https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/{args.output_map}.svg'
+        f'https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/{args.output_map}.png'
     # Tabulate number of trials for pharmaceuticals of interest
     ebm_stats['ebm_tocilizumab_ct'] = \
         str(trials_df['intervention'].str.contains('tocilizumab', case=False).sum())
