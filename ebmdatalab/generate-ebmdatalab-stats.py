@@ -191,7 +191,11 @@ def main(args):
     trials_df.columns = header
     trials_df = trials_df.set_index('index')
 
-    ebm_stats['ebm_trials'] = f'{len(trials_df.index):,}'
+    # Filter out trials that are not interventional
+    interventional_trials = trials_df[trials_df["study_type"] == "Interventional"]]
+
+    ebm_stats['ebm_all_trials'] = f'{len(trials_df.index):,}'
+    ebm_stats['ebm_interv_trials'] = f'{len(interventional_trials.index):,}'
 
     # Get the most recent trial update
     most_recent_update = pd.to_datetime(trials_df['last_updated']).max()
@@ -200,19 +204,23 @@ def main(args):
     most_recent_update = most_recent_update.strftime('%B %d, %Y').replace(' 0', ' ')
     ebm_stats['ebm_date_pretty'] = most_recent_update
 
-    trial_results = trials_df[trials_df['results_url'] != 'No Results']['results_url']
+    trial_results = interventional_trials[interventional_trials['results_url'] != 'No Results']['results_url']
     ebm_stats['ebm_trials_results'] = f'{len(trial_results):,}'
 
     # Some results entries have multiple URLs
     trial_results_citekeys = [extract_citekey(results_url) for results in trial_results for results_url in results.split()]
     ebm_stats['ebm_trials_results_citekeys'] = sorted(set(trial_results_citekeys))
 
-    # Filter out trials that are not interventional
-    interventional_trials = trials_df[trials_df["study_type"] == "Interventional"]]
-
     plt.rc('font', size=14)
     plt.rc('figure', titlesize=24)
     fig, axes = plt.subplots(nrows=2, ncols=2, figsize=(20, 12), constrained_layout=True)
+
+    # Plot study type
+    # Only include study types used in >= 5 trials
+    study_type_counts = trials_df['study_type'].value_counts(ascending=True)
+    study_type_counts = study_type_counts[study_type_counts >= 5]
+    ax = study_type_counts.plot(kind='barh', ax=axes[1, 0])
+    ax.set_title('Clinical trials study type')
 
     # Plot trial recruitment status
     # Only include trials with a recruitment status
@@ -227,13 +235,6 @@ def main(args):
     phase_counts = phase_counts.drop(labels='Not Applicable')
     ax = phase_counts.plot(kind='barh', ax=axes[0, 1])
     ax.set_title('Clinical trials phase')
-
-    # Plot study type
-    # Only include study types used in >= 5 trials
-    study_type_counts = interventional_trials['study_type'].value_counts(ascending=True)
-    study_type_counts = study_type_counts[study_type_counts >= 5]
-    ax = study_type_counts.plot(kind='barh', ax=axes[1, 0])
-    ax.set_title('Clinical trials study type')
 
     # Plot common interventions
     # Only include trials with an intervention and interventions in >= 10 trials
