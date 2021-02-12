@@ -223,21 +223,21 @@ def main(args):
     ax.set_title('Clinical trials study type')
 
     # Plot trial recruitment status
-    # Only include trials with a recruitment status
+    # Only include interventional trials with a recruitment status
     recruitment_counts = interventional_trials['recruitment_status'].value_counts(ascending=True)
     recruitment_counts = recruitment_counts.drop(labels='No Status Given')
     ax = recruitment_counts.plot(kind='barh', ax=axes[0, 0])
     ax.set_title('Clinical trials recruitment status')
 
     # Plot trial phase
-    # Only include trials with a reported phase
+    # Only include interventional trials with a reported phase
     phase_counts = interventional_trials['phase'].value_counts(ascending=True)
     phase_counts = phase_counts.drop(labels='Not Applicable')
     ax = phase_counts.plot(kind='barh', ax=axes[0, 1])
     ax.set_title('Clinical trials phase')
 
     # Plot common interventions
-    # Only include trials with an intervention and interventions in >= 10 trials
+    # Only include interventional trials with an intervention and interventions in >= 10 trials
     intervention_counts = interventional_trials['intervention'].value_counts(ascending=True)
     intervention_counts = intervention_counts.drop(labels='No Intervention')
     intervention_counts = intervention_counts[intervention_counts >= 10]
