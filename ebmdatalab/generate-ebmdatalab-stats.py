@@ -207,34 +207,37 @@ def main(args):
     trial_results_citekeys = [extract_citekey(results_url) for results in trial_results for results_url in results.split()]
     ebm_stats['ebm_trials_results_citekeys'] = sorted(set(trial_results_citekeys))
 
+    # Filter out trials that are not interventional
+    interventional_trials = trials_df[trials_df["study_type"] == "Interventional"]]
+
     plt.rc('font', size=14)
     plt.rc('figure', titlesize=24)
     fig, axes = plt.subplots(nrows=2, ncols=2, figsize=(20, 12), constrained_layout=True)
 
     # Plot trial recruitment status
     # Only include trials with a recruitment status
-    recruitment_counts = trials_df['recruitment_status'].value_counts(ascending=True)
+    recruitment_counts = interventional_trials['recruitment_status'].value_counts(ascending=True)
     recruitment_counts = recruitment_counts.drop(labels='No Status Given')
     ax = recruitment_counts.plot(kind='barh', ax=axes[0, 0])
     ax.set_title('Clinical trials recruitment status')
 
     # Plot trial phase
     # Only include trials with a reported phase
-    phase_counts = trials_df['phase'].value_counts(ascending=True)
+    phase_counts = interventional_trials['phase'].value_counts(ascending=True)
     phase_counts = phase_counts.drop(labels='Not Applicable')
     ax = phase_counts.plot(kind='barh', ax=axes[0, 1])
     ax.set_title('Clinical trials phase')
 
     # Plot study type
     # Only include study types used in >= 5 trials
-    study_type_counts = trials_df['study_type'].value_counts(ascending=True)
+    study_type_counts = interventional_trials['study_type'].value_counts(ascending=True)
     study_type_counts = study_type_counts[study_type_counts >= 5]
     ax = study_type_counts.plot(kind='barh', ax=axes[1, 0])
     ax.set_title('Clinical trials study type')
 
     # Plot common interventions
     # Only include trials with an intervention and interventions in >= 10 trials
-    intervention_counts = trials_df['intervention'].value_counts(ascending=True)
+    intervention_counts = interventional_trials['intervention'].value_counts(ascending=True)
     intervention_counts = intervention_counts.drop(labels='No Intervention')
     intervention_counts = intervention_counts[intervention_counts >= 10]
     ax = intervention_counts.plot(kind='barh', ax=axes[1, 1])
@@ -246,7 +249,7 @@ def main(args):
     print(f'Wrote {args.output_figure}.png and {args.output_figure}.svg')
 
     # Count geographic representation by ISO3 code
-    all_counts = tabulate_countries(trials_df)
+    all_counts = tabulate_countries(interventional_trials)
 
     # Map frequency data onto the geopandas geographical data for units with ISO code
     # geopandas uses -99 as N/A for this field
@@ -288,7 +291,7 @@ def main(args):
         f'https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/{args.output_map}.png'
     # Tabulate number of trials for pharmaceuticals of interest
     ebm_stats['ebm_tocilizumab_ct'] = \
-        str(trials_df['intervention'].str.contains('tocilizumab', case=False).sum())
+        str(interventional_trials['intervention'].str.contains('tocilizumab', case=False).sum())
 
     with open(args.output_json, 'w') as out_file:
         json.dump(ebm_stats, out_file, indent=2, sort_keys=True)
