@@ -249,13 +249,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/ff44f6b8397192b6b47d6332beae03e66f25583d/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/ff44f6b8397192b6b47d6332beae03e66f25583d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/ff44f6b8397192b6b47d6332beae03e66f25583d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/59a3356e20e03c5dfb497cc2bfe11ce55b7f1a02/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/59a3356e20e03c5dfb497cc2bfe11ce55b7f1a02/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/59a3356e20e03c5dfb497cc2bfe11ce55b7f1a02/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/ff44f6b8397192b6b47d6332beae03e66f25583d/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/ff44f6b8397192b6b47d6332beae03e66f25583d/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/59a3356e20e03c5dfb497cc2bfe11ce55b7f1a02/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/59a3356e20e03c5dfb497cc2bfe11ce55b7f1a02/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -277,9 +277,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/ff44f6b8397192b6b47d6332beae03e66f25583d/))
+([permalink](https://greenelab.github.io/covid19-review/v/59a3356e20e03c5dfb497cc2bfe11ce55b7f1a02/))
 was automatically generated
-from [greenelab/covid19-review@ff44f6b](https://github.com/greenelab/covid19-review/tree/ff44f6b8397192b6b47d6332beae03e66f25583d)
+from [greenelab/covid19-review@59a3356](https://github.com/greenelab/covid19-review/tree/59a3356e20e03c5dfb497cc2bfe11ce55b7f1a02)
 on February 14, 2021.
 Snapshots of individual sections are available as preprints [@individual-pathogenesis; @individual-nutraceuticals].
 </em></small>
@@ -3151,7 +3151,66 @@ As of December 11, 2020, the United States FDA approved this vaccine under an em
 
 #### COVID-19 Vaccine AstraZeneca
 
-#### Sputnik-V
+#### Sputnik-V (Gam-COVID-Vac and Gam-COVID-Vac-Lyo)
+
+The vaccine Gam-COVID-Vac, nicknamed Sputnik V in reference to the space race, was developed by the Gamaleya National Center of Epidemiology and Microbiology in Moscow. 
+Gamaleya is an organization with prior experience using the adenovirus platform for the development of vaccines for _Middle East respiratory syndrome-related coronavirus_ and Ebola virus, although neither of the previous vaccines were internationally licensed [@url:https://www.who.int/immunization/sage/meetings/2018/october/2_Ebola_SAGE2018Oct_BgDoc_20180919.pdf].
+The development of Sputnik V was financed by the Russian Direct Investment Fund [@doi:10/ft7j; @doi:10/ghs3sn]. 
+Sputnik V is a replication-deficient recombinant adenovirus (rAd) vaccine that combines two adenovirus vectors, rAd26-S and rAd5-S, that express the full-length SARS-CoV-2 spike glycoprotein. 
+These vectors are intramuscularly administered individually using two separate vaccines in a prime-boost regimen. 
+The rAd26-S is administered first, followed by rAd5-S 21 days later.
+Both vaccines deliver 10^11^ viral particles per dose. 
+This approach is designed to overcome any potential pre-existing immunity to adenovirus in the population [@doi:10/ghx7xz], as some individuals may possess immunity to Ad5 [@doi:10.1016/j.vaccine.2011.05.025].
+Sputnik V is the only recombinant adenovirus vaccine to utilize two vectors.
+Other vaccines, such as the Oxford-AstraZeneca vaccine, utilize the chimpanzee adenovirus vector (ChAdOx1 nCoV-19) for both doses [@doi:10/ghpghz].
+The Sputnik V vaccines are available in both a lyophilized (Gam-COVID-Vac-Lyo) and frozen form (Gam-COVID-Vac), which are stored at 2-8°C and -18°C respectively [@doi:10/gg96hq]. 
+The lyophilized vaccine is convenient for distribution and storage, particularly to remote or disadvantaged areas [@doi:10.3390/v13010054].
+
+In the race to develop vaccines against SARS-CoV-2, President Vladimir Putin of Russia announced the approval of the Sputnik V vaccines on August 11th, 2020 in the absence of clinical evidence [@doi:10/ft7j]. 
+Consequently, many international scientific agencies and public health bodies expressed concern that due diligence to the clinical trial process was subverted for the sake of expediency, leading many to question the safety and efficacy of Sputnik V [@doi:10.1126/science.abe3147; @url:https://www.cnbc.com/2020/08/11/scientists-worry-whether-russias-sputnik-v-coronavirus-vaccine-is-safe-and-effective.html; @doi:10/ft7j].
+Despite regulatory, safety, and efficacy concerns, pre-orders for 1 billion doses of the Sputnik V were reported within days of the vaccine's approval in Russia [@doi:10/ft7j].
+Almost a month later, the phase I/II trial data was published [@doi:10/gg96hq].
+
+In the phase I/II trial study conducted between late June and early August 2020, 76 participants (18-60 years old) were split into two groups of 38 participants, which were non-randomized in two hospitals in Russia. 
+In phase I, 9 patients received rAd26 and 9 patients received rAd5-S to assess safety over 28 days. 
+In phase II, at least 5 days after the completion of phase I, 20 patients received a prime-boost vaccination of rAd26-S on day 0 and rAd5-S on day 2, which was administered intramuscularly.
+The phase I/II trial reported that both vaccines were deemed safe and well tolerated. 
+The most common adverse events reported were mild, such as pain at the injection site (58%), hypothermia (50%), headaches (42%), fatigue (28%), and joint and muscle pain (24%). 
+Seroconversion was observed in all participants three weeks post the second vaccination (day 42), and all participants produced antibodies to the SARS-CoV-2 glycoprotein. 
+RBD-specific IgG levels were high in both the frozen and lyophilized versions of the vaccine (14,703 and 11,143 respectively), indicating a sufficient immune response to both.
+Three weeks post the second vaccination, the virus-neutralizing geometric mean antibody titers were 49.25 and 45.95 from the frozen and lyophilized vaccines, respectively.
+At 28 days, median cell proliferation of 1.3% CD4^+^ and 1.1% CD8^+^ were reported for the lyophilized vaccine and 2.5% CD4^+^ and 1.3% CD8^+^ for the vaccine stored frozen. 
+These results indicated that both forms of Sputnik V appeared to be safe and induce a humoral and cellular response in human subjects [@doi:10/gg96hq], which may be robust enough to persist and not wane rapidly [@doi:10/ghx7xz]. 
+
+A press release on November 11th, 2020 indicated positive results from an interim analysis of the phase III Sputnik V trials, which reported 92% efficacy in 16,000 volunteers [@doi:10.1126/science.abf6791].
+However, this release came only two days after both Pfizer and BioNTech reported that their vaccines had an efficacy over 90%, which led to significant skepticism of the Russian findings for a myriad of reasons including the lack of a published protocol and the “reckless” approval of the vaccine in Russia months prior to the publication of the interim results of the phase III trial [@doi:10.1126/science.abf6791; @doi:10.1038/d41586-020-03209-0].
+In February 2021, the interim results of the phase III randomized, double-blind, placebo-controlled trial were eventually published in _The Lancet_ [@doi:10/ghxj4g].
+The multicenter trial enrolled 21,862 participants over the age of 18 years old in Moscow, Russia. 
+The participants were randomly assigned to receive either a 0.5 mL/dose of vaccine or placebo, which was comprised of the vaccine buffer composition, that was delivered intramuscularly using the same prime-boost regimen as in the phase I/II trials. 
+From September 7th to Nov 24th, 19,866 participants completed the trial.
+Of the 14,964 participants who received the vaccine, 16 (0.1%) were confirmed to have COVID-19, whereas 62 of the 4,902 participants (1.3%) in the placebo group were confirmed to have COVID-19. 
+Of these participants, no moderate or severe cases of COVID-19 were reported in the vaccine group, juxtaposed with 20 in the placebo group.
+However, only symptomatic individuals were confirmed for SARS-CoV-2 infection in this trial. 
+Therefore, asymptomatic infections were not detected, thus potentially inflating the efficacy estimate.
+Overall, a vaccine efficacy of 91.6% (95% CI 85.6-95.2) was reported, where an efficacy of 91.8% was reported for those over 60 years old and 92.7% for those who were 51-60 years old. 
+Indeed, 14 days after the first dose, 87.6% efficacy was achieved and the immunity required to prevent disease occurred within 18 days of vaccination. 
+Based on these results, scientists are investigating the potential for a single dose regimen of the rAd26-S sputnik V vaccine [@doi:10.1136/bmj.n309].
+By the end of the trial, 7,485 participants reported adverse events, of which 94% were grade I.
+Of the 68 participants who experienced serious adverse events during the trial,  45 from the vaccine group and 23 from the placebo groups, none were reported to be associated with the vaccination. 
+Likewise, 4 deaths occurred during the trial period that were not related to the vaccine [@doi:10/ghxj4g].
+The interim findings of the phase III trial indicate that the Sputnik V vaccine regimen appears to be safe with 91.6% efficacy.
+Moving forward, Gamaleya intends to reach a total of 40,000 participants for the completion of their phase III trial.  
+Indeed, other trials involving Sputnik V are currently underway in Belarus, India, the United Arab Emirates, and Venezuela [@url:https://sputnikvaccine.com/about-vaccine/].
+
+Preliminary results of a trial of Argentinian healthcare workers in Buenos Aires who were vaccinated with the Sputnik V rAd26-R vector-based vaccine seems to support the short term safety of the first vaccination [@url:https://doi.org/10.1101/2021.02.03.21251071]. 
+Of the 707 vaccinated healthcare workers, 71.3% of the 96.6% of respondents reported at least one adverse event attributed to the vaccine. 
+Of these individuals, 68% experienced joint and muscle pain, 54% had injection site pain, 11% reported redness and swelling, 40% had a fever, and 5% reported diarrhea. 
+Only 5% of the vaccinated participants experienced serious adverse events that required medical attention, of which one was monitored as an inpatient.
+
+Overall, there is hesitancy surrounding the management of the Sputnik V vaccine approval process and concerns over whether the efficacy data may be inflated due to a lack of asymptomatic testing within the trial.
+However, further trials are underway, which will likely shed light on the overall efficacy and safety of the Sputnik V vaccine regimen. 
+There may be some advantage to the Sputnik V approach including the favorable storage conditions afforded by choice between a frozen and lyophilized vaccine. 
+Furthermore, the producers of Gam-COVID-Vac state that they can produce the vaccine at a cost of less than $10 per dose or less than $20 per patient [@url:https://sputnikvaccine.com].
 
 #### Janssen’s Ad26.COV2-S
 
@@ -3221,7 +3280,6 @@ Though some concerns remain about the duration of sustained immunity for convale
 The Moderna trial, for example, reported that the neutralizing activity in participants who received two doses of the vaccine was similar to that observed in convalescent plasma.
 
 One of the two mRNA vaccines, Pfizer and BioNTech's BNT162b2, has been issued an EUA for patients as young as 16 [@url:https://www.pfizer.com/news/press-release/press-release-detail/pfizer-and-biontech-submit-emergency-use-authorization], while ModernaTX has begun a clinical trial to assess its mRNA vaccine in adolescents ages 12 to 18 [@url:https://investors.modernatx.com/news-releases/news-release-details/moderna-announces-first-participants-dosed-phase-23-study-covid].
-
 
 
 ## Social Factors Influencing COVID-19 Exposure and Outcomes
