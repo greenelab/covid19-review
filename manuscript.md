@@ -249,13 +249,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/59a3356e20e03c5dfb497cc2bfe11ce55b7f1a02/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/59a3356e20e03c5dfb497cc2bfe11ce55b7f1a02/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/59a3356e20e03c5dfb497cc2bfe11ce55b7f1a02/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/34dd016dfd8bbc5353b3d8498aadbe04ae24d592/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/34dd016dfd8bbc5353b3d8498aadbe04ae24d592/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/34dd016dfd8bbc5353b3d8498aadbe04ae24d592/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/59a3356e20e03c5dfb497cc2bfe11ce55b7f1a02/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/59a3356e20e03c5dfb497cc2bfe11ce55b7f1a02/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/34dd016dfd8bbc5353b3d8498aadbe04ae24d592/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/34dd016dfd8bbc5353b3d8498aadbe04ae24d592/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -277,9 +277,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/59a3356e20e03c5dfb497cc2bfe11ce55b7f1a02/))
+([permalink](https://greenelab.github.io/covid19-review/v/34dd016dfd8bbc5353b3d8498aadbe04ae24d592/))
 was automatically generated
-from [greenelab/covid19-review@59a3356](https://github.com/greenelab/covid19-review/tree/59a3356e20e03c5dfb497cc2bfe11ce55b7f1a02)
+from [greenelab/covid19-review@34dd016](https://github.com/greenelab/covid19-review/tree/34dd016dfd8bbc5353b3d8498aadbe04ae24d592)
 on February 14, 2021.
 Snapshots of individual sections are available as preprints [@individual-pathogenesis; @individual-nutraceuticals].
 </em></small>
@@ -1989,7 +1989,7 @@ As of October 22, 2020, remdesivir received FDA approval based on three clinical
 
 However, results suggesting no effect of remdesivir on survival were reported by the WHO Solidarity trial [@doi:10.1056/NEJMoa2023184].
 This large-scale, open-label trial enrolled 11,330 adult in-patients at 405 hospitals in 30 countries around the world [@doi:10.1056/NEJMoa2023184].
-Patients were randomized in equal proportions into four experimental and a control conditions, corresponding to four candidate treatments for COVID-19 and SOC, respectively; no placebo was administered.
+Patients were randomized in equal proportions into four experimental conditions and a control condition, corresponding to four candidate treatments for COVID-19 and SOC, respectively; no placebo was administered.
 The 2,750 patients in the remdesivir group were administered 200 mg intravenously on the first day and 100 mg on each subsequent day until day 10 and assessed for in-hospital death (primary endpoint), duration of hospitalization, and progression to mechanical ventilation.
 There were also 2,708 control patients who would have been eligible and able to receive remdesivir were they not assigned to the control group.
 A total of 604 patients among these two cohorts deceased during initial hospitalization, with 301 in the remdesivir group and 303 in the control group.
@@ -2080,19 +2080,34 @@ In most cases, interest in particular candidate medications arises because they 
 However, the fact that the targets of these agents are non-specific means that the mechanism of action can appear to be relevant to COVID-19 without a therapeutic or prophylactic effect being observed in clinical trials.
 This category of drugs has also received significant attention from the media and general public, often before rigorous testing has been able to determine their effectiveness against SARS-CoV-2.
 
-##### ACEi and ARB
+##### ACE Inhibitors and Angiotensin II Receptor Blockers
 
 Angiotensin-converting enzyme (ACE) inhibitors and angiotensin II receptor blockers (ARBs) are among today's most commonly prescribed medications [@url:https://clincalc.com/DrugStats/Drugs/Lisinopril; @doi:10.1056/NEJMp1901657].
 In the United States, for example, they are prescribed well over 100,000,000 times annually.
-Data from some animal models suggest that several, but not all, ACE inhibitors and several ARBs increase ACE2 expression in the cells of some organs [@doi:10.1093/cvr/cvaa097].
+Data from some animal models suggest that several, but not all, ACE inhibitors (ACEIs) and several ARBs increase ACE2 expression in the cells of some organs [@doi:10.1093/cvr/cvaa097].
 Clinical studies have not established whether plasma ACE2 expression is increased in humans treated with these medications [@doi:10.1093/europace/euw246].
-While randomized clinical trials are ongoing, a variety of observational studies have examined the relationship between exposure to ACE inhibitors or ARBs and outcomes in patients with COVID-19.
-An observational study of the association of exposure to ACE inhibitors or ARB with outcomes in COVID-19 was retracted from the _New England Journal of Medicine_ [@doi:10.1056/NEJMoa2007621].
+While randomized clinical trials are ongoing, a variety of observational studies have examined the relationship between exposure to ACEIs or ARBs and outcomes in patients with COVID-19.
+An observational study of the association of exposure to ACEIs or ARBs with outcomes in COVID-19 was retracted from the _New England Journal of Medicine_ [@doi:10.1056/NEJMoa2007621].
 Moreover, because observational studies are subject to confounding, randomized controlled trials are the standard means of assessing the effects of medications, and the findings of the various observational studies bearing on this topic cannot be interpreted as indicating a protective effect of the drug [@doi:10.1161/CIRCRESAHA.120.317205; @doi:10.2215/CJN.03530320].
-Several clinical trials testing the effects of ACE inhibitors or ARBs on COVID-19 outcomes are ongoing [@clinicaltrials:NCT04338009; @clinicaltrials:NCT04353596; @clinicaltrials:NCT04311177; @clinicaltrials:NCT04312009; @clinicaltrials:NCT04330300; @clinicaltrials:NCT04366050].
-These studies of randomized intervention will provide important data for understanding whether exposure to ACEis or ARBs is associated with COVID-19 outcomes.
-Additional information about ACE2, observational studies of ACE inhibitors and ARBs in COVID-19, and clinical trials on this topic have been summarized [@url:http://www.nephjc.com/news/covidace2].
-<!-- TO DO: double-check no major updates here-->
+Several clinical trials testing the effects of ACEIs or ARBs on COVID-19 outcomes are ongoing [@clinicaltrials:NCT04338009; @clinicaltrials:NCT04353596; @clinicaltrials:NCT04311177; @clinicaltrials:NCT04312009; @clinicaltrials:NCT04330300; @clinicaltrials:NCT04366050; @clinicaltrials:NCT04364893].
+
+Two of these analyses [@clinicaltrials:NCT04338009; @clinicaltrials:NCT04364893] have reported no effect of continuing or discontinuing ARBs and ACEIs on patients admitted to the hospital for COVID-19.
+The first, known as REPLACE COVID [@doi:10/fvgt], was a randomized, open-label study that enrolled patients who were admitted to the hospital for COVID-19 and were taking an ACEI at the time of admission.
+They enrolled 152 patients at 20 hospitals across seven countries and randomized them into two arms, continuation (n=75) and discontinuation (n=77).
+The primary outcome evaluated was a global rank score that integrated several dimensions of illness.
+The components of this global rank score, such as time to death and length of mechanical ventilation, were evaluated as secondary endpoints.
+This analysis reported no differences between the two groups in the primary or any of the secondary outcomes.
+
+Similarly, a second study [@doi:10.1001/jama.2020.25864] used a randomized, open-label design to examine the effects of continuing versus discontinuing ARBs and ACEIs on patients hospitalized for mild to moderate COVID-19 at 29 hospitals in Brazil.
+This study enrolled 740 patients but had to exclude one trial site from all analyses due to the discovery of violations of Good Clinical Trial practice and data falsification. 
+After this exclusion, 659 patients remained, with 334 randomized to discontinuation and 325 to continuation.
+In this study, the primary endpoint analyzed was the number of days that patients were alive and not hospitalized within 30 days of enrollment.
+The secondary outcomes included death (including in-hospital death separately), number of days hospitalized, and specific clinical outcomes such as heart failure or stroke.
+Once again, no significant differences were found between the two groups.
+Initial studies of randomized interventions therefore suggest that ACEIs and ARBs are unlikely to affect COVID-19 outcomes.
+These results are also consistent with findings from observational studies (summarized in [@doi:10/fvgt]).
+Additional information about ACE2, observational studies of ACEIs and ARBs in COVID-19, and clinical trials on this topic have been summarized [@url:http://www.nephjc.com/news/covidace2].
+Therefore, despite the promising potential mechanism, initial results have not provided support for ACEIs and ARBs as therapies for COVID-19.
 
 ##### Hydroxychloroquine and Chloroquine
 
