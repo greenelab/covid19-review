@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2021-02-12'
+date-meta: '2021-02-14'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -64,8 +64,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2021-02-12" />
-  <meta name="citation_publication_date" content="2021-02-12" />
+  <meta name="dc.date" content="2021-02-14" />
+  <meta name="citation_publication_date" content="2021-02-14" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -249,13 +249,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/650ee3a44e85ea6992ed5a2773a5bcea839dea45/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/650ee3a44e85ea6992ed5a2773a5bcea839dea45/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/650ee3a44e85ea6992ed5a2773a5bcea839dea45/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/ff44f6b8397192b6b47d6332beae03e66f25583d/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/ff44f6b8397192b6b47d6332beae03e66f25583d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/ff44f6b8397192b6b47d6332beae03e66f25583d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/650ee3a44e85ea6992ed5a2773a5bcea839dea45/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/650ee3a44e85ea6992ed5a2773a5bcea839dea45/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/ff44f6b8397192b6b47d6332beae03e66f25583d/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/ff44f6b8397192b6b47d6332beae03e66f25583d/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -277,10 +277,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/650ee3a44e85ea6992ed5a2773a5bcea839dea45/))
+([permalink](https://greenelab.github.io/covid19-review/v/ff44f6b8397192b6b47d6332beae03e66f25583d/))
 was automatically generated
-from [greenelab/covid19-review@650ee3a](https://github.com/greenelab/covid19-review/tree/650ee3a44e85ea6992ed5a2773a5bcea839dea45)
-on February 12, 2021.
+from [greenelab/covid19-review@ff44f6b](https://github.com/greenelab/covid19-review/tree/ff44f6b8397192b6b47d6332beae03e66f25583d)
+on February 14, 2021.
 Snapshots of individual sections are available as preprints [@individual-pathogenesis; @individual-nutraceuticals].
 </em></small>
 
@@ -691,12 +691,12 @@ Most of these cases were in China, but one to two exported cases had also been i
 One week later, 4,593 confirmed cases had been identified, spanning not only Asia, but also Australia, North America, and Europe [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128-sitrep-8-ncov-cleared.pdf].
 On March 11, 2020, the WHO formally classified the situation as a pandemic [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200311-sitrep-51-covid-19.pdf].
 On April 4, 2020, the WHO reported that the global number of confirmed cases had surpassed one million [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200404-sitrep-75-covid-19.pdf].
-<!--2,354,561 COVID-19 deaths had been reported worldwide as of February 10, 2021 (Figure @fig:csse-deaths).
+<!--2,393,751 COVID-19 deaths had been reported worldwide as of February 13, 2021 (Figure @fig:csse-deaths).
 
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
-](https://github.com/greenelab/covid19-review/raw/63d77f6dd1352bbaeaa48f27ed1200032e9058c6/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1} -->
+](https://github.com/greenelab/covid19-review/raw/2772dd8aaf1e98576b62b3b06d01ab85ce418146/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1} -->
 
 As international attention remains focused on the ongoing public health crisis, the scientific community has responded by mobilizing resources and turning much of its attention to the virus and disease.
 This rapid influx of information is disseminated by traditional publishing mechanisms, preprint servers, and press releases, which provide a venue for scientists to release findings without undergoing the formal publication process.
@@ -1811,12 +1811,12 @@ Prophylactics bolster immunity to prevent an individual from contracting a disea
 While vaccine development programs have attracted significant attention and produced a number of promising candidates, there is also an immediate need for treatments that palliate symptoms and prevent the most severe outcomes from infection.
 Fortunately, prior developments during other recent pandemics, especially those caused by human coronaviruses (HCoV), have provided a number of hypotheses guiding a biomedical approach to the novel coronavirus infection.
 
-2,354,561 COVID-19 deaths had been reported worldwide as of February 10, 2021 (Figure @fig:csse-deaths).
+2,393,751 COVID-19 deaths had been reported worldwide as of February 13, 2021 (Figure @fig:csse-deaths).
 
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
-](https://github.com/greenelab/covid19-review/raw/63d77f6dd1352bbaeaa48f27ed1200032e9058c6/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
+](https://github.com/greenelab/covid19-review/raw/2772dd8aaf1e98576b62b3b06d01ab85ce418146/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
 
 #### Lessons from Prior HCoV Outbreaks
 
@@ -1870,13 +1870,15 @@ As results become available from additional clinical trials, we will continue to
 
 ![
 **COVID-19 clinical trials.**
-There are 6,417 COVID-19 clinical trials and 168 trials with results as of November 9, 2020.
-The recruitment statuses and trial phases are shown only for trials in which the status or phase is recorded.
+There are 6,417 COVID-19 clinical trials of which 3,706 are interventional.
 The study types include only types used in at least five trials.
+Interventional trials only are analyzed in the figures depicting status, phase, and intervention.
+Of the interventional trials, 98 trials had reported results as of November 9, 2020.
+Recruitment status and trial phase are shown only for interventional trials in which the status or phase is recorded.
 The common interventions are all interventions used in at least ten trials.
 Combinations of interventions, such as Hydroxychloroquine + Azithromycin, are tallied separately from the individual interventions.
 Trials data are from the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709].
-](https://github.com/greenelab/covid19-review/raw/63d77f6dd1352bbaeaa48f27ed1200032e9058c6/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/2772dd8aaf1e98576b62b3b06d01ab85ce418146/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 ### Small Molecule Drugs
 
@@ -2370,7 +2372,7 @@ IL-6 synthesis is tightly regulated both transcriptionally and post-transcriptio
 Therefore, drugs inhibiting the binding of IL-6 to IL-6R&alpha; or sIL-6R&alpha; are of interest for combating the hyperactive inflammatory response characteristic of CRS and CSS.
 TCZ is a humanized monoclonal antibody that binds both to the insoluble and soluble receptor of IL-6, providing de facto inhibition of the IL-6 immune cascade.
 
-Tocilizumab is being administered either as an intervention or as concomitant medication in 84 COVID-19 clinical trials (Figure @fig:ebm-trials).
+Tocilizumab is being administered either as an intervention or as concomitant medication in 77 interventional COVID-19 clinical trials (Figure @fig:ebm-trials).
 No randomized, placebo-controlled studies of TCZ have currently released results.
 Therefore, no conclusions can be drawn about its efficacy for the treatment of COVID-19.
 However, early interest in TCZ as a possible treatment for COVID-19 emerged from a very small retrospective study in China that examined 20 patients with severe symptoms in early February 2020 and reported rapid improvement in symptoms following treatment with TCZ [@doi:10.1073/pnas.2005615117].
@@ -3441,9 +3443,9 @@ Trials that recruit across multiple countries do appear to broaden geographic re
 ![
 **Geographic distribution of COVID-19 clinical trials.**
 The density of clinical trials is reported at the country level.
-As of November 9, 2020, there are 6,417 trials in the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709].
-The top figure demonstrates the density of trials recruiting only from a singular country, while the bottom shows the distribution of recruitment for trials that involve more than one country.
-](https://github.com/greenelab/covid19-review/raw/63d77f6dd1352bbaeaa48f27ed1200032e9058c6/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
+As of November 9, 2020, there are 6,417 trials in the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709], of which 3,706 are interventional.
+The top figure demonstrates the density of interventional trials recruiting only from a singular country, while the bottom shows the distribution of recruitment for interventional trials that involve more than one country.
+](https://github.com/greenelab/covid19-review/raw/2772dd8aaf1e98576b62b3b06d01ab85ce418146/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
 
 A few different concerns arise from this skewed geographic representation in clinical trial recruitment.
 First, treatments such as remdesivir that are promising but primarily available to clinical trial participants are unlikely to be accessible by people in many countries.
@@ -3655,7 +3657,7 @@ GitHub Actions runs a nightly workflow to update these external data and regener
 The workflow uses the GitHub API to detect and save the latest commit of the external data sources, which are both GitHub repositories.
 It then downloads versioned data from that snapshot of the external repositories and runs bash and Python scripts to calculate the desired statistics and produce the summary figures.
 The statistics are stored in JSON files that are accessed by Manubot to populate the values of placeholder template variables dynamically every time the manuscript is built.
-For instance, the template variable `{{ebm_trials_results}}` in the manuscript is replaced by the actual number of clinical trials with results, 168.
+For instance, the template variable `{{ebm_trials_results}}` in the manuscript is replaced by the actual number of clinical trials with results, 98.
 The template variables also include versioned URLs to the dynamically updated figures.
 The JSON files and figures are stored in the `external-resources` branch of the manuscript's GitHub repository, which acts as versioned storage.
 The GitHub Actions workflow automatically adds and commits the new JSON files and figures to the `external-resources` branch every time it runs, and Manubot uses the latest version of these resources when it builds the manuscript.
