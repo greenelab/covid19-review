@@ -191,7 +191,11 @@ def main(args):
     trials_df.columns = header
     trials_df = trials_df.set_index('index')
 
-    ebm_stats['ebm_trials'] = f'{len(trials_df.index):,}'
+    # Filter out trials that are not interventional
+    interventional_trials = trials_df[trials_df["study_type"] == "Interventional"]
+
+    ebm_stats['ebm_all_trials'] = f'{len(trials_df.index):,}'
+    ebm_stats['ebm_interv_trials'] = f'{len(interventional_trials.index):,}'
 
     # Get the most recent trial update
     most_recent_update = pd.to_datetime(trials_df['last_updated']).max()
@@ -200,7 +204,7 @@ def main(args):
     most_recent_update = most_recent_update.strftime('%B %d, %Y').replace(' 0', ' ')
     ebm_stats['ebm_date_pretty'] = most_recent_update
 
-    trial_results = trials_df[trials_df['results_url'] != 'No Results']['results_url']
+    trial_results = interventional_trials[interventional_trials['results_url'] != 'No Results']['results_url']
     ebm_stats['ebm_trials_results'] = f'{len(trial_results):,}'
 
     # Some results entries have multiple URLs
@@ -211,20 +215,6 @@ def main(args):
     plt.rc('figure', titlesize=24)
     fig, axes = plt.subplots(nrows=2, ncols=2, figsize=(20, 12), constrained_layout=True)
 
-    # Plot trial recruitment status
-    # Only include trials with a recruitment status
-    recruitment_counts = trials_df['recruitment_status'].value_counts(ascending=True)
-    recruitment_counts = recruitment_counts.drop(labels='No Status Given')
-    ax = recruitment_counts.plot(kind='barh', ax=axes[0, 0])
-    ax.set_title('Clinical trials recruitment status')
-
-    # Plot trial phase
-    # Only include trials with a reported phase
-    phase_counts = trials_df['phase'].value_counts(ascending=True)
-    phase_counts = phase_counts.drop(labels='Not Applicable')
-    ax = phase_counts.plot(kind='barh', ax=axes[0, 1])
-    ax.set_title('Clinical trials phase')
-
     # Plot study type
     # Only include study types used in >= 5 trials
     study_type_counts = trials_df['study_type'].value_counts(ascending=True)
@@ -232,9 +222,23 @@ def main(args):
     ax = study_type_counts.plot(kind='barh', ax=axes[1, 0])
     ax.set_title('Clinical trials study type')
 
+    # Plot trial recruitment status
+    # Only include interventional trials with a recruitment status
+    recruitment_counts = interventional_trials['recruitment_status'].value_counts(ascending=True)
+    recruitment_counts = recruitment_counts.drop(labels='No Status Given')
+    ax = recruitment_counts.plot(kind='barh', ax=axes[0, 0])
+    ax.set_title('Clinical trials recruitment status')
+
+    # Plot trial phase
+    # Only include interventional trials with a reported phase
+    phase_counts = interventional_trials['phase'].value_counts(ascending=True)
+    phase_counts = phase_counts.drop(labels='Not Applicable')
+    ax = phase_counts.plot(kind='barh', ax=axes[0, 1])
+    ax.set_title('Clinical trials phase')
+
     # Plot common interventions
-    # Only include trials with an intervention and interventions in >= 10 trials
-    intervention_counts = trials_df['intervention'].value_counts(ascending=True)
+    # Only include interventional trials with an intervention and interventions in >= 10 trials
+    intervention_counts = interventional_trials['intervention'].value_counts(ascending=True)
     intervention_counts = intervention_counts.drop(labels='No Intervention')
     intervention_counts = intervention_counts[intervention_counts >= 10]
     ax = intervention_counts.plot(kind='barh', ax=axes[1, 1])
@@ -246,7 +250,7 @@ def main(args):
     print(f'Wrote {args.output_figure}.png and {args.output_figure}.svg')
 
     # Count geographic representation by ISO3 code
-    all_counts = tabulate_countries(trials_df)
+    all_counts = tabulate_countries(interventional_trials)
 
     # Map frequency data onto the geopandas geographical data for units with ISO code
     # geopandas uses -99 as N/A for this field
@@ -288,7 +292,7 @@ def main(args):
         f'https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/{args.output_map}.png'
     # Tabulate number of trials for pharmaceuticals of interest
     ebm_stats['ebm_tocilizumab_ct'] = \
-        str(trials_df['intervention'].str.contains('tocilizumab', case=False).sum())
+        str(interventional_trials['intervention'].str.contains('tocilizumab', case=False).sum())
 
     with open(args.output_json, 'w') as out_file:
         json.dump(ebm_stats, out_file, indent=2, sort_keys=True)
