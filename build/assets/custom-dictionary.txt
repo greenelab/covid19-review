@@ -70,6 +70,7 @@ Boca
 Bouhaddou
 Brescia
 Brueffer
+Buenos
 Bérengère
 CCL
 CCLE
@@ -112,6 +113,7 @@ Cas
 Cathepsin
 Cellex
 Centre
+ChAdOx
 Chai
 Charap
 Charlottesville
@@ -230,6 +232,8 @@ GISAID
 GOLGA
 GSE
 GTEx
+Gam
+Gamaleya
 Gammacoronaviruses
 Ganciclovir
 Gautret
@@ -366,6 +370,7 @@ LucyStats
 Lukan
 Lund
 Lv
+Lyo
 MAPK
 MAVS
 MBP
@@ -916,6 +921,7 @@ ggkd
 ggks
 ggnzmc
 ggvd
+ghs
 github
 glomerular
 glomeruli
@@ -1067,6 +1073,7 @@ lymphadenopathy
 lymphokines
 lymphopenia
 lymphoplasmacytic
+lyophilized
 lyse
 lysosome
 lysosomotropic
@@ -1124,6 +1131,7 @@ mortem
 mprobson
 mucosa
 mucosal
+multicenter
 multiorgan
 multisystem
 mutagenesis
