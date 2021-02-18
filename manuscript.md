@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2021-02-16'
+date-meta: '2021-02-18'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -64,8 +64,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2021-02-16" />
-  <meta name="citation_publication_date" content="2021-02-16" />
+  <meta name="dc.date" content="2021-02-18" />
+  <meta name="citation_publication_date" content="2021-02-18" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -249,13 +249,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/a46073a1342007f77fbba446872e31c505992bc3/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/a46073a1342007f77fbba446872e31c505992bc3/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/a46073a1342007f77fbba446872e31c505992bc3/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/43b966e658683ff2933da424e72b7932134a2a71/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/43b966e658683ff2933da424e72b7932134a2a71/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/43b966e658683ff2933da424e72b7932134a2a71/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/a46073a1342007f77fbba446872e31c505992bc3/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/a46073a1342007f77fbba446872e31c505992bc3/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/43b966e658683ff2933da424e72b7932134a2a71/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/43b966e658683ff2933da424e72b7932134a2a71/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -277,10 +277,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/a46073a1342007f77fbba446872e31c505992bc3/))
+([permalink](https://greenelab.github.io/covid19-review/v/43b966e658683ff2933da424e72b7932134a2a71/))
 was automatically generated
-from [greenelab/covid19-review@a46073a](https://github.com/greenelab/covid19-review/tree/a46073a1342007f77fbba446872e31c505992bc3)
-on February 16, 2021.
+from [greenelab/covid19-review@43b966e](https://github.com/greenelab/covid19-review/tree/43b966e658683ff2933da424e72b7932134a2a71)
+on February 18, 2021.
 Snapshots of individual sections are available as preprints [@individual-pathogenesis; @individual-nutraceuticals].
 </em></small>
 
@@ -691,12 +691,12 @@ Most of these cases were in China, but one to two exported cases had also been i
 One week later, 4,593 confirmed cases had been identified, spanning not only Asia, but also Australia, North America, and Europe [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128-sitrep-8-ncov-cleared.pdf].
 On March 11, 2020, the WHO formally classified the situation as a pandemic [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200311-sitrep-51-covid-19.pdf].
 On April 4, 2020, the WHO reported that the global number of confirmed cases had surpassed one million [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200404-sitrep-75-covid-19.pdf].
-<!--2,399,866 COVID-19 deaths had been reported worldwide as of February 14, 2021 (Figure @fig:csse-deaths).
+<!--2,418,797 COVID-19 deaths had been reported worldwide as of February 16, 2021 (Figure @fig:csse-deaths).
 
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
-](https://github.com/greenelab/covid19-review/raw/2f4eb4be26a9d4341e618c426d823778198315de/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1} -->
+](https://github.com/greenelab/covid19-review/raw/7b046b0d76b6585806562d58e73cbd701cd08995/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1} -->
 
 As international attention remains focused on the ongoing public health crisis, the scientific community has responded by mobilizing resources and turning much of its attention to the virus and disease.
 This rapid influx of information is disseminated by traditional publishing mechanisms, preprint servers, and press releases, which provide a venue for scientists to release findings without undergoing the formal publication process.
@@ -1812,12 +1812,12 @@ Prophylactics bolster immunity to prevent an individual from contracting a disea
 While a number of vaccines have recently been developed, approved, or are currently being evaluated by the US Food and Drug Administration and other regional and international bodies, vaccination programs only started being rolled out at the very end of 2020 and beginning of 2021, meaning that treatments that palliate symptoms and prevent the most severe outcomes have been necessary for much of 2020 and will continue to be necessary for the foreseeable future [@url:https://github.com/greenelab/covid19-review/blob/master/content/22.vaccines.md].
 Fortunately, prior developments during other recent pandemics, especially those caused by human coronaviruses (HCoV), have provided a number of hypotheses guiding a biomedical approach to the novel coronavirus infection.
 
-2,399,866 COVID-19 deaths had been reported worldwide as of February 14, 2021 (Figure @fig:csse-deaths).
+2,418,797 COVID-19 deaths had been reported worldwide as of February 16, 2021 (Figure @fig:csse-deaths).
 
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
-](https://github.com/greenelab/covid19-review/raw/2f4eb4be26a9d4341e618c426d823778198315de/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
+](https://github.com/greenelab/covid19-review/raw/7b046b0d76b6585806562d58e73cbd701cd08995/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
 
 #### Lessons from Prior HCoV Outbreaks
 
@@ -1884,7 +1884,7 @@ Recruitment status and trial phase are shown only for interventional trials in w
 The common interventions are all interventions used in at least ten trials.
 Combinations of interventions, such as Hydroxychloroquine + Azithromycin, are tallied separately from the individual interventions.
 Trials data are from the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709].
-](https://github.com/greenelab/covid19-review/raw/2f4eb4be26a9d4341e618c426d823778198315de/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/7b046b0d76b6585806562d58e73cbd701cd08995/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 ### Small Molecule Drugs
 
@@ -2011,7 +2011,9 @@ These results suggest that remdesivir could improve outcomes for patients with m
 Therefore, the Solidarity trial may point to limitations in the generalizability of other research on remdesivir, especially since the broad international nature of the Solidarity clinical trial, which included countries with a wide range of economic profiles and a variety of healthcare systems, provides a much-needed global perspective in a pandemic [@doi:10.1056/NEJMe2034294].
 On the other hand, only 62% of patients in the Solidarity trial were randomized on the day of admission or one day afterwards [@doi:10.1056/NEJMoa2023184], and concerns have been raised that differences in disease progression could influence the effectiveness of remdesivir [@doi:10.1056/NEJMe2034294]. 
 Despite the findings of the Solidarity trial, remdesivir remains available for the treatment of COVID-19 in many places.
-Follow-up studies are needed and, in many cases, are underway to further investigate remdesivir-related outcomes, with possibilities including combinations of remdesivir with other drugs such as baricitinib, which is an inhibitor of Janus kinase 1 and 2 [@doi:10.1056/NEJMoa2031994].
+Remdesivir has also been investigated in combination with other drugs, such as baricitinib, which is an inhibitor of Janus kinase 1 and 2 [@doi:10.1056/NEJMoa2031994]; the FDA has issued an EUA for the combination of remdesivir and baricitinib in adult and pediatric patients [@url:https://www.fda.gov/media/143822/download].
+Follow-up studies are needed and, in many cases, are underway to further investigate remdesivir-related outcomes.
+
 Similarly, the extent to which the remdesivir dosing regimen could influence outcomes continues to be under consideration.
 A randomized, open-label trial compared the effect of remdesivir on 397 patients with severe COVID-19 over 5 versus 10 days [@doi:10.1056/NEJMoa2015301; @ClinicalTrials:NCT04292899], complementing the study that found that a 5-day course of remdesivir improved outcomes for patients with moderate COVID-19 but a 10-day course did not [@doi:10.1001/jama.2020.16349].
 Patients in the two groups were administered 200 mg of remdesivir intravenously on the first day, followed by 100 mg on the subsequent four or nine days, respectively.
@@ -2623,7 +2625,23 @@ Over the longer term, this approach and others may lead to the development of no
 
 #### Conclusions <!--I’m not sure we need this section. We’ve stated these things before in this manuscript and the section reads as how useful it’s been to learn from SARS-CoV-2 and MERS-CoV – it has been useful, but I don’t think we need that as the overall conclusion…-->
 
-Due to the large number of clinical trials currently under examination (Figure @fig:ebm-trials), not all candidates are examined here.
+| Treatment | Category | FDA Status | Evidence Available | Suggested Effectiveness |
+|-----------|----------|-----------------|--------------------|-------------------------|
+| Favipiravir | Small molecule, antiviral, nucleoside analog | None | RCT | Not supported: RCTs do not show significant improvements for individuals taking this treatment, good safety profile | 
+| Remdesivir | Small molecule, antiviral, adenosine analog | Approved for COVID-19 (and EUA for combination with baricitinib) | RCT | Conflicting evidence from large WHO-led Solidarity trial vs US-focused RCT and other studies |
+| N3 | Small molecule, protease inhibitor | None | Computational prediction, _in vitro_ studies | Unknown |
+| ARBs & ACEIs | Small molecule, broad spectrum | None | Observational studies and some RCTs | Not supported: Observational study retracted, RCTs suggest no association |
+| HCQ/CQ | Small molecule, broad spectrum | None | RCT  | Not supported, possibly harmful: Non-blinded RCTs showed no improvement over SOC, safety profile may be problematic |
+| Dexamethasone | Small molecule, broad spectrum | Used off-label | RCT | Supported: RCT shows improved outcomes over SOC, especially in severe cases such as CRS |
+| Tocilizumab | Biologic, monoclonal antibody | Approved for CRS resulting from CAR-T therapy | RCT | Mixed results from RCTs: It appears that TCZ may work well in combination with dexamethasone in severe cases, but not as monotherapy |
+| Possibly other antibodies? | 
+| Casirivimab and imdevimab | Biologic, monoclonal antibodies | EUA | | | |
+| Bamlanivimab and etesevimab | Biologic, monoclonal antibodies | EUA | | | |
+| SNG001 | Biologic, interferon | None | RCT | Mixed results: support from initial RCT but no effect found in WHO's Solidarity trial |
+
+Table: Summary table of candidate therapeutics examined in this manuscript. The FDA status is provided where available. The evidence available is based on the progression of the therapeutic through the pharmaceutical development pipeline, with randomized control trials (RCT) as the most informative source of evidence. The effectiveness is summarized based on the current available evidence; large trials such as RECOVERY and Solidarity are weighted heavily in this summary. {#tbl:summary-table}
+
+Due to the large number of clinical trials currently under examination (Figure @fig:ebm-trials), not all candidates are examined here (Table @tbl:summary-table).
 Instead, this review seeks to provide an overview of the range of mechanisms that have been explored and to examine some prominent candidates in the context of the pathogenesis of and immune response to SARS-CoV-2.
 As more research becomes available, this review will be updated to include additional therapeutics that emerge and to include new findings that are released about those discussed here.
 While no therapeutics or vaccines were developed for SARS-CoV-1 or MERS-CoV, the current state of COVID-19 research suggests that the body of literature produced before and after the emergence of these viruses has prepared the biomedical community for a rapid response to novel HCoV like SARS-CoV-2.
@@ -3526,7 +3544,7 @@ Trials that recruit across multiple countries do appear to broaden geographic re
 The density of clinical trials is reported at the country level.
 As of November 9, 2020, there are 6,417 trials in the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709], of which 3,706 are interventional.
 The top figure demonstrates the density of interventional trials recruiting only from a singular country, while the bottom shows the distribution of recruitment for interventional trials that involve more than one country.
-](https://github.com/greenelab/covid19-review/raw/2f4eb4be26a9d4341e618c426d823778198315de/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
+](https://github.com/greenelab/covid19-review/raw/7b046b0d76b6585806562d58e73cbd701cd08995/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
 
 A few different concerns arise from this skewed geographic representation in clinical trial recruitment.
 First, treatments such as remdesivir that are promising but primarily available to clinical trial participants are unlikely to be accessible by people in many countries.
