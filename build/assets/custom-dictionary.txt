@@ -722,6 +722,7 @@ avascular
 axillary
 azithromycin
 baloxavir
+bamlanivimab
 bansalvi
 barcoding
 basophil
@@ -762,6 +763,7 @@ capsid
 capsids
 carmofur
 casei
+casirivimab
 catabolized
 catecholamines
 cathepsins
@@ -889,6 +891,7 @@ erythematosus
 esell
 estradiol
 et
+etesevimab
 exogenously
 exonuclease
 expiratory
@@ -971,6 +974,7 @@ hypoproteinemia
 hypoxia
 iCre
 icosapent
+imdevimab
 immunoanalysis
 immunoassay
 immunobiotic
@@ -1188,6 +1192,7 @@ organoselenium
 othered
 othering
 outcompeting
+overactivation
 overexpressing
 overexpression
 overexuberant
@@ -1398,6 +1403,7 @@ Synairgen
 syncytial
 syndemic
 tamefoxtime
+tbl
 thebyrdlab
 thromboinflammation
 thymosin
