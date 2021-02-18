@@ -722,7 +722,9 @@ avascular
 axillary
 azithromycin
 baloxavir
+bamlanivimab
 bansalvi
+barcodes
 barcoding
 basophil
 betacoronavirus
@@ -762,6 +764,7 @@ capsid
 capsids
 carmofur
 casei
+casirivimab
 catabolized
 catecholamines
 cathepsins
@@ -889,6 +892,7 @@ erythematosus
 esell
 estradiol
 et
+etesevimab
 exogenously
 exonuclease
 expiratory
@@ -909,7 +913,9 @@ follicular
 fomite
 frameshifting
 frontline
+ftzx
 gRNA
+gRNAs
 galactooligosaccharides
 gastroenterologist
 generalizability
@@ -971,6 +977,7 @@ hypoproteinemia
 hypoxia
 iCre
 icosapent
+imdevimab
 immunoanalysis
 immunoassay
 immunobiotic
@@ -994,6 +1001,7 @@ immunopathy
 immunophenotyping
 immunoprecipitation
 immunoregulatory
+immunosorbent
 immunostimulants
 immunosuppressant
 immunosuppression
@@ -1018,6 +1026,7 @@ interlobular
 intermolecular
 interpretability
 interpretable
+interspaced
 interventional
 intracellular
 intradermal
@@ -1188,6 +1197,7 @@ organoselenium
 othered
 othering
 outcompeting
+overactivation
 overexpressing
 overexpression
 overexuberant
@@ -1302,6 +1312,7 @@ rdvelazquez
 re
 reactogenicity
 recombinant
+recombinase
 reexposure
 remdesivir
 remediating
@@ -1314,6 +1325,7 @@ reproducibility
 repurpose
 repurposed
 repurposing
+resampling
 resolvins
 respirations
 responders
@@ -1398,6 +1410,7 @@ Synairgen
 syncytial
 syndemic
 tamefoxtime
+tbl
 thebyrdlab
 thromboinflammation
 thymosin
