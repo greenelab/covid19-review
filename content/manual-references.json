@@ -1039,5 +1039,26 @@
       ]
     ]
   }
+},
+{
+  "type": "article-journal",
+  "id": "individual-vaccines",
+  "author": [
+    {
+      "literal": "COVID-19 Review Consortium"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2021,
+        2,
+        19
+      ]
+    ]
+  },
+  "container-title": "Manubot",
+  "title": "Vaccine Development Strategies for SARS-CoV-2",
+  "URL": "https://greenelab.github.io/covid19-review/v/d9d90fd7e88ef547fb4cbed0ef73baef5fee7fb5/#vaccine-development-strategies-for-sars-cov-2",
 }
 ]
