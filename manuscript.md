@@ -249,13 +249,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/18c54358c702670c609b186853244c654bc156d7/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/18c54358c702670c609b186853244c654bc156d7/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/18c54358c702670c609b186853244c654bc156d7/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/d9d90fd7e88ef547fb4cbed0ef73baef5fee7fb5/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/d9d90fd7e88ef547fb4cbed0ef73baef5fee7fb5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/d9d90fd7e88ef547fb4cbed0ef73baef5fee7fb5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/18c54358c702670c609b186853244c654bc156d7/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/18c54358c702670c609b186853244c654bc156d7/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/d9d90fd7e88ef547fb4cbed0ef73baef5fee7fb5/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/d9d90fd7e88ef547fb4cbed0ef73baef5fee7fb5/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -277,9 +277,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/18c54358c702670c609b186853244c654bc156d7/))
+([permalink](https://greenelab.github.io/covid19-review/v/d9d90fd7e88ef547fb4cbed0ef73baef5fee7fb5/))
 was automatically generated
-from [greenelab/covid19-review@18c5435](https://github.com/greenelab/covid19-review/tree/18c54358c702670c609b186853244c654bc156d7)
+from [greenelab/covid19-review@d9d90fd](https://github.com/greenelab/covid19-review/tree/d9d90fd7e88ef547fb4cbed0ef73baef5fee7fb5)
 on February 19, 2021.
 Snapshots of individual sections are available as preprints [@individual-pathogenesis; @individual-nutraceuticals].
 </em></small>
@@ -2667,8 +2667,7 @@ For example, understanding the various structural components of SARS-CoV-2 may a
 Currently, crystal structures of the SARS-CoV-2 main protease have recently been resolved [@doi:10.1038/s41586-020-2223-y; @url:https://www.diamond.ac.uk/covid-19/for-scientists/Main-protease-structure-and-XChem.html], and efforts are already in place to perform screens for small molecule inhibitors of the main protease, which have yielded potential hits [@doi:10.1038/s41586-020-2223-y].
 Much work remains to be done to determine further crystal structures of other viral components, understand the relative utility of targeting different viral components, perform additional small molecule inhibitor screens, and determine the safety and efficacy of the potential inhibitors.
 While still nascent, work in this area is promising.
-Over the longer term, this approach and others may lead to the development of novel therapeutics specifically for COVID-19 and SARS-CoV-2.
-<!-- This section could be updated with most recent information on drug discovery efforts -->
+Over the longer term, this approach and others may lead to the development of novel therapeutics specifically for COVID-19 and SARS-CoV-2.<!-- This section could be updated with most recent information on drug discovery efforts -->
 
 #### Conclusions <!--I’m not sure we need this section. We’ve stated these things before in this manuscript and the section reads as how useful it’s been to learn from SARS-CoV-2 and MERS-CoV – it has been useful, but I don’t think we need that as the overall conclusion…-->
 
@@ -2686,7 +2685,7 @@ Over the longer term, this approach and others may lead to the development of no
 | Bamlanivimab and etesevimab | Biologic, monoclonal antibodies | EUA | | | |
 | SNG001 | Biologic, interferon | None | RCT | Mixed results: support from initial RCT but no effect found in WHO's Solidarity trial |
 
-Table: Summary table of candidate therapeutics examined in this manuscript. The FDA status is provided where available. The evidence available is based on the progression of the therapeutic through the pharmaceutical development pipeline, with randomized control trials (RCT) as the most informative source of evidence. The effectiveness is summarized based on the current available evidence; large trials such as RECOVERY and Solidarity are weighted heavily in this summary. {#tbl:summary-table}
+Table: Summary table of candidate therapeutics examined in this manuscript. The FDA status is provided where available. The evidence available is based on the progression of the therapeutic through the pharmaceutical development pipeline, with randomized control trials (RCT) as the most informative source of evidence. The effectiveness is summarized based on the current available evidence; large trials such as RECOVERY and Solidarity are weighted heavily in this summary. This table was last updated on February 17, 2021. {#tbl:summary-table}
 
 Due to the large number of clinical trials currently under examination (Figure @fig:ebm-trials), not all candidates are examined here (Table @tbl:summary-table).
 Instead, this review seeks to provide an overview of the range of mechanisms that have been explored and to examine some prominent candidates in the context of the pathogenesis of and immune response to SARS-CoV-2.
