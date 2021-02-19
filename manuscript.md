@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2021-02-18'
+date-meta: '2021-02-19'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -64,8 +64,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2021-02-18" />
-  <meta name="citation_publication_date" content="2021-02-18" />
+  <meta name="dc.date" content="2021-02-19" />
+  <meta name="citation_publication_date" content="2021-02-19" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -249,13 +249,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/7d6b6beea7c0ce1362ac5ecfc0446e589727c36f/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/7d6b6beea7c0ce1362ac5ecfc0446e589727c36f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/7d6b6beea7c0ce1362ac5ecfc0446e589727c36f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/18c54358c702670c609b186853244c654bc156d7/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/18c54358c702670c609b186853244c654bc156d7/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/18c54358c702670c609b186853244c654bc156d7/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/7d6b6beea7c0ce1362ac5ecfc0446e589727c36f/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/7d6b6beea7c0ce1362ac5ecfc0446e589727c36f/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/18c54358c702670c609b186853244c654bc156d7/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/18c54358c702670c609b186853244c654bc156d7/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -277,10 +277,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/7d6b6beea7c0ce1362ac5ecfc0446e589727c36f/))
+([permalink](https://greenelab.github.io/covid19-review/v/18c54358c702670c609b186853244c654bc156d7/))
 was automatically generated
-from [greenelab/covid19-review@7d6b6be](https://github.com/greenelab/covid19-review/tree/7d6b6beea7c0ce1362ac5ecfc0446e589727c36f)
-on February 18, 2021.
+from [greenelab/covid19-review@18c5435](https://github.com/greenelab/covid19-review/tree/18c54358c702670c609b186853244c654bc156d7)
+on February 19, 2021.
 Snapshots of individual sections are available as preprints [@individual-pathogenesis; @individual-nutraceuticals].
 </em></small>
 
@@ -691,12 +691,12 @@ Most of these cases were in China, but one to two exported cases had also been i
 One week later, 4,593 confirmed cases had been identified, spanning not only Asia, but also Australia, North America, and Europe [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128-sitrep-8-ncov-cleared.pdf].
 On March 11, 2020, the WHO formally classified the situation as a pandemic [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200311-sitrep-51-covid-19.pdf].
 On April 4, 2020, the WHO reported that the global number of confirmed cases had surpassed one million [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200404-sitrep-75-covid-19.pdf].
-<!--2,418,797 COVID-19 deaths had been reported worldwide as of February 16, 2021 (Figure @fig:csse-deaths).
+<!--2,430,189 COVID-19 deaths had been reported worldwide as of February 17, 2021 (Figure @fig:csse-deaths).
 
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
-](https://github.com/greenelab/covid19-review/raw/7b046b0d76b6585806562d58e73cbd701cd08995/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1} -->
+](https://github.com/greenelab/covid19-review/raw/92f82610a3b6a276e80a45b206fb37a1e0ea4e30/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1} -->
 
 As international attention remains focused on the ongoing public health crisis, the scientific community has responded by mobilizing resources and turning much of its attention to the virus and disease.
 This rapid influx of information is disseminated by traditional publishing mechanisms, preprint servers, and press releases, which provide a venue for scientists to release findings without undergoing the formal publication process.
@@ -1850,12 +1850,12 @@ Prophylactics bolster immunity to prevent an individual from contracting a disea
 While a number of vaccines have recently been developed, approved, or are currently being evaluated by the US Food and Drug Administration and other regional and international bodies, vaccination programs only started being rolled out at the very end of 2020 and beginning of 2021, meaning that treatments that palliate symptoms and prevent the most severe outcomes have been necessary for much of 2020 and will continue to be necessary for the foreseeable future [@url:https://github.com/greenelab/covid19-review/blob/master/content/22.vaccines.md].
 Fortunately, prior developments during other recent pandemics, especially those caused by human coronaviruses (HCoV), have provided a number of hypotheses guiding a biomedical approach to the novel coronavirus infection.
 
-2,418,797 COVID-19 deaths had been reported worldwide as of February 16, 2021 (Figure @fig:csse-deaths).
+2,430,189 COVID-19 deaths had been reported worldwide as of February 17, 2021 (Figure @fig:csse-deaths).
 
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
-](https://github.com/greenelab/covid19-review/raw/7b046b0d76b6585806562d58e73cbd701cd08995/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
+](https://github.com/greenelab/covid19-review/raw/92f82610a3b6a276e80a45b206fb37a1e0ea4e30/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
 
 #### Lessons from Prior HCoV Outbreaks
 
@@ -1922,7 +1922,7 @@ Recruitment status and trial phase are shown only for interventional trials in w
 The common interventions are all interventions used in at least ten trials.
 Combinations of interventions, such as Hydroxychloroquine + Azithromycin, are tallied separately from the individual interventions.
 Trials data are from the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709].
-](https://github.com/greenelab/covid19-review/raw/7b046b0d76b6585806562d58e73cbd701cd08995/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/92f82610a3b6a276e80a45b206fb37a1e0ea4e30/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 ### Small Molecule Drugs
 
@@ -3083,6 +3083,13 @@ Critiques of the production and distribution of the H1N1 vaccine have stressed t
 Although a monovalent H1N1 vaccine was not available before the pandemic peaked in the United States and Europe, it was available soon afterward as a stand-alone vaccine that was eventually incorporated into commercially available seasonal influenza vaccines [@doi:10.1056/NEJMp2005630].
 If H1N1 vaccine development provides any indication, considering developing and manufacturing platforms for promising COVID-19 vaccine trials early could hasten the emergence of an effective prophylactic vaccine against SARS-CoV-2.
 
+![
+**Structure of the SARS-CoV-2 virus.**
+The development of vaccines depends on the immune system recognizing the virus.
+Here, the structure of SARS-CoV-2 is represented both in the abstract and against a visualization of the virion.<!--To Do: Add in-line ref-->
+The abstracted visualization was made using BioRender [@url:https://biorender.com/] and the microscopy was done by the National Institute of Allergy and Infectious Diseases [@url:https://www.niaid.nih.gov/news-events/novel-coronavirus-sarscov2-images].
+](images/SARS_CoV-2.png){#fig:virus secno=1}
+
 The first critical step towards developing a vaccine against SARS-CoV-2 was characterizing the target, which fortunately happened early in the COVID-19 outbreak with the sequencing and dissemination of the viral genome [@url:https://www.who.int/csr/don/12-january-2020-novel-coronavirus-china/en/].
 The Coalition for Epidemic Preparedness Innovations (CEPI) is coordinating global health agencies and pharmaceutical companies to develop vaccines against SARS-CoV-2.
 As of September 2020, there were over 180 vaccine candidates against SARS-CoV-2 in development [@doi:10.1038/s41586-020-2798-3].
@@ -3591,7 +3598,7 @@ Trials that recruit across multiple countries do appear to broaden geographic re
 The density of clinical trials is reported at the country level.
 As of November 9, 2020, there are 6,417 trials in the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709], of which 3,706 are interventional.
 The top figure demonstrates the density of interventional trials recruiting only from a singular country, while the bottom shows the distribution of recruitment for interventional trials that involve more than one country.
-](https://github.com/greenelab/covid19-review/raw/7b046b0d76b6585806562d58e73cbd701cd08995/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
+](https://github.com/greenelab/covid19-review/raw/92f82610a3b6a276e80a45b206fb37a1e0ea4e30/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
 
 A few different concerns arise from this skewed geographic representation in clinical trial recruitment.
 First, treatments such as remdesivir that are promising but primarily available to clinical trial participants are unlikely to be accessible by people in many countries.
