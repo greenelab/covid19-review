@@ -973,7 +973,7 @@
   }
 },
 {
-  "id": "url:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=34496b43-05a2-45fb-a769-52b12e099341",
+  "id": "dailymed-hcq",
   "type": "webpage",
   "title": "PLAQUENIL- hydroxychloroquine sulfate tablet",
   "container-title": "DailyMed",
@@ -990,7 +990,7 @@
   }
 },
 {
-  "id": "url:http://www.chictr.org.cn/showprojen.aspx?proj=48880",
+  "id": "cctr-hcq",
   "type": "webpage",
   "title": "Therapeutic effect of hydroxychloroquine on novel coronavirus pneumonia (COVID-19)",
   "container-title": "Chinese Clinical Trial Registry",
@@ -1007,7 +1007,7 @@
   }
 },
 {
-  "id": "url:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=537b424a-3e07-4c81-978c-1ad99014032a",
+  "id": "dailymed-dexamethasone",
   "type": "webpage",
   "title": "dexamethasone- Dexamethasone tablet dexamethasone- Dexamethasone solution, concentrate dexamethasone- Dexamethasone solution",
   "container-title": "DailyMed",
@@ -1024,7 +1024,7 @@
   }
 },
 {
-  "id": "url:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2e5365ff-cb2a-4b16-b2c7-e35c6bf2de13",
+  "id": "dailymed-tocilizumab",
   "type": "webpage",
   "title": "ACTEMRA- tocilizumab injection, solution, concentrate ACTEMRA- tocilizumab injection, solution ACTEMRA ACTPEN- tocilizumab injection, solution",
   "container-title": "DailyMed",
