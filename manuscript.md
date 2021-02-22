@@ -249,13 +249,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/cbb9fd6cf811bfdc8d24b96f82ab3b1db7925725/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/cbb9fd6cf811bfdc8d24b96f82ab3b1db7925725/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/cbb9fd6cf811bfdc8d24b96f82ab3b1db7925725/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/752428f84492668ff27670119a46b07a827f6262/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/752428f84492668ff27670119a46b07a827f6262/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/752428f84492668ff27670119a46b07a827f6262/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/cbb9fd6cf811bfdc8d24b96f82ab3b1db7925725/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/cbb9fd6cf811bfdc8d24b96f82ab3b1db7925725/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/752428f84492668ff27670119a46b07a827f6262/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/752428f84492668ff27670119a46b07a827f6262/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -277,9 +277,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/cbb9fd6cf811bfdc8d24b96f82ab3b1db7925725/))
+([permalink](https://greenelab.github.io/covid19-review/v/752428f84492668ff27670119a46b07a827f6262/))
 was automatically generated
-from [greenelab/covid19-review@cbb9fd6](https://github.com/greenelab/covid19-review/tree/cbb9fd6cf811bfdc8d24b96f82ab3b1db7925725)
+from [greenelab/covid19-review@752428f](https://github.com/greenelab/covid19-review/tree/752428f84492668ff27670119a46b07a827f6262)
 on February 22, 2021.
 Snapshots of individual sections are available as preprints [@individual-pathogenesis; @individual-nutraceuticals].
 </em></small>
@@ -2156,7 +2156,7 @@ Therefore, despite the promising potential mechanism, initial results have not p
 
 CQ and hydroxychloroquine (HCQ) are lysosomotropic agents, meaning they are weak bases that can pass through the plasma membrane.
 Both drugs increase cellular pH by accumulating in their protonated form inside lysosomes [@doi:10.1186/1743-422X-8-163; @doi:10.1111/j.1529-8019.2007.00131.x].
-These drugs are used for the treatment and prophylaxis of malaria, as well as the treatment of lupus erythematosus and rheumatoid arthritis in adults [@url:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=34496b43-05a2-45fb-a769-52b12e099341].
+These drugs are used for the treatment and prophylaxis of malaria, as well as the treatment of lupus erythematosus and rheumatoid arthritis in adults [@dailymed-hcq].
 This shift in pH inhibits the breakdown of proteins and peptides by the lysosomes during the process of proteolysis [@doi:10.1111/j.1529-8019.2007.00131.x].
 A number of mechanisms have been proposed through which these drugs could influence the immune response to pathogen challenge.
 For example, CQ/HCQ can interfere with digestion of antigens within the lysosome and inhibit CD4 T-cell stimulation while promoting the stimulation of CD8 T-cells [@doi:10.1111/j.1529-8019.2007.00131.x].
@@ -2201,7 +2201,7 @@ On April 10, 2020, a randomized, non-placebo trial of 62 COVID-19 patients at th
 This study investigated whether HCQ decreased time to fever break or time to cough relief when compared to SOC [@doi:10.1101/2020.03.22.20040758].
 This trial found HCQ decreased both average time to fever break and average time to cough relief, defined as mild or no cough.
 While this study improved on some of the methodological flaws in Gautret et al. by randomizing patients, it also had several flaws in trial design and data analysis that prevent generalization of the results.
-These weaknesses include the lack of placebo, lack of correction for multiple primary outcomes, inappropriate choice of outcomes, lack of sufficient detail to understand analysis, drastic disparities between pre-registration [@url:http://www.chictr.org.cn/showprojen.aspx?proj=48880] and published protocol (including differences in the inclusion and exclusion criteria, the number of experimental groups, the number of patients enrolled, and the outcome analyzed), and small sample size.
+These weaknesses include the lack of placebo, lack of correction for multiple primary outcomes, inappropriate choice of outcomes, lack of sufficient detail to understand analysis, drastic disparities between pre-registration [@cctr-hcq] and published protocol (including differences in the inclusion and exclusion criteria, the number of experimental groups, the number of patients enrolled, and the outcome analyzed), and small sample size.
 The choice of outcomes may be inappropriate as both fevers and cough may break periodically without resolution of illness.
 Additionally, for these outcomes, the authors reported that 23 of 62 patients did not have a fever and 25 of 62 patients did not have a cough at the start of the study, but the authors failed to describe how these patients were included in a study assessing time to fever break and time to cough relief.
 It is important to note here that the authors claimed "neither the research performers nor the patients were aware of the treatment assignments."
@@ -2344,7 +2344,7 @@ Several countries have now removed CQ/HCQ from their SOC for COVID-19 due to the
 ##### Dexamethasone
 
 Dexamethasone (9&alpha;-fluoro-16&alpha;-methylprednisolone) is a synthetic corticosteroid that binds to glucocorticoid receptors [@doi:10.1021/cr068203e; @url:https://www.cebm.net/covid-19/dexamethasone/].
-It was first synthesized in the late 1950s as an anti-inflammatory and has been used to treat RA and other inflammatory conditions [@doi:10.1021/ja01545a061; @doi:10.1001/jama.1960.03030070009002], including allergies and asthma [@url:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=537b424a-3e07-4c81-978c-1ad99014032a].
+It was first synthesized in the late 1950s as an anti-inflammatory and has been used to treat RA and other inflammatory conditions [@doi:10.1021/ja01545a061; @doi:10.1001/jama.1960.03030070009002], including allergies and asthma [@dailymed-dexamethasone].
 Steroids such as dexamethasone are widely available and affordable, and they are often used to treat community-acquired pneumonia [@doi:10.1038/s41392-020-0127-9].
 A clinical trial that began in 2012 recently reported that dexamethasone may improve outcomes for patients with ARDS [@doi:10/ggpxzc].
 However, a meta-analysis of a small amount of available data about dexamethasone as a treatment for SARS suggested that it may, in fact, be associated with patient harm [@doi:10/ggks86]; these findings may have been biased by the fact that all of the studies examined were observational and a large number of inconclusive studies were not included [@doi:10/ggq356].
@@ -2410,7 +2410,7 @@ As a result, biologics are another possible avenue through which the pharmacolog
 TCZ is a receptor antibody that was developed to manage chronic inflammation caused by the continuous synthesis of the cytokine IL-6 [@doi:10.1101/cshperspect.a016295].
 IL-6 is a pro-inflammatory cytokine belonging to the interleukin family, which is comprised by immune system regulators that are primarily responsible for immune cell differentiation.
 Often used to treat conditions such as RA [@doi:10.1101/cshperspect.a016295], TCZ has become a pharmaceutical of interest for the treatment of COVID-19 because of the role IL-6 plays in this disease.
-It has also been approved to treat CRS caused by CAR-T treatments [@url:https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2e5365ff-cb2a-4b16-b2c7-e35c6bf2de13].
+It has also been approved to treat CRS caused by CAR-T treatments [@dailymed-tocilizumab].
 While secretion of IL-6 can be associated with chronic conditions, it is a key player in the innate immune response and is secreted by macrophages in response to the detection of pathogen-associated molecular patterns and damage-associated molecular patterns [@doi:10.1101/cshperspect.a016295].
 An analysis of 191 in-patients at two Wuhan hospitals revealed that blood concentrations of IL-6 differed between patients who did and did not recover from COVID-19.
 Patients who ultimately died had higher IL-6 levels at admission than those who recovered [@doi:10/ggnxb3].
@@ -2595,12 +2595,10 @@ Thus, as additional information becomes available, a more detailed understanding
 
 With the emergence of the COVID-19 pandemic caused by the coronavirus SARS-CoV-2, the development and identification of therapeutic and prophylactic interventions became issues of international urgency.
 In previous outbreaks of HCoV, namely SARS and MERS, the development of these interventions was very limited.
-As research has progressed, several potential approaches to treatment have emerged (Figure @fig:therapeutics).
+As research has progressed, several potential approaches to treatment have emerged (Figure @fig:therapeutics). <!--Step #5 in Figure is not labeled-->
 Most notably, remdesivir has been approved by the FDA for the treatment of COVID-19, and dexamethasone, which was approved by the FDA in 1958, has been found to improve outcomes for patients with severe COVID-19.
 Other potential therapies are being still being explored and require additional data (Figure @fig:ebm-trials).
 As more evidence becomes available, the potential for existing and novel therapies to improve outcomes for COVID-19 patients will become better understood.
-
-<!--Step #5 is not labeled-->
 
 ![
 **Mechanism of Action for Potential Therapeutics**
@@ -3089,7 +3087,7 @@ If H1N1 vaccine development provides any indication, considering developing and 
 The development of vaccines depends on the immune system recognizing the virus.
 Here, the structure of SARS-CoV-2 is represented both in the abstract and against a visualization of the virion.<!--To Do: Add in-line ref-->
 The abstracted visualization was made using BioRender [@url:https://biorender.com/] and the microscopy was done by the National Institute of Allergy and Infectious Diseases [@url:https://www.niaid.nih.gov/news-events/novel-coronavirus-sarscov2-images].
-](images/SARS_CoV-2.png){#fig:virus secno=1}
+](images/SARS_CoV_2.png){#fig:virus secno=1}
 
 The first critical step towards developing a vaccine against SARS-CoV-2 was characterizing the target, which fortunately happened early in the COVID-19 outbreak with the sequencing and dissemination of the viral genome [@url:https://www.who.int/csr/don/12-january-2020-novel-coronavirus-china/en/].
 The Coalition for Epidemic Preparedness Innovations (CEPI) is coordinating global health agencies and pharmaceutical companies to develop vaccines against SARS-CoV-2.
