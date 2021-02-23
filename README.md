@@ -18,12 +18,12 @@ If you experience harassment or notice violations of the code of conduct, please
 ## Project Description
 <!-- usage note: edit this section. -->
 
-With the rapidly evolving global situation related to COVID-19, the infectious disease caused by the SARS-CoV-2 virus, there is a need to centralize scientific knowledge relevant to the development of diagnostics and therapeutics. 
-This repository is an online, collaborative review paper written with [manubot](https://manubot.org/). 
+With the rapidly evolving global situation related to COVID-19, the infectious disease caused by the SARS-CoV-2 virus, there is a need to centralize scientific knowledge relevant to the development of diagnostics and therapeutics.
+This repository is an online, collaborative review paper written with [manubot](https://manubot.org/).
 We are seeking input from scientists at all levels anywhere in the world.
 
 Our goal is to quickly and accurately summarize and synthesize the papers that are coming out in order to develop a broader picture of what's being attempted and the status of those efforts.
-We hope to contextualize elements of this virus and infectious disease with respect to better understood viruses and diseases (e.g., to identify shared mechanisms). 
+We hope to contextualize elements of this virus and infectious disease with respect to better understood viruses and diseases (e.g., to identify shared mechanisms).
 This repository is also a living document that aims to consolidate and integrate helpful information about diagnostics and therapeutics that is circulating in decentralized spaces (e.g., Twitter threads) into a more permanent and unified format.
 
 ## Contributions
@@ -34,8 +34,8 @@ Instructions and procedures for contributing are [outlined here](CONTRIBUTING.md
 
 We will follow the [ICMJE Guidelines](http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html) for determining authorship.
 
-Please note that, while reading scientific literature is a particular skill, we know that people outside of science are also invested in this topic and there is a lot of information circulating about the virus and about possible therapies. 
-Non-scientists are welcome to contribute by opening New Paper issues to let us know about topics or papers they're concerned about or would like to see addressed. 
+Please note that, while reading scientific literature is a particular skill, we know that people outside of science are also invested in this topic and there is a lot of information circulating about the virus and about possible therapies.
+Non-scientists are welcome to contribute by opening New Paper issues to let us know about topics or papers they're concerned about or would like to see addressed.
 
 Undergraduate students who are interested are encouraged to take part in discussions, ask questions, post interesting papers, and contribute paper summaries (just please note in your summary that you're a student).
 
@@ -72,7 +72,7 @@ It also includes some instructions for more experienced users about the procedur
 
 The directories are as follows:
 
-+ [`content`](content) contains the manuscript source, which includes markdown files as well as inputs for citations and references. 
++ [`content`](content) contains the manuscript source, which includes markdown files as well as inputs for citations and references.
 These are the files that most contributors will be editing.
   See [`USAGE.md`](USAGE.md) for more information.
 + [`output`](output) contains the outputs (generated files) from Manubot including the resulting manuscripts.
@@ -112,4 +112,4 @@ All other files are only available under CC BY 4.0, including:
 + `*.pdf`
 + `*.docx`
 
-Please open [an issue](https://github.com/manubot/rootstock/issues) for any question related to licensing. 
+Please open [an issue](https://github.com/manubot/rootstock/issues) for any question related to licensing.

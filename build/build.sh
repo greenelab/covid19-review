@@ -70,10 +70,12 @@ fi
 
 # If Docker is available, use athenapdf to create PDF
 if [ "${BUILD_PDF:-}" != "false" ] && [ -n "$DOCKER_RUNNING" ]; then
-  if [ ! -f output/manuscript.html ]; then
-    echo >&2 "Missing file output/manuscript.html. Set BUILD_HTML environment variable to true."
-    exit 1
-  fi
+  echo >&2 "Exporting HTML manuscript for Athena"
+  pandoc --verbose \
+    --data-dir="$PANDOC_DATA_DIR" \
+    --defaults=common.yaml \
+    --defaults=athenapdf.yaml \
+    output/manuscript.md
 
   echo >&2 "Exporting PDF manuscript using Docker + Athena"
   if [ "${CI:-}" = "true" ]; then
@@ -92,9 +94,11 @@ if [ "${BUILD_PDF:-}" != "false" ] && [ -n "$DOCKER_RUNNING" ]; then
     arachnysdocker/athenapdf:2.16.0 \
     athenapdf \
     --delay=${MANUBOT_ATHENAPDF_DELAY:-1100} \
+    --timeout=240 \
     --pagesize=A4 \
-    manuscript.html manuscript.pdf
+    manuscript-athena.html manuscript.pdf
   rm -rf output/images
+  rm output/manuscript-athena.html
 fi
 
 # Create DOCX output (if BUILD_DOCX environment variable equals "true")
