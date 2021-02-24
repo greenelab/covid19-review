@@ -19,5 +19,3 @@ content/20.pharmaceuticals.md:775:immunocompetent
 content/20.pharmaceuticals.md:776:ADG
 content/20.pharmaceuticals.md:781:REGN
 content/22.vaccines.md:22:niaid
-content/22.vaccines.md:247:propiolactone
-content/22.vaccines.md:254:poliovirus

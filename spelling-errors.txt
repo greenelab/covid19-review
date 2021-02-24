@@ -10,6 +10,5 @@ immunocompetent
 JS
 Junshi
 NIAID
-poliovirus
-propiolactone
+Nrf
 REGN
