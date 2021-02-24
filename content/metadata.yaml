@@ -424,6 +424,7 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-11-11
+    manuscripts:
       pharmaceuticals:
         order: 7
         contributions:
