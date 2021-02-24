@@ -925,5 +925,140 @@
       ]
     ]
   }
+},
+{
+  "id": "url:https://www.fda.gov/media/143822/download",
+  "type": "webpage",
+  "title": "Letter of Authorization: EUA for baricitinib (Olumiant), in combination with remdesivir (Veklury), for the treatment of suspected or laboratory confirmed coronavirus disease 2019 (COVID-19)",
+  "container-title": "Food and Drug Administration",
+  "URL": "https://www.fda.gov/media/143822/download",
+  "language": "en",
+  "author": [
+    {
+      "family": "Hinton",
+      "given": "Denise M."
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        "2020",
+        1,
+        19
+      ]
+    ]
+  }
+},
+{
+  "id": "url:https://www.who.int/immunization/sage/meetings/2018/october/2_Ebola_SAGE2018Oct_BgDoc_20180919.pdf",
+  "type": "webpage",
+  "title": "Update with the development of Ebola vaccines and implications of emerging evidence to inform future policy recommendations",
+  "container-title": "World Health Organization SAGE meeting background",
+  "URL": "https://www.who.int/immunization/sage/meetings/2018/october/2_Ebola_SAGE2018Oct_BgDoc_20180919.pdf",
+  "language": "en",
+  "author": [
+    {
+      "family": "Yeung",
+      "given": "Hoi Ting"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        "2018",
+        9,
+        19
+      ]
+    ]
+  }
+},
+{
+  "id": "dailymed-hcq",
+  "type": "webpage",
+  "title": "PLAQUENIL- hydroxychloroquine sulfate tablet",
+  "container-title": "DailyMed",
+  "URL": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=34496b43-05a2-45fb-a769-52b12e099341",
+  "language": "en",
+  "issued": {
+    "date-parts": [
+      [
+        "2020",
+        8,
+        12
+      ]
+    ]
+  }
+},
+{
+  "id": "cctr-hcq",
+  "type": "webpage",
+  "title": "Therapeutic effect of hydroxychloroquine on novel coronavirus pneumonia (COVID-19)",
+  "container-title": "Chinese Clinical Trial Registry",
+  "URL": "http://www.chictr.org.cn/showprojen.aspx?proj=48880",
+  "language": "en",
+  "issued": {
+    "date-parts": [
+      [
+        "2020",
+        2,
+        12
+      ]
+    ]
+  }
+},
+{
+  "id": "dailymed-dexamethasone",
+  "type": "webpage",
+  "title": "dexamethasone- Dexamethasone tablet dexamethasone- Dexamethasone solution, concentrate dexamethasone- Dexamethasone solution",
+  "container-title": "DailyMed",
+  "URL": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=537b424a-3e07-4c81-978c-1ad99014032a",
+  "language": "en",
+  "issued": {
+    "date-parts": [
+      [
+        "2007",
+        10,
+        25
+      ]
+    ]
+  }
+},
+{
+  "id": "dailymed-tocilizumab",
+  "type": "webpage",
+  "title": "ACTEMRA- tocilizumab injection, solution, concentrate ACTEMRA- tocilizumab injection, solution ACTEMRA ACTPEN- tocilizumab injection, solution",
+  "container-title": "DailyMed",
+  "URL": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2e5365ff-cb2a-4b16-b2c7-e35c6bf2de13",
+  "language": "en",
+  "issued": {
+    "date-parts": [
+      [
+        "2020",
+        12,
+        17
+      ]
+    ]
+  }
+},
+{
+  "type": "article-journal",
+  "id": "individual-vaccines",
+  "author": [
+    {
+      "literal": "COVID-19 Review Consortium"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2021,
+        2,
+        19
+      ]
+    ]
+  },
+  "container-title": "Manubot",
+  "title": "Vaccine Development Strategies for SARS-CoV-2",
+  "URL": "https://greenelab.github.io/covid19-review/v/d9d90fd7e88ef547fb4cbed0ef73baef5fee7fb5/#vaccine-development-strategies-for-sars-cov-2"
 }
 ]

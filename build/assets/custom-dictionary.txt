@@ -58,6 +58,7 @@ Bian
 Bifidobacterium
 BioNTech
 BioNTech's
+Biorender
 BioScience
 Biobank
 Bioinformatic
@@ -1134,6 +1135,7 @@ monocytes
 monocytic
 monocytosis
 mononuclear
+monotherapy
 monovalent
 morbidities
 mortem
