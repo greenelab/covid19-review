@@ -1,8 +1,10 @@
 personal_ws-1.1 en 1390 utf-8
 ABCpred
 ABO
+ABVV
 ACEi
 ACEis
+ADG
 AICD
 AIFA
 AIOD
@@ -14,6 +16,9 @@ ASBT
 AST
 ATPase
 AUC
+AZD
+AbbVie
+AbCellera
 Académie
 Acelity
 Actemra
@@ -316,6 +321,7 @@ Immunofluorescence
 Ipsita
 JAK
 JJF
+JS
 JSON
 Jadavji
 Jang
@@ -325,6 +331,7 @@ Jeon
 Jinyintan
 Jovani
 Ju
+Junshi
 KDM
 Kamphorst
 Kandi
@@ -421,6 +428,7 @@ NCBI
 NCIP
 NCP
 NCT
+NIAID
 NFKB
 NHBE
 NHC
@@ -503,6 +511,7 @@ RBDs
 RBM
 RCT
 RCTs
+REGN
 RLordan
 RNAemia
 RNAs
@@ -891,6 +900,7 @@ epitopes
 erythema
 erythematosus
 esell
+estesevimab
 estradiol
 et
 etesevimab
@@ -960,6 +970,7 @@ histopathology
 hoc
 homology
 homozygosity
+hotspots
 hpi
 hufengling
 humoral
@@ -984,6 +995,7 @@ immunoassay
 immunobiotic
 immunochromatographic
 immunochromatography
+immunocompetent
 immunocompromised
 immunodominant
 immunofluorescent
@@ -1252,6 +1264,7 @@ pmcid
 pmid
 pneumocytes
 png
+poliovirus
 polyclonal
 polymerase
 polymerases
@@ -1276,6 +1289,7 @@ probiotics
 profibrotic
 proinflammatory
 prophylactically
+propiolactone
 proresolving
 protease
 proteases
