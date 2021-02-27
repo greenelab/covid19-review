@@ -516,6 +516,7 @@ authors:
         order: 4
         contributions:
           - Writing - Original Draft
+          - Writing - Review & Editing
   -
     github: nafisajadavji
     name: Nafisa M. Jadavji
@@ -542,6 +543,7 @@ authors:
         contributions:
           - Writing - Review & Editing
           - Supervision
+          - Writing - Original Draft
   -
     github: esell17
     name: Elizabeth Sell
@@ -571,7 +573,7 @@ authors:
     orcid: 0000-0002-5796-8130
     email: jinhui2@pennmedicine.upenn.edu
     contributions:
-      - Writing - Revising & Editing
+      - Writing - Review & Editing
     code of conduct:
       confirmed: No
     affiliations:
@@ -597,6 +599,7 @@ authors:
     contributions:
       - Writing - Original Draft
       - Writing - Review & Editing
+      - Project Administration
     affiliations:
       - Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
       - Department of Chemistry, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
@@ -755,6 +758,7 @@ authors:
         order: 5
         contributions:
           - Writing - Original Draft
+          - Writing - Review & Editing
   -
     github: ypar
     name: YoSon Park
