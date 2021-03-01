@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2021-02-27'
+date-meta: '2021-03-01'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -64,8 +64,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2021-02-27" />
-  <meta name="citation_publication_date" content="2021-02-27" />
+  <meta name="dc.date" content="2021-03-01" />
+  <meta name="citation_publication_date" content="2021-03-01" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -249,13 +249,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/a8afb35c8ad500781bca6acce069276ef7161b4e/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/a8afb35c8ad500781bca6acce069276ef7161b4e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/a8afb35c8ad500781bca6acce069276ef7161b4e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/66bf7c0f22e39a2705f53e12a4fff802bc555609/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/66bf7c0f22e39a2705f53e12a4fff802bc555609/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/66bf7c0f22e39a2705f53e12a4fff802bc555609/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/a8afb35c8ad500781bca6acce069276ef7161b4e/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/a8afb35c8ad500781bca6acce069276ef7161b4e/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/66bf7c0f22e39a2705f53e12a4fff802bc555609/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/66bf7c0f22e39a2705f53e12a4fff802bc555609/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -277,10 +277,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/a8afb35c8ad500781bca6acce069276ef7161b4e/))
+([permalink](https://greenelab.github.io/covid19-review/v/66bf7c0f22e39a2705f53e12a4fff802bc555609/))
 was automatically generated
-from [greenelab/covid19-review@a8afb35](https://github.com/greenelab/covid19-review/tree/a8afb35c8ad500781bca6acce069276ef7161b4e)
-on February 27, 2021.
+from [greenelab/covid19-review@66bf7c0](https://github.com/greenelab/covid19-review/tree/66bf7c0f22e39a2705f53e12a4fff802bc555609)
+on March 1, 2021.
 Snapshots of individual sections are available as preprints [@individual-pathogenesis; @individual-nutraceuticals].
 </em></small>
 
@@ -691,12 +691,12 @@ Most of these cases were in China, but one to two exported cases had also been i
 One week later, 4,593 confirmed cases had been identified, spanning not only Asia, but also Australia, North America, and Europe [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128-sitrep-8-ncov-cleared.pdf].
 On March 11, 2020, the WHO formally classified the situation as a pandemic [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200311-sitrep-51-covid-19.pdf].
 On April 4, 2020, the WHO reported that the global number of confirmed cases had surpassed one million [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200404-sitrep-75-covid-19.pdf].
-<!--2,507,624 COVID-19 deaths had been reported worldwide as of February 25, 2021 (Figure @fig:csse-deaths).
+<!--2,525,401 COVID-19 deaths had been reported worldwide as of February 27, 2021 (Figure @fig:csse-deaths).
 
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
-](https://github.com/greenelab/covid19-review/raw/51523ff5e769a61a85c92b571a14d97e262010eb/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1} -->
+](https://github.com/greenelab/covid19-review/raw/3b7e4acaaeff977b9fbe35436e68b308b7ce8189/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1} -->
 
 As international attention remains focused on the ongoing public health crisis, the scientific community has responded by mobilizing resources and turning much of its attention to the virus and disease.
 This rapid influx of information is disseminated by traditional publishing mechanisms, preprint servers, and press releases, which provide a venue for scientists to release findings without undergoing the formal publication process.
@@ -1819,10 +1819,10 @@ Serologic testing combined with PCR testing will be critical to confirming purpo
 
 ### Abstract
 
-After emerging in China in late 2019, the novel coronavirus SARS-CoV-2 spread worldwide and as of early 2021, continues to significantly impact most countries.
-Only a small number of coronaviruses are known to infect humans, and only two are associated with the severe outcomes associated with SARS-CoV-2: SARS-CoV-1, a closely related species of SARS-CoV-2 that emerged in 2002, and MERS-CoV, which emerged in 2012.
+After emerging in China in late 2019, the novel _Severe acute respiratory syndrome-like coronavirus 2_ (SARS-CoV-2) spread worldwide and as of early 2021, continues to significantly impact most countries.
+Only a small number of coronaviruses are known to infect humans, and only two are associated with the severe outcomes associated with SARS-CoV-2: _Severe acute respiratory syndrome-related coronavirus_, a closely related species of SARS-CoV-2 that emerged in 2002, and _Middle East respiratory syndrome-related coronavirus_, which emerged in 2012.
 Both of these previous epidemics were controlled fairly rapidly through public health measures, and no vaccines or robust therapeutic interventions were identified.
-However, previous insights into the immune response to coronaviruses gained during the outbreaks of SARS and MERS have proved beneficial to identifying approaches to the treatment and prophylaxis of COVID-19.
+However, previous insights into the immune response to coronaviruses gained during the outbreaks of severe acute respiratory syndrome (SARS) and Middle East respiratory syndrome (MERS) have proved beneficial to identifying approaches to the treatment and prophylaxis of novel coronavirus disease 2019 (COVID-19).
 A number of potential therapeutics against SARS-CoV-2 and the resultant COVID-19 illness were rapidly identified, leading to a large number of clinical trials investigating a variety of possible therapeutic approaches being initiated early on in the pandemic.
 As a result, a small number of therapeutics have already been authorized by regulatory agencies such as the Food and Drug Administration (FDA) in the United States, and many other therapeutics remain under investigation.
 Here, we describe a range of approaches for the treatment of COVID-19, along with their proposed mechanisms of action and the current status of clinical investigation into each candidate.
@@ -1850,12 +1850,12 @@ Prophylactics bolster immunity to prevent an individual from contracting a disea
 While a number of vaccines have recently been developed, approved, or are currently being evaluated by the US Food and Drug Administration and other regional and international bodies, vaccination programs only started being rolled out at the very end of 2020 and beginning of 2021, meaning that treatments that palliate symptoms and prevent the most severe outcomes have been necessary for much of 2020 and will continue to be necessary for the foreseeable future [@individual-vaccines].
 Fortunately, prior developments during other recent pandemics, especially those caused by human coronaviruses (HCoV), have provided a number of hypotheses guiding a biomedical approach to the novel coronavirus infection.
 
-2,507,624 COVID-19 deaths had been reported worldwide as of February 25, 2021 (Figure @fig:csse-deaths).
+2,525,401 COVID-19 deaths had been reported worldwide as of February 27, 2021 (Figure @fig:csse-deaths).
 
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
-](https://github.com/greenelab/covid19-review/raw/51523ff5e769a61a85c92b571a14d97e262010eb/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
+](https://github.com/greenelab/covid19-review/raw/3b7e4acaaeff977b9fbe35436e68b308b7ce8189/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
 
 #### Lessons from Prior HCoV Outbreaks
 
@@ -1877,7 +1877,7 @@ While SARS-CoV-1 belonged to a distinct lineage from the two other HCoVs known a
 Despite their phylogenetic similarity, SARS-CoV-2 emerged under very different circumstances than SARS-CoV-1 in terms of scientific knowledge about HCoVs.
 The trajectories of the pandemics associated with each of the viruses have also diverged significantly.
 By July 2003, the SARS outbreak was officially determined to be under control, with the success credited to infection management practices such as mask wearing [@doi:10.1038/nrmicro.2016.81].
-In contrast, MERS is still circulating and remains a concern; although the fatality rate is very high at almost 35%, the disease is much less easily transmitted, as its R~0~ has been estimated to be 1 [@doi:10.1093/ajcp/aqaa029].
+In contrast, Middle East respiratory syndrome (MERS) is still circulating and remains a concern; although the fatality rate is very high at almost 35%, the disease is much less easily transmitted, as its R~0~ has been estimated to be 1 [@doi:10.1093/ajcp/aqaa029].
 The low R~0~ in combination with public health practices allowed for its spread to be contained [@doi:10.1093/ajcp/aqaa029].
 Neither of these trajectories are comparable to that of SARS-CoV-2, which remains a serious threat worldwide more than a year after the first cases of COVID-19 emerged.
 
@@ -1887,7 +1887,7 @@ To the extent that clinical treatments for SARS and MERS were explored, there is
 For example, Ribavirin is an antiviral that was often used in combination with corticosteroids and sometimes interferon (IFN) medications to treat SARS and MERS [@doi:10.1038/nrmicro.2016.81], but its effects have been found to be inconclusive in retrospective and _in vitro_ analyses of SARS and the SARS-CoV-1 virus, respectively [@doi:10.1038/nrmicro.2016.81].
 IFNs and Ribavirin have shown promise in _in vitro_ analyses of MERS, but their clinical effectiveness remains unknown [@doi:10.1038/nrmicro.2016.81].
 Therefore, only limited pharmaceutical advances from prior HCoV outbreaks can be adopted to COVID-19.
-Importantly, though, prior analyses of the virological and pathogenic properties of SARS-CoV-1 and MERS-CoV have provided a strong foundation for the development of hypotheses about SARS-CoV-2 that have served to accelerated the development and identification of potential therapeutic approaches.
+Importantly, though, prior analyses of the virological and pathogenic properties of SARS-CoV-1 and _Middle East respiratory syndrome-related coronavirus_ (MERS-CoV) have provided a strong foundation for the development of hypotheses about SARS-CoV-2 that have served to accelerated the development and identification of potential therapeutic approaches.
 Even during the early months of the pandemic, a number of studies have emerged investigating the potential effects of drugs with mechanisms suggested based on prior understanding of coronavirus-host interactions.
 Initially, these were primarily observational studies, which simply compare groups of patients who did and did not receive a treatment to determine whether it may have an effect.
 However, these studies are subject to confounding, and randomized controlled trials are the standard means of assessing the effects of medications.
@@ -1922,7 +1922,7 @@ Recruitment status and trial phase are shown only for interventional trials in w
 The common interventions are all interventions used in at least ten trials.
 Combinations of interventions, such as Hydroxychloroquine + Azithromycin, are tallied separately from the individual interventions.
 Trials data are from the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709].
-](https://github.com/greenelab/covid19-review/raw/51523ff5e769a61a85c92b571a14d97e262010eb/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/3b7e4acaaeff977b9fbe35436e68b308b7ce8189/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 ### Small Molecule Drugs
 
@@ -1991,7 +1991,7 @@ Thus, in combination, these small studies suggest that the effects of favipiravi
 
 ###### Remdesivir
 
-Remdesivir (GS-5734) is an intravenous antiviral that was proposed by Gilead Sciences as a possible treatment for Ebola virus disease (EVD). <!--Seems like it was developed against Hep-C and RSV, but wasn’t effective for them, then it was repurposed for Ebola eg https://www.nih.gov/news-events/nih-research-matters/final-report-confirms-remdesivir-benefits-covid-19 -->
+Remdesivir (GS-5734) is an intravenous antiviral that was proposed by Gilead Sciences as a possible treatment for Ebola virus disease (EVD).
 At the outset of the COVID-19 pandemic, it did not have any have any FDA-approved use.
 However, on May 1, 2020, the FDA issued an Emergency Use Authorization (EUA) for remdesivir for the treatment of hospitalized COVID-19 patients [@url:https://www.fda.gov/media/137564/download].
 The EUA was based on information from two clinical trials, NCT04280705 and NCT04292899 [@clinicaltrials:NCT04292899; @clinicaltrials:NCT04280705; @doi:10.1056/NEJMoa2007764; @doi:10.1056/NEJMoa2007016].
@@ -2021,7 +2021,7 @@ Patients were stratified for randomization based on site and the severity of dis
 The treatment was 200 mg on day 1, followed by 100 mg on days 2 through 10.
 Data was analyzed from a total of 1,059 patients who completed the 29-day course of the trial, with 517 assigned to remdesivir and 508 to placebo [@doi:10.1056/NEJMoa2007764].
 The two groups were well matched demographically and clinically at baseline.
-Those who received remdesivir had a median recovery time of 10 days, as compared with 15 days in those who received placebo (rate ratio for recovery, 1.29; 95% CI, 1.12 to 1.49; _p_ < 0.001).
+Those who received remdesivir had a median recovery time of 10 days, as compared with 15 days in those who received placebo (rate ratio for recovery, 1.29; 95% confidence interval (CI), 1.12 to 1.49; _p_ < 0.001).
 The Kaplan-Meier estimates of mortality by 14 days were 6.7% with remdesivir and 11.9% with placebo, with a hazard ratio (HR) for death of 0.55 and a 95% CI of 0.36 to 0.83, and at day 29, remdesivir corresponded to 11.4% and the placebo to 15.2% (HR: 0.73; 95% CI, 0.52 to 1.03).
 Serious adverse events were reported in 131 of the 532 patients who received remdesivir (24.6%) and in 163 of the 516 patients in the placebo group (31.6%).
 This study also reported an association between remdesivir administration and both clinical improvement and a lack of progression to more invasive respiratory intervention in patients receiving non-invasive and invasive ventilation at randomization [@doi:10.1056/NEJMoa2007764].
@@ -2043,11 +2043,11 @@ These results thus do not support the previous findings that remdesivir reduced 
 
 In response to the results of the Solidarity trial, Gilead, which manufactures remdesivir, released a statement pointing to the fact that the Solidarity trial was not placebo-controlled or double-blind and at the time of release, the statement had not been peer reviewed [@url:https://www.gilead.com/news-and-press/company-statements/gilead-sciences-statement-on-the-solidarity-trial]; these sentiments have been echoed elsewhere [@doi:10.1093/eurheartj/ehaa934].
 Other critiques of this study have noted that antivirals are not typically targeted at patients with severe illness, and therefore remdesivir could be more beneficial for patients with mild rather than severe cases [@url:https://www.sciencemag.org/news/2020/10/very-very-bad-look-remdesivir-first-fda-approved-covid-19-drug; @doi:10.1056/NEJMe2034294].
-However, the publication associated with the trial sponsored by Gilead did purport an effect of remdesivir on patients with severe disease, identifying an 11 versus 18 day recovery period (rate ratio for recovery: 1.31, 95% CI 1.12 to 1.52) [@doi:10.1056/NEJMoa2007764]. <!--This should not be a criticism - You can get a p-value from reversing the CI. Basically, if the 95% CI does not include the null value (in this case, a rate ratio = 1), then the p-value < 0.05. A lot of analysts prefer reporting CIs compared to p-values.-->
+However, the publication associated with the trial sponsored by Gilead did purport an effect of remdesivir on patients with severe disease, identifying an 11 versus 18 day recovery period (rate ratio for recovery: 1.31, 95% CI 1.12 to 1.52) [@doi:10.1056/NEJMoa2007764].
 Additionally, a smaller analysis of 598 patients, of whom two-thirds were randomized to receive remdesivir for either 5 or 10 days, reported a small effect of treatment with remdesivir for five days relative to standard of care in patients with moderate COVID-19 [@doi:10.1001/jama.2020.16349].
 These results suggest that remdesivir could improve outcomes for patients with moderate COVID-19, but that additional information would be needed to understand the effects of different durations of treatment.
 Therefore, the Solidarity trial may point to limitations in the generalizability of other research on remdesivir, especially since the broad international nature of the Solidarity clinical trial, which included countries with a wide range of economic profiles and a variety of healthcare systems, provides a much-needed global perspective in a pandemic [@doi:10.1056/NEJMe2034294].
-On the other hand, only 62% of patients in the Solidarity trial were randomized on the day of admission or one day afterwards [@doi:10.1056/NEJMoa2023184], and concerns have been raised that differences in disease progression could influence the effectiveness of remdesivir [@doi:10.1056/NEJMe2034294]. 
+On the other hand, only 62% of patients in the Solidarity trial were randomized on the day of admission or one day afterwards [@doi:10.1056/NEJMoa2023184], and concerns have been raised that differences in disease progression could influence the effectiveness of remdesivir [@doi:10.1056/NEJMe2034294].
 Despite the findings of the Solidarity trial, remdesivir remains available for the treatment of COVID-19 in many places.
 Remdesivir has also been investigated in combination with other drugs, such as baricitinib, which is an inhibitor of Janus kinase 1 and 2 [@doi:10.1056/NEJMoa2031994]; the FDA has issued an EUA for the combination of remdesivir and baricitinib in adult and pediatric patients [@url:https://www.fda.gov/media/143822/download].
 Follow-up studies are needed and, in many cases, are underway to further investigate remdesivir-related outcomes.
@@ -2076,8 +2076,8 @@ Additional clinical trials of remdesivir in different patient pools and in combi
 Several studies showed that viral proteases play an important role in the life cycle of viruses, including coronaviruses, by modulating the cleavage of viral polyprotein precursors [@doi:10.2174/138161207780162971].
 Several FDA-approved drugs target proteases, including lopinavir and ritonavir for HIV infection and simeprevir for hepatitis C virus infection.
 In particular, serine protease inhibitors were suggested for the treatment of SARS and MERS viruses [@doi:10.1016/j.antiviral.2015.01.011].
-Recently, a study [@doi:10.1016/j.cell.2020.02.052] suggested that camostat mesylate, an FDA-approved protease inhibitor (PI) could block the entry of SARS-CoV-2 into lung cells _in vitro_.
-Thus far, investigation of possible PIs that could work against SARS-CoV-2 has been driven by computational predictions.
+Recently, a study [@doi:10.1016/j.cell.2020.02.052] suggested that camostat mesylate, an FDA-approved protease inhibitor could block the entry of SARS-CoV-2 into lung cells _in vitro_.
+Thus far, investigation of possible protease inhibitors that could work against SARS-CoV-2 has been driven by computational predictions.
 
 Computer-aided design allowed for the development of a Michael acceptor inhibitor, now known as N3, to target a protease critical to SARS-CoV-2 replication.
 Discovery of the N3 mechanism arose from interest in the two polyproteins encoded by the SARS-CoV-2 replicase gene, pp1a and pp1ab, that are critical for viral replication and transcription [@doi:10.1038/s41586-020-2223-y].
@@ -2105,7 +2105,6 @@ Ebselen is a promising compound since its safety has been demonstrated in other 
 However, ebselen may be a false positive, since it is a promiscuous compound that can have many targets [@doi:10.1039/c8cc04258f].
 Therefore, the results of ongoing clinical trials are expected to help establish whether compounds with higher specificity are required.
 
-<!--##### Molecules Targeting the Viral Envelope-->
 #### Broad-Spectrum Pharmaceuticals
 
 When a virus enters a host, the host becomes the virus's environment.
@@ -2142,7 +2141,7 @@ The components of this global rank score, such as time to death and length of me
 This analysis reported no differences between the two groups in the primary or any of the secondary outcomes.
 
 Similarly, a second study [@doi:10.1001/jama.2020.25864] used a randomized, open-label design to examine the effects of continuing versus discontinuing ARBs and ACEIs on patients hospitalized for mild to moderate COVID-19 at 29 hospitals in Brazil.
-This study enrolled 740 patients but had to exclude one trial site from all analyses due to the discovery of violations of Good Clinical Trial practice and data falsification. 
+This study enrolled 740 patients but had to exclude one trial site from all analyses due to the discovery of violations of Good Clinical Trial practice and data falsification.
 After this exclusion, 659 patients remained, with 334 randomized to discontinuation and 325 to continuation.
 In this study, the primary endpoint analyzed was the number of days that patients were alive and not hospitalized within 30 days of enrollment.
 The secondary outcomes included death (including in-hospital death separately), number of days hospitalized, and specific clinical outcomes such as heart failure or stroke.
@@ -2181,7 +2180,7 @@ The initial study evaluating HCQ as a treatment for COVID-19 patients was publis
 This non-randomized, non-blinded, non-placebo clinical trial compared HCQ to SOC in 42 hospitalized patients in southern France.
 It reported that patients who received HCQ showed higher rates of virological clearance by nasopharyngeal swab on days 3-6 when compared to SOC.
 This study also treated six patients with both HCQ + AZ and found this combination therapy to be more effective than HCQ alone.
-However, the design and analyses used showed weaknesses that severely limit interpretability of results, including the small sample size and the lack of: randomization, blinding, placebo (no "placebo pill" given to SOC group), Intention-To-Treat analysis, correction for sequential multiple comparisons, and trial pre-registration. 
+However, the design and analyses used showed weaknesses that severely limit interpretability of results, including the small sample size and the lack of: randomization, blinding, placebo (no "placebo pill" given to SOC group), Intention-To-Treat analysis, correction for sequential multiple comparisons, and trial pre-registration.
 Furthermore, the trial arms were entirely confounded by hospital and there were false negative outcome measurements (see [@doi:10.5014/ajot.2013.006015]).
 Two of these weaknesses are due to inappropriate data analysis and can therefore be corrected _post hoc_ by recalculating the p-values (lack of Intention-To-Treat analysis and multiple comparisons).
 However, all other weaknesses are fundamental design flaws and cannot be corrected for.
@@ -2377,7 +2376,6 @@ However, adjusting for age did not change the conclusions, although the duration
 These findings also suggested that dexamethasone may have reduced progression to mechanical ventilation, especially among patients who were receiving oxygen support at randomization.
 Thus, this large, randomized, and multi-site, albeit not placebo-controlled, study suggests that administration of dexamethasone to patients who are unable to breathe independently may significantly improve survival outcomes.
 Additionally, dexamethasone is a widely available and affordable medication, raising the hope that it could be made available to COVID-19 patients globally.
-<!-- TO DO: Check the status since this came out?-->
 
 The results of the RECOVERY trial's analysis of dexamethasone suggest that this therapeutic is effective primarily in patients who had been experiencing symptoms for at least seven days and patients who were not breathing independently [@doi:10.1056/NEJMoa2021436].
 A meta-analysis that evaluated the results of the RECOVERY trial alongside trials of other corticosteroids, such as hydrocortisone, similarly concluded that corticosteroids may be beneficial to patients with severe COVID-19 who are receiving oxygen supplementation [@doi:10.1053/j.jvca.2020.11.057].
@@ -2395,7 +2393,7 @@ Given the available evidence, dexamethasone is currently the most promising trea
 ### Biologics
 
 Biologics are produced from components of living organisms or viruses.
-They include treatments such as humanized monoclonal antibodies (mAb), tocilizumab (TCZ), and neutralizing antibodies (nAbs), and can also include prophylactics such as vaccines [@individual-vaccines].
+They include treatments such as humanized monoclonal antibodies, tocilizumab (TCZ), and neutralizing antibodies (nAbs), and can also include prophylactics such as vaccines [@individual-vaccines].
 Historically produced from animal tissue, biologics have become increasingly feasible to produce as recombinant DNA technologies have advanced [@doi:10.1016/j.copbio.2009.10.006].
 Often, they are glycoproteins or peptides [@doi:10.2174/138920006774832604], but whole viruses can also be used therapeutically or prophylactically, not only for vaccines but also as vectors for gene therapy or therapeutic proteins or for oncolytic virotherapy [@doi:10.3390/jcm9040972].
 They are typically catabolized by the body to their amino acid components [@doi:10.2174/138920006774832604].
@@ -2420,18 +2418,18 @@ In this context, the observation of elevated IL-6 in patients who died may refle
 
 Human IL-6 is a 26-kDa glycoprotein that consists of 184 amino acids and contains two potential N-glycosylation sites and four cysteine residues.
 It binds to a type I cytokine receptor (IL-6R&alpha; or glycoprotein 80) that exists in both membrane-bound (IL-6R&alpha;) and soluble (sIL-6R&alpha;) forms [@doi:10.3389/fimmu.2016.00604].
-It is not the binding of IL-6 to the receptor that initiates pro- and/or anti-inflammatory signaling, but rather the binding of the complex to another subunit, known as IL-6R&beta; or glycoprotein 130 (gp13) [@doi:10.7150/ijbs.4989; @doi:10.3389/fimmu.2016.00604].
+It is not the binding of IL-6 to the receptor that initiates pro- and/or anti-inflammatory signaling, but rather the binding of the complex to another subunit, known as IL-6R&beta; or glycoprotein 130 (gp130) [@doi:10.7150/ijbs.4989; @doi:10.3389/fimmu.2016.00604].
 Unlike membrane-bound IL-6R&alpha;, which is only found on hepatocytes and some types of leukocytes, gp130 is found on most cells [@doi:10.1007/s00430-006-0019-9].
 When IL-6 binds to sIL-6R&alpha;, the complex can then bind to a gp130 protein on any cell [@doi:10.1007/s00430-006-0019-9].
 The binding of IL-6 to IL-6R&alpha; is termed classical signaling, while its binding to sIL-6R&alpha; is termed trans-signaling [@doi:10.1016/j.cytogfr.2012.04.001; @doi:10.1042/bj3000281; @doi:10.1007/s00430-006-0019-9].
 These two signaling processes are thought to play different roles in health and illness.
 For example, trans-signaling may play a role in the proliferation of mucosal T-helper TH2 cells associated with asthma, while an earlier step in this proliferation process may be regulated by classical signaling [@doi:10.1007/s00430-006-0019-9].
 Similarly, IL-6 is known to play a role in Crohn's Disease via trans-, but not classical, signaling [@doi:10.1007/s00430-006-0019-9].
-Both classical and trans-signaling can occur through three independent pathways: the Janus-activated kinase-STAT3 pathway, the Ras/Mitogen-Activated Protein Kinases (MAPK) pathway and the Phosphoinositol-3 Kinase/Akt pathway [@doi:10.3389/fimmu.2016.00604].
+Both classical and trans-signaling can occur through three independent pathways: the Janus-activated kinase-STAT3 pathway, the Ras/Mitogen-Activated Protein Kinases pathway and the Phosphoinositol-3 Kinase/Akt pathway [@doi:10.3389/fimmu.2016.00604].
 These signaling pathways are involved in a variety of different functions, including cell type differentiation, immunoglobulin synthesis, and cellular survival signaling pathways, respectively [@doi:10.3389/fimmu.2016.00604].
 The ultimate result of the IL-6 cascade is to direct transcriptional activity of various promoters of pro-inflammatory cytokines, such as IL-1, TFN, and even IL-6 itself, through the activity of NF-κB [@doi:10.3389/fimmu.2016.00604].
 IL-6 synthesis is tightly regulated both transcriptionally and post-transcriptionally, and it has been shown that viral proteins can enhance transcription of the IL-6 gene by strengthening the DNA-binding activity between several transcription factors and IL-6 gene-cis-regulatory elements [@doi:10.2492/inflammregen.33.054].
-Therefore, drugs inhibiting the binding of IL-6 to IL-6R&alpha; or sIL-6R&alpha; are of interest for combating the hyperactive inflammatory response characteristic of CRS/CSS. <!--Aren't these the same thing?-->
+Therefore, drugs inhibiting the binding of IL-6 to IL-6R&alpha; or sIL-6R&alpha; are of interest for combating the hyperactive inflammatory response characteristic of CRS/CSS.
 TCZ is a humanized monoclonal antibody that binds both to the insoluble and soluble receptor of IL-6, providing de facto inhibition of the IL-6 immune cascade.
 
 Tocilizumab is being administered either as an intervention or as concomitant medication in 77 interventional COVID-19 clinical trials (Figure @fig:ebm-trials).
@@ -2471,7 +2469,7 @@ When the two endpoints were examined separately, progression to invasive medical
 In contrast, a study that compared 96 patients treated with TCZ to 97 patients treated with SOC only in New York City found that differences in mortality did not differ between the two groups, but that this difference did become significant when intubated patients were excluded from the analysis [@doi:10.1093/qjmed/hcaa206].
 Taken together, these findings suggest that future clinical trials of TCZ may want to include intubation as an endpoint.
 However, these studies should be approached with caution, not only because of the small number of patients enrolled and the retrospective design, but also because they performed a large number of statistical tests and did not account for multiple hypothesis testing.
-In general, caution must be exercised when interpreting subgroup analyses after a primary combined endpoint analysis. <!--Need to be careful about overinterpreting subgroup analyses. Combined endpoints (of 2 events, like death OR ICU admission) are also problematic, though they are often used to increase power.-->
+In general, caution must be exercised when interpreting subgroup analyses after a primary combined endpoint analysis.
 These last findings highlight the need to search for a balance between impairing a harmful immune response, such as the one generated during CRS/CSS, and preventing the worsening of the clinical picture of the patients by potential new viral infections.
 Though data about TCZ for COVID-19 is still only just emerging, some meta-analyses and systematic reviews have investigated the available data.
 One meta-analysis [@doi:10.2139/ssrn.3642653] evaluated 19 studies published or released as preprints prior to July 1, 2020 and found that the overall trends were supportive of the frequent conclusion that TCZ does improve survivorship, with a significant HR of 0.41 (_p_ < 0.001).
@@ -2563,7 +2561,7 @@ Based on this data, the combination therapy received emergency use authorization
 Casirivimab (REGN10933) and imdevimab (REGN10987) are two monoclonal antibodies against the SARS-CoV-2 spike protein.
 They were both developed by Regeneron in a parallel high-throughput screen to identify neutralizing antibodies from either humanized mice or patient-derived convalescent plasma [@doi:10.1126/science.abd0827].
 In these efforts, multiple antibodies were characterized for their ability to bind and neutralize the SARS-CoV-2 spike protein.
-The authors hypothesized that an antibody cocktail, rather than each individual antibody could increase the therapeutic efficacy while minimizing the risk for virus escape.
+The authors hypothesized that an antibody cocktail, rather than each individual antibody, could increase the therapeutic efficacy while minimizing the risk for virus escape.
 Therefore, the authors tested pairs of individual antibodies for their ability to simultaneously bind the RBD of the spike protein.
 Based on this data, casirivimab and imdevimab were identified as the lead antibody pair, resulting in the initiation of two clinical trials [@clinicaltrials:NCT04426695; @clinicaltrials:NCT04425629].
 Data from this phase 1-3 trial published in the _New England Journal of Medicine_ shows that the REGN-COV2 antibody cocktail reduced viral load, particularly in patients with high viral load or whose endogenous immune response had not yet been initiated [@doi:10.1056/NEJMoa2035002].
@@ -2576,7 +2574,7 @@ Ongoing efforts are trying to evaluate the efficacy of REGN-COV2 to improve clin
 
 With the ongoing global spread of new SARS-CoV-2 variants, there is a growing concern that mutations in SARS-CoV-2 spike protein could escape antibody neutralization, thereby reducing the efficacy of monoclonal antibody therapeutics and vaccines.
 A comprehensive mutagenesis screen recently identified several amino acid substitutions in the SARS-CoV-2 spike protein that can prevent antibody neutralization [@doi:10.1016/j.chom.2021.01.014].
-While some mutations result in resistance to only one antibody, others confer broad resistance to multiple monoclonal antibodies as well as polyclonal huma sera, suggesting that some amino acids are “hotspots” for antibody resistance.
+While some mutations result in resistance to only one antibody, others confer broad resistance to multiple monoclonal antibodies as well as polyclonal human sera, suggesting that some amino acids are “hotspots” for antibody resistance.
 However, it was not investigated whether the resistant mutations identified result in a fitness advantage.
 Accordingly, an impact on neutralizing efficiency has been reported for the emerging UK (B.1.1.7) and South Africa (B.1.351) variants [@doi:10.21203/rs.3.rs-228079/v1; @doi:10.1101/2021.02.03.429355; @doi:10.1101/2021.01.25.428137].
 While the reported impact on antibody neutralization needs to be confirmed _in vivo_, it suggests that some adjustments to therapeutic antibody treatments may be necessary to maintain the efficacy that was reported in previous clinical trials. 
@@ -2623,7 +2621,7 @@ One important consideration is the stage of COVID-19 infection analyzed in each 
 The Synairgen trial enrolled only patients who were not receiving invasive ventilation, corresponding to a less severe stage of disease than many patients enrolled in the SOLIDARITY trial, as well as a lower overall rate of mortality [@doi:10/ftmj].
 Additionally, the methods of administration differed between the two trials, with the SOLIDARITY trial administering IFN-𝛽-1a subcutaneously [@doi:10/ftmj].
 The differences in findings between the studies suggests that the method of administration might be relevant to outcomes, with nebulized IFN-𝛽-1a more directly targeting receptors in the lungs.
-A trial that analyzed the effect of subcutaneously administered IFN-&beta;-1a on patients with ARDS between 2015 and 2017 had also reported no effect on 28-day mortality [@10.1001/jama.2019.22525], while a smaller study analyzing the effect of subcutaneous IFN administration did find a significant improvement in 28-day mortality for COVID-19 [@doi:10.1128/AAC.01061-20].
+A trial that analyzed the effect of subcutaneously administered IFN-&beta;-1a on patients with ARDS between 2015 and 2017 had also reported no effect on 28-day mortality [@doi:10.1001/jama.2019.22525], while a smaller study analyzing the effect of subcutaneous IFN administration did find a significant improvement in 28-day mortality for COVID-19 [@doi:10.1128/AAC.01061-20].
 At present, several ongoing clinical trials are investigating the potential effects of IFN-𝛽-1a, including in combination with therapeutics such as remdesivir [@clinicaltrials:NCT04492475] and administered via inhalation [@clinicaltrials:NCT04385095].
 Thus, as additional information becomes available, a more detailed understanding of whether and under which circumstances IFN-𝛽-1a is beneficial to COVID-19 patients should develop.
 
@@ -2631,7 +2629,7 @@ Thus, as additional information becomes available, a more detailed understanding
 
 With the emergence of the COVID-19 pandemic caused by the coronavirus SARS-CoV-2, the development and identification of therapeutic and prophylactic interventions became issues of international urgency.
 In previous outbreaks of HCoV, namely SARS and MERS, the development of these interventions was very limited.
-As research has progressed, several potential approaches to treatment have emerged (Figure @fig:therapeutics). <!--Step #5 in Figure is not labeled-->
+As research has progressed, several potential approaches to treatment have emerged (Figure @fig:therapeutics).
 Most notably, remdesivir has been approved by the FDA for the treatment of COVID-19, and dexamethasone, which was approved by the FDA in 1958, has been found to improve outcomes for patients with severe COVID-19.
 Other potential therapies are being still being explored and require additional data (Figure @fig:ebm-trials).
 As more evidence becomes available, the potential for existing and novel therapies to improve outcomes for COVID-19 patients will become better understood.
@@ -2679,7 +2677,7 @@ Future work could explore whether such compounds exert antiviral effects against
 Another potential approach is the development of antivirals, which could be broad-spectrum, specific to coronaviruses, or targeted to SARS-CoV-2.
 Development of new antivirals is complicated by the fact that none have yet been approved for human coronaviruses.
 Intriguing new options are emerging, however.
-Beta-D-N4-hydroxycytidine (NHC) is an orally bioavailable ribonucleotide analog showing broad-spectrum activity against RNA viruses, which may inhibit SARS-CoV-2 replication _in vitro_ and _in vivo_ in mouse models of HCoVs [@doi:10.1126/scitranslmed.abb5883].
+Beta-D-N4-hydroxycytidine is an orally bioavailable ribonucleotide analog showing broad-spectrum activity against RNA viruses, which may inhibit SARS-CoV-2 replication _in vitro_ and _in vivo_ in mouse models of HCoVs [@doi:10.1126/scitranslmed.abb5883].
 A range of other antivirals are also in development.
 Development of antivirals will be further facilitated as research reveals more information about the interaction of SARS-CoV-2 with the host cell and host cell genome, mechanisms of viral replication, mechanisms of viral assembly, and mechanisms of viral release to other cells; this can allow researchers to target specific stages and structures of the viral life cycle.
 Finally, antibodies against viruses, also known as antiviral monoclonal antibodies, could be an alternative as well and are described in detail in an above section.
@@ -2705,20 +2703,19 @@ Much work remains to be done to determine further crystal structures of other vi
 While still nascent, work in this area is promising.
 Over the longer term, this approach and others may lead to the development of novel therapeutics specifically for COVID-19 and SARS-CoV-2.<!-- This section could be updated with most recent information on drug discovery efforts -->
 
-#### Conclusions <!--I’m not sure we need this section. We’ve stated these things before in this manuscript and the section reads as how useful it’s been to learn from SARS-CoV-2 and MERS-CoV – it has been useful, but I don’t think we need that as the overall conclusion…-->
+#### Conclusions
 
 | Treatment | Category | FDA Status | Evidence Available | Suggested Effectiveness |
 |-----------|----------|-----------------|--------------------|-------------------------|
-| Favipiravir | Small molecule, antiviral, nucleoside analog | None | RCT | Not supported: RCTs do not show significant improvements for individuals taking this treatment, good safety profile | 
+| Favipiravir | Small molecule, antiviral, nucleoside analog | None | RCT | Not supported: RCTs do not show significant improvements for individuals taking this treatment, good safety profile |
 | Remdesivir | Small molecule, antiviral, adenosine analog | Approved for COVID-19 (and EUA for combination with baricitinib) | RCT | Conflicting evidence from large WHO-led Solidarity trial vs US-focused RCT and other studies |
 | N3 | Small molecule, protease inhibitor | None | Computational prediction, _in vitro_ studies | Unknown |
 | ARBs & ACEIs | Small molecule, broad spectrum | None | Observational studies and some RCTs | Not supported: Observational study retracted, RCTs suggest no association |
-| HCQ/CQ | Small molecule, broad spectrum | None | RCT  | Not supported, possibly harmful: Non-blinded RCTs showed no improvement over SOC, safety profile may be problematic |
+| HCQ/CQ | Small molecule, broad spectrum | None | RCT | Not supported, possibly harmful: Non-blinded RCTs showed no improvement over SOC, safety profile may be problematic |
 | Dexamethasone | Small molecule, broad spectrum | Used off-label | RCT | Supported: RCT shows improved outcomes over SOC, especially in severe cases such as CRS |
 | Tocilizumab | Biologic, monoclonal antibody | Approved for CRS resulting from CAR-T therapy | RCT | Mixed results from RCTs: It appears that TCZ may work well in combination with dexamethasone in severe cases, but not as monotherapy |
-| Possibly other antibodies? | 
-| Casirivimab and imdevimab | Biologic, monoclonal antibodies | EUA | | | |
-| Bamlanivimab and etesevimab | Biologic, monoclonal antibodies | EUA | | | |
+| Casirivimab and imdevimab | Biologic, monoclonal antibodies | EUA | RCT | Supported: Reduced viral load at interim analysis |
+| Bamlanivimab and etesevimab | Biologic, monoclonal antibodies | EUA | RCT | Supported: Phase 2 clinical trial showed reduction in viral load |
 | SNG001 | Biologic, interferon | None | RCT | Mixed results: support from initial RCT but no effect found in WHO's Solidarity trial |
 
 Table: Summary table of candidate therapeutics examined in this manuscript. The FDA status is provided where available. The evidence available is based on the progression of the therapeutic through the pharmaceutical development pipeline, with randomized control trials (RCT) as the most informative source of evidence. The effectiveness is summarized based on the current available evidence; large trials such as RECOVERY and Solidarity are weighted heavily in this summary. This table was last updated on February 17, 2021. {#tbl:summary-table}
@@ -3650,7 +3647,7 @@ Trials that recruit across multiple countries do appear to broaden geographic re
 The density of clinical trials is reported at the country level.
 As of November 9, 2020, there are 6,417 trials in the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709], of which 3,706 are interventional.
 The top figure demonstrates the density of interventional trials recruiting only from a singular country, while the bottom shows the distribution of recruitment for interventional trials that involve more than one country.
-](https://github.com/greenelab/covid19-review/raw/51523ff5e769a61a85c92b571a14d97e262010eb/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
+](https://github.com/greenelab/covid19-review/raw/3b7e4acaaeff977b9fbe35436e68b308b7ce8189/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
 
 A few different concerns arise from this skewed geographic representation in clinical trial recruitment.
 First, treatments such as remdesivir that are promising but primarily available to clinical trial participants are unlikely to be accessible by people in many countries.
@@ -4044,7 +4041,7 @@ The goal of this manuscript is to present preliminary findings within the broade
 |Ryan Velazquez|Writing - Review & Editing|
 |John P. Barton|Writing - Original Draft, Writing - Review & Editing|
 |Jeffrey M. Field|Writing - Original Draft, Writing - Review & Editing|
-|Bharath Ramsundar|Investigation, Writing - Review & Editing|
+|Bharath Ramsundar|Writing - Review & Editing|
 |Adam L. MacLean|Writing - Original Draft, Writing - Review & Editing|
 |Alexandra J. Lee|Writing - Original Draft, Writing - Review & Editing|
 |Immunology Institute of the Icahn School of Medicine|Data Curation|
