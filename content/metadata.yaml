@@ -424,6 +424,7 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-11-11
+    manuscripts:
       pharmaceuticals:
         order: 7
         contributions:
@@ -476,7 +477,7 @@ authors:
           - Writing - Review & Editing
           - Writing - Original Draft
       pharmaceuticals:
-        order: 5
+        order: 4
         contributions:
           - Writing - Original Draft
           - Writing - Review & Editing
@@ -755,7 +756,7 @@ authors:
           - Writing - Review & Editing
           - Writing - Original Draft
       pharmaceuticals:
-        order: 5
+        order: 4
         contributions:
           - Writing - Original Draft
           - Writing - Review & Editing
