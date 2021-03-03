@@ -684,7 +684,7 @@ Zotero
 aadattoli
 acceptor
 acetylcysteine
-acknowledgementi
+acknowledgement
 acknowledgements
 adamlmaclean
 adaptor
@@ -1122,7 +1122,7 @@ maEBOV
 macrolide
 macrolides
 macromolecules
-ealadaptive
+maladaptive
 mangul
 manubot
 marboxil
