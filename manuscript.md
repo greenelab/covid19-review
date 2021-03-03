@@ -249,13 +249,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/9af9643affd5c98a25b66a32295644f52aada827/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/9af9643affd5c98a25b66a32295644f52aada827/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/9af9643affd5c98a25b66a32295644f52aada827/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/ccb2402e86383b252c2cf5e9f32f3859530c8162/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/ccb2402e86383b252c2cf5e9f32f3859530c8162/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/ccb2402e86383b252c2cf5e9f32f3859530c8162/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/9af9643affd5c98a25b66a32295644f52aada827/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/9af9643affd5c98a25b66a32295644f52aada827/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/ccb2402e86383b252c2cf5e9f32f3859530c8162/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/ccb2402e86383b252c2cf5e9f32f3859530c8162/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -277,9 +277,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/9af9643affd5c98a25b66a32295644f52aada827/))
+([permalink](https://greenelab.github.io/covid19-review/v/ccb2402e86383b252c2cf5e9f32f3859530c8162/))
 was automatically generated
-from [greenelab/covid19-review@9af9643](https://github.com/greenelab/covid19-review/tree/9af9643affd5c98a25b66a32295644f52aada827)
+from [greenelab/covid19-review@ccb2402](https://github.com/greenelab/covid19-review/tree/ccb2402e86383b252c2cf5e9f32f3859530c8162)
 on March 3, 2021.
 Snapshots of individual sections are available as preprints [@individual-pathogenesis; @individual-nutraceuticals].
 </em></small>
@@ -3284,7 +3284,7 @@ As of December 11, 2020, the United States FDA approved this vaccine under an em
 
 #### Sputnik-V (Gam-COVID-Vac and Gam-COVID-Vac-Lyo)
 
-The vaccine Gam-COVID-Vac, nicknamed Sputnik V in reference to the space race, was developed by the Gamaleya National Center of Epidemiology and Microbiology in Moscow. 
+The vaccine Gam-COVID-Vac, nicknamed Sputnik V in reference to the space race and "V for vaccine", was developed by the Gamaleya National Center of Epidemiology and Microbiology in Moscow. 
 Gamaleya is an organization with prior experience using the adenovirus platform for the development of vaccines for _Middle East respiratory syndrome-related coronavirus_ and Ebola virus, although neither of the previous vaccines were internationally licensed [@url:https://www.who.int/immunization/sage/meetings/2018/october/2_Ebola_SAGE2018Oct_BgDoc_20180919.pdf].
 The development of Sputnik V was financed by the Russian Direct Investment Fund [@doi:10/ft7j; @doi:10/ghs3sn]. 
 Sputnik V is a replication-deficient recombinant adenovirus (rAd) vaccine that combines two adenovirus vectors, rAd26-S and rAd5-S, that express the full-length SARS-CoV-2 spike glycoprotein. 
@@ -3338,8 +3338,17 @@ Of the 707 vaccinated healthcare workers, 71.3% of the 96.6% of respondents repo
 Of these individuals, 68% experienced joint and muscle pain, 54% had injection site pain, 11% reported redness and swelling, 40% had a fever, and 5% reported diarrhea. 
 Only 5% of the vaccinated participants experienced serious adverse events that required medical attention, of which one was monitored as an inpatient.
 
+Additionally, an Independent assessment of Sputnik V in a phase II clinical trial in India found the vaccine to be effective, but the data is not yet publicly available [@url:https://www.reuters.com/article/health-coronavirus-india-vaccine-idUSL4N2JM2XA]. 
+On December 21st, 2020, Gamaleya, AstraZeneca, R-Pharm, and the Russian Direct Investment Fund agreed to assess the safety and immunogenicity of the combined use of components of the AstraZeneca and University of Oxford AZD1222 (ChAdOx1) vaccine and the rAd26-S component of the Sputnik V vaccine in clinical trials [@url:https://rdif.ru/Eng_fullNews/6220/].
+This agreement hopes to establish scientific and business relations between the entities with an aim to co-develop a vaccine providing long-term immunization. 
+The trial, which will begin enrollment soon, will include 100 participants in a phase II open-label study and is hoped to be complete within 6 months. 
+Participants will first receive an intramuscular dose of AZD1222 on day 1, followed by a dose of rAd26 on day 29. 
+Participants will be monitored from day 1 for 180 days in total. 
+The primary outcomes measured will include incidence of serious adverse events post first dose until the end of the study. 
+Secondary outcome measures will include incidence of local and systemic adverse events 7 days post each dose, a time course of antibody responses for the Spike protein and the presence of anti-SARS-CoV-2 neutralizing antibodies [@clinicaltrials:NCT04686773].
+
 Overall, there is hesitancy surrounding the management of the Sputnik V vaccine approval process and concerns over whether the efficacy data may be inflated due to a lack of asymptomatic testing within the trial.
-However, further trials are underway, which will likely shed light on the overall efficacy and safety of the Sputnik V vaccine regimen. 
+However, the interim results of the phase III study were promising and further trials are underway, which will likely shed light on the overall efficacy and safety of the Sputnik V vaccine regimen. 
 There may be some advantage to the Sputnik V approach including the favorable storage conditions afforded by choice between a frozen and lyophilized vaccine. 
 Furthermore, the producers of Gam-COVID-Vac state that they can produce the vaccine at a cost of less than $10 per dose or less than $20 per patient [@url:https://sputnikvaccine.com].
 
