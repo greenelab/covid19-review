@@ -249,13 +249,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/e991d5cc84bc3fbcf5aae39bd866c95ce567e4b8/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/e991d5cc84bc3fbcf5aae39bd866c95ce567e4b8/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/e991d5cc84bc3fbcf5aae39bd866c95ce567e4b8/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/1a7e642b1ab094a30d4418acc6bd9f32f260a199/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/1a7e642b1ab094a30d4418acc6bd9f32f260a199/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/1a7e642b1ab094a30d4418acc6bd9f32f260a199/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/e991d5cc84bc3fbcf5aae39bd866c95ce567e4b8/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/e991d5cc84bc3fbcf5aae39bd866c95ce567e4b8/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/1a7e642b1ab094a30d4418acc6bd9f32f260a199/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/1a7e642b1ab094a30d4418acc6bd9f32f260a199/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -277,11 +277,11 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/e991d5cc84bc3fbcf5aae39bd866c95ce567e4b8/))
+([permalink](https://greenelab.github.io/covid19-review/v/1a7e642b1ab094a30d4418acc6bd9f32f260a199/))
 was automatically generated
-from [greenelab/covid19-review@e991d5c](https://github.com/greenelab/covid19-review/tree/e991d5cc84bc3fbcf5aae39bd866c95ce567e4b8)
+from [greenelab/covid19-review@1a7e642](https://github.com/greenelab/covid19-review/tree/1a7e642b1ab094a30d4418acc6bd9f32f260a199)
 on March 5, 2021.
-Snapshots of individual sections are available as preprints [@individual-pathogenesis; @individual-nutraceuticals].
+Snapshots of individual sections are available as preprints [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals].
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -1051,7 +1051,7 @@ MIS-C has been associated with heart failure in some cases [@doi:10.1161/CIRCULA
 One case study [@doi:10/gg4sd6] described an adult who appeared to show symptoms similar to MIS-C after exposure to COVID-19, but cautioned against broad conclusions; a second possible adult case has also been reported [@doi:10.1016/j.ajem.2020.06.053].
 The presentation of SARS-CoV-2 infection is therefore likely to be largely distinct between adult and pediatric populations.
 However, not all cases of severe COVID-19 in children are characterizable as MIS-C.
-[@doi:10.1001/jama.2021.2091] describe demographic and clinical variables associated with MIS-C in comparison with non-MIS-C severe acute COVID-19 in young people in the United States.
+A recent study [@doi:10.1001/jama.2021.2091] described demographic and clinical variables associated with MIS-C in comparison with non-MIS-C severe acute COVID-19 in young people in the United States.
 
 ### Systems-Level Effects
 
@@ -1144,7 +1144,7 @@ The SARS-CoV-2 S protein also contains an RRAR furin recognition site at the S1/
 Such furin cleavage sites are commonly found in highly virulent influenza viruses, and as such may contribute to the heightened pathogenicity of SARS-CoV-2 [@doi:10/bvgh5b; @doi:10.1006/viro.1999.9716].
 The ongoing evolution of the spike protein can be seen from the genomic data.
 For example, the mutation D614G became dominant by the end of May 2020, soon after its initial appearance in mid-March [@doi:10.1016/j.cell.2020.06.043; @doi:10.1016/j.cell.2020.09.032], and a variant carrying two mutations (N501Y and 69–70del) that was first observed in the UK in October 2020 [@doi:10.1016/j.jinf.2020.12.024] has quickly spread around the world [@url:https://www.who.int/csr/don/21-december-2020-sars-cov2-variant-united-kingdom/en/; @doi:10.1101/2020.12.28.20248906].
-Variants may differ in transmissibility [@doi:doi:10.1001/jama.2020.27124; @doi:10.1038/s41586-021-03361-1].
+Variants may differ in transmissibility [@doi:10.1001/jama.2020.27124; @doi:10.1038/s41586-021-03361-1].
 Effective cell entry is a critical component to pathogenesis and therefore an important process to understand when examining possible therapeutics.
 
 ### Mechanism of Transmission
@@ -4104,6 +4104,7 @@ We are grateful to the following contributors for reviewing pieces of the text: 
 <!-- Individual sections that have been published as preprints or journal manuscripts -->
 [@individual-pathogenesis]: arxiv:2102.01521
 [@individual-nutraceuticals]: arxiv:2102.02250
+[@individual-pharmaceuticals]: arxiv:2103.02723
 
 
 ## Appendix A {.page_break_before}
