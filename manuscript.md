@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2021-03-05'
+date-meta: '2021-03-09'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -64,8 +64,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2021-03-05" />
-  <meta name="citation_publication_date" content="2021-03-05" />
+  <meta name="dc.date" content="2021-03-09" />
+  <meta name="citation_publication_date" content="2021-03-09" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -249,13 +249,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/1a7e642b1ab094a30d4418acc6bd9f32f260a199/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/1a7e642b1ab094a30d4418acc6bd9f32f260a199/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/1a7e642b1ab094a30d4418acc6bd9f32f260a199/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/cbb7c2b72cd125b6726cb2428349e8b804b6794a/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/cbb7c2b72cd125b6726cb2428349e8b804b6794a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/cbb7c2b72cd125b6726cb2428349e8b804b6794a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/1a7e642b1ab094a30d4418acc6bd9f32f260a199/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/1a7e642b1ab094a30d4418acc6bd9f32f260a199/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/cbb7c2b72cd125b6726cb2428349e8b804b6794a/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/cbb7c2b72cd125b6726cb2428349e8b804b6794a/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -277,10 +277,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/1a7e642b1ab094a30d4418acc6bd9f32f260a199/))
+([permalink](https://greenelab.github.io/covid19-review/v/cbb7c2b72cd125b6726cb2428349e8b804b6794a/))
 was automatically generated
-from [greenelab/covid19-review@1a7e642](https://github.com/greenelab/covid19-review/tree/1a7e642b1ab094a30d4418acc6bd9f32f260a199)
-on March 5, 2021.
+from [greenelab/covid19-review@cbb7c2b](https://github.com/greenelab/covid19-review/tree/cbb7c2b72cd125b6726cb2428349e8b804b6794a)
+on March 9, 2021.
 Snapshots of individual sections are available as preprints [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals].
 </em></small>
 
@@ -691,12 +691,12 @@ Most of these cases were in China, but one to two exported cases had also been i
 One week later, 4,593 confirmed cases had been identified, spanning not only Asia, but also Australia, North America, and Europe [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128-sitrep-8-ncov-cleared.pdf].
 On March 11, 2020, the WHO formally classified the situation as a pandemic [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200311-sitrep-51-covid-19.pdf].
 On April 4, 2020, the WHO reported that the global number of confirmed cases had surpassed one million [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200404-sitrep-75-covid-19.pdf].
-<!--2,559,670 COVID-19 deaths had been reported worldwide as of March 3, 2021 (Figure @fig:csse-deaths).
+<!--2,593,222 COVID-19 deaths had been reported worldwide as of March 7, 2021 (Figure @fig:csse-deaths).
 
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
-](https://github.com/greenelab/covid19-review/raw/1058b2199a62ae7c10c9dd2744a68c8e04f47510/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1} -->
+](https://github.com/greenelab/covid19-review/raw/d2f9cd9a53d83bdd6f56793c184c520bcdb2ef58/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1} -->
 
 As international attention remains focused on the ongoing public health crisis, the scientific community has responded by mobilizing resources and turning much of its attention to the virus and disease.
 This rapid influx of information is disseminated by traditional publishing mechanisms, preprint servers, and press releases, which provide a venue for scientists to release findings without undergoing the formal publication process.
@@ -1853,12 +1853,12 @@ Prophylactics bolster immunity to prevent an individual from contracting a disea
 While a number of vaccines have recently been developed, approved, or are currently being evaluated by the US Food and Drug Administration and other regional and international bodies, vaccination programs only started being rolled out at the very end of 2020 and beginning of 2021, meaning that treatments that palliate symptoms and prevent the most severe outcomes have been necessary for much of 2020 and will continue to be necessary for the foreseeable future [@individual-vaccines].
 Fortunately, prior developments during other recent pandemics, especially those caused by human coronaviruses (HCoV), have provided a number of hypotheses guiding a biomedical approach to the novel coronavirus infection.
 
-2,559,670 COVID-19 deaths had been reported worldwide as of March 3, 2021 (Figure @fig:csse-deaths).
+2,593,222 COVID-19 deaths had been reported worldwide as of March 7, 2021 (Figure @fig:csse-deaths).
 
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
-](https://github.com/greenelab/covid19-review/raw/1058b2199a62ae7c10c9dd2744a68c8e04f47510/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
+](https://github.com/greenelab/covid19-review/raw/d2f9cd9a53d83bdd6f56793c184c520bcdb2ef58/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
 
 #### Lessons from Prior HCoV Outbreaks
 
@@ -1925,7 +1925,7 @@ Recruitment status and trial phase are shown only for interventional trials in w
 The common interventions are all interventions used in at least ten trials.
 Combinations of interventions, such as Hydroxychloroquine + Azithromycin, are tallied separately from the individual interventions.
 Trials data are from the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709].
-](https://github.com/greenelab/covid19-review/raw/1058b2199a62ae7c10c9dd2744a68c8e04f47510/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/d2f9cd9a53d83bdd6f56793c184c520bcdb2ef58/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 ### Small Molecule Drugs
 
@@ -3149,6 +3149,9 @@ Each approach capitalizes on different features of the SARS-CoV-2 virus and deli
 
 This vaccination method involves the direct introduction of a plasmid containing a DNA sequence encoding the antigen(s) against which an immune response is sought into appropriate tissues [@url:https://www.who.int/biologicals/areas/vaccines/dna/en/].
 This approach may offer several advantages over traditional vaccination approaches, such as the stimulation of both B- as well as T-cell responses and the absence of any infectious agent.
+
+#### INO-4800 Vaccine
+
 Currently, a Phase I safety and immunogenicity clinical trial of INO-4800, a prophylactic vaccine against SARS-CoV-2, is underway [@clinicaltrials:NCT04336410].
 The vaccine developer Inovio Pharmaceuticals Technology is overseeing administration of INO-4800 by intradermal injection followed by electroporation with the CELLECTRA® device to healthy volunteers.
 Electroporation is the application of brief electric pulses to tissues in order to permeabilize cell membranes in a transient and reversible manner.
@@ -3283,7 +3286,7 @@ As of December 11, 2020, the United States FDA approved this vaccine under an em
 
 ### Viral Vector Vaccines
 
-#### COVID-19 Vaccine AstraZeneca
+<!---- #### COVID-19 Vaccine AstraZeneca --->
 
 #### Sputnik-V (Gam-COVID-Vac and Gam-COVID-Vac-Lyo)
 
@@ -3369,11 +3372,84 @@ Membrane proteins, which support B-cell response to surface proteins, are also i
 Overall, these vaccines are able to mimic the key properties of the virus that stimulate a robust immune response, but the risk of adverse reactions is reduced because the virus is inactivated, thus unable to replicate.
 Some common successful whole virus vaccine include targeting influenza viruses, poliovirus, and hepatitis A virus.
 
-#### SinoVac's CoronaVac
+#### Sinovac's CoronaVac
 
-<!--https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30843-4/fulltext-->
+The CoronaVac vaccine is being developed by Sinovac, a Beijing-based biopharmaceutical company.
+The vaccine is using an inactivate whole virus with the addition of an aluminum adjuvant [@doi:10.3389/fimmu.2020.585354].
+The vaccine is currently in Phase III clinical trials.
 
-#### Sinopharm (2 candidates)
+Pre-clinical trials were performed using BALB/c mice and rhesus macaques [@doi:10.1126/science.abc1932].
+The SARS-CoV-2 strains used in this trial isolated from 11 hospitalized patients (5 from China, 3 from Italy, 1 from the UK, 1 from Spain, 1 from Switzerland).
+A phylogenetic analysis demonstrated that the strains were representative of the current circulating variants.
+One of the strains, CN2, from China was used as the inactivated and purified virus while the other 10 strains were used to challenge.
+The CN2 was grown in Vero cells.
+An ELISA assay was used to assess the immunogenicity of the vaccine.
+10 mice were injected with the vaccine on day 0 and day 7 with varying doses (0, 1.5, 3 or 6 &mu;g), and 10 mice were treated with physiological saline as the control.
+IgG developed in the serum of all vaccinated mice.
+Using the same setup, immunogenicity was also assessed in macaques.
+Four macaques were assigned to each of four groups: treatment with 3 &mu;g at day 0, 7 and 14, treatment with a high dose of 6 &mu;g at day 0, 7 and 14, administration of a placebo vaccine, and administration of only the adjuvant.
+All vaccinated macaques induced IgGs and neutralizing antibodies.
+After challenge with SARS-CoV-2 strain CN1, vaccinated macaques were protected compared to control macaques (placebo or adjuvant only) based on histology and viral loads collected from different regions of the lung.
+
+Phase I/II clinical trials were conducted in adults 18-59 years old [@doi:10/fpcx] and adults over 60 years old [@doi:10/fx8z] in China.
+In the case of adults 18-59 years old, a single center, randomized, double-blind, placebo-controlled phase I/II trial was conducted in April 2020.
+Patients in this study were recruited from the community in Suining County of Jiangsu province, China.
+For the phase I trial, 144 (of 185 screened) participants were enrolled, with 72 enrolled in the 14-day interval cohort (i.e., treated on day 0 and day 14) and 72 in the 28-day interval cohort.
+This group of 72 participants was split into 2 blocks for a low-dose (3 &mu;g) and high-dose (6 &mu;g) vaccine.
+Within each block, participants were randomly assigned vaccination with CoronaVac or placebo (aluminum diluent without the virus) at a 2:1 ratio.
+Both the vaccine and placebo were prepared in a Good Manufacturing Practice-accredited facility of Sinovac Life Sciences (Beijing, China).
+
+The phase II trial followed the same organization of participants, this time using 300 enrolled participants in the 14-day and another 300 enrolled in the 28-day groups.
+One change of note was that the vaccine was produced using a highly automated bioreactor (ReadyToProcess WAVE 25, GE, Ume&aring;, Sweden) to increase vaccine production capacity.
+This change resulted in a higher intact spike protein content.
+The authors of this study were not aware of this antigen-level difference between the vaccine batches for the phase I/II when the ethical approval for the trials occurred.
+
+To assess adverse responses, participants were asked to record any events up to 7 days post-treatment. 
+The reported adverse events were graded according to the China National Medical Products Administration guidelines.
+In the phase I trial, the overall incidence of adverse reactions was 29-38% of patients in the 0 to 14 day group and 13-17% in the 0 to 28 day vaccination group.
+The most common symptom was pain at the injection site, which was reported by 17-21% of patients in the 0 to 14 day cohort and 13% in the 0 to 28 day cohort.
+Most adverse reactions were mild (grade 1) where patients recovered within 48 hours.
+A single case of acute hypersensitivity with manifestation of urticaria 48 hours following the first dose of study drug was reported in the 6 &mu;g group
+Most adverse reactions were mild (grade 1) in severity and participants recovered within 48 hours. 
+There was a single case, from the 6 &mu;g group, of acute hypersensitivity with manifestation of urticaria 48 hours after the first dose.
+Both the 14-day and 28-day cohorts had a strong neutralizing Ab response.
+The neutralizing Ab response was measured using a micro cytopathogenic effect assay, which assesses the minimum dilution of neutralizing Ab to be 50% protective against structural changes in host cells in response to viral infection [@doi:10.1016/j.vaccine.2012.03.010].
+Additionally IgG antibody titers against the receptor binding domain were also measured using ELISA.
+
+Another phase I/II study was performed with older patients (older than 60 years) [@doi:10/fx8z].
+The study conducted a single-center, randomized, double-blind, placebo-controlled trial.
+The phase I trial looked at dose escalation using 3 dosages: 1.5, 3 and 6 &mu;g.
+The mean age of participants was 65.8 years (std = 4.8).
+Of 95 screened participants, 72 were enrolled.
+These 72 participants were split into low (3 &mu;g) and high (6 &mu;g) dose groups.
+Within each group, 24 participants received the treatment and 12 the placebo.
+A neutralizing antibody response against live SARS-CoV-2 was detected compared to baseline using the same micro cytopathogenic effect assay.
+This response was similar across the two dose concentrations.
+Additionally, they did not observe a difference in response between age groups (60–64 years, 65–69 years, and ≥70 years).
+
+In phase II the mean age was 66.6 years (standard deviation = 4.7).
+499 participants were screened and 350 were enrolled.
+300 were evenly split into 1.5, 3 and 6 &mu;g dose groups, and the remaining 50 were assigned to the placebo group.
+Again, they found a neutralizing antibody response in phase II.
+There wasn't a significant different between the response to 3 &mu;g versus 6 &mu;g, but the response was higher than that to 1.5 &mu;g.
+
+Participants were required to record adverse reaction events within the first 7 days after each dose.
+The safety results were combined across phage I and II.
+All adverse reactions were either mild (grade 1) or moderate (grade 2) in severity.
+The most common symptom was pain at the injection site (9%) and fever (3%).
+2% (7 participants) reported severe adverse events (4 from the 1.5 &mu;g group, 1 from the 3 &mu;g group, 2 from the 6 &mu;g group), though these were found to be unrelated to the vaccine.
+
+Overall, the results from the pre-clinical and phase I/II clinical trials are promising.
+It was also very hopeful to see that the immune response was consistent in older adults (> 60 years).
+Currently, phase III trials are being conducted in Brazil [@doi:10.1186/s13063-020-04775-4].
+This is a randomized, multicenter, endpoint driven, double-blind, placebo-controlled clinical trial.
+They are expecting 13,060 participants with 11,800 ages 18 to 59 years and 1,260 age 60+.
+Participants will be health care professionals.
+
+<!--- #### Sinopharm (2 candidates) --->
+
+<!--- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7561304/ BBIBP-CorV --->
+<!--- https://pubmed.ncbi.nlm.nih.gov/32778225/ --->
 
 ### Protein Subunit Vaccines
 
@@ -3659,7 +3735,7 @@ Trials that recruit across multiple countries do appear to broaden geographic re
 The density of clinical trials is reported at the country level.
 As of November 9, 2020, there are 6,417 trials in the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709], of which 3,706 are interventional.
 The top figure demonstrates the density of interventional trials recruiting only from a singular country, while the bottom shows the distribution of recruitment for interventional trials that involve more than one country.
-](https://github.com/greenelab/covid19-review/raw/1058b2199a62ae7c10c9dd2744a68c8e04f47510/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
+](https://github.com/greenelab/covid19-review/raw/d2f9cd9a53d83bdd6f56793c184c520bcdb2ef58/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
 
 A few different concerns arise from this skewed geographic representation in clinical trial recruitment.
 First, treatments such as remdesivir that are promising but primarily available to clinical trial participants are unlikely to be accessible by people in many countries.
