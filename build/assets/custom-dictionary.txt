@@ -36,6 +36,7 @@ Assaf
 AstraZeneca
 Avigan
 BAL
+BALB
 BALF
 BAME
 BCG
@@ -90,6 +91,7 @@ CFRs
 CFTR
 CLDN
 CMV
+CN
 COPD
 COVID
 CP
@@ -328,6 +330,7 @@ Jang
 Janssen’s
 Jeliazkov
 Jeon
+Jiangsu
 Jinyintan
 Jovani
 Ju
@@ -531,6 +534,7 @@ Rapamycin
 Ras
 RdRP
 Readme
+ReadyToProcess
 Regeneron
 Renmin
 Resus
@@ -585,11 +589,13 @@ Simeprevir
 Simina
 SiminaB
 Sinopharm
-SinoVac’s
+Sinovac’s
+Sinovac
 SinsOfOmission
 Skelly
 Soumita
 SpO
+Suining
 Suo
 Synairgen
 SystemsResearch
@@ -753,6 +759,7 @@ biomarkers
 biomedicine
 BioNTech
 bioorganometallic
+biopharmaceutical
 biospecimen
 biospecimens
 biosynthesized
@@ -831,6 +838,7 @@ cysteine
 cytokine
 cytomegalovirus
 cytometric
+cytopathogenic
 cytotoxic
 cytotoxicity
 dPCR
