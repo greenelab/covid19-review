@@ -424,6 +424,7 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-11-11
+    manuscripts:
       pharmaceuticals:
         order: 7
         contributions:
@@ -441,10 +442,10 @@ authors:
     code of conduct:
       confirmed: Yes
     affiliations:
-      - Department of Biological Sciences, University of Southern California, Los Angeles, California, United States of America
+      - Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, California, United States of America
     coi:
       string: "None"
-      lastapproved: !!str 2020-11-11
+      lastapproved: !!str 2021-02-23
     manuscripts:
       pathogenesis:
         order: 2
@@ -476,7 +477,7 @@ authors:
           - Writing - Review & Editing
           - Writing - Original Draft
       pharmaceuticals:
-        order: 5
+        order: 4
         contributions:
           - Writing - Original Draft
           - Writing - Review & Editing
@@ -516,6 +517,7 @@ authors:
         order: 4
         contributions:
           - Writing - Original Draft
+          - Writing - Review & Editing
   -
     github: nafisajadavji
     name: Nafisa M. Jadavji
@@ -542,6 +544,7 @@ authors:
         contributions:
           - Writing - Review & Editing
           - Supervision
+          - Writing - Original Draft
   -
     github: esell17
     name: Elizabeth Sell
@@ -571,7 +574,7 @@ authors:
     orcid: 0000-0002-5796-8130
     email: jinhui2@pennmedicine.upenn.edu
     contributions:
-      - Writing - Revising & Editing
+      - Writing - Review & Editing
     code of conduct:
       confirmed: No
     affiliations:
@@ -597,6 +600,7 @@ authors:
     contributions:
       - Writing - Original Draft
       - Writing - Review & Editing
+      - Project Administration
     affiliations:
       - Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
       - Department of Chemistry, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
@@ -752,9 +756,10 @@ authors:
           - Writing - Review & Editing
           - Writing - Original Draft
       pharmaceuticals:
-        order: 5
+        order: 4
         contributions:
           - Writing - Original Draft
+          - Writing - Review & Editing
   -
     github: ypar
     name: YoSon Park
