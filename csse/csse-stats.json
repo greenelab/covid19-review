@@ -1,7 +1,7 @@
 {
-  "csse_commit": "0d1f71dc7d29adc2e7cbc93c406a17af8d8f6be0",
-  "csse_date_pretty": "March 6, 2021",
-  "csse_deaths": "2,587,977",
-  "csse_deaths_figure": "https://github.com/greenelab/covid19-review/raw/c9b78e6099f2aef7763a284b71e30f93ff512f2a/csse/csse-deaths.png",
-  "csse_update_time_utc": "2021-03-08T00:46:29.213751"
+  "csse_commit": "9012253e3771a411610dad153d3d7ec928078f72",
+  "csse_date_pretty": "March 7, 2021",
+  "csse_deaths": "2,593,222",
+  "csse_deaths_figure": "https://github.com/greenelab/covid19-review/raw/d2f9cd9a53d83bdd6f56793c184c520bcdb2ef58/csse/csse-deaths.png",
+  "csse_update_time_utc": "2021-03-09T00:41:39.402956"
 }
