@@ -502,6 +502,7 @@ Picornaviridae
 Plitt
 Postischemic
 Pothula
+Poxviruses
 Preincubation
 Pretreatment
 Procalcitonin
@@ -1406,12 +1407,14 @@ spectrometry
 spirulan
 splenic
 ssRNA
+stomatitis
 sterically
 stressor
 stressors
 strikethrough
 subclades
 subgenus
+sublineage
 submicromolar
 submucosal
 suboptimal
