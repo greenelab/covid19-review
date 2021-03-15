@@ -1,3 +1,1 @@
-content/22.vaccines.md:189:Poxviruses
-content/22.vaccines.md:189:Stomatitis
 content/22.vaccines.md:294:IgGs

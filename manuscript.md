@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2021-03-11'
+date-meta: '2021-03-15'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -64,8 +64,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2021-03-11" />
-  <meta name="citation_publication_date" content="2021-03-11" />
+  <meta name="dc.date" content="2021-03-15" />
+  <meta name="citation_publication_date" content="2021-03-15" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -249,13 +249,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/b710324d864f1bd8f40701ad68a53fd26dd5b6bd/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/b710324d864f1bd8f40701ad68a53fd26dd5b6bd/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/b710324d864f1bd8f40701ad68a53fd26dd5b6bd/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/675c4d059364710a0ffcd36ceff1a8e23ff36e4c/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/675c4d059364710a0ffcd36ceff1a8e23ff36e4c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/675c4d059364710a0ffcd36ceff1a8e23ff36e4c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/b710324d864f1bd8f40701ad68a53fd26dd5b6bd/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/b710324d864f1bd8f40701ad68a53fd26dd5b6bd/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/675c4d059364710a0ffcd36ceff1a8e23ff36e4c/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/675c4d059364710a0ffcd36ceff1a8e23ff36e4c/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -277,10 +277,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/b710324d864f1bd8f40701ad68a53fd26dd5b6bd/))
+([permalink](https://greenelab.github.io/covid19-review/v/675c4d059364710a0ffcd36ceff1a8e23ff36e4c/))
 was automatically generated
-from [greenelab/covid19-review@b710324](https://github.com/greenelab/covid19-review/tree/b710324d864f1bd8f40701ad68a53fd26dd5b6bd)
-on March 11, 2021.
+from [greenelab/covid19-review@675c4d0](https://github.com/greenelab/covid19-review/tree/675c4d059364710a0ffcd36ceff1a8e23ff36e4c)
+on March 15, 2021.
 Snapshots of individual sections are available as preprints [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals].
 </em></small>
 
@@ -691,12 +691,12 @@ Most of these cases were in China, but one to two exported cases had also been i
 One week later, 4,593 confirmed cases had been identified, spanning not only Asia, but also Australia, North America, and Europe [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128-sitrep-8-ncov-cleared.pdf].
 On March 11, 2020, the WHO formally classified the situation as a pandemic [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200311-sitrep-51-covid-19.pdf].
 On April 4, 2020, the WHO reported that the global number of confirmed cases had surpassed one million [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200404-sitrep-75-covid-19.pdf].
-<!--2,610,184 COVID-19 deaths had been reported worldwide as of March 9, 2021 (Figure @fig:csse-deaths).
+<!--2,639,448 COVID-19 deaths had been reported worldwide as of March 12, 2021 (Figure @fig:csse-deaths).
 
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
-](https://github.com/greenelab/covid19-review/raw/5aff57c9a65adccb7aa88c849e4f97f279940674/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1} -->
+](https://github.com/greenelab/covid19-review/raw/40130266df85446bb876b2392804c6c1d4ef491e/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1} -->
 
 As international attention remains focused on the ongoing public health crisis, the scientific community has responded by mobilizing resources and turning much of its attention to the virus and disease.
 This rapid influx of information is disseminated by traditional publishing mechanisms, preprint servers, and press releases, which provide a venue for scientists to release findings without undergoing the formal publication process.
@@ -1447,7 +1447,8 @@ Therefore, language models of viruses could predict mutations that change the pr
 #### Variants of concern and variants under surveillance
 
 Viral replication naturally leads to the occurrence of mutations, and thus to genetic variation [@doi:10.1038/s41564-020-0690-4].
-The emergence of new genetic variants of SARS-CoV-2 has attracted significant media attention since the detection of a variant of concern (VOC), a distinct phylogenetic cluster referred to as B.1.1.7/VOC 202012/01.
+However, due to an intrinsic RNA proof-reading process in the SARS-CoV-2 virus, the pace of evolution of SARS-CoV-2 is moderate in comparison to other viruses [@doi:10.1186/1471-2148-4-21].
+The declaration of the first SARS-CoV-2 variant of concern (VOC) B.1.1.7 in December 2020 has attracted significant media attention.
 While the B.1.1.7 lineage garnered attention in November 2020, two genomes of the lineage were detected as early as September 20th, 2020 from routine genomic data sampled in Kent (U.K.) by the COVID-19 Genomics UK Consortium (COG-UK). 
 The following day, a second B.1.1.7 genome was reported in greater London [@url:https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/947048/Technical_Briefing_VOC_SH_NJL2_SH2.pdf; @url:https://virological.org/t/preliminary-genomic-characterisation-of-an-emergent-sars-cov-2-lineage-in-the-uk-defined-by-a-novel-set-of-spike-mutations/563; @doi:10.1101/2020.12.30.20249034; @doi:10.1001/jama.2020.27124]
 Since then, B.1.1.7 has spread across the UK and internationally, and it has now been detected in at least 62 countries [@url:https://cov-lineages.org/global_report_B.1.1.7.html], despite several countries imposing travel restrictions on travelers from the UK. 
@@ -1459,11 +1460,11 @@ Other variants also express the 69-70del mutation [@url:https://virological.org/
 In the UK, B.1.1.7 is present in more than 97% of diagnostic tests that return negative for S-gene targets and positive for the other targets; thus, the frequency of S-gene target failure can be used as a proxy for the detection of B.1.1.7 [@url:https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/947048/Technical_Briefing_VOC_SH_NJL2_SH2.pdf; https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/950823/Variant_of_Concern_VOC_202012_01_Technical_Briefing_3_-_England.pdf]._
 The FDA has highlighted that the performance of three diagnostic tests may be affected by the B.1.1.7 lineage because it could cause false negative tests [@url:https://www.fda.gov/medical-devices/letters-health-care-providers/genetic-variants-sars-cov-2-may-lead-false-negative-results-molecular-tests-detection-sars-cov-2].
 
-While B.1.1.7 is currently the main VOC, other genetic variants not designated VOCs have been detected, including B.1.351 (20H/501Y.V2) and P.1 (20J/501Y.V3), both of which emerged independently [@url:https://www.cdc.gov/coronavirus/2019-ncov/more/science-and-research/scientific-brief-emerging-variants.html].
+While B.1.1.7 is currently the main VOC, other genetic variants not designated VOCs have been detected, including B.1.351 and P.1, both of which emerged independently [@url:https://www.cdc.gov/coronavirus/2019-ncov/more/science-and-research/scientific-brief-emerging-variants.html].
 B.1.351 was first detected in October 2020 in South Africa, was later detected in the EU on December 28th, 2020 and has now spread to at least 26 countries [@url:https://www.gov.za/speeches/minister-zweli-mkhize-confirms-8-725-more-cases-coronavirus-covid-19-18-dec-2020-0000; @url:https://cov-lineages.org/global_report_B.1.351.html; @url:https://virological.org/t/tracking-the-international-spread-of-sars-cov-2-lineages-b-1-1-7-and-b-1-351-501y-v2/592]. 
 B.1.351 contains several mutations at the RBD including K417N, E484K, and N501Y.
 While the biological significance of these mutations are still under investigation, it does appear that this lineage may be associated with increased transmissibility [@doi:10.1101/2020.12.21.20248640] due to the N501Y mutation [@doi:10.1101/2020.12.14.422555; @url:https://virological.org/t/preliminary-genomic-characterisation-of-an-emergent-sars-cov-2-lineage-in-the-uk-defined-by-a-novel-set-of-spike-mutations/563].
-The P.1 variant is a branch of the B.1.1.28 lineage that was first detected in Japan in samples obtained from four travelers from Brazil during a screening at a Tokyo airport on January 10, 2021 [@url:https://www.ecdc.europa.eu/sites/default/files/documents/COVID-19-risk-related-to-spread-of-new-SARS-CoV-2-variants-EU-EEA-first-update.pdf].
+The P.1 variant is a sublineage of the B.1.1.28 lineage that was first detected in Japan in samples obtained from four travelers from Brazil during a screening at a Tokyo airport on January 10, 2021 [@url:https://www.ecdc.europa.eu/sites/default/files/documents/COVID-19-risk-related-to-spread-of-new-SARS-CoV-2-variants-EU-EEA-first-update.pdf].
 Shortly thereafter, it was established that there was a concentration of cases of the P.1 variant in Manaus, in the Amazonas State, Brazil.
 In a small number of samples (n=31) sequenced in Manaus, 42% were identified as the P.1 variant as early as mid-December, but the variant seemed to be absent in genome surveillance testing prior to December [@url:https://virological.org/t/genomic-characterisation-of-an-emergent-sars-cov-2-lineage-in-manaus-preliminary-findings/586].
 To date, at least eight countries have detected the P.1 lineage [@url:https://cov-lineages.org/global_report_P.1.html].
@@ -1472,13 +1473,13 @@ P.1 has eight lineage-specific mutations along with three concerning spike prote
  
 There have been multiple different SARS-CoV-2 lineages detected that have mostly been of no more clinical concern than the original devastating lineage originating in Wuhan [@url:https://cov-lineages.org/lineages.html].
 However, the spotlight has been cast on other variants of unknown clinical relevance due to the increase of cases observed that have been associated with B.1.1.7 in particular.  
-Although early in its ascendency, CAL.20C (B.1.429) is a SARS-CoV-2 variant that was detected in California, USA [@doi:10.1101/2021.01.18.21249786].
+Although early in its ascendency, B.1.427/429 is SARS-CoV-2 variants that was detected in California, USA and also known as CAL.20C [@doi:10.1101/2021.01.18.21249786].
 It was first detected in July 2020 but was not detected again until October 2020. 
-In December 2020, CAL.20C accounted for ~24% of the total cases in Southern California and ~36% of total cases in the Los Angeles area. 
-CAL.20C has now been detected in New York and Washington, D.C., and some cases have been reported outside the USA in Oceania [@doi:10.1101/2021.01.18.21249786].
-This variant is characterized by five lineage-specific mutations (ORF1a: I4205V, ORF1b:D1183Y, S: S13I;W152C;L452R).
+In December 2020, B.1.427/429 accounted for ~24% of the total cases in Southern California and ~36% of total cases in the Los Angeles area. 
+B.1.427/429 has now been detected in New York and Washington, D.C., and some cases have been reported outside the USA in Oceania [@doi:10.1101/2021.01.18.21249786].
+This variant is characterized by five key lineage-specific mutations (ORF1a: I4205V, ORF1b:D1183Y, S: S13I;W152C;L452R).
 The latter spike mutation, L452R, is found in an area of the RBD known to resist monoclonal antibodies to the spike protein [@doi:10.1016/j.cell.2020.07.012], and it is hypothesized that this mutation may resist polyclonal sera in convalescent patients or in individuals post-vaccination [@doi:10.1101/2020.12.31.425021; @doi:10.1101/2021.01.18.21249786].
-CAL.20C is not a designated VOC; however, further research is required to determine the implications of the mutations encoded in this genetic variant.  
+B.1.427/429 is not a designated VOC; however, further research is required to determine the implications of the mutations encoded in this genetic variant.  
 Another notable variant has recently been discovered in 35 patients in a Bavarian hospital in Germany; however, the sequencing data has not been published to date and it remains to be determined whether this variant is of any further concern [@url:https://www.br.de/nachrichten/bayern/neue-coronavirus-mutation-35-faelle-in-garmisch-partenkirchen,SMQ1V6u].
 
 There are several shared mutations and deletions between the three lineages, P.1, B.1.1.7, and B.1.315 and indeed other variants of SARS-CoV-2 that are under investigation [@url:https://virological.org/t/genomic-characterisation-of-an-emergent-sars-cov-2-lineage-in-manaus-preliminary-findings/586].
@@ -1853,12 +1854,12 @@ Prophylactics bolster immunity to prevent an individual from contracting a disea
 While a number of vaccines have recently been developed, approved, or are currently being evaluated by the US Food and Drug Administration and other regional and international bodies, vaccination programs only started being rolled out at the very end of 2020 and beginning of 2021, meaning that treatments that palliate symptoms and prevent the most severe outcomes have been necessary for much of 2020 and will continue to be necessary for the foreseeable future [@individual-vaccines].
 Fortunately, prior developments during other recent pandemics, especially those caused by human coronaviruses (HCoV), have provided a number of hypotheses guiding a biomedical approach to the novel coronavirus infection.
 
-2,610,184 COVID-19 deaths had been reported worldwide as of March 9, 2021 (Figure @fig:csse-deaths).
+2,639,448 COVID-19 deaths had been reported worldwide as of March 12, 2021 (Figure @fig:csse-deaths).
 
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
-](https://github.com/greenelab/covid19-review/raw/5aff57c9a65adccb7aa88c849e4f97f279940674/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
+](https://github.com/greenelab/covid19-review/raw/40130266df85446bb876b2392804c6c1d4ef491e/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
 
 #### Lessons from Prior HCoV Outbreaks
 
@@ -1925,7 +1926,7 @@ Recruitment status and trial phase are shown only for interventional trials in w
 The common interventions are all interventions used in at least ten trials.
 Combinations of interventions, such as Hydroxychloroquine + Azithromycin, are tallied separately from the individual interventions.
 Trials data are from the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709].
-](https://github.com/greenelab/covid19-review/raw/5aff57c9a65adccb7aa88c849e4f97f279940674/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/40130266df85446bb876b2392804c6c1d4ef491e/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 ### Small Molecule Drugs
 
@@ -3745,7 +3746,7 @@ Trials that recruit across multiple countries do appear to broaden geographic re
 The density of clinical trials is reported at the country level.
 As of November 9, 2020, there are 6,417 trials in the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709], of which 3,706 are interventional.
 The top figure demonstrates the density of interventional trials recruiting only from a singular country, while the bottom shows the distribution of recruitment for interventional trials that involve more than one country.
-](https://github.com/greenelab/covid19-review/raw/5aff57c9a65adccb7aa88c849e4f97f279940674/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
+](https://github.com/greenelab/covid19-review/raw/40130266df85446bb876b2392804c6c1d4ef491e/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
 
 A few different concerns arise from this skewed geographic representation in clinical trial recruitment.
 First, treatments such as remdesivir that are promising but primarily available to clinical trial participants are unlikely to be accessible by people in many countries.
