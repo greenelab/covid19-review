@@ -1,8 +1,11 @@
 personal_ws-1.1 en 1390 utf-8
 ABCpred
 ABO
+ABVV
 ACEi
 ACEis
+ACIP
+ADG
 AICD
 AIFA
 AIOD
@@ -14,6 +17,9 @@ ASBT
 AST
 ATPase
 AUC
+AZD
+AbbVie
+AbCellera
 Académie
 Acelity
 Actemra
@@ -31,8 +37,10 @@ Assaf
 AstraZeneca
 Avigan
 BAL
+BALB
 BALF
 BAME
+BBV
 BCG
 BCL
 BCR
@@ -85,7 +93,9 @@ CFRs
 CFTR
 CLDN
 CMV
+CN
 COPD
+COVAX
 COVID
 CP
 CPE
@@ -106,8 +116,10 @@ CTLs
 CTan
 CYP
 CaCo
+Cadila
 Calmette
 Calu
+CanSino
 Cao
 Carleton
 Cas
@@ -121,6 +133,7 @@ Charlottesville
 Chemiluminescence
 Chloroquine
 Cholangiocyte
+Chumakov
 Ciclesonide
 Cisneros
 Clin
@@ -137,6 +150,9 @@ ConSurf
 CoronaVac
 Coronaviridae
 Coronavirus
+Covaxin
+Covishield
+CoviVac
 CpG
 Cre
 Crohn's
@@ -175,6 +191,7 @@ DiscoTope
 Disulfiram
 Drosten
 Duan
+Dynavax
 Dziak
 EBM's
 EBOV
@@ -185,6 +202,7 @@ EFIC
 EFSA
 EIDD
 ELISAs
+EMA
 EMR
 EUA
 EVD
@@ -238,6 +256,8 @@ Gamaleya
 Gammacoronaviruses
 Ganciclovir
 Gautret
+Gavi
+Genova
 Ghebreyesus
 Ghosh
 Gitter
@@ -259,7 +279,9 @@ HCoVs
 HD
 HDAC
 HDL
+HDT
 HEK
+HGCO
 HGF
 Himmelstein
 HKU
@@ -316,15 +338,19 @@ Immunofluorescence
 Ipsita
 JAK
 JJF
+JS
 JSON
 Jadavji
 Jang
+Janssen
 Janssen’s
 Jeliazkov
 Jeon
+Jiangsu
 Jinyintan
 Jovani
 Ju
+Junshi
 KDM
 Kamphorst
 Kandi
@@ -379,6 +405,7 @@ MCP
 MDCK
 MERS
 MHC
+MHRA
 MHV
 MIP
 MIS
@@ -393,6 +420,7 @@ Manaus
 Magen
 Mahmood
 Manheim
+Marino
 Markus
 Marouen
 Marseille
@@ -421,6 +449,7 @@ NCBI
 NCIP
 NCP
 NCT
+NIAID
 NFKB
 NHBE
 NHC
@@ -485,11 +514,13 @@ Paulo
 PepSite
 Perrin
 Pfaender
+Pharm
 Phosphoinositol
 Picornaviridae
 Plitt
 Postischemic
 Pothula
+Poxviruses
 Preincubation
 Pretreatment
 Procalcitonin
@@ -503,6 +534,8 @@ RBDs
 RBM
 RCT
 RCTs
+RDIF
+REGN
 RLordan
 RNAemia
 RNAs
@@ -521,6 +554,7 @@ Rapamycin
 Ras
 RdRP
 Readme
+ReadyToProcess
 Regeneron
 Renmin
 Resus
@@ -575,11 +609,13 @@ Simeprevir
 Simina
 SiminaB
 Sinopharm
-SinoVac’s
+Sinovac’s
+Sinovac
 SinsOfOmission
 Skelly
 Soumita
 SpO
+Suining
 Suo
 Synairgen
 SystemsResearch
@@ -623,6 +659,7 @@ UC
 UCI
 UTR
 UVB
+Umeå
 Umland
 UniProt
 VH
@@ -672,6 +709,8 @@ Zhejiang
 Zhou
 Zhu
 Zotero
+ZyCov
+Zydus
 aadattoli
 acceptor
 acetylcysteine
@@ -743,6 +782,7 @@ biomarkers
 biomedicine
 BioNTech
 bioorganometallic
+biopharmaceutical
 biospecimen
 biospecimens
 biosynthesized
@@ -771,6 +811,7 @@ catecholamines
 cathepsins
 cbrueffer
 cgreene
+characterizable
 chemiluminescent
 chemokine
 chemokines
@@ -820,6 +861,7 @@ cysteine
 cytokine
 cytomegalovirus
 cytometric
+cytopathogenic
 cytotoxic
 cytotoxicity
 dPCR
@@ -892,6 +934,7 @@ erythema
 erythematosus
 erythroid
 esell
+estesevimab
 estradiol
 et
 etesevimab
@@ -962,6 +1005,7 @@ histopathology
 hoc
 homology
 homozygosity
+hotspots
 hpi
 hufengling
 humoral
@@ -986,6 +1030,7 @@ immunoassay
 immunobiotic
 immunochromatographic
 immunochromatography
+immunocompetent
 immunocompromised
 immunodominant
 immunofluorescent
@@ -1226,6 +1271,7 @@ pfu
 phagocytosed
 phagocytosis
 pharmacodynamic
+pharmacovigilance
 phenotypes
 phenotypic
 phenotyping
@@ -1347,6 +1393,7 @@ rishirajgoel
 ritonavir
 rmrussell
 rootstock
+rollout
 sACE
 sIL
 sarbecovirus
@@ -1384,12 +1431,14 @@ spectrometry
 spirulan
 splenic
 ssRNA
+stomatitis
 sterically
 stressor
 stressors
 strikethrough
 subclades
 subgenus
+sublineage
 submicromolar
 submucosal
 suboptimal
@@ -1428,6 +1477,7 @@ timepoints
 titer
 titers
 tlukan
+totalling
 transcriptase
 transcriptional
 transcriptionally
