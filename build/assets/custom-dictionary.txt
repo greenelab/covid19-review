@@ -24,6 +24,7 @@ Académie
 Acelity
 Actemra
 Adhanom
+AdVac
 Agostino
 Akt
 Alexandropoulos
@@ -49,6 +50,7 @@ BH
 BHK
 BJ
 BLI
+BN
 BNP
 BNT
 BRD
@@ -248,6 +250,7 @@ GFP
 GG
 GGO
 GISAID
+GMTs
 GOLGA
 GSE
 GTEx
@@ -320,6 +323,7 @@ IFRs
 IG
 IGs
 IHC
+IIa
 IMV
 INO
 INOVIO
@@ -338,6 +342,7 @@ Immunofluorescence
 Ipsita
 JAK
 JJF
+JNJ
 JS
 JSON
 Jadavji
@@ -411,6 +416,7 @@ MIP
 MIS
 MRC
 MUC
+MVN
 MZ
 MacLean
 Macromolecular
@@ -700,6 +706,7 @@ Yelin
 Yuchen
 Yuki
 ZDHHC
+ZEBOV
 ZJ
 Zafar
 Zeng
@@ -740,6 +747,7 @@ aminotransferases
 amongst
 amplicon
 analytes
+anaphylaxis
 angiotensin
 anosmia
 anskelly
@@ -1146,6 +1154,7 @@ macrolides
 macromolecules
 mangul
 manubot
+manufacturability
 marboxil
 marouenbg
 matfax
@@ -1417,6 +1426,7 @@ seropositive
 seroprevalence
 serosurvey
 serosurveys
+serotype
 severities
 shiktadas
 silico
