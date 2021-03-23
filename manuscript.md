@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2021-03-18'
+date-meta: '2021-03-22'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -64,8 +64,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2021-03-18" />
-  <meta name="citation_publication_date" content="2021-03-18" />
+  <meta name="dc.date" content="2021-03-22" />
+  <meta name="citation_publication_date" content="2021-03-22" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -249,13 +249,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/f4d05f718dc6b9ed5706189f835f0155eab3ff2a/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/f4d05f718dc6b9ed5706189f835f0155eab3ff2a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/f4d05f718dc6b9ed5706189f835f0155eab3ff2a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/857b29da534041b6ccfaa621ec19e25d4d101eea/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/857b29da534041b6ccfaa621ec19e25d4d101eea/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/857b29da534041b6ccfaa621ec19e25d4d101eea/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/f4d05f718dc6b9ed5706189f835f0155eab3ff2a/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/f4d05f718dc6b9ed5706189f835f0155eab3ff2a/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/857b29da534041b6ccfaa621ec19e25d4d101eea/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/857b29da534041b6ccfaa621ec19e25d4d101eea/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -277,10 +277,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/f4d05f718dc6b9ed5706189f835f0155eab3ff2a/))
+([permalink](https://greenelab.github.io/covid19-review/v/857b29da534041b6ccfaa621ec19e25d4d101eea/))
 was automatically generated
-from [greenelab/covid19-review@f4d05f7](https://github.com/greenelab/covid19-review/tree/f4d05f718dc6b9ed5706189f835f0155eab3ff2a)
-on March 18, 2021.
+from [greenelab/covid19-review@857b29d](https://github.com/greenelab/covid19-review/tree/857b29da534041b6ccfaa621ec19e25d4d101eea)
+on March 22, 2021.
 Snapshots of individual sections are available as preprints [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals].
 </em></small>
 
@@ -691,12 +691,12 @@ Most of these cases were in China, but one to two exported cases had also been i
 One week later, 4,593 confirmed cases had been identified, spanning not only Asia, but also Australia, North America, and Europe [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128-sitrep-8-ncov-cleared.pdf].
 On March 11, 2020, the WHO formally classified the situation as a pandemic [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200311-sitrep-51-covid-19.pdf].
 On April 4, 2020, the WHO reported that the global number of confirmed cases had surpassed one million [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200404-sitrep-75-covid-19.pdf].
-<!--2,670,453 COVID-19 deaths had been reported worldwide as of March 16, 2021 (Figure @fig:csse-deaths).
+<!--2,709,639 COVID-19 deaths had been reported worldwide as of March 20, 2021 (Figure @fig:csse-deaths).
 
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
-](https://github.com/greenelab/covid19-review/raw/4c8a18b6795e1c53d8277beb83415748e8c67de3/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1} -->
+](https://github.com/greenelab/covid19-review/raw/c04ef631af57ea7d77ebe134503e8815eddcb015/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1} -->
 
 As international attention remains focused on the ongoing public health crisis, the scientific community has responded by mobilizing resources and turning much of its attention to the virus and disease.
 This rapid influx of information is disseminated by traditional publishing mechanisms, preprint servers, and press releases, which provide a venue for scientists to release findings without undergoing the formal publication process.
@@ -1855,12 +1855,12 @@ Prophylactics bolster immunity to prevent an individual from contracting a disea
 While a number of vaccines have recently been developed, approved, or are currently being evaluated by the US Food and Drug Administration and other regional and international bodies, vaccination programs only started being rolled out at the very end of 2020 and beginning of 2021, meaning that treatments that palliate symptoms and prevent the most severe outcomes have been necessary for much of 2020 and will continue to be necessary for the foreseeable future [@individual-vaccines].
 Fortunately, prior developments during other recent pandemics, especially those caused by human coronaviruses (HCoV), have provided a number of hypotheses guiding a biomedical approach to the novel coronavirus infection.
 
-2,670,453 COVID-19 deaths had been reported worldwide as of March 16, 2021 (Figure @fig:csse-deaths).
+2,709,639 COVID-19 deaths had been reported worldwide as of March 20, 2021 (Figure @fig:csse-deaths).
 
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
-](https://github.com/greenelab/covid19-review/raw/4c8a18b6795e1c53d8277beb83415748e8c67de3/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
+](https://github.com/greenelab/covid19-review/raw/c04ef631af57ea7d77ebe134503e8815eddcb015/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
 
 #### Lessons from Prior HCoV Outbreaks
 
@@ -1927,7 +1927,7 @@ Recruitment status and trial phase are shown only for interventional trials in w
 The common interventions are all interventions used in at least ten trials.
 Combinations of interventions, such as Hydroxychloroquine + Azithromycin, are tallied separately from the individual interventions.
 Trials data are from the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709].
-](https://github.com/greenelab/covid19-review/raw/4c8a18b6795e1c53d8277beb83415748e8c67de3/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/c04ef631af57ea7d77ebe134503e8815eddcb015/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 ### Small Molecule Drugs
 
@@ -3370,7 +3370,74 @@ However, the interim results of the phase III study were promising and further t
 There may be some advantage to the Sputnik V approach including the favorable storage conditions afforded by choice between a frozen and lyophilized vaccine. 
 Furthermore, the producers of Gam-COVID-Vac state that they can produce the vaccine at a cost of less than $10 per dose or less than $20 per patient [@url:https://sputnikvaccine.com].
 
-#### Janssen’s Ad26.COV2-S
+#### Janssen’s JNJ-78436735
+
+The Johnson & Johnson (J&J) vaccine developed by Janssen Pharmaceuticals, Inc., a subsidiary of J&J, was conducted in collaboration with and funded by “Operation Warp Speed” [@url:https://www.gao.gov/products/gao-21-319; @url:https://www.jnj.com/johnson-johnson-announces-a-lead-vaccine-candidate-for-covid-19-landmark-new-partnership-with-u-s-department-of-health-human-services-and-commitment-to-supply-one-billion-vaccines-worldwide-for-emergency-pandemic-use].  
+The vaccine candidate JNJ-78436735, formerly known as Ad26.COV2-S, is a monovalent vaccine that is composed of a replication-deficient adenovirus serotype 26 (Ad26) vector expressing the stabilized pre-fusion S protein of SARS-CoV-2 [@doi:10.1056/NEJMoa2034201;@doi:10.1038/s41541-020-00243-x]. 
+The vaccine was developed using Janssen’s AdVac^®^ and PER.C6 platforms that were previously utilized to develop the European Commission-approved Ebola vaccine (Ad26 ZEBOV and MVN-BN-Filo) and their Zika, respiratory syncytial (RSV), and human immunodeficiency virus (HIV) investigational vaccine candidates [@url:https://www.jnj.com/johnson-johnson-initiates-pivotal-global-phase-3-clinical-trial-of-janssens-covid-19-vaccine-candidate].
+
+The development of a single-dose vaccine was desirable by J&J from the outset, with global deployment being a key priority [@doi:10.1038/s41586-020-2607-z].
+Using their AdVac^®^ technology, the vaccine can remain stable for up to two years between -15℃ and -25℃ and at least three months at 2-8℃ [@url:https://www.jnj.com/johnson-johnson-initiates-pivotal-global-phase-3-clinical-trial-of-janssens-covid-19-vaccine-candidate]. 
+This allows the vaccine to be distributed easily without the requirement for very low temperature storage, unlike many of the other COVID-19 vaccine candidates.
+J&J screened numerous potential vaccine candidates _in vitro_ and in animal models using varying different designs of the S protein, heterologous signal peptides, and prefusion-stabilizing substitutions [@doi:10.1038/s41541-020-00243-x]. 
+A select few candidates were further investigated as a single dose regimen in Syrian golden hamsters, a single dose regimen in rhesus macaques, and a single- and two-dose regimen in both adult and aged rhesus macaques [@doi:10.1038/s41541-020-00243-x; @doi:10.1038/s41586-020-2607-z; @doi:10.1038/s41591-020-1070-6; @doi:10.1101/2020.11.17.368258].
+From these studies, the JNJ-78436735 candidate was selected for its favorable immunogenicity profile and ease of manufacturability [@doi:10.1038/s41541-020-00243-x; @doi:10.1038/s41586-020-2607-z; @doi:10.1038/s41591-020-1070-6; @doi:10.1101/2020.11.17.368258].
+A SARS-CoV-2 challenge study in rhesus macaques showed that vaccine doses as low as 2 x 10^9^ viral particles/mL was sufficient to induce strong protection in bronchoalveolar lavage but that doses higher than 1.125 x 10^10^ were required to close achieve close to complete protection in nasal swabs  [@doi:10.1101/2021.01.27.428380]. 
+Indeed, six months post-immunization, levels of S-binding and neutralizing antibodies in rhesus macaques indicated that the JNJ-78436735 vaccine conferred durable protection against SARS-CoV-2 [@doi:10.1101/2021.01.30.428921].
+
+Following selection of the JNJ-78436735 vaccine, J&J began phase I/IIa trials. 
+The interim phase I/IIa data was placed on the _medRxiv_  preprint server on September 25th, 2020 [@doi:10.1101/2020.09.23.20199604] and was later published in the _New England Journal of Medicine_ on January 13th, 2021 [@doi:10.1056/NEJMoa2034201].
+The phase I/IIa multi-center, randomized, placebo-controlled trial enrolled 402 healthy participants between 18-55 years old and a further 403 healthy older participants ≥ 65 years old [@doi:10.1056/NEJMoa2034201].
+Patients were administered either a placebo, a low dose (5 x 10^10^ viral particles per mL), or a high dose (1 X 10^11^ viral particles per mL) intramuscularly as part of either a single- or two-dose regimen.
+All patients received injections 56 days apart, but participants in the single-dose condition received the placebo at the second appointment.
+Those who received only one dose of either vaccine received a placebo dose at their second vaccination visit. 
+A comparison of the single versus double dose regimen has yet to be published. 
+The primary endpoints of both the trial were safety and reactogenicity of each dose. 
+Fatigue, headache, myalgia, and pain at the injection site were the most frequent solicited adverse events reported by participants. 
+Although less common, particularly for those in the elderly cohort and those on the low dose regimen, the most frequent systemic adverse effect was fever. 
+Overall, immunization was well tolerated, particularly at the lower dose concentration.
+
+In terms of reactogenicity, over 90% of those who received either the low or high dose demonstrated seroconversion in a neutralization assay using wild-type SARS-CoV-2, 29 days after immunization [@doi:10.1056/NEJMoa2034201].
+Neutralizing geometric mean ratio of antibody titers (GMT) between 224-354 were detected regardless of age. 
+By day 57,  100% of the 18-55 year old participants had neutralizing GMT (288-488), which remained stable until day 71.
+In the ≥ 65 years old cohort, the incidence of seroconversion for the low- and high-dose was 96% and 88% respectively by day 29. 
+
+
+GMTs for the low and high doses were slightly lower for participants ≥ 65 years old (196 and 127 respectively), potentially indicating slightly lower immunogenicity. 
+Seroconversion of the S antibodies was detected in 99% of individuals between 18-55 years old for the low and high doses (GMTs 528 and 695 respectively), with similar findings reported for the ≥ 65 years old.
+Indeed, both dose concentrations also induced robust Th1 cytokine-producing S-specific CD4^+^ T cells and CD8^+^ T cell responses in both age groups.  
+The findings of the phase I/IIa study supported further investigation of a single immunization using the low dose vaccine. 
+Therefore, 25 patients were enrolled for a second randomized double-blind, placebo-controlled phase 1 clinical trial currently being conducted in Boston, Massachusetts for 2 years [@doi:10.1001/jama.2021.3645].
+Participants received either a single dose followed by a placebo, or a double dose of either a low dose (5 x 10^10^ viral particles/mL) or a high dose (1 x 10^11^ viral particles/mL) vaccine administered intramuscularly on day 1 or day 57.
+Placebo-only recipients received a placebo dose on day 1 and 57. 
+Interim analyses conducted on day 71 indicated that binding and neutralizing antibodies developed 8 days after administration in 90% and 25% of vaccine recipients, respectively. 
+Binding and neutralizing antibodies were detected in 100% of vaccine recipients by day 57 after a single dose immunization. 
+Spike-specific antibodies were highly prevalent (GMT 2432 to 5729) as were neutralizing antibodies (GMT 242 to 449) in the vaccinated groups. 
+Indeed, CD4^+^ and CD8^+^ T-cell responses were also induced, which may provide additional protection, particularly if antibodies wane or poorly respond to infection [@doi:10.1038/s41586-020-03041-6]. 
+
+On September 23rd, 2020, J&J launched its phase III trial ENSEMBLE and released the study protocol to the public [@url:https://www.jnj.com/johnson-johnson-initiates-pivotal-global-phase-3-clinical-trial-of-janssens-covid-19-vaccine-candidate; @clinicaltrials:NCT04505722].
+The trial intended to enroll 60,000 volunteers to assess the safety and efficacy of the single vaccine dose versus placebo with primary endpoints of 14 and 28 days post-immunization [@url:https://www.jnj.com/johnson-johnson-initiates-pivotal-global-phase-3-clinical-trial-of-janssens-covid-19-vaccine-candidate].
+The trial was conducted in Argentina, Brazil, Chile, Colombia, Mexico, Peru, South Africa, and the U.S.
+The trial was paused briefly in October 2020 to investigate a “serious medical event”, but resumed shortly after [@url:https://www.jnj.com/our-company/johnson-johnson-prepares-to-resume-phase-3-ensemble-trial-of-its-janssen-covid-19-vaccine-candidate-in-the-us].
+An interim analysis was reported via press release on January 29th, 2021 [@url:https://www.nih.gov/news-events/news-releases/janssen-investigational-covid-19-vaccine-interim-analysis-phase-3-clinical-data-released; @url:https://www.janssen.com/emea/sites/www_janssen_com_emea/files/johnson_johnson_announces_single-shot_janssen_covid-19_vaccine_candidate_met_primary_endpoints_in_interim_analysis_of_its_phase_3_ensemble_trial.pdf].
+The interim data included 43,783 participants who accrued 468 symptomatic cases of COVID-19. 
+It was reported that the JNJ-78436735 vaccine was 66% effective across all regions studied for the prevention of moderate to severe COVID-19 28 days post-vaccination in those aged 18 years and older. 
+Notably, JNJ-78436735 was 85% effective for the prevention of laboratory-confirmed severe COVID-19 and 100% protection against COVID-19-related hospitalization and death 28 days post-vaccination across all study sites.
+Efficacy of the vaccine against severe COVID-19 increased over time, and there were no cases of COVID-19 reported in immunized participants after day 49. 
+The trial also determined that the vaccine candidate has a favorable safety profile as determined by an independent Data and Safety Monitoring Board.
+The vaccine was well tolerated, consistent with previous vaccines produced using the AdVac^®^ platform. 
+Fever occurred in 9% of vaccine recipients, with grade 3 fever occurring in only 0.2% of recipients. 
+Serious adverse events were reportedly higher in the placebo group than the vaccine group, and no anaphylaxis was reported [@url:https://www.janssen.com/emea/sites/www_janssen_com_emea/files/johnson_johnson_announces_single-shot_janssen_covid-19_vaccine_candidate_met_primary_endpoints_in_interim_analysis_of_its_phase_3_ensemble_trial.pdf]. 
+
+At the time the phase III trial was being conducted, several concerning variants, including B.1.1.7 [@url:https://cov-lineages.org/global_report_B.1.1.7.html] and B.1.351 [@url:https://cov-lineages.org/global_report_B.1.351.html], were spreading across the globe. 
+In particular, B.1.351 was first identified in South Africa, which was one of the JNJ-78436735 vaccine trial sites.
+Therefore, the J&J investigators also analyzed the efficacy of the JNJ-78436735 vaccine associated with their various trial sites to determine any potential risk of reduced efficacy as a result of the novel variants. 
+It was determined that JNJ-78436735 was 72% effective in the U.S., 66% effective in Latin America, and 57% effective in South Africa 28 days post-vaccination.
+These findings underpin the importance of monitoring for the emergence of novel SARS-CoV-2 variants and determining their effects on vaccine efficacy.  
+
+Looking forward, Janssen are also running a phase III randomized, double-blind, placebo-controlled clinical trial, Ensemble 2, which aims to assess the efficacy, safety, and immunogenicity of a two-dose regimen of JNJ-78436735 administered 57 days apart. 
+This trial will enroll 30,000 participants ≥ 18 years old from Belgium, Colombia, France, Germany, Philippines, South Africa, Spain, U.K., and the U.S. [@url:https://www.jnj.com/johnson-johnson-initiates-second-global-phase-3-clinical-trial-of-its-janssen-covid-19-vaccine-candidate].
+This trial will also include participants with and without comorbidities associated with an increased risk of COVID-19. 
 
 ### Inactivated Whole Virus Vaccines
 
@@ -3545,6 +3612,7 @@ On the following day, December 21st, 2020, the first Moderna vaccines used outsi
 On February 27th, 2020, the FDA issued an EUA for the Janssen COVID-19 Vaccine [@url:https://www.fda.gov/emergency-preparedness-and-response/coronavirus-disease-2019-covid-19/janssen-covid-19-vaccine]. 
 This was followed by an update on recommendations by ACIP for the use of the Janssen COVID-19 vaccine for those over 18 years old [@doi:10.15585/mmwr.mm7009e4]. 
 The Janssen vaccine was first distributed to healthcare facilities on March 1st, 2021.
+On March 12, 2021, the WHO added the Janssen vaccine to the list of safe and effective emergency tools for COVID-19 [@url:https://www.who.int/news/item/12-03-2021-who-adds-janssen-vaccine-to-list-of-safe-and-effective-emergency-tools-against-covid-19]. 
 While the CDC’s ACIP can provide recommendations, it is up to the public health authorities of each state, territory, and tribe to interpret the guidance and determine who will be vaccinated first [@url:https://www.hhs.gov/coronavirus/covid-19-vaccines/distribution/index.html].
 Prior to distribution of the Janssen vaccine, over 103 million doses of the Moderna and Pfizer-BioNTech vaccines were delivered across the U.S., with almost 79 million doses administered. 
 Of the total population, 15.6% have received at least one dose and 7.9% have received a second dose of either the Moderna (~38.3 million) or the Pfizer-BioNTech (~40.2 million) vaccines by February 28th, 2021 [@url:https://covid.cdc.gov/covid-data-tracker/#vaccinations].
@@ -3855,7 +3923,7 @@ Trials that recruit across multiple countries do appear to broaden geographic re
 The density of clinical trials is reported at the country level.
 As of November 9, 2020, there are 6,417 trials in the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709], of which 3,706 are interventional.
 The top figure demonstrates the density of interventional trials recruiting only from a singular country, while the bottom shows the distribution of recruitment for interventional trials that involve more than one country.
-](https://github.com/greenelab/covid19-review/raw/4c8a18b6795e1c53d8277beb83415748e8c67de3/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
+](https://github.com/greenelab/covid19-review/raw/c04ef631af57ea7d77ebe134503e8815eddcb015/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
 
 A few different concerns arise from this skewed geographic representation in clinical trial recruitment.
 First, treatments such as remdesivir that are promising but primarily available to clinical trial participants are unlikely to be accessible by people in many countries.

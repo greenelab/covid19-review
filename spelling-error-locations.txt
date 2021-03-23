@@ -1,1 +1,1 @@
-content/22.vaccines.md:294:IgGs
+content/22.vaccines.md:361:IgGs
