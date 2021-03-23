@@ -4,6 +4,7 @@ ABO
 ABVV
 ACEi
 ACEis
+ACIP
 ADG
 AICD
 AIFA
@@ -23,6 +24,7 @@ Académie
 Acelity
 Actemra
 Adhanom
+AdVac
 Agostino
 Akt
 Alexandropoulos
@@ -39,6 +41,7 @@ BAL
 BALB
 BALF
 BAME
+BBV
 BCG
 BCL
 BCR
@@ -47,6 +50,7 @@ BH
 BHK
 BJ
 BLI
+BN
 BNP
 BNT
 BRD
@@ -93,6 +97,7 @@ CLDN
 CMV
 CN
 COPD
+COVAX
 COVID
 CP
 CPE
@@ -113,8 +118,10 @@ CTLs
 CTan
 CYP
 CaCo
+Cadila
 Calmette
 Calu
+CanSino
 Cao
 Carleton
 Cas
@@ -128,6 +135,7 @@ Charlottesville
 Chemiluminescence
 Chloroquine
 Cholangiocyte
+Chumakov
 Ciclesonide
 Cisneros
 Clin
@@ -144,6 +152,9 @@ ConSurf
 CoronaVac
 Coronaviridae
 Coronavirus
+Covaxin
+Covishield
+CoviVac
 CpG
 Cre
 Crohn's
@@ -182,6 +193,7 @@ DiscoTope
 Disulfiram
 Drosten
 Duan
+Dynavax
 Dziak
 EBM's
 EBOV
@@ -192,6 +204,7 @@ EFIC
 EFSA
 EIDD
 ELISAs
+EMA
 EMR
 EUA
 EVD
@@ -237,6 +250,7 @@ GFP
 GG
 GGO
 GISAID
+GMTs
 GOLGA
 GSE
 GTEx
@@ -245,6 +259,8 @@ Gamaleya
 Gammacoronaviruses
 Ganciclovir
 Gautret
+Gavi
+Genova
 Ghebreyesus
 Ghosh
 Gitter
@@ -266,7 +282,9 @@ HCoVs
 HD
 HDAC
 HDL
+HDT
 HEK
+HGCO
 HGF
 Himmelstein
 HKU
@@ -305,6 +323,7 @@ IFRs
 IG
 IGs
 IHC
+IIa
 IMV
 INO
 INOVIO
@@ -323,10 +342,12 @@ Immunofluorescence
 Ipsita
 JAK
 JJF
+JNJ
 JS
 JSON
 Jadavji
 Jang
+Janssen
 Janssen’s
 Jeliazkov
 Jeon
@@ -389,11 +410,13 @@ MCP
 MDCK
 MERS
 MHC
+MHRA
 MHV
 MIP
 MIS
 MRC
 MUC
+MVN
 MZ
 MacLean
 Macromolecular
@@ -403,6 +426,7 @@ Manaus
 Magen
 Mahmood
 Manheim
+Marino
 Markus
 Marouen
 Marseille
@@ -502,10 +526,12 @@ Picornaviridae
 Plitt
 Postischemic
 Pothula
+Poxviruses
 Preincubation
 Pretreatment
 Procalcitonin
 PsVNA
+QQAQ
 Qi
 Qian
 RAAS
@@ -515,6 +541,7 @@ RBDs
 RBM
 RCT
 RCTs
+RDIF
 REGN
 RLordan
 RNAemia
@@ -639,6 +666,7 @@ UC
 UCI
 UTR
 UVB
+Umeå
 Umland
 UniProt
 VH
@@ -679,6 +707,7 @@ Yelin
 Yuchen
 Yuki
 ZDHHC
+ZEBOV
 ZJ
 Zafar
 Zeng
@@ -688,6 +717,8 @@ Zhejiang
 Zhou
 Zhu
 Zotero
+ZyCov
+Zydus
 aadattoli
 acceptor
 acetylcysteine
@@ -717,6 +748,7 @@ aminotransferases
 amongst
 amplicon
 analytes
+anaphylaxis
 angiotensin
 anosmia
 anskelly
@@ -1123,6 +1155,7 @@ macrolides
 macromolecules
 mangul
 manubot
+manufacturability
 marboxil
 marouenbg
 matfax
@@ -1167,6 +1200,7 @@ mprobson
 mucosa
 mucosal
 multicenter
+multifunctional
 multiorgan
 multisystem
 mutagenesis
@@ -1248,10 +1282,12 @@ pfu
 phagocytosed
 phagocytosis
 pharmacodynamic
+pharmacovigilance
 phenotypes
 phenotypic
 phenotyping
 phosphatase
+phospholipids
 photochemistry
 photoprotective
 phycobiliproteins
@@ -1300,6 +1336,7 @@ probiotic
 probiotics
 profibrotic
 proinflammatory
+proline
 prophylactically
 propiolactone
 proresolving
@@ -1340,6 +1377,7 @@ rdvelazquez
 re
 reactogenicity
 recombinant
+recombinantly
 recombinase
 reexposure
 remdesivir
@@ -1369,8 +1407,10 @@ rishirajgoel
 ritonavir
 rmrussell
 rootstock
+rollout
 sACE
 sIL
+saponin
 sarbecovirus
 sarbecoviruses
 sarcoidosis
@@ -1392,6 +1432,7 @@ seropositive
 seroprevalence
 serosurvey
 serosurveys
+serotype
 severities
 shiktadas
 silico
@@ -1406,12 +1447,14 @@ spectrometry
 spirulan
 splenic
 ssRNA
+stomatitis
 sterically
 stressor
 stressors
 strikethrough
 subclades
 subgenus
+sublineage
 submicromolar
 submucosal
 suboptimal
@@ -1441,6 +1484,7 @@ synthetase
 tamefoxtime
 tbl
 thebyrdlab
+thermostability
 thromboinflammation
 thymosin
 timecourse
@@ -1450,6 +1494,7 @@ timepoints
 titer
 titers
 tlukan
+totalling
 transcriptase
 transcriptional
 transcriptionally
