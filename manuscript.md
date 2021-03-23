@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2021-03-22'
+date-meta: '2021-03-23'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -64,8 +64,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2021-03-22" />
-  <meta name="citation_publication_date" content="2021-03-22" />
+  <meta name="dc.date" content="2021-03-23" />
+  <meta name="citation_publication_date" content="2021-03-23" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -249,13 +249,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/857b29da534041b6ccfaa621ec19e25d4d101eea/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/857b29da534041b6ccfaa621ec19e25d4d101eea/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/857b29da534041b6ccfaa621ec19e25d4d101eea/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/1926d2725ef3495e08fe46a17ce037b52d54da62/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/1926d2725ef3495e08fe46a17ce037b52d54da62/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/1926d2725ef3495e08fe46a17ce037b52d54da62/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/857b29da534041b6ccfaa621ec19e25d4d101eea/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/857b29da534041b6ccfaa621ec19e25d4d101eea/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/1926d2725ef3495e08fe46a17ce037b52d54da62/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/1926d2725ef3495e08fe46a17ce037b52d54da62/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -277,10 +277,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/857b29da534041b6ccfaa621ec19e25d4d101eea/))
+([permalink](https://greenelab.github.io/covid19-review/v/1926d2725ef3495e08fe46a17ce037b52d54da62/))
 was automatically generated
-from [greenelab/covid19-review@857b29d](https://github.com/greenelab/covid19-review/tree/857b29da534041b6ccfaa621ec19e25d4d101eea)
-on March 22, 2021.
+from [greenelab/covid19-review@1926d27](https://github.com/greenelab/covid19-review/tree/1926d2725ef3495e08fe46a17ce037b52d54da62)
+on March 23, 2021.
 Snapshots of individual sections are available as preprints [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals].
 </em></small>
 
@@ -691,12 +691,12 @@ Most of these cases were in China, but one to two exported cases had also been i
 One week later, 4,593 confirmed cases had been identified, spanning not only Asia, but also Australia, North America, and Europe [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128-sitrep-8-ncov-cleared.pdf].
 On March 11, 2020, the WHO formally classified the situation as a pandemic [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200311-sitrep-51-covid-19.pdf].
 On April 4, 2020, the WHO reported that the global number of confirmed cases had surpassed one million [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200404-sitrep-75-covid-19.pdf].
-<!--2,709,639 COVID-19 deaths had been reported worldwide as of March 20, 2021 (Figure @fig:csse-deaths).
+<!--2,715,295 COVID-19 deaths had been reported worldwide as of March 21, 2021 (Figure @fig:csse-deaths).
 
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
-](https://github.com/greenelab/covid19-review/raw/c04ef631af57ea7d77ebe134503e8815eddcb015/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1} -->
+](https://github.com/greenelab/covid19-review/raw/d87a604f273de79554813b20985dcc466d242761/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1} -->
 
 As international attention remains focused on the ongoing public health crisis, the scientific community has responded by mobilizing resources and turning much of its attention to the virus and disease.
 This rapid influx of information is disseminated by traditional publishing mechanisms, preprint servers, and press releases, which provide a venue for scientists to release findings without undergoing the formal publication process.
@@ -886,7 +886,7 @@ The SARS-CoV-2 genome lies in the middle of this range at 29,903 bp [@doi:10/ggj
 Genome organization is highly conserved within the order [@doi:10.1007/978-1-4939-2438-7_1].
 There are three major genomic regions: one containing the replicase gene, one containing the genes encoding structural proteins, and interspersed accessory genes [@doi:10.1007/978-1-4939-2438-7_1] (Figure @fig:genome-structure).
 The replicase gene comprises about two-thirds of the genome and consists of two open reading frames that are translated with ribosomal frameshifting [@doi:10.1007/978-1-4939-2438-7_1].
-This polypeptide is then translated into 16 non-structural proteins (nsp), except in gammacoronaviruses where nsp1 is absent, that form replication machinery used to synthesize viral RNA [@doi:10.1002/jmv.25681].
+This polypeptide is then translated into 16 non-structural proteins (nsp), except in gammacoronaviruses where nsp1 is absent, that form the replication machinery used to synthesize viral RNA [@doi:10.1002/jmv.25681].
 The remaining third of the genome encodes structural proteins, including the spike, membrane, envelope, and nucleocapsid proteins.
 Additional accessory genes are sometimes present between these two regions, depending on the species or strain.
 Much attention has been focused on the S protein, which is a critical structure involved in cell entry.
@@ -902,8 +902,7 @@ B) The physical structure of the coronavirus virion, including the components de
 
 #### Pathogenic Mechanisms of Coronaviruses
 
-While, like most viruses, it is possible that SARS-CoV-1 and SARS-CoV-2 can enter cells through endocytosis, coronaviruses are also able to target cells for entry through fusion with the plasma membrane [@doi:10.1038/cr.2008.15; @doi:10.1146/annurev-biochem-060208-104626].
-This process is conserved among coronaviruses and is closely associated with the content of their genomes.
+While, like most viruses, it is possible that SARS-CoV-1 and SARS-CoV-2 can enter cells through endocytosis,  a process conserved among coronaviruses enables them to target cells for entry through fusion with the plasma membrane [@doi:10.1038/cr.2008.15; @doi:10.1146/annurev-biochem-060208-104626].
 Cell entry proceeds in three steps: binding, cleavage, and fusion.
 First, the viral spike protein binds to a host cell via a recognized receptor or entry point.
 Coronaviruses can bind to a range of host receptors [@doi:10.3390/v4061011; @doi:10.1016/j.jmb.2020.04.009], with binding conserved only at the genus level [@doi:10.1146/annurev-virology-110615-042301].
@@ -946,7 +945,7 @@ For example, the virulence of SARS-CoV-2 is increased by nsp1, which can suppres
 SARS-CoV-1 also evades the immune response by interfering with type I IFN induction signaling, which is a mechanism that leads to cellular resistance to viral infections.
 SARS-CoV-1 employs methods such as ubiquitination and degradation of RNA sensor adaptor molecules MAVS and TRAF3/6 [@doi:10.12932/AP-200220-0772].
 Also, MERS-CoV downregulates antigen presentation via MHC class I and MHC class II, which leads to a reduction in T cell activation [@doi:10.12932/AP-200220-0772].
-These evasion mechanisms, in turn, can facilitate systemic infection.
+These evasion mechanisms, in turn, may facilitate systemic infection.
 Coronaviruses such as SARS-CoV-1 are also able to evade the humoral immune response through other mechanisms, such as inhibiting certain cytokine pathways or down-regulating antigen presentation by the cells [@doi:10.1128/jvi.02501-05].
 
 #### Host Cell Susceptibility
@@ -986,6 +985,28 @@ Other viral infections have been associated with coagulation defects and changes
 The mechanism behind these insults has been suggested to be related to inflammation-induced increases in the von Willebrand factor clotting protein, leading to a pro-coagulative state [@doi:10.1002/jmv.23354].
 Abnormal clotting (thromboinflammation or coagulopathy) has been increasingly discussed recently as a possible key mechanism in many cases of severe COVID-19, and may be associated with the high d-dimer levels often observed in severe cases [@doi:10/ggvd74; @doi:10.1186/s13054-020-03060-9; @doi:10.1007/s11239-020-02134-3].
 This excessive clotting in lung capillaries has been suggested to be related to a dysregulated activation of the complement system, part of the innate immune system [@doi:10.1172/jci.insight.140711; @doi:10.1172/JCI140183].
+
+#### Pediatric Presentation
+
+The presentation of COVID-19 infection can vary greatly among pediatric patients and, in some cases, manifests in distinct ways from COVID-19 in adults.
+Evidence suggests that while children and adolescents tend to have mostly asymptomatic infections, those that are symptomatic typically exhibit a mild illness [@doi:10.1101/2020.06.25.20140178; @doi:10.1056/NEJMc2005073; @doi:10.1111/apa.15270; @doi:10.1126/science.abe5765].
+One review examined symptoms reported in 17 studies of children infected with COVID-19 during the early months of the COVID-19 epidemic in China and one study from Singapore [@doi:10.1001/jamapediatrics.2020.1467].
+In the more than a thousand cases described, the most common reports were for mild symptoms such as fever, dry cough, fatigue, nasal congestion and/or runny nose, while three children were reported to be asymptomatic.
+Severe lower respiratory infection was described in only one of the pediatric cases reviewed.
+Gastrointestinal symptoms such as vomiting or diarrhea were occasionally reported.
+Radiologic findings were not always reported in the case studies reviewed, but when they were mentioned they included bronchial thickening, ground-glass opacities, and/or inflammatory lesions [@doi:10.1001/jamapediatrics.2020.1467].
+Neurological symptoms have also been reported [@doi:10.1001/jamaneurol.2020.2687].
+
+These analyses indicate that most pediatric cases of COVID-19 are not severe.
+Indeed, it is estimated that less than 1% of pediatric cases result in critical illness [@doi:10.1056/NEJMc2007617; @doi:10.1111/apa.15270].
+However, serious complications and, in rare cases, deaths have occurred [@doi:10.1016/j.eclinm.2020.100433].
+Of particular interest, children have occasionally experienced a serious inflammatory syndrome, multisystem inflammatory syndrome in children (MIS-C), following COVID-19 infection.
+This syndrome is similar in some respects to Kawasaki disease, including Kawasaki disease shock syndrome [@doi:10.1093/jpids/piaa069; @doi:10.1001/jama.2020.10369; @doi:10.1016/j.ajem.2020.05.117] and is thought to be a distinct clinical manifestation of SARS-CoV-2 due to its distinct cytokine profile and the presence of burr cells in peripheral blood smears [@doi:10.1172/JCI140970; @doi:10.1016/j.cell.2020.09.016].
+MIS-C has been associated with heart failure in some cases [@doi:10.1161/CIRCULATIONAHA.120.048360].
+One case study [@doi:10/gg4sd6] described an adult who appeared to show symptoms similar to MIS-C after exposure to COVID-19, but cautioned against broad conclusions; a second possible adult case has also been reported [@doi:10.1016/j.ajem.2020.06.053].
+The presentation of SARS-CoV-2 infection is therefore likely to be largely distinct between adult and pediatric populations.
+However, not all cases of severe COVID-19 in children are characterizable as MIS-C.
+A recent study [@doi:10.1001/jama.2021.2091] described demographic and clinical variables associated with MIS-C in comparison with non-MIS-C severe acute COVID-19 in young people in the United States.
 
 #### Cytokine Release Syndrome
 
@@ -1031,29 +1052,6 @@ Among patients hospitalized with COVID-19 in Wuhan, China, 112 out of 191 (59%) 
 However, the argument has been made that while the cytokine levels observed in COVID-19 patients fall outside of the normal range, they are not as high as typically found in patients with ARDS [@doi:10.1001/jamainternmed.2020.3313].
 Regardless, inflammation has received significant interest both in regards to the pathology of COVID-19 as well as potential avenues for treatment, as the relationship between the cytokine storm and the pathophysiology of COVID-19 has led to the suggestion that a number of immunomodulatory pharmaceutical interventions could hold therapeutic value for the treatment of COVID-19 [@doi:10.1016/j.jaut.2020.102452].<!-- TODO: [cite therapeutics section] -->
 
-#### Pediatric Presentation
-
-The presentation of COVID-19 infection can vary greatly among pediatric patients and, in some cases, manifests in distinct ways from COVID-19 in adults.
-Evidence suggests that while children and adolescents tend to have mostly asymptomatic infections, those that are symptomatic typically exhibit a mild illness [@doi:10.1101/2020.06.25.20140178; @doi:10.1056/NEJMc2005073; @doi:10.1111/apa.15270; @doi:10.1126/science.abe5765].
-One review examined symptoms reported in 17 studies of children infected with COVID-19 during the early months of the COVID-19 epidemic in China and one study from Singapore [@doi:10.1001/jamapediatrics.2020.1467].
-In the more than a thousand cases described, the most common reports were for mild symptoms such as fever, dry cough, fatigue, nasal congestion and/or runny nose, while three children were reported to be asymptomatic.
-Severe lower respiratory infection was described in only one of the pediatric cases reviewed.
-Gastrointestinal symptoms such as vomiting or diarrhea were occasionally reported.
-Radiologic findings were not always reported in the case studies reviewed, but when they were mentioned they included bronchial thickening, ground-glass opacities, and/or inflammatory lesions [@doi:10.1001/jamapediatrics.2020.1467].
-Neurological symptoms have also been reported [@doi:10.1001/jamaneurol.2020.2687]. 
-Neurological symptoms and complications in children are usually transient but on rare occasions have been life-threatening or even fatal [@doi:10.1001/jamaneurol.2021.0504]. 
-
-These analyses indicate that most pediatric cases of COVID-19 are not severe.
-Indeed, it is estimated that less than 1% of pediatric cases result in critical illness [@doi:10.1056/NEJMc2007617; @doi:10.1111/apa.15270].
-However, serious complications and, in rare cases, deaths have occurred [@doi:10.1016/j.eclinm.2020.100433].
-Of particular interest, children have occasionally experienced a serious inflammatory syndrome, multisystem inflammatory syndrome in children (MIS-C), following COVID-19 infection.
-This syndrome is similar in some respects to Kawasaki disease, including Kawasaki disease shock syndrome [@doi:10.1093/jpids/piaa069; @doi:10.1001/jama.2020.10369; @doi:10.1016/j.ajem.2020.05.117] and is thought to be a distinct clinical manifestation of SARS-CoV-2 due to its distinct cytokine profile and the presence of burr cells in peripheral blood smears [@doi:10.1172/JCI140970; @doi:10.1016/j.cell.2020.09.016].
-MIS-C has been associated with heart failure in some cases [@doi:10.1161/CIRCULATIONAHA.120.048360].
-One case study [@doi:10/gg4sd6] described an adult who appeared to show symptoms similar to MIS-C after exposure to COVID-19, but cautioned against broad conclusions; a second possible adult case has also been reported [@doi:10.1016/j.ajem.2020.06.053].
-The presentation of SARS-CoV-2 infection is therefore likely to be largely distinct between adult and pediatric populations.
-However, not all cases of severe COVID-19 in children are characterizable as MIS-C.
-A recent study [@doi:10.1001/jama.2021.2091] described demographic and clinical variables associated with MIS-C in comparison with non-MIS-C severe acute COVID-19 in young people in the United States.
-
 ### Systems-Level Effects
 
 Systems biology provides a cross-disciplinary analytical paradigm through which the host response to an infection can be analyzed.
@@ -1084,7 +1082,7 @@ Together, these results suggest that SARS-CoV-2 induces a limited antiviral stat
 Other respiratory viruses have been found to encode antagonists to the IFN response.
 The analysis of SARS-CoV-2 suggested that this transcriptional state was specific to cells expressing ACE2, as it was not observed in cells lacking expression of this protein except with ACE2 supplementation and at very high (10-fold increase) level of SARS-CoV-2 exposure.
 This hypothesis was further supported by a recent study [@doi:10.1016/j.celrep.2020.108185] that showed that the SARS-CoV-2 *ORF3b* gene suppresses IFNB1 promoter activity (IFN-I induction) more efficiently than the SARS-CoV-1 *ORF3b* gene.
-Taken together, these findings suggest that a unique cytokine profile is associated with the response to the SARS-CoV-2 virus, and that this response differs depending on the extent of exposure.
+Taken together, these findings suggest that a unique cytokine profile is associated with the response to the SARS-CoV-2 virus, and that this response differs depending on the magnitude of exposure.
 
 Another study [@doi:10.1101/2020.05.05.079194] analyzed dynamic transcriptional responses to SARS-CoV-2 and SARS-CoV-1.
 They characterized the response of three human cell lines, H1299 (human non-small cell lung carcinoma cell line), Calu-3, and Caco-2 (human epithelial colorectal adenocarcinoma cell line), at 4 to 36 hours post infection.
@@ -1279,16 +1277,28 @@ Data and empirically determined biological mechanisms inform models, while model
 Many current efforts to model R~t~ have also led to tools that assist the visualization of estimates in real time or over recent intervals [@url:https://epiforecasts.io/covid; @url:https://rt.live].
 These are valuable resources, yet it is also important to note that the estimates arise from models containing many assumptions and are dependent on the quality of the data they use, which varies widely by region.
 
-### Molecular Signatures and Transmission
+### Molecular Signatures, Transmission, and Variants of Concern
 
 Genetic variation in SARS-CoV-2 has been used to elucidate patterns over time and space.
 Mutations observed in individual SARS-CoV-2 genome sequences can be used to trace transmission patterns and have provided insights during outbreak investigations [@doi:10.1186/s12967-020-02344-6; @doi:10.1093/nsr/nwaa036; @doi:10.1016/j.meegid.2020.104351].
 Similar mutations observed in several patients may indicate that the patients belong to the same transmission group.
 The tracking of SARS-CoV-2 mutations is recognized as an essential tool for controlling future outbreaks and tracing the path of the spread of SARS-CoV-2.
-Efforts vary widely by country: the UK has coordinated has coordinated a national database of viral genomes [@doi:10/d5mg]; no such coordination has been achieved in the USA.
+Efforts vary widely by country: the UK has coordinated a national database of viral genomes [@doi:10/d5mg]; no such coordination has been achieved in the USA.
 Several studies used phylogenetic analysis to determine the source of local COVID-19 outbreaks in Connecticut (USA), [@doi:10.1016/j.cell.2020.04.021], the New York City area (USA) [@doi:10.1126/science.abc1917], and Iceland [@doi:10.1056/NEJMoa2006100].
 There is an ongoing effort to collect SARS-CoV-2 genomes throughout the COVID-19 outbreak, and as of January 18, 2021 more than 381,000 genome sequences have been collected from patients.<!-- TODO: consider auto-updating this -->
 The sequencing data can be found at GISAID [@https://www.gisaid.org/], NCBI [@https://www.ncbi.nlm.nih.gov/sars-cov-2/], and COVID-19 data portal [@https://www.covid19dataportal.org/].
+
+Some SARS-CoV-2 variants, which we review in more detail separately [@individual-evolution], may be associated with increased transmission of SARS-CoV-2. 
+For example, coordinated sequencing efforts of SARS-CoV-2 genomes in the U.K. were instrumental in detecting B.1.1.7/VOC 202012/01, a variant of concern (VOC) that, with an estimated R~0~ of 1.4, is associated with approximately 50% increased transmission due to genetic mutations in the _Spike_ gene that modify the Spike protein [@url:https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/955239/NERVTAG_paper_on_variant_of_concern__VOC__B.1.1.7.pdf; @doi:10.1101/2020.12.24.20248822; @doi:10.1016/j.cell.2021.01.044].<!--TO DO: What is the molecular rationale for why this is more virulent?-->
+This variant has now spread to at least 93 other countries [@url:https://cov-lineages.org/global_report_B.1.1.7.html], and other studies investigating its transmission have occurred.
+In the U.S. between December 2020 and January 2021, it was estimated that B.1.1.7 had an increased transmission of 35-45% relative to common SARS-CoV-2 variants at the time, and B.1.1.7 is now on its way to becoming the dominant SARS-CoV-2 variant in the U.S. [@doi:10.1101/2021.02.06.21251159].
+Notably, the latest analyses in the U.K. reports that there may also be an increased risk of disease severity associated with B.1.1.7 [@url:https://www.gov.uk/government/publications/nervtag-paper-on-covid-19-variant-of-concern-b117] and potentially a 35% increased risk of death [@doi:10.1101/2021.02.01.21250959] compared to other common variants of SARS-CoV-2. 
+However, further studies are required to confirm these associations. 
+Other variants meriting further investigation have also been identified worldwide, including the P.1 lineage associated with outbreaks in Brazil and the B.1.351 variant first identified in South Africa.
+Currently, it is not known whether these lineages have increased transmissibility. 
+However, the P.1. lineage and the B.1.351 variant do share similar independently acquired mutations with B.1.1.7 such as N501Y [@doi:10.1101/2020.12.14.422555; @url:https://cov-lineages.org/global_report_B.1.351.html].
+Indeed, these novel variants are being investigated for potential resistance to vaccines and antibody treatments such as Bamlanivimab, but to date it seems that these agents are still effective, albeit with reduced efficacy in the case of the Pfizer-BioNTech vaccine [@doi:10.1101/2021.02.02.428884]. 
+As a consequence of reliance on targeting the SARS-CoV-2 Spike protein for many therapeutic and prophylactic strategies, increased surveillance is required to rapidly identify and prevent the spread of novel SARS-CoV-2 variants with alterations to the Spike protein.
 
 ### Conclusions
 
@@ -1325,7 +1335,6 @@ Thus, though the COVID-19 crisis is still evolving, the insights acquired over t
 As the scientific community continues to respond to COVID-19 and to elucidate more of the relationships between viral pathogenesis, transmission, and symptomatology, and as more data about the regulatory shifts associated with COVID-19 become available, this understanding will no doubt continue to evolve and to reveal additional connections among virology, pathogenesis, and health.
 As additional information becomes available, this review will be updated to reflect the changing state of research in this area.
 At present, understanding the SARS-CoV-2 virus and its pathogenesis is critical to a holistic understanding of the COVID-19 pandemic.
-
 
 
 ## Evolutionary and Genomic Analysis of SARS-CoV-2
@@ -1855,12 +1864,12 @@ Prophylactics bolster immunity to prevent an individual from contracting a disea
 While a number of vaccines have recently been developed, approved, or are currently being evaluated by the US Food and Drug Administration and other regional and international bodies, vaccination programs only started being rolled out at the very end of 2020 and beginning of 2021, meaning that treatments that palliate symptoms and prevent the most severe outcomes have been necessary for much of 2020 and will continue to be necessary for the foreseeable future [@individual-vaccines].
 Fortunately, prior developments during other recent pandemics, especially those caused by human coronaviruses (HCoV), have provided a number of hypotheses guiding a biomedical approach to the novel coronavirus infection.
 
-2,709,639 COVID-19 deaths had been reported worldwide as of March 20, 2021 (Figure @fig:csse-deaths).
+2,715,295 COVID-19 deaths had been reported worldwide as of March 21, 2021 (Figure @fig:csse-deaths).
 
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
-](https://github.com/greenelab/covid19-review/raw/c04ef631af57ea7d77ebe134503e8815eddcb015/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
+](https://github.com/greenelab/covid19-review/raw/d87a604f273de79554813b20985dcc466d242761/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
 
 #### Lessons from Prior HCoV Outbreaks
 
@@ -1927,7 +1936,7 @@ Recruitment status and trial phase are shown only for interventional trials in w
 The common interventions are all interventions used in at least ten trials.
 Combinations of interventions, such as Hydroxychloroquine + Azithromycin, are tallied separately from the individual interventions.
 Trials data are from the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709].
-](https://github.com/greenelab/covid19-review/raw/c04ef631af57ea7d77ebe134503e8815eddcb015/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/d87a604f273de79554813b20985dcc466d242761/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 ### Small Molecule Drugs
 
@@ -3923,7 +3932,7 @@ Trials that recruit across multiple countries do appear to broaden geographic re
 The density of clinical trials is reported at the country level.
 As of November 9, 2020, there are 6,417 trials in the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709], of which 3,706 are interventional.
 The top figure demonstrates the density of interventional trials recruiting only from a singular country, while the bottom shows the distribution of recruitment for interventional trials that involve more than one country.
-](https://github.com/greenelab/covid19-review/raw/c04ef631af57ea7d77ebe134503e8815eddcb015/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
+](https://github.com/greenelab/covid19-review/raw/d87a604f273de79554813b20985dcc466d242761/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
 
 A few different concerns arise from this skewed geographic representation in clinical trial recruitment.
 First, treatments such as remdesivir that are promising but primarily available to clinical trial participants are unlikely to be accessible by people in many countries.
