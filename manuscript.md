@@ -249,13 +249,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/1926d2725ef3495e08fe46a17ce037b52d54da62/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/1926d2725ef3495e08fe46a17ce037b52d54da62/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/1926d2725ef3495e08fe46a17ce037b52d54da62/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/3d971ad35c5af659dd9d7c1970143a30a1488365/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/3d971ad35c5af659dd9d7c1970143a30a1488365/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/3d971ad35c5af659dd9d7c1970143a30a1488365/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/1926d2725ef3495e08fe46a17ce037b52d54da62/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/1926d2725ef3495e08fe46a17ce037b52d54da62/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/3d971ad35c5af659dd9d7c1970143a30a1488365/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/3d971ad35c5af659dd9d7c1970143a30a1488365/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -277,9 +277,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/1926d2725ef3495e08fe46a17ce037b52d54da62/))
+([permalink](https://greenelab.github.io/covid19-review/v/3d971ad35c5af659dd9d7c1970143a30a1488365/))
 was automatically generated
-from [greenelab/covid19-review@1926d27](https://github.com/greenelab/covid19-review/tree/1926d2725ef3495e08fe46a17ce037b52d54da62)
+from [greenelab/covid19-review@3d971ad](https://github.com/greenelab/covid19-review/tree/3d971ad35c5af659dd9d7c1970143a30a1488365)
 on March 23, 2021.
 Snapshots of individual sections are available as preprints [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals].
 </em></small>
@@ -3549,6 +3549,22 @@ This vaccine can stimulate antibodies and CD4^+^ T-cell response [@doi:10.1007/9
 The main advantage of this method is that they are considered very safe because the antigen alone cannot cause an infection; however, the immune response is weaker and an adjuvant is usually needed to boost the response [@doi:10.1517/14712598.2011.573624].
 
 #### Novavax NVX-CoV2373
+
+Novavax-CoV2373 is a protein nanoparticle vaccine candidate against SARS-CoV-2.
+The vaccine is constructed from a mutated SARS-CoV-2 spike protein in combination with a specialized adjuvant to elicit an immune response against SARS-CoV-2.
+The spike protein is recombinantly expressed in Sf9 insect cells [@doi:10.1038/s41467-020-20653-8], which have previously been used for several other FDA-approved protein therapeutics [@doi:10.1021/acs.iecr.8b00985].
+The expressed spike protein contains mutations in the furin cleavage site (682-RRAR-685 to 682-QQAQ-685) to avoid cleavage of the spike protein as well as two proline substitutions (K986P and V987P) to improve thermostability [@doi:10.1038/s41467-020-20653-8].
+The improved stability caused by the proline substitutions is particularly critical to facilitating global distribution, particularly to regions where local refrigerator/freezer capacities are limited.
+Importantly, these amino acid substitutions did not affect the ability of the spike protein to bind the hACE2 receptor (the target receptor of SARS-CoV-2 spike protein).
+The Novavax-CoV2373 vaccine candidate uses a proprietary, saponin-based Matrix-M^TM^ adjuvant that contains two different 40nm-sized particles formed by formulating purified saponin with cholesterol and phospholipids [@doi:10.1007/s12026-018-8991-x].
+In preclinical models, the use of the Matrix-M adjuvant potentiated the cellular and humoral immune responses to influenza vaccines [@doi:10.1016/j.vaccine.2013.01.039; @doi:10.1016/j.vaccine.2009.09.044; @doi:10.1111/j.1750- 2659.2011.00256.x; @doi:10.1007/s12026-018-8991-x].
+Importantly, Matrix-M adjuvant-containing vaccines have shown acceptable safety profiles in human clinical trials [@doi:10.1016/j.vaccine.2011.08. 042].
+
+In preclinical mouse models, Novavax-CoV2373 elicited high anti-spike IgG titers 21-28 days post-vaccination that could neutralize the SARS-CoV-2 virus and protect the animals against virus challenge [@doi:10.1038/s41467-020-20653-8]. 
+Antibody titers were significantly elevated in groups receiving the vaccine with the Matrix-M adjuvant compared to the groups without adjuvant.
+Novavax-CoV2373 was able to induce a multifunctional CD4/CD8 T-cell responses and generate high frequencies of follicular helper T-cells and B-cell germinal centers after vaccination.
+These findings were subsequently evaluated in a baboon primate model, in which Novavax-CoV2373 also elicited high antibody titers against the SARS-CoV-2 spike protein, as well as an antigen specific T-cell response.
+Based on this data Novavax initiated a Phase 1/2 clinical trial to evaluate the safety and immunogenicity of Novavax-CoV2373 with Matrix-M (NCT04368988)[@doi:10.1056/NEJMoa2026920].
 
 ### Vaccine Development Summary
 
