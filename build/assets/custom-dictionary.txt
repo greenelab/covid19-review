@@ -722,6 +722,7 @@ Zydus
 aadattoli
 acceptor
 acetylcysteine
+acknowledgement
 acknowledgements
 adamlmaclean
 adaptor
@@ -743,10 +744,12 @@ alavendelm
 albuminuria
 aldosterone
 alfa
+allostatic
 alphaviruses
 aminotransferases
 amongst
 amplicon
+amygdala
 analytes
 anaphylaxis
 angiotensin
@@ -902,6 +905,7 @@ doi
 downregulated
 downregulates
 dperrin
+dqkn
 dsRNA
 ductal
 durations
@@ -916,6 +920,7 @@ ebm
 ebolavirus
 ebselen
 ebselen's
+ecosocial
 ectodomain
 effector
 eicosanoids
@@ -947,6 +952,7 @@ estesevimab
 estradiol
 et
 etesevimab
+etiologically
 exogenously
 exonuclease
 expiratory
@@ -1030,6 +1036,7 @@ hyperinflammation
 hypoalbuminemia
 hypogammaglobulinemia
 hypoproteinemia
+hypothalamic
 hypoxia
 iCre
 icosapent
@@ -1078,11 +1085,13 @@ intercellular
 intercorrelated
 interferometry
 interferons
+intergenerational
 interleukins
 interlobular
 intermolecular
 interpretability
 interpretable
+interrelatedness
 interspaced
 interventional
 intracellular
@@ -1110,6 +1119,7 @@ jinhui
 johnbarton
 jpbarton
 kDa
+ketoacidosis
 kevinsunofficial
 kilobases
 kilodalton
@@ -1126,6 +1136,7 @@ leukomonocyte
 leukotriene
 ligand
 likhithakolla
+limbic
 lipoic
 lipopolysaccharide
 littermates
@@ -1153,6 +1164,7 @@ maEBOV
 macrolide
 macrolides
 macromolecules
+maladaptive
 mangul
 manubot
 manufacturability
@@ -1379,7 +1391,9 @@ reactogenicity
 recombinant
 recombinantly
 recombinase
+recontextualize
 reexposure
+reflectance
 remdesivir
 remediating
 renin
@@ -1444,6 +1458,7 @@ sociocultural
 Soumita
 soumitagh
 spectrometry
+spectrophotometry
 spirulan
 splenic
 ssRNA

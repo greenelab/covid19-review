@@ -1129,3 +1129,21 @@ authors:
         order: 7
         contributions:
           - Writing - Review & Editing
+  -
+    github: juliettemarie0405
+    name: Juliette M Rando
+    initials: JMR
+    orcid: https://orcid.org/0000-0002-1742-9255
+    email: juliette.rando@gmail.com
+    code of conduct:
+      confirmed: Yes
+    affiliations:
+      - Department of Microbiology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, United States of America
+    coi:
+      string: "None"
+      lastapproved: !!str 2021-03-24
+    manuscripts:
+      inequality:
+        order: 0
+        contributions:
+          - Writing - Review & Editing
