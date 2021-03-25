@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2021-03-23'
+date-meta: '2021-03-25'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -64,8 +64,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2021-03-23" />
-  <meta name="citation_publication_date" content="2021-03-23" />
+  <meta name="dc.date" content="2021-03-25" />
+  <meta name="citation_publication_date" content="2021-03-25" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -249,13 +249,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/689afa14c7fce760453816f067a7e61cfc6df03d/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/689afa14c7fce760453816f067a7e61cfc6df03d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/689afa14c7fce760453816f067a7e61cfc6df03d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/349fc1ec6bd442e6c8ca35a79afc53474aa4261a/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/349fc1ec6bd442e6c8ca35a79afc53474aa4261a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/349fc1ec6bd442e6c8ca35a79afc53474aa4261a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/689afa14c7fce760453816f067a7e61cfc6df03d/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/689afa14c7fce760453816f067a7e61cfc6df03d/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/349fc1ec6bd442e6c8ca35a79afc53474aa4261a/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/349fc1ec6bd442e6c8ca35a79afc53474aa4261a/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -277,10 +277,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/689afa14c7fce760453816f067a7e61cfc6df03d/))
+([permalink](https://greenelab.github.io/covid19-review/v/349fc1ec6bd442e6c8ca35a79afc53474aa4261a/))
 was automatically generated
-from [greenelab/covid19-review@689afa1](https://github.com/greenelab/covid19-review/tree/689afa14c7fce760453816f067a7e61cfc6df03d)
-on March 23, 2021.
+from [greenelab/covid19-review@349fc1e](https://github.com/greenelab/covid19-review/tree/349fc1ec6bd442e6c8ca35a79afc53474aa4261a)
+on March 25, 2021.
 Snapshots of individual sections are available as preprints [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals].
 </em></small>
 
@@ -691,12 +691,12 @@ Most of these cases were in China, but one to two exported cases had also been i
 One week later, 4,593 confirmed cases had been identified, spanning not only Asia, but also Australia, North America, and Europe [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128-sitrep-8-ncov-cleared.pdf].
 On March 11, 2020, the WHO formally classified the situation as a pandemic [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200311-sitrep-51-covid-19.pdf].
 On April 4, 2020, the WHO reported that the global number of confirmed cases had surpassed one million [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200404-sitrep-75-covid-19.pdf].
-<!--2,715,295 COVID-19 deaths had been reported worldwide as of March 21, 2021 (Figure @fig:csse-deaths).
+<!--2,734,098 COVID-19 deaths had been reported worldwide as of March 23, 2021 (Figure @fig:csse-deaths).
 
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
-](https://github.com/greenelab/covid19-review/raw/d87a604f273de79554813b20985dcc466d242761/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1} -->
+](https://github.com/greenelab/covid19-review/raw/5acf330c67223df746ff51456500254f06b47a67/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1} -->
 
 As international attention remains focused on the ongoing public health crisis, the scientific community has responded by mobilizing resources and turning much of its attention to the virus and disease.
 This rapid influx of information is disseminated by traditional publishing mechanisms, preprint servers, and press releases, which provide a venue for scientists to release findings without undergoing the formal publication process.
@@ -1864,12 +1864,12 @@ Prophylactics bolster immunity to prevent an individual from contracting a disea
 While a number of vaccines have recently been developed, approved, or are currently being evaluated by the US Food and Drug Administration and other regional and international bodies, vaccination programs only started being rolled out at the very end of 2020 and beginning of 2021, meaning that treatments that palliate symptoms and prevent the most severe outcomes have been necessary for much of 2020 and will continue to be necessary for the foreseeable future [@individual-vaccines].
 Fortunately, prior developments during other recent pandemics, especially those caused by human coronaviruses (HCoV), have provided a number of hypotheses guiding a biomedical approach to the novel coronavirus infection.
 
-2,715,295 COVID-19 deaths had been reported worldwide as of March 21, 2021 (Figure @fig:csse-deaths).
+2,734,098 COVID-19 deaths had been reported worldwide as of March 23, 2021 (Figure @fig:csse-deaths).
 
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
-](https://github.com/greenelab/covid19-review/raw/d87a604f273de79554813b20985dcc466d242761/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
+](https://github.com/greenelab/covid19-review/raw/5acf330c67223df746ff51456500254f06b47a67/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
 
 #### Lessons from Prior HCoV Outbreaks
 
@@ -1936,7 +1936,7 @@ Recruitment status and trial phase are shown only for interventional trials in w
 The common interventions are all interventions used in at least ten trials.
 Combinations of interventions, such as Hydroxychloroquine + Azithromycin, are tallied separately from the individual interventions.
 Trials data are from the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709].
-](https://github.com/greenelab/covid19-review/raw/d87a604f273de79554813b20985dcc466d242761/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/5acf330c67223df746ff51456500254f06b47a67/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 ### Small Molecule Drugs
 
@@ -3566,6 +3566,28 @@ Novavax-CoV2373 was able to induce a multifunctional CD4/CD8 T-cell responses an
 These findings were subsequently evaluated in a baboon primate model, in which Novavax-CoV2373 also elicited high antibody titers against the SARS-CoV-2 spike protein, as well as an antigen specific T-cell response.
 Based on this data Novavax initiated a Phase 1/2 clinical trial to evaluate the safety and immunogenicity of Novavax-CoV2373 with Matrix-M (NCT04368988)[@doi:10.1056/NEJMoa2026920].
 
+The phase I/II trial was a randomized, placebo-controlled study with 131 healthy adult participants in 5 treatment arms [@doi:10.1056/NEJMoa2026920].
+Participants that received the recombinant SARS-CoV-2 vaccine with or without the Matrix-M adjuvant got two injections, 21 days apart.
+Primary outcomes that were assessed include reactogenicity, lab-values (serum chemistry and hematology), and anti-spike IgG levels.
+Secondary outcomes measured included virus neutralization, T-cell responses, and unsolicited adverse events.
+The authors reported that no serious treatment-related adverse events occurred in any of the treatment arms.
+Reactogenicity was mostly absent and of short duration.
+The two-dose vaccine regimen induced anti-spike IgG levels and neutralizing antibody-titers exceeding those in the convalescent plasma of symptomatic patients.
+In line with the preclinical studies, the use of Matrix-M adjuvant further increased anti-spike immunoglobulin levels and induced a Th1 response.
+The outcomes of this trial suggest that Novavax-CoV2373 has an acceptable safety profile and is able to induce a strong immune response with high neutralizing antibody titers.
+The phase II component of this phase I/II trial was recently uploaded to an open-access repository [@doi:10.1101/2021.02.26.21252482].
+This part of the trial was designed to identify which dosing regimen should move forward into late phase clinical trials.
+Both younger (18-59 years) and older patients (60-84 years) were randomly assigned to receive either 5 &mu;g or 25 &mu;g Novavax-CoV2373 or placebo in two doses, 21 days apart.<!--To Do: What is placebo?-->
+In line with the phase I data, reactogenicity remained mild to moderate and of short duration. 
+Both dose levels were able to induce high anti-spike IgG titers as well as neutralizing antibody responses after the second dose.
+Based on both safety and efficacy data, the 5 &mu;g dosing regimen was selected as the optimal dose regiment for the ongoing phase III trial.
+Although the phase III trial data has not been published yet, Novavax announced an efficacy of 89.3% based on their phase 3 trial in the UK and South Africa.
+This trial included over 15,000 participants in the UK and 4,000 participants in South Africa with occurrence of a PCR-confirmed symptomatic case as the primary endpoint.
+In the first interim analysis (UK), 56 cases of COVID-19 were observed in the placebo group compared to 6 cases in the treatment group.
+Importantly, the vaccine candidate also shows significant clinical efficacy against the prevalent UK and South African variants.
+The company has also initiated the development of new constructs to select candidates that can be used as a booster against new strains and plans to initiate clinical trials for these new constructs in the second quarter of 2021.
+
+
 ### Vaccine Development Summary
 
 ### Complementary Approaches to Vaccine Development
@@ -3948,7 +3970,7 @@ Trials that recruit across multiple countries do appear to broaden geographic re
 The density of clinical trials is reported at the country level.
 As of November 9, 2020, there are 6,417 trials in the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709], of which 3,706 are interventional.
 The top figure demonstrates the density of interventional trials recruiting only from a singular country, while the bottom shows the distribution of recruitment for interventional trials that involve more than one country.
-](https://github.com/greenelab/covid19-review/raw/d87a604f273de79554813b20985dcc466d242761/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
+](https://github.com/greenelab/covid19-review/raw/5acf330c67223df746ff51456500254f06b47a67/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
 
 A few different concerns arise from this skewed geographic representation in clinical trial recruitment.
 First, treatments such as remdesivir that are promising but primarily available to clinical trial participants are unlikely to be accessible by people in many countries.
