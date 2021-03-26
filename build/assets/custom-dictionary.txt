@@ -254,6 +254,7 @@ GMTs
 GOLGA
 GSE
 GTEx
+Gaebler
 Gam
 Gamaleya
 Gammacoronaviruses
@@ -483,6 +484,7 @@ Nidovirales
 Nie
 Nils
 Novavax
+Nrf
 Nutraceuticals
 NVX
 OC
@@ -607,6 +609,7 @@ Sergey
 Serghei
 Sheahan
 Shenzhen
+Sherina
 Shikta
 Shinholster
 Shuke
@@ -696,6 +699,7 @@ WBC
 WBCs
 Waals
 Wellhausen
+Wheatley
 Wildtype
 Willebrand
 Wyler
@@ -1027,6 +1031,7 @@ hydroxyferroquine
 hydroxyvitamin
 hyperglycemic
 hyperinflammation
+hypermutations
 hypoalbuminemia
 hypogammaglobulinemia
 hypoproteinemia
@@ -1425,6 +1430,7 @@ seminiferous
 sera
 seroconversion
 seroconverted
+seroconverters
 serologic
 serological
 seronegative
