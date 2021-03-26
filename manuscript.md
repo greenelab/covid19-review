@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2021-03-25'
+date-meta: '2021-03-26'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -64,8 +64,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2021-03-25" />
-  <meta name="citation_publication_date" content="2021-03-25" />
+  <meta name="dc.date" content="2021-03-26" />
+  <meta name="citation_publication_date" content="2021-03-26" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -249,13 +249,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/349fc1ec6bd442e6c8ca35a79afc53474aa4261a/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/349fc1ec6bd442e6c8ca35a79afc53474aa4261a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/349fc1ec6bd442e6c8ca35a79afc53474aa4261a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/8923823a2e8fa717a553a107a6484c196daf680b/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/8923823a2e8fa717a553a107a6484c196daf680b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/8923823a2e8fa717a553a107a6484c196daf680b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/349fc1ec6bd442e6c8ca35a79afc53474aa4261a/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/349fc1ec6bd442e6c8ca35a79afc53474aa4261a/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/8923823a2e8fa717a553a107a6484c196daf680b/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/8923823a2e8fa717a553a107a6484c196daf680b/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -277,10 +277,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/349fc1ec6bd442e6c8ca35a79afc53474aa4261a/))
+([permalink](https://greenelab.github.io/covid19-review/v/8923823a2e8fa717a553a107a6484c196daf680b/))
 was automatically generated
-from [greenelab/covid19-review@349fc1e](https://github.com/greenelab/covid19-review/tree/349fc1ec6bd442e6c8ca35a79afc53474aa4261a)
-on March 25, 2021.
+from [greenelab/covid19-review@8923823](https://github.com/greenelab/covid19-review/tree/8923823a2e8fa717a553a107a6484c196daf680b)
+on March 26, 2021.
 Snapshots of individual sections are available as preprints [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals].
 </em></small>
 
@@ -691,12 +691,12 @@ Most of these cases were in China, but one to two exported cases had also been i
 One week later, 4,593 confirmed cases had been identified, spanning not only Asia, but also Australia, North America, and Europe [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128-sitrep-8-ncov-cleared.pdf].
 On March 11, 2020, the WHO formally classified the situation as a pandemic [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200311-sitrep-51-covid-19.pdf].
 On April 4, 2020, the WHO reported that the global number of confirmed cases had surpassed one million [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200404-sitrep-75-covid-19.pdf].
-<!--2,734,098 COVID-19 deaths had been reported worldwide as of March 23, 2021 (Figure @fig:csse-deaths).
+<!--2,743,502 COVID-19 deaths had been reported worldwide as of March 24, 2021 (Figure @fig:csse-deaths).
 
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
-](https://github.com/greenelab/covid19-review/raw/5acf330c67223df746ff51456500254f06b47a67/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1} -->
+](https://github.com/greenelab/covid19-review/raw/1348e799b0d07a79bc5fcb081e46308125b8f291/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1} -->
 
 As international attention remains focused on the ongoing public health crisis, the scientific community has responded by mobilizing resources and turning much of its attention to the virus and disease.
 This rapid influx of information is disseminated by traditional publishing mechanisms, preprint servers, and press releases, which provide a venue for scientists to release findings without undergoing the formal publication process.
@@ -1735,24 +1735,37 @@ This method was highly specific to SARS-CoV-2 and detected IgM in 57.2% and IgG 
 It reported that IgG could be detected within two days of the onset of fever but that IgM could not be detected any earlier, a pattern they compared to findings in another disease caused by a HCoV, Middle East respiratory syndrome (MERS).
 Since then, several trials have reported the potential protective effect of antibodies in convalescent plasma obtained from recovered COVID-19 patients to treat critically ill COVID-19 patients [@doi:10.1172/jci138745; @doi:10.1001/jama.2020.4783; @doi:10.1056/NEJMoa2031893].
 
-Evidence to date suggests that sustained immunity to the SARS-CoV-2 virus remains for a period of at least 6 to 8 months [@doi:10.3201/eid2703.204543; @doi:10.1126/science.abf4063; @pmid:33443036].
-One study assessed sustained immunity using 245 blood samples from 188 COVID-19 positive patients [@doi:10.1126/science.abf4063]. 
+Evidence to date suggests that sustained immunity to the SARS-CoV-2 virus remains for a period of at least 6 to 8 months [@doi:10.3201/eid2703.204543; @doi:10.1126/science.abf4063; @pmid:33443036; @doi:10.1016/j.medj.2021.02.001].
+Dan et al. assessed sustained immunity using 254 blood samples from 188 COVID-19 positive patients [@doi:10.1126/science.abf4063]. 
 The samples were collected at various time points between 6 and 240 days post-symptom onset, meaning some patients were assessed longitudinally. 
 Of the samples, 43 were collected at least 6 months after symptom onset.
 After 1 month, 98% of patients were seropositive for IgG to the spike protein, S. 
 Moreover, S IgG titers were stable and heterogeneous among patients over a period of 6 to 8 months post-symptom onset, with 90% of subjects seropositive at 6 months.
 Similarly, at 6 to 8 months 88% of patients were seropositive for receptor binding domain (RBD) IgG and 90% were seropositive for SARS-CoV-2 neutralizing antibodies.
 
-The development of memory B cells and memory T cells has also been measured.
-SARS-CoV-2 spike-specific memory B cell levels steadily rose over the first 120 days following symptom onset [@doi:10.1126/science.abf4063].
-RBD-specific memory B cells had been detected in COVID-19 patients 90 days post-symptom onset in previous studies [@doi:10.1016/j.cell.2020.11.029; @pmid:33443036], and this study confirms these finding and shows that these cells steadily increase over the 4-5 months post-symptom onset [@doi:10.1126/science.abf4063].
-Nucleocapsid-specific memory B cells seem to follow a similar pattern [@doi:10.1126/science.abf4063].
+The findings of Dan et al. are in accordance with a study by Sherina et al. that examined 119 samples from 88 donors who had recovered from mild to severe cases of COVID-19 [@doi:10.1016/j.medj.2021.02.001]. 
+They observed a relatively stable level of IgG and plasma neutralizing antibodies up to 6 months post diagnosis.
+Significantly lower but considerable levels of anti-SARS-CoV-2 IgG antibodies were still present in 80% of samples obtained 6-8 months post symptom-onset.
+A study by Gaebler et al. also found that titers of IgM and IgG antibodies against the RBD decreased from 1.3 to 6.2 months post infection in a study of 87 individuals [@doi:10.1038/s41586-021-03207-w]. 
+However, the decline of IgA (15%) activity was less pronounced than that of IgM (53%) or IgG (32%).
+It was noted that higher levels of anti-RBD IgG and anti-N total antibodies were detected in individuals that reported persistent post-acute symptoms at both study visits.<!--To Do: confirm we define N in this paper-->
+Moreover, plasma neutralizing activity decreased five-fold between 1.3 and 6.2 months in an assay of HIV-1 virus pseudotyped with SARS-CoV-2 S protein, and this neutralizing activity was directly correlated with IgG anti-RBD titers [@doi:10.1038/s41586-021-03207-w].
+These findings are in accordance with other studies that show that the majority of seroconverters have detectable, albeit decreasing, levels of neutralizing antibodies at least 3-6 months post infection [@doi:10.1126/science.abd7728; @doi:10.1038/s41564-020-00813-8; @doi:10.1038/s41467-021-21444-5].
+Determining the potency of anti-RBD antibodies early in the course of an infection may be important moving forward, as their neutralizing potency may be prognostic for disease severity and survival [@doi:10.1016/j.cell.2020.12.015].
+
+The development of memory B cells and memory T cells has also been assessed in several studies.
+Dan et al. showed that SARS-CoV-2 S-specific memory B cell levels rose steadily over the first 120 days following symptom onset [@doi:10.1126/science.abf4063].
+RBD-specific memory B cells had been detected in COVID-19 patients 90 days post-symptom onset in previous studies [@doi:10.1016/j.cell.2020.11.029; @pmid:33443036], and this study confirms these finding and shows that levels of these cells increased over the 4-5 months post-symptom onset [@doi:10.1126/science.abf4063].
+Gaebler et al. have shown that memory B cells specific to the RBD remain unaltered and exhibit clonal turnover and antibody sequence evolution 6 months post infection, indicative of prolonged germinal cell reactions [@doi:10.1038/s41586-021-03207-w]. 
+The same study showed that antibodies expressed by these memory B cells have resistance to RBD mutations, greater somatic hypermutations, and increased potency, which the authors suggest might be evidence of continued evolution of humoral immunity [@doi:10.1038/s41586-021-03207-w].
+Indeed, Wheatley et al. showed that S-specific IgG^+^ memory B cells consistently increase over time and by 4 months comprise approximately 0.8% of all IgG^+^ memory B cells, which may indicate cellular immune memory to even mild-to-moderate COVID-19 infection [@doi:10.1038/s41467-021-21444-5]. 
+Dan et al. showed that N-specific memory B cells steadily increased up to 4-5 months post-symptom onset [@doi:10.1126/science.abf4063].
 SARS-CoV-2 memory CD8^+^ T cells were also detected in 70% of 169 COVID-19 patients after 1 month [@doi:10.1126/science.abf4063], which is consistent with previous research [@doi:10.1016/j.cell.2020.05.015].
 However, SARS-CoV-2 memory CD8^+^ T cells were slightly decreased (50%) 6 months post-symptom onset. 
 In this same subset of COVID-19 patients, 93% of subjects had detectable levels of SARS-CoV-2 memory CD4^+^ T cells, of which 42% had more than 1% SARS-CoV-2-specific CD4^+^ T cells.
 At 6 months, 92% of patients were positive for SARS-CoV-2 memory CD4^+^ T cells.
-Indeed, the spike-specific memory CD4^+^ T cells abundance over time were similar to the overall SARS-CoV-2-specific CD4^+^ T cells [@doi:10.1126/science.abf4063].
-T cell immunity to SARS-CoV-2 at 6 to 8 months following symptom onset has also been confirmed by other studies [@doi:10.1101/2020.11.01.362319; @doi:10.1101/2020.12.08.416636].
+Indeed, the abundance of S-specific memory CD4^+^ T cells over time was similar to that of SARS-CoV-2-specific CD4^+^ T cells overall [@doi:10.1126/science.abf4063].
+T cell immunity to SARS-CoV-2 at 6 to 8 months following symptom onset has also been confirmed by other studies [@doi:10.1101/2020.11.01.362319; @doi:10.1101/2020.12.08.416636; @doi:10.1016/j.medj.2021.02.001].
 In another study, T cell reactivity to SARS-CoV-2 epitopes was also detected in some individuals never been exposed to SARS-CoV-2. 
 This finding suggests the potential for cross-reactive T cell recognition between SARS-CoV-2 and pre-existing circulating HCoV that are responsible for the “common cold” [@doi:10.1016/j.cell.2020.05.015], but further research is required.
 
@@ -1814,7 +1827,8 @@ Technological advancements that facilitate widespread, rapid testing will theref
 
 ### Conclusions
 
-<!-- To Do: This section has less discussion than other sections, not sure if we want to try to expand it?-->
+<!-- To Do: This section has less discussion than other sections, not sure if we want to try to expand it?
+Potentially mention that there are longitudinal studies on how long sustained immunity lasts, but time makes it easier to get an idea of the distribution without much time elapsing-->
 Major advancements have been made in identifying diagnostic approaches.
 The development of diagnostic technologies have been rapid, beginning with the release of the SARS-CoV-2 viral genome sequence in January.
 As of October 2020, a range of diagnostic tests have become available.
@@ -1864,12 +1878,12 @@ Prophylactics bolster immunity to prevent an individual from contracting a disea
 While a number of vaccines have recently been developed, approved, or are currently being evaluated by the US Food and Drug Administration and other regional and international bodies, vaccination programs only started being rolled out at the very end of 2020 and beginning of 2021, meaning that treatments that palliate symptoms and prevent the most severe outcomes have been necessary for much of 2020 and will continue to be necessary for the foreseeable future [@individual-vaccines].
 Fortunately, prior developments during other recent pandemics, especially those caused by human coronaviruses (HCoV), have provided a number of hypotheses guiding a biomedical approach to the novel coronavirus infection.
 
-2,734,098 COVID-19 deaths had been reported worldwide as of March 23, 2021 (Figure @fig:csse-deaths).
+2,743,502 COVID-19 deaths had been reported worldwide as of March 24, 2021 (Figure @fig:csse-deaths).
 
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
-](https://github.com/greenelab/covid19-review/raw/5acf330c67223df746ff51456500254f06b47a67/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
+](https://github.com/greenelab/covid19-review/raw/1348e799b0d07a79bc5fcb081e46308125b8f291/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
 
 #### Lessons from Prior HCoV Outbreaks
 
@@ -1936,7 +1950,7 @@ Recruitment status and trial phase are shown only for interventional trials in w
 The common interventions are all interventions used in at least ten trials.
 Combinations of interventions, such as Hydroxychloroquine + Azithromycin, are tallied separately from the individual interventions.
 Trials data are from the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709].
-](https://github.com/greenelab/covid19-review/raw/5acf330c67223df746ff51456500254f06b47a67/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/1348e799b0d07a79bc5fcb081e46308125b8f291/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 ### Small Molecule Drugs
 
@@ -3970,7 +3984,7 @@ Trials that recruit across multiple countries do appear to broaden geographic re
 The density of clinical trials is reported at the country level.
 As of November 9, 2020, there are 6,417 trials in the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709], of which 3,706 are interventional.
 The top figure demonstrates the density of interventional trials recruiting only from a singular country, while the bottom shows the distribution of recruitment for interventional trials that involve more than one country.
-](https://github.com/greenelab/covid19-review/raw/5acf330c67223df746ff51456500254f06b47a67/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
+](https://github.com/greenelab/covid19-review/raw/1348e799b0d07a79bc5fcb081e46308125b8f291/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
 
 A few different concerns arise from this skewed geographic representation in clinical trial recruitment.
 First, treatments such as remdesivir that are promising but primarily available to clinical trial participants are unlikely to be accessible by people in many countries.
