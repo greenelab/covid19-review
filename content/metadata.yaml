@@ -1129,3 +1129,22 @@ authors:
         order: 7
         contributions:
           - Writing - Review & Editing
+  -
+    github: jboerckel
+    name: Joel D Boerckel
+    initials: JDB
+    orcid: https://orcid.org/0000-0003-3126-3025
+    email: boerckel@pennmedicine.upenn.edu
+    twitter: @jboerckel
+    code of conduct:
+      confirmed: No
+    affiliations:
+      - Department of Orthopaedic Surgery, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, United States of America
+    coi:
+      string: "None"
+      lastapproved: !!str 2021-03-26
+    manuscripts:
+      pathogenesis:
+        order: 0
+        contributions:
+          - Writing - Review & Editing
