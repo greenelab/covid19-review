@@ -249,13 +249,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/2581e1f98ba6414bc8903b86d77bbf1ad2ba8b79/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/2581e1f98ba6414bc8903b86d77bbf1ad2ba8b79/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/2581e1f98ba6414bc8903b86d77bbf1ad2ba8b79/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/ed868dea15212b6818a6fee9682ab64f5451f4eb/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/ed868dea15212b6818a6fee9682ab64f5451f4eb/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/ed868dea15212b6818a6fee9682ab64f5451f4eb/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/2581e1f98ba6414bc8903b86d77bbf1ad2ba8b79/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/2581e1f98ba6414bc8903b86d77bbf1ad2ba8b79/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/ed868dea15212b6818a6fee9682ab64f5451f4eb/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/ed868dea15212b6818a6fee9682ab64f5451f4eb/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -277,9 +277,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/2581e1f98ba6414bc8903b86d77bbf1ad2ba8b79/))
+([permalink](https://greenelab.github.io/covid19-review/v/ed868dea15212b6818a6fee9682ab64f5451f4eb/))
 was automatically generated
-from [greenelab/covid19-review@2581e1f](https://github.com/greenelab/covid19-review/tree/2581e1f98ba6414bc8903b86d77bbf1ad2ba8b79)
+from [greenelab/covid19-review@ed868de](https://github.com/greenelab/covid19-review/tree/ed868dea15212b6818a6fee9682ab64f5451f4eb)
 on March 26, 2021.
 Snapshots of individual sections are available as preprints [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals].
 </em></small>
@@ -3134,7 +3134,20 @@ We will continue to update this review as more findings become available.
 
 ### Abstract
 
+The release of the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) genome sequence on January 10th, 2020, mobilized global vaccine development on a scale never before seen in response to the coronavirus disease 2019 (COVID-19) pandemic. 
+Pre-existing vaccine platforms and novel vaccine technologies were deployed by manufacturers early in the pandemic. 
+Regardless of the platform used, almost all the vaccine candidates have targeted the spike protein of SARS-CoV-2. 
+A historically slow process, vaccine development accelerated to the point that less than a year later, some vaccine candidates had reported interim phase III clinical trial data and received emergency use authorization (EUA) in the United States and approval by the European Union. 
+In this review, the strategies used to develop the leading vaccine candidates are discussed and their safety and efficacy are appraised.
+As of March 2021, publicly available safety and efficacy data generated from the phase III clinical trials supports the distribution of spike targeting adenoviral vector vaccines and mRNA vaccines.
+Lastly, the initial state of global vaccine distribution is also reviewed.
+
 ### Importance
+
+SARS-CoV-2 has infected over 125 million people and cost the lives of 2.8 million people globally. 
+The development, production, and distribution of prophylactic vaccines is imperative to saving lives, preventing illness, and reducing the economic and social burdens caused by the COVID-19 pandemic.
+Assuming effective deployment, these vaccines offer an opportunity to move into a new phase of the pandemic where the susceptibility of worldwide populations is significantly reduced. 
+This review highlights the main strategies utilized for the development of the COVID-19 vaccines, their clinical appraisal, and their distribution. 
 
 ### Introduction
 
