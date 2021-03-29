@@ -78,6 +78,7 @@ Biosciences
 Biostatistics
 Blanco
 Boca
+Boerckel
 Bouhaddou
 Brescia
 Brueffer
@@ -995,6 +996,7 @@ glucocorticoids
 glucosamine
 glutamyl
 glutamylcysteine
+glycocalyx
 glycolic
 glycoproteins
 glycosylated
@@ -1004,6 +1006,7 @@ gregszetoAI
 hACE
 hemagglutinin
 hematopoietic
+heparan
 hepatoma
 hepatotropic
 heterologous
@@ -1112,6 +1115,7 @@ isotachophoresis
 isothermal
 isotype
 isotypes
+jboerckel
 jinhui
 johnbarton
 jpbarton
@@ -1139,6 +1143,7 @@ lkolla
 lockdown
 lopinavir
 lubianat
+luminal
 lymphocytic
 lymphocytopenia
 lymphadenopathy
@@ -1170,6 +1175,7 @@ medRxiv
 melatonin
 mellitus
 mer
+meshwork
 mesylate
 metabolomics
 metagenomic
@@ -1260,6 +1266,7 @@ orcid
 organoid
 organoids
 organoselenium
+orthopaedic
 othered
 othering
 outcompeting
@@ -1349,6 +1356,8 @@ proresolving
 protease
 proteases
 proteasome
+proteoglycan
+proteoglycans
 protectin
 protectins
 proteinuria
@@ -1536,7 +1545,9 @@ univariate
 upregulated
 upregulation
 uri
+vascularized
 vasculitis
+vasodilator
 virally
 virals
 viremia
