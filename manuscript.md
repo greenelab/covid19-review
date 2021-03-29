@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2021-03-28'
+date-meta: '2021-03-29'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -54,6 +54,7 @@ author-meta:
 - David Mai
 - COVID-19 Review Consortium
 - Rishi Raj Goel
+- Joel D Boerckel
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -64,8 +65,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2021-03-28" />
-  <meta name="citation_publication_date" content="2021-03-28" />
+  <meta name="dc.date" content="2021-03-29" />
+  <meta name="citation_publication_date" content="2021-03-29" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -243,19 +244,23 @@ header-includes: |-
   <meta name="citation_author_institution" content="Institute for Immunology, University of Pennsylvania, Philadelphia, PA, United States of America" />
   <meta name="citation_author_orcid" content="https://orcid.org/0000-0003-1715-5191" />
   <meta name="twitter:creator" content="@rishirajgoel" />
+  <meta name="citation_author" content="Joel D Boerckel" />
+  <meta name="citation_author_institution" content="Department of Orthopaedic Surgery, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, United States of America - Department of Bioengineering, University of Pennsylvania, Philadelphia, PA, United States of America" />
+  <meta name="citation_author_orcid" content="https://orcid.org/0000-0003-3126-3025" />
+  <meta name="twitter:creator" content="@jboerckel" />
   <link rel="canonical" href="https://greenelab.github.io/covid19-review/" />
   <meta property="og:url" content="https://greenelab.github.io/covid19-review/" />
   <meta property="twitter:url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/7119f656fd4cb99b97e22562090c14c7e4638a5d/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/7119f656fd4cb99b97e22562090c14c7e4638a5d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/7119f656fd4cb99b97e22562090c14c7e4638a5d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/48f7870113793bbd5c0f03f29ca252c871e31984/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/48f7870113793bbd5c0f03f29ca252c871e31984/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/48f7870113793bbd5c0f03f29ca252c871e31984/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/7119f656fd4cb99b97e22562090c14c7e4638a5d/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/7119f656fd4cb99b97e22562090c14c7e4638a5d/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/48f7870113793bbd5c0f03f29ca252c871e31984/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/48f7870113793bbd5c0f03f29ca252c871e31984/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -277,10 +282,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/7119f656fd4cb99b97e22562090c14c7e4638a5d/))
+([permalink](https://greenelab.github.io/covid19-review/v/48f7870113793bbd5c0f03f29ca252c871e31984/))
 was automatically generated
-from [greenelab/covid19-review@7119f65](https://github.com/greenelab/covid19-review/tree/7119f656fd4cb99b97e22562090c14c7e4638a5d)
-on March 28, 2021.
+from [greenelab/covid19-review@48f7870](https://github.com/greenelab/covid19-review/tree/48f7870113793bbd5c0f03f29ca252c871e31984)
+on March 29, 2021.
 Snapshots of individual sections are available as preprints [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals].
 </em></small>
 
@@ -650,10 +655,18 @@ Instead, you should collect information from your local health department, the [
      Institute for Immunology, University of Pennsylvania, Philadelphia, PA, United States of America
   </small>
 
++ **Joel D Boerckel**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [https://orcid.org/0000-0003-3126-3025](https://orcid.org/https://orcid.org/0000-0003-3126-3025) · ![GitHub icon](images/github.svg){.inline_icon}
+    [jboerckel](https://github.com/jboerckel) · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [jboerckel](https://twitter.com/jboerckel)<br>
+  <small>
+     Department of Orthopaedic Surgery, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, United States of America - Department of Bioengineering, University of Pennsylvania, Philadelphia, PA, United States of America
+  </small>
+
 
 
 **COVID-19 Review Consortium:**
-Vikas Bansal, John P. Barton, Simina M. Boca, Christian Brueffer, James Brian Byrd, Stephen Capone, Shikta Das, Anna Ada Dattoli, John J. Dziak, Jeffrey M. Field, Soumita Ghosh, Anthony Gitter, Rishi Raj Goel, Casey S. Greene, Marouen Ben Guebila, Fengling Hu, Nafisa M. Jadavji, Sergey Knyazev, Likhitha Kolla, Alexandra J. Lee, Ronan Lordan, Tiago Lubiana, Temitayo Lukan, Adam L. MacLean, David Mai, Serghei Mangul, David Manheim, Lucy D\'Agostino McGowan, YoSon Park, Dimitri Perrin, Yanjun Qi, Diane N. Rafizadeh, Bharath Ramsundar, Halie M. Rando, Sandipan Ray, Michael P. Robson, Elizabeth Sell, Lamonica Shinholster, Ashwin N. Skelly, Yuchen Sun, Gregory L Szeto, Ryan Velazquez, Jinhui Wang, Nils Wellhausen
+Vikas Bansal, John P. Barton, Simina M. Boca, Joel D Boerckel, Christian Brueffer, James Brian Byrd, Stephen Capone, Shikta Das, Anna Ada Dattoli, John J. Dziak, Jeffrey M. Field, Soumita Ghosh, Anthony Gitter, Rishi Raj Goel, Casey S. Greene, Marouen Ben Guebila, Fengling Hu, Nafisa M. Jadavji, Sergey Knyazev, Likhitha Kolla, Alexandra J. Lee, Ronan Lordan, Tiago Lubiana, Temitayo Lukan, Adam L. MacLean, David Mai, Serghei Mangul, David Manheim, Lucy D\'Agostino McGowan, YoSon Park, Dimitri Perrin, Yanjun Qi, Diane N. Rafizadeh, Bharath Ramsundar, Halie M. Rando, Sandipan Ray, Michael P. Robson, Elizabeth Sell, Lamonica Shinholster, Ashwin N. Skelly, Yuchen Sun, Gregory L Szeto, Ryan Velazquez, Jinhui Wang, Nils Wellhausen
 
 
 Authors are ordered arbitrarily.
@@ -691,12 +704,12 @@ Most of these cases were in China, but one to two exported cases had also been i
 One week later, 4,593 confirmed cases had been identified, spanning not only Asia, but also Australia, North America, and Europe [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128-sitrep-8-ncov-cleared.pdf].
 On March 11, 2020, the WHO formally classified the situation as a pandemic [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200311-sitrep-51-covid-19.pdf].
 On April 4, 2020, the WHO reported that the global number of confirmed cases had surpassed one million [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200404-sitrep-75-covid-19.pdf].
-<!--2,767,546 COVID-19 deaths had been reported worldwide as of March 26, 2021 (Figure @fig:csse-deaths).
+<!--2,777,336 COVID-19 deaths had been reported worldwide as of March 27, 2021 (Figure @fig:csse-deaths).
 
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
-](https://github.com/greenelab/covid19-review/raw/3cfc178304ddf665041b566d96fb7ece573f53d4/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1} -->
+](https://github.com/greenelab/covid19-review/raw/aba2b6ed9378429931bf39d2f9f23f32723fea38/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1} -->
 
 As international attention remains focused on the ongoing public health crisis, the scientific community has responded by mobilizing resources and turning much of its attention to the virus and disease.
 This rapid influx of information is disseminated by traditional publishing mechanisms, preprint servers, and press releases, which provide a venue for scientists to release findings without undergoing the formal publication process.
@@ -926,6 +939,20 @@ This complex then synthesizes the double-stranded RNA (dsRNA) genome from the ge
 The dsRNA genome is transcribed and replicated to create viral mRNAs and new ssRNA(+) genomes [@doi:10.1007/978-1-4939-2438-7_1; @url:https://viralzone.expasy.org/30?outline=all_by_species].
 From there, the virus can spread into other cells.
 In this way, the genome of SARS-CoV-2 provides insight into the pathogenic behavior of the virus.
+
+Evidence also suggests that SARS-CoV-2 may take advantage of the specific structure of endothelial cells to enter the circulatory system.
+Endothelial cells are specialized epithelial cells [@doi:10.1055/s-0030-1253446] that form a barrier between the bloodstream and surrounding tissues.
+The endothelium facilitates nutrient, oxygen, and cellular exchange between the blood and vascularized tissues [@PMID:362947].
+The luminal (interior) surface of the endothelium is lined with glycocalyx, a network of both membrane-bound and soluble proteins and carbohydrates, primarily proteoglycans and glycoproteins [@doi:10.1007/s00424-007-0212-8; @doi:10.1016/j.cell.2020.09.033].
+The glycocalyx varies in thickness from 0.5 microns in the capillaries to 4.5 microns in the carotid arteries and forms a meshwork that localizes both endothelial- and plasma-derived signals to the inner vessel wall [@doi:10.1007/s00424-007-0212-8].
+Heparan sulfate is the dominant proteoglycan in the glycocalyx, representing 50-90% of glycocalyx proteoglycan content [@doi:10/bp82dx].
+The SARS-CoV-2 spike protein can bind directly to heparan sulfate, which serves in part as a scaffolding molecule to facilitate ACE2 binding and entry into endothelial cells [@doi:10.1016/j.cell.2020.09.033].
+A heparan sulfate binding site has also been identified near the ACE2 binding site on the viral RBD, and modeling has suggested that heparan sulfate binding yields an open conformation that facilitates binding to ACE2 on the cell surface [@doi:10.1016/j.cell.2020.09.033].
+Degrading or removing heparan sulfate was associated with decreased binding [@doi:10.1016/j.cell.2020.09.033].
+Heparan sulfate may also interact with the S1/S2 proteolytic cleavage site and other binding sites to promote binding affinity [@doi:10.1101/2020.05.10.087288].
+Notably, treatment with soluble heparan sulfate or even heparin (a commonly used anti-coagulant and vasodilator that is similar in structure to heparan sulfate [@doi:10.1007/978-3-642-23056-1_8]) potently blocked spike protein binding and viral infection [@doi:10.1016/j.cell.2020.09.033]. 
+This finding is particularly interesting because degradation of heparan sulfate in the glycocalyx has previously been identified as an important contributor to ARDS and sepsis [@doi:10.1016/bs.ctm.2018.08.005], two common and severe outcomes of COVID-19, and suggests that heparan sulfate could be a target for pharmaceutical inhibition of cell entry by SARS-CoV-2 [@doi:10.1038/s41421-020-00222-5; @doi:10.1016/j.ebiom.2020.102969; @doi:10.1016/j.amjcard.2020.08.005; @doi:10.3390/nu13020328; @doi:/10.3389/fimmu.2021.607306].
+Together, this evidence suggests that heparan sulfate can serve as an important adhesion molecule for SARS-CoV-2 cell entry and may represent a therapeutic target.
 
 #### Immune Evasion Strategies
 
@@ -1878,12 +1905,12 @@ Prophylactics bolster immunity to prevent an individual from contracting a disea
 While a number of vaccines have recently been developed, approved, or are currently being evaluated by the US Food and Drug Administration and other regional and international bodies, vaccination programs only started being rolled out at the very end of 2020 and beginning of 2021, meaning that treatments that palliate symptoms and prevent the most severe outcomes have been necessary for much of 2020 and will continue to be necessary for the foreseeable future [@individual-vaccines].
 Fortunately, prior developments during other recent pandemics, especially those caused by human coronaviruses (HCoV), have provided a number of hypotheses guiding a biomedical approach to the novel coronavirus infection.
 
-2,767,546 COVID-19 deaths had been reported worldwide as of March 26, 2021 (Figure @fig:csse-deaths).
+2,777,336 COVID-19 deaths had been reported worldwide as of March 27, 2021 (Figure @fig:csse-deaths).
 
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
-](https://github.com/greenelab/covid19-review/raw/3cfc178304ddf665041b566d96fb7ece573f53d4/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
+](https://github.com/greenelab/covid19-review/raw/aba2b6ed9378429931bf39d2f9f23f32723fea38/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
 
 #### Lessons from Prior HCoV Outbreaks
 
@@ -1950,7 +1977,7 @@ Recruitment status and trial phase are shown only for interventional trials in w
 The common interventions are all interventions used in at least ten trials.
 Combinations of interventions, such as Hydroxychloroquine + Azithromycin, are tallied separately from the individual interventions.
 Trials data are from the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709].
-](https://github.com/greenelab/covid19-review/raw/3cfc178304ddf665041b566d96fb7ece573f53d4/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/aba2b6ed9378429931bf39d2f9f23f32723fea38/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 ### Small Molecule Drugs
 
@@ -3997,7 +4024,7 @@ Trials that recruit across multiple countries do appear to broaden geographic re
 The density of clinical trials is reported at the country level.
 As of November 9, 2020, there are 6,417 trials in the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709], of which 3,706 are interventional.
 The top figure demonstrates the density of interventional trials recruiting only from a singular country, while the bottom shows the distribution of recruitment for interventional trials that involve more than one country.
-](https://github.com/greenelab/covid19-review/raw/3cfc178304ddf665041b566d96fb7ece573f53d4/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
+](https://github.com/greenelab/covid19-review/raw/aba2b6ed9378429931bf39d2f9f23f32723fea38/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
 
 A few different concerns arise from this skewed geographic representation in clinical trial recruitment.
 First, treatments such as remdesivir that are promising but primarily available to clinical trial participants are unlikely to be accessible by people in many countries.
@@ -4372,6 +4399,7 @@ The goal of this manuscript is to present preliminary findings within the broade
 |David Mai|None|2021-01-08|
 |COVID-19 Review Consortium|None|2021-01-16|
 |Rishi Raj Goel|None|2021-01-20|
+|Joel D Boerckel|None|2021-03-26|
 
 ### Author Contributions
 
@@ -4423,6 +4451,7 @@ The goal of this manuscript is to present preliminary findings within the broade
 |David Mai|Writing - Original Draft, Writing - Review & Editing|
 |COVID-19 Review Consortium|Project Administration|
 |Rishi Raj Goel|Writing - Original Draft, Writing - Review & Editing|
+|Joel D Boerckel|Writing - Review & Editing|
 
 ### Acknowledgements
 
