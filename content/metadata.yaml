@@ -1137,9 +1137,10 @@ authors:
     email: boerckel@pennmedicine.upenn.edu
     twitter: jboerckel
     code of conduct:
-      confirmed: No
+      confirmed: Yes
     affiliations:
       - Department of Orthopaedic Surgery, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, United States of America
+            - Department of Bioengineering, University of Pennsylvania, Philadelphia, PA, United States of America
     coi:
       string: "None"
       lastapproved: !!str 2021-03-26
