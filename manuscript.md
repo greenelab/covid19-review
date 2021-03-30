@@ -254,13 +254,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/1a3d04a48062ca377e61eba1aaddf214e581ae7d/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/1a3d04a48062ca377e61eba1aaddf214e581ae7d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/1a3d04a48062ca377e61eba1aaddf214e581ae7d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/2a30045575a47fb3130ff6e7f94c17f99fea0d98/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/2a30045575a47fb3130ff6e7f94c17f99fea0d98/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/2a30045575a47fb3130ff6e7f94c17f99fea0d98/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/1a3d04a48062ca377e61eba1aaddf214e581ae7d/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/1a3d04a48062ca377e61eba1aaddf214e581ae7d/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/2a30045575a47fb3130ff6e7f94c17f99fea0d98/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/2a30045575a47fb3130ff6e7f94c17f99fea0d98/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -282,9 +282,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/1a3d04a48062ca377e61eba1aaddf214e581ae7d/))
+([permalink](https://greenelab.github.io/covid19-review/v/2a30045575a47fb3130ff6e7f94c17f99fea0d98/))
 was automatically generated
-from [greenelab/covid19-review@1a3d04a](https://github.com/greenelab/covid19-review/tree/1a3d04a48062ca377e61eba1aaddf214e581ae7d)
+from [greenelab/covid19-review@2a30045](https://github.com/greenelab/covid19-review/tree/2a30045575a47fb3130ff6e7f94c17f99fea0d98)
 on March 30, 2021.
 Snapshots of individual sections are available as preprints [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals].
 </em></small>
@@ -3223,7 +3223,7 @@ Electroporation is the application of brief electric pulses to tissues in order 
 It has been shown that electroporation can enhance vaccine efficacy by up to 100-fold, as measured by increases in antigen-specific antibody titers [@doi:10.1016/j.coi.2011.03.008].
 The safety of the CELLECTRA® device has been studied for over seven years, and these studies support the further development of electroporation as a safe vaccine delivery method [@doi:10.4161/hv.24702].
 The temporary formation of pores through electroporation facilitates the successful transportation of macromolecules into cells, allowing cells to robustly take up INO-4800 for the production of an antibody response.
-Approved by the U.S. FDA on April 6, 2020, the Phase I study is enrolling up to 40 healthy adult volunteers in Philadelphia, PA at the Perelman School of Medicine and at the Center for Pharmaceutical Research in Kansas City, MO.
+Approved by the United States (U.S.) FDA on April 6, 2020, the phase I study is enrolling up to 40 healthy adult volunteers in Philadelphia, PA at the Perelman School of Medicine and at the Center for Pharmaceutical Research in Kansas City, MO.
 The trial has two experimental arms corresponding to the two locations.
 Participants in Experimental Group 1 will receive one intradermal injection of 1.0 milligram (mg) of INO-4800 followed by electroporation using the CELLECTRA® 2000 device twice, administered at Day 0 and Week 4.
 Participants in Experimental Group 2 will receive two intradermal injections of 1.0 mg (total 2.0 mg per dosing visit) of INO-4800 followed by electroporation using the CELLECTRA® 2000 device, administered at Day 0 and Week 4.
@@ -3351,16 +3351,66 @@ As of December 11, 2020, the United States FDA approved this vaccine under an em
 
 ### Viral Vector Vaccines
 
-As discussed earlier, delivery and presentation of antigens are key to induce immunity against SARS-CoV2.
-Viral vectors have emerged as a safe and efficient method to deliver foreign substances to induce an efficient immune response [@doi:10.1128/CVI.00298-16].
-These vaccines use a different virus to deliver genetic material from the target virus of interest.
-The vaccine uses the host machinery to construct antigen(s) from the transported genetic material.
-There are several viral vector vaccines that are available for veterinary use [@doi:10.3390/vaccines8040680].
-While there is currently only one FDA-approved viral vector vaccine for the use in humans against Ebola [doi:10.1016/j.cell.2020.03.011], several Phase I and Phase II clinical trial are ongoing [@doi:10.1128/CVI.00298-16].
-These vaccines are able to induce both an antibody and cellular response; however, the response is limited due to the immunogenicity of the viral vector used [@doi:10.1016/j.coi.2011.03.006; @doi:10.1038/mt.2009.130].
-Various viral vector platforms including Poxviruses, Adenoviruses, and Vesicular Stomatitis Viruses (VSV) are being developed for treating numerous infectious diseases such as Malaria, Ebola, HIV, and more recently, SARS-CoV-2.
-Here we review the current state of the art for developing viral vector vaccines against SARS-CoV-2.
-<!---- #### COVID-19 Vaccine AstraZeneca --->
+As discussed earlier, the delivery and presentation of antigens are key to inducing immunity against SARS-CoV-2.
+Viral vectors have emerged as a safe and efficient method to deliver foreign substances into the body in a way that induces an efficient immune response [@doi:10.1128/CVI.00298-16].
+Genetic material from the target virus of interest is delivered using a second virus as a vector.
+The vaccine then uses the host machinery to construct antigen(s) from the transported genetic material, for which the body synthesizes antibodies in response.
+The genetic content of the vector virus is often altered to prevent it from replicating, but replication-competent viruses can also be used under certain circumstances [@doi:10.1016/j.coi.2016.05.014].
+Viral-vector vaccines are able to induce both an antibody and cellular response; however, the response is limited due to the immunogenicity of the viral vector used [@doi:10.1016/j.coi.2011.03.006; @doi:10.1038/mt.2009.130].
+Various viral-vector platforms including poxviruses [@doi:10/cnw6vw; @doi:10.4161/hv.28974], adenoviruses [@doi:10.1038/mt.2009.130], and vesicular stomatitis viruses [@pmid:10196265; @doi:10.1016/j.molmed.2004.03.003] are being developed,
+An important consideration in identifying potential vectors is the immune response to the vector.
+Both the innate and adaptive immune responses can potentially respond to the vector, limiting the ability of the vaccine to transfer information to the immune system [@doi:10.1038/gt.2009.148].
+Different vectors are associated with different levels of reactogenicity; for example, adenoviruses elicit a much stronger innate immune response than replication deficient adeno-associated viruses derived from parvoviruses [@doi:10.1038/gt.2009.148].
+Additionally, using a virus circulating widely in human populations as a vector presents additional challenges because vaccine recipients may already have developed an immune response to the vector [@doi:10.3390/vaccines2030624].
+
+There are several viral vector vaccines that are available for veterinary use [@doi:10.3390/vaccines8040680], but prior to the COVID-19 pandemic, only one viral vector vaccine was approved by the FDA for use in humans.
+This vaccine is vectored with a recombinant vesicular stomatitis virus and targeted against the ebola virus [doi:10.1016/j.cell.2020.03.011].
+Additionally, several phase I and phase II clinical trials for other vaccines are ongoing [@doi:10.1128/CVI.00298-16].
+This technology is currently being explored for its potential against numerous infectious diseases including malaria [@doi:10.1016/j.ymthe.2016.11.003; @doi:10.1016/j.vaccine.2006.07.035], ebola [@doi:10.1056/NEJMoa1410863; @doi:10.1093/infdis/jir349; @doi:10.1586/14760584.2014.885841], human immunodeficiency virus (HIV) [@doi:10.1097/COH.0b013e328363d389; @doi:10.1016/j.virol.2014.09.004].
+The prior MERS and SARS initiated interest in the application of viral vector vaccines to human coronaviruses [@doi:10.3390/v12080861], but efforts to apply this technology to these pathogens had not yet led to a successful vaccine candidate.
+In the mid-to-late 00s, adenoviral vectored vaccines against SARS were found to induce SARS-CoV-specific IgA in the lungs of mice [@doi:10.1099/vir.0.81579-0], but were later found to offer incomplete protection in ferret models [@doi:10.1099/vir.0.2008/001891-0].
+Around 2014, interest arose in utilizing simian adenoviruses as vectors because of the reduced risk that human vaccine recipients would have prior exposure resulting in adaptive immunity [@doi:10.1038/mt.2013.284], and chimpanzee adenoviruses were explored as a potential vector in the development of a vaccine against _Middle East respiratory syndrome-related coronavirus_ (MERS-CoV) [@doi:10.3390/v12080861].
+In 2017, results were published from an initial investigation of two vaccine candidates against MERS-CoV containing the MERS-CoV S gene vectored with chimpanzee adenovirus, Oxford University #1 (ChAdOx1), a replication-deficient chimpanzee adenovirus [@doi:10.1016/j.vaccine.2017.05.032].
+This study reported that a candidate containing the complete spike protein sequence induced a stronger neutralizing antibody response in mice than candidates vectored with modified vaccinia virus Ankara.
+It was pursued in additional research, and in the summer of 2020 results of two studies were published.
+The first reported that a single dose of ChAdOx1 MERS induced an immune response and inhibited viral replication in macaques [@doi:10.1126/sciadv.aba8399].
+The second reported  promising results from a phase I trial that administered the vaccine to adults and measured safety/tolerability and immune response (as indicated through immune assays following vaccination) [@doi:10/ggtxgp].
+While not all of these results were available at the time that vaccine development programs against SARS-CoV-2 began, viral vector vaccines have also been explored against this hCoV.
+Here we review the current state of the art in recent efforts to develop viral vector vaccines against SARS-CoV-2.
+
+#### ChAdOx1 nCoV-19 (AstraZeneca)
+
+A collaboration between AstraZeneca and researchers at the University of Oxford has successfully applied a viral vector approach to the development of a vaccine against SARS-CoV-2 using the replication-deficient ChAdOx1 vector modified to encode the spike protein of SARS-CoV-2 [@doi:10.1038/s41586-020-2608-y].
+The _S_ protein is an antigen and induces an immune response [@doi:10/fmq2; @doi:10.3389/fimmu.2020.576622].
+As discussed above, prior analyses of viral vector vaccines against hCoV had indicated that this approach showed potential for inducing an immune response, but little information was available about the effect on real-world immunity.
+In the first phase of development, a candidate ChAdOx1 nCoV-19 was evaluated through the immune challenge of two animal models, mice and rhesus macaques [@doi:10.1038/s41586-020-2608-y].
+Animals in the treatment condition were observed to develop neutralizing antibodies specific to SARS-CoV-2 (both macaques and mice) and to show reduced clinical scores when exposed to SARS-CoV-2 (macaques) [@doi:10.1038/s41586-020-2608-y].
+Next, a phase I/II trial was undertaken using a single-blind, randomized controlled design [@doi:10/gg5gwk].
+ChAdOx1 nCoV-19 and a control, the meningococcal conjugate vaccine MenACWY, were administered intramuscularly to adults ages 18 to 55 at five sites within the United Kingdom (U.K.) at a 1:1 ratio (n=543 and n=534, respectively).
+All but ten participants received a single dose; this small group received a booster 28 days after their first dose of ChAdOx1 nCoV-19. 
+Commonly reported local adverse reactions included mild-to-moderate pain and tenderness at the injection site over the course of seven days, while the most common systemic adverse reactions were fatigue and headache; some patients reported severe adverse systemic effects.
+The study also reported that many common reactions could be reduced through the administration of paracetamol (acetaminophen), and paracetamol was not found to reduce immunogenicity.
+Patients receiving the ChAdOx1 nCoV-19 vaccine developed antibodies to the SARS-CoV-2 spike protein that peaked by day 28, with these levels remaining stable until a second observation at day 56 except in the ten patients who received a booster dose at day 28, in whom they increased by day 56.
+Analysis of serum indicated that participants developed antibodies to both S and the RBD, and that 100% of them achieved neutralizing titers by day 28.
+By day 35, the neutralization titers of vaccinated patients was comparable to that observed with plasma from convalescents.
+This initial study therefore suggested that the vaccine was likely to confer protection against SARS-CoV-2, although analysis of its efficacy in preventing COVID-19 was not reported.
+
+In December 2020, preliminary results of the phase III trial were released detailing randomized control trials conducted in the U.K., Brazil, and South Africa between April and November 2020 [@doi:10/fmq2].
+These trials again compared ChAdOx1 nCoV-19 to a control, but the design of each study varied.
+For example, in South Africa, the trial was double-blinded, whereas in the U.K. and Brazil it was single-blinded, and one of the two trials carried out in the U.K. examined two dosing regimens (low dose or standard dose, both followed by standard dose).
+Some of the trials used MenACWY as a control, while others used saline.
+Data was pooled across countries for analysis.
+The primary outcome assessed was symptomatic, laboratory-confirmed COVID-19.
+There were 131 cases observed among the 11,636 participants eligible for the primary efficacy analysis, corresponding to an overall efficacy of 70.4% (30 out of 5807 in the vaccine arm and 101 out of 5829 in the control arm); the 95.8% CI was reported as 54.8 to 80.6.
+However, a higher efficacy was reported in the subgroup of patients who received a low-dose followed by a standard dose (90.0%, 95% CI 67.4 to 97·0).
+A total of ten cases of severe COVID-19 resulting in hospitalization were observed among trial participants, and all of these occurred in patients in the control arm of the study.
+In line with the previously reported safety profiling for this vaccine, serious adverse events were reported to be comparable across the two arms of the study, with only three events identified as potentially associated with the vaccine itself.
+The U.K. Medicines and Healthcare Products Regulatory Agency (MHRA) approved ChAdOx1 nCoV-19 for emergency use on December 30, 2020 [@url:https://www.astrazeneca.com/media-centre/press-releases/2020/astrazenecas-covid-19-vaccine-authorised-in-uk.html].
+Additional data about the efficacy of this vaccine became available in a preprint released on March 2, 2021 [@doi:10.1101/2021.03.01.21252652].
+This report provided data describing the efficacy of ChAdOx1 nCoV-19, along with Pfizer/BioNTech's BNT162b2, in the U.K. between December 8, 2020 and February 19, 2021 and specifically sought to evaluate the efficacy of the vaccine in the presence of a potentially more contagious variant of concern, B.1.1.7.
+All participants in this study were age 70 or older and the efficacy was estimated to increase from 60% at 28 days after vaccination to 73% at 35 days after vaccination, although the standard error also increased over this time.
+Therefore, preliminary results suggest that in a number of samples, this vaccine confers a high level of protection against SARS-CoV-2.
+<!--To Do: Add discussion of all the drama-->
 
 #### Sputnik-V (Gam-COVID-Vac and Gam-COVID-Vac-Lyo)
 
@@ -3437,7 +3487,7 @@ Furthermore, the producers of Gam-COVID-Vac state that they can produce the vacc
 
 The Johnson & Johnson (J&J) vaccine developed by Janssen Pharmaceuticals, Inc., a subsidiary of J&J, was conducted in collaboration with and funded by “Operation Warp Speed” [@url:https://www.gao.gov/products/gao-21-319; @url:https://www.jnj.com/johnson-johnson-announces-a-lead-vaccine-candidate-for-covid-19-landmark-new-partnership-with-u-s-department-of-health-human-services-and-commitment-to-supply-one-billion-vaccines-worldwide-for-emergency-pandemic-use].  
 The vaccine candidate JNJ-78436735, formerly known as Ad26.COV2-S, is a monovalent vaccine that is composed of a replication-deficient adenovirus serotype 26 (Ad26) vector expressing the stabilized pre-fusion S protein of SARS-CoV-2 [@doi:10.1056/NEJMoa2034201;@doi:10.1038/s41541-020-00243-x]. 
-The vaccine was developed using Janssen’s AdVac^®^ and PER.C6 platforms that were previously utilized to develop the European Commission-approved Ebola vaccine (Ad26 ZEBOV and MVN-BN-Filo) and their Zika, respiratory syncytial (RSV), and human immunodeficiency virus (HIV) investigational vaccine candidates [@url:https://www.jnj.com/johnson-johnson-initiates-pivotal-global-phase-3-clinical-trial-of-janssens-covid-19-vaccine-candidate].
+The vaccine was developed using Janssen’s AdVac^®^ and PER.C6 platforms that were previously utilized to develop the European Commission-approved Ebola vaccine (Ad26 ZEBOV and MVN-BN-Filo) and their Zika, respiratory syncytial (RSV), and HIV investigational vaccine candidates [@url:https://www.jnj.com/johnson-johnson-initiates-pivotal-global-phase-3-clinical-trial-of-janssens-covid-19-vaccine-candidate].
 
 The development of a single-dose vaccine was desirable by J&J from the outset, with global deployment being a key priority [@doi:10.1038/s41586-020-2607-z].
 Using their AdVac^®^ technology, the vaccine can remain stable for up to two years between -15℃ and -25℃ and at least three months at 2-8℃ [@url:https://www.jnj.com/johnson-johnson-initiates-pivotal-global-phase-3-clinical-trial-of-janssens-covid-19-vaccine-candidate]. 
@@ -3501,6 +3551,15 @@ These findings underpin the importance of monitoring for the emergence of novel 
 Looking forward, Janssen are also running a phase III randomized, double-blind, placebo-controlled clinical trial, Ensemble 2, which aims to assess the efficacy, safety, and immunogenicity of a two-dose regimen of JNJ-78436735 administered 57 days apart. 
 This trial will enroll 30,000 participants ≥ 18 years old from Belgium, Colombia, France, Germany, Philippines, South Africa, Spain, U.K., and the U.S. [@url:https://www.jnj.com/johnson-johnson-initiates-second-global-phase-3-clinical-trial-of-its-janssen-covid-19-vaccine-candidate].
 This trial will also include participants with and without comorbidities associated with an increased risk of COVID-19. 
+
+#### Overall Status of Viral-Vector Vaccines
+
+The three viral-vector vaccines described above have demonstrated the potential for this technology to facilitate a quick response to an emerging pathogen.
+However, two of the three vaccines have faced a number of criticisms surrounding the implementation of their clinical trials.
+<--To Do: Suggestion to move some of the Sputnik controversy here, along with describing the issues with the AstraZeneca trial-->
+
+Additionally, though the vaccines are built using similar principles, there are some differences that might influence their efficacy as SARS-CoV-2 evolves.
+<--To Do: @agitter's suggestion to discuss prefusion conformation (J&J) vs not (the other two)-->
 
 ### Inactivated Whole Virus Vaccines
 
@@ -3637,7 +3696,7 @@ Both dose levels were able to induce high anti-spike IgG titers as well as neutr
 Based on both safety and efficacy data, the 5 &mu;g dosing regimen was selected as the optimal dose regiment for the ongoing phase III trial.
 Although the phase III trial data has not been published yet, Novavax announced an efficacy of 89.3% based on their phase 3 trial in the UK and South Africa.
 This trial included over 15,000 participants in the UK and 4,000 participants in South Africa with occurrence of a PCR-confirmed symptomatic case as the primary endpoint.
-In the first interim analysis (UK), 56 cases of COVID-19 were observed in the placebo group compared to 6 cases in the treatment group.
+In the first interim analysis (U.K.), 56 cases of COVID-19 were observed in the placebo group compared to 6 cases in the treatment group.
 Importantly, the vaccine candidate also shows significant clinical efficacy against the prevalent UK and South African variants.
 The company has also initiated the development of new constructs to select candidates that can be used as a booster against new strains and plans to initiate clinical trials for these new constructs in the second quarter of 2021.
 
@@ -3780,7 +3839,7 @@ India has vaccinated approximately 24 million people [@url:https://www.bloomberg
 This has been achieved by mainly using the AstraZeneca-University of Oxford vaccine, known as Covishield in India, which is also produced by the Serum Institute of India, and using India’s own Covaxin vaccine [@url:https://www.bbc.com/news/world-asia-india-55748124].
 India has also shipped approximately 58 million COVID-19 vaccines to 66 countries [@url:https://www.mea.gov.in/vaccine-supply.htm]
 Considering India produces approximately 60% of the world's vaccines prior to the pandemic, it is no surprise that several other vaccine candidates are under development. 
-These include ZyCov-Di a DNA vaccine produced by Zydus Cadila, HGCO19 India’s first mRNA vaccine produced by Genova and HDT Biotech Corporation (USA), and the Bio E subunit vaccine produced by Biological E in collaboration with US-based Dynavax and the Baylor College of Medicine [@url:https://www.bbc.com/news/world-asia-india-55748124]. 
+These include ZyCov-Di, a DNA vaccine produced by Zydus Cadila, HGCO19, India’s first mRNA vaccine produced by Genova and HDT Biotech Corporation (of the U.S.), and the Bio E subunit vaccine produced by Biological E in collaboration with U.S.-based Dynavax and the Baylor College of Medicine [@url:https://www.bbc.com/news/world-asia-india-55748124]. 
 
 In China, the Sinopharm-Beijing Institute vaccine, the Sinopharm-Wuhan Institute of Biological Products vaccine, the Sinovac Biotech (CoronaVac) vaccine, and CanSino Biologics vaccine are the main vaccines being distributed. 
 The Sinopharm-Beijing vaccine has been distributed to at least 16 countries. 
@@ -4479,6 +4538,7 @@ The goal of this manuscript is to present preliminary findings within the broade
 We thank Nick DeVito for assistance with the Evidence-Based Medicine Data Lab COVID-19 TrialsTracker data and Vincent Rubinetti and Daniel Himmelstein for feedback on and support with Manubot.
 We thank Yael Evelyn Marshall who contributed writing (original draft) as well as reviewing and editing of pieces of the text but who did not formally approve the manuscript, as well as Ronnie Russell, who contributed text to and helped develop the structure of the manuscript early in the writing process and Matthias Fax who helped with writing and editing text related to diagnostics.
 We are grateful to the following contributors for reviewing pieces of the text: Nadia Danilova, James Eberwine and Ipsita Krishnan.
+<!-- To Do: Add  Patryk Orzechowski to acknowledgements for vaccines-->
 
 
 ## References {.page_break_before}
