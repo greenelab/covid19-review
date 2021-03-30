@@ -1060,5 +1060,26 @@
   "container-title": "Manubot",
   "title": "Vaccine Development Strategies for SARS-CoV-2",
   "URL": "https://greenelab.github.io/covid19-review/v/d9d90fd7e88ef547fb4cbed0ef73baef5fee7fb5/#vaccine-development-strategies-for-sars-cov-2"
+},
+{
+  "type": "article-journal",
+  "id": "individual-evolution",
+  "author": [
+    {
+      "literal": "COVID-19 Review Consortium"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2021,
+        3,
+        30
+      ]
+    ]
+  },
+  "container-title": "Manubot",
+  "title": "Evolutionary and Genomic Analysis of SARS-CoV-2",
+  "URL": "https://greenelab.github.io/covid19-review/v/910dd7b7479f5336a1c911c57446829bef015dbe/#evolutionary-and-genomic-analysis-of-sars-cov-2"
 }
 ]
