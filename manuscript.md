@@ -254,13 +254,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/910dd7b7479f5336a1c911c57446829bef015dbe/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/910dd7b7479f5336a1c911c57446829bef015dbe/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/910dd7b7479f5336a1c911c57446829bef015dbe/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/1a3d04a48062ca377e61eba1aaddf214e581ae7d/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/1a3d04a48062ca377e61eba1aaddf214e581ae7d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/1a3d04a48062ca377e61eba1aaddf214e581ae7d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/910dd7b7479f5336a1c911c57446829bef015dbe/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/910dd7b7479f5336a1c911c57446829bef015dbe/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/1a3d04a48062ca377e61eba1aaddf214e581ae7d/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/1a3d04a48062ca377e61eba1aaddf214e581ae7d/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -282,9 +282,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/910dd7b7479f5336a1c911c57446829bef015dbe/))
+([permalink](https://greenelab.github.io/covid19-review/v/1a3d04a48062ca377e61eba1aaddf214e581ae7d/))
 was automatically generated
-from [greenelab/covid19-review@910dd7b](https://github.com/greenelab/covid19-review/tree/910dd7b7479f5336a1c911c57446829bef015dbe)
+from [greenelab/covid19-review@1a3d04a](https://github.com/greenelab/covid19-review/tree/1a3d04a48062ca377e61eba1aaddf214e581ae7d)
 on March 30, 2021.
 Snapshots of individual sections are available as preprints [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals].
 </em></small>
@@ -951,7 +951,7 @@ A heparan sulfate binding site has also been identified near the ACE2 binding si
 Degrading or removing heparan sulfate was associated with decreased binding [@doi:10.1016/j.cell.2020.09.033].
 Heparan sulfate may also interact with the S1/S2 proteolytic cleavage site and other binding sites to promote binding affinity [@doi:10.1101/2020.05.10.087288].
 Notably, treatment with soluble heparan sulfate or even heparin (a commonly used anti-coagulant and vasodilator that is similar in structure to heparan sulfate [@doi:10.1007/978-3-642-23056-1_8]) potently blocked spike protein binding and viral infection [@doi:10.1016/j.cell.2020.09.033]. 
-This finding is particularly interesting because degradation of heparan sulfate in the glycocalyx has previously been identified as an important contributor to ARDS and sepsis [@doi:10.1016/bs.ctm.2018.08.005], two common and severe outcomes of COVID-19, and suggests that heparan sulfate could be a target for pharmaceutical inhibition of cell entry by SARS-CoV-2 [@doi:10.1038/s41421-020-00222-5; @doi:10.1016/j.ebiom.2020.102969; @doi:10.1016/j.amjcard.2020.08.005; @doi:10.3390/nu13020328; @doi:/10.3389/fimmu.2021.607306].
+This finding is particularly interesting because degradation of heparan sulfate in the glycocalyx has previously been identified as an important contributor to ARDS and sepsis [@doi:10.1016/bs.ctm.2018.08.005], two common and severe outcomes of COVID-19, and suggests that heparan sulfate could be a target for pharmaceutical inhibition of cell entry by SARS-CoV-2 [@doi:10.1038/s41421-020-00222-5; @doi:10.1016/j.ebiom.2020.102969; @doi:10.1016/j.amjcard.2020.08.005; @doi:10.3390/nu13020328; @doi:10.3389/fimmu.2021.607306].
 Together, this evidence suggests that heparan sulfate can serve as an important adhesion molecule for SARS-CoV-2 cell entry and may represent a therapeutic target.
 
 #### Immune Evasion Strategies
@@ -3611,14 +3611,14 @@ The expressed spike protein contains mutations in the furin cleavage site (682-R
 The improved stability caused by the proline substitutions is particularly critical to facilitating global distribution, particularly to regions where local refrigerator/freezer capacities are limited.
 Importantly, these amino acid substitutions did not affect the ability of the spike protein to bind the hACE2 receptor (the target receptor of SARS-CoV-2 spike protein).
 The Novavax-CoV2373 vaccine candidate uses a proprietary, saponin-based Matrix-M^TM^ adjuvant that contains two different 40nm-sized particles formed by formulating purified saponin with cholesterol and phospholipids [@doi:10.1007/s12026-018-8991-x].
-In preclinical models, the use of the Matrix-M adjuvant potentiated the cellular and humoral immune responses to influenza vaccines [@doi:10.1016/j.vaccine.2013.01.039; @doi:10.1016/j.vaccine.2009.09.044; @doi:10.1111/j.1750- 2659.2011.00256.x; @doi:10.1007/s12026-018-8991-x].
-Importantly, Matrix-M adjuvant-containing vaccines have shown acceptable safety profiles in human clinical trials [@doi:10.1016/j.vaccine.2011.08. 042].
+In preclinical models, the use of the Matrix-M adjuvant potentiated the cellular and humoral immune responses to influenza vaccines [@doi:10.1016/j.vaccine.2013.01.039; @doi:10.1016/j.vaccine.2009.09.044; @doi:10.1111/j.1750-2659.2011.00256.x; @doi:10.1007/s12026-018-8991-x].
+Importantly, Matrix-M adjuvant-containing vaccines have shown acceptable safety profiles in human clinical trials [@doi:10.1016/j.vaccine.2011.08.042].
 
 In preclinical mouse models, Novavax-CoV2373 elicited high anti-spike IgG titers 21-28 days post-vaccination that could neutralize the SARS-CoV-2 virus and protect the animals against virus challenge [@doi:10.1038/s41467-020-20653-8]. 
 Antibody titers were significantly elevated in groups receiving the vaccine with the Matrix-M adjuvant compared to the groups without adjuvant.
 Novavax-CoV2373 was able to induce a multifunctional CD4/CD8 T-cell responses and generate high frequencies of follicular helper T-cells and B-cell germinal centers after vaccination.
 These findings were subsequently evaluated in a baboon primate model, in which Novavax-CoV2373 also elicited high antibody titers against the SARS-CoV-2 spike protein, as well as an antigen specific T-cell response.
-Based on this data Novavax initiated a Phase 1/2 clinical trial to evaluate the safety and immunogenicity of Novavax-CoV2373 with Matrix-M (NCT04368988)[@doi:10.1056/NEJMoa2026920].
+Based on this data Novavax initiated a Phase 1/2 clinical trial to evaluate the safety and immunogenicity of Novavax-CoV2373 with Matrix-M [@clinicaltrials:NCT04368988; @doi:10.1056/NEJMoa2026920].
 
 The phase I/II trial was a randomized, placebo-controlled study with 131 healthy adult participants in 5 treatment arms [@doi:10.1056/NEJMoa2026920].
 Participants that received the recombinant SARS-CoV-2 vaccine with or without the Matrix-M adjuvant got two injections, 21 days apart.
@@ -3724,7 +3724,7 @@ While Canada initially projected that by the end of September 2021 a vaccine wou
 
 In the U.S., vaccines are required to have demonstrated safety and efficacy in phase III trials before manufacturers apply for an emergency use authorization (EUA) from the FDA. 
 If an EUA is granted, an additional evaluation of the safety and efficacy of the vaccines is conducted by the CDC’s Advisory Committee on Immunization Practices (ACIP) who also provide guidance on vaccine prioritization. 
-On December 1st, 2020, ACIP provided an interim phase 1a recommendation that healthcare workers and long-term care facility residents should be the first to be offered any vaccine approved [@url:10.15585/mmwr.mm6949e1]. 
+On December 1st, 2020, ACIP provided an interim phase 1a recommendation that healthcare workers and long-term care facility residents should be the first to be offered any vaccine approved [@doi:10.15585/mmwr.mm6949e1]. 
 This was shortly followed by an EUA on December 11th, 2020 for the use of the Pfizer-BioNTech COVID vaccine [@doi:10.15585/mmwr.mm6950e2], which was distributed and administered to the first healthcare workers on December 14th, 2020 [@url:https://abcnews.go.com/US/us-administer-1st-doses-pfizer-coronavirus-vaccine/story?id=74703018]. 
 Shortly thereafter, an EUA for the Moderna vaccine was issue on December 18th, 2020 [@doi:10.15585/mmwr.mm695152e1]. 
 On December 20th, 2020, ACIP updated their initial recommendations to suggest that vaccinations should be offered to people aged 75 years old and older and to non-healthcare frontline workers in phase 1b [@doi:10.15585/mmwr.mm695152e2]. 
@@ -3743,7 +3743,7 @@ However, vaccine production, approval, and distribution was not straightforward 
 These political complications highlight the importance of the transparent vaccine approval process conducted by the FDA [@doi:10.1001/jama.2021.1961]. 
 
 Outside the U.S., the Moderna and Pfizer-BioNTech vaccines have been administered in 29 and 69 other countries, respectively, mainly in Europe and North America [@url:https://www.nytimes.com/interactive/2021/world/covid-vaccinations-tracker.html].
-The Janssen vaccine has so far only been administered in South Africa and the U.S. [@url:https://www.nytimes.com/interactive/2021/world/covid-vaccinations-tracker.html; https://www.biopharma-reporter.com/Article/2021/02/18/South-Africa-starts-administering-Janssen-COVID-19-vaccine-to-health-workers], but it has also been approved in Bahrain, the European Union (E.U.), Iceland, Liechtenstein, and Norway[@url:https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html].
+The Janssen vaccine has so far only been administered in South Africa and the U.S. [@url:https://www.nytimes.com/interactive/2021/world/covid-vaccinations-tracker.html; @url:https://www.biopharma-reporter.com/Article/2021/02/18/South-Africa-starts-administering-Janssen-COVID-19-vaccine-to-health-workers], but it has also been approved in Bahrain, the European Union (E.U.), Iceland, Liechtenstein, and Norway [@url:https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html].
 On March 11th, 2021, Johnson & Johnson received approval from the European Medicines Agency (EMA) for conditional marketing authorization of their vaccine [@url:https://www.ema.europa.eu/en/news/ema-receives-application-conditional-marketing-authorisation-covid-19-vaccine-janssen].
 Notably, on March 2nd, 2021, rivals Johnson & Johnson and Merck announced that they entered an agreement to increase production of the Janssen vaccine to meet global demand [@url:https://www.washingtonpost.com/health/2021/03/02/merck-johnson-and-johnson-covid-vaccine-partnership/].
 
@@ -3751,7 +3751,7 @@ The U.K. was the first country to approve use of the Pfizer-BioNTech vaccine on 
 The U.K. was also the first to administer the Pfizer-BioNTech vaccine, making it the first COVID-19 vaccine supported by phase III data to be administered outside of clinical trials on December 8th, 2020. 
 The Oxford-AstraZeneca vaccine, was approved by the Medicines and Healthcare Products Regulatory Agency (MHRA) in the U.K. and by EMA in the E.U. on December 30th (2020) [@url:https://www.gov.uk/government/publications/regulatory-approval-of-covid-19-vaccine-astrazeneca] and January 29th (2021) [@url:https://www.ema.europa.eu/en/news/ema-recommends-covid-19-vaccine-astrazeneca-authorisation-eu] respectively.
 The Oxford-AstraZeneca vaccine was first administered in the UK on January 4th, 2021 [@url:https://www.bbc.com/news/uk-55525542], and it is now being used in 53 countries in total, including Brazil, India, Pakistan, Mexico, and spanning most of Europe [@url:https://www.nytimes.com/interactive/2021/world/covid-vaccinations-tracker.html].
-The Moderna vaccine was authorized for use in the E.U. by EMA on January 6th, 2021 [@url:https://www.ema.europa.eu/en/medicines/human/EPAR/covid-19-vaccine-moderna#authorisation-details-section] and in the U.K. by MHRA on January 8th, 2021 [https://www.gov.uk/government/publications/regulatory-approval-of-covid-19-vaccine-moderna].
+The Moderna vaccine was authorized for use in the E.U. by EMA on January 6th, 2021 [@url:https://www.ema.europa.eu/en/medicines/human/EPAR/covid-19-vaccine-moderna#authorisation-details-section] and in the U.K. by MHRA on January 8th, 2021 [@url:https://www.gov.uk/government/publications/regulatory-approval-of-covid-19-vaccine-moderna].
 As of March 5th, 2021, 22 million people in the U.K. had received at least one vaccine dose [@url:https://ourworldindata.org/covid-vaccinations]. 
 
 While the Pfizer-BioNTech vaccine was the first to be distributed following phase III clinical trials, the first COVID-19 vaccine to be widely administered to people prior to the completion of phase III clinical trials was Sputnik V.
@@ -3766,7 +3766,7 @@ In Asia, while China’s vaccine candidates are favored, the Philippines, Nepal,
 In total, the RDIF claims to have received orders totalling 1.2 billion doses by over 50 countries worldwide [@url:https://rdif.ru/Eng_fullNews/5858/] and at least 18 countries are currently administering Sputnik V around the globe [@url:https://www.nytimes.com/interactive/2021/world/covid-vaccinations-tracker.html].
 Sputnik V has been an attractive vaccine for many countries due to its relatively low price, high efficacy, and its favorable storage conditions.
 For some countries, Russia and China have also been more palatable politically than vaccine suppliers in the West [@url:https://fortune.com/2021/02/08/international-sputnik-russia-demand/; @url:https://www.politico.com/news/2021/02/25/global-vaccine-public-relations-war-471665]. 
-For others, the delays in the distribution of the other, more-favored candidates has been a motivating factor for pursuing the Sputnik V and Chinese alternatives [@url:https://www.politico.com/news/2021/02/25/global-vaccine-public-relations-war-471665; https://www.euronews.com/2021/02/24/san-marino-buys-russia-s-sputnik-v-after-eu-vaccine-delivery-delays]. 
+For others, the delays in the distribution of the other, more-favored candidates has been a motivating factor for pursuing the Sputnik V and Chinese alternatives [@url:https://www.politico.com/news/2021/02/25/global-vaccine-public-relations-war-471665; @url:https://www.euronews.com/2021/02/24/san-marino-buys-russia-s-sputnik-v-after-eu-vaccine-delivery-delays]. 
 Additionally, Germany has stated that if Sputnik V were approved by EMA, it would be considered by the E.U. [@url:https://www.france24.com/en/live-news/20210203-germany-moves-to-bring-russian-vaccine-into-eu-orbit].
 Russia is developing other vaccine candidates and has approved a third vaccine, CoviVac, which is an inactivated vaccine produced by the Chumakov Centre in Moscow, despite the fact the clinical trials have yet to begin [@url:https://www.reuters.com/article/us-health-coronavirus-russia-vaccine-idUSKBN2AK07H]. 
 
