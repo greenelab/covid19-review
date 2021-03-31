@@ -2,11 +2,8 @@ import argparse
 import datetime
 import json
 from datetime import date
-import matplotlib.pyplot as plt
 import os
 import pandas as pd
-#import geopandas
-#import pycountry
 
 def convert_date(git_date):
     '''Reformat git commit style datetimes (ISO 8601) to Month DD, YYYY.
