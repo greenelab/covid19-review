@@ -8,9 +8,6 @@ import pandas as pd
 #import geopandas
 #import pycountry
 
-from manubot.cite.citekey import url_to_citekey
-from manubot.cite.doi import get_short_doi_url
-
 def convert_date(git_date):
     '''Reformat git commit style datetimes (ISO 8601) to Month DD, YYYY.
     Throws a ValueError if git_date cannot be parsed as an ISO 8601 datetime.
@@ -61,11 +58,11 @@ def main(args):
                                                 "World"].loc[vaccine_nums["date"] ==
                                                              owid_stats["most_recent_date"],
                                                              "daily_vaccinations_per_million"].item()))) + " per million"
-    owid_stats["total_countries"] = vaccine_locations["location"].nunique()
+    owid_stats["total_countries"] = format(vaccine_locations["location"].nunique())
 
     # Identify number of vaccine manufacturers included in location totals (not the same as manufacturer-specific data)
-    owid_stats["vaccine_types"] = len(set([item.strip() for countryList in vaccine_locations["vaccines"].to_list() for
-                                           item in countryList.split(",")]))
+    owid_stats["vaccine_types"] = format(len(set([item.strip() for countryList in vaccine_locations["vaccines"].to_list() for
+                                           item in countryList.split(",")])))
 
     with open(args.output_json, 'w') as out_file:
         json.dump(owid_stats, out_file, indent=2, sort_keys=True)
@@ -81,9 +78,3 @@ if __name__ == '__main__':
                         type=str)
     args = parser.parse_args()
     main(args)
-
-
-
-
-#print(vaccine_nums["total_vaccinations"])
-#As of March 6th, 2021, approximately 319 million vaccine doses have been administered in at least 118 countries worldwide using 10 different vaccines
