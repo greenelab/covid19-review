@@ -23,20 +23,24 @@ def main(args):
     # Import data from github.com/owid/covid-19-data
     owid_stats = dict()
 
+    # Download data from a specific commit if the environment variable is set,
+    # otherwise default to master
+    commit = 'master'
     if('OWID_COMMIT_SHA' in os.environ):
+        commit = os.environ['OWID_COMMIT_SHA']
         owid_stats['owid_commit_sha'] = os.environ['OWID_COMMIT_SHA']
     if('OWID_COMMIT_DATE' in os.environ):
         owid_stats['owid_commit_date'] = os.environ['OWID_COMMIT_DATE']
         owid_stats['owid_commit_date_pretty'] = convert_date(os.environ['OWID_COMMIT_DATE'])
 
     # Retrieve data from OWID
-    locations_url = 'https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/vaccinations/locations.csv'
+    locations_url = f'https://raw.githubusercontent.com/owid/covid-19-data/{commit}/public/data/vaccinations/locations.csv'
     vaccine_locations = pd.read_csv(locations_url, error_bad_lines=False)
 
-    numbers_url = 'https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/vaccinations/vaccinations.csv'
+    numbers_url = f'https://raw.githubusercontent.com/owid/covid-19-data/{commit}/public/data/vaccinations/vaccinations.csv'
     vaccine_nums = pd.read_csv(numbers_url, error_bad_lines=False)
 
-    manufacturer_url = 'https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/vaccinations/vaccinations-by-manufacturer.csv'
+    manufacturer_url = f'https://raw.githubusercontent.com/owid/covid-19-data/{commit}/public/data/vaccinations/vaccinations-by-manufacturer.csv'
     vaccine_manf = pd.read_csv(manufacturer_url , error_bad_lines=False)
 
     # Pull up-to-date statistics from data
