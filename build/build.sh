@@ -27,6 +27,7 @@ if [ "${BUILD_HTML:-}" != "false" ] || [ "${BUILD_PDF:-}" != "false" ] || [ "${B
     --output-directory=output \
     --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/csse/csse-stats.json \
     --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/ebmdatalab/ebmdatalab-stats.json \
+    --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/owiddata/owiddata-stats.json \
     --cache-directory=ci/cache \
     --skip-citations \
     --log-level=INFO
@@ -195,6 +196,7 @@ if [ "${BUILD_INDIVIDUAL:-}" = "true" ]; then
       --output-directory=output/$INDIVIDUAL_KEYWORD \
       --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/csse/csse-stats.json \
       --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/ebmdatalab/ebmdatalab-stats.json \
+      --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/owiddata/owiddata-stats.json \
       --template-variables-path=content/$INDIVIDUAL_KEYWORD/$INDIVIDUAL_KEYWORD.yaml \
       --cache-directory=ci/cache \
       --skip-citations \
