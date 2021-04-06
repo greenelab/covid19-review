@@ -27,6 +27,9 @@ jobs:
       - name: Update EBM Data Lab data
         shell: bash --login {0}
         run: bash ebmdatalab/generate-ebmdatalab-stats.sh
+      - name: Update OWID data
+        shell: bash --login {0}
+        run: bash owiddata/generate-owiddata-stats.sh
       - name: Commit JHU CSSE and EBM Data Lab figures
         uses: EndBug/add-and-commit@v4
         with:
@@ -40,13 +43,13 @@ jobs:
       - name: Update figure versions
         shell: bash --login {0}
         run: bash version-figures.sh
-      - name: Commit JHU CSSE and EBM Data Lab statistics
+      - name: Commit JHU CSSE, EBM Data Lab, and OWID statistics
         uses: EndBug/add-and-commit@v4
         with:
           add: '*/*.json'
           author_name: GitHub Actions
           author_email: actions@github.com
-          message: 'Update JHU CSSE and EBM Data Lab statistics'
+          message: 'Update JHU CSSE, EBM Data Lab, and OWID statistics'
           ref: external-resources
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
