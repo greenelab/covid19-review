@@ -1150,14 +1150,14 @@ authors:
         contributions:
           - Writing - Review & Editing
   -
-  github: NAIKA86
-  name: Amruta Naik
-  initials: AN
-  orcid: https://orcid.org/0000-0003-0673-2643
-  email: NAIKA@chop.edu
-  code of conduct:
+    github: NAIKA86
+    name: Amruta Naik
+    initials: AN
+    orcid: https://orcid.org/0000-0003-0673-2643
+    email: NAIKA@chop.edu
+    code of conduct:
       confirmed: Yes
-  affiliations: Children's Hospital of Philadelphia, Philadelphia, PA, United States of America
-  coi:
+    affiliations: Children's Hospital of Philadelphia, Philadelphia, PA, United States of America
+    coi:
       string: "None"
       lastapproved: !!str 2021-04-05
