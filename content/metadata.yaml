@@ -1109,7 +1109,7 @@ authors:
     github: rishirajgoel
     name: Rishi Raj Goel
     initials: RRG
-    orcid: https://orcid.org/0000-0003-1715-5191
+    orcid: 0000-0003-1715-5191
     email: rishi.goel@pennmedicine.upenn.edu
     twitter: rishirajgoel
     code of conduct:
@@ -1133,7 +1133,7 @@ authors:
     github: jboerckel
     name: Joel D Boerckel
     initials: JDB
-    orcid: https://orcid.org/0000-0003-3126-3025
+    orcid: 0000-0003-3126-3025
     email: boerckel@pennmedicine.upenn.edu
     twitter: jboerckel
     code of conduct:
@@ -1153,11 +1153,12 @@ authors:
     github: NAIKA86
     name: Amruta Naik
     initials: AN
-    orcid: https://orcid.org/0000-0003-0673-2643
+    orcid: 0000-0003-0673-2643
     email: NAIKA@chop.edu
     code of conduct:
       confirmed: Yes
-    affiliations: Children's Hospital of Philadelphia, Philadelphia, PA, United States of America
+    affiliations:
+      - Children's Hospital of Philadelphia, Philadelphia, PA, United States of America
     coi:
       string: "None"
       lastapproved: !!str 2021-04-05
