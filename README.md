@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/greenelab/covid19-review/tree/gh-pages) branch hosts the contents of this directory at <https://greenelab.github.io/covid19-review/>.
-The permalink for this webpage version is <https://greenelab.github.io/covid19-review/v/a45c79ac22ccecf28ccfce647b56fd15d6c2e9a3/>.
+The permalink for this webpage version is <https://greenelab.github.io/covid19-review/v/594ce95c8c7060af0a1686b5b684154d6ec1622b/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://greenelab.github.io/covid19-review/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`a45c79ac22ccecf28ccfce647b56fd15d6c2e9a3`](https://github.com/greenelab/covid19-review/commit/a45c79ac22ccecf28ccfce647b56fd15d6c2e9a3).
+[`594ce95c8c7060af0a1686b5b684154d6ec1622b`](https://github.com/greenelab/covid19-review/commit/594ce95c8c7060af0a1686b5b684154d6ec1622b).
