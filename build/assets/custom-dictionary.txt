@@ -168,6 +168,7 @@ Cynomolgus
 Cytometry
 Cytopathic
 D'Agostino
+DCGI
 DCs
 DETECTR
 DHA
@@ -313,6 +314,7 @@ Hyperplasia
 IAV
 IBD
 IC
+ICMR
 ICUs
 IEDB
 IFITM
@@ -463,6 +465,7 @@ NFKB
 NHBE
 NHC
 NHGRI
+NIV
 NK
 NKRF
 NL
@@ -491,6 +494,7 @@ Nutraceuticals
 NVX
 OC
 ODSP
+Ocugen
 Orf
 Orthocoronavirinae
 OSCI
@@ -738,6 +742,7 @@ adenoviral
 adenovirus
 adenoviruses
 adjuvant
+adjuvanted
 adjuvants
 adsorptive
 aerosolized
