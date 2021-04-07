@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2021-04-06'
+date-meta: '2021-04-07'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -55,6 +55,7 @@ author-meta:
 - COVID-19 Review Consortium
 - Rishi Raj Goel
 - Joel D Boerckel
+- Amruta Naik
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -65,8 +66,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2021-04-06" />
-  <meta name="citation_publication_date" content="2021-04-06" />
+  <meta name="dc.date" content="2021-04-07" />
+  <meta name="citation_publication_date" content="2021-04-07" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -245,22 +246,26 @@ header-includes: |-
   <meta name="citation_author_orcid" content="https://orcid.org/0000-0003-1715-5191" />
   <meta name="twitter:creator" content="@rishirajgoel" />
   <meta name="citation_author" content="Joel D Boerckel" />
-  <meta name="citation_author_institution" content="Department of Orthopaedic Surgery, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, United States of America - Department of Bioengineering, University of Pennsylvania, Philadelphia, PA, United States of America" />
+  <meta name="citation_author_institution" content="Department of Orthopaedic Surgery, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, United States of America" />
+  <meta name="citation_author_institution" content="Department of Bioengineering, University of Pennsylvania, Philadelphia, PA, United States of America" />
   <meta name="citation_author_orcid" content="https://orcid.org/0000-0003-3126-3025" />
   <meta name="twitter:creator" content="@jboerckel" />
+  <meta name="citation_author" content="Amruta Naik" />
+  <meta name="citation_author_institution" content="Children&#39;s Hospital of Philadelphia, Philadelphia, PA, United States of America" />
+  <meta name="citation_author_orcid" content="https://orcid.org/0000-0003-0673-2643" />
   <link rel="canonical" href="https://greenelab.github.io/covid19-review/" />
   <meta property="og:url" content="https://greenelab.github.io/covid19-review/" />
   <meta property="twitter:url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/d9d346c09cbcc35753eac825b8d2a4bcfbae71af/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/d9d346c09cbcc35753eac825b8d2a4bcfbae71af/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/d9d346c09cbcc35753eac825b8d2a4bcfbae71af/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/a45c79ac22ccecf28ccfce647b56fd15d6c2e9a3/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/a45c79ac22ccecf28ccfce647b56fd15d6c2e9a3/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/a45c79ac22ccecf28ccfce647b56fd15d6c2e9a3/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/d9d346c09cbcc35753eac825b8d2a4bcfbae71af/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/d9d346c09cbcc35753eac825b8d2a4bcfbae71af/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/a45c79ac22ccecf28ccfce647b56fd15d6c2e9a3/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/a45c79ac22ccecf28ccfce647b56fd15d6c2e9a3/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -282,10 +287,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/d9d346c09cbcc35753eac825b8d2a4bcfbae71af/))
+([permalink](https://greenelab.github.io/covid19-review/v/a45c79ac22ccecf28ccfce647b56fd15d6c2e9a3/))
 was automatically generated
-from [greenelab/covid19-review@d9d346c](https://github.com/greenelab/covid19-review/tree/d9d346c09cbcc35753eac825b8d2a4bcfbae71af)
-on April 6, 2021.
+from [greenelab/covid19-review@a45c79a](https://github.com/greenelab/covid19-review/tree/a45c79ac22ccecf28ccfce647b56fd15d6c2e9a3)
+on April 7, 2021.
 Snapshots of individual sections are available as preprints [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals].
 </em></small>
 
@@ -660,13 +665,20 @@ Instead, you should collect information from your local health department, the [
     [jboerckel](https://github.com/jboerckel) · ![Twitter icon](images/twitter.svg){.inline_icon}
     [jboerckel](https://twitter.com/jboerckel)<br>
   <small>
-     Department of Orthopaedic Surgery, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, United States of America - Department of Bioengineering, University of Pennsylvania, Philadelphia, PA, United States of America
+     Department of Orthopaedic Surgery, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, United States of America; Department of Bioengineering, University of Pennsylvania, Philadelphia, PA, United States of America
+  </small>
+
++ **Amruta Naik**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [https://orcid.org/0000-0003-0673-2643](https://orcid.org/https://orcid.org/0000-0003-0673-2643) · ![GitHub icon](images/github.svg){.inline_icon}
+    [NAIKA86](https://github.com/NAIKA86)<br>
+  <small>
+     Children's Hospital of Philadelphia, Philadelphia, PA, United States of America
   </small>
 
 
 
 **COVID-19 Review Consortium:**
-Vikas Bansal, John P. Barton, Simina M. Boca, Joel D Boerckel, Christian Brueffer, James Brian Byrd, Stephen Capone, Shikta Das, Anna Ada Dattoli, John J. Dziak, Jeffrey M. Field, Soumita Ghosh, Anthony Gitter, Rishi Raj Goel, Casey S. Greene, Marouen Ben Guebila, Fengling Hu, Nafisa M. Jadavji, Sergey Knyazev, Likhitha Kolla, Alexandra J. Lee, Ronan Lordan, Tiago Lubiana, Temitayo Lukan, Adam L. MacLean, David Mai, Serghei Mangul, David Manheim, Lucy D\'Agostino McGowan, YoSon Park, Dimitri Perrin, Yanjun Qi, Diane N. Rafizadeh, Bharath Ramsundar, Halie M. Rando, Sandipan Ray, Michael P. Robson, Elizabeth Sell, Lamonica Shinholster, Ashwin N. Skelly, Yuchen Sun, Gregory L Szeto, Ryan Velazquez, Jinhui Wang, Nils Wellhausen
+Vikas Bansal, John P. Barton, Simina M. Boca, Joel D Boerckel, Christian Brueffer, James Brian Byrd, Stephen Capone, Shikta Das, Anna Ada Dattoli, John J. Dziak, Jeffrey M. Field, Soumita Ghosh, Anthony Gitter, Rishi Raj Goel, Casey S. Greene, Marouen Ben Guebila, Fengling Hu, Nafisa M. Jadavji, Sergey Knyazev, Likhitha Kolla, Alexandra J. Lee, Ronan Lordan, Tiago Lubiana, Temitayo Lukan, Adam L. MacLean, David Mai, Serghei Mangul, David Manheim, Lucy D\'Agostino McGowan, Amruta Naik, YoSon Park, Dimitri Perrin, Yanjun Qi, Diane N. Rafizadeh, Bharath Ramsundar, Halie M. Rando, Sandipan Ray, Michael P. Robson, Elizabeth Sell, Lamonica Shinholster, Ashwin N. Skelly, Yuchen Sun, Gregory L Szeto, Ryan Velazquez, Jinhui Wang, Nils Wellhausen
 
 
 Authors are ordered arbitrarily.
@@ -704,12 +716,12 @@ Most of these cases were in China, but one to two exported cases had also been i
 One week later, 4,593 confirmed cases had been identified, spanning not only Asia, but also Australia, North America, and Europe [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128-sitrep-8-ncov-cleared.pdf].
 On March 11, 2020, the WHO formally classified the situation as a pandemic [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200311-sitrep-51-covid-19.pdf].
 On April 4, 2020, the WHO reported that the global number of confirmed cases had surpassed one million [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200404-sitrep-75-covid-19.pdf].
-<!--2,852,987 COVID-19 deaths had been reported worldwide as of April 4, 2021 (Figure @fig:csse-deaths).
+<!--2,860,554 COVID-19 deaths had been reported worldwide as of April 5, 2021 (Figure @fig:csse-deaths).
 
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
-](https://github.com/greenelab/covid19-review/raw/5515a4f7452e60bc564eabe6f4c45e8cf9bf9c2a/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1} -->
+](https://github.com/greenelab/covid19-review/raw/07c4e34a89ef6b2b11e338e1fdb2fc6630508190/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1} -->
 
 As international attention remains focused on the ongoing public health crisis, the scientific community has responded by mobilizing resources and turning much of its attention to the virus and disease.
 This rapid influx of information is disseminated by traditional publishing mechanisms, preprint servers, and press releases, which provide a venue for scientists to release findings without undergoing the formal publication process.
@@ -1905,12 +1917,12 @@ Prophylactics bolster immunity to prevent an individual from contracting a disea
 While a number of vaccines have recently been developed, approved, or are currently being evaluated by the US Food and Drug Administration and other regional and international bodies, vaccination programs only started being rolled out at the very end of 2020 and beginning of 2021, meaning that treatments that palliate symptoms and prevent the most severe outcomes have been necessary for much of 2020 and will continue to be necessary for the foreseeable future [@individual-vaccines].
 Fortunately, prior developments during other recent pandemics, especially those caused by human coronaviruses (HCoV), have provided a number of hypotheses guiding a biomedical approach to the novel coronavirus infection.
 
-2,852,987 COVID-19 deaths had been reported worldwide as of April 4, 2021 (Figure @fig:csse-deaths).
+2,860,554 COVID-19 deaths had been reported worldwide as of April 5, 2021 (Figure @fig:csse-deaths).
 
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
-](https://github.com/greenelab/covid19-review/raw/5515a4f7452e60bc564eabe6f4c45e8cf9bf9c2a/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
+](https://github.com/greenelab/covid19-review/raw/07c4e34a89ef6b2b11e338e1fdb2fc6630508190/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
 
 #### Lessons from Prior HCoV Outbreaks
 
@@ -1977,7 +1989,7 @@ Recruitment status and trial phase are shown only for interventional trials in w
 The common interventions are all interventions used in at least ten trials.
 Combinations of interventions, such as Hydroxychloroquine + Azithromycin, are tallied separately from the individual interventions.
 Trials data are from the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709].
-](https://github.com/greenelab/covid19-review/raw/5515a4f7452e60bc564eabe6f4c45e8cf9bf9c2a/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/07c4e34a89ef6b2b11e338e1fdb2fc6630508190/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 ### Small Molecule Drugs
 
@@ -3157,6 +3169,30 @@ Because of the broad public appeal of dietary supplements and nutraceuticals, it
 We will continue to update this review as more findings become available.
 
 
+### COVAXIN/BBV152
+
+India, the biggest producer of vaccines globally, has developed COVAXIN®, which is an indigenous COVID-19 vaccine researched and manufactured by Bharat Biotech International Ltd. in collaboration with the Indian Council of Medical Research (ICMR) - National Institute of Virology (NIV). 
+Bharat Biotech reported 80.6% vaccine efficacy for its whole virion inactivated  BBV152 (COVAXIN®) vaccine candidate in 25,800 participants in phase III clinical trials [@url:https://www.bharatbiotech.com/images/press/covaxin-phase3-efficacy-results.pdf; @url:https://www.biogenetech.co.th/wp-content/uploads/2021/03/5-Ocugen.pdf]. 
+It was reported in _The Lancet_ that the BBV152 vaccine candidate adjuvanted with alum and a Toll-like receptor 7/8 (TLR7/8) agonist is safe, immunogenic, and induces Th1-skewed memory T-cell responses upon immunization [@doi:10/gh7597].
+Importantly, sera from individuals vaccinated with COVAXIN^®^ efficiently neutralized the B.1.1.7 variant and the heterologous strain of SARS-CoV-2 [@doi:10.1101/2021.01.26.426986].
+U.S.-based Ocugen Inc., a  co-development partner of Bharat Biotech, is leading the application for an Emergency Use Authorization (EUA) for COVAXIN™ intended for the U.S. market. 
+As of April 1, 2021 COVAXIN® has been approved for emergency use in Iran, Zimbabwe, and Nepal, and Mauritius and Paraguay have received a commercial supply of the vaccine.
+In Asia, China and India are the main COVID-19 vaccination developers and providers.
+Thus far, over 63 million people have been vaccinated against COVID-19 in India [@url:https://www.mygov.in/covid-19/].
+A broad range of COVID-19 vaccine candidates are under investigation in order to respond to the COVID-19 pandemic.
+In India, the Covaxin vaccine produced by Bharat Biotech received emergency authorization on January 3rd, 2021, despite the lack of phase III data until March 3rd [@url:india-covid-19-vaccine.html; @url:https://www.bharatbiotech.com/images/press/covaxin-phase3-efficacy-results.pdf].
+Following the release of the phase III data indicating 81% efficacy, Zimbabwe authorized the use of Covaxin [@url:http://www.xinhuanet.com/english/2021-03/04/c_139783893.htm].
+In addition to COVAXIN®, Bharat Biotech has also developed an adenovirus vector-based intranasal BBV154 vaccine candidate that induces neutralizing IgG, mucosal IgA, and T cell responses [@url:https://www.bharatbiotech.com/intranasal-vaccine.html]. 
+In February, 2021, Bharat Biotech received approval from Indian officials to commence a phase I study of this intranasal chimpanzee-adenovirus (ChAd) vectored SARS-CoV-2-S vaccine [@url:https://www.bharatbiotech.com/intranasal-vaccine.html]. 
+Another Indian pharmaceutical industry, Zydus Cadila is developing India’s first indigenous DNA vaccine candidate ZyCoV-D [@doi:10.1101/2021.01.26.428240]  which has completed phase I and II clinical trials and has received approval from Drugs Controller General of India (DCGI) to conduct a phase III clinical trial [@url:https://vaccine.icmr.org.in/covid-19-vaccine].
+Moreover, Indian-based Biological E.Limited has partnered with U.S.-based biopharmaceutical company Dynavax Technologies Corporation and Baylor College of Medicine, Texas, to initiate a phase I/II clinical trial in India for its COVID-19 subunit vaccine, which consists of the RBD of the spike protein of SARS-CoV-2 [@url:https://vaccine.icmr.org.in/covid-19-vaccine]. 
+Notably, Novavax has signed an agreement with the Serum Institute of India allowing them to produce up to 2 billion doses a year [@url:https://www.reuters.com/article/health-coronavirus-novavax-idUSKBN2661PI].
+Novavax has also signed agreements with the U.K., Canada, Australia, and South Korea [@url:https://ir.novavax.com/news-releases/news-release-details/novavax-announces-expanded-collaboration-and-license-agreement] and has projected that they will supply 1.1 billion doses to COVAX who will distribute the vaccines to countries with disadvantaged access to vaccine supplies [@url:https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html].
+India has vaccinated approximately 24 million people [@url:https://www.bloomberg.com/graphics/covid-vaccine-tracker-global-distribution/].
+This has been achieved by mainly using the AstraZeneca-University of Oxford vaccine, known as Covishield in India, which is also produced by the Serum Institute of India, and using India’s own Covaxin vaccine [@url:https://www.bbc.com/news/world-asia-india-55748124].
+India has also shipped approximately 58 million COVID-19 vaccines to 66 countries [@url:https://www.mea.gov.in/vaccine-supply.htm]
+Considering India produces approximately 60% of the world's vaccines prior to the pandemic, it is no surprise that several other vaccine candidates are under development.
+These include ZyCov-Di, a DNA vaccine produced by Zydus Cadila, HGCO19, India’s first mRNA vaccine produced by Genova and HDT Biotech Corporation (of the U.S.), and the Bio E subunit vaccine produced by Biological E in collaboration with U.S.-based Dynavax and the Baylor College of Medicine [@url:https://www.bbc.com/news/world-asia-india-55748124].
 
 
 ## Vaccine Development Strategies for SARS-CoV-2
@@ -4104,7 +4140,7 @@ Trials that recruit across multiple countries do appear to broaden geographic re
 The density of clinical trials is reported at the country level.
 As of November 9, 2020, there are 6,417 trials in the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709], of which 3,706 are interventional.
 The top figure demonstrates the density of interventional trials recruiting only from a singular country, while the bottom shows the distribution of recruitment for interventional trials that involve more than one country.
-](https://github.com/greenelab/covid19-review/raw/5515a4f7452e60bc564eabe6f4c45e8cf9bf9c2a/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
+](https://github.com/greenelab/covid19-review/raw/07c4e34a89ef6b2b11e338e1fdb2fc6630508190/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
 
 A few different concerns arise from this skewed geographic representation in clinical trial recruitment.
 First, treatments such as remdesivir that are promising but primarily available to clinical trial participants are unlikely to be accessible by people in many countries.
@@ -4480,6 +4516,7 @@ The goal of this manuscript is to present preliminary findings within the broade
 |COVID-19 Review Consortium|None|2021-01-16|
 |Rishi Raj Goel|None|2021-01-20|
 |Joel D Boerckel|None|2021-03-26|
+|Amruta Naik|None|2021-04-05|
 
 ### Author Contributions
 
@@ -4532,6 +4569,7 @@ The goal of this manuscript is to present preliminary findings within the broade
 |COVID-19 Review Consortium|Project Administration|
 |Rishi Raj Goel|Writing - Original Draft, Writing - Review & Editing|
 |Joel D Boerckel|Writing - Review & Editing|
+|Amruta Naik|**MISSING**|
 
 ### Acknowledgements
 
