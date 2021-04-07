@@ -243,29 +243,29 @@ header-includes: |-
   <meta name="citation_author" content="COVID-19 Review Consortium" />
   <meta name="citation_author" content="Rishi Raj Goel" />
   <meta name="citation_author_institution" content="Institute for Immunology, University of Pennsylvania, Philadelphia, PA, United States of America" />
-  <meta name="citation_author_orcid" content="https://orcid.org/0000-0003-1715-5191" />
+  <meta name="citation_author_orcid" content="0000-0003-1715-5191" />
   <meta name="twitter:creator" content="@rishirajgoel" />
   <meta name="citation_author" content="Joel D Boerckel" />
   <meta name="citation_author_institution" content="Department of Orthopaedic Surgery, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, United States of America" />
   <meta name="citation_author_institution" content="Department of Bioengineering, University of Pennsylvania, Philadelphia, PA, United States of America" />
-  <meta name="citation_author_orcid" content="https://orcid.org/0000-0003-3126-3025" />
+  <meta name="citation_author_orcid" content="0000-0003-3126-3025" />
   <meta name="twitter:creator" content="@jboerckel" />
   <meta name="citation_author" content="Amruta Naik" />
   <meta name="citation_author_institution" content="Children&#39;s Hospital of Philadelphia, Philadelphia, PA, United States of America" />
-  <meta name="citation_author_orcid" content="https://orcid.org/0000-0003-0673-2643" />
+  <meta name="citation_author_orcid" content="0000-0003-0673-2643" />
   <link rel="canonical" href="https://greenelab.github.io/covid19-review/" />
   <meta property="og:url" content="https://greenelab.github.io/covid19-review/" />
   <meta property="twitter:url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/a45c79ac22ccecf28ccfce647b56fd15d6c2e9a3/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/a45c79ac22ccecf28ccfce647b56fd15d6c2e9a3/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/a45c79ac22ccecf28ccfce647b56fd15d6c2e9a3/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/594ce95c8c7060af0a1686b5b684154d6ec1622b/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/594ce95c8c7060af0a1686b5b684154d6ec1622b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/594ce95c8c7060af0a1686b5b684154d6ec1622b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/a45c79ac22ccecf28ccfce647b56fd15d6c2e9a3/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/a45c79ac22ccecf28ccfce647b56fd15d6c2e9a3/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/594ce95c8c7060af0a1686b5b684154d6ec1622b/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/594ce95c8c7060af0a1686b5b684154d6ec1622b/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -287,9 +287,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/a45c79ac22ccecf28ccfce647b56fd15d6c2e9a3/))
+([permalink](https://greenelab.github.io/covid19-review/v/594ce95c8c7060af0a1686b5b684154d6ec1622b/))
 was automatically generated
-from [greenelab/covid19-review@a45c79a](https://github.com/greenelab/covid19-review/tree/a45c79ac22ccecf28ccfce647b56fd15d6c2e9a3)
+from [greenelab/covid19-review@594ce95](https://github.com/greenelab/covid19-review/tree/594ce95c8c7060af0a1686b5b684154d6ec1622b)
 on April 7, 2021.
 Snapshots of individual sections are available as preprints [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals].
 </em></small>
@@ -653,7 +653,7 @@ Instead, you should collect information from your local health department, the [
   </small>
 
 + **Rishi Raj Goel**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [https://orcid.org/0000-0003-1715-5191](https://orcid.org/https://orcid.org/0000-0003-1715-5191) · ![GitHub icon](images/github.svg){.inline_icon}
+    [0000-0003-1715-5191](https://orcid.org/0000-0003-1715-5191) · ![GitHub icon](images/github.svg){.inline_icon}
     [rishirajgoel](https://github.com/rishirajgoel) · ![Twitter icon](images/twitter.svg){.inline_icon}
     [rishirajgoel](https://twitter.com/rishirajgoel)<br>
   <small>
@@ -661,7 +661,7 @@ Instead, you should collect information from your local health department, the [
   </small>
 
 + **Joel D Boerckel**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [https://orcid.org/0000-0003-3126-3025](https://orcid.org/https://orcid.org/0000-0003-3126-3025) · ![GitHub icon](images/github.svg){.inline_icon}
+    [0000-0003-3126-3025](https://orcid.org/0000-0003-3126-3025) · ![GitHub icon](images/github.svg){.inline_icon}
     [jboerckel](https://github.com/jboerckel) · ![Twitter icon](images/twitter.svg){.inline_icon}
     [jboerckel](https://twitter.com/jboerckel)<br>
   <small>
@@ -669,7 +669,7 @@ Instead, you should collect information from your local health department, the [
   </small>
 
 + **Amruta Naik**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [https://orcid.org/0000-0003-0673-2643](https://orcid.org/https://orcid.org/0000-0003-0673-2643) · ![GitHub icon](images/github.svg){.inline_icon}
+    [0000-0003-0673-2643](https://orcid.org/0000-0003-0673-2643) · ![GitHub icon](images/github.svg){.inline_icon}
     [NAIKA86](https://github.com/NAIKA86)<br>
   <small>
      Children's Hospital of Philadelphia, Philadelphia, PA, United States of America
