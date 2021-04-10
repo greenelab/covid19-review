@@ -1162,3 +1162,22 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2021-04-05
+ -
+    github: yusha-sun
+    name: Yusha Sun
+    initials: YS
+    orcid: 0000-0003-4835-3000
+    email: yusha.sun@pennmedicine.upenn.edu
+    code of conduct:
+      confirmed: Yes
+    affiliations:
+      - Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+    coi:
+      string: "None"
+      lastapproved: !!str 2021-04-10
+    manuscripts:
+      evolution:
+        order: 0
+        contributions:
+          - Writing - Review & Editing
+          
