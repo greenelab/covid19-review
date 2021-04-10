@@ -1162,7 +1162,7 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2021-04-05
- -
+  -
     github: yusha-sun
     name: Yusha Sun
     initials: YS
@@ -1180,4 +1180,3 @@ authors:
         order: 0
         contributions:
           - Writing - Review & Editing
-          
