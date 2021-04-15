@@ -424,6 +424,7 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-11-11
+    manuscripts:
       pharmaceuticals:
         order: 7
         contributions:
@@ -476,7 +477,7 @@ authors:
           - Writing - Review & Editing
           - Writing - Original Draft
       pharmaceuticals:
-        order: 5
+        order: 4
         contributions:
           - Writing - Original Draft
           - Writing - Review & Editing
@@ -516,6 +517,7 @@ authors:
         order: 4
         contributions:
           - Writing - Original Draft
+          - Writing - Review & Editing
   -
     github: nafisajadavji
     name: Nafisa M. Jadavji
@@ -542,6 +544,7 @@ authors:
         contributions:
           - Writing - Review & Editing
           - Supervision
+          - Writing - Original Draft
   -
     github: esell17
     name: Elizabeth Sell
@@ -571,7 +574,7 @@ authors:
     orcid: 0000-0002-5796-8130
     email: jinhui2@pennmedicine.upenn.edu
     contributions:
-      - Writing - Revising & Editing
+      - Writing - Review & Editing
     code of conduct:
       confirmed: No
     affiliations:
@@ -597,6 +600,7 @@ authors:
     contributions:
       - Writing - Original Draft
       - Writing - Review & Editing
+      - Project Administration
     affiliations:
       - Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
       - Department of Chemistry, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
@@ -752,9 +756,10 @@ authors:
           - Writing - Review & Editing
           - Writing - Original Draft
       pharmaceuticals:
-        order: 5
+        order: 4
         contributions:
           - Writing - Original Draft
+          - Writing - Review & Editing
   -
     github: ypar
     name: YoSon Park
@@ -1104,7 +1109,7 @@ authors:
     github: rishirajgoel
     name: Rishi Raj Goel
     initials: RRG
-    orcid: https://orcid.org/0000-0003-1715-5191
+    orcid: 0000-0003-1715-5191
     email: rishi.goel@pennmedicine.upenn.edu
     twitter: rishirajgoel
     code of conduct:
@@ -1122,5 +1127,56 @@ authors:
           - Writing - Review & Editing
       pharmaceuticals:
         order: 7
+        contributions:
+          - Writing - Review & Editing
+  -
+    github: jboerckel
+    name: Joel D Boerckel
+    initials: JDB
+    orcid: 0000-0003-3126-3025
+    email: boerckel@pennmedicine.upenn.edu
+    twitter: jboerckel
+    code of conduct:
+      confirmed: Yes
+    affiliations:
+      - Department of Orthopaedic Surgery, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, United States of America
+      - Department of Bioengineering, University of Pennsylvania, Philadelphia, PA, United States of America
+    coi:
+      string: "None"
+      lastapproved: !!str 2021-03-26
+    manuscripts:
+      pathogenesis:
+        order: 0
+        contributions:
+          - Writing - Review & Editing
+  -
+    github: NAIKA86
+    name: Amruta Naik
+    initials: AN
+    orcid: 0000-0003-0673-2643
+    email: NAIKA@chop.edu
+    code of conduct:
+      confirmed: Yes
+    affiliations:
+      - Children's Hospital of Philadelphia, Philadelphia, PA, United States of America
+    coi:
+      string: "None"
+      lastapproved: !!str 2021-04-05
+  -
+    github: yusha-sun
+    name: Yusha Sun
+    initials: YS
+    orcid: 0000-0003-4835-3000
+    email: yusha.sun@pennmedicine.upenn.edu
+    code of conduct:
+      confirmed: Yes
+    affiliations:
+      - Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+    coi:
+      string: "None"
+      lastapproved: !!str 2021-04-10
+    manuscripts:
+      evolution:
+        order: 0
         contributions:
           - Writing - Review & Editing
