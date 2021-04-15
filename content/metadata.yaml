@@ -1109,7 +1109,7 @@ authors:
     github: rishirajgoel
     name: Rishi Raj Goel
     initials: RRG
-    orcid: https://orcid.org/0000-0003-1715-5191
+    orcid: 0000-0003-1715-5191
     email: rishi.goel@pennmedicine.upenn.edu
     twitter: rishirajgoel
     code of conduct:
@@ -1133,19 +1133,50 @@ authors:
     github: jboerckel
     name: Joel D Boerckel
     initials: JDB
-    orcid: https://orcid.org/0000-0003-3126-3025
+    orcid: 0000-0003-3126-3025
     email: boerckel@pennmedicine.upenn.edu
     twitter: jboerckel
     code of conduct:
       confirmed: Yes
     affiliations:
       - Department of Orthopaedic Surgery, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, United States of America
-            - Department of Bioengineering, University of Pennsylvania, Philadelphia, PA, United States of America
+      - Department of Bioengineering, University of Pennsylvania, Philadelphia, PA, United States of America
     coi:
       string: "None"
       lastapproved: !!str 2021-03-26
     manuscripts:
       pathogenesis:
+        order: 0
+        contributions:
+          - Writing - Review & Editing
+  -
+    github: NAIKA86
+    name: Amruta Naik
+    initials: AN
+    orcid: 0000-0003-0673-2643
+    email: NAIKA@chop.edu
+    code of conduct:
+      confirmed: Yes
+    affiliations:
+      - Children's Hospital of Philadelphia, Philadelphia, PA, United States of America
+    coi:
+      string: "None"
+      lastapproved: !!str 2021-04-05
+  -
+    github: yusha-sun
+    name: Yusha Sun
+    initials: YS
+    orcid: 0000-0003-4835-3000
+    email: yusha.sun@pennmedicine.upenn.edu
+    code of conduct:
+      confirmed: Yes
+    affiliations:
+      - Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+    coi:
+      string: "None"
+      lastapproved: !!str 2021-04-10
+    manuscripts:
+      evolution:
         order: 0
         contributions:
           - Writing - Review & Editing
