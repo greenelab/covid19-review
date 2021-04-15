@@ -30,6 +30,7 @@ Akt
 Alexandropoulos
 Allograft
 Amazonas
+Amruta
 Anhui
 ApoA
 Arbidol
@@ -168,6 +169,7 @@ Cynomolgus
 Cytometry
 Cytopathic
 D'Agostino
+DCGI
 DCs
 DETECTR
 DHA
@@ -313,6 +315,7 @@ Hyperplasia
 IAV
 IBD
 IC
+ICMR
 ICUs
 IEDB
 IFITM
@@ -326,6 +329,7 @@ IG
 IGs
 IHC
 IIa
+IIb
 IMV
 INO
 INOVIO
@@ -454,6 +458,7 @@ Mpro
 Mpro's
 Mycobacterium
 Médecine
+NAIKA
 NCBI
 NCIP
 NCP
@@ -463,6 +468,7 @@ NFKB
 NHBE
 NHC
 NHGRI
+NIV
 NK
 NKRF
 NL
@@ -475,6 +481,7 @@ NSPRRARSV
 NTD
 NaCl
 Nafisa
+Naik
 Nanopore
 Nationale
 Nederland
@@ -491,6 +498,7 @@ Nutraceuticals
 NVX
 OC
 ODSP
+Ocugen
 Orf
 Orthocoronavirinae
 OSCI
@@ -627,6 +635,7 @@ SinsOfOmission
 Skelly
 Soumita
 SpO
+States’s
 Suining
 Suo
 Synairgen
@@ -738,6 +747,7 @@ adenoviral
 adenovirus
 adenoviruses
 adjuvant
+adjuvanted
 adjuvants
 adsorptive
 aerosolized
@@ -890,6 +900,7 @@ daveomai
 davidmanheim
 ddPCR
 decr
+debatably
 defensin
 defensins
 deltacoronaviruses
@@ -973,6 +984,7 @@ fnx
 foci
 follicular
 fomite
+fpcx
 frameshifting
 frontline
 ftzx
@@ -1024,6 +1036,7 @@ histopathology
 hoc
 homology
 homozygosity
+horsepox
 hotspots
 hpi
 hufengling
@@ -1425,8 +1438,9 @@ ribosomes
 rishirajgoel
 ritonavir
 rmrussell
-rootstock
 rollout
+rootstock
+rotavirus
 sACE
 sIL
 saponin
@@ -1435,6 +1449,7 @@ sarbecoviruses
 sarcoidosis
 sarilumab
 scRNA
+scalability
 scalable
 secno
 segmental
@@ -1554,6 +1569,7 @@ vaccinia
 vascularized
 vasculitis
 vasodilator
+variolation
 virally
 virals
 viremia
