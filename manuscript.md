@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2021-04-07'
+date-meta: '2021-04-15'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -56,6 +56,7 @@ author-meta:
 - Rishi Raj Goel
 - Joel D Boerckel
 - Amruta Naik
+- Yusha Sun
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -66,8 +67,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2021-04-07" />
-  <meta name="citation_publication_date" content="2021-04-07" />
+  <meta name="dc.date" content="2021-04-15" />
+  <meta name="citation_publication_date" content="2021-04-15" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -253,19 +254,22 @@ header-includes: |-
   <meta name="citation_author" content="Amruta Naik" />
   <meta name="citation_author_institution" content="Children&#39;s Hospital of Philadelphia, Philadelphia, PA, United States of America" />
   <meta name="citation_author_orcid" content="0000-0003-0673-2643" />
+  <meta name="citation_author" content="Yusha Sun" />
+  <meta name="citation_author_institution" content="Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America" />
+  <meta name="citation_author_orcid" content="0000-0003-4835-3000" />
   <link rel="canonical" href="https://greenelab.github.io/covid19-review/" />
   <meta property="og:url" content="https://greenelab.github.io/covid19-review/" />
   <meta property="twitter:url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/24a03606dd1b0da479538763fa1daa4a3e4beedc/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/24a03606dd1b0da479538763fa1daa4a3e4beedc/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/24a03606dd1b0da479538763fa1daa4a3e4beedc/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/0ad11b9e4947e707dd880383da70f67e938647f8/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/0ad11b9e4947e707dd880383da70f67e938647f8/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/0ad11b9e4947e707dd880383da70f67e938647f8/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/24a03606dd1b0da479538763fa1daa4a3e4beedc/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/24a03606dd1b0da479538763fa1daa4a3e4beedc/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/0ad11b9e4947e707dd880383da70f67e938647f8/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/0ad11b9e4947e707dd880383da70f67e938647f8/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -287,10 +291,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/24a03606dd1b0da479538763fa1daa4a3e4beedc/))
+([permalink](https://greenelab.github.io/covid19-review/v/0ad11b9e4947e707dd880383da70f67e938647f8/))
 was automatically generated
-from [greenelab/covid19-review@24a0360](https://github.com/greenelab/covid19-review/tree/24a03606dd1b0da479538763fa1daa4a3e4beedc)
-on April 7, 2021.
+from [greenelab/covid19-review@0ad11b9](https://github.com/greenelab/covid19-review/tree/0ad11b9e4947e707dd880383da70f67e938647f8)
+on April 15, 2021.
 Snapshots of individual sections are available as preprints [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals].
 </em></small>
 
@@ -675,10 +679,17 @@ Instead, you should collect information from your local health department, the [
      Children's Hospital of Philadelphia, Philadelphia, PA, United States of America
   </small>
 
++ **Yusha Sun**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0003-4835-3000](https://orcid.org/0000-0003-4835-3000) · ![GitHub icon](images/github.svg){.inline_icon}
+    [yusha-sun](https://github.com/yusha-sun)<br>
+  <small>
+     Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+  </small>
+
 
 
 **COVID-19 Review Consortium:**
-Vikas Bansal, John P. Barton, Simina M. Boca, Joel D Boerckel, Christian Brueffer, James Brian Byrd, Stephen Capone, Shikta Das, Anna Ada Dattoli, John J. Dziak, Jeffrey M. Field, Soumita Ghosh, Anthony Gitter, Rishi Raj Goel, Casey S. Greene, Marouen Ben Guebila, Fengling Hu, Nafisa M. Jadavji, Sergey Knyazev, Likhitha Kolla, Alexandra J. Lee, Ronan Lordan, Tiago Lubiana, Temitayo Lukan, Adam L. MacLean, David Mai, Serghei Mangul, David Manheim, Lucy D\'Agostino McGowan, Amruta Naik, YoSon Park, Dimitri Perrin, Yanjun Qi, Diane N. Rafizadeh, Bharath Ramsundar, Halie M. Rando, Sandipan Ray, Michael P. Robson, Elizabeth Sell, Lamonica Shinholster, Ashwin N. Skelly, Yuchen Sun, Gregory L Szeto, Ryan Velazquez, Jinhui Wang, Nils Wellhausen
+Vikas Bansal, John P. Barton, Simina M. Boca, Joel D Boerckel, Christian Brueffer, James Brian Byrd, Stephen Capone, Shikta Das, Anna Ada Dattoli, John J. Dziak, Jeffrey M. Field, Soumita Ghosh, Anthony Gitter, Rishi Raj Goel, Casey S. Greene, Marouen Ben Guebila, Fengling Hu, Nafisa M. Jadavji, Sergey Knyazev, Likhitha Kolla, Alexandra J. Lee, Ronan Lordan, Tiago Lubiana, Temitayo Lukan, Adam L. MacLean, David Mai, Serghei Mangul, David Manheim, Lucy D\'Agostino McGowan, Amruta Naik, YoSon Park, Dimitri Perrin, Yanjun Qi, Diane N. Rafizadeh, Bharath Ramsundar, Halie M. Rando, Sandipan Ray, Michael P. Robson, Elizabeth Sell, Lamonica Shinholster, Ashwin N. Skelly, Yuchen Sun, Yusha Sun, Gregory L Szeto, Ryan Velazquez, Jinhui Wang, Nils Wellhausen
 
 
 Authors are ordered arbitrarily.
@@ -716,12 +727,12 @@ Most of these cases were in China, but one to two exported cases had also been i
 One week later, 4,593 confirmed cases had been identified, spanning not only Asia, but also Australia, North America, and Europe [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128-sitrep-8-ncov-cleared.pdf].
 On March 11, 2020, the WHO formally classified the situation as a pandemic [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200311-sitrep-51-covid-19.pdf].
 On April 4, 2020, the WHO reported that the global number of confirmed cases had surpassed one million [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200404-sitrep-75-covid-19.pdf].
-<!--2,860,554 COVID-19 deaths had been reported worldwide as of April 5, 2021 (Figure @fig:csse-deaths).
+<!--2,959,084 COVID-19 deaths had been reported worldwide as of April 13, 2021 (Figure @fig:csse-deaths).
 
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
-](https://github.com/greenelab/covid19-review/raw/07c4e34a89ef6b2b11e338e1fdb2fc6630508190/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1} -->
+](https://github.com/greenelab/covid19-review/raw/10c455f8097a893532ffefa1c13ba7277b3d289b/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1} -->
 
 As international attention remains focused on the ongoing public health crisis, the scientific community has responded by mobilizing resources and turning much of its attention to the virus and disease.
 This rapid influx of information is disseminated by traditional publishing mechanisms, preprint servers, and press releases, which provide a venue for scientists to release findings without undergoing the formal publication process.
@@ -1387,9 +1398,9 @@ At present, understanding the SARS-CoV-2 virus and its pathogenesis is critical 
 The first genome sequence of the virus was released on January 3, 2020. 
 It revealed that the cluster of pneumonia cases seen in Wuhan were caused by a novel coronavirus [@doi:10.46234/ccdcw2020.017].
 Multiple research groups have drafted the genome sequence of SARS-CoV-2 based on sequences developed from clinical samples collected from the lower respiratory tract, namely bronchoalveolar lavage fluid (BALF), and the upper respiratory tract, in the form of throat and nasopharyngeal swabs [@doi:10.1038/s41586-020-2008-3; @doi:10.1038/s41586-020-2012-7; @doi:10/ggjr43].
-Analysis of the SARS-CoV-2 genome revealed significant sequence homology with two coronaviruses known to infect humans, with about 79% identity to SARS-CoV-1 and 50% to MERS-CoV [@doi:10/ggjr43].
+Analysis of the SARS-CoV-2 genome revealed significant sequence homology with two coronaviruses known to infect humans, with about 79% shared sequence identity with SARS-CoV-1 and 50% with MERS-CoV [@doi:10/ggjr43].
 However, in this analysis, the highest degree of similarity was observed between SARS-CoV-2 and bat-derived SARS-like coronaviruses (bat-SL-CoVZC45 and bat-SL-CoVZXC21) [@doi:10/ggjr43].
-Other analyses have reported even greater similarity between SARS-CoV-2 and the bat coronavirus BatCoV-RaTG13, with identity as high as 96.2% [@doi:10.1038/s41586-020-2012-7; @doi:10.1093/nsr/nwaa036], and the closely related pangolin coronavirus [@doi:10.1101/2020.02.19.950253].
+Other analyses have reported even greater similarity between SARS-CoV-2 and the bat coronavirus BatCoV-RaTG13, with shared sequence identity as high as 96.2% [@doi:10.1038/s41586-020-2012-7; @doi:10.1093/nsr/nwaa036], and the closely related pangolin coronavirus [@doi:10.1101/2020.02.19.950253].
 This evidence therefore suggests the SARS-CoV-2 virus is the result of zoonotic transfer of a virus from bats to humans.
 Nevertheless, some fragments between SARS-CoV-2 and RATG13 differ by up to 17%, suggesting a complex natural selection process during zoonotic transfer.
 While the _S_ region is highly similar to that of viruses found in pangolins [@doi:10.1101/2020.02.19.950253], there is no consensus about the origin of _S_ in SARS-CoV-2, as it could potentially be the result either of recombination or coevolution [@doi:10.1093/nsr/nwaa036; @doi:10.1126/sciadv.abb9153].
@@ -1458,10 +1469,10 @@ The SARS-CoV-2 mutation rate is moderate compared to other RNA viruses [@doi:10.
 Nevertheless, genomic analyses have yielded statistical evidence of ongoing evolution.
 Initially, two known variants of the spike protein emerged that differed by a single amino acid at position 614 (G614 and D614), and there is evidence that G614 had become more prevalent than D614 by June 2020 [@doi:10.1016/j.cell.2020.06.043].
 While there is a hypothesis that this genomic change increased the SARS-CoV-2 infectivity and virulence, this hypothesis has not yet been tested due to a lack of data [@doi:10.1016/j.cell.2020.06.040].
-Another study [@doi:10.1016/j.meegid.2020.104351] identified 198 recurrent mutations in a dataset of 7,666 curated sequences.
+Another study [@doi:10.1016/j.meegid.2020.104351] identified 198 recurrent mutations in a dataset of 7,666 curated sequences, all of which defined nonsynonymous protein-level modifications.
 This pattern of convergent evolution at some sites could indicate that certain mutations confer an adaptive advantage.
 While it is evident that SARS-CoV-2 exhibits moderate potential for ongoing and future evolution, the relationship between mutations and pathogenicity is not yet known.
-Additional data is needed in order to understand patterns of evolutionary change and whether they are likely to affect virulence.
+Additional data is needed in order to understand patterns of evolutionary change and the mechanisms by which they might affect virulence.
 
 Several factors could promote the evolution of SARS-CoV-2, including host immunodeficiency and transient exposure to antibodies directed against SARS-CoV-2 proteins. 
 A single case study of SARS-CoV-2 infection in an immunocompromised female with chronic lymphocytic leukemia and hypogammaglobulinemia [@doi:10.1016/j.cell.2020.10.049] suggested that an accelerated evolution of the virus could occur in conditions of immunodeficiency. 
@@ -1476,7 +1487,7 @@ In particular, the first case highlighted the role of convalescent plasma in cre
 In fact, one study [@doi:10.1101/2020.12.28.424451] exposed the SARS-CoV-2 virus to convalescent plasma _in vitro_ repeatedly to see how much plasma was required to neutralize the virus.
 The results of the first six exposures were similar, but they reported that after the seventh exposure (on day 45), the amount of plasma required began to increase.
 In analyzing the viral variants present, they found that this viral escape was promoted by the sudden accumulation of mutations, especially in the receptor-binding domain (RBD) and N-terminal domain (NTD), that quickly rose in frequency.
-By the thirteenth exposure (day 85), the virus had evolved three mutations and could not longer be neutralized by the plasma used.
+By the thirteenth exposure (day 85), the virus had evolved three mutations and could no longer be neutralized by the plasma used, even though the plasma was comprised of polyclonal serum that targeted a variety of epitopes.
 Taken together, these observations suggest that evolutionary analyses of SARS-CoV-2 can provide crucial information about the conditions that promote resistance in SARS-CoV-2 and the kinetics of how resistance develops, information which will be important for understanding the implications of how vaccine regimens are designed and whether/when next-generation vaccines will be needed.
 
 When variants occur, they can rise in frequency by chance or through an adaptive process that confers a competitive advantage to the virus.
@@ -1504,17 +1515,21 @@ Since then, B.1.1.7 has spread across the UK and internationally, and it has now
 Of the twenty-three mutations that define B.1.1.7 from the original strain isolated in Wuhan (lineage A), fourteen are lineage-specific and three appear to be biologically consequential mutations associated with the spike protein, namely N501Y, P681H, and 69-70del [@url:https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/947048/Technical_Briefing_VOC_SH_NJL2_SH2.pdf;  @url:https://virological.org/t/preliminary-genomic-characterisation-of-an-emergent-sars-cov-2-lineage-in-the-uk-defined-by-a-novel-set-of-spike-mutations/563].
 The latter is a 6-bp deletion that leads to the loss of two amino acids and has consequences for immune recognition; it may, in conjunction with N501Y, be responsible for the increased transmissibility of the B.1.1.7 VOC due to changes in the RBD that increase binding affinity with ACE2 [@url:https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/947048/Technical_Briefing_VOC_SH_NJL2_SH2.pdf; @doi:10.1101/2020.12.14.422555]. 
 B.1.1.7 has increased transmissibility by up to 56%, leading to an R~0~ of approximately 1.4.
-While there is also the possibility that this VOC may be associated with increased disease severity, there is currently insufficient evidence to draw any conclusions [@url:https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/955239/NERVTAG_paper_on_variant_of_concern__VOC__B.1.1.7.pdf; @doi:10.1101/2020.12.24.20248822; @doi:10.1101/2020.12.30.20249034; @url:https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/952490/Variant_of_Concern_VOC_202012_01_Technical_Briefing_4_England.pdf].
+Additionally, this VOC has been shown to be associated with increased disease severity and increased mortality [@doi:10.1038/s41586-021-03426-1]. 
 Other variants also express the 69-70del mutation [@url:https://virological.org/t/identification-of-a-novel-sars-cov-2-spike-69-70-deletion-lineage-circulating-in-the-united-states/577; @doi:10.1101/2020.12.24.20248814], and public health officials in the United States and the UK have been able to use RT-PCR-based assays (ThermoFisher TaqPath COVID-19 assay) to identify sequences with this deletion because it occurs where the qPCR probe binds [@doi:10.1101/2020.12.30.20249034]. 
 In the UK, B.1.1.7 is present in more than 97% of diagnostic tests that return negative for S-gene targets and positive for the other targets; thus, the frequency of S-gene target failure can be used as a proxy for the detection of B.1.1.7 [@url:https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/947048/Technical_Briefing_VOC_SH_NJL2_SH2.pdf; https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/950823/Variant_of_Concern_VOC_202012_01_Technical_Briefing_3_-_England.pdf]._
 The FDA has highlighted that the performance of three diagnostic tests may be affected by the B.1.1.7 lineage because it could cause false negative tests [@url:https://www.fda.gov/medical-devices/letters-health-care-providers/genetic-variants-sars-cov-2-may-lead-false-negative-results-molecular-tests-detection-sars-cov-2].
 
-While B.1.1.7 is currently the main VOC, other genetic variants not designated VOCs have been detected, including B.1.351 and P.1, both of which emerged independently [@url:https://www.cdc.gov/coronavirus/2019-ncov/more/science-and-research/scientific-brief-emerging-variants.html].
+While B.1.1.7 is currently the main VOC, other genetic variants also currently designated as VOCs have been detected, including B.1.351 and P.1, both of which emerged independently [@url:https://www.cdc.gov/coronavirus/2019-ncov/more/science-and-research/scientific-brief-emerging-variants.html; @url:https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/variant-surveillance/variant-info.html].
 B.1.351 was first detected in October 2020 in South Africa, was later detected in the EU on December 28th, 2020 and has now spread to at least 26 countries [@url:https://www.gov.za/speeches/minister-zweli-mkhize-confirms-8-725-more-cases-coronavirus-covid-19-18-dec-2020-0000; @url:https://cov-lineages.org/global_report_B.1.351.html; @url:https://virological.org/t/tracking-the-international-spread-of-sars-cov-2-lineages-b-1-1-7-and-b-1-351-501y-v2/592]. 
 B.1.351 contains several mutations at the RBD including K417N, E484K, and N501Y.
 While the biological significance of these mutations are still under investigation, it does appear that this lineage may be associated with increased transmissibility [@doi:10.1101/2020.12.21.20248640] due to the N501Y mutation [@doi:10.1101/2020.12.14.422555; @url:https://virological.org/t/preliminary-genomic-characterisation-of-an-emergent-sars-cov-2-lineage-in-the-uk-defined-by-a-novel-set-of-spike-mutations/563].
+Additionally, an analysis of a pseudovirus expressing the 501Y.V2 spike protein (B.1.351) showed that this variant demonstrates increased resistance to neutralization by convalescent plasma, even though total binding activity remained mostly intact [@doi:10.1038/s41591-021-01285-x].
+Further, using a live virus neutralization assay (LVNA), it was shown that 501Y.V2 (B.1.351) is poorly neutralized by convalescent plasma obtained from individuals who responded to non-501Y.V2 variants [@doi:10.1038/s41586-021-03471-w]. 
+However, 501Y.V2 infection-elicited plasma was able to cross-neutralize earlier non-501Y.V2 variants, suggesting that vaccines targeting VOCs may be effective against other mutant lineages [@doi:10.1038/s41586-021-03471-w].
+
 The P.1 variant is a sublineage of the B.1.1.28 lineage that was first detected in Japan in samples obtained from four travelers from Brazil during a screening at a Tokyo airport on January 10, 2021 [@url:https://www.ecdc.europa.eu/sites/default/files/documents/COVID-19-risk-related-to-spread-of-new-SARS-CoV-2-variants-EU-EEA-first-update.pdf].
-Shortly thereafter, it was established that there was a concentration of cases of the P.1 variant in Manaus, in the Amazonas State, Brazil.
+Shortly thereafter, it was established that there was a concentration of cases of the P.1 variant in Manaus, Brazil.
 In a small number of samples (n=31) sequenced in Manaus, 42% were identified as the P.1 variant as early as mid-December, but the variant seemed to be absent in genome surveillance testing prior to December [@url:https://virological.org/t/genomic-characterisation-of-an-emergent-sars-cov-2-lineage-in-manaus-preliminary-findings/586].
 To date, at least eight countries have detected the P.1 lineage [@url:https://cov-lineages.org/global_report_P.1.html].
 While the majority of P.1 cases detected internationally have been linked to travel originating from Brazil, the UK has also reported evidence of community transmission detected via routine community sequencing [@url:https://cov-lineages.org/global_report_P.1.html; @url:https://www.reuters.com/article/us-health-coronavirus-britain-variants/uk-detects-77-cases-of-south-african-covid-variant-nine-of-brazilian-idUSKBN29T07P].  
@@ -1522,13 +1537,13 @@ P.1 has eight lineage-specific mutations along with three concerning spike prote
  
 There have been multiple different SARS-CoV-2 lineages detected that have mostly been of no more clinical concern than the original devastating lineage originating in Wuhan [@url:https://cov-lineages.org/lineages.html].
 However, the spotlight has been cast on other variants of unknown clinical relevance due to the increase of cases observed that have been associated with B.1.1.7 in particular.  
-Although early in its ascendency, B.1.427/429 is SARS-CoV-2 variants that was detected in California, USA and also known as CAL.20C [@doi:10.1101/2021.01.18.21249786].
+Although early in its ascendency, B.1.427/429 are SARS-CoV-2 variants that was detected in California, USA and also known as CAL.20C [@doi:10.1101/2021.01.18.21249786].
 It was first detected in July 2020 but was not detected again until October 2020. 
 In December 2020, B.1.427/429 accounted for ~24% of the total cases in Southern California and ~36% of total cases in the Los Angeles area. 
-B.1.427/429 has now been detected in New York and Washington, D.C., and some cases have been reported outside the USA in Oceania [@doi:10.1101/2021.01.18.21249786].
+B.1.427/429 have now been detected in several U.S. states and at least 38 countries worldwide [@url:https://www.gisaid.org/hcov19-variants/; @doi:10.1101/2021.01.18.21249786].
 This variant is characterized by five key lineage-specific mutations (ORF1a: I4205V, ORF1b:D1183Y, S: S13I;W152C;L452R).
 The latter spike mutation, L452R, is found in an area of the RBD known to resist monoclonal antibodies to the spike protein [@doi:10.1016/j.cell.2020.07.012], and it is hypothesized that this mutation may resist polyclonal sera in convalescent patients or in individuals post-vaccination [@doi:10.1101/2020.12.31.425021; @doi:10.1101/2021.01.18.21249786].
-B.1.427/429 is not a designated VOC; however, further research is required to determine the implications of the mutations encoded in this genetic variant.  
+B.1.427/429 are now designated VOCs [@url:https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/variant-surveillance/variant-info.html]; however, further research is still required to determine the implications of the mutations encoded in this genetic variant.  
 Another notable variant has recently been discovered in 35 patients in a Bavarian hospital in Germany; however, the sequencing data has not been published to date and it remains to be determined whether this variant is of any further concern [@url:https://www.br.de/nachrichten/bayern/neue-coronavirus-mutation-35-faelle-in-garmisch-partenkirchen,SMQ1V6u].
 
 There are several shared mutations and deletions between the three lineages, P.1, B.1.1.7, and B.1.315 and indeed other variants of SARS-CoV-2 that are under investigation [@url:https://virological.org/t/genomic-characterisation-of-an-emergent-sars-cov-2-lineage-in-manaus-preliminary-findings/586].
@@ -1546,7 +1561,9 @@ Moderna recently published data for their mRNA-1273 vaccine that showed no signi
 On the other hand, Moderna reported a reduced but significant neutralization against the B.1.351 variant upon vaccination [@doi:10.1101/2021.01.25.427948].
 Indeed, Pfizer–BioNTech reported that sera from twenty participants vaccinated with the BNT162b COVID-19 vaccine in previous clinical trials [@doi:10.1056/NEJMoa2034577; @doi:10.1056/NEJMoa2027906] elicited equivalent neutralizing titers against isogenic Y501 SARS-CoV-2 on an N501Y genetic background _in vitro_ [@doi:10.1101/2021.01.07.425740].
 Another study has reported that the plasma neutralizing activity against SARS-CoV-2 variants encoding the combination of K417N:E484K:N501Y or E484K or N501Y was variably and significantly reduced in the sera of twenty participants who received either the Pfizer–BioNTech BNT162b (n = 6) vaccine or the Moderna’s mRNA-1273 vaccine (n =14) [@doi:10.1101/2021.01.15.426911]. 
-For now, the consensus appears to be that the FDA approved vaccines still seem to be effective against the genetic variants of SARS-CoV-2 and their accompanying mutations, albeit with a slightly lower neutralizing capacity [@doi:10.1073/pnas.2008281117; @doi:10.1101/2021.01.15.426911; @doi:10.1101/2021.01.07.425740; @doi:10.1101/2021.01.25.427948]. 
+In a study focusing on serum samples from a combination of convalescent individuals, those who obtained the mRNA-1273 vaccine, and those who obtained Novavax, in comparison to the D614G variant, the B.1.419 variant was 2-3 times less sensitive to neutralization while the B.1.351 variant was 9-14 times less sensitive [@doi:10.1056/NEJMc2103740].
+Indeed, the E484K substitution seen in the P.1 and B.1.315 variants of the B.1.1.7 lineage are broadly reported to substantially reduce the efficacy of mRNA-based vaccines [@doi:10/f53t; @doi:10.1038/s41586-021-03412-7; @doi:10.1056/NEJMc2103740]. 
+For now, the consensus appears to be that the FDA-approved vaccines still seem to be generally effective against the genetic variants of SARS-CoV-2 and their accompanying mutations, albeit with a lower neutralizing capacity [@doi:10.1073/pnas.2008281117; @doi:10.1101/2021.01.15.426911; @doi:10.1101/2021.01.07.425740; @doi:10.1101/2021.01.25.427948], though select VOCs may present challenges. 
 Further research is required to discern the clinical, prophylactic, and therapeutic consequences of these genetic SARS-CoV-2 variants as the pandemic evolves. 
 
 ### Conclusions
@@ -1917,12 +1934,12 @@ Prophylactics bolster immunity to prevent an individual from contracting a disea
 While a number of vaccines have recently been developed, approved, or are currently being evaluated by the US Food and Drug Administration and other regional and international bodies, vaccination programs only started being rolled out at the very end of 2020 and beginning of 2021, meaning that treatments that palliate symptoms and prevent the most severe outcomes have been necessary for much of 2020 and will continue to be necessary for the foreseeable future [@individual-vaccines].
 Fortunately, prior developments during other recent pandemics, especially those caused by human coronaviruses (HCoV), have provided a number of hypotheses guiding a biomedical approach to the novel coronavirus infection.
 
-2,860,554 COVID-19 deaths had been reported worldwide as of April 5, 2021 (Figure @fig:csse-deaths).
+2,959,084 COVID-19 deaths had been reported worldwide as of April 13, 2021 (Figure @fig:csse-deaths).
 
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
-](https://github.com/greenelab/covid19-review/raw/07c4e34a89ef6b2b11e338e1fdb2fc6630508190/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
+](https://github.com/greenelab/covid19-review/raw/10c455f8097a893532ffefa1c13ba7277b3d289b/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
 
 #### Lessons from Prior HCoV Outbreaks
 
@@ -1989,7 +2006,7 @@ Recruitment status and trial phase are shown only for interventional trials in w
 The common interventions are all interventions used in at least ten trials.
 Combinations of interventions, such as Hydroxychloroquine + Azithromycin, are tallied separately from the individual interventions.
 Trials data are from the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709].
-](https://github.com/greenelab/covid19-review/raw/07c4e34a89ef6b2b11e338e1fdb2fc6630508190/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/10c455f8097a893532ffefa1c13ba7277b3d289b/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 ### Small Molecule Drugs
 
@@ -4419,7 +4436,7 @@ Trials that recruit across multiple countries do appear to broaden geographic re
 The density of clinical trials is reported at the country level.
 As of November 9, 2020, there are 6,417 trials in the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709], of which 3,706 are interventional.
 The top figure demonstrates the density of interventional trials recruiting only from a singular country, while the bottom shows the distribution of recruitment for interventional trials that involve more than one country.
-](https://github.com/greenelab/covid19-review/raw/07c4e34a89ef6b2b11e338e1fdb2fc6630508190/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
+](https://github.com/greenelab/covid19-review/raw/10c455f8097a893532ffefa1c13ba7277b3d289b/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
 
 A few different concerns arise from this skewed geographic representation in clinical trial recruitment.
 First, treatments such as remdesivir that are promising but primarily available to clinical trial participants are unlikely to be accessible by people in many countries.
@@ -4796,6 +4813,7 @@ The goal of this manuscript is to present preliminary findings within the broade
 |Rishi Raj Goel|None|2021-01-20|
 |Joel D Boerckel|None|2021-03-26|
 |Amruta Naik|None|2021-04-05|
+|Yusha Sun|None|2021-04-10|
 
 ### Author Contributions
 
@@ -4849,6 +4867,7 @@ The goal of this manuscript is to present preliminary findings within the broade
 |Rishi Raj Goel|Writing - Original Draft, Writing - Review & Editing|
 |Joel D Boerckel|Writing - Review & Editing|
 |Amruta Naik|**MISSING**|
+|Yusha Sun|Writing - Review & Editing|
 
 ### Acknowledgements
 

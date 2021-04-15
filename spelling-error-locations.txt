@@ -1,2 +1,4 @@
+content/09.evolution.md:83:nonsynonymous
+content/09.evolution.md:139:LVNA
 content/23.vaccines-app.md:15:IgGs
 content/23.vaccines-app.md:387:IgGs
