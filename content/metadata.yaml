@@ -58,6 +58,10 @@ authors:
         contributions:
           - A
           - E
+      methods:
+        order: 1
+        contributions:
+          - Project Administration
   -
     github: cgreene
     name: Casey S. Greene
@@ -1103,6 +1107,10 @@ authors:
           - Project Administration
       pharmaceuticals:
         order: 8
+        contributions:
+          - Project Administration
+      methods:
+        order: 2
         contributions:
           - Project Administration
   -
