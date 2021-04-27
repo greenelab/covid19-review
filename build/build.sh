@@ -259,10 +259,10 @@ if [ "${BUILD_INDIVIDUAL:-}" = "true" ]; then
     pandoc --verbose \
       --data-dir="$PANDOC_DATA_DIR" \
       --defaults=common.yaml \
-      --defaults=docx.yaml \
+      --defaults=latex.yaml \
       --metadata=title:"$INDIVIDUAL_TITLE" \
       output/$INDIVIDUAL_KEYWORD/manuscript.md
-      mv output/manuscript.docx output/$INDIVIDUAL_KEYWORD-manuscript.docx
+      mv output/manuscript.tex output/$INDIVIDUAL_KEYWORD-manuscript.tex
 
     rm -rf content/$INDIVIDUAL_KEYWORD
     rm -rf output/$INDIVIDUAL_KEYWORD
