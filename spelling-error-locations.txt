@@ -2,3 +2,14 @@ content/09.evolution.md:83:nonsynonymous
 content/09.evolution.md:139:LVNA
 content/23.vaccines-app.md:15:IgGs
 content/23.vaccines-app.md:387:IgGs
+content/60.methods.md:8:CCS
+content/60.methods.md:64:ECRs
+content/60.methods.md:80:Manubot's
+content/60.methods.md:110:scite
+content/60.methods.md:142:scite
+content/60.methods.md:159:ECR
+content/60.methods.md:160:ECRs
+content/60.methods.md:164:docx
+content/60.methods.md:166:scite
+content/60.methods.md:168:Docx
+content/60.methods.md:169:docx
