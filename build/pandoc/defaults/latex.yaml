@@ -16,3 +16,7 @@ number-offset: [0,0,0,0,0,0]
 # offset Manubot's use of level-1 headings for the title only
 shift-heading-level-by: -1
 standalone: true
+#template: https://raw.githubusercontent.com/sachsmc/pandoc-journal-templates/master/amstat/amstat.latex
+template: https://raw.githubusercontent.com/Wandmalfarbe/pandoc-latex-template/master/eisvogel.tex
+#template: https://raw.githubusercontent.com/jakobib/pandoc-acm-templates/master/shortpaper.latex
+cite-method: natbib

@@ -256,11 +256,12 @@ if [ "${BUILD_INDIVIDUAL:-}" = "true" ]; then
       --skip-citations \
       --log-level=INFO
 
+    # Need to update the metadata to set the authors and affiliations instead of writing them in the document
     pandoc --verbose \
       --data-dir="$PANDOC_DATA_DIR" \
       --defaults=latex.yaml \
       --metadata=title:"$INDIVIDUAL_TITLE" \
-      --natbib \
+      --metadata=author:"Test Author" \
       output/$INDIVIDUAL_KEYWORD/manuscript.md
       mv output/manuscript.tex output/$INDIVIDUAL_KEYWORD-manuscript.tex
 
