@@ -16,4 +16,3 @@ number-offset: [0,0,0,0,0,0]
 # offset Manubot's use of level-1 headings for the title only
 shift-heading-level-by: -1
 standalone: true
-natbib: true

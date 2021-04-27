@@ -260,11 +260,19 @@ if [ "${BUILD_INDIVIDUAL:-}" = "true" ]; then
       --data-dir="$PANDOC_DATA_DIR" \
       --defaults=latex.yaml \
       --metadata=title:"$INDIVIDUAL_TITLE" \
+      --natbib \
       output/$INDIVIDUAL_KEYWORD/manuscript.md
       mv output/manuscript.tex output/$INDIVIDUAL_KEYWORD-manuscript.tex
 
-    #rm -rf content/$INDIVIDUAL_KEYWORD
-    #rm -rf output/$INDIVIDUAL_KEYWORD
+    # Translate the CSL JSON references Manubot output into BibTeX
+    pandoc --verbose \
+      --from=csljson \
+      --to=bibtex \
+      --output=output/$INDIVIDUAL_KEYWORD.bib \
+      output/$INDIVIDUAL_KEYWORD/references.json
+
+    rm -rf content/$INDIVIDUAL_KEYWORD
+    rm -rf output/$INDIVIDUAL_KEYWORD
   done
 fi
 
