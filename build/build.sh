@@ -163,11 +163,11 @@ if [ "${LITSEARCH:-}" = "true" ]; then
 fi
 
 # Build DOCX outputs for individual manuscripts
-# Builds all manuscripts listed in content/individual-manuscript.txt
+# Builds all manuscripts listed in content/individual-docx-manuscripts.txt
 # Expect one individual manuscript keyword (e.g. pathogenesis) per line
 # Strip trailing whitespace
 if [ "${BUILD_INDIVIDUAL:-}" = "true" ]; then
-  for INDIVIDUAL_KEYWORD in $(cat content/individual-manuscripts.txt | sed 's/[[:space:]]*$//'); do
+  for INDIVIDUAL_KEYWORD in $(cat content/individual-docx-manuscripts.txt | sed 's/[[:space:]]*$//'); do
     echo >&2 "Exporting Word Docx $INDIVIDUAL_KEYWORD manuscript"
 
     # Copy all content, then remove all markdown files not needed for the individual manuscript
