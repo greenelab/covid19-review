@@ -1,6 +1,8 @@
 {
-  "cord19_date_pretty": "2021-04-19",
+  "cord19_date_pretty": "2021-04-26",
   "ebm_trials_figure": "https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/CORD-19/cord19-growth.png",
-  "total_preprints": "23580",
-  "total_pubs": "536817"
+  "sha1": "cc96ca32",
+  "total_preprints": "23932",
+  "total_pubs": "544406",
+  "update_date": "2021-04-26"
 }
