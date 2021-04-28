@@ -13,6 +13,7 @@ tableContents = pageText.xpath('//tr')
 
 extractedTable=dict()
 # We are interested in the first two rows. The first gives us the header
+# and the most recent update
 for col in range(0, len(tableContents[0])):
     name = tableContents[0][col].text_content()
     content = tableContents[1][col].text_content()
