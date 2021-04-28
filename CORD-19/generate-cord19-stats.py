@@ -14,24 +14,24 @@ def check_version(versionString):
     if updateSHA1 == prevSHA1:
         exit("CORD-19 data is up to date")
     else:
-        #csvURL = "https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/" + updateDate + "/metadata.csv"
-        #csvFile = wget.download(csvURL, out="CORD-19/metadata.csv")
-        csvFile = "CORD-19/metadata.csv"
+        print("Downloading data from https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases.html")
+        csvURL = "https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/" + updateDate + "/metadata.csv"
+        csvFile = wget.download(csvURL, out="CORD-19/metadata.csv")
         logURL = "https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/" + updateDate + "/changelog"
-        #logFile = wget.download(logURL, out="CORD-19/changelog.txt")
-        logFile = "CORD-19/changelog.txt"
+        logFile = wget.download(logURL, out="CORD-19/changelog.txt")
         return csvFile, logFile, updateDate, updateSHA1
 
 # Inspired by https://github.com/greenelab/meta-review/blob/master/analyses/deep-review-contrib/03.contrib-stats.ipynb
 def main(args):
-
     # Set output dictionary
     cord19_stats = dict()
 
-    # Check for updates (program will exit if no updates needed)
+    # Check for updates (program will exit from function if no updates needed)
     csvFile, logFile, updateDate, sha1 = check_version(args.version_info)
     cord19_stats["update_date"] = updateDate
     cord19_stats["sha1"] = sha1
+
+    print("Analyze CORD-19 data and generate outputs")
 
     # Parse the log file ("changelog" on the website)
     textfile = open(logFile, "r")
@@ -97,11 +97,11 @@ def main(args):
 
     # Plot total number of manuscripts in CORD-19
     ax = corpus_stats.plot(kind='line', ax=axes[0])
+    ax.get_legend().remove()
     ax.set_title('Total Number of Manuscripts in the CORD-19 Corpus Over Time')
 
-    # Plot breakdown of preprints in *rxiv
+    # Plot breakdown of preprints, one line for each item in preprint_sources
     ax = preprint_df.plot(kind='line', ax=axes[1])
-    ax.get_legend().remove()
     ax.set_title('Number of Preprints in the CORD-19 Corpus Over Time')
 
     fig.savefig(args.output_figure + '.png', dpi=300, bbox_inches = "tight")
