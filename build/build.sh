@@ -250,6 +250,7 @@ if [ "${BUILD_INDIVIDUAL:-}" = "true" ]; then
     manubot process \
       --content-directory=content/$INDIVIDUAL_KEYWORD \
       --output-directory=output/$INDIVIDUAL_KEYWORD \
+      --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/CORD-19/cord19-stats.json \
       --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/csse/csse-stats.json \
       --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/ebmdatalab/ebmdatalab-stats.json \
       --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/owiddata/owiddata-stats.json \
@@ -263,7 +264,7 @@ if [ "${BUILD_INDIVIDUAL:-}" = "true" ]; then
       --data-dir="$PANDOC_DATA_DIR" \
       --defaults=latex.yaml \
       --metadata=title:"$INDIVIDUAL_TITLE" \
-      --metadata=author:"Test Author" \
+      --metadata-file=content/example-methods-metadata.yaml \
       output/$INDIVIDUAL_KEYWORD/manuscript.md
       mv output/manuscript.tex output/$INDIVIDUAL_KEYWORD-manuscript.tex
 

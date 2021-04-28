@@ -17,6 +17,7 @@ number-offset: [0,0,0,0,0,0]
 shift-heading-level-by: -1
 standalone: true
 #template: https://raw.githubusercontent.com/sachsmc/pandoc-journal-templates/master/amstat/amstat.latex
-template: https://raw.githubusercontent.com/Wandmalfarbe/pandoc-latex-template/master/eisvogel.tex
+#template: https://raw.githubusercontent.com/Wandmalfarbe/pandoc-latex-template/master/eisvogel.tex
 #template: https://raw.githubusercontent.com/jakobib/pandoc-acm-templates/master/shortpaper.latex
+template: https://gist.githubusercontent.com/wgroeneveld/b6e2751c6da2a7bac73f668ddff5c3d0/raw/a7a0dd3b42b261a8b19a93dd39646682d6559af5/acm-pandoc-conf.tex
 cite-method: natbib
