@@ -2,19 +2,24 @@ import argparse
 import datetime
 from datetime import date
 import json
+import matplotlib
 import matplotlib.pyplot as plt
+import os
 import pandas as pd
 import wget
 
-def check_version(versionString):
+def check_version(versionString, statsFile):
     """Check whether there are new updates to the CORD-19 dataset since the last time this script ran"""
     updateDate, updateSHA1 = versionString.split(".")
-    prevRunInfo = json.load(open("CORD-19/cord19-stats.json", "r"))
-    prevSHA1 = prevRunInfo["sha1"]
+    prevSHA1 = 'N/A'
+    if os.path.isfile(statsFile):
+        prevRunInfo = json.load(open(statsFile, "r"))
+        prevSHA1 = prevRunInfo["cord19_sha1"]
+
     if updateSHA1 == prevSHA1:
         exit("CORD-19 data is up to date")
     else:
-        print("Downloading data from https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases.html")
+        print(f"Downloading data from {updateDate} from https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases.html", flush=True)
         csvURL = "https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/" + updateDate + "/metadata.csv"
         csvFile = wget.download(csvURL, out="CORD-19/metadata.csv")
         logURL = "https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/" + updateDate + "/changelog"
@@ -27,11 +32,11 @@ def main(args):
     cord19_stats = dict()
 
     # Check for updates (program will exit from function if no updates needed)
-    csvFile, logFile, updateDate, sha1 = check_version(args.version_info)
-    cord19_stats["update_date"] = updateDate
-    cord19_stats["sha1"] = sha1
+    csvFile, logFile, updateDate, sha1 = check_version(args.version_info, args.output_json)
+    cord19_stats["cord19_update_date"] = updateDate
+    cord19_stats["cord19_sha1"] = sha1
 
-    print("Analyze CORD-19 data and generate outputs")
+    print("Analyze CORD-19 data and generate outputs", flush=True)
 
     # Parse the log file ("changelog" on the website)
     textfile = open(logFile, "r")
@@ -79,9 +84,10 @@ def main(args):
         for preprint_server in preprint_sources:
             preprints = recent_papers.source_x.str.contains(preprint_server)
             counts.append(int(sum(preprints)))
-        preprint_stats[date]= counts
+        preprint_stats[date] = counts
 
     preprint_df = pd.DataFrame.from_dict(preprint_stats, orient="index", columns = preprint_sources)
+    preprint_df = preprint_df.rename(columns={"arxiv": "arXiv", "biorxiv": "bioRxiv", "medrxiv": "medRxiv"})
 
     # Get the most recent trial update
     most_recent_update = pd.to_datetime(corpus_stats.index).max()
@@ -96,13 +102,25 @@ def main(args):
     fig, axes = plt.subplots(nrows=1, ncols=2, figsize=(20, 12), constrained_layout=True)
 
     # Plot total number of manuscripts in CORD-19
-    ax = corpus_stats.plot(kind='line', ax=axes[0])
+    ax = corpus_stats.plot(kind='line', linewidth=3, ax=axes[0])
     ax.get_legend().remove()
-    ax.set_title('Total Number of Manuscripts in the CORD-19 Corpus Over Time')
+    ax.set_ylabel('Total manuscripts')
+    ax.get_yaxis().set_major_formatter(matplotlib.ticker.FuncFormatter(lambda x, p: format(int(x), ',')))
+    ax.set_ylim(bottom=0)
+    ax.spines['top'].set_visible(False)
+    ax.spines['right'].set_visible(False)
+    ax.minorticks_off()
+    ax.grid(color="lightgray")
 
     # Plot breakdown of preprints, one line for each item in preprint_sources
-    ax = preprint_df.plot(kind='line', ax=axes[1])
-    ax.set_title('Number of Preprints in the CORD-19 Corpus Over Time')
+    ax = preprint_df.plot(kind='line', linewidth=3, ax=axes[1])
+    ax.set_ylabel('Preprints')
+    ax.get_yaxis().set_major_formatter(matplotlib.ticker.FuncFormatter(lambda x, p: format(int(x), ',')))
+    ax.set_ylim(bottom=0)
+    ax.spines['top'].set_visible(False)
+    ax.spines['right'].set_visible(False)
+    ax.minorticks_off()
+    ax.grid(color="lightgray")
 
     fig.savefig(args.output_figure + '.png', dpi=300, bbox_inches = "tight")
     fig.savefig(args.output_figure + '.svg', bbox_inches = "tight")
@@ -111,13 +129,13 @@ def main(args):
 
     # The placeholder will be replaced by the actual SHA-1 hash in separate
     # script after the updated image is committed
-    cord19_stats['ebm_trials_figure'] = \
+    cord19_stats['cord19_figure'] = \
         f'https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/{args.output_figure}.png'
 
     # Tabulate number of papers and preprints
-    cord19_stats['total_pubs'] = \
+    cord19_stats['cord19_total_pubs'] = \
         str(corpus_stats['size'].max())
-    cord19_stats['total_preprints'] = \
+    cord19_stats['cord19_total_preprints'] = \
         str(preprint_df.sum(axis=1).max())
 
     with open(args.output_json, 'w') as out_file:

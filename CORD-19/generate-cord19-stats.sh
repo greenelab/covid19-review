@@ -2,9 +2,6 @@
 # Prepare to download the CORD-19 dataset and to generate an output JSON file with relevant statistics
 # and a figure using the associated Python script
 
-# Get the current release information
-wget https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases.html
-
 # Parse the release info to pull the most recent date and SHA (separated by a .)
 CORD19_VERSION=$(python CORD-19/parse_html.py)
 
@@ -20,6 +17,5 @@ echo "Generating CORD-19 statistics and figure"
 python CORD-19/generate-cord19-stats.py $CORD19_VERSION $CORD19_STATS_JSON $CORD19_FIG
 
 # Clean up downloaded files
-rm historical_releases.html
 rm CORD-19/metadata.csv 2> /dev/null
 rm CORD-19/changelog.txt 2> /dev/null
