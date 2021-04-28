@@ -1,5 +1,5 @@
 CCS
-Docx
+docx
 ECR
 ECRs
 ggpx
@@ -8,4 +8,4 @@ LVNA
 Manubot’s
 nonsynonymous
 scite
-Yusha
+yusha
