@@ -183,7 +183,7 @@ if [ "${BUILD_INDIVIDUAL:-}" = "true" ]; then
     python build/update-author-metadata.py --keyword $INDIVIDUAL_KEYWORD --path content/$INDIVIDUAL_KEYWORD/metadata.yaml
 
     # Use the first line of the Markdown file as the manuscript title, overriding the title from metadata.yaml
-    INDIVIDUAL_TITLE=$(head --lines 1 content/$INDIVIDUAL_KEYWORD/*.$INDIVIDUAL_KEYWORD.md | sed 's/^#*\ //')
+    INDIVIDUAL_TITLE=$(head -n 1 content/$INDIVIDUAL_KEYWORD/*.$INDIVIDUAL_KEYWORD.md | sed 's/^#*\ //')
     INDIVIDUAL_MARKDOWN=$(find content/$INDIVIDUAL_KEYWORD/*.$INDIVIDUAL_KEYWORD.md)
     # Remove the section title from the start of the individual manuscript
     tail -n +2 $INDIVIDUAL_MARKDOWN > $INDIVIDUAL_MARKDOWN.tmp && mv $INDIVIDUAL_MARKDOWN.tmp $INDIVIDUAL_MARKDOWN
@@ -237,7 +237,7 @@ if [ "${BUILD_INDIVIDUAL:-}" = "true" ]; then
     python build/update-author-metadata.py --keyword $INDIVIDUAL_KEYWORD --path content/$INDIVIDUAL_KEYWORD/metadata.yaml
 
     # Use the first line of the Markdown file as the manuscript title, overriding the title from metadata.yaml
-    INDIVIDUAL_TITLE=$(head --lines 1 content/$INDIVIDUAL_KEYWORD/*.$INDIVIDUAL_KEYWORD.md | sed 's/^#*\ //')
+    INDIVIDUAL_TITLE=$(head -n 1 content/$INDIVIDUAL_KEYWORD/*.$INDIVIDUAL_KEYWORD.md | sed 's/^#*\ //')
     INDIVIDUAL_MARKDOWN=$(find content/$INDIVIDUAL_KEYWORD/*.$INDIVIDUAL_KEYWORD.md)
     # Remove the section title from the start of the individual manuscript
     tail -n +2 $INDIVIDUAL_MARKDOWN > $INDIVIDUAL_MARKDOWN.tmp && mv $INDIVIDUAL_MARKDOWN.tmp $INDIVIDUAL_MARKDOWN
