@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2021-04-28'
+date-meta: '2021-04-29'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -67,8 +67,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2021-04-28" />
-  <meta name="citation_publication_date" content="2021-04-28" />
+  <meta name="dc.date" content="2021-04-29" />
+  <meta name="citation_publication_date" content="2021-04-29" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -263,13 +263,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/016a5642ec32a6e7cec629748f5dbae9bed51ef1/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/016a5642ec32a6e7cec629748f5dbae9bed51ef1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/016a5642ec32a6e7cec629748f5dbae9bed51ef1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/5eceb5e91725fa1dee8823138dee6a41b21c8258/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/5eceb5e91725fa1dee8823138dee6a41b21c8258/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/5eceb5e91725fa1dee8823138dee6a41b21c8258/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/016a5642ec32a6e7cec629748f5dbae9bed51ef1/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/016a5642ec32a6e7cec629748f5dbae9bed51ef1/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/5eceb5e91725fa1dee8823138dee6a41b21c8258/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/5eceb5e91725fa1dee8823138dee6a41b21c8258/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -291,10 +291,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/016a5642ec32a6e7cec629748f5dbae9bed51ef1/))
+([permalink](https://greenelab.github.io/covid19-review/v/5eceb5e91725fa1dee8823138dee6a41b21c8258/))
 was automatically generated
-from [greenelab/covid19-review@016a564](https://github.com/greenelab/covid19-review/tree/016a5642ec32a6e7cec629748f5dbae9bed51ef1)
-on April 28, 2021.
+from [greenelab/covid19-review@5eceb5e](https://github.com/greenelab/covid19-review/tree/5eceb5e91725fa1dee8823138dee6a41b21c8258)
+on April 29, 2021.
 Snapshots of individual sections are available as preprints [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals].
 </em></small>
 
@@ -727,12 +727,12 @@ Most of these cases were in China, but one to two exported cases had also been i
 One week later, 4,593 confirmed cases had been identified, spanning not only Asia, but also Australia, North America, and Europe [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128-sitrep-8-ncov-cleared.pdf].
 On March 11, 2020, the WHO formally classified the situation as a pandemic [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200311-sitrep-51-covid-19.pdf].
 On April 4, 2020, the WHO reported that the global number of confirmed cases had surpassed one million [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200404-sitrep-75-covid-19.pdf].
-<!--3,120,403 COVID-19 deaths had been reported worldwide as of April 26, 2021 (Figure @fig:csse-deaths).
+<!--3,134,956 COVID-19 deaths had been reported worldwide as of April 27, 2021 (Figure @fig:csse-deaths).
 
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
-](https://github.com/greenelab/covid19-review/raw/9a91591abdf7bcbd72ac62b265e60d3d8da5ebdc/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1} -->
+](https://github.com/greenelab/covid19-review/raw/a801297aa7dc9c0c7b92ad6e38a8c0f23911d492/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1} -->
 
 As international attention remains focused on the ongoing public health crisis, the scientific community has responded by mobilizing resources and turning much of its attention to the virus and disease.
 This rapid influx of information is disseminated by traditional publishing mechanisms, preprint servers, and press releases, which provide a venue for scientists to release findings without undergoing the formal publication process.
@@ -1936,12 +1936,12 @@ Prophylactics bolster immunity to prevent an individual from contracting a disea
 While a number of vaccines have recently been developed, approved, or are currently being evaluated by the US Food and Drug Administration and other regional and international bodies, vaccination programs only started being rolled out at the very end of 2020 and beginning of 2021, meaning that treatments that palliate symptoms and prevent the most severe outcomes have been necessary for much of 2020 and will continue to be necessary for the foreseeable future [@individual-vaccines].
 Fortunately, prior developments during other recent pandemics, especially those caused by human coronaviruses (HCoV), have provided a number of hypotheses guiding a biomedical approach to the novel coronavirus infection.
 
-3,120,403 COVID-19 deaths had been reported worldwide as of April 26, 2021 (Figure @fig:csse-deaths).
+3,134,956 COVID-19 deaths had been reported worldwide as of April 27, 2021 (Figure @fig:csse-deaths).
 
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
-](https://github.com/greenelab/covid19-review/raw/9a91591abdf7bcbd72ac62b265e60d3d8da5ebdc/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
+](https://github.com/greenelab/covid19-review/raw/a801297aa7dc9c0c7b92ad6e38a8c0f23911d492/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
 
 #### Lessons from Prior HCoV Outbreaks
 
@@ -2008,7 +2008,7 @@ Recruitment status and trial phase are shown only for interventional trials in w
 The common interventions are all interventions used in at least ten trials.
 Combinations of interventions, such as Hydroxychloroquine + Azithromycin, are tallied separately from the individual interventions.
 Trials data are from the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709].
-](https://github.com/greenelab/covid19-review/raw/9a91591abdf7bcbd72ac62b265e60d3d8da5ebdc/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/a801297aa7dc9c0c7b92ad6e38a8c0f23911d492/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 ### Small Molecule Drugs
 
@@ -4438,7 +4438,7 @@ Trials that recruit across multiple countries do appear to broaden geographic re
 The density of clinical trials is reported at the country level.
 As of November 9, 2020, there are 6,417 trials in the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709], of which 3,706 are interventional.
 The top figure demonstrates the density of interventional trials recruiting only from a singular country, while the bottom shows the distribution of recruitment for interventional trials that involve more than one country.
-](https://github.com/greenelab/covid19-review/raw/9a91591abdf7bcbd72ac62b265e60d3d8da5ebdc/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
+](https://github.com/greenelab/covid19-review/raw/a801297aa7dc9c0c7b92ad6e38a8c0f23911d492/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
 
 A few different concerns arise from this skewed geographic representation in clinical trial recruitment.
 First, treatments such as remdesivir that are promising but primarily available to clinical trial participants are unlikely to be accessible by people in many countries.
@@ -4623,6 +4623,7 @@ The potential for "excessive publication" has been identified as an issue for ov
 <!--To Do: Flesh out above paragraph--> 
 
 <!--To Do: Insert CORD-19 data viz here, with breakdown by preprint server versus traditional journal? I think this will really help illustrate the various problems outlined in the intro-->
+Test CORD-19 statistics: 544406 total publications.
 <!--To Do: Possible viz of change in clinical trials as well?-->
 
 <!-- To Do: This is just an outline, formalize this paragraph with citations etc-->
