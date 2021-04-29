@@ -579,7 +579,7 @@ authors:
       confirmed: No
     affiliations:
       - Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
-      - Anschutz School of Medicine, University of Colorado, Aurora, Colorado, United States of America
+      - Center for Health AI, University of Colorado School of Medicine, Aurora, Colorado, United States of America
     coi:
       string: "None"
       lastapproved: !!str 2021-04-29
