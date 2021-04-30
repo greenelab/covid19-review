@@ -58,6 +58,14 @@ authors:
         contributions:
           - A
           - E
+      methods:
+        order: 0
+        contributions:
+          - Software
+          - Project Administration
+          - Visualization
+          - Writing - Review & Editing
+          - Writing - Original Draft
   -
     github: cgreene
     name: Casey S. Greene
@@ -99,6 +107,11 @@ authors:
         contributions:
           - Writing - Review & Editing
           - Project Administration
+      methods:
+        order: 0
+        contributions:
+          - Software
+          - Conceptualization
   -
     github: mprobson
     name: Michael P. Robson
@@ -114,6 +127,12 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-11-12
+      methods:
+        order: 0
+        contributions:
+          - Software
+          - Methodology
+          - Supervision
   -
     github: SiminaB
     name: Simina M. Boca
@@ -140,6 +159,10 @@ authors:
         contributions:
           - Writing - Review & Editing
           - Project Administration
+      methods:
+        order: 0
+        contributions:
+          - Methodology
   -
     github: nilswellhausen
     name: Nils Wellhausen
@@ -281,6 +304,10 @@ authors:
         contributions:
           - Writing - Review & Editing
           - Writing - Original Draft
+      methods:
+        order: 0
+        contributions:
+          - Methodology
   -
     github: agitter
     name: Anthony Gitter
@@ -320,6 +347,15 @@ authors:
           - Project Administration
           - Visualization
           - Software
+      methods:
+        order: 0
+        contributions:
+          - Software
+          - Methodology
+          - Project Administration
+          - Writing - Review & Editing
+          - Writing - Original Draft
+          - Visualization
   -
     github: aadattoli
     name: Anna Ada Dattoli
@@ -363,6 +399,11 @@ authors:
         order: 6
         contributions:
           - Writing - Review & Editing
+      methods:
+        order: 0
+        contributions:
+          - Software
+          - Methodology
   -
     github: johnbarton
     name: John P. Barton
@@ -567,6 +608,28 @@ authors:
         contributions:
           - Writing - Review & Editing
           - Writing - Original Draft
+  -
+    github: vincerubinetti
+    name: Vincent Rubinetti
+    initials: VR
+    orcid: 0000-0002-4655-3773
+    email: vince.rubinetti@gmail.com
+    contributions:
+      - Writing - Original Draft
+      - Software
+    code of conduct:
+      confirmed: Yes
+    affiliations:
+      - Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+      - Center for Health AI, University of Colorado School of Medicine, Aurora, Colorado, United States of America
+    coi:
+      string: "None"
+      lastapproved: !!str 2021-04-29
+    manuscripts:
+      methods:
+        contributions:
+          - Writing - Original Draft
+          - Software
   -
     github: jinhui2
     name: Jinhui Wang
@@ -1180,3 +1243,23 @@ authors:
         order: 0
         contributions:
           - Writing - Review & Editing
+  - 
+    github: dhimmel
+    name: Daniel S. Himmelstein
+    initials: DSH
+    orcid: 0000-0002-3012-7446
+    twitter: dhimmel
+    email: daniel.himmelstein@gmail.com
+    affiliations:
+      - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+      - Related Sciences
+    funders: GBMF4552
+    coi:
+      string: "None"
+      lastapproved: !!str 2021-04-30
+    manuscripts:
+      methods:
+        order: 0
+        contributions:
+          - Software
+
