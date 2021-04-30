@@ -687,6 +687,15 @@ authors:
         contributions:
           - Writing - Original Draft
           - Software
+        affiliations:
+          - institution: University of Pennsylvania
+            department: Perelman School of Medicine
+            city: Philadelphia, Pennsylvania
+            country: United States of America
+          - institution: University of Colorado School of Medicine
+            department: Center for Health AI
+            city: Aurora, Colorado
+            country: United States of America
   -
     github: jinhui2
     name: Jinhui Wang
