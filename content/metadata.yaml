@@ -1243,7 +1243,8 @@ authors:
         order: 0
         contributions:
           - Writing - Review & Editing
-  - github: dhimmel
+  - 
+    github: dhimmel
     name: Daniel S. Himmelstein
     initials: DSH
     orcid: 0000-0002-3012-7446
