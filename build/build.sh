@@ -25,6 +25,7 @@ if [ "${BUILD_HTML:-}" != "false" ] || [ "${BUILD_PDF:-}" != "false" ] || [ "${B
   manubot process \
     --content-directory=content \
     --output-directory=output \
+    --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/CORD-19/cord19-stats.json \
     --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/csse/csse-stats.json \
     --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/ebmdatalab/ebmdatalab-stats.json \
     --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/owiddata/owiddata-stats.json \
@@ -194,6 +195,7 @@ if [ "${BUILD_INDIVIDUAL:-}" = "true" ]; then
     manubot process \
       --content-directory=content/$INDIVIDUAL_KEYWORD \
       --output-directory=output/$INDIVIDUAL_KEYWORD \
+      --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/CORD-19/cord19-stats.json \
       --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/csse/csse-stats.json \
       --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/ebmdatalab/ebmdatalab-stats.json \
       --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/owiddata/owiddata-stats.json \
