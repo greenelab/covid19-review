@@ -127,6 +127,7 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-11-12
+    manuscripts:
       methods:
         order: 0
         contributions:
