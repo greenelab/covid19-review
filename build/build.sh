@@ -231,7 +231,7 @@ if [ "${BUILD_INDIVIDUAL:-}" = "true" ]; then
     # Ignore errors about not copying directories
     cp content/* content/$INDIVIDUAL_KEYWORD || true
     cp -r content/images/ content/$INDIVIDUAL_KEYWORD
-    find content/$INDIVIDUAL_KEYWORD -type f \( -not -name "*$INDIVIDUAL_KEYWORD*" -and -not -name "*matter*" -and -not -name "*contribs*" -and -name "*.md" \) | xargs rm
+    find content/$INDIVIDUAL_KEYWORD -type f \( -not -name "*$INDIVIDUAL_KEYWORD*" -and -not -name "*back-matter*" -and -not -name "*contribs*" -and -name "*.md" \) | xargs rm
 
     # Select the authors for the individual manuscript
     python build/update-author-metadata.py --keyword $INDIVIDUAL_KEYWORD --path content/$INDIVIDUAL_KEYWORD/metadata.yaml
