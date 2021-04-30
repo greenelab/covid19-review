@@ -1243,3 +1243,23 @@ authors:
         order: 0
         contributions:
           - Writing - Review & Editing
+  - 
+    github: dhimmel
+    name: Daniel S. Himmelstein
+    initials: DSH
+    orcid: 0000-0002-3012-7446
+    twitter: dhimmel
+    email: daniel.himmelstein@gmail.com
+    affiliations:
+      - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+      - Related Sciences
+    funders: GBMF4552
+    coi:
+      string: "None"
+      lastapproved: !!str 2021-04-30
+    manuscripts:
+      methods:
+        order: 0
+        contributions:
+          - Software
+
