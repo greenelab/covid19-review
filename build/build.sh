@@ -189,8 +189,10 @@ if [ "${BUILD_INDIVIDUAL:-}" = "true" ]; then
     tail -n +2 $INDIVIDUAL_MARKDOWN > $INDIVIDUAL_MARKDOWN.tmp && mv $INDIVIDUAL_MARKDOWN.tmp $INDIVIDUAL_MARKDOWN
 
     # Set a variable indicating which individual manuscript is being processed
-    # This is used to modify some of of the boilerplate Markdown, like the front matter
+    # and another indicating docx export
+    # These are used to modify some of of the boilerplate Markdown, like the front matter
     echo "individual: $INDIVIDUAL_KEYWORD" >> content/$INDIVIDUAL_KEYWORD/$INDIVIDUAL_KEYWORD.yaml
+    echo "format: docx" >> content/$INDIVIDUAL_KEYWORD/$INDIVIDUAL_KEYWORD.yaml
 
     echo >&2 "Retrieving and processing reference metadata for the $INDIVIDUAL_KEYWORD manuscript"
     manubot process \
@@ -243,8 +245,10 @@ if [ "${BUILD_INDIVIDUAL:-}" = "true" ]; then
     tail -n +2 $INDIVIDUAL_MARKDOWN > $INDIVIDUAL_MARKDOWN.tmp && mv $INDIVIDUAL_MARKDOWN.tmp $INDIVIDUAL_MARKDOWN
 
     # Set a variable indicating which individual manuscript is being processed
-    # This is used to modify some of of the boilerplate Markdown, like the front matter
+    # and another indicating tex export
+    # These are used to modify some of of the boilerplate Markdown, like the front matter
     echo "individual: $INDIVIDUAL_KEYWORD" >> content/$INDIVIDUAL_KEYWORD/$INDIVIDUAL_KEYWORD.yaml
+    echo "format: tex" >> content/$INDIVIDUAL_KEYWORD/$INDIVIDUAL_KEYWORD.yaml
 
     echo >&2 "Retrieving and processing reference metadata for the $INDIVIDUAL_KEYWORD manuscript"
     manubot process \
@@ -283,8 +287,8 @@ if [ "${BUILD_INDIVIDUAL:-}" = "true" ]; then
     # See https://regex101.com/r/x4wQVm/1
     cat output/$INDIVIDUAL_KEYWORD.bib | python -c "import re, sys; regex = r',\n  note = {[^}]*}'; subst = ''; print(re.sub(regex, subst, sys.stdin.read(), 0, re.MULTILINE))" > tmp.bib && mv tmp.bib output/$INDIVIDUAL_KEYWORD.bib
 
-    rm -rf content/$INDIVIDUAL_KEYWORD
-    rm -rf output/$INDIVIDUAL_KEYWORD
+    #rm -rf content/$INDIVIDUAL_KEYWORD
+    #rm -rf output/$INDIVIDUAL_KEYWORD
   done
 fi
 
