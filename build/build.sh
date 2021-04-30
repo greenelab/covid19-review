@@ -259,12 +259,16 @@ if [ "${BUILD_INDIVIDUAL:-}" = "true" ]; then
       --skip-citations \
       --log-level=INFO
 
-    # Need to update the metadata to set the authors and affiliations instead of writing them in the document
+    # Select and reformat parts of the Manubot-style author metadata for the Pandoc metadata
+    python build/update-latex-metadata.py --keyword $INDIVIDUAL_KEYWORD \
+      --manubot_metadata content/$INDIVIDUAL_KEYWORD/metadata.yaml \
+      --pandoc_metadata content/$INDIVIDUAL_KEYWORD/pandoc-metadata.yaml
+
     pandoc --verbose \
       --data-dir="$PANDOC_DATA_DIR" \
       --defaults=latex.yaml \
       --metadata=title:"$INDIVIDUAL_TITLE" \
-      --metadata-file=content/example-methods-metadata.yaml \
+      --metadata-file=content/$INDIVIDUAL_KEYWORD/pandoc-metadata.yaml \
       output/$INDIVIDUAL_KEYWORD/manuscript.md
       mv output/manuscript.tex output/$INDIVIDUAL_KEYWORD-manuscript.tex
 
