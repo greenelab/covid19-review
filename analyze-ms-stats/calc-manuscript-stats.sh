@@ -12,4 +12,4 @@ OUTPUT_FIG=manuscript_stats
 python calc-manuscript-stats.py $COMMIT_LIST $OUTPUT_JSON $OUTPUT_FIG
 
 # Clean up temporary files
-rm ./references_tmp.json ./variables_tmp.json
+rm ./references_tmp.json ./variables_tmp.json output-commits.txt
