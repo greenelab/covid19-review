@@ -29,6 +29,7 @@ author-meta:
 - Fengling Hu
 - Nafisa M. Jadavji
 - Elizabeth Sell
+- Vincent Rubinetti
 - Jinhui Wang
 - Diane N. Rafizadeh
 - Ashwin N. Skelly
@@ -156,6 +157,10 @@ header-includes: |-
   <meta name="citation_author" content="Elizabeth Sell" />
   <meta name="citation_author_institution" content="Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America" />
   <meta name="citation_author_orcid" content="0000-0002-9658-1107" />
+  <meta name="citation_author" content="Vincent Rubinetti" />
+  <meta name="citation_author_institution" content="Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America" />
+  <meta name="citation_author_institution" content="Center for Health AI, University of Colorado School of Medicine, Aurora, Colorado, United States of America" />
+  <meta name="citation_author_orcid" content="0000-0002-4655-3773" />
   <meta name="citation_author" content="Jinhui Wang" />
   <meta name="citation_author_institution" content="Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America" />
   <meta name="citation_author_orcid" content="0000-0002-5796-8130" />
@@ -263,13 +268,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/0b29f72e884db8ba934851d49ef3787e840804e5/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/0b29f72e884db8ba934851d49ef3787e840804e5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/0b29f72e884db8ba934851d49ef3787e840804e5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/32afa309f69f0466a91acec5d0df3151fe4d61b5/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/32afa309f69f0466a91acec5d0df3151fe4d61b5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/32afa309f69f0466a91acec5d0df3151fe4d61b5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/0b29f72e884db8ba934851d49ef3787e840804e5/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/0b29f72e884db8ba934851d49ef3787e840804e5/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/32afa309f69f0466a91acec5d0df3151fe4d61b5/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/32afa309f69f0466a91acec5d0df3151fe4d61b5/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -291,9 +296,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/0b29f72e884db8ba934851d49ef3787e840804e5/))
+([permalink](https://greenelab.github.io/covid19-review/v/32afa309f69f0466a91acec5d0df3151fe4d61b5/))
 was automatically generated
-from [greenelab/covid19-review@0b29f72](https://github.com/greenelab/covid19-review/tree/0b29f72e884db8ba934851d49ef3787e840804e5)
+from [greenelab/covid19-review@32afa30](https://github.com/greenelab/covid19-review/tree/32afa309f69f0466a91acec5d0df3151fe4d61b5)
 on April 30, 2021.
 Snapshots of individual sections are available as preprints [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals].
 </em></small>
@@ -472,6 +477,13 @@ Instead, you should collect information from your local health department, the [
     [esell17](https://github.com/esell17)<br>
   <small>
      Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+  </small>
+
++ **Vincent Rubinetti**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-4655-3773](https://orcid.org/0000-0002-4655-3773) · ![GitHub icon](images/github.svg){.inline_icon}
+    [vincerubinetti](https://github.com/vincerubinetti)<br>
+  <small>
+     Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America; Center for Health AI, University of Colorado School of Medicine, Aurora, Colorado, United States of America
   </small>
 
 + **Jinhui Wang**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
@@ -689,7 +701,7 @@ Instead, you should collect information from your local health department, the [
 
 
 **COVID-19 Review Consortium:**
-Vikas Bansal, John P. Barton, Simina M. Boca, Joel D Boerckel, Christian Brueffer, James Brian Byrd, Stephen Capone, Shikta Das, Anna Ada Dattoli, John J. Dziak, Jeffrey M. Field, Soumita Ghosh, Anthony Gitter, Rishi Raj Goel, Casey S. Greene, Marouen Ben Guebila, Fengling Hu, Nafisa M. Jadavji, Sergey Knyazev, Likhitha Kolla, Alexandra J. Lee, Ronan Lordan, Tiago Lubiana, Temitayo Lukan, Adam L. MacLean, David Mai, Serghei Mangul, David Manheim, Lucy D\'Agostino McGowan, Amruta Naik, YoSon Park, Dimitri Perrin, Yanjun Qi, Diane N. Rafizadeh, Bharath Ramsundar, Halie M. Rando, Sandipan Ray, Michael P. Robson, Elizabeth Sell, Lamonica Shinholster, Ashwin N. Skelly, Yuchen Sun, Yusha Sun, Gregory L Szeto, Ryan Velazquez, Jinhui Wang, Nils Wellhausen
+Vikas Bansal, John P. Barton, Simina M. Boca, Joel D Boerckel, Christian Brueffer, James Brian Byrd, Stephen Capone, Shikta Das, Anna Ada Dattoli, John J. Dziak, Jeffrey M. Field, Soumita Ghosh, Anthony Gitter, Rishi Raj Goel, Casey S. Greene, Marouen Ben Guebila, Fengling Hu, Nafisa M. Jadavji, Sergey Knyazev, Likhitha Kolla, Alexandra J. Lee, Ronan Lordan, Tiago Lubiana, Temitayo Lukan, Adam L. MacLean, David Mai, Serghei Mangul, David Manheim, Lucy D\'Agostino McGowan, Amruta Naik, YoSon Park, Dimitri Perrin, Yanjun Qi, Diane N. Rafizadeh, Bharath Ramsundar, Halie M. Rando, Sandipan Ray, Michael P. Robson, Vincent Rubinetti, Elizabeth Sell, Lamonica Shinholster, Ashwin N. Skelly, Yuchen Sun, Yusha Sun, Gregory L Szeto, Ryan Velazquez, Jinhui Wang, Nils Wellhausen
 
 
 Authors are ordered arbitrarily.
@@ -4807,6 +4819,7 @@ This application of version control holds the potential to improve scientific pu
 |Fengling Hu|None|2020-04-08|
 |Nafisa M. Jadavji|None|2020-11-11|
 |Elizabeth Sell|None|2020-11-11|
+|Vincent Rubinetti|None|2021-04-29|
 |Jinhui Wang|None|2021-01-21|
 |Diane N. Rafizadeh|None|2020-11-11|
 |Ashwin N. Skelly|None|2020-11-11|
@@ -4861,6 +4874,7 @@ This application of version control holds the potential to improve scientific pu
 |Fengling Hu|Writing - Original Draft, Writing - Review & Editing|
 |Nafisa M. Jadavji|Supervision, Writing - Original Draft, Writing - Review & Editing|
 |Elizabeth Sell|Writing - Original Draft, Writing - Review & Editing|
+|Vincent Rubinetti|Software, Writing - Original Draft|
 |Jinhui Wang|Writing - Original Draft, Writing - Review & Editing|
 |Diane N. Rafizadeh|Project Administration, Writing - Original Draft, Writing - Review & Editing|
 |Ashwin N. Skelly|Writing - Original Draft, Writing - Review & Editing|
