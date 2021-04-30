@@ -279,6 +279,10 @@ if [ "${BUILD_INDIVIDUAL:-}" = "true" ]; then
       --output=output/$INDIVIDUAL_KEYWORD.bib \
       output/$INDIVIDUAL_KEYWORD/references.json
 
+    # Remove note fields from the bib file
+    # See https://regex101.com/r/x4wQVm/1
+    cat output/$INDIVIDUAL_KEYWORD.bib | python -c "import re, sys; regex = r',\n  note = {[^}]*}'; subst = ''; print(re.sub(regex, subst, sys.stdin.read(), 0, re.MULTILINE))" > tmp.bib && mv tmp.bib output/$INDIVIDUAL_KEYWORD.bib
+
     rm -rf content/$INDIVIDUAL_KEYWORD
     rm -rf output/$INDIVIDUAL_KEYWORD
   done
