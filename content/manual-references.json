@@ -1081,5 +1081,68 @@
   "container-title": "Manubot",
   "title": "Evolutionary and Genomic Analysis of SARS-CoV-2",
   "URL": "https://greenelab.github.io/covid19-review/v/910dd7b7479f5336a1c911c57446829bef015dbe/#evolutionary-and-genomic-analysis-of-sars-cov-2"
+},
+{
+  "type": "article-journal",
+  "id": "individual-diagnostics",
+  "author": [
+    {
+      "literal": "COVID-19 Review Consortium"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2021,
+        4,
+        30
+      ]
+    ]
+  },
+  "container-title": "Manubot",
+  "title": "Diagnostics",
+  "URL": "https://greenelab.github.io/covid19-review/v/32afa309f69f0466a91acec5d0df3151fe4d61b5/#diagnostics"
+},
+{
+  "type": "article-journal",
+  "id": "individual-inequality",
+  "author": [
+    {
+      "literal": "COVID-19 Review Consortium"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2021,
+        4,
+        30
+      ]
+    ]
+  },
+  "container-title": "Manubot",
+  "title": "Social Factors Influencing COVID-19 Exposure and Outcomes",
+  "URL": "https://greenelab.github.io/covid19-review/v/32afa309f69f0466a91acec5d0df3151fe4d61b5/#social-factors-influencing-covid-19-exposure-and-outcomes"
+},
+{
+  "type": "article-journal",
+  "id": "individual-methods",
+  "author": [
+    {
+      "literal": "COVID-19 Review Consortium"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2021,
+        4,
+        30
+      ]
+    ]
+  },
+  "container-title": "Manubot",
+  "title": "An Open-Publishing Response to the COVID-19 Infodemic",
+  "URL": "https://greenelab.github.io/covid19-review/v/32afa309f69f0466a91acec5d0df3151fe4d61b5/#an-open-publishing-response-to-the-covid-19-infodemic"
 }
 ]
