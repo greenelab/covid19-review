@@ -69,12 +69,14 @@ authors:
         affiliations:
           - institution: University of Pennsylvania
             department: Department of Systems Pharmacology and Translational Therapeutics
-            city: Philadelphia, PA
+            city: Philadelphia
+            state: PA
             country: USA
           - institution: University of Colorado School of Medicine
             department: Department of Biochemistry and Molecular Genetics
           - department: Center for Health AI
-            city: Aurora, CO
+            city: Aurora
+            state: CO
             country: USA
   -
     github: cgreene
@@ -127,12 +129,14 @@ authors:
             department: Department of Systems Pharmacology and Translational Therapeutics
           - institution: Alex's Lemonade Stand Foundation
             department: Childhood Cancer Data Lab
-            city: Philadelphia, PA
+            city: Philadelphia
+            state: PA
             country: USA
           - institution: University of Colorado School of Medicine
             department: Department of Biochemistry and Molecular Genetics
           - department: Center for Health AI
-            city: Aurora, CO
+            city: Aurora
+            state: CO
             country: USA
   -
     github: mprobson
@@ -158,7 +162,8 @@ authors:
         affiliations:
           - institution: Villanova University
             department: Department of Computing Sciences
-            city: Villanova, PA
+            city: Villanova
+            state: PA
             country: USA
   -
     github: SiminaB
@@ -193,7 +198,8 @@ authors:
         affiliations:
           - institution: Georgetown University Medical Center
             department: Innovation Center for Biomedical Informatics
-            city: Washington, DC
+            city: Washington
+            state: DC
             country: USA
   -
     github: nilswellhausen
@@ -343,7 +349,8 @@ authors:
         affiliations:
           - institution: Wake Forest University
             department: Department of Mathematics and Statistics
-            city: Winston-Salem, NC
+            city: Winston-Salem
+            state: NC
             country: USA
   -
     github: agitter
@@ -397,7 +404,8 @@ authors:
           - institution: University of Wisconsin-Madison
             department: Department of Biostatistics and Medical Informatics
           - institution: Morgridge Institute for Research
-            city: Madison, WI
+            city: Madison
+            state: WI
             country: USA
   -
     github: aadattoli
@@ -449,7 +457,8 @@ authors:
           - Methodology
         affiliations:
           - institution: Azimuth1
-            city: McLean, VA
+            city: McLean
+            state: VA
             country: USA
   -
     github: johnbarton
@@ -680,11 +689,13 @@ authors:
         affiliations:
           - institution: University of Pennsylvania
             department: Perelman School of Medicine
-            city: Philadelphia, PA
+            city: Philadelphia
+            state: PA
             country: USA
           - institution: University of Colorado School of Medicine
             department: Center for Health AI
-            city: Aurora, CO
+            city: Aurora
+            state: CO
             country: USA
   -
     github: jinhui2
