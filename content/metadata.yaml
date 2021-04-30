@@ -62,6 +62,19 @@ authors:
         order: 1
         contributions:
           - Project Administration
+        affiliations:
+          - institution: University of Pennsylvania
+            department: Department of Systems Pharmacology and Translational Therapeutics
+            city: Philadelphia, Pennsylvania
+            country: United States of America
+          - institution: University of Colorado School of Medicine
+            department: Department of Biochemistry and Molecular Genetics
+            city: Aurora, Colorado
+            country: United States of America
+          - institution: University of Colorado School of Medicine
+            department: Center for Health AI
+            city: Aurora, Colorado
+            country: United States of America
   -
     github: cgreene
     name: Casey S. Greene

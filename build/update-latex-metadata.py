@@ -80,10 +80,9 @@ def update_latex(keyword, manubot_file, pandoc_file):
         latex_authors.append(latex_author)
 
     sys.stderr.write(f"Found {len(latex_authors)} authors for {keyword} manuscript\n")
-    print(latex_authors)
 
-    # Do not retain the other metadata fields
-    metadata = {"author": latex_authors}
+    # Do not retain the other metadata fields and add the .bib file references
+    metadata = {"author": latex_authors, "bibfile": keyword + ".bib"}
     dump_yaml(metadata, pandoc_file)
 
 
