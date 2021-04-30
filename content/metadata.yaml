@@ -125,6 +125,23 @@ authors:
         contributions:
           - Software
           - Conceptualization
+        affiliations:
+          - institution: University of Pennsylvania
+            department: Department of Systems Pharmacology and Translational Therapeutics
+            city: Philadelphia, Pennsylvania
+            country: United States of America
+          - institution: Alex's Lemonade Stand Foundation
+            department: Childhood Cancer Data Lab
+            city: Philadelphia, Pennsylvania
+            country: United States of America
+          - institution: University of Colorado School of Medicine
+            department: Department of Biochemistry and Molecular Genetics
+            city: Aurora, Colorado
+            country: United States of America
+          - institution: University of Colorado School of Medicine
+            department: Center for Health AI
+            city: Aurora, Colorado
+            country: United States of America
   -
     github: mprobson
     name: Michael P. Robson
@@ -146,6 +163,11 @@ authors:
           - Software
           - Methodology
           - Supervision
+        affiliations:
+          - institution: Villanova University
+            department: Department of Computing Sciences
+            city: Villanova, Pennsylvania
+            country: United States of America
   -
     github: SiminaB
     name: Simina M. Boca
@@ -176,6 +198,11 @@ authors:
         order: 0
         contributions:
           - Methodology
+        affiliations:
+          - institution: Georgetown University Medical Center
+            department: Innovation Center for Biomedical Informatics
+            city: Washington, District of Columbia
+            country: United States of America
   -
     github: nilswellhausen
     name: Nils Wellhausen
@@ -321,6 +348,11 @@ authors:
         order: 0
         contributions:
           - Methodology
+        affiliations:
+          - institution: Wake Forest University
+            department: Department of Mathematics and Statistics
+            city: Winston-Salem, North Carolina
+            country: United States of America
   -
     github: agitter
     name: Anthony Gitter
@@ -369,6 +401,14 @@ authors:
           - Writing - Review & Editing
           - Writing - Original Draft
           - Visualization
+        affiliations:
+          - institution: University of Wisconsin-Madison
+            department: Department of Biostatistics and Medical Informatics
+            city: Madison, Wisconsin
+            country: United States of America
+          - institution: Morgridge Institute for Research
+            city: Madison, Wisconsin
+            country: United States of America
   -
     github: aadattoli
     name: Anna Ada Dattoli
@@ -403,7 +443,7 @@ authors:
     code of conduct:
       confirmed: Yes
     affiliations:
-      - Azimuth1, McLean, VA
+      - Azimuth1, McLean, Virginia, United States of America
     coi:
       string: "None"
       lastapproved: !!str 2020-11-10
@@ -417,6 +457,10 @@ authors:
         contributions:
           - Software
           - Methodology
+        affiliations:
+          - institution: Azimuth1
+            city: McLean, Virginia
+            country: United States of America
   -
     github: johnbarton
     name: John P. Barton
@@ -1160,7 +1204,7 @@ authors:
         contributions:
           - Project Administration
       methods:
-        order: 2
+        order: 0
         contributions:
           - Project Administration
   -
