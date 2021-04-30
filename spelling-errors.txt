@@ -7,5 +7,5 @@ IgGs
 LVNA
 Manubot’s
 nonsynonymous
-scite
-yusha
+Scite
+Yusha

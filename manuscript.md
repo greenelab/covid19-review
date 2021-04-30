@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2021-04-29'
+date-meta: '2021-04-30'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -67,8 +67,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2021-04-29" />
-  <meta name="citation_publication_date" content="2021-04-29" />
+  <meta name="dc.date" content="2021-04-30" />
+  <meta name="citation_publication_date" content="2021-04-30" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -263,13 +263,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/5eceb5e91725fa1dee8823138dee6a41b21c8258/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/5eceb5e91725fa1dee8823138dee6a41b21c8258/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/5eceb5e91725fa1dee8823138dee6a41b21c8258/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/0b29f72e884db8ba934851d49ef3787e840804e5/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/0b29f72e884db8ba934851d49ef3787e840804e5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/0b29f72e884db8ba934851d49ef3787e840804e5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/5eceb5e91725fa1dee8823138dee6a41b21c8258/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/5eceb5e91725fa1dee8823138dee6a41b21c8258/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/0b29f72e884db8ba934851d49ef3787e840804e5/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/0b29f72e884db8ba934851d49ef3787e840804e5/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -291,10 +291,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/5eceb5e91725fa1dee8823138dee6a41b21c8258/))
+([permalink](https://greenelab.github.io/covid19-review/v/0b29f72e884db8ba934851d49ef3787e840804e5/))
 was automatically generated
-from [greenelab/covid19-review@5eceb5e](https://github.com/greenelab/covid19-review/tree/5eceb5e91725fa1dee8823138dee6a41b21c8258)
-on April 29, 2021.
+from [greenelab/covid19-review@0b29f72](https://github.com/greenelab/covid19-review/tree/0b29f72e884db8ba934851d49ef3787e840804e5)
+on April 30, 2021.
 Snapshots of individual sections are available as preprints [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals].
 </em></small>
 
@@ -4840,18 +4840,18 @@ This application of version control holds the potential to improve scientific pu
 
 |Author|Contributions|
 |---|---|
-|Halie M. Rando|A, D, E, Project Administration, Writing - Original Draft, Writing - Review & Editing|
+|Halie M. Rando|A, D, E, Project Administration, Software, Visualization, Writing - Original Draft, Writing - Review & Editing|
 |Casey S. Greene|Conceptualization, Project Administration, Software, Supervision, Writing - Review & Editing|
 |Michael P. Robson|Software|
-|Simina M. Boca|Project Administration, Writing - Review & Editing|
+|Simina M. Boca|Methodology, Project Administration, Writing - Review & Editing|
 |Nils Wellhausen|Project Administration, Visualization, Writing - Original Draft, Writing - Review & Editing|
 |Ronan Lordan|Conceptualization, Project Administration, Writing - Original Draft, Writing - Review & Editing|
 |Christian Brueffer|Project Administration, Writing - Original Draft, Writing - Review & Editing|
 |Sandipan Ray|Writing - Original Draft, Writing - Review & Editing|
-|Lucy D\'Agostino McGowan|Writing - Original Draft, Writing - Review & Editing|
-|Anthony Gitter|Methodology, Project Administration, Software, Visualization, Writing - Review & Editing|
+|Lucy D\'Agostino McGowan|Methodology, Writing - Original Draft, Writing - Review & Editing|
+|Anthony Gitter|Methodology, Project Administration, Software, Visualization, Writing - Original Draft, Writing - Review & Editing|
 |Anna Ada Dattoli|Writing - Original Draft|
-|Ryan Velazquez|Writing - Review & Editing|
+|Ryan Velazquez|Methodology, Software, Writing - Review & Editing|
 |John P. Barton|Writing - Original Draft, Writing - Review & Editing|
 |Jeffrey M. Field|Writing - Original Draft, Writing - Review & Editing|
 |Bharath Ramsundar|Writing - Review & Editing|
