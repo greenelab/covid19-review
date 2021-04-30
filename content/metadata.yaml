@@ -58,6 +58,14 @@ authors:
         contributions:
           - A
           - E
+      methods:
+        order: 0
+        contributions:
+          - Software
+          - Project Administration
+          - Visualization
+          - Writing - Review & Editing
+          - Writing - Original Draft
   -
     github: cgreene
     name: Casey S. Greene
@@ -99,6 +107,11 @@ authors:
         contributions:
           - Writing - Review & Editing
           - Project Administration
+      methods:
+        order: 0
+        contributions:
+          - Software
+          - Conceptualization
   -
     github: mprobson
     name: Michael P. Robson
@@ -114,6 +127,12 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-11-12
+      methods:
+        order: 0
+        contributions:
+          - Software
+          - Methodology
+          - Supervision
   -
     github: SiminaB
     name: Simina M. Boca
@@ -140,6 +159,10 @@ authors:
         contributions:
           - Writing - Review & Editing
           - Project Administration
+      methods:
+        order: 0
+        contributions:
+          - Methodology
   -
     github: nilswellhausen
     name: Nils Wellhausen
@@ -281,6 +304,10 @@ authors:
         contributions:
           - Writing - Review & Editing
           - Writing - Original Draft
+      methods:
+        order: 0
+        contributions:
+          - Methodology
   -
     github: agitter
     name: Anthony Gitter
@@ -320,6 +347,15 @@ authors:
           - Project Administration
           - Visualization
           - Software
+      methods:
+        order: 0
+        contributions:
+          - Software
+          - Methodology
+          - Project Administration
+          - Writing - Review & Editing
+          - Writing - Original Draft
+          - Visualization
   -
     github: aadattoli
     name: Anna Ada Dattoli
@@ -363,6 +399,11 @@ authors:
         order: 6
         contributions:
           - Writing - Review & Editing
+      methods:
+        order: 0
+        contributions:
+          - Software
+          - Methodology
   -
     github: johnbarton
     name: John P. Barton
