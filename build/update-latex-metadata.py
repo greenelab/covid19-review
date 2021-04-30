@@ -9,6 +9,14 @@ import yaml
 from manubot.util import read_serialized_data
 
 MISSING_AFFILIATIONS = [{"institution": "None"}]
+MISSING_COI = "None"
+ACM_BCB_2021 = {"acm": [{"copyrightyear": "2021",
+                         "copyright": "acmcopyright",
+                         "conference": "ACM-BCB '21",
+                         "conferencetitle": "ACM-BCB '21: ACM Conference on Bioinformatics, Computational Biology, and Health Informatics",
+                         "date": "August 01--04, 2021",
+                         "location": "Online"}]}
+
 
 def parse_args():
     parser = argparse.ArgumentParser(
@@ -68,6 +76,7 @@ def update_latex(keyword, manubot_file, pandoc_file):
     # and discard fields that will not be used by the LaTeX template
     keep_fields = {"name", "email", "orcid"}  # do not keep the old affiliations
     latex_authors = []
+    conflicts = []
     for author in individual_authors:
         latex_author = {field: author[field] for field in keep_fields if field in author}
 
@@ -79,10 +88,21 @@ def update_latex(keyword, manubot_file, pandoc_file):
         latex_author["affiliations"] = affiliations
         latex_authors.append(latex_author)
 
+        # Check whether the author has declared conflicts of interest
+        if "coi" in author:
+            conflict = author["coi"].get("string", MISSING_COI)
+            if conflict != "None":
+                conflicts.append(f"{author['name']}: {conflict}.")
+
     sys.stderr.write(f"Found {len(latex_authors)} authors for {keyword} manuscript\n")
 
     # Do not retain the other metadata fields and add the .bib file references
     metadata = {"author": latex_authors, "bibfile": keyword + ".bib"}
+    metadata.update(ACM_BCB_2021)
+    # Add conflicts if any exist
+    if len(conflicts) > 0:
+        metadata["conflicts"] = "Conflicts of interest. " + " ".join(conflicts)
+
     dump_yaml(metadata, pandoc_file)
 
 
