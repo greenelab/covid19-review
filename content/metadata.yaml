@@ -1254,6 +1254,9 @@ authors:
       - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
       - Related Sciences
     funders: GBMF4552
+    coi:
+      string: "Employee of Related Sciences, others TBD"
+      lastapproved: !!str 2021-04-30
     manuscripts:
       methods:
         order: 0
