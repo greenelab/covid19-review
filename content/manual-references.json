@@ -1063,27 +1063,6 @@
 },
 {
   "type": "article-journal",
-  "id": "individual-therapeutics",
-  "author": [
-    {
-      "literal": "COVID-19 Review Consortium"
-    }
-  ],
-  "issued": {
-    "date-parts": [
-      [
-        2021,
-        4,
-        30
-      ]
-    ]
-  },
-  "container-title": "Manubot",
-  "title": "Identification and Development of Therapeutics for COVID-19",
-  "URL": "https://greenelab.github.io/covid19-review/v/32afa309f69f0466a91acec5d0df3151fe4d61b5/#identification-and-development-of-therapeutics-for-covid-19"
-},
-{
-  "type": "article-journal",
   "id": "individual-evolution",
   "author": [
     {
