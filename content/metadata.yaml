@@ -1255,7 +1255,7 @@ authors:
       - Related Sciences
     funders: GBMF4552
     coi:
-      string: "Employee of Related Sciences, others TBD"
+      string: "None"
       lastapproved: !!str 2021-04-30
     manuscripts:
       methods:
