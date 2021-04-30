@@ -73,10 +73,7 @@ authors:
             country: USA
           - institution: University of Colorado School of Medicine
             department: Department of Biochemistry and Molecular Genetics
-            city: Aurora, CO
-            country: USA
-          - institution: University of Colorado School of Medicine
-            department: Center for Health AI
+          - department: Center for Health AI
             city: Aurora, CO
             country: USA
   -
@@ -128,18 +125,13 @@ authors:
         affiliations:
           - institution: University of Pennsylvania
             department: Department of Systems Pharmacology and Translational Therapeutics
-            city: Philadelphia, PA
-            country: USA
           - institution: Alex's Lemonade Stand Foundation
             department: Childhood Cancer Data Lab
             city: Philadelphia, PA
             country: USA
           - institution: University of Colorado School of Medicine
             department: Department of Biochemistry and Molecular Genetics
-            city: Aurora, CO
-            country: USA
-          - institution: University of Colorado School of Medicine
-            department: Center for Health AI
+          - department: Center for Health AI
             city: Aurora, CO
             country: USA
   -
@@ -404,8 +396,6 @@ authors:
         affiliations:
           - institution: University of Wisconsin-Madison
             department: Department of Biostatistics and Medical Informatics
-            city: Madison, WI
-            country: USA
           - institution: Morgridge Institute for Research
             city: Madison, WI
             country: USA
