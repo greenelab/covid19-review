@@ -666,6 +666,28 @@ authors:
           - Writing - Review & Editing
           - Writing - Original Draft
   -
+    github: vincerubinetti
+    name: Vincent Rubinetti
+    initials: VR
+    orcid: 0000-0002-4655-3773
+    email: vince.rubinetti@gmail.com
+    contributions:
+      - Writing - Original Draft
+      - Software
+    code of conduct:
+      confirmed: Yes
+    affiliations:
+      - Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+      - Center for Health AI, University of Colorado School of Medicine, Aurora, Colorado, United States of America
+    coi:
+      string: "None"
+      lastapproved: !!str 2021-04-29
+    manuscripts:
+      methods:
+        contributions:
+          - Writing - Original Draft
+          - Software
+  -
     github: jinhui2
     name: Jinhui Wang
     initials: JW
