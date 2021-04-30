@@ -10,11 +10,7 @@ filters:
 - pandoc-tablenos
 - pandoc-manubot-cite
 wrap: preserve
-number-sections: true
-# a list of offsets at each heading level
-number-offset: [0,0,0,0,0,0]
-# offset Manubot's use of level-1 headings for the title only
-shift-heading-level-by: -1
+shift-heading-level-by: -2
 standalone: true
-template: https://gist.githubusercontent.com/mprobson/f339cfdf0f1d0de6ff6b258a852e4bb4/raw/188fe363e393901f9326f53f65b42fe18e4e9464/acm-pandoc-conf.tex
+template: https://gist.githubusercontent.com/mprobson/f339cfdf0f1d0de6ff6b258a852e4bb4/raw/b1041816f0990ae8054f1838c47c4c7b857c8f93/acm-pandoc-conf.tex
 cite-method: natbib
