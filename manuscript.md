@@ -58,6 +58,7 @@ author-meta:
 - Joel D Boerckel
 - Amruta Naik
 - Yusha Sun
+- Daniel S. Himmelstein
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -262,19 +263,24 @@ header-includes: |-
   <meta name="citation_author" content="Yusha Sun" />
   <meta name="citation_author_institution" content="Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America" />
   <meta name="citation_author_orcid" content="0000-0003-4835-3000" />
+  <meta name="citation_author" content="Daniel S. Himmelstein" />
+  <meta name="citation_author_institution" content="Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America" />
+  <meta name="citation_author_institution" content="Related Sciences" />
+  <meta name="citation_author_orcid" content="0000-0002-3012-7446" />
+  <meta name="twitter:creator" content="@dhimmel" />
   <link rel="canonical" href="https://greenelab.github.io/covid19-review/" />
   <meta property="og:url" content="https://greenelab.github.io/covid19-review/" />
   <meta property="twitter:url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/7106785336fdce386aac8bf454a8ce3aced0d9dc/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/7106785336fdce386aac8bf454a8ce3aced0d9dc/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/7106785336fdce386aac8bf454a8ce3aced0d9dc/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/f2ec4bad837f7f6707f84af911d1930845017031/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/f2ec4bad837f7f6707f84af911d1930845017031/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/f2ec4bad837f7f6707f84af911d1930845017031/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/7106785336fdce386aac8bf454a8ce3aced0d9dc/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/7106785336fdce386aac8bf454a8ce3aced0d9dc/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/f2ec4bad837f7f6707f84af911d1930845017031/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/f2ec4bad837f7f6707f84af911d1930845017031/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -296,9 +302,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/7106785336fdce386aac8bf454a8ce3aced0d9dc/))
+([permalink](https://greenelab.github.io/covid19-review/v/f2ec4bad837f7f6707f84af911d1930845017031/))
 was automatically generated
-from [greenelab/covid19-review@7106785](https://github.com/greenelab/covid19-review/tree/7106785336fdce386aac8bf454a8ce3aced0d9dc)
+from [greenelab/covid19-review@f2ec4ba](https://github.com/greenelab/covid19-review/tree/f2ec4bad837f7f6707f84af911d1930845017031)
 on April 30, 2021.
 Snapshots of individual sections are available as preprints [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals].
 </em></small>
@@ -698,10 +704,19 @@ Instead, you should collect information from your local health department, the [
      Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
   </small>
 
++ **Daniel S. Himmelstein**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-3012-7446](https://orcid.org/0000-0002-3012-7446) · ![GitHub icon](images/github.svg){.inline_icon}
+    [dhimmel](https://github.com/dhimmel) · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [dhimmel](https://twitter.com/dhimmel)<br>
+  <small>
+     Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America; Related Sciences
+     · Funded by GBMF4552
+  </small>
+
 
 
 **COVID-19 Review Consortium:**
-Vikas Bansal, John P. Barton, Simina M. Boca, Joel D Boerckel, Christian Brueffer, James Brian Byrd, Stephen Capone, Shikta Das, Anna Ada Dattoli, John J. Dziak, Jeffrey M. Field, Soumita Ghosh, Anthony Gitter, Rishi Raj Goel, Casey S. Greene, Marouen Ben Guebila, Fengling Hu, Nafisa M. Jadavji, Sergey Knyazev, Likhitha Kolla, Alexandra J. Lee, Ronan Lordan, Tiago Lubiana, Temitayo Lukan, Adam L. MacLean, David Mai, Serghei Mangul, David Manheim, Lucy D\'Agostino McGowan, Amruta Naik, YoSon Park, Dimitri Perrin, Yanjun Qi, Diane N. Rafizadeh, Bharath Ramsundar, Halie M. Rando, Sandipan Ray, Michael P. Robson, Vincent Rubinetti, Elizabeth Sell, Lamonica Shinholster, Ashwin N. Skelly, Yuchen Sun, Yusha Sun, Gregory L Szeto, Ryan Velazquez, Jinhui Wang, Nils Wellhausen
+Vikas Bansal, John P. Barton, Simina M. Boca, Joel D Boerckel, Christian Brueffer, James Brian Byrd, Stephen Capone, Shikta Das, Anna Ada Dattoli, John J. Dziak, Jeffrey M. Field, Soumita Ghosh, Anthony Gitter, Rishi Raj Goel, Casey S. Greene, Marouen Ben Guebila, Daniel S. Himmelstein, Fengling Hu, Nafisa M. Jadavji, Sergey Knyazev, Likhitha Kolla, Alexandra J. Lee, Ronan Lordan, Tiago Lubiana, Temitayo Lukan, Adam L. MacLean, David Mai, Serghei Mangul, David Manheim, Lucy D\'Agostino McGowan, Amruta Naik, YoSon Park, Dimitri Perrin, Yanjun Qi, Diane N. Rafizadeh, Bharath Ramsundar, Halie M. Rando, Sandipan Ray, Michael P. Robson, Vincent Rubinetti, Elizabeth Sell, Lamonica Shinholster, Ashwin N. Skelly, Yuchen Sun, Yusha Sun, Gregory L Szeto, Ryan Velazquez, Jinhui Wang, Nils Wellhausen
 
 
 Authors are ordered arbitrarily.
@@ -4848,6 +4863,7 @@ This application of version control holds the potential to improve scientific pu
 |Joel D Boerckel|None|2021-03-26|
 |Amruta Naik|None|2021-04-05|
 |Yusha Sun|None|2021-04-10|
+|Daniel S. Himmelstein|None|2021-04-30|
 
 ### Author Contributions
 
@@ -4903,6 +4919,7 @@ This application of version control holds the potential to improve scientific pu
 |Joel D Boerckel|Writing - Review & Editing|
 |Amruta Naik|**MISSING**|
 |Yusha Sun|Writing - Review & Editing|
+|Daniel S. Himmelstein|Software|
 
 ### Acknowledgements
 
