@@ -163,12 +163,13 @@ if [ "${LITSEARCH:-}" = "true" ]; then
   #python build/litsearch/combineDataSets.py
 fi
 
-# Build DOCX outputs for individual manuscripts
-# Builds all manuscripts listed in content/individual-manuscript.txt
-# Expect one individual manuscript keyword (e.g. pathogenesis) per line
-# Strip trailing whitespace
+# Could combine most of the docx and LaTex preparations into a single function
 if [ "${BUILD_INDIVIDUAL:-}" = "true" ]; then
-  for INDIVIDUAL_KEYWORD in $(cat content/individual-manuscripts.txt | sed 's/[[:space:]]*$//'); do
+  # Build DOCX outputs for individual manuscripts
+  # Builds all manuscripts listed in content/individual-docx-manuscripts.txt
+  # Expect one individual manuscript keyword (e.g. pathogenesis) per line
+  # Strip trailing whitespace
+  for INDIVIDUAL_KEYWORD in $(cat content/individual-docx-manuscripts.txt | sed 's/[[:space:]]*$//'); do
     echo >&2 "Exporting Word Docx $INDIVIDUAL_KEYWORD manuscript"
 
     # Copy all content, then remove all markdown files not needed for the individual manuscript
@@ -182,14 +183,16 @@ if [ "${BUILD_INDIVIDUAL:-}" = "true" ]; then
     python build/update-author-metadata.py --keyword $INDIVIDUAL_KEYWORD --path content/$INDIVIDUAL_KEYWORD/metadata.yaml
 
     # Use the first line of the Markdown file as the manuscript title, overriding the title from metadata.yaml
-    INDIVIDUAL_TITLE=$(head --lines 1 content/$INDIVIDUAL_KEYWORD/*.$INDIVIDUAL_KEYWORD.md | sed 's/^#*\ //')
+    INDIVIDUAL_TITLE=$(head -n 1 content/$INDIVIDUAL_KEYWORD/*.$INDIVIDUAL_KEYWORD.md | sed 's/^#*\ //')
     INDIVIDUAL_MARKDOWN=$(find content/$INDIVIDUAL_KEYWORD/*.$INDIVIDUAL_KEYWORD.md)
     # Remove the section title from the start of the individual manuscript
     tail -n +2 $INDIVIDUAL_MARKDOWN > $INDIVIDUAL_MARKDOWN.tmp && mv $INDIVIDUAL_MARKDOWN.tmp $INDIVIDUAL_MARKDOWN
 
     # Set a variable indicating which individual manuscript is being processed
-    # This is used to modify some of of the boilerplate Markdown, like the front matter
-    echo "individual: $INDIVIDUAL_KEYWORD" >> content/$INDIVIDUAL_KEYWORD/$INDIVIDUAL_KEYWORD.yaml
+    # and another indicating docx export
+    # These are used to modify some of of the boilerplate Markdown, like the front matter
+    echo "individual: $INDIVIDUAL_KEYWORD" > content/$INDIVIDUAL_KEYWORD/$INDIVIDUAL_KEYWORD.yaml
+    echo "format: docx" >> content/$INDIVIDUAL_KEYWORD/$INDIVIDUAL_KEYWORD.yaml
 
     echo >&2 "Retrieving and processing reference metadata for the $INDIVIDUAL_KEYWORD manuscript"
     manubot process \
@@ -211,6 +214,78 @@ if [ "${BUILD_INDIVIDUAL:-}" = "true" ]; then
       --metadata=title:"$INDIVIDUAL_TITLE" \
       output/$INDIVIDUAL_KEYWORD/manuscript.md
       mv output/manuscript.docx output/$INDIVIDUAL_KEYWORD-manuscript.docx
+
+    rm -rf content/$INDIVIDUAL_KEYWORD
+    rm -rf output/$INDIVIDUAL_KEYWORD
+  done
+
+
+  # Build tex outputs for individual manuscripts
+  # Builds all manuscripts listed in content/individual-latex-manuscripts.txt
+  # Expect one individual manuscript keyword (e.g. pathogenesis) per line
+  # Strip trailing whitespace
+  # Outputs a tex file but does not compile a PDF
+  for INDIVIDUAL_KEYWORD in $(cat content/individual-latex-manuscripts.txt | sed 's/[[:space:]]*$//'); do
+    echo >&2 "Exporting LaTeX $INDIVIDUAL_KEYWORD manuscript"
+
+    # Copy all content, then remove all markdown files not needed for the individual manuscript
+    mkdir -p content/$INDIVIDUAL_KEYWORD
+    # Ignore errors about not copying directories
+    cp content/* content/$INDIVIDUAL_KEYWORD || true
+    cp -r content/images/ content/$INDIVIDUAL_KEYWORD
+    find content/$INDIVIDUAL_KEYWORD -type f \( -not -name "*$INDIVIDUAL_KEYWORD*" -and -not -name "*back-matter*" -and -name "*.md" \) | xargs rm
+
+    # Select the authors for the individual manuscript
+    python build/update-author-metadata.py --keyword $INDIVIDUAL_KEYWORD --path content/$INDIVIDUAL_KEYWORD/metadata.yaml
+
+    # Use the first line of the Markdown file as the manuscript title, overriding the title from metadata.yaml
+    INDIVIDUAL_TITLE=$(head -n 1 content/$INDIVIDUAL_KEYWORD/*.$INDIVIDUAL_KEYWORD.md | sed 's/^#*\ //')
+    INDIVIDUAL_MARKDOWN=$(find content/$INDIVIDUAL_KEYWORD/*.$INDIVIDUAL_KEYWORD.md)
+    # Remove the section title from the start of the individual manuscript
+    tail -n +2 $INDIVIDUAL_MARKDOWN > $INDIVIDUAL_MARKDOWN.tmp && mv $INDIVIDUAL_MARKDOWN.tmp $INDIVIDUAL_MARKDOWN
+
+    # Set a variable indicating which individual manuscript is being processed
+    # and another indicating tex export
+    # These are used to modify some of of the boilerplate Markdown, like the front matter
+    echo "individual: $INDIVIDUAL_KEYWORD" > content/$INDIVIDUAL_KEYWORD/$INDIVIDUAL_KEYWORD.yaml
+    echo "format: tex" >> content/$INDIVIDUAL_KEYWORD/$INDIVIDUAL_KEYWORD.yaml
+
+    echo >&2 "Retrieving and processing reference metadata for the $INDIVIDUAL_KEYWORD manuscript"
+    manubot process \
+      --content-directory=content/$INDIVIDUAL_KEYWORD \
+      --output-directory=output/$INDIVIDUAL_KEYWORD \
+      --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/CORD-19/cord19-stats.json \
+      --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/csse/csse-stats.json \
+      --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/ebmdatalab/ebmdatalab-stats.json \
+      --template-variables-path=https://github.com/greenelab/covid19-review/raw/$EXTERNAL_RESOURCES_COMMIT/owiddata/owiddata-stats.json \
+      --template-variables-path=content/$INDIVIDUAL_KEYWORD/$INDIVIDUAL_KEYWORD.yaml \
+      --cache-directory=ci/cache \
+      --skip-citations \
+      --log-level=INFO
+
+    # Select and reformat parts of the Manubot-style author metadata for the Pandoc metadata
+    python build/update-latex-metadata.py --keyword $INDIVIDUAL_KEYWORD \
+      --manubot_metadata content/$INDIVIDUAL_KEYWORD/metadata.yaml \
+      --pandoc_metadata content/$INDIVIDUAL_KEYWORD/pandoc-metadata.yaml
+
+    pandoc --verbose \
+      --data-dir="$PANDOC_DATA_DIR" \
+      --defaults=latex.yaml \
+      --metadata=title:"$INDIVIDUAL_TITLE" \
+      --metadata-file=content/$INDIVIDUAL_KEYWORD/pandoc-metadata.yaml \
+      output/$INDIVIDUAL_KEYWORD/manuscript.md
+      mv output/manuscript.tex output/$INDIVIDUAL_KEYWORD-manuscript.tex
+
+    # Translate the CSL JSON references Manubot output into BibTeX
+    pandoc --verbose \
+      --from=csljson \
+      --to=bibtex \
+      --output=output/$INDIVIDUAL_KEYWORD.bib \
+      output/$INDIVIDUAL_KEYWORD/references.json
+
+    # Remove note fields from the bib file
+    # See https://regex101.com/r/x4wQVm/1
+    cat output/$INDIVIDUAL_KEYWORD.bib | python -c "import re, sys; regex = r',\n  note = {[^}]*}'; subst = ''; print(re.sub(regex, subst, sys.stdin.read(), 0, re.MULTILINE))" > tmp.bib && mv tmp.bib output/$INDIVIDUAL_KEYWORD.bib
 
     rm -rf content/$INDIVIDUAL_KEYWORD
     rm -rf output/$INDIVIDUAL_KEYWORD

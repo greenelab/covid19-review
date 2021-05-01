@@ -2,18 +2,15 @@
 # See documentation at https://github.com/jgm/pandoc/issues/5990
 # and https://pandoc.org/MANUAL.html#default-files
 from: markdown
+to: latex
+output-file: output/manuscript.tex
 filters:
 - pandoc-fignos
 - pandoc-eqnos
 - pandoc-tablenos
 - pandoc-manubot-cite
-- citeproc
 wrap: preserve
-metadata:
-  csl: build/assets/style.csl
-  link-citations: true
-number-sections: true
-# a list of offsets at each heading level
-number-offset: [0,0,0,0,0,0]
-# offset Manubot's use of level-1 headings for the title only
-shift-heading-level-by: -1
+shift-heading-level-by: -2
+standalone: true
+template: https://gist.githubusercontent.com/mprobson/f339cfdf0f1d0de6ff6b258a852e4bb4/raw/a564f080256e808978631299b2a746c2607210c2/acm-pandoc-conf.tex
+cite-method: natbib
