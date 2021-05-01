@@ -1335,4 +1335,18 @@ authors:
         order: 4
         contributions:
           - Software
-
+  - 
+    github: None
+    name: Jeremy P. Kamil
+    affiliations:
+      - Department of Microbiology and Immunology, Louisiana State University Health Sciences Center Shreveport, Shreveport, Louisiana, USA
+    email: jeremy.kamil@lsuhs.edu
+    orcid: 0000-0001-8422-7656
+    coi:
+      string: "TBD"
+      lastapproved: !!str 2021-04-30
+    manuscripts:
+      pathogenesis:
+        order: 0
+        contributions:
+          - Writing - Review & Editing
