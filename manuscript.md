@@ -59,6 +59,7 @@ author-meta:
 - Amruta Naik
 - Yusha Sun
 - Daniel S. Himmelstein
+- Jeremy P. Kamil
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -124,7 +125,7 @@ header-includes: |-
   <meta name="citation_author_orcid" content="0000-0003-1462-831X" />
   <meta name="twitter:creator" content="@aadattoli" />
   <meta name="citation_author" content="Ryan Velazquez" />
-  <meta name="citation_author_institution" content="Azimuth1, McLean, VA" />
+  <meta name="citation_author_institution" content="Azimuth1, McLean, Virginia, United States of America" />
   <meta name="citation_author_orcid" content="0000-0002-3655-3403" />
   <meta name="citation_author" content="John P. Barton" />
   <meta name="citation_author_institution" content="Department of Physics and Astronomy, University of California-Riverside, Riverside, California, United States of America" />
@@ -268,19 +269,22 @@ header-includes: |-
   <meta name="citation_author_institution" content="Related Sciences" />
   <meta name="citation_author_orcid" content="0000-0002-3012-7446" />
   <meta name="twitter:creator" content="@dhimmel" />
+  <meta name="citation_author" content="Jeremy P. Kamil" />
+  <meta name="citation_author_institution" content="Department of Microbiology and Immunology, Louisiana State University Health Sciences Center Shreveport, Shreveport, Louisiana, USA" />
+  <meta name="citation_author_orcid" content="0000-0001-8422-7656" />
   <link rel="canonical" href="https://greenelab.github.io/covid19-review/" />
   <meta property="og:url" content="https://greenelab.github.io/covid19-review/" />
   <meta property="twitter:url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/601a4cf15f54c3993877066070e7a26b5617a135/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/601a4cf15f54c3993877066070e7a26b5617a135/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/601a4cf15f54c3993877066070e7a26b5617a135/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/be05f8b77d8698ac9718f95ae0dd5e1890ebfceb/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/be05f8b77d8698ac9718f95ae0dd5e1890ebfceb/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/be05f8b77d8698ac9718f95ae0dd5e1890ebfceb/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/601a4cf15f54c3993877066070e7a26b5617a135/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/601a4cf15f54c3993877066070e7a26b5617a135/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/be05f8b77d8698ac9718f95ae0dd5e1890ebfceb/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/be05f8b77d8698ac9718f95ae0dd5e1890ebfceb/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -302,9 +306,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/601a4cf15f54c3993877066070e7a26b5617a135/))
+([permalink](https://greenelab.github.io/covid19-review/v/be05f8b77d8698ac9718f95ae0dd5e1890ebfceb/))
 was automatically generated
-from [greenelab/covid19-review@601a4cf](https://github.com/greenelab/covid19-review/tree/601a4cf15f54c3993877066070e7a26b5617a135)
+from [greenelab/covid19-review@be05f8b](https://github.com/greenelab/covid19-review/tree/be05f8b77d8698ac9718f95ae0dd5e1890ebfceb)
 on May 1, 2021.
 Snapshots of individual sections are available as preprints [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals].
 </em></small>
@@ -413,7 +417,7 @@ Instead, you should collect information from your local health department, the [
     [0000-0002-3655-3403](https://orcid.org/0000-0002-3655-3403) · ![GitHub icon](images/github.svg){.inline_icon}
     [rdvelazquez](https://github.com/rdvelazquez)<br>
   <small>
-     Azimuth1, McLean, VA
+     Azimuth1, McLean, Virginia, United States of America
   </small>
 
 + **John P. Barton**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
@@ -713,10 +717,17 @@ Instead, you should collect information from your local health department, the [
      · Funded by GBMF4552
   </small>
 
++ **Jeremy P. Kamil**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0001-8422-7656](https://orcid.org/0000-0001-8422-7656) · ![GitHub icon](images/github.svg){.inline_icon}
+    [None](https://github.com/None)<br>
+  <small>
+     Department of Microbiology and Immunology, Louisiana State University Health Sciences Center Shreveport, Shreveport, Louisiana, USA
+  </small>
+
 
 
 **COVID-19 Review Consortium:**
-Vikas Bansal, John P. Barton, Simina M. Boca, Joel D Boerckel, Christian Brueffer, James Brian Byrd, Stephen Capone, Shikta Das, Anna Ada Dattoli, John J. Dziak, Jeffrey M. Field, Soumita Ghosh, Anthony Gitter, Rishi Raj Goel, Casey S. Greene, Marouen Ben Guebila, Daniel S. Himmelstein, Fengling Hu, Nafisa M. Jadavji, Sergey Knyazev, Likhitha Kolla, Alexandra J. Lee, Ronan Lordan, Tiago Lubiana, Temitayo Lukan, Adam L. MacLean, David Mai, Serghei Mangul, David Manheim, Lucy D\'Agostino McGowan, Amruta Naik, YoSon Park, Dimitri Perrin, Yanjun Qi, Diane N. Rafizadeh, Bharath Ramsundar, Halie M. Rando, Sandipan Ray, Michael P. Robson, Vincent Rubinetti, Elizabeth Sell, Lamonica Shinholster, Ashwin N. Skelly, Yuchen Sun, Yusha Sun, Gregory L Szeto, Ryan Velazquez, Jinhui Wang, Nils Wellhausen
+Vikas Bansal, John P. Barton, Simina M. Boca, Joel D Boerckel, Christian Brueffer, James Brian Byrd, Stephen Capone, Shikta Das, Anna Ada Dattoli, John J. Dziak, Jeffrey M. Field, Soumita Ghosh, Anthony Gitter, Rishi Raj Goel, Casey S. Greene, Marouen Ben Guebila, Daniel S. Himmelstein, Fengling Hu, Nafisa M. Jadavji, Jeremy P. Kamil, Sergey Knyazev, Likhitha Kolla, Alexandra J. Lee, Ronan Lordan, Tiago Lubiana, Temitayo Lukan, Adam L. MacLean, David Mai, Serghei Mangul, David Manheim, Lucy D\'Agostino McGowan, Amruta Naik, YoSon Park, Dimitri Perrin, Yanjun Qi, Diane N. Rafizadeh, Bharath Ramsundar, Halie M. Rando, Sandipan Ray, Michael P. Robson, Vincent Rubinetti, Elizabeth Sell, Lamonica Shinholster, Ashwin N. Skelly, Yuchen Sun, Yusha Sun, Gregory L Szeto, Ryan Velazquez, Jinhui Wang, Nils Wellhausen
 
 
 Authors are ordered arbitrarily.
@@ -3125,8 +3136,15 @@ However, the reported efficacy ranged from 57% in South Africa to 72% in the Uni
 The three viral-vector vaccines described above have demonstrated the potential for this technology to facilitate a quick response to an emerging pathogen.
 However, two of the three vaccines have faced a number of criticisms surrounding the implementation of their clinical trials.
 <--To Do: Suggestion to move some of the Sputnik controversy here, along with describing the issues with the AstraZeneca trial-->
-Additionally, though the vaccines are built using similar principles, there are some differences that might influence their efficacy as SARS-CoV-2 evolves.
-<--To Do: prefusion conformation (J&J) vs not (the other two)-->
+Additionally, though the vaccines are developed using similar principles, there are some differences that might influence their efficacy as SARS-CoV-2 evolves.
+In the Janssen vaccine, the S protein immunogen is stabilized in its prefusion conformation, while in the Sputnik V and AstraZeneca vaccines, it is not.
+The prefusion conformation of the SARS-CoV-2 S protein is metastable [@doi:10.1016/j.lfs.2020.118056], and the release of energy during membrane fusion drives this process forward following destabilization [@doi:10.1146/annurev-virology-110615-042301; @doi:10.1038/nature17200].
+Due to the significant conformational changes that occur during membrane fusion [@doi:10.1016/j.cell.2020.02.058; @doi:10.1016/j.str.2020.10.001; @doi:10.1038/s41586-020-2665-2], S protein immunogens that are stabilized in the prefusion conformation are of particular interest, especially because a prefusion stabilized MERS-CoV S antigen was found to elicit an improved antibody response [@doi:10.1073/pnas.1707304114].
+Moreover, the prefusion conformation offers an opportunity to target S2, a region of the S protein that accumulates mutations at a slower rate [@doi:10.3390/v4061011; @doi:10.1016/j.jmb.2020.04.009; @doi:10.1073/pnas.1707304114] (see also [@individual-pathogenesis]).
+Vaccine developers can use versions of the spike protein that contain mutations that stabilize the prefusion conformer, essentially locking them in this position [@doi:10.1126/science.abd0826].
+The immune response to the spike protein when it is stabilized in this conformation is improved over other S structures [@doi:10.1038/s41541-020-00243-x].
+Thus, vaccines that use this prefusion stabilized conformation, including the Janssen viral-vector vaccine, the Novavax-CoV2373 protein nanoparticle vaccine, as well as the Moderna and Pfizer/BioNTech mRNA vaccines, are expected to not only offer improved immunogenicity, but also be more resilient to the accumulation of mutations in SARS-CoV-2.
+How these differences in design influence the efficacy of these three viral-vector vaccines over time remains to be seen.
 
 ### RNA Vaccines
 
@@ -3187,7 +3205,6 @@ However, the vaccine development process has historically been slow, and vaccine
 <!--To Do: Add table of different technologies and which vaccines fall under each-->
 
 Concerns: diversity of volunteer pools, variants, and distribution
-
 
 
 ## Vaccine Development Strategies for SARS-CoV-2
@@ -4632,9 +4649,6 @@ Over the longer term, this approach and others may lead to the development of no
 In an effort to keep pace as new information about COVID-19 and SARS-CoV-2 becomes available, this project is an open, collaborative effort that invited contributions from the scientific community broadly, similar to previous efforts to develop collaborative reviews [@doi:10.1098/rsif.2017.0387; @url:https://greenelab.github.io/deep-review].
 
 
-### CCS CONCEPTS
-
-<!--To Do: @mprobson, do you want to take the lead on this?-->
 
 ### KEYWORDS
 
@@ -4807,6 +4821,9 @@ By facilitating the versioning of text, such platforms also allow for documentat
 This application of version control holds the potential to improve scientific publishing in a range of disciplines, including those outside of traditional computational fields.
 
 
+
+
+
 ## Additional Items {.page_break_before} 
 
 ### Competing Interests
@@ -4864,6 +4881,7 @@ This application of version control holds the potential to improve scientific pu
 |Amruta Naik|None|2021-04-05|
 |Yusha Sun|None|2021-04-10|
 |Daniel S. Himmelstein|None|2021-04-30|
+|Jeremy P. Kamil|TBD|2021-04-30|
 
 ### Author Contributions
 
@@ -4920,6 +4938,7 @@ This application of version control holds the potential to improve scientific pu
 |Amruta Naik|**MISSING**|
 |Yusha Sun|Writing - Review & Editing|
 |Daniel S. Himmelstein|Software|
+|Jeremy P. Kamil|Writing - Review & Editing|
 
 ### Acknowledgements
 
@@ -4929,10 +4948,7 @@ We are grateful to the following contributors for reviewing pieces of the text: 
 <!-- To Do: Add  Patryk Orzechowski to acknowledgements for vaccines-->
 
 
-## References {.page_break_before}
 
-<!-- Explicitly insert bibliography here -->
-<div id="refs"></div>
 
 <!-- Define citation tags below -->
 [@tag:Park2020_distancing]: url:https://github.com/parksw3/Korea-analysis/blob/master/v1/korea.pdf

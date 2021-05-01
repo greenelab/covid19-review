@@ -60,9 +60,10 @@
       "Joel D Boerckel",
       "Amruta Naik",
       "Yusha Sun",
-      "Daniel S. Himmelstein"
+      "Daniel S. Himmelstein",
+      "Jeremy P. Kamil"
     ],
-    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta name=\"citation_title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta property=\"og:title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta property=\"twitter:title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta name=\"dc.date\" content=\"2021-05-01\" />\n<meta name=\"citation_publication_date\" content=\"2021-05-01\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Halie M. Rando\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, Aurora, Colorado, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Center for Health AI, University of Colorado School of Medicine, Aurora, Colorado, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7688-1770\" />\n<meta name=\"twitter:creator\" content=\"@tamefoxtime\" />\n<meta name=\"citation_author\" content=\"Casey S. Greene\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Childhood Cancer Data Lab, Alex&#39;s Lemonade Stand Foundation, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, Aurora, Colorado, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Center for Health AI, University of Colorado School of Medicine, Aurora, Colorado, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8713-9213\" />\n<meta name=\"twitter:creator\" content=\"@GreeneScientist\" />\n<meta name=\"citation_author\" content=\"Michael P. Robson\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computing Sciences, Villanova University, Villanova, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-4859-0033\" />\n<meta name=\"citation_author\" content=\"Simina M. Boca\" />\n<meta name=\"citation_author_institution\" content=\"Innovation Center for Biomedical Informatics, Georgetown University Medical Center, Washington, District of Columbia, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1400-3398\" />\n<meta name=\"citation_author\" content=\"Nils Wellhausen\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8955-7582\" />\n<meta name=\"citation_author\" content=\"Ronan Lordan\" />\n<meta name=\"citation_author_institution\" content=\"Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104-5158, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-9668-3368\" />\n<meta name=\"twitter:creator\" content=\"@el_ronan\" />\n<meta name=\"citation_author\" content=\"Christian Brueffer\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical Sciences, Lund University, Lund, Sweden\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3826-0989\" />\n<meta name=\"twitter:creator\" content=\"@cbrueffer\" />\n<meta name=\"citation_author\" content=\"Sandipan Ray\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biotechnology, Indian Institute of Technology Hyderabad, Kandi, Sangareddy 502285, Telangana, India\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9960-5768\" />\n<meta name=\"citation_author\" content=\"Lucy D\\&#39;Agostino McGowan\" />\n<meta name=\"citation_author_institution\" content=\"Department of Mathematics and Statistics, Wake Forest University, Winston-Salem, North Carolina, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7297-9359\" />\n<meta name=\"twitter:creator\" content=\"@LucyStats\" />\n<meta name=\"citation_author\" content=\"Anthony Gitter\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Morgridge Institute for Research, Madison, Wisconsin, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5324-9833\" />\n<meta name=\"twitter:creator\" content=\"@anthonygitter\" />\n<meta name=\"citation_author\" content=\"Anna Ada Dattoli\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology &amp; Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1462-831X\" />\n<meta name=\"twitter:creator\" content=\"@aadattoli\" />\n<meta name=\"citation_author\" content=\"Ryan Velazquez\" />\n<meta name=\"citation_author_institution\" content=\"Azimuth1, McLean, VA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3655-3403\" />\n<meta name=\"citation_author\" content=\"John P. Barton\" />\n<meta name=\"citation_author_institution\" content=\"Department of Physics and Astronomy, University of California-Riverside, Riverside, California, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1467-421X\" />\n<meta name=\"twitter:creator\" content=\"@_jpbarton\" />\n<meta name=\"citation_author\" content=\"Jeffrey M. Field\" />\n<meta name=\"citation_author_institution\" content=\"Department of Pharmacology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7161-7284\" />\n<meta name=\"citation_author\" content=\"Bharath Ramsundar\" />\n<meta name=\"citation_author_institution\" content=\"The DeepChem Project, https://deepchem.io/\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8450-4262\" />\n<meta name=\"twitter:creator\" content=\"@rbhar90\" />\n<meta name=\"citation_author\" content=\"Adam L. MacLean\" />\n<meta name=\"citation_author_institution\" content=\"Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, California, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0689-7907\" />\n<meta name=\"twitter:creator\" content=\"@adamlmaclean\" />\n<meta name=\"citation_author\" content=\"Alexandra J. Lee\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0208-3730\" />\n<meta name=\"citation_author\" content=\"Immunology Institute of the Icahn School of Medicine\" />\n<meta name=\"citation_author_institution\" content=\"Immunology Institute of the Icahn School of Medicine\" />\n<meta name=\"citation_author\" content=\"Fengling Hu\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1081-5038\" />\n<meta name=\"twitter:creator\" content=\"@hufengling\" />\n<meta name=\"citation_author\" content=\"Nafisa M. Jadavji\" />\n<meta name=\"citation_author_institution\" content=\"Biomedical Science, Midwestern University, Glendale, AZ, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Department of Neuroscience, Carleton University, Ottawa, Ontario, Canada\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3557-7307\" />\n<meta name=\"twitter:creator\" content=\"@nafisajadavji\" />\n<meta name=\"citation_author\" content=\"Elizabeth Sell\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9658-1107\" />\n<meta name=\"citation_author\" content=\"Vincent Rubinetti\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Center for Health AI, University of Colorado School of Medicine, Aurora, Colorado, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-4655-3773\" />\n<meta name=\"citation_author\" content=\"Jinhui Wang\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5796-8130\" />\n<meta name=\"citation_author\" content=\"Diane N. Rafizadeh\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Department of Chemistry, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2838-067X\" />\n<meta name=\"citation_author\" content=\"Ashwin N. Skelly\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Institute for Immunology, University of Pennsylvania Perelman School of Medicine, Philadelphia, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1565-3376\" />\n<meta name=\"citation_author\" content=\"Marouen Ben Guebila\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics, Harvard School of Public Health, Boston, Massachusetts, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-5934-966X\" />\n<meta name=\"twitter:creator\" content=\"@marouenbg\" />\n<meta name=\"citation_author\" content=\"Likhitha Kolla\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1169-906X\" />\n<meta name=\"twitter:creator\" content=\"@lkolla2018\" />\n<meta name=\"citation_author\" content=\"David Manheim\" />\n<meta name=\"citation_author_institution\" content=\"1DaySooner, Delaware, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Risk and Health Communication Research Center, School of Public Health, University of Haifa, Haifa, Israel\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8599-8380\" />\n<meta name=\"twitter:creator\" content=\"@davidmanheim\" />\n<meta name=\"citation_author\" content=\"Soumita Ghosh\" />\n<meta name=\"citation_author_institution\" content=\"Institute of Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2783-2750\" />\n<meta name=\"citation_author\" content=\"James Brian Byrd\" />\n<meta name=\"citation_author_institution\" content=\"University of Michigan School of Medicine, Ann Arbor, Michigan, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0509-3520\" />\n<meta name=\"twitter:creator\" content=\"@thebyrdlab\" />\n<meta name=\"citation_author\" content=\"YoSon Park\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0465-4744\" />\n<meta name=\"twitter:creator\" content=\"@__yoson__\" />\n<meta name=\"citation_author\" content=\"Vikas Bansal\" />\n<meta name=\"citation_author_institution\" content=\"Biomedical Data Science and Machine Learning Group, German Center for Neurodegenerative Diseases, Tübingen 72076, Germany\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0944-7226\" />\n<meta name=\"twitter:creator\" content=\"@VikasBansal1989\" />\n<meta name=\"citation_author\" content=\"Stephen Capone\" />\n<meta name=\"citation_author_institution\" content=\"St. George&#39;s University School of Medicine, St. George&#39;s, Grenada\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7231-1535\" />\n<meta name=\"citation_author\" content=\"John J. Dziak\" />\n<meta name=\"citation_author_institution\" content=\"Edna Bennett Pierce Prevention Research Center, The Pennsylvania State University, University Park, PA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0762-5495\" />\n<meta name=\"citation_author\" content=\"Yuchen Sun\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computer Science, University of Virginia, Charlottesville, VA, United States of America\" />\n<meta name=\"citation_author\" content=\"Yanjun Qi\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computer Science, University of Virginia, Charlottesville, VA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5796-7453\" />\n<meta name=\"citation_author\" content=\"Lamonica Shinholster\" />\n<meta name=\"citation_author_institution\" content=\"Mercer University, Macon, GA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-6285-005X\" />\n<meta name=\"citation_author\" content=\"Temitayo Lukan\" />\n<meta name=\"citation_author_institution\" content=\"University of Pennsylvania, Philadelphia, PA, United States of America\" />\n<meta name=\"citation_author\" content=\"Sergey Knyazev\" />\n<meta name=\"citation_author_institution\" content=\"Georgia State University, Atlanta, GA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0385-1831\" />\n<meta name=\"twitter:creator\" content=\"@SeKnyaz\" />\n<meta name=\"citation_author\" content=\"Dimitri Perrin\" />\n<meta name=\"citation_author_institution\" content=\"School of Computer Science, Queensland University of Technology, Brisbane, Australia\" />\n<meta name=\"citation_author_institution\" content=\"Centre for Data Science, Queensland University of Technology, Brisbane, Australia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-4007-5256\" />\n<meta name=\"twitter:creator\" content=\"@dperrin\" />\n<meta name=\"citation_author\" content=\"Serghei Mangul\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical Pharmacy, School of Pharmacy, University of Southern California, Los Angeles, CA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-4770-3443\" />\n<meta name=\"twitter:creator\" content=\"@serghei_mangul\" />\n<meta name=\"citation_author\" content=\"Shikta Das\" />\n<meta name=\"citation_author_institution\" content=\"C4X Discovery, London, United Kingdom\" />\n<meta name=\"citation_author_institution\" content=\"Medical Research Council LHA, Institute of Cardiovascular Studies, University College London, London, United Kingdom\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-8291-2788\" />\n<meta name=\"twitter:creator\" content=\"@shikta_das\" />\n<meta name=\"citation_author\" content=\"Gregory L Szeto\" />\n<meta name=\"citation_author_institution\" content=\"Allen Institute for Immunology, Seattle, WA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7604-1333\" />\n<meta name=\"twitter:creator\" content=\"@greg_szeto\" />\n<meta name=\"citation_author\" content=\"Tiago Lubiana\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical and Toxicological Analyses, School of Pharmaceutical Sciences, University of São Paulo, São Paulo, Brazil\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2473-2313\" />\n<meta name=\"twitter:creator\" content=\"@lubianat\" />\n<meta name=\"citation_author\" content=\"David Mai\" />\n<meta name=\"citation_author_institution\" content=\"Department of Bioengineering, University of Pennsylvania, Philadelphia, PA, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9238-0164\" />\n<meta name=\"twitter:creator\" content=\"@daveomai\" />\n<meta name=\"citation_author\" content=\"COVID-19 Review Consortium\" />\n<meta name=\"citation_author\" content=\"Rishi Raj Goel\" />\n<meta name=\"citation_author_institution\" content=\"Institute for Immunology, University of Pennsylvania, Philadelphia, PA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1715-5191\" />\n<meta name=\"twitter:creator\" content=\"@rishirajgoel\" />\n<meta name=\"citation_author\" content=\"Joel D Boerckel\" />\n<meta name=\"citation_author_institution\" content=\"Department of Orthopaedic Surgery, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Department of Bioengineering, University of Pennsylvania, Philadelphia, PA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3126-3025\" />\n<meta name=\"twitter:creator\" content=\"@jboerckel\" />\n<meta name=\"citation_author\" content=\"Amruta Naik\" />\n<meta name=\"citation_author_institution\" content=\"Children&#39;s Hospital of Philadelphia, Philadelphia, PA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0673-2643\" />\n<meta name=\"citation_author\" content=\"Yusha Sun\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-4835-3000\" />\n<meta name=\"citation_author\" content=\"Daniel S. Himmelstein\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Related Sciences\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3012-7446\" />\n<meta name=\"twitter:creator\" content=\"@dhimmel\" />\n<link rel=\"canonical\" href=\"https://greenelab.github.io/covid19-review/\" />\n<meta property=\"og:url\" content=\"https://greenelab.github.io/covid19-review/\" />\n<meta property=\"twitter:url\" content=\"https://greenelab.github.io/covid19-review/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://greenelab.github.io/covid19-review/\" />\n<meta name=\"citation_pdf_url\" content=\"https://greenelab.github.io/covid19-review/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://greenelab.github.io/covid19-review/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://greenelab.github.io/covid19-review/v/601a4cf15f54c3993877066070e7a26b5617a135/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://greenelab.github.io/covid19-review/v/601a4cf15f54c3993877066070e7a26b5617a135/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://greenelab.github.io/covid19-review/v/601a4cf15f54c3993877066070e7a26b5617a135/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<meta property=\"og:image\" content=\"https://github.com/greenelab/covid19-review/raw/601a4cf15f54c3993877066070e7a26b5617a135/content/images/thumbnail.png\" />\n<meta property=\"twitter:image\" content=\"https://github.com/greenelab/covid19-review/raw/601a4cf15f54c3993877066070e7a26b5617a135/content/images/thumbnail.png\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta name=\"citation_title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta property=\"og:title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta property=\"twitter:title\" content=\"SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics\" />\n<meta name=\"dc.date\" content=\"2021-05-01\" />\n<meta name=\"citation_publication_date\" content=\"2021-05-01\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Halie M. Rando\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, Aurora, Colorado, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Center for Health AI, University of Colorado School of Medicine, Aurora, Colorado, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7688-1770\" />\n<meta name=\"twitter:creator\" content=\"@tamefoxtime\" />\n<meta name=\"citation_author\" content=\"Casey S. Greene\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Childhood Cancer Data Lab, Alex&#39;s Lemonade Stand Foundation, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, Aurora, Colorado, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Center for Health AI, University of Colorado School of Medicine, Aurora, Colorado, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8713-9213\" />\n<meta name=\"twitter:creator\" content=\"@GreeneScientist\" />\n<meta name=\"citation_author\" content=\"Michael P. Robson\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computing Sciences, Villanova University, Villanova, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-4859-0033\" />\n<meta name=\"citation_author\" content=\"Simina M. Boca\" />\n<meta name=\"citation_author_institution\" content=\"Innovation Center for Biomedical Informatics, Georgetown University Medical Center, Washington, District of Columbia, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1400-3398\" />\n<meta name=\"citation_author\" content=\"Nils Wellhausen\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8955-7582\" />\n<meta name=\"citation_author\" content=\"Ronan Lordan\" />\n<meta name=\"citation_author_institution\" content=\"Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104-5158, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-9668-3368\" />\n<meta name=\"twitter:creator\" content=\"@el_ronan\" />\n<meta name=\"citation_author\" content=\"Christian Brueffer\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical Sciences, Lund University, Lund, Sweden\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3826-0989\" />\n<meta name=\"twitter:creator\" content=\"@cbrueffer\" />\n<meta name=\"citation_author\" content=\"Sandipan Ray\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biotechnology, Indian Institute of Technology Hyderabad, Kandi, Sangareddy 502285, Telangana, India\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9960-5768\" />\n<meta name=\"citation_author\" content=\"Lucy D\\&#39;Agostino McGowan\" />\n<meta name=\"citation_author_institution\" content=\"Department of Mathematics and Statistics, Wake Forest University, Winston-Salem, North Carolina, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7297-9359\" />\n<meta name=\"twitter:creator\" content=\"@LucyStats\" />\n<meta name=\"citation_author\" content=\"Anthony Gitter\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Morgridge Institute for Research, Madison, Wisconsin, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5324-9833\" />\n<meta name=\"twitter:creator\" content=\"@anthonygitter\" />\n<meta name=\"citation_author\" content=\"Anna Ada Dattoli\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology &amp; Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1462-831X\" />\n<meta name=\"twitter:creator\" content=\"@aadattoli\" />\n<meta name=\"citation_author\" content=\"Ryan Velazquez\" />\n<meta name=\"citation_author_institution\" content=\"Azimuth1, McLean, Virginia, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3655-3403\" />\n<meta name=\"citation_author\" content=\"John P. Barton\" />\n<meta name=\"citation_author_institution\" content=\"Department of Physics and Astronomy, University of California-Riverside, Riverside, California, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1467-421X\" />\n<meta name=\"twitter:creator\" content=\"@_jpbarton\" />\n<meta name=\"citation_author\" content=\"Jeffrey M. Field\" />\n<meta name=\"citation_author_institution\" content=\"Department of Pharmacology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7161-7284\" />\n<meta name=\"citation_author\" content=\"Bharath Ramsundar\" />\n<meta name=\"citation_author_institution\" content=\"The DeepChem Project, https://deepchem.io/\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8450-4262\" />\n<meta name=\"twitter:creator\" content=\"@rbhar90\" />\n<meta name=\"citation_author\" content=\"Adam L. MacLean\" />\n<meta name=\"citation_author_institution\" content=\"Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, California, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0689-7907\" />\n<meta name=\"twitter:creator\" content=\"@adamlmaclean\" />\n<meta name=\"citation_author\" content=\"Alexandra J. Lee\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0208-3730\" />\n<meta name=\"citation_author\" content=\"Immunology Institute of the Icahn School of Medicine\" />\n<meta name=\"citation_author_institution\" content=\"Immunology Institute of the Icahn School of Medicine\" />\n<meta name=\"citation_author\" content=\"Fengling Hu\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1081-5038\" />\n<meta name=\"twitter:creator\" content=\"@hufengling\" />\n<meta name=\"citation_author\" content=\"Nafisa M. Jadavji\" />\n<meta name=\"citation_author_institution\" content=\"Biomedical Science, Midwestern University, Glendale, AZ, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Department of Neuroscience, Carleton University, Ottawa, Ontario, Canada\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3557-7307\" />\n<meta name=\"twitter:creator\" content=\"@nafisajadavji\" />\n<meta name=\"citation_author\" content=\"Elizabeth Sell\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9658-1107\" />\n<meta name=\"citation_author\" content=\"Vincent Rubinetti\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Center for Health AI, University of Colorado School of Medicine, Aurora, Colorado, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-4655-3773\" />\n<meta name=\"citation_author\" content=\"Jinhui Wang\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5796-8130\" />\n<meta name=\"citation_author\" content=\"Diane N. Rafizadeh\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Department of Chemistry, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2838-067X\" />\n<meta name=\"citation_author\" content=\"Ashwin N. Skelly\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Institute for Immunology, University of Pennsylvania Perelman School of Medicine, Philadelphia, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1565-3376\" />\n<meta name=\"citation_author\" content=\"Marouen Ben Guebila\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics, Harvard School of Public Health, Boston, Massachusetts, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-5934-966X\" />\n<meta name=\"twitter:creator\" content=\"@marouenbg\" />\n<meta name=\"citation_author\" content=\"Likhitha Kolla\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1169-906X\" />\n<meta name=\"twitter:creator\" content=\"@lkolla2018\" />\n<meta name=\"citation_author\" content=\"David Manheim\" />\n<meta name=\"citation_author_institution\" content=\"1DaySooner, Delaware, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Risk and Health Communication Research Center, School of Public Health, University of Haifa, Haifa, Israel\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8599-8380\" />\n<meta name=\"twitter:creator\" content=\"@davidmanheim\" />\n<meta name=\"citation_author\" content=\"Soumita Ghosh\" />\n<meta name=\"citation_author_institution\" content=\"Institute of Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2783-2750\" />\n<meta name=\"citation_author\" content=\"James Brian Byrd\" />\n<meta name=\"citation_author_institution\" content=\"University of Michigan School of Medicine, Ann Arbor, Michigan, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0509-3520\" />\n<meta name=\"twitter:creator\" content=\"@thebyrdlab\" />\n<meta name=\"citation_author\" content=\"YoSon Park\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0465-4744\" />\n<meta name=\"twitter:creator\" content=\"@__yoson__\" />\n<meta name=\"citation_author\" content=\"Vikas Bansal\" />\n<meta name=\"citation_author_institution\" content=\"Biomedical Data Science and Machine Learning Group, German Center for Neurodegenerative Diseases, Tübingen 72076, Germany\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0944-7226\" />\n<meta name=\"twitter:creator\" content=\"@VikasBansal1989\" />\n<meta name=\"citation_author\" content=\"Stephen Capone\" />\n<meta name=\"citation_author_institution\" content=\"St. George&#39;s University School of Medicine, St. George&#39;s, Grenada\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7231-1535\" />\n<meta name=\"citation_author\" content=\"John J. Dziak\" />\n<meta name=\"citation_author_institution\" content=\"Edna Bennett Pierce Prevention Research Center, The Pennsylvania State University, University Park, PA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0762-5495\" />\n<meta name=\"citation_author\" content=\"Yuchen Sun\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computer Science, University of Virginia, Charlottesville, VA, United States of America\" />\n<meta name=\"citation_author\" content=\"Yanjun Qi\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computer Science, University of Virginia, Charlottesville, VA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5796-7453\" />\n<meta name=\"citation_author\" content=\"Lamonica Shinholster\" />\n<meta name=\"citation_author_institution\" content=\"Mercer University, Macon, GA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-6285-005X\" />\n<meta name=\"citation_author\" content=\"Temitayo Lukan\" />\n<meta name=\"citation_author_institution\" content=\"University of Pennsylvania, Philadelphia, PA, United States of America\" />\n<meta name=\"citation_author\" content=\"Sergey Knyazev\" />\n<meta name=\"citation_author_institution\" content=\"Georgia State University, Atlanta, GA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0385-1831\" />\n<meta name=\"twitter:creator\" content=\"@SeKnyaz\" />\n<meta name=\"citation_author\" content=\"Dimitri Perrin\" />\n<meta name=\"citation_author_institution\" content=\"School of Computer Science, Queensland University of Technology, Brisbane, Australia\" />\n<meta name=\"citation_author_institution\" content=\"Centre for Data Science, Queensland University of Technology, Brisbane, Australia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-4007-5256\" />\n<meta name=\"twitter:creator\" content=\"@dperrin\" />\n<meta name=\"citation_author\" content=\"Serghei Mangul\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical Pharmacy, School of Pharmacy, University of Southern California, Los Angeles, CA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-4770-3443\" />\n<meta name=\"twitter:creator\" content=\"@serghei_mangul\" />\n<meta name=\"citation_author\" content=\"Shikta Das\" />\n<meta name=\"citation_author_institution\" content=\"C4X Discovery, London, United Kingdom\" />\n<meta name=\"citation_author_institution\" content=\"Medical Research Council LHA, Institute of Cardiovascular Studies, University College London, London, United Kingdom\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-8291-2788\" />\n<meta name=\"twitter:creator\" content=\"@shikta_das\" />\n<meta name=\"citation_author\" content=\"Gregory L Szeto\" />\n<meta name=\"citation_author_institution\" content=\"Allen Institute for Immunology, Seattle, WA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7604-1333\" />\n<meta name=\"twitter:creator\" content=\"@greg_szeto\" />\n<meta name=\"citation_author\" content=\"Tiago Lubiana\" />\n<meta name=\"citation_author_institution\" content=\"Department of Clinical and Toxicological Analyses, School of Pharmaceutical Sciences, University of São Paulo, São Paulo, Brazil\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2473-2313\" />\n<meta name=\"twitter:creator\" content=\"@lubianat\" />\n<meta name=\"citation_author\" content=\"David Mai\" />\n<meta name=\"citation_author_institution\" content=\"Department of Bioengineering, University of Pennsylvania, Philadelphia, PA, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9238-0164\" />\n<meta name=\"twitter:creator\" content=\"@daveomai\" />\n<meta name=\"citation_author\" content=\"COVID-19 Review Consortium\" />\n<meta name=\"citation_author\" content=\"Rishi Raj Goel\" />\n<meta name=\"citation_author_institution\" content=\"Institute for Immunology, University of Pennsylvania, Philadelphia, PA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1715-5191\" />\n<meta name=\"twitter:creator\" content=\"@rishirajgoel\" />\n<meta name=\"citation_author\" content=\"Joel D Boerckel\" />\n<meta name=\"citation_author_institution\" content=\"Department of Orthopaedic Surgery, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Department of Bioengineering, University of Pennsylvania, Philadelphia, PA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3126-3025\" />\n<meta name=\"twitter:creator\" content=\"@jboerckel\" />\n<meta name=\"citation_author\" content=\"Amruta Naik\" />\n<meta name=\"citation_author_institution\" content=\"Children&#39;s Hospital of Philadelphia, Philadelphia, PA, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0673-2643\" />\n<meta name=\"citation_author\" content=\"Yusha Sun\" />\n<meta name=\"citation_author_institution\" content=\"Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-4835-3000\" />\n<meta name=\"citation_author\" content=\"Daniel S. Himmelstein\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Related Sciences\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3012-7446\" />\n<meta name=\"twitter:creator\" content=\"@dhimmel\" />\n<meta name=\"citation_author\" content=\"Jeremy P. Kamil\" />\n<meta name=\"citation_author_institution\" content=\"Department of Microbiology and Immunology, Louisiana State University Health Sciences Center Shreveport, Shreveport, Louisiana, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8422-7656\" />\n<link rel=\"canonical\" href=\"https://greenelab.github.io/covid19-review/\" />\n<meta property=\"og:url\" content=\"https://greenelab.github.io/covid19-review/\" />\n<meta property=\"twitter:url\" content=\"https://greenelab.github.io/covid19-review/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://greenelab.github.io/covid19-review/\" />\n<meta name=\"citation_pdf_url\" content=\"https://greenelab.github.io/covid19-review/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://greenelab.github.io/covid19-review/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://greenelab.github.io/covid19-review/v/be05f8b77d8698ac9718f95ae0dd5e1890ebfceb/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://greenelab.github.io/covid19-review/v/be05f8b77d8698ac9718f95ae0dd5e1890ebfceb/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://greenelab.github.io/covid19-review/v/be05f8b77d8698ac9718f95ae0dd5e1890ebfceb/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<meta property=\"og:image\" content=\"https://github.com/greenelab/covid19-review/raw/be05f8b77d8698ac9718f95ae0dd5e1890ebfceb/content/images/thumbnail.png\" />\n<meta property=\"twitter:image\" content=\"https://github.com/greenelab/covid19-review/raw/be05f8b77d8698ac9718f95ae0dd5e1890ebfceb/content/images/thumbnail.png\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
     "bibliography": [
       "content/manual-references-2021-02-08.json",
       "content/manual-references.bib",
@@ -154,6 +155,25 @@
               "Visualization",
               "Writing - Review & Editing",
               "Writing - Original Draft"
+            ],
+            "affiliations": [
+              {
+                "institution": "University of Pennsylvania",
+                "department": "Department of Systems Pharmacology and Translational Therapeutics",
+                "city": "Philadelphia",
+                "state": "PA",
+                "country": "USA"
+              },
+              {
+                "institution": "University of Colorado School of Medicine",
+                "department": "Department of Biochemistry and Molecular Genetics"
+              },
+              {
+                "department": "Center for Health AI",
+                "city": "Aurora",
+                "state": "CO",
+                "country": "USA"
+              }
             ]
           }
         },
@@ -222,6 +242,29 @@
             "contributions": [
               "Software",
               "Conceptualization"
+            ],
+            "affiliations": [
+              {
+                "institution": "University of Pennsylvania",
+                "department": "Department of Systems Pharmacology and Translational Therapeutics"
+              },
+              {
+                "institution": "Alex's Lemonade Stand Foundation",
+                "department": "Childhood Cancer Data Lab",
+                "city": "Philadelphia",
+                "state": "PA",
+                "country": "USA"
+              },
+              {
+                "institution": "University of Colorado School of Medicine",
+                "department": "Department of Biochemistry and Molecular Genetics"
+              },
+              {
+                "department": "Center for Health AI",
+                "city": "Aurora",
+                "state": "CO",
+                "country": "USA"
+              }
             ]
           }
         },
@@ -260,6 +303,15 @@
               "Software",
               "Methodology",
               "Supervision"
+            ],
+            "affiliations": [
+              {
+                "institution": "Villanova University",
+                "department": "Department of Computing Sciences",
+                "city": "Villanova",
+                "state": "PA",
+                "country": "USA"
+              }
             ]
           }
         },
@@ -306,6 +358,15 @@
             "order": 0,
             "contributions": [
               "Methodology"
+            ],
+            "affiliations": [
+              {
+                "institution": "Georgetown University Medical Center",
+                "department": "Innovation Center for Biomedical Informatics",
+                "city": "Washington",
+                "state": "DC",
+                "country": "USA"
+              }
             ]
           }
         },
@@ -519,6 +580,15 @@
             "order": 0,
             "contributions": [
               "Methodology"
+            ],
+            "affiliations": [
+              {
+                "institution": "Wake Forest University",
+                "department": "Department of Mathematics and Statistics",
+                "city": "Winston-Salem",
+                "state": "NC",
+                "country": "USA"
+              }
             ]
           }
         },
@@ -583,6 +653,18 @@
               "Writing - Review & Editing",
               "Writing - Original Draft",
               "Visualization"
+            ],
+            "affiliations": [
+              {
+                "institution": "University of Wisconsin-Madison",
+                "department": "Department of Biostatistics and Medical Informatics"
+              },
+              {
+                "institution": "Morgridge Institute for Research",
+                "city": "Madison",
+                "state": "WI",
+                "country": "USA"
+              }
             ]
           }
         },
@@ -638,7 +720,7 @@
           "confirmed": true
         },
         "affiliations": [
-          "Azimuth1, McLean, VA"
+          "Azimuth1, McLean, Virginia, United States of America"
         ],
         "coi": {
           "string": "None",
@@ -656,6 +738,14 @@
             "contributions": [
               "Software",
               "Methodology"
+            ],
+            "affiliations": [
+              {
+                "institution": "Azimuth1",
+                "city": "McLean",
+                "state": "VA",
+                "country": "USA"
+              }
             ]
           }
         },
@@ -995,6 +1085,22 @@
             "contributions": [
               "Writing - Original Draft",
               "Software"
+            ],
+            "affiliations": [
+              {
+                "institution": "University of Pennsylvania",
+                "department": "Perelman School of Medicine",
+                "city": "Philadelphia",
+                "state": "PA",
+                "country": "USA"
+              },
+              {
+                "institution": "University of Colorado School of Medicine",
+                "department": "Center for Health AI",
+                "city": "Aurora",
+                "state": "CO",
+                "country": "USA"
+              }
             ]
           }
         },
@@ -1813,6 +1919,12 @@
             "contributions": [
               "Project Administration"
             ]
+          },
+          "methods": {
+            "order": 0,
+            "contributions": [
+              "Project Administration"
+            ]
           }
         },
         "contributions": [
@@ -1981,6 +2093,33 @@
           1,
           50
         ]
+      },
+      {
+        "github": "None",
+        "name": "Jeremy P. Kamil",
+        "affiliations": [
+          "Department of Microbiology and Immunology, Louisiana State University Health Sciences Center Shreveport, Shreveport, Louisiana, USA"
+        ],
+        "email": "jeremy.kamil@lsuhs.edu",
+        "orcid": "0000-0001-8422-7656",
+        "coi": {
+          "string": "TBD",
+          "lastapproved": "2021-04-30"
+        },
+        "manuscripts": {
+          "pathogenesis": {
+            "order": 0,
+            "contributions": [
+              "Writing - Review & Editing"
+            ]
+          }
+        },
+        "contributions": [
+          "Writing - Review & Editing"
+        ],
+        "affiliation_numbers": [
+          51
+        ]
       }
     ],
     "affiliations": [
@@ -2037,7 +2176,7 @@
         "affiliation_number": 13
       },
       {
-        "affiliation": "Azimuth1, McLean, VA",
+        "affiliation": "Azimuth1, McLean, Virginia, United States of America",
         "affiliation_number": 14
       },
       {
@@ -2183,6 +2322,10 @@
       {
         "affiliation": "Related Sciences",
         "affiliation_number": 50
+      },
+      {
+        "affiliation": "Department of Microbiology and Immunology, Louisiana State University Health Sciences Center Shreveport, Shreveport, Louisiana, USA",
+        "affiliation_number": 51
       }
     ],
     "ci_source": {
@@ -2190,20 +2333,20 @@
       "repo_slug": "greenelab/covid19-review",
       "repo_owner": "greenelab",
       "repo_name": "covid19-review",
-      "commit": "601a4cf15f54c3993877066070e7a26b5617a135",
-      "triggering_commit": "601a4cf15f54c3993877066070e7a26b5617a135",
-      "build_url": "https://github.com/greenelab/covid19-review/commit/601a4cf15f54c3993877066070e7a26b5617a135/checks",
+      "commit": "be05f8b77d8698ac9718f95ae0dd5e1890ebfceb",
+      "triggering_commit": "be05f8b77d8698ac9718f95ae0dd5e1890ebfceb",
+      "build_url": "https://github.com/greenelab/covid19-review/commit/be05f8b77d8698ac9718f95ae0dd5e1890ebfceb/checks",
       "job_url": "https://github.com/greenelab/covid19-review/runs/run3"
     },
     "html_url": "https://greenelab.github.io/covid19-review/",
     "pdf_url": "https://greenelab.github.io/covid19-review/manuscript.pdf",
-    "html_url_versioned": "https://greenelab.github.io/covid19-review/v/601a4cf15f54c3993877066070e7a26b5617a135/",
-    "pdf_url_versioned": "https://greenelab.github.io/covid19-review/v/601a4cf15f54c3993877066070e7a26b5617a135/manuscript.pdf",
-    "manubot_version": "0.5.0",
+    "html_url_versioned": "https://greenelab.github.io/covid19-review/v/be05f8b77d8698ac9718f95ae0dd5e1890ebfceb/",
+    "pdf_url_versioned": "https://greenelab.github.io/covid19-review/v/be05f8b77d8698ac9718f95ae0dd5e1890ebfceb/manuscript.pdf",
+    "manubot_version": "0.5.1",
     "rootstock_commit": "87c11957cf69b73ebed5518f7928b99adb1dc5d6",
-    "thumbnail_url": "https://github.com/greenelab/covid19-review/raw/601a4cf15f54c3993877066070e7a26b5617a135/content/images/thumbnail.png",
+    "thumbnail_url": "https://github.com/greenelab/covid19-review/raw/be05f8b77d8698ac9718f95ae0dd5e1890ebfceb/content/images/thumbnail.png",
     "manuscript_stats": {
-      "word_count": 131949
+      "word_count": 132285
     }
   },
   "consortiummembers": [
@@ -2226,6 +2369,7 @@
     "Daniel S. Himmelstein",
     "Fengling Hu",
     "Nafisa M. Jadavji",
+    "Jeremy P. Kamil",
     "Sergey Knyazev",
     "Likhitha Kolla",
     "Alexandra J. Lee",

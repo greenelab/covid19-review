@@ -1,8 +1,10 @@
 content/09.evolution.md:83:nonsynonymous
 content/09.evolution.md:139:LVNA
+content/22.vaccines.md:286:immunogen
+content/22.vaccines.md:287:metastable
+content/22.vaccines.md:288:immunogens
 content/23.vaccines-app.md:15:IgGs
 content/23.vaccines-app.md:387:IgGs
-content/60.methods.md:8:CCS
 content/60.methods.md:65:ECRs
 content/60.methods.md:81:Manubot's
 content/60.methods.md:111:scite
@@ -14,3 +16,4 @@ content/60.methods.md:169:docx
 content/60.methods.md:171:scite
 content/60.methods.md:173:Docx
 content/60.methods.md:174:docx
+content/61.methods-ack.md:3:scite
