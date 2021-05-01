@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2021-04-30'
+date-meta: '2021-05-01'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -69,8 +69,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2021-04-30" />
-  <meta name="citation_publication_date" content="2021-04-30" />
+  <meta name="dc.date" content="2021-05-01" />
+  <meta name="citation_publication_date" content="2021-05-01" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -124,7 +124,7 @@ header-includes: |-
   <meta name="citation_author_orcid" content="0000-0003-1462-831X" />
   <meta name="twitter:creator" content="@aadattoli" />
   <meta name="citation_author" content="Ryan Velazquez" />
-  <meta name="citation_author_institution" content="Azimuth1, McLean, VA" />
+  <meta name="citation_author_institution" content="Azimuth1, McLean, Virginia, United States of America" />
   <meta name="citation_author_orcid" content="0000-0002-3655-3403" />
   <meta name="citation_author" content="John P. Barton" />
   <meta name="citation_author_institution" content="Department of Physics and Astronomy, University of California-Riverside, Riverside, California, United States of America" />
@@ -274,13 +274,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/f2ec4bad837f7f6707f84af911d1930845017031/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/f2ec4bad837f7f6707f84af911d1930845017031/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/f2ec4bad837f7f6707f84af911d1930845017031/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/d393fe908979b74420b267e6c5433c58a2d7602d/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/d393fe908979b74420b267e6c5433c58a2d7602d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/d393fe908979b74420b267e6c5433c58a2d7602d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/f2ec4bad837f7f6707f84af911d1930845017031/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/f2ec4bad837f7f6707f84af911d1930845017031/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/d393fe908979b74420b267e6c5433c58a2d7602d/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/d393fe908979b74420b267e6c5433c58a2d7602d/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -302,10 +302,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/f2ec4bad837f7f6707f84af911d1930845017031/))
+([permalink](https://greenelab.github.io/covid19-review/v/d393fe908979b74420b267e6c5433c58a2d7602d/))
 was automatically generated
-from [greenelab/covid19-review@f2ec4ba](https://github.com/greenelab/covid19-review/tree/f2ec4bad837f7f6707f84af911d1930845017031)
-on April 30, 2021.
+from [greenelab/covid19-review@d393fe9](https://github.com/greenelab/covid19-review/tree/d393fe908979b74420b267e6c5433c58a2d7602d)
+on May 1, 2021.
 Snapshots of individual sections are available as preprints [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals].
 </em></small>
 
@@ -413,7 +413,7 @@ Instead, you should collect information from your local health department, the [
     [0000-0002-3655-3403](https://orcid.org/0000-0002-3655-3403) · ![GitHub icon](images/github.svg){.inline_icon}
     [rdvelazquez](https://github.com/rdvelazquez)<br>
   <small>
-     Azimuth1, McLean, VA
+     Azimuth1, McLean, Virginia, United States of America
   </small>
 
 + **John P. Barton**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
@@ -4632,9 +4632,6 @@ Over the longer term, this approach and others may lead to the development of no
 In an effort to keep pace as new information about COVID-19 and SARS-CoV-2 becomes available, this project is an open, collaborative effort that invited contributions from the scientific community broadly, similar to previous efforts to develop collaborative reviews [@doi:10.1098/rsif.2017.0387; @url:https://greenelab.github.io/deep-review].
 
 
-### CCS CONCEPTS
-
-<!--To Do: @mprobson, do you want to take the lead on this?-->
 
 ### KEYWORDS
 
@@ -4807,6 +4804,9 @@ By facilitating the versioning of text, such platforms also allow for documentat
 This application of version control holds the potential to improve scientific publishing in a range of disciplines, including those outside of traditional computational fields.
 
 
+
+
+
 ## Additional Items {.page_break_before} 
 
 ### Competing Interests
@@ -4871,7 +4871,7 @@ This application of version control holds the potential to improve scientific pu
 |---|---|
 |Halie M. Rando|A, D, E, Project Administration, Software, Visualization, Writing - Original Draft, Writing - Review & Editing|
 |Casey S. Greene|Conceptualization, Project Administration, Software, Supervision, Writing - Review & Editing|
-|Michael P. Robson|Software|
+|Michael P. Robson|Methodology, Software, Supervision|
 |Simina M. Boca|Methodology, Project Administration, Writing - Review & Editing|
 |Nils Wellhausen|Project Administration, Visualization, Writing - Original Draft, Writing - Review & Editing|
 |Ronan Lordan|Conceptualization, Project Administration, Writing - Original Draft, Writing - Review & Editing|
@@ -4929,10 +4929,7 @@ We are grateful to the following contributors for reviewing pieces of the text: 
 <!-- To Do: Add  Patryk Orzechowski to acknowledgements for vaccines-->
 
 
-## References {.page_break_before}
 
-<!-- Explicitly insert bibliography here -->
-<div id="refs"></div>
 
 <!-- Define citation tags below -->
 [@tag:Park2020_distancing]: url:https://github.com/parksw3/Korea-analysis/blob/master/v1/korea.pdf

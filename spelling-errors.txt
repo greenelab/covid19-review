@@ -1,6 +1,5 @@
-CCS
 dhimmel
-docx
+Docx
 ECR
 ECRs
 ggpx
@@ -10,4 +9,4 @@ Manubot’s
 nonsynonymous
 scite
 vincerubinetti
-Yusha
+yusha
