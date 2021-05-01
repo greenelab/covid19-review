@@ -1,5 +1,6 @@
+CCS
 dhimmel
-Docx
+docx
 ECR
 ECRs
 ggpx
@@ -7,6 +8,6 @@ IgGs
 LVNA
 Manubot’s
 nonsynonymous
-scite
+Scite
 vincerubinetti
 yusha
