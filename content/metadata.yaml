@@ -59,7 +59,7 @@ authors:
           - A
           - E
       methods:
-        order: 0
+        order: 1
         contributions:
           - Software
           - Project Administration
@@ -120,7 +120,7 @@ authors:
           - Writing - Review & Editing
           - Project Administration
       methods:
-        order: 0
+        order: 9
         contributions:
           - Software
           - Conceptualization
@@ -155,7 +155,7 @@ authors:
       lastapproved: !!str 2020-11-12
     manuscripts:
       methods:
-        order: 0
+        order: 5
         contributions:
           - Software
           - Methodology
@@ -193,7 +193,7 @@ authors:
           - Writing - Review & Editing
           - Project Administration
       methods:
-        order: 0
+        order: 2
         contributions:
           - Methodology
         affiliations:
@@ -344,7 +344,7 @@ authors:
           - Writing - Review & Editing
           - Writing - Original Draft
       methods:
-        order: 0
+        order: 3
         contributions:
           - Methodology
         affiliations:
@@ -393,7 +393,7 @@ authors:
           - Visualization
           - Software
       methods:
-        order: 0
+        order: 10
         contributions:
           - Software
           - Methodology
@@ -452,7 +452,7 @@ authors:
         contributions:
           - Writing - Review & Editing
       methods:
-        order: 0
+        order: 7
         contributions:
           - Software
           - Methodology
@@ -684,6 +684,7 @@ authors:
       lastapproved: !!str 2021-04-29
     manuscripts:
       methods:
+        order: 6
         contributions:
           - Writing - Original Draft
           - Software
@@ -1237,7 +1238,7 @@ authors:
         contributions:
           - Project Administration
       methods:
-        order: 0
+        order: 8
         contributions:
           - Project Administration
   -
@@ -1331,7 +1332,7 @@ authors:
       lastapproved: !!str 2021-04-30
     manuscripts:
       methods:
-        order: 0
+        order: 4
         contributions:
           - Software
 
