@@ -66,6 +66,18 @@ authors:
           - Visualization
           - Writing - Review & Editing
           - Writing - Original Draft
+        affiliations:
+          - institution: University of Pennsylvania
+            department: Department of Systems Pharmacology and Translational Therapeutics
+            city: Philadelphia
+            state: PA
+            country: USA
+          - institution: University of Colorado School of Medicine
+            department: Department of Biochemistry and Molecular Genetics
+          - department: Center for Health AI
+            city: Aurora
+            state: CO
+            country: USA
   -
     github: cgreene
     name: Casey S. Greene
@@ -112,6 +124,20 @@ authors:
         contributions:
           - Software
           - Conceptualization
+        affiliations:
+          - institution: University of Pennsylvania
+            department: Department of Systems Pharmacology and Translational Therapeutics
+          - institution: Alex's Lemonade Stand Foundation
+            department: Childhood Cancer Data Lab
+            city: Philadelphia
+            state: PA
+            country: USA
+          - institution: University of Colorado School of Medicine
+            department: Department of Biochemistry and Molecular Genetics
+          - department: Center for Health AI
+            city: Aurora
+            state: CO
+            country: USA
   -
     github: mprobson
     name: Michael P. Robson
@@ -134,6 +160,12 @@ authors:
           - Software
           - Methodology
           - Supervision
+        affiliations:
+          - institution: Villanova University
+            department: Department of Computing Sciences
+            city: Villanova
+            state: PA
+            country: USA
   -
     github: SiminaB
     name: Simina M. Boca
@@ -164,6 +196,12 @@ authors:
         order: 0
         contributions:
           - Methodology
+        affiliations:
+          - institution: Georgetown University Medical Center
+            department: Innovation Center for Biomedical Informatics
+            city: Washington
+            state: DC
+            country: USA
   -
     github: nilswellhausen
     name: Nils Wellhausen
@@ -309,6 +347,12 @@ authors:
         order: 0
         contributions:
           - Methodology
+        affiliations:
+          - institution: Wake Forest University
+            department: Department of Mathematics and Statistics
+            city: Winston-Salem
+            state: NC
+            country: USA
   -
     github: agitter
     name: Anthony Gitter
@@ -357,6 +401,13 @@ authors:
           - Writing - Review & Editing
           - Writing - Original Draft
           - Visualization
+        affiliations:
+          - institution: University of Wisconsin-Madison
+            department: Department of Biostatistics and Medical Informatics
+          - institution: Morgridge Institute for Research
+            city: Madison
+            state: WI
+            country: USA
   -
     github: aadattoli
     name: Anna Ada Dattoli
@@ -391,7 +442,7 @@ authors:
     code of conduct:
       confirmed: Yes
     affiliations:
-      - Azimuth1, McLean, VA
+      - Azimuth1, McLean, Virginia, United States of America
     coi:
       string: "None"
       lastapproved: !!str 2020-11-10
@@ -405,6 +456,11 @@ authors:
         contributions:
           - Software
           - Methodology
+        affiliations:
+          - institution: Azimuth1
+            city: McLean
+            state: VA
+            country: USA
   -
     github: johnbarton
     name: John P. Barton
@@ -631,6 +687,17 @@ authors:
         contributions:
           - Writing - Original Draft
           - Software
+        affiliations:
+          - institution: University of Pennsylvania
+            department: Perelman School of Medicine
+            city: Philadelphia
+            state: PA
+            country: USA
+          - institution: University of Colorado School of Medicine
+            department: Center for Health AI
+            city: Aurora
+            state: CO
+            country: USA
   -
     github: jinhui2
     name: Jinhui Wang
@@ -1167,6 +1234,10 @@ authors:
           - Project Administration
       pharmaceuticals:
         order: 8
+        contributions:
+          - Project Administration
+      methods:
+        order: 0
         contributions:
           - Project Administration
   -
