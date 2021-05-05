@@ -58,6 +58,26 @@ authors:
         contributions:
           - A
           - E
+      methods:
+        order: 0
+        contributions:
+          - Software
+          - Project Administration
+          - Visualization
+          - Writing - Review & Editing
+          - Writing - Original Draft
+        affiliations:
+          - institution: University of Pennsylvania
+            department: Department of Systems Pharmacology and Translational Therapeutics
+            city: Philadelphia
+            state: PA
+            country: USA
+          - institution: University of Colorado School of Medicine
+            department: Department of Biochemistry and Molecular Genetics
+          - department: Center for Health AI
+            city: Aurora
+            state: CO
+            country: USA
   -
     github: cgreene
     name: Casey S. Greene
@@ -99,6 +119,25 @@ authors:
         contributions:
           - Writing - Review & Editing
           - Project Administration
+      methods:
+        order: 0
+        contributions:
+          - Software
+          - Conceptualization
+        affiliations:
+          - institution: University of Pennsylvania
+            department: Department of Systems Pharmacology and Translational Therapeutics
+          - institution: Alex's Lemonade Stand Foundation
+            department: Childhood Cancer Data Lab
+            city: Philadelphia
+            state: PA
+            country: USA
+          - institution: University of Colorado School of Medicine
+            department: Department of Biochemistry and Molecular Genetics
+          - department: Center for Health AI
+            city: Aurora
+            state: CO
+            country: USA
   -
     github: mprobson
     name: Michael P. Robson
@@ -114,6 +153,19 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-11-12
+    manuscripts:
+      methods:
+        order: 0
+        contributions:
+          - Software
+          - Methodology
+          - Supervision
+        affiliations:
+          - institution: Villanova University
+            department: Department of Computing Sciences
+            city: Villanova
+            state: PA
+            country: USA
   -
     github: SiminaB
     name: Simina M. Boca
@@ -140,6 +192,16 @@ authors:
         contributions:
           - Writing - Review & Editing
           - Project Administration
+      methods:
+        order: 0
+        contributions:
+          - Methodology
+        affiliations:
+          - institution: Georgetown University Medical Center
+            department: Innovation Center for Biomedical Informatics
+            city: Washington
+            state: DC
+            country: USA
   -
     github: nilswellhausen
     name: Nils Wellhausen
@@ -281,6 +343,16 @@ authors:
         contributions:
           - Writing - Review & Editing
           - Writing - Original Draft
+      methods:
+        order: 0
+        contributions:
+          - Methodology
+        affiliations:
+          - institution: Wake Forest University
+            department: Department of Mathematics and Statistics
+            city: Winston-Salem
+            state: NC
+            country: USA
   -
     github: agitter
     name: Anthony Gitter
@@ -320,6 +392,22 @@ authors:
           - Project Administration
           - Visualization
           - Software
+      methods:
+        order: 0
+        contributions:
+          - Software
+          - Methodology
+          - Project Administration
+          - Writing - Review & Editing
+          - Writing - Original Draft
+          - Visualization
+        affiliations:
+          - institution: University of Wisconsin-Madison
+            department: Department of Biostatistics and Medical Informatics
+          - institution: Morgridge Institute for Research
+            city: Madison
+            state: WI
+            country: USA
   -
     github: aadattoli
     name: Anna Ada Dattoli
@@ -354,7 +442,7 @@ authors:
     code of conduct:
       confirmed: Yes
     affiliations:
-      - Azimuth1, McLean, VA
+      - Azimuth1, McLean, Virginia, United States of America
     coi:
       string: "None"
       lastapproved: !!str 2020-11-10
@@ -363,6 +451,16 @@ authors:
         order: 6
         contributions:
           - Writing - Review & Editing
+      methods:
+        order: 0
+        contributions:
+          - Software
+          - Methodology
+        affiliations:
+          - institution: Azimuth1
+            city: McLean
+            state: VA
+            country: USA
   -
     github: johnbarton
     name: John P. Barton
@@ -567,6 +665,39 @@ authors:
         contributions:
           - Writing - Review & Editing
           - Writing - Original Draft
+  -
+    github: vincerubinetti
+    name: Vincent Rubinetti
+    initials: VR
+    orcid: 0000-0002-4655-3773
+    email: vince.rubinetti@gmail.com
+    contributions:
+      - Writing - Original Draft
+      - Software
+    code of conduct:
+      confirmed: Yes
+    affiliations:
+      - Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+      - Center for Health AI, University of Colorado School of Medicine, Aurora, Colorado, United States of America
+    coi:
+      string: "None"
+      lastapproved: !!str 2021-04-29
+    manuscripts:
+      methods:
+        contributions:
+          - Writing - Original Draft
+          - Software
+        affiliations:
+          - institution: University of Pennsylvania
+            department: Perelman School of Medicine
+            city: Philadelphia
+            state: PA
+            country: USA
+          - institution: University of Colorado School of Medicine
+            department: Center for Health AI
+            city: Aurora
+            state: CO
+            country: USA
   -
     github: jinhui2
     name: Jinhui Wang
@@ -1105,6 +1236,10 @@ authors:
         order: 8
         contributions:
           - Project Administration
+      methods:
+        order: 0
+        contributions:
+          - Project Administration
   -
     github: rishirajgoel
     name: Rishi Raj Goel
@@ -1177,6 +1312,40 @@ authors:
       lastapproved: !!str 2021-04-10
     manuscripts:
       evolution:
+        order: 0
+        contributions:
+          - Writing - Review & Editing
+  - 
+    github: dhimmel
+    name: Daniel S. Himmelstein
+    initials: DSH
+    orcid: 0000-0002-3012-7446
+    twitter: dhimmel
+    email: daniel.himmelstein@gmail.com
+    affiliations:
+      - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+      - Related Sciences
+    funders: GBMF4552
+    coi:
+      string: "None"
+      lastapproved: !!str 2021-04-30
+    manuscripts:
+      methods:
+        order: 0
+        contributions:
+          - Software
+  - 
+    github: None
+    name: Jeremy P. Kamil
+    affiliations:
+      - Department of Microbiology and Immunology, Louisiana State University Health Sciences Center Shreveport, Shreveport, Louisiana, USA
+    email: jeremy.kamil@lsuhs.edu
+    orcid: 0000-0001-8422-7656
+    coi:
+      string: "TBD"
+      lastapproved: !!str 2021-04-30
+    manuscripts:
+      pathogenesis:
         order: 0
         contributions:
           - Writing - Review & Editing
