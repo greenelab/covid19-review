@@ -1,8 +1,7 @@
+AppVeyor
+clinial
 dhimmel
-docx
-ECR
-ECRs
-ggpx
+dozesn
 IgGs
 immunogen
 immunogens
@@ -11,7 +10,8 @@ LVNA
 Manubot’s
 metastable
 nonsynonymous
-scite
+Pandoc
+projectstats
 TBD
 vincerubinetti
-Yusha
+wordcloud
