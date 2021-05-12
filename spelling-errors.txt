@@ -1,7 +1,8 @@
 AppVeyor
+BibTeX
 clinial
 dhimmel
-dozesn
+greenelab
 IgGs
 immunogen
 immunogens
@@ -11,6 +12,7 @@ Manubot’s
 metastable
 nonsynonymous
 Pandoc
+Pandoc’s
 projectstats
 TBD
 vincerubinetti
