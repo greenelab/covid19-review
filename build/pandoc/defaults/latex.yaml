@@ -12,5 +12,5 @@ filters:
 wrap: preserve
 shift-heading-level-by: -2
 standalone: true
-template: https://gist.githubusercontent.com/mprobson/f339cfdf0f1d0de6ff6b258a852e4bb4/raw/a564f080256e808978631299b2a746c2607210c2/acm-pandoc-conf.tex
+template: build/assets/acm-pandoc-conf.tex
 cite-method: natbib
