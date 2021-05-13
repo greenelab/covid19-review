@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2021-05-12'
+date-meta: '2021-05-13'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -70,8 +70,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2021-05-12" />
-  <meta name="citation_publication_date" content="2021-05-12" />
+  <meta name="dc.date" content="2021-05-13" />
+  <meta name="citation_publication_date" content="2021-05-13" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -278,13 +278,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/3fcf4d72299ced1f5b6b4593033e1fa8e1e6f31a/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/3fcf4d72299ced1f5b6b4593033e1fa8e1e6f31a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/3fcf4d72299ced1f5b6b4593033e1fa8e1e6f31a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/996b52ffeb9ef8eabbc675cb62eca9ae08de811b/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/996b52ffeb9ef8eabbc675cb62eca9ae08de811b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/996b52ffeb9ef8eabbc675cb62eca9ae08de811b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/3fcf4d72299ced1f5b6b4593033e1fa8e1e6f31a/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/3fcf4d72299ced1f5b6b4593033e1fa8e1e6f31a/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/996b52ffeb9ef8eabbc675cb62eca9ae08de811b/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/996b52ffeb9ef8eabbc675cb62eca9ae08de811b/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -306,10 +306,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/3fcf4d72299ced1f5b6b4593033e1fa8e1e6f31a/))
+([permalink](https://greenelab.github.io/covid19-review/v/996b52ffeb9ef8eabbc675cb62eca9ae08de811b/))
 was automatically generated
-from [greenelab/covid19-review@3fcf4d7](https://github.com/greenelab/covid19-review/tree/3fcf4d72299ced1f5b6b4593033e1fa8e1e6f31a)
-on May 12, 2021.
+from [greenelab/covid19-review@996b52f](https://github.com/greenelab/covid19-review/tree/996b52ffeb9ef8eabbc675cb62eca9ae08de811b)
+on May 13, 2021.
 Snapshots of individual sections are available as preprints [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals].
 </em></small>
 
