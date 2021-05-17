@@ -33,6 +33,7 @@ Amazonas
 Amruta
 Anhui
 ApoA
+AppVeyor
 Arbidol
 Ashwin
 Assaf
@@ -66,6 +67,7 @@ Belhadi
 BepiPred
 Bharath
 Bian
+BibTeX
 Bifidobacterium
 BioNTech
 BioNTech's
@@ -363,6 +365,7 @@ Jovani
 Ju
 Junshi
 KDM
+Kamil
 Kamphorst
 Kandi
 Kanolkhar
@@ -380,6 +383,7 @@ LHA
 LNP
 LNPs
 LSH
+LVNA
 LW
 LY
 LYM
@@ -432,6 +436,7 @@ Manaus
 Magen
 Mahmood
 Manheim
+Manubot’s
 Marino
 Markus
 Marouen
@@ -525,6 +530,8 @@ PUFAs
 PUMC
 PaO
 Palivizumab
+Pandoc
+Pandoc's
 Paneth
 Param
 Pardi
@@ -909,6 +916,7 @@ demethylases
 der
 detectible
 dexamethasone
+dhimmel
 dianerafi
 differentially
 dihydroxyvitamin
@@ -1001,8 +1009,10 @@ ggkd
 ggks
 ggnzmc
 ggvd
+ghjzm
 ghs
 github
+gjqmvq
 glomerular
 glomeruli
 glucocorticoid
@@ -1016,6 +1026,7 @@ glycoproteins
 glycosylated
 glycosylation
 greensolid
+greenelab
 gregszetoAI
 hACE
 hemagglutinin
@@ -1067,6 +1078,8 @@ immunocompetent
 immunocompromised
 immunodominant
 immunofluorescent
+immunogen
+immunogens
 immunogenic
 immunogenicity
 immunohistochemistry
@@ -1195,6 +1208,7 @@ meshwork
 mesylate
 metabolomics
 metagenomic
+metastable
 methylene
 methylprednisolone
 microarray
@@ -1430,6 +1444,7 @@ responders
 resveratrol
 rhamnosus
 rhinorrhea
+ribivarin
 riboendonuclease
 ribonucleoside
 ribonucleotide
@@ -1570,6 +1585,7 @@ vascularized
 vasculitis
 vasodilator
 variolation
+vincerubinetti
 virally
 virals
 viremia
