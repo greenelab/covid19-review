@@ -30,26 +30,29 @@ jobs:
       - name: Update OWID data
         shell: bash --login {0}
         run: bash owiddata/generate-owiddata-stats.sh
-      - name: Commit JHU CSSE and EBM Data Lab figures
+      - name: Update CORD-19 data
+        shell: bash --login {0}
+        run: bash CORD-19/generate-cord19-stats.sh
+      - name: Commit JHU CSSE, EBM Data Lab, and CORD-19 figures
         uses: EndBug/add-and-commit@v4
         with:
           add: '*/*.png */*.svg'
           author_name: GitHub Actions
           author_email: actions@github.com
-          message: 'Update JHU CSSE and EBM Data Lab figures'
+          message: 'Update JHU CSSE, EBM Data Lab, and CORD-19 figures'
           ref: external-resources
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Update figure versions
         shell: bash --login {0}
         run: bash version-figures.sh
-      - name: Commit JHU CSSE, EBM Data Lab, and OWID statistics
+      - name: Commit JHU CSSE, EBM Data Lab, OWID, and CORD-19 statistics
         uses: EndBug/add-and-commit@v4
         with:
           add: '*/*.json'
           author_name: GitHub Actions
           author_email: actions@github.com
-          message: 'Update JHU CSSE, EBM Data Lab, and OWID statistics'
+          message: 'Update JHU CSSE, EBM Data Lab, OWID, and CORD-19 statistics'
           ref: external-resources
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

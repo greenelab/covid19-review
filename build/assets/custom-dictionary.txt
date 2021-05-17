@@ -88,6 +88,7 @@ Brueffer
 Buenos
 Bérengère
 CCL
+CCS
 CCLE
 CDC’s
 CEACAM
@@ -144,6 +145,7 @@ Ciclesonide
 Cisneros
 Clin
 Clonally
+CoronaCentral
 CoV
 CoVZC
 CoVZXC
@@ -204,6 +206,7 @@ EBM's
 EBOV
 EBV
 ECMO
+ECRs
 EF
 EFIC
 EFSA
@@ -437,6 +440,7 @@ Magen
 Mahmood
 Manheim
 Manubot’s
+Manubot
 Marino
 Markus
 Marouen
@@ -728,6 +732,7 @@ Yanjun
 Yelin
 Yuchen
 Yuki
+Yusha
 ZDHHC
 ZEBOV
 ZJ
@@ -891,6 +896,7 @@ covariates
 crRNAs
 creatinine
 csse
+cyberinfrastructure
 cysteine
 cytokine
 cytomegalovirus
@@ -925,6 +931,7 @@ dimorphism
 disaggregate
 dl
 docosahexaenoic
+docx
 doi
 downregulated
 downregulates
@@ -1008,6 +1015,7 @@ ggjvr
 ggkd
 ggks
 ggnzmc
+ggpx
 ggvd
 ghjzm
 ghs
@@ -1187,6 +1195,7 @@ mAbs
 mCherry
 mRNA
 mRNAs
+mSystems
 mTOR
 maEBOV
 macrolide
@@ -1463,6 +1472,7 @@ sarbecovirus
 sarbecoviruses
 sarcoidosis
 sarilumab
+scite
 scRNA
 scalability
 scalable
