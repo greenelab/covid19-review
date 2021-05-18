@@ -4,6 +4,9 @@ import json
 import os
 import pandas as pd
 import matplotlib
+import matplotlib.pyplot as plt
+from mpl_toolkits.axes_grid1.inset_locator import zoomed_inset_axes
+from mpl_toolkits.axes_grid1.inset_locator import mark_inset
 
 def convert_date(csse_date):
     '''Reformat CSSE style dates (MM/DD/YY) to Month DD, YYYY.
@@ -22,7 +25,7 @@ def main(args):
 
     if('CSSE_COMMIT' in os.environ):
         csse_stats['csse_commit'] = os.environ['CSSE_COMMIT']
-    deaths_df = pd.read_csv(args.input_csv)
+    deaths_df = pd.read_csv(args.input_2019_csv)
     # The last column is the most recent date with data
     latest_deaths = deaths_df[deaths_df.columns[-1]]
     csse_stats['csse_date_pretty'] = convert_date(latest_deaths.name)
@@ -30,22 +33,60 @@ def main(args):
     csse_stats['csse_deaths'] = f'{total_deaths:,}'
 
     deaths_df = deaths_df.drop(columns=['Province/State', 'Country/Region', 'Lat', 'Long'])
-    
     cumulative_deaths = deaths_df.sum(axis=0)
+
     cumulative_deaths.index = pd.to_datetime(cumulative_deaths.index)
-    
-    ax = cumulative_deaths.plot(kind='line', linewidth=2)
-    ax.set_ylabel('Global COVID-19 deaths')
+
+    # Extract SARS (2002) statistics from WHO-scraped data on GitHub
+    sars_df = pd.read_csv(args.input_2002_csv)
+
+    # Date from WHO timeline
+    sars_emergence_date = datetime.datetime.strptime("2002-11-16", '%Y-%m-%d')
+    sars_daily = sars_df.groupby(by="Date").sum()
+    sars_daily["Days"] = pd.DatetimeIndex(sars_daily.index) - sars_emergence_date
+    sars_daily.rename(columns={"Number of deaths": "SARS Deaths"}, inplace=True)
+    print(sars_daily["SARS Deaths"].max())
+
+    # reformat date to just month and day
+    covid_daily_dict=dict()
+    # Date from https://www.businessinsider.com/coronavirus-patients-zero-contracted-case-november-2020-3
+    covid_emergence_date = datetime.datetime.strptime("2019-11-17", '%Y-%m-%d')
+    covid_daily_dict["Days"] = cumulative_deaths.index - covid_emergence_date
+    covid_daily_dict["COVID-19 Deaths"] = cumulative_deaths.values
+    covid_daily = pd.DataFrame(covid_daily_dict)
+
+    daily_totals = pd.merge(left=covid_daily, right=sars_daily, how='left', on=["Days"])
+    daily_totals = daily_totals.drop(["Cumulative number of case(s)", "Number recovered"], axis=1)
+    daily_totals['Days'] = daily_totals['Days'].astype(str).map(lambda x: x[:-5])
+    daily_totals = daily_totals.set_index("Days")
+
+    # Plot the daily totals
+    fig, axes = plt.subplots(nrows=1, ncols=2,figsize=(20, 12), constrained_layout=True)
+    ax = daily_totals.plot(kind='line', linewidth=2, ax=axes[0])
+    ax.set_xlabel('Days from First Known Case')
+    ax.set_ylabel('Global Deaths')
+    ax.set_title("Global Deaths from SARS versus COVID-19")
     ax.get_yaxis().set_major_formatter(matplotlib.ticker.FuncFormatter(lambda x, p: format(int(x), ',')))
-    ax.set_ylim(bottom=0)    
+    ax.set_ylim(bottom=0)
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
     ax.minorticks_off()
     ax.grid(color="lightgray")
-    
-    ax.figure.savefig(args.output_figure + '.png', dpi=300, bbox_inches = "tight")
-    ax.figure.savefig(args.output_figure + '.svg', bbox_inches = "tight")
 
+    daily_totals_sars = daily_totals.loc[daily_totals['SARS Deaths'].notna()]
+    ax = daily_totals_sars.plot(kind='line', linewidth=2, ax=axes[1])
+    ax.set_xlabel('Days from First Known Case')
+    ax.set_ylabel('Global Deaths')
+    ax.set_title("Global Deaths from SARS versus COVID-19 (Zoomed)")
+    ax.get_yaxis().set_major_formatter(matplotlib.ticker.FuncFormatter(lambda x, p: format(int(x), ',')))
+    ax.set_ylim(bottom=0, top=1000)
+    ax.spines['top'].set_visible(False)
+    ax.spines['right'].set_visible(False)
+    ax.minorticks_off()
+    ax.grid(color="lightgray")
+
+    ax.figure.savefig(args.output_figure + '.png', dpi=300, bbox_inches="tight")
+    ax.figure.savefig(args.output_figure + '.svg', bbox_inches="tight")
 
     print(f'Wrote {args.output_figure}.png and {args.output_figure}.svg')
 
@@ -62,8 +103,12 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(
         description=__doc__,
         formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument('input_csv',
+    parser.add_argument('input_2019_csv',
                         help='Path of the JHU CSSE COVID-19 global deaths ' \
+                        'input file',
+                        type=str)
+    parser.add_argument('input_2002_csv',
+                        help='Path of the Kaggle SARS global deaths ' \
                         'input file',
                         type=str)
     parser.add_argument('output_json',
