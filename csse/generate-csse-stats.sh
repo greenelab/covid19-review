@@ -1,7 +1,9 @@
 #!/bin/bash
-# Download JHU CSSE data and generate an output JSON file with relevant statistics
-# and a figure
+# Download JHU CSSE data
 export CSSE_COMMIT=$(curl -sS https://api.github.com/repos/CSSEGISandData/COVID-19/branches/master | python -c "import sys, json; print(json.load(sys.stdin)['commit']['sha'])")
+# Don't need for SARS data because it is not likely to be udpated
+
+# Generate an output JSON file with relevant statistics and figure
 CSSE_CSV=csse/time_series_covid19_deaths_global.csv
 SARS_CSV=csse/time_series_sars.csv
 CSSE_STATS_JSON=csse/csse-stats.json
@@ -19,4 +21,4 @@ curl -fsSL https://raw.githubusercontent.com/imdevskp/sars-2003-outbreak-data-we
 echo "Generating JHU CSSE statistics and figure"
 python csse/generate-csse-stats.py $CSSE_CSV $SARS_CSV $CSSE_STATS_JSON $CSSE_FIG
 
-rm $CSSE_CSV
+rm $CSSE_CSV $SARS_CSV

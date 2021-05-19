@@ -36,24 +36,23 @@ def main(args):
 
     cumulative_deaths.index = pd.to_datetime(cumulative_deaths.index)
 
-    # Extract SARS (2002) statistics from WHO-scraped data on GitHub
+    # Extract SARS (2002) statistics from WHO-scraped data on GitHub for comparison
+    # Use date of first SARS case from WHO timeline to get days from first known case
     sars_df = pd.read_csv(args.input_2002_csv)
-
-    # Date from WHO timeline
     sars_emergence_date = datetime.datetime.strptime("2002-11-16", '%Y-%m-%d')
     sars_daily = sars_df.groupby(by="Date").sum()
     sars_daily["Days"] = pd.DatetimeIndex(sars_daily.index) - sars_emergence_date
     sars_daily.rename(columns={"Number of deaths": "SARS Deaths"}, inplace=True)
-    print(sars_daily["SARS Deaths"].max())
 
-    # reformat date to just month and day
-    covid_daily_dict=dict()
+    # Adjust COVID-19 data to use days since first known case instead of date
     # Date from https://www.businessinsider.com/coronavirus-patients-zero-contracted-case-november-2020-3
+    covid_daily_dict = dict()
     covid_emergence_date = datetime.datetime.strptime("2019-11-17", '%Y-%m-%d')
     covid_daily_dict["Days"] = cumulative_deaths.index - covid_emergence_date
     covid_daily_dict["COVID-19 Deaths"] = cumulative_deaths.values
     covid_daily = pd.DataFrame(covid_daily_dict)
 
+    # Combine SARS and COVID-19 data in a single dataframe indexed by days from first known case
     daily_totals = pd.merge(left=covid_daily, right=sars_daily, how='left', on=["Days"])
     daily_totals = daily_totals.drop(["Cumulative number of case(s)", "Number recovered"], axis=1)
     daily_totals['Days'] = daily_totals['Days'].astype(str).map(lambda x: x[:-5])
@@ -73,7 +72,7 @@ def main(args):
     ax.minorticks_off()
     ax.grid(color="lightgray")
 
-    # Plot the second panel
+    # Plot a zoomed in view of SARS outbreak
     ax = daily_totals.plot(kind='line', linewidth=2, ax=axes[1])
     ax.set_xlabel('Days from First Known Case')
     ax.set_ylabel('Global Deaths')
