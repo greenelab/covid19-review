@@ -5,8 +5,7 @@ import os
 import pandas as pd
 import matplotlib
 import matplotlib.pyplot as plt
-from mpl_toolkits.axes_grid1.inset_locator import zoomed_inset_axes
-from mpl_toolkits.axes_grid1.inset_locator import mark_inset
+from scipy.interpolate import make_interp_spline
 
 def convert_date(csse_date):
     '''Reformat CSSE style dates (MM/DD/YY) to Month DD, YYYY.
@@ -61,7 +60,7 @@ def main(args):
     daily_totals = daily_totals.set_index("Days")
 
     # Plot the daily totals
-    fig, axes = plt.subplots(nrows=1, ncols=2,figsize=(20, 12), constrained_layout=True)
+    fig, axes = plt.subplots(nrows=2, ncols=1, figsize=(20, 12), constrained_layout=True)
     ax = daily_totals.plot(kind='line', linewidth=2, ax=axes[0])
     ax.set_xlabel('Days from First Known Case')
     ax.set_ylabel('Global Deaths')
@@ -73,11 +72,33 @@ def main(args):
     ax.minorticks_off()
     ax.grid(color="lightgray")
 
+    # Make a function to smoothe the SARS data
     daily_totals_sars = daily_totals.loc[daily_totals['SARS Deaths'].notna()]
-    ax = daily_totals_sars.plot(kind='line', linewidth=2, ax=axes[1])
+    smoothe_sars = make_interp_spline(daily_totals_sars.index, daily_totals_sars["SARS Deaths"])
+
+    # Select all days for which we have SARS numbers reported
+    first_sars_report = int(daily_totals.loc[daily_totals['SARS Deaths'].notna()].index.min())
+    last_sars_report = int(daily_totals.loc[daily_totals['SARS Deaths'].notna()].index.max())
+    sars_day_range = range(first_sars_report, last_sars_report + 1)
+
+    # Smoothe data in range where SARS numbers were reported
+    sars_smoothed = pd.DataFrame(smoothe_sars(sars_day_range), index = sars_day_range,
+                                 columns=["SARS Deaths"])
+    #daily_totals_smoothed = daily_totals[(pd.to_numeric(daily_totals.index) < first_sars_report)]
+    #daily_totals_smoothed = daily_totals_smoothed.append(sars_smoothed.merge(daily_totals["COVID-19 Deaths"],
+    #                                                                         left_index = sars_smoothed.index,
+    #                                                                         right_index=daily_totals.index))
+    #daily_totals_smoothed = daily_totals_smoothed.append(daily_totals[(pd.to_numeric(daily_totals.index) > last_sars_report)])
+    daily_totals_smoothed = daily_totals.update(sars_smoothed)
+    daily_totals_smoothed = pd.merge(sars_smoothed, daily_totals, how="outer")
+    print(daily_totals_smoothed)
+    print(daily_totals)
+
+    # Plot the second panel
+    ax = daily_totals.plot(kind='line', linewidth=2, ax=axes[1])
     ax.set_xlabel('Days from First Known Case')
     ax.set_ylabel('Global Deaths')
-    ax.set_title("Global Deaths from SARS versus COVID-19 (Zoomed)")
+    ax.set_title("Global Deaths from SARS (Zoomed)")
     ax.get_yaxis().set_major_formatter(matplotlib.ticker.FuncFormatter(lambda x, p: format(int(x), ',')))
     ax.set_ylim(bottom=0, top=1000)
     ax.spines['top'].set_visible(False)
