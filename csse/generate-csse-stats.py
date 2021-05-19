@@ -5,7 +5,6 @@ import os
 import pandas as pd
 import matplotlib
 import matplotlib.pyplot as plt
-from scipy.interpolate import make_interp_spline
 
 def convert_date(csse_date):
     '''Reformat CSSE style dates (MM/DD/YY) to Month DD, YYYY.
