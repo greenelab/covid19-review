@@ -76,7 +76,7 @@ def main(args):
     ax = daily_totals.plot(kind='line', linewidth=2, ax=axes[1])
     ax.set_xlabel('Days from First Known Case')
     ax.set_ylabel('Global Deaths')
-    ax.set_title("Cumulative Global Deaths", fontdict = {'fontsize': 20})
+    ax.set_title("Cumulative Global Deaths (Zoomed on SARS)", fontdict = {'fontsize': 20})
     ax.legend(loc='center right')
     ax.get_yaxis().set_major_formatter(matplotlib.ticker.FuncFormatter(lambda x, p: format(int(x), ',')))
     ax.set_ylim(bottom=0, top=1000)
