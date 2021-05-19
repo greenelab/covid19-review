@@ -1,6 +1,2 @@
-clinial
-gcv
 IgGs
-projectstats
 TBD
-wordcloud

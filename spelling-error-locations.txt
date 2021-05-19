@@ -1,11 +1,2 @@
 content/23.vaccines-app.md:15:IgGs
 content/23.vaccines-app.md:387:IgGs
-content/60.methods.md:185:projectstats
-content/60.methods.md:187:projectstats
-content/60.methods.md:190:projectstats
-content/60.methods.md:191:projectstats
-content/60.methods.md:206:clinial
-content/60.methods.md:217:projectstats
-content/60.methods.md:233:projectstats
-content/60.methods.md:258:wordcloud
-content/60.methods.md:271:wordcloud
