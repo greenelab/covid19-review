@@ -93,6 +93,10 @@ $endif$
 
 $body$
 
+% Add funding statement as a comment so it can be manually reviewed and condensed
+$if(funding)$
+	%{$funding$}
+$endif$
 
 $if(bibfile)$
 	\balance
@@ -101,5 +105,3 @@ $endif$
 
 \end{document}
 \endinput
-%%
-%% End of file `sample-authordraft.tex'.

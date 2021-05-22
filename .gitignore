@@ -41,6 +41,7 @@ Thumbs.db
 
 ## Text Editors
 .vscode
+.idea
 
 ## Spellcheck script
 spellcheck.lua

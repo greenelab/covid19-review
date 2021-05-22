@@ -77,6 +77,7 @@ def update_latex(keyword, manubot_file, pandoc_file):
     keep_fields = {"name", "email", "orcid"}  # do not keep the old affiliations
     latex_authors = []
     conflicts = []
+    funding = []
     for author in individual_authors:
         latex_author = {field: author[field] for field in keep_fields if field in author}
 
@@ -94,6 +95,17 @@ def update_latex(keyword, manubot_file, pandoc_file):
             if conflict != "None":
                 conflicts.append(f"{author['name']}: {conflict}.")
 
+        # Check whether the author has funding
+        # This text will not be used directly but will help write a funding statement manually
+        if "funders" in author:
+            # Less robust handling of funders field than Manubot
+            # https://github.com/manubot/manubot/blob/3ff3000f76dcf82a30694d076a4da95326e3f6ae/manubot/process/util.py#L78
+            funders = author["funders"]
+            if isinstance(funders, list):
+                funders = "; ".join(funders)
+            # Assumes initials are always provided
+            funding.append(f"{author['initials']}: {funders}.")
+
     sys.stderr.write(f"Found {len(latex_authors)} authors for {keyword} manuscript\n")
 
     # Do not retain the other metadata fields and add the .bib file references
@@ -102,6 +114,9 @@ def update_latex(keyword, manubot_file, pandoc_file):
     # Add conflicts if any exist
     if len(conflicts) > 0:
         metadata["conflicts"] = "Conflicts of interest. " + " ".join(conflicts)
+    # Add funding comment if funders were listed
+    if len(funding) > 0:
+        metadata["funding"] = "Author funding. " + " ".join(funding)
 
     dump_yaml(metadata, pandoc_file)
 
