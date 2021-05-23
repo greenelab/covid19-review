@@ -47,6 +47,25 @@ $for(author)$
 			$endif$
 		}
 	$endfor$
+	$for(author.additionalaffiliations)$
+		\additionalaffiliation{
+			$if(author.additionalaffiliations.institution)$
+				\institution{$author.additionalaffiliations.institution$}
+			$endif$
+			$if(author.additionalaffiliations.department)$
+				\department{$author.additionalaffiliations.department$}
+			$endif$
+			$if(author.additionalaffiliations.city)$
+				\city{$author.additionalaffiliations.city$}
+			$endif$
+			$if(author.additionalaffiliations.state)$
+				\state{$author.additionalaffiliations.state$}
+			$endif$
+			$if(author.additionalaffiliations.country)$
+				\country{$author.additionalaffiliations.country$}
+			$endif$
+		}
+	$endfor$
 	$if(author.email)$
 		\email{$author.email$}
 	$endif$

@@ -8,7 +8,7 @@ import sys
 import yaml
 from manubot.util import read_serialized_data
 
-MISSING_AFFILIATIONS = [{"institution": "None"}]
+MISSING_AFFILIATIONS = [{"institution": " "}]
 MISSING_COI = "None"
 ACM_BCB_2021 = {"acm": [{"copyrightyear": "2021",
                          "copyright": "acmcopyright",
@@ -82,11 +82,16 @@ def update_latex(keyword, manubot_file, pandoc_file):
         latex_author = {field: author[field] for field in keep_fields if field in author}
 
         # A list of the author's affiliations formatted for the template
+        # The first affiliation is stored in the "affiliations" field
+        # Any additional affiliations are stored in the "additionalaffiliations" field
         affiliations = author["manuscripts"][keyword].get("affiliations", MISSING_AFFILIATIONS)
         if affiliations == MISSING_AFFILIATIONS:
             sys.stderr.write(f"Missing {keyword} affiliations for {author['name']}\n")
 
-        latex_author["affiliations"] = affiliations
+        if len(affiliations) > 0:
+            latex_author["affiliations"] = affiliations[0]
+        if len(affiliations) > 1:
+            latex_author["additionalaffiliations"] = affiliations[1:]
         latex_authors.append(latex_author)
 
         # Check whether the author has declared conflicts of interest
