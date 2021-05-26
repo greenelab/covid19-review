@@ -67,16 +67,20 @@ authors:
           - Writing - Review & Editing
           - Writing - Original Draft
         affiliations:
-          - institution: University of Pennsylvania
-            department: Department of Systems Pharmacology and Translational Therapeutics
-            city: Philadelphia
-            state: PA
+          - institution: University of Colorado School of Medicine
+            department: Center for Health AI
+            city: Aurora
+            state: CO
             country: USA
           - institution: University of Colorado School of Medicine
             department: Department of Biochemistry and Molecular Genetics
-          - department: Center for Health AI
             city: Aurora
             state: CO
+            country: USA
+          - institution: University of Pennsylvania
+            department: Perelman School of Medicine, Department of Systems Pharmacology and Translational Therapeutics
+            city: Philadelphia
+            state: PA
             country: USA
   -
     github: cgreene
@@ -125,18 +129,25 @@ authors:
           - Software
           - Conceptualization
         affiliations:
+          - institution: University of Colorado School of Medicine
+            department: Center for Health AI
+            city: Aurora
+            state: CO
+            country: USA
+          - institution: University of Colorado School of Medicine
+            department: Department of Biochemistry and Molecular Genetics
+            city: Aurora
+            state: CO
+            country: USA
           - institution: University of Pennsylvania
-            department: Department of Systems Pharmacology and Translational Therapeutics
+            department: Perelman School of Medicine, Department of Systems Pharmacology and Translational Therapeutics
+            city: Philadelphia
+            state: PA
+            country: USA
           - institution: Alex's Lemonade Stand Foundation
             department: Childhood Cancer Data Lab
             city: Philadelphia
             state: PA
-            country: USA
-          - institution: University of Colorado School of Medicine
-            department: Department of Biochemistry and Molecular Genetics
-          - department: Center for Health AI
-            city: Aurora
-            state: CO
             country: USA
   -
     github: mprobson
@@ -404,6 +415,9 @@ authors:
         affiliations:
           - institution: University of Wisconsin-Madison
             department: Department of Biostatistics and Medical Informatics
+            city: Madison
+            state: WI
+            country: USA
           - institution: Morgridge Institute for Research
             city: Madison
             state: WI
@@ -689,15 +703,15 @@ authors:
           - Writing - Original Draft
           - Software
         affiliations:
-          - institution: University of Pennsylvania
-            department: Perelman School of Medicine
-            city: Philadelphia
-            state: PA
-            country: USA
           - institution: University of Colorado School of Medicine
             department: Center for Health AI
             city: Aurora
             state: CO
+            country: USA
+          - institution: University of Pennsylvania
+            department: Perelman School of Medicine, Department of Systems Pharmacology and Translational Therapeutics
+            city: Philadelphia
+            state: PA
             country: USA
   -
     github: jinhui2
@@ -1335,8 +1349,14 @@ authors:
         order: 4
         contributions:
           - Software
+        affiliations:
+          - institution: Related Sciences
+          - institution: University of Pennsylvania
+            department: Perelman School of Medicine, Department of Systems Pharmacology and Translational Therapeutics
+            city: Philadelphia
+            state: PA
+            country: USA
   - 
-    github: None
     name: Jeremy P. Kamil
     affiliations:
       - Department of Microbiology and Immunology, Louisiana State University Health Sciences Center Shreveport, Shreveport, Louisiana, USA
