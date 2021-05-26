@@ -1,3 +1,6 @@
+% Adaptation of the template by Wouter Groeneveld
+% https://brainbaking.com/post/2021/02/writing-academic-papers-in-markdown/
+
 \documentclass[sigconf]{acmart}
 
 \usepackage{balance}	% balancing bibstyles as per request in accepted submission
@@ -16,20 +19,24 @@
 	\author{Halie M. Rando}
 			\orcid{0000-0001-7688-1770}
 				\affiliation{
-							\institution{University of Pennsylvania}
-										\department{Department of Systems Pharmacology and Translational Therapeutics}
-										\city{Philadelphia}
-										\state{PA}
-										\country{USA}
-					}
-			\affiliation{
 							\institution{University of Colorado School of Medicine}
-										\department{Department of Biochemistry and Molecular Genetics}
-														}
-			\affiliation{
 										\department{Center for Health AI}
 										\city{Aurora}
 										\state{CO}
+										\country{USA}
+					}
+				\additionalaffiliation{
+							\institution{University of Colorado School of Medicine}
+										\department{Department of Biochemistry and Molecular Genetics}
+										\city{Aurora}
+										\state{CO}
+										\country{USA}
+					}
+			\additionalaffiliation{
+							\institution{University of Pennsylvania}
+										\department{Perelman School of Medicine, Department of Systems Pharmacology and Translational Therapeutics}
+										\city{Philadelphia}
+										\state{PA}
 										\country{USA}
 					}
 				\email{halie.rando@cuanschutz.edu}
@@ -42,7 +49,7 @@
 										\state{DC}
 										\country{USA}
 					}
-				\email{smb310@georgetown.edu}
+					\email{smb310@georgetown.edu}
 		\author{Lucy D'Agostino McGowan}
 			\orcid{0000-0001-7297-9359}
 				\affiliation{
@@ -52,12 +59,19 @@
 										\state{NC}
 										\country{USA}
 					}
-				\email{lucydagostino@gmail.com}
+					\email{lucydagostino@gmail.com}
 		\author{Daniel S. Himmelstein}
 			\orcid{0000-0002-3012-7446}
 				\affiliation{
-							\institution{None}
+							\institution{Related Sciences}
 																	}
+				\additionalaffiliation{
+							\institution{University of Pennsylvania}
+										\department{Perelman School of Medicine, Department of Systems Pharmacology and Translational Therapeutics}
+										\city{Philadelphia}
+										\state{PA}
+										\country{USA}
+					}
 				\email{daniel.himmelstein@gmail.com}
 		\author{Michael P. Robson}
 			\orcid{0000-0002-4859-0033}
@@ -68,21 +82,21 @@
 										\state{PA}
 										\country{USA}
 					}
-				\email{michael.robson@villanova.edu}
+					\email{michael.robson@villanova.edu}
 		\author{Vincent Rubinetti}
 			\orcid{0000-0002-4655-3773}
 				\affiliation{
-							\institution{University of Pennsylvania}
-										\department{Perelman School of Medicine}
-										\city{Philadelphia}
-										\state{PA}
-										\country{USA}
-					}
-			\affiliation{
 							\institution{University of Colorado School of Medicine}
 										\department{Center for Health AI}
 										\city{Aurora}
 										\state{CO}
+										\country{USA}
+					}
+				\additionalaffiliation{
+							\institution{University of Pennsylvania}
+										\department{Perelman School of Medicine, Department of Systems Pharmacology and Translational Therapeutics}
+										\city{Philadelphia}
+										\state{PA}
 										\country{USA}
 					}
 				\email{vince.rubinetti@gmail.com}
@@ -94,32 +108,38 @@
 										\state{VA}
 										\country{USA}
 					}
-				\email{rnhvelazquez@gmail.com}
+					\email{rnhvelazquez@gmail.com}
 		\author{COVID-19 Review Consortium}
 				\affiliation{
-							\institution{None}
 																	}
-			\author{Casey S. Greene}
+				\author{Casey S. Greene}
 			\orcid{0000-0001-8713-9213}
 				\affiliation{
+							\institution{University of Colorado School of Medicine}
+										\department{Center for Health AI}
+										\city{Aurora}
+										\state{CO}
+										\country{USA}
+					}
+				\additionalaffiliation{
+							\institution{University of Colorado School of Medicine}
+										\department{Department of Biochemistry and Molecular Genetics}
+										\city{Aurora}
+										\state{CO}
+										\country{USA}
+					}
+			\additionalaffiliation{
 							\institution{University of Pennsylvania}
-										\department{Department of Systems Pharmacology and Translational Therapeutics}
-														}
-			\affiliation{
-							\institution{Alex's Lemonade Stand Foundation}
-										\department{Childhood Cancer Data Lab}
+										\department{Perelman School of Medicine, Department of Systems Pharmacology and Translational Therapeutics}
 										\city{Philadelphia}
 										\state{PA}
 										\country{USA}
 					}
-			\affiliation{
-							\institution{University of Colorado School of Medicine}
-										\department{Department of Biochemistry and Molecular Genetics}
-														}
-			\affiliation{
-										\department{Center for Health AI}
-										\city{Aurora}
-										\state{CO}
+			\additionalaffiliation{
+							\institution{Alex's Lemonade Stand Foundation}
+										\department{Childhood Cancer Data Lab}
+										\city{Philadelphia}
+										\state{PA}
 										\country{USA}
 					}
 				\email{greenescientist@gmail.com}
@@ -128,8 +148,11 @@
 				\affiliation{
 							\institution{University of Wisconsin-Madison}
 										\department{Department of Biostatistics and Medical Informatics}
-														}
-			\affiliation{
+										\city{Madison}
+										\state{WI}
+										\country{USA}
+					}
+				\additionalaffiliation{
 							\institution{Morgridge Institute for Research}
 													\city{Madison}
 										\state{WI}
@@ -161,7 +184,7 @@ The COVID-19 pandemic catalyzed the rapid dissemination of papers and preprints 
 The multifaceted nature of COVID-19 demands a multidisciplinary approach, but the urgency of the crisis combined with the need for social distancing measures presents unique challenges to collaborative science.
 We sought to apply a massive online open publishing approach to this problem using Manubot.
 Through GitHub, collaborators contributed summaries and critiques of literature via issue templates and contributed literature summaries to a review manuscript as pull requests.
-Manubot rendered the manuscript content into pdf, HTML, and docx outputs, and an up-to-date version was always available online.
+Manubot rendered the manuscript content into PDF, HTML, and DOCX outputs, and an up-to-date version was always available online.
 
 This particular project presented unique challenges that necessitated additions to Manubot.
 Some challenges related to the technical barrier to entry, as most contributors were from biomedical backgrounds and had limited experience with git.
@@ -193,25 +216,25 @@ The result has been the rapid release of data, results, and publications related
 Over 20,000 articles about COVID-19 were released in the first four months of the pandemic \citep{7ub6VM4Z}, and the velocity and volume of information being released led to the pandemic being termed an ``infodemic'' as well \citep{7ub6VM4Z, nnfOazAC}.
 While this influx of information is likely evidence of important work towards understanding the virus and the disease, there are also downsides to the availability of too much information.
 The downsides of ``excessive publication'' have been recognized for over forty years, as it was raised as a major concern about the move towards electronic, rather than print, publishing at the turn of the millennium \citep{DfSr1Ohc}.
-The contents of the COVID-19 Open Research Dataset (CORD-19) \citep{CiOwklc6}, which was developed in part to assist in efforts to train machine learning algorithms on COVID-19-related text, illustrates the volume of publication relevant to understanding this virus (Figure \ref{fig:cord19-growth}).
+The contents of the COVID-19 Open Research Dataset (CORD-19) \citep{CiOwklc6}, which was developed in part to assist in efforts to train machine learning algorithms on COVID-19-related text, illustrates the volume of scholarly literature relevant to understanding this virus (Figure \ref{fig:cord19-growth}).
 This resource was developed by querying several sources for terms related to SARS-CoV-2 and COVID-19, as well as the coronaviruses SARS-CoV-1 and MERS-CoV and their associated viruses \citep{CiOwklc6}.
-CORD-19 contained 579255 manuscripts as of 2021-05-17.
+CORD-19 contained 587961 manuscripts as of 2021-05-24.
 Additional curation by CoronaCentral \citep{zQ1JIn2J} has produced, at present, a set of over 150,000 publications particularly relevant to COVID-19 and these closely related viruses.
 Thus, any effort to synthesize, summarize, and contextualize COVID-19 research will face a vast corpus of potentially relevant material.
 
 \textbf{Change over time in the number of publications in the CORD-19 dataset.}
-As of 2021-05-17, there were 579255 articles in the CORD-19 dataset.
+As of 2021-05-24, there were 587961 articles in the CORD-19 dataset.
 The first release, on March 16, 2020, contained 28,000 manuscripts on topics relevant to SARS-CoV-2 and related coronaviruses \citep{CiOwklc6}.
 Since then, these articles have continued to proliferate (left), with both traditionally published and preprint manuscripts in the corpus (right).
-At present, it contains 25250 preprints from \emph{arXiv}, \emph{bioRxiv}, and \emph{medRxiv}.
+At present, it contains 25639 preprints from \emph{arXiv}, \emph{bioRxiv}, and \emph{medRxiv}.
 While not all of the manuscripts are focused explicitly on SARS-CoV-2 or COVID-19, this corpus is likely to contain all or most manuscripts relevant to writing a literature review, which requires assessing both emerging and prior research.
-{]}(https://github.com/greenelab/covid19-review/raw/f65acad33ec9cb4370666d63efaabc099e8794d7/CORD-19/cord19-growth.png ``CORD-19 dataset growth'')\{\#fig:cord19-growth secno=1\}
+{]}(https://github.com/greenelab/covid19-review/raw/bc49794e312234686c9ec622698fde7f0c01d991/CORD-19/cord19-growth.png ``CORD-19 dataset growth'')\{\#fig:cord19-growth secno=1\}
 
 With information being produced rapidly through both traditional publishing venues and preprint servers, some papers that are published face scrutiny after their initial release.
 Concerns have been raised that the number of COVID-19 papers being retracted may be higher, or potentially much higher, than is typical, although a thorough investigation of this question will not be possible until more time has elapsed \citep{ZUk10707, caxpZEmy}.
 Other papers are updated with corrections or expressions of concern {[}\citet{caxpZEmy};url:https://retractionwatch.com/retracted-coronavirus-covid-19-papers{]}.
 These include both preprints and papers published in more traditional venues \citep{hfAF6aDr, paRLhIdE}.
-Preprints provide a venue for scientists to release findings rapidly but have both the advantage and disadvantage of making research available before it has undergone the peer-review process.
+Preprints provide a venue for scientists to release findings rapidly but have both the advantage and disadvantage of making research available before it has undergone the peer review process.
 However, some traditional publishing venues have also fast-tracked COVID-19 through peer review, leading to questions about whether this research is being held to the usual standards for publication \citep{1Dez1ZOc5}.
 Therefore, monitoring the COVID-19 literature requires not only digesting the high volume of information released but also critically evaluating it and monitoring for subsequent adjustments.
 
@@ -232,7 +255,7 @@ Collaboration via massively open online papers has been identified as a strategy
 Manubot is an ideal platform for analyzing COVID-19 literature because it facilitates the automatic integration of new data through continuous integration (CI).
 However, the Manubot workflow can appear intimidating to contributors who are not well-versed in git \citep{PoDz2q0A}.
 The synthesis and discussion of the emerging literature by biomedical scientists and clinicians is imperative to a robust interpretation of COVID-19 research, but in biology, such efforts often rely on What You See Is What You Get tools such as Google Docs, despite the significant limitations of these platforms in the face of excessive publication.
-Therefore, we recognized that the problem of synthesizing the COVID-19 literature lent itself well to the Manubot platform, but that the potential technical expertise required to work with Manubot present a significant technical barrier to domain experts.
+Therefore, we recognized that the problem of synthesizing the COVID-19 literature lent itself well to the Manubot platform, but that the potential technical expertise required to work with Manubot presented a significant technical barrier to domain experts.
 
 Here, we describe efforts to adapt Manubot to handle the extreme case of the COVID-19 infodemic, with the objective of extending manuscript reviewing to develop a centralized platform for summarizing and synthesizing a massive amount of preprints, news stories, journal publications, and data.
 Unlike prior collaborations built on Manubot, here most contributors came from a biological or medical background.
@@ -262,7 +285,7 @@ These contributions were not strictly defined and could range from minor correct
 Each pull request was reviewed and approved by at least one other contributor before being merged into the main branch.
 We tagged potential reviewers based on the introductions they had contributed in order to encourage participation.
 Emphasizing the use of issues and pull requests was designed to encourage authors with and without git experience to discuss papers and provide feedback (both formal and informal) on proposed text additions or changes.
-We also used gitter (\url{https://www.gitter.im}) to promote informal questions and sharing of information among collaborators.
+We also used the Gitter chat platform (\url{https://www.gitter.im}) to promote informal questions and sharing of information among collaborators.
 
 \hypertarget{utilization-and-expansion-of-manubot}{%
 \subsection{Utilization and Expansion of Manubot}\label{utilization-and-expansion-of-manubot}}
@@ -299,12 +322,12 @@ In order to enable Manubot to pull metadata associated with clinical trials base
 Other researchers identified the same need \citep{ZQPtEdnO, thdq2nGf}.
 To implement this feature, we query clinicaltrials.gov to retrieve XML metadata associated with each identifier using JavaScript \citep{Bxfd7L4s}.
 Then, when Manubot requests clinical trial metadata from the Zotero translation server, it receives a more informative response that includes the trial sponsors, responsible investigators, title, and summary.
-We extended Manubot to support directly citing any of the hundreds of Compact Uniform Resource Identifier registered with \url{https://identifiers.org/}, including the \texttt{clinicaltrials} identifier.
+We extended Manubot to support directly citing any of the hundreds of Compact Uniform Resource Identifiers registered with \url{https://identifiers.org/}, including the \texttt{clinicaltrials} identifier.
 This extension enables citing a trial as \texttt{@clinicaltrials:NCT04280705} instead of \texttt{@https://clinicaltrials.gov/ct2/show/NCT04280705}.
 
 Another challenge that emerged was that, because of the large number of citations used in this manuscript and the fast-moving nature of COVID-19 research, keeping track of retractions, corrections, and notices of concern became a priority.
 We implemented a new Manubot plugin to support ``smart citations'' in the HTML build of manuscripts.
-The plugin uses the \href{https://scite.ai/}{Scite} \citep{14UJbLWf4} service to display a badge below any citation with a DOI.
+The plugin uses the \href{https://scite.ai/}{scite} \citep{14UJbLWf4} service to display a badge below any citation with a DOI.
 The badge contains a set of icons and numbers that indicate how many times that source has been mentioned, supported, or disputed and whether there have been any important editorial notices, such as retractions or corrections.
 Using this, we were able to identify references that needed to be reevaluated by an expert.
 This addition was invaluable given the nature of the project, where we were disseminating rapidly evolving information of great consequence from over a thousand different sources.
@@ -319,16 +342,16 @@ The actual spell-checking was implemented using GNU Aspell (\url{http://aspell.n
 The filter enables checking only the manuscript text, ignoring URLs and formatting text.
 
 Manubot can render a manuscript in several formats that serve different purposes.
-Prior to this project, Manubot was able to convert the markdown-formatted manuscript to HTML, pdf, and docx formats.
-We expanded this functionality to allow individual sections of the manuscript to be exported as separate docx files while still rendering the complete manuscript in HTML and pdf formats.
+Prior to this project, Manubot was able to convert the markdown-formatted manuscript to HTML, PDF, and DOCX formats.
+We expanded this functionality to allow individual sections of the manuscript to be exported as separate DOCX files while still rendering the complete manuscript in HTML and PDF formats.
 This development was necessary because the manuscript grew so large that it needed to be split into seven separate papers for journal submission.
 When exporting an individual section, Manubot customizes the manuscript title, authors, and author contributions to pertain to that specific section.
 In addition, we expanded the export formats to include partial LaTeX support via Pandoc.
-Pandoc converts the markdown content for an individual section to tex and the Citation Style Language JSON, which contains reference metadata generated by Manubot, to BibTeX.
+Pandoc converts the markdown content for an individual section to TeX and the Citation Style Language JSON, which contains reference metadata generated by Manubot, to BibTeX.
 We customized a LaTeX template and reformat the Manubot metadata, such as authors and their affiliations, for the LaTeX template.
-The exported tex file requires manual refinement but contains all manuscript content and most of the formatting.
+The exported TeX file requires manual refinement but contains all manuscript content and most of the formatting.
 Because LaTeX is required for manuscript submission in many fields, automating most of the process of converting markdown to a submission-friendly format expands Manubot's potential user base.
-Manubot users can write in the simple markdown format, render the manuscript in continuously-updated pdf or interactive HTML formats, and export the manuscript in docx or tex and BibTeX for submission to traditional publishers, taking full advantage of Pandoc's powerful document conversion capabilities and Manubot's automation.
+Manubot users can write in the simple markdown format, render the manuscript in continuously-updated PDF or interactive HTML formats, and export the manuscript in DOCX or TeX and BibTeX for submission to traditional publishers, taking full advantage of Pandoc's powerful document conversion capabilities and Manubot's automation.
 
 \hypertarget{results}{%
 \section{RESULTS}\label{results}}
@@ -344,7 +367,7 @@ For a period of time in summer 2020, a large appendix was erroneously duplicated
 
 We received a large amount of interest from the broad community, beginning with coverage of the project by \emph{Nature Toolbox} \citep{AE0QcVgJ} and an associated tweet about the project on April 1, 2020 \citep{Ygqb6P2w} (Figure \ref{fig:projectstats}).
 Because the GitHub issues and comment systems are relatively similar to other common web activities, we found that authors were able to learn these tools fairly quickly.
-Similarly, the gitter chat also presented a low barrier to entry.
+Similarly, the Gitter chat also presented a low barrier to entry.
 The manuscript has continued to grow throughout the first year of the project in both word count and the number of references (Figure \ref{fig:projectstats}).
 Though only a fraction of potential contributors ended up contributing to the text included in the manuscripts (Figure \ref{fig:projectstats}), many of these contributors remained engaged over the course of a full year (Figure with dots).
 Additionally, new contributors have continued to join even as the project begins its second year.
@@ -354,15 +377,15 @@ Additionally, new contributors have continued to join even as the project begins
 A dot indicates the number of words added or edited by each author each month since March 2020.
 
 In order to make the project accessible to individuals from a range of backgrounds, we developed resources explaining how to use GitHub's web interface to develop and edit text and interact with Manubot for individuals with no prior experience working with git or other version control platforms.
-We developed tutorials containing visuals to explain how to open an issue, open a pull request, and review a pull request \citep{cvGxPklV, R9PRcdKq}.
+We developed tutorials containing visuals to explain how to open an issue, open a pull request, and review a pull request (\url{https://github.com/greenelab/covid19-review/blob/master/CONTRIBUTING.md} and \url{https://github.com/greenelab/covid19-review/blob/master/INSTRUCTIONS.md}).
 Additionally, the framework for evaluating literature was converted into issue templates to simplify the review of new articles.
-Articles were classified as \emph{diagnostic}, \emph{therapeutic}, or \emph{other}, with an associated template developed to guide the review of papers and preprints in each category \citep{veonj9Vk}.
+Articles were classified as \emph{diagnostic}, \emph{therapeutic}, or \emph{other}, with an associated template developed to guide the review of papers and preprints in each category.
 A total of 273 new paper issues had been opened as of April 30, 2021.
 
 \begin{figure}
 \hypertarget{fig:ebm-trials}{%
 \centering
-\includegraphics{(images/ebmdatalab-trials-original.png)https://github.com/greenelab/covid19-review/raw/f65acad33ec9cb4370666d63efaabc099e8794d7/ebmdatalab/ebmdatalab-trials.png}
+\includegraphics{(images/ebmdatalab-trials-original.png)https://github.com/greenelab/covid19-review/raw/bc49794e312234686c9ec622698fde7f0c01d991/ebmdatalab/ebmdatalab-trials.png}
 \caption{\textbf{Change in the COVID-19 clinical trials figure over time.}
 When we first produced this figure on July 7, 2020, there were 3,733 clinical trials in the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker \citep{SSbnPnzT}.
 As of November 9, 2020, it contains 6,417.
@@ -389,7 +412,7 @@ We integrated data into the manuscripts from several sources.
 Data about worldwide cases and deaths came from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University \citep{MrwDDw9R}.
 Similarly, the clinical trials statistics and figure were generated based on data from the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker \citep{SSbnPnzT}.
 The evolution of this figure over time is shown in Figure \ref{fig:ebm-trials}.
-Information about vaccine distribution was extracted from Our World In Data (\url{https://github.com/owid/covid-19-data}).
+Information about vaccine distribution was extracted from Our World In Data (\url{https://github.com/owid/covid-19-data}) \citep{ZHvhFakW}.
 Figure 1 dynamically integrates data directly from the CORD-19 dataset \citep{CiOwklc6}.
 
 Manubot's bibliographic management capabilities were critical because the amount of relevant literature published far outstripped what we had anticipated at the beginning of the project.
@@ -409,13 +432,13 @@ This project demonstrates that Manubot can be applied to projects where not all 
 Through the development of cyberinfrastructure both for training novice users to interact with GitHub and simplifying the workflows to allow them to receive many of the benefits of What You See Is What You Get platforms such as Google Docs, we were able to adapt a powerful open publishing tool to harness the domain expertise of a large group of non-technical users and to respond to the flood of COVID-19 publications.
 
 While Manubot manuscripts are written in markdown, they can be rendered in several formats that provide different advantages.
-For example, beyond building just a PDF, Manubot also renders the manuscript in HTML, docx, and now, LaTeX (in a more limited capacity).
+For example, beyond building just a PDF, Manubot also renders the manuscript in HTML, DOCX, and now, LaTeX (in a more limited capacity).
 The interactive HTML manuscript format offers several advantages over a static PDF to harmonize available resources that we were able to apply to specific problems of COVID-19.
 The integration of scite into the HTML build makes references more manageable by visually representing whether their results are contested or whether they have been corrected or retracted.
 Cross-referencing different pieces of the manuscript, such as cited preprints with reviews stored in an appendix, is another interactive option presented by HTML.
-Additionally, because of the heavy emphasis on Word processing in biology, Manubot's ability to generate docx outputs was expanded to allow users to generate docx files containing only a section of the manuscript.
+Additionally, because of the heavy emphasis on Word processing in biology, Manubot's ability to generate DOCX outputs was expanded to allow users to generate DOCX files containing only a section of the manuscript.
 In our case, where the full project is nearly 100,000 words, this allows individual pieces to be shared widely.
-Finally, the preliminary addition of LaTeX output is useful for researchers from computational fields who submit papers in tex format and removes the step of reformatting markdown prior to submission.
+Finally, the preliminary addition of LaTeX output is useful for researchers from computational fields who submit papers in TeX format and removes the step of reformatting markdown prior to submission.
 
 Working with biomedical scientists not only addressed the immediate goal of applying Manubot to the challenges of COVID-19, but also provided a second but equally important outcome.
 Interested participants came from a wide range of backgrounds and many of the responses to the introductory issue emphasized a willingness to learn about a new topic, as well as an interest in COVID-19 and SARS-CoV-2 (Figure \ref{fig:wordcloud}).
@@ -449,9 +472,11 @@ This application of version control holds the potential to improve scientific pu
 While Manubot is a technologically complex tool, this project demonstrates that it can be broadly appealing even outside of technical and/or computational areas of research.
 
 \hypertarget{consortium-members}{%
-\subsection{Consortium Members}\label{consortium-members}}
+\subsection*{Consortium Members}\label{consortium-members}}
+\addcontentsline{toc}{subsection}{Consortium Members}
 
-The COVID-19 Review Consortium is made up of: Vikas Bansal, John P. Barton, Simina M. Boca, Joel D. Boerckel, Christian Brueffer, James Brian Byrd, Stephen Capone, Shikta Das, Anna Ada Dattoli, John J. Dziak, Jeffrey M. Field, Soumita Ghosh, Anthony Gitter, Rishi Raj Goel, Casey S. Greene, Marouen Ben Guebila, Daniel S. Himmelstein, Fengling Hu, Nafisa M. Jadavji, Jeremy P. Kamil, Sergey Knyazev, Likhitha Kolla, Alexandra J. Lee, Ronan Lordan, Tiago Lubiana, Temitayo Lukan, Adam L. MacLean, David Mai, Serghei Mangul, David Manheim, Lucy D'Agostino McGowan, Amruta Naik, YoSon Park, Dimitri Perrin, Yanjun Qi, Diane N. Rafizadeh, Bharath Ramsundar, Halie M. Rando, Sandipan Ray, Michael P. Robson, Vincent Rubinetti, Elizabeth Sell, Lamonica Shinholster, Ashwin N. Skelly, Yuchen Sun, Yusha Sun, Gregory L Szeto, Ryan Velazquez, Jinhui Wang, and Nils Wellhausen
+The COVID-19 Review Consortium is made of:
+Vikas Bansal, John P. Barton, Simina M. Boca, Joel D Boerckel, Christian Brueffer, James Brian Byrd, Stephen Capone, Shikta Das, Anna Ada Dattoli, John J. Dziak, Jeffrey M. Field, Soumita Ghosh, Anthony Gitter, Rishi Raj Goel, Casey S. Greene, Marouen Ben Guebila, Daniel S. Himmelstein, Fengling Hu, Nafisa M. Jadavji, Jeremy P. Kamil, Sergey Knyazev, Likhitha Kolla, Alexandra J. Lee, Ronan Lordan, Tiago Lubiana, Temitayo Lukan, Adam L. MacLean, David Mai, Serghei Mangul, David Manheim, Lucy D'Agostino McGowan, Amruta Naik, YoSon Park, Dimitri Perrin, Yanjun Qi, Diane N. Rafizadeh, Bharath Ramsundar, Halie M. Rando, Sandipan Ray, Michael P. Robson, Vincent Rubinetti, Elizabeth Sell, Lamonica Shinholster, Ashwin N. Skelly, Yuchen Sun, Yusha Sun, Gregory L Szeto, Ryan Velazquez, Jinhui Wang, Nils Wellhausen
 
 \hypertarget{acknowledgements}{%
 \section*{Acknowledgements}\label{acknowledgements}}
@@ -459,12 +484,13 @@ The COVID-19 Review Consortium is made up of: Vikas Bansal, John P. Barton, Simi
 
 We are grateful to Josh Nicholson and Milo Mordaunt for their support with the scite plugin, and to David Nicholson for the suggestion and feedback to enable the reporting of the locations of spelling errors in the spell-checker tool.
 We thank Nick DeVito for assistance with the Evidence-Based Medicine Data Lab COVID-19 TrialsTracker data.
+This research was supported by the Gordon and Betty Moore Foundation award GBMF 4552 (HMR, DSH, CSG), the National Institutes of Health award R01HG010067 (CSG), and the John W. and Jeanne M. Rowe Center for Research in Virology (AG).
 
+% Add funding statement as a comment so it can be manually reviewed and condensed
+	%{Author funding. HMR: the Gordon and Betty Moore Foundation (GBMF 4552). DSH: GBMF4552. CSG: the Gordon and Betty Moore Foundation (GBMF 4552); the National Human Genome Research Institute (R01 HG010067). AG: John W. and Jeanne M. Rowe Center for Research in Virology.}
 
 	\balance
 	\bibliography{methods.bib}
 
 \end{document}
 \endinput
-%%
-%% End of file `sample-authordraft.tex'.
