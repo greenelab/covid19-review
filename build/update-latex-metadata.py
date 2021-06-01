@@ -8,7 +8,7 @@ import sys
 import yaml
 from manubot.util import read_serialized_data
 
-MISSING_AFFILIATIONS = [{"institution": "None"}]
+MISSING_AFFILIATIONS = [{"institution": " "}]
 MISSING_COI = "None"
 ACM_BCB_2021 = {"acm": [{"copyrightyear": "2021",
                          "copyright": "acmcopyright",
@@ -77,15 +77,21 @@ def update_latex(keyword, manubot_file, pandoc_file):
     keep_fields = {"name", "email", "orcid"}  # do not keep the old affiliations
     latex_authors = []
     conflicts = []
+    funding = []
     for author in individual_authors:
         latex_author = {field: author[field] for field in keep_fields if field in author}
 
         # A list of the author's affiliations formatted for the template
+        # The first affiliation is stored in the "affiliations" field
+        # Any additional affiliations are stored in the "additionalaffiliations" field
         affiliations = author["manuscripts"][keyword].get("affiliations", MISSING_AFFILIATIONS)
         if affiliations == MISSING_AFFILIATIONS:
             sys.stderr.write(f"Missing {keyword} affiliations for {author['name']}\n")
 
-        latex_author["affiliations"] = affiliations
+        if len(affiliations) > 0:
+            latex_author["affiliations"] = affiliations[0]
+        if len(affiliations) > 1:
+            latex_author["additionalaffiliations"] = affiliations[1:]
         latex_authors.append(latex_author)
 
         # Check whether the author has declared conflicts of interest
@@ -93,6 +99,17 @@ def update_latex(keyword, manubot_file, pandoc_file):
             conflict = author["coi"].get("string", MISSING_COI)
             if conflict != "None":
                 conflicts.append(f"{author['name']}: {conflict}.")
+
+        # Check whether the author has funding
+        # This text will not be used directly but will help write a funding statement manually
+        if "funders" in author:
+            # Less robust handling of funders field than Manubot
+            # https://github.com/manubot/manubot/blob/3ff3000f76dcf82a30694d076a4da95326e3f6ae/manubot/process/util.py#L78
+            funders = author["funders"]
+            if isinstance(funders, list):
+                funders = "; ".join(funders)
+            # Assumes initials are always provided
+            funding.append(f"{author['initials']}: {funders}.")
 
     sys.stderr.write(f"Found {len(latex_authors)} authors for {keyword} manuscript\n")
 
@@ -102,6 +119,9 @@ def update_latex(keyword, manubot_file, pandoc_file):
     # Add conflicts if any exist
     if len(conflicts) > 0:
         metadata["conflicts"] = "Conflicts of interest. " + " ".join(conflicts)
+    # Add funding comment if funders were listed
+    if len(funding) > 0:
+        metadata["funding"] = "Author funding. " + " ".join(funding)
 
     dump_yaml(metadata, pandoc_file)
 
