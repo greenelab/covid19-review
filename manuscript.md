@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2021-06-02'
+date-meta: '2021-06-28'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -70,8 +70,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2021-06-02" />
-  <meta name="citation_publication_date" content="2021-06-02" />
+  <meta name="dc.date" content="2021-06-28" />
+  <meta name="citation_publication_date" content="2021-06-28" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -278,13 +278,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/176c0946a924c012c6ec3151fc888a62f47a866c/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/176c0946a924c012c6ec3151fc888a62f47a866c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/176c0946a924c012c6ec3151fc888a62f47a866c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/ae7606fb15d91cf099d3c7ab38fe0ed3f13c6661/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/ae7606fb15d91cf099d3c7ab38fe0ed3f13c6661/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/ae7606fb15d91cf099d3c7ab38fe0ed3f13c6661/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/176c0946a924c012c6ec3151fc888a62f47a866c/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/176c0946a924c012c6ec3151fc888a62f47a866c/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/ae7606fb15d91cf099d3c7ab38fe0ed3f13c6661/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/ae7606fb15d91cf099d3c7ab38fe0ed3f13c6661/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -306,10 +306,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/176c0946a924c012c6ec3151fc888a62f47a866c/))
+([permalink](https://greenelab.github.io/covid19-review/v/ae7606fb15d91cf099d3c7ab38fe0ed3f13c6661/))
 was automatically generated
-from [greenelab/covid19-review@176c094](https://github.com/greenelab/covid19-review/tree/176c0946a924c012c6ec3151fc888a62f47a866c)
-on June 2, 2021.
+from [greenelab/covid19-review@ae7606f](https://github.com/greenelab/covid19-review/tree/ae7606fb15d91cf099d3c7ab38fe0ed3f13c6661)
+on June 28, 2021.
 Snapshots of individual sections are available as preprints [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals].
 </em></small>
 
@@ -764,12 +764,12 @@ Most of these cases were in China, but one to two exported cases had also been i
 One week later, 4,593 confirmed cases had been identified, spanning not only Asia, but also Australia, North America, and Europe [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128-sitrep-8-ncov-cleared.pdf].
 On March 11, 2020, the WHO formally classified the situation as a pandemic [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200311-sitrep-51-covid-19.pdf].
 On April 4, 2020, the WHO reported that the global number of confirmed cases had surpassed one million [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200404-sitrep-75-covid-19.pdf].
-<!--3,550,000 COVID-19 deaths had been reported worldwide as of May 31, 2021 (Figure @fig:csse-deaths).
+<!--3,917,118 COVID-19 deaths had been reported worldwide as of June 26, 2021 (Figure @fig:csse-deaths).
 
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
-](https://github.com/greenelab/covid19-review/raw/a6f42cf52e6bf817eca126e3c80d060e03b396f6/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1} -->
+](https://github.com/greenelab/covid19-review/raw/e1afb4c904307e22d31fbb2c422943c08d186040/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1} -->
 
 As international attention remains focused on the ongoing public health crisis, the scientific community has responded by mobilizing resources and turning much of its attention to the virus and disease.
 This rapid influx of information is disseminated by traditional publishing mechanisms, preprint servers, and press releases, which provide a venue for scientists to release findings without undergoing the formal publication process.
@@ -1958,11 +1958,11 @@ However, previous emerging HCoV-related disease threats have been controlled muc
 <!--To Do: Update this figure in line with #736, #962, and 10.3390/ijerph17113973 (which explains why the SARS data don't start until March)-->
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
-3,550,000 COVID-19 deaths had been reported worldwide as of May 31, 2021 (Figure @fig:csse-deaths).
+3,917,118 COVID-19 deaths had been reported worldwide as of June 26, 2021 (Figure @fig:csse-deaths).
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
 Previous emergent viral threats had a much lower death toll that was not felt on a such a global scale, and in most cases were controlled much more quickly.
 For example, SARS-CoV-1 was controlled within 9 months of its appearance, whereas SARS-CoV-2 remains a significant global threat almost 1.5 years later.
-](https://github.com/greenelab/covid19-review/raw/a6f42cf52e6bf817eca126e3c80d060e03b396f6/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
+](https://github.com/greenelab/covid19-review/raw/e1afb4c904307e22d31fbb2c422943c08d186040/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
 
 SARS-CoV-2's rapid shift from an unknown virus to a significant worldwide threat initially closely paralleled the emergence of _Severe acute respiratory syndrome-related coronavirus_ (SARS-CoV-1), which was responsible for the 2002 SARS epidemic.
 The first documented case of COVID-19 was reported in Wuhan, China in November 2019, and the disease quickly spread worldwide during the early months of 2020.
@@ -2012,14 +2012,14 @@ Interventional clinical trials are currently investigating or have investigated 
 ![
 **COVID-19 clinical trials.**
 Trials data are from the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709].
-As of November 9, 2020, there were 6,417 COVID-19 clinical trials of which 3,706 were interventional.
+As of December 31, 2020, there were 6,987 COVID-19 clinical trials of which 3,962 were interventional.
 The study types include only types used in at least five trials.
 Interventional trials only are analyzed in the figures depicting status, phase, and intervention.
-Of the interventional trials, 98 trials had reported results as of November 9, 2020.
+Of the interventional trials, 98 trials had reported results as of December 31, 2020.
 Recruitment status and trial phase are shown only for interventional trials in which the status or phase is recorded.
 The common interventions are all interventions used in at least ten trials.
 Combinations of interventions, such as Hydroxychloroquine + Azithromycin, are tallied separately from the individual interventions.
-](https://github.com/greenelab/covid19-review/raw/a6f42cf52e6bf817eca126e3c80d060e03b396f6/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/e1afb4c904307e22d31fbb2c422943c08d186040/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 The purpose of this review is to provide an evolving resource tracking the status of efforts to repurpose and develop drugs for the treatment of COVID-19.
 We highlight four strategies that provide different paradigms for the identification of potential pharmaceutical treatments.
@@ -2200,7 +2200,7 @@ While the secretion of IL-6 can be associated with chronic conditions, IL-6 is a
 An analysis of 191 in-patients at two Wuhan hospitals revealed that blood concentrations of IL-6 differed between patients who did and did not recover from COVID-19, and patients who ultimately died had higher IL-6 levels at admission than those who recovered [@doi:10/ggnxb3].
 Additionally, IL-6 levels remained higher throughout the course of hospitalization in the patients who ultimately died [@doi:10/ggnxb3].
 
-Currently, TCZ is being administered either as an intervention or as concomitant medication in 77 interventional COVID-19 clinical trials (Figure @fig:ebm-trials).
+Currently, TCZ is being administered either as an intervention or as concomitant medication in 73 interventional COVID-19 clinical trials (Figure @fig:ebm-trials).
 A number of retrospective studies have been conducted in several countries [@doi:10/d2pk; @doi:10.1016/j.chest.2020.06.006; @doi:10.1016/j.ejim.2020.05.009; @doi:10.1016/j.medmal.2020.05.001; @doi:10.1093/qjmed/hcaa206; @doi:10.1073/pnas.2005615117], and, in general, these studies have reported a positive effect of TCZ on reducing mortality in COVID-19 patients, although due to their retrospective designs, significant limitations are present in all of them (Appendix A).
 It wasn't until February 11, 2021 that a preprint describing the first randomized control trial of TCZ was released as part of the RECOVERY trial [@doi:10.1101/2021.02.11.21249258].
 Here, 2,022 hospitalized patients in the U.K. were randomized to receive TCZ and 2,094 were randomized to SOC, with 79% of patients in each group available for analysis at the time that the initial report was released.
@@ -2444,12 +2444,12 @@ Prophylactics bolster immunity to prevent an individual from contracting a disea
 While a number of vaccines have recently been developed, approved, or are currently being evaluated by the US Food and Drug Administration and other regional and international bodies, vaccination programs only started being rolled out at the very end of 2020 and beginning of 2021, meaning that treatments that palliate symptoms and prevent the most severe outcomes have been necessary for much of 2020 and will continue to be necessary for the foreseeable future [@individual-vaccines].
 Fortunately, prior developments during other recent pandemics, especially those caused by human coronaviruses (HCoV), have provided a number of hypotheses guiding a biomedical approach to the novel coronavirus infection.
 
-3,550,000 COVID-19 deaths had been reported worldwide as of May 31, 2021 (Figure @fig:csse-deaths).
+3,917,118 COVID-19 deaths had been reported worldwide as of June 26, 2021 (Figure @fig:csse-deaths).
 
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
-](https://github.com/greenelab/covid19-review/raw/a6f42cf52e6bf817eca126e3c80d060e03b396f6/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
+](https://github.com/greenelab/covid19-review/raw/e1afb4c904307e22d31fbb2c422943c08d186040/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
 
 #### Lessons from Prior HCoV Outbreaks
 
@@ -2508,15 +2508,15 @@ As results become available from additional clinical trials, we will continue to
 
 ![
 **COVID-19 clinical trials.**
-There are 6,417 COVID-19 clinical trials of which 3,706 are interventional.
+There are 6,987 COVID-19 clinical trials of which 3,962 are interventional.
 The study types include only types used in at least five trials.
 Interventional trials only are analyzed in the figures depicting status, phase, and intervention.
-Of the interventional trials, 98 trials had reported results as of November 9, 2020.
+Of the interventional trials, 98 trials had reported results as of December 31, 2020.
 Recruitment status and trial phase are shown only for interventional trials in which the status or phase is recorded.
 The common interventions are all interventions used in at least ten trials.
 Combinations of interventions, such as Hydroxychloroquine + Azithromycin, are tallied separately from the individual interventions.
 Trials data are from the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709].
-](https://github.com/greenelab/covid19-review/raw/a6f42cf52e6bf817eca126e3c80d060e03b396f6/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/e1afb4c904307e22d31fbb2c422943c08d186040/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 ### Small Molecule Drugs
 
@@ -3027,7 +3027,7 @@ IL-6 synthesis is tightly regulated both transcriptionally and post-transcriptio
 Therefore, drugs inhibiting the binding of IL-6 to IL-6R&alpha; or sIL-6R&alpha; are of interest for combating the hyperactive inflammatory response characteristic of CRS/CSS.
 TCZ is a humanized monoclonal antibody that binds both to the insoluble and soluble receptor of IL-6, providing de facto inhibition of the IL-6 immune cascade.
 
-Tocilizumab is being administered either as an intervention or as concomitant medication in 77 interventional COVID-19 clinical trials (Figure @fig:ebm-trials).
+Tocilizumab is being administered either as an intervention or as concomitant medication in 73 interventional COVID-19 clinical trials (Figure @fig:ebm-trials).
 No randomized, placebo-controlled studies of TCZ have currently released results.
 Therefore, no conclusions can be drawn about its efficacy for the treatment of COVID-19.
 However, early interest in TCZ as a possible treatment for COVID-19 emerged from a very small retrospective study in China that examined 20 patients with severe symptoms in early February 2020 and reported rapid improvement in symptoms following treatment with TCZ [@doi:10.1073/pnas.2005615117].
@@ -4951,9 +4951,9 @@ Trials that recruit across multiple countries do appear to broaden geographic re
 ![
 **Geographic distribution of COVID-19 clinical trials.**
 The density of clinical trials is reported at the country level.
-As of November 9, 2020, there are 6,417 trials in the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709], of which 3,706 are interventional.
+As of December 31, 2020, there are 6,987 trials in the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709], of which 3,962 are interventional.
 The top figure demonstrates the density of interventional trials recruiting only from a singular country, while the bottom shows the distribution of recruitment for interventional trials that involve more than one country.
-](https://github.com/greenelab/covid19-review/raw/a6f42cf52e6bf817eca126e3c80d060e03b396f6/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
+](https://github.com/greenelab/covid19-review/raw/e1afb4c904307e22d31fbb2c422943c08d186040/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
 
 A few different concerns arise from this skewed geographic representation in clinical trial recruitment.
 First, treatments such as remdesivir that are promising but primarily available to clinical trial participants are unlikely to be accessible by people in many countries.
@@ -5152,17 +5152,17 @@ While this influx of information is likely evidence of important work towards un
 The downsides of "excessive publication" have been recognized for over forty years, as it was raised as a major concern about the move towards electronic, rather than print, publishing at the turn of the millennium [@doi:10/d3bmnv].
 The contents of the COVID-19 Open Research Dataset (CORD-19) [@arxiv:2004.10706], which was developed in part to assist in efforts to train machine learning algorithms on COVID-19-related text, illustrates the volume of scholarly literature relevant to understanding this virus (Figure @fig:cord19-growth).
 This resource was developed by querying several sources for terms related to SARS-CoV-2 and COVID-19, as well as the coronaviruses SARS-CoV-1 and MERS-CoV and their associated viruses [@arxiv:2004.10706].
-CORD-19 contained 599616 manuscripts as of 2021-05-31.
+CORD-19 contained 659502 manuscripts as of 2021-06-21.
 Additional curation by CoronaCentral [@doi:10.1101/2020.12.21.423860] has produced, at present, a set of over 150,000 publications particularly relevant to COVID-19 and these closely related viruses.
 Thus, any effort to synthesize, summarize, and contextualize COVID-19 research will face a vast corpus of potentially relevant material.
 
 **Change over time in the number of publications in the CORD-19 dataset.**
-As of 2021-05-31, there were 599616 articles in the CORD-19 dataset.
+As of 2021-06-21, there were 659502 articles in the CORD-19 dataset.
 The first release, on March 16, 2020, contained 28,000 manuscripts on topics relevant to SARS-CoV-2 and related coronaviruses [@arxiv:2004.10706].
 Since then, these articles have continued to proliferate (left), with both traditionally published and preprint manuscripts in the corpus (right).
-At present, it contains 25984 preprints from _arXiv_, _bioRxiv_, and _medRxiv_.
+At present, it contains 27034 preprints from _arXiv_, _bioRxiv_, and _medRxiv_.
 While not all of the manuscripts are focused explicitly on SARS-CoV-2 or COVID-19, this corpus is likely to contain all or most manuscripts relevant to writing a literature review, which requires assessing both emerging and prior research.
-](https://github.com/greenelab/covid19-review/raw/a6f42cf52e6bf817eca126e3c80d060e03b396f6/CORD-19/cord19-growth.png "CORD-19 dataset growth"){#fig:cord19-growth secno=1}
+](https://github.com/greenelab/covid19-review/raw/c18a7745e5ec49993c294ab9ab7b2b89aab51fe4/CORD-19/cord19-growth.png "CORD-19 dataset growth"){#fig:cord19-growth secno=1}
 
 With information being produced rapidly through both traditional publishing venues and preprint servers, some papers that are published face scrutiny after their initial release.
 Concerns have been raised that the number of COVID-19 papers being retracted may be higher, or potentially much higher, than is typical, although a thorough investigation of this question will not be possible until more time has elapsed [@doi:10.1080/08989621.2020.1782203; @doi:10.1080/08989621.2020.1793675].
@@ -5316,10 +5316,10 @@ A total of 273 new paper issues had been opened as of April 30, 2021.
 ![
 **Change in the COVID-19 clinical trials figure over time.**
 When we first produced this figure on July 7, 2020, there were 3,733 clinical trials in the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709].
-As of November 9, 2020, it contains 6,417.
+As of December 31, 2020, it contains 6,987.
 We were also able to easily reconfigure the figure prior to journal submission to emphasize interventional trials based on the recommendation of a collaborator who is a clinician.
 This figure is included in an analysis of pharmaceutical development efforts during COVID-19 [@individual-pharmaceuticals].
-]((images/ebmdatalab-trials-original.png)https://github.com/greenelab/covid19-review/raw/a6f42cf52e6bf817eca126e3c80d060e03b396f6/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+]((images/ebmdatalab-trials-original.png)https://github.com/greenelab/covid19-review/raw/e1afb4c904307e22d31fbb2c422943c08d186040/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 The seven manuscripts produced by the consortium (outside of this one) will be submitted to _mSystems_ as part of a special issue that is providing support for evolving reviews so that they can continue to be updated as more information becomes available.
 This approach allows for a version of record to be maintained alongside the most recent developments, which are always available through GitHub.
