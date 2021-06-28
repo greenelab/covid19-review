@@ -1,3 +1,6 @@
+% Adaptation of the template by Wouter Groeneveld
+% https://brainbaking.com/post/2021/02/writing-academic-papers-in-markdown/
+
 \documentclass[sigconf]{acmart}
 
 \usepackage{balance}	% balancing bibstyles as per request in accepted submission
@@ -41,6 +44,25 @@ $for(author)$
 			$endif$
 			$if(author.affiliations.country)$
 				\country{$author.affiliations.country$}
+			$endif$
+		}
+	$endfor$
+	$for(author.additionalaffiliations)$
+		\additionalaffiliation{
+			$if(author.additionalaffiliations.institution)$
+				\institution{$author.additionalaffiliations.institution$}
+			$endif$
+			$if(author.additionalaffiliations.department)$
+				\department{$author.additionalaffiliations.department$}
+			$endif$
+			$if(author.additionalaffiliations.city)$
+				\city{$author.additionalaffiliations.city$}
+			$endif$
+			$if(author.additionalaffiliations.state)$
+				\state{$author.additionalaffiliations.state$}
+			$endif$
+			$if(author.additionalaffiliations.country)$
+				\country{$author.additionalaffiliations.country$}
 			$endif$
 		}
 	$endfor$
@@ -90,6 +112,10 @@ $endif$
 
 $body$
 
+% Add funding statement as a comment so it can be manually reviewed and condensed
+$if(funding)$
+	%{$funding$}
+$endif$
 
 $if(bibfile)$
 	\balance
@@ -98,5 +124,3 @@ $endif$
 
 \end{document}
 \endinput
-%%
-%% End of file `sample-authordraft.tex'.
