@@ -1,10 +1,10 @@
 {
-  "daily_vax_rate": "5,140 per million",
-  "most_recent_date": "July 1, 2021",
-  "owid_commit_date": "2021-07-02T09:57:56Z",
-  "owid_commit_date_pretty": "July 2, 2021",
-  "owid_commit_sha": "4d3f4b7cbcbc7998946f5d83742f879f8bdb20a0",
+  "daily_vax_rate": "4,963 per million",
+  "most_recent_date": "July 2, 2021",
+  "owid_commit_date": "2021-07-03T11:52:26Z",
+  "owid_commit_date_pretty": "July 3, 2021",
+  "owid_commit_sha": "08eb4958076ed5255024be98504ea5719ce316cb",
   "total_countries": "217",
-  "total_vaccinations": "3,129 million",
+  "total_vaccinations": "3,163 million",
   "vaccine_types": "17"
 }
