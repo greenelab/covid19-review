@@ -12,5 +12,5 @@ filters:
 wrap: preserve
 shift-heading-level-by: -2
 standalone: true
-template: build/assets/acm-pandoc-conf.tex
+template: build/assets/ceurart-pandoc-2col.tex
 cite-method: natbib
