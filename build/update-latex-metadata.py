@@ -10,11 +10,10 @@ from manubot.util import read_serialized_data
 
 MISSING_AFFILIATIONS = [{"institution": " "}]
 MISSING_COI = "None"
-ACM_BCB_2021 = {"acm": [{"copyrightyear": "2021",
-                         "copyright": "acmcopyright",
-                         "conference": "ACM-BCB '21",
-                         "conferencetitle": "ACM-BCB '21: ACM Conference on Bioinformatics, Computational Biology, and Health Informatics",
-                         "date": "August 01--04, 2021",
+ACM_DISCO_2021 = {"acm": [{"copyrightyear": "2021",
+                         "conference": "DISCO 2021",
+                         "conferencetitle": "Digital Infrastructures for Scholarly Content Objects",
+                         "date": "September 30--October 01, 2021",
                          "location": "Online"}]}
 
 
@@ -115,7 +114,7 @@ def update_latex(keyword, manubot_file, pandoc_file):
 
     # Do not retain the other metadata fields and add the .bib file references
     metadata = {"author": latex_authors, "bibfile": keyword + ".bib"}
-    metadata.update(ACM_BCB_2021)
+    metadata.update(ACM_DISCO_2021)
     # Add conflicts if any exist
     if len(conflicts) > 0:
         metadata["conflicts"] = "Conflicts of interest. " + " ".join(conflicts)
