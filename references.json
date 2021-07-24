@@ -1326,8 +1326,8 @@
       "date-parts": [
         [
           "2021",
-          6,
-          30
+          7,
+          21
         ]
       ]
     }
@@ -1408,9 +1408,9 @@
     "issued": {
       "date-parts": [
         [
-          "2020",
-          10,
-          8
+          "2021",
+          7,
+          15
         ]
       ]
     },
@@ -1418,8 +1418,8 @@
       "date-parts": [
         [
           "2021",
-          6,
-          30
+          7,
+          21
         ]
       ]
     }
@@ -1640,8 +1640,8 @@
       "date-parts": [
         [
           "2021",
-          6,
-          30
+          7,
+          21
         ]
       ]
     }
@@ -1861,8 +1861,8 @@
       "date-parts": [
         [
           "2021",
-          6,
-          30
+          7,
+          21
         ]
       ]
     }
@@ -2027,8 +2027,8 @@
       "date-parts": [
         [
           "2021",
-          6,
-          30
+          7,
+          21
         ]
       ]
     }
@@ -2064,8 +2064,8 @@
       "date-parts": [
         [
           "2021",
-          6,
-          30
+          7,
+          21
         ]
       ]
     }
@@ -2092,8 +2092,8 @@
       "date-parts": [
         [
           "2021",
-          6,
-          16
+          7,
+          13
         ]
       ]
     },
@@ -2101,8 +2101,8 @@
       "date-parts": [
         [
           "2021",
-          6,
-          30
+          7,
+          21
         ]
       ]
     }
@@ -2174,8 +2174,8 @@
       "date-parts": [
         [
           "2021",
-          6,
-          30
+          7,
+          21
         ]
       ]
     }
@@ -2211,8 +2211,8 @@
       "date-parts": [
         [
           "2021",
-          6,
-          30
+          7,
+          21
         ]
       ]
     }
@@ -2248,8 +2248,8 @@
       "date-parts": [
         [
           "2021",
-          6,
-          30
+          7,
+          21
         ]
       ]
     }
@@ -2285,8 +2285,8 @@
       "date-parts": [
         [
           "2021",
-          6,
-          30
+          7,
+          21
         ]
       ]
     }
@@ -2322,8 +2322,8 @@
       "date-parts": [
         [
           "2021",
-          6,
-          30
+          7,
+          21
         ]
       ]
     }
@@ -2396,8 +2396,8 @@
       "date-parts": [
         [
           "2021",
-          6,
-          30
+          7,
+          21
         ]
       ]
     }
@@ -29407,13 +29407,15 @@
       "date-parts": [
         [
           2021,
-          4
+          7
         ]
       ]
     },
     "container-title": "The Lancet Microbe",
     "DOI": "10.1016/s2666-5247(21)00068-9",
-    "page": "S2666524721000689",
+    "volume": "2",
+    "issue": "7",
+    "page": "e283-e284",
     "publisher": "Elsevier BV",
     "title": "SARS-CoV-2 spike E484K mutation reduces antibody neutralisation",
     "URL": "https://doi.org/f53t",
@@ -66265,7 +66267,9 @@
     },
     "container-title": "The Milbank Quarterly",
     "DOI": "10.1111/1468-0009.12503",
-    "page": "1468-0009.12503",
+    "volume": "99",
+    "issue": "2",
+    "page": "426-449",
     "publisher": "Wiley",
     "title": "International Collaboration to Ensure Equitable Access to Vaccines for COVID‐19: The ACT‐Accelerator and the COVAX Facility",
     "URL": "https://doi.org/gh77cc",
@@ -87204,7 +87208,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -87229,7 +87233,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -87254,7 +87258,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -87285,7 +87289,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -87379,7 +87383,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -87526,7 +87530,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -87564,7 +87568,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -87653,7 +87657,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -87804,7 +87808,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -87823,7 +87827,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -87842,7 +87846,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -87904,7 +87908,7 @@
   {
     "id": "nTjoZqSQ",
     "type": "webpage",
-    "title": "pandoc/lua-filters",
+    "title": "lua-filters/spellcheck at master · pandoc/lua-filters",
     "container-title": "GitHub",
     "abstract": "A collection of lua filters for pandoc. Contribute to pandoc/lua-filters development by creating an account on GitHub.",
     "URL": "https://github.com/pandoc/lua-filters",
@@ -87914,7 +87918,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -87981,7 +87985,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -88316,7 +88320,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -88333,7 +88337,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -88462,18 +88466,70 @@
   },
   {
     "id": "sEyIoYCS",
-    "type": "webpage",
-    "title": "COVID-19: Vaccination Policy",
+    "type": "article-journal",
+    "title": "Coronavirus Pandemic (COVID-19)",
     "container-title": "Our World in Data",
+    "source": "ourworldindata.org",
     "abstract": "This interactive chart maps government policies on COVID-19 vaccination. Note that this only tracks policies on the availability of vaccinations. It does not track the number of people who have been vaccinated.",
     "URL": "https://ourworldindata.org/covid-vaccination-policy",
-    "shortTitle": "COVID-19",
+    "journalAbbreviation": "Our World in Data",
+    "author": [
+      {
+        "family": "Ritchie",
+        "given": "Hannah"
+      },
+      {
+        "family": "Ortiz-Ospina",
+        "given": "Esteban"
+      },
+      {
+        "family": "Beltekian",
+        "given": "Diana"
+      },
+      {
+        "family": "Mathieu",
+        "given": "Edouard"
+      },
+      {
+        "family": "Hasell",
+        "given": "Joe"
+      },
+      {
+        "family": "Macdonald",
+        "given": "Bobbie"
+      },
+      {
+        "family": "Giattino",
+        "given": "Charlie"
+      },
+      {
+        "family": "Appel",
+        "given": "Cameron"
+      },
+      {
+        "family": "Rodés-Guirao",
+        "given": "Lucas"
+      },
+      {
+        "family": "Roser",
+        "given": "Max"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          5
+        ]
+      ]
+    },
     "accessed": {
       "date-parts": [
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -88481,17 +88537,70 @@
   },
   {
     "id": "cWMPXfju",
-    "type": "webpage",
-    "title": "Coronavirus (COVID-19) Vaccinations - Statistics and Research",
+    "type": "article-journal",
+    "title": "Coronavirus Pandemic (COVID-19)",
     "container-title": "Our World in Data",
+    "source": "ourworldindata.org",
     "abstract": "Our vaccination dataset uses the most recent official numbers from governments and health ministries worldwide. The population estimates we use to calculate per-capita metrics are all based on the last revision of the United Nations World Population Prospects. A full list of our country-specific sources is available at the bottom of this page, and we also answer frequently-asked questions there.",
     "URL": "https://ourworldindata.org/covid-vaccinations",
+    "journalAbbreviation": "Our World in Data",
+    "author": [
+      {
+        "family": "Ritchie",
+        "given": "Hannah"
+      },
+      {
+        "family": "Ortiz-Ospina",
+        "given": "Esteban"
+      },
+      {
+        "family": "Beltekian",
+        "given": "Diana"
+      },
+      {
+        "family": "Mathieu",
+        "given": "Edouard"
+      },
+      {
+        "family": "Hasell",
+        "given": "Joe"
+      },
+      {
+        "family": "Macdonald",
+        "given": "Bobbie"
+      },
+      {
+        "family": "Giattino",
+        "given": "Charlie"
+      },
+      {
+        "family": "Appel",
+        "given": "Cameron"
+      },
+      {
+        "family": "Rodés-Guirao",
+        "given": "Lucas"
+      },
+      {
+        "family": "Roser",
+        "given": "Max"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          5
+        ]
+      ]
+    },
     "accessed": {
       "date-parts": [
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -88507,7 +88616,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -88543,7 +88652,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -88561,7 +88670,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -88579,7 +88688,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -88656,7 +88765,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -88674,7 +88783,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -88699,7 +88808,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -88716,7 +88825,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -88926,7 +89035,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -88957,7 +89066,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -89019,7 +89128,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -89050,7 +89159,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -89081,7 +89190,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -89089,15 +89198,6 @@
   },
   {
     "URL": "https://www.bharatbiotech.com/images/press/covaxin-phase3-efficacy-results.pdf",
-    "issued": {
-      "date-parts": [
-        [
-          2021,
-          3,
-          3
-        ]
-      ]
-    },
     "type": "webpage",
     "id": "Ks3L7qHG",
     "note": "This CSL Item was generated by Manubot v0.5.1 from its persistent identifier (standard_id).\nstandard_id: url:https://www.bharatbiotech.com/images/press/covaxin-phase3-efficacy-results.pdf"
@@ -89113,7 +89213,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -89121,15 +89221,6 @@
   },
   {
     "URL": "https://www.biogenetech.co.th/wp-content/uploads/2021/03/5-Ocugen.pdf",
-    "title": "\n            \n               5 Ocugen\n            \n         ",
-    "issued": {
-      "date-parts": [
-        [
-          2021,
-          3
-        ]
-      ]
-    },
     "type": "webpage",
     "id": "DaDKZXdu",
     "note": "This CSL Item was generated by Manubot v0.5.1 from its persistent identifier (standard_id).\nstandard_id: url:https://www.biogenetech.co.th/wp-content/uploads/2021/03/5-Ocugen.pdf"
@@ -89153,7 +89244,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -89163,13 +89254,13 @@
     "id": "DQmAgN0V",
     "type": "webpage",
     "title": "Bloomberg - Are you a robot?",
-    "URL": "https://www.bloomberg.com/tosv2.html?vid=&uuid=c0ec9200-db2e-11eb-8ac5-5117f7dfd784&url=L2dyYXBoaWNzL2NvdmlkLXZhY2NpbmUtdHJhY2tlci1nbG9iYWwtZGlzdHJpYnV0aW9u",
+    "URL": "https://www.bloomberg.com/tosv2.html?vid=&uuid=1e633100-eccd-11eb-97bb-f1fa562a9f0b&url=L2dyYXBoaWNzL2NvdmlkLXZhY2NpbmUtdHJhY2tlci1nbG9iYWwtZGlzdHJpYnV0aW9u",
     "accessed": {
       "date-parts": [
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -89179,13 +89270,13 @@
     "id": "uvQMgFXB",
     "type": "webpage",
     "title": "Bloomberg - Are you a robot?",
-    "URL": "https://www.bloomberg.com/tosv2.html?vid=&uuid=c1065b90-db2e-11eb-840d-6bb870480769&url=L25ld3MvYXJ0aWNsZXMvMjAyMC0xMi0wMi93aXRoaW4taG91cnMtb2YtdS1rLXB1dGluLW9yZGVycy1zdGFydC1vZi1tYXNzLWNvdmlkLTE5LXNob3Rz",
+    "URL": "https://www.bloomberg.com/tosv2.html?vid=&uuid=1e7b4ce0-eccd-11eb-9230-bbc9a1f81b4d&url=L25ld3MvYXJ0aWNsZXMvMjAyMC0xMi0wMi93aXRoaW4taG91cnMtb2YtdS1rLXB1dGluLW9yZGVycy1zdGFydC1vZi1tYXNzLWNvdmlkLTE5LXNob3Rz",
     "accessed": {
       "date-parts": [
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -89258,7 +89349,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -89317,7 +89408,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -89351,7 +89442,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -89387,7 +89478,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -89416,7 +89507,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -89533,7 +89624,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -89852,7 +89943,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -89886,7 +89977,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -89947,7 +90038,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -89989,7 +90080,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -90116,7 +90207,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -90151,7 +90242,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -90187,7 +90278,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -90222,7 +90313,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -90257,7 +90348,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -90327,7 +90418,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -90361,7 +90452,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -90389,7 +90480,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -90443,8 +90534,8 @@
       "date-parts": [
         [
           "2021",
-          6,
-          25
+          7,
+          13
         ]
       ]
     },
@@ -90453,7 +90544,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -90574,22 +90665,6 @@
   },
   {
     "URL": "https://www.fda.gov/media/138946/download",
-    "title": "\n            \n               \n            \n         ",
-    "issued": {
-      "date-parts": [
-        [
-          2020,
-          6,
-          19
-        ]
-      ]
-    },
-    "author": [
-      {
-        "family": "Booze",
-        "given": "Kristen"
-      }
-    ],
     "type": "webpage",
     "id": "l9fFL5hb",
     "note": "This CSL Item was generated by Manubot v0.5.1 from its persistent identifier (standard_id).\nstandard_id: url:https://www.fda.gov/media/138946/download"
@@ -90642,22 +90717,6 @@
   },
   {
     "URL": "https://www.fda.gov/media/145801/download",
-    "title": "  FDa logo for letterhead  ",
-    "issued": {
-      "date-parts": [
-        [
-          2021,
-          2,
-          25
-        ]
-      ]
-    },
-    "author": [
-      {
-        "family": "Gormley",
-        "given": "Andrea (Vincent)"
-      }
-    ],
     "type": "webpage",
     "id": "eNQP4PU",
     "note": "This CSL Item was generated by Manubot v0.5.1 from its persistent identifier (standard_id).\nstandard_id: url:https://www.fda.gov/media/145801/download"
@@ -90749,7 +90808,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -90915,7 +90974,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -90943,7 +91002,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -90996,7 +91055,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -91045,7 +91104,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -91064,7 +91123,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -91073,9 +91132,9 @@
   {
     "id": "1HIxYDTsj",
     "type": "webpage",
-    "title": "Regulatory approval of COVID-19 Vaccine AstraZeneca",
+    "title": "Regulatory approval of Vaxzevria (previously COVID-19 Vaccine AstraZeneca)",
     "container-title": "GOV.UK",
-    "abstract": "Information for healthcare professionals and the public about the COVID-19 Vaccine AstraZeneca.",
+    "abstract": "Information for healthcare professionals and the public about Vaxzevria (previously COVID-19 Vaccine AstraZeneca).",
     "URL": "https://www.gov.uk/government/publications/regulatory-approval-of-covid-19-vaccine-astrazeneca",
     "language": "en",
     "accessed": {
@@ -91083,7 +91142,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -91102,7 +91161,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -91170,7 +91229,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -91294,22 +91353,6 @@
   },
   {
     "URL": "https://www.janssen.com/emea/sites/www_janssen_com_emea/files/johnson_johnson_announces_single-shot_janssen_covid-19_vaccine_candidate_met_primary_endpoints_in_interim_analysis_of_its_phase_3_ensemble_trial.pdf",
-    "title": "\n            \n               \n            \n         ",
-    "issued": {
-      "date-parts": [
-        [
-          2021,
-          2,
-          1
-        ]
-      ]
-    },
-    "author": [
-      {
-        "family": "Parrish",
-        "given": "Leigh"
-      }
-    ],
     "type": "webpage",
     "id": "1FcpboRMm",
     "note": "This CSL Item was generated by Manubot v0.5.1 from its persistent identifier (standard_id).\nstandard_id: url:https://www.janssen.com/emea/sites/www_janssen_com_emea/files/johnson_johnson_announces_single-shot_janssen_covid-19_vaccine_candidate_met_primary_endpoints_in_interim_analysis_of_its_phase_3_ensemble_trial.pdf"
@@ -91327,7 +91370,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -91346,7 +91389,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -91364,7 +91407,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -91382,7 +91425,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -91470,7 +91513,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -91498,7 +91541,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -91615,7 +91658,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -91675,7 +91718,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -91864,7 +91907,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -91902,7 +91945,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -91939,7 +91982,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -92023,12 +92066,21 @@
         "given": "Sui-Lee"
       }
     ],
+    "issued": {
+      "date-parts": [
+        [
+          "2020",
+          6,
+          10
+        ]
+      ]
+    },
     "accessed": {
       "date-parts": [
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -92059,12 +92111,21 @@
         "given": "Sui-Lee"
       }
     ],
+    "issued": {
+      "date-parts": [
+        [
+          "2020",
+          6,
+          10
+        ]
+      ]
+    },
     "accessed": {
       "date-parts": [
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -92095,12 +92156,21 @@
         "given": "Sui-Lee"
       }
     ],
+    "issued": {
+      "date-parts": [
+        [
+          "2020",
+          6,
+          10
+        ]
+      ]
+    },
     "accessed": {
       "date-parts": [
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -92131,12 +92201,21 @@
         "given": "Sui-Lee"
       }
     ],
+    "issued": {
+      "date-parts": [
+        [
+          "2020",
+          6,
+          10
+        ]
+      ]
+    },
     "accessed": {
       "date-parts": [
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -92167,12 +92246,21 @@
         "given": "Sui-Lee"
       }
     ],
+    "issued": {
+      "date-parts": [
+        [
+          "2020",
+          6,
+          10
+        ]
+      ]
+    },
     "accessed": {
       "date-parts": [
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -92185,7 +92273,7 @@
     "container-title": "The New York Times",
     "section": "World",
     "source": "NYTimes.com",
-    "abstract": "More than 3.08 billion vaccine doses have been administered worldwide, equal to 40 doses for every 100 people.",
+    "abstract": "More than 3.83 billion vaccine doses have been administered worldwide, equal to 50 doses for every 100 people.",
     "URL": "https://www.nytimes.com/interactive/2021/world/covid-vaccinations-tracker.html",
     "ISSN": "0362-4331",
     "language": "en-US",
@@ -92195,12 +92283,21 @@
         "given": "Josh"
       }
     ],
+    "issued": {
+      "date-parts": [
+        [
+          "2021",
+          1,
+          29
+        ]
+      ]
+    },
     "accessed": {
       "date-parts": [
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -92351,7 +92448,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -92395,7 +92492,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -92412,7 +92509,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -92447,7 +92544,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -92482,7 +92579,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -92552,7 +92649,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -92657,7 +92754,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -92678,7 +92775,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -92878,7 +92975,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -92914,7 +93011,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -92932,7 +93029,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -92950,7 +93047,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -92974,7 +93071,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },
@@ -93012,7 +93109,7 @@
         [
           "2021",
           7,
-          2
+          24
         ]
       ]
     },

@@ -1,181 +1,224 @@
-% Adaptation of the template by Wouter Groeneveld
-% https://brainbaking.com/post/2021/02/writing-academic-papers-in-markdown/
+\documentclass[twocolumn]{ceurart}
 
-\documentclass[sigconf]{acmart}
+%%
+%% One can fix some overfulls
+\sloppy
 
-\usepackage{balance}	% balancing bibstyles as per request in accepted submission
+% TODO - mentioned standard includes?
 
-
-%% These commands are for a PROCEEDINGS abstract or paper.
-\copyrightyear{2021}
-\acmYear{2021}
-\setcopyright{acmcopyright}
-\acmConference[ACM-BCB '21]{ACM-BCB '21: ACM Conference on Bioinformatics, Computational Biology, and Health Informatics}{August 01--04, 2021}{Online}
-\acmBooktitle{}
-\acmPrice{}
-\acmISBN{}
-\acmDOI{}
-
-	\author{Halie M. Rando}
-			\orcid{0000-0001-7688-1770}
-				\affiliation{
-							\institution{University of Colorado School of Medicine}
-										\department{Center for Health AI}
-										\city{Aurora}
-										\state{CO}
-										\country{USA}
-					}
-				\additionalaffiliation{
-							\institution{University of Colorado School of Medicine}
-										\department{Department of Biochemistry and Molecular Genetics}
-										\city{Aurora}
-										\state{CO}
-										\country{USA}
-					}
-			\additionalaffiliation{
-							\institution{University of Pennsylvania}
-										\department{Perelman School of Medicine, Department of Systems Pharmacology and Translational Therapeutics}
-										\city{Philadelphia}
-										\state{PA}
-										\country{USA}
-					}
-				\email{halie.rando@cuanschutz.edu}
-		\author{Simina M. Boca}
-			\orcid{0000-0002-1400-3398}
-				\affiliation{
-							\institution{Georgetown University Medical Center}
-										\department{Innovation Center for Biomedical Informatics}
-										\city{Washington}
-										\state{DC}
-										\country{USA}
-					}
-					\email{smb310@georgetown.edu}
-		\author{Lucy D'Agostino McGowan}
-			\orcid{0000-0001-7297-9359}
-				\affiliation{
-							\institution{Wake Forest University}
-										\department{Department of Mathematics and Statistics}
-										\city{Winston-Salem}
-										\state{NC}
-										\country{USA}
-					}
-					\email{lucydagostino@gmail.com}
-		\author{Daniel S. Himmelstein}
-			\orcid{0000-0002-3012-7446}
-				\affiliation{
-							\institution{Related Sciences}
-																	}
-				\additionalaffiliation{
-							\institution{University of Pennsylvania}
-										\department{Perelman School of Medicine, Department of Systems Pharmacology and Translational Therapeutics}
-										\city{Philadelphia}
-										\state{PA}
-										\country{USA}
-					}
-				\email{daniel.himmelstein@gmail.com}
-		\author{Michael P. Robson}
-			\orcid{0000-0002-4859-0033}
-				\affiliation{
-							\institution{Villanova University}
-										\department{Department of Computing Sciences}
-										\city{Villanova}
-										\state{PA}
-										\country{USA}
-					}
-					\email{michael.robson@villanova.edu}
-		\author{Vincent Rubinetti}
-			\orcid{0000-0002-4655-3773}
-				\affiliation{
-							\institution{University of Colorado School of Medicine}
-										\department{Center for Health AI}
-										\city{Aurora}
-										\state{CO}
-										\country{USA}
-					}
-				\additionalaffiliation{
-							\institution{University of Pennsylvania}
-										\department{Perelman School of Medicine, Department of Systems Pharmacology and Translational Therapeutics}
-										\city{Philadelphia}
-										\state{PA}
-										\country{USA}
-					}
-				\email{vince.rubinetti@gmail.com}
-		\author{Ryan Velazquez}
-			\orcid{0000-0002-3655-3403}
-				\affiliation{
-							\institution{Azimuth1}
-													\city{McLean}
-										\state{VA}
-										\country{USA}
-					}
-					\email{rnhvelazquez@gmail.com}
-		\author{COVID-19 Review Consortium}
-				\affiliation{
-																	}
-				\author{Casey S. Greene}
-			\orcid{0000-0001-8713-9213}
-				\affiliation{
-							\institution{University of Colorado School of Medicine}
-										\department{Center for Health AI}
-										\city{Aurora}
-										\state{CO}
-										\country{USA}
-					}
-				\additionalaffiliation{
-							\institution{University of Colorado School of Medicine}
-										\department{Department of Biochemistry and Molecular Genetics}
-										\city{Aurora}
-										\state{CO}
-										\country{USA}
-					}
-			\additionalaffiliation{
-							\institution{University of Pennsylvania}
-										\department{Perelman School of Medicine, Department of Systems Pharmacology and Translational Therapeutics}
-										\city{Philadelphia}
-										\state{PA}
-										\country{USA}
-					}
-			\additionalaffiliation{
-							\institution{Alex's Lemonade Stand Foundation}
-										\department{Childhood Cancer Data Lab}
-										\city{Philadelphia}
-										\state{PA}
-										\country{USA}
-					}
-				\email{greenescientist@gmail.com}
-		\author{Anthony Gitter}
-			\orcid{0000-0002-5324-9833}
-				\affiliation{
-							\institution{University of Wisconsin-Madison}
-										\department{Department of Biostatistics and Medical Informatics}
-										\city{Madison}
-										\state{WI}
-										\country{USA}
-					}
-				\additionalaffiliation{
-							\institution{Morgridge Institute for Research}
-													\city{Madison}
-										\state{WI}
-										\country{USA}
-					}
-				\email{gitter@biostat.wisc.edu}
-	
-
+%%
+%% end of the preamble, start of the body of the document source.
 \begin{document}
 
+%%
+%% Rights management information.
+%% CC-BY is default license.
+\copyrightyear{2021}
+\copyrightclause{Copyright for this paper by its authors.
+  Use permitted under Creative Commons License Attribution 4.0
+  International (CC BY 4.0).}
 
-	\title{An Open-Publishing Response to the COVID-19 Infodemic}
+% TODO - fix acm in yaml/json
 
+%%
+%% This command is for the conference information
+\conference{DISCO 2021: Digital Infrastructures for Scholarly Content Objects, September 30--October 01, 2021, Online}
 
+%%
+%% The "title" command
+\title{An Open-Publishing Response to the COVID-19 Infodemic}
 
+%%
+%% The "author" command and its associated commands are used to define
+%% the authors and their affiliations.
+% TODO - link affiliation/address numbers - do in .py?
+  \author[]{Halie M. Rando}[%
+			orcid=0000-0001-7688-1770,
+				email=halie.rando@cuanschutz.edu
+	  % TODO - url, (oneline?)
+	]
+			\address[]{
+							University of Colorado School of Medicine,
+										Center for Health AI,
+										Aurora,
+										CO,
+										USA
+					}
+	  % TODO - check additional affiliation(s)
+			\address[]{
+							University of Colorado School of Medicine,
+										Department of Biochemistry and Molecular Genetics,
+										Aurora,
+										CO,
+										USA
+					}
+			\address[]{
+							University of Pennsylvania,
+										Perelman School of Medicine, Department of Systems Pharmacology and Translational Therapeutics,
+										Philadelphia,
+										PA,
+										USA
+					}
+	  \author[]{Simina M. Boca}[%
+			orcid=0000-0002-1400-3398,
+				email=smb310@georgetown.edu
+	  % TODO - url, (oneline?)
+	]
+			\address[]{
+							Georgetown University Medical Center,
+										Innovation Center for Biomedical Informatics,
+										Washington,
+										DC,
+										USA
+					}
+	  % TODO - check additional affiliation(s)
+	  \author[]{Lucy D'Agostino McGowan}[%
+			orcid=0000-0001-7297-9359,
+				email=lucydagostino@gmail.com
+	  % TODO - url, (oneline?)
+	]
+			\address[]{
+							Wake Forest University,
+										Department of Mathematics and Statistics,
+										Winston-Salem,
+										NC,
+										USA
+					}
+	  % TODO - check additional affiliation(s)
+	  \author[]{Daniel S. Himmelstein}[%
+			orcid=0000-0002-3012-7446,
+				email=daniel.himmelstein@gmail.com
+	  % TODO - url, (oneline?)
+	]
+			\address[]{
+							Related Sciences,
+																	}
+	  % TODO - check additional affiliation(s)
+			\address[]{
+							University of Pennsylvania,
+										Perelman School of Medicine, Department of Systems Pharmacology and Translational Therapeutics,
+										Philadelphia,
+										PA,
+										USA
+					}
+	  \author[]{Michael P. Robson}[%
+			orcid=0000-0002-4859-0033,
+				email=michael.robson@villanova.edu
+	  % TODO - url, (oneline?)
+	]
+			\address[]{
+							Villanova University,
+										Department of Computing Sciences,
+										Villanova,
+										PA,
+										USA
+					}
+	  % TODO - check additional affiliation(s)
+	  \author[]{Vincent Rubinetti}[%
+			orcid=0000-0002-4655-3773,
+				email=vince.rubinetti@gmail.com
+	  % TODO - url, (oneline?)
+	]
+			\address[]{
+							University of Colorado School of Medicine,
+										Center for Health AI,
+										Aurora,
+										CO,
+										USA
+					}
+	  % TODO - check additional affiliation(s)
+			\address[]{
+							University of Pennsylvania,
+										Perelman School of Medicine, Department of Systems Pharmacology and Translational Therapeutics,
+										Philadelphia,
+										PA,
+										USA
+					}
+	  \author[]{Ryan Velazquez}[%
+			orcid=0000-0002-3655-3403,
+				email=rnhvelazquez@gmail.com
+	  % TODO - url, (oneline?)
+	]
+			\address[]{
+							Azimuth1,
+													McLean,
+										VA,
+										USA
+					}
+	  % TODO - check additional affiliation(s)
+	  \author[]{COVID-19 Review Consortium}[%
+		  % TODO - url, (oneline?)
+	]
+			\address[]{
+																	}
+	  % TODO - check additional affiliation(s)
+	  \author[]{Casey S. Greene}[%
+			orcid=0000-0001-8713-9213,
+				email=greenescientist@gmail.com
+	  % TODO - url, (oneline?)
+	]
+			\address[]{
+							University of Colorado School of Medicine,
+										Center for Health AI,
+										Aurora,
+										CO,
+										USA
+					}
+	  % TODO - check additional affiliation(s)
+			\address[]{
+							University of Colorado School of Medicine,
+										Department of Biochemistry and Molecular Genetics,
+										Aurora,
+										CO,
+										USA
+					}
+			\address[]{
+							University of Pennsylvania,
+										Perelman School of Medicine, Department of Systems Pharmacology and Translational Therapeutics,
+										Philadelphia,
+										PA,
+										USA
+					}
+			\address[]{
+							Alex's Lemonade Stand Foundation,
+										Childhood Cancer Data Lab,
+										Philadelphia,
+										PA,
+										USA
+					}
+	  \author[]{Anthony Gitter}[%
+			orcid=0000-0002-5324-9833,
+				email=gitter@biostat.wisc.edu
+	  % TODO - url, (oneline?)
+	]
+			\address[]{
+							University of Wisconsin-Madison,
+										Department of Biostatistics and Medical Informatics,
+										Madison,
+										WI,
+										USA
+					}
+	  % TODO - check additional affiliation(s)
+			\address[]{
+							Morgridge Institute for Research,
+													Madison,
+										WI,
+										USA
+					}
+	
+%%
+%% The abstract is a short summary of the work to be presented in the
+%% article.
 
-\renewcommand{\shortauthors}{}
+% TODO - keywords
 
-
+%%
+%% This command processes the author and affiliation and title
+%% information and builds the first part of the formatted document.
 \maketitle
-\bibliographystyle{ACM-Reference-Format}
 
-	{\let\thefootnote\relax\footnote{Conflicts of interest. Simina M. Boca: Currently an employee and minor share holder at AstraZeneca, Gaithersburg, MD, USA.. Lucy D'Agostino McGowan: Received consulting fees from Acelity and Sanofi in the past five years. Anthony Gitter: Filed a patent application with the Wisconsin Alumni Research Foundation related to classifying activated T cells.}}
+% TODO - check
+{\let\thefootnote\relax\footnote{Conflicts of interest. Simina M. Boca: Currently an employee and minor share holder at AstraZeneca, Gaithersburg, MD, USA.. Lucy D'Agostino McGowan: Received consulting fees from Acelity and Sanofi in the past five years. Anthony Gitter: Filed a patent application with the Wisconsin Alumni Research Foundation related to classifying activated T cells.}}
 
 \hypertarget{abstract}{%
 \section{ABSTRACT}\label{abstract}}
@@ -218,17 +261,17 @@ While this influx of information is likely evidence of important work towards un
 The downsides of ``excessive publication'' have been recognized for over forty years, as it was raised as a major concern about the move towards electronic, rather than print, publishing at the turn of the millennium \citep{DfSr1Ohc}.
 The contents of the COVID-19 Open Research Dataset (CORD-19) \citep{CiOwklc6}, which was developed in part to assist in efforts to train machine learning algorithms on COVID-19-related text, illustrates the volume of scholarly literature relevant to understanding this virus (Figure \ref{fig:cord19-growth}).
 This resource was developed by querying several sources for terms related to SARS-CoV-2 and COVID-19, as well as the coronaviruses SARS-CoV-1 and MERS-CoV and their associated viruses \citep{CiOwklc6}.
-CORD-19 contained 669773 manuscripts as of 2021-06-28.
+CORD-19 contained 709156 manuscripts as of 2021-07-19.
 Additional curation by CoronaCentral \citep{zQ1JIn2J} has produced, at present, a set of over 150,000 publications particularly relevant to COVID-19 and these closely related viruses.
 Thus, any effort to synthesize, summarize, and contextualize COVID-19 research will face a vast corpus of potentially relevant material.
 
 \textbf{Change over time in the number of publications in the CORD-19 dataset.}
-As of 2021-06-28, there were 669773 articles in the CORD-19 dataset.
+As of 2021-07-19, there were 709156 articles in the CORD-19 dataset.
 The first release, on March 16, 2020, contained 28,000 manuscripts on topics relevant to SARS-CoV-2 and related coronaviruses \citep{CiOwklc6}.
 Since then, these articles have continued to proliferate (left), with both traditionally published and preprint manuscripts in the corpus (right).
-At present, it contains 27377 preprints from \emph{arXiv}, \emph{bioRxiv}, and \emph{medRxiv}.
+At present, it contains 28491 preprints from \emph{arXiv}, \emph{bioRxiv}, and \emph{medRxiv}.
 While not all of the manuscripts are focused explicitly on SARS-CoV-2 or COVID-19, this corpus is likely to contain all or most manuscripts relevant to writing a literature review, which requires assessing both emerging and prior research.
-{]}(https://github.com/greenelab/covid19-review/raw/c9f8e2e1c606d04b5f37b032366ffdc68d335099/CORD-19/cord19-growth.png ``CORD-19 dataset growth'')\{\#fig:cord19-growth secno=1\}
+{]}(https://github.com/greenelab/covid19-review/raw/cfcbda00be4158f7fd6235b4cb3ceafbd4fd28d3/CORD-19/cord19-growth.png ``CORD-19 dataset growth'')\{\#fig:cord19-growth secno=1\}
 
 With information being produced rapidly through both traditional publishing venues and preprint servers, some papers that are published face scrutiny after their initial release.
 Concerns have been raised that the number of COVID-19 papers being retracted may be higher, or potentially much higher, than is typical, although a thorough investigation of this question will not be possible until more time has elapsed \citep{ZUk10707, caxpZEmy}.
@@ -385,7 +428,7 @@ A total of 273 new paper issues had been opened as of April 30, 2021.
 \begin{figure}
 \hypertarget{fig:ebm-trials}{%
 \centering
-\includegraphics{(images/ebmdatalab-trials-original.png)https://github.com/greenelab/covid19-review/raw/2eb8bf6a2461761c957e8f83a490ec0578ed2c17/ebmdatalab/ebmdatalab-trials.png}
+\includegraphics{(images/ebmdatalab-trials-original.png)https://github.com/greenelab/covid19-review/raw/5e9f9d60d28ff7d579af9d9b10ff480ab06efdd3/ebmdatalab/ebmdatalab-trials.png}
 \caption{\textbf{Change in the COVID-19 clinical trials figure over time.}
 When we first produced this figure on July 7, 2020, there were 3,733 clinical trials in the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker \citep{SSbnPnzT}.
 As of December 31, 2020, it contains 6,987.
@@ -486,11 +529,13 @@ We are grateful to Josh Nicholson and Milo Mordaunt for their support with the s
 We thank Nick DeVito for assistance with the Evidence-Based Medicine Data Lab COVID-19 TrialsTracker data.
 This research was supported by the Gordon and Betty Moore Foundation award GBMF 4552 (HMR, DSH, CSG), the National Institutes of Health award R01HG010067 (CSG), and the John W. and Jeanne M. Rowe Center for Research in Virology (AG).
 
+% TODO - check
 % Add funding statement as a comment so it can be manually reviewed and condensed
-	%{Author funding. HMR: the Gordon and Betty Moore Foundation (GBMF 4552). DSH: GBMF4552. CSG: the Gordon and Betty Moore Foundation (GBMF 4552); the National Human Genome Research Institute (R01 HG010067). AG: John W. and Jeanne M. Rowe Center for Research in Virology.}
+%{Author funding. HMR: the Gordon and Betty Moore Foundation (GBMF 4552). DSH: GBMF4552. CSG: the Gordon and Betty Moore Foundation (GBMF 4552); the National Human Genome Research Institute (R01 HG010067). AG: John W. and Jeanne M. Rowe Center for Research in Virology.}
 
-	\balance
-	\bibliography{methods.bib}
+%%
+%% Define the bibliography file to be used
+\bibliography{methods.bib}
 
 \end{document}
 \endinput
