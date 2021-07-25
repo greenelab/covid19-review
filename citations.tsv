@@ -1,6 +1,6 @@
 input_id	dealiased_id	standard_id	short_id
 individual-pathogenesis	arxiv:2102.01521	arxiv:2102.01521	r366f5T3
-individual-nutraceuticals	arxiv:2102.02250	arxiv:2102.02250	1B22G6dja
+individual-nutraceuticals	doi:10.1128/mSystems.00122-21	doi:10.1128/msystems.00122-21	q3PU2Eno
 individual-pharmaceuticals	arxiv:2103.02723	arxiv:2103.02723	cifK9B8t
 url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200121-sitrep-1-2019-ncov.pdf	url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200121-sitrep-1-2019-ncov.pdf	url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200121-sitrep-1-2019-ncov.pdf	Vb5KFWnO
 url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128-sitrep-8-ncov-cleared.pdf	url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128-sitrep-8-ncov-cleared.pdf	url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128-sitrep-8-ncov-cleared.pdf	fLTiwToY
@@ -1390,7 +1390,6 @@ url:https://twitter.com/j_perkel/status/1245454628235309057	url:https://twitter.
 individual-diagnostics	individual-diagnostics	individual-diagnostics	m8bOfc0M
 url:https://github.com/ismms-himc/covid-19_sinai_reviews	url:https://github.com/ismms-himc/covid-19_sinai_reviews	url:https://github.com/ismms-himc/covid-19_sinai_reviews	cYo4O2qX
 owidcoronavirus	owidcoronavirus	owidcoronavirus	ZHvhFakW
-url:https://greenelab.github.io/covid19-review	url:https://greenelab.github.io/covid19-review	url:https://greenelab.github.io/covid19-review	yTsmmAYC
 doi:10.1101/2020.01.28.923011	doi:10.1101/2020.01.28.923011	doi:10.1101/2020.01.28.923011	1HLSeqnY8
 doi:10.1101/2020.02.03.20020206	doi:10.1101/2020.02.03.20020206	doi:10.1101/2020.02.03.20020206	lOQPScZt
 doi:10.1101/2020.02.03.20020289	doi:10.1101/2020.02.03.20020289	doi:10.1101/2020.02.03.20020289	rL9IRhVy

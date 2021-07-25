@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2021-07-24'
+date-meta: '2021-07-25'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -70,8 +70,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2021-07-24" />
-  <meta name="citation_publication_date" content="2021-07-24" />
+  <meta name="dc.date" content="2021-07-25" />
+  <meta name="citation_publication_date" content="2021-07-25" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -278,13 +278,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/f97794ef9dae211790f3a669263cdd10990b64eb/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/f97794ef9dae211790f3a669263cdd10990b64eb/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/f97794ef9dae211790f3a669263cdd10990b64eb/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/da732ab2dc8c891aa9751b66457bb01b47ca3b09/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/da732ab2dc8c891aa9751b66457bb01b47ca3b09/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/da732ab2dc8c891aa9751b66457bb01b47ca3b09/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/f97794ef9dae211790f3a669263cdd10990b64eb/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/f97794ef9dae211790f3a669263cdd10990b64eb/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/da732ab2dc8c891aa9751b66457bb01b47ca3b09/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/da732ab2dc8c891aa9751b66457bb01b47ca3b09/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -306,10 +306,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/f97794ef9dae211790f3a669263cdd10990b64eb/))
+([permalink](https://greenelab.github.io/covid19-review/v/da732ab2dc8c891aa9751b66457bb01b47ca3b09/))
 was automatically generated
-from [greenelab/covid19-review@f97794e](https://github.com/greenelab/covid19-review/tree/f97794ef9dae211790f3a669263cdd10990b64eb)
-on July 24, 2021.
+from [greenelab/covid19-review@da732ab](https://github.com/greenelab/covid19-review/tree/da732ab2dc8c891aa9751b66457bb01b47ca3b09)
+on July 25, 2021.
 Snapshots of individual sections are available as preprints [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals].
 </em></small>
 
@@ -764,12 +764,12 @@ Most of these cases were in China, but one to two exported cases had also been i
 One week later, 4,593 confirmed cases had been identified, spanning not only Asia, but also Australia, North America, and Europe [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128-sitrep-8-ncov-cleared.pdf].
 On March 11, 2020, the WHO formally classified the situation as a pandemic [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200311-sitrep-51-covid-19.pdf].
 On April 4, 2020, the WHO reported that the global number of confirmed cases had surpassed one million [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200404-sitrep-75-covid-19.pdf].
-<!--4,135,804 COVID-19 deaths had been reported worldwide as of July 22, 2021 (Figure @fig:csse-deaths).
+<!--4,143,105 COVID-19 deaths had been reported worldwide as of July 23, 2021 (Figure @fig:csse-deaths).
 
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
-](https://github.com/greenelab/covid19-review/raw/5e9f9d60d28ff7d579af9d9b10ff480ab06efdd3/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1} -->
+](https://github.com/greenelab/covid19-review/raw/a73ccf439021ec629827fcc16884747dab6e761d/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1} -->
 
 As international attention remains focused on the ongoing public health crisis, the scientific community has responded by mobilizing resources and turning much of its attention to the virus and disease.
 This rapid influx of information is disseminated by traditional publishing mechanisms, preprint servers, and press releases, which provide a venue for scientists to release findings without undergoing the formal publication process.
@@ -1958,11 +1958,11 @@ However, previous emerging HCoV-related disease threats have been controlled muc
 <!--To Do: Update this figure in line with #736, #962, and 10.3390/ijerph17113973 (which explains why the SARS data don't start until March)-->
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
-4,135,804 COVID-19 deaths had been reported worldwide as of July 22, 2021 (Figure @fig:csse-deaths).
+4,143,105 COVID-19 deaths had been reported worldwide as of July 23, 2021 (Figure @fig:csse-deaths).
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
 Previous emergent viral threats had a much lower death toll that was not felt on a such a global scale, and in most cases were controlled much more quickly.
 For example, SARS-CoV-1 was controlled within 9 months of its appearance, whereas SARS-CoV-2 remains a significant global threat almost 1.5 years later.
-](https://github.com/greenelab/covid19-review/raw/5e9f9d60d28ff7d579af9d9b10ff480ab06efdd3/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
+](https://github.com/greenelab/covid19-review/raw/a73ccf439021ec629827fcc16884747dab6e761d/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
 
 SARS-CoV-2's rapid shift from an unknown virus to a significant worldwide threat initially closely paralleled the emergence of _Severe acute respiratory syndrome-related coronavirus_ (SARS-CoV-1), which was responsible for the 2002 SARS epidemic.
 The first documented case of COVID-19 was reported in Wuhan, China in November 2019, and the disease quickly spread worldwide during the early months of 2020.
@@ -2019,7 +2019,7 @@ Of the interventional trials, 98 trials had reported results as of December 31, 
 Recruitment status and trial phase are shown only for interventional trials in which the status or phase is recorded.
 The common interventions are all interventions used in at least ten trials.
 Combinations of interventions, such as Hydroxychloroquine + Azithromycin, are tallied separately from the individual interventions.
-](https://github.com/greenelab/covid19-review/raw/5e9f9d60d28ff7d579af9d9b10ff480ab06efdd3/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/a73ccf439021ec629827fcc16884747dab6e761d/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 The purpose of this review is to provide an evolving resource tracking the status of efforts to repurpose and develop drugs for the treatment of COVID-19.
 We highlight four strategies that provide different paradigms for the identification of potential pharmaceutical treatments.
@@ -2444,12 +2444,12 @@ Prophylactics bolster immunity to prevent an individual from contracting a disea
 While a number of vaccines have recently been developed, approved, or are currently being evaluated by the US Food and Drug Administration and other regional and international bodies, vaccination programs only started being rolled out at the very end of 2020 and beginning of 2021, meaning that treatments that palliate symptoms and prevent the most severe outcomes have been necessary for much of 2020 and will continue to be necessary for the foreseeable future [@individual-vaccines].
 Fortunately, prior developments during other recent pandemics, especially those caused by human coronaviruses (HCoV), have provided a number of hypotheses guiding a biomedical approach to the novel coronavirus infection.
 
-4,135,804 COVID-19 deaths had been reported worldwide as of July 22, 2021 (Figure @fig:csse-deaths).
+4,143,105 COVID-19 deaths had been reported worldwide as of July 23, 2021 (Figure @fig:csse-deaths).
 
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
-](https://github.com/greenelab/covid19-review/raw/5e9f9d60d28ff7d579af9d9b10ff480ab06efdd3/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
+](https://github.com/greenelab/covid19-review/raw/a73ccf439021ec629827fcc16884747dab6e761d/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
 
 #### Lessons from Prior HCoV Outbreaks
 
@@ -2516,7 +2516,7 @@ Recruitment status and trial phase are shown only for interventional trials in w
 The common interventions are all interventions used in at least ten trials.
 Combinations of interventions, such as Hydroxychloroquine + Azithromycin, are tallied separately from the individual interventions.
 Trials data are from the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709].
-](https://github.com/greenelab/covid19-review/raw/5e9f9d60d28ff7d579af9d9b10ff480ab06efdd3/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/a73ccf439021ec629827fcc16884747dab6e761d/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 ### Small Molecule Drugs
 
@@ -4953,7 +4953,7 @@ Trials that recruit across multiple countries do appear to broaden geographic re
 The density of clinical trials is reported at the country level.
 As of December 31, 2020, there are 6,987 trials in the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709], of which 3,962 are interventional.
 The top figure demonstrates the density of interventional trials recruiting only from a singular country, while the bottom shows the distribution of recruitment for interventional trials that involve more than one country.
-](https://github.com/greenelab/covid19-review/raw/5e9f9d60d28ff7d579af9d9b10ff480ab06efdd3/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
+](https://github.com/greenelab/covid19-review/raw/a73ccf439021ec629827fcc16884747dab6e761d/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
 
 A few different concerns arise from this skewed geographic representation in clinical trial recruitment.
 First, treatments such as remdesivir that are promising but primarily available to clinical trial participants are unlikely to be accessible by people in many countries.
@@ -5117,11 +5117,11 @@ Over the longer term, this approach and others may lead to the development of no
 
 ### ABSTRACT
 
-The COVID-19 pandemic catalyzed the rapid dissemination of papers and preprints related to the disease.
+The COVID-19 pandemic catalyzed the rapid dissemination of papers and preprints investigating the disease and its associated virus, SARS-CoV-2.
 The multifaceted nature of COVID-19 demands a multidisciplinary approach, but the urgency of the crisis combined with the need for social distancing measures presents unique challenges to collaborative science.
 We sought to apply a massive online open publishing approach to this problem using Manubot.
-Through GitHub, collaborators contributed summaries and critiques of literature via issue templates and contributed literature summaries to a review manuscript as pull requests.
-Manubot rendered the manuscript content into PDF, HTML, and DOCX outputs, and an up-to-date version was always available online.
+Through GitHub, collaborators added summaries and critiques of literature via issue templates and contributed literature summaries to a review manuscript as pull requests.
+Manubot rendered the manuscript content into PDF, HTML, and DOCX outputs, and a version available online was immediately updated upon the integration of new content.
 
 This particular project presented unique challenges that necessitated additions to Manubot.
 Some challenges related to the technical barrier to entry, as most contributors were from biomedical backgrounds and had limited experience with git.
@@ -5131,10 +5131,10 @@ The other category of challenges arose because of the extreme volume and velocit
 We adapted Manubot's continuous integration workflow to retrieve up-to-date data from online sources nightly.
 Additionally, we integrated scite, a tool for checking the status of references, including retractions, into the HTML build to simplify the process of monitoring changes to publications after their release. 
 
-Through this effort, we organized over 50 scientists from a range of backgrounds who evaluated over 1,000 sources and authored seven literature reviews.
+Through this effort, we organized over 50 scientists from a range of backgrounds who evaluated over 1,000 sources and developed seven literature reviews.
 This project illustrates that Manubot is an adaptable workflow that can handle even an extreme volume and rate of information and that its back-end technical complexity does not prohibit the inclusion of non-technical contributors.
 While many efforts from the computational community have focused on mining COVID-19 literature, this implementation illustrates the power of open publishing to organize people to aggregate and disseminate information in response to an evolving crisis.
-Applying this approach allowed us to develop a community that occupies a unique niche in the COVID-19 research space.
+Applying this approach allowed us to develop a community that occupies a unique niche within the COVID-19 research space.
 
 
 
@@ -5146,14 +5146,14 @@ COVID-19, open publishing, open-source, data integration, manubot
 
 Coronavirus Disease 2019 (COVID-19) has shaped the years 2020 and 2021 by causing a worldwide public health crisis.
 The scientific community has responded by turning significant attention and resources towards COVID-19 and the associated virus, SARS-CoV-2.
-The result has been the rapid release of data, results, and publications related to COVID-19 at a scale never previously seen.
+The result has been the rapid release of data, results, and publications at a scale never previously seen for a single topic.
 Over 20,000 articles about COVID-19 were released in the first four months of the pandemic [@doi:10.1053/j.ackd.2020.08.003], and the velocity and volume of information being released led to the pandemic being termed an "infodemic" as well [@doi:10.1053/j.ackd.2020.08.003; @doi:10/ggpx67].
 While this influx of information is likely evidence of important work towards understanding the virus and the disease, there are also downsides to the availability of too much information.
-The downsides of "excessive publication" have been recognized for over forty years, as it was raised as a major concern about the move towards electronic, rather than print, publishing at the turn of the millennium [@doi:10/d3bmnv].
+The downsides of "excessive publication" have been recognized for over forty years, and it was raised as a major concern about the move towards electronic, rather than print, publishing at the turn of the millennium [@doi:10/d3bmnv].
 The contents of the COVID-19 Open Research Dataset (CORD-19) [@arxiv:2004.10706], which was developed in part to assist in efforts to train machine learning algorithms on COVID-19-related text, illustrates the volume of scholarly literature relevant to understanding this virus (Figure @fig:cord19-growth).
-This resource was developed by querying several sources for terms related to SARS-CoV-2 and COVID-19, as well as the coronaviruses SARS-CoV-1 and MERS-CoV and their associated viruses [@arxiv:2004.10706].
+This resource was developed by querying several sources for terms related to SARS-CoV-2 and COVID-19, as well as the coronaviruses SARS-CoV-1 and MERS-CoV and their associated diseases [@arxiv:2004.10706].
 CORD-19 contained 709156 manuscripts as of 2021-07-19.
-Additional curation by CoronaCentral [@doi:10.1101/2020.12.21.423860] has produced, at present, a set of over 150,000 publications particularly relevant to COVID-19 and these closely related viruses.
+Additional curation by CoronaCentral [@doi:10.1101/2020.12.21.423860] has produced, at present, a set of over 180,000 publications particularly relevant to COVID-19 and these closely related viruses.
 Thus, any effort to synthesize, summarize, and contextualize COVID-19 research will face a vast corpus of potentially relevant material.
 
 **Change over time in the number of publications in the CORD-19 dataset.**
@@ -5165,8 +5165,8 @@ While not all of the manuscripts are focused explicitly on SARS-CoV-2 or COVID-1
 ](https://github.com/greenelab/covid19-review/raw/cfcbda00be4158f7fd6235b4cb3ceafbd4fd28d3/CORD-19/cord19-growth.png "CORD-19 dataset growth"){#fig:cord19-growth secno=1}
 
 With information being produced rapidly through both traditional publishing venues and preprint servers, some papers that are published face scrutiny after their initial release.
-Concerns have been raised that the number of COVID-19 papers being retracted may be higher, or potentially much higher, than is typical, although a thorough investigation of this question will not be possible until more time has elapsed [@doi:10.1080/08989621.2020.1782203; @doi:10.1080/08989621.2020.1793675].
-Other papers are updated with corrections or expressions of concern [@doi:10.1080/08989621.2020.1793675;url:https://retractionwatch.com/retracted-coronavirus-covid-19-papers].
+Concerns have been raised that the number of COVID-19 papers being retracted may be higher, and potentially much higher, than is typical, although a thorough investigation of this question will not be possible until more time has elapsed [@doi:10.1080/08989621.2020.1782203; @doi:10.1080/08989621.2020.1793675].
+Other papers are updated with corrections or expressions of concern [@doi:10.1080/08989621.2020.1793675;@url:https://retractionwatch.com/retracted-coronavirus-covid-19-papers].
 These include both preprints and papers published in more traditional venues [@url:https://retractionwatch.com/retracted-coronavirus-covid-19-papers; @url:https://asapbio.org/preprints-and-covid-19].
 Preprints provide a venue for scientists to release findings rapidly but have both the advantage and disadvantage of making research available before it has undergone the peer review process.
 However, some traditional publishing venues have also fast-tracked COVID-19 through peer review, leading to questions about whether this research is being held to the usual standards for publication [@doi:10.1111/bioe.12772].
@@ -5175,7 +5175,7 @@ Therefore, monitoring the COVID-19 literature requires not only digesting the hi
 Because of the fast-moving nature of the topic, many efforts to summarize and synthesize the COVID-19 literature have been undertaken. 
 These efforts include newsletters [@url:https://depts.washington.edu/pandemicalliance/covid-19-literature-report/latest-reports/; @doi:10.1080/10872981.2020.1770562], web portals (such as [@url:https://outbreaksci.prereview.org; @doi:10.1126/science.abc7839] or the now-defunct http://covidpreprints.com/, which was described in [@url:https://asapbio.org/preprints-and-covid-19]), comments on preprint servers [@doi:10.1038/s41577-020-0319-0] (see <https://disqus.com/by/sinaiimmunologyreviewproject>), and even a journal [@url:https://rapidreviewscovid19.mitpress.mit.edu/].
 However, the explosive rate of publication presents challenges for such efforts, many of which are no longer publishing summaries.
-Similarly, many literature reviews have been written on the available COVID-19 literature [@doi:10.1016/j.molmed.2020.02.008; @doi:10.1016/j.immuni.2020.05.002; @doi:10.1126/scitranslmed.abc1931; @doi:10.1016/j.immuni.2020.05.002; @doi:10.1001/jama.2020.6019; @doi:10.1038/d41591-020-00026-w; @doi:10.1001/jama.2020.12839].
+Similarly, many literature reviews have been written on the available COVID-19 literature [@doi:10.1016/j.molmed.2020.02.008; @doi:10.1016/j.immuni.2020.05.002; @doi:10.1126/scitranslmed.abc1931; @doi:10.1001/jama.2020.6019; @doi:10.1038/d41591-020-00026-w; @doi:10.1001/jama.2020.12839].
 However, static reviews quickly become outdated as new research is released or existing research is retracted or superseded; one example is a review of topics in COVID-19 research including vaccine development [@doi:10.1001/jama.2020.12839].
 This review was published on July 10, 2020, four days before Moderna released the surprisingly promising results of their phase 1 trial [@doi:10.1056/NEJMoa2022483] that changed expectations surrounding vaccines.
 Therefore, the COVID-19 publishing climate presented a challenge where curation of the literature by a diverse group of experts in a format that could respond quickly to high-volume, high-velocity information was desirable.
@@ -5192,10 +5192,10 @@ The synthesis and discussion of the emerging literature by biomedical scientists
 Therefore, we recognized that the problem of synthesizing the COVID-19 literature lent itself well to the Manubot platform, but that the potential technical expertise required to work with Manubot presented a significant technical barrier to domain experts.
 
 Here, we describe efforts to adapt Manubot to handle the extreme case of the COVID-19 infodemic, with the objective of extending manuscript reviewing to develop a centralized platform for summarizing and synthesizing a massive amount of preprints, news stories, journal publications, and data.
-Unlike prior collaborations built on Manubot, here most contributors came from a biological or medical background.
+Unlike prior collaborations built on Manubot, here most contributors came from a biological science or medical background.
 The members of the COVID-19 Review Consortium worked to consolidate information about the virus in the context of related viruses and to synthesize rapidly emerging literature centered on the diagnosis and treatment of COVID-19.
 Manubot provided the infrastructure to manage contributions from the community and create a living, scholarly document that integrated data from multiple sources to respond to the COVID-19 crisis in real time.
-Its back-end allowed biomedical scientists to sort and distill informative content out of the overwhelming flood of information [@doi:10.1038/s42254-020-0175-7], in order to provide a resource that would be useful to the broader scientific community.
+Its back-end allowed biomedical scientists to sort and distill informative content out of the overwhelming flood of information [@doi:10.1038/s42254-020-0175-7] in order to provide a resource that would be useful to the broader scientific community.
 This case study demonstrates the value of open collaborative writing tools such as Manubot to emerging challenges.
 Because it is open source software, we were able to adapt and customize Manubot to flexibly meet the needs of COVID-19 review.
 Recording the evolution of information over time and assembling a resource that auto-updated in response to the evolving crisis revealed the particular value that Manubot holds for managing rapid changes in scientific thought.
@@ -5206,7 +5206,7 @@ Recording the evolution of information over time and assembling a resource that 
 
 A preliminary requirement for this undertaking was to establish Manubot as a platform accessible to researchers with limited experience working with git, as is common in biology and medicine, where version control is not typically emphasized [@doi:10.1109/SE4Science.2017.11; @doi:10.1177/2515245918754826; @doi:10.1186/1751-0473-8-7].
 Contributors were recruited by word of mouth and on Twitter.
-We sought out opportunities to integrate existing efforts to train early-career researchers (ECRs).
+We sought out opportunities to integrate existing efforts to train early-career researchers.
 We invited potential collaborators to contribute a short introduction on a GitHub issue in order to collect information about who was involved and provide an introduction to working with GitHub issues.
 Interested participants were encouraged to contribute in several ways.
 One option was to catalog articles of interest as issues in the GitHub repository.
@@ -5222,7 +5222,7 @@ We also used the Gitter chat platform (<https://www.gitter.im>) to promote infor
 #### Utilization and Expansion of Manubot
 
 Applying Manubot's existing capabilities allowed us to confront several challenges common in large-scale collaborations, such as maintaining a record of contributions that allowed us to allocate credit appropriately or to contact the original author if questions arose.
-Additionally, an up-to-date version of the content was available at all times online at https://greenelab.github.io/covid19-review/.
+Additionally, an up-to-date version of the content was available at all times online at <https://greenelab.github.io/covid19-review/>.
 This approach also allowed us to minimize the demand on authors to curate and sync bibliographic resources.
 Manubot provides the functionality to create a bibliography using digital object identifiers (DOIs), website URLs, or other identifiers such as PubMed identifiers and arXiv IDs.
 The author can insert a citation in-line using a format such as `[@doi:10.1371/journal.pcbi.1007128]`.
@@ -5245,12 +5245,12 @@ The GitHub Actions  workflow file is available from <https://github.com/greenela
 The Python package versions are available in <https://github.com/greenelab/covid19-review/blob/external-resources/environment.yml>.<!-- To Do: These files are archived with [Zenodo?](...). -->
 
 Another issue that emerged was the need for a standardized way to cite clinical trials.
-Clinical trials that are registered with https://clinicaltrials.gov receive a unique clinical trial identifier, or "NCT ID."
+Clinical trials that are registered with <https://clinicaltrials.gov> receive a unique clinical trial identifier, or "NCT ID."
 Because clinical trials are registered long before results are available in manuscript form, it was important to this project to be able to refer to the clinical trial identifiers associated with a large number of relevant trials.
 Manubot uses the Zotero translation server (<https://www.zotero.org> and <https://github.com/zotero/translation-server>) to extract metadata for some types of citations.
 However, Zotero did not support clinical trial identifiers and could not extract relevant metadata from the clinical trial's URL.
 In order to enable Manubot to pull metadata associated with clinical trials based on their identifiers, we added Zotero support for these identifiers.
-Other researchers identified the same need [@url:https://forums.zotero.org/discussion/74933/import-from-clinical-trials-registry; @url:https://forums.zotero.org/discussion/77721/add-reference-from-clinical-trials-org].
+Other researchers had identified the same need [@url:https://forums.zotero.org/discussion/74933/import-from-clinical-trials-registry; @url:https://forums.zotero.org/discussion/77721/add-reference-from-clinical-trials-org].
 To implement this feature, we query clinicaltrials.gov to retrieve XML metadata associated with each identifier using JavaScript [@url:https://github.com/zotero/translators/pull/2153].
 Then, when Manubot requests clinical trial metadata from the Zotero translation server, it receives a more informative response that includes the trial sponsors, responsible investigators, title, and summary.
 We extended Manubot to support directly citing any of the hundreds of Compact Uniform Resource Identifiers registered with <https://identifiers.org/>, including the `clinicaltrials` identifier.
@@ -5268,7 +5268,7 @@ Because most collaborators were writing and editing text through the GitHub webs
 We integrated an existing Pandoc (<https://pandoc.org/>) spell-check extension with AppVeyor CI to automatically post spelling errors as comments in a GitHub pull request.
 The comment reported both unique misspelled words and all locations in which those spelling errors were detected.
 Project maintainers created and updated a custom dictionary to ignore over 1,500 scientific and technical terms that are not common English words.
-Spell-checking also helped standardize the writing style across dozens of authors by detecting British English spelling.
+Spell-checking also helped standardize the writing style across dozens of authors by detecting features such as British versus American English spellings.
 The actual spell-checking was implemented using GNU Aspell (<http://aspell.net/>) and the Pandoc spellcheck filter [@url:https://github.com/pandoc/lua-filters/tree/master/spellcheck].
 The filter enables checking only the manuscript text, ignoring URLs and formatting text.
 <!-- To Do: Acknowledge David Nicholson for the suggestion and edit to report locations of spelling errors -->
@@ -5280,7 +5280,7 @@ This development was necessary because the manuscript grew so large that it need
 When exporting an individual section, Manubot customizes the manuscript title, authors, and author contributions to pertain to that specific section.
 In addition, we expanded the export formats to include partial LaTeX support via Pandoc.
 Pandoc converts the markdown content for an individual section to TeX and the Citation Style Language JSON, which contains reference metadata generated by Manubot, to BibTeX.
-We customized a LaTeX template and reformat the Manubot metadata, such as authors and their affiliations, for the LaTeX template.
+We customized a LaTeX template and reformatted the Manubot metadata, such as authors and their affiliations, for the LaTeX template.
 The exported TeX file requires manual refinement but contains all manuscript content and most of the formatting.
 Because LaTeX is required for manuscript submission in many fields, automating most of the process of converting markdown to a submission-friendly format expands Manubot's potential user base.
 Manubot users can write in the simple markdown format, render the manuscript in continuously-updated PDF or interactive HTML formats, and export the manuscript in DOCX or TeX and BibTeX for submission to traditional publishers, taking full advantage of Pandoc's powerful document conversion capabilities and Manubot's automation.
@@ -5292,7 +5292,7 @@ Manubot users can write in the simple markdown format, render the manuscript in 
 ![
 **Project growth over time.**
 The number of authors, word count, and number of references have all grown dramatically from when the project began on March 20, 2020.
-As of April 30, 2021, there are 50 authors, 1,428 references, and 131,949 words in the documents that make up the project.
+As of April 30, 2021, there were 50 authors, 1,428 references, and 131,949 words in the documents that make up the project.
 For a period of time in summer 2020, a large appendix was erroneously duplicated, leading to the apparent spike that was later removed.
 ]((images/manuscript_stats.png)("Project stats over time"){#fig:projectstats secno=1}
 
@@ -5319,11 +5319,11 @@ When we first produced this figure on July 7, 2020, there were 3,733 clinical tr
 As of December 31, 2020, it contains 6,987.
 We were also able to easily reconfigure the figure prior to journal submission to emphasize interventional trials based on the recommendation of a collaborator who is a clinician.
 This figure is included in an analysis of pharmaceutical development efforts during COVID-19 [@individual-pharmaceuticals].
-]((images/ebmdatalab-trials-original.png)https://github.com/greenelab/covid19-review/raw/5e9f9d60d28ff7d579af9d9b10ff480ab06efdd3/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+]((images/ebmdatalab-trials-original.png)https://github.com/greenelab/covid19-review/raw/a73ccf439021ec629827fcc16884747dab6e761d/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 The seven manuscripts produced by the consortium (outside of this one) will be submitted to _mSystems_ as part of a special issue that is providing support for evolving reviews so that they can continue to be updated as more information becomes available.
 This approach allows for a version of record to be maintained alongside the most recent developments, which are always available through GitHub.
-Currently, three manuscripts have been submitted, with one accepted for publication [@individual-nutraceuticals] and two under revision [@individual-pathogenesis; @individual-pharmaceuticals].
+The first of these manuscripts was recently published [@individual-nutraceuticals].
 The remaining four manuscripts are in preparation.
 These manuscripts cover a wide range of topics including the fundamental biology of SARS-CoV-2 (pathogenesis [@individual-pathogenesis] and evolution [@individual-evolution]), biomedical advances in responding to the virus and COVID-19 (pharmaceutical therapeutics [@individual-pharmaceuticals], nutraceutical therapeutics [@individual-nutraceuticals], vaccines [@individual-vaccines], and diagnostic technologies [@individual-diagnostics]), and biological and social factors influencing disease transmission and outcomes [@individual-inequality].
 To date, 50 authors are associated with the consortium (Figure @fig:projectstats).<!--To Do: break down by undergrad, grad/med student, post-doc, jr faculty?-->
@@ -5353,7 +5353,7 @@ In addition, Manubot now supports citing clinical trial identifiers such as `cli
 
 ### CONCLUSION
 
-The current project was managed through GitHub in the repository greenelab/covid19-review using Manubot [@doi:10.1371/journal.pcbi.1007128] to continuously generate a version of the manuscript online [@url:https://greenelab.github.io/covid19-review].
+The current project was managed through GitHub in the repository greenelab/covid19-review using Manubot [@doi:10.1371/journal.pcbi.1007128] to continuously generate a version of the manuscript online (<https://greenelab.github.io/covid19-review>).
 The Manubot framework facilitated a massive collaborative review on an urgent topic.
 This project demonstrates that Manubot can be applied to projects where not all collaborators have expertise or even experience working with version control pipelines.
 Through the development of cyberinfrastructure both for training novice users to interact with GitHub and simplifying the workflows to allow them to receive many of the benefits of What You See Is What You Get platforms such as Google Docs, we were able to adapt a powerful open publishing tool to harness the domain expertise of a large group of non-technical users and to respond to the flood of COVID-19 publications.
@@ -5368,18 +5368,18 @@ In our case, where the full project is nearly 100,000 words, this allows individ
 Finally, the preliminary addition of LaTeX output is useful for researchers from computational fields who submit papers in TeX format and removes the step of reformatting markdown prior to submission. 
 
 Working with biomedical scientists not only addressed the immediate goal of applying Manubot to the challenges of COVID-19, but also provided a second but equally important outcome.
-Interested participants came from a wide range of backgrounds and many of the responses to the introductory issue emphasized a willingness to learn about a new topic, as well as an interest in COVID-19 and SARS-CoV-2 (Figure @fig:wordcloud).
+Interested participants came from a wide range of backgrounds, and many of the responses to the introductory issue emphasized a willingness to learn about a new topic, as well as an interest in COVID-19 and SARS-CoV-2 (Figure @fig:wordcloud).
 "Biology" was one of the most commonly emphasized interests, with almost double the number of uses as "computational."
 This pattern suggests that, as anticipated, we primarily recruited researchers from traditional biological backgrounds.
 The COVID-19 Review Consortium provided a platform for researchers to engage in scientific investigation during the initial phase of the COVID-19 pandemic in 2020 at a time when many biological scientists were unable to access their research spaces.
 In turn, by seeking to adapt Manubot to allow for broader participation in open publishing from fields where computational training in tools like version control is uncommon, we made a number of improvements that are expected to increase its appeal to researchers from all backgrounds.
-Manubot provided a way for all contributors, including ECRs, to join a massive collaborative project, demonstrating their individual contributions to the larger work and gaining experience with version control.
+Manubot provided a way for all contributors, including early-career researchers, to join a massive collaborative project, demonstrating their individual contributions to the larger work and gaining experience with version control.
 This project shows that massive online open publishing efforts can indeed advance scholarship through inclusion [@doi:10.5334/kula.63], including during the extreme challenges presented by the COVID-19 pandemic.
 
 ![
 **Visualization of collaborator interests as expressed in the introductory issue.**
 Potential collaborators were invited to practice commenting on an issue by sharing their academic backgrounds and interest in the project.
-These responses were visualized using wordcloud2 in R (https://CRAN.R-project.org/package=wordcloud2).
+These responses were visualized using wordcloud2 in R (<https://CRAN.R-project.org/package=wordcloud2>).
 Common responses included terms like contribute (44 uses), biology (42 uses), data (38 uses), help (36 uses), learn (32 uses), experience (31 uses), and student (25 uses).
 ](images/interests.png){#fig:wordcloud secno=1}
 
@@ -5528,7 +5528,7 @@ We are grateful to the following contributors for reviewing pieces of the text: 
 
 <!-- Individual sections that have been published as preprints or journal manuscripts -->
 [@individual-pathogenesis]: arxiv:2102.01521
-[@individual-nutraceuticals]: arxiv:2102.02250
+[@individual-nutraceuticals]: doi:10.1128/mSystems.00122-21
 [@individual-pharmaceuticals]: arxiv:2103.02723
 
 
