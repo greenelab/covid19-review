@@ -5,6 +5,7 @@ import os
 import pandas as pd
 import matplotlib
 import matplotlib.pyplot as plt
+import seaborn as sns
 
 def convert_date(csse_date):
     '''Reformat CSSE style dates (MM/DD/YY) to Month DD, YYYY.
@@ -83,16 +84,24 @@ def main(args):
     daily_cases = daily_totals[["SARS Cases", "COVID-19 Cases"]]
     daily_deaths = daily_totals[["SARS Deaths", "COVID-19 Deaths"]]
 
+    # Set plot parameters
+    title_size = 40
+    legend_size = 25
+    axis_size = 20
+    tic_label_size = 15
+
     # Plot the daily totals
+    sns.set_style("ticks")
     fig, axes = plt.subplots(nrows=2, ncols=2, figsize=(30, 20), constrained_layout=True)
     axes_list = axes.ravel()
 
     # Panel 1: Daily cases
     ax = daily_cases.plot(kind='line', linewidth=2, ax=axes_list[0])
-    ax.set_xlabel('Days from First Known Case')
-    ax.set_ylabel('Global Cases')
-    ax.set_title("Cumulative Global Cases", fontdict = {'fontsize': 20})
-    ax.legend(loc='center right')
+    ax.set_xlabel('Days from First Known Case', size = axis_size)
+    ax.set_ylabel('Global Cases', size = axis_size)
+    ax.set_title("Cumulative Global Cases", fontdict = {'fontsize': title_size})
+    ax.tick_params(axis="both", labelsize=tic_label_size)
+    ax.legend(loc='center right', fontsize = legend_size)
     ax.get_yaxis().set_major_formatter(matplotlib.ticker.FuncFormatter(lambda x, p: format(int(x), ',')))
     ax.set_ylim(bottom=0)
     ax.spines['top'].set_visible(False)
@@ -102,10 +111,11 @@ def main(args):
 
     # Panel 3: Daily Deaths
     ax = daily_deaths.plot(kind='line', linewidth=2, ax=axes_list[1])
-    ax.set_xlabel('Days from First Known Case')
-    ax.set_ylabel('Global Deaths')
-    ax.set_title("Cumulative Global Deaths", fontdict = {'fontsize': 20})
-    ax.legend(loc='center right')
+    ax.set_xlabel('Days from First Known Case', size = axis_size)
+    ax.set_ylabel('Global Deaths', size = axis_size)
+    ax.set_title("Cumulative Global Deaths", fontdict = {'fontsize': title_size})
+    ax.tick_params(axis="both", labelsize=tic_label_size)
+    ax.legend(loc='center right', fontsize = legend_size)
     ax.get_yaxis().set_major_formatter(matplotlib.ticker.FuncFormatter(lambda x, p: format(int(x), ',')))
     ax.set_ylim(bottom=0)
     ax.spines['top'].set_visible(False)
@@ -115,10 +125,11 @@ def main(args):
 
     # Panel 2: Zoomed in view of SARS cases
     ax = daily_cases.plot(kind='line', linewidth=2, ax=axes_list[2])
-    ax.set_xlabel('Days from First Known Case')
-    ax.set_ylabel('Global Cases')
-    ax.set_title("Cumulative Global Cases (Zoomed on SARS)", fontdict = {'fontsize': 20})
-    ax.legend(loc='center right')
+    ax.set_xlabel('Days from First Known Case', size = axis_size)
+    ax.set_ylabel('Global Cases', size = axis_size)
+    ax.set_title("Cumulative Global Cases (Zoomed)", fontdict = {'fontsize': title_size})
+    ax.tick_params(axis="both", labelsize=tic_label_size)
+    ax.legend(loc='center right', fontsize = legend_size)
     ax.get_yaxis().set_major_formatter(matplotlib.ticker.FuncFormatter(lambda x, p: format(int(x), ',')))
     ax.set_ylim(bottom=0, top=10000)
     ax.spines['top'].set_visible(False)
@@ -128,10 +139,11 @@ def main(args):
 
     # Panel 4: Zoomed in view of SARS deaths
     ax = daily_deaths.plot(kind='line', linewidth=2, ax=axes_list[3])
-    ax.set_xlabel('Days from First Known Case')
-    ax.set_ylabel('Global Deaths')
-    ax.set_title("Cumulative Global Deaths (Zoomed on SARS)", fontdict = {'fontsize': 20})
-    ax.legend(loc='center right')
+    ax.set_xlabel('Days from First Known Case', size = axis_size)
+    ax.set_ylabel('Global Deaths', size = axis_size)
+    ax.set_title("Cumulative Global Deaths (Zoomed)", fontdict = {'fontsize': title_size})
+    ax.tick_params(axis="both", labelsize=tic_label_size)
+    ax.legend(loc='center right', fontsize = legend_size)
     ax.get_yaxis().set_major_formatter(matplotlib.ticker.FuncFormatter(lambda x, p: format(int(x), ',')))
     ax.set_ylim(bottom=0, top=1000)
     ax.spines['top'].set_visible(False)
