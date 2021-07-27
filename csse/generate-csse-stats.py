@@ -23,7 +23,9 @@ def main(args):
 
     if('CSSE_COMMIT' in os.environ):
         csse_stats['csse_commit'] = os.environ['CSSE_COMMIT']
-    deaths_df = pd.read_csv(args.input_2019_csv)
+    deaths_df = pd.read_csv(args.input_2019_deaths_csv)
+    cases_df = pd.read_csv(args.input_2019_cases_csv)
+
     # The last column is the most recent date with data
     latest_deaths = deaths_df[deaths_df.columns[-1]]
     csse_stats['csse_date_pretty'] = convert_date(latest_deaths.name)
@@ -33,33 +35,73 @@ def main(args):
     deaths_df = deaths_df.drop(columns=['Province/State', 'Country/Region', 'Lat', 'Long'])
     cumulative_deaths = deaths_df.sum(axis=0)
 
+    latest_cases = cases_df[cases_df.columns[-1]]
+    total_cases = latest_cases.sum()
+    csse_stats['csse_cases'] = f'{total_cases:,}'
+
+    cases_df = cases_df.drop(columns=['Province/State', 'Country/Region', 'Lat', 'Long'])
+    cumulative_cases = cases_df.sum(axis=0)
+
     cumulative_deaths.index = pd.to_datetime(cumulative_deaths.index)
+    cumulative_cases.index = pd.to_datetime(cumulative_cases.index)
 
     # Extract SARS (2002) statistics from WHO-scraped data on GitHub for comparison
     # Use date of first SARS case from WHO timeline to get days from first known case
     sars_df = pd.read_csv(args.input_2002_csv)
     sars_emergence_date = datetime.datetime.strptime("2002-11-16", '%Y-%m-%d')
     sars_daily = sars_df.groupby(by="Date").sum()
-    sars_daily["Days"] = pd.DatetimeIndex(sars_daily.index) - sars_emergence_date
-    sars_daily.rename(columns={"Number of deaths": "SARS Deaths"}, inplace=True)
+    sars_daily.index = pd.DatetimeIndex(sars_daily.index)
+    sars_daily["Days"] = (sars_daily.index - sars_emergence_date).days
+    sars_daily = sars_daily.rename({"Cumulative number of case(s)": "SARS Cases",
+                       "Number of deaths": "SARS Deaths"}, axis=1)
+    sars_daily = sars_daily.drop(["Number recovered"], axis=1)
+
+    ## Fill in missing dates
+    missing_dates = pd.Index(pd.date_range(start=sars_daily.index.min(),end=sars_daily.index.max()).\
+        difference(pd.DatetimeIndex(sars_daily.index)))
+    missing_df = pd.DataFrame(index=missing_dates, columns=sars_daily.columns)
+    missing_df["Days"] = (missing_df.index - sars_emergence_date).days
+    sars_daily = pd.concat([sars_daily, missing_df]).sort_index()
+    sars_daily = sars_daily.astype(pd.Int64Dtype())
+    sars_daily.interpolate(method="ffill", inplace=True)
 
     # Adjust COVID-19 data to use days since first known case instead of date
     # Date from https://www.businessinsider.com/coronavirus-patients-zero-contracted-case-november-2020-3
     covid_daily_dict = dict()
     covid_emergence_date = datetime.datetime.strptime("2019-11-17", '%Y-%m-%d')
-    covid_daily_dict["Days"] = cumulative_deaths.index - covid_emergence_date
+    covid_daily_dict["Days"] = (cumulative_deaths.index - covid_emergence_date).days
     covid_daily_dict["COVID-19 Deaths"] = cumulative_deaths.values
+    covid_daily_dict["COVID-19 Cases"] = cumulative_cases.values
     covid_daily = pd.DataFrame(covid_daily_dict)
 
     # Combine SARS and COVID-19 data in a single dataframe indexed by days from first known case
     daily_totals = pd.merge(left=covid_daily, right=sars_daily, how='left', on=["Days"])
-    daily_totals = daily_totals.drop(["Cumulative number of case(s)", "Number recovered"], axis=1)
     daily_totals['Days'] = daily_totals['Days'].astype(str).map(lambda x: x[:-5])
     daily_totals = daily_totals.set_index("Days")
 
+    # Split daily_totals into cases and deaths to simplify plotting
+    daily_cases = daily_totals[["SARS Cases", "COVID-19 Cases"]]
+    daily_deaths = daily_totals[["SARS Deaths", "COVID-19 Deaths"]]
+
     # Plot the daily totals
-    fig, axes = plt.subplots(nrows=2, ncols=1, figsize=(20, 12), constrained_layout=True)
-    ax = daily_totals.plot(kind='line', linewidth=2, ax=axes[0])
+    fig, axes = plt.subplots(nrows=2, ncols=2, figsize=(30, 20), constrained_layout=True)
+    axes_list = axes.ravel()
+
+    # Panel 1: Daily cases
+    ax = daily_cases.plot(kind='line', linewidth=2, ax=axes_list[0])
+    ax.set_xlabel('Days from First Known Case')
+    ax.set_ylabel('Global Cases')
+    ax.set_title("Cumulative Global Cases", fontdict = {'fontsize': 20})
+    ax.legend(loc='center right')
+    ax.get_yaxis().set_major_formatter(matplotlib.ticker.FuncFormatter(lambda x, p: format(int(x), ',')))
+    ax.set_ylim(bottom=0)
+    ax.spines['top'].set_visible(False)
+    ax.spines['right'].set_visible(False)
+    ax.minorticks_off()
+    ax.grid(color="lightgray")
+
+    # Panel 3: Daily Deaths
+    ax = daily_deaths.plot(kind='line', linewidth=2, ax=axes_list[1])
     ax.set_xlabel('Days from First Known Case')
     ax.set_ylabel('Global Deaths')
     ax.set_title("Cumulative Global Deaths", fontdict = {'fontsize': 20})
@@ -71,8 +113,21 @@ def main(args):
     ax.minorticks_off()
     ax.grid(color="lightgray")
 
-    # Plot a zoomed in view of SARS outbreak
-    ax = daily_totals.plot(kind='line', linewidth=2, ax=axes[1])
+    # Panel 2: Zoomed in view of SARS cases
+    ax = daily_cases.plot(kind='line', linewidth=2, ax=axes_list[2])
+    ax.set_xlabel('Days from First Known Case')
+    ax.set_ylabel('Global Cases')
+    ax.set_title("Cumulative Global Cases (Zoomed on SARS)", fontdict = {'fontsize': 20})
+    ax.legend(loc='center right')
+    ax.get_yaxis().set_major_formatter(matplotlib.ticker.FuncFormatter(lambda x, p: format(int(x), ',')))
+    ax.set_ylim(bottom=0, top=10000)
+    ax.spines['top'].set_visible(False)
+    ax.spines['right'].set_visible(False)
+    ax.minorticks_off()
+    ax.grid(color="lightgray")
+
+    # Panel 4: Zoomed in view of SARS deaths
+    ax = daily_deaths.plot(kind='line', linewidth=2, ax=axes_list[3])
     ax.set_xlabel('Days from First Known Case')
     ax.set_ylabel('Global Deaths')
     ax.set_title("Cumulative Global Deaths (Zoomed on SARS)", fontdict = {'fontsize': 20})
@@ -102,8 +157,12 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(
         description=__doc__,
         formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument('input_2019_csv',
+    parser.add_argument('input_2019_deaths_csv',
                         help='Path of the JHU CSSE COVID-19 global deaths ' \
+                        'input file',
+                        type=str)
+    parser.add_argument('input_2019_cases_csv',
+                        help='Path of the JHU CSSE COVID-19 global cases ' \
                         'input file',
                         type=str)
     parser.add_argument('input_2002_csv',
