@@ -883,6 +883,7 @@ commensal
 comorbid
 comorbidities
 comorbidity
+compendia
 conformational
 confounder
 confounders
