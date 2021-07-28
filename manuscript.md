@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2021-07-25'
+date-meta: '2021-07-28'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -70,8 +70,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2021-07-25" />
-  <meta name="citation_publication_date" content="2021-07-25" />
+  <meta name="dc.date" content="2021-07-28" />
+  <meta name="citation_publication_date" content="2021-07-28" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -278,13 +278,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/da732ab2dc8c891aa9751b66457bb01b47ca3b09/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/da732ab2dc8c891aa9751b66457bb01b47ca3b09/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/da732ab2dc8c891aa9751b66457bb01b47ca3b09/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/7c405ebe54abe3cf761e58ed2dd328cafeb88e64/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/7c405ebe54abe3cf761e58ed2dd328cafeb88e64/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/7c405ebe54abe3cf761e58ed2dd328cafeb88e64/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/da732ab2dc8c891aa9751b66457bb01b47ca3b09/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/da732ab2dc8c891aa9751b66457bb01b47ca3b09/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/7c405ebe54abe3cf761e58ed2dd328cafeb88e64/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/7c405ebe54abe3cf761e58ed2dd328cafeb88e64/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -306,10 +306,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/da732ab2dc8c891aa9751b66457bb01b47ca3b09/))
+([permalink](https://greenelab.github.io/covid19-review/v/7c405ebe54abe3cf761e58ed2dd328cafeb88e64/))
 was automatically generated
-from [greenelab/covid19-review@da732ab](https://github.com/greenelab/covid19-review/tree/da732ab2dc8c891aa9751b66457bb01b47ca3b09)
-on July 25, 2021.
+from [greenelab/covid19-review@7c405eb](https://github.com/greenelab/covid19-review/tree/7c405ebe54abe3cf761e58ed2dd328cafeb88e64)
+on July 28, 2021.
 Snapshots of individual sections are available as preprints [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals].
 </em></small>
 
@@ -764,12 +764,12 @@ Most of these cases were in China, but one to two exported cases had also been i
 One week later, 4,593 confirmed cases had been identified, spanning not only Asia, but also Australia, North America, and Europe [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128-sitrep-8-ncov-cleared.pdf].
 On March 11, 2020, the WHO formally classified the situation as a pandemic [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200311-sitrep-51-covid-19.pdf].
 On April 4, 2020, the WHO reported that the global number of confirmed cases had surpassed one million [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200404-sitrep-75-covid-19.pdf].
-<!--4,143,105 COVID-19 deaths had been reported worldwide as of July 23, 2021 (Figure @fig:csse-deaths).
+<!--4,167,589 COVID-19 deaths had been reported worldwide as of July 26, 2021 (Figure @fig:csse-deaths).
 
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
-](https://github.com/greenelab/covid19-review/raw/a73ccf439021ec629827fcc16884747dab6e761d/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1} -->
+](https://github.com/greenelab/covid19-review/raw/4ae88a1b5e0cd88c033aaf568220343b5b1e0a71/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1} -->
 
 As international attention remains focused on the ongoing public health crisis, the scientific community has responded by mobilizing resources and turning much of its attention to the virus and disease.
 This rapid influx of information is disseminated by traditional publishing mechanisms, preprint servers, and press releases, which provide a venue for scientists to release findings without undergoing the formal publication process.
@@ -1939,7 +1939,24 @@ Serologic testing combined with PCR testing will be critical to confirming purpo
 
 ### Abstract
 
+After emerging in China in late 2019, the novel _Severe acute respiratory syndrome-like coronavirus 2_ (SARS-CoV-2) spread worldwide and as of early 2021, continues to significantly impact most countries.
+Only a small number of coronaviruses are known to infect humans, and only two are associated with the severe outcomes associated with SARS-CoV-2: _Severe acute respiratory syndrome-related coronavirus_, a closely related species of SARS-CoV-2 that emerged in 2002, and _Middle East respiratory syndrome-related coronavirus_, which emerged in 2012.
+Both of these previous epidemics were controlled fairly rapidly through public health measures.
+However, previous insights into the immune response to coronaviruses gained during the outbreaks of severe acute respiratory syndrome (SARS) and Middle East respiratory syndrome (MERS) have proved beneficial for identifying approaches to treat and prevent novel coronavirus disease 2019 (COVID-19).
+Building on research in these and other diseases, the medical and scientific communities responded rapidly to the COVID-19 crisis and identified a large number of candidate therapeutics.
+The approaches used to identify these candidates have fallen into four main categories: adaptation of approaches used clinically for related diseases or diseases with related pathologies, adaptation based on virological properties, adaptation based on host response, and data-driven identification of candidates based on physical properties or on pharmacological compendia.
+To date, a small number of therapeutics have already been authorized by regulatory agencies such as the Food and Drug Administration (FDA) in the United States, and many other therapeutics remain under investigation.
+The COVID-19 crisis has offered a rare opportunity to collect data on the success of treatments given the high risk of exposure and infection.
+This information can provide insight into the relative success of various methods for identifying candidate therapeutics against an emerging disease.
+
 ### Importance
+
+The COVID-19 pandemic is a rapidly evolving crisis.
+With the worldwide scientific community shifting focus onto the SARS-CoV-2 virus and the disease it causes, a large number of possible pharmaceutical approaches for treatment and prevention have been proposed.
+What is known about each of these potential interventions evolved rapidly throughout 2020 and early 2021.
+This rapidly changing area of research provides important insight into how the ongoing pandemic can be managed and also demonstrates the power of interdisciplinary collaboration to rapidly understand a virus and match its characteristics with existing or novel pharmaceuticals.
+As illustrated by the continued threat of viral epidemics during the current millennium, a rapid and strategic response to emerging viral threats can, has, and is likely to once again in the future save lives.
+In this review, we explore the extent to which the potential of several modes of identifying candidate therapeutics has been borne out during COVID-19.
 
 ### Introduction
 
@@ -1958,11 +1975,11 @@ However, previous emerging HCoV-related disease threats have been controlled muc
 <!--To Do: Update this figure in line with #736, #962, and 10.3390/ijerph17113973 (which explains why the SARS data don't start until March)-->
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
-4,143,105 COVID-19 deaths had been reported worldwide as of July 23, 2021 (Figure @fig:csse-deaths).
+4,167,589 COVID-19 deaths had been reported worldwide as of July 26, 2021 (Figure @fig:csse-deaths).
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
 Previous emergent viral threats had a much lower death toll that was not felt on a such a global scale, and in most cases were controlled much more quickly.
 For example, SARS-CoV-1 was controlled within 9 months of its appearance, whereas SARS-CoV-2 remains a significant global threat almost 1.5 years later.
-](https://github.com/greenelab/covid19-review/raw/a73ccf439021ec629827fcc16884747dab6e761d/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
+](https://github.com/greenelab/covid19-review/raw/4ae88a1b5e0cd88c033aaf568220343b5b1e0a71/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
 
 SARS-CoV-2's rapid shift from an unknown virus to a significant worldwide threat initially closely paralleled the emergence of _Severe acute respiratory syndrome-related coronavirus_ (SARS-CoV-1), which was responsible for the 2002 SARS epidemic.
 The first documented case of COVID-19 was reported in Wuhan, China in November 2019, and the disease quickly spread worldwide during the early months of 2020.
@@ -2019,7 +2036,7 @@ Of the interventional trials, 98 trials had reported results as of December 31, 
 Recruitment status and trial phase are shown only for interventional trials in which the status or phase is recorded.
 The common interventions are all interventions used in at least ten trials.
 Combinations of interventions, such as Hydroxychloroquine + Azithromycin, are tallied separately from the individual interventions.
-](https://github.com/greenelab/covid19-review/raw/a73ccf439021ec629827fcc16884747dab6e761d/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/4ae88a1b5e0cd88c033aaf568220343b5b1e0a71/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 The purpose of this review is to provide an evolving resource tracking the status of efforts to repurpose and develop drugs for the treatment of COVID-19.
 We highlight four strategies that provide different paradigms for the identification of potential pharmaceutical treatments.
@@ -2408,28 +2425,7 @@ However, at present, it is clear that building on a wide range of available info
 This research is likely to provide important information for targeted HCoV and other emerging viral threats in the future.
 
 
-## Identification and Development of Therapeutics for COVID-19
-
-
-### Abstract
-
-After emerging in China in late 2019, the novel _Severe acute respiratory syndrome-like coronavirus 2_ (SARS-CoV-2) spread worldwide and as of early 2021, continues to significantly impact most countries.
-Only a small number of coronaviruses are known to infect humans, and only two are associated with the severe outcomes associated with SARS-CoV-2: _Severe acute respiratory syndrome-related coronavirus_, a closely related species of SARS-CoV-2 that emerged in 2002, and _Middle East respiratory syndrome-related coronavirus_, which emerged in 2012.
-Both of these previous epidemics were controlled fairly rapidly through public health measures, and no vaccines or robust therapeutic interventions were identified.
-However, previous insights into the immune response to coronaviruses gained during the outbreaks of severe acute respiratory syndrome (SARS) and Middle East respiratory syndrome (MERS) have proved beneficial to identifying approaches to the treatment and prophylaxis of novel coronavirus disease 2019 (COVID-19).
-A number of potential therapeutics against SARS-CoV-2 and the resultant COVID-19 illness were rapidly identified, leading to a large number of clinical trials investigating a variety of possible therapeutic approaches being initiated early on in the pandemic.
-As a result, a small number of therapeutics have already been authorized by regulatory agencies such as the Food and Drug Administration (FDA) in the United States, and many other therapeutics remain under investigation.
-Here, we describe a range of approaches for the treatment of COVID-19, along with their proposed mechanisms of action and the current status of clinical investigation into each candidate.
-The status of these investigations will continue to evolve, and this review will be updated as progress is made.
-
-### Importance
-
-The COVID-19 pandemic is a rapidly evolving crisis.
-With the worldwide scientific community shifting focus onto the SARS-CoV-2 virus and the disease it causes, a large number of possible pharmaceutical approaches for treatment and prevention have been proposed.
-What is known about each of these potential interventions evolved rapidly throughout 2020 and early 2021.
-In March 2020, we began monitoring a range of candidates and have continued to update this manuscript as new information has become available.
-Some therapeutics have been supported, others have been revealed to be unlikely to confer any therapeutic benefits, and most require more data before a conclusion can be drawn.
-This rapidly changing area of research provides important insight into how the ongoing pandemic can be managed and also demonstrates the power of interdisciplinary collaboration to rapidly understand a virus and match its characteristics with existing or novel pharmaceuticals.
+## Appendix: Identification and Development of Therapeutics for COVID-19
 
 ### Introduction
 
@@ -2444,12 +2440,12 @@ Prophylactics bolster immunity to prevent an individual from contracting a disea
 While a number of vaccines have recently been developed, approved, or are currently being evaluated by the US Food and Drug Administration and other regional and international bodies, vaccination programs only started being rolled out at the very end of 2020 and beginning of 2021, meaning that treatments that palliate symptoms and prevent the most severe outcomes have been necessary for much of 2020 and will continue to be necessary for the foreseeable future [@individual-vaccines].
 Fortunately, prior developments during other recent pandemics, especially those caused by human coronaviruses (HCoV), have provided a number of hypotheses guiding a biomedical approach to the novel coronavirus infection.
 
-4,143,105 COVID-19 deaths had been reported worldwide as of July 23, 2021 (Figure @fig:csse-deaths).
+4,167,589 COVID-19 deaths had been reported worldwide as of July 26, 2021 (Figure @fig:csse-deaths).
 
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
-](https://github.com/greenelab/covid19-review/raw/a73ccf439021ec629827fcc16884747dab6e761d/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
+](https://github.com/greenelab/covid19-review/raw/4ae88a1b5e0cd88c033aaf568220343b5b1e0a71/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
 
 #### Lessons from Prior HCoV Outbreaks
 
@@ -2516,7 +2512,7 @@ Recruitment status and trial phase are shown only for interventional trials in w
 The common interventions are all interventions used in at least ten trials.
 Combinations of interventions, such as Hydroxychloroquine + Azithromycin, are tallied separately from the individual interventions.
 Trials data are from the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709].
-](https://github.com/greenelab/covid19-review/raw/a73ccf439021ec629827fcc16884747dab6e761d/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/4ae88a1b5e0cd88c033aaf568220343b5b1e0a71/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 ### Small Molecule Drugs
 
@@ -4953,7 +4949,7 @@ Trials that recruit across multiple countries do appear to broaden geographic re
 The density of clinical trials is reported at the country level.
 As of December 31, 2020, there are 6,987 trials in the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709], of which 3,962 are interventional.
 The top figure demonstrates the density of interventional trials recruiting only from a singular country, while the bottom shows the distribution of recruitment for interventional trials that involve more than one country.
-](https://github.com/greenelab/covid19-review/raw/a73ccf439021ec629827fcc16884747dab6e761d/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
+](https://github.com/greenelab/covid19-review/raw/4ae88a1b5e0cd88c033aaf568220343b5b1e0a71/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
 
 A few different concerns arise from this skewed geographic representation in clinical trial recruitment.
 First, treatments such as remdesivir that are promising but primarily available to clinical trial participants are unlikely to be accessible by people in many countries.
@@ -5152,17 +5148,17 @@ While this influx of information is likely evidence of important work towards un
 The downsides of "excessive publication" have been recognized for over forty years, and it was raised as a major concern about the move towards electronic, rather than print, publishing at the turn of the millennium [@doi:10/d3bmnv].
 The contents of the COVID-19 Open Research Dataset (CORD-19) [@arxiv:2004.10706], which was developed in part to assist in efforts to train machine learning algorithms on COVID-19-related text, illustrates the volume of scholarly literature relevant to understanding this virus (Figure @fig:cord19-growth).
 This resource was developed by querying several sources for terms related to SARS-CoV-2 and COVID-19, as well as the coronaviruses SARS-CoV-1 and MERS-CoV and their associated diseases [@arxiv:2004.10706].
-CORD-19 contained 709156 manuscripts as of 2021-07-19.
+CORD-19 contained 718492 manuscripts as of 2021-07-26.
 Additional curation by CoronaCentral [@doi:10.1101/2020.12.21.423860] has produced, at present, a set of over 180,000 publications particularly relevant to COVID-19 and these closely related viruses.
 Thus, any effort to synthesize, summarize, and contextualize COVID-19 research will face a vast corpus of potentially relevant material.
 
 **Change over time in the number of publications in the CORD-19 dataset.**
-As of 2021-07-19, there were 709156 articles in the CORD-19 dataset.
+As of 2021-07-26, there were 718492 articles in the CORD-19 dataset.
 The first release, on March 16, 2020, contained 28,000 manuscripts on topics relevant to SARS-CoV-2 and related coronaviruses [@arxiv:2004.10706].
 Since then, these articles have continued to proliferate (left), with both traditionally published and preprint manuscripts in the corpus (right).
-At present, it contains 28491 preprints from _arXiv_, _bioRxiv_, and _medRxiv_.
+At present, it contains 28837 preprints from _arXiv_, _bioRxiv_, and _medRxiv_.
 While not all of the manuscripts are focused explicitly on SARS-CoV-2 or COVID-19, this corpus is likely to contain all or most manuscripts relevant to writing a literature review, which requires assessing both emerging and prior research.
-](https://github.com/greenelab/covid19-review/raw/cfcbda00be4158f7fd6235b4cb3ceafbd4fd28d3/CORD-19/cord19-growth.png "CORD-19 dataset growth"){#fig:cord19-growth secno=1}
+](https://github.com/greenelab/covid19-review/raw/4ae88a1b5e0cd88c033aaf568220343b5b1e0a71/CORD-19/cord19-growth.png "CORD-19 dataset growth"){#fig:cord19-growth secno=1}
 
 With information being produced rapidly through both traditional publishing venues and preprint servers, some papers that are published face scrutiny after their initial release.
 Concerns have been raised that the number of COVID-19 papers being retracted may be higher, and potentially much higher, than is typical, although a thorough investigation of this question will not be possible until more time has elapsed [@doi:10.1080/08989621.2020.1782203; @doi:10.1080/08989621.2020.1793675].
@@ -5319,7 +5315,7 @@ When we first produced this figure on July 7, 2020, there were 3,733 clinical tr
 As of December 31, 2020, it contains 6,987.
 We were also able to easily reconfigure the figure prior to journal submission to emphasize interventional trials based on the recommendation of a collaborator who is a clinician.
 This figure is included in an analysis of pharmaceutical development efforts during COVID-19 [@individual-pharmaceuticals].
-]((images/ebmdatalab-trials-original.png)https://github.com/greenelab/covid19-review/raw/a73ccf439021ec629827fcc16884747dab6e761d/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+]((images/ebmdatalab-trials-original.png)https://github.com/greenelab/covid19-review/raw/4ae88a1b5e0cd88c033aaf568220343b5b1e0a71/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 The seven manuscripts produced by the consortium (outside of this one) will be submitted to _mSystems_ as part of a special issue that is providing support for evolving reviews so that they can continue to be updated as more information becomes available.
 This approach allows for a version of record to be maintained alongside the most recent developments, which are always available through GitHub.
