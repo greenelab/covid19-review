@@ -278,13 +278,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/7c405ebe54abe3cf761e58ed2dd328cafeb88e64/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/7c405ebe54abe3cf761e58ed2dd328cafeb88e64/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/7c405ebe54abe3cf761e58ed2dd328cafeb88e64/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/886d0d6788178af789754cc4927f1403ef48eb8e/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/886d0d6788178af789754cc4927f1403ef48eb8e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/886d0d6788178af789754cc4927f1403ef48eb8e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/7c405ebe54abe3cf761e58ed2dd328cafeb88e64/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/7c405ebe54abe3cf761e58ed2dd328cafeb88e64/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/886d0d6788178af789754cc4927f1403ef48eb8e/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/886d0d6788178af789754cc4927f1403ef48eb8e/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -306,9 +306,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/7c405ebe54abe3cf761e58ed2dd328cafeb88e64/))
+([permalink](https://greenelab.github.io/covid19-review/v/886d0d6788178af789754cc4927f1403ef48eb8e/))
 was automatically generated
-from [greenelab/covid19-review@7c405eb](https://github.com/greenelab/covid19-review/tree/7c405ebe54abe3cf761e58ed2dd328cafeb88e64)
+from [greenelab/covid19-review@886d0d6](https://github.com/greenelab/covid19-review/tree/886d0d6788178af789754cc4927f1403ef48eb8e)
 on July 28, 2021.
 Snapshots of individual sections are available as preprints [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals].
 </em></small>
@@ -1622,8 +1622,8 @@ Knowing the phylogenetic context and genomic sequence of the virus then allowed 
 
 Since the emergence of _Severe acute respiratory syndrome-like coronavirus 2_ (SARS-CoV-2) in late 2019, significant international concern has focused on how to manage the spread of the virus.
 Identifying individuals who have contracted coronavirus disease 2019 (COVID-19) is crucial to slowing down the global pandemic.
-Given the high transmissibility of SARS-CoV-2 and the potential for asymptomatic or presymptomatic individuals to be contagious [@individual-pathogenesis], the development of rapid, reliable, and affordable methods to detect SARS-CoV-2 infection is vitally important.
-For instance, test-trace-isolate procedures are a cornerstone of many nations' efforts to control the outbreak [@doi:10.1503/cmaj.202120; @doi:10/ftzx; @doi:10.1016/j.lanwpc.2020.100044].
+Given the high transmissibility of SARS-CoV-2 and the potential for asymptomatic or presymptomatic individuals to be contagious [@individual-pathogenesis], the development of rapid, reliable, and affordable methods to detect SARS-CoV-2 infection is and was vitally important for understanding and controlling spread.
+For instance, test-trace-isolate procedures were an early cornerstone of many nations' efforts to control the outbreak [@doi:10.1503/cmaj.202120; @doi:10/ftzx; @doi:10.1016/j.lanwpc.2020.100044].
 <!-- To Do: possibly add text on what goes into developing new diagnostics?-->
 
 The genetic sequence of the virus was first released by Chinese officials on January 10, 2020, and the first test to detect the virus was released about 13 days later [@doi:10.2807/1560-7917.ES.2020.25.3.2000045].
@@ -1642,6 +1642,12 @@ As the pandemic has evolved throughout 2020 and 2021, a variety of technological
 <!-- To Do: Discuss HCoV broadly and the potential risk of detecting other coronaviruses-->
 <!-- To Do: Trade offs in cost vs precision (throughput)-->
 <!-- To Do: Discuss viral load vs contagiousness vs symptoms vs antibody development? -->
+
+<!-- To:Write / complete - #### Extant Work
+
+Prior narrative reviews [@doi:10.7326/M20-1301] and systematic reviews [@doi:10.1080/14737159.2020.1816466; @doi:10.1016/j.ajic.2020.07.011] of diagnostic technology for COVID-19 have been perfomed, and these contain detailed review of technologies and specific tests or techniques that exist.
+Other reviews provided interim status and reviewed challenges [@doi:10.1016/j.isci.2020.101406], or high level overviews [@doi:10.1126/scitranslmed.abc1931].
+Policy discussions have also reviewed both the critical importance of diagnostic in the developing world [@doi:10.1038/d41586-020-01265-0], and how they can best be used [@http://documents.worldbank.org/curated/en/426741613767908998/Five-Ways-that-COVID-19-Diagnostics-Can-Save-Lives-Prioritizing-Uses-of-Tests-to-Maximize-Cost-Effectiveness], and unfortunately, the need for triage when insufficient supplies are available [@doi:10.1016/j.jacc.2020.05.006] -->
 
 ### Molecular Tests
 
