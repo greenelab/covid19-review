@@ -113,6 +113,15 @@ if [ "${BUILD_DOCX:-}" = "true" ]; then
     output/manuscript.md
 fi
 
+# Create LaTeX output (if BUILD_LATEX environment variable equals "true")
+if [ "${BUILD_LATEX:-}" = "true" ]; then
+  echo >&2 "Exporting LaTeX manuscript"
+  pandoc \
+    --data-dir="$PANDOC_DATA_DIR" \
+    --defaults=common.yaml \
+    --defaults=latex.yaml
+fi
+
 # Spellcheck
 if [ "${SPELLCHECK:-}" = "true" ]; then
   # Rebuild the manuscript after removing the appendices so they are excluded from spellcheck

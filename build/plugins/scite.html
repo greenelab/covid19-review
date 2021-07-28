@@ -14,6 +14,9 @@
 <script>
   // start script
   function start() {
+    // if printing, exit and don't run badges
+    if (window.matchMedia("print").matches) return;
+
     // get citation elements
     const query = ".references div[id*='ref-']";
     const elements = document.querySelectorAll(query);
@@ -49,5 +52,11 @@
   .scite-badge {
     text-indent: 0;
     margin-top: 10px;
+  }
+
+  @media print {
+    .scite-badge {
+      display: none;
+    }
   }
 </style>

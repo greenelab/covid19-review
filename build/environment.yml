@@ -9,7 +9,7 @@ dependencies:
   - jinja2=2.11.2
   - jsonschema=3.2.0
   - pandas=1.0.3
-  - pandoc=2.12
+  - pandoc=2.14
   - pango=1.40.14
   - pip=20.2
   - psutil=5.7.3
@@ -25,11 +25,11 @@ dependencies:
     - isbnlib==3.10.3
     - opentimestamps-client==0.7.0
     - opentimestamps==0.4.1
-    - pandoc-eqnos==2.4.0
+    - pandoc-eqnos==2.5.0
     - pandoc-fignos==2.4.0
     - pandoc-tablenos==2.3.0
     - pandoc-xnos==2.5.0
-    - panflute==2.0.5
+    - panflute==2.1.0
     - pybase62==0.4.3
     - pysha3==1.0.2
     - python-bitcoinlib==0.10.2
