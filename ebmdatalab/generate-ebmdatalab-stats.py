@@ -3,6 +3,7 @@ import datetime
 import json
 from datetime import date
 import matplotlib.pyplot as plt
+import seaborn as sns
 import os
 import pandas as pd
 import geopandas
@@ -213,36 +214,38 @@ def main(args):
 
     plt.rc('font', size=14)
     plt.rc('figure', titlesize=24)
-    fig, axes = plt.subplots(nrows=2, ncols=2, figsize=(20, 12), constrained_layout=True)
+    sns.set_style("ticks")
+    fig, axes = plt.subplots(nrows=2, ncols=2, figsize=(20, 20), constrained_layout=True)
 
     # Plot study type
     # Only include study types used in >= 5 trials
     study_type_counts = trials_df['study_type'].value_counts(ascending=True)
     study_type_counts = study_type_counts[study_type_counts >= 5]
-    ax = study_type_counts.plot(kind='barh', ax=axes[1, 0])
-    ax.set_title('Clinical trials study type')
+    ax = study_type_counts.plot(kind='barh', ax=axes[0, 0])
+    ax.set_title('A. Clinical Trials, Study Type')
 
     # Plot trial recruitment status
     # Only include interventional trials with a recruitment status
     recruitment_counts = interventional_trials['recruitment_status'].value_counts(ascending=True)
     recruitment_counts = recruitment_counts.drop(labels='No Status Given')
-    ax = recruitment_counts.plot(kind='barh', ax=axes[0, 0])
-    ax.set_title('Clinical trials recruitment status')
+    ax = recruitment_counts.plot(kind='barh', ax=axes[0, 1])
+    ax.set_title('B. Clinical Trials, Recruitment Status')
 
     # Plot trial phase
     # Only include interventional trials with a reported phase
     phase_counts = interventional_trials['phase'].value_counts(ascending=True)
     phase_counts = phase_counts.drop(labels='Not Applicable')
-    ax = phase_counts.plot(kind='barh', ax=axes[0, 1])
-    ax.set_title('Clinical trials phase')
+    ax = phase_counts.plot(kind='barh', ax=axes[1, 0])
+    ax.set_title('C. Clinical Trials, Phase')
 
     # Plot common interventions
     # Only include interventional trials with an intervention and interventions in >= 10 trials
     intervention_counts = interventional_trials['intervention'].value_counts(ascending=True)
     intervention_counts = intervention_counts.drop(labels='No Intervention')
+    intervention_counts = intervention_counts.drop(labels='Other')
     intervention_counts = intervention_counts[intervention_counts >= 10]
     ax = intervention_counts.plot(kind='barh', ax=axes[1, 1])
-    ax.set_title('Clinical trials common interventions')
+    ax.set_title('D. Clinical Trials, Common Interventions')
 
     fig.savefig(args.output_figure + '.png', dpi=300, bbox_inches = "tight")
     fig.savefig(args.output_figure + '.svg', bbox_inches = "tight")
