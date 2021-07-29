@@ -242,6 +242,7 @@ def main(args):
     # Only include interventional trials with an intervention and interventions in >= 10 trials
     intervention_counts = interventional_trials['intervention'].value_counts(ascending=True)
     intervention_counts = intervention_counts.drop(labels='No Intervention')
+    intervention_counts = intervention_counts.drop(labels='Other')
     intervention_counts = intervention_counts[intervention_counts >= 10]
     ax = intervention_counts.plot(kind='barh', ax=axes[1, 1])
     ax.set_title('D. Clinical Trials, Common Interventions')
