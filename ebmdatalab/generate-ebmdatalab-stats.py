@@ -222,21 +222,21 @@ def main(args):
     study_type_counts = trials_df['study_type'].value_counts(ascending=True)
     study_type_counts = study_type_counts[study_type_counts >= 5]
     ax = study_type_counts.plot(kind='barh', ax=axes[1, 0])
-    ax.set_title('Clinical Trials, Study Type')
+    ax.set_title('A. Clinical Trials, Study Type')
 
     # Plot trial recruitment status
     # Only include interventional trials with a recruitment status
     recruitment_counts = interventional_trials['recruitment_status'].value_counts(ascending=True)
     recruitment_counts = recruitment_counts.drop(labels='No Status Given')
     ax = recruitment_counts.plot(kind='barh', ax=axes[0, 0])
-    ax.set_title('Clinical Trials, Recruitment Status')
+    ax.set_title('B. Clinical Trials, Recruitment Status')
 
     # Plot trial phase
     # Only include interventional trials with a reported phase
     phase_counts = interventional_trials['phase'].value_counts(ascending=True)
     phase_counts = phase_counts.drop(labels='Not Applicable')
     ax = phase_counts.plot(kind='barh', ax=axes[0, 1])
-    ax.set_title('Clinical Trials, Phase')
+    ax.set_title('C. Clinical Trials, Phase')
 
     # Plot common interventions
     # Only include interventional trials with an intervention and interventions in >= 10 trials
@@ -244,7 +244,7 @@ def main(args):
     intervention_counts = intervention_counts.drop(labels='No Intervention')
     intervention_counts = intervention_counts[intervention_counts >= 10]
     ax = intervention_counts.plot(kind='barh', ax=axes[1, 1])
-    ax.set_title('Clinical Trials, Common Interventions')
+    ax.set_title('D. Clinical Trials, Common Interventions')
 
     fig.savefig(args.output_figure + '.png', dpi=300, bbox_inches = "tight")
     fig.savefig(args.output_figure + '.svg', bbox_inches = "tight")
