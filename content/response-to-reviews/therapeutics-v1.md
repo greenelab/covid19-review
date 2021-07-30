@@ -4,15 +4,10 @@ This review article is an excerpt from a comprehensive COVID-19 encyclopedia ava
 We are grateful for the reviewer's feedback and have made substantial changes to the manuscript in order to address their concerns.
 **
 
-1.1 Lack of conceptual organization. The review is organized by type of drug. While I could see the value in this as a resource it does not translate well to a review article that can be read in one sitting. What is the intended audience of this piece? 
+1.1 Lack of conceptual organization. The review is organized by type of drug. While I could see the value in this as a resource it does not translate well to a review article that can be read in one sitting. What is the intended audience of this piece? If it is clinicians, it may make more sense to organize the sections based on how promising the therapeutic is. If it is basic scientists, it would help to group the interventions by mechanism of action or some other biological question.
 
 **
-We intend the audience to be basic scientists and appreciate the suggestions for how to improve usefulness for this audience.
-**
-
-If it is clinicians, it may make more sense to organize the sections based on how promising the therapeutic is. If it is basic scientists, it would help to group the interventions by mechanism of action or some other biological question.
-
-**
+The intended audience is basic scientists, and we appreciate the reviewer's suggestions for how to improve usefulness for this audience.
 We absolutely understand the reviewer's concerns about the organization of the original text.
 In order to make the content more navigable, the new version of the text is divided into two sections.
 The article itself provides an overview of therapeutic development for COVID-19, emphasizing the differences between drug development versus repurposing, therapeutics targeting the host versus the virus, and small molecules versus biologics.
@@ -30,15 +25,14 @@ The detailed critiques have been moved to the appendix, and the narratives surro
 It also seems dangerous to infer researcher biases like p-hacking without more definitive data that support these potentially damaging claims.
 
 **
-The language surrounding statistical concerns has been adjusted in line with these recommendations. It now reads: "Additionally, disparities between the pre-registered and published protocols raises concerns about experimental design."
+The sentence in question has been modified to read: "Additionally, disparities between the pre-registered and published protocols raises concerns about experimental design."
 **
-
 
 1.3 This article as presented seems premature. I was especially confused by the statement in the abstract that "this review will be updated as progress is made." Is that even possible at mSystems? 
 
 **
 The project is built on Manubot, a relatively new resource for collaborative writing that allow for version control and continual editing.
-An up-to-date version of the manuscript is available online at all times, but mSystems has agreed to review a version of record and to allow the submission of updates as more evidence becomes available over time, in the style of a living review.
+An up-to-date version of the manuscript is available online at all times, but _mSystems_ has agreed to review a version of record and to allow the submission of updates as more evidence becomes available over time, in the style of a living review.
 **
 
 More importantly, the conclusion for all but 1-2 therapeutics is that more data is needed, leaving me wondering what the value of this review is at time present. One useful contribution would be to rank the promise of each approach. Each has issues, but which ones are worth investing more resources in?
@@ -58,12 +52,14 @@ We hope the relevance is improved with these changes.
 1.5 Figure 2 - panel labels (letters) are needed. 
 
 **
-This change has been made.**
+This change has been made.
+**
 
 The y-axis of panel 4 is difficult to read - the panel should either be stretched or some of the less common approaches could be trimmed off. The "other" category could also be removed.
 
 **
-These changes have been made.**
+These changes have been made.
+**
 
 More importantly, I worry that this figure is immediately out of date, is there any indication that these trends will be stable over time? If not, why is it important to know what fraction of trials are in Phase 2 right now?
 
@@ -78,6 +74,8 @@ To date, we had thought of the utility of the figure as showing what research wa
 
 **
 Thank you for your positive feedback and thoughtful critique of this figure.
+The figure has been moved up in the manuscript to correspond to a new section focusing on virological insights into drug repurposing.
+<!--To Do: Change colors? Change arrows?-->
 **
 
 1.7 typo on Line 1288 - "reduce accelerate"
@@ -85,3 +83,5 @@ Thank you for your positive feedback and thoughtful critique of this figure.
 **
 This typo has been corrected.
 The sentence now reads: "The interim analysis of the phase 2 portion suggested that bamlanivimab alone was able to accelerate the reduction in viral load."
+**
+
