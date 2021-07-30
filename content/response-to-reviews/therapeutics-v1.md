@@ -30,7 +30,7 @@ The detailed critiques have been moved to the appendix, and the narratives surro
 It also seems dangerous to infer researcher biases like p-hacking without more definitive data that support these potentially damaging claims.
 
 **
-The language surrounding statistical concerns has been adjusted in line with these recommendations.
+The language surrounding statistical concerns has been adjusted in line with these recommendations. It now reads: "Additionally, disparities between the pre-registered and published protocols raises concerns about experimental design."
 **
 
 
