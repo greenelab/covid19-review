@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2021-07-30'
+date-meta: '2021-08-02'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -70,8 +70,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2021-07-30" />
-  <meta name="citation_publication_date" content="2021-07-30" />
+  <meta name="dc.date" content="2021-08-02" />
+  <meta name="citation_publication_date" content="2021-08-02" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -278,13 +278,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/b0440b3c4f05bfb1597469f0bc3e088f31388161/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/b0440b3c4f05bfb1597469f0bc3e088f31388161/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/b0440b3c4f05bfb1597469f0bc3e088f31388161/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/2c82530ab113e5ad5f918f140b63af24e42d6ac0/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/2c82530ab113e5ad5f918f140b63af24e42d6ac0/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/2c82530ab113e5ad5f918f140b63af24e42d6ac0/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/b0440b3c4f05bfb1597469f0bc3e088f31388161/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/b0440b3c4f05bfb1597469f0bc3e088f31388161/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/2c82530ab113e5ad5f918f140b63af24e42d6ac0/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/2c82530ab113e5ad5f918f140b63af24e42d6ac0/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -306,10 +306,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/b0440b3c4f05bfb1597469f0bc3e088f31388161/))
+([permalink](https://greenelab.github.io/covid19-review/v/2c82530ab113e5ad5f918f140b63af24e42d6ac0/))
 was automatically generated
-from [greenelab/covid19-review@b0440b3](https://github.com/greenelab/covid19-review/tree/b0440b3c4f05bfb1597469f0bc3e088f31388161)
-on July 30, 2021.
+from [greenelab/covid19-review@2c82530](https://github.com/greenelab/covid19-review/tree/2c82530ab113e5ad5f918f140b63af24e42d6ac0)
+on August 2, 2021.
 Snapshots of individual sections are available as preprints [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals].
 </em></small>
 
@@ -2042,7 +2042,7 @@ Of the interventional trials, 98 trials had reported results as of December 31, 
 Recruitment status and trial phase are shown only for interventional trials in which the status or phase is recorded.
 The common interventions are all interventions used in at least ten trials.
 Combinations of interventions, such as Hydroxychloroquine + Azithromycin, are tallied separately from the individual interventions.
-](https://github.com/greenelab/covid19-review/raw/9fae4bc60ab1d527acce6f752a43175cb94e8eb1/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/d4780ac1c79d9b59951655e65d5ba15bcdf0853e/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 The purpose of this review is to provide an evolving resource tracking the status of efforts to repurpose and develop drugs for the treatment of COVID-19.
 We highlight four strategies that provide different paradigms for the identification of potential pharmaceutical treatments.
@@ -2242,8 +2242,17 @@ It is also important that studies focused on inflammation as a possible therapeu
 #### Biologics and the Adaptive Immune Response
 
 One of the most positive revelations of the COVID-19 pandemic has been how much progress has been made towards a rapid scientific response to an emerging threat (see also [@individual-vaccines]).
-In particular, monoclonal antibodies (mAbs) have revolutionized the way we treat human diseases.
-They have become some of the best-selling drugs in the pharmaceutical market in recent years [@doi:10.1186/s12929-019-0592-z].
+In some cases, these treatments can utilize biologics obtained directly from recovered individuals.
+From the very early days of the COVID-19 pandemic, polyclonal antibodies from convalescent plasma were investigated as a potential treatment for COVID-19 [@doi:10/ggqr7s; @doi:10.1001/jama.2020.4940].
+Convalescent plasma was used in prior epidemics including SARS, Ebola Virus Disease, and even the 1918 Spanish Influenza [@doi:10/ggqr7s; @doi:10.1002/jmv.25961].
+Use of convalescent plasma transfusion (CPT) over more than a century has aimed to reduce symptoms and improve mortality in infected people [@doi:10.1002/jmv.25961], possibly by accelerating viral clearance [@doi:10/ggqr7s].
+However, it seems unlikely that this classic treatment confers any benefit for COVID-19 patients.
+Several systematic reviews have investigated whether CPT reduced mortality in COVID-19 patients, and although findings from early in the pandemic (up to April 19, 2020) did support use of CPT [@doi:10.1002/jmv.25961], the tide has shifted as the body of available literature has grown [@doi:10.1001/jama.2021.2747].
+While titer levels were suggested as a possible determining factor in the success of CPT against COVID-19 [@doi:10.1056/NEJMoa2031893], the large-scale RECOVERY trial evaluated the effect of administering high-titer plasma specifically and found no effect on mortality or hospital discharge over a 28-day period [@doi:10.1101/2021.03.09.21252736].
+These results thus suggest that, despite initial optimism and an EUA from the FDA, CPT is unlikely to be an effective therapeutic for COVID-19.
+
+Fortunately, a modern development in biologic approaches to viral disease, has built on the same principles as CPT to revolutionize the way we treat human diseases.
+Monoclonal antibodies (mAbs) have become some of the best-selling drugs in the pharmaceutical market in recent years [@doi:10.1186/s12929-019-0592-z].
 There are currently 79 FDA approved mAbs on the market, including antibodies for viral infections (e.g. Ibalizumab for _Human immunodeficiency virus_ and Palivizumab for _Respiratory syncytial virus_) [@doi:10.1186/s12929-019-0592-z; @doi:10.1146/annurev-immunol-032712-095916].
 Virus-specific neutralizing antibodies commonly target viral surface glycoproteins or host structures, thereby inhibiting viral entry through receptor binding interference [@doi:10.3389/fmicb.2017.02323; @doi:10.1080/21645515.2017.1337614].
 This interference is predicted to reduce the viral load, mitigate disease, and reduce overall hospitalization.
@@ -2416,6 +2425,7 @@ However, the current crisis has underscored how different areas of biomedical re
 | HCQ/CQ | Small molecule, broad spectrum | None | RCT | Not supported, possibly harmful: Non-blinded RCTs showed no improvement over SOC, safety profile may be problematic |
 | Dexamethasone | Small molecule, broad spectrum | Used off-label | RCT | Supported: RCT shows improved outcomes over SOC, especially in severe cases such as CRS |
 | Tocilizumab | Biologic, monoclonal antibody | Approved for CRS resulting from CAR-T therapy | RCT | Mixed results from RCTs: It appears that TCZ may work well in combination with dexamethasone in severe cases, but not as monotherapy |
+| Convalescent plasma transfusion | Biologic, polyclonal antibodies | EUA | RCT | Mixed results from RCTs: Supported in small trials but not in large-scale RECOVERY trial
 | Casirivimab and imdevimab | Biologic, monoclonal antibodies | EUA | RCT | Supported: Reduced viral load at interim analysis |
 | Bamlanivimab and etesevimab | Biologic, monoclonal antibodies | EUA | RCT | Supported: Phase 2 clinical trial showed reduction in viral load |
 | SNG001 | Biologic, interferon | None | RCT | Mixed results: support from initial RCT but no effect found in WHO's Solidarity trial |
@@ -2518,7 +2528,7 @@ Recruitment status and trial phase are shown only for interventional trials in w
 The common interventions are all interventions used in at least ten trials.
 Combinations of interventions, such as Hydroxychloroquine + Azithromycin, are tallied separately from the individual interventions.
 Trials data are from the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709].
-](https://github.com/greenelab/covid19-review/raw/9fae4bc60ab1d527acce6f752a43175cb94e8eb1/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/d4780ac1c79d9b59951655e65d5ba15bcdf0853e/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 ### Small Molecule Drugs
 
@@ -4955,7 +4965,7 @@ Trials that recruit across multiple countries do appear to broaden geographic re
 The density of clinical trials is reported at the country level.
 As of December 31, 2020, there are 6,987 trials in the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709], of which 3,962 are interventional.
 The top figure demonstrates the density of interventional trials recruiting only from a singular country, while the bottom shows the distribution of recruitment for interventional trials that involve more than one country.
-](https://github.com/greenelab/covid19-review/raw/9fae4bc60ab1d527acce6f752a43175cb94e8eb1/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
+](https://github.com/greenelab/covid19-review/raw/d4780ac1c79d9b59951655e65d5ba15bcdf0853e/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
 
 A few different concerns arise from this skewed geographic representation in clinical trial recruitment.
 First, treatments such as remdesivir that are promising but primarily available to clinical trial participants are unlikely to be accessible by people in many countries.
@@ -5321,7 +5331,7 @@ When we first produced this figure on July 7, 2020, there were 3,733 clinical tr
 As of December 31, 2020, it contains 6,987.
 We were also able to easily reconfigure the figure prior to journal submission to emphasize interventional trials based on the recommendation of a collaborator who is a clinician.
 This figure is included in an analysis of pharmaceutical development efforts during COVID-19 [@individual-pharmaceuticals].
-]((images/ebmdatalab-trials-original.png)https://github.com/greenelab/covid19-review/raw/9fae4bc60ab1d527acce6f752a43175cb94e8eb1/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+]((images/ebmdatalab-trials-original.png)https://github.com/greenelab/covid19-review/raw/d4780ac1c79d9b59951655e65d5ba15bcdf0853e/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 The seven manuscripts produced by the consortium (outside of this one) will be submitted to _mSystems_ as part of a special issue that is providing support for evolving reviews so that they can continue to be updated as more information becomes available.
 This approach allows for a version of record to be maintained alongside the most recent developments, which are always available through GitHub.
