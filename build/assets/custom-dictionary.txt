@@ -117,6 +117,7 @@ CRS
 CRSL
 CSF
 CSS
+CSTL
 CTACK
 CTD
 CTL
@@ -646,6 +647,7 @@ Sinovac’s
 Sinovac
 SinsOfOmission
 Skelly
+Sotrovimab
 Soumita
 SpO
 States’s
