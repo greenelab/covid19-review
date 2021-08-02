@@ -5,6 +5,7 @@ ABVV
 ACEi
 ACEis
 ACIP
+ACTT
 ADG
 AICD
 AIFA
@@ -116,6 +117,7 @@ CRS
 CRSL
 CSF
 CSS
+CSTL
 CTACK
 CTD
 CTL
@@ -645,6 +647,7 @@ Sinovac’s
 Sinovac
 SinsOfOmission
 Skelly
+Sotrovimab
 Soumita
 SpO
 States’s
@@ -1020,6 +1023,7 @@ ggjr
 ggjvr
 ggkd
 ggks
+ggnsjk
 ggnzmc
 ggpx
 ggvd
@@ -1443,6 +1447,7 @@ recombinant
 recombinantly
 recombinase
 reexposure
+relatedly
 remdesivir
 remediating
 renin
