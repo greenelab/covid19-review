@@ -40,7 +40,15 @@ This change has been made.
 
     Line 788; what does adding the 'exposed' variable in this model mean and why is that important for SARS-CoV-2
     Line 852; typo, duplicate 'has coordinated'
+**
+This typo has been corrected
+**
+
     Line 874; typo, "as in the current pandemic"
+
+**
+This change has been made.
+**
 
 1.5 This work is important not only for the current moment, but for contextualizing this virus for response to future outbreaks; in my opinion it would be nice to have a sentence in the discussion to this effect (this review represents a ton of work - the effort is worthwhile!)
 
@@ -52,16 +60,28 @@ Overall, this was a very comprehensive, thorough review of the current state of 
 Minor Points
 
 2.1 Line 196 - insert "the" prior to replication.
+**
+This change has been made.
+**
 
 2.2 Lines 213-214 - wording was a bit odd, might suggest adding "a process conserved among coronaviruses" to the previous sentence.
+**
+This change has been made.
+**
 
 2.3 Line 250-252 - might suggest excluding skin and just keeping mucus, the way this reads suggests the respiratory mucosa provides no protection at all- is this true?
 
 2.4 Line 275 - suggest changing "can facilitate" to "may facilitate"
+**
+This change has been made.
+**
 
 2.5 Line 311 - reference was not highlighted in blue- not sure if this was a formatting issue but may want to check to make sure this reference is correct.
 
 2.6 Might suggest moving up the Pediatric Presentation (Lines 428-454) to immediately before cytokine release syndrome as it follows the clinical presentation and directly leads into the cytokine release syndrome.
+**
+This change has been made.
+**
 
 2.7 The intro paragraph for the cytokine release syndrome is quite long and could be readily shortened (or even eliminated) without sacrificing the relevant information pertaining to COVID-19 (which is primarily the second 2 paragraphs).
 
@@ -70,10 +90,16 @@ Minor Points
 2.9 Line 505 - statement regarding other respiratory viruses encoding antagonists to IFN response should reference the relevant studies.
 
 2.10 Line 513 - word choice- replace extent with magnitude.
+**
+This change has been made.
+**
 
 2.11 Lines 557-559 - this was a really intriguing statement- can the authors provide an additional sentence or two to provide additional context to why this might be the case?
 
 2.12 I understand that this field moves ridiculously fast, but in the transmission section it might be worth including the most recent variants that are predicted to have increased transmission.
+**
+A discussion of variants of concern has been added to the section "Molecular Signatures and Transmission," which has been renamed to "Molecular Signatures, Transmission, and Variants of Concern."
+
 Reviewer 3
 
 Overall, the manuscript by Rando et al seeks to review and condense the current corpus of knowledge for SARS-CoV-2. The authors do a great job of making the findings of various studies easy to understand. Overall, this reviewer believes that it will be an excellent resource to the scientific community. This reviewer recommends that the author incorporates a handful of suggested changes (below) to improve the already impressive state of this manuscript.
