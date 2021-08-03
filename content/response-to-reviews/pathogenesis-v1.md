@@ -24,24 +24,33 @@ Minor:
 1.4 Typos
 
     Lines 205; The legend of Figure 1 incorrectly states that RNA polymerase is a protease
+
 **
 The word "protease" has been changed to "enzyme."
 **
 
     Line 709; typo -> 'either typical or atypical'
+
 **
 This change has been made.
 **
 
     Line 755; 'content level' should be 'continental level'?
+
 **
 This change has been made.
 **
 
     Line 788; what does adding the 'exposed' variable in this model mean and why is that important for SARS-CoV-2
-    Line 852; typo, duplicate 'has coordinated'
+
 **
-This typo has been corrected
+This sentence has been modified to read "To accurately capture the dynamics of SARS-CoV-2, the addition of a fourth compartment, i.e. a susceptible-exposed-infectious-recovered model, may be appropriate because such models account for the relative lengths of incubation and infectious periods" and now includes a citation to Heng & Althaus (2020).
+**
+
+    Line 852; typo, duplicate 'has coordinated'
+
+**
+This typo has been corrected.
 **
 
     Line 874; typo, "as in the current pandemic"
@@ -60,25 +69,44 @@ Overall, this was a very comprehensive, thorough review of the current state of 
 Minor Points
 
 2.1 Line 196 - insert "the" prior to replication.
+
 **
 This change has been made.
 **
 
 2.2 Lines 213-214 - wording was a bit odd, might suggest adding "a process conserved among coronaviruses" to the previous sentence.
+
 **
 This change has been made.
 **
 
 2.3 Line 250-252 - might suggest excluding skin and just keeping mucus, the way this reads suggests the respiratory mucosa provides no protection at all- is this true?
 
+**
+This change has been made.
+The question you raised is interesting -- the Liu et al. (2016) reference, which investigated viral dissemination of SARS-CoV-1 in rhesus macaques, states, "Many viruses, including SARS-CoV, breach this mucosal barrier by infecting the epithelium directly."
+This conclusion cites two articles, one of which (Richt et al., 2012 in PLoS One) examined swine influenza A virus (H2N3) in macaques and found higher replication of swine H2N3 than human H2N2 in the nasal mucosa and lung tissue.
+The other (Nicholls et al., 2006 in PLoS Medicine) reported the cellular localization of the SARS-CoV-1 virus in deceased SARS patients using a monoclonal antibody, concluding that the virus's "chief target" is the pulmonary alveolar epithelium.
+
+
+**
+
 2.4 Line 275 - suggest changing "can facilitate" to "may facilitate"
+
 **
 This change has been made.
 **
 
 2.5 Line 311 - reference was not highlighted in blue- not sure if this was a formatting issue but may want to check to make sure this reference is correct.
 
+**
+Thank you for catching this error!
+The correct reference is a June 2020 letter to the editor in the New England Journal of Medicine (doi:10.1056/NEJMc2010419).
+This line has been corrected to refer to the correct article.
+**
+
 2.6 Might suggest moving up the Pediatric Presentation (Lines 428-454) to immediately before cytokine release syndrome as it follows the clinical presentation and directly leads into the cytokine release syndrome.
+
 **
 This change has been made.
 **
@@ -90,6 +118,7 @@ This change has been made.
 2.9 Line 505 - statement regarding other respiratory viruses encoding antagonists to IFN response should reference the relevant studies.
 
 2.10 Line 513 - word choice- replace extent with magnitude.
+
 **
 This change has been made.
 **
@@ -97,8 +126,11 @@ This change has been made.
 2.11 Lines 557-559 - this was a really intriguing statement- can the authors provide an additional sentence or two to provide additional context to why this might be the case?
 
 2.12 I understand that this field moves ridiculously fast, but in the transmission section it might be worth including the most recent variants that are predicted to have increased transmission.
+
 **
+Thank you for this suggestion.
 A discussion of variants of concern has been added to the section "Molecular Signatures and Transmission," which has been renamed to "Molecular Signatures, Transmission, and Variants of Concern."
+**
 
 Reviewer 3
 
