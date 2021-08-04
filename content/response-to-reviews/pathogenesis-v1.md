@@ -113,6 +113,12 @@ This change has been made.
 
 2.7 The intro paragraph for the cytokine release syndrome is quite long and could be readily shortened (or even eliminated) without sacrificing the relevant information pertaining to COVID-19 (which is primarily the second 2 paragraphs).
 
+**
+This section has been shorted and reorganized to remove extraneous information.
+It now reads:
+<!--To do: copy final version-->
+**
+
 2.8 Might suggest moving the cytokine section to be under the Systems-Level Effects rather than Clinical Presentation section, but it could fit in either.
 
 **
