@@ -115,6 +115,10 @@ This change has been made.
 
 2.8 Might suggest moving the cytokine section to be under the Systems-Level Effects rather than Clinical Presentation section, but it could fit in either.
 
+**
+The modified section has been left under the Clinical Presentation section, but the Systems-Level Effects section has been renamed to "Insights from Systems Biology" to indicate that it focuses on research in omics rather than systems-level analyses more broadly.
+**
+
 2.9 Line 505 - statement regarding other respiratory viruses encoding antagonists to IFN response should reference the relevant studies.
 
 2.10 Line 513 - word choice- replace extent with magnitude.
