@@ -83,12 +83,12 @@ This change has been made.
 2.3 Line 250-252 - might suggest excluding skin and just keeping mucus, the way this reads suggests the respiratory mucosa provides no protection at all- is this true?
 
 **
-This change has been made.
 The question you raised is interesting -- the Liu et al. (2016) reference, which investigated viral dissemination of SARS-CoV-1 in rhesus macaques, states, "Many viruses, including SARS-CoV, breach this mucosal barrier by infecting the epithelium directly."
 This conclusion cites two articles, one of which (Richt et al., 2012 in PLoS One) examined swine influenza A virus (H2N3) in macaques and found higher replication of swine H2N3 than human H2N2 in the nasal mucosa and lung tissue.
 The other (Nicholls et al., 2006 in PLoS Medicine) reported the cellular localization of the SARS-CoV-1 virus in deceased SARS patients using a monoclonal antibody, concluding that the virus's "chief target" is the pulmonary alveolar epithelium.
-
-
+Based on these citations, it doesn't seem appropriate to conclude that the respiratory mucosa does not provide protection at all, but rather that viruses vary in their ability to bypass its protection.
+Based on this, the sentence has been rephrased to read: "Infecting the epithelium can help viruses such as SARS-CoV-1 bypass the physical barriers, such as mucus, that comprise the immune system's first line of defense."
+<!--To Do: add final version of sentence-->
 **
 
 2.4 Line 275 - suggest changing "can facilitate" to "may facilitate"
@@ -100,7 +100,7 @@ This change has been made.
 2.5 Line 311 - reference was not highlighted in blue- not sure if this was a formatting issue but may want to check to make sure this reference is correct.
 
 **
-Thank you for catching this error!
+Thank you for catching this error.
 The correct reference is a June 2020 letter to the editor in the New England Journal of Medicine (doi:10.1056/NEJMc2010419).
 This line has been corrected to refer to the correct article.
 **
@@ -138,6 +138,13 @@ Overall, the manuscript by Rando et al seeks to review and condense the current 
 
 3.1 Structure of Coronaviruses, paragraph 1: Please modify the definition of “non-segmented”. It refers more to the fact that it is a single molecule of ssRNA, than to whether it is contained in a capsid.
 
+**
+This error has been correct.
+The text now reads:
+"They are non-segmented, which means the viral genome is a single continuous strand of DNA, and are enveloped, which means that the geno    me and capsid are encased by a lipid bilayer."
+<!--To do: confirm final version-->
+**
+
 3.2 Cytokine release syndrome, paragraph 1: Please modify the wording from “dysregulated systemic inflammation can cause sepsis…” to something similar to “dysregulated systemic inflammation can contribute to pathogenesis associated with sepsis”. The reviewer is unsure about the relevance of this sentence since sepsis is associated with bacterial infection rather than viral infection.
 
 3.3 Cytokine release syndrome, paragraph 2: The relevance of sepsis to this paragraph is also unclear, unless the authors are comparing SARS-CoV-2 infection to other respiratory diseases caused by bacteria. Specifying the relevance of this comparison would be helpful.
@@ -151,3 +158,6 @@ Overall, the manuscript by Rando et al seeks to review and condense the current 
 
 3.5 Conclusions, paragraph 3: The same reference (222) is included twice for the same statement.
 
+**
+This duplication has been removed.
+**
