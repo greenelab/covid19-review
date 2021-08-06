@@ -18,6 +18,13 @@ It reads: <!-- To do: add in text as it stands at submission-->
 
 1.2 Furin discussion: The description of furin in this manuscript is confusing; it is highlighted in the conclusion as a mutation that has allowed for increased virulence, but is not mentioned in the opening paragraphs of the paper where host proteases are described (e.g. lines 229-235, line 279), or the section describing the hinge-like movement of the spike protein which is induced by furin (lines 591-603) and only mentioned fleetingly in the middle of a the next paragraph. A more thorough discussion of the furin-site insertion in the SARS-CoV-2 genome (and what information is still missing) earlier or more prominently in the paper is warranted.
 
+**
+Thank you for catching this oversight.
+Several additions have been made to the text to address the role of furin.
+The paragraph that introduces proteolytic priming has been expanded to discuss the furin injection site insertion.
+
+**
+
 1.3 Detected versus infectious: The distinction between RT-qPCR detection and viral infection assays in cell culture models should be more clear. Although this point is acknowledged (e.g. lines 713-714) it is not clear whether viral RNA or infectious virus is being described at certain points in the review (i.e. line 663) and a brief description of the advantages and limitations of these methods would be useful for the reader.
 
 Minor:
@@ -114,7 +121,7 @@ This change has been made.
 2.7 The intro paragraph for the cytokine release syndrome is quite long and could be readily shortened (or even eliminated) without sacrificing the relevant information pertaining to COVID-19 (which is primarily the second 2 paragraphs).
 
 **
-This section has been shorted and reorganized to remove extraneous information.
+This section has been shortened and reorganized to remove extraneous information.
 It now reads:
 <!--To do: copy final version-->
 **
