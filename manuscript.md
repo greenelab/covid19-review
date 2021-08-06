@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2021-08-05'
+date-meta: '2021-08-06'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -70,8 +70,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2021-08-05" />
-  <meta name="citation_publication_date" content="2021-08-05" />
+  <meta name="dc.date" content="2021-08-06" />
+  <meta name="citation_publication_date" content="2021-08-06" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -132,7 +132,7 @@ header-includes: |-
   <meta name="citation_author_orcid" content="0000-0003-1467-421X" />
   <meta name="twitter:creator" content="@_jpbarton" />
   <meta name="citation_author" content="Jeffrey M. Field" />
-  <meta name="citation_author_institution" content="Department of Pharmacology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA" />
+  <meta name="citation_author_institution" content="Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA" />
   <meta name="citation_author_orcid" content="0000-0001-7161-7284" />
   <meta name="citation_author" content="Bharath Ramsundar" />
   <meta name="citation_author_institution" content="The DeepChem Project, https://deepchem.io/" />
@@ -278,13 +278,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/efac8524aa8fb962c4525c8d5ac6e811dcb466f5/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/efac8524aa8fb962c4525c8d5ac6e811dcb466f5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/efac8524aa8fb962c4525c8d5ac6e811dcb466f5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/4670cde78a8da46e56a619946080dbabd55379e7/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/4670cde78a8da46e56a619946080dbabd55379e7/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/4670cde78a8da46e56a619946080dbabd55379e7/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/efac8524aa8fb962c4525c8d5ac6e811dcb466f5/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/efac8524aa8fb962c4525c8d5ac6e811dcb466f5/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/4670cde78a8da46e56a619946080dbabd55379e7/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/4670cde78a8da46e56a619946080dbabd55379e7/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -306,10 +306,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/efac8524aa8fb962c4525c8d5ac6e811dcb466f5/))
+([permalink](https://greenelab.github.io/covid19-review/v/4670cde78a8da46e56a619946080dbabd55379e7/))
 was automatically generated
-from [greenelab/covid19-review@efac852](https://github.com/greenelab/covid19-review/tree/efac8524aa8fb962c4525c8d5ac6e811dcb466f5)
-on August 5, 2021.
+from [greenelab/covid19-review@4670cde](https://github.com/greenelab/covid19-review/tree/4670cde78a8da46e56a619946080dbabd55379e7)
+on August 6, 2021.
 Snapshots of individual sections are available as preprints [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals].
 </em></small>
 
@@ -432,7 +432,7 @@ Instead, you should collect information from your local health department, the [
     [0000-0001-7161-7284](https://orcid.org/0000-0001-7161-7284) · ![GitHub icon](images/github.svg){.inline_icon}
     [Jeff-Field](https://github.com/Jeff-Field)<br>
   <small>
-     Department of Pharmacology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
+     Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
   </small>
 
 + **Bharath Ramsundar**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
@@ -2043,7 +2043,7 @@ Of the interventional trials, 98 trials had reported results as of December 31, 
 Recruitment status and trial phase are shown only for interventional trials in which the status or phase is recorded.
 Common interventions refers to interventions used in at least ten trials.
 Combinations of interventions, such as hydroxychloroquine with azithromycin, are tallied separately from the individual interventions.
-](https://github.com/greenelab/covid19-review/raw/bcd680d1407760445d526755fac5c333ae62f807/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/a4b9d635c4f1352d9205b57acbdfa05fbaaaa436/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 The purpose of this review is to provide an evolving resource tracking the status of efforts to repurpose and develop drugs for the treatment of COVID-19.
 We highlight four strategies that provide different paradigms for the identification of potential pharmaceutical treatments.
@@ -2070,7 +2070,6 @@ It and other antibiotics have long been among the best known applications of sma
 Small molecule drugs today encompass a wide range of therapeutics beyond antibiotics, including antivirals, protein inhibitors, and many broad-spectrum pharmaceuticals.
 
 Many treatments considered for COVID-19 have relied on a broad-spectrum approach.
-In addition to broad-spectrum treatments like dexamethasone, antivirals offer an alternative approach.
 These treatments do not specifically target a virus or particular host receptor, but rather induce broad shifts in host biology that are hypothesized to be potential inhibitors of the virus.
 This approach relies on the fact that when a virus enters a host, the host becomes the virus's environment, and, therefore, the state of the host can also influence the virus's ability to replicate and spread.
 The administration and assessment of broad-spectrum small-molecule drugs on a rapid time course was feasible because they are often either available in hospitals, or in some cases may also be prescribed to a large number of out-patients.
@@ -2125,14 +2124,13 @@ Then the virus undergoes uncoating, which is classically defined as the release 
 Next, the viral genetic material enters the nucleus where it gets replicated during the biosynthesis stage.
 During the assembly stage, viral proteins are translated, allowing new viral particles to be assembled.
 In the final step new viruses are released into the extracellular environment.
+Although antivirals are designed to target a virus, they can also impact other processes in the host and may have unintended effects.
+Therefore, these therapeutics must be evaluated for both efficacy and safety.
+As the technology to respond to emerging viral threats has also evolved over the past two decades, a number of candidate treatments have been identified for prior viruses that may be relevant to the treatment of COVID-19.
 
 Many antiviral drugs are designed to inhibit the replication of viral genetic material during the biosynthesis step.
 Unlike DNA viruses, which can use the host enzymes to propagate themselves, RNA viruses like SARS-CoV-2 depend on their own polymerase, the RNA-dependent RNA polymerase (RdRP), for replication [@doi:10.1007/978-1-4939-2438-7; @doi:10.1002/jmv.25761].
 RdRP is therefore a potential target for antivirals against RNA viruses. 
-However, although antivirals are designed to target a virus, they can also impact other processes in the host and may have unintended effects.
-Therefore, these therapeutics must be evaluated for both efficacy and safety.
-As the technology to respond to emerging viral threats has also evolved over the past two decades, a number of candidate treatments have been identified for prior viruses that may be relevant to the treatment of COVID-19.
-
 Disruption of RdRP is the proposed mechanism underlying the treatment of SARS and MERS with ribavirin [@doi:10.1080/17460441.2019.1581171].
 Ribavirin is an antiviral drug effective against other viral infections that was often used in combination with corticosteroids and sometimes interferon (IFN) medications to treat SARS and MERS [@doi:10.1038/nrmicro.2016.81].
 However, analyses of its effects in retrospective and _in vitro_ analyses of SARS and the SARS-CoV-1 virus, respectively, have been inconclusive [@doi:10.1038/nrmicro.2016.81], and while IFNs and ribavirin have shown promise in _in vitro_ analyses of MERS, their clinical effectiveness remains unknown [@doi:10.1038/nrmicro.2016.81].
@@ -2263,7 +2261,6 @@ While titer levels were suggested as a possible determining factor in the succes
 These results thus suggest that, despite initial optimism and an EUA from the FDA, CPT is unlikely to be an effective therapeutic for COVID-19.
 
 Fortunately, a modern development in biologic approaches to viral disease, has built on the same principles as CPT to revolutionize the way we treat human diseases.
-Monoclonal antibodies (mAbs) have become some of the best-selling drugs in the pharmaceutical market in recent years [@doi:10.1186/s12929-019-0592-z].
 During the SARS and MERS epidemics, interest in monoclonal antibodies (mAbs) to reduce infection was never realized [@doi:10.1093/infdis/jiw080; @doi:10.1016/j.antiviral.2017.03.025].
 mAbs have revolutionized the way we treat human diseases and have become some of the best-selling drugs in the pharmaceutical market in recent years [@doi:10.1186/s12929-019-0592-z].
 There are currently 79 FDA approved mAbs on the market, including antibodies for viral infections (e.g. Ibalizumab for _Human immunodeficiency virus_ and Palivizumab for _Respiratory syncytial virus_) [@doi:10.1186/s12929-019-0592-z; @doi:10.1146/annurev-immunol-032712-095916].
@@ -2621,7 +2618,7 @@ This non-randomized, non-blinded, non-placebo clinical trial compared HCQ to SOC
 It reported that patients who received HCQ showed higher rates of virological clearance by nasopharyngeal swab on days 3-6 when compared to SOC.
 This study also treated six patients with both HCQ + AZ and found this combination therapy to be more effective than HCQ alone.
 However, the design and analyses used showed weaknesses that severely limit interpretability of results, including the small sample size and the lack of: randomization, blinding, placebo (no "placebo pill" given to SOC group), Intention-To-Treat analysis, correction for sequential multiple comparisons, and trial pre-registration.
-Furthermore, the trial arms were entirely confounded by hospital and there were false negative outcome measurements (see [@doi:10.5014/ajot.2013.006015]).
+Furthermore, the trial arms were entirely confounded by the hospital and there were false negative outcome measurements (see [@doi:10.5014/ajot.2013.006015]).
 Two of these weaknesses are due to inappropriate data analysis and can therefore be corrected _post hoc_ by recalculating the p-values (lack of Intention-To-Treat analysis and multiple comparisons).
 However, all other weaknesses are fundamental design flaws and cannot be corrected for.
 Thus, the conclusions cannot be generalized outside of the study.
@@ -4608,7 +4605,7 @@ Trials that recruit across multiple countries do appear to broaden geographic re
 The density of clinical trials is reported at the country level.
 As of December 31, 2020, there are 6,987 trials in the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709], of which 3,962 are interventional.
 The top figure demonstrates the density of interventional trials recruiting only from a singular country, while the bottom shows the distribution of recruitment for interventional trials that involve more than one country.
-](https://github.com/greenelab/covid19-review/raw/bcd680d1407760445d526755fac5c333ae62f807/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
+](https://github.com/greenelab/covid19-review/raw/a4b9d635c4f1352d9205b57acbdfa05fbaaaa436/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
 
 A few different concerns arise from this skewed geographic representation in clinical trial recruitment.
 First, treatments such as remdesivir that are promising but primarily available to clinical trial participants are unlikely to be accessible by people in many countries.
@@ -4974,7 +4971,7 @@ When we first produced this figure on July 7, 2020, there were 3,733 clinical tr
 As of December 31, 2020, it contains 6,987.
 We were also able to easily reconfigure the figure prior to journal submission to emphasize interventional trials based on the recommendation of a collaborator who is a clinician.
 This figure is included in an analysis of pharmaceutical development efforts during COVID-19 [@individual-pharmaceuticals].
-]((images/ebmdatalab-trials-original.png)https://github.com/greenelab/covid19-review/raw/bcd680d1407760445d526755fac5c333ae62f807/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+]((images/ebmdatalab-trials-original.png)https://github.com/greenelab/covid19-review/raw/a4b9d635c4f1352d9205b57acbdfa05fbaaaa436/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 The seven manuscripts produced by the consortium (outside of this one) will be submitted to _mSystems_ as part of a special issue that is providing support for evolving reviews so that they can continue to be updated as more information becomes available.
 This approach allows for a version of record to be maintained alongside the most recent developments, which are always available through GitHub.
