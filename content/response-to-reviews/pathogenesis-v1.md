@@ -21,8 +21,10 @@ It reads: <!-- To do: add in text as it stands at submission-->
 **
 Thank you for catching this oversight.
 Several additions have been made to the text to address the role of furin.
-The paragraph that introduces proteolytic priming has been expanded to discuss the furin injection site insertion.
-
+The paragraph that introduces proteolytic priming (previously lines 229-235) has been expanded to discuss the furin injection site insertion and the fact that _in vitro_ studies suggest it increases pathogenesis.
+The following line was added to the section on Host Cell Susceptibility (previously beginning at 279): "Additionally, the addition of the furin site insertion at the S1/S2 boundary means that SARS-CoV-2 does not require TMPRSS-2 when furin is present and enables cell-cell fusion independent of TMPRSS-2 availability [@doi:10.1016/j.molcel.2020.04.022] and instead can be primed by an ubiquitously expressed endoprotease [@doi:10.1038/nrm934]."
+The section about the hinge-like movement of the spike protein (previously 591-603) has been expanded to include: "Spike proteins cleaved at the furin-like binding site are substantially more likely to take an open conformation (66%) than those that are uncleaved (17%) [@doi:10.1038/s41594-020-0468-7]."
+In the following paragraph, the discussion of the acquisition of the furin insertion site has been moved to the beginning of the paragraph and modified to read: "The furin recognition site at the S1/S2 junction is likely to increase pathogenicity via destabilization of the spike protein during fusion to ACE2 and the facilitation of cell-cell adhesion [@doi:10.1016/j.cell.2020.02.058; @doi:10.1126/science.abb2507; @doi:10.1038/s41594-020-0468-7; @doi:10/bvgh5b; @doi:10.1006/viro.1999.9716; @doi:10.1016/j.isci.2020.101212]." 
 **
 
 1.3 Detected versus infectious: The distinction between RT-qPCR detection and viral infection assays in cell culture models should be more clear. Although this point is acknowledged (e.g. lines 713-714) it is not clear whether viral RNA or infectious virus is being described at certain points in the review (i.e. line 663) and a brief description of the advantages and limitations of these methods would be useful for the reader.
