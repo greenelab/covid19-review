@@ -149,11 +149,18 @@ This change has been made.
 
 2.11 Lines 557-559 - this was a really intriguing statement- can the authors provide an additional sentence or two to provide additional context to why this might be the case?
 
+The authors of the study described in this passage state the following: "We compared our SARS-CoV-2 interaction map with those of ten other pathogens (Fig. 2e) and found that West Nile virus and _Mycobacterium tuberculosis_ had the most similar host-protein interaction partners. The association with _M. tuberculosis_ is of particular interest as it also infects lung tissue."
+
+On a proximal level, the apparent similarity between the protein-protein interaction networks of SARS-CoV-2 and _M. tuberculosis_ could be an artifact of the pathogens selected for comparison: as the authors themselves point out, both pathogens are known to affect the lungs, while the other pathogens used for comparison are not known for respiratory symptoms (hepatitis C, human immunodeficiency virus, human papillomavirus, Kaposi's sarcoma-associated herpesvirus, and West Nile virus).
+Therefore, the original study seems to suggest that altered regulation in the lungs might be driving this similarity.
+The sentence here has been rephrased to make this more clear, and now reads: "The fact that the host-pathogen interactome of the bacterium *Mycobacterium tuberculosis* was found to be similar to that of SARS-CoV-2 suggests that changes related to lung pathology might comprise a significant contributor to these expression profiles."
+
 2.12 I understand that this field moves ridiculously fast, but in the transmission section it might be worth including the most recent variants that are predicted to have increased transmission.
 
 **
 Thank you for this suggestion.
 A discussion of variants of concern has been added to the section "Molecular Signatures and Transmission," which has been renamed to "Molecular Signatures, Transmission, and Variants of Concern."
+We have also made additional updates to reflect changes in the field since the paper was first reviewed.
 **
 
 Reviewer 3
