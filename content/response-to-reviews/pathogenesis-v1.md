@@ -136,6 +136,11 @@ The modified section has been left under the Clinical Presentation section, but 
 
 2.9 Line 505 - statement regarding other respiratory viruses encoding antagonists to IFN response should reference the relevant studies.
 
+**
+This line has been amended to include references to some broad discussions of this feature of viruses, as well as specific instances within betacoronaviruses.
+It now reads: "Other respiratory viruses have been found to encode antagonists to the IFN response [@doi:10.1016/j.mib.2010.05.009; @doi:10.1371/journal.pone.0112014], including SARS-CoV-1 [@doi:10.1128/JVI.01782-06] and MERS-CoV [@doi:10.1128/JVI.01845-13]."
+**
+
 2.10 Line 513 - word choice- replace extent with magnitude.
 
 **
