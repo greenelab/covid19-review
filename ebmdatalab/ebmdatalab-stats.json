@@ -5,9 +5,9 @@
   "ebm_commit_sha": "e407b36dd5215e6b412078c47509ffb2cb4ca2f7",
   "ebm_date_pretty": "December 31, 2020",
   "ebm_interv_trials": "3,962",
-  "ebm_map_figure": "https://github.com/greenelab/covid19-review/raw/40462d2063745a3259489cd6400a85e6258b16b2/ebmdatalab/ebmdatalab-map.png",
+  "ebm_map_figure": "https://github.com/greenelab/covid19-review/raw/ed23966c0d004d802c8a298fb79f7fc6a3374daa/ebmdatalab/ebmdatalab-map.png",
   "ebm_tocilizumab_ct": "73",
-  "ebm_trials_figure": "https://github.com/greenelab/covid19-review/raw/40462d2063745a3259489cd6400a85e6258b16b2/ebmdatalab/ebmdatalab-trials.png",
+  "ebm_trials_figure": "https://github.com/greenelab/covid19-review/raw/ed23966c0d004d802c8a298fb79f7fc6a3374daa/ebmdatalab/ebmdatalab-trials.png",
   "ebm_trials_results": "98",
   "ebm_trials_results_citekeys": [
     "doi:10.1001/jama.2020.10044",
@@ -110,5 +110,5 @@
     "url:https://clinicaltrials.gov/ct2/show/results/NCT04542694",
     "url:https://jrct.niph.go.jp/en-latest-detail/jRCTs041190120"
   ],
-  "ebm_update_time_utc": "2021-08-08T00:25:49.107914"
+  "ebm_update_time_utc": "2021-08-09T00:28:22.440710"
 }
