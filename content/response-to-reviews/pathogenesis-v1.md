@@ -180,12 +180,23 @@ The text now reads:
 
 3.3 Cytokine release syndrome, paragraph 2: The relevance of sepsis to this paragraph is also unclear, unless the authors are comparing SARS-CoV-2 infection to other respiratory diseases caused by bacteria. Specifying the relevance of this comparison would be helpful.
 
+**
+As with 3.2 above, this paragraphs has been restructured.
+We hope the changes serve to emphasize the concerns about sepsis in the context of SARS-CoV-2.
+**
+
 3.4 Molecular signatures and transmission: It may be helpful to the readers if the authors included a brief synopsis of viral comparative genomics analyses that have been performed including:
 
     https://www.sciencedirect.com/science/article/abs/pii/S0140673620317578
     https://www.sciencedirect.com/science/article/pii/S0092867421000805
     https://jvi.asm.org/content/94/17/e00790-20.abstract
     https://www.sciencedirect.com/science/article/pii/S0092867420304864
+
+**
+This section of the paper has been expanded based on this suggestion and based on Reviewer 2's comment 2.12.
+The four references suggested have been incorporated into this paper and into the separate Evolution manuscript associated with this project.
+Additionally, we have included analyses of variants of concern such as the "delta" variant.
+**
 
 3.5 Conclusions, paragraph 3: The same reference (222) is included twice for the same statement.
 
