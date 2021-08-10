@@ -849,7 +849,7 @@
         [
           "2021",
           8,
-          4
+          8
         ]
       ]
     }
@@ -1326,7 +1326,7 @@
         [
           "2021",
           8,
-          4
+          8
         ]
       ]
     }
@@ -1418,7 +1418,7 @@
         [
           "2021",
           8,
-          4
+          8
         ]
       ]
     }
@@ -1511,7 +1511,7 @@
         [
           "2021",
           8,
-          4
+          8
         ]
       ]
     }
@@ -1677,7 +1677,7 @@
         [
           "2021",
           8,
-          4
+          8
         ]
       ]
     }
@@ -1880,7 +1880,7 @@
         [
           "2021",
           8,
-          4
+          8
         ]
       ]
     }
@@ -1935,7 +1935,7 @@
         [
           "2021",
           8,
-          4
+          8
         ]
       ]
     }
@@ -2101,7 +2101,7 @@
         [
           "2021",
           8,
-          4
+          8
         ]
       ]
     }
@@ -2138,7 +2138,7 @@
         [
           "2021",
           8,
-          4
+          8
         ]
       ]
     }
@@ -2165,8 +2165,8 @@
       "date-parts": [
         [
           "2021",
-          7,
-          22
+          8,
+          6
         ]
       ]
     },
@@ -2175,7 +2175,7 @@
         [
           "2021",
           8,
-          4
+          8
         ]
       ]
     }
@@ -2248,7 +2248,7 @@
         [
           "2021",
           8,
-          4
+          8
         ]
       ]
     }
@@ -2285,7 +2285,7 @@
         [
           "2021",
           8,
-          4
+          8
         ]
       ]
     }
@@ -2322,7 +2322,7 @@
         [
           "2021",
           8,
-          4
+          8
         ]
       ]
     }
@@ -2359,7 +2359,7 @@
         [
           "2021",
           8,
-          4
+          8
         ]
       ]
     }
@@ -2386,8 +2386,8 @@
       "date-parts": [
         [
           "2021",
-          6,
-          4
+          8,
+          3
         ]
       ]
     },
@@ -2396,7 +2396,7 @@
         [
           "2021",
           8,
-          4
+          8
         ]
       ]
     }
@@ -2470,7 +2470,7 @@
         [
           "2021",
           8,
-          4
+          8
         ]
       ]
     }
@@ -46408,6 +46408,167 @@
   },
   {
     "type": "article-journal",
+    "id": "R1CIWZPb",
+    "author": [
+      {
+        "family": "Thakur",
+        "given": "Kiran T"
+      },
+      {
+        "family": "Miller",
+        "given": "Emily Happy"
+      },
+      {
+        "family": "Glendinning",
+        "given": "Michael D"
+      },
+      {
+        "family": "Al-Dalahmah",
+        "given": "Osama"
+      },
+      {
+        "family": "Banu",
+        "given": "Matei A"
+      },
+      {
+        "family": "Boehme",
+        "given": "Amelia K"
+      },
+      {
+        "family": "Boubour",
+        "given": "Alexandra L"
+      },
+      {
+        "family": "Bruce",
+        "given": "Samuel S"
+      },
+      {
+        "family": "Chong",
+        "given": "Alexander M"
+      },
+      {
+        "family": "Claassen",
+        "given": "Jan"
+      },
+      {
+        "family": "Faust",
+        "given": "Phyllis L"
+      },
+      {
+        "family": "Hargus",
+        "given": "Gunnar"
+      },
+      {
+        "family": "Hickman",
+        "given": "Richard A"
+      },
+      {
+        "family": "Jambawalikar",
+        "given": "Sachin"
+      },
+      {
+        "family": "Khandji",
+        "given": "Alexander G"
+      },
+      {
+        "family": "Kim",
+        "given": "Carla Y"
+      },
+      {
+        "family": "Klein",
+        "given": "Robyn S"
+      },
+      {
+        "family": "Lignelli-Dipple",
+        "given": "Angela"
+      },
+      {
+        "family": "Lin",
+        "given": "Chun-Chieh"
+      },
+      {
+        "family": "Liu",
+        "given": "Yang"
+      },
+      {
+        "family": "Miller",
+        "given": "Michael L"
+      },
+      {
+        "family": "Moonis",
+        "given": "Gul"
+      },
+      {
+        "family": "Nordvig",
+        "given": "Anna S"
+      },
+      {
+        "family": "Overdevest",
+        "given": "Jonathan B"
+      },
+      {
+        "family": "Prust",
+        "given": "Morgan L"
+      },
+      {
+        "family": "Przedborski",
+        "given": "Serge"
+      },
+      {
+        "family": "Roth",
+        "given": "William H"
+      },
+      {
+        "family": "Soung",
+        "given": "Allison"
+      },
+      {
+        "family": "Tanji",
+        "given": "Kurenai"
+      },
+      {
+        "family": "Teich",
+        "given": "Andrew F"
+      },
+      {
+        "family": "Agalliu",
+        "given": "Dritan"
+      },
+      {
+        "family": "Uhlemann",
+        "given": "Anne-Catrin"
+      },
+      {
+        "family": "Goldman",
+        "given": "James E"
+      },
+      {
+        "family": "Canoll",
+        "given": "Peter"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          4,
+          15
+        ]
+      ]
+    },
+    "abstract": "Many patients with SARS-CoV-2 infection develop neurological signs and symptoms, though, to date, little evidence exists that primary infection of the brain is a significant contributing factor. We present the clinical, neuropathological, and molecular findings of 41 consecutive patients with SARS-CoV-2 infections who died and underwent autopsy in our medical center. The mean age was 74 years (38–97 years), 27 patients (66%) were male and 34 (83%) were of Hispanic/Latinx ethnicity. Twenty-four patients (59%) were admitted to the intensive care unit (ICU). Hospital-associated complications were common, including 8 (20%) with deep vein thrombosis/pulmonary embolism (DVT/PE), 7 (17%) patients with acute kidney injury requiring dialysis, and 10 (24%) with positive blood cultures during admission. Eight (20%) patients died within 24 hours of hospital admission, while 11 (27%) died more than 4 weeks after hospital admission. Neuropathological examination of 20–30 areas from each brain revealed hypoxic/ischemic changes in all brains, both global and focal; large and small infarcts, many of which appeared hemorrhagic; and microglial activation with microglial nodules accompanied by neuronophagia, most prominently in the brainstem. We observed sparse T lymphocyte accumulation in either perivascular regions or in the brain parenchyma. Many brains contained atherosclerosis of large arteries and arteriolosclerosis, though none had evidence of vasculitis. Eighteen (44%) contained pathologies of neurodegenerative diseases, not unexpected given the age range of our patients. We examined multiple fresh frozen and fixed tissues from 28 brains for the presence of viral RNA and protein, using quantitative reverse-transcriptase PCR (qRT-PCR), RNAscope, and immunocytochemistry with primers, probes, and antibodies directed against the spike and nucleocapsid regions. qRT-PCR revealed low to very low, but detectable, viral RNA levels in the majority of brains, although they were far lower than those in nasal epithelia. RNAscope and immunocytochemistry failed to detect viral RNA or protein in brains. Our findings indicate that the levels of detectable virus in COVID-19 brains are very low and do not correlate with the histopathological alterations. These findings suggest that microglial activation, microglial nodules and neuronophagia, observed in the majority of brains, do not result from direct viral infection of brain parenchyma, but rather likely from systemic inflammation, perhaps with synergistic contribution from hypoxia/ischemia. Further studies are needed to define whether these pathologies, if present in patients who survive COVID-19, might contribute to chronic neurological problems.",
+    "container-title": "Brain",
+    "DOI": "10.1093/brain/awab148",
+    "page": "awab148",
+    "publisher": "Oxford University Press (OUP)",
+    "title": "COVID-19 neuropathology at Columbia University Irving Medical Center/New York Presbyterian Hospital",
+    "URL": "https://doi.org/gk72kx",
+    "PMCID": "PMC8083258",
+    "PMID": "33856027",
+    "note": "This CSL Item was generated by Manubot v0.5.1 from its persistent identifier (standard_id).\nstandard_id: doi:10.1093/brain/awab148"
+  },
+  {
+    "type": "article-journal",
     "id": "V8fkkVZg",
     "author": [
       {
@@ -87440,7 +87601,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -87465,7 +87626,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -87490,7 +87651,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -87521,7 +87682,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -87615,7 +87776,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -87633,7 +87794,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -87780,7 +87941,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -87818,7 +87979,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -87907,7 +88068,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -88058,7 +88219,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -88077,7 +88238,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -88096,7 +88257,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -88140,7 +88301,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -88188,7 +88349,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -88255,7 +88416,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -88374,7 +88535,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -88391,7 +88552,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -88583,7 +88744,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -88654,7 +88815,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -88670,7 +88831,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -88706,7 +88867,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -88724,7 +88885,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -88742,7 +88903,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -88819,7 +88980,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -88837,7 +88998,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -88862,7 +89023,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -88879,7 +89040,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -89089,7 +89250,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -89102,7 +89263,7 @@
     "container-title": "BBC News",
     "section": "Reality Check",
     "source": "www.bbc.com",
-    "abstract": "With vaccine doses running low in some parts of Africa, countries with surpluses are being asked to share.",
+    "abstract": "The supply of Covid-19 vaccines to African states has improved recently, but more doses are still needed.",
     "URL": "https://www.bbc.com/news/56100076",
     "shortTitle": "Covid-19 Africa",
     "language": "en-GB",
@@ -89110,8 +89271,8 @@
       "date-parts": [
         [
           "2021",
-          6,
-          22
+          8,
+          6
         ]
       ]
     },
@@ -89120,7 +89281,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -89182,7 +89343,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -89191,20 +89352,20 @@
   {
     "id": "gsNWcXHn",
     "type": "article-newspaper",
-    "title": "Moderna, Covovax, Biological E: What we know about India's new Covid vaccines",
+    "title": "Johnson & Johnson: What we know about India's new Covid vaccines",
     "container-title": "BBC News",
     "section": "India",
     "source": "www.bbc.com",
-    "abstract": "Amid shortages, India is trying to offer more jabs to its citizens to ramp up vaccination.",
+    "abstract": "India has approved Johnson & Johnson's single-dose vaccine as it ramps up production and procurement.",
     "URL": "https://www.bbc.com/news/world-asia-india-55748124",
-    "shortTitle": "Moderna, Covovax, Biological E",
+    "shortTitle": "Johnson & Johnson",
     "language": "en-GB",
     "issued": {
       "date-parts": [
         [
           "2021",
-          6,
-          29
+          8,
+          9
         ]
       ]
     },
@@ -89213,7 +89374,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -89244,7 +89405,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -89267,7 +89428,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -89298,7 +89459,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -89308,13 +89469,13 @@
     "id": "DQmAgN0V",
     "type": "webpage",
     "title": "Bloomberg - Are you a robot?",
-    "URL": "https://www.bloomberg.com/tosv2.html?vid=&uuid=9b5f45e0-f6c3-11eb-91c4-9fe052d9ed86&url=L2dyYXBoaWNzL2NvdmlkLXZhY2NpbmUtdHJhY2tlci1nbG9iYWwtZGlzdHJpYnV0aW9u",
+    "URL": "https://www.bloomberg.com/tosv2.html?vid=&uuid=b8a05910-f9e7-11eb-a467-7feaadf1f08a&url=L2dyYXBoaWNzL2NvdmlkLXZhY2NpbmUtdHJhY2tlci1nbG9iYWwtZGlzdHJpYnV0aW9u",
     "accessed": {
       "date-parts": [
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -89324,13 +89485,13 @@
     "id": "uvQMgFXB",
     "type": "webpage",
     "title": "Bloomberg - Are you a robot?",
-    "URL": "https://www.bloomberg.com/tosv2.html?vid=&uuid=9ba80eb0-f6c3-11eb-8600-2d8e703280b1&url=L25ld3MvYXJ0aWNsZXMvMjAyMC0xMi0wMi93aXRoaW4taG91cnMtb2YtdS1rLXB1dGluLW9yZGVycy1zdGFydC1vZi1tYXNzLWNvdmlkLTE5LXNob3Rz",
+    "URL": "https://www.bloomberg.com/tosv2.html?vid=&uuid=b8b826d0-f9e7-11eb-b040-4db5a0eb44d4&url=L25ld3MvYXJ0aWNsZXMvMjAyMC0xMi0wMi93aXRoaW4taG91cnMtb2YtdS1rLXB1dGluLW9yZGVycy1zdGFydC1vZi1tYXNzLWNvdmlkLTE5LXNob3Rz",
     "accessed": {
       "date-parts": [
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -89403,7 +89564,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -89462,7 +89623,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -89496,7 +89657,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -89532,7 +89693,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -89561,7 +89722,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -89678,7 +89839,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -89997,7 +90158,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -90031,7 +90192,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -90092,7 +90253,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -90134,7 +90295,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -90261,7 +90422,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -90296,7 +90457,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -90332,7 +90493,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -90367,7 +90528,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -90402,7 +90563,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -90472,7 +90633,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -90506,7 +90667,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -90534,7 +90695,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -90598,7 +90759,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -90868,7 +91029,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -91034,7 +91195,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -91062,7 +91223,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -91115,7 +91276,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -91164,7 +91325,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -91183,7 +91344,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -91202,7 +91363,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -91221,7 +91382,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -91289,7 +91450,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -91430,7 +91591,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -91449,7 +91610,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -91467,7 +91628,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -91485,7 +91646,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -91573,7 +91734,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -91601,7 +91762,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -91718,7 +91879,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -91778,7 +91939,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -91967,7 +92128,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -92005,7 +92166,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -92042,7 +92203,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -92140,7 +92301,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -92185,7 +92346,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -92230,7 +92391,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -92275,7 +92436,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -92320,7 +92481,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -92333,7 +92494,7 @@
     "container-title": "The New York Times",
     "section": "World",
     "source": "NYTimes.com",
-    "abstract": "More than 4.36 billion vaccine doses have been administered worldwide, equal to 57 doses for every 100 people.",
+    "abstract": "More than 4.48 billion vaccine doses have been administered worldwide, equal to 58 doses for every 100 people.",
     "URL": "https://www.nytimes.com/interactive/2021/world/covid-vaccinations-tracker.html",
     "ISSN": "0362-4331",
     "language": "en-US",
@@ -92357,7 +92518,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -92508,7 +92669,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -92523,7 +92684,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -92567,7 +92728,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -92584,7 +92745,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -92619,7 +92780,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -92654,7 +92815,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -92724,7 +92885,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -92802,9 +92963,37 @@
     "note": "This CSL JSON Item was automatically generated by Manubot v0.4.0 using citation-by-identifier.\nstandard_id: url:https://www.the-scientist.com/news-opinion/newer-vaccine-technologies-deployed-to-develop-covid-19-shot-67152\nLoaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references.json"
   },
   {
-    "URL": "https://www.themoscowtimes.com/2020/12/29/belarus-starts-coronavirus-vaccination-with-sputnik-v-a72512",
-    "type": "webpage",
     "id": "16GYKbrOq",
+    "type": "webpage",
+    "title": "Belarus Starts Coronavirus Vaccination With Sputnik V",
+    "container-title": "The Moscow Times",
+    "abstract": "The former Soviet country has become the first country outside Russia to use the Moscow-developed vaccine.",
+    "URL": "https://www.themoscowtimes.com/2020/12/29/belarus-starts-coronavirus-vaccination-with-sputnik-v-a72512",
+    "language": "en",
+    "author": [
+      {
+        "family": "AFP",
+        "given": ""
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2020",
+          12,
+          29
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          "2021",
+          8,
+          10
+        ]
+      ]
+    },
     "note": "This CSL Item was generated by Manubot v0.5.1 from its persistent identifier (standard_id).\nstandard_id: url:https://www.themoscowtimes.com/2020/12/29/belarus-starts-coronavirus-vaccination-with-sputnik-v-a72512"
   },
   {
@@ -92822,7 +93011,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -92882,21 +93071,9 @@
     "note": "This CSL JSON Item was automatically generated by Manubot v0.4.1 using citation-by-identifier.\nstandard_id: url:https://www.who.int/csr/don/21-december-2020-sars-cov2-variant-united-kingdom/en\nLoaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-2021-02-08.json\noriginal_id: yGbEmOvB"
   },
   {
-    "id": "im26z7DR",
+    "URL": "https://www.who.int/csr/sars/country/en",
     "type": "webpage",
-    "title": "Severe Acute Respiratory Syndrome (SARS)",
-    "abstract": "There is no cure or vaccine for SARS and treatment should be supportive and based on the patient’s symptoms.",
-    "URL": "https://www.who.int/westernpacific/health-topics/severe-acute-respiratory-syndrome",
-    "language": "en",
-    "accessed": {
-      "date-parts": [
-        [
-          "2021",
-          8,
-          6
-        ]
-      ]
-    },
+    "id": "im26z7DR",
     "note": "This CSL Item was generated by Manubot v0.5.1 from its persistent identifier (standard_id).\nstandard_id: url:https://www.who.int/csr/sars/country/en"
   },
   {
@@ -93040,7 +93217,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -93076,7 +93253,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -93094,7 +93271,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -93112,7 +93289,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -93136,7 +93313,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
@@ -93174,7 +93351,7 @@
         [
           "2021",
           8,
-          6
+          10
         ]
       ]
     },
