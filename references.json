@@ -849,7 +849,7 @@
         [
           "2021",
           8,
-          8
+          9
         ]
       ]
     }
@@ -1326,7 +1326,7 @@
         [
           "2021",
           8,
-          8
+          9
         ]
       ]
     }
@@ -1418,7 +1418,7 @@
         [
           "2021",
           8,
-          8
+          9
         ]
       ]
     }
@@ -1511,7 +1511,7 @@
         [
           "2021",
           8,
-          8
+          9
         ]
       ]
     }
@@ -1677,7 +1677,7 @@
         [
           "2021",
           8,
-          8
+          9
         ]
       ]
     }
@@ -1880,7 +1880,7 @@
         [
           "2021",
           8,
-          8
+          9
         ]
       ]
     }
@@ -1935,7 +1935,7 @@
         [
           "2021",
           8,
-          8
+          9
         ]
       ]
     }
@@ -2101,7 +2101,7 @@
         [
           "2021",
           8,
-          8
+          9
         ]
       ]
     }
@@ -2138,7 +2138,7 @@
         [
           "2021",
           8,
-          8
+          9
         ]
       ]
     }
@@ -2175,7 +2175,7 @@
         [
           "2021",
           8,
-          8
+          9
         ]
       ]
     }
@@ -2248,7 +2248,7 @@
         [
           "2021",
           8,
-          8
+          9
         ]
       ]
     }
@@ -2285,7 +2285,7 @@
         [
           "2021",
           8,
-          8
+          9
         ]
       ]
     }
@@ -2322,7 +2322,7 @@
         [
           "2021",
           8,
-          8
+          9
         ]
       ]
     }
@@ -2359,7 +2359,7 @@
         [
           "2021",
           8,
-          8
+          9
         ]
       ]
     }
@@ -2396,7 +2396,7 @@
         [
           "2021",
           8,
-          8
+          9
         ]
       ]
     }
@@ -2470,7 +2470,7 @@
         [
           "2021",
           8,
-          8
+          9
         ]
       ]
     }
@@ -32663,6 +32663,176 @@
   },
   {
     "type": "article-journal",
+    "id": "5tU6buUE",
+    "author": [
+      {
+        "family": "Allen",
+        "given": "William E."
+      },
+      {
+        "family": "Altae-Tran",
+        "given": "Han"
+      },
+      {
+        "family": "Briggs",
+        "given": "James"
+      },
+      {
+        "family": "Jin",
+        "given": "Xin"
+      },
+      {
+        "family": "McGee",
+        "given": "Glen"
+      },
+      {
+        "family": "Shi",
+        "given": "Andy"
+      },
+      {
+        "family": "Raghavan",
+        "given": "Rumya"
+      },
+      {
+        "family": "Kamariza",
+        "given": "Mireille"
+      },
+      {
+        "family": "Nova",
+        "given": "Nicole"
+      },
+      {
+        "family": "Pereta",
+        "given": "Albert"
+      },
+      {
+        "family": "Danford",
+        "given": "Chris"
+      },
+      {
+        "family": "Kamel",
+        "given": "Amine"
+      },
+      {
+        "family": "Gothe",
+        "given": "Patrik"
+      },
+      {
+        "family": "Milam",
+        "given": "Evrhet"
+      },
+      {
+        "family": "Aurambault",
+        "given": "Jean"
+      },
+      {
+        "family": "Primke",
+        "given": "Thorben"
+      },
+      {
+        "family": "Li",
+        "given": "Weijie"
+      },
+      {
+        "family": "Inkenbrandt",
+        "given": "Josh"
+      },
+      {
+        "family": "Huynh",
+        "given": "Tuan"
+      },
+      {
+        "family": "Chen",
+        "given": "Evan"
+      },
+      {
+        "family": "Lee",
+        "given": "Christina"
+      },
+      {
+        "family": "Croatto",
+        "given": "Michael"
+      },
+      {
+        "family": "Bentley",
+        "given": "Helen"
+      },
+      {
+        "family": "Lu",
+        "given": "Wendy"
+      },
+      {
+        "family": "Murray",
+        "given": "Robert"
+      },
+      {
+        "family": "Travassos",
+        "given": "Mark"
+      },
+      {
+        "family": "Coull",
+        "given": "Brent A."
+      },
+      {
+        "family": "Openshaw",
+        "given": "John"
+      },
+      {
+        "family": "Greene",
+        "given": "Casey S."
+      },
+      {
+        "family": "Shalem",
+        "given": "Ophir"
+      },
+      {
+        "family": "King",
+        "given": "Gary"
+      },
+      {
+        "family": "Probasco",
+        "given": "Ryan"
+      },
+      {
+        "family": "Cheng",
+        "given": "David R."
+      },
+      {
+        "family": "Silbermann",
+        "given": "Ben"
+      },
+      {
+        "family": "Zhang",
+        "given": "Feng"
+      },
+      {
+        "family": "Lin",
+        "given": "Xihong"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          26
+        ]
+      ]
+    },
+    "container-title": "Nature Human Behaviour",
+    "DOI": "10.1038/s41562-020-00944-2",
+    "volume": "4",
+    "issue": "9",
+    "page": "972-982",
+    "publisher": "Springer Science and Business Media LLC",
+    "title": "Population-scale longitudinal mapping of COVID-19 symptoms, behaviour and testing",
+    "URL": "https://doi.org/gg9dfq",
+    "PMCID": "PMC7501153",
+    "PMID": "32848231",
+    "note": "This CSL Item was generated by Manubot v0.5.1 from its persistent identifier (standard_id).\nstandard_id: doi:10.1038/s41562-020-00944-2"
+  },
+  {
+    "type": "article-journal",
     "id": "m1wjdQSV",
     "author": [
       {
@@ -61603,174 +61773,6 @@
   },
   {
     "type": "article-journal",
-    "id": "19IBzQBhB",
-    "author": [
-      {
-        "family": "Allen",
-        "given": "William E."
-      },
-      {
-        "family": "Altae-Tran",
-        "given": "Han"
-      },
-      {
-        "family": "Briggs",
-        "given": "James"
-      },
-      {
-        "family": "Jin",
-        "given": "Xin"
-      },
-      {
-        "family": "McGee",
-        "given": "Glen"
-      },
-      {
-        "family": "Shi",
-        "given": "Andy"
-      },
-      {
-        "family": "Raghavan",
-        "given": "Rumya"
-      },
-      {
-        "family": "Kamariza",
-        "given": "Mireille"
-      },
-      {
-        "family": "Nova",
-        "given": "Nicole"
-      },
-      {
-        "family": "Pereta",
-        "given": "Albert"
-      },
-      {
-        "family": "Danford",
-        "given": "Chris"
-      },
-      {
-        "family": "Kamel",
-        "given": "Amine"
-      },
-      {
-        "family": "Gothe",
-        "given": "Patrik"
-      },
-      {
-        "family": "Milam",
-        "given": "Evrhet"
-      },
-      {
-        "family": "Aurambault",
-        "given": "Jean"
-      },
-      {
-        "family": "Primke",
-        "given": "Thorben"
-      },
-      {
-        "family": "Li",
-        "given": "Weijie"
-      },
-      {
-        "family": "Inkenbrandt",
-        "given": "Josh"
-      },
-      {
-        "family": "Huynh",
-        "given": "Tuan"
-      },
-      {
-        "family": "Chen",
-        "given": "Evan"
-      },
-      {
-        "family": "Lee",
-        "given": "Christina"
-      },
-      {
-        "family": "Croatto",
-        "given": "Michael"
-      },
-      {
-        "family": "Bentley",
-        "given": "Helen"
-      },
-      {
-        "family": "Lu",
-        "given": "Wendy"
-      },
-      {
-        "family": "Murray",
-        "given": "Robert"
-      },
-      {
-        "family": "Travassos",
-        "given": "Mark"
-      },
-      {
-        "family": "Coull",
-        "given": "Brent A."
-      },
-      {
-        "family": "Openshaw",
-        "given": "John"
-      },
-      {
-        "family": "Greene",
-        "given": "Casey S."
-      },
-      {
-        "family": "Shalem",
-        "given": "Ophir"
-      },
-      {
-        "family": "King",
-        "given": "Gary"
-      },
-      {
-        "family": "Probasco",
-        "given": "Ryan"
-      },
-      {
-        "family": "Cheng",
-        "given": "David R."
-      },
-      {
-        "family": "Silbermann",
-        "given": "Ben"
-      },
-      {
-        "family": "Zhang",
-        "given": "Feng"
-      },
-      {
-        "family": "Lin",
-        "given": "Xihong"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          2020,
-          6,
-          11
-        ]
-      ]
-    },
-    "abstract": "Despite social distancing and shelter-in-place policies, COVID-19 continues to spread in the United States. A lack of timely information about factors influencing COVID-19 spread and testing has hampered agile responses to the pandemic. We developed How We Feel, an extensible web and mobile application that aggregates self-reported survey responses, to fill gaps in the collection of COVID-19-related data. How We Feel collects longitudinal and geographically localized information on users’ health, behavior, and demographics. Here we report results from over 500,000 users in the United States from April 2, 2020 to May 12, 2020. We show that self-reported surveys can be used to build predictive models of COVID-19 test results, which may aid in identification of likely COVID-19 positive individuals. We find evidence among our users for asymptomatic or presymptomatic presentation, as well as for household and community exposure, occupation, and demographics being strong risk factors for COVID-19. We further reveal factors for which users have been SARS-CoV-2 PCR tested, as well as the temporal dynamics of self-reported symptoms and self-isolation behavior in positive and negative users. These results highlight the utility of collecting a diverse set of symptomatic, demographic, and behavioral self-reported data to fight the COVID-19 pandemic.",
-    "container-title": "Cold Spring Harbor Laboratory",
-    "DOI": "10.1101/2020.06.09.20126813",
-    "publisher": "Cold Spring Harbor Laboratory",
-    "title": "Population-scale Longitudinal Mapping of COVID-19 Symptoms, Behavior, and Testing Identifies Contributors to Continued Disease Spread in the United States",
-    "URL": "https://doi.org/gg8skn",
-    "PMCID": "PMC7302230",
-    "PMID": "32577674",
-    "note": "This CSL JSON Item was automatically generated by Manubot v0.4.1 using citation-by-identifier.\nstandard_id: doi:10.1101/2020.06.09.20126813\nLoaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-2021-02-08.json\noriginal_id: 19IBzQBhB"
-  },
-  {
-    "type": "article-journal",
     "id": "xnPm1mx8",
     "author": [
       {
@@ -73759,6 +73761,265 @@
     "URL": "https://doi.org/gj4qgp",
     "PMID": "32576548",
     "note": "This CSL Item was generated by Manubot v0.5.1 from its persistent identifier (standard_id).\nstandard_id: doi:10.1136/bmj.m2512"
+  },
+  {
+    "type": "article-journal",
+    "id": "17uZcQTT",
+    "author": [
+      {
+        "family": "Rochwerg",
+        "given": "Bram"
+      },
+      {
+        "family": "Agarwal",
+        "given": "Arnav"
+      },
+      {
+        "family": "Siemieniuk",
+        "given": "Reed AC"
+      },
+      {
+        "family": "Agoritsas",
+        "given": "Thomas"
+      },
+      {
+        "family": "Lamontagne",
+        "given": "François"
+      },
+      {
+        "family": "Askie",
+        "given": "Lisa"
+      },
+      {
+        "family": "Lytvyn",
+        "given": "Lyubov"
+      },
+      {
+        "family": "Leo",
+        "given": "Yee-Sin"
+      },
+      {
+        "family": "Macdonald",
+        "given": "Helen"
+      },
+      {
+        "family": "Zeng",
+        "given": "Linan"
+      },
+      {
+        "family": "Amin",
+        "given": "Wagdy"
+      },
+      {
+        "family": "Burhan",
+        "given": "Erlina"
+      },
+      {
+        "family": "Bausch",
+        "given": "Frederique Jacquerioz"
+      },
+      {
+        "family": "Calfee",
+        "given": "Carolyn S"
+      },
+      {
+        "family": "Cecconi",
+        "given": "Maurizio"
+      },
+      {
+        "family": "Chanda",
+        "given": "Duncan"
+      },
+      {
+        "family": "Du",
+        "given": "Bin"
+      },
+      {
+        "family": "Geduld",
+        "given": "Heike"
+      },
+      {
+        "family": "Gee",
+        "given": "Patrick"
+      },
+      {
+        "family": "Harley",
+        "given": "Nerina"
+      },
+      {
+        "family": "Hashimi",
+        "given": "Madiha"
+      },
+      {
+        "family": "Hunt",
+        "given": "Beverly"
+      },
+      {
+        "family": "Kabra",
+        "given": "Sushil K"
+      },
+      {
+        "family": "Kanda",
+        "given": "Seema"
+      },
+      {
+        "family": "Kawano-Dourado",
+        "given": "Leticia"
+      },
+      {
+        "family": "Kim",
+        "given": "Yae-Jean"
+      },
+      {
+        "family": "Kissoon",
+        "given": "Niranjan"
+      },
+      {
+        "family": "Kwizera",
+        "given": "Arthur"
+      },
+      {
+        "family": "Mahaka",
+        "given": "Imelda"
+      },
+      {
+        "family": "Manai",
+        "given": "Hela"
+      },
+      {
+        "family": "Mino",
+        "given": "Greta"
+      },
+      {
+        "family": "Nsutebu",
+        "given": "Emmanuel"
+      },
+      {
+        "family": "Preller",
+        "given": "Jacobus"
+      },
+      {
+        "family": "Pshenichnaya",
+        "given": "Natalia"
+      },
+      {
+        "family": "Qadir",
+        "given": "Nida"
+      },
+      {
+        "family": "Sabzwari",
+        "given": "Saniya"
+      },
+      {
+        "family": "Sarin",
+        "given": "Rohit"
+      },
+      {
+        "family": "Shankar-Hari",
+        "given": "Manu"
+      },
+      {
+        "family": "Sharland",
+        "given": "Michael"
+      },
+      {
+        "family": "Shen",
+        "given": "Yinzhong"
+      },
+      {
+        "family": "Ranganathan",
+        "given": "Shalini Sri"
+      },
+      {
+        "family": "Souza",
+        "given": "Joao P"
+      },
+      {
+        "family": "Stegemann",
+        "given": "Miriam"
+      },
+      {
+        "family": "De Sutter",
+        "given": "An"
+      },
+      {
+        "family": "Ugarte",
+        "given": "Sebastian"
+      },
+      {
+        "family": "Venkatapuram",
+        "given": "Sridhar"
+      },
+      {
+        "family": "Dat",
+        "given": "Vu Quoc"
+      },
+      {
+        "family": "Vuyiseka",
+        "given": "Dubula"
+      },
+      {
+        "family": "Wijewickrama",
+        "given": "Ananda"
+      },
+      {
+        "family": "Maguire",
+        "given": "Brittany"
+      },
+      {
+        "family": "Zeraatkar",
+        "given": "Dena"
+      },
+      {
+        "family": "Bartoszko",
+        "given": "Jessica J"
+      },
+      {
+        "family": "Ge",
+        "given": "Long"
+      },
+      {
+        "family": "Brignardello-Petersen",
+        "given": "Romina"
+      },
+      {
+        "family": "Owen",
+        "given": "Andrew"
+      },
+      {
+        "family": "Guyatt",
+        "given": "Gordon"
+      },
+      {
+        "family": "Diaz",
+        "given": "Janet"
+      },
+      {
+        "family": "Jacobs",
+        "given": "Michael"
+      },
+      {
+        "family": "Vandvik",
+        "given": "Per Olav"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          4
+        ]
+      ]
+    },
+    "container-title": "BMJ",
+    "DOI": "10.1136/bmj.m3379",
+    "page": "m3379",
+    "publisher": "BMJ",
+    "title": "A living WHO guideline on drugs for covid-19",
+    "URL": "https://doi.org/ghktgm",
+    "PMID": "32887691",
+    "note": "This CSL Item was generated by Manubot v0.5.1 from its persistent identifier (standard_id).\nstandard_id: doi:10.1136/bmj.m3379"
   },
   {
     "type": "article-journal",
@@ -87601,7 +87862,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -87626,7 +87887,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -87651,7 +87912,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -87682,7 +87943,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -87776,7 +88037,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -87794,7 +88055,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -87941,7 +88202,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -87979,7 +88240,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -88068,7 +88329,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -88219,7 +88480,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -88238,7 +88499,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -88257,7 +88518,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -88301,7 +88562,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -88349,7 +88610,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -88416,7 +88677,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -88535,7 +88796,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -88552,7 +88813,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -88744,7 +89005,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -88815,7 +89076,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -88831,7 +89092,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -88867,7 +89128,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -88885,7 +89146,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -88903,7 +89164,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -88980,7 +89241,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -88998,7 +89259,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -89023,7 +89284,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -89040,7 +89301,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -89250,7 +89511,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -89281,7 +89542,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -89343,7 +89604,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -89374,7 +89635,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -89405,7 +89666,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -89428,7 +89689,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -89459,7 +89720,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -89469,13 +89730,13 @@
     "id": "DQmAgN0V",
     "type": "webpage",
     "title": "Bloomberg - Are you a robot?",
-    "URL": "https://www.bloomberg.com/tosv2.html?vid=&uuid=b8a05910-f9e7-11eb-a467-7feaadf1f08a&url=L2dyYXBoaWNzL2NvdmlkLXZhY2NpbmUtdHJhY2tlci1nbG9iYWwtZGlzdHJpYnV0aW9u",
+    "URL": "https://www.bloomberg.com/tosv2.html?vid=&uuid=b1a9a700-faf1-11eb-916c-f537a4f5a8c5&url=L2dyYXBoaWNzL2NvdmlkLXZhY2NpbmUtdHJhY2tlci1nbG9iYWwtZGlzdHJpYnV0aW9u",
     "accessed": {
       "date-parts": [
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -89485,13 +89746,13 @@
     "id": "uvQMgFXB",
     "type": "webpage",
     "title": "Bloomberg - Are you a robot?",
-    "URL": "https://www.bloomberg.com/tosv2.html?vid=&uuid=b8b826d0-f9e7-11eb-b040-4db5a0eb44d4&url=L25ld3MvYXJ0aWNsZXMvMjAyMC0xMi0wMi93aXRoaW4taG91cnMtb2YtdS1rLXB1dGluLW9yZGVycy1zdGFydC1vZi1tYXNzLWNvdmlkLTE5LXNob3Rz",
+    "URL": "https://www.bloomberg.com/tosv2.html?vid=&uuid=b23f5750-faf1-11eb-8a2d-b92436010957&url=L25ld3MvYXJ0aWNsZXMvMjAyMC0xMi0wMi93aXRoaW4taG91cnMtb2YtdS1rLXB1dGluLW9yZGVycy1zdGFydC1vZi1tYXNzLWNvdmlkLTE5LXNob3Rz",
     "accessed": {
       "date-parts": [
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -89564,7 +89825,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -89623,7 +89884,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -89657,7 +89918,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -89693,7 +89954,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -89722,7 +89983,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -89839,7 +90100,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -90158,7 +90419,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -90192,7 +90453,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -90241,19 +90502,29 @@
     "container-title": "CNN",
     "abstract": "As the number of Covid-19 cases reported in the United States passed 18 million, the second vaccine given emergency authorization was being administered Monday for the first time outside of clinical trials.",
     "URL": "https://www.cnn.com/2020/12/21/health/us-coronavirus-monday/index.html",
+    "language": "en",
     "author": [
       {
-        "family": "CNN",
-        "given": "Madeline Holcombe",
-        "suffix": "Holly Yan and Steve Almasy"
+        "family": "Almasy",
+        "given": "By Madeline Holcombe",
+        "suffix": "Holly Yan and Steve"
       }
     ],
+    "issued": {
+      "date-parts": [
+        [
+          "2020",
+          12,
+          21
+        ]
+      ]
+    },
     "accessed": {
       "date-parts": [
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -90295,7 +90566,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -90422,7 +90693,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -90457,7 +90728,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -90493,7 +90764,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -90528,7 +90799,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -90563,7 +90834,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -90633,7 +90904,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -90667,7 +90938,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -90695,7 +90966,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -90759,7 +91030,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -91029,7 +91300,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -91195,7 +91466,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -91223,7 +91494,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -91276,7 +91547,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -91325,7 +91596,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -91344,7 +91615,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -91363,7 +91634,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -91382,7 +91653,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -91450,7 +91721,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -91591,7 +91862,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -91610,7 +91881,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -91628,7 +91899,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -91646,7 +91917,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -91734,7 +92005,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -91743,26 +92014,14 @@
   {
     "id": "5xGlWp9l",
     "type": "webpage",
-    "title": "#IndiaFightsCorona COVID-19",
-    "container-title": "MyGov.in",
-    "abstract": "Government of India is taking all necessary steps to ensure that we are prepared well to face the challenge and threat posed by the growing pandemic of COVID-19 the Corona Virus. Learn about Symptoms, Prevention, Travel Advisory and common FAQs on CoronaVirus.",
-    "URL": "https://mygov.in/covid-19/",
-    "language": "en",
-    "issued": {
-      "date-parts": [
-        [
-          "2020",
-          3,
-          16
-        ]
-      ]
-    },
+    "title": "#IndiaFightsCorona COVID-19 in India, Vaccination, Dashboard , Corona Virus Tracker | mygov.in",
+    "URL": "https://www.mygov.in/covid-19",
     "accessed": {
       "date-parts": [
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -91879,7 +92138,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -91939,7 +92198,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -92128,7 +92387,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -92166,7 +92425,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -92203,7 +92462,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -92301,7 +92560,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -92346,7 +92605,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -92391,7 +92650,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -92436,7 +92695,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -92481,7 +92740,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -92494,7 +92753,7 @@
     "container-title": "The New York Times",
     "section": "World",
     "source": "NYTimes.com",
-    "abstract": "More than 4.48 billion vaccine doses have been administered worldwide, equal to 58 doses for every 100 people.",
+    "abstract": "More than 4.54 billion vaccine doses have been administered worldwide, equal to 59 doses for every 100 people.",
     "URL": "https://www.nytimes.com/interactive/2021/world/covid-vaccinations-tracker.html",
     "ISSN": "0362-4331",
     "language": "en-US",
@@ -92518,7 +92777,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -92669,7 +92928,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -92684,7 +92943,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -92728,7 +92987,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -92745,7 +93004,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -92780,7 +93039,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -92815,7 +93074,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -92885,7 +93144,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -92990,7 +93249,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -93011,7 +93270,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -93071,9 +93330,21 @@
     "note": "This CSL JSON Item was automatically generated by Manubot v0.4.1 using citation-by-identifier.\nstandard_id: url:https://www.who.int/csr/don/21-december-2020-sars-cov2-variant-united-kingdom/en\nLoaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-2021-02-08.json\noriginal_id: yGbEmOvB"
   },
   {
-    "URL": "https://www.who.int/csr/sars/country/en",
-    "type": "webpage",
     "id": "im26z7DR",
+    "type": "webpage",
+    "title": "Severe Acute Respiratory Syndrome (SARS)",
+    "abstract": "There is no cure or vaccine for SARS and treatment should be supportive and based on the patient’s symptoms.",
+    "URL": "https://www.who.int/westernpacific/health-topics/severe-acute-respiratory-syndrome",
+    "language": "en",
+    "accessed": {
+      "date-parts": [
+        [
+          "2021",
+          8,
+          11
+        ]
+      ]
+    },
     "note": "This CSL Item was generated by Manubot v0.5.1 from its persistent identifier (standard_id).\nstandard_id: url:https://www.who.int/csr/sars/country/en"
   },
   {
@@ -93217,7 +93488,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -93253,7 +93524,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -93271,7 +93542,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -93289,7 +93560,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -93313,7 +93584,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },
@@ -93351,7 +93622,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     },

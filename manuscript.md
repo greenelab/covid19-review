@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2021-08-10'
+date-meta: '2021-08-11'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -70,8 +70,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2021-08-10" />
-  <meta name="citation_publication_date" content="2021-08-10" />
+  <meta name="dc.date" content="2021-08-11" />
+  <meta name="citation_publication_date" content="2021-08-11" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -278,13 +278,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/0e0143cf2ea2631b03773b1792fb7d2309f128ba/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/0e0143cf2ea2631b03773b1792fb7d2309f128ba/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/0e0143cf2ea2631b03773b1792fb7d2309f128ba/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/c7c0b4a8c8e063dfdf895c017530e11e28a6fb34/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/c7c0b4a8c8e063dfdf895c017530e11e28a6fb34/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/c7c0b4a8c8e063dfdf895c017530e11e28a6fb34/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/0e0143cf2ea2631b03773b1792fb7d2309f128ba/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/0e0143cf2ea2631b03773b1792fb7d2309f128ba/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/c7c0b4a8c8e063dfdf895c017530e11e28a6fb34/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/c7c0b4a8c8e063dfdf895c017530e11e28a6fb34/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -306,10 +306,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/0e0143cf2ea2631b03773b1792fb7d2309f128ba/))
+([permalink](https://greenelab.github.io/covid19-review/v/c7c0b4a8c8e063dfdf895c017530e11e28a6fb34/))
 was automatically generated
-from [greenelab/covid19-review@0e0143c](https://github.com/greenelab/covid19-review/tree/0e0143cf2ea2631b03773b1792fb7d2309f128ba)
-on August 10, 2021.
+from [greenelab/covid19-review@c7c0b4a](https://github.com/greenelab/covid19-review/tree/c7c0b4a8c8e063dfdf895c017530e11e28a6fb34)
+on August 11, 2021.
 Snapshots of individual sections are available as preprints [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals].
 </em></small>
 
@@ -764,12 +764,12 @@ Most of these cases were in China, but one to two exported cases had also been i
 One week later, 4,593 confirmed cases had been identified, spanning not only Asia, but also Australia, North America, and Europe [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128-sitrep-8-ncov-cleared.pdf].
 On March 11, 2020, the WHO formally classified the situation as a pandemic [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200311-sitrep-51-covid-19.pdf].
 On April 4, 2020, the WHO reported that the global number of confirmed cases had surpassed one million [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200404-sitrep-75-covid-19.pdf].
-<!--4,294,361 COVID-19 deaths had been reported worldwide as of August 8, 2021 (Figure @fig:csse-deaths).
+<!--4,302,961 COVID-19 deaths had been reported worldwide as of August 9, 2021 (Figure @fig:csse-deaths).
 
 ![
 **Cumulative global COVID-19 deaths since January 22, 2020.**
 Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
-](https://github.com/greenelab/covid19-review/raw/b64d68a24bf87c7c77c179aab0fb58b7cf347c36/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1} -->
+](https://github.com/greenelab/covid19-review/raw/0969fb531965eb11fac8a8652bd53b917558c219/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1} -->
 
 As international attention remains focused on the ongoing public health crisis, the scientific community has responded by mobilizing resources and turning much of its attention to the virus and disease.
 This rapid influx of information is disseminated by traditional publishing mechanisms, preprint servers, and press releases, which provide a venue for scientists to release findings without undergoing the formal publication process.
@@ -904,7 +904,7 @@ The goal of this manuscript is to present preliminary findings within the broade
 
 ### Abstract
 
-The novel coronavirus SARS-CoV-2, which emerged in late 2019, has since spread around the world infecting tens of millions of people with coronavirus disease 2019 (COVID-19).
+The novel coronavirus SARS-CoV-2, which emerged in late 2019, has since spread around the world infecting hundreds of millions of people with coronavirus disease 2019 (COVID-19).
 While this viral species was unknown prior to January 2020, its similarity to other coronaviruses that infect humans has allowed for rapid insight into the mechanisms that it uses to infect human hosts, as well as the ways in which the human immune system can respond.
 Here, we contextualize SARS-CoV-2 among other coronaviruses and identify what is known and what can be inferred about its behavior once inside a human host.
 Because the genomic content of coronaviruses, which specifies the virus's structure, is highly conserved, early genomic analysis provided a significant head start in predicting viral pathogenesis.
@@ -916,7 +916,7 @@ Understanding the structure and behavior of the virus serves to contextualize th
 ### Importance
 
 COVID-19 involves a number of organ systems and can present with a wide range of symptoms.
-Understanding how the virus infects epithelial cells, however, serves to contextualize how these systems connect.
+Understanding how the SARS-CoV-2 virus infects epithelial cells, however, serves to contextualize how these systems connect.
 Similarly, while the modes of viral transmission have been under debate throughout much of 2020 and the beginning of 2021, the available research suggests that these patterns are very similar to those seen in the closely related viruses SARS-CoV-1 and possibly MERS-CoV.
 Exploring the structure, phylogeny, and pathogenesis of the virus therefore helps to guide interpretation of the broader impacts of the virus on the human body and on human populations.
 For this reason, an in-depth exploration of viral mechanisms is critical to a robust understanding of the COVID-19 pandemic.
@@ -1049,6 +1049,7 @@ As it becomes clear that SARS-CoV-2 infection can damage multiple organs, the sc
 
 SARS-CoV-2 pathogenesis is closely linked with the clinical presentation of the COVID-19 disease.
 Reports have described diverse symptom profiles associated with COVID-19, with a great deal of variability both within and between institutions and regions.
+Definitions for non-severe, severe, and critical COVID-19, along with treatment recommendations, are available from the World Health Organization living guidelines [@doi:10.1136/bmj.m3379].
 A large study from Wuhan, China conducted early in the pandemic identified fever and cough as the two most common symptoms that patients reported at hospital admission [@doi:10.1056/NEJMoa2002032], while a retrospective study in China described the clinical presentations of patients infected with SARS-CoV-2 as including lower respiratory tract infection with fever, dry cough, and dyspnea (shortness of breath) [@doi:10/ggnxb3].
 This study [@doi:10/ggnxb3] noted that upper respiratory tract symptoms were less common, suggesting that the virus preferentially targets cells located in the lower respiratory tract.
 However, data from the New York City region [@doi:10.1001/jama.2020.6775; @doi:10.1056/NEJMc2010419] showed variable rates of fever as a presenting symptom, suggesting that symptoms may not be consistent across individuals.
@@ -1056,7 +1057,7 @@ For example, even within New York City, one study [@doi:10.1001/jama.2020.6775] 
 A later study reported radiographic findings such as ground-glass opacity and bilateral patchy shadowing in the lungs of many hospitalized patients, with most COVID-19 patients having lymphocytopenia, or low levels of lymphocytes (a type of white blood cell) [@doi:10.1056/NEJMoa2002032].
 Patients may also experience loss of smell, myalgias (muscle aches), fatigue, or headache.
 Gastrointestinal symptoms can also present [@doi:10.15585/mmwr.mm6928a2], and the CDC includes nausea and vomiting, as well congestion and runny nose, on its list of symptoms consistent with COVID-19 [@url:https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html].
-A preprint using data from an app-based survey of 500,000 individuals in the US found that among those tested for SARS-CoV-2, a loss of taste or smell, fever, and a cough were significant predictors of a positive test result [@doi:10.1101/2020.06.09.20126813].
+An analysis of an app-based survey of 500,000 individuals in the US found that among those tested for SARS-CoV-2, a loss of taste or smell, fever, and a cough were significant predictors of a positive test result [@doi:10.1038/s41562-020-00944-2].
 It is important to note that in this study, the predictive value of symptoms may be underestimated if they are not specific to COVID-19.
 This underestimation could occur because the outcome measured was a positive, as opposed to a negative, COVID-19 test result, meaning an association would be more easily identified for symptoms that were primarily or exclusively found with COVID-19.
 At the time the surveys were conducted, due to limits in US testing infrastructure, respondents typically needed to have some symptoms known to be specific to COVID-19 in order to qualify for testing.
@@ -1091,7 +1092,7 @@ Neurological symptoms have also been reported [@doi:10.1001/jamaneurol.2020.2687
 
 These analyses indicate that most pediatric cases of COVID-19 are not severe.
 Indeed, it is estimated that less than 1% of pediatric cases result in critical illness [@doi:10.1056/NEJMc2007617; @doi:10.1111/apa.15270].
-However, serious complications and, in rare cases, deaths have occurred [@doi:10.1016/j.eclinm.2020.100433].
+However, serious complications and, in relatively rare cases, deaths have occurred [@doi:10.1016/j.eclinm.2020.100433].
 Of particular interest, children have occasionally experienced a serious inflammatory syndrome, multisystem inflammatory syndrome in children (MIS-C), following COVID-19 infection.
 This syndrome is similar in some respects to Kawasaki disease, including Kawasaki disease shock syndrome [@doi:10.1093/jpids/piaa069; @doi:10.1001/jama.2020.10369; @doi:10.1016/j.ajem.2020.05.117] and is thought to be a distinct clinical manifestation of SARS-CoV-2 due to its distinct cytokine profile and the presence of burr cells in peripheral blood smears [@doi:10.1172/JCI140970; @doi:10.1016/j.cell.2020.09.016].
 MIS-C has been associated with heart failure in some cases [@doi:10.1161/CIRCULATIONAHA.120.048360].
@@ -1986,13 +1987,13 @@ The scale of the COVID-19 pandemic has made the repurposing and development of p
 
 ![
 **Cumulative global incidence of COVID-19 and SARS.**
-As of August 8, 2021, 202,728,255 COVID-19 cases and 4,294,361 COVID-19 deaths had been reported worldwide since January 22, 2020.
+As of August 9, 2021, 203,384,856 COVID-19 cases and 4,302,961 COVID-19 deaths had been reported worldwide since January 22, 2020.
 A total of 8,432 cases and 813 deaths were reported for SARS from March 17 to July 11, 2003.
 SARS-CoV-1 was officially contained on July 5, 2003, within 9 months of its appearance [@doi:10.3390/ijerph17113973].
 In contrast, SARS-CoV-2 remains a significant global threat nearly two years after its emergence.
 COVID-19 data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series; @doi:10/ggnsjk].
 SARS data are from the WHO [@url:https://www.who.int/csr/sars/country/en] and were obtained from a dataset on GitHub [@url:https://github.com/imdevskp/sars-2003-outbreak-data-webscraping-code].
-](https://github.com/greenelab/covid19-review/raw/b64d68a24bf87c7c77c179aab0fb58b7cf347c36/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
+](https://github.com/greenelab/covid19-review/raw/0969fb531965eb11fac8a8652bd53b917558c219/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
 
 At first, SARS-CoV-2's rapid shift from an unknown virus to a significant worldwide threat closely paralleled the emergence of _Severe acute respiratory syndrome-related coronavirus_ (SARS-CoV-1), which was responsible for the 2002-03 SARS epidemic.
 The first documented case of COVID-19 was reported in Wuhan, China in November 2019, and the disease quickly spread worldwide in the early months of 2020.
@@ -2048,7 +2049,7 @@ Of the interventional trials, 98 trials had reported results as of December 31, 
 Recruitment status and trial phase are shown only for interventional trials in which the status or phase is recorded.
 Common interventions refers to interventions used in at least ten trials.
 Combinations of interventions, such as hydroxychloroquine with azithromycin, are tallied separately from the individual interventions.
-](https://github.com/greenelab/covid19-review/raw/b64d68a24bf87c7c77c179aab0fb58b7cf347c36/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/0969fb531965eb11fac8a8652bd53b917558c219/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 The purpose of this review is to provide an evolving resource tracking the status of efforts to repurpose and develop drugs for the treatment of COVID-19.
 We highlight four strategies that provide different paradigms for the identification of potential pharmaceutical treatments.
@@ -4610,7 +4611,7 @@ Trials that recruit across multiple countries do appear to broaden geographic re
 The density of clinical trials is reported at the country level.
 As of December 31, 2020, there are 6,987 trials in the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709], of which 3,962 are interventional.
 The top figure demonstrates the density of interventional trials recruiting only from a singular country, while the bottom shows the distribution of recruitment for interventional trials that involve more than one country.
-](https://github.com/greenelab/covid19-review/raw/b64d68a24bf87c7c77c179aab0fb58b7cf347c36/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
+](https://github.com/greenelab/covid19-review/raw/0969fb531965eb11fac8a8652bd53b917558c219/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
 
 A few different concerns arise from this skewed geographic representation in clinical trial recruitment.
 First, treatments such as remdesivir that are promising but primarily available to clinical trial participants are unlikely to be accessible by people in many countries.
@@ -4809,17 +4810,17 @@ While this influx of information is likely evidence of important work towards un
 The downsides of "excessive publication" have been recognized for over forty years, and it was raised as a major concern about the move towards electronic, rather than print, publishing at the turn of the millennium [@doi:10/d3bmnv].
 The contents of the COVID-19 Open Research Dataset (CORD-19) [@arxiv:2004.10706], which was developed in part to assist in efforts to train machine learning algorithms on COVID-19-related text, illustrates the volume of scholarly literature relevant to understanding this virus (Figure @fig:cord19-growth).
 This resource was developed by querying several sources for terms related to SARS-CoV-2 and COVID-19, as well as the coronaviruses SARS-CoV-1 and MERS-CoV and their associated diseases [@arxiv:2004.10706].
-CORD-19 contained 729754 manuscripts as of 2021-08-02.
+CORD-19 contained 740302 manuscripts as of 2021-08-09.
 Additional curation by CoronaCentral [@doi:10.1101/2020.12.21.423860] has produced, at present, a set of over 180,000 publications particularly relevant to COVID-19 and these closely related viruses.
 Thus, any effort to synthesize, summarize, and contextualize COVID-19 research will face a vast corpus of potentially relevant material.
 
 **Change over time in the number of publications in the CORD-19 dataset.**
-As of 2021-08-02, there were 729754 articles in the CORD-19 dataset.
+As of 2021-08-09, there were 740302 articles in the CORD-19 dataset.
 The first release, on March 16, 2020, contained 28,000 manuscripts on topics relevant to SARS-CoV-2 and related coronaviruses [@arxiv:2004.10706].
 Since then, these articles have continued to proliferate (left), with both traditionally published and preprint manuscripts in the corpus (right).
-At present, it contains 29046 preprints from _arXiv_, _bioRxiv_, and _medRxiv_.
+At present, it contains 29471 preprints from _arXiv_, _bioRxiv_, and _medRxiv_.
 While not all of the manuscripts are focused explicitly on SARS-CoV-2 or COVID-19, this corpus is likely to contain all or most manuscripts relevant to writing a literature review, which requires assessing both emerging and prior research.
-](https://github.com/greenelab/covid19-review/raw/fdfa46c98d0f25b1d544e8ad32a79b979d49e684/CORD-19/cord19-growth.png "CORD-19 dataset growth"){#fig:cord19-growth secno=1}
+](https://github.com/greenelab/covid19-review/raw/0969fb531965eb11fac8a8652bd53b917558c219/CORD-19/cord19-growth.png "CORD-19 dataset growth"){#fig:cord19-growth secno=1}
 
 With information being produced rapidly through both traditional publishing venues and preprint servers, some papers that are published face scrutiny after their initial release.
 Concerns have been raised that the number of COVID-19 papers being retracted may be higher, and potentially much higher, than is typical, although a thorough investigation of this question will not be possible until more time has elapsed [@doi:10.1080/08989621.2020.1782203; @doi:10.1080/08989621.2020.1793675].
@@ -4976,7 +4977,7 @@ When we first produced this figure on July 7, 2020, there were 3,733 clinical tr
 As of December 31, 2020, it contains 6,987.
 We were also able to easily reconfigure the figure prior to journal submission to emphasize interventional trials based on the recommendation of a collaborator who is a clinician.
 This figure is included in an analysis of pharmaceutical development efforts during COVID-19 [@individual-pharmaceuticals].
-]((images/ebmdatalab-trials-original.png)https://github.com/greenelab/covid19-review/raw/b64d68a24bf87c7c77c179aab0fb58b7cf347c36/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+]((images/ebmdatalab-trials-original.png)https://github.com/greenelab/covid19-review/raw/0969fb531965eb11fac8a8652bd53b917558c219/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 The seven manuscripts produced by the consortium (outside of this one) will be submitted to _mSystems_ as part of a special issue that is providing support for evolving reviews so that they can continue to be updated as more information becomes available.
 This approach allows for a version of record to be maintained alongside the most recent developments, which are always available through GitHub.
