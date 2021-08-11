@@ -75,6 +75,10 @@ Reviewer 2
 
 Overall, this was a very comprehensive, thorough review of the current state of knowledge of SARS-CoV2. The manuscript is well written and extensively researched, with great attention to the details of the outbreak with regards to data from various regions of the world, providing an extremely useful resource for the scientific community. The manuscript is well researched and well written for a general scientific audience. I only had a handful of minor concerns, mostly for word choice/organization for clarity but I would leave these changes at the discretion of the authors as they do not detract from the overall narrative of the manuscript.
 
+**
+Thank you very much for your encouraging feedback.
+**
+
 Minor Points
 
 2.1 Line 196 - insert "the" prior to replication.
@@ -149,11 +153,13 @@ This change has been made.
 
 2.11 Lines 557-559 - this was a really intriguing statement- can the authors provide an additional sentence or two to provide additional context to why this might be the case?
 
+**
 The authors of the study described in this passage state the following: "We compared our SARS-CoV-2 interaction map with those of ten other pathogens (Fig. 2e) and found that West Nile virus and _Mycobacterium tuberculosis_ had the most similar host-protein interaction partners. The association with _M. tuberculosis_ is of particular interest as it also infects lung tissue."
 
 On a proximal level, the apparent similarity between the protein-protein interaction networks of SARS-CoV-2 and _M. tuberculosis_ could be an artifact of the pathogens selected for comparison: as the authors themselves point out, both pathogens are known to affect the lungs, while the other pathogens used for comparison are not known for respiratory symptoms (hepatitis C, human immunodeficiency virus, human papillomavirus, Kaposi's sarcoma-associated herpesvirus, and West Nile virus).
 Therefore, the original study seems to suggest that altered regulation in the lungs might be driving this similarity.
 The sentence here has been rephrased to make this more clear, and now reads: "The fact that the host-pathogen interactome of the bacterium *Mycobacterium tuberculosis* was found to be similar to that of SARS-CoV-2 suggests that changes related to lung pathology might comprise a significant contributor to these expression profiles."
+**
 
 2.12 I understand that this field moves ridiculously fast, but in the transmission section it might be worth including the most recent variants that are predicted to have increased transmission.
 
@@ -177,6 +183,14 @@ The text now reads:
 **
 
 3.2 Cytokine release syndrome, paragraph 1: Please modify the wording from “dysregulated systemic inflammation can cause sepsis…” to something similar to “dysregulated systemic inflammation can contribute to pathogenesis associated with sepsis”. The reviewer is unsure about the relevance of this sentence since sepsis is associated with bacterial infection rather than viral infection.
+
+**
+The section "Cytokine release syndrome" has been rewritten in line with comments from reviewer 2 above (comment 2.7).
+While most sepsis cases are attributed to bacteria, concerns have been raised that viral sepsis may be underidentified broadly [@doi:10.1183/16000617.0038-2020] and that it may be particularly relevant to SARS-CoV-2 [@doi:10/ggsps7].
+The relationship between viruses and sepsis is an oversight in the current manuscript, so the paragraph indicated here has been modified to include background on viral sepsis.
+It now reads: "A dysregulated immune response can cause significant damage to the host [@isbn:9780815332183; @isbn:9780071283663; @doi:10.1016/j.chom.2020.05.009] including pathogenesis associated with sepsis. 
+Sepsis, which can lead to multi-organ failure and death [@doi:10.1128/MMBR.05015-11; @pmid:22142805], is traditionally associated with bacterial infections, but sepsis associated with viral infections may be underidentified [@doi:10.1183/16000617.0038-2020], and sepsis has emerged as a major concern associated with SARS-CoV-2 infection [@doi:10/ggsps7]."
+**
 
 3.3 Cytokine release syndrome, paragraph 2: The relevance of sepsis to this paragraph is also unclear, unless the authors are comparing SARS-CoV-2 infection to other respiratory diseases caused by bacteria. Specifying the relevance of this comparison would be helpful.
 
