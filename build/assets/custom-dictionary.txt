@@ -331,7 +331,6 @@ IFN
 IFNB
 IFNs
 IFNy
-IFN-𝛽-1a
 IFR
 IFRs
 IG
