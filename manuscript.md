@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2021-08-11'
+date-meta: '2021-08-12'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -70,8 +70,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2021-08-11" />
-  <meta name="citation_publication_date" content="2021-08-11" />
+  <meta name="dc.date" content="2021-08-12" />
+  <meta name="citation_publication_date" content="2021-08-12" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -278,13 +278,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/c7c0b4a8c8e063dfdf895c017530e11e28a6fb34/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/c7c0b4a8c8e063dfdf895c017530e11e28a6fb34/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/c7c0b4a8c8e063dfdf895c017530e11e28a6fb34/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/1307bec666df8d386abd5a6ae597c8d3812ed5aa/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/1307bec666df8d386abd5a6ae597c8d3812ed5aa/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/1307bec666df8d386abd5a6ae597c8d3812ed5aa/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/c7c0b4a8c8e063dfdf895c017530e11e28a6fb34/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/c7c0b4a8c8e063dfdf895c017530e11e28a6fb34/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/1307bec666df8d386abd5a6ae597c8d3812ed5aa/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/1307bec666df8d386abd5a6ae597c8d3812ed5aa/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -306,10 +306,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/c7c0b4a8c8e063dfdf895c017530e11e28a6fb34/))
+([permalink](https://greenelab.github.io/covid19-review/v/1307bec666df8d386abd5a6ae597c8d3812ed5aa/))
 was automatically generated
-from [greenelab/covid19-review@c7c0b4a](https://github.com/greenelab/covid19-review/tree/c7c0b4a8c8e063dfdf895c017530e11e28a6fb34)
-on August 11, 2021.
+from [greenelab/covid19-review@1307bec](https://github.com/greenelab/covid19-review/tree/1307bec666df8d386abd5a6ae597c8d3812ed5aa)
+on August 12, 2021.
 Snapshots of individual sections are available as preprints [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals].
 </em></small>
 
@@ -730,174 +730,6 @@ Vikas Bansal, John P. Barton, Simina M. Boca, Joel D Boerckel, Christian Brueffe
 
 
 Authors are ordered arbitrarily.
-
-
-## Abstract {.page_break_before .unnumbered}
-Since late 2019, Coronavirus disease 2019 (COVID-19) has spread around the world, resulting in the declaration of a pandemic by the World Health Organization (WHO).
-This infectious disease is caused by the newly identified _Severe acute respiratory syndrome-related coronavirus 2_ (SARS-CoV-2).
-Research on the SARS-CoV-2 virus and the disease it causes is emerging rapidly through global scientific efforts.
-Short-term mitigation of viral impacts will require public health interventions, and long-term mitigation will require new diagnostic and therapeutic technologies.
-The urgency of the pandemic has led to a rapidly emerging scientific literature on SARS-CoV-2 and COVID-19.
-This manuscript represents a collaborative effort to organize and consolidate this body of literature.
-We present information about the virus in the context of what is known about related viruses, describe the pathogenesis of COVID-19, and synthesize studies emerging about the diagnosis and treatment of COVID-19 alongside literature about related illnesses.
-We summarize this emerging literature with an eye towards discussing elements of the disease that will be fundamental to efforts to develop interventions.
-Our review is a collaboratively-authored, evolving document into which we seek to incorporate the ever-expanding body of information on the topic.
-This document provides a snapshot as of October, 2020.
-We continue to accept new contributions and anticipate future snapshots until technologies to mitigate the pandemic are widely deployed.
-
-## How to Contribute {.unnumbered}
-
-We invite potential contributors to introduce themselves through GitHub: [https://github.com/greenelab/covid19-review/issues/17](https://github.com/greenelab/covid19-review/issues/17)
-
-We have established a community chat room on a service called Gitter: [https://gitter.im/covid19-review/community](https://gitter.im/covid19-review/community)
-
-More information about how to contribute is available in a README document on GitHub: [https://github.com/greenelab/covid19-review#sars-cov-2-and-covid-19-an-evolving-review-of-diagnostics-and-therapeutics](https://github.com/greenelab/covid19-review#sars-cov-2-and-covid-19-an-evolving-review-of-diagnostics-and-therapeutics)
-
-
-## Introduction {.page_break_before}
-
-On January 21, 2020, the World Health Organization (WHO) released its first report concerning what is now known as the Coronavirus Disease 2019 (COVID-19) [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200121-sitrep-1-2019-ncov.pdf].
-This infectious disease came to international attention on December 31, 2019 following an announcement by national officials in China describing 44 cases of a respiratory infection of unknown cause.
-The first known cases were located in Wuhan City within the Hubei province of China, but the disease spread rapidly throughout China and subsequently around the world.
-At the time of the WHO's first situation report [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200121-sitrep-1-2019-ncov.pdf], 282 confirmed cases had been identified.
-Most of these cases were in China, but one to two exported cases had also been identified in each of several neighboring countries (Thailand, Japan, and the Republic of Korea).
-One week later, 4,593 confirmed cases had been identified, spanning not only Asia, but also Australia, North America, and Europe [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200128-sitrep-8-ncov-cleared.pdf].
-On March 11, 2020, the WHO formally classified the situation as a pandemic [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200311-sitrep-51-covid-19.pdf].
-On April 4, 2020, the WHO reported that the global number of confirmed cases had surpassed one million [@url:https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200404-sitrep-75-covid-19.pdf].
-<!--4,302,961 COVID-19 deaths had been reported worldwide as of August 9, 2021 (Figure @fig:csse-deaths).
-
-![
-**Cumulative global COVID-19 deaths since January 22, 2020.**
-Data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series].
-](https://github.com/greenelab/covid19-review/raw/0969fb531965eb11fac8a8652bd53b917558c219/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1} -->
-
-As international attention remains focused on the ongoing public health crisis, the scientific community has responded by mobilizing resources and turning much of its attention to the virus and disease.
-This rapid influx of information is disseminated by traditional publishing mechanisms, preprint servers, and press releases, which provide a venue for scientists to release findings without undergoing the formal publication process.
-While having information available is valuable to efforts to understand and combat COVID-19, many contributions come from researchers across a wide range of fields who have varying degrees of experience working on coronaviruses and related topics.
-The volume of information available, much of which has not gone through rigorous peer review, presents a significant challenge to individual efforts to keep abreast of the state of COVID-19 research [@doi:10.1038/s42254-020-0175-7].
-However, research on these topics is proceeding so rapidly that any static review is likely to quickly become dated.
-Our goal as a community is to consolidate information about the virus in the context of related viruses and to synthesize rapidly emerging literature centered on the diagnosis and treatment of COVID-19.
-We used an open publishing framework, Manubot [@doi:10.1371/journal.pcbi.1007128], to manage hundreds of contributions from the community to create a living, scholarly document.
-We designed software to generate figures, such as <!--Figure @fig:csse-deaths-->, that automatically update using external data sources.
-Our primary goal is to sort and distill informative content out of the overwhelming flood of information [@doi:10.1038/s42254-020-0175-7] and help the broader scientific community become more conversant on this critical subject.
-Thus, our approach has been to develop a real-time, collaborative effort that welcomes submissions from scientists worldwide into this ongoing effort.
-This document represents the first snapshot, which aims to reflect the state of the field as of October, 2020.
-We plan to refine and expand this document until technologies to mitigate the pandemic are widely available.
-
-### Interdisciplinary Context
-
-Collaboration across several broad areas of research is critical, as different areas provide different information and context necessary to understanding the virus and disease.
-This review provides a biological perspective on the virus _Severe acute respiratory syndrome-related coronavirus 2_ (SARS-CoV-2) and efforts to develop diagnostic, prophylactic, and therapeutic responses to COVID-19.
-We provide only brief summaries of two other important perspectives on this pandemic: epidemiology and public health.
-Research in these areas often seeks to anticipate, model, and prevent outbreaks of infectious disease or to understand and manage human behavior relevant to health and disease.
-Their insights are critical to mounting a global response to the pandemic.
-Epidemiological analyses have investigated patterns of transmission within and between communities, the symptoms associated with and the duration of infection and/or contagiousness, and how the virus propagates, among other characteristics [@url:https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/about-epidemiology/index.html].
-Epidemiology also has a close relationship to public policy because it provides model-based insights into how preventative measures and public response can shift outcomes [@url:https://covid19.healthdata.org/united-states-of-america].
-Public health addresses social and human factors influencing individuals' exposure and susceptibility to pathogens, such as resource availability, inequality, human behavior, and access to accurate information.
-Strategies from public health and epidemiology for managing the current epidemic have included the promotion of hand hygiene, social distancing, and personal protective equipment such as masks to mitigate spread, as well as containment approaches such as test, trace, and isolate, which depends on widespread testing, contact tracing, and quarantining.
-An effective public health management strategy involves response coordination, disease surveillance, intervention monitoring, risk communication, and health education (including the containment of “infodemics” of false information) [@isbn:978-92-4-156553-0].
-Epidemiology and public health intersect with the topics addressed in this manuscript because they both inform and benefit from relevant biotechnological developments.
-For example, the development of accurate and fast diagnostic testing is relevant to test, trace, and isolate strategies for containment, and public education will be critical to deploying vaccines once they become available.
-The present analysis focuses less on human and social factors and more on the basic biology of infection, diagnosis, and recovery, but these areas are inextricable in understanding and responding to the COVID-19 pandemic.
-
-### Initial Characterization of SARS-CoV-2
-
-The first genome sequence of the virus was released on January 3, 2020 and revealed that the cluster of pneumonia cases seen in Wuhan were caused by a novel coronavirus [@doi:10.46234/ccdcw2020.017].
-Multiple research groups have drafted the genome sequence of SARS-CoV-2 based on sequences developed from clinical samples collected from the lower respiratory tract, namely bronchoalveolar lavage fluid (BALF), and the upper respiratory tract, in the form of throat swabs [@doi:10.1038/s41586-020-2008-3; @doi:10.1038/s41586-020-2012-7; @doi:10/ggjr43].
-Analysis of the SARS-CoV-2 genome revealed significant sequence homology with two coronaviruses known to infect humans, with about 79% identity to SARS-CoV-1 and 50% to MERS-CoV [@doi:10/ggjr43].
-However, the highest degree of similarity was observed between SARS-CoV-2 and bat-derived SARS-like coronaviruses (bat-SL-CoVZC45 and bat-SL-CoVZXC21) [@doi:10/ggjr43; @doi:10.1038/s41586-020-2012-7], with identity between SARS-CoV-2 and RATG13 as high as 96.2% [@doi:10.1038/s41586-020-2012-7; @doi:10.1093/nsr/nwaa036].
-This evidence therefore suggests the SARS-CoV-2 virus is the result of zoonotic transfer of a virus from bats to humans.
-Nevertheless, some fragments between SARS-CoV-2 and RATG13 differ by up to 17%, suggesting a complex natural selection process during zoonotic transfer.
-While the _S_ region is highly similar to that of viruses found in pangolins [@doi:10.1101/2020.02.19.950253], there is no consensus about the origin of _S_ in SARS-CoV-2, as it could potentially be the result either of recombination or coevolution [@doi:10.1093/nsr/nwaa036; @doi:10.1126/sciadv.abb9153].
-Though the intermediate host serving as the source for the zoonotic introduction of SARS-CoV-2 to human populations has not yet been identified, the SARS-CoV-2 virus has been placed within the coronavirus phylogeny through comparative genomic analyses.
-Genomic analyses and comparisons to other known coronaviruses suggest that SARS-CoV-2 is unlikely to have originated in a laboratory -- either purposely engineered and released, or escaped -- and instead evolved naturally in an animal host [@doi:10.1038/s41591-020-0820-9].
-While the position of the SARS-CoV-2 virus within the coronavirus phylogeny has been largely resolved, the functional consequences of molecular variation between this virus and other viruses, such as its bat and pangolin sister taxa or SARS-CoV-1, remain unknown [@doi:10.1038/s41591-020-0820-9, @doi:10.1038/s41586-020-2012-7].
-Fortunately, the basic genome structure of coronaviruses is highly conserved, and insight into the mechanisms the virus uses to enter cells, replicate, and spread is likely to be available from prior research in coronaviruses.
-
-### Coronaviruses and Humans Hosts
-
-Coronaviruses have long been known to infect animals and have been the subject of veterinary medical investigations and vaccine development efforts due to their effect on the health of companion and agricultural animals [@doi:10/ckfn8b].
-Most coronaviruses show little to no transmission in humans.
-However, today it is thought that approximately one-third of common cold infections are caused by four human coronaviruses (HCoV): _Human coronavirus 229E_ (HCoV-229E), _Human coronavirus NL63_ (HCoV-NL63), _Human coronavirus OC43_ (HCoV-OC43), and _Human coronavirus HKU1_ (HCoV-HKU1) [@doi:10.1038/s41579-018-0118-9; @doi:10.3390/diseases4030026].
-The first HCoV were identified in the 1960s: HCoV-229E in 1965 [@doi:10.3181/00379727-121-30734] and HCoV-OC43 in 1967 [@doi:10.1073/pnas.57.4.933].
-Both of these viruses cause cold-like symptoms [@doi:10.1186/1743-422X-1-7; @pmid:20700397].
-Two additional HCoV were subsequently identified [@doi:10.1038/nm1024; @doi:10.1128/JVI.79.2.884-895.2005].
-In 2003, HCoV-NL63 [@doi:10.1038/nm1024] was first identified in a 7-month-old infant and then in clinical specimens collected from seven additional patients, five of whom were infants younger than 1 year old and the remainder of whom were adults.
-CoV-HKU1 was identified in samples collected from a 71-year-old pneumonia patient in 2004 and then found in samples collected from a second adult patient [@doi:10.1128/JVI.79.2.884-895.2005].
-These viruses are associated with respiratory diseases of varying severity, ranging from common cold to severe pneumonia, with severe symptoms mostly observed in immunocompromised individuals [@doi:10.1086/377612].
-In addition to these relatively mild HCoV, however, highly pathogenic human coronaviruses have been identified, including _Severe acute respiratory syndrome-related coronavirus_ (SARS-CoV or SARS-CoV-1) and _Middle East respiratory syndrome-related coronavirus_ (MERS-CoV) [@doi:10.1038/nrmicro.2016.81; @doi:10.1038/s41579-018-0118-9; @doi:10.1016/bs.aivir.2018.01.001].
-
-At the time that SARS-CoV-1 emerged in the early 2000s, no HCoV had been identified in almost 40 years [@doi:10.1038/nrmicro.2016.81].
-The first case of SARS was reported in November 2002 in the Guangdong Province of China, and over the following month, the disease spread more widely within China and then into several countries across multiple continents [@doi:10.1093/ajcp/aqaa029; @doi:10.1038/nrmicro.2016.81].
-Unlike previously identified HCoV, SARS was much more severe, with an estimated death rate of 9.5% [@doi:10.1093/ajcp/aqaa029].
-It was also highly contagious via droplet transmission, with a basic reproduction number (R~0~) of 4 (i.e., each person infected was estimated to infect four other people) [@doi:10.1093/ajcp/aqaa029].
-However, the identity of the virus behind the infection remained unknown until April of 2003, when the SARS-CoV-1 virus was identified through a worldwide scientific effort spearheaded by the WHO [@doi:10.1038/nrmicro.2016.81].
-SARS-CoV-1 belonged to a distinct lineage from the two other HCoV known at the time [@doi:10.1093/ajcp/aqaa029].
-By July 2003, the SARS outbreak was officially determined to be under control, with the success credited to infection management practices [@doi:10.1038/nrmicro.2016.81].
-A decade later, a second outbreak of severe respiratory illness associated with a coronavirus emerged, this time in the Arabian Peninsula.
-This disease, known as Middle East respiratory syndrome (MERS), was linked to another novel coronavirus, MERS-CoV.
-The fatality rate associated with MERS is much higher than that of SARS, at almost 35%, but the disease is much less easily transmitted, with an R~0~ of 1 [@doi:10.1093/ajcp/aqaa029].
-Although MERS is still circulating, its low reproduction number has allowed for its spread to be contained [@doi:10.1093/ajcp/aqaa029].
-The COVID-19 pandemic is thus associated with the seventh HCoV to be identified and the fifth since the turn of the millennium, though additional HCoVs may be in circulation but remain undetected.
-
-SARS-CoV-1 and MERS-CoV were ultimately managed largely through infection management practices (e.g., mask wearing) and properties of the virus itself (i.e., low rate of transmission), respectively [@doi:10.1038/nrmicro.2016.81; @doi:10.1093/ajcp/aqaa029].
-Vaccines were not used to control either virus, although vaccine development programs were established for SARS-CoV-1 [@doi:10.3390/v11010059].
-In general, care for SARS and MERS patients focuses on supportive care and symptom management [@doi:10.1093/ajcp/aqaa029].
-Clinical treatments for SARS and MERS developed during the outbreaks generally do not have strong evidence supporting their use.
-Common treatments included Ribavirin, an antiviral, often in combination with corticosteroids or sometimes interferon (IFN) medications, which would both be expected to have immunomodulatory effects [@doi:10.1038/nrmicro.2016.81].
-However, retrospective and _in vitro_ analyses have reported inconclusive results of these treatments on SARS and the SARS-CoV-1 virus, respectively [@doi:10.1038/nrmicro.2016.81].
-IFNs and Ribavirin have shown promise in _in vitro_ analyses of MERS, but their clinical effectiveness remains unknown [@doi:10.1038/nrmicro.2016.81].
-Therefore, only limited strategy for the pharmaceutical management of COVID-19 can be adopted from previous severe HCoV infections.
-Research in response to prior outbreaks of HCoV-borne infections, such as SARS and MERS, have, however, provided a strong foundation for hypotheses about the pathogenesis of SARS-CoV-2 as well as potential diagnostic and therapeutic approaches.
-
-#### Human Immune Response to Viral Threats
-
-Understanding the fundamental organization of the human immune response to viral threats is critical to understanding the varied response to SARS-CoV-2.
-The human immune system utilizes a variety of innate and adaptive responses to protect against the pathogens it encounters.
-The innate immune system consists of barriers, such as the skin, mucous secretions, neutrophils, macrophages, and dendritic cells.
-It also includes cell-surface receptors that can recognize the molecular patterns of pathogens.
-The adaptive immune system utilizes antigen-specific receptors that are expressed on B and T lymphocytes.
-These components of the immune system typically act together; the innate response acts first, and the adaptive response begins to act several days after initial infection following the clonal expansion of T and B cells [@doi:10.1016/j.jaci.2005.09.034].
-After a virus enters into a host cell, its antigen is presented by major histocompatibility complex 1 (MHC 1) molecules and is then recognized by cytotoxic T lymphocytes.
-
-In the case of COVID-19, there is also concern about the immune system becoming over-active.
-One of the main immune responses contributing to the onset of acute respiratory distress syndrome (ARDS) in COVID-19 patients is cytokine storm syndrome (CSS), which causes an extreme inflammatory response due to a release of pro-inflammatory cytokines and chemokines by immune effector cells.
-In addition to respiratory distress, this mechanism can lead to organ failure and death in severe COVID-19 cases [@doi:10.1016/j.jpha.2020.03.001].
-Details of how the human body responds to SARS-CoV-2, both in healthy and pathological ways, and how these mechanisms can inform the identification of diagnostic, prophylactic, and therapeutic responses are explored in detail throughout this manuscript.
-
-#### Clinical Presentation of COVID-19
-
-A great diversity of symptom profiles has been observed for COVID-19, although a large study from Wuhan, China suggests fever and cough as the two most common symptoms on admission [@doi:10.1056/NEJMoa2002032].
-One early retrospective study in China described the clinical presentations of patients infected with SARS-CoV-2 as including lower respiratory tract infection with fever, dry cough, and dyspnea [@doi:10/ggnxb3].
-This study [@doi:10/ggnxb3] noted that upper respiratory tract symptoms were less common, which suggests that the virus targets cells located in the lower respiratory tract.
-However, data from the New York City region [@doi:10.1001/jama.2020.6775; @doi:10.1056/NEJMc2010419] showed variable rates of fever as a presenting symptom, suggesting that symptoms may not be consistent across samples.
-These differences are present when comparing both between institutions in similar locations and between different regions experiencing COVID-19 outbreaks, leading to conflicting reports of the frequency of fever as a presenting symptom for patients upon hospital admission.
-For example, even within New York City, one study [@doi:10.1001/jama.2020.6775] identified low oxygen saturation (<90% without the use of supplemental oxygen or ventilation support) in a significant percentage of patients upon presentation, while another study [@doi:10.1056/NEJMc2010419] reported cough, fever, and dyspnea as the most common presenting symptoms.
-The variability of both which symptoms present and their severity makes it difficult for public health agencies to provide clear recommendations for citizens regarding what symptoms indicate SARS-CoV-2 infection and should prompt isolation.
-
-### Role of the COVID-19 Review
-
-<!--![**Summary of the relationships among topics covered in this review.**](images/N000-overview.png){#fig:overview secno=1}-->
-
-Several review articles on aspects of COVID-19 have already been published.
-These have included reviews on the disease epidemiology [@doi:10.1016/j.molmed.2020.02.008], immunological response [@doi:10.1016/j.immuni.2020.05.002], diagnostics [@doi:10.1126/scitranslmed.abc1931], and pharmacological treatments [@doi:10.1016/j.immuni.2020.05.002; @doi:10.1001/jama.2020.6019].
-Others [@doi:10.1038/d41591-020-00026-w; @doi:10.1001/jama.2020.12839] provide narrative reviews of progress on some important ongoing COVID-19 research questions.
-With the worldwide scientific community uniting during 2020 to investigate SARS-CoV-2 and COVID-19 from a wide range of perspectives, findings from many disciplines are relevant on a rapid timescale to a broad scientific audience.
-Additionally, many findings are published as preprints, which are available prior to going through the peer review process.
-As a result, centralizing, summarizing, and critiquing new literature broadly relevant to COVID-19 can help to expedite the interdisciplinary scientific process that is currently happening at an advanced pace.
-We are particularly interested in providing background to the development of diagnostic, prophylactic, and therapeutic approaches to COVID-19.
-Two major concerns within diagnosis include the detection of current infections in individuals with and without symptoms, and the detection of past exposure without an active infection.
-In the latter category, identifying whether individuals can develop or have developed sustained immunity is also a major consideration.
-The development of high-throughput, affordable methods for detecting active infections and sustained immunity will be critical to understanding and controlling the disease.
-The identification of interventions that can mitigate the effect of the virus on exposed and infected individuals is a significant research priority.
-Some possible approaches include the identification of existing pharmaceuticals that reduce the severity of infection, either by reducing the virus' virulence (e.g., antivirals) or managing the most severe symptoms of infection.
-Due to the long timeline for the development of novel pharmaceuticals, in most cases, research surrounding possible pharmaceutical interventions focuses on the identification and investigation of existing compounds whose mechanisms may be relevant to COVID-19.
-Other foci of current research include the identification of antibodies produced by survivors of COVID-19 and the development of vaccines.
-Understanding the mechanisms describing host-virus interactions between humans and SARS-CoV-2 is thus critical to identifying candidate therapeutics.
-An overview of the topics covered is visualized in <!--Figure @fig:overview.-->
-Thus, in this review, we seek to consolidate information about efforts to develop strategies for diagnosis and therapeutics as new information is released by the scientific community.
-We include information from both traditional peer-reviewed scientific literature and from preprints, which typically have not undergone peer review but have been critically evaluated by the scientists involved in this effort.
-The goal of this manuscript is to present preliminary findings within the broader context of COVID-19 research and to identify the broad interpretations of new research, as well as limitations to interpretability.
 
 
 ## Pathogenesis, Symptomatology, and Transmission of SARS-CoV-2 through analysis of Viral Genomics and Structure
@@ -1987,13 +1819,13 @@ The scale of the COVID-19 pandemic has made the repurposing and development of p
 
 ![
 **Cumulative global incidence of COVID-19 and SARS.**
-As of August 9, 2021, 203,384,856 COVID-19 cases and 4,302,961 COVID-19 deaths had been reported worldwide since January 22, 2020.
+As of August 10, 2021, 204,022,307 COVID-19 cases and 4,314,527 COVID-19 deaths had been reported worldwide since January 22, 2020.
 A total of 8,432 cases and 813 deaths were reported for SARS from March 17 to July 11, 2003.
 SARS-CoV-1 was officially contained on July 5, 2003, within 9 months of its appearance [@doi:10.3390/ijerph17113973].
 In contrast, SARS-CoV-2 remains a significant global threat nearly two years after its emergence.
 COVID-19 data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series; @doi:10/ggnsjk].
 SARS data are from the WHO [@url:https://www.who.int/csr/sars/country/en] and were obtained from a dataset on GitHub [@url:https://github.com/imdevskp/sars-2003-outbreak-data-webscraping-code].
-](https://github.com/greenelab/covid19-review/raw/0969fb531965eb11fac8a8652bd53b917558c219/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
+](https://github.com/greenelab/covid19-review/raw/4cd6e531ef34b96219cade925bcd6535c01822d2/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1}
 
 At first, SARS-CoV-2's rapid shift from an unknown virus to a significant worldwide threat closely paralleled the emergence of _Severe acute respiratory syndrome-related coronavirus_ (SARS-CoV-1), which was responsible for the 2002-03 SARS epidemic.
 The first documented case of COVID-19 was reported in Wuhan, China in November 2019, and the disease quickly spread worldwide in the early months of 2020.
@@ -2049,7 +1881,7 @@ Of the interventional trials, 98 trials had reported results as of December 31, 
 Recruitment status and trial phase are shown only for interventional trials in which the status or phase is recorded.
 Common interventions refers to interventions used in at least ten trials.
 Combinations of interventions, such as hydroxychloroquine with azithromycin, are tallied separately from the individual interventions.
-](https://github.com/greenelab/covid19-review/raw/0969fb531965eb11fac8a8652bd53b917558c219/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/4cd6e531ef34b96219cade925bcd6535c01822d2/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 The purpose of this review is to provide an evolving resource tracking the status of efforts to repurpose and develop drugs for the treatment of COVID-19.
 We highlight four strategies that provide different paradigms for the identification of potential pharmaceutical treatments.
@@ -4611,7 +4443,7 @@ Trials that recruit across multiple countries do appear to broaden geographic re
 The density of clinical trials is reported at the country level.
 As of December 31, 2020, there are 6,987 trials in the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709], of which 3,962 are interventional.
 The top figure demonstrates the density of interventional trials recruiting only from a singular country, while the bottom shows the distribution of recruitment for interventional trials that involve more than one country.
-](https://github.com/greenelab/covid19-review/raw/0969fb531965eb11fac8a8652bd53b917558c219/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
+](https://github.com/greenelab/covid19-review/raw/4cd6e531ef34b96219cade925bcd6535c01822d2/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
 
 A few different concerns arise from this skewed geographic representation in clinical trial recruitment.
 First, treatments such as remdesivir that are promising but primarily available to clinical trial participants are unlikely to be accessible by people in many countries.
@@ -4673,102 +4505,6 @@ This review represents the effort of over 50 contributors <!-- TO DO: check with
 However, this text represents a dynamic and evolving document, and we welcome continued contributions from all researchers who have insights into how these topics intersect.
 A multidisciplinary perspective is critical to understanding this evolving crisis, and in this review we seek to use open science tools to coordinate a response among a variety of researchers.
 We intend to publish additional updates as the situation evolves.
-
-
-## Discussion
-
-As of October 2020 the SARS-CoV-2 virus remains a serious worldwide threat.
-The scientific community has responded by rapidly collecting and disseminating information about the SARS-CoV-2 virus and the associated illness, COVID-19.
-The rapid identification of the genomic sequence of the virus allowed for early contextualization of SARS-CoV-2 among other known respiratory viruses.
-The pathogen is a coronavirus that is closely related to SARS-CoV-1, which caused the SARS pandemics of the early 2000s.
-Knowing the phylogenetic context and genomic sequence of the virus then allowed for rapid insights into its structure and pathogenesis.
-As with other HCoV, the immune response to SARS-CoV-2 is likely driven by detection of its spike protein, which allows it to enter cells through the ACE2 receptor.
-Epithelial cells have also emerged as the major cellular target of the virus, contextualizing the respiratory and gastrointestinal symptoms that are frequently observed in COVID-19.
-However, as COVID-19 cases have been more widely characterized, it has become clear that the disease presentation is highly heterogeneous.
-Many cases, especially in younger adults, present with mild symptoms or even asymptomatically, while others, especially in older adults, can be severe or fatal.
-In children, the SARS-CoV-2 virus can present as two distinct diseases, COVID-19 or MIS-C.
-While the overall infection fatality rate remains unknown, estimates suggest that it is not more than 1%; however, the severity of many non-lethal cases makes COVID-19 an ongoing, significant concern.
-
-Characterizing the rate of infection and fatality rates hinges on the availability of rapid and accurate diagnostic testing.
-Major advancements have been made in identifying diagnostic approaches.
-The development of diagnostic technologies have been rapid, beginning with the release of the SARS-CoV-2 viral genome sequence in January.
-As of October 2020, a range of diagnostic tests have become available.
-One class of tests uses PCR (RT-PCR or qRT-PCR) to assess the presence of SARS-CoV-2 RNA, while another typically uses ELISA to test for the presence of antibodies to SARS-CoV-2.
-The former approach is useful for identifying active infections, while the latter measures hallmarks of the immune response and therefore can detect either active infections or immunity gained from prior infection.
-Combining these tests leads to extremely accurate detection of SARS-CoV-2 infection (98.6%), but when used alone, PCR-based tests are recommended before 5.5 days after the onset of the illness and antibody tests after 5.5 days [@doi:10.1001/jama.2020.8259].
-Other strategies for testing can also influence the tests' accuracy, such as the use of nasopharyngeal swabs versus BALF [@doi:10.1001/jama.2020.8259], which allow for trade-offs between patient's comfort and test sensitivity.
-Additionally, technologies such as digital PCR may allow for scale-up in the throughput of diagnostic testing, facilitating widespread testing.
-One major question that remains is whether people who recover from SARS-CoV-2 develop sustained immunity, and over what period this immunity is expected to last.
-Some reports have suggested that some patients may develop COVID-19 reinfections (e.g., [@doi:10/ghfgkt]), but the rates of reinfection are currently unknown.
-Serologic testing combined with PCR testing will be critical to confirming purported cases of reinfection and to identifying the duration over which immunity is retained and to understanding reinfection risks.
-
-One of the goals of characterizing the immune response is to identify strategies for the prophylactic enhancements of immunity.
-Though some concerns remain about the duration of sustained immunity for convalescents, vaccine development efforts are ongoing and show initial promising results.
-The Moderna trial, for example, reported that the neutralizing activity in participants who received two doses of the vaccine was similar to that observed in convalescent plasma.
-Vaccine development for COVID-19 is progressing rapidly compared to typical timelines, but vaccine development is still a lengthy process.
-In the meantime, some advances have also been made in the treatment of patients with COVID-19.
-As cases have become better characterized, it has become evident that many patients experience an initial immune response to the virus that is typically characterized by fever, cough, dyspnea, and related symptoms.
-However, the most serious concern is cytokine release syndrome, when the body's immune response becomes dysregulated, resulting in an extreme inflammatory response.
-The RECOVERY trial, a large-scale, multi-arm trial enrolling about 15% of all COVID-19 patients in the United Kingdom, was the first to identify that the widely available steroid dexamethasone seems to be beneficial for patients suffering from this immune dysregulation [@doi:10.1101/2020.06.22.20137273].
-Efforts to identify therapeutic treatments to treat patients early in the course of infection have been more ambiguous.
-Early interest in the drugs hydroxychloroquine and chloroquine yielded no promising results from studies with robust experimental designs.
-The experimental drug remdesivir, which was developed for Ebola, has received enough support from early analyses to receive FDA approval, but results have been mixed.
-The potential for other drugs, such as tocilizumab, to reduce recovery time remains unclear, but some early results were promising.
-
-### Additional Therapeutics of Interest
-
-Given what is currently known about these therapeutics for COVID-19, a number of related therapies beyond those explored above may also prove to be of interest.
-For example, the demonstrated benefit of dexamethasone and the ongoing potential of tocilizumab for treatment of COVID-19 suggests that other anti-inflammatory agents might also hold value for the treatment of COVID-19.
-Given that current evidence about treating COVID-19 with dexamethasone suggests that the need to curtail the cytokine storm inflammatory response to the virus can transcend the risks of immunosuppression, exploration of more anti-inflammatory agents may be warranted.
-While dexamethasone is considered widely available and generally affordable, the high costs of biologics such as tocilizumab therapy may present obstacles to wide-scale distribution of this drug if it proves of value.
-At the doses used for rheumatoid arthritis patients, the cost for tocilizumab ranges from $179.20 to $896 per dose for the IV form and $355 for the pre-filled syringe [@url:https://www.ncbi.nlm.nih.gov/books/NBK349513/table/T43/].
-There are several anti-inflammatory agents used for the treatment of autoimmune diseases that may also be able to counter the effects of the cytokine storm induced by the virus, some of which, such as cyclosporine, are likely to be more cost-effective and readily available than biologics [@url:https://escholarship.umassmed.edu/meyers_pp/385].
-While tocilizumab targets IL-6, several other inflammatory markers could be potential targets, including TNF-alpha.
-Inhibition of TNF-alpha by an inhibitor such as Etanercept has been previously suggested for treatment of SARS-CoV-1 [@doi:10.1185/030079903125002757] and may be relevant for SARS-CoV-2 as well.
-Another anti-IL-6 antibody, sarilumab, is also being investigated [@url:http://www.news.sanofi.us/2020-03-16-Sanofi-and-Regeneron-begin-global-Kevzara-R-sarilumab-clinical-trial-program-in-patients-with-severe-COVID-19; @clinicaltrials:NCT04327388].
-Baricitinib and other small molecule inhibitors of the Janus-activated kinase pathway also curtail the inflammatory response and have been suggested as potential options for SARS-CoV-2 infections [@doi:10/dph5].
-Baricitinib in particular may be able to reduce the ability of SARS-CoV-2 to infect lung cells [@doi:10/ggnrsx].
-Clinical trials studying baricitinib in COVID-19 have already begun in the US and in Italy [@url:https://investor.lilly.com/news-releases/news-release-details/lilly-begins-clinical-testing-therapies-covid-19; @clinicaltrials:NCT04320277].
-Identification and targeting of further inflammatory markers that are relevant in SARS-CoV-2 infection may be of value for curtailing the inflammatory response and lung damage.
-
-In addition to immunosuppressive treatments that are most beneficial late in disease progression, much research is focused on identifying treatments would be likely to benefit early-stage patients.
-For example, although studies of hydroxychloroquine have not supported the early theory-driven interest in this antiviral treatment, alternative compounds with related mechanisms may still have potential.
-Hydroxyferroquine derivatives of HCQ have been described as a class of bioorganometallic compounds that exert antiviral effects with some selectivity for SARS-CoV-1 _in vitro_ [@doi:10.1021/jm0601856].
-Future work could explore whether such compounds exert antiviral effects against SARS-CoV-2 and whether they would be safer for use in COVID-19.
-Another potential approach is the development of antivirals, which could be broad-spectrum, specific to coronaviruses, or targeted to SARS-CoV-2.
-Development of new antivirals is complicated by the fact that none have yet been approved for human coronaviruses.
-Intriguing new options are emerging, however.
-Beta-D-N4-hydroxycytidine (NHC) is an orally bioavailable ribonucleotide analog showing broad-spectrum activity against RNA viruses, which may inhibit SARS-CoV-2 replication _in vitro_ and _in vivo_ in mouse models of HCoVs [@doi:10.1126/scitranslmed.abb5883].
-A range of other antivirals are also in development.
-Development of antivirals will be further facilitated as research reveals more information about the interaction of SARS-CoV-2 with the host cell and host cell genome, mechanisms of viral replication, mechanisms of viral assembly, and mechanisms of viral release to other cells; this can allow researchers to target specific stages and structures of the viral life cycle.
-Many researchers have also focused their attention to the potential use of dietary supplements and nutraceuticals.
-Indeed, there has been recent interest for the potential use of vitamin D as a prophylactic and therapeutic agent against COVID-19 as several observational studies have linked low vitamin D status to its incidence [@doi:10.1111/joim.13149; @doi:10.1001/jamanetworkopen.2020.19722]. 
-These associations have yet to be confirmed and rigorous trials are required before considering supplementation recommendations.
-However, the nutritional status and general health of a patient can affect their outcomes in various diseases, thus it would be pertinent to advise people to follow a healthy diet and life style to the best of their ability to prevent nutrient deficiencies and insufficiencies and to maintain a healthy immune system [@doi:10.1093/advances/nmaa125].
-Finally, antibodies against viruses, also known as antiviral monoclonal antibodies, could be an alternative as well and are described in detail in an above section.
-The goal of antiviral antibodies is to neutralize viruses through either cell-killing activity or blocking of viral replication [@doi:10.1016/j.tim.2015.07.005].
-They may also engage the host immune response, encouraging the immune system to hone in on the virus.
-Given the cytokine storm that results from immune system activation in response to the virus, which has been implicated in worsening of the disease, a neutralizing antibody (nAb) may be preferable.
-Upcoming work may explore the specificity of nAbs for their target, mechanisms by which the nAbs impede the virus, and improvements to antibody structure that may enhance the ability of the antibody to block viral activity.
-
-Some research is also investigating potential therapeutics and prophylactics that would interact with components of the innate immune response.
-For example, there are a variety of TLRs, PRRs that recognize PAMPs and DAMPs.
-TLRs form a part of innate immune recognition and can more generally contribute to promoting both innate and adaptive responses [@ISBN:9780815332183].
-In mouse models, poly(I:C) and CpG, which are agonists of toll-like receptors TLR3 and TLR9, respectively, showed protective effects when administered prior to SARS-CoV-1 infection [@doi:10.1128/JVI.01410-12].
-Therefore, TLR agonists hold some potential for broad-spectrum prophylaxis.
-
-Given that a large number of clinical trials are currently in progress, more information about the potential of these and other therapeutics should become available over time.
-This information, combined with advances in understanding the molecular structure and viral pathogenesis of SARS-CoV-2, may lead to a more complete understanding of how the virus affects the human host and what strategies can improve outcomes.
-To date, investigations of potential therapeutics for COVID-19 have focused primarily on repurposing existing drugs.
-This approach is necessary given the urgency of the situation as well as the extensive time required for developing and testing new therapies.
-However, in the long-term, new drugs specific for treatment of COVID-19 may also enter development.
-Development of novel drugs is likely to be guided by what is known about the pathogenesis and molecular structure of SARS-CoV-2.
-For example, understanding the various structural components of SARS-CoV-2 may allow for the development of small molecule inhibitors of those components.
-Currently, crystal structures of the SARS-CoV-2 main protease have recently been resolved [@doi:10.1038/s41586-020-2223-y; @url:https://www.diamond.ac.uk/covid-19/for-scientists/Main-protease-structure-and-XChem.html], and efforts are already in place to perform screens for small molecule inhibitors of the main protease, which have yielded potential hits [@doi:10.1038/s41586-020-2223-y].
-Much work remains to be done to determine further crystal structures of other viral components, understand the relative utility of targeting different viral components, perform additional small molecule inhibitor screens, and determine the safety and efficacy of the potential inhibitors.
-While still nascent, work in this area is promising.
-Over the longer term, this approach and others may lead to the development of novel therapeutics specifically for COVID-19 and SARS-CoV-2.
-
 
 
 ## An Open-Publishing Response to the COVID-19 Infodemic
@@ -4977,7 +4713,7 @@ When we first produced this figure on July 7, 2020, there were 3,733 clinical tr
 As of December 31, 2020, it contains 6,987.
 We were also able to easily reconfigure the figure prior to journal submission to emphasize interventional trials based on the recommendation of a collaborator who is a clinician.
 This figure is included in an analysis of pharmaceutical development efforts during COVID-19 [@individual-pharmaceuticals].
-]((images/ebmdatalab-trials-original.png)https://github.com/greenelab/covid19-review/raw/0969fb531965eb11fac8a8652bd53b917558c219/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+]((images/ebmdatalab-trials-original.png)https://github.com/greenelab/covid19-review/raw/4cd6e531ef34b96219cade925bcd6535c01822d2/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 The seven manuscripts produced by the consortium (outside of this one) will be submitted to _mSystems_ as part of a special issue that is providing support for evolving reviews so that they can continue to be updated as more information becomes available.
 This approach allows for a version of record to be maintained alongside the most recent developments, which are always available through GitHub.
