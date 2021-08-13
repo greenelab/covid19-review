@@ -32,13 +32,17 @@ The sentence in question has been modified to read: "Additionally, disparities b
 
 **
 The project is built on Manubot, a relatively new resource for collaborative writing that allow for version control and continual editing.
-An up-to-date version of the manuscript is available online at all times, but _mSystems_ has agreed to review a version of record and to allow the submission of updates as more evidence becomes available over time, in the style of a living review.
+An up-to-date version of the manuscript is available online at all times at <https://greenelab.github.io/covid19-review/>, but _mSystems_ has agreed to review a version of record and to allow the submission of updates as more evidence becomes available over time, in the style of a living review.
+However, we understand this could confuse readers and have removed the text from the abstract and body that referred to updating the manuscript.
 **
 
 More importantly, the conclusion for all but 1-2 therapeutics is that more data is needed, leaving me wondering what the value of this review is at time present. One useful contribution would be to rank the promise of each approach. Each has issues, but which ones are worth investing more resources in?
 
 **
 We hope that the recontextualization of the content serves to address the concerns related to the usefulness of the project -- the goal is to organize the available evidence to allow scientists to get or stay up to speed on the status of these therapeutics without needing to dive independently into the exceptionally large body of literature.
+We also took your recommendation to integrate grades for each therapeutic.
+We drew the grades from https://cdcn.org/corona-data-viewer/.
+These are now listed in Table 1 and used to color-code the therapeutics in the illustration of their mechanisms.
 **
 
 1.4 Figure 1 - I'm not sure this adds much to the current topic.
