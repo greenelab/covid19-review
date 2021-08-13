@@ -69,6 +69,7 @@ More importantly, I worry that this figure is immediately out of date, is there 
 
 **
 As part of this project, we developed software to pull data from the web and update these figures every night.
+See https://greenelab.github.io/covid19-review/ for the most recent version of this figure.
 While the version of record will be locked at a certain time point, this approach does allow us to keep the version online continually updated.
 The stability of these trends over time is an interesting question that it would be possible to address using these data sources.
 To date, we had thought of the utility of the figure as showing what research was in progress and therefore what evidence would be expected to eventually become available.
