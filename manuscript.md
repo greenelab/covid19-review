@@ -278,13 +278,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/8196c9e9656ace9a0e639b6052ffd72a20c972e2/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/8196c9e9656ace9a0e639b6052ffd72a20c972e2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/8196c9e9656ace9a0e639b6052ffd72a20c972e2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/dc4742ee10edace06468011174725679b861ce6f/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/dc4742ee10edace06468011174725679b861ce6f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/dc4742ee10edace06468011174725679b861ce6f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/8196c9e9656ace9a0e639b6052ffd72a20c972e2/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/8196c9e9656ace9a0e639b6052ffd72a20c972e2/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/dc4742ee10edace06468011174725679b861ce6f/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/dc4742ee10edace06468011174725679b861ce6f/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -306,11 +306,11 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/8196c9e9656ace9a0e639b6052ffd72a20c972e2/))
+([permalink](https://greenelab.github.io/covid19-review/v/dc4742ee10edace06468011174725679b861ce6f/))
 was automatically generated
-from [greenelab/covid19-review@8196c9e](https://github.com/greenelab/covid19-review/tree/8196c9e9656ace9a0e639b6052ffd72a20c972e2)
+from [greenelab/covid19-review@dc4742e](https://github.com/greenelab/covid19-review/tree/dc4742ee10edace06468011174725679b861ce6f)
 on August 13, 2021.
-Snapshots of individual sections are available as preprints [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals].
+Snapshots of individual sections have been published [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals].
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -1783,7 +1783,7 @@ Serologic testing combined with PCR testing will be critical to confirming purpo
 
 ### Abstract
 
-After emerging in China in late 2019, the novel _Severe acute respiratory syndrome-like coronavirus 2_ (SARS-CoV-2) spread worldwide and as of early 2021 continues to significantly impact most countries.
+After emerging in China in late 2019, the novel _Severe acute respiratory syndrome-like coronavirus 2_ (SARS-CoV-2) spread worldwide and as of mid-2021 continues to significantly impact most countries.
 Only a small number of coronaviruses are known to infect humans, and only two cause infections similar in severity to SARS-CoV-2: _Severe acute respiratory syndrome-related coronavirus_, a closely related species of SARS-CoV-2 that emerged in 2002, and _Middle East respiratory syndrome-related coronavirus_, which emerged in 2012.
 Unlike in the current pandemic, both of these previous epidemics were controlled relatively rapidly through public health measures.
 All the same, the body of research investigating severe acute respiratory syndrome (SARS) and Middle East respiratory syndrome (MERS) has proven valuable for identifying approaches to treating and preventing novel coronavirus disease 2019 (COVID-19).
@@ -1797,10 +1797,10 @@ This information can provide insight not only into the management of coronavirus
 
 The COVID-19 pandemic is a rapidly evolving crisis.
 With the worldwide scientific community shifting focus onto the SARS-CoV-2 virus and COVID-19, a large number of possible pharmaceutical approaches for treatment and prevention have been proposed.
-What was known about each of these potential interventions evolved rapidly throughout 2020 and early 2021.
+What was known about each of these potential interventions evolved rapidly throughout 2020 and 2021.
 This fast-paced area of research provides important insight into how the ongoing pandemic can be managed and also demonstrates the power of interdisciplinary collaboration to rapidly understand a virus and match its characteristics with existing or novel pharmaceuticals.
-As illustrated by the continued threat of viral epidemics during the current millennium, a rapid and strategic response to emerging viral threats can, has, and is likely to save lives.
-In this review, we explore the extent to which the potential of several modes of identifying candidate therapeutics has been borne out during COVID-19.
+As illustrated by the continued threat of viral epidemics during the current millennium, a rapid and strategic response to emerging viral threats can save lives.
+In this review, we explore how different modes of identifying candidate therapeutics have borne out during COVID-19.
 
 ### Introduction
 
@@ -1825,7 +1825,7 @@ SARS-CoV-1 was officially contained on July 5, 2003, within 9 months of its appe
 In contrast, SARS-CoV-2 remains a significant global threat nearly two years after its emergence.
 COVID-19 data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series; @doi:10/ggnsjk].
 SARS data are from the WHO [@url:https://www.who.int/csr/sars/country/en] and were obtained from a dataset on GitHub [@url:https://github.com/imdevskp/sars-2003-outbreak-data-webscraping-code].
-](https://github.com/greenelab/covid19-review/raw/8a29bf788f8a4da4cd794a44118bc17443b1e3fe/csse/csse-deaths.png "Global COVID-19 deaths"){#fig:csse-deaths secno=1} 
+](https://github.com/greenelab/covid19-review/raw/8a29bf788f8a4da4cd794a44118bc17443b1e3fe/csse/csse-deaths.png "Global incidence of COVID-19 and SARS"){#fig:csse-deaths secno=1}
 
 At first, SARS-CoV-2's rapid shift from an unknown virus to a significant worldwide threat closely paralleled the emergence of _Severe acute respiratory syndrome-related coronavirus_ (SARS-CoV-1), which was responsible for the 2002-03 SARS epidemic.
 The first documented case of COVID-19 was reported in Wuhan, China in November 2019, and the disease quickly spread worldwide in the early months of 2020.
@@ -1885,7 +1885,6 @@ Combinations of interventions, such as hydroxychloroquine with azithromycin, are
 
 The purpose of this review is to provide an evolving resource tracking the status of efforts to repurpose and develop drugs for the treatment of COVID-19.
 We highlight four strategies that provide different paradigms for the identification of potential pharmaceutical treatments.
-As results become available from additional clinical trials, we will continue to update this manuscript to keep pace with the current understanding of which therapeutics may be effective against SARS-CoV-2 or COVID-19.
 
 ### Repurposing Drugs for Symptom Management
 
@@ -1909,7 +1908,8 @@ Small molecule drugs today encompass a wide range of therapeutics beyond antibio
 
 Many treatments considered for COVID-19 have relied on a broad-spectrum approach.
 These treatments do not specifically target a virus or particular host receptor, but rather induce broad shifts in host biology that are hypothesized to be potential inhibitors of the virus.
-This approach relies on the fact that when a virus enters a host, the host becomes the virus's environment, and, therefore, the state of the host can also influence the virus's ability to replicate and spread.
+This approach relies on the fact that when a virus enters a host, the host becomes the virus's environment.
+Therefore, the state of the host can also influence the virus's ability to replicate and spread.
 The administration and assessment of broad-spectrum small-molecule drugs on a rapid time course was feasible because they are often either available in hospitals, or in some cases may also be prescribed to a large number of out-patients.
 One of the other advantages is that these well-established compounds, if found to be beneficial, are often widely available, in contrast to boutique experimental drugs.
 
@@ -1926,12 +1926,12 @@ Most of the supportive treatments for SARS were found inconclusive in meta-analy
 However, one strategy adopted from prior HCoV outbreaks is currently the best-known treatment for severe cases of COVID-19.
 Corticosteroids represent broad-spectrum treatments and are a well-known, widely available treatment for pneumonia [@doi:10.1002/14651858.CD007720.pub3; @doi:10.1002/14651858.CD007720.pub2; @doi:10.1183/09031936.00154107; @doi:10.1007/s00408-007-9020-3; @doi:10.1371/journal.pone.0047926; @doi:10.1186/cc10103] that have also been debated as a possible treatment for ARDS [@doi:10/ggpxzc; @doi:10/gcv2; @doi:10.1378/chest.06-1743; @doi:10.1378/chest.07-0714; @doi:10.1056/NEJMoa051693; @doi:10.1136/bmj.39537.939039.BE].
 Corticosteroids were also used and subsequently evaluated as possible supportive care for SARS and MERS.
-In general, studies and meta-analyses did not identify support for corticosteroids to prevent mortality in these HCoV infections [@doi:10.1136/thx.2003.017665; @doi:10.1016/j.jinf.2006.01.005; @doi:10.1136/thx.2003.017665; @doi:10.1038/s41375-020-0848-3]; however, one found that the effects might be masked by variability in treatment protocols, such as dosage and timing [@doi:10.1007/s10156-003-0296-9].
+In general, studies and meta-analyses did not identify support for corticosteroids to prevent mortality in these HCoV infections [@doi:10.1136/thx.2003.017665; @doi:10.1016/j.jinf.2006.01.005; @doi:10.1038/s41375-020-0848-3]; however, one found that the effects might be masked by variability in treatment protocols, such as dosage and timing [@doi:10.1007/s10156-003-0296-9].
 While the corticosteroids most often used to treat SARS were methylprednisolone and hydrocortisone, availability issues for these drugs at the time led to dexamethasone also being used in North America [@doi:10.1056/NEJMp030072].
 
 Dexamethasone (9&alpha;-fluoro-16&alpha;-methylprednisolone) is a synthetic corticosteroid that binds to glucocorticoid receptors [@doi:10.1021/cr068203e; @url:https://www.cebm.net/covid-19/dexamethasone].
 It functions as an anti-inflammatory agent by binding to glucocorticoid receptors with higher affinity than endogenous cortisol [@doi:10.1016/B978-0-323-48110-6.00034-X].
-Dexamethasone and other steroids are widely available and affordable, and they are often used to treat community-acquired pneumonia [@doi:10.1038/s41392-020-0127-9] as well as chronic inflammatory conditions such as asthma, allergies, and rheumatoid arthritis [@doi:10.1021/ja01545a061; @doi:10.1001/jama.1960.03030070009002], including allergies and asthma [@dailymed-dexamethasone].
+Dexamethasone and other steroids are widely available and affordable, and they are often used to treat community-acquired pneumonia [@doi:10.1038/s41392-020-0127-9] as well as chronic inflammatory conditions such as asthma, allergies, and rheumatoid arthritis [@doi:10.1021/ja01545a061; @doi:10.1001/jama.1960.03030070009002; @dailymed-dexamethasone].
 Immunosuppressive drugs such as steroids are typically contraindicated in the setting of infection [@doi:10.1177/2040622313485275], but because COVID-19 results in hyperinflammation that appears to contribute to mortality via lung damage, immunosuppression may be a helpful approach to treatment [@doi:10/ggnzmc].
 A clinical trial that began in 2012 recently reported that dexamethasone may improve outcomes for patients with ARDS [@doi:10/ggpxzc], but a meta-analysis of a small amount of available data about dexamethasone as a treatment for SARS suggested that it may, in fact, be associated with patient harm [@doi:10/ggks86].
 However, the findings in SARS may have been biased by the fact that all of the studies examined were observational and a large number of inconclusive studies were not included [@doi:10/ggq356].
@@ -1952,7 +1952,7 @@ Guidelines were quickly updated to encourage the use of dexamethasone in severe 
 
 ### Approaches Targeting the Virus
 
-Therapeutics that directly target the virus itself hold the potential to prevent people infected with SARS-CoV-2 from developing potentially damaging symptoms.
+Therapeutics that directly target the virus itself hold the potential to prevent people infected with SARS-CoV-2 from developing potentially damaging symptoms (Figure @fig:therapeutics).
 Such drugs typically fall into the broad category of antivirals.
 Antiviral therapies hinder the spread of a virus within the host, rather than destroying existing copies of the virus, and these drugs can vary in their specificity to a narrow or broad range of viral targets.
 This process requires inhibiting the replication cycle of a virus by disrupting one of six fundamental steps [@isbn:978-1405136457].
@@ -1965,12 +1965,20 @@ Although antivirals are designed to target a virus, they can also impact other p
 Therefore, these therapeutics must be evaluated for both efficacy and safety.
 As the technology to respond to emerging viral threats has also evolved over the past two decades, a number of candidate treatments have been identified for prior viruses that may be relevant to the treatment of COVID-19.
 
+![
+**Mechanisms of Action for Potential Therapeutics**
+Potential therapeutics currently being studied can target the SARS-CoV-2 virus or modify the host environment through many different mechanisms.
+Here, the relationships between the virus, host cells, and several therapeutics are visualized.
+Drug names are color-coded according to the grade assigned to them by the Center for Cytokine Storm Treatment & Laboratory's CORONA Project [@url:https://cdcn.org/corona-data-viewer] (Green = A, Lime = B, Orange = C, and Red = D).
+](images/N001-LifeCyclePlusDrugs.png "SARS-CoV-2 life cycle and therapeutic mechanisms"){#fig:therapeutics secno=1}
+
 Many antiviral drugs are designed to inhibit the replication of viral genetic material during the biosynthesis step.
 Unlike DNA viruses, which can use the host enzymes to propagate themselves, RNA viruses like SARS-CoV-2 depend on their own polymerase, the RNA-dependent RNA polymerase (RdRP), for replication [@doi:10.1007/978-1-4939-2438-7; @doi:10.1002/jmv.25761].
 RdRP is therefore a potential target for antivirals against RNA viruses. 
 Disruption of RdRP is the proposed mechanism underlying the treatment of SARS and MERS with ribavirin [@doi:10.1080/17460441.2019.1581171].
 Ribavirin is an antiviral drug effective against other viral infections that was often used in combination with corticosteroids and sometimes interferon (IFN) medications to treat SARS and MERS [@doi:10.1038/nrmicro.2016.81].
-However, analyses of its effects in retrospective and _in vitro_ analyses of SARS and the SARS-CoV-1 virus, respectively, have been inconclusive [@doi:10.1038/nrmicro.2016.81], and while IFNs and ribavirin have shown promise in _in vitro_ analyses of MERS, their clinical effectiveness remains unknown [@doi:10.1038/nrmicro.2016.81].
+However, analyses of its effects in retrospective and _in vitro_ analyses of SARS and the SARS-CoV-1 virus, respectively, have been inconclusive [@doi:10.1038/nrmicro.2016.81].
+While IFNs and ribavirin have shown promise in _in vitro_ analyses of MERS, their clinical effectiveness remains unknown [@doi:10.1038/nrmicro.2016.81].
 The current COVID-19 pandemic has provided an opportunity to assess the clinical effects of these treatments.
 As one example, ribivarin was also used in the early days of COVID-19, but a retrospective cohort study comparing patients who did and did not receive ribivarin revealed no effect on the mortality rate [@doi:10.1016/j.ijantimicag.2020.106114].
 
@@ -1987,7 +1995,8 @@ Though initial analyses of favipiravir in observational studies of its effects o
 In contrast, another nucleoside analog, remdesivir, is one of the few treatments against COVID-19 that has received FDA approval.
 Remdesivir (GS-5734) is an intravenous antiviral that was proposed by Gilead Sciences as a possible treatment for Ebola virus disease.
 It is metabolized to GS-441524, an adenosine analog that inhibits a broad range of polymerases and then evades exonuclease repair, causing chain termination [@doi:10.1074/jbc.AC120.013056; @doi:10.1128/mBio.00221-18; @doi:10.1038/s41422-020-0282-0].
-Gilead received an emergency use authorization (EUA) for remdesivir from the FDA early in the pandemic (May 2020) based on the results of two clinical trials [@clinicaltrials:NCT04292899; @clinicaltrials:NCT04280705; @doi:10.1056/NEJMoa2007764; @doi:10.1056/NEJMoa2007016] and was later found to reduce mortality and recovery time in a double-blind, placebo-controlled, phase III clinical trial performed at 60 trial sites, 45 of which were in the United States [@doi:10.1056/NEJMoa2007764; @clinicaltrials:NCT04280705].
+Gilead received an emergency use authorization (EUA) for remdesivir from the FDA early in the pandemic (May 2020) and was later found to reduce mortality and recovery time in a double-blind, placebo-controlled, phase III clinical trial performed at 60 trial sites, 45 of which were in the United States [@doi:10.1056/NEJMoa2007764; @clinicaltrials:NCT04280705; @clinicaltrials:NCT04292899; @doi:10.1056/NEJMoa2007016].
+<!-- The references above are confusing.  The same trials are cited in the list of two early trials and the later trials. -->
 Subsequently, the WHO Solidarity trial, a large-scale, open-label trial enrolling 11,330 adult in-patients at 405 hospitals in 30 countries around the world, reported no effect of remdesivir on in-hospital mortality, duration of hospitalization, or progression to mechanical ventilation [@doi:10.1056/NEJMoa2023184].
 Therefore, additional clinical trials of remdesivir in different patient pools and in combination with other therapies may be needed to refine its use in the clinic and determine the forces driving these differing results.
 Remdesivir offers proof of principle that SARS-CoV-2 can be targeted at the level of viral replication, since remdesivir targets the viral RNA polymerase at high potency.
@@ -1996,19 +2005,13 @@ However, the success and relative lack of success, respectively, of remdesivir a
 
 ### Disrupting Host-Virus Interactions
 
-![
-**Mechanisms of Action for Potential Therapeutics Disrupting Host-Virus Interactions**
-Potential therapeutics currently being studied can target the SARS-CoV-2 virus or modify the host environment through many different mechanisms.
-Here, the relationship between the virus, host cells, and several therapeutics are visualized.
-Drug names are color-coded according to the grade assigned to them by the Center for Cytokine Storm Treatment & Laboratory's CORONA Project [@url:https://cdcn.org/corona-data-viewer] (Green = A, Lime = B, Orange = C and Red = D).
-](images/N001-LifeCyclePlusDrugs.png){#fig:therapeutics secno=1}
-
 #### Interrupting Viral Colonization of Cells
 
 Some of the most widely publicized examples of efforts to repurpose drugs for COVID-19 are broad-spectrum, small-molecule drugs where the mechanism of action made it seem that the drug might disrupt interactions between SARS-CoV-2 and human host cells (Figure @fig:therapeutics).
 However, the exact outcomes of such treatments are difficult to predict _a priori_, and there are several examples where early enthusiasm was not borne out in subsequent trials.
 One of the most famous examples of an analysis of whether a well-known medication could provide benefits to COVID-19 patients came from the assessment of chloroquine (CQ) and hydroxychloroquine (HCQ), which are used for the treatment and prophylaxis of malaria as well as the treatment of lupus erythematosus and rheumatoid arthritis in adults [@dailymed-hcq].
-These drugs are lysosomotropic agents, meaning they are weak bases that can pass through the plasma membrane, and it was thought that they might provide benefits against SARS-CoV-2 by interfering with the digestion of antigens within the lysosome and inhibiting CD4 T-cell stimulation while promoting the stimulation of CD8 T-cells [@doi:10.1111/j.1529-8019.2007.00131.x].
+These drugs are lysosomotropic agents, meaning they are weak bases that can pass through the plasma membrane.
+It was thought that they might provide benefits against SARS-CoV-2 by interfering with the digestion of antigens within the lysosome and inhibiting CD4 T-cell stimulation while promoting the stimulation of CD8 T-cells [@doi:10.1111/j.1529-8019.2007.00131.x].
 These compounds also have anti-inflammatory properties [@doi:10.1111/j.1529-8019.2007.00131.x] and can decrease the production of certain key cytokines involved in the immune response, including interleukin-6 (IL-6) and inhibit the stimulation of Toll-like receptors (TLR) and TLR signaling [@doi:10.1111/j.1529-8019.2007.00131.x].
 
 _In vitro_ analyses reported that CQ inhibited cell entry of SARS-CoV-1 [@doi:10.1186/1743-422X-2-69] and that both CQ and HCQ inhibited viral replication within cultured cells [@doi:10.1093/cid/ciaa237], leading to early hope that it might provide similar therapeutic or protective effects in patients.
@@ -2039,7 +2042,7 @@ Dexamethasone remains the major success story from this category of repurposed d
 #### Manipulating the Host Immune Response
 
 Treatments based on understanding a virus and/or how a virus interacts with the human immune system can fall into two categories: they can interact with the innate immune response, which is likely to be a similar response across viruses, or they can be specifically designed to imitate the adaptive immune response to a particular virus. 
-In the latter case, it can also be explored whether conservation of structure/behavior across viruses can allow for drugs developed for one virus to be useful in treating another. 
+In the latter case, conservation of structure or behavior across viruses enables exploring whether drugs developed for one virus can treat another.
 During the COVID-19 pandemic, a number of candidate therapeutics have been explored in these categories, with varied success.
 
 Knowledge gained from trying to understand SARS-CoV-1 and MERS-CoV from a fundamental biological perspective and characterize how they interact with the human immune system provides a theoretical basis for identifying candidate therapies.
@@ -2069,16 +2072,18 @@ IL-6 is a pro-inflammatory cytokine belonging to the interleukin family, which i
 Often used to treat chronic inflammatory conditions such as rheumatoid arthritis [@doi:10.1101/cshperspect.a016295], TCZ has become a pharmaceutical of interest for the treatment of COVID-19 because of the role IL-6 plays in this disease.
 It has also been approved to treat CRS caused by CAR-T treatments [@dailymed-tocilizumab].
 While the secretion of IL-6 can be associated with chronic conditions, IL-6 is a key player in the innate immune response and is secreted by macrophages in response to the detection of pathogen-associated molecular patterns and damage-associated molecular patterns [@doi:10.1101/cshperspect.a016295].
-An analysis of 191 in-patients at two Wuhan hospitals revealed that blood concentrations of IL-6 differed between patients who did and did not recover from COVID-19, and patients who ultimately died had higher IL-6 levels at admission than those who recovered [@doi:10/ggnxb3].
+An analysis of 191 in-patients at two Wuhan hospitals revealed that blood concentrations of IL-6 differed between patients who did and did not recover from COVID-19.
+Patients who ultimately died had higher IL-6 levels at admission than those who recovered [@doi:10/ggnxb3].
 Additionally, IL-6 levels remained higher throughout the course of hospitalization in the patients who ultimately died [@doi:10/ggnxb3].
 
-Currently, TCZ is being administered either as an intervention or as concomitant medication in 73 interventional COVID-19 clinical trials (Figure @fig:ebm-trials). <!---Not sure what this means. Does “concomitant medication” mean it’s part of a combination or that it’s not at all part of the intervention, but patients are allowed to continue taking it (eg it’s part of the standard of care)?-->
-A number of retrospective studies have been conducted in several countries [@doi:10/d2pk; @doi:10.1016/j.chest.2020.06.006; @doi:10.1016/j.ejim.2020.05.009; @doi:10.1016/j.medmal.2020.05.001; @doi:10.1093/qjmed/hcaa206; @doi:10.1073/pnas.2005615117], and, in general, these studies have reported a positive effect of TCZ on reducing mortality in COVID-19 patients, although due to their retrospective designs, significant limitations are present in all of them (Appendix A).
+Currently, TCZ is being administered either as an intervention or as concomitant medication in 73 interventional COVID-19 clinical trials (Figure @fig:ebm-trials).
+A number of retrospective studies have been conducted in several countries [@doi:10/d2pk; @doi:10.1016/j.chest.2020.06.006; @doi:10.1016/j.ejim.2020.05.009; @doi:10.1016/j.medmal.2020.05.001; @doi:10.1093/qjmed/hcaa206; @doi:10.1073/pnas.2005615117].
+In general, these studies have reported a positive effect of TCZ on reducing mortality in COVID-19 patients, although due to their retrospective designs, significant limitations are present in all of them (Appendix A).
 It was not until February 11, 2021 that a preprint describing preliminary results of the first randomized controlled trial of TCZ was released as part of the RECOVERY trial [@doi:10.1101/2021.02.11.21249258].
 TCZ was found to reduce 28-day mortality from 33% in patients receiving SOC alone to 29% in those receiving TCZ.
 Combined analysis of the RECOVERY trial data with data from smaller randomized controlled trials suggested a 13% reduction in 28-day mortality [@doi:10.1101/2021.02.11.21249258].
 While this initial report did not include the full results expected from the RECOVERY trial, this large-scale, randomized controlled trial provides strong evidence that TCZ may offer benefits for COVID-19 patients.
-The RECOVERY trial along with results from several other RCTs [@doi:10.1056/NEJMoa2028700; @doi:10.1056/NEJMoa2030340; @clinicaltrials:NCT04409262; @clinicaltrials:NCT04320615; @clinicaltrials:NCT04372186] were cited as support for the Emergency Use Authorization (EUA) issued for TCZ in June 2021 [@url:https://www.fda.gov/media/150319/download].
+The RECOVERY trial along with results from several other RCTs [@doi:10.1056/NEJMoa2028700; @doi:10.1056/NEJMoa2030340; @clinicaltrials:NCT04409262; @clinicaltrials:NCT04320615; @clinicaltrials:NCT04372186] were cited as support for the EUA issued for TCZ in June 2021 [@url:https://www.fda.gov/media/150319/download].
 However, the fact that TCZ suppresses the immune response means that it does carry risks for patients, especially a potential risk of secondary infection (Appendix A).
 
 TCZ is just one example of a candidate drug targeting the host immune response and specifically excessive inflammation.
@@ -2131,7 +2136,7 @@ Etesevimab was shown to bind a different epitope on the spike protein than bamla
 To assess the efficacy and safety of bamlanivimab alone or in combination with etesevimab for the treatment of COVID-19, a phase 2/3 trial (BLAZE-1) [@clinicaltrials:NCT04427501] was initiated.
 The interim analysis of the phase 2 portion suggested that bamlanivimab alone was able to accelerate the reduction in viral load [@doi:10.1056/NEJMoa2029849].
 However, more recent data suggests that only the bamlanivimab/etesevimab combination therapy is able to reduce viral load in COVID-19 patients [@doi:10.1001/jama.2021.0202].
-Based on this data, the combination therapy received an EUA for COVID-19 from the FDA in February of 2021 [@url:https://www.fda.gov/media/145801/download].
+Based on this data, the combination therapy received an EUA for COVID-19 from the FDA in February 2021 [@url:https://www.fda.gov/media/145801/download].
 
 A second therapy is comprised of casirivimab and imdevimab (REGN-COV2).
 Casirivimab (REGN10933) and imdevimab (REGN10987) are two monoclonal antibodies against the SARS-CoV-2 spike protein.
@@ -2157,10 +2162,11 @@ With the ongoing global spread of new SARS-CoV-2 variants, there is a growing co
 A comprehensive mutagenesis screen recently identified several amino acid substitutions in the SARS-CoV-2 spike protein that can prevent antibody neutralization [@doi:10.1016/j.chom.2021.01.014].
 While some mutations result in resistance to only one antibody, others confer broad resistance to multiple mAbs as well as polyclonal human sera, suggesting that some amino acids are “hotspots” for antibody resistance.
 However, it was not investigated whether the resistance mutations identified result in a fitness advantage.
-Accordingly, an impact on neutralizing efficiency has been reported for the emerging UK (B.1.1.7) and South Africa (B.1.351) variants [@doi:10.21203/rs.3.rs-228079/v1; @doi:10.1101/2021.02.03.429355; @doi:10.1101/2021.01.25.428137].
-As of June 25, 2021, the CDC recommended a pause in the use of bamlanivimab and etesevimab due to decreased efficacy against the P.1 and B.1.351 variants of SARS-CoV-2 [@url:https://www.phe.gov/emergency/events/COVID19/investigation-MCM/Bamlanivimab-etesevimab/Pages/bamlanivimab-etesevimab-distribution-pause.aspx].
+Accordingly, an impact on neutralizing efficiency has been reported for the B.1.1.7 (Alpha) variant first identified in the UK and the B.1.351 (Beta) variant first identified in in South Africa [@doi:10.21203/rs.3.rs-228079/v1; @doi:10.1101/2021.02.03.429355; @doi:10.1101/2021.01.25.428137].
+As of June 25, 2021, the CDC recommended a pause in the use of bamlanivimab and etesevimab due to decreased efficacy against the P.1 (Gamma) and B.1.351 (Beta) variants of SARS-CoV-2 [@url:https://www.phe.gov/emergency/events/COVID19/investigation-MCM/Bamlanivimab-etesevimab/Pages/bamlanivimab-etesevimab-distribution-pause.aspx].
 While the reported impact on antibody neutralization needs to be confirmed _in vivo_, it suggests that some adjustments to therapeutic antibody treatments may be necessary to maintain the efficacy that was reported in previous clinical trials.
-Several strategies have been employed to try to mitigate this risk.
+
+Several strategies have been employed to try to mitigate the risk of diminished antibody neutralization.
 Antibody cocktails such as those already holding an EUA may help overcome the risk for attenuation of the neutralizing activity of a single monoclonal antibody.
 These cocktails consist of antibodies that recognize different epitopes on the spike protein, decreasing the likelihood that a single amino acid change can cause resistance to all antibodies in the cocktail.
 However, neutralizing resistance can emerge even against an antibody cocktail if the individual antibodies target subdominant epitopes [@doi:10.1101/2021.02.03.429355].
@@ -2180,7 +2186,7 @@ Additionally, while TCZ is not yet as established, this therapy suggests that th
 ### Computational Design and Identification of Therapeutics
 
 As illustrated by the difference in the current status of remdesivir and favipiravir as treatments for COVID-19, identifying specific compounds that will produce a desired interaction with a virus is challenging.
-Additionally, because the drug development process is slow and costly and the development of compounds specifically targeted to an emerging viral threat are not a practical solution in the short term, efforts to screen existing drug compounds for alternative indications have become popular [@doi:10.1016/j.drudis.2019.06.014; @doi:10.1016/j.drudis.2019.06.014; @doi:10.1111/bph.13895].
+Additionally, because the drug development process is slow and costly and the development of compounds specifically targeted to an emerging viral threat are not a practical solution in the short term, efforts to screen existing drug compounds for alternative indications have become popular [@doi:10.1016/j.drudis.2019.06.014; @doi:10.1111/bph.13895].
 While some efforts to screen for potential repurposing opportunities are experimental, others use high-throughput computational approaches [@doi:10.1016/j.drudis.2019.06.014; @doi:10.1016/j.tim.2018.04.004].
 For infectious viral diseases, several strategies can be employed: identifying drugs that interact with a target that is shared between a novel and known viral pathogen, identifying drugs that interact with a target that is shared between a novel viral pathogen and another illness (i.e., a cancer drug with antiviral potential), and identifying a drug that might interact with additional molecular targets beyond those it was developed for [@doi:10.1016/j.tim.2018.04.004].
 While preclinical and clinical tests ultimately reveal whether the intended effect is achieved, selection of an appropriate target is fundamental to success in repurposing [@doi:10.1038/nrd.2018.168].
@@ -2192,6 +2198,7 @@ One built on the same concept as the antivirals described above: several studies
 Serine protease inhibitors were previously suggested for the treatment of SARS and MERS viruses [@doi:10.1016/j.antiviral.2015.01.011].
 Recently, a study [@doi:10.1016/j.cell.2020.02.052] suggested that camostat mesylate, a protease inhibitor, could block the entry of SARS-CoV-2 into lung cells _in vitro_.
 Computer-aided design allowed for the development of a Michael acceptor inhibitor, now known as N3, to target a protease critical to SARS-CoV-2 replication.
+<!-- Which study was the one that actually computationally designed N3? -->
 Discovery of the N3 mechanism arose from interest in the two polyproteins encoded by the SARS-CoV-2 replicase gene, pp1a and pp1ab, that are critical for viral replication and transcription [@doi:10.1038/s41586-020-2223-y].
 These polyproteins must undergo proteolytic processing.
 This processing is usually conducted by Mpro, a 33.8-kDa SARS-CoV-2 protease that is therefore fundamental to viral replication and transcription.
@@ -2202,19 +2209,19 @@ After the design and confirmation of N3 as a highly potent Michael acceptor inhi
 Six leads were identified, and _in vitro_ analysis revealed that ebselen, an organoselenium compound with anti-inflammatory and antioxidant properties [@doi:10.1007/s11033-014-3417-x], had the strongest potency in reducing the viral load in SARS-CoV-2-infected Vero cells [@doi:10.1038/s41586-020-2223-y].
 Ebselen is an organoselenium compound with anti-inflammatory and antioxidant properties [@doi:10.1007/s11033-014-3417-x]; however, it is likely to be a promiscuous binder, which could diminish its therapeutic potential [@doi:10.1038/s41586-020-2223-y].
 While there is clear computational and _in vitro_ support for ebselen's potential as a COVID-19 therapeutic, results from clinical trials are not yet available for this compound.
-In July 2020 phase II clinical trials commenced to assess the effects of SPI-1005, an investigational drug from Sound Pharmaceuticals that contains ebselen [@url:https://www.contractpharma.com/contents/view_breaking-news/2020-08-31/fda-clears-spis-ebselen-for-phase-ii-covid-19-trials/], on 60 adults presenting with each of moderate [@clinicaltrials:NCT04484025] and severe [@clinicaltrials:NCT04483973] COVID-19.
+In July 2020 phase II clinical trials commenced to assess the effects of SPI-1005, an investigational drug from Sound Pharmaceuticals that contains ebselen [@url:https://www.contractpharma.com/contents/view_breaking-news/2020-08-31/fda-clears-spis-ebselen-for-phase-ii-covid-19-trials], on 60 adults presenting with each of moderate [@clinicaltrials:NCT04484025] and severe [@clinicaltrials:NCT04483973] COVID-19.
 
-Another candidate has emerged from a broader assessment of work in computational prediction of candidate drugs for repurposing against COVID-19.
+Other candidates have emerged from a broader assessment of work in computational prediction of candidate drugs for repurposing against COVID-19.
 A large number of efforts have sought to collect data about interactions between drugs and SARS-CoV-2 and about the genomic response to SARS-CoV-2 exposure.
 These resources were integrated into the COVID-19 Drug and Gene Set Library, which at the time of its publication contained 1,620 drugs sourced from 173 experimental and computational drug sets and 18,676 human genes sourced from 444 gene sets [@doi:10.1016/j.patter.2020.100090].
 This study found that several drugs had been identified as candidates across multiple independent analyses, including several that had received significant attention as potential therapeutics for COVID-19 (e.g., CQ/HCQ and remdesivir) [@doi:10.1016/j.patter.2020.100090].
-A second study expanded on these results by identifying that cationic amphiphilicity was a shared property among many of the candidate drugs identified through both computational and phenotypic screens, suggesting it as a potential cause of a compound's proposed antiviral activity [@doi:10.1101/2021.03.23.436648].
+A second study expanded on these results by identifying that cationic amphiphilicity was a shared property among many of the candidate drugs identified through both computational and phenotypic screens, suggesting it as a potential cause of a compound's proposed antiviral activity [@doi:10.1126/science.abi4708].
+Antiviral activity against SARS-CoV-2 _in vitro_ was correlated with phospholipidosis for drugs with and without cationic amphiphilicity.
 Cationic amphiphilic drugs are known to initiate phospholipidosis, which is when phospholipids accumulate in the lysosome [@doi:10.1515/hsz-2019-0270].
 Mechanistically, phospholipidosis could disrupt viral replication by inhibiting lipid processing [@doi:10.1080/01913123.2020.1850966] (see discussion of HCQ in Appendix A).
-They found that antiviral activity against SARS-CoV-2 was correlated with phospholipidosis for drugs with and without cationic amphiphilicity.
-This observation is also consistent with preliminary evidence that certain psychotropic drugs may be protective against COVID-19 [@doi:10.1016/j.drudis.2020.06.022; @doi:10.1007/s00406-020-01231-x; @doi:10.1001/jama.2020.22760].
-While _in vivo_ application of this principle has not yet been successful, this effort demonstrates the potential for high-throughput screening to reveal general biological principles that may be beneficial in developing strategies to combat SARS-CoV-2.
-Other large-scale efforts to screen candidate drugs against SARS-CoV-2 (e.g., [@doi:10.1016/j.celrep.2021.108959]) may complement these efforts and provide additional insights into the fundamental characteristics of drugs that show potential for repurposing.
+This observation would be consistent with preliminary evidence that certain psychotropic drugs may be protective against COVID-19 [@doi:10.1016/j.drudis.2020.06.022; @doi:10.1007/s00406-020-01231-x; @doi:10.1001/jama.2020.22760].
+However, phospholipidosis-inducing drugs were not effective at preventing viral propagation _in vivo_ in a murine model of COVID-19 [@doi:10.1126/science.abi4708].
+Therefore, removing hits that induce phospholipidosis from computational and _in vitro_ experimental repurposing screens (e.g., [@doi:10.1016/j.celrep.2021.108959]) may help emphasize those that are more likely to provide clinical benefits.
 
 ### Considerations in Balancing Different Approaches
 
@@ -2224,7 +2231,7 @@ Oftentimes, the pharmaceutical agents that are applied are small-molecule, broad
 However, the fact that the targets of these agents are non-specific means that the mechanism of action can appear to be relevant to COVID-19 without a therapeutic or prophylactic effect being observed in clinical trials.
 Over the last year, dexamethasone has emerged as the strongest treatment against severe COVID-19, but other clinically suggested compounds such as HCQ/CQ and ARBs/ACEis have not borne out early hope in their mechanistic relevance.
 A number of vaccine development programs have also met huge success using a range of strategies [@individual-vaccines].
-Although only limited testing of candidate therapies was possible during the SARS and MERS epidemics, the scale and duration of the COVID-19 pandemic has offered the opportunity to test hypothesized treatments.
+Although only limited testing of candidate therapies was possible during the SARS and MERS epidemics, the scale and duration of the COVID-19 pandemic has offered the opportunity to test many hypothesized treatments.
 The success of dexamethasone clearly illustrates how clinical context can be a valuable approach through which to identify candidate therapeutics.
 
 Many efforts to repurpose drugs for COVID-19 have built on information gained through basic scientific research of HCoV.
@@ -2237,6 +2244,7 @@ Because the second phase of COVID-19 infection, associated with a severe inflamm
 Once again, this approach does not require the development of compounds specifically designed for the emergent viral threat, but rather hinges on a theoretical understanding of how the virus interacts with a human host and how pharmaceuticals can be used to modify those interactions.
 In contrast, other mAbs can be designed based on a specific pathogen.
 COVID-19 has demonstrated that this development can progress rapidly, with two mAb cocktails currently approved in the United States.
+<!-- Do we have any broad insights into the types of trials that have been run and the degree of clinical evidence they provide? It seems as if in several cases there were small initial trials (some observational or underpowered) that didn't provide strong evidence for or against a drug. We had to wait for RECOVERY, Solidarity, etc. results to draw better conclusions. Is that accurate or worth commenting on? -->
 
 Finally, more recent computational approaches have begun to show potential in the age of big data.
 Computational screening allows for a large number of compounds to be evaluated to identify those most likely to display a desired behavior or function.
@@ -2245,6 +2253,7 @@ In such cases, these compounds may lack some of the benefits of other categories
 In other cases, however, computational analysis of large bodies of data has allowed researchers to identify candidates among known drugs.
 As illustrated above, this approach may make it possible to find underlying characteristics that produce new hypotheses about the relationship between a host, a virus, and candidate pharmaceuticals.
 As more data becomes available, such responses are likely to become increasingly feasible and powerful.
+<!-- What is our overall sense of how valuable computational repurposing tools versus experimental screens of FDA-approved compounds has been? With many diseases, there may not be resources to experimentally test many drugs in vitro. Does the calculation change with a global pandemic when many labs are willing to test all approved compounds in vitro? I'm wondering what we would say about comments like https://blogs.sciencemag.org/pipeline/archives/2021/07/19/too-many-papers I'm pro-computational screening in general but am curious whether the benefits change in this specific setting. -->
 
 The all-hands-on-deck approach that the scientific community has taken towards the COVID-19 pandemic has facilitated an unprecedented breadth of research into an emerging viral threat.
 Experience gained through prior outbreaks of HCoVs combined with recent scientific advances in other fields has enabled the rapid assessment of candidate drugs using a number of different approaches.
@@ -2279,7 +2288,7 @@ This table was last updated on August 2, 2021.
 
 Drug repurposing has shaped the conversation about treatments for COVID-19 over the first year and a half of the pandemic.
 By now, several drugs are available for the treatment of COVID-19 (Table @tbl:summary-table).
-These compounds are proposed to use a variety of mechanisms of action (@fig:therapeutics).
+These compounds are proposed to use a variety of mechanisms of action (Figure @fig:therapeutics).
 Because the scale of the COVID-19 crisis has far exceeded that seen in prior HCoV epidemics, analyses of potential compounds has benefited from the plethora of opportunities to study the effectiveness of theoretically relevant pharmacological interventions.
 As the results of more clinical trials become available, the treatment options may continue to evolve.
 However, at present, it is clear that building on a wide range of available information in order to identify potential drugs for repurposing opens a variety of opportunities for identifying compounds of interest.
@@ -2300,7 +2309,7 @@ Administration of dexamethasone has been found to correspond to dose-dependent i
 Thus, the administration of dexamethasone for COVID-19 is likely to simulate the release of glucocorticoids endogenously during stress, resulting in binding of the synthetic steroid to the glucocorticoid receptor and the associated inhibition of the production of proinflammatory cytokines.
 In this model, dexamethasone reduces inflammation by stimulating the biological mechanism that reduces inflammation following a threat such as immune challenge.
 
-Initial support for dexamethasone as a treatment for COVID-19 came from the United Kingdom's RECOVERY trial [@doi:10.1101/2020.06.22.20137273], which assigned over 6,000 hospitalized COVID-19 patients to the SOC or treatment (dexamethasone) arms of the trial at a 2:1 ratio.
+Initial support for dexamethasone as a treatment for COVID-19 came from the United Kingdom's RECOVERY trial [@doi:10.1101/2020.06.22.20137273], which assigned over 6,000 hospitalized COVID-19 patients to the standard of care (SOC) or treatment (dexamethasone) arms of the trial at a 2:1 ratio.
 At the time of randomization, some patients were ventilated (16%), others were on non-invasive oxygen (60%), and others were breathing independently (24%).
 Patients in the treatment arm were administered dexamethasone either orally or intravenously at 6 mg per day for up to 10 days.
 The primary end-point was the patient's status at 28-days post-randomization (mortality, discharge, or continued hospitalization), and secondary outcomes analyzed included the progression to invasive mechanical ventilation over the same period.
@@ -2340,7 +2349,7 @@ Moreover, the selection of patients did not take into consideration important fa
 Additionally, it should be noted that this study was temporarily retracted and then restored without an explanation [@url:https://retractionwatch.com/retracted-coronavirus-covid-19-papers].
 
 In late 2020 and early 2021, the first randomized controlled trials of favipiravir for the treatment of COVID-19 released results [@doi:10.1016/j.ejps.2020.105631; @doi:10.1007/s00705-021-04956-9; @doi:10.1093/cid/ciaa1176].
-The first [@doi:10.1016/j.ejps.2020.105631] used a randomized, controlled, open-label design to compare two drugs, favipiravir and baloxavir marboxil, to standard of care (SOC) alone.
+The first [@doi:10.1016/j.ejps.2020.105631] used a randomized, controlled, open-label design to compare two drugs, favipiravir and baloxavir marboxil, to SOC alone.
 Here, SOC included antivirals such as lopinavir/ritonavir and was administered to all patients.
 The primary endpoint analyzed was viral clearance at day 14.
 The sample size for this study was very small, with 29 total patients enrolled, and no significant effect of the treatments was found for the primary or any of the secondary outcomes analyzed, which included mortality.
@@ -2353,7 +2362,7 @@ Thus, in combination, these small studies suggest that the effects of favipiravi
 
 ### Remdesivir
 
-At the outset of the COVID-19 pandemic, Remdesivir did not have any have any FDA-approved use.
+At the outset of the COVID-19 pandemic, remdesivir did not have any have any FDA-approved use.
 A clinical trial in the Democratic Republic of Congo found some evidence of effectiveness against ebola virus disease (EVD), but two antibody preparations were found to be more effective, and remdesivir was not pursued [@doi:10.1056/NEJMoa1910993].
 Remdesivir also inhibits polymerase and replication of the coronaviruses MERS-CoV and SARS-CoV-1 in cell culture assays with submicromolar IC50s [@doi:10.1126/scitranslmed.aal3653].
 It has also been found to inhibit SARS-CoV-2, showing synergy with CQ _in vitro_ [@doi:10.1038/s41422-020-0282-0].
@@ -2644,9 +2653,9 @@ Both classical and trans-signaling can occur through three independent pathways:
 These signaling pathways are involved in a variety of different functions, including cell type differentiation, immunoglobulin synthesis, and cellular survival signaling pathways, respectively [@doi:10.3389/fimmu.2016.00604].
 The ultimate result of the IL-6 cascade is to direct transcriptional activity of various promoters of pro-inflammatory cytokines, such as IL-1, TFN, and even IL-6 itself, through the activity of NF-κB [@doi:10.3389/fimmu.2016.00604].
 IL-6 synthesis is tightly regulated both transcriptionally and post-transcriptionally, and it has been shown that viral proteins can enhance transcription of the IL-6 gene by strengthening the DNA-binding activity between several transcription factors and IL-6 gene-cis-regulatory elements [@doi:10.2492/inflammregen.33.054].
-Therefore, drugs inhibiting the binding of IL-6 to IL-6R&alpha; or sIL-6R&alpha; are of interest for combating the hyperactive inflammatory response characteristic of CRS/CSS.
+Therefore, drugs inhibiting the binding of IL-6 to IL-6R&alpha; or sIL-6R&alpha; are of interest for combating the hyperactive inflammatory response characteristic of cytokine release syndrome (CRS) and cytokine storm syndrome (CSS).
 TCZ is a humanized monoclonal antibody that binds both to the insoluble and soluble receptor of IL-6, providing de facto inhibition of the IL-6 immune cascade.
-Interest in TCZ as a possible treatment for COVID-19 was piqued by early evidence indicating that COVID-19 deaths may be induced by the hyperactive immune response, often referred to as CRS or cytokine storm syndrome (CSS) [@doi:10/ggnxb3], as IL-6 plays a key role in this response [@doi:10.1128/mmbr.05015-11].
+Interest in TCZ as a possible treatment for COVID-19 was piqued by early evidence indicating that COVID-19 deaths may be induced by the hyperactive immune response, often referred to as CRS or CSS [@doi:10/ggnxb3], as IL-6 plays a key role in this response [@doi:10.1128/mmbr.05015-11].
 The observation of elevated IL-6 in patients who died relative to those who recovered [@doi:10/ggnxb3] could reflect an over-production of proinflammatory interleukins, suggesting that TCZ could potentially palliate some of the most severe symptoms of COVID-19 associated with increased cytokine production.
 
 This early interest in TCZ as a possible treatment for COVID-19 was bolstered by a very small retrospective study in China that examined 20 patients with severe symptoms in early February 2020 and reported rapid improvement in symptoms following treatment with TCZ [@doi:10.1073/pnas.2005615117].
@@ -2676,7 +2685,7 @@ However, this study also holds a significant limitation: the time delay between 
 All the same, the results of these observational retrospective studies provide support for TCZ as a pharmaceutical of interest for follow-up in clinical trials.
 
 Other retrospective analyses have utilized a case-control design to match pairs of patients with similar baseline characteristics, only one of whom received TCZ for COVID-19.
-In one such study, TCZ was significantly associated with a reduced risk of progression to ICU admission or death [@doi:10.1016/j.medmal.2020.05.001].
+In one such study, TCZ was significantly associated with a reduced risk of progression to intensive care unit (ICU) admission or death [@doi:10.1016/j.medmal.2020.05.001].
 This study examined only 20 patients treated with TCZ (all but one of the patients treated with TCZ in the hospital during the study period) and compared them to 25 patients receiving SOC.
 For the combined primary endpoint of death and/or ICU admission, only 25% of patients receiving TCZ progressed to an endpoint compared to 72% in the SOC group (_p_ = 0.002, presumably based on a chi-square test based on the information provided in the text).
 When the two endpoints were examined separately, progression to invasive medical ventilation remained significant (32% SOC compared to 0% TCZ, _p_ = 0.006) but not for mortality (48% SOC compared to 25% TCZ, _p_ = 0.066).
@@ -2685,7 +2694,7 @@ Taken together, these findings suggest that future clinical trials of TCZ may wa
 However, these studies should be approached with caution, not only because of the small number of patients enrolled and the retrospective design, but also because they performed a large number of statistical tests and did not account for multiple hypothesis testing.
 In general, caution must be exercised when interpreting subgroup analyses after a primary combined endpoint analysis.
 These last findings highlight the need to search for a balance between impairing a harmful immune response, such as the one generated during CRS/CSS, and preventing the worsening of the clinical picture of the patients by potential new viral infections.
-Though data about TCZ for COVID-19 is still only just emerging, some meta-analyses and systematic reviews have investigated the available data.
+Early meta-analyses and systematic reviews have investigated the available data about TCZ for COVID-19.
 One meta-analysis [@doi:10.2139/ssrn.3642653] evaluated 19 studies published or released as preprints prior to July 1, 2020 and found that the overall trends were supportive of the frequent conclusion that TCZ does improve survivorship, with a significant HR of 0.41 (_p_ < 0.001).
 This trend improved when they excluded studies that administered a steroid alongside TCZ, with a significant HR of 0.04 (_p_ < 0.001).
 They also found some evidence for reduced invasive ventilation or ICU admission, but only when excluding all studies except a small number whose estimates were adjusted for the possible bias introduced by the challenges of stringency during the enrollment process.
@@ -2700,7 +2709,7 @@ Among them, 2,022 were randomized to receive TCZ and 2,094 were randomized to SO
 The primary outcome measured was 28-day mortality, and TCZ was found to reduce 28-day mortality from 33% of patients receiving SOC alone to 29% of those receiving TCZ, corresponding to a rate ratio of 0.86 (95% CI 0.77-0.96; _p_ = 0.007).
 TCZ was also significantly associated with the probability of hospital discharge within 28 days for living patients, which was 47% in the SOC group and 54% in the TCZ group (rate ratio 1.22, 95% CI 1.12-1.34, _p_ < 0.0001).
 A potential statistical interaction between TCZ and corticosteroids was observed, with the combination providing greater mortality benefits than TCZ alone, but the authors note that caution is advisable in light of the number of statistical tests conducted.
-Combining the RECOVERY trial data with data from seven smaller randomized control trials indicates that TCZ is associated with a 13% reduction in 28-day mortality (rate ratio 0.87, 95% CI 0.79-0.96, _p_ = 0·005) [@doi:10.1101/2021.02.11.21249258].
+Combining the RECOVERY trial data with data from seven smaller randomized control trials indicates that TCZ is associated with a 13% reduction in 28-day mortality (rate ratio 0.87, 95% CI 0.79-0.96, _p_ = 0.005) [@doi:10.1101/2021.02.11.21249258].
 
 There are possible risks associated with the administration of TCZ for COVID-19.
 TCZ has been used for over a decade to treat RA [@doi:10.1177/1759720X18798462], and a recent study found the drug to be safe for pregnant and breastfeeding women [@doi:10.1093/rheumatology/kez100].
@@ -2718,10 +2727,8 @@ TCZ administration to COVID-19 patients is not without risks and may introduce a
 In summary, approximately 33% of hospitalized COVID-19 patients develop ARDS [@doi:10.1186/s13054-020-03240-7], which is caused by an excessive early response of the immune system which can be a component of CRS/CSS [@doi:10.1016/j.chest.2020.06.006; @doi:10.1186/s12967-020-02339-3].
 This overwhelming inflammation is triggered by IL-6.
 TCZ is an inhibitor of IL-6 and therefore may neutralize the inflammatory pathway that leads to the cytokine storm.
-While the mechanism suggests TCZ could be beneficial for the treatment of COVID-19 patients experiencing excessive immune activity, no randomized controlled trials are available assessing its effect.
-However, small initial studies have found preliminary indications that TCZ may reduce progression to invasive medical ventilation and/or death.
-It should be noted that SOC varied widely across retrospective studies, with one study administering HCQ, lopinavir-ritonavir, antibiotics, and/or heparin as part of SOC.
-Interest in TCZ as a treatment for COVID-19 was supported by two meta-analyses [@doi:10.1101/2020.07.10.20150938; @doi:10.2139/ssrn.3642653], but a third meta-analysis found that all of the available literature carries a risk of bias, with even the largest available TCZ studies to date carrying a moderate risk of bias under the ROBINS-I criteria [@doi:10.1016/j.pulmoe.2020.07.003].
+The mechanism suggests TCZ could be beneficial for the treatment of COVID-19 patients experiencing excessive immune activity, and the RECOVERY trial reported a reduction in 28-day mortality.
+Interest in TCZ as a treatment for COVID-19 was also supported by two meta-analyses [@doi:10.1101/2020.07.10.20150938; @doi:10.2139/ssrn.3642653], but a third meta-analysis found that all of the available literature at that time carried a risk of bias [@doi:10.1016/j.pulmoe.2020.07.003].
 Additionally, different studies used different dosages, number of doses, and methods of administration.
 Ongoing research may be needed to optimize administration of TCZ [@doi:10.1016/j.jcv.2020.104443], although similar results were reported by one study for intravenous and subcutaneous administration [@doi:10/d2pk].
 Clinical trials that are in progress are likely to provide additional insight into the effectiveness of this drug for the treatment of COVID-19 along with how it should be administered.
@@ -2736,7 +2743,7 @@ There is evidence that patients with higher susceptibility to ARDS indeed show d
 For instance, infection with other coronaviruses impairs IFN-𝛽 expression and synthesis, allowing the virus to escape the innate immune response [@doi:10.1016/j.virusres.2014.07.024].
 On March 18 2020, Synairgen plc received approval to start a phase II trial for SNG001, an IFN-𝛽-1a formulation to be delivered to the lungs via inhalation [@clinicaltrials:NCT04385095].
 SNG001, which contains recombinant interferon beta-1a, was previously shown to be effective in reducing viral load in an _in vivo_ model of swine flu and _in vitro_ models of other coronavirus infections [@synairgen-SNG001-March-2020].
-In July, a press release from Synairgen stated that SNG001 reduced progression to ventilation in a double-blind, placebo-controlled, multi-center study of 101 patients with an average age in the late 50s [@synairgen-SNG001-July-2020].
+In July 2020, a press release from Synairgen stated that SNG001 reduced progression to ventilation in a double-blind, placebo-controlled, multi-center study of 101 patients with an average age in the late 50s [@synairgen-SNG001-July-2020].
 These results were subsequently published in November 2020 [@doi:10/ghjzm4].
 The study reports that the participants were assigned at a ratio of 1:1 to receive either SNG001 or a placebo that lacked the active compound, by inhalation for up to 14 days.
 The primary outcome they assessed was the change in patients' score on the WHO Ordinal Scale for Clinical Improvement (OSCI) at trial day 15 or 16.
@@ -2744,16 +2751,16 @@ SNG001 was associated with an odds ratio of improvement on the OSCI scale of 2.3
 Some of the secondary endpoints analyzed also showed differences: at day 28, the OR for clinical improvement on the OSCI was 3.15 (95% CI 1.39 – 7.14, _p_ = 0.006), and the odds of recovery at day 15/16 and at day 28 were also significant between the two groups.
 Thus, this study suggested that IFN-𝛽1 administered via SNG001 may improve clinical outcomes.
 
-In contrast, the WHO Solidarity trial reported no significant effect of IFN-𝛽1a on patient survival during hospitalization [@doi:10.1056/NEJMoa2023184].
-Here, the primary outcome analyzed was in-hospital mortality, and the rate ratio for the two groups was 1.16 (95% CI, 0.96 to 1.39; _p_ = 0.11) administering IFN-𝛽-1a to 2050 patients and comparing their response to 2,050 controls.
+In contrast, the WHO Solidarity trial reported no significant effect of IFN-&beta;-1a on patient survival during hospitalization [@doi:10.1056/NEJMoa2023184].
+Here, the primary outcome analyzed was in-hospital mortality, and the rate ratio for the two groups was 1.16 (95% CI, 0.96 to 1.39; _p_ = 0.11) administering IFN-&beta;-1a to 2050 patients and comparing their response to 2,050 controls.
 However, there are a few reasons that the different findings of the two trials might not speak to the underlying efficacy of this treatment strategy.
 One important consideration is the stage of COVID-19 infection analyzed in each study.
 The Synairgen trial enrolled only patients who were not receiving invasive ventilation, corresponding to a less severe stage of disease than many patients enrolled in the SOLIDARITY trial, as well as a lower overall rate of mortality [@doi:10/ftmj].
-Additionally, the methods of administration differed between the two trials, with the SOLIDARITY trial administering IFN-𝛽-1a subcutaneously [@doi:10/ftmj].
-The differences in findings between the studies suggests that the method of administration might be relevant to outcomes, with nebulized IFN-𝛽-1a more directly targeting receptors in the lungs.
+Additionally, the methods of administration differed between the two trials, with the SOLIDARITY trial administering IFN-&beta;-1a subcutaneously [@doi:10/ftmj].
+The differences in findings between the studies suggests that the method of administration might be relevant to outcomes, with nebulized IFN-&beta;-1a more directly targeting receptors in the lungs.
 A trial that analyzed the effect of subcutaneously administered IFN-&beta;-1a on patients with ARDS between 2015 and 2017 had also reported no effect on 28-day mortality [@doi:10.1001/jama.2019.22525], while a smaller study analyzing the effect of subcutaneous IFN administration did find a significant improvement in 28-day mortality for COVID-19 [@doi:10.1128/AAC.01061-20].
-At present, several ongoing clinical trials are investigating the potential effects of IFN-𝛽-1a, including in combination with therapeutics such as remdesivir [@clinicaltrials:NCT04492475] and administered via inhalation [@clinicaltrials:NCT04385095].
-Thus, as additional information becomes available, a more detailed understanding of whether and under which circumstances IFN-𝛽-1a is beneficial to COVID-19 patients should develop.
+At present, several ongoing clinical trials are investigating the potential effects of IFN-&beta;-1a, including in combination with therapeutics such as remdesivir [@clinicaltrials:NCT04492475] and administered via inhalation [@clinicaltrials:NCT04385095].
+Thus, as additional information becomes available, a more detailed understanding of whether and under which circumstances IFN-&beta;-1a is beneficial to COVID-19 patients should develop.
 
 ### Potential Avenues of Interest for Therapeutic Development
 
@@ -2775,6 +2782,7 @@ In addition to immunosuppressive treatments, which are most beneficial late in d
 For example, although studies of HCQ have not supported the early theory-driven interest in this antiviral treatment, alternative compounds with related mechanisms may still have potential.
 Hydroxyferroquine derivatives of HCQ have been described as a class of bioorganometallic compounds that exert antiviral effects with some selectivity for SARS-CoV-1 _in vitro_ [@doi:10.1021/jm0601856].
 Future work could explore whether such compounds exert antiviral effects against SARS-CoV-2 and whether they would be safer for use in COVID-19.
+
 Another potential approach is the development of antivirals, which could be broad-spectrum, specific to coronaviruses, or targeted to SARS-CoV-2.
 Development of new antivirals is complicated by the fact that none have yet been approved for human coronaviruses.
 Intriguing new options are emerging, however.
@@ -2784,7 +2792,7 @@ Development of antivirals will be further facilitated as research reveals more i
 Finally, antibodies against viruses, also known as antiviral monoclonal antibodies, could be an alternative as well and are described in detail in an above section.
 The goal of antiviral antibodies is to neutralize viruses through either cell-killing activity or blocking of viral replication [@doi:10.1016/j.tim.2015.07.005].
 They may also engage the host immune response, encouraging the immune system to hone in on the virus.
-Given the cytokine storm that results from immune system activation in response to the virus, which has been implicated in worsening of the disease, an nAb may be preferable.
+Given the cytokine storm that results from immune system activation in response to the virus, which has been implicated in worsening of the disease, a neutralizing antibody (nAb) may be preferable.
 Upcoming work may explore the specificity of nAbs for their target, mechanisms by which the nAbs impede the virus, and improvements to antibody structure that may enhance the ability of the antibody to block viral activity.
 
 Some research is also investigating potential therapeutics and prophylactics that would interact with components of the innate immune response.
@@ -2799,7 +2807,7 @@ This approach is necessary given the urgency of the situation as well as the ext
 However, in the long-term, new drugs specific for treatment of COVID-19 may also enter development.
 Development of novel drugs is likely to be guided by what is known about the pathogenesis and molecular structure of SARS-CoV-2.
 For example, understanding the various structural components of SARS-CoV-2 may allow for the development of small molecule inhibitors of those components.
-Currently, crystal structures of the SARS-CoV-2 main protease have recently been resolved [@doi:10.1038/s41586-020-2223-y; @url:https://www.diamond.ac.uk/covid-19/for-scientists/Main-protease-structure-and-XChem.html], and efforts are already in place to perform screens for small molecule inhibitors of the main protease, which have yielded potential hits [@doi:10.1038/s41586-020-2223-y].
+Crystal structures of the SARS-CoV-2 main protease have been resolved [@doi:10.1038/s41586-020-2223-y; @url:https://www.diamond.ac.uk/covid-19/for-scientists/Main-protease-structure-and-XChem.html], and efforts are already in place to perform screens for small molecule inhibitors of the main protease, which have yielded potential hits [@doi:10.1038/s41586-020-2223-y].
 Much work remains to be done to determine further crystal structures of other viral components, understand the relative utility of targeting different viral components, perform additional small molecule inhibitor screens, and determine the safety and efficacy of the potential inhibitors.
 While still nascent, work in this area is promising.
 Over the longer term, this approach and others may lead to the development of novel therapeutics specifically for COVID-19 and SARS-CoV-2.<!-- This section could be updated with most recent information on drug discovery efforts -->
