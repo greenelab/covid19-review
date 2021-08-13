@@ -975,7 +975,7 @@
 {
   "id": "dailymed-hcq",
   "type": "webpage",
-  "title": "PLAQUENIL- hydroxychloroquine sulfate tablet",
+  "title": "PLAQUENIL - hydroxychloroquine sulfate tablet",
   "container-title": "DailyMed",
   "URL": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=34496b43-05a2-45fb-a769-52b12e099341",
   "language": "en",
@@ -1009,7 +1009,7 @@
 {
   "id": "dailymed-dexamethasone",
   "type": "webpage",
-  "title": "dexamethasone- Dexamethasone tablet dexamethasone- Dexamethasone solution, concentrate dexamethasone- Dexamethasone solution",
+  "title": "Dexamethasone",
   "container-title": "DailyMed",
   "URL": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=537b424a-3e07-4c81-978c-1ad99014032a",
   "language": "en",
@@ -1026,7 +1026,7 @@
 {
   "id": "dailymed-tocilizumab",
   "type": "webpage",
-  "title": "ACTEMRA- tocilizumab injection, solution, concentrate ACTEMRA- tocilizumab injection, solution ACTEMRA ACTPEN- tocilizumab injection, solution",
+  "title": "ACTEMRA - tocilizumab",
   "container-title": "DailyMed",
   "URL": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2e5365ff-cb2a-4b16-b2c7-e35c6bf2de13",
   "language": "en",
@@ -1144,5 +1144,125 @@
   "container-title": "Manubot",
   "title": "An Open-Publishing Response to the COVID-19 Infodemic",
   "URL": "https://greenelab.github.io/covid19-review/v/32afa309f69f0466a91acec5d0df3151fe4d61b5/#an-open-publishing-response-to-the-covid-19-infodemic"
+},
+{
+  "type": "article-journal",
+  "id": "doi:10.1186/cc2452",
+  "author": [
+    {
+      "family": "Gomersall",
+      "given": "Charles D"
+    },
+    {
+      "family": "Kargel",
+      "given": "Marcus J"
+    },
+    {
+      "family": "Lapinsky",
+      "given": "Stephen E"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2004
+      ]
+    ]
+  },
+  "container-title": "Critical Care",
+  "DOI": "10.1186/cc2452",
+  "volume": "8",
+  "issue": "2",
+  "page": "105",
+  "publisher": "Springer Science and Business Media LLC",
+  "title": "Pro/con clinical debate: Steroids are a key component in the treatment of SARS",
+  "URL": "https://doi.org/dpjr29",
+  "PMCID": "PMC420028",
+  "PMID": "15025770"
+},
+{
+  "id": "url:https://cdcn.org/corona-data-viewer",
+  "type": "webpage",
+  "title": "CORONA Data Viewer",
+  "container-title": "Castleman Disease Collaborative Network",
+  "URL": "https://cdcn.org/corona-data-viewer/",
+  "language": "en-US",
+  "accessed": {
+    "date-parts": [
+      [
+        "2021",
+        8,
+        12
+      ]
+    ]
+  }
+},
+{
+  "id": "url:https://www.fda.gov/media/138946/download",
+  "type": "webpage",
+  "title": "Frequently Asked Questions on the Revocation of the Emergency Use Authorization for Hydroxychloroquine Sulfate and Chloroquine Phosphate",
+  "container-title": "U.S. Food and Drug Administration",
+  "URL": "https://www.fda.gov/media/138946/download",
+  "language": "en",
+  "issued": {
+    "date-parts": [
+      [
+        "2020",
+        6,
+        19
+      ]
+    ]
+  }
+},
+{
+  "id": "url:https://www.fda.gov/media/150319/download",
+  "type": "webpage",
+  "title": "Genentech tocilizumab Letter of Authority",
+  "container-title": "U.S. Food and Drug Administration",
+  "URL": "https://www.fda.gov/media/150319/download",
+  "language": "en",
+  "issued": {
+    "date-parts": [
+      [
+        "2021",
+        6,
+        24
+      ]
+    ]
+  }
+},
+{
+  "id": "url:https://www.fda.gov/media/145801/download",
+  "type": "webpage",
+  "title": "Bamlanivimab and Etesevimab EUA Letter of Authorization",
+  "container-title": "U.S. Food and Drug Administration",
+  "URL": "https://www.fda.gov/media/145801/download",
+  "language": "en",
+  "issued": {
+    "date-parts": [
+      [
+        "2021",
+        2,
+        25
+      ]
+    ]
+  }
+},
+{
+  "id": "url:https://www.phe.gov/emergency/events/COVID19/investigation-MCM/Bamlanivimab-etesevimab/Pages/bamlanivimab-etesevimab-distribution-pause.aspx",
+  "type": "webpage",
+  "title": "Pause in the Distribution of bamlanivimab/etesevimab",
+  "container-title": "U.S. Department of Health and Human Services",
+  "URL": "https://www.phe.gov/emergency/events/COVID19/investigation-MCM/Bamlanivimab-etesevimab/Pages/bamlanivimab-etesevimab-distribution-pause.aspx",
+  "language": "en",
+  "issued": {
+    "date-parts": [
+      [
+        "2021",
+        6,
+        25
+      ]
+    ]
+  }
 }
 ]
