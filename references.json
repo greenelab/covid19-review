@@ -849,7 +849,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     }
@@ -1326,7 +1326,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     }
@@ -1418,7 +1418,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     }
@@ -1511,7 +1511,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     }
@@ -1677,7 +1677,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     }
@@ -1880,7 +1880,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     }
@@ -1935,7 +1935,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     }
@@ -2101,7 +2101,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     }
@@ -2138,7 +2138,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     }
@@ -2175,7 +2175,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     }
@@ -2248,7 +2248,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     }
@@ -2285,7 +2285,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     }
@@ -2322,7 +2322,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     }
@@ -2359,7 +2359,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     }
@@ -2396,7 +2396,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     }
@@ -2470,7 +2470,7 @@
         [
           "2021",
           8,
-          10
+          11
         ]
       ]
     }
@@ -84012,101 +84012,6 @@
   },
   {
     "type": "article-journal",
-    "id": "GO8FwtPx",
-    "author": [
-      {
-        "family": "Yaron",
-        "given": "Jordan R."
-      },
-      {
-        "family": "Zhang",
-        "given": "Liqiang"
-      },
-      {
-        "family": "Guo",
-        "given": "Qiuyun"
-      },
-      {
-        "family": "Burgin",
-        "given": "Michelle"
-      },
-      {
-        "family": "Schutz",
-        "given": "Lauren N."
-      },
-      {
-        "family": "Awo",
-        "given": "Enkidia"
-      },
-      {
-        "family": "Wise",
-        "given": "Lyn"
-      },
-      {
-        "family": "Krause",
-        "given": "Kurt L."
-      },
-      {
-        "family": "Ildefonso",
-        "given": "Cristhian J."
-      },
-      {
-        "family": "Kwiecien",
-        "given": "Jacek M."
-      },
-      {
-        "family": "Juby",
-        "given": "Michael"
-      },
-      {
-        "family": "Rahman",
-        "given": "Masmudur M."
-      },
-      {
-        "family": "Chen",
-        "given": "Hao"
-      },
-      {
-        "family": "Moyer",
-        "given": "Richard W."
-      },
-      {
-        "family": "Alcami",
-        "given": "Antonio"
-      },
-      {
-        "family": "McFadden",
-        "given": "Grant"
-      },
-      {
-        "family": "Lucas",
-        "given": "Alexandra R."
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          2020,
-          3,
-          31
-        ]
-      ]
-    },
-    "abstract": "Viruses are widely used as a platform for the production of therapeutics. Vaccines containing live, dead and components of viruses, gene therapy vectors and oncolytic viruses are key examples of clinically-approved therapeutic uses for viruses. Despite this, the use of virus-derived proteins as natural sources for immune modulators remains in the early stages of development. Viruses have evolved complex, highly effective approaches for immune evasion. Originally developed for protection against host immune responses, viral immune-modulating proteins are extraordinarily potent, often functioning at picomolar concentrations. These complex viral intracellular parasites have “performed the R&amp;D”, developing highly effective immune evasive strategies over millions of years. These proteins provide a new and natural source for immune-modulating therapeutics, similar in many ways to penicillin being developed from mold or streptokinase from bacteria. Virus-derived serine proteinase inhibitors (serpins), chemokine modulating proteins, complement control, inflammasome inhibition, growth factors (e.g., viral vascular endothelial growth factor) and cytokine mimics (e.g., viral interleukin 10) and/or inhibitors (e.g., tumor necrosis factor) have now been identified that target central immunological response pathways. We review here current development of virus-derived immune-modulating biologics with efficacy demonstrated in pre-clinical or clinical studies, focusing on pox and herpesviruses-derived immune-modulating therapeutics.",
-    "container-title": "Journal of Clinical Medicine",
-    "DOI": "10.3390/jcm9040972",
-    "volume": "9",
-    "issue": "4",
-    "page": "972",
-    "publisher": "MDPI AG",
-    "title": "Deriving Immune Modulating Drugs from Viruses—A New Class of Biologics",
-    "URL": "https://doi.org/ghdx73",
-    "PMCID": "PMC7230489",
-    "PMID": "32244484",
-    "note": "This CSL JSON Item was automatically generated by Manubot v0.4.1 using citation-by-identifier.\nstandard_id: doi:10.3390/jcm9040972\nLoaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-2021-02-08.json\noriginal_id: GO8FwtPx"
-  },
-  {
-    "type": "article-journal",
     "id": "g0qfbA7l",
     "author": [
       {
@@ -87839,7 +87744,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -87864,7 +87769,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -87889,7 +87794,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -87920,7 +87825,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -88014,7 +87919,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -88032,7 +87937,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -88179,7 +88084,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -88198,7 +88103,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -88287,7 +88192,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -88438,7 +88343,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -88457,7 +88362,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -88476,7 +88381,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -88520,7 +88425,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -88568,7 +88473,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -88635,7 +88540,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -88754,7 +88659,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -88771,7 +88676,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -88963,7 +88868,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -89034,7 +88939,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -89050,7 +88955,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -89086,7 +88991,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -89104,7 +89009,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -89122,7 +89027,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -89199,7 +89104,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -89217,7 +89122,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -89242,7 +89147,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -89259,7 +89164,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -89469,7 +89374,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -89500,7 +89405,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -89562,7 +89467,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -89593,7 +89498,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -89624,7 +89529,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -89647,7 +89552,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -89678,7 +89583,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -89688,13 +89593,13 @@
     "id": "DQmAgN0V",
     "type": "webpage",
     "title": "Bloomberg - Are you a robot?",
-    "URL": "https://www.bloomberg.com/tosv2.html?vid=&uuid=2e6afb60-fba9-11eb-ab97-23f21ec2743a&url=L2dyYXBoaWNzL2NvdmlkLXZhY2NpbmUtdHJhY2tlci1nbG9iYWwtZGlzdHJpYnV0aW9u",
+    "URL": "https://www.bloomberg.com/tosv2.html?vid=&uuid=fe9ceab0-fc4d-11eb-bfd3-5390a3d0153a&url=L2dyYXBoaWNzL2NvdmlkLXZhY2NpbmUtdHJhY2tlci1nbG9iYWwtZGlzdHJpYnV0aW9u",
     "accessed": {
       "date-parts": [
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -89704,13 +89609,13 @@
     "id": "uvQMgFXB",
     "type": "webpage",
     "title": "Bloomberg - Are you a robot?",
-    "URL": "https://www.bloomberg.com/tosv2.html?vid=&uuid=2ef58820-fba9-11eb-9735-a5615e4a0dee&url=L25ld3MvYXJ0aWNsZXMvMjAyMC0xMi0wMi93aXRoaW4taG91cnMtb2YtdS1rLXB1dGluLW9yZGVycy1zdGFydC1vZi1tYXNzLWNvdmlkLTE5LXNob3Rz",
+    "URL": "https://www.bloomberg.com/tosv2.html?vid=&uuid=feba84d0-fc4d-11eb-87c1-3b4cb2b4cb30&url=L25ld3MvYXJ0aWNsZXMvMjAyMC0xMi0wMi93aXRoaW4taG91cnMtb2YtdS1rLXB1dGluLW9yZGVycy1zdGFydC1vZi1tYXNzLWNvdmlkLTE5LXNob3Rz",
     "accessed": {
       "date-parts": [
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -89783,7 +89688,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -89842,7 +89747,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -89876,7 +89781,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -89912,7 +89817,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -89941,7 +89846,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -90024,7 +89929,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -90343,7 +90248,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -90377,7 +90282,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -90438,7 +90343,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -90480,7 +90385,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -90607,7 +90512,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -90642,7 +90547,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -90678,7 +90583,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -90713,7 +90618,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -90748,7 +90653,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -90818,7 +90723,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -90852,7 +90757,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -90880,7 +90785,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -90944,7 +90849,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -91214,7 +91119,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -91380,7 +91285,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -91408,7 +91313,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -91461,7 +91366,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -91510,7 +91415,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -91529,7 +91434,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -91548,7 +91453,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -91567,7 +91472,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -91635,7 +91540,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -91776,7 +91681,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -91795,7 +91700,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -91813,7 +91718,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -91831,7 +91736,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -91919,7 +91824,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -91935,7 +91840,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -92052,7 +91957,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -92112,7 +92017,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -92301,7 +92206,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -92339,7 +92244,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -92376,7 +92281,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -92474,7 +92379,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -92519,7 +92424,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -92564,7 +92469,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -92609,7 +92514,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -92654,7 +92559,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -92691,7 +92596,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -92842,7 +92747,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -92857,7 +92762,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -92901,7 +92806,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -92918,7 +92823,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -92953,7 +92858,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -92988,7 +92893,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -93058,7 +92963,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -93163,7 +93068,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -93184,7 +93089,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -93255,7 +93160,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -93318,7 +93223,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -93354,7 +93259,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -93372,7 +93277,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -93390,7 +93295,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -93414,7 +93319,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
@@ -93452,7 +93357,7 @@
         [
           "2021",
           8,
-          12
+          13
         ]
       ]
     },
