@@ -278,13 +278,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/8599fac33a299b5829275782a3a2a421583926d7/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/8599fac33a299b5829275782a3a2a421583926d7/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/8599fac33a299b5829275782a3a2a421583926d7/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/e5a4e3ce43f493c0c913ae647951488b89345106/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/e5a4e3ce43f493c0c913ae647951488b89345106/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/e5a4e3ce43f493c0c913ae647951488b89345106/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/8599fac33a299b5829275782a3a2a421583926d7/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/8599fac33a299b5829275782a3a2a421583926d7/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/e5a4e3ce43f493c0c913ae647951488b89345106/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/e5a4e3ce43f493c0c913ae647951488b89345106/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -307,9 +307,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/8599fac33a299b5829275782a3a2a421583926d7/))
+([permalink](https://greenelab.github.io/covid19-review/v/e5a4e3ce43f493c0c913ae647951488b89345106/))
 was automatically generated
-from [greenelab/covid19-review@8599fac](https://github.com/greenelab/covid19-review/tree/8599fac33a299b5829275782a3a2a421583926d7)
+from [greenelab/covid19-review@e5a4e3c](https://github.com/greenelab/covid19-review/tree/e5a4e3ce43f493c0c913ae647951488b89345106)
 on August 16, 2021.
 Snapshots of individual sections have been published [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals].
 </em></small>
@@ -1886,6 +1886,8 @@ Combinations of interventions, such as hydroxychloroquine with azithromycin, are
 
 The purpose of this review is to provide an evolving resource tracking the status of efforts to repurpose and develop drugs for the treatment of COVID-19.
 We highlight four strategies that provide different paradigms for the identification of potential pharmaceutical treatments.
+The WHO guidelines [@doi:10.1136/bmj.m3379] and a systematic review [@doi:10.1136/bmj.m2980] are complementary living documents that summarize COVID-19 therapeutics.
+
 
 ### Repurposing Drugs for Symptom Management
 
