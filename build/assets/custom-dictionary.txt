@@ -218,6 +218,7 @@ ELISAs
 EMA
 EMR
 EUA
+EUAs
 EVD
 Eberwine
 Eldelumab
