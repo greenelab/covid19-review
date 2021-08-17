@@ -786,6 +786,7 @@ amplicon
 analytes
 anaphylaxis
 angiotensin
+anthelmintic
 anosmia
 anskelly
 anthonygitter
@@ -1163,6 +1164,7 @@ isotachophoresis
 isothermal
 isotype
 isotypes
+ivermectin
 jboerckel
 jinhui
 johnbarton
