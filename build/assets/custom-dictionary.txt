@@ -1044,6 +1044,7 @@ glomeruli
 glucocorticoid
 glucocorticoids
 glucosamine
+glutamate
 glutamyl
 glutamylcysteine
 glycocalyx
@@ -1297,6 +1298,7 @@ necropsies
 neuraminic
 neuraminidase
 neurodegenerative
+neuropathological
 neutropenia
 neutrophil
 neutrophilia
