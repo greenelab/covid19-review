@@ -1,3 +1,2 @@
-content/07.pathogenesis.md:171:neuropathological
 content/23.vaccines-app.md:15:IgGs
 content/23.vaccines-app.md:387:IgGs

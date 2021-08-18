@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2021-08-16'
+date-meta: '2021-08-18'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -70,8 +70,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2021-08-16" />
-  <meta name="citation_publication_date" content="2021-08-16" />
+  <meta name="dc.date" content="2021-08-18" />
+  <meta name="citation_publication_date" content="2021-08-18" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -278,20 +278,19 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/e5a4e3ce43f493c0c913ae647951488b89345106/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/e5a4e3ce43f493c0c913ae647951488b89345106/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/e5a4e3ce43f493c0c913ae647951488b89345106/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/9f2e2387356cbe234156803ed32231a3f167d949/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/9f2e2387356cbe234156803ed32231a3f167d949/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/9f2e2387356cbe234156803ed32231a3f167d949/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/e5a4e3ce43f493c0c913ae647951488b89345106/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/e5a4e3ce43f493c0c913ae647951488b89345106/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/9f2e2387356cbe234156803ed32231a3f167d949/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/9f2e2387356cbe234156803ed32231a3f167d949/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
   <!-- end Manubot generated metadata -->
 bibliography:
 - content/manual-references-2021-02-08.json
-- content/manual-references-2021-08-13.json
 - content/manual-references.bib
 - content/manual-references.json
 manubot-output-bibliography: output/references.json
@@ -307,10 +306,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/e5a4e3ce43f493c0c913ae647951488b89345106/))
+([permalink](https://greenelab.github.io/covid19-review/v/9f2e2387356cbe234156803ed32231a3f167d949/))
 was automatically generated
-from [greenelab/covid19-review@e5a4e3c](https://github.com/greenelab/covid19-review/tree/e5a4e3ce43f493c0c913ae647951488b89345106)
-on August 16, 2021.
+from [greenelab/covid19-review@9f2e238](https://github.com/greenelab/covid19-review/tree/9f2e2387356cbe234156803ed32231a3f167d949)
+on August 18, 2021.
 Snapshots of individual sections have been published [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals].
 </em></small>
 
@@ -1820,13 +1819,13 @@ The scale of the COVID-19 pandemic has made the repurposing and development of p
 
 ![
 **Cumulative global incidence of COVID-19 and SARS.**
-As of August 14, 2021, 206,807,509 COVID-19 cases and 4,354,756 COVID-19 deaths had been reported worldwide since January 22, 2020.
+As of August 16, 2021, 207,937,090 COVID-19 cases and 4,371,647 COVID-19 deaths had been reported worldwide since January 22, 2020.
 A total of 8,432 cases and 813 deaths were reported for SARS from March 17 to July 11, 2003.
 SARS-CoV-1 was officially contained on July 5, 2003, within 9 months of its appearance [@doi:10.3390/ijerph17113973].
 In contrast, SARS-CoV-2 remains a significant global threat nearly two years after its emergence.
 COVID-19 data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series; @doi:10/ggnsjk].
 SARS data are from the WHO [@url:https://www.who.int/csr/sars/country/en] and were obtained from a dataset on GitHub [@url:https://github.com/imdevskp/sars-2003-outbreak-data-webscraping-code].
-](https://github.com/greenelab/covid19-review/raw/f135a67788b073c30339a8472eac7b0c19021eeb/csse/csse-deaths.png "Global incidence of COVID-19 and SARS"){#fig:csse-deaths secno=1}
+](https://github.com/greenelab/covid19-review/raw/9d1046277a8d4b7533974edb109dd3f59fa7c70d/csse/csse-deaths.png "Global incidence of COVID-19 and SARS"){#fig:csse-deaths secno=1}
 
 At first, SARS-CoV-2's rapid shift from an unknown virus to a significant worldwide threat closely paralleled the emergence of _Severe acute respiratory syndrome-related coronavirus_ (SARS-CoV-1), which was responsible for the 2002-03 SARS epidemic.
 The first documented case of COVID-19 was reported in Wuhan, China in November 2019, and the disease quickly spread worldwide in the early months of 2020.
@@ -1882,7 +1881,7 @@ Of the interventional trials, 98 trials had reported results as of December 31, 
 Recruitment status and trial phase are shown only for interventional trials in which the status or phase is recorded.
 Common interventions refers to interventions used in at least ten trials.
 Combinations of interventions, such as hydroxychloroquine with azithromycin, are tallied separately from the individual interventions.
-](https://github.com/greenelab/covid19-review/raw/f135a67788b073c30339a8472eac7b0c19021eeb/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/9d1046277a8d4b7533974edb109dd3f59fa7c70d/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 The purpose of this review is to provide an evolving resource tracking the status of efforts to repurpose and develop drugs for the treatment of COVID-19.
 We highlight four strategies that provide different paradigms for the identification of potential pharmaceutical treatments.
@@ -1999,7 +1998,6 @@ In contrast, another nucleoside analog, remdesivir, is one of the few treatments
 Remdesivir (GS-5734) is an intravenous antiviral that was proposed by Gilead Sciences as a possible treatment for Ebola virus disease.
 It is metabolized to GS-441524, an adenosine analog that inhibits a broad range of polymerases and then evades exonuclease repair, causing chain termination [@doi:10.1074/jbc.AC120.013056; @doi:10.1128/mBio.00221-18; @doi:10.1038/s41422-020-0282-0].
 Gilead received an emergency use authorization (EUA) for remdesivir from the FDA early in the pandemic (May 2020) and was later found to reduce mortality and recovery time in a double-blind, placebo-controlled, phase III clinical trial performed at 60 trial sites, 45 of which were in the United States [@doi:10.1056/NEJMoa2007764; @clinicaltrials:NCT04280705; @clinicaltrials:NCT04292899; @doi:10.1056/NEJMoa2007016].
-<!-- The references above are confusing.  The same trials are cited in the list of two early trials and the later trials. -->
 Subsequently, the WHO Solidarity trial, a large-scale, open-label trial enrolling 11,330 adult in-patients at 405 hospitals in 30 countries around the world, reported no effect of remdesivir on in-hospital mortality, duration of hospitalization, or progression to mechanical ventilation [@doi:10.1056/NEJMoa2023184].
 Therefore, additional clinical trials of remdesivir in different patient pools and in combination with other therapies may be needed to refine its use in the clinic and determine the forces driving these differing results.
 Remdesivir offers proof of principle that SARS-CoV-2 can be targeted at the level of viral replication, since remdesivir targets the viral RNA polymerase at high potency.
@@ -2027,7 +2025,26 @@ Patients who received HCQ also had a longer duration of hospitalization than pat
 As a result, enrollment in the HCQ arm of the RECOVERY trial was terminated early [@url:https://www.recoverytrial.net/news/statement-from-the-chief-investigators-of-the-randomised-evaluation-of-covid-19-therapy-recovery-trial-on-hydroxychloroquine-5-june-2020-no-clinical-benefit-from-use-of-hydroxychloroquine-in-hospitalised-patients-with-covid-19].
 The story of CQ/HCQ therefore illustrates how initial promising _in vitro_ analyses can fail to translate to clinical usefulness.
 
-While CQ/HCQ are well-known medications that have long been prescribed in certain contexts, investigation of another well-established type of pharmaceutical was facilitated by the fact that it was already being taken by a large number of COVID-19 patients.
+A similar story has arisen with the broad-spectrum, small-molecule anthelmintic ivermectin, which is a synthetic analog of avermectin, a bioactive compound produced by a microorganism known as _Streptomyces avermectinius_ and _Streptomyces avermitilis_ [@doi:10.1038/nrmicro1048; @doi:10.1128/AAC.15.3.361].
+Avermectin disrupts the ability of parasites to avoid the host immune response by blocking glutamate-gated chloride ion channels in the peripheral nervous system from closing, leading to hyperpolarization of neuronal membranes, disruption of neural transmission, and paralysis [@doi:10.2183/pjab.87.13; @doi:10.1038/nrmicro1048; @doi:10.1038/ja.2017.11].
+Ivermectin has been used since the early 1980s to treat endo- and ecto-parasitic infections by helminths, insects, and arachnids in veterinary contexts [@doi:10.1038/nrmicro1048; @doi:10.1128/AAC.15.3.372] and since the late 1980s to treat human parasitic infections as well [@doi:10.1038/nrmicro1048; @doi:10.2183/pjab.87.13].
+More recent research has indicated that ivermectin might function as a broad-spectrum antiviral by disrupting the trafficking of viral proteins by both RNA and DNA viruses [@doi:10.1038/s41429-020-0336-z; @doi:10.1038/ja.2017.11; @doi:10.1186/s12941-020-00368-w], although most of these studies have demonstrated this effect _in vitro_ [@doi:10.1186/s12941-020-00368-w].
+The potential for antiviral effects on SARS-CoV-2 were investigated _in vitro_, and ivermectin was found to inhibit viral replication in a cell line derived from Vero cells (Vero-hSLAM) [@doi:10.1016/j.antiviral.2020.104787]. 
+However, inhibition of viral replication was achieved at concentrations that were much higher than that explored by existing dosage guidelines [@doi:10.4269/ajtmh.20-0271; @doi:10.1002/cpt.1889], which are likely to be associated with significant side effects due to the increased potential that the compound could cross the mammalian blood-brain barrier [@doi:10.1080/13102818.2020.1775118; @doi:10.1371/journal.pntd.0001883].
+
+Retrospective studies and small RCTs began investigating the effects of standard doses of this low-cost, widely available drug.
+One retrospective study reported that ivermectin reduced all-cause mortality [@doi:0.1016/j.chest.2020.10.009] while another reported no difference in clinical outcomes or viral clearance [@doi:10.1371/journal.pone.0242184].
+Small RCTs enrolling less than 50 patients per arm have also reported a wide array of positive [@doi:10.4103/1995-7645.318304; @doi:10.1093/qjmed/hcab035; @doi:10.1016/j.toxrep.2021.03.003; @doi:10.1016/j.ijid.2020.11.191; @doi:10.1016/j.clinthera.2021.04.007] and negative results [@doi:10.1016/j.eclinm.2020.100720; @doi:10.21203/rs.3.rs-191648].
+A slightly larger RCT enrolling 115 patients in two arms reported inconclusive results [@doi:10.18433/jpps32105].
+Hope for the potential of ivermectin peaked with the release of a preprint reporting results of a multicenter, double-blind RCT where a four-day course of ivermectin was associated with clinical improvement and earlier viral clearance in 400 symptomatic patients and 200 close contacts [@doi:10.21203/rs.3.rs-100956/v3]; however, concerns were raised about both the integrity of the data and the paper itself [@url:https://grftr.news/why-was-a-major-study-on-ivermectin-for-covid-19-just-retracted; @url:https://steamtraen.blogspot.com/2021/07/Some-problems-with-the-data-from-a-Covid-study.html], and this study was removed by the preprint server Research Square [@doi:10.21203/rs.3.rs-100956/v4].
+A similarly sized RCT suggested no effect on the duration of symptoms among 400 patients split evenly across the intervention and control arms [@doi:10.1001/jama.2021.3071], and although meta-analyses have reported both null [@doi:10.1101/2021.05.21.2125759; @doi:10.1101/2021.01.26.21250420] and beneficial [@doi:10.1093/ofid/ofab394; @doi:10.1016/j.dsx.2021.102186; @doi:10.1097/MJT.0000000000001402; @doi:10.1002/rmv.2265; @doi:10.31219/osf.io/k37ft; @doi:10.1097/MJT.0000000000001377; @doi:10.1007/s43440-021-00245-z; @doi:10.1101/2021.04.30.21256415] effects of ivermectin on COVID-19 outcomes, the certainty is likely to be low [@doi:10.1016/j.dsx.2021.102186].
+These findings are potentially biased by a small number of low-quality studies, including the preprint that has been taken down [@url:https://gidmk.medium.com/does-ivermectin-work-for-covid-19-1166126c364a], and the authors of one [@doi:10.1093/ofid/ofab394] have issued a notice [@doi:10.1093/ofid/ofab394] that they will revise their study with the withdrawn study removed.
+Thus, much like HCQ/CQ, enthusiasm for research that either has not or should not have passed peer review has led to large numbers of patients worldwide receiving treatments that might not have any effect or could even be harmful.  
+Additionally, comments on the now-removed preprint include inquiries into how best to self-administer veterinary ivermectin as a prophylactic [@doi:10.21203/rs.3.rs-100956/v4], and the FDA has posted information explaining why veterinary ivermectin should not be taken by humans concerned about COVID-19 [@url:https://www.fda.gov/animal-veterinary/product-safety-information/faq-covid-19-and-ivermectin-intended-animals].
+Ivermectin is now one of several candidate therapeutics being investigated in the large-scale TOGETHER [@clinicaltrials:NCT04727424] and PRINCIPLE [@url:https://www.principletrial.org/news/ivermectin-to-be-investigated-as-a-possible-treatment-for-covid-19-in-oxford2019s-principle-trial] clinical trials.
+The TOGETHER trial, which previously demonstrated no effect of HCQ and lopinavir-ritonavir [@doi:10.1001/jamanetworkopen.2021.6468], released preliminary results in early August 2021 suggesting that ivermectin also has no effect on COVID-19 outcomes [@url:https://rethinkingclinicaltrials.org/news/august-6-2021-early-treatment-of-covid-19-with-repurposed-therapies-the-together-adaptive-platform-trial-edward-mills-phd-frcp].
+
+While CQ/HCQ and ivermectin are well-known medications that have long been prescribed in certain contexts, investigation of another well-established type of pharmaceutical was facilitated by the fact that it was already being taken by a large number of COVID-19 patients.
 Angiotensin-converting enzyme inhibitors (ACEIs) and angiotensin II receptor blockers (ARBs) are among today's most commonly prescribed medications, often being used to control blood pressure [@url:https://clincalc.com/DrugStats/Drugs/Lisinopril; @doi:10.1056/NEJMp1901657].
 In the United States, for example, they are prescribed well over 100,000,000 times annually [@doi:10.18553/jmcp.2010.16.9.671].
 Prior to the COVID-19 pandemic, the relationship between ACE2, ACEIs, and SARS had been considered as possible evidence that ACE2 could serve as a therapeutic target [@doi:10.1016/j.tips.2004.04.001], and the connection had been explored through _in vitro_ and molecular docking analysis [@doi:10.1161/01.HYP.0000146120.29648.36] but ultimately was not pursued clinically [@doi:10/d85vmw].
@@ -2278,6 +2295,7 @@ However, the current crisis has underscored how different areas of biomedical re
 | Casirivimab and imdevimab | N/A | Biologic, monoclonal antibodies | EUA | RCT | Supported: Reduced viral load at interim analysis |
 | Bamlanivimab and etesevimab | B & N/A | Biologic, monoclonal antibodies | EUA | RCT | Supported: Phase 2 clinical trial showed reduction in viral load |
 | SNG001 | B | Biologic, interferon | None | RCT | Mixed results: support from initial RCT but no effect found in WHO's Solidarity trial |
+| Ivermectin | D | Small molecule, broad spectrum | None | RCT | Mixed results from RCTs: mixed results from small RCTs, major supporting RCT now withdrawn, preliminary results of large RCT (TOGETHER) suggest no effect on emergency room visits or hospitalization for COVID-19
 
 Table: Summary table of candidate therapeutics examined in this manuscript.
 "Grade" is the rating given to each treatment by the Systematic Tracker of Off-label/Repurposed Medicines Grades (STORM) maintained by the Center for Cytokine Storm Treatment & Laboratory (CSTL) at the University of Pennsylvania [@url:https://cdcn.org/corona-data-viewer].
@@ -4447,7 +4465,7 @@ Trials that recruit across multiple countries do appear to broaden geographic re
 The density of clinical trials is reported at the country level.
 As of December 31, 2020, there are 6,987 trials in the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709], of which 3,962 are interventional.
 The top figure demonstrates the density of interventional trials recruiting only from a singular country, while the bottom shows the distribution of recruitment for interventional trials that involve more than one country.
-](https://github.com/greenelab/covid19-review/raw/f135a67788b073c30339a8472eac7b0c19021eeb/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
+](https://github.com/greenelab/covid19-review/raw/9d1046277a8d4b7533974edb109dd3f59fa7c70d/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
 
 A few different concerns arise from this skewed geographic representation in clinical trial recruitment.
 First, treatments such as remdesivir that are promising but primarily available to clinical trial participants are unlikely to be accessible by people in many countries.
@@ -4717,7 +4735,7 @@ When we first produced this figure on July 7, 2020, there were 3,733 clinical tr
 As of December 31, 2020, it contains 6,987.
 We were also able to easily reconfigure the figure prior to journal submission to emphasize interventional trials based on the recommendation of a collaborator who is a clinician.
 This figure is included in an analysis of pharmaceutical development efforts during COVID-19 [@individual-pharmaceuticals].
-]((images/ebmdatalab-trials-original.png)https://github.com/greenelab/covid19-review/raw/f135a67788b073c30339a8472eac7b0c19021eeb/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+]((images/ebmdatalab-trials-original.png)https://github.com/greenelab/covid19-review/raw/9d1046277a8d4b7533974edb109dd3f59fa7c70d/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 The seven manuscripts produced by the consortium (outside of this one) will be submitted to _mSystems_ as part of a special issue that is providing support for evolving reviews so that they can continue to be updated as more information becomes available.
 This approach allows for a version of record to be maintained alongside the most recent developments, which are always available through GitHub.
