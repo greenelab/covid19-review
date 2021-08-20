@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2021-08-18'
+date-meta: '2021-08-20'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -70,8 +70,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2021-08-18" />
-  <meta name="citation_publication_date" content="2021-08-18" />
+  <meta name="dc.date" content="2021-08-20" />
+  <meta name="citation_publication_date" content="2021-08-20" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -278,13 +278,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/9f2e2387356cbe234156803ed32231a3f167d949/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/9f2e2387356cbe234156803ed32231a3f167d949/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/9f2e2387356cbe234156803ed32231a3f167d949/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/85d1a8b30b9d0c154c64dcec5ab89079f27bef6a/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/85d1a8b30b9d0c154c64dcec5ab89079f27bef6a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/85d1a8b30b9d0c154c64dcec5ab89079f27bef6a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/9f2e2387356cbe234156803ed32231a3f167d949/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/9f2e2387356cbe234156803ed32231a3f167d949/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/85d1a8b30b9d0c154c64dcec5ab89079f27bef6a/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/85d1a8b30b9d0c154c64dcec5ab89079f27bef6a/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -306,10 +306,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/9f2e2387356cbe234156803ed32231a3f167d949/))
+([permalink](https://greenelab.github.io/covid19-review/v/85d1a8b30b9d0c154c64dcec5ab89079f27bef6a/))
 was automatically generated
-from [greenelab/covid19-review@9f2e238](https://github.com/greenelab/covid19-review/tree/9f2e2387356cbe234156803ed32231a3f167d949)
-on August 18, 2021.
+from [greenelab/covid19-review@85d1a8b](https://github.com/greenelab/covid19-review/tree/85d1a8b30b9d0c154c64dcec5ab89079f27bef6a)
+on August 20, 2021.
 Snapshots of individual sections have been published [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals].
 </em></small>
 
@@ -1819,13 +1819,13 @@ The scale of the COVID-19 pandemic has made the repurposing and development of p
 
 ![
 **Cumulative global incidence of COVID-19 and SARS.**
-As of August 16, 2021, 207,937,090 COVID-19 cases and 4,371,647 COVID-19 deaths had been reported worldwide since January 22, 2020.
+As of August 18, 2021, 209,303,622 COVID-19 cases and 4,392,967 COVID-19 deaths had been reported worldwide since January 22, 2020.
 A total of 8,432 cases and 813 deaths were reported for SARS from March 17 to July 11, 2003.
 SARS-CoV-1 was officially contained on July 5, 2003, within 9 months of its appearance [@doi:10.3390/ijerph17113973].
 In contrast, SARS-CoV-2 remains a significant global threat nearly two years after its emergence.
 COVID-19 data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series; @doi:10/ggnsjk].
 SARS data are from the WHO [@url:https://www.who.int/csr/sars/country/en] and were obtained from a dataset on GitHub [@url:https://github.com/imdevskp/sars-2003-outbreak-data-webscraping-code].
-](https://github.com/greenelab/covid19-review/raw/9d1046277a8d4b7533974edb109dd3f59fa7c70d/csse/csse-deaths.png "Global incidence of COVID-19 and SARS"){#fig:csse-deaths secno=1}
+](https://github.com/greenelab/covid19-review/raw/56257922dee9a7b4a80826fdee48078a0bbe9626/csse/csse-deaths.png "Global incidence of COVID-19 and SARS"){#fig:csse-deaths secno=1}
 
 At first, SARS-CoV-2's rapid shift from an unknown virus to a significant worldwide threat closely paralleled the emergence of _Severe acute respiratory syndrome-related coronavirus_ (SARS-CoV-1), which was responsible for the 2002-03 SARS epidemic.
 The first documented case of COVID-19 was reported in Wuhan, China in November 2019, and the disease quickly spread worldwide in the early months of 2020.
@@ -1881,7 +1881,7 @@ Of the interventional trials, 98 trials had reported results as of December 31, 
 Recruitment status and trial phase are shown only for interventional trials in which the status or phase is recorded.
 Common interventions refers to interventions used in at least ten trials.
 Combinations of interventions, such as hydroxychloroquine with azithromycin, are tallied separately from the individual interventions.
-](https://github.com/greenelab/covid19-review/raw/9d1046277a8d4b7533974edb109dd3f59fa7c70d/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/56257922dee9a7b4a80826fdee48078a0bbe9626/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 The purpose of this review is to provide an evolving resource tracking the status of efforts to repurpose and develop drugs for the treatment of COVID-19.
 We highlight four strategies that provide different paradigms for the identification of potential pharmaceutical treatments.
@@ -2033,13 +2033,13 @@ The potential for antiviral effects on SARS-CoV-2 were investigated _in vitro_, 
 However, inhibition of viral replication was achieved at concentrations that were much higher than that explored by existing dosage guidelines [@doi:10.4269/ajtmh.20-0271; @doi:10.1002/cpt.1889], which are likely to be associated with significant side effects due to the increased potential that the compound could cross the mammalian blood-brain barrier [@doi:10.1080/13102818.2020.1775118; @doi:10.1371/journal.pntd.0001883].
 
 Retrospective studies and small RCTs began investigating the effects of standard doses of this low-cost, widely available drug.
-One retrospective study reported that ivermectin reduced all-cause mortality [@doi:0.1016/j.chest.2020.10.009] while another reported no difference in clinical outcomes or viral clearance [@doi:10.1371/journal.pone.0242184].
-Small RCTs enrolling less than 50 patients per arm have also reported a wide array of positive [@doi:10.4103/1995-7645.318304; @doi:10.1093/qjmed/hcab035; @doi:10.1016/j.toxrep.2021.03.003; @doi:10.1016/j.ijid.2020.11.191; @doi:10.1016/j.clinthera.2021.04.007] and negative results [@doi:10.1016/j.eclinm.2020.100720; @doi:10.21203/rs.3.rs-191648].
+One retrospective study reported that ivermectin reduced all-cause mortality [@doi:10.1016/j.chest.2020.10.009] while another reported no difference in clinical outcomes or viral clearance [@doi:10.1371/journal.pone.0242184].
+Small RCTs enrolling less than 50 patients per arm have also reported a wide array of positive [@doi:10.4103/1995-7645.318304; @doi:10.1093/qjmed/hcab035; @doi:10.1016/j.toxrep.2021.03.003; @doi:10.1016/j.ijid.2020.11.191; @doi:10.1016/j.clinthera.2021.04.007] and negative results [@doi:10.1016/j.eclinm.2020.100720; @doi:10.21203/rs.3.rs-191648/v1].
 A slightly larger RCT enrolling 115 patients in two arms reported inconclusive results [@doi:10.18433/jpps32105].
 Hope for the potential of ivermectin peaked with the release of a preprint reporting results of a multicenter, double-blind RCT where a four-day course of ivermectin was associated with clinical improvement and earlier viral clearance in 400 symptomatic patients and 200 close contacts [@doi:10.21203/rs.3.rs-100956/v3]; however, concerns were raised about both the integrity of the data and the paper itself [@url:https://grftr.news/why-was-a-major-study-on-ivermectin-for-covid-19-just-retracted; @url:https://steamtraen.blogspot.com/2021/07/Some-problems-with-the-data-from-a-Covid-study.html], and this study was removed by the preprint server Research Square [@doi:10.21203/rs.3.rs-100956/v4].
-A similarly sized RCT suggested no effect on the duration of symptoms among 400 patients split evenly across the intervention and control arms [@doi:10.1001/jama.2021.3071], and although meta-analyses have reported both null [@doi:10.1101/2021.05.21.2125759; @doi:10.1101/2021.01.26.21250420] and beneficial [@doi:10.1093/ofid/ofab394; @doi:10.1016/j.dsx.2021.102186; @doi:10.1097/MJT.0000000000001402; @doi:10.1002/rmv.2265; @doi:10.31219/osf.io/k37ft; @doi:10.1097/MJT.0000000000001377; @doi:10.1007/s43440-021-00245-z; @doi:10.1101/2021.04.30.21256415] effects of ivermectin on COVID-19 outcomes, the certainty is likely to be low [@doi:10.1016/j.dsx.2021.102186].
-These findings are potentially biased by a small number of low-quality studies, including the preprint that has been taken down [@url:https://gidmk.medium.com/does-ivermectin-work-for-covid-19-1166126c364a], and the authors of one [@doi:10.1093/ofid/ofab394] have issued a notice [@doi:10.1093/ofid/ofab394] that they will revise their study with the withdrawn study removed.
-Thus, much like HCQ/CQ, enthusiasm for research that either has not or should not have passed peer review has led to large numbers of patients worldwide receiving treatments that might not have any effect or could even be harmful.  
+A similarly sized RCT suggested no effect on the duration of symptoms among 400 patients split evenly across the intervention and control arms [@doi:10.1001/jama.2021.3071], and although meta-analyses have reported both null [@doi:10.1101/2021.05.21.21257595; @doi:10.1101/2021.01.26.21250420] and beneficial [@doi:10.1093/ofid/ofab394; @doi:10.1016/j.dsx.2021.102186; @doi:10.1097/MJT.0000000000001402; @doi:10.1002/rmv.2265; @doi:10.31219/osf.io/k37ft; @doi:10.1097/MJT.0000000000001377; @doi:10.1007/s43440-021-00245-z; @doi:10.1101/2021.04.30.21256415] effects of ivermectin on COVID-19 outcomes, the certainty is likely to be low [@doi:10.1016/j.dsx.2021.102186].
+These findings are potentially biased by a small number of low-quality studies, including the preprint that has been taken down [@url:https://gidmk.medium.com/does-ivermectin-work-for-covid-19-1166126c364a], and the authors of one [@doi:10.1093/ofid/ofab358] have issued a notice [@doi:10.1093/ofid/ofab394] that they will revise their study with the withdrawn study removed.
+Thus, much like HCQ/CQ, enthusiasm for research that either has not or should not have passed peer review has led to large numbers of patients worldwide receiving treatments that might not have any effect or could even be harmful.
 Additionally, comments on the now-removed preprint include inquiries into how best to self-administer veterinary ivermectin as a prophylactic [@doi:10.21203/rs.3.rs-100956/v4], and the FDA has posted information explaining why veterinary ivermectin should not be taken by humans concerned about COVID-19 [@url:https://www.fda.gov/animal-veterinary/product-safety-information/faq-covid-19-and-ivermectin-intended-animals].
 Ivermectin is now one of several candidate therapeutics being investigated in the large-scale TOGETHER [@clinicaltrials:NCT04727424] and PRINCIPLE [@url:https://www.principletrial.org/news/ivermectin-to-be-investigated-as-a-possible-treatment-for-covid-19-in-oxford2019s-principle-trial] clinical trials.
 The TOGETHER trial, which previously demonstrated no effect of HCQ and lopinavir-ritonavir [@doi:10.1001/jamanetworkopen.2021.6468], released preliminary results in early August 2021 suggesting that ivermectin also has no effect on COVID-19 outcomes [@url:https://rethinkingclinicaltrials.org/news/august-6-2021-early-treatment-of-covid-19-with-repurposed-therapies-the-together-adaptive-platform-trial-edward-mills-phd-frcp].
@@ -2988,7 +2988,7 @@ As of April 1, 2021 COVAXIN® has been approved for emergency use in Iran, Zimba
 In Asia, China and India are the main COVID-19 vaccination developers and providers.
 Thus far, over 63 million people have been vaccinated against COVID-19 in India [@url:https://www.mygov.in/covid-19/].
 A broad range of COVID-19 vaccine candidates are under investigation in order to respond to the COVID-19 pandemic.
-In India, the Covaxin vaccine produced by Bharat Biotech received emergency authorization on January 3rd, 2021, despite the lack of phase III data until March 3rd [@url:india-covid-19-vaccine.html; @url:https://www.bharatbiotech.com/images/press/covaxin-phase3-efficacy-results.pdf].
+In India, the Covaxin vaccine produced by Bharat Biotech received emergency authorization on January 3rd, 2021, despite the lack of phase III data until March 3rd [@url:https://www.bharatbiotech.com/images/press/covaxin-phase3-efficacy-results.pdf].
 Following the release of the phase III data indicating 81% efficacy, Zimbabwe authorized the use of Covaxin [@url:http://www.xinhuanet.com/english/2021-03/04/c_139783893.htm].
 In addition to COVAXIN®, Bharat Biotech has also developed an adenovirus vector-based intranasal BBV154 vaccine candidate that induces neutralizing IgG, mucosal IgA, and T cell responses [@url:https://www.bharatbiotech.com/intranasal-vaccine.html]. 
 In February, 2021, Bharat Biotech received approval from Indian officials to commence a phase I study of this intranasal chimpanzee-adenovirus (ChAd) vectored SARS-CoV-2-S vaccine [@url:https://www.bharatbiotech.com/intranasal-vaccine.html]. 
@@ -3558,7 +3558,7 @@ However, two of the three vaccines have faced a number of criticisms surrounding
 <--To Do: Suggestion to move some of the Sputnik controversy here, along with describing the issues with the AstraZeneca trial-->
 
 Additionally, though the vaccines are built using similar principles, there are some differences that might influence their efficacy as SARS-CoV-2 evolves.
-<--To Do: @agitter's suggestion to discuss prefusion conformation (J&J) vs not (the other two)-->
+<--To Do: suggestion to discuss prefusion conformation (J&J) vs not (the other two)-->
 
 ### Sinovac's CoronaVac
 
@@ -3771,7 +3771,7 @@ While Canada initially projected that by the end of September 2021 a vaccine wou
 In the U.S., vaccines are required to have demonstrated safety and efficacy in phase III trials before manufacturers apply for an emergency use authorization (EUA) from the FDA.
 If an EUA is granted, an additional evaluation of the safety and efficacy of the vaccines is conducted by the CDC’s Advisory Committee on Immunization Practices (ACIP) who also provide guidance on vaccine prioritization.
 On December 1st, 2020, ACIP provided an interim phase 1a recommendation that healthcare workers and long-term care facility residents should be the first to be offered any vaccine approved [@doi:10.15585/mmwr.mm6949e1].
-This was shortly followed by an EUA on December 11th, 2020 for the use of the Pfizer-BioNTech COVID vaccine [@doi:10.15585/mmwr.mm6950e2], which was distributed and administered to the first healthcare workers on December 14th, 2020 [@url:https://abcnews.go.com/US/us-administer-1st-doses-pfizer-coronavirus-vaccine/story?id=74703018].
+This was shortly followed by an EUA on December 11th, 2020 for the use of the Pfizer-BioNTech COVID vaccine [@doi:10.15585/mmwr.mm6950e2], which was distributed and administered to the first healthcare workers on December 14th, 2020 [@{url:https://abcnews.go.com/US/us-administer-1st-doses-pfizer-coronavirus-vaccine/story?id=74703018}].
 Shortly thereafter, an EUA for the Moderna vaccine was issue on December 18th, 2020 [@doi:10.15585/mmwr.mm695152e1].
 On December 20th, 2020, ACIP updated their initial recommendations to suggest that vaccinations should be offered to people aged 75 years old and older and to non-healthcare frontline workers in phase 1b [@doi:10.15585/mmwr.mm695152e2].
 On the same date, it was recommended that phase 1c should include people aged 65-74 years old, individuals between the ages of 16-74 years old at high-risk due to health conditions, and essential workers ineligible in phase 1b [@doi:10.15585/mmwr.mm695152e2].
@@ -3784,8 +3784,8 @@ On March 12, 2021, the WHO added the Janssen vaccine to the list of safe and eff
 While the CDC’s ACIP can provide recommendations, it is up to the public health authorities of each state, territory, and tribe to interpret the guidance and determine who will be vaccinated first [@url:https://www.hhs.gov/coronavirus/covid-19-vaccines/distribution/index.html].
 Prior to distribution of the Janssen vaccine, over 103 million doses of the Moderna and Pfizer-BioNTech vaccines were delivered across the U.S., with almost 79 million doses administered.
 Of the total population, 15.6% have received at least one dose and 7.9% have received a second dose of either the Moderna (~38.3 million) or the Pfizer-BioNTech (~40.2 million) vaccines by February 28th, 2021 [@url:https://covid.cdc.gov/covid-data-tracker/#vaccinations].
-President Biden’s administration has predicted that by the end of May 2021 there may be enough vaccine supply available for all adults in the U.S. [@url:https://www.cnn.com/2021/03/02/politics/biden-merck-johnson--johnson-vaccine/index.html; @url:https://www.bbc.com/news/world-us-canada-55721437].
-However, vaccine production, approval, and distribution was not straightforward in the U.S., as information was initially sparse and the rollout of vaccines was complicated by poor planning and leadership due to political activities prior to the change of administration in January 2021 [@url:https://ssrn.com/abstract=3770368].
+President Biden’s administration has predicted that by the end of May 2021 there may be enough vaccine supply available for all adults in the U.S. [@{url:https://www.cnn.com/2021/03/02/politics/biden-merck-johnson--johnson-vaccine/index.html}; @url:https://www.bbc.com/news/world-us-canada-55721437].
+However, vaccine production, approval, and distribution was not straightforward in the U.S., as information was initially sparse and the rollout of vaccines was complicated by poor planning and leadership due to political activities prior to the change of administration in January 2021 [@{url:https://ssrn.com/abstract=3770368}].
 These political complications highlight the importance of the transparent vaccine approval process conducted by the FDA [@doi:10.1001/jama.2021.1961].
 
 Outside the U.S., the Moderna and Pfizer-BioNTech vaccines have been administered in 29 and 69 other countries, respectively, mainly in Europe and North America [@url:https://www.nytimes.com/interactive/2021/world/covid-vaccinations-tracker.html].
@@ -3817,7 +3817,7 @@ Additionally, Germany has stated that if Sputnik V were approved by EMA, it woul
 Russia is developing other vaccine candidates and has approved a third vaccine, CoviVac, which is an inactivated vaccine produced by the Chumakov Centre in Moscow, despite the fact the clinical trials have yet to begin [@url:https://www.reuters.com/article/us-health-coronavirus-russia-vaccine-idUSKBN2AK07H].
 
 In Asia, China and India are the main COVID-19 vaccination developers and providers.
-In India, the Covaxin vaccine produced by Bharat Biotech received emergency authorization on January 3rd, 2021, despite the lack of phase III data until March 3rd [@url:india-covid-19-vaccine.html; @url:https://www.bharatbiotech.com/images/press/covaxin-phase3-efficacy-results.pdf].
+In India, the Covaxin vaccine produced by Bharat Biotech received emergency authorization on January 3rd, 2021, despite the lack of phase III data until March 3rd [@url:https://www.bharatbiotech.com/images/press/covaxin-phase3-efficacy-results.pdf].
 Following the release of the phase III data indicating 81% efficacy, Zimbabwe authorized the use of Covaxin [@url:http://www.xinhuanet.com/english/2021-03/04/c_139783893.htm].
 In February, 2021, Bharat Biotech received approval from Indian officials to commence a phase I study of an intranasal chimpanzee-adenovirus (ChAd) vectored SARS-CoV-2-S vaccine called BBV154 [@url:https://www.bharatbiotech.com/intranasal-vaccine.html].
 Notably, Novavax has signed an agreement with the Serum Institute of India allowing them to produce up to 2 billion doses a year [@url:https://www.reuters.com/article/health-coronavirus-novavax-idUSKBN2661PI].
@@ -4465,7 +4465,7 @@ Trials that recruit across multiple countries do appear to broaden geographic re
 The density of clinical trials is reported at the country level.
 As of December 31, 2020, there are 6,987 trials in the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709], of which 3,962 are interventional.
 The top figure demonstrates the density of interventional trials recruiting only from a singular country, while the bottom shows the distribution of recruitment for interventional trials that involve more than one country.
-](https://github.com/greenelab/covid19-review/raw/9d1046277a8d4b7533974edb109dd3f59fa7c70d/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
+](https://github.com/greenelab/covid19-review/raw/56257922dee9a7b4a80826fdee48078a0bbe9626/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
 
 A few different concerns arise from this skewed geographic representation in clinical trial recruitment.
 First, treatments such as remdesivir that are promising but primarily available to clinical trial participants are unlikely to be accessible by people in many countries.
@@ -4735,7 +4735,7 @@ When we first produced this figure on July 7, 2020, there were 3,733 clinical tr
 As of December 31, 2020, it contains 6,987.
 We were also able to easily reconfigure the figure prior to journal submission to emphasize interventional trials based on the recommendation of a collaborator who is a clinician.
 This figure is included in an analysis of pharmaceutical development efforts during COVID-19 [@individual-pharmaceuticals].
-]((images/ebmdatalab-trials-original.png)https://github.com/greenelab/covid19-review/raw/9d1046277a8d4b7533974edb109dd3f59fa7c70d/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+]((images/ebmdatalab-trials-original.png)https://github.com/greenelab/covid19-review/raw/56257922dee9a7b4a80826fdee48078a0bbe9626/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 The seven manuscripts produced by the consortium (outside of this one) will be submitted to _mSystems_ as part of a special issue that is providing support for evolving reviews so that they can continue to be updated as more information becomes available.
 This approach allows for a version of record to be maintained alongside the most recent developments, which are always available through GitHub.
