@@ -278,13 +278,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/85d1a8b30b9d0c154c64dcec5ab89079f27bef6a/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/85d1a8b30b9d0c154c64dcec5ab89079f27bef6a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/85d1a8b30b9d0c154c64dcec5ab89079f27bef6a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/963ac141fc4159db50752d85bfebd8f984fb920e/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/963ac141fc4159db50752d85bfebd8f984fb920e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/963ac141fc4159db50752d85bfebd8f984fb920e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/85d1a8b30b9d0c154c64dcec5ab89079f27bef6a/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/85d1a8b30b9d0c154c64dcec5ab89079f27bef6a/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/963ac141fc4159db50752d85bfebd8f984fb920e/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/963ac141fc4159db50752d85bfebd8f984fb920e/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -306,9 +306,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/85d1a8b30b9d0c154c64dcec5ab89079f27bef6a/))
+([permalink](https://greenelab.github.io/covid19-review/v/963ac141fc4159db50752d85bfebd8f984fb920e/))
 was automatically generated
-from [greenelab/covid19-review@85d1a8b](https://github.com/greenelab/covid19-review/tree/85d1a8b30b9d0c154c64dcec5ab89079f27bef6a)
+from [greenelab/covid19-review@963ac14](https://github.com/greenelab/covid19-review/tree/963ac141fc4159db50752d85bfebd8f984fb920e)
 on August 20, 2021.
 Snapshots of individual sections have been published [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals].
 </em></small>
@@ -2142,7 +2142,7 @@ The first human monoclonal neutralizing antibody specifically against the SARS-C
 The 47D11 antibody clone was able to cross-neutralize SARS-CoV-1 and SARS-CoV-2.
 This antibody (now ABVV-47D11) has recently entered clinical trials in collaboration with AbbVie.
 Additionally, an extensive monoclonal neutralizing antibody pipeline has been developed to combat the ongoing pandemic, with over 50 different antibodies in clinical trials [@doi:10.1016/j.bsheal.2021.02.001].
-Thus far, the mAb sotrovimab as well as two antibody cocktails (bamlanivimab/estesevimab and casirivimab/imdevimab) have been granted EUA emergency use authorization by the FDA. <!---Note that there doesn’t seem to be anything about strovimab. If it's more recent than the others, maybe we can note that. I also changed the cocktails to include the generic drug names we use below, so it's easier to follow.-->
+Thus far, the monotherapy sotrovimab and two antibody cocktails (bamlanivimab/estesevimab and casirivimab/imdevimab) have been granted EUAs by the FDA.
 
 One of the studied antibody cocktails consists of bamlanivimab and estesevimab.
 Bamlanivimab (Ly-CoV555) is a human mAb that was derived from convalescent plasma donated by a recovered COVID-19 patient, evaluated in research by the National Institute of Allergy and Infectious Diseases (NIAID), and subsequently developed by AbCellera and Eli Lilly.
@@ -2171,6 +2171,16 @@ Both doses were well tolerated with no serious events related to the antibody co
 Based on this data, the FDA granted an EUA for REGN-COV2 in patients with mild to moderate COVID-19 who are at risk of developing severe disease [@url:https://www.fda.gov/news-events/press-announcements/coronavirus-covid-19-update-fda-authorizes-monoclonal-antibodies-treatment-covid-19].
 Ongoing efforts are trying to evaluate the efficacy of REGN-COV2 to improve clinical outcomes in hospitalized patients [@clinicaltrials:NCT04426695].
 
+Sotrovimab is the most recent mAb to receive an EUA.
+It was identified in the memory B cells of a 2003 survivor of SARS [@doi:10.1038/nm1080] and was found to be cross-reactive with SARS-CoV-2 [@doi:10.1038/s41586-020-2349-y].
+This cross-reactivity is likely attributable to conservation within the epitope, with 17 out of 22 residues conserved between the two viruses, four conservatively substituted, and one semi-conservatively substituted [@doi:10.1038/s41586-020-2349-y].
+In fact, these residues are highly conserved among sarbecoviruses, a clade that includes SARS-CoV-1 and SARS-CoV-2 [@doi:10.1038/s41586-020-2349-y].
+This versatility has led to it being characterized as a "super-antibody" [@doi:10.1038/s41587-021-00980-x], a potent, broadly neutralizing antibody [@doi:10.1038/nri.2017.148].
+Interim analysis of data from a clinical trial [@clinicaltrials:NCT04545060] reported high safety and efficacy of this mAb in 583 COVID-19 patients [@doi:10.1101/2021.05.27.21257096].
+Compared to placebo, sotrovimab was found to be 85% more effective in reducing progression to the primary endpoint, which was the proportion of patients who, within 29 days, were either hospitalized for more than 24 hours or died.
+Additionally, rates of adverse events were comparable, and in some cases lower, among patients receiving sotrovimab compared to patients receiving a placebo.
+Sotrovimab therefore represents a mAb therapeutic that is effective against SARS-CoV-2 and may also be effective against other sarbecoviruses.
+
 Several potential limitations remain in the application of mAbs to the treatment of COVID-19.
 One of the biggest challenges is identifying antibodies that not only bind to their target, but also prove to be beneficial for disease management.
 Currently, use of mAbs is limited to people with mild to moderate disease that are not hospitalized, and it has yet to be determined whether they can be used as a successful treatment option for severe COVID-19 patients.
@@ -2180,7 +2190,7 @@ It remains to be seen whether mAbs confer any benefits for patients in this cate
 Another concern about therapeutics designed to amplify the response to a specific viral target is that they may need to be modified as the virus evolves.
 With the ongoing global spread of new SARS-CoV-2 variants, there is a growing concern that mutations in SARS-CoV-2 spike protein could escape antibody neutralization, thereby reducing the efficacy of monoclonal antibody therapeutics and vaccines.
 A comprehensive mutagenesis screen recently identified several amino acid substitutions in the SARS-CoV-2 spike protein that can prevent antibody neutralization [@doi:10.1016/j.chom.2021.01.014].
-While some mutations result in resistance to only one antibody, others confer broad resistance to multiple mAbs as well as polyclonal human sera, suggesting that some amino acids are “hotspots” for antibody resistance.
+While some mutations result in resistance to only one antibody, others confer broad resistance to multiple mAbs as well as polyclonal human sera, suggesting that some amino acids are "hotspots" for antibody resistance.
 However, it was not investigated whether the resistance mutations identified result in a fitness advantage.
 Accordingly, an impact on neutralizing efficiency has been reported for the B.1.1.7 (Alpha) variant first identified in the UK and the B.1.351 (Beta) variant first identified in in South Africa [@doi:10.21203/rs.3.rs-228079/v1; @doi:10.1101/2021.02.03.429355; @doi:10.1101/2021.01.25.428137].
 As of June 25, 2021, the CDC recommended a pause in the use of bamlanivimab and etesevimab due to decreased efficacy against the P.1 (Gamma) and B.1.351 (Beta) variants of SARS-CoV-2 [@url:https://www.phe.gov/emergency/events/COVID19/investigation-MCM/Bamlanivimab-etesevimab/Pages/bamlanivimab-etesevimab-distribution-pause.aspx].
@@ -2191,10 +2201,11 @@ Antibody cocktails such as those already holding an EUA may help overcome the ri
 These cocktails consist of antibodies that recognize different epitopes on the spike protein, decreasing the likelihood that a single amino acid change can cause resistance to all antibodies in the cocktail.
 However, neutralizing resistance can emerge even against an antibody cocktail if the individual antibodies target subdominant epitopes [@doi:10.1101/2021.02.03.429355].
 Another strategy is to develop broadly neutralizing antibodies that target structures that are highly conserved, as these are less likely to mutate [@doi:10.1016/j.immuni.2007.11.018; @doi:10.1126/science.1171491] or to target epitopes that are insensitive to mutations [@doi:10.1016/j.vaccine.2006.04.054].
-One such antibody (ADG-2) has recently been reported [@doi:10.1126/science.abf4830].
-This antibody targets a highly conserved epitope that overlaps the hACE2 binding site of all clade 1 sarbecoviruses.
+Sotrovimab, one such "super-antibody", is thought to be somewhat robust to neutralization escape [@doi:10.1086/651022] and has been found to be effective against all variants assessed as of August 12, 2021 [@url:https://covdb.stanford.edu/page/susceptibility-data].
+Another antibody (ADG-2) targets a highly conserved epitope that overlaps the hACE2 binding site of all clade 1 sarbecoviruses [@doi:10.1126/science.abf4830].
 Prophylactic administration of ADG-2 in an immunocompetent mouse model of COVID-19 resulted in protection against viral replication in the lungs and respiratory burden.
-Since the epitope targeted by ADG-2 represents an Achilles’ heel for clade 1 sarbecoviruses, this antibody might be a promising candidate against all circulating variants as well as emerging SARS-related coronaviruses.
+Since the epitope targeted by ADG-2 represents an Achilles’ heel for clade 1 sarbecoviruses, this antibody, like sotrovimab, might be a promising candidate against all circulating variants as well as emerging SARS-related coronaviruses.
+To date, it has fared well against the Alpha, Beta, Gamma, and Delta variants [@url:https://covdb.stanford.edu/page/susceptibility-data].
 
 The development of mAbs against SARS-CoV-2 has made it clear that this technology is rapidly adaptable and offers great potential for the response to emerging viral threats.
 However, additional investigation may be needed to adapt mAb treatments to SARS-CoV-2 as it evolves and potentially to pursue designs that confer benefits for patients at the greatest risk of death.
@@ -2295,6 +2306,7 @@ However, the current crisis has underscored how different areas of biomedical re
 | Casirivimab and imdevimab | N/A | Biologic, monoclonal antibodies | EUA | RCT | Supported: Reduced viral load at interim analysis |
 | Bamlanivimab and etesevimab | B & N/A | Biologic, monoclonal antibodies | EUA | RCT | Supported: Phase 2 clinical trial showed reduction in viral load |
 | SNG001 | B | Biologic, interferon | None | RCT | Mixed results: support from initial RCT but no effect found in WHO's Solidarity trial |
+| Sotrovimab | N/A | Biological, monoclonal antibody | EUA | RCT | Supported: Phase 2/3 clinical trial showed reduced hospitalization/death
 | Ivermectin | D | Small molecule, broad spectrum | None | RCT | Mixed results from RCTs: mixed results from small RCTs, major supporting RCT now withdrawn, preliminary results of large RCT (TOGETHER) suggest no effect on emergency room visits or hospitalization for COVID-19
 
 Table: Summary table of candidate therapeutics examined in this manuscript.
