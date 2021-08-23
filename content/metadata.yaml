@@ -275,7 +275,7 @@ authors:
           - Conceptualization
           - Project Administration
       pharmaceuticals:
-        order: 6
+        order: 5
         contributions:
           - Writing - Review & Editing
           - Writing - Original Draft
@@ -305,7 +305,7 @@ authors:
           - Writing - Review & Editing
           - Writing - Original Draft
       pharmaceuticals:
-        order: 7
+        order: 6
         contributions:
           - Writing - Review & Editing
           - Project Administration
@@ -509,7 +509,7 @@ authors:
     code of conduct:
       confirmed: yes
     affiliations:
-      - Department of Pharmacology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
+      - Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
     coi:
       string: "None"
       lastapproved: !!str 2020-11-12
@@ -808,7 +808,7 @@ authors:
       confirmed: yes
     coi:
       string: "None"
-      lastapproved: !!str 2020-11-11
+      lastapproved: !!str 2021-08-02
     manuscripts:
       pathogenesis:
         order: 4
