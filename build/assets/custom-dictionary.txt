@@ -218,6 +218,7 @@ ELISAs
 EMA
 EMR
 EUA
+EUAs
 EVD
 Eberwine
 Eldelumab
@@ -1530,6 +1531,7 @@ smangul
 SNG
 SNP
 sociocultural
+sotrovimab
 Soumita
 soumitagh
 spectrometry
