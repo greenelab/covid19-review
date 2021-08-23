@@ -975,7 +975,7 @@
 {
   "id": "dailymed-hcq",
   "type": "webpage",
-  "title": "PLAQUENIL- hydroxychloroquine sulfate tablet",
+  "title": "PLAQUENIL - hydroxychloroquine sulfate tablet",
   "container-title": "DailyMed",
   "URL": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=34496b43-05a2-45fb-a769-52b12e099341",
   "language": "en",
@@ -1009,7 +1009,7 @@
 {
   "id": "dailymed-dexamethasone",
   "type": "webpage",
-  "title": "dexamethasone- Dexamethasone tablet dexamethasone- Dexamethasone solution, concentrate dexamethasone- Dexamethasone solution",
+  "title": "Dexamethasone",
   "container-title": "DailyMed",
   "URL": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=537b424a-3e07-4c81-978c-1ad99014032a",
   "language": "en",
@@ -1026,7 +1026,7 @@
 {
   "id": "dailymed-tocilizumab",
   "type": "webpage",
-  "title": "ACTEMRA- tocilizumab injection, solution, concentrate ACTEMRA- tocilizumab injection, solution ACTEMRA ACTPEN- tocilizumab injection, solution",
+  "title": "ACTEMRA - tocilizumab",
   "container-title": "DailyMed",
   "URL": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2e5365ff-cb2a-4b16-b2c7-e35c6bf2de13",
   "language": "en",
@@ -1144,5 +1144,259 @@
   "container-title": "Manubot",
   "title": "An Open-Publishing Response to the COVID-19 Infodemic",
   "URL": "https://greenelab.github.io/covid19-review/v/32afa309f69f0466a91acec5d0df3151fe4d61b5/#an-open-publishing-response-to-the-covid-19-infodemic"
+},
+{
+  "type": "article-journal",
+  "id": "doi:10.1186/cc2452",
+  "author": [
+    {
+      "family": "Gomersall",
+      "given": "Charles D"
+    },
+    {
+      "family": "Kargel",
+      "given": "Marcus J"
+    },
+    {
+      "family": "Lapinsky",
+      "given": "Stephen E"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2004
+      ]
+    ]
+  },
+  "container-title": "Critical Care",
+  "DOI": "10.1186/cc2452",
+  "volume": "8",
+  "issue": "2",
+  "page": "105",
+  "publisher": "Springer Science and Business Media LLC",
+  "title": "Pro/con clinical debate: Steroids are a key component in the treatment of SARS",
+  "URL": "https://doi.org/dpjr29",
+  "PMCID": "PMC420028",
+  "PMID": "15025770"
+},
+{
+  "id": "url:https://cdcn.org/corona-data-viewer",
+  "type": "webpage",
+  "title": "CORONA Data Viewer",
+  "container-title": "Castleman Disease Collaborative Network",
+  "URL": "https://cdcn.org/corona-data-viewer/",
+  "language": "en-US",
+  "accessed": {
+    "date-parts": [
+      [
+        "2021",
+        8,
+        12
+      ]
+    ]
+  }
+},
+{
+  "id": "url:https://www.fda.gov/media/138946/download",
+  "type": "webpage",
+  "title": "Frequently Asked Questions on the Revocation of the Emergency Use Authorization for Hydroxychloroquine Sulfate and Chloroquine Phosphate",
+  "container-title": "U.S. Food and Drug Administration",
+  "URL": "https://www.fda.gov/media/138946/download",
+  "language": "en",
+  "issued": {
+    "date-parts": [
+      [
+        "2020",
+        6,
+        19
+      ]
+    ]
+  }
+},
+{
+  "id": "url:https://www.fda.gov/media/150319/download",
+  "type": "webpage",
+  "title": "Genentech tocilizumab Letter of Authority",
+  "container-title": "U.S. Food and Drug Administration",
+  "URL": "https://www.fda.gov/media/150319/download",
+  "language": "en",
+  "issued": {
+    "date-parts": [
+      [
+        "2021",
+        6,
+        24
+      ]
+    ]
+  }
+},
+{
+  "id": "url:https://www.fda.gov/media/145801/download",
+  "type": "webpage",
+  "title": "Bamlanivimab and Etesevimab EUA Letter of Authorization",
+  "container-title": "U.S. Food and Drug Administration",
+  "URL": "https://www.fda.gov/media/145801/download",
+  "language": "en",
+  "issued": {
+    "date-parts": [
+      [
+        "2021",
+        2,
+        25
+      ]
+    ]
+  }
+},
+{
+  "id": "url:https://www.phe.gov/emergency/events/COVID19/investigation-MCM/Bamlanivimab-etesevimab/Pages/bamlanivimab-etesevimab-distribution-pause.aspx",
+  "type": "webpage",
+  "title": "Pause in the Distribution of bamlanivimab/etesevimab",
+  "container-title": "U.S. Department of Health and Human Services",
+  "URL": "https://www.phe.gov/emergency/events/COVID19/investigation-MCM/Bamlanivimab-etesevimab/Pages/bamlanivimab-etesevimab-distribution-pause.aspx",
+  "language": "en",
+  "issued": {
+    "date-parts": [
+      [
+        "2021",
+        6,
+        25
+      ]
+    ]
+  }
+},
+{
+  "type": "article-journal",
+  "id": "doi:10.1128/aac.15.3.372",
+  "author": [
+    {
+      "family": "Egerton",
+      "given": "J. R."
+    },
+    {
+      "family": "Ostlind",
+      "given": "D. A."
+    },
+    {
+      "family": "Blair",
+      "given": "L. S."
+    },
+    {
+      "family": "Eary",
+      "given": "C. H."
+    },
+    {
+      "family": "Suhayda",
+      "given": "D."
+    },
+    {
+      "family": "Cifelli",
+      "given": "S."
+    },
+    {
+      "family": "Riek",
+      "given": "R. F."
+    },
+    {
+      "family": "Campbell",
+      "given": "W. C."
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        1979,
+        3
+      ]
+    ]
+  },
+  "abstract": "When given to sheep as a single oral dose at 0.1 mg/kg, the B component of the avermectins caused a reduction of &gt;95% in the numbers of (including inhibited L larvae), , and . When given to cattle as a single oral dose at 0.1 mg/kg, avermectin B was &gt;95% effective in reducing the numbers of (including inhibited L larvae), , and . Avermectin B was similarly effective, with the exception of a detectable loss in activity against adult , when administered to cattle as a parenteral injection. Some of these ruminant parasites were fully susceptible to dosages of avermectin B at 0.025 mg/kg, e.g., , and . Avermectin B removed 83 to 100% of from dogs given a single oral dose of 0.003 to 0.005 mg/kg. The poultry nematodes and immature were effectively removed by avermectin B at 0.05 and 0.1 mg/kg, respectively, but 0.1 mg/kg was not effective for . Thus, the avermectins would appear to have unprecedented potency and spectrum of biological activity.",
+  "container-title": "Antimicrobial Agents and Chemotherapy",
+  "DOI": "10.1128/aac.15.3.372",
+  "volume": "15",
+  "issue": "3",
+  "page": "372-378",
+  "publisher": "American Society for Microbiology",
+  "title": "Avermectins, New Family of Potent Anthelmintic Agents: Efficacy of the B1a Component",
+  "URL": "https://doi.org/825",
+  "PMCID": "PMC352668",
+  "PMID": "464563",
+  "note": "This CSL Item was generated by Manubot v0.5.1 from its persistent identifier (standard_id).\nstandard_id: doi:10.1128/aac.15.3.372"
+},
+{
+  "id": "url:https://www.bharatbiotech.com/images/press/covaxin-phase3-efficacy-results.pdf",
+  "type": "webpage",
+  "title": "Bharat Biotech Announces Phase 3 Results of COVAXIN",
+  "container-title": "Bharat Biotech",
+  "URL": "https://www.bharatbiotech.com/images/press/covaxin-phase3-efficacy-results.pdf",
+  "language": "en",
+  "issued": {
+    "date-parts": [
+      [
+        "2021",
+        3,
+        3
+      ]
+    ]
+  }
+},
+{
+  "id": "url:https://www.biogenetech.co.th/wp-content/uploads/2021/03/5-Ocugen.pdf",
+  "type": "webpage",
+  "title": "Ocugen's COVID-19 Vaccine Co-Development Partner, Bharat Biotech shares Phase 3 Interim Results of COVAXIN, Demonstrates Efficacy of 81%",
+  "container-title": "Biogenetech",
+  "URL": "https://www.biogenetech.co.th/wp-content/uploads/2021/03/5-Ocugen.pdf",
+  "language": "en",
+  "issued": {
+    "date-parts": [
+      [
+        "2021",
+        3,
+        5
+      ]
+    ]
+  }
+},
+{
+  "id": "url:https://www.janssen.com/emea/sites/www_janssen_com_emea/files/johnson_johnson_announces_single-shot_janssen_covid-19_vaccine_candidate_met_primary_endpoints_in_interim_analysis_of_its_phase_3_ensemble_trial.pdf",
+  "type": "webpage",
+  "title": "Johnson & Johnson Announces Single-Shot Janssen COVID-19 Vaccine Candidate Met Primary Endpoints in Interim Analysis of its Phase 3 ENSEMBLE Trial",
+  "container-title": "Janssen",
+  "URL": "https://www.janssen.com/emea/sites/www_janssen_com_emea/files/johnson_johnson_announces_single-shot_janssen_covid-19_vaccine_candidate_met_primary_endpoints_in_interim_analysis_of_its_phase_3_ensemble_trial.pdf",
+  "language": "en",
+  "issued": {
+    "date-parts": [
+      [
+        "2021",
+        1,
+        29
+      ]
+    ]
+  }
+},
+{
+  "id": "url:https://www.biopharma-reporter.com/Article/2021/02/18/South-Africa-starts-administering-Janssen-COVID-19-vaccine-to-health-workers",
+  "type": "webpage",
+  "title": "South Africa starts administering Janssen COVID-19 vaccine to health workers",
+  "container-title": "BioPharma-Reporter",
+  "abstract": "South Africa has started administering the Janssen COVID-19 vaccine to health workers this week after the first doses arrived in the country. Meanwhile, J&J has submitted an application for Conditional Marketing Authorisation in the EU, following its application for EUA in the US.",
+  "URL": "https://www.biopharma-reporter.com/Article/2021/02/18/South-Africa-starts-administering-Janssen-COVID-19-vaccine-to-health-workers",
+  "language": "en-GB",
+  "author": [
+    {
+      "family": "Arthur",
+      "given": "Rachel"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        "2021",
+        2,
+        18
+      ]
+    ]
+  },
+  "note": "This CSL Item was generated by Manubot v0.5.1 from its persistent identifier (standard_id).\nstandard_id: url:https://www.biopharma-reporter.com/Article/2021/02/18/South-Africa-starts-administering-Janssen-COVID-19-vaccine-to-health-workers"
 }
 ]
