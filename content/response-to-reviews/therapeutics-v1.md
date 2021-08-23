@@ -72,7 +72,12 @@ As part of this project, we developed software to pull data from the web and upd
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure.
 While the version of record will be locked at a certain time point, this approach does allow us to keep the version online continually updated.
 The stability of these trends over time is an interesting question that it would be possible to address using these data sources.
-To date, we had thought of the utility of the figure as showing what research was in progress and therefore what evidence would be expected to eventually become available.
+The main purpose of the figure in the context of the manuscript is to show what research is in progress and therefore what evidence is expected to eventually become available.
+The question of whether trends remain stable over time is an interesting one.
+It seems to have been evaluated by Bugin & Woodcock (2021) in _Nature Reviews Drug Discovery_ as a Biobusiness brief (DOI:10.1038/d41573-021-00037-3).
+They reported that trends have changed over time, with antivirals and immunomodulators very popular at the beginning of 2020 but dipping as the year went on, while neutralizing antibodies and other avenues of investigation increased by October 2020.
+Our efforts were primarily to visualize the distribution of research across different categories, and adding a temporal component to evaluating the specific therapeutics under investigation (rather than categories as in Bugin & Woodcock (2021)) would be an interesting future direction related to this project.
+
 **
 
 1.6 Figure 3 - I really liked this figure and would like to see it earlier in the review. One concern I have is that all of the drugs are equivalent on this diagram, which could lead the reader to think that HCQ/CQ are effective. Perhaps it would be safer to remove the drug names and indicate the various mechanisms that could be theoretically targeted. Or alternatively, the thickness of the arrows could be used to indicate current data on efficacy.
