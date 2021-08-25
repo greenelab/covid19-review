@@ -29,6 +29,11 @@ In the following paragraph, the discussion of the acquisition of the furin inser
 
 1.3 Detected versus infectious: The distinction between RT-qPCR detection and viral infection assays in cell culture models should be more clear. Although this point is acknowledged (e.g. lines 713-714) it is not clear whether viral RNA or infectious virus is being described at certain points in the review (i.e. line 663) and a brief description of the advantages and limitations of these methods would be useful for the reader.
 
+**
+This is a very important point, so to emphasize it we have added a section entitled "Quantifying Viral Presence" that outlines the different information conveyed by RT-PCR and _in vitro_ cultivation.
+We have also expanded the review of aerosol transmission to more adequately contextualize the study mentioned in the above comment.
+**
+
 Minor:
 1.4 Typos
 
