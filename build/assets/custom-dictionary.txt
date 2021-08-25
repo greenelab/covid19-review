@@ -1175,6 +1175,7 @@ interspaced
 interventional
 intracellular
 intradermal
+intraindividual
 intramuscularly
 intranasal
 intraperitoneal
