@@ -75,6 +75,15 @@ This change has been made.
 
 1.5 This work is important not only for the current moment, but for contextualizing this virus for response to future outbreaks; in my opinion it would be nice to have a sentence in the discussion to this effect (this review represents a ton of work - the effort is worthwhile!)
 
+**
+Thank you for pointing this out.
+We have added two sentences to the first paragraph of the conclusion that read: 
+"With the emergence of three devestating HCoV over the past twenty years, emergent viruses are likely to represent an ongoing threat.
+Contextualizing SARS-CoV-2 alongside other viruses serves not only to provide insights that can be immediately useful for combatting this v
+irus itself, but may also prove valuable in the face of future viral threats."
+
+Additionally, the last sentence of the manuscript is now: "In the future, interdisciplinary work on SARS-CoV-2 and COVID-19 may guide a response to a new viral threat."
+**
 
 Reviewer 2
 
