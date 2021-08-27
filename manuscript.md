@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2021-08-26'
+date-meta: '2021-08-27'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -70,8 +70,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2021-08-26" />
-  <meta name="citation_publication_date" content="2021-08-26" />
+  <meta name="dc.date" content="2021-08-27" />
+  <meta name="citation_publication_date" content="2021-08-27" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -278,13 +278,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/b19c3d51ff979074056d890e50fe4521037c9da4/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/b19c3d51ff979074056d890e50fe4521037c9da4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/b19c3d51ff979074056d890e50fe4521037c9da4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/7b87214ae8186c65de3b642c42e9fb6b8670680e/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/7b87214ae8186c65de3b642c42e9fb6b8670680e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/7b87214ae8186c65de3b642c42e9fb6b8670680e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/b19c3d51ff979074056d890e50fe4521037c9da4/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/b19c3d51ff979074056d890e50fe4521037c9da4/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/7b87214ae8186c65de3b642c42e9fb6b8670680e/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/7b87214ae8186c65de3b642c42e9fb6b8670680e/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -306,10 +306,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/b19c3d51ff979074056d890e50fe4521037c9da4/))
+([permalink](https://greenelab.github.io/covid19-review/v/7b87214ae8186c65de3b642c42e9fb6b8670680e/))
 was automatically generated
-from [greenelab/covid19-review@b19c3d5](https://github.com/greenelab/covid19-review/tree/b19c3d51ff979074056d890e50fe4521037c9da4)
-on August 26, 2021.
+from [greenelab/covid19-review@7b87214](https://github.com/greenelab/covid19-review/tree/7b87214ae8186c65de3b642c42e9fb6b8670680e)
+on August 27, 2021.
 Snapshots of individual sections have been published [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals].
 </em></small>
 
@@ -1067,11 +1067,11 @@ Viral receptors show higher affinity with protein receptors than sugar receptors
 The SARS-CoV-2 S protein also contains an RRAR furin recognition site at the S1/S2 junction [@doi:10.1016/j.cell.2020.02.058; @doi:10.1126/science.abb2507], setting it apart from both bat coronavirus RaTG13, with which it shares 96% genome sequence identity, and SARS-CoV-1 [@doi:10.1038/s41586-020-2012-7].
 Such furin cleavage sites are commonly found in highly virulent influenza viruses, and as such may contribute to the heightened pathogenicity of SARS-CoV-2 [@doi:10/bvgh5b; @doi:10.1006/viro.1999.9716].
 The ongoing evolution of the spike protein can be seen from the genomic data.
-For example, the mutation D614G became dominant by the end of May 2020, soon after its initial appearance in mid-March [@doi:10.1016/j.cell.2020.06.043; @doi:10.1016/j.cell.2020.09.032], and a variant carrying two mutations (N501Y and 69–70del) that was first observed in the UK in October 2020 [@doi:10.1016/j.jinf.2020.12.024] has quickly spread around the world [@url:https://www.who.int/csr/don/21-december-2020-sars-cov2-variant-united-kingdom/en/; @doi:10.1101/2020.12.28.20248906].
+For example, the mutation D614G became dominant by the end of May 2020, soon after its initial appearance in mid-March [@doi:10.1016/j.cell.2020.06.043; @doi:10.1016/j.cell.2020.09.032], and a variant carrying two mutations (N501Y and 69–70del) that was first observed in the UK in October 2020 [@doi:10.1016/j.jinf.2020.12.024] quickly spread around the world [@url:https://www.who.int/csr/don/21-december-2020-sars-cov2-variant-united-kingdom/en/; @doi:10.1101/2020.12.28.20248906].
 Variants may differ in transmissibility [@doi:10.1001/jama.2020.27124; @doi:10.1038/s41586-021-03361-1].
 Effective cell entry is a critical component to pathogenesis and therefore an important process to understand when examining possible therapeutics.
 
-### Mechanism of Transmission
+### Mechanisms of Transmission
 
 Once a human host is infected with a virus, person-to-person viral transmission can occur through several possible mechanisms.
 The primary mechanisms associated with respiratory viruses are contact, droplet, and aerosol transmission [@doi:10.1097/QCO.0000000000000563].
@@ -1111,8 +1111,8 @@ As these trends became apparent, concerns arose due to the potential for individ
 Recovered individuals may also be able to transmit the virus after their symptoms cease.
 Estimates of the communicable period based on twenty-four individuals who tested positive for SARS-CoV-2 prior to or without developing symptoms estimated that individuals may be contagious for one to twenty-one days, but they note that this estimate may be low [@doi:10.1007/s11427-020-1661-4].
 In an early study, viral nucleic acids were reported to remain at observable levels in the respiratory specimens of recovering hospitalized COVID-19 patients for a median of 20 days and with a maximum observed duration through 37 days, when data collection for the study ceased [@doi:10/ggnxb3].
-As more estimates of the duration of viral shedding are released, they are beginning to converge around approximately three weeks from first positive PCR test and/or onset of symptoms (which, if present, are usually identified within three days of the initial PCR test).
-For example, in later studies, viral shedding was reported for up to 28 days following symptom onset [@doi:10.1038/s41586-020-2196-x] and for one to 24 days from first positive PCR test, with a median of 12 days [@doi:10.1001/jama.2020.3204].
+As more estimates of the duration of viral shedding were released, they converged around approximately three weeks from first positive PCR test and/or onset of symptoms (which, if present, are usually identified within three days of the initial PCR test).
+For example, in some studies, viral shedding was reported for up to 28 days following symptom onset [@doi:10.1038/s41586-020-2196-x] and for one to 24 days from first positive PCR test, with a median of 12 days [@doi:10.1001/jama.2020.3204].
 On the other hand, almost 70% of patients were reported to still have symptoms at the time that viral shedding ceased, although all symptoms reduced in prevalence between onset and cessation of viral shedding [@doi:10.1016/j.jcv.2020.104577].
 The median time that elapsed between the onset of symptoms and cessation of viral RNA shedding was 23 days and between first positive PCR test and cessation of viral shedding was 17 days [@doi:10.1016/j.jcv.2020.104577].
 The fact that this study reported symptom onset to predate the first positive PCR test by an average of three days, however, suggests that there may be some methodological differences between it and related studies.
@@ -1153,12 +1153,13 @@ A similar prevalence estimate was identified through a repeated cross-sectional 
 Examination of serosurvey-based estimates of IFR identified convergence on a global IFR estimate of 0.60% (95% CI 0.42%–0.77%) [@doi:10.1016/j.ijid.2020.09.1464].
 All of these studies note that IFR varies widely by location, and it is also expected to vary with demographic and health-related variables such as age, sex, prevalence of comorbidities, and access to healthcare and testing [@url:https://ourworldindata.org/covid-mortality-risk].
 Estimates of infection rates are becoming more feasible as more data becomes available for modeling and will be bolstered as serological testing becomes more common and more widely available.
+However, this research may be complicated due to the emergence of variants over time, as well as the varying availability and acceptance of vaccines in different communities and locations.
 
 ### Dynamics of Transmission
 
 Disease spread dynamics can be estimated using R~0~, the basic reproduction number, and R~t~, the effective reproduction number.
 Accurate estimates of both are crucial to understanding the dynamics of infection and to predicting the effects of different interventions.
-R~0~ is the average number of new (secondary) infections caused by one infected person, assuming a wholly susceptible population [@doi:10.1111/j.1467-9574.1996.tb01482.x] and is one of the most important epidemiological parameters [@isbn:9780691116174].
+R~0~ is the average number of new (secondary) infections caused by one infected person, assuming a wholly susceptible population [@doi:10.1111/j.1467-9574.1996.tb01482.x], and is one of the most important epidemiological parameters [@isbn:9780691116174].
 A simple mechanistic model used to describe infectious disease dynamics is a susceptible-infected-recovered compartmental model [@doi:10.1098/rspa.1927.0118; @doi:10.1038/280361a0].
 In this model, individuals move through three states: susceptible, infected, and recovered; two parameters, $\gamma$ and $\beta$, specify the rate at which the infectious recover, and the infection transmission rate, respectively, and R~0~ is estimated as the ratio of $\beta$ and $\gamma$ [@doi:10.1126/science.abb5659; @isbn:9780691116174].
 A pathogen can invade a susceptible population only if R~0~ > 1 [@isbn:9780691116174; @isbn:9780199209996].
@@ -1314,7 +1315,8 @@ A decade later, a second outbreak of severe respiratory illness associated with 
 This disease, known as Middle East respiratory syndrome (MERS), was linked to another novel coronavirus, MERS-CoV.
 The fatality rate associated with MERS is much higher than that of SARS, at almost 35%, but the disease is much less easily transmitted, with an R~0~ of 1 [@doi:10.1093/ajcp/aqaa029].
 Although MERS is still circulating, its low reproduction number has allowed for its spread to be contained [@doi:10.1093/ajcp/aqaa029].
-The COVID-19 pandemic is thus associated with the seventh HCoV to be identified and the fifth since the turn of the millennium, though additional HCoVs may be in circulation but remain undetected.
+The COVID-19 pandemic is thus associated with the seventh HCoV to be identified and the fifth since the turn of the millennium, though additional HCoVs may be in circulation but remain undetected.  
+Possible evidence for a rare eighth HCoV was later reported by [@doi:10.1093/cid/ciab456].
 
 SARS-CoV-1 and MERS-CoV were ultimately managed largely through infection management practices (e.g., mask wearing) and properties of the virus itself (i.e., low rate of transmission), respectively [@doi:10.1038/nrmicro.2016.81; @doi:10.1093/ajcp/aqaa029].
 Vaccines were not used to control either outbreak, although vaccine development programs were established for SARS-CoV-1 [@doi:10.3390/v11010059].
@@ -1329,6 +1331,8 @@ Research in response to prior outbreaks of HCoV-borne infections, such as SARS a
 ### Zoonotic Transfer of Coronaviruses
 
 <!-- TO DO: How does zoonotic transfer happen? What role has this played in previous HCoV outbreaks? How do viruses evolve during host species changes?-->
+
+If not addressed, economic and environmental stressors are likely to cause future zoonotic transfer of diseases in the future [@doi:10.1126/science.abc3189].
 
 ### Evolution of the SARS-CoV-2 Virus
 
@@ -1819,14 +1823,14 @@ The scale of the COVID-19 pandemic has made the repurposing and development of p
 
 ![
 **Cumulative global incidence of COVID-19 and SARS.**
-As of August 24, 2021, 213,205,582 COVID-19 cases and 4,452,511 COVID-19 deaths had been reported worldwide since January 22, 2020.
+As of August 25, 2021, 213,912,908 COVID-19 cases and 4,463,734 COVID-19 deaths had been reported worldwide since January 22, 2020.
 A total of 8,432 cases and 813 deaths were reported for SARS from March 17 to July 11, 2003.
 SARS-CoV-1 was officially contained on July 5, 2003, within 9 months of its appearance [@doi:10.3390/ijerph17113973].
 In contrast, SARS-CoV-2 remains a significant global threat nearly two years after its emergence.
 COVID-19 data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series; @doi:10/ggnsjk].
 SARS data are from the WHO [@url:https://www.who.int/csr/sars/country/en] and were obtained from a dataset on GitHub [@url:https://github.com/imdevskp/sars-2003-outbreak-data-webscraping-code].
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/04ed1f8e69567b1fe0e2a922e577d9d8d3f822ab/csse/csse-deaths.png "Global incidence of COVID-19 and SARS"){#fig:csse-deaths secno=1}
+](https://github.com/greenelab/covid19-review/raw/c3c85402cdad26b2e917697d02ddecb1ce18dedb/csse/csse-deaths.png "Global incidence of COVID-19 and SARS"){#fig:csse-deaths secno=1}
 
 At first, SARS-CoV-2's rapid shift from an unknown virus to a significant worldwide threat closely paralleled the emergence of _Severe acute respiratory syndrome-related coronavirus_ (SARS-CoV-1), which was responsible for the 2002-03 SARS epidemic.
 The first documented case of COVID-19 was reported in Wuhan, China in November 2019, and the disease quickly spread worldwide in the early months of 2020.
@@ -1883,7 +1887,7 @@ Recruitment status and trial phase are shown only for interventional trials in w
 Common interventions refers to interventions used in at least ten trials.
 Combinations of interventions, such as hydroxychloroquine with azithromycin, are tallied separately from the individual interventions.
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/04ed1f8e69567b1fe0e2a922e577d9d8d3f822ab/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/c3c85402cdad26b2e917697d02ddecb1ce18dedb/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 The purpose of this review is to provide an evolving resource tracking the status of efforts to repurpose and develop drugs for the treatment of COVID-19.
 We highlight four strategies that provide different paradigms for the identification of potential pharmaceutical treatments.
@@ -4529,7 +4533,7 @@ Trials that recruit across multiple countries do appear to broaden geographic re
 The density of clinical trials is reported at the country level.
 As of December 31, 2020, there are 6,987 trials in the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709], of which 3,962 are interventional.
 The top figure demonstrates the density of interventional trials recruiting only from a singular country, while the bottom shows the distribution of recruitment for interventional trials that involve more than one country.
-](https://github.com/greenelab/covid19-review/raw/04ed1f8e69567b1fe0e2a922e577d9d8d3f822ab/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
+](https://github.com/greenelab/covid19-review/raw/c3c85402cdad26b2e917697d02ddecb1ce18dedb/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
 
 A few different concerns arise from this skewed geographic representation in clinical trial recruitment.
 First, treatments such as remdesivir that are promising but primarily available to clinical trial participants are unlikely to be accessible by people in many countries.
@@ -4799,7 +4803,7 @@ When we first produced this figure on July 7, 2020, there were 3,733 clinical tr
 As of December 31, 2020, it contains 6,987.
 We were also able to easily reconfigure the figure prior to journal submission to emphasize interventional trials based on the recommendation of a collaborator who is a clinician.
 This figure is included in an analysis of pharmaceutical development efforts during COVID-19 [@individual-pharmaceuticals].
-]((images/ebmdatalab-trials-original.png)https://github.com/greenelab/covid19-review/raw/04ed1f8e69567b1fe0e2a922e577d9d8d3f822ab/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+]((images/ebmdatalab-trials-original.png)https://github.com/greenelab/covid19-review/raw/c3c85402cdad26b2e917697d02ddecb1ce18dedb/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 The seven manuscripts produced by the consortium (outside of this one) will be submitted to _mSystems_ as part of a special issue that is providing support for evolving reviews so that they can continue to be updated as more information becomes available.
 This approach allows for a version of record to be maintained alongside the most recent developments, which are always available through GitHub.
