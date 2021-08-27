@@ -1050,6 +1050,7 @@ github
 gjqmvq
 glomerular
 glomeruli
+glomerulopathy
 glucocorticoid
 glucocorticoids
 glucosamine
