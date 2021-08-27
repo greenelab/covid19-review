@@ -6,3 +6,4 @@ reference-doc: build/themes/default.docx
 resource-path:
  - '.'
  - content
+number-sections: false
