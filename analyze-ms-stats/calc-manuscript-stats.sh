@@ -1,7 +1,7 @@
 # Calculate growth statistics for manuscript based on Manubot files
 
 # Generate list of all commits in history of output branch
-git log --pretty=format:"%h" > output-commits.txt
+git log --pretty=format:"%h" --first-parent output > output-commits.txt
 
 # Define input and output files
 COMMIT_LIST=./output-commits.txt
