@@ -64,8 +64,6 @@ def main(args):
     # script after the updated image is committed
     manuscript_stats['manuscript_stats_figure'] = \
         f'https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/{args.output_figure}.png'
-
-    print(manuscript_stats)
     with open(args.output_json, 'w') as out_file:
         json.dump(manuscript_stats, out_file, indent=2, sort_keys=True)
     print(f'Wrote {args.output_json}')
