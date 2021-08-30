@@ -5,17 +5,17 @@ import matplotlib
 import argparse
 
 def main(args):
-    '''Extract statistics from the JHU CSSE COVID-19 global deaths dataset'''
+    '''Extract statistics from the output branch log'''
 
     # Access the variables.json and references.json files associated with each commit and store in dictionary
     commitData = dict()
     with open(args.commit_list, "r") as commitFile:
         commits = commitFile.read().splitlines()
         for commit in commits:
-            commit = commit.strip() # This doesn't actually seem to work, what the heck is the % sign!
+            commit = commit.strip()
 
             # Access files and data in variables.json associated with each commit
-            variablesCommand = "git show " + commit + ":../variables.json > variables_tmp.json"
+            variablesCommand = "git show " + commit + ":./variables.json > variables_tmp.json"
             os.system(variablesCommand)
             variables = json.load(open('./variables_tmp.json'))
 
@@ -25,7 +25,7 @@ def main(args):
             word_count = variables['manubot']['manuscript_stats']['word_count']
 
             # Access files and data in references.json associated with each commit
-            referencesCommand = "git show " + commit + ":../references.json > references_tmp.json"
+            referencesCommand = "git show " + commit + ":./references.json > references_tmp.json"
             os.system(referencesCommand)
             references = json.load(open('./references_tmp.json', encoding='utf-8'))
             num_ref = len(references)
