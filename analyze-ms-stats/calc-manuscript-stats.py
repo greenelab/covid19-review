@@ -60,10 +60,7 @@ def main(args):
 
     print(f'Wrote {args.output_figure}.png and {args.output_figure}.svg')
 
-    # The placeholder will be replaced by the actual SHA-1 hash in separate
-    # script after the updated image is committed
-    manuscript_stats['manuscript_stats_figure'] = \
-        f'https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/{args.output_figure}.png'
+    # Write json output file
     with open(args.output_json, 'w') as out_file:
         json.dump(manuscript_stats, out_file, indent=2, sort_keys=True)
     print(f'Wrote {args.output_json}')
