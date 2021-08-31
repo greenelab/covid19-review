@@ -8,6 +8,21 @@ Further the linked repository https://github.com/greenelab/covid19-review/tree/e
 
 The main contributors to the automated review seem to have been people that also contribute as authors to the current submission, or are otherwise affiliated with them. For others planning community efforts, it could be useful if the authors shared an extended discussion on where they faced obstacles - and success - in the recruitment of contributors, and how they see their mobilization efforts to compare to other groups which try to build and promote community around COVID-19 literature (e.g.: subdivision of preLights). Additionally, none of the most frequent contributors appear to include a medical doctor from pulmonary medicine – suggesting that some interesting potential community members have not been attracted.
 
+**
+The contributors of the project fall into two three camps: content contributors, technical or methodological contributors, and project managers.
+The first group are indiviudals from a variety of biological fields who have contributed content on their specific areas of expertise.
+Some of these contributors have been involved only in a single section of a single manuscript, while others have brought their perspective to many sections across many manuscripts.
+This contribution is dependent on the individual's interest in the project over the past 1.5 years.
+The second category applies to most of the named authors of the current manuscript, who have worked mainly behind the scenes to promote rigorous evaluation of the literature (methods) and to develop the computational infrastructure needed to support the project.
+The final category includes the first and last authors of the current manuscript.
+These authors are biological data scientists driving the project, and thus they contribute content or techncial additions as needed.
+
+The COVID-19 pandemic presented unique challenges -- we had the most engagement during the initial phase of lockdown, when many biologists were unable to access their labs and had the bandwidth to learn a new skillset.
+As labs have opened back up, we have seen a smaller set of regular contributors.
+Additionally, it has been very difficult (as the reviewer notes) to recruit MDs, likely in part due to the fact that this effort is taking place at a time when the medical field is in an "all hands on deck" mode of operation.
+We have added a summary of these challenges to the discussion.
+**
+
 Presently the user-interface for the construction of the review is provided by git/github. As the authors note, this could deter some contributors. Would there be ways to create a simple user interface that appeals to target contributors?
 
 Reading the automated review, it seems to aggregate information, rather than to synthesize and condense the literature – which is a role of reviews that has been noted by others before (e.g.: in “Laboratory Life” by Latour and Woolgar). Therefore, it would be interesting to learn more about the author’s intended target audience and usage scenarios – and whether the work that they created would be even something new aside from “reviews” or “literature surveys”.
