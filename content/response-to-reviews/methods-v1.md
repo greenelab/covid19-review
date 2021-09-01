@@ -1,3 +1,6 @@
+**Note: We do not need to submit a response to reviewers for this manuscript.
+These notes are for our own record.**
+
 # Review 1
 
 The authors have proposed and realized an interesting framework to allow for the construction of a review in collaborative setting while ensuring high levels of traceability. The idea is quite fresh, and the technical implementation appropriate for the back-end. Given the pioneering character of their work, I do not necessarily see its limitations as reasons for rejection, but as points where their experiences and challenges might by themselves be useful for others. Many concern the front-end.
