@@ -1377,6 +1377,7 @@
 {
   "id": "url:https://www.biopharma-reporter.com/Article/2021/02/18/South-Africa-starts-administering-Janssen-COVID-19-vaccine-to-health-workers",
   "type": "webpage",
+  
   "title": "South Africa starts administering Janssen COVID-19 vaccine to health workers",
   "container-title": "BioPharma-Reporter",
   "abstract": "South Africa has started administering the Janssen COVID-19 vaccine to health workers this week after the first doses arrived in the country. Meanwhile, J&J has submitted an application for Conditional Marketing Authorisation in the EU, following its application for EUA in the US.",
@@ -1433,5 +1434,27 @@
   },
   "container-title": "SSRN",
   "title": "How Did We Get Here: What Are Droplets and Aerosols and How Far Do They Go? A Historical Perspective on the Transmission of Respiratory Infectious Diseases",
-  "URL": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3829873",
+  "URL": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3829873"
+},
+{
+  "id": "url:https://blogs.sciencemag.org/pipeline/archives/2021/07/19/too-many-papers",
+  "type": "webpage",
+  "title": "Too Many Papers",
+  "container-title": "In the Pipeline",
+  "URL": "https://blogs.sciencemag.org/pipeline/archives/2021/07/19/too-many-papers",
+  "author": [
+    {
+      "family": "Lowe",
+      "given": "Derek"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        "2021",
+        7,
+        19
+      ]
+    ]
+  }
 }
