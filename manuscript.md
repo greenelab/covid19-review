@@ -278,13 +278,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/b8d807191e6510283187a0d16df19acf3fb57d94/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/b8d807191e6510283187a0d16df19acf3fb57d94/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/b8d807191e6510283187a0d16df19acf3fb57d94/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/e9043058418e7e6960c1a71d01ecb331438a3133/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/e9043058418e7e6960c1a71d01ecb331438a3133/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/e9043058418e7e6960c1a71d01ecb331438a3133/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/b8d807191e6510283187a0d16df19acf3fb57d94/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/b8d807191e6510283187a0d16df19acf3fb57d94/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/e9043058418e7e6960c1a71d01ecb331438a3133/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/e9043058418e7e6960c1a71d01ecb331438a3133/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -306,9 +306,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/b8d807191e6510283187a0d16df19acf3fb57d94/))
+([permalink](https://greenelab.github.io/covid19-review/v/e9043058418e7e6960c1a71d01ecb331438a3133/))
 was automatically generated
-from [greenelab/covid19-review@b8d8071](https://github.com/greenelab/covid19-review/tree/b8d807191e6510283187a0d16df19acf3fb57d94)
+from [greenelab/covid19-review@e904305](https://github.com/greenelab/covid19-review/tree/e9043058418e7e6960c1a71d01ecb331438a3133)
 on September 1, 2021.
 Snapshots of individual sections have been published [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals].
 </em></small>
@@ -445,7 +445,7 @@ Instead, you should collect information from your local health department, the [
 
 + **Adam L. MacLean**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0003-0689-7907](https://orcid.org/0000-0003-0689-7907) · ![GitHub icon](images/github.svg){.inline_icon}
-    [alavendelm](https://github.com/alavendelm) · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [adamlmaclean](https://github.com/adamlmaclean) · ![Twitter icon](images/twitter.svg){.inline_icon}
     [adamlmaclean](https://twitter.com/adamlmaclean)<br>
   <small>
      Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, California, United States of America
@@ -874,6 +874,8 @@ Coronaviruses such as SARS-CoV-1 are also able to evade the humoral immune respo
 ACE2 and TMPRSS2 have been identified as the primary entry portal and as a critical protease, respectively, in facilitating the entry of SARS-CoV-1 and SARS-CoV-2 into a target cell [@doi:10.1038/nature02145; @doi:10.1126/science.abb2507; @doi:10.1128/JVI.01542-10; @doi:10.1016/j.cell.2020.02.052; @doi:10.1128/JVI.02232-10].
 This finding has led to a hypothesized role for ACE2 and TMPRSS2 expression in determining which cells, tissues, and organs are most likely to be infected by SARS-CoV-2.
 ACE2 is expressed in numerous organs, such as the heart, kidney, and intestine, but it is most prominently expressed in alveolar epithelial cells; this pattern of expression is expected to contribute to the virus' association with lung pathology [@doi:10.1101/2020.02.24.963348; @doi:10.1007/s00134-020-05985-9; @doi:10.1016/j.phrs.2020.104833] as well as that of SARS [@doi:10.1002/path.1570].
+A retrospective observational study reported indirect evidence that certain antineoplastic therapies, such as the chemotherapy drug gemcitabine, may reduce risk of SARS-CoV-2 infection in patients with cancer, possibly via decreased ACE2 expression [@doi:10.1001/jamaoncol.2021.3585].
+
 Clinical investigations of COVID-19 patients have detected SARS-CoV-2 transcripts in bronchoalveolar lavage fluid (BALF) (93% of specimens), sputum (72%), nasal swabs (63%), fibrobronchoscopy brush biopsies (46%), pharyngeal swabs (32%), feces (29%), and blood (1%) [@doi:10.1001/jama.2020.3786].
 Two studies reported that SARS-CoV-2 could not be detected in urine specimens [@doi:10.1001/jama.2020.3786; @doi:10.1001/jama.2020.3204]; however, a third study identified four urine samples (out of 58) that were positive for SARS-CoV-2 nucleic acids [@doi:10.1097/CM9.0000000000000774].
 Although respiratory failure remains the leading cause of death for COVID-19 patients [@doi:10.1111/his.14134], SARS-CoV-2 infection can damage many other organ systems including the heart [@doi:10.1001/jamacardio.2020.0950], kidneys [@doi:10.1038/s41585-020-0319-7; @doi:10.1186/s13054-020-02872-z], liver [@doi:10/ggpx6s], and gastrointestinal tract [@doi:10.1053/j.gastro.2020.02.055; @doi:10.1111/1751-2980.12851].
