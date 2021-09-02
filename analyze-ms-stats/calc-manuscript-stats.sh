@@ -14,5 +14,5 @@ echo "Run python script"
 python analyze-ms-stats/calc-manuscript-stats.py $COMMIT_LIST $OUTPUT_JSON $OUTPUT_FIG
 
 # Clean up temporary files
-echo "Clean up temporary files"
-rm ./references_tmp.json ./variables_tmp.json analyze-ms-stats/output-commits.txt
+#echo "Clean up temporary files"
+#rm ./references_tmp.json ./variables_tmp.json analyze-ms-stats/output-commits.txt
