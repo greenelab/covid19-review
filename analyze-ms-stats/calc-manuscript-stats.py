@@ -3,7 +3,7 @@ import os
 import pandas as pd
 import matplotlib
 import argparse
-import concurrent.futures
+from multiprocessing.pool import ThreadPool
 
 def analyze_commit(commit):
     # Access files and data in variables.json associated with each commit
@@ -27,12 +27,17 @@ def analyze_commit(commit):
 def main(args):
     '''Extract statistics from the output branch log'''
 
+    # Set up threads and dictionary to store results
+    pool = ThreadPool(processes=4)
+    commitData = dict()
+
     # Access the variables.json and references.json files associated with each commit and store in dictionary
     with open(args.commit_list, "r") as commitFile:
         commits = commitFile.read().splitlines()
-        with concurrent.futures.ThreadPoolExecutor() as executor:
-            futures = [executor.submit(analyze_commit, commit.strip()) for commit in commits]
-            commitData = dict(zip(commits, [f.result() for f in futures]))
+        for commit in commits:
+            commit = commit.strip()
+            commitResults = pool.apply_async(analyze_commit, [commit])
+            commitData[commit] = commitResults.get()
 
     # Convert dictionary to dataframe
     growthdata = pd.DataFrame.from_dict(commitData, orient="index",
