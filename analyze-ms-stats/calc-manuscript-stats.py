@@ -31,7 +31,7 @@ def main(args):
     # Access the variables.json and references.json files associated with each commit and store in dictionary
     with open(args.commit_list, "r") as commitFile:
         commits = [c.strip() for c in commitFile.read().splitlines()]
-        pool = multiprocessing.Pool(processes=8)
+        pool = multiprocessing.Pool(processes=multiprocessing.cpu_count())
         commitData = dict(zip(commits, pool.map(analyze_commit, commits)))
         pool.close()
         pool.join()
