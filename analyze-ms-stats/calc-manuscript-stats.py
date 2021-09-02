@@ -60,19 +60,24 @@ def main(args):
     pool.join()
 
     # Turn commitData to df, then flip to be in chronological order
-    growthdata = pd.DataFrame.from_dict(commitData, orient="index",
-                                        columns=["Date", "clean_date", "Authors", "Word Count", "References"])
+    growthData = pd.DataFrame.from_dict(commitData, orient="index",
+                                        columns=["Date", "Clean_date", "Authors", "Word Count", "References"])
 
     # Append onto table of previous commit data, if this exists
     if priorData is not None:
-        growthdata = pd.concat([growthdata, priorData])
+        print("add to prior data")
+        growthData = growthData.append(priorData)
 
-    # Reverse data to match chronological time
-    growthdata = growthdata[::-1]
-    growthdata = growthdata.set_index("Date")
+    # Cache commit data for future updates
+    growthData.to_csv(args.output_table, index_label="commit")
+    print(f'Wrote {args.output_table}')
+
+    # Prepare data to graph
+    graphData = growthData.set_index("Date")
+    graphData = graphData[::-1]
 
     # Plot the data
-    axes = growthdata.plot(kind='line', linewidth=2, subplots=True)
+    axes = graphData.plot(kind='line', linewidth=2, subplots=True)
     for ax in axes:
         ax.get_yaxis().set_major_formatter(matplotlib.ticker.FuncFormatter(
             lambda x, p: format(int(x), ',')))
@@ -89,19 +94,12 @@ def main(args):
     print(f'Wrote {args.output_figure}.png and {args.output_figure}.svg')
 
     # Write json output file
-    manuscript_stats = growthdata.iloc[0].to_dict()
+    manuscript_stats = growthData.iloc[0].to_dict()
     for item in ["Authors", "Word Count", "References"]:
         manuscript_stats[item] = str(manuscript_stats[item])
     with open(args.output_json, 'w') as out_file:
         json.dump(manuscript_stats, out_file, indent=2, sort_keys=True)
     print(f'Wrote {args.output_json}')
-
-    # Cache commit data for future updates
-    pd.DataFrame.from_dict(commitData, orient='index',
-                           columns=["date", "clean_date",
-                                    "num_authors", "word_count", "num_ref"])\
-        .to_csv(args.output_table, index_label="commit")
-    print(f'Wrote {args.output_table}')
 
     print("Time:", time.time() - start_time)
 
