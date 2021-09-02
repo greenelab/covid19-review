@@ -6,7 +6,10 @@ import argparse
 import multiprocessing
 
 def analyze_commit(commit):
-    # Access files and data in variables.json associated with each commit
+    """Access files and data in variables.json associated with each commit
+    Accepts commit ID # as string
+    Returns list of 5 statistics"""
+
     variablesCommand = "git show " + commit + ":./variables.json"
     variables = json.loads(subprocess.getoutput(variablesCommand))
 
@@ -36,7 +39,6 @@ def main(args):
     # Convert dictionary to dataframe
     growthdata = pd.DataFrame.from_dict(commitData, orient="index",
                                         columns=["Date", "clean_date", "Authors", "Word Count", "References"])
-    print(growthdata)
     manuscript_stats = growthdata.iloc[0].to_dict()
     for item in ["Authors", "Word Count", "References"]:
         manuscript_stats[item] = str(manuscript_stats[item])
