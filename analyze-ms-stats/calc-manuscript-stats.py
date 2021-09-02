@@ -23,7 +23,7 @@ def analyze_commit(commit):
     references = json.loads(subprocess.getoutput(referencesCommand))
     num_ref = len(references)
 
-    return([date, clean_date, num_authors, word_count/1000, num_ref])
+    return([date, clean_date, num_authors, word_count, num_ref])
 
 def main(args):
     '''Extract statistics from the output branch log'''
@@ -36,7 +36,7 @@ def main(args):
         pool.close()
         pool.join()
 
-    # Convert dictionary to dataframe
+    # Convert dictionary to dataframe & flip index to be chronological
     growthdata = pd.DataFrame.from_dict(commitData, orient="index",
                                         columns=["Date", "clean_date", "Authors", "Word Count", "References"])
     manuscript_stats = growthdata.iloc[0].to_dict()
@@ -48,9 +48,9 @@ def main(args):
     # Plot the data
     axes = growthdata.plot(kind='line', linewidth=2, subplots=True)
     for ax in axes:
-        ax.set_ylabel('Count')
         ax.get_yaxis().set_major_formatter(matplotlib.ticker.FuncFormatter(
             lambda x, p: format(int(x), ',')))
+        ax.set_ylabel('Count')
         ax.set_ylim(bottom=0)
         ax.spines['top'].set_visible(False)
         ax.spines['right'].set_visible(False)

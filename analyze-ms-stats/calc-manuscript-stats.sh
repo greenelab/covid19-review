@@ -15,4 +15,4 @@ python analyze-ms-stats/calc-manuscript-stats.py $COMMIT_LIST $OUTPUT_JSON $OUTP
 
 # Clean up temporary files
 echo "Clean up temporary files"
-rm ./references_tmp.json ./variables_tmp.json analyze-ms-stats/output-commits.txt
+rm analyze-ms-stats/output-commits.txt
