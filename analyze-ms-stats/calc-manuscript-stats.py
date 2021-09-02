@@ -1,15 +1,14 @@
 import json
-import os
+import subprocess
 import pandas as pd
 import matplotlib
 import argparse
-from multiprocessing.pool import ThreadPool
+import multiprocessing
 
 def analyze_commit(commit):
     # Access files and data in variables.json associated with each commit
-    variablesCommand = "git show " + commit + ":./variables.json > variables_tmp.json"
-    os.system(variablesCommand)
-    variables = json.load(open('./variables_tmp.json'))
+    variablesCommand = "git show " + commit + ":./variables.json"
+    variables = json.loads(subprocess.getoutput(variablesCommand))
 
     date = variables['pandoc']['date-meta']
     clean_date = variables['manubot']['date']
@@ -17,9 +16,8 @@ def analyze_commit(commit):
     word_count = variables['manubot']['manuscript_stats']['word_count']
 
     # Access files and data in references.json associated with each commit
-    referencesCommand = "git show " + commit + ":./references.json > references_tmp.json"
-    os.system(referencesCommand)
-    references = json.load(open('./references_tmp.json', encoding='utf-8'))
+    referencesCommand = "git show " + commit + ":./references.json"
+    references = json.loads(subprocess.getoutput(referencesCommand))
     num_ref = len(references)
 
     return([date, clean_date, num_authors, word_count/1000, num_ref])
@@ -27,21 +25,18 @@ def analyze_commit(commit):
 def main(args):
     '''Extract statistics from the output branch log'''
 
-    # Set up threads and dictionary to store results
-    pool = ThreadPool(processes=4)
-    commitData = dict()
-
     # Access the variables.json and references.json files associated with each commit and store in dictionary
     with open(args.commit_list, "r") as commitFile:
-        commits = commitFile.read().splitlines()
-        for commit in commits:
-            commit = commit.strip()
-            commitResults = pool.apply_async(analyze_commit, [commit])
-            commitData[commit] = commitResults.get()
+        commits = [c.strip() for c in commitFile.read().splitlines()]
+        pool = multiprocessing.Pool(processes=8)
+        commitData = dict(zip(commits, pool.map(analyze_commit, commits)))
+        pool.close()
+        pool.join()
 
     # Convert dictionary to dataframe
     growthdata = pd.DataFrame.from_dict(commitData, orient="index",
                                         columns=["Date", "clean_date", "Authors", "Word Count", "References"])
+    print(growthdata)
     manuscript_stats = growthdata.iloc[0].to_dict()
     for item in ["Authors", "Word Count", "References"]:
         manuscript_stats[item] = str(manuscript_stats[item])
