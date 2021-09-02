@@ -278,13 +278,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/8492db0fd0047f458d8b92df6eed0fd658ec7033/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/8492db0fd0047f458d8b92df6eed0fd658ec7033/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/8492db0fd0047f458d8b92df6eed0fd658ec7033/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/8ec56c4c2c4de869e81996f41101a3d64a44dae6/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/8ec56c4c2c4de869e81996f41101a3d64a44dae6/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/8ec56c4c2c4de869e81996f41101a3d64a44dae6/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/8492db0fd0047f458d8b92df6eed0fd658ec7033/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/8492db0fd0047f458d8b92df6eed0fd658ec7033/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/8ec56c4c2c4de869e81996f41101a3d64a44dae6/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/8ec56c4c2c4de869e81996f41101a3d64a44dae6/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -306,9 +306,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/8492db0fd0047f458d8b92df6eed0fd658ec7033/))
+([permalink](https://greenelab.github.io/covid19-review/v/8ec56c4c2c4de869e81996f41101a3d64a44dae6/))
 was automatically generated
-from [greenelab/covid19-review@8492db0](https://github.com/greenelab/covid19-review/tree/8492db0fd0047f458d8b92df6eed0fd658ec7033)
+from [greenelab/covid19-review@8ec56c4](https://github.com/greenelab/covid19-review/tree/8ec56c4c2c4de869e81996f41101a3d64a44dae6)
 on September 2, 2021.
 Snapshots of individual sections have been published [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals].
 </em></small>
@@ -1793,15 +1793,14 @@ Serologic testing combined with PCR testing will be critical to confirming purpo
 
 ### Abstract
 
-After emerging in China in late 2019, the novel _Severe acute respiratory syndrome-like coronavirus 2_ (SARS-CoV-2) spread worldwide and as of mid-2021 continues to significantly impact most countries.
-Only a small number of coronaviruses are known to infect humans, and only two cause infections similar in severity to SARS-CoV-2: _Severe acute respiratory syndrome-related coronavirus_, a closely related species of SARS-CoV-2 that emerged in 2002, and _Middle East respiratory syndrome-related coronavirus_, which emerged in 2012.
-Unlike in the current pandemic, both of these previous epidemics were controlled relatively rapidly through public health measures.
-All the same, the body of research investigating severe acute respiratory syndrome (SARS) and Middle East respiratory syndrome (MERS) has proven valuable for identifying approaches to treating and preventing novel coronavirus disease 2019 (COVID-19).
-Building on research in these and other diseases, the medical and scientific communities have responded rapidly to the COVID-19 crisis and identified a large number of candidate therapeutics.
-The approaches used to identify these candidates have fallen into four main categories: adaptation of approaches used clinically for related diseases or diseases with related pathologies, adaptation based on virological properties, adaptation based on host response, and data-driven identification of candidates based on physical properties or on pharmacological compendia.
-To date, a small number of therapeutics have already been authorized by regulatory agencies such as the Food and Drug Administration (FDA) in the United States, and many others remain under investigation.
-The scale of the COVID-19 crisis offers a rare opportunity to collect data on the success of treatments given the high risk of exposure and infection.
-This information can provide insight not only into the management of coronavirus diseases, but also into the relative success of different approaches to identifying candidate therapeutics against an emerging disease.
+After emerging in China in late 2019, the novel coronavirus SARS-CoV-2 spread worldwide and as of mid-2021 remains a significant threat globally.
+Only a few coronaviruses are known to infect humans, and only two cause infections similar in severity to SARS-CoV-2: _Severe acute respiratory syndrome-related coronavirus_, a closely related species of SARS-CoV-2 that emerged in 2002, and _Middle East respiratory syndrome-related coronavirus_, which emerged in 2012.
+Unlike the current pandemic, previous epidemics were controlled rapidly through public health measures, but the body of research investigating severe acute respiratory syndrome and Middle East respiratory syndrome has proven valuable for identifying approaches to treating and preventing novel coronavirus disease 2019 (COVID-19).
+Building on this research, the medical and scientific communities have responded rapidly to the COVID-19 crisis to identify many candidate therapeutics.
+The approaches used to identify candidates fall into four main categories: adaptation of clinical approaches to diseases with related pathologies, adaptation based on virological properties, adaptation based on host response, and data-driven identification of candidates based on physical properties or on pharmacological compendia.
+To date, a small number of therapeutics have already been authorized by regulatory agencies such as the Food and Drug Administration (FDA), while most remain under investigation.
+The scale of the COVID-19 crisis offers a rare opportunity to collect data on the effects of candidate therapeutics.
+This information provides insight not only into the management of coronavirus diseases, but also into the relative success of different approaches to identifying candidate therapeutics against an emerging disease.
 
 ### Importance
 
