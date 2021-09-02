@@ -3,36 +3,36 @@ import os
 import pandas as pd
 import matplotlib
 import argparse
+import concurrent.futures
+
+def analyze_commit(commit):
+    # Access files and data in variables.json associated with each commit
+    variablesCommand = "git show " + commit + ":./variables.json > variables_tmp.json"
+    os.system(variablesCommand)
+    variables = json.load(open('./variables_tmp.json'))
+
+    date = variables['pandoc']['date-meta']
+    clean_date = variables['manubot']['date']
+    num_authors = len(variables['manubot']['authors'])
+    word_count = variables['manubot']['manuscript_stats']['word_count']
+
+    # Access files and data in references.json associated with each commit
+    referencesCommand = "git show " + commit + ":./references.json > references_tmp.json"
+    os.system(referencesCommand)
+    references = json.load(open('./references_tmp.json', encoding='utf-8'))
+    num_ref = len(references)
+
+    return([date, clean_date, num_authors, word_count/1000, num_ref])
 
 def main(args):
     '''Extract statistics from the output branch log'''
 
     # Access the variables.json and references.json files associated with each commit and store in dictionary
-    commitData = dict()
     with open(args.commit_list, "r") as commitFile:
         commits = commitFile.read().splitlines()
-        for commit in commits:
-            commit = commit.strip()
-
-            # Access files and data in variables.json associated with each commit
-            variablesCommand = "git show " + commit + ":./variables.json > variables_tmp.json"
-            os.system(variablesCommand)
-            variables = json.load(open('./variables_tmp.json'))
-
-            date = variables['pandoc']['date-meta']
-            clean_date = variables['manubot']['date']
-            num_authors = len(variables['manubot']['authors'])
-            word_count = variables['manubot']['manuscript_stats']['word_count']
-
-            # Access files and data in references.json associated with each commit
-            referencesCommand = "git show " + commit + ":./references.json > references_tmp.json"
-            os.system(referencesCommand)
-            references = json.load(open('./references_tmp.json', encoding='utf-8'))
-            num_ref = len(references)
-
-            commitData[commit] = [date, clean_date, num_authors, word_count/1000,
-                                  num_ref]
-
+        with concurrent.futures.ThreadPoolExecutor() as executor:
+            futures = [executor.submit(analyze_commit, commit.strip()) for commit in commits]
+            commitData = dict(zip(commits, [f.result() for f in futures]))
 
     # Convert dictionary to dataframe
     growthdata = pd.DataFrame.from_dict(commitData, orient="index",
