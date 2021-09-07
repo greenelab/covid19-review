@@ -433,6 +433,7 @@ MHRA
 MHV
 MIP
 MIS
+MMOA
 MRC
 MUC
 MVN
@@ -1340,6 +1341,7 @@ oncolytic
 opacities
 orchitis
 orcid
+organismal
 organoid
 organoids
 organoselenium
