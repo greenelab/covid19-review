@@ -23,6 +23,7 @@ AbbVie
 AbCellera
 Académie
 Acelity
+Acibadem
 Actemra
 Adhanom
 AdVac
@@ -40,6 +41,7 @@ Ashwin
 Assaf
 AstraZeneca
 Avigan
+Aydinlar
 BAL
 BALB
 BALF
@@ -104,6 +106,7 @@ CMV
 CN
 COPD
 COVAX
+COVI
 COVID
 CP
 CPE
@@ -154,6 +157,7 @@ CoVZC
 CoVZXC
 CoVs
 CoV’s
+Codagenix
 Colonic
 Colson
 Comput
@@ -356,6 +360,7 @@ IgA
 IgG
 IgM
 Immunofluorescence
+Immunologicals
 Ipsita
 JAK
 JJF
@@ -397,6 +402,7 @@ LW
 LY
 LYM
 LYN
+Labmed
 Lactobacillus
 Lafaille
 Lamonica
@@ -454,7 +460,9 @@ Marseille
 MatPlotLib
 Matsuyama
 Meara
+Mehmet
 Mehra
+Meissa
 Melo
 MenACWY
 Meplazumab
@@ -735,6 +743,7 @@ Wildtype
 Willebrand
 Wyler
 Xu
+YF
 YHLO
 Yael
 Yanjun
@@ -940,6 +949,7 @@ defensins
 deltacoronaviruses
 deltoid
 demethylases
+deoptimized
 der
 detectible
 dexamethasone
@@ -1169,6 +1179,7 @@ intracellular
 intradermal
 intramuscularly
 intranasal
+intranasally
 intraperitoneal
 intraperitoneally
 intratracheal
@@ -1320,6 +1331,7 @@ ng
 niclosamide
 nidoviruses
 nilswellhausen
+noncleavable
 nonrandomized
 nonsevere
 nosocomial
@@ -1641,6 +1653,7 @@ vaccinia
 vascularized
 vasculitis
 vasodilator
+varicella
 variolation
 vincerubinetti
 virally
