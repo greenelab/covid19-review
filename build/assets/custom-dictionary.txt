@@ -18,6 +18,7 @@ ASBT
 AST
 ATPase
 AUC
+AY
 AZD
 AbbVie
 AbCellera
@@ -350,6 +351,7 @@ IRF
 IRQ
 ISG
 ISGs
+ITIH
 ITP
 IU
 IgA
@@ -759,6 +761,7 @@ aadattoli
 acceptor
 acetylcysteine
 acknowledgements
+actin
 adamlmaclean
 adaptor
 adeno
@@ -850,6 +853,7 @@ bronchioles
 bronchoalveolar
 bronchodilators
 brushings
+bvgh
 byrdjb
 cDNA
 cTnI
@@ -986,6 +990,7 @@ endonuclease
 endonucleolytic
 endophenotypic
 endoplasmic
+endoprotease
 endosomal
 endosomes
 endothelium
@@ -1029,10 +1034,12 @@ fpcx
 frameshifting
 frontline
 ftzx
+fusogenicity
 gRNA
 gRNAs
 galactooligosaccharides
 gastroenterologist
+gelsolin
 gemcitabine
 generalizability
 genomic
@@ -1048,6 +1055,7 @@ ggpx
 ggvd
 ghjzm
 ghs
+ghstsk
 github
 gjqmvq
 glomerular
@@ -1064,10 +1072,13 @@ glycolic
 glycoproteins
 glycosylated
 glycosylation
+granulocyte
+granulocytes
 greensolid
 greenelab
 gregszetoAI
 grs
+gsfg
 hACE
 hSLAM
 helminths
@@ -1167,6 +1178,7 @@ interspaced
 interventional
 intracellular
 intradermal
+intraindividual
 intramuscularly
 intranasal
 intraperitoneal
@@ -1306,12 +1318,14 @@ nanowell
 nanowells
 nasogastric
 nasopharyngeal
+nasopharynx
 naïve
 nebulized
 necropsies
 neuraminic
 neuraminidase
 neurodegenerative
+neuroinflammation
 neuropathological
 neutropenia
 neutrophil
@@ -1527,6 +1541,7 @@ segmental
 selectin
 selenosulfide
 seminiferous
+sequelae
 sera
 seroconversion
 seroconverted
@@ -1607,6 +1622,7 @@ transcriptase
 transcriptional
 transcriptionally
 transcriptome
+transcriptomes
 transcriptomic
 transcriptomics
 transduction
@@ -1621,12 +1637,15 @@ trimer
 trimeric
 trimerization
 troponin
+trypsin
 turbinate
 ubiquitination
 umifenovir
 unadjusted
+uncleaved
 uncoating
 underexplored
+underidentified
 underinsured
 underpowered
 underreported
