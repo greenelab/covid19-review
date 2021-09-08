@@ -278,13 +278,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/7379c1f05a6cfdd3d9496b50c3887a1ddcda5c8f/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/7379c1f05a6cfdd3d9496b50c3887a1ddcda5c8f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/7379c1f05a6cfdd3d9496b50c3887a1ddcda5c8f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/d8c83ee6407d78385307609e65c76d10311e5f80/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/d8c83ee6407d78385307609e65c76d10311e5f80/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/d8c83ee6407d78385307609e65c76d10311e5f80/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/7379c1f05a6cfdd3d9496b50c3887a1ddcda5c8f/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/7379c1f05a6cfdd3d9496b50c3887a1ddcda5c8f/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/d8c83ee6407d78385307609e65c76d10311e5f80/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/d8c83ee6407d78385307609e65c76d10311e5f80/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -306,9 +306,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/7379c1f05a6cfdd3d9496b50c3887a1ddcda5c8f/))
+([permalink](https://greenelab.github.io/covid19-review/v/d8c83ee6407d78385307609e65c76d10311e5f80/))
 was automatically generated
-from [greenelab/covid19-review@7379c1f](https://github.com/greenelab/covid19-review/tree/7379c1f05a6cfdd3d9496b50c3887a1ddcda5c8f)
+from [greenelab/covid19-review@d8c83ee](https://github.com/greenelab/covid19-review/tree/d8c83ee6407d78385307609e65c76d10311e5f80)
 on September 8, 2021.
 Snapshots of individual sections have been published [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals].
 </em></small>
@@ -3123,8 +3123,38 @@ These diverse technology platforms include DNA, RNA, virus-like particle, recomb
 
 ### Live-Attenuated Viruses
 
-<!--To Do: Not used this time I think?-->
-Although this is the vaccine development strategy with the longest history... (short paragraph explaining not really in play here)
+Live-attenuated vaccines (LAV), or replication-competent vaccines, use a weakened living version of a disease-causing virus or a version of a virus that is modified to induce an immune response [@doi:10.1038/s41586-020-2798-3]. 
+The virus can be attenuated by passaging it in a foreign host until, as a consequence of selection pressure, the virus loses its efficacy in the original host. 
+Alternatively, selective gene deletion or codon de-optimization can be utilized to attenuate the virus [@doi:10.1038/s41586-020-2798-3]. 
+LAVs are used globally to prevent diseases caused by viruses such as measles, rubella, polio, influenza, varicella zoster, and the yellow fever virus [@doi:10.1016/B978-0-323-35761-6.00002-X].
+It is generally recognized that LAVs induce an immune response similar to natural infection, and they are favored because they induce long-lasting and robust immunity that can protect from disease. 
+This strong protective effect is induced in part by the immune response to the range of viral antigens available from LAV, which tend to be more immunogenic than those from non-replicating vaccines [@url:https://www.hhs.gov/immunization/basics/types/index.html; @doi:10.1016/j.virol.2015.03.032; @doi:10.3389/fimmu.2020.602256]. 
+LAVs are also favored because they tend to be restricted to viral replication in the tissues around the location of inoculation [@doi:10.1128/9781555818951], and some can be administered intranasally [@doi:10.1038/s41586-020-2798-3]. 
+
+The first deliberate attempt to utilize an attenuated viral vaccine dates back to Louis Pasteur in 1885, despite his not knowing that the disease-causing agent he was experimenting with was a virus. 
+Indeed, the next intentional LAVs developed were intended to prevent illness caused by the yellow fever virus in 1935, followed by the first influenza vaccine in 1936 [@doi:10.1128/9781555818951]. 
+Although LAV development strategies have the longest history, this strategy has not been widely utilized against SARS-CoV-2 and COVID-19. 
+There is general concern that LAV strategies may risk causing disease in individuals who are immunocompromised [@doi:10.1016/j.copbio.2007.10.010], which is an even greater concern when dealing with a novel virus and disease. 
+Previously, there have been numerous attempts to develop both SARS-CoV-1 and MERS-CoV LAVs [@doi:10.3389/fimmu.2020.602256], but no vaccines were approved for use in humans.
+While safety in production was a major concern in the past, nowadays manufacturers of LAVs use safe and reliable methods to produce large quantities of vaccines once they have undergone rigorous preclinical studies and clinical trials to evaluate their safety and efficacy.
+
+There are at least five COVID-19 LAV candidates at various stages of vaccine development.
+A single-dose LAV candidate referred to as YF-SO used live-attenuated yellow fever 17D (YF17D) as a vector for a noncleavable prefusion conformation of the SARS-CoV-2 antigen.
+This LAV has been assessed in hamsters, mice, and macaques [@doi:10.1038/s41586-020-3035-9].
+YF-SO induced a robust immune response in all three animal models and prevented SARS-CoV-2 infection in macaques and hamsters [@doi:10.1038/s41586-020-3035-9].
+Other LAVs being investigated for the prophylaxis of COVID-19 include a Bacillus Calmette-Guerin (BCG) vaccine sponsored by institutes in Australia in collaboration with the Bill and Melinda Gates Foundation, which is in phase III clinical testing [@clinicaltrials:NCT04327206]. 
+A second investigation using a BCG vaccine is also ongoing, which is led by Texas A&M University in collaboration with numerous other U.S. institutions [@clinicaltrials:NCT04348370].
+The purpose of the BCG vaccine is to prevent tuberculosis; however, it is known to exert protective non-specific effects against other respiratory tract infections in _in vitro_ and _in vivo_ studies [@doi:10.1016/j.cmi.2019.04.020], hence the interest many have for its potential use against COVID-19 [@doi:10.1038/s41577-020-0337-y].
+
+In April 2020, it was announced that the Indian Immunologicals Ltd. and Griffith University Australia had partnered to develop codon de-optimized LAV [@url:https://news.griffith.edu.au/2020/04/23/griffith-university-researchers-on-the-road-to-covid-19-vaccine]; however, there have been no updates on the findings of their preclinical testing. 
+Another codon de-optimized LAV is being developed by Mehmet Ali Aydinlar University and Acibadem Labmed Health Services A.S., which also has yet to report the findings of its preclinical tests [@url:https://covid-19tracker.milkeninstitute.org].
+Following successful preclinical investigation [@doi:10.1073/pnas.2102775118], an intranasally administered deoptimized SARS-CoV-2 LAV known as COVI-VAC was developed by both New York-based Codagenix and the Serum Institute of India. 
+COVI-VAC entered phase I human trials and dosed its first participants in January 2021 [@clinicaltrials:NCT04619628; @url:https://covid-19tracker.milkeninstitute.org].  
+It is anticipated that the COVI-VAC phase I human trials will be completed by May 2022.
+Similarly,  Meissa Vaccines in Kansas, U.S.A., which also develops vaccines for _Respiratory syncytial virus_ (RSV), began enrollment for phase I human trials on an intranasal live-attenuated chimeric vaccine candidate in March 2021 for which recruitment is ongoing [@clinicaltrials:NCT04798001; @url:https://covid-19tracker.milkeninstitute.org].
+
+Despite the long and trusted history of LAV development, this vaccine strategy does not appear to be favored for vaccine development against COVID-19.
+Modern technologies such as mRNA vaccines and vectored vaccines seem to have been favored due to their expediency and safety versus the time-consuming nature of developing LAVs using a novel virus.  
 
 ### Inactivated Whole-Virus Vaccines
 
