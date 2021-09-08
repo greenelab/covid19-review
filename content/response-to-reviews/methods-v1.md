@@ -10,7 +10,7 @@ Regretfully, their live review https://greenelab.github.io/covid19-review/ could
 Further the linked repository https://github.com/greenelab/covid19-review/tree/e5a4e3ce43f493c0c913ae647951488b89345106/output did not contain manuscript.pdf which would have allowed for a possibly smooth read (or more specifically: the link in the readme file would point to a file that would not be publicly visible) ; I thus strongly recommend prior acceptance that https://greenelab.github.io/covid19-review/ will be extended to allow users a download of the composite pdf without any need to scroll or recompile (and wait seconds/minutes for text to appear when advancing the screen at https://greenelab.github.io/covid19-review).
 
 **
-References to the .pdf location have been added to the manuscript.
+References to the .pdf location have been added to the manuscript and the README.
 **
 
 The main contributors to the automated review seem to have been people that also contribute as authors to the current submission, or are otherwise affiliated with them. For others planning community efforts, it could be useful if the authors shared an extended discussion on where they faced obstacles - and success - in the recruitment of contributors, and how they see their mobilization efforts to compare to other groups which try to build and promote community around COVID-19 literature (e.g.: subdivision of preLights). Additionally, none of the most frequent contributors appear to include a medical doctor from pulmonary medicine – suggesting that some interesting potential community members have not been attracted.
