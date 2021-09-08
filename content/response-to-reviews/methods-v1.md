@@ -45,6 +45,10 @@ This shift is apparent in the difference between the pharmaceuticals appendix (c
 
 Though thinkable given their technical solution for the back-end, the option for personalized reviews appears absent in the discussion.
 
+**
+The following sentence has been added to the discussion: "The licensing and infrastructure also provide an opportunity for individuals to adapt from this project to create their own snapshots of the COVID-19 literature that derive from, but are not wholly identical to, the primary versions of these reviews."
+**
+
 For their data-integration on clinical trials, they could possibly use the integration provided by dimensions.ai to save redundant work on their end.
 
 **
