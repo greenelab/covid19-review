@@ -279,13 +279,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/98c01d4be54ab4bf9bd477e2140f70587d9f9a82/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/98c01d4be54ab4bf9bd477e2140f70587d9f9a82/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/98c01d4be54ab4bf9bd477e2140f70587d9f9a82/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/2bcf287241085c340b0346af1b798cd9c84ac113/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/2bcf287241085c340b0346af1b798cd9c84ac113/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/2bcf287241085c340b0346af1b798cd9c84ac113/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/98c01d4be54ab4bf9bd477e2140f70587d9f9a82/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/98c01d4be54ab4bf9bd477e2140f70587d9f9a82/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/2bcf287241085c340b0346af1b798cd9c84ac113/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/2bcf287241085c340b0346af1b798cd9c84ac113/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -307,10 +307,11 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/98c01d4be54ab4bf9bd477e2140f70587d9f9a82/))
+([permalink](https://greenelab.github.io/covid19-review/v/2bcf287241085c340b0346af1b798cd9c84ac113/))
 was automatically generated
-from [greenelab/covid19-review@98c01d4](https://github.com/greenelab/covid19-review/tree/98c01d4be54ab4bf9bd477e2140f70587d9f9a82)
+from [greenelab/covid19-review@2bcf287](https://github.com/greenelab/covid19-review/tree/2bcf287241085c340b0346af1b798cd9c84ac113)
 on September 9, 2021.
+It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/2bcf287241085c340b0346af1b798cd9c84ac113/manuscript.pdf).
 Snapshots of individual sections have been published [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals].
 </em></small>
 
@@ -4857,7 +4858,7 @@ We also used the Gitter chat platform (<https://www.gitter.im>) to promote infor
 #### Utilization and Expansion of Manubot
 
 Applying Manubot's existing capabilities allowed us to confront several challenges common in large-scale collaborations, such as maintaining a record of contributions that allowed us to allocate credit appropriately or to contact the original author if questions arose.
-Additionally, an up-to-date version of the content was available at all times online at <https://greenelab.github.io/covid19-review/>.
+Additionally, an up-to-date version of the content was available at all times online at <https://greenelab.github.io/covid19-review/> or as a pdf at <https://greenelab.github.io/covid19-review/manuscript.pdf>.
 This approach also allowed us to minimize the demand on authors to curate and sync bibliographic resources.
 Manubot provides the functionality to create a bibliography using digital object identifiers (DOIs), website URLs, or other identifiers such as PubMed identifiers and arXiv IDs.
 The author can insert a citation in-line using a format such as `[@doi:10.1371/journal.pcbi.1007128]`.
@@ -4988,7 +4989,7 @@ In addition, Manubot now supports citing clinical trial identifiers such as `cli
 
 ### CONCLUSION
 
-The current project was managed through GitHub in the repository greenelab/covid19-review using Manubot [@doi:10.1371/journal.pcbi.1007128] to continuously generate a version of the manuscript online (<https://greenelab.github.io/covid19-review>).
+The current project was managed through GitHub in the repository greenelab/covid19-review using Manubot [@doi:10.1371/journal.pcbi.1007128] to continuously generate a version of the manuscript online (<https://greenelab.github.io/covid19-review> or <https://greenelab.github.io/covid19-review/manuscript.pdf>).
 The Manubot framework facilitated a massive collaborative review on an urgent topic.
 This project demonstrates that Manubot can be applied to projects where not all collaborators have expertise or even experience working with version control pipelines.
 Through the development of cyberinfrastructure both for training novice users to interact with GitHub and simplifying the workflows to allow them to receive many of the benefits of What You See Is What You Get platforms such as Google Docs, we were able to adapt a powerful open publishing tool to harness the domain expertise of a large group of non-technical users and to respond to the flood of COVID-19 publications.
