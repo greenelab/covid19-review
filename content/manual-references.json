@@ -1423,7 +1423,8 @@
     {
       "family": "Bourouiba",
       "given": "L."
-    },
+    }
+  ],
   "issued": {
     "date-parts": [
       [
@@ -1458,3 +1459,4 @@
     ]
   }
 }
+]
