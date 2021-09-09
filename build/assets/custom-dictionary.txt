@@ -1164,6 +1164,7 @@ immunoregulatory
 immunosorbent
 immunostimulants
 immunosuppressant
+immunosuppressants
 immunosuppression
 immunosuppressive
 inconclusivity
@@ -1389,6 +1390,7 @@ parainfluenza
 parenchyma
 parvoviruses
 passaged
+passaging
 pathogenesis
 pathogenicity
 pathologic
@@ -1402,6 +1404,7 @@ pfu
 phagocytosed
 phagocytosis
 pharmacodynamic
+pharmacologically
 pharmacovigilance
 phenotypes
 phenotypic
