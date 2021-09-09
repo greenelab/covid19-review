@@ -9,15 +9,52 @@ Regretfully, their live review https://greenelab.github.io/covid19-review/ could
 
 Further the linked repository https://github.com/greenelab/covid19-review/tree/e5a4e3ce43f493c0c913ae647951488b89345106/output did not contain manuscript.pdf which would have allowed for a possibly smooth read (or more specifically: the link in the readme file would point to a file that would not be publicly visible) ; I thus strongly recommend prior acceptance that https://greenelab.github.io/covid19-review/ will be extended to allow users a download of the composite pdf without any need to scroll or recompile (and wait seconds/minutes for text to appear when advancing the screen at https://greenelab.github.io/covid19-review).
 
+**
+References to the .pdf location have been added to the manuscript and the README.
+**
+
 The main contributors to the automated review seem to have been people that also contribute as authors to the current submission, or are otherwise affiliated with them. For others planning community efforts, it could be useful if the authors shared an extended discussion on where they faced obstacles - and success - in the recruitment of contributors, and how they see their mobilization efforts to compare to other groups which try to build and promote community around COVID-19 literature (e.g.: subdivision of preLights). Additionally, none of the most frequent contributors appear to include a medical doctor from pulmonary medicine – suggesting that some interesting potential community members have not been attracted.
+
+**
+The challenges associated witht his project fall into two three groups: content contribution, technical or methodological contribution, and project management.
+The first set of tasks primarily attracted indiviudals from a variety of biological fields who have contributed content on their specific areas of expertise.
+Some of these contributors have been involved only in a single section of a single manuscript, while others have brought their perspective to many sections across many manuscripts.
+This contribution is dependent on the individual's interest in and availability for this project over the past 1.5 years.
+The second category applies to most of the named authors of the current manuscript, who have worked mainly behind the scenes to promote rigorous evaluation of the literature and to develop the computational infrastructure needed to support the project.
+The task of project management has fallen mainly to the first and last authors of the current manuscript.
+These authors are biological data scientists, and thus they contribute content or techncial additions as needed.
+
+The COVID-19 pandemic presented unique challenges -- we had the most engagement during the initial phase of lockdown, when many biologists were unable to access their labs.
+As labs have opened back up, we have seen a smaller set of regular contributors.
+Additionally, it has been very difficult (as the reviewer notes) to recruit MDs, likely in part due to the fact that this effort is taking place at a time when the medical field is in an "all hands on deck" mode of operation.
+<!--To Do: add a summary of these challenges to the discussion?-->
+**
 
 Presently the user-interface for the construction of the review is provided by git/github. As the authors note, this could deter some contributors. Would there be ways to create a simple user interface that appeals to target contributors?
 
+**
+Increasing the accessibility of this tool is a long-term goal of the authors, and this is a comment we will take into consideration as we continue to develop resources for Manubot.
+**
+
 Reading the automated review, it seems to aggregate information, rather than to synthesize and condense the literature – which is a role of reviews that has been noted by others before (e.g.: in “Laboratory Life” by Latour and Woolgar). Therefore, it would be interesting to learn more about the author’s intended target audience and usage scenarios – and whether the work that they created would be even something new aside from “reviews” or “literature surveys”.
+
+**
+While originally the review read as a series of summaries/critiques of individual papers, the second phase of the project (during 2021) has focused on consolidating each topic into a more traditional synthesis.
+This shift is apparent in the difference between the pharmaceuticals appendix (content/21.pharmaceuticals-app.md) compared to the primary pharmaceuticals text (content/20.pharmaceuticals.md), which offers a more zoomed-out view of ongoing research in therapeutics.
+**
 
 Though thinkable given their technical solution for the back-end, the option for personalized reviews appears absent in the discussion.
 
+**
+The following sentence has been added to the discussion: "The licensing and infrastructure also provide an opportunity for individuals to adapt from this project to create their own snapshots of the COVID-19 literature that derive from, but are not wholly identical to, the primary versions of these reviews."
+**
+
 For their data-integration on clinical trials, they could possibly use the integration provided by dimensions.ai to save redundant work on their end.
+
+**
+Thank you for pointing us to this resource.
+In the present case, we used a resource that had already aggregated information from COVID-19 clinical trials, reducing the need for data cleaning on our end, but this is a very interesting resource to consider for future developments.<!--See specifically https://api-lab.dimensions.ai/cookbooks/4-clinical-trials/Clinical_Trials_by_Volume_of_Pubs.html-->
+**
 
 # Review 2
 
