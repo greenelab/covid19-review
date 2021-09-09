@@ -96,6 +96,7 @@ header-includes: |-
   <meta name="citation_author_orcid" content="0000-0002-4859-0033" />
   <meta name="citation_author" content="Simina M. Boca" />
   <meta name="citation_author_institution" content="Innovation Center for Biomedical Informatics, Georgetown University Medical Center, Washington, District of Columbia, United States of America" />
+  <meta name="citation_author_institution" content="Early Biometrics &amp; Statistical Innovation, Data Science &amp; Artificial Intelligence, R &amp; D, AstraZeneca, Gaithersburg, Maryland, United States of America" />
   <meta name="citation_author_orcid" content="0000-0002-1400-3398" />
   <meta name="citation_author" content="Nils Wellhausen" />
   <meta name="citation_author_institution" content="Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America" />
@@ -278,13 +279,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/c12ca43f71e8b4344c7875bc4e7b4077bd365d4d/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/c12ca43f71e8b4344c7875bc4e7b4077bd365d4d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/c12ca43f71e8b4344c7875bc4e7b4077bd365d4d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/98c01d4be54ab4bf9bd477e2140f70587d9f9a82/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/98c01d4be54ab4bf9bd477e2140f70587d9f9a82/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/98c01d4be54ab4bf9bd477e2140f70587d9f9a82/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/c12ca43f71e8b4344c7875bc4e7b4077bd365d4d/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/c12ca43f71e8b4344c7875bc4e7b4077bd365d4d/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/98c01d4be54ab4bf9bd477e2140f70587d9f9a82/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/98c01d4be54ab4bf9bd477e2140f70587d9f9a82/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -306,9 +307,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/c12ca43f71e8b4344c7875bc4e7b4077bd365d4d/))
+([permalink](https://greenelab.github.io/covid19-review/v/98c01d4be54ab4bf9bd477e2140f70587d9f9a82/))
 was automatically generated
-from [greenelab/covid19-review@c12ca43](https://github.com/greenelab/covid19-review/tree/c12ca43f71e8b4344c7875bc4e7b4077bd365d4d)
+from [greenelab/covid19-review@98c01d4](https://github.com/greenelab/covid19-review/tree/98c01d4be54ab4bf9bd477e2140f70587d9f9a82)
 on September 9, 2021.
 Snapshots of individual sections have been published [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals].
 </em></small>
@@ -355,7 +356,7 @@ Instead, you should collect information from your local health department, the [
     [0000-0002-1400-3398](https://orcid.org/0000-0002-1400-3398) · ![GitHub icon](images/github.svg){.inline_icon}
     [SiminaB](https://github.com/SiminaB)<br>
   <small>
-     Innovation Center for Biomedical Informatics, Georgetown University Medical Center, Washington, District of Columbia, United States of America
+     Innovation Center for Biomedical Informatics, Georgetown University Medical Center, Washington, District of Columbia, United States of America; Early Biometrics & Statistical Innovation, Data Science & Artificial Intelligence, R & D, AstraZeneca, Gaithersburg, Maryland, United States of America
   </small>
 
 + **Nils Wellhausen**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
@@ -5041,7 +5042,7 @@ While Manubot is a technologically complex tool, this project demonstrates that 
 |Halie M. Rando|None|2021-01-20|
 |Casey S. Greene|None|2021-01-20|
 |Michael P. Robson|None|2020-11-12|
-|Simina M. Boca|Currently an employee and minor share holder at AstraZeneca, Gaithersburg, MD, USA.|2021-07-01|
+|Simina M. Boca|Currently an employee at AstraZeneca, Gaithersburg, MD, USA, may own stock or stock options. Work initially conducted at Georgetown University Medical Center with writing, reviewing, and editing continued while working at AstraZeneca.|2021-07-01|
 |Nils Wellhausen|None|2020-11-03|
 |Ronan Lordan|None|2020-11-03|
 |Christian Brueffer|Employee and shareholder of SAGA Diagnostics AB.|2020-11-11|

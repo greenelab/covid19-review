@@ -101781,7 +101781,7 @@
     "id": "DQmAgN0V",
     "type": "webpage",
     "title": "Bloomberg - Are you a robot?",
-    "URL": "https://www.bloomberg.com/tosv2.html?vid=&uuid=ca0dea8b-116f-11ec-bbf9-6d776c67765a&url=L2dyYXBoaWNzL2NvdmlkLXZhY2NpbmUtdHJhY2tlci1nbG9iYWwtZGlzdHJpYnV0aW9u",
+    "URL": "https://www.bloomberg.com/tosv2.html?vid=&uuid=f35d0cfe-1186-11ec-91e0-5a6948436941&url=L2dyYXBoaWNzL2NvdmlkLXZhY2NpbmUtdHJhY2tlci1nbG9iYWwtZGlzdHJpYnV0aW9u",
     "accessed": {
       "date-parts": [
         [
@@ -101797,7 +101797,7 @@
     "id": "uvQMgFXB",
     "type": "webpage",
     "title": "Bloomberg - Are you a robot?",
-    "URL": "https://www.bloomberg.com/tosv2.html?vid=&uuid=ca25d9e8-116f-11ec-b954-74674d794a4f&url=L25ld3MvYXJ0aWNsZXMvMjAyMC0xMi0wMi93aXRoaW4taG91cnMtb2YtdS1rLXB1dGluLW9yZGVycy1zdGFydC1vZi1tYXNzLWNvdmlkLTE5LXNob3Rz",
+    "URL": "https://www.bloomberg.com/tosv2.html?vid=&uuid=f3737125-1186-11ec-a1b9-4c6371475176&url=L25ld3MvYXJ0aWNsZXMvMjAyMC0xMi0wMi93aXRoaW4taG91cnMtb2YtdS1rLXB1dGluLW9yZGVycy1zdGFydC1vZi1tYXNzLWNvdmlkLTE5LXNob3Rz",
     "accessed": {
       "date-parts": [
         [
@@ -103121,8 +103121,8 @@
       "date-parts": [
         [
           "2021",
-          8,
-          30
+          9,
+          9
         ]
       ]
     },
@@ -104884,7 +104884,7 @@
   {
     "id": "dfl5iCJI",
     "type": "article-newspaper",
-    "abstract": "More than 5.56 billion vaccine doses have been administered worldwide, equal to 72 doses for every 100 people.",
+    "abstract": "More than 5.6 billion vaccine doses have been administered worldwide, equal to 73 doses for every 100 people.",
     "container-title": "The New York Times",
     "ISSN": "0362-4331",
     "language": "en-US",
@@ -105265,7 +105265,7 @@
     "abstract": "Russia on Saturday approved a third coronavirus vaccine for domestic use, Prime Minister Mikhail Mishustin said on state TV, though large-scale clinical trials of the shot, labelled CoviVac and produced by the Chumakov Centre, have yet to begin.",
     "container-title": "Reuters",
     "language": "en",
-    "section": "Healthcare & Pharmaceuticals",
+    "section": "Healthcare & Pharma",
     "source": "www.reuters.com",
     "title": "Russia approves its third COVID-19 vaccine, CoviVac",
     "URL": "https://www.reuters.com/article/us-health-coronavirus-russia-vaccine-idUSKBN2AK07H",
