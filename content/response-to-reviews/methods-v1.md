@@ -173,6 +173,6 @@ The following sentence has been added to the section "Contributor Recruitment an
 
     Consider using footnotes for URLs.
 **
-To Do: Address in LaTeX formatting.
+This change has been made.
 **
 
