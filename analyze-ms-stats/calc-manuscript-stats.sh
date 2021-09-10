@@ -1,3 +1,6 @@
+#!/bin/bash
+set -e
+
 # Calculate growth statistics for manuscript based on Manubot files
 
 # Generate list of all commits in history of output branch
