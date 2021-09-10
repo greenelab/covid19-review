@@ -14,7 +14,7 @@ OUTPUT_FIG=content/images/manuscript_stats
 OUTPUT_TABLE=analyze-ms-stats/commitData.csv
 
 # Run python script
-echo "Run python script"
+echo "Run python script to analyze manuscript growth"
 python analyze-ms-stats/calc-manuscript-stats.py $COMMIT_LIST $OUTPUT_JSON $OUTPUT_FIG $OUTPUT_TABLE
 
 # Clean up temporary files
