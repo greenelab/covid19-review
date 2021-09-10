@@ -37,8 +37,7 @@ def analyze_commit(commit):
 def main(args):
     '''Extract statistics from the output branch log'''
 
-    start_time = time.time()
-    print(f"Using {multiprocessing.cpu_count()} CPUs")
+    print("Using {0} CPUs".format(multiprocessing.cpu_count()))
 
     # Read in list of all commits on this branch
     with open(args.commit_list, "r") as commitFile:
@@ -56,7 +55,7 @@ def main(args):
         if len(commits) > len(oldCommits):
             start_old = commits.index(oldCommits[0])
             commits = commits[:start_old]
-            print(f"{len(commits)} new commits")
+            print("{0} new commits".format(len(commits)))
         else:
             exit("No new commits")
 
@@ -79,7 +78,7 @@ def main(args):
 
     # Cache commit data for future updates
     growthData.to_csv(args.output_table, index_label="commit")
-    print(f'Wrote {args.output_table}')
+    print('Wrote {}'.format(args.output_table))
 
     # Prepare data to graph
     graphData = growthData.set_index("Date")
@@ -100,7 +99,7 @@ def main(args):
     ax.figure.savefig(args.output_figure + '.png', dpi=300, bbox_inches="tight")
     ax.figure.savefig(args.output_figure + '.svg', bbox_inches="tight")
 
-    print(f'Wrote {args.output_figure}.png and {args.output_figure}.svg')
+    print('Wrote {0}.png and {1}.svg'.format(args.output_figure, args.output_figure))
 
     # Write json output file
     manuscript_stats = commitData[commits[0]]
@@ -108,7 +107,7 @@ def main(args):
         manuscript_stats[item] = str(manuscript_stats[item])
     with open(args.output_json, 'w') as out_file:
         json.dump(manuscript_stats, out_file, indent=2, sort_keys=True)
-    print(f'Wrote {args.output_json}')
+    print('Wrote {0}'.format(args.output_json))
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
