@@ -73,10 +73,8 @@ def main(args):
                                "stats_num_authors": "Authors",
                                "stats_num_words": "Word Count",
                                "stats_num_references": "References"})
-    print(growthData)
     # Append onto table of previous commit data, if this exists
     if priorData is not None:
-        print("add to prior data")
         growthData = growthData.append(priorData)
 
     # Cache commit data for future updates
@@ -111,9 +109,6 @@ def main(args):
     with open(args.output_json, 'w') as out_file:
         json.dump(manuscript_stats, out_file, indent=2, sort_keys=True)
     print(f'Wrote {args.output_json}')
-
-    print("Time:", time.time() - start_time)
-
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
