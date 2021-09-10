@@ -140,8 +140,10 @@ Other remarks and questions
 <!-- To Do: Halie is unsure how to address this one, needs to think on it.-->
 
     An itemized list of changes made to Manubot would be helpful (this is explained in the text already, but a list provides a better overview).
-<!-- To Do: Spot to add this is now marked inline, need to add the actual table.-->
 
+**
+The suggested list is now included as Table 1.
+**
     The selection of participants could be biased towards people that are interested in technology already, otherwise they would not have participated in the first place. This should be mentioned as limitation.
 
 **
