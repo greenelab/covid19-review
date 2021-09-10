@@ -5,7 +5,7 @@ set -e
 
 # Generate list of all commits in history of output branch
 echo "Generate log for output branch"
-git log --pretty=format:"%h" --first-parent upstream/output > analyze-ms-stats/output-commits.txt
+git log --pretty=format:"%h" --first-parent output > analyze-ms-stats/output-commits.txt
 
 # Define input and output files
 COMMIT_LIST=analyze-ms-stats/output-commits.txt
