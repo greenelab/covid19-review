@@ -114,7 +114,7 @@ if __name__ == '__main__':
         description=__doc__,
         formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument('commit_list',
-                        help='List of all commits on output branch, one per line',
+                        help='File containing a list of all commits on output branch, one per line',
                         type=str)
     parser.add_argument('output_json',
                         help='Path of the JSON file with extracted statistics',
