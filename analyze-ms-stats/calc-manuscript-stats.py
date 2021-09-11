@@ -11,9 +11,8 @@ def analyze_commit(commit):
     """Access files and data in variables.json associated with each commit
     Accepts commit ID as string
     Returns list of 5 statistics"""
-
+    variablesCommand = "git show " + commit + ":./variables.json"
     try:
-        variablesCommand = "git show " + commit + ":./variables.json"
         variables = json.loads(subprocess.getoutput(variablesCommand))
     except json.decoder.JSONDecodeError:
         exit(commit + " not found")
@@ -25,7 +24,10 @@ def analyze_commit(commit):
 
     # Access files and data in references.json associated with each commit
     referencesCommand = "git show " + commit + ":./references.json"
-    references = json.loads(subprocess.getoutput(referencesCommand))
+    try:
+        references = json.loads(subprocess.getoutput(referencesCommand))
+    except json.decoder.JSONDecodeError:
+        exit(commit + "not found")
     num_ref = len(references)
 
     return ({"stats_date": date,
