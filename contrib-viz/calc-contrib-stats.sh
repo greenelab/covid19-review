@@ -10,4 +10,4 @@ jupyter nbconvert --to notebook --execute --ExecutePreprocessor.kernel_name=ir -
 jupyter nbconvert --to notebook --execute --ExecutePreprocessor.kernel_name=python3 --output output.ipynb contrib-viz/03.contrib-stats.ipynb
 
 # Remove temporary files
-rm contrib-viz/commits.tsv contrib-viz/contributors.tsv
+rm contrib-viz/commits.tsv contrib-viz/contributors.tsv output.ipynb
