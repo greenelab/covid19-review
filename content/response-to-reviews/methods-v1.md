@@ -132,8 +132,15 @@ Other remarks and questions
 
     A comparison with other manuscript authoring approaches and tools would be interesting. Why was Manubot selected in the first place? Are there any alternatives available that do not require technical skills, but still have support for versioning and collaborative authoring? How would this approach compare to using a Wiki system for authoring? Using Manubot was taken for granted without a justification.
 
-<!-- To Do: Tony worked on this in #1033.-->
-
+**
+An analysis of the advantages of Manubot for this project has been added to the introduction.
+It reads: We selected Manubot because it offers several advantages over comparable collaborative writing platforms such as Authorea, Overleaf, Google Docs, Word Online, or wikis [@doi:10.1371/journal.pcbi.1007128].
+Citation-by-identifier ensures consistent reference metadata standards that would be difficult to maintain manually in a manuscript with dozens of authors and over 1,500 citations.
+Manubot's pull request-based contribution model balances the goals of making the project open to everyone and maintaining scientific accuracy.
+All contributions are reviewed, discussed, and formally approved on GitHub before text updates appear in the public-facing manuscript^[https://greenelab.github.io/covid19-review].
+Continuous integration (CI) seamlessly combines author-produced text and figures with automatically generated and updated statistics and figures from external data sources and the manuscript's own content.
+In addition, the authors who initially launched this project included Manubot developers who had prior successes using Manubot for massively open and traditional manuscript, such as a large-scale collaborative efforts such as a review of developments in deep learning [@doi:10.1098/rsif.2017.0387] and a re-evaluation of the role of authorship in modern collaborations [@doi:10.1080/08989621.2020.1779591].
+**
     An itemized list of changes made to Manubot would be helpful (this is explained in the text already, but a list provides a better overview).
 
 **
