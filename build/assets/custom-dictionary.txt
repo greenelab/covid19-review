@@ -41,6 +41,7 @@ Arbidol
 Ashwin
 Assaf
 AstraZeneca
+Authorea
 Avigan
 Aydinlar
 BAL
@@ -548,6 +549,7 @@ PPV
 PRKCD
 PRNT
 PRRs
+PRs
 PUFA
 PUFAs
 PUMC
@@ -776,6 +778,7 @@ acknowledgements
 actin
 adamlmaclean
 adaptor
+addons
 adeno
 adenocarcinomic
 adenosine
@@ -824,6 +827,7 @@ arrhythmias
 ascendency
 aspartate
 asymptomatically
+asynchrony
 atazanavir
 autophagy
 avascular
