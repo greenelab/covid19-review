@@ -2,5 +2,8 @@ content/22.vaccines.md:21:devleopment
 content/22.vaccines.md:74:appraoches
 content/23.vaccines-app.md:15:IgGs
 content/23.vaccines-app.md:387:IgGs
-content/60.methods.md:297:asynchronicity
-content/60.methods.md:306:inclusivity
+content/60.methods.md:199:projectdots
+content/60.methods.md:205:summarization
+content/60.methods.md:206:projectdots
+content/60.methods.md:296:asynchronicity
+content/60.methods.md:305:inclusivity
