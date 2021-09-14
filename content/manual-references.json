@@ -1458,5 +1458,32 @@
       ]
     ]
   }
+},
+{
+  "id": "isbn:9780781774260",
+  "type": "book",
+  "call-number": "R118.6 .R54 2013",
+  "edition": "6th ed",
+  "event-place": "Philadelphia",
+  "ISBN": "9780781774260",
+  "number-of-pages": "338",
+  "publisher": "Wolters Kluwer/Lippincott Williams & Wilkins Heath",
+  "publisher-place": "Philadelphia",
+  "source": "Library of Congress ISBN",
+  "title": "Studying a study & testing a test: reading evidence-based health research",
+  "title-short": "Studying a study & testing a test",
+  "author": [
+    {
+      "family": "Riegelman",
+      "given": "Richard K."
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        "2013"
+      ]
+    ]
+  }
 }
 ]
