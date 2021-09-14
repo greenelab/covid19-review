@@ -1,5 +1,7 @@
 appraoches
+asynchronicity
 Biometrics
 devleopment
 IgGs
+inclusivity
 TBD
