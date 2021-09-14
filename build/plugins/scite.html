@@ -34,14 +34,14 @@
     // wait until citation in view to add badge
     new IntersectionObserver(([{ isIntersecting }], observer) => {
       if (isIntersecting) {
-        makeBadge(citation);
+        makeBadge(citation, doi);
         observer.disconnect();
       }
     }).observe(citation);
   }
 
   // make badge by adding data attribute
-  function makeBadge(citation) {
+  function makeBadge(citation, doi) {
     // create cite badge and put after citation
     const badge = document.createElement("div");
     badge.classList.add("scite-badge");
