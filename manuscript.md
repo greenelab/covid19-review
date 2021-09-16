@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2021-09-14'
+date-meta: '2021-09-16'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -70,8 +70,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2021-09-14" />
-  <meta name="citation_publication_date" content="2021-09-14" />
+  <meta name="dc.date" content="2021-09-16" />
+  <meta name="citation_publication_date" content="2021-09-16" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -279,13 +279,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/0ca9e1a3926ed955805d4a57b5695e21ca684799/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/0ca9e1a3926ed955805d4a57b5695e21ca684799/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/0ca9e1a3926ed955805d4a57b5695e21ca684799/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/754a1b4dc1ee40623392eb94f5d83c00a9aa71a5/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/754a1b4dc1ee40623392eb94f5d83c00a9aa71a5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/754a1b4dc1ee40623392eb94f5d83c00a9aa71a5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/0ca9e1a3926ed955805d4a57b5695e21ca684799/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/0ca9e1a3926ed955805d4a57b5695e21ca684799/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/754a1b4dc1ee40623392eb94f5d83c00a9aa71a5/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/754a1b4dc1ee40623392eb94f5d83c00a9aa71a5/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -307,11 +307,11 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/0ca9e1a3926ed955805d4a57b5695e21ca684799/))
+([permalink](https://greenelab.github.io/covid19-review/v/754a1b4dc1ee40623392eb94f5d83c00a9aa71a5/))
 was automatically generated
-from [greenelab/covid19-review@0ca9e1a](https://github.com/greenelab/covid19-review/tree/0ca9e1a3926ed955805d4a57b5695e21ca684799)
-on September 14, 2021.
-It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/0ca9e1a3926ed955805d4a57b5695e21ca684799/manuscript.pdf).
+from [greenelab/covid19-review@754a1b4](https://github.com/greenelab/covid19-review/tree/754a1b4dc1ee40623392eb94f5d83c00a9aa71a5)
+on September 16, 2021.
+It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/754a1b4dc1ee40623392eb94f5d83c00a9aa71a5/manuscript.pdf).
 Snapshots of individual sections have been published [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals].
 </em></small>
 
