@@ -11,8 +11,6 @@ import wget
 def check_version(versionString, statsFile):
     """Check whether there are new updates to the CORD-19 dataset since the last time this script ran"""
     updateDate, updateSHA1 = versionString.split(".")
-    # Temporarily reuse local files
-    return "CORD-19/metadata.csv", "CORD-19/changelog.txt", updateDate, updateSHA1
     prevSHA1 = 'N/A'
     if os.path.isfile(statsFile):
         prevRunInfo = json.load(open(statsFile, "r"))

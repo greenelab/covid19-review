@@ -17,5 +17,5 @@ echo "Generating CORD-19 statistics and figure"
 python CORD-19/generate-cord19-stats.py $CORD19_VERSION $CORD19_STATS_JSON $CORD19_FIG
 
 # Clean up downloaded files
-#rm -f CORD-19/metadata.csv
-#rm -f CORD-19/changelog.txt
+rm -f CORD-19/metadata.csv
+rm -f CORD-19/changelog.txt
