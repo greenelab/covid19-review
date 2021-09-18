@@ -92,65 +92,38 @@ def main(args):
 
     # Plot the daily totals
     sns.set_style("ticks")
-    fig, axes = plt.subplots(nrows=2, ncols=2, figsize=(30, 20), constrained_layout=True)
+    fig, axes = plt.subplots(nrows=2, ncols=2, figsize=(35, 20))
     axes_list = axes.ravel()
+    axis_info = {"title": {0: 'Cumulative Global Cases', 1: 'Cumulative Global Deaths',
+                           2: 'Cumulative Global Cases (Zoomed)', 3: 'Cumulative Global Deaths (Zoomed)'},
+                 "y_label": {0: 'Global Cases', 1: 'Global Deaths',
+                             2: 'Global Cases', 3: 'Global Deaths'},
+                 "data": {0: daily_cases, 1: daily_deaths, 2: daily_cases, 3: daily_deaths}}
+    x_label = 'Days from First Known Case'
 
-    # Panel 1: Daily cases
-    ax = daily_cases.plot(kind='line', linewidth=2, ax=axes_list[0])
-    ax.set_xlabel('Days from First Known Case', size = axis_size)
-    ax.set_ylabel('Global Cases', size = axis_size)
-    ax.set_title("Cumulative Global Cases", fontdict = {'fontsize': title_size})
-    ax.tick_params(axis="both", labelsize=tic_label_size)
-    ax.legend(loc='lower right', fontsize = legend_size)
-    ax.get_yaxis().set_major_formatter(matplotlib.ticker.FuncFormatter(lambda x, p: format(int(x), ',')))
-    ax.set_ylim(bottom=0)
-    ax.spines['top'].set_visible(False)
-    ax.spines['right'].set_visible(False)
-    ax.minorticks_off()
-    ax.grid(color="lightgray")
+    for axis_num in [0, 1, 2, 3]:
+        ax = axis_info["data"][axis_num].plot(kind='line', linewidth=2, ax=axes_list[axis_num])
+        ax.set_title(axis_info["title"][axis_num], fontdict={'fontsize': title_size})
+        ax.legend(loc='lower right', fontsize=legend_size)
 
-    # Panel 3: Daily Deaths
-    ax = daily_deaths.plot(kind='line', linewidth=2, ax=axes_list[1])
-    ax.set_xlabel('Days from First Known Case', size = axis_size)
-    ax.set_ylabel('Global Deaths', size = axis_size)
-    ax.set_title("Cumulative Global Deaths", fontdict = {'fontsize': title_size})
-    ax.tick_params(axis="both", labelsize=tic_label_size)
-    ax.legend(loc='lower right', fontsize = legend_size)
-    ax.get_yaxis().set_major_formatter(matplotlib.ticker.FuncFormatter(lambda x, p: format(int(x), ',')))
-    ax.set_ylim(bottom=0)
-    ax.spines['top'].set_visible(False)
-    ax.spines['right'].set_visible(False)
-    ax.minorticks_off()
-    ax.grid(color="lightgray")
+        ax.tick_params(axis="both", labelsize=tic_label_size)
+        ax.spines['top'].set_visible(False)
+        ax.spines['right'].set_visible(False)
+        ax.minorticks_off()
+        ax.grid(color="lightgray")
 
-    # Panel 2: Zoomed in view of SARS cases
-    ax = daily_cases.plot(kind='line', linewidth=2, ax=axes_list[2])
-    ax.set_xlabel('Days from First Known Case', size = axis_size)
-    ax.set_ylabel('Global Cases', size = axis_size)
-    ax.set_title("Cumulative Global Cases (Zoomed)", fontdict = {'fontsize': title_size})
-    ax.tick_params(axis="both", labelsize=tic_label_size)
-    ax.legend(loc='lower right', fontsize = legend_size)
-    ax.get_yaxis().set_major_formatter(matplotlib.ticker.FuncFormatter(lambda x, p: format(int(x), ',')))
-    ax.set_ylim(bottom=0, top=10000)
-    ax.spines['top'].set_visible(False)
-    ax.spines['right'].set_visible(False)
-    ax.minorticks_off()
-    ax.grid(color="lightgray")
+        ax.set_ylabel(axis_info["y_label"][axis_num], size=axis_size)
+        ax.get_yaxis().set_major_formatter(matplotlib.ticker.FuncFormatter(lambda x, p: format(int(x), ',')))
+        if axis_num == 2 or axis_num == 3:
+            ax.set_ylim(bottom=0, top=10000)
+        else:
+            ax.set_ylim(bottom=0)
 
-    # Panel 4: Zoomed in view of SARS deaths
-    ax = daily_deaths.plot(kind='line', linewidth=2, ax=axes_list[3])
-    ax.set_xlabel('Days from First Known Case', size = axis_size)
-    ax.set_ylabel('Global Deaths', size = axis_size)
-    ax.set_title("Cumulative Global Deaths (Zoomed)", fontdict = {'fontsize': title_size})
-    ax.tick_params(axis="both", labelsize=tic_label_size)
-    ax.legend(loc='lower right', fontsize = legend_size)
-    ax.get_yaxis().set_major_formatter(matplotlib.ticker.FuncFormatter(lambda x, p: format(int(x), ',')))
-    ax.set_ylim(bottom=0, top=1000)
-    ax.spines['top'].set_visible(False)
-    ax.spines['right'].set_visible(False)
-    ax.minorticks_off()
-    ax.grid(color="lightgray")
+        ax.set_xlabel(x_label, size=axis_size, labelpad=20)
+        ax.get_xaxis().set_major_formatter(matplotlib.ticker.FuncFormatter(lambda x, p: format(int(x), ',')))
 
+    fig.subplots_adjust(hspace=0.3)
+    plt.setp([a.get_xticklabels() for a in fig.axes[:-1]], visible=True)
     ax.figure.savefig(args.output_figure + '.png', dpi=300, bbox_inches="tight")
     ax.figure.savefig(args.output_figure + '.svg', bbox_inches="tight")
 
