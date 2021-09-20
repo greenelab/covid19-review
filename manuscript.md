@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2021-09-16'
+date-meta: '2021-09-20'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -70,8 +70,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2021-09-16" />
-  <meta name="citation_publication_date" content="2021-09-16" />
+  <meta name="dc.date" content="2021-09-20" />
+  <meta name="citation_publication_date" content="2021-09-20" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -279,13 +279,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/754a1b4dc1ee40623392eb94f5d83c00a9aa71a5/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/754a1b4dc1ee40623392eb94f5d83c00a9aa71a5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/754a1b4dc1ee40623392eb94f5d83c00a9aa71a5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/23e6dec0476d374178b4c0ef75c14600e18739c1/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/23e6dec0476d374178b4c0ef75c14600e18739c1/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/23e6dec0476d374178b4c0ef75c14600e18739c1/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/754a1b4dc1ee40623392eb94f5d83c00a9aa71a5/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/754a1b4dc1ee40623392eb94f5d83c00a9aa71a5/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/23e6dec0476d374178b4c0ef75c14600e18739c1/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/23e6dec0476d374178b4c0ef75c14600e18739c1/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -307,11 +307,11 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/754a1b4dc1ee40623392eb94f5d83c00a9aa71a5/))
+([permalink](https://greenelab.github.io/covid19-review/v/23e6dec0476d374178b4c0ef75c14600e18739c1/))
 was automatically generated
-from [greenelab/covid19-review@754a1b4](https://github.com/greenelab/covid19-review/tree/754a1b4dc1ee40623392eb94f5d83c00a9aa71a5)
-on September 16, 2021.
-It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/754a1b4dc1ee40623392eb94f5d83c00a9aa71a5/manuscript.pdf).
+from [greenelab/covid19-review@23e6dec](https://github.com/greenelab/covid19-review/tree/23e6dec0476d374178b4c0ef75c14600e18739c1)
+on September 20, 2021.
+It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/23e6dec0476d374178b4c0ef75c14600e18739c1/manuscript.pdf).
 Snapshots of individual sections have been published [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals].
 </em></small>
 
@@ -796,7 +796,7 @@ Genome organization is highly conserved within the order [@doi:10.1007/978-1-493
 There are three major genomic regions: one containing the replicase gene, one containing the genes encoding structural proteins, and interspersed accessory genes [@doi:10.1007/978-1-4939-2438-7_1] (Figure @fig:genome-structure).
 The replicase gene comprises about two-thirds of the genome and consists of two open reading frames that are translated with ribosomal frameshifting [@doi:10.1007/978-1-4939-2438-7_1].
 This polypeptide is then translated into 16 non-structural proteins (nsp), except in gammacoronaviruses where nsp1 is absent, that form the replication machinery used to synthesize viral RNA [@doi:10.1002/jmv.25681].
-The remaining third of the genome encodes structural proteins, including the spike, membrane, envelope, and nucleocapsid proteins.
+The remaining third of the genome encodes structural proteins, including the spike (S), membrane, envelope, and nucleocapsid proteins.
 Additional accessory genes are sometimes present between these two regions, depending on the species or strain.
 Much attention has been focused on the S protein, which is a critical structure involved in cell entry.
 
@@ -1917,14 +1917,14 @@ The scale of the COVID-19 pandemic has made the repurposing and development of p
 
 ![
 **Cumulative global incidence of COVID-19 and SARS.**
-As of September 11, 2021, 224,292,807 COVID-19 cases and 4,625,123 COVID-19 deaths had been reported worldwide since January 22, 2020.
+As of September 18, 2021, 228,182,335 COVID-19 cases and 4,685,838 COVID-19 deaths had been reported worldwide since January 22, 2020.
 A total of 8,432 cases and 813 deaths were reported for SARS from March 17 to July 11, 2003.
 SARS-CoV-1 was officially contained on July 5, 2003, within 9 months of its appearance [@doi:10.3390/ijerph17113973].
 In contrast, SARS-CoV-2 remains a significant global threat nearly two years after its emergence.
 COVID-19 data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series; @doi:10/ggnsjk].
 SARS data are from the WHO [@url:https://www.who.int/csr/sars/country/en] and were obtained from a dataset on GitHub [@url:https://github.com/imdevskp/sars-2003-outbreak-data-webscraping-code].
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/f58d28aea1baf80d3f1ab7a881b3c53b74e59213/csse/csse-deaths.png "Global incidence of COVID-19 and SARS"){#fig:csse-deaths secno=1}
+](https://github.com/greenelab/covid19-review/raw/2edda485e56f644bfb01ab069726e9833fcfd9be/csse/csse-deaths.png "Global incidence of COVID-19 and SARS"){#fig:csse-deaths secno=1}
 
 At first, SARS-CoV-2's rapid shift from an unknown virus to a significant worldwide threat closely paralleled the emergence of _Severe acute respiratory syndrome-related coronavirus_ (SARS-CoV-1), which was responsible for the 2002-03 SARS epidemic.
 The first documented case of COVID-19 was reported in Wuhan, China in November 2019, and the disease quickly spread worldwide in the early months of 2020.
@@ -1981,7 +1981,7 @@ Recruitment status and trial phase are shown only for interventional trials in w
 Common interventions refers to interventions used in at least ten trials.
 Combinations of interventions, such as hydroxychloroquine with azithromycin, are tallied separately from the individual interventions.
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/f58d28aea1baf80d3f1ab7a881b3c53b74e59213/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/2edda485e56f644bfb01ab069726e9833fcfd9be/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 The purpose of this review is to provide an evolving resource tracking the status of efforts to repurpose and develop drugs for the treatment of COVID-19.
 We highlight four strategies that provide different paradigms for the identification of potential pharmaceutical treatments.
@@ -2168,7 +2168,6 @@ During the COVID-19 pandemic, a number of candidate therapeutics have been explo
 Knowledge gained from trying to understand SARS-CoV-1 and MERS-CoV from a fundamental biological perspective and characterize how they interact with the human immune system provides a theoretical basis for identifying candidate therapies.
 Biologics are a particularly important class of drugs for efforts to address HCoV through this paradigm.
 They are produced from components of living organisms or viruses, historically primarily from animal tissues, but have become increasingly feasible to produce as recombinant technologies have advanced  [@doi:10.1016/j.copbio.2009.10.006].
-Biologics have become increasingly feasible to produce as recombinant DNA technologies have advanced [@doi:10.1016/j.copbio.2009.10.006].
 
 There are many differences on the development side between biologics and synthesized pharmaceuticals, such as small molecule drugs.
 Typically, biologics are orders of magnitude larger than small molecule drugs and are catabolized by the body to their amino acid components [@doi:10.2174/138920006774832604].
@@ -3050,7 +3049,7 @@ Vaccine development began almost five centuries ago, but the SARS-CoV-2 pandemic
 ### Importance
 
 The SARS-CoV-2 pandemic has caused untold damage to the global population, but it also presented some unique opportunities for vaccine development.
-As of September 11, 2021, SARS-CoV-2 has infected over 224,292,807 and cost the lives of 4,625,123 people globally.
+As of September 18, 2021, SARS-CoV-2 has infected over 228,182,335 and cost the lives of 4,685,838 people globally.
 The development, production, and distribution of vaccines is imperative to saving lives, preventing illness, and reducing the economic and social burdens caused by the COVID-19 pandemic.
 Now that promising candidates exist, effective deployment will provide an opportunity to move into a new phase of the pandemic where the susceptibility of worldwide populations is significantly reduced.
 This review provides a historical context for vaccine devleopment and highlights the main strategies utilized for the development of the COVID-19 vaccines, their clinical appraisal, and their distribution.
@@ -4703,7 +4702,7 @@ Trials that recruit across multiple countries do appear to broaden geographic re
 The density of clinical trials is reported at the country level.
 As of December 31, 2020, there are 6,987 trials in the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709], of which 3,962 are interventional.
 The top figure demonstrates the density of interventional trials recruiting only from a singular country, while the bottom shows the distribution of recruitment for interventional trials that involve more than one country.
-](https://github.com/greenelab/covid19-review/raw/f58d28aea1baf80d3f1ab7a881b3c53b74e59213/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
+](https://github.com/greenelab/covid19-review/raw/2edda485e56f644bfb01ab069726e9833fcfd9be/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
 
 A few different concerns arise from this skewed geographic representation in clinical trial recruitment.
 First, treatments such as remdesivir that are promising but primarily available to clinical trial participants are unlikely to be accessible by people in many countries.
@@ -4822,7 +4821,7 @@ The first release, on March 16, 2020, contained 28,000 manuscripts on topics rel
 Since then, these articles have continued to proliferate (left), with both traditionally published and preprint manuscripts in the corpus (right).
 At present, it contains 30726 preprints from _arXiv_, _bioRxiv_, and _medRxiv_.
 While not all of the manuscripts are focused explicitly on SARS-CoV-2 or COVID-19, this corpus is likely to contain all or most manuscripts relevant to writing a literature review, which requires assessing both emerging and prior research.
-](https://github.com/greenelab/covid19-review/raw/7124aaa810d3884fb4cce0fc75a6e86e454f5941/CORD-19/cord19-growth.png "CORD-19 dataset growth"){#fig:cord19-growth secno=1}
+](https://github.com/greenelab/covid19-review/raw/12a5aa2d4c27ff5354552bab9a22a3ae9de12568/CORD-19/cord19-growth.png "CORD-19 dataset growth"){#fig:cord19-growth secno=1}
 
 With information being produced rapidly through both traditional publishing venues and preprint servers, some papers that are published face scrutiny after their initial release.
 Concerns have been raised that the number of COVID-19 papers being retracted may be higher, and potentially much higher, than is typical, although a thorough investigation of this question will not be possible until more time has elapsed [@doi:10.1080/08989621.2020.1782203; @doi:10.1080/08989621.2020.1793675].
