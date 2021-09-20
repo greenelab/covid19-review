@@ -30,6 +30,7 @@ authors:
       lastapproved: !!str 2021-01-20
     funders:
       - the Gordon and Betty Moore Foundation (GBMF 4552)
+      - the National Human Genome Research Institute (R01 HG010067)
     manuscripts:
       pathogenesis:
         order: 1
@@ -703,6 +704,7 @@ authors:
         contributions:
           - Writing - Original Draft
           - Software
+          - Visualization
         affiliations:
           - institution: University of Colorado School of Medicine
             department: Center for Health AI
