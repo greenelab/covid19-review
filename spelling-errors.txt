@@ -1,9 +1,5 @@
 appraoches
-asynchronicity
 Biometrics
 devleopment
 IgGs
-inclusivity
-projectdots
-summarization
 TBD
