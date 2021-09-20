@@ -97,12 +97,11 @@ def main(args):
     most_recent_update = most_recent_update.strftime('%Y-%m-%d').replace(' 0', ' ')
     cord19_stats['cord19_date_pretty'] = most_recent_update
 
-    plt.rc('font', size=14)
-    plt.rc('figure', titlesize=24)
-    fig, axes = plt.subplots(nrows=1, ncols=2, figsize=(20, 12), constrained_layout=True)
+    plt.rc('font', size=24)
+    fig, axes = plt.subplots(nrows=2, ncols=1, figsize=(12, 12), constrained_layout=True, sharex=True)
 
     # Plot total number of manuscripts in CORD-19
-    ax = corpus_stats.plot(kind='line', linewidth=3, ax=axes[0])
+    ax = corpus_stats.plot(kind='line', linewidth=5, ax=axes[0])
     ax.get_legend().remove()
     ax.set_ylabel('Total manuscripts')
     ax.get_yaxis().set_major_formatter(matplotlib.ticker.FuncFormatter(lambda x, p: format(int(x), ',')))
@@ -113,7 +112,7 @@ def main(args):
     ax.grid(color="lightgray")
 
     # Plot breakdown of preprints, one line for each item in preprint_sources
-    ax = preprint_df.plot(kind='line', linewidth=3, ax=axes[1])
+    ax = preprint_df.plot(kind='line', linewidth=5, ax=axes[1])
     ax.set_ylabel('Preprints')
     ax.get_yaxis().set_major_formatter(matplotlib.ticker.FuncFormatter(lambda x, p: format(int(x), ',')))
     ax.set_ylim(bottom=0)
