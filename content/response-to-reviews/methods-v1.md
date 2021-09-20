@@ -11,6 +11,7 @@ Further the linked repository https://github.com/greenelab/covid19-review/tree/e
 
 **
 References to the .pdf location have been added to the manuscript and the README.
+We are also exploring ways to collapse the references and appendices so that the HTML rendering is faster.
 **
 
 The main contributors to the automated review seem to have been people that also contribute as authors to the current submission, or are otherwise affiliated with them. For others planning community efforts, it could be useful if the authors shared an extended discussion on where they faced obstacles - and success - in the recruitment of contributors, and how they see their mobilization efforts to compare to other groups which try to build and promote community around COVID-19 literature (e.g.: subdivision of preLights). Additionally, none of the most frequent contributors appear to include a medical doctor from pulmonary medicine – suggesting that some interesting potential community members have not been attracted.
@@ -78,7 +79,8 @@ We also added a description of the established programs as "more formal" approac
 (2) Figure 3 has no associated narratives in the paper.
 
 **
-<!--To do: this is because we were pasting it in at the Overleaf stage, need to get the PR merged so it can be added in the normal way.-->
+We now note how this figure demonstrates how some contributors remained engaged in the project for the long term.
+"Though only a fraction of potential contributors contributed to the text included in the manuscripts (Figure 2), many contributors remained engaged over the long term (Figure 3)."
 **
 
 (3) It is not very clear to me how the knowledge synthesis and updating process take place. I only know how the summary statistics and figures were handled (“To address this concern, Manubot and GitHub’s CI features were used to create figures that integrated online data sources to respond to changes in the COVID-19 pandemic over time.”). How about the narratives?
@@ -99,7 +101,10 @@ A paragraph describing this limitation has been added to the discussion.
     The spelling checking function (page 4-5) is not particularly interesting and doesn’t worth so much space.
     The emphasis that researchers in the biomedical domain are not particularly familiar with Git/GitHub. I understand it’s a major concern for the authors. Still, I don’t think this factor should take a front seat (e.g., mentioned at the very beginning of section 2.1) over other matters and be mentioned in several different places of the paper. I suggest pulling all materials about familiarizing users with GitHub into one section, including the concerns and solutions (e.g., training materials, easy tasks such as pull requests for beginners, using Gitter.im).
 
-<!-- To Do: revisit if we need more space-->
+**
+We retained some of the technical detail in order to properly credit the third-party software that Manubot uses for these steps.
+We removed the clinical trials figure and word cloud figure to create additional space.
+**
 
 # Review 3
 
@@ -161,12 +166,13 @@ It was then subdivided into pharmaceuticals and nutraceuticals.
 The pharmaceuticals section was then further subdivided into pharmaceutical therapeutics and vaccines.
 Keeping all of the text in a single repository has allowed for the flexibility to split and lump sections as more information becomes available.
 It also cuts down on potential confusion for both project managers and contributors by keeping everything centralized (e.g., all of the issues are in one place, a single search can reveal merged PRs that touched on a topic of interest, etc.)
+We added a sentence to the text to note the desire to keep all GitHub discussion centralized in a single repository.
 **
 
     When does a contributor become an author of a paper? For example, fixing a typo is presumably not enough to be considered a paper author?
 
 **
-The following sentence has been added to the section "Contributor Recruitment and Roles": "Authorship was determined based on CRediT [@url:https://casrai.org/credit]."
+The following sentence has been added to the section "Contributor Recruitment and Roles": "Authorship was determined based on Contributor Roles Taxonomy (<https://casrai.org/credit>)."
 **
 
     Figure 5 does not seem to visualize the interests that are mention in the text and figure caption. Maybe the wrong figure is used here?
