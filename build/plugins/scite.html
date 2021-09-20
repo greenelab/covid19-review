@@ -52,6 +52,14 @@
     // modify preceding citation <p> element
     const p = citation.querySelector("p");
     if (p) p.style.marginBottom = "0";
+    // have scite scan for new badges
+    window.__SCITE
+      .insertBadges()
+      .then(() =>
+        document
+          .querySelectorAll(".scite-badge")
+          .forEach((badge) => badge.classList.remove("scite-badge"))
+      );
   }
 
   // start script when document is finished loading
@@ -60,6 +68,7 @@
 
 <style>
   .scite-badge {
+    display: inline-block;
     text-indent: 0;
     margin-top: 10px;
   }
