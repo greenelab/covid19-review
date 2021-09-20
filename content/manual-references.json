@@ -1126,27 +1126,6 @@
 },
 {
   "type": "article-journal",
-  "id": "individual-methods",
-  "author": [
-    {
-      "literal": "COVID-19 Review Consortium"
-    }
-  ],
-  "issued": {
-    "date-parts": [
-      [
-        2021,
-        4,
-        30
-      ]
-    ]
-  },
-  "container-title": "Manubot",
-  "title": "An Open-Publishing Response to the COVID-19 Infodemic",
-  "URL": "https://greenelab.github.io/covid19-review/v/32afa309f69f0466a91acec5d0df3151fe4d61b5/#an-open-publishing-response-to-the-covid-19-infodemic"
-},
-{
-  "type": "article-journal",
   "id": "doi:10.1186/cc2452",
   "author": [
     {
