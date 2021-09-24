@@ -3,6 +3,7 @@ import datetime
 import json
 from datetime import date
 import matplotlib.pyplot as plt
+import matplotlib.gridspec as gridspec
 import seaborn as sns
 import os
 import pandas as pd
@@ -212,30 +213,36 @@ def main(args):
     trial_results_citekeys = [extract_citekey(results_url) for results in trial_results for results_url in results.split()]
     ebm_stats['ebm_trials_results_citekeys'] = sorted(set(trial_results_citekeys))
 
-    plt.rc('font', size=14)
-    plt.rc('figure', titlesize=24)
     sns.set_style("ticks")
-    fig, axes = plt.subplots(nrows=2, ncols=2, figsize=(20, 20), constrained_layout=True)
+    gs = gridspec.GridSpec(3, 2)
+    gs.update(wspace=1, hspace=.5)
+    plt.figsize=(6.87, 9.06)
+    plt.constrained_layout=True
+    plt.rc('font', size=7)
+    plt.rc('figure', titlesize=14)
 
     # Plot study type
     # Only include study types used in >= 5 trials
     study_type_counts = trials_df['study_type'].value_counts(ascending=True)
     study_type_counts = study_type_counts[study_type_counts >= 5]
-    ax = study_type_counts.plot(kind='barh', ax=axes[0, 0])
+    ax1 = plt.subplot(gs[0, 0], )
+    ax = study_type_counts.plot(kind='barh', ax=ax1)
     ax.set_title('A. Clinical Trials, Study Type')
 
     # Plot trial recruitment status
     # Only include interventional trials with a recruitment status
     recruitment_counts = interventional_trials['recruitment_status'].value_counts(ascending=True)
     recruitment_counts = recruitment_counts.drop(labels='No Status Given')
-    ax = recruitment_counts.plot(kind='barh', ax=axes[0, 1])
+    ax2 = plt.subplot(gs[1, 0], )
+    ax = recruitment_counts.plot(kind='barh', ax=ax2)
     ax.set_title('B. Clinical Trials, Recruitment Status')
 
     # Plot trial phase
     # Only include interventional trials with a reported phase
     phase_counts = interventional_trials['phase'].value_counts(ascending=True)
     phase_counts = phase_counts.drop(labels='Not Applicable')
-    ax = phase_counts.plot(kind='barh', ax=axes[1, 0])
+    ax3 = plt.subplot(gs[2, 0], )
+    ax = phase_counts.plot(kind='barh', ax=ax3)
     ax.set_title('C. Clinical Trials, Phase')
 
     # Plot common interventions
@@ -244,11 +251,12 @@ def main(args):
     intervention_counts = intervention_counts.drop(labels='No Intervention')
     intervention_counts = intervention_counts.drop(labels='Other')
     intervention_counts = intervention_counts[intervention_counts >= 10]
-    ax = intervention_counts.plot(kind='barh', ax=axes[1, 1])
+    ax4 = plt.subplot(gs[0:3, 1])
+    ax = intervention_counts.plot(kind='barh', ax=ax4)
     ax.set_title('D. Clinical Trials, Common Interventions')
 
-    fig.savefig(args.output_figure + '.png', dpi=300, bbox_inches = "tight")
-    fig.savefig(args.output_figure + '.svg', bbox_inches = "tight")
+    plt.savefig(args.output_figure + '.png', dpi=300, bbox_inches = "tight")
+    plt.savefig(args.output_figure + '.svg', bbox_inches = "tight")
 
     print(f'Wrote {args.output_figure}.png and {args.output_figure}.svg')
 
