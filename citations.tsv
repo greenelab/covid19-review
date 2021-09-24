@@ -2,6 +2,7 @@ input_id	dealiased_id	standard_id	short_id
 individual-pathogenesis	arxiv:2102.01521	arxiv:2102.01521	r366f5T3
 individual-nutraceuticals	https://pubmed.ncbi.nlm.nih.gov/33947804/	url:https://pubmed.ncbi.nlm.nih.gov/33947804/	wgAGKcBj
 individual-pharmaceuticals	arxiv:2103.02723	arxiv:2103.02723	cifK9B8t
+individual-methods	arxiv:2109.08633	arxiv:2109.08633	nfrwpTsm
 url:https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html	url:https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html	url:https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html	gHWlMufv
 doi:10.23750/abm.v91i1.9397	doi:10.23750/abm.v91i1.9397	doi:10.23750/abm.v91i1.9397	DkrkT4Mb
 doi:10.1002/ctm2.16	doi:10.1002/ctm2.16	doi:10.1002/ctm2.16	1H0HgI6iy
@@ -178,7 +179,6 @@ doi:10.1016/j.cell.2021.02.018	doi:10.1016/j.cell.2021.02.018	doi:10.1016/j.cell
 doi:10.3389/fimmu.2021.694243	doi:10.3389/fimmu.2021.694243	doi:10.3389/fimmu.2021.694243	WOUILlou
 doi:10.1126/science.abc6261	doi:10.1126/science.abc6261	doi:10.1126/science.abc6261	196k8asXZ
 doi:10.1084/jem.20210583	doi:10.1084/jem.20210583	doi:10.1084/jem.20210583	W6xJeuhR
-doi:10.1038/s41582-021-00536-2	doi:10.1038/s41582-021-00536-2	doi:10.1038/s41582-021-00536-2	1IEKwKi0
 doi:10.1038/s41586-021-03710-0	doi:10.1038/s41586-021-03710-0	doi:10.1038/s41586-021-03710-0	Uakl0VBe
 doi:10.1038/s41586-020-2332-7	doi:10.1038/s41586-020-2332-7	doi:10.1038/s41586-020-2332-7	11xZWeHN3
 doi:10.1101/2020.03.21.990770	doi:10.1101/2020.03.21.990770	doi:10.1101/2020.03.21.990770	GhJYjnft
@@ -188,11 +188,12 @@ doi:10.1093/nar/gky1049	doi:10.1093/nar/gky1049	doi:10.1093/nar/gky1049	1ZE22clL
 url:https://www.ncbi.nlm.nih.gov/genome	url:https://www.ncbi.nlm.nih.gov/genome	url:https://www.ncbi.nlm.nih.gov/genome	RrqhkfKV
 doi:10.1093/nar/gky1006	doi:10.1093/nar/gky1006	doi:10.1093/nar/gky1006	FE7YVar3
 doi:10.1093/nar/gkr859	doi:10.1093/nar/gkr859	doi:10.1093/nar/gkr859	BmUn7iIt
-doi:10.1101/2020.03.22.002386	doi:10.1101/2020.03.22.002386	doi:10.1101/2020.03.22.002386	phJM8g2Y
+doi:10.1038/s41586-020-2286-9	doi:10.1038/s41586-020-2286-9	doi:10.1038/s41586-020-2286-9	ZvaFbLRX
 doi:10.3389/fimmu.2017.02003	doi:10.3389/fimmu.2017.02003	doi:10.3389/fimmu.2017.02003	mXUCjmCh
 doi:10.1101/2020.03.31.019216	doi:10.1101/2020.03.31.019216	doi:10.1101/2020.03.31.019216	NLoN4aYj
 doi:10.1101/cshperspect.a001651	doi:10.1101/cshperspect.a001651	doi:10.1101/cshperspect.a001651	KAqOiTeZ
 doi:10.1101/2020.04.09.033522	doi:10.1101/2020.04.09.033522	doi:10.1101/2020.04.09.033522	1ccnm0N9
+doi:10.1016/j.cels.2020.10.003	doi:10.1016/j.cels.2020.10.003	doi:10.1016/j.cels.2020.10.003	3DOhQZCg
 doi:10.15252/emmm.202114167	doi:10.15252/emmm.202114167	doi:10.15252/emmm.202114167	1EAPLqW23
 doi:10.1126/science.1116480	doi:10.1126/science.1116480	doi:10.1126/science.1116480	15EIBRhef
 doi:10.1126/science.abb2762	doi:10.1126/science.abb2762	doi:10.1126/science.abb2762	12TZ7hPMA
@@ -222,6 +223,7 @@ doi:10.1038/s41586-020-2895-3	doi:10.1038/s41586-020-2895-3	doi:10.1038/s41586-0
 doi:10.1016/j.cell.2021.01.037	doi:10.1016/j.cell.2021.01.037	doi:10.1016/j.cell.2021.01.037	owB3rKUG
 doi:10/d6x7	doi:10/d6x7	doi:10.1016/s0140-6736(20)31757-8	10igTgCIt
 doi:10.1128/JVI.00790-20	doi:10.1128/JVI.00790-20	doi:10.1128/jvi.00790-20	wRtP6ZNU
+doi:10.1038/s41576-021-00408-x	doi:10.1038/s41576-021-00408-x	doi:10.1038/s41576-021-00408-x	982hTnLI
 doi:10.3390/v13030392	doi:10.3390/v13030392	doi:10.3390/v13030392	cmMwbH6K
 doi:10.1101/2020.12.14.422555	doi:10.1101/2020.12.14.422555	doi:10.1101/2020.12.14.422555	RhHGzsfD
 url:https://cov-lineages.org/global_report_B.1.351.html	url:https://cov-lineages.org/global_report_B.1.351.html	url:https://cov-lineages.org/global_report_B.1.351.html	sqhvCTIL
@@ -238,14 +240,13 @@ doi:10.2807/1560-7917.ES.2020.25.32.2001483	doi:10.2807/1560-7917.ES.2020.25.32.
 pubmed:23771256	pubmed:23771256	pubmed:23771256	KMb6knfE
 doi:10.1097/QCO.0000000000000563	doi:10.1097/QCO.0000000000000563	doi:10.1097/qco.0000000000000563	CJbohYmK
 doi:10.1016/j.jhin.2020.12.022	doi:10.1016/j.jhin.2020.12.022	doi:10.1016/j.jhin.2020.12.022	MZlr12J3
-url:https://papers.ssrn.com/sol3/papers.cfm?abstract_id	url:https://papers.ssrn.com/sol3/papers.cfm?abstract_id	url:https://papers.ssrn.com/sol3/papers.cfm?abstract_id	cXMVBIUD
+url:https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3829873	url:https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3829873	url:https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3829873	CvYwVG8O
 url:https://www.who.int/news-room/commentaries/detail/transmission-of-sars-cov-2-implications-for-infection-prevention-precautions	url:https://www.who.int/news-room/commentaries/detail/transmission-of-sars-cov-2-implications-for-infection-prevention-precautions	url:https://www.who.int/news-room/commentaries/detail/transmission-of-sars-cov-2-implications-for-infection-prevention-precautions	1FLLN4PSl
 doi:10.3201/eid1301.061202	doi:10.3201/eid1301.061202	doi:10.3201/eid1301.061202	AC4okoVf
 doi:10.1038/s41598-019-38825-y	doi:10.1038/s41598-019-38825-y	doi:10.1038/s41598-019-38825-y	Hct9jRcb
 doi:10.1093/femsre/fuv039	doi:10.1093/femsre/fuv039	doi:10.1093/femsre/fuv039	i6tTpqwA
 doi:10.1016/B978-0-12-385885-6.00009-2	doi:10.1016/B978-0-12-385885-6.00009-2	doi:10.1016/b978-0-12-385885-6.00009-2	rjVw7V94
 doi:10.1038/nrmicro.2016.81	doi:10.1038/nrmicro.2016.81	doi:10.1038/nrmicro.2016.81	G5NJrE75
-pubmed:15631748	pubmed:15631748	pubmed:15631748	Er0rHQ5u
 doi:10.1111/j.1600-0668.2004.00317.x	doi:10.1111/j.1600-0668.2004.00317.x	doi:10.1111/j.1600-0668.2004.00317.x	1D0sSd6ZT
 doi:10.1086/429634	doi:10.1086/429634	doi:10.1086/429634	zmcRFgYd
 doi:10.1371/journal.pone.0181558	doi:10.1371/journal.pone.0181558	doi:10.1371/journal.pone.0181558	yR57NFIB
@@ -257,6 +258,7 @@ doi:10.1001/jama.2020.12458	doi:10.1001/jama.2020.12458	doi:10.1001/jama.2020.12
 doi:10/gg6br7	doi:10/gg6br7	doi:10.1016/s1473-3099(20)30561-2	cw5j7x80
 doi:10.1126/science.abc6197	doi:10.1126/science.abc6197	doi:10.1126/science.abc6197	16SDeiudC
 doi:10.1093/cid/ciaa939	doi:10.1093/cid/ciaa939	doi:10.1093/cid/ciaa939	9ouDX5IN
+doi:10/gjqmvq	doi:10/gjqmvq	doi:10.1016/s0140-6736(21)00869-2	sUAAY1me
 doi:10.1038/s41586-020-2271-3	doi:10.1038/s41586-020-2271-3	doi:10.1038/s41586-020-2271-3	bQLMgMGC
 doi:10.1016/j.ijid.2020.09.025	doi:10.1016/j.ijid.2020.09.025	doi:10.1016/j.ijid.2020.09.025	Uzfdlcgn
 doi:10.1101/2020.07.13.20041632	doi:10.1101/2020.07.13.20041632	doi:10.1101/2020.07.13.20041632	lPbg0LYo
@@ -305,7 +307,7 @@ doi:10.1101/2020.01.27.20018952	doi:10.1101/2020.01.27.20018952	doi:10.1101/2020
 doi:10.1101/2020.01.23.916726	doi:10.1101/2020.01.23.916726	doi:10.1101/2020.01.23.916726	Yj8Xh4Wz
 doi:10.1101/2020.01.23.20018549	doi:10.1101/2020.01.23.20018549	doi:10.1101/2020.01.23.20018549	ZzrrVDoE
 doi:10.1101/2020.03.22.20040915	doi:10.1101/2020.03.22.20040915	doi:10.1101/2020.03.22.20040915	itj26agd
-tag:Park2020_distancing	url:https://github.com/parksw3/Korea-analysis/blob/master/v1/korea.pdf	url:https://github.com/parksw3/Korea-analysis/blob/master/v1/korea.pdf	YfOcGRRa
+tag:Park2020_distancing	doi:10.3201/eid2611.201099	doi:10.3201/eid2611.201099	1H6clx00o
 doi:10/ggptcf	doi:10/ggptcf	doi:10.1016/s1473-3099(20)30144-4	tiRfUgvs
 doi:10.1101/2020.03.20.20038422	doi:10.1101/2020.03.20.20038422	doi:10.1101/2020.03.20.20038422	TH4ymqvJ
 doi:10.25561/77731	doi:10.25561/77731	doi:10.25561/77731	Frya4XA4
@@ -474,7 +476,6 @@ https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_c
 doi:10/ggnsjk	doi:10/ggnsjk	doi:10.1016/s1473-3099(20)30120-1	U1nCE851
 url:https://www.who.int/csr/sars/country/en	url:https://www.who.int/csr/sars/country/en	url:https://www.who.int/csr/sars/country/en	im26z7DR
 url:https://github.com/imdevskp/sars-2003-outbreak-data-webscraping-code	url:https://github.com/imdevskp/sars-2003-outbreak-data-webscraping-code	url:https://github.com/imdevskp/sars-2003-outbreak-data-webscraping-code	1FrCknYoc
-doi:10/gjqmvq	doi:10/gjqmvq	doi:10.1016/s0140-6736(21)00869-2	sUAAY1me
 doi:10.1136/bmj.n913	doi:10.1136/bmj.n913	doi:10.1136/bmj.n913	ncMFeSeO
 doi:10.1056/NEJMoa1211721	doi:10.1056/NEJMoa1211721	doi:10.1056/nejmoa1211721	7Ee6Sz9l
 doi:10.1038/nrd.2018.168	doi:10.1038/nrd.2018.168	doi:10.1038/nrd.2018.168	6IJxPIQd
@@ -717,7 +718,6 @@ doi:10.1080/23808993.2019.1617632	doi:10.1080/23808993.2019.1617632	doi:10.1080/
 doi:10.1016/j.patter.2020.100090	doi:10.1016/j.patter.2020.100090	doi:10.1016/j.patter.2020.100090	fYBqSPGl
 doi:10.1038/s41467-020-17189-2	doi:10.1038/s41467-020-17189-2	doi:10.1038/s41467-020-17189-2	YRqgrrXw
 doi:10/grs9	doi:10/grs9	doi:10.1016/s2589-7500(20)30192-8	1HnR6AuMx
-doi:10.1038/s41586-020-2286-9	doi:10.1038/s41586-020-2286-9	doi:10.1038/s41586-020-2286-9	ZvaFbLRX
 doi:10.1016/j.pharmthera.2009.07.001	doi:10.1016/j.pharmthera.2009.07.001	doi:10.1016/j.pharmthera.2009.07.001	KQ3m1fh0
 pubmed:33060197	pubmed:33060197	pubmed:33060197	OwoFPRh2
 doi:10.3389/fphar.2020.582310	doi:10.3389/fphar.2020.582310	doi:10.3389/fphar.2020.582310	sLjk8RiX
@@ -1653,6 +1653,7 @@ doi:10.1371/journal.pone.0215557	doi:10.1371/journal.pone.0215557	doi:10.1371/jo
 doi:10.1101/2020.03.22.002204	doi:10.1101/2020.03.22.002204	doi:10.1101/2020.03.22.002204	bCYYaFKM
 doi:10.1128/JVI.00797-10	doi:10.1128/JVI.00797-10	doi:10.1128/jvi.00797-10	16tHVjVzu
 doi:10.1101/2020.03.12.988865	doi:10.1101/2020.03.12.988865	doi:10.1101/2020.03.12.988865	hRVfFbS
+doi:10.1101/2020.03.22.002386	doi:10.1101/2020.03.22.002386	doi:10.1101/2020.03.22.002386	phJM8g2Y
 doi:10.1101/2020.03.22.20034041	doi:10.1101/2020.03.22.20034041	doi:10.1101/2020.03.22.20034041	RTIk8DTo
 doi:10.1128/AAC.00699-08	doi:10.1128/AAC.00699-08	doi:10.1128/aac.00699-08	YoCPtq6P
 doi:10.14218/JCTH.2019.00033	doi:10.14218/JCTH.2019.00033	doi:10.14218/jcth.2019.00033	10GnhBctk
