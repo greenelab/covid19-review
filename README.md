@@ -8,6 +8,18 @@
 [![Gitter](https://badges.gitter.im/covid19-review/community.svg)](https://gitter.im/covid19-review/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 <!-- usage note: delete CI badges above for services not used by your manuscript -->
 
+Project Status:
+| Section | Title | Status Issue | Submission Goal | Status | Links
+| -- | -- | -- | -- |-- | -- |
+| Nutraceuticals | Dietary Supplements and Nutraceuticals Under Investigation for COVID-19 Prevention and Treatment  | |  ✅ | [Published](https://doi.org/10.1128/mSystems.00122-21) 🎉 | [Release](https://github.com/greenelab/covid19-review/releases/tag/nutraceuticals-v2); [Preprint](http://arxiv.org/abs/2102.02250) |
+| Methods (Cyberinfrastructure) | An Open-Publishing Response to the COVID-19 Infodemic | | ✅  | Accepted to [DISCO 2021](https://infoqualitylab.org/events/disco2021/) | [Release](https://github.com/greenelab/covid19-review/releases/tag/methods-v2); [Preprint](https://arxiv.org/abs/2109.08633)
+| Pharmaceuticals | Identification and Development of Therapeutics for COVID-19 | | ✅  | Accepted! | [Release](https://github.com/greenelab/covid19-review/releases/tag/pharmaceuticals-v3); [Preprint](http://arxiv.org/abs/2103.02723)
+| Pathogenesis | Pathogenesis, Symptomatology, and Transmission of SARS-CoV-2 through analysis of Viral Genomics and Structure | #744 | Ready for resubmission pending author approval  | In Revision #892 | [Release](https://github.com/greenelab/covid19-review/releases/tag/pathogenesis-v2); [Preprint](http://arxiv.org/abs/2102.01521)
+| Vaccines | TBD | #830 | Next priority | In prep
+| Diagnostics | TBD | #818 | TBD | In prep
+| Evolution | TBD | #867 | TBD | In prep
+| Social Determinants of Health (SDOH) | TBD | #868 | TBD | In prep
+
 ## Code of Conduct
 
 This project operates under a code of conduct.
