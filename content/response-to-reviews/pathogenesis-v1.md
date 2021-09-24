@@ -117,7 +117,7 @@ The question you raised is interesting -- the Liu et al. (2016) reference, which
 This conclusion cites two articles, one of which (Richt et al., 2012 in PLoS One) examined swine influenza A virus (H2N3) in macaques and found higher replication of swine H2N3 than human H2N2 in the nasal mucosa and lung tissue.
 The other (Nicholls et al., 2006 in PLoS Medicine) reported the cellular localization of the SARS-CoV-1 virus in deceased SARS patients using a monoclonal antibody, concluding that the virus's "chief target" is the pulmonary alveolar epithelium.
 Based on these citations, it doesn't seem appropriate to conclude that the respiratory mucosa does not provide protection at all, but rather that viruses vary in their ability to bypass its protection.
-Based on this, the sentence has been rephrased to read: "Infecting the epithelium can help viruses such as SARS-CoV-1 bypass the physical barriers, such as mucus, that comprise the immune system's first line of defense."
+Therefore, the sentence has been rephrased to read: "Infecting the epithelium can help viruses such as SARS-CoV-1 bypass the physical barriers, such as mucus, that comprise the immune system's first line of defense."
 **
 
 2.4 Line 275 - suggest changing "can facilitate" to "may facilitate"
@@ -172,7 +172,7 @@ The authors of the study described in this passage state the following: "We comp
 
 On a proximal level, the apparent similarity between the protein-protein interaction networks of SARS-CoV-2 and _M. tuberculosis_ could be an artifact of the pathogens selected for comparison: as the authors themselves point out, both pathogens are known to affect the lungs, while the other pathogens used for comparison are not known for respiratory symptoms (hepatitis C, human immunodeficiency virus, human papillomavirus, Kaposi's sarcoma-associated herpesvirus, and West Nile virus).
 Therefore, the original study seems to suggest that altered regulation in the lungs might be driving this similarity.
-The sentence here has been rephrased to make this more clear, and now reads: 
+The sentence here has been rephrased to make this clearer and now reads: 
 "The fact that the host-pathogen interactome of the bacterium *Mycobacterium tuberculosis* was found to be similar to that of SARS-CoV-2 suggests that changes related to lung pathology might comprise a significant contributor to these expression profiles."
 **
 
@@ -187,6 +187,10 @@ We have also made additional updates to reflect changes in the field since the p
 Reviewer 3
 
 Overall, the manuscript by Rando et al seeks to review and condense the current corpus of knowledge for SARS-CoV-2. The authors do a great job of making the findings of various studies easy to understand. Overall, this reviewer believes that it will be an excellent resource to the scientific community. This reviewer recommends that the author incorporates a handful of suggested changes (below) to improve the already impressive state of this manuscript.
+
+**
+Thank you very much for your kind words and helpful suggestions.
+**
 
 3.1 Structure of Coronaviruses, paragraph 1: Please modify the definition of “non-segmented”. It refers more to the fact that it is a single molecule of ssRNA, than to whether it is contained in a capsid.
 
@@ -209,7 +213,7 @@ Sepsis, which can lead to multi-organ failure and death [@doi:10.1128/MMBR.05015
 3.3 Cytokine release syndrome, paragraph 2: The relevance of sepsis to this paragraph is also unclear, unless the authors are comparing SARS-CoV-2 infection to other respiratory diseases caused by bacteria. Specifying the relevance of this comparison would be helpful.
 
 **
-As with 3.2 above, this paragraphs has been restructured.
+As with 3.2 above, this paragraph has been restructured.
 We hope the changes serve to emphasize the concerns about sepsis in the context of SARS-CoV-2.
 **
 
