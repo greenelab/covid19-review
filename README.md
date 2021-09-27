@@ -12,9 +12,9 @@ Project Status:
 | Section | Title | Status Issue | Submission Status | Venue | Links
 | -- | -- | -- | -- |-- | -- |
 | Nutraceuticals | Dietary Supplements and Nutraceuticals Under Investigation for COVID-19 Prevention and Treatment  | ✔️ | [Published](https://doi.org/10.1128/mSystems.00122-21) 🎉 | _mSystems_ | [Release](https://github.com/greenelab/covid19-review/releases/tag/nutraceuticals-v2); [Preprint](http://arxiv.org/abs/2102.02250) |
-| Methods (Cyberinfrastructure) | An Open-Publishing Response to the COVID-19 Infodemic | ✔️ | Accepted | [DISCO 2021](https://infoqualitylab.org/events/disco2021/) | [Release](https://github.com/greenelab/covid19-review/releases/tag/methods-v2); [Preprint](https://arxiv.org/abs/2109.08633)
+| [Methods (Cyberinfrastructure)](https://greenelab.github.io/covid19-review/#an-open-publishing-response-to-the-covid-19-infodemic) | An Open-Publishing Response to the COVID-19 Infodemic | ✔️ | Accepted | [DISCO 2021](https://infoqualitylab.org/events/disco2021/) | [Release](https://github.com/greenelab/covid19-review/releases/tag/methods-v3); [Preprint](https://arxiv.org/abs/2109.08633)
 | Pharmaceuticals | Identification and Development of Therapeutics for COVID-19 | ✔️ | Accepted | _mSystems_ | [Release](https://github.com/greenelab/covid19-review/releases/tag/pharmaceuticals-v3); [Preprint](http://arxiv.org/abs/2103.02723)
-| Pathogenesis | Pathogenesis, Symptomatology, and Transmission of SARS-CoV-2 through analysis of Viral Genomics and Structure | #744 | Ready for resubmission | _mSystems_ | [Release](https://github.com/greenelab/covid19-review/releases/tag/pathogenesis-v2); [Preprint](http://arxiv.org/abs/2102.01521)
+| [Pathogenesis](https://greenelab.github.io/covid19-review/#pathogenesis-symptomatology-and-transmission-of-sars-cov-2-through-analysis-of-viral-genomics-and-structure) | Pathogenesis, Symptomatology, and Transmission of SARS-CoV-2 through analysis of Viral Genomics and Structure | #744 | Ready for resubmission | _mSystems_ | [Release](https://github.com/greenelab/covid19-review/releases/tag/pathogenesis-v2); [Preprint](http://arxiv.org/abs/2102.01521)
 | Vaccines | TBD | #830 | Next priority | In prep
 | Diagnostics | TBD | #818 | TBD | In prep
 | Evolution | TBD | #867 | TBD | In prep
