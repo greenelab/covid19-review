@@ -11,7 +11,7 @@
 Project Status:
 | Section | Title | Status Issue | Submission Status | Venue | Links
 | -- | -- | -- | -- |-- | -- |
-| [Pathogenesis](https://greenelab.github.io/covid19-review/#pathogenesis-symptomatology-and-transmission-of-sars-cov-2-through-analysis-of-viral-genomics-and-structure) | Pathogenesis, Symptomatology, and Transmission of SARS-CoV-2 through analysis of Viral Genomics and Structure | #744 | Ready for resubmission | _mSystems_ | [Release](https://github.com/greenelab/covid19-review/releases/tag/pathogenesis-v2); [Preprint](http://arxiv.org/abs/2102.01521)
+| [Pathogenesis](https://greenelab.github.io/covid19-review/#pathogenesis-symptomatology-and-transmission-of-sars-cov-2-through-analysis-of-viral-genomics-and-structure) | Pathogenesis, Symptomatology, and Transmission of SARS-CoV-2 through analysis of Viral Genomics and Structure | ✔️ | Accepted | _mSystems_ | [Release](https://github.com/greenelab/covid19-review/releases/tag/pathogenesis-v2); [Preprint](http://arxiv.org/abs/2102.01521)
 | [Evolution](https://greenelab.github.io/covid19-review/#evolutionary-and-genomic-analysis-of-sars-cov-2) | TBD | #867 | TBD | In prep
 | [Diagnostics](https://greenelab.github.io/covid19-review/#diagnostics) | TBD | #818 | TBD | In prep
 | [Pharmaceuticals](https://greenelab.github.io/covid19-review/#identification-and-development-of-therapeutics-for-covid-19) | Identification and Development of Therapeutics for COVID-19 | ✔️ | Accepted | _mSystems_ | [Release](https://github.com/greenelab/covid19-review/releases/tag/pharmaceuticals-v3); [Preprint](http://arxiv.org/abs/2103.02723)
