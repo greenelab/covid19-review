@@ -21,6 +21,9 @@ jobs:
           environment-file: environment.yml
           auto-activate-base: false
           miniconda-version: 'latest'
+      - name: List packages in conda environment
+        shell: bash --login {0}
+        run: conda list
       - name: Update JHU CSSE data
         shell: bash --login {0}
         run: bash csse/generate-csse-stats.sh
