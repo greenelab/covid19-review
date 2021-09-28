@@ -279,13 +279,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/c9179c87ffab6635deac2e35a56c48b167fe4b38/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/c9179c87ffab6635deac2e35a56c48b167fe4b38/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/c9179c87ffab6635deac2e35a56c48b167fe4b38/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/5b7e755aa681e153c1b65b1b6cdce3c7ed264a72/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/5b7e755aa681e153c1b65b1b6cdce3c7ed264a72/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/5b7e755aa681e153c1b65b1b6cdce3c7ed264a72/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/c9179c87ffab6635deac2e35a56c48b167fe4b38/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/c9179c87ffab6635deac2e35a56c48b167fe4b38/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/5b7e755aa681e153c1b65b1b6cdce3c7ed264a72/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/5b7e755aa681e153c1b65b1b6cdce3c7ed264a72/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -307,11 +307,11 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/c9179c87ffab6635deac2e35a56c48b167fe4b38/))
+([permalink](https://greenelab.github.io/covid19-review/v/5b7e755aa681e153c1b65b1b6cdce3c7ed264a72/))
 was automatically generated
-from [greenelab/covid19-review@c9179c8](https://github.com/greenelab/covid19-review/tree/c9179c87ffab6635deac2e35a56c48b167fe4b38)
+from [greenelab/covid19-review@5b7e755](https://github.com/greenelab/covid19-review/tree/5b7e755aa681e153c1b65b1b6cdce3c7ed264a72)
 on September 28, 2021.
-It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/c9179c87ffab6635deac2e35a56c48b167fe4b38/manuscript.pdf).
+It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/5b7e755aa681e153c1b65b1b6cdce3c7ed264a72/manuscript.pdf).
 Snapshots of individual sections have been published [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals; @individual-methods].
 </em></small>
 
