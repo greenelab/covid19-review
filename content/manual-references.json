@@ -1126,27 +1126,6 @@
 },
 {
   "type": "article-journal",
-  "id": "individual-methods",
-  "author": [
-    {
-      "literal": "COVID-19 Review Consortium"
-    }
-  ],
-  "issued": {
-    "date-parts": [
-      [
-        2021,
-        4,
-        30
-      ]
-    ]
-  },
-  "container-title": "Manubot",
-  "title": "An Open-Publishing Response to the COVID-19 Infodemic",
-  "URL": "https://greenelab.github.io/covid19-review/v/32afa309f69f0466a91acec5d0df3151fe4d61b5/#an-open-publishing-response-to-the-covid-19-infodemic"
-},
-{
-  "type": "article-journal",
   "id": "doi:10.1186/cc2452",
   "author": [
     {
@@ -1485,5 +1464,38 @@
       ]
     ]
   }
+},
+{
+  "type": "article-journal",
+  "id": "doi:10.1002/ana.25807",
+  "author": [
+    {
+      "family": "Koralnik",
+      "given": "Igor J."
+    },
+    {
+      "family": "Tyler",
+      "given": "Kenneth L."
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2020,
+        6,
+        23
+      ]
+    ]
+  },
+  "container-title": "Annals of Neurology",
+  "DOI": "10.1002/ana.25807",
+  "volume": "88",
+  "issue": "1",
+  "page": "1-11",
+  "publisher": "Wiley",
+  "title": "COVID-19: A Global Threat to the Nervous System",
+  "URL": "https://doi.org/gg3hzh",
+  "PMCID": "PMC7300753",
+  "PMID": "32506549"
 }
 ]
