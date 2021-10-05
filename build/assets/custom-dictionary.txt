@@ -22,6 +22,7 @@ AY
 AZD
 AbbVie
 AbCellera
+Abu
 Académie
 Acelity
 Acibadem
@@ -48,6 +49,7 @@ BAL
 BALB
 BALF
 BAME
+BBIBP
 BBV
 BCG
 BCL
@@ -106,6 +108,7 @@ CFTR
 CLDN
 CMV
 CN
+CNBG
 COPD
 COVAX
 COVI
@@ -164,9 +167,11 @@ Colonic
 Colson
 Comput
 ConSurf
+Convidecia
 CoronaVac
 Coronaviridae
 Coronavirus
+CorV
 Covaxin
 Covishield
 CoviVac
@@ -202,6 +207,7 @@ DeVito
 DeepChem
 Dendritic
 Deprez
+Dhabi
 DiMaio
 Dibene
 Dimitri
@@ -318,6 +324,7 @@ HSC
 HSST
 Halie
 Hamon
+Hayat
 Hefei
 Hegde
 Herst
@@ -711,6 +718,7 @@ Toyama
 Tregs
 TrialsTracker
 Tübingen
+UAE
 UC
 UCI
 UTR
@@ -718,6 +726,7 @@ UVB
 Umeå
 Umland
 UniProt
+VADE
 VH
 VL
 VOC
@@ -743,6 +752,7 @@ Vmax
 Vo
 WBC
 WBCs
+WIV
 Waals
 Wellhausen
 Wheatley
@@ -821,6 +831,7 @@ antioxidative
 antiphospholipid
 antiplatelet
 antiproliferative
+antisera
 antithrombotic
 arXiv
 arrhythmias
@@ -856,6 +867,7 @@ biologics
 biomarker
 biomarkers
 biomedicine
+biometrics
 BioNTech
 bioorganometallic
 biopharmaceutical
@@ -1071,6 +1083,7 @@ ggnsjk
 ggnzmc
 ggpx
 ggvd
+gh
 ghjzm
 ghs
 ghstsk
