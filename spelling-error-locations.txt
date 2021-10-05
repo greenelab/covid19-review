@@ -1,4 +1,2 @@
-content/22.vaccines.md:21:devleopment
-content/22.vaccines.md:74:appraoches
 content/23.vaccines-app.md:15:IgGs
 content/23.vaccines-app.md:387:IgGs
