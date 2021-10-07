@@ -1697,6 +1697,7 @@ upregulated
 upregulation
 uri
 vaccinia
+vaccinology
 vascularized
 vasculitis
 vasodilator
