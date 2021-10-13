@@ -1,8 +1,8 @@
 {
-  "cord19_date_pretty": "2021-09-27",
-  "cord19_figure": "https://github.com/greenelab/covid19-review/raw/5b829ec49796d8d91745b2dff49a0050c95e172e/CORD-19/cord19-growth.png",
-  "cord19_sha1": "06fddefb",
-  "cord19_total_preprints": "31669",
-  "cord19_total_pubs": "768929",
-  "cord19_update_date": "2021-09-27"
+  "cord19_date_pretty": "2021-10-11",
+  "cord19_figure": "https://github.com/greenelab/covid19-review/raw/ef75f4194739bdbfb7bbc361dcab599706f9f5fa/CORD-19/cord19-growth.png",
+  "cord19_sha1": "18b70eaa",
+  "cord19_total_preprints": "32352",
+  "cord19_total_pubs": "785268",
+  "cord19_update_date": "2021-10-11"
 }
