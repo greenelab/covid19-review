@@ -1084,6 +1084,63 @@
 },
 {
   "type": "article-journal",
+  "id": "individual-methods",
+  "author": [
+    {
+      "family": "Rando",
+      "given": "Halie M"
+    },
+    {
+      "family": "Boca",
+      "given": "Simina M"
+    },
+    {
+      "family": "D'Agostino McGowan",
+      "given": "Lucy"
+    },
+    {
+      "family": "Himmelstein",
+      "given": "Daniel S"
+    },
+    {
+      "family": "Robson",
+      "given": "Michael P"
+    },
+    {
+      "family": "Rubinetti",
+      "given": "Vincent"
+    },
+    {
+      "family": "Velazquez",
+      "given": "Ryan"
+    },
+    {
+      "family": "Greene",
+      "given": "Casey S"
+    },
+    {
+      "family": "Gitter",
+      "given": "Anthony"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2021,
+        9,
+        30
+      ]
+    ]
+  },
+  "container-title": "Proceedings of the Workshop on Digital Infrastructures for Scholarly Content Objects (DISCO 2021)",
+  "title": "An Open-Publishing Response to the COVID-19 Infodemic",
+  "URL": "http://ceur-ws.org/Vol-2976/paper-2.pdf",
+  "volume": "2976",
+  "page": " 29-38",
+  "publisher": "CEUR-WS"
+},
+{
+  "type": "article-journal",
   "id": "individual-diagnostics",
   "author": [
     {
