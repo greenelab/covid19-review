@@ -1373,18 +1373,3 @@ authors:
         order: 6
         contributions:
           - Writing - Review & Editing
-  - 
-    name: Ariel Mundo
-    affiliations:
-      - Department of ...
-    email: 
-    orcid: 
-    coi:
-      string: ""
-      lastapproved: !!str 2021-04-30
-    manuscripts:
-      diagnostics:
-        order: 0
-        contributions:
-          - Writing - Review & Editing
-          - Writing - Original Draft
