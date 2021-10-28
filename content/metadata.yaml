@@ -1,5 +1,5 @@
 ---
-title: "SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics"
+title: "SARS-CoV-2 and COVID-19: An Evolving Review of and Therapeutics"
 keywords:
   - covid-19
   - coronavirus
@@ -1373,3 +1373,29 @@ authors:
         order: 6
         contributions:
           - Writing - Review & Editing
+    
+  -
+github: aimundo
+    name: Ariel I. Mundo
+    initials: AIM
+    orcid: 0000-0002-6014-4538
+    twitter: amundortiz
+    email: aimundo@uark.edu
+    affiliations:
+      - Department of Biomedical Engineering, University of Arkansas, Fayetteville, Arkansas, United States of America
+      - Related Sciences
+    funders: Arkansas Biosciences Institute
+    coi:
+      string: "None"
+      lastapproved: !!str 2021-10-28
+    manuscripts:
+      diagnostics:
+        order: 
+        contributions:
+          - Writing - Review & Editing
+        affiliations:
+          - institution: University of Arkansas
+            department: Department of Biomedical Engineering
+            city: Fayetteville
+            state: AR
+            country: USA
