@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2021-11-11'
+date-meta: '2021-11-17'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -70,8 +70,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2021-11-11" />
-  <meta name="citation_publication_date" content="2021-11-11" />
+  <meta name="dc.date" content="2021-11-17" />
+  <meta name="citation_publication_date" content="2021-11-17" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -279,13 +279,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/e4d1ed1ff72f78bdd667261a0d343c4262cd6b68/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/e4d1ed1ff72f78bdd667261a0d343c4262cd6b68/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/e4d1ed1ff72f78bdd667261a0d343c4262cd6b68/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/650f049f911be0939d783e08e5f3e071df02d1df/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/650f049f911be0939d783e08e5f3e071df02d1df/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/650f049f911be0939d783e08e5f3e071df02d1df/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/e4d1ed1ff72f78bdd667261a0d343c4262cd6b68/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/e4d1ed1ff72f78bdd667261a0d343c4262cd6b68/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/650f049f911be0939d783e08e5f3e071df02d1df/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/650f049f911be0939d783e08e5f3e071df02d1df/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -307,11 +307,11 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/e4d1ed1ff72f78bdd667261a0d343c4262cd6b68/))
+([permalink](https://greenelab.github.io/covid19-review/v/650f049f911be0939d783e08e5f3e071df02d1df/))
 was automatically generated
-from [greenelab/covid19-review@e4d1ed1](https://github.com/greenelab/covid19-review/tree/e4d1ed1ff72f78bdd667261a0d343c4262cd6b68)
-on November 11, 2021.
-It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/e4d1ed1ff72f78bdd667261a0d343c4262cd6b68/manuscript.pdf).
+from [greenelab/covid19-review@650f049](https://github.com/greenelab/covid19-review/tree/650f049f911be0939d783e08e5f3e071df02d1df)
+on November 17, 2021.
+It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/650f049f911be0939d783e08e5f3e071df02d1df/manuscript.pdf).
 Snapshots of individual sections have been published [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals; @individual-methods].
 </em></small>
 
@@ -1924,14 +1924,14 @@ The scale of the COVID-19 pandemic has made the repurposing and development of p
 
 ![
 **Cumulative global incidence of COVID-19 and SARS.**
-As of November 9, 2021, 250,847,485 COVID-19 cases and 5,064,332 COVID-19 deaths had been reported worldwide since January 22, 2020.
+As of November 15, 2021, 253,860,137 COVID-19 cases and 5,107,084 COVID-19 deaths had been reported worldwide since January 22, 2020.
 A total of 8,432 cases and 813 deaths were reported for SARS from March 17 to July 11, 2003.
 SARS-CoV-1 was officially contained on July 5, 2003, within 9 months of its appearance [@doi:10.3390/ijerph17113973].
 In contrast, SARS-CoV-2 remains a significant global threat nearly two years after its emergence.
 COVID-19 data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series; @doi:10/ggnsjk].
 SARS data are from the WHO [@url:https://www.who.int/csr/sars/country/en] and were obtained from a dataset on GitHub [@url:https://github.com/imdevskp/sars-2003-outbreak-data-webscraping-code].
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/f42b0bf48a68c5547bac29976a1b9a09ba2cc5cd/csse/csse-deaths.png "Global incidence of COVID-19 and SARS"){#fig:csse-deaths secno=1}
+](https://github.com/greenelab/covid19-review/raw/9042b01a63837c9e72013c2ef9289bff1b59cd20/csse/csse-deaths.png "Global incidence of COVID-19 and SARS"){#fig:csse-deaths secno=1}
 
 At first, SARS-CoV-2's rapid shift from an unknown virus to a significant worldwide threat closely paralleled the emergence of _Severe acute respiratory syndrome-related coronavirus_ (SARS-CoV-1), which was responsible for the 2002-03 SARS epidemic.
 The first documented case of COVID-19 was reported in Wuhan, China in November 2019, and the disease quickly spread worldwide in the early months of 2020.
@@ -1988,7 +1988,7 @@ Recruitment status and trial phase are shown only for interventional trials in w
 Common interventions refers to interventions used in at least ten trials.
 Combinations of interventions, such as hydroxychloroquine with azithromycin, are tallied separately from the individual interventions.
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/f42b0bf48a68c5547bac29976a1b9a09ba2cc5cd/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/9042b01a63837c9e72013c2ef9289bff1b59cd20/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 The purpose of this review is to provide an evolving resource tracking the status of efforts to repurpose and develop drugs for the treatment of COVID-19.
 We highlight four strategies that provide different paradigms for the identification of potential pharmaceutical treatments.
@@ -3056,7 +3056,7 @@ Vaccine development began almost five centuries ago, but the SARS-CoV-2 pandemic
 ### Importance
 
 The SARS-CoV-2 pandemic has caused untold damage to the global population, but it also presented some unique opportunities for vaccine development.
-As of November 9, 2021, SARS-CoV-2 has infected over 250,847,485 and cost the lives of 5,064,332 people globally.
+As of November 15, 2021, SARS-CoV-2 has infected over 253,860,137 and cost the lives of 5,107,084 people globally.
 The development, production, and distribution of vaccines is imperative to saving lives, preventing illness, and reducing the economic and social burdens caused by the COVID-19 pandemic.
 Now that promising candidates exist, effective deployment will provide an opportunity to move into a new phase of the pandemic where the susceptibility of worldwide populations is significantly reduced.
 This review provides a historical context for vaccine development and highlights the main strategies utilized for the development of the COVID-19 vaccines, their clinical appraisal, and their distribution.
@@ -3192,7 +3192,7 @@ These diverse technology platforms include DNA, RNA, virus-like particle, recomb
 
 <!--To Do: insert discussion of pre vs post fusion conformation into text somewhere -- does it need to go in intro?->
 <!--To Do: where to define/reference adjuvants?-->
-### Live-Attenuated Viruses
+### Live-Attenuated Virus Vaccines
 
 Live-attenuated vaccines (LAV), or replication-competent vaccines, use a weakened living version of a disease-causing virus or a version of a virus that is modified to induce an immune response [@doi:10.1038/s41586-020-2798-3]. 
 The virus can be attenuated by passaging it in a foreign host until, as a consequence of selection pressure, the virus loses its efficacy in the original host. 
@@ -3345,22 +3345,68 @@ Limited distribution was shared with the UAE [@url:https://www.nytimes.com/inter
 ### Protein Subunit Vaccines
 
 <!--To Do: Add to figure-->
-Compared to the inactivated whole virus vaccines, these protein subunit vaccines isolate a single protein of the virus and use it to stimulate the immune system.
+Unlike inactivated whole virus vaccines which introduce the whole virus, in protein subunit vaccines, one or more proteins or peptides of the virus is isolated and used to stimulate the immune system. 
 These proteins, also known as antigens, are usually those located on the surface of the viral particle and are therefore key targets of the immune system.
-These proteins are typically grown in yeast and then harvested.
-This vaccine can stimulate antibodies and CD4^+^ T-cell response [@doi:10.1007/978-1-4615-1823-5].
+These proteins are typically grown in yeast and then harvested as they are culturable devoid of animal-derived growth factors. 
+Indeed, the vaccine industry has previously mostly used _Pichia pastoris_ yeast as the expression system  [@doi:10.3389/fimmu.2020.602256].
+However, in recent years insect cells have also been utilized [@doi:10.1038/s41467-020-20653-8; @doi:10.1016/j.vaccine.2012.01.016].
+Protein subunit vaccines can stimulate antibodies and CD4^+^ T-cell responses [@doi:10.1007/978-1-4615-1823-5]. 
 The main advantage of this method is that protein subunit vaccines are considered very safe, as the antigen alone cannot cause an infection.
-However, the immune response is weaker and an adjuvant is usually needed to boost the response [@doi:10.1517/14712598.2011.573624] (see Appendix).
-<!--To Do: Application/advancements in prior 21st century epidemics?-->
+This platform is also favored for its consistency in production and defined components designed for a highly targeted immune response to a specific pathogen using synthetic immunogenic particles that can be designed to avoid allergen and reactogenic sequences [@doi:10.3390/vaccines2030515].
+The immune response generated by protein subunit vaccines is weaker, and adjuvants are usually required to boost the response [@doi:10.1517/14712598.2011.573624] (see Appendix). 
+These adjuvants are immunogenic substances, which include, for example, alum (aluminum hydroxide), squalene- or saponin-based adjuvants, and Freund’s incomplete/complete adjuvants [@doi:10.1016/j.vaccine.2019.04.055; @doi:10.3390/vaccines2030515]. 
+Protein subunit vaccines that have been developed in the past for both SARS-CoV and MERS-CoV have mostly focused on the immunogenic RBD of the S protein [@doi:10.1016/j.vaccine.2006.06.084; @doi:10.1016/j.vaccine.2006.10.031; @doi:10.1089/vim.2009.0090].
+Most studies of protein subunit vaccines for SARS-CoV and MERS-CoV have been conducted _in vivo_.
 
-NVX-CoV2373, produced by U.S. company Novavax, is a protein nanoparticle vaccine candidate against SARS-CoV-2 that is constructed from a mutated prefusion SARS-CoV-2 spike protein in combination with a specialized adjuvant to elicit an immune response against SARS-CoV-2.
-The spike protein is recombinantly expressed in Sf9 insect cells [@doi:10.1038/s41467-020-20653-8], which have previously been used for several other FDA-approved protein therapeutics [@doi:10.1021/acs.iecr.8b00985] and contains mutations in the furin cleavage site (682-RRAR-685 to 682-QQAQ-685) along with two proline substitutions (K986P and V987P) that improve thermostability [@doi:10.1038/s41467-020-20653-8].
-In preclinical mouse models, Novavax-CoV2373 elicited high anti-spike IgG titers 21 to 28 days post-vaccination that could neutralize the SARS-CoV-2 virus and protect the animals against virus challenge, with particularly strong effects when administered with the proprietary adjuvant Matrix-M^TM^ [@doi:10.1038/s41467-020-20653-8].
-In a phase I/II trial, a two-dose regimen of NVX-CoV2373 was found to induce anti-spike IgG levels and neutralizing antibody-titers exceeding those observed in convalescent plasma donated by symptomatic patients [@doi:10.1056/NEJMoa2026920].
-In line with the preclinical studies, the use of Matrix-M adjuvant further increased anti-spike immunoglobulin levels and induced a Th1 response.
-Although the phase III trial data has not been published yet, Novavax announced an efficacy of 89.3% based on their phase III trial in the UK and also noted that 90% of cases occurring in their phase IIb study in South Africa were caused by a variant of concern, B.1.351 [@url:https://ir.novavax.com/news-releases/news-release-details/novavax-covid-19-vaccine-demonstrates-893-efficacy-uk-phase-3].
-Despite these very preliminary results, Novavax has signed an agreement with the Serum Institute of India allowing them to produce up to 2 billion doses a year [@url:https://www.reuters.com/article/health-coronavirus-novavax-idUSKBN2661PI] and has also signed agreements with the U.K., Canada, Australia, and South Korea [@url:https://ir.novavax.com/news-releases/news-release-details/novavax-announces-expanded-collaboration-and-license-agreement] as well as projecting that they will supply 1.1 billion doses to COVAX for distribution to countries with limited access to vaccine supplies [@url:https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html].
-<!--To Do: closing sentence contextualizing role protein subunit vaccines may play in this pandemic relative to previous ones-->
+There have been several approaches investigated in the search for a potential SARS-CoV vaccine, including vaccines targeting the full-length or trimeric S protein [@doi:10.1128/JVI.00083-06; @doi:10.1089/vim.2012.0076], those focused on the RBD protein only [@doi:10.1016/j.vaccine.2006.10.031; @doi:10.1016/j.bbrc.2009.05.003; @doi:10.1089/vim.2009.0090; @doi:10.1016/j.vaccine.2006.06.084] or non-RBD S protein fragments [@doi:10.1089/vim.2012.0076; @doi:10.1089/dna.2005.24.510], as well as the N and M proteins [@doi:10.1128/jcm.43.8.3718-3726.2005; @doi:10.1016/j.vaccine.2009.05.073; @doi:10.1016/j.vaccine.2006.01.058]; these efforts have been thoroughly reviewed elsewhere [@doi:10.3389/fmicb.2020.00298].
+There have been examples of success in preclinical research including candidate RBD219N-1, a 218-amino-acid residue of the SARS-CoV RBD that, when adjuvanted to aluminum hydroxide, was capable of eliciting a high RBD-specific and neutralizing antibody response in both pseudovirus and live virus infections of immunized mice [@doi:10.4161/hv.27464].
+Another set of studies has examined the immunogenicity of a SARS-CoV RBD fused with IgG1 Fc.
+This recombinant fusion protein could induce a robust long-lasting neutralizing antibody and cellular immune response that protected mice from SARS-CoV [@doi:10.3389/fimmu.2020.602256; @doi:10.1016/j.vaccine.2006.10.031; @doi:10.1016/j.vaccine.2006.06.084].
+While there have been other potential protein subunit vaccines for SARS-CoV investigated _in vivo_ [@10.3389/fimmu.2020.602256; @doi:10.3389/fmicb.2020.00298], none of these candidates have successfully completed clinical trials, more than likely due to the fact that the SARS-CoV epidemic mostly ended by May 2004, and there was thus less of a demand for SARS-CoV vaccine research. 
+
+Similar vaccine candidates have emerged that target the RBD found in the S1 subunit of the trimeric MERS-CoV S protein, which binds to dipeptidyl-peptidase 4 (DPP4 also known as hCD26), the entry point through which MERS-CoV infects cells [@doi:10.1038/nature12005; @doi:10.1038/nature12328; @doi:10.1128/JVI.01277-13].
+After initially determining that an RBD subunit candidate (S377-588-Fc) could elicit neutralizing antibodies [@doi:10.1371/journal.pone.0081587], a study in mice determined that the administration of three sequential doses of RBD-Fc vaccine coupled with MF59, a squalene immunogenic adjuvant, induced humoral and systemic immunity in mice [@doi:10.1038/cmi.2015.03].
+Mice that had been transduced with Ad5-hCD26 and subsequently challenged with MERS-CoV five days later did not show evidence of viral infection in the lungs versus control mice at ten days post vaccination [@doi:10.1038/cmi.2015.03].
+Other variations of this vaccine approach include a stable S trimer vaccine whereby proline-substituted variants of S2 can maintain a stable prefusion conformation of the S2 domain [@10.3389/fimmu.2020.602256].
+This approach leads to broad and potent neutralizing antibodies [@10.3389/fimmu.2020.602256]. 
+
+Other strategies investigating the potential use of the full length S DNA have also been investigated in mice and rhesus macaques, which elicited immune responses [@doi:10.1038/ncomms8712], but these responses were not as effective as the combination of S DNA and the S1 subunit protein together [@doi:10.1038/ncomms8712; @doi:10.1016/j.antiviral.2016.07.015].
+Similarly to the SARS-CoV vaccine candidates, the MERS-CoV protein subunit vaccine candidates generally target the RBD [@doi:10.3389/fmicb.2020.00298; @doi:10.1016/j.vaccine.2006.10.031; @doi:10.1016/j.ebiom.2015.08.031; @doi:10.1371/journal.pone.0112602; @doi:10.1016/j.vaccine.2018.02.065; @doi:10.1016/j.virol.2016.10.005], with some targeting the full length S protein [@doi:10.1073/pnas.1707304114], non-RBD protein fragments such as the SP3 peptide [@doi:10.1089/vim.2014.0080], and the recombinant N-terminal domain (rNTD) [@doi:10.1016/j.vaccine.2016.11.064].
+No protein subunit vaccine for MERS-CoV has progressed beyond preclinical research to date. 
+
+More than 20 protein subunit vaccines from companies such as Sanofi/GlaxoSmithKline, Nanogen, and the Serum Institute of India have entered clinical trials for COVID-19 since the beginning of the pandemic [@url:https://covid19.trackvaccines.org/vaccines].
+However, the NVX-CoV2373, produced by U.S. company Novavax and partners has had the most success to date. 
+NVX-CoV2373 is a protein nanoparticle vaccine candidate against SARS-CoV-2 that is constructed from a mutated prefusion SARS-CoV-2 spike protein in combination with a specialized saponin-based adjuvant to elicit an immune response against SARS-CoV-2. 
+The spike protein is recombinantly expressed in Sf9 insect cells [@doi:10.1038/s41467-020-20653-8], which have previously been used for several other FDA-approved protein therapeutics [@doi:10.1021/acs.iecr.8b00985], and contains mutations in the furin cleavage site (682-RRAR-685 to 682-QQAQ-685) along with two proline substitutions (K986P and V987P) that improve thermostability [@doi:10.1038/s41467-020-20653-8]. 
+In preclinical mouse models, Novavax-CoV2373 elicited high anti-spike IgG titers 21 to 28 days post-vaccination that could neutralize the SARS-CoV-2 virus and protect the animals against viral challenge, with particularly strong effects when administered with the proprietary adjuvant Matrix-M^TM^ [@doi:10.1038/s41467-020-20653-8]. 
+In a phase I/II trial, a two-dose regimen of NVX-CoV2373 was found to induce anti-spike IgG levels and neutralizing antibody-titers exceeding those observed in convalescent plasma donated by symptomatic patients [@doi:10.1056/NEJMoa2026920]. 
+In line with the preclinical studies, the use of Matrix-M adjuvant further increased anti-spike immunoglobulin levels and induced a Th1 response. 
+
+In a phase III randomized, observer-blinded, placebo-controlled clinical trial in 14,039 participants, two 5-&mu;g doses of NVX-CoV2373 or placebo were administered 21 days apart in a 1:1 ratio from late September to late November 2020 [@doi:10.1056/NEJMoa2107659].
+The primary endpoint of the trial was the occurrence or absence of PCR-confirmed, symptomatic mild, moderate or severe COVID-19 from 7 days after the second dose onward.
+Side effects were monitored in 2,310 participants and were generally considered mild, with low incidences of headache, muscle pain, and fatigue. 
+Novavax efficacy was reported to be 89.7%, with no hospitalizations or deaths reported in the vaccine group, and a total of 10 patients developing COVID-19 in the vaccine group versus 96 in the placebo group.
+_Post hoc_ analysis determined that the vaccine had an efficacy of 86.3% against the Alpha variant (identified based on the presence/absence of the 69–70del polymorphism) and 96.4% against other variants [@doi:10.1056/NEJMoa2107659].
+
+In a subgroup of approximately 400 patients enrolled from the U.K. phase III trial who received either NVX-CoV2373 or placebo 1:1, a concomitant dose of adjuvanted seasonal influenza vaccines (either a trivalent vaccine or a quadrivalent vaccine) was administered [@doi:10.1101/2021.06.09.21258556]. 
+This study demonstrated that both types of vaccines could be safely administered together. 
+While no change to the immune response was noted for the influenza vaccine, a notable reduction of the antibody response for the NVX-CoV2373 was reported, but efficacy was still high at 87.5% [@doi:10.1101/2021.06.09.21258556].
+Novavax has since started phase I/II trials to investigate the administration of its own influenza vaccine, NanoFlu^™^, concomitantly with NVX-CoV2373 [@url:https://ir.novavax.com/2021-09-08-Novavax-Initiates-Phase-1-2-Clinical-Trial-of-Combination-Vaccine-for-COVID-19-and-Seasonal-Influenza], which appeared to be safe and effective in preclinical studies [@doi:10.1101/2021.05.05.442782].
+
+An additional phase III randomized, observer-blinded, placebo-controlled trial was conducted in the U.S. and Mexico, enrolling 29,949 participants and administering at least 1 vaccine in a 2:1 ratio from late December 2020 to late February 2021 with the same primary endpoints as the U.K. trial [@doi:10.1101/2021.10.05.21264567].
+Again, the vaccine was well tolerated, and a vaccine efficacy of 90.4% was reported based on 77 cases total, 63 of which occurred in the placebo group.
+All moderate to severe cases of COVID-19 occurred in the placebo group.
+Whole-genome sequencing was obtained from 61 of the 77 cases, and 79% of infections were identified as a VOC or VOI that had been characterized at the time of the study.
+Vaccine efficacy against cases caused by VOC, among which the Alpha variant was predominant (88.6%), was reported to be 92.6% [@doi:10.1101/2021.10.05.21264567]. 
+The conclusions of both trials indicate that the NVX-CoV2373 vaccine is safe and effective against COVID-19, and those who received this vaccine through the trials are considered fully vaccinated [@url:https://ir.novavax.com/Novavax-Statement-on-UK-and-Mexico-Phase-3-Clinical-Trial-Participants-Considered-Fully-Vaccinated-in-the-US].
+
+Novavax is now preparing to apply for an EUA to the FDA [@url:https://ir.novavax.com/Novavax-Statement-on-UK-and-Mexico-Phase-3-Clinical-Trial-Participants-Considered-Fully-Vaccinated-in-the-US].
+It has also been reported that Novavax initiated booster trials in the U.K. [https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html]. 
+However, the Novavax vaccine has yet to be approved in any country but is allowed for emergency use in Indonesia [@url:https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html], and according to press releases there have been applications for approval for use submitted to New Zealand, Australia, the U.K., and Canada [@url:https://ir.novavax.com/press-releases] and for emergency use listing with the WHO [@url:https://ir.novavax.com/2021-11-04-Novavax-Files-COVID-19-Vaccine-for-Emergency-Use-Listing-with-World-Health-Organization].
+Indeed, Novavax has also promised to provide up to 1.1 billion doses to COVAX; however, there have been reports of struggle to maintain production capacity and quality, hindering its production targets [@url:https://www.politico.com/news/2021/10/19/novavax-vaccine-rush-process-global-campaign-516298].
+
+The development of a protein subunit vaccine against SARS-CoV-2 is a remarkable achievement given the short period of time since the emergence of SARS-CoV-2 in 2019, particularly considering these types of vaccines have not played a major role in previous pandemics.  
+However, protein subunit vaccines do play a role in public health and have contributed to vaccination against hepatitis B [@doi:10/d4g86c] and pertussis [@doi:10.1128/mBio.01339-14; @doi:10.1371/journal.ppat.1003418] since the 1980s and will likely continue to contribute to public health for the foreseeable future due to ongoing research in vaccines against influenza, SARS-CoV-2, Epstein-Barr virus, dengue virus, and human papillomavirus among others [@doi:10.1016/j.micinf.2014.12.006; @doi:https://covid19.trackvaccines.org/vaccines; @doi:10.1080/21655979.2016.1191707].
 
 ### Vaccines Delivering DNA
 
@@ -4797,7 +4843,7 @@ Trials that recruit across multiple countries do appear to broaden geographic re
 The density of clinical trials is reported at the country level.
 As of December 31, 2020, there are 6,987 trials in the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709], of which 3,962 are interventional.
 The top figure demonstrates the density of interventional trials recruiting only from a singular country, while the bottom shows the distribution of recruitment for interventional trials that involve more than one country.
-](https://github.com/greenelab/covid19-review/raw/f42b0bf48a68c5547bac29976a1b9a09ba2cc5cd/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
+](https://github.com/greenelab/covid19-review/raw/9042b01a63837c9e72013c2ef9289bff1b59cd20/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
 
 A few different concerns arise from this skewed geographic representation in clinical trial recruitment.
 First, treatments such as remdesivir that are promising but primarily available to clinical trial participants are unlikely to be accessible by people in many countries.
