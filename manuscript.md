@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2021-11-17'
+date-meta: '2021-11-18'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -70,8 +70,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2021-11-17" />
-  <meta name="citation_publication_date" content="2021-11-17" />
+  <meta name="dc.date" content="2021-11-18" />
+  <meta name="citation_publication_date" content="2021-11-18" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -279,13 +279,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/650f049f911be0939d783e08e5f3e071df02d1df/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/650f049f911be0939d783e08e5f3e071df02d1df/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/650f049f911be0939d783e08e5f3e071df02d1df/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/ccdf55652d00929753702d09a912037ee0ec75fa/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/ccdf55652d00929753702d09a912037ee0ec75fa/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/ccdf55652d00929753702d09a912037ee0ec75fa/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/650f049f911be0939d783e08e5f3e071df02d1df/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/650f049f911be0939d783e08e5f3e071df02d1df/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/ccdf55652d00929753702d09a912037ee0ec75fa/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/ccdf55652d00929753702d09a912037ee0ec75fa/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -307,11 +307,11 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/650f049f911be0939d783e08e5f3e071df02d1df/))
+([permalink](https://greenelab.github.io/covid19-review/v/ccdf55652d00929753702d09a912037ee0ec75fa/))
 was automatically generated
-from [greenelab/covid19-review@650f049](https://github.com/greenelab/covid19-review/tree/650f049f911be0939d783e08e5f3e071df02d1df)
-on November 17, 2021.
-It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/650f049f911be0939d783e08e5f3e071df02d1df/manuscript.pdf).
+from [greenelab/covid19-review@ccdf556](https://github.com/greenelab/covid19-review/tree/ccdf55652d00929753702d09a912037ee0ec75fa)
+on November 18, 2021.
+It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/ccdf55652d00929753702d09a912037ee0ec75fa/manuscript.pdf).
 Snapshots of individual sections have been published [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals; @individual-methods].
 </em></small>
 
@@ -1924,14 +1924,14 @@ The scale of the COVID-19 pandemic has made the repurposing and development of p
 
 ![
 **Cumulative global incidence of COVID-19 and SARS.**
-As of November 15, 2021, 253,860,137 COVID-19 cases and 5,107,084 COVID-19 deaths had been reported worldwide since January 22, 2020.
+As of November 16, 2021, 254,382,438 COVID-19 cases and 5,114,874 COVID-19 deaths had been reported worldwide since January 22, 2020.
 A total of 8,432 cases and 813 deaths were reported for SARS from March 17 to July 11, 2003.
 SARS-CoV-1 was officially contained on July 5, 2003, within 9 months of its appearance [@doi:10.3390/ijerph17113973].
 In contrast, SARS-CoV-2 remains a significant global threat nearly two years after its emergence.
 COVID-19 data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series; @doi:10/ggnsjk].
 SARS data are from the WHO [@url:https://www.who.int/csr/sars/country/en] and were obtained from a dataset on GitHub [@url:https://github.com/imdevskp/sars-2003-outbreak-data-webscraping-code].
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/9042b01a63837c9e72013c2ef9289bff1b59cd20/csse/csse-deaths.png "Global incidence of COVID-19 and SARS"){#fig:csse-deaths secno=1}
+](https://github.com/greenelab/covid19-review/raw/e640b4a21515acb7618addd07a9d6e259224d230/csse/csse-deaths.png "Global incidence of COVID-19 and SARS"){#fig:csse-deaths secno=1}
 
 At first, SARS-CoV-2's rapid shift from an unknown virus to a significant worldwide threat closely paralleled the emergence of _Severe acute respiratory syndrome-related coronavirus_ (SARS-CoV-1), which was responsible for the 2002-03 SARS epidemic.
 The first documented case of COVID-19 was reported in Wuhan, China in November 2019, and the disease quickly spread worldwide in the early months of 2020.
@@ -1988,7 +1988,7 @@ Recruitment status and trial phase are shown only for interventional trials in w
 Common interventions refers to interventions used in at least ten trials.
 Combinations of interventions, such as hydroxychloroquine with azithromycin, are tallied separately from the individual interventions.
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/9042b01a63837c9e72013c2ef9289bff1b59cd20/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/e640b4a21515acb7618addd07a9d6e259224d230/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 The purpose of this review is to provide an evolving resource tracking the status of efforts to repurpose and develop drugs for the treatment of COVID-19.
 We highlight four strategies that provide different paradigms for the identification of potential pharmaceutical treatments.
@@ -2469,7 +2469,7 @@ Although not discussed here, several vaccine development programs have also met 
 | Dexamethasone | A | Small molecule, broad spectrum | Used off-label | RCT | Supported: RCT shows improved outcomes over SOC, especially in severe cases such as CRS |
 |Remdesivir | A | Small molecule, antiviral, adenosine analog | Approved for COVID-19 (and EUA for combination with baricitinib) | RCT | Mixed: Conflicting evidence from large WHO-led Solidarity trial vs US-focused RCT and other studies |
 | Tocilizumab |A | Biologic, monoclonal antibody | EUA | RCT | Mixed: It appears that TCZ may work well in combination with dexamethasone in severe cases, but not as monotherapy |
-| Sotrovimab | N/A | Biological, monoclonal antibody | EUA | RCT | Supported: Phase 2/3 clinical trial showed reduced hospitalization/death
+| Sotrovimab | N/A | Biologic, monoclonal antibody | EUA | RCT | Supported: Phase 2/3 clinical trial showed reduced hospitalization/death
 | Bamlanivimab and etesevimab | B & N/A | Biologic, monoclonal antibodies | EUA | RCT | Supported: Phase 2 clinical trial showed reduction in viral load, but FDA pause recommended because may be less effective against Delta variant|
 | Casirivimab and imdevimab | N/A | Biologic, monoclonal antibodies | EUA | RCT | Supported: Reduced viral load at interim analysis |
 | Fluvoxamine | B | Small-molecule, Sigma-1 receptor agonist | N/A | RCT | Supported: Support from two small RCTs and preliminary support from interim analysis of TOGETHER
@@ -3056,7 +3056,7 @@ Vaccine development began almost five centuries ago, but the SARS-CoV-2 pandemic
 ### Importance
 
 The SARS-CoV-2 pandemic has caused untold damage to the global population, but it also presented some unique opportunities for vaccine development.
-As of November 15, 2021, SARS-CoV-2 has infected over 253,860,137 and cost the lives of 5,107,084 people globally.
+As of November 16, 2021, SARS-CoV-2 has infected over 254,382,438 and cost the lives of 5,114,874 people globally.
 The development, production, and distribution of vaccines is imperative to saving lives, preventing illness, and reducing the economic and social burdens caused by the COVID-19 pandemic.
 Now that promising candidates exist, effective deployment will provide an opportunity to move into a new phase of the pandemic where the susceptibility of worldwide populations is significantly reduced.
 This review provides a historical context for vaccine development and highlights the main strategies utilized for the development of the COVID-19 vaccines, their clinical appraisal, and their distribution.
@@ -3130,8 +3130,7 @@ Despite major steps forward in the development of DNA vaccine technology, no DNA
 Similarly, interest in messenger RNA (mRNA) vaccines emerged around 1990 following _in vitro_ and animal model studies that demonstrated that mRNA could be transferred into cells [@doi:10.1016/j.nantod.2019.100766; @doi:10.4161/rna.22269].
 This approach operates one level above the DNA: instead of directly furnishing the gene sequence associated with an antigen to the host, it provides the mRNA transcribed from the DNA sequence.
 mRNA contains the minimum information needed to create a protein [@doi:10.4161/rna.22269].
-Some of the potential advantages of mRNA compared to DNA include safety, as it cannot be integrated by the host and the half life can be regulated, it avoids any issues of a host immune response against the vector, and it holds the potential to dramatically accelerate vaccine manufacturing and development [@doi:10.1038/nrd.2017.243; @doi:10.4161/rna.22269].
-<!--To Do: Add 10.1056/NEJMcibr2111445 either here or in mRNA section-->
+Some of the potential advantages of mRNA compared to DNA include safety, as it cannot be integrated by the host and the half life can be regulated, it avoids any issues of a host immune response against the vector, and it holds the potential to dramatically accelerate vaccine manufacturing and development [@doi:10.1038/nrd.2017.243; @doi:10.4161/rna.22269].<!--To Do: Add 10.1056/NEJMcibr2111445 either here or in mRNA section--><!--To Do: address on line 70: Are these just advantages comparing mRNA vs DNA vaccines? The first citations seems to imply that these are advantages over protein-based vaccines as well (subunit and whole inactivated vaccines).-->
 As of the 2010s, mRNA was still considered a promising technology for future advances in vaccine development [@doi:10.4161/rna.22269], but prior to 2020, no mRNA vaccines had been approved for use in humans, despite significant advances in the development of this technology [@doi:10.1038/nrd.2017.243].
 Therefore, while these technologies elegantly capitalize on decades of research in vaccine development as well as the tools of the genomic revolution, it was largely unknown prior to the SARS-CoV-2 pandemic whether this potential could be realized in a real-world vaccination effort.
 
@@ -3556,6 +3555,77 @@ A few months later, interim results from the phase III trial indicated 94.5% eff
 Similar to BNT162b2, the vaccine was associated with mild-to-moderate adverse effects but with a low risk of serious adverse events [@doi:10.1056/NEJMoa2035389]. 
 In late 2020, both vaccines both received approval from the United States's Food and Drug Administration (FDA) under an emergency use authorization [@url:https://www.fda.gov/news-events/press-announcements/fda-takes-key-action-fight-against-covid-19-issuing-emergency-use-authorization-first-covid-19; @url:https://www.cdc.gov/mmwr/volumes/69/wr/mm695152e1.htm], and these vaccines have been widely distributed, primarily in North America and the European Union [@url:https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html].
 As the first mRNA vaccines to make it to market, these two highly efficacious vaccines demonstrate the power of this emerging technology, which has previously attracted scientific interest because of its potential to be used to treat non-infectious as well as infectious diseases.
+
+### Viral Evolution and Vaccine Efficacy
+
+An ongoing topic of concern is how the evolution of SARS-CoV-2 influences vaccine efficacy.
+Between December 2020 and April 2021, one prospective cohort study obtained weekly nasal swabs from 3,975 individuals at high risk of SARS-CoV-2 exposure (health care workers, frontline workers, etc.) within the United States [@doi:10.1056/NEJMoa2107058].
+Among these participants, 3,179 (80%) had received at least one dose of an mRNA vaccine and 2,686 (84%) were fully vaccinated.
+For each vaccinated participant (defined here as having received at least dose 1 more than 7 days ago) whose sample tested positive for SARS-CoV-2, they categorized the viral lineage(s) present in the sample as well as in samples from 3-4 unvaccinated individuals matched by site and testing date.
+Overall efficacy of mRNA vaccines was estimated at 91% with full vaccination, similar to the reports from the clinical trials.
+The occurrence of fevers was also lower in individuals who were partially or fully vaccinated, and the duration of symptoms was approximately 6 days shorter.
+<!--Flesh this out, what were the relative rates of strains?-->
+
+### Vaccines and Community Spread
+
+The vaccine clinical trial data demonstrate a significant reduction in the likelihood of contracting symptomatic COVID-19, thereby succeeding in the primary goal of vaccination.
+The mRNA vaccines in particular are so effective in preventing severe disease and death that it is also worth considering whether they might reduce disease transmission, given that vaccination rates are unlikely to reach 100%.
+This question hinges on whether vaccinated individuals with or without symptoms of COVID-19 can still spread SARS-CoV-2.
+This question is made up of several components.
+The crux is whether vaccinated individuals with a SARS-CoV-2 infection, regardless of symptom status, are as contagious as unvaccinated, infected individuals.
+Additionally, as outlined above, an important qualification is that the variants of SARS-CoV-2 circulating at the time of each study must be considered in light of the effect of evolution on vaccine efficacy.
+
+The phase 2/3 clinical trials evaluating the mRNA vaccines assessed vaccine efficacy based on COVID-19 diagnosis, thereby detecting only patients who received a diagnosis.
+In order to identify patients infected with SARS-CoV-2 who did not receive a diagnosis, for example, potentially those who did not develop symptoms, it would be necessary to conduct routine PCR testing even in the absence of symptoms.
+Prior to the development of vaccines, the evidence suggested that asymptomatic individuals could still spread SARS-CoV-2.
+Investigation of viral dynamics of asymptomatic infection in early 2020 indicated that asymptomatic patients continued to shed the virus for a duration similar to that of symptomatic patients [@doi:10.1016/j.ijid.2020.05.030] (although viral shedding should not be conflated with contagiousness without further investigation [@individual-pathogenesis]).
+Another study found viral load to be higher in the nasopharyngeal/oropharyngeal samples of asymptomatic patients compared to symptomatic patients hospitalized due to symptoms and/or known exposure [@doi:10.1007/s15010-020-01548-8].
+However, the sample size in both of these studies was small, and a larger study found higher viral load in symptomatic than asymptomatic cases [@doi:10.3390/v13020304] along with a systematic review finding a reduced probability of asymptomatic transmission [@doi:10.3138/jammi-2020-0030].
+While far from conclusive, these studies suggest that asymptomatic cases still cary a risk of transmitting SARS-CoV-2.
+
+One important consideration is therefore how likely vaccinated individuals are to develop asymptomatic SARS-CoV-2.
+Considering asymptomatic cases is necessary to establish a more complete picture of efficacy with respect to spread.<!-- To Do: Possible figure indicating pyramid of risk with and without vaccines?-->
+Routine testing of healthcare workers in California who had received an mRNA vaccine revealed slightly higher rates of absolute risk for testing positive than those identified in the phase 2/3 trials, although the extent to which asymptomatic infection influenced these numbers was not investigated [@doi:10.1056/NEJMc2101927].
+Another study analyzed the results of COVID-19 screening tests administered to asymptomatic individuals prior to receiving certain medical services at the Mayo Clinic in several locations across the United States.
+This study found patients who had received two doses of an mRNA vaccine to be 73% less likely to have asymptomatic COVID-19 than patients who had received zero doses [@doi:10.1093/cid/ciab229/6167855].
+Because this study began on December 17, 2020, a date selected to coincide with the first day vaccines were available at the Mayo Clinic, this number may underestimate the efficacy of the vaccines given that many people eligible for early vaccination were at increased risk for exposure (e.g., healthcare workers and residents of long-term care facilities) [@doi:10.1093/cid/ciab229/6167855].
+In Israel, a longitudinal study of nearly 12,000 healthcare workers found that of the 5,372 fully vaccinated people with Pfizer/BioNTech BNT162b2, 8 developed symptomatic COVID-19 (BNT162b2 (.15%) and 19 developed asymptomatic COVID-19 (.35%) [@doi:10.1001/jama.2021.7152].
+While the study itself analyzed the efficacy of the vaccine based on person-days, these findings also suggest that many or even the majority of SARS-CoV-2 infections in vaccinated individuals are likely to be asymptomatic.
+Therefore, in addition to the symptomatic cases reported by the vaccine clinical trials, these findings suggest that asymptomatic cases can also occur in vaccinated people.
+In the absence of symptoms, individuals are less likely to know to self-isolate, and therefore evaluating the effect of the vaccine on viral load is critical to understanding the role vaccinated individuals can play in spreading SARS-CoV-2.
+
+Another question of interest is therefore whether vaccinated individuals positive for SARS-CoV-2 carry a similar viral load to unvaccinated individuals.
+Viral load is often approximated by cycle threshold (C~t~), or the cycle at which viral presence is detected during RT-qPCR, with a lower C~t~ corresponding to a greater viral load. 
+A prospective cohort study that evaluated front-line workers in six U.S. states from December 2020 to April 2021 reported a 40% reduction in viral load even with just a single dose of an mRNA vaccine [@doi:10.1056/nejmoa2107058].
+The vaccine also appeared to influence the time to viral clearance: the risk of having detectable levels of SARS-CoV-2 for more than one week was reduced by 66% in participants who had received at least one dose [@doi:10.1056/nejmoa2107058].
+However, this study compared the mean viral load across the two groups, meaning that these findings cannot be extrapolated across all points in the disease course.
+Similarly, between December 2020 and February 2021, positive RT-qPCR tests were analyzed for almost 5,000 Israeli patients [@doi:10.1038/s41591-021-01316-7].
+C~t~ was analyzed relative to when each patient received the first dose of the Pfizer mRNA vaccine.
+A sharp increase in C~t~ (corresponding to reduced viral load) was observed between days 11 and 12, consistent with what is known about the onset of immunity following vaccination.
+This pattern therefore suggested a direct effect of vaccination on viral load.
+
+Other studies, however, have not offered support for a reduced viral load in breakthrough cases.
+In Singapore, which has strict protocols for screening individuals with potential COVID-19 exposure, a retrospective cohort of patients who tested positive for SARS-CoV-2 between April and June 2021 was analyzed to compare viral kinetics and symptom course between vaccinated and unvaccinated cases.
+Vaccinated individuals who tested positive experienced fewer symptoms than unvaccinated, SARS-CoV-2-positive individuals and were more likely to be asymptomatic [@doi:10.1101/2021.07.28.21261295] (Appendix).
+Additionally, this study analyzed C~t~ over time and found that, though the median values were similar between the two groups at disease onset, viral load appeared to decrease more rapidly in vaccinated cases [@doi:10.1101/2021.07.28.21261295] (Appendix).
+This study is likely to have evaluated a more accurate representation of all COVID-19 outcomes than has been feasible in most studies, but one limitation was that the RT-PCR reactions were conducted in many different facilities.
+A third study investigated viral load (as approximated by C~t~) using samples processed in a single laboratory during the summer of 2021 [@doi:10.1101/2021.07.31.21261387].
+This study identified no significant differences in C~t~ between fully vaccinated and unvaccinated cases, but this study used samples sent for diagnosis and was not longitudinal.
+It offered the additional benefit of culturing samples to assess whether their C~t~ threshold was likely to represent contagiousness and found that SARS-CoV-2 could be cultured from 51 of 55 samples with C~t~ less than 25 (the cut-off used in many studies).
+Another study of samples collected at two sites in San Francisco, one of which tested only asymptomatic individuals, reported no difference in C~t~ between asymptomatic and symptomatic cases regardless of whether vaccination status was included in the model [@doi:10.1101/2021.09.28.21264262].
+Though each of these three studies offers distinct strengths and weaknesses, taken together, they suggest that viral load is likely to be similar in vaccinated and unvaccinated individuals, but that vaccinated individuals clear the virus more rapidly, meaning that the average viral load is lower over time.
+
+Given the emergence of variants of concern, especially the Delta variant, for which breakthrough infections are more common, the potential for vaccinated individuals to spread SARS-CoV-2 is not necessarily static over time.
+In fact, studies reporting reduced viral load in vaccinated individuals collected samples, for the most part, prior to the emergence of the Delta variant's dominance.
+<!-- Check this when writing section about vaccines & delta. Also add a sentence about different mRNA vaccines and different efficacy wrt Delta-->
+The emergence of this variant may partially account for why more recent studies tend to find no difference between viral load in vaccinated and unvaccinated cases.
+
+Taken together, these findings can provide some insight into how vaccines influence community spread.
+While vaccinated individuals may be more likely to experience asymptomatic infection, current evidence about viral load in asymptomatic versus symptomatic cases is ambiguous.
+Similarly, no conclusions can be drawn about whether viral load is different in vaccinated versus unvaccinated cases.
+Therefore, at present, the evidence suggests that vaccinated individuals who are infected can still contribute to community spread.
+The one potential mitigating factor supported at present is that differences in the viral kinetics may result in vaccinated cases infecting fewer individuals over time due to a more rapid decrease in viral load [@doi:10.1101/2021.07.28.21261295], although this study did not examine patterns in secondary transmission.
+Thus, the virological evidence suggests that public health measures such as masking and distancing remain important even in areas with high vaccination rates.
 
 ### Discussion (Probably to be fleshed out into multiple sections)
 
@@ -4064,6 +4134,29 @@ This trial included over 15,000 participants in the UK and 4,000 participants in
 In the first interim analysis (U.K.), 56 cases of COVID-19 were observed in the placebo group compared to 6 cases in the treatment group.
 Importantly, the vaccine candidate also shows significant clinical efficacy against the prevalent UK and South African variants.
 The company has also initiated the development of new constructs to select candidates that can be used as a booster against new strains and plans to initiate clinical trials for these new constructs in the second quarter of 2021.
+
+### SARS-CoV-2 Evolution and Vaccine Efficacy
+
+#### Delta Variant and C~t~
+
+One preprint [@doi:10.1101/2021.07.28.21261295] analyzed a retrospective cohort of patients in Singapore who contracted COVID-19 from April to June of 2021.  
+
+This study focused on those who were confirmed or inferred to have been infected by the Delta variant of concern and its aim was to analyze virological kinetics.
+They identified 218 cases, 71 (33%) of whom were fully vaccinated with either the Pfizer/BioNTech or Moderna mRNA vaccines, 13 (6%) of whom had received only one dose or had received the second dose less than two weeks prior to infection, and four (2%) of whom had received a vaccine developed with another technology.
+Unvaccinated patients were more likely to be symptomatic or to progress to severe COVID-19 and showed more symptoms than vaccinated patients, despite the higher age of the vaccinated cohort.
+C~t~ was assessed over disease course, although the specific procedures for when additional RT-PCR was conducted is not clear; however, it is stated that the data was smoothed based on day of illness.
+There was no significant difference in median C~t~ in the initial samples taken from fully vaccinated and unvaccinated patients, but C~t~ increased (signifying reduced viral load)  more rapidly in fully vaccinated patients.
+Like most analyses analyzing C~t~ [@individual-pathogenesis], this study does not provide the data to make conclusions about contagiousness, as the samples were not cultured.
+All the same, these findings do suggest that vaccinated individuals may be able to clear the infection more quickly.
+
+A second analysis was based in a county of Wisconsin, USA during summer 2021, when the Delta variant was known to be the dominant variant in the region [@doi:10.1101/2021.07.31.21261387].
+According to Our World in Data, at the beginning of the study, 49.3% of residents of Dane County were fully vaccinated, with this number rising to 51.4% by the end of the study <!--To do: cite OWID-->, although an earlier version of the preprint reported the vaccination rate in Dane County as 67.4%.
+They identified no significant differences in C~t~ among fully vaccinated and unvaccinated cases.
+The C~t~ thresholds reported were consistent with contagiousness as evaluated in other studies, and in the present study, SARS-CoV-2 could be cultured from 51 of 55 samples with C~t~ less than 25.
+This study was not longitudinal, but the timing of testing relative to symptom onset between symptomatic vaccinated and unvaccinated patients.
+The findings of this study are therefore consistent with the idea that vaccinated people are less likely to contract symptomatic or severe COVID-19, but in cases of breakthrough infection, are still likely to be able to transmit SARS-CoV-2 to others.
+<!--Among 16 Dane County samples sequenced, 14 (88%) were identified as the Delta variant of concern, and 42 of 50 samples (84%) from WI as a whole were consistent with the Delta VOC.-->
+
 
 ### Vaccine Development Summary
 
@@ -4843,7 +4936,7 @@ Trials that recruit across multiple countries do appear to broaden geographic re
 The density of clinical trials is reported at the country level.
 As of December 31, 2020, there are 6,987 trials in the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709], of which 3,962 are interventional.
 The top figure demonstrates the density of interventional trials recruiting only from a singular country, while the bottom shows the distribution of recruitment for interventional trials that involve more than one country.
-](https://github.com/greenelab/covid19-review/raw/9042b01a63837c9e72013c2ef9289bff1b59cd20/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
+](https://github.com/greenelab/covid19-review/raw/e640b4a21515acb7618addd07a9d6e259224d230/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
 
 A few different concerns arise from this skewed geographic representation in clinical trial recruitment.
 First, treatments such as remdesivir that are promising but primarily available to clinical trial participants are unlikely to be accessible by people in many countries.
