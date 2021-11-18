@@ -1407,6 +1407,7 @@ organismal
 organoid
 organoids
 organoselenium
+oropharyngeal
 orthopaedic
 othered
 othering
@@ -1714,6 +1715,7 @@ unicode
 uninoculated
 unitless
 univariate
+unvaccinated
 upregulated
 upregulation
 uri
