@@ -278,13 +278,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/329abc66239e8a8567e42293f5cdc43cf07cd276/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/329abc66239e8a8567e42293f5cdc43cf07cd276/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/329abc66239e8a8567e42293f5cdc43cf07cd276/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/b6a95dc7a0c60aa3c0ba25e6fb03c94d9e83585e/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/b6a95dc7a0c60aa3c0ba25e6fb03c94d9e83585e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/b6a95dc7a0c60aa3c0ba25e6fb03c94d9e83585e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/329abc66239e8a8567e42293f5cdc43cf07cd276/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/329abc66239e8a8567e42293f5cdc43cf07cd276/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/b6a95dc7a0c60aa3c0ba25e6fb03c94d9e83585e/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/b6a95dc7a0c60aa3c0ba25e6fb03c94d9e83585e/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -306,11 +306,11 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/329abc66239e8a8567e42293f5cdc43cf07cd276/))
+([permalink](https://greenelab.github.io/covid19-review/v/b6a95dc7a0c60aa3c0ba25e6fb03c94d9e83585e/))
 was automatically generated
-from [greenelab/covid19-review@329abc6](https://github.com/greenelab/covid19-review/tree/329abc66239e8a8567e42293f5cdc43cf07cd276)
+from [greenelab/covid19-review@b6a95dc](https://github.com/greenelab/covid19-review/tree/b6a95dc7a0c60aa3c0ba25e6fb03c94d9e83585e)
 on December 2, 2021.
-It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/329abc66239e8a8567e42293f5cdc43cf07cd276/manuscript.pdf).
+It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/b6a95dc7a0c60aa3c0ba25e6fb03c94d9e83585e/manuscript.pdf).
 Snapshots of individual sections have been published [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals; @individual-methods].
 </em></small>
 
@@ -5344,7 +5344,7 @@ Future work can address remaining limitations and continue to advance Manubot as
 |Halie M. Rando|None|2021-01-20|
 |Casey S. Greene|None|2021-01-20|
 |Michael P. Robson|None|2020-11-12|
-|Simina M. Boca|Currently an employee at AstraZeneca, Gaithersburg, MD, USA, may own stock or stock options. Work initially conducted at Georgetown University Medical Center with writing, reviewing, and editing continued while working at AstraZeneca.|2021-07-01|
+|Simina M. Boca|Currently an employee at AstraZeneca, Gaithersburg, MD, USA, may own stock or stock options.|2021-07-01|
 |Nils Wellhausen|None|2020-11-03|
 |Ronan Lordan|None|2020-11-03|
 |Christian Brueffer|Employee and shareholder of SAGA Diagnostics AB.|2020-11-11|
@@ -5371,7 +5371,7 @@ Future work can address remaining limitations and continue to advance Manubot as
 |David Manheim|None|2020-11-11|
 |Soumita Ghosh|None|2020-11-09|
 |James Brian Byrd|Funded by FastGrants to conduct a COVID-19-related clinical trial|2020-11-12|
-|YoSon Park|Now employed by Pfizer (subsequent to contributions to this project)|2020-01-22|
+|YoSon Park|YoSon Park is affiliated with Pfizer Worldwide Research. The author has no financial interests to declare and contributed as an author prior to joining Pfizer, and the work was not part of a Pfizer collaboration nor was it funded by Pfizer.|2020-01-22|
 |Vikas Bansal|None|2021-01-25|
 |Stephen Capone|None|2020-11-11|
 |John J. Dziak|None|2020-11-11|
