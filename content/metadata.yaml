@@ -191,9 +191,8 @@ authors:
       confirmed: Yes
     affiliations:
       - Innovation Center for Biomedical Informatics, Georgetown University Medical Center, Washington, District of Columbia, United States of America
-      - Early Biometrics & Statistical Innovation, Data Science & Artificial Intelligence, R & D, AstraZeneca, Gaithersburg, Maryland, United States of America
     coi:
-      string: Currently an employee at AstraZeneca, Gaithersburg, MD, USA, may own stock or stock options. Work initially conducted at Georgetown University Medical Center with writing, reviewing, and editing continued while working at AstraZeneca.
+      string: Currently an employee at AstraZeneca, Gaithersburg, MD, USA, may own stock or stock options.
       lastapproved: !!str 2021-07-01
     manuscripts:
       pathogenesis:
@@ -925,7 +924,7 @@ authors:
     code of conduct:
       confirmed: yes
     coi:
-      string: "Now employed by Pfizer (subsequent to contributions to this project)"
+      string: "YoSon Park is affiliated with Pfizer Worldwide Research. The author has no financial interests to declare and contributed as an author prior to joining Pfizer, and the work was not part of a Pfizer collaboration nor was it funded by Pfizer."
       lastapproved: !!str 2020-01-22
     funders: NHGRI R01 HG10067
     manuscripts:
