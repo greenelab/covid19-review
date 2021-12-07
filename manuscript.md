@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2021-12-03'
+date-meta: '2021-12-07'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -70,8 +70,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2021-12-03" />
-  <meta name="citation_publication_date" content="2021-12-03" />
+  <meta name="dc.date" content="2021-12-07" />
+  <meta name="citation_publication_date" content="2021-12-07" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -278,13 +278,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/951150893d142c5a8b729ba0fb7a9d40ec0321a0/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/951150893d142c5a8b729ba0fb7a9d40ec0321a0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/951150893d142c5a8b729ba0fb7a9d40ec0321a0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/ee139f55ae6eab4a5639b1a9ceb567782553031b/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/ee139f55ae6eab4a5639b1a9ceb567782553031b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/ee139f55ae6eab4a5639b1a9ceb567782553031b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/951150893d142c5a8b729ba0fb7a9d40ec0321a0/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/951150893d142c5a8b729ba0fb7a9d40ec0321a0/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/ee139f55ae6eab4a5639b1a9ceb567782553031b/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/ee139f55ae6eab4a5639b1a9ceb567782553031b/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -306,11 +306,11 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/951150893d142c5a8b729ba0fb7a9d40ec0321a0/))
+([permalink](https://greenelab.github.io/covid19-review/v/ee139f55ae6eab4a5639b1a9ceb567782553031b/))
 was automatically generated
-from [greenelab/covid19-review@9511508](https://github.com/greenelab/covid19-review/tree/951150893d142c5a8b729ba0fb7a9d40ec0321a0)
-on December 3, 2021.
-It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/951150893d142c5a8b729ba0fb7a9d40ec0321a0/manuscript.pdf).
+from [greenelab/covid19-review@ee139f5](https://github.com/greenelab/covid19-review/tree/ee139f55ae6eab4a5639b1a9ceb567782553031b)
+on December 7, 2021.
+It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/ee139f55ae6eab4a5639b1a9ceb567782553031b/manuscript.pdf).
 Snapshots of individual sections have been published [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals; @individual-methods].
 </em></small>
 
@@ -1924,14 +1924,14 @@ The scale of the COVID-19 pandemic has made the repurposing and development of p
 
 ![
 **Cumulative global incidence of COVID-19 and SARS.**
-As of December 1, 2021, 263,509,565 COVID-19 cases and 5,224,655 COVID-19 deaths had been reported worldwide since January 22, 2020.
+As of December 5, 2021, 265,864,109 COVID-19 cases and 5,255,859 COVID-19 deaths had been reported worldwide since January 22, 2020.
 A total of 8,432 cases and 813 deaths were reported for SARS from March 17 to July 11, 2003.
 SARS-CoV-1 was officially contained on July 5, 2003, within 9 months of its appearance [@doi:10.3390/ijerph17113973].
 In contrast, SARS-CoV-2 remains a significant global threat nearly two years after its emergence.
 COVID-19 data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series; @doi:10/ggnsjk].
 SARS data are from the WHO [@url:https://www.who.int/csr/sars/country/en] and were obtained from a dataset on GitHub [@url:https://github.com/imdevskp/sars-2003-outbreak-data-webscraping-code].
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/2dd226515f00f600c602ea008a9a9cca4d5f5e7f/csse/csse-deaths.png "Global incidence of COVID-19 and SARS"){#fig:csse-deaths secno=1}
+](https://github.com/greenelab/covid19-review/raw/74524d5eab9a96f715bc1a883c2b8150dbee85e0/csse/csse-deaths.png "Global incidence of COVID-19 and SARS"){#fig:csse-deaths secno=1}
 
 At first, SARS-CoV-2's rapid shift from an unknown virus to a significant worldwide threat closely paralleled the emergence of _Severe acute respiratory syndrome-related coronavirus_ (SARS-CoV-1), which was responsible for the 2002-03 SARS epidemic.
 The first documented case of COVID-19 was reported in Wuhan, China in November 2019, and the disease quickly spread worldwide in the early months of 2020.
@@ -1988,7 +1988,7 @@ Recruitment status and trial phase are shown only for interventional trials in w
 Common interventions refers to interventions used in at least ten trials.
 Combinations of interventions, such as hydroxychloroquine with azithromycin, are tallied separately from the individual interventions.
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/2dd226515f00f600c602ea008a9a9cca4d5f5e7f/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/74524d5eab9a96f715bc1a883c2b8150dbee85e0/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 The purpose of this review is to provide an evolving resource tracking the status of efforts to repurpose and develop drugs for the treatment of COVID-19.
 We highlight four strategies that provide different paradigms for the identification of potential pharmaceutical treatments.
@@ -2586,14 +2586,12 @@ Moreover, the selection of patients did not take into consideration important fa
 Additionally, it should be noted that this study was temporarily retracted and then restored without an explanation [@url:https://retractionwatch.com/retracted-coronavirus-covid-19-papers].
 
 In late 2020 and early 2021, the first randomized controlled trials of favipiravir for the treatment of COVID-19 released results [@doi:10.1016/j.ejps.2020.105631; @doi:10.1007/s00705-021-04956-9; @doi:10.1093/cid/ciaa1176].
-The first [@doi:10.1016/j.ejps.2020.105631] used a randomized, controlled, open-label design to compare two drugs, favipiravir and baloxavir marboxil, to SOC alone.
+One study [@doi:10.1007/s00705-021-04956-9] was retracted in November 2021 due to concerns about the data.
+Of the two remaining, the first [@doi:10.1016/j.ejps.2020.105631] used a randomized, controlled, open-label design to compare two drugs, favipiravir and baloxavir marboxil, to SOC alone.
 Here, SOC included antivirals such as lopinavir/ritonavir and was administered to all patients.
 The primary endpoint analyzed was viral clearance at day 14.
 The sample size for this study was very small, with 29 total patients enrolled, and no significant effect of the treatments was found for the primary or any of the secondary outcomes analyzed, which included mortality.
-The second study [@doi:10.1007/s00705-021-04956-9] was larger, with 96 patients enrolled, and included only individuals with mild to moderate symptoms who were randomized into two groups: one receiving chloroquine (CQ) in addition to SOC, and the other receiving favipiravir in addition to SOC.
-This study reported a non-significant trend for patients receiving favipiravir to have a shorter hospital stay (13.29 days compared to 15.89 for CQ, _p_ = 0.06) and less likelihood of progressing to mechanical ventilation (_p_ = 0.118) or to an oxygen saturation < 90% (_p_ = 0.129).
-These results, combined with the fact that favipiravir was being compared to CQ, which is now widely understood to be ineffective for treating COVID-19, thus do not suggest that favipiravir was likely to have had a strong effect on these outcomes.
-On the other hand, another trial of 60 patients reported a significant effect of favipiravir on viral clearance at four days (a secondary endpoint), but not at 10 days (the primary endpoint) [@doi:10.1093/cid/ciaa1176].
+The second trial examined 60 patients and reported a significant effect of favipiravir on viral clearance at four days (a secondary endpoint), but not at 10 days (the primary endpoint) [@doi:10.1093/cid/ciaa1176].
 This study, as well as a prior study of favipiravir [@doi:10/ftgm], also reported that the drug was generally well-tolerated.
 Thus, in combination, these small studies suggest that the effects of favipiravir as a treatment for COVID-19 cannot be determined based on the available evidence, but additionally, none raise major concerns about the safety profile of the drug.
 
@@ -3056,7 +3054,7 @@ Vaccine development began almost five centuries ago, but the SARS-CoV-2 pandemic
 ### Importance
 
 The SARS-CoV-2 pandemic has caused untold damage to the global population, but it also presented some unique opportunities for vaccine development.
-As of December 1, 2021, SARS-CoV-2 has infected over 263,509,565 and cost the lives of 5,224,655 people globally.
+As of December 5, 2021, SARS-CoV-2 has infected over 265,864,109 and cost the lives of 5,255,859 people globally.
 The development, production, and distribution of vaccines is imperative to saving lives, preventing illness, and reducing the economic and social burdens caused by the COVID-19 pandemic.
 Now that promising candidates exist, effective deployment will provide an opportunity to move into a new phase of the pandemic where the susceptibility of worldwide populations is significantly reduced.
 This review provides a historical context for vaccine development and highlights the main strategies utilized for the development of the COVID-19 vaccines, their clinical appraisal, and their distribution.
@@ -4936,7 +4934,7 @@ Trials that recruit across multiple countries do appear to broaden geographic re
 The density of clinical trials is reported at the country level.
 As of December 31, 2020, there are 6,987 trials in the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709], of which 3,962 are interventional.
 The top figure demonstrates the density of interventional trials recruiting only from a singular country, while the bottom shows the distribution of recruitment for interventional trials that involve more than one country.
-](https://github.com/greenelab/covid19-review/raw/2dd226515f00f600c602ea008a9a9cca4d5f5e7f/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
+](https://github.com/greenelab/covid19-review/raw/74524d5eab9a96f715bc1a883c2b8150dbee85e0/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
 
 A few different concerns arise from this skewed geographic representation in clinical trial recruitment.
 First, treatments such as remdesivir that are promising but primarily available to clinical trial participants are unlikely to be accessible by people in many countries.
