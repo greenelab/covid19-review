@@ -119,6 +119,7 @@ def convert_date(git_date):
 def main(args):
     # Set up country mapping
     countries_mapping = setup_geopandas()
+
     # Import data from github.com/owid/covid-19-data
     owid_stats = dict()
 
@@ -169,8 +170,10 @@ def main(args):
     if len(missingInfo) > 0:
         exit("Missing platform information for " + ", ".join(missingInfo))
 
-    # Plot worldwide distribution by vaccine type
-    allVaxByCountry = dict(zip(vaccine_locations["iso_code"], vaccine_locations["vaccines"]))
+    # Transform list of vaccine candidate per iso code to list of
+    # ISO codes per vaccine candidate
+    allVaxByCountry = dict(zip(vaccine_locations["iso_code"],
+                               vaccine_locations["vaccines"]))
     countryByVax = dict()
     for iso, vaccines in allVaxByCountry.items():
         for vax in vaccines.split(","):
@@ -178,15 +181,21 @@ def main(args):
             countryCodes = countryByVax.get(vax, [])
             countryByVax[vax] = countryCodes + [iso]
 
+    # Add countries to vaccine platform info
+    vaxPlatforms['countries'] = vaxPlatforms.index.map(countryByVax)
 
-    vaxPlatforms['countries']=vaxPlatforms.index.map(countryByVax)
 
-    fig, (ax1, ax2) = plt.subplots(nrows=2, ncols=1, figsize=(20, 16))
-    fig.patch.set_visible(False)
-    ax1.axis('off')
-    ax2.axis('off')
+    #axes = [ax1, ax2, ax3, ax4]
+    # This is manually set up to handle 4 different vaccine types.
+    # This should be edited if the CSV is edited to add additional vaccines types
 
+    axisPos = 0
+    # Plot each vaccine type
     for platform in set(list(vaxPlatforms["Type"])):
+        fig, ax = plt.subplots(1, 1)
+        #fig.patch.set_visible(False)
+        ax.axis('off')
+
         vaccines = vaxPlatforms[vaxPlatforms["Type"] == platform]
         countries = [iso for country_list in vaccines["countries"]
                      for iso in country_list]
@@ -196,33 +205,29 @@ def main(args):
             counts[iso] = runningTot + 1
 
         vaxPresence = pd.DataFrame.from_dict(counts, orient="index",
-                                             columns=["count"])
-        countries_mapping.boundary.plot(ax=ax1, edgecolor="black")
+                                             columns=[platform])
+        countries_mapping.boundary.plot(ax=ax, edgecolor="black")
 
-        countries_mapping = countries_mapping.merge(vaxPresence,
-                                                    how="right",
+        mappingData = countries_mapping.merge(vaxPresence,
+                                                    how="left",
                                                     right_index=True,
                                                     left_on="iso_a3")
-        #countries_mapping['count'] =  countries_mapping['count'].fillna(0)
 
+        mappingData[platform] = mappingData[platform].fillna(0)
 
-        countries_mapping.plot(column='count', ax=ax1, legend=True)
-        ax1.set_title("Number of Single-Country Clinical Trials Recruiting by Country")
+        mappingData.plot(column=platform, ax=ax, cmap="Purples",
+                         legend=True, legend_kwds={'shrink': 0.2})
+        ax.set_title("Worldwide administration of " + platform + " vaccines")
 
-        #countries_mapping.boundary.plot(ax=ax2, edgecolor="black")
-        #countries_mapping.plot(column='multi_countries_counts', ax=ax2,
-        # legend=True, cmap="Purples")
-        #ax2.set_title("Number of Multi-Country Clinical Trials Recruiting by Country")
-        #ax2.annotate(f'Source: EBM Data Lab COVID-19 TrialsTracker, %s' %
-        #             date.today().strftime("%b-%d-%Y"),
-        #             xy=(0, 0), xycoords="axes points")
+        fig.tight_layout()
 
-        plt.savefig(args.output_map + '.png', dpi=300, bbox_inches="tight")
+        filename = '_'.join(platform.split(' '))
+        plt.savefig(args.map_dir + "/" + filename + '.png', dpi=300, bbox_inches="tight")
         #plt.savefig(args.output_map + '.svg', bbox_inches="tight")
 
-        exit(0)
 
-    print(f'Wrote {args.output_map}.png and {args.output_map}.svg')
+        print(f'Wrote {args.map_dir + "/" + filename + ".png"} and '
+              f'{args.map_dir + "/" + filename + ".svg"}')
 
     with open(args.output_json, 'w') as out_file:
         json.dump(owid_stats, out_file, indent=2, sort_keys=True)
@@ -238,8 +243,8 @@ if __name__ == '__main__':
     parser.add_argument('platform_types',
                         help='Path of the CSV file with the vaccine to platform mapping',
                         type=str)
-    parser.add_argument('output_map',
-                        help='Path of the image files with the vaccine distribution map image',
+    parser.add_argument('map_dir',
+                        help='Path of directory containing image files with the vaccine distribution map images',
                         type=str)
     args = parser.parse_args()
     main(args)

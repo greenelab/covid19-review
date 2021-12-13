@@ -14,7 +14,7 @@ export OWID_COMMIT_DATE=$(echo $OWID_COMMIT_JSON | python -c "import sys, json; 
 VACCINE_PLATFORMS=owiddata/vaccine_platforms.csv
 # The output filename
 OWID_STATS_JSON=owiddata/owiddata-stats.json
-OWID_MAP=owiddata/distributionmap
+OWID_MAP=owiddata/maps
 
 echo "Generating Our World in Data COVID-19 vaccine statistics"
 python owiddata/generate-owiddata-stats.py $OWID_STATS_JSON $VACCINE_PLATFORMS $OWID_MAP
