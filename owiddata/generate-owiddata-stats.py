@@ -6,7 +6,9 @@ import os
 import pandas as pd
 import geopandas
 import pycountry
+import matplotlib as mpl
 import matplotlib.pyplot as plt
+import mapclassify
 import matplotlib.gridspec as gridspec
 import seaborn as sns
 from collections import Counter
@@ -166,6 +168,11 @@ def main(args):
     owid_stats["owid_vaccine_types"] = format(len(vaxTypes))
     vaxPlatforms = pd.read_csv(args.platform_types, index_col="Manufacturer")
 
+    # Set the scale to be used for color-coding the plots
+    scale = max(vaxPlatforms["Type"].value_counts())
+    cmap = mpl.cm.Purples
+    norm = mpl.colors.BoundaryNorm(np.arange(0, scale + 1), cmap.N)
+
     missingInfo = [vax for vax in vaxTypes if vax not in vaxPlatforms.index]
     if len(missingInfo) > 0:
         exit("Missing platform information for " + ", ".join(missingInfo))
@@ -184,7 +191,6 @@ def main(args):
     # Add countries to vaccine platform info
     vaxPlatforms['countries'] = vaxPlatforms.index.map(countryByVax)
 
-
     #axes = [ax1, ax2, ax3, ax4]
     # This is manually set up to handle 4 different vaccine types.
     # This should be edited if the CSV is edited to add additional vaccines types
@@ -192,7 +198,7 @@ def main(args):
     axisPos = 0
     # Plot each vaccine type
     for platform in set(list(vaxPlatforms["Type"])):
-        fig, ax = plt.subplots(1, 1)
+        fig, ax = plt.subplots(1, 1, figsize=(6,4))
         #fig.patch.set_visible(False)
         ax.axis('off')
 
@@ -214,11 +220,15 @@ def main(args):
                                                     left_on="iso_a3")
 
         mappingData[platform] = mappingData[platform].fillna(0)
-
-        mappingData.plot(column=platform, ax=ax, cmap="Purples",
-                         legend=True, legend_kwds={'shrink': 0.2})
+        mappingData.plot(column=platform, ax=ax,
+                         legend=True, cmap=cmap, norm=norm,
+                         legend_kwds={'shrink': 0.2})
+                         #scheme = "User_Defined",
+                         #classification_kwds = dict(bins=range(0, scale+1)),
+                         #legend_kwds = dict(
+                         #    labels=range(0, len(vaxPlatforms[vaxPlatforms["Type"] == platform])),
+                         #    loc="lower left"))
         ax.set_title("Worldwide administration of " + platform + " vaccines")
-
         fig.tight_layout()
 
         filename = '_'.join(platform.split(' '))
