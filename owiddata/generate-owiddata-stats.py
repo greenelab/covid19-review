@@ -1,86 +1,13 @@
 import argparse
 import datetime
 import json
-from datetime import date
 import os
 import pandas as pd
 import geopandas
 import pycountry
 import matplotlib as mpl
 import matplotlib.pyplot as plt
-import mapclassify
-import matplotlib.gridspec as gridspec
-import seaborn as sns
-from collections import Counter
 import numpy as np
-import plotly.express as px
-
-def check_none(value):
-    """Raises ValueError if value is type None, else returns value"""
-    if isinstance(value, type(None)):
-        raise ValueError
-    return value
-
-def find_country(country):
-    """ .get retrieves data as class Country
-    .search_fuzzy matching returns a list
-    try a few ways to identify a match and
-    return as soon as find something valid
-    Input is country name (string)
-    If no match found, return None"""
-    try:
-        hit = pycountry.countries.get(name=country)
-        hit = check_none(hit)
-        return hit
-    except (LookupError, ValueError):
-        try:
-            hit = pycountry.countries.get(official_name=country)
-            hit = check_none(hit)
-            return hit
-        except (LookupError, ValueError):
-            try:
-                hit = pycountry.countries.search_fuzzy(country)
-                hit = check_none(hit)
-                if type(hit) == list and len(hit) == 1:
-                    return hit[0]
-                raise ValueError
-            except (LookupError, ValueError):
-                try:
-                    hit = pycountry.countries.search_fuzzy(country + ",")
-                    hit = check_none(hit)
-                    if isinstance(hit, list) and len(hit) == 1:
-                        return hit[0]
-                    else:
-                        raise ValueError
-                except (LookupError, ValueError):
-                    return None
-
-def assign_ISO(countries):
-    """ Match country names with ISO codes
-    Input: series of country names
-    Returns: dictionary of matches
-    :type countries: pd.Series """
-    # Need to hard code a few countries that aren't registered using standard names, so
-    # initializing the country_codes database with these irregular values
-    country_codes = {"South Korea": "KOR", "Democratic Republic of Congo": "COD",
-                     "Democratic Republic of the Congo": "COD", "UAE": "ARE"}
-
-    # Identify the most likely 3-letter ISO code for each country
-    failed_matches = list()
-    for country in countries:
-        if country not in country_codes.keys():
-            # Need to query the pycountry package but it can fail for a
-            # few reasons. Use function to avoid LookupError issues and
-            # try all the different ways that might help to match a
-            # country name to its ISO code
-            hit = find_country(country)
-            if not isinstance(hit, type(None)):
-                country_codes[country] = hit.alpha_3
-            else:
-                failed_matches.append(country)
-    # Print warning about failures and return successes as dictionary
-    print("Could not assign country codes to: ", ", ".join(failed_matches))
-    return country_codes
 
 def lowres_fix(world):
     """There is an issue with the map data source from geopandas where
@@ -122,7 +49,7 @@ def main(args):
     # Set up country mapping
     countries_mapping = setup_geopandas()
 
-    # Import data from github.com/owid/covid-19-data
+    # Create dictionary that will be exported as JSON
     owid_stats = dict()
 
     # Download data from a specific commit if the environment variable is set,
@@ -168,17 +95,17 @@ def main(args):
     owid_stats["owid_vaccine_types"] = format(len(vaxTypes))
     vaxPlatforms = pd.read_csv(args.platform_types, index_col="Manufacturer")
 
-    # Set the scale to be used for color-coding the plots
+    # Set the parameters color-coding the plots. Scale is the max candidates adminstered across all vaccine types.
     scale = max(vaxPlatforms["Type"].value_counts())
     cmap = mpl.cm.Purples
     norm = mpl.colors.BoundaryNorm(np.arange(0, scale + 1), cmap.N)
 
+    # Check that platform information is present (needs to be manually determined and input in vaccine_platforms.csv
     missingInfo = [vax for vax in vaxTypes if vax not in vaxPlatforms.index]
     if len(missingInfo) > 0:
         exit("Missing platform information for " + ", ".join(missingInfo))
 
-    # Transform list of vaccine candidate per iso code to list of
-    # ISO codes per vaccine candidate
+    # Transform list of vaccine candidate per iso code to list of ISO codes per vaccine candidate
     allVaxByCountry = dict(zip(vaccine_locations["iso_code"],
                                vaccine_locations["vaccines"]))
     countryByVax = dict()
@@ -188,23 +115,15 @@ def main(args):
             countryCodes = countryByVax.get(vax, [])
             countryByVax[vax] = countryCodes + [iso]
 
-    # Add countries to vaccine platform info
+    # Add countries to vaccine platform info and plot each vaccine type
     vaxPlatforms['countries'] = vaxPlatforms.index.map(countryByVax)
 
-    #axes = [ax1, ax2, ax3, ax4]
-    # This is manually set up to handle 4 different vaccine types.
-    # This should be edited if the CSV is edited to add additional vaccines types
-
-    axisPos = 0
-    # Plot each vaccine type
     for platform in set(list(vaxPlatforms["Type"])):
         fig, ax = plt.subplots(1, 1, figsize=(6,4))
-        #fig.patch.set_visible(False)
         ax.axis('off')
 
         vaccines = vaxPlatforms[vaxPlatforms["Type"] == platform]
-        countries = [iso for country_list in vaccines["countries"]
-                     for iso in country_list]
+        countries = [iso for country_list in vaccines["countries"] for iso in country_list]
         counts = dict()
         for iso in countries:
             runningTot = counts.get(iso, 0)
@@ -223,18 +142,12 @@ def main(args):
         mappingData.plot(column=platform, ax=ax,
                          legend=True, cmap=cmap, norm=norm,
                          legend_kwds={'shrink': 0.2})
-                         #scheme = "User_Defined",
-                         #classification_kwds = dict(bins=range(0, scale+1)),
-                         #legend_kwds = dict(
-                         #    labels=range(0, len(vaxPlatforms[vaxPlatforms["Type"] == platform])),
-                         #    loc="lower left"))
         ax.set_title("Worldwide administration of " + platform + " vaccines")
         fig.tight_layout()
 
         filename = '_'.join(platform.split(' '))
         plt.savefig(args.map_dir + "/" + filename + '.png', dpi=300, bbox_inches="tight")
-        #plt.savefig(args.output_map + '.svg', bbox_inches="tight")
-
+        plt.savefig(args.map_dir + "/" + filename + '.svg', bbox_inches="tight")
 
         print(f'Wrote {args.map_dir + "/" + filename + ".png"} and '
               f'{args.map_dir + "/" + filename + ".svg"}')
