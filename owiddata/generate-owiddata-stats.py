@@ -95,8 +95,11 @@ def main(args):
     owid_stats["owid_vaccine_types"] = format(len(vaxTypes))
     vaxPlatforms = pd.read_csv(args.platform_types, index_col="Manufacturer")
 
+    # Count the number of vaccines being administered per technology type
+    numVax = vaxPlatforms["Type"].value_counts()
+
     # Set the parameters color-coding the plots. Scale is the max candidates adminstered across all vaccine types.
-    scale = max(vaxPlatforms["Type"].value_counts())
+    scale = max(numVax)
     cmap = mpl.cm.Purples
     norm = mpl.colors.BoundaryNorm(np.arange(0, scale + 1), cmap.N)
 
@@ -119,6 +122,9 @@ def main(args):
     vaxPlatforms['countries'] = vaxPlatforms.index.map(countryByVax)
 
     for platform in set(list(vaxPlatforms["Type"])):
+        platformName = '_'.join(platform.split(' '))
+        owid_stats["owid_" + platformName + "_count"] = len(vaxPlatforms[vaxPlatforms["Type"] == platform])
+
         fig, ax = plt.subplots(1, 1, figsize=(6,4))
         ax.axis('off')
 
@@ -131,6 +137,7 @@ def main(args):
 
         vaxPresence = pd.DataFrame.from_dict(counts, orient="index",
                                              columns=[platform])
+        owid_stats["owid_" + platformName + "_countries"] = len(vaxPresence)
         countries_mapping.boundary.plot(ax=ax, edgecolor="black")
 
         mappingData = countries_mapping.merge(vaxPresence,
@@ -145,17 +152,16 @@ def main(args):
         ax.set_title("Number of " + platform + " vaccines available worldwide")
         fig.tight_layout()
 
-        filename = '_'.join(platform.split(' '))
-        plt.savefig(args.map_dir + "/" + filename + '.png', dpi=300, bbox_inches="tight")
-        plt.savefig(args.map_dir + "/" + filename + '.svg', bbox_inches="tight")
+        plt.savefig(args.map_dir + "/" + platformName + '.png', dpi=300, bbox_inches="tight")
+        plt.savefig(args.map_dir + "/" + platformName + '.svg', bbox_inches="tight")
 
-        print(f'Wrote {args.map_dir + "/" + filename + ".png"} and '
-              f'{args.map_dir + "/" + filename + ".svg"}')
+        print(f'Wrote {args.map_dir + "/" + platformName + ".png"} and '
+              f'{args.map_dir + "/" + platformName + ".svg"}')
 
         # The placeholder will be replaced by the actual SHA-1 hash in separate
         # script after the updated image is committed
-        owid_stats['owid_' + filename + "_map"] = \
-            f'https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/{args.map_dir}/{filename}.png'
+        owid_stats['owid_' + platformName + "_map"] = \
+            f'https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/{args.map_dir}/{platformName}.png'
 
     with open(args.output_json, 'w') as out_file:
         json.dump(owid_stats, out_file, indent=2, sort_keys=True)
