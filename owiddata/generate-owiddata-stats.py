@@ -152,6 +152,11 @@ def main(args):
         print(f'Wrote {args.map_dir + "/" + filename + ".png"} and '
               f'{args.map_dir + "/" + filename + ".svg"}')
 
+        # The placeholder will be replaced by the actual SHA-1 hash in separate
+        # script after the updated image is committed
+        owid_stats['owid_' + filename + "_map"] = \
+            f'https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/{args.map_dir}/{filename}.png'
+
     with open(args.output_json, 'w') as out_file:
         json.dump(owid_stats, out_file, indent=2, sort_keys=True)
     print(f'Wrote {args.output_json}')
