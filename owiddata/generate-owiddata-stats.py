@@ -142,7 +142,7 @@ def main(args):
         mappingData.plot(column=platform, ax=ax,
                          legend=True, cmap=cmap, norm=norm,
                          legend_kwds={'shrink': 0.2})
-        ax.set_title("Worldwide administration of " + platform + " vaccines")
+        ax.set_title("Number of " + platform + " vaccines available worldwide")
         fig.tight_layout()
 
         filename = '_'.join(platform.split(' '))
