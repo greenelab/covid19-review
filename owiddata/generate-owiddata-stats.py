@@ -121,7 +121,7 @@ def main(args):
     # Add countries to vaccine platform info and plot each vaccine type
     vaxPlatforms['countries'] = vaxPlatforms.index.map(countryByVax)
 
-    for platform in set(list(vaxPlatforms["Type"])):
+    for platform in set(vaxPlatforms["Type"]):
         platformName = '_'.join(platform.split(' '))
         owid_stats["owid_" + platformName + "_count"] = len(vaxPlatforms[vaxPlatforms["Type"] == platform])
 
