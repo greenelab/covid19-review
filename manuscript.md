@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2021-12-09'
+date-meta: '2021-12-20'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -60,6 +60,7 @@ author-meta:
 - Yusha Sun
 - Daniel S. Himmelstein
 - Jeremy P. Kamil
+- Ariel I. Mundo
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -70,8 +71,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2021-12-09" />
-  <meta name="citation_publication_date" content="2021-12-09" />
+  <meta name="dc.date" content="2021-12-20" />
+  <meta name="citation_publication_date" content="2021-12-20" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -272,19 +273,22 @@ header-includes: |-
   <meta name="citation_author" content="Jeremy P. Kamil" />
   <meta name="citation_author_institution" content="Department of Microbiology and Immunology, Louisiana State University Health Sciences Center Shreveport, Shreveport, Louisiana, USA" />
   <meta name="citation_author_orcid" content="0000-0001-8422-7656" />
+  <meta name="citation_author" content="Ariel I. Mundo" />
+  <meta name="citation_author_institution" content="Department of Biomedical Engineering, University of Arkansas, Fayetteville, Arkansas, USA" />
+  <meta name="citation_author_orcid" content="0000-0002-6014-4538" />
   <link rel="canonical" href="https://greenelab.github.io/covid19-review/" />
   <meta property="og:url" content="https://greenelab.github.io/covid19-review/" />
   <meta property="twitter:url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/3c53594cd595d8044e388782900f750f74b9e296/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/3c53594cd595d8044e388782900f750f74b9e296/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/3c53594cd595d8044e388782900f750f74b9e296/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/3566b19d3222e6d4abe49cf92e9238e2b912bb8f/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/3566b19d3222e6d4abe49cf92e9238e2b912bb8f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/3566b19d3222e6d4abe49cf92e9238e2b912bb8f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/3c53594cd595d8044e388782900f750f74b9e296/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/3c53594cd595d8044e388782900f750f74b9e296/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/3566b19d3222e6d4abe49cf92e9238e2b912bb8f/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/3566b19d3222e6d4abe49cf92e9238e2b912bb8f/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -306,11 +310,11 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/3c53594cd595d8044e388782900f750f74b9e296/))
+([permalink](https://greenelab.github.io/covid19-review/v/3566b19d3222e6d4abe49cf92e9238e2b912bb8f/))
 was automatically generated
-from [greenelab/covid19-review@3c53594](https://github.com/greenelab/covid19-review/tree/3c53594cd595d8044e388782900f750f74b9e296)
-on December 9, 2021.
-It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/3c53594cd595d8044e388782900f750f74b9e296/manuscript.pdf).
+from [greenelab/covid19-review@3566b19](https://github.com/greenelab/covid19-review/tree/3566b19d3222e6d4abe49cf92e9238e2b912bb8f)
+on December 20, 2021.
+It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/3566b19d3222e6d4abe49cf92e9238e2b912bb8f/manuscript.pdf).
 Snapshots of individual sections have been published [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals; @individual-methods].
 </em></small>
 
@@ -724,10 +728,17 @@ Instead, you should collect information from your local health department, the [
      Department of Microbiology and Immunology, Louisiana State University Health Sciences Center Shreveport, Shreveport, Louisiana, USA
   </small>
 
++ **Ariel I. Mundo**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-6014-4538](https://orcid.org/0000-0002-6014-4538) · ![GitHub icon](images/github.svg){.inline_icon}
+    [aimundo](https://github.com/aimundo)<br>
+  <small>
+     Department of Biomedical Engineering, University of Arkansas, Fayetteville, Arkansas, USA
+  </small>
+
 
 
 **COVID-19 Review Consortium:**
-Vikas Bansal, John P. Barton, Simina M. Boca, Joel D Boerckel, Christian Brueffer, James Brian Byrd, Stephen Capone, Shikta Das, Anna Ada Dattoli, John J. Dziak, Jeffrey M. Field, Soumita Ghosh, Anthony Gitter, Rishi Raj Goel, Casey S. Greene, Marouen Ben Guebila, Daniel S. Himmelstein, Fengling Hu, Nafisa M. Jadavji, Jeremy P. Kamil, Sergey Knyazev, Likhitha Kolla, Alexandra J. Lee, Ronan Lordan, Tiago Lubiana, Temitayo Lukan, Adam L. MacLean, David Mai, Serghei Mangul, David Manheim, Lucy D\'Agostino McGowan, Amruta Naik, YoSon Park, Dimitri Perrin, Yanjun Qi, Diane N. Rafizadeh, Bharath Ramsundar, Halie M. Rando, Sandipan Ray, Michael P. Robson, Vincent Rubinetti, Elizabeth Sell, Lamonica Shinholster, Ashwin N. Skelly, Yuchen Sun, Yusha Sun, Gregory L Szeto, Ryan Velazquez, Jinhui Wang, Nils Wellhausen
+Vikas Bansal, John P. Barton, Simina M. Boca, Joel D Boerckel, Christian Brueffer, James Brian Byrd, Stephen Capone, Shikta Das, Anna Ada Dattoli, John J. Dziak, Jeffrey M. Field, Soumita Ghosh, Anthony Gitter, Rishi Raj Goel, Casey S. Greene, Marouen Ben Guebila, Daniel S. Himmelstein, Fengling Hu, Nafisa M. Jadavji, Jeremy P. Kamil, Sergey Knyazev, Likhitha Kolla, Alexandra J. Lee, Ronan Lordan, Tiago Lubiana, Temitayo Lukan, Adam L. MacLean, David Mai, Serghei Mangul, David Manheim, Lucy D\'Agostino McGowan, Ariel I. Mundo, Amruta Naik, YoSon Park, Dimitri Perrin, Yanjun Qi, Diane N. Rafizadeh, Bharath Ramsundar, Halie M. Rando, Sandipan Ray, Michael P. Robson, Vincent Rubinetti, Elizabeth Sell, Lamonica Shinholster, Ashwin N. Skelly, Yuchen Sun, Yusha Sun, Gregory L Szeto, Ryan Velazquez, Jinhui Wang, Nils Wellhausen
 
 
 Authors are ordered arbitrarily.
@@ -1924,14 +1935,14 @@ The scale of the COVID-19 pandemic has made the repurposing and development of p
 
 ![
 **Cumulative global incidence of COVID-19 and SARS.**
-As of December 7, 2021, 267,156,259 COVID-19 cases and 5,271,226 COVID-19 deaths had been reported worldwide since January 22, 2020.
+As of December 18, 2021, 274,217,353 COVID-19 cases and 5,349,728 COVID-19 deaths had been reported worldwide since January 22, 2020.
 A total of 8,432 cases and 813 deaths were reported for SARS from March 17 to July 11, 2003.
 SARS-CoV-1 was officially contained on July 5, 2003, within 9 months of its appearance [@doi:10.3390/ijerph17113973].
 In contrast, SARS-CoV-2 remains a significant global threat nearly two years after its emergence.
 COVID-19 data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series; @doi:10/ggnsjk].
 SARS data are from the WHO [@url:https://www.who.int/csr/sars/country/en] and were obtained from a dataset on GitHub [@url:https://github.com/imdevskp/sars-2003-outbreak-data-webscraping-code].
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/f721e2c2c6d777e87fd376139c638b48281df990/csse/csse-deaths.png "Global incidence of COVID-19 and SARS"){#fig:csse-deaths secno=1}
+](https://github.com/greenelab/covid19-review/raw/94f5ef011b791f33b91607236e7dc05f0906781a/csse/csse-deaths.png "Global incidence of COVID-19 and SARS"){#fig:csse-deaths secno=1}
 
 At first, SARS-CoV-2's rapid shift from an unknown virus to a significant worldwide threat closely paralleled the emergence of _Severe acute respiratory syndrome-related coronavirus_ (SARS-CoV-1), which was responsible for the 2002-03 SARS epidemic.
 The first documented case of COVID-19 was reported in Wuhan, China in November 2019, and the disease quickly spread worldwide in the early months of 2020.
@@ -1988,7 +1999,7 @@ Recruitment status and trial phase are shown only for interventional trials in w
 Common interventions refers to interventions used in at least ten trials.
 Combinations of interventions, such as hydroxychloroquine with azithromycin, are tallied separately from the individual interventions.
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/f721e2c2c6d777e87fd376139c638b48281df990/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/94f5ef011b791f33b91607236e7dc05f0906781a/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 The purpose of this review is to provide an evolving resource tracking the status of efforts to repurpose and develop drugs for the treatment of COVID-19.
 We highlight four strategies that provide different paradigms for the identification of potential pharmaceutical treatments.
@@ -3054,7 +3065,7 @@ Vaccine development began almost five centuries ago, but the SARS-CoV-2 pandemic
 ### Importance
 
 The SARS-CoV-2 pandemic has caused untold damage to the global population, but it also presented some unique opportunities for vaccine development.
-As of December 7, 2021, SARS-CoV-2 has infected over 267,156,259 and cost the lives of 5,271,226 people globally.
+As of December 18, 2021, SARS-CoV-2 has infected over 274,217,353 and cost the lives of 5,349,728 people globally.
 The development, production, and distribution of vaccines is imperative to saving lives, preventing illness, and reducing the economic and social burdens caused by the COVID-19 pandemic.
 Now that promising candidates exist, effective deployment will provide an opportunity to move into a new phase of the pandemic where the susceptibility of worldwide populations is significantly reduced.
 This review provides a historical context for vaccine development and highlights the main strategies utilized for the development of the COVID-19 vaccines, their clinical appraisal, and their distribution.
@@ -3212,7 +3223,7 @@ There are also considerations related to the method of delivering (or co-deliver
 Vaccination emerged early on as a strategy of interest for managing the COVID-19 pandemic, with the first human trial participant receiving a dose on March 16, 2020 [@url:https://www.modernatx.com/modernas-work-potential-vaccine-against-covid-19; @doi:10.1038/d41573-020-00073-5].
 Within a few weeks, by April 8, 78 vaccine development programs could be confirmed as active, with an additional 37 unconfirmed [@doi:1038/d41573-020-00073-5].
 These programs explored a wide variety of technologies.
-As of December 7, 2021, 18 types of vaccines are being administered throughout the world, with 8,276 million doses administered in 223 countries.
+As of ,  types of vaccines are being administered throughout the world, with  doses administered in  countries.
 Many vaccines are available in only a subset of countries, and the types of vaccines available varies widely throughout the world.
 <!--Insert figure showing vaccine type distributions and add some of Ronan's distribution text here-->
  
@@ -5012,7 +5023,7 @@ Trials that recruit across multiple countries do appear to broaden geographic re
 The density of clinical trials is reported at the country level.
 As of December 31, 2020, there are 6,987 trials in the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709], of which 3,962 are interventional.
 The top figure demonstrates the density of interventional trials recruiting only from a singular country, while the bottom shows the distribution of recruitment for interventional trials that involve more than one country.
-](https://github.com/greenelab/covid19-review/raw/f721e2c2c6d777e87fd376139c638b48281df990/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
+](https://github.com/greenelab/covid19-review/raw/94f5ef011b791f33b91607236e7dc05f0906781a/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
 
 A few different concerns arise from this skewed geographic representation in clinical trial recruitment.
 First, treatments such as remdesivir that are promising but primarily available to clinical trial participants are unlikely to be accessible by people in many countries.
@@ -5116,7 +5127,7 @@ The scientific community has, in turn, devoted significant attention and resourc
 Over 20,000 articles about COVID-19 were released in the first four months of the pandemic [@doi:10.1053/j.ackd.2020.08.003], causing an "infodemic" [@doi:10.1053/j.ackd.2020.08.003; @doi:10/ggpx67].
 The COVID-19 Open Research Dataset (CORD-19) [@arxiv:2004.10706], which was developed in part with the goal of training machine learning algorithms on COVID-19-related text, illustrates the growth of related scholarly literature (Figure @fig:cord19-growth).
 This resource was developed by querying several sources for terms related to SARS-CoV-2 and COVID-19, as well as the coronaviruses SARS-CoV-1 and MERS-CoV and their associated diseases [@arxiv:2004.10706].
-CORD-19 contained 845575 manuscripts as of 2021-11-29.
+CORD-19 contained 858007 manuscripts as of 2021-12-13.
 Additional curation by CoronaCentral [@doi:10.1073/pnas.2100766118] has produced, at present, a set of over 180,000 publications particularly relevant to COVID-19 and closely related viruses.
 Despite many advances in understanding the virus and the disease, there are also downsides to the availability of so much information.
 "Excessive publication" has been recognized as a concern for over forty years [@doi:10/d3bmnv] and has been discussed with respect to the COVID-19 literature [@url:https://blogs.sciencemag.org/pipeline/archives/2021/07/19/too-many-papers].
@@ -5126,9 +5137,9 @@ Any effort to synthesize, summarize, and contextualize COVID-19 research will fa
 **Growth of the CORD-19 dataset.**
 The number of articles has proliferated, with both traditional and preprint manuscripts in the corpus.
 The first release (March 16, 2020) contained 28,000 documents [@arxiv:2004.10706].
-As of 2021-11-29, this had increased to 845575 articles.
-Of these, 34377 are preprints from _arXiv_, _medRxiv_, and _bioRxiv_.
-](https://github.com/greenelab/covid19-review/raw/2dd226515f00f600c602ea008a9a9cca4d5f5e7f/CORD-19/cord19-growth.png "CORD-19 dataset growth"){#fig:cord19-growth secno=1}
+As of 2021-12-13, this had increased to 858007 articles.
+Of these, 34975 are preprints from _arXiv_, _medRxiv_, and _bioRxiv_.
+](https://github.com/greenelab/covid19-review/raw/26eba643237191bd45befa5041b9dd2d946dc9b1/CORD-19/cord19-growth.png "CORD-19 dataset growth"){#fig:cord19-growth secno=1}
 
 Information was released rapidly by both traditional publishers and preprint servers, and many papers faced subsequent scrutiny.
 The number of COVID-19 papers retracted may be higher, and potentially much higher, than is typical, although a thorough investigation of this question requires more time to elapse [@doi:10.1080/08989621.2020.1782203; @doi:10.1080/08989621.2020.1793675].
@@ -5305,7 +5316,7 @@ The manuscripts produced by the consortium (excluding this one) will be submitte
 One has been published and two are available as preprints.
 This approach allows for a version of record to be maintained alongside the most recent version, which is always available through GitHub.
 These manuscripts cover a wide range of topics including the fundamental biology of SARS-CoV-2 (pathogenesis [@individual-pathogenesis] and evolution), biomedical advances in responding to the virus and COVID-19 (pharmaceuticals [@individual-pharmaceuticals], nutraceuticals [@individual-nutraceuticals], vaccines, and diagnostic technologies), and biological and social factors influencing disease transmission and outcomes.
-To date, 50 authors are associated with the consortium (Figure @fig:projectstats).
+To date, 51 authors are associated with the consortium (Figure @fig:projectstats).
 
 More formal recruitment efforts to integrate with existing projects providing support for undergraduate students during COVID-19 were also successful.
 We incorporated summaries written by the students, post-docs, and faculty of the Immunology Institute at the Mount Sinai School of Medicine^[<https://github.com/ismms-himc/covid-19_sinai_reviews>] [@doi:10.1038/s41577-020-0319-0].
@@ -5470,6 +5481,7 @@ Future work can address remaining limitations and continue to advance Manubot as
 |Yusha Sun|None|2021-04-10|
 |Daniel S. Himmelstein|None|2021-04-30|
 |Jeremy P. Kamil|TBD|2021-04-30|
+|Ariel I. Mundo|None|2021-12-19|
 
 ### Author Contributions
 
@@ -5527,6 +5539,7 @@ Future work can address remaining limitations and continue to advance Manubot as
 |Yusha Sun|Writing - Review & Editing|
 |Daniel S. Himmelstein|Software|
 |Jeremy P. Kamil|Writing - Review & Editing|
+|Ariel I. Mundo|Writing - Review & Editing|
 
 ### Acknowledgements
 
