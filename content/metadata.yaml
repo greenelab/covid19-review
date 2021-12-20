@@ -1372,22 +1372,18 @@ authors:
         order: 6
         contributions:
           - Writing - Review & Editing
-          
-          - 
+  - 
+    github: aimundo
     name: Ariel I. Mundo
     affiliations:
       - Department of Biomedical Engineering, University of Arkansas, Fayetteville, Arkansas, USA
     email: aimundo@uark.edu
     orcid: 0000-0002-6014-4538
     coi:
-      string: "TBD"
-      lastapproved: 
+      string: "None"
+      lastapproved:  !!str 2021-12-19
     manuscripts:
       diagnostics:
-        order:
+        order: 1
         contributions:
           - Writing - Review & Editing
-          
-          
-          
-          
