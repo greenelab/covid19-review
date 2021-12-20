@@ -1,10 +1,22 @@
 {
-  "daily_vax_rate": "4,301 per million",
-  "most_recent_date": "December 18, 2021",
+  "owid_RNA_count": 2,
+  "owid_RNA_countries": 157,
+  "owid_RNA_map": "https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/owiddata/maps/RNA.png",
   "owid_commit_date": "2021-12-19T11:06:02Z",
   "owid_commit_date_pretty": "December 19, 2021",
   "owid_commit_sha": "9228c4793e6650a2aa071f3ca1f6357c46ac6340",
-  "total_countries": "223",
-  "total_vaccinations": "8,702 million",
-  "vaccine_types": "18"
+  "owid_daily_rate": "4,301 per million",
+  "owid_inactivated_whole-virus_count": 6,
+  "owid_inactivated_whole-virus_countries": 108,
+  "owid_inactivated_whole-virus_map": "https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/owiddata/maps/inactivated_whole-virus.png",
+  "owid_most_recent_date": "December 18, 2021",
+  "owid_non-replicating_viral_vector_count": 5,
+  "owid_non-replicating_viral_vector_countries": 199,
+  "owid_non-replicating_viral_vector_map": "https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/owiddata/maps/non-replicating_viral_vector.png",
+  "owid_protein_subunit_count": 5,
+  "owid_protein_subunit_countries": 10,
+  "owid_protein_subunit_map": "https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/owiddata/maps/protein_subunit.png",
+  "owid_total_countries": "223",
+  "owid_total_vaccinations": "8,702 million",
+  "owid_vaccine_types": "18"
 }
