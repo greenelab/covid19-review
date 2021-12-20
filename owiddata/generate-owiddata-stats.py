@@ -123,6 +123,7 @@ def main(args):
 
     for platform in set(vaxPlatforms["Type"]):
         platformName = '_'.join(platform.split(' '))
+        platformName = platformName.replace("-", "_")
         owid_stats["owid_" + platformName + "_count"] = len(vaxPlatforms[vaxPlatforms["Type"] == platform])
 
         fig, ax = plt.subplots(1, 1, figsize=(6,4))
