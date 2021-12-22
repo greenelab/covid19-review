@@ -264,6 +264,7 @@ Fas
 FasL
 FastGrants
 Favipiravir
+Fayetteville
 Fc
 Fengling
 FiO
@@ -677,6 +678,7 @@ Simeprevir
 Simina
 SiminaB
 Sinopharm
+SinoPharm’s
 Sinovac’s
 Sinovac
 SinsOfOmission
@@ -812,6 +814,7 @@ adsorptive
 aerosolized
 affinis
 agitter
+aimundo
 ajlee
 al
 alanine
@@ -996,6 +999,7 @@ dimerization
 dimorphism
 dipeptidyl
 disaggregate
+distrib
 dl
 docosahexaenoic
 docx
@@ -1246,6 +1250,7 @@ isothermal
 isotype
 isotypes
 ivermectin
+iwv
 jboerckel
 jinhui
 johnbarton
@@ -1331,6 +1336,7 @@ modelled
 modelling
 Moderna
 ModernaTX
+Mundo
 modRNA
 modulatory
 mometasone
@@ -1387,6 +1393,7 @@ nonrandomized
 nonsevere
 nosocomial
 novo
+nrvv
 nsp
 nuclease
 nucleases
