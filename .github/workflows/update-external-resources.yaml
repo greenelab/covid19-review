@@ -42,7 +42,7 @@ jobs:
       - name: Commit JHU CSSE, EBM Data Lab, OWID, CORD-19, and manuscript growth figures
         uses: EndBug/add-and-commit@v4
         with:
-          add: '*/*.png */*.svg'
+          add: '*/*.png */*.svg */*/*.png */*/*.svg'
           author_name: GitHub Actions
           author_email: actions@github.com
           message: 'Update JHU CSSE, EBM Data Lab, OWID, CORD-19, and manuscript growth figures'
