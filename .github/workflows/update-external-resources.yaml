@@ -3,6 +3,8 @@ on:
   schedule:
     # Run every day at 00:00
     - cron:  '0 0 * * *'
+  # Enable manually updating the external resources
+  workflow_dispatch:
 
 jobs:
   update_external_resources:
