@@ -1,6 +1,4 @@
-content/22.vaccines.md:461:AE
-content/22.vaccines.md:463:AE
-content/22.vaccines.md:473:realted
+content/22.vaccines.md:492:AE
+content/22.vaccines.md:494:AE
 content/23.vaccines-app.md:15:IgGs
 content/23.vaccines-app.md:392:IgGs
-content/23.vaccines-app.md:455:SinoPharm's

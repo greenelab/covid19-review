@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2021-12-24'
+date-meta: '2021-12-26'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -71,8 +71,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2021-12-24" />
-  <meta name="citation_publication_date" content="2021-12-24" />
+  <meta name="dc.date" content="2021-12-26" />
+  <meta name="citation_publication_date" content="2021-12-26" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -282,13 +282,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/bfe9c43d6387973d3917692f17ff847309da995c/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/bfe9c43d6387973d3917692f17ff847309da995c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/bfe9c43d6387973d3917692f17ff847309da995c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/68ff926d516777ccd3de4a6bdadc134294582e87/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/68ff926d516777ccd3de4a6bdadc134294582e87/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/68ff926d516777ccd3de4a6bdadc134294582e87/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/bfe9c43d6387973d3917692f17ff847309da995c/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/bfe9c43d6387973d3917692f17ff847309da995c/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/68ff926d516777ccd3de4a6bdadc134294582e87/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/68ff926d516777ccd3de4a6bdadc134294582e87/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -310,11 +310,11 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/bfe9c43d6387973d3917692f17ff847309da995c/))
+([permalink](https://greenelab.github.io/covid19-review/v/68ff926d516777ccd3de4a6bdadc134294582e87/))
 was automatically generated
-from [greenelab/covid19-review@bfe9c43](https://github.com/greenelab/covid19-review/tree/bfe9c43d6387973d3917692f17ff847309da995c)
-on December 24, 2021.
-It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/bfe9c43d6387973d3917692f17ff847309da995c/manuscript.pdf).
+from [greenelab/covid19-review@68ff926](https://github.com/greenelab/covid19-review/tree/68ff926d516777ccd3de4a6bdadc134294582e87)
+on December 26, 2021.
+It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/68ff926d516777ccd3de4a6bdadc134294582e87/manuscript.pdf).
 Snapshots of individual sections have been published [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals; @individual-methods].
 </em></small>
 
@@ -1935,14 +1935,14 @@ The scale of the COVID-19 pandemic has made the repurposing and development of p
 
 ![
 **Cumulative global incidence of COVID-19 and SARS.**
-As of December 22, 2021, 277,165,440 COVID-19 cases and 5,377,472 COVID-19 deaths had been reported worldwide since January 22, 2020.
+As of December 23, 2021, 278,177,141 COVID-19 cases and 5,386,736 COVID-19 deaths had been reported worldwide since January 22, 2020.
 A total of 8,432 cases and 813 deaths were reported for SARS from March 17 to July 11, 2003.
 SARS-CoV-1 was officially contained on July 5, 2003, within 9 months of its appearance [@doi:10.3390/ijerph17113973].
 In contrast, SARS-CoV-2 remains a significant global threat nearly two years after its emergence.
 COVID-19 data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series; @doi:10/ggnsjk].
 SARS data are from the WHO [@url:https://www.who.int/csr/sars/country/en] and were obtained from a dataset on GitHub [@url:https://github.com/imdevskp/sars-2003-outbreak-data-webscraping-code].
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/9de3409b8d12029e847b32e51ea8c08d5e9a671e/csse/csse-deaths.png "Global incidence of COVID-19 and SARS"){#fig:csse-deaths secno=1}
+](https://github.com/greenelab/covid19-review/raw/a46fdcf15e5ce0c9cc05e3163516f310b9eb4e99/csse/csse-deaths.png "Global incidence of COVID-19 and SARS"){#fig:csse-deaths secno=1}
 
 At first, SARS-CoV-2's rapid shift from an unknown virus to a significant worldwide threat closely paralleled the emergence of _Severe acute respiratory syndrome-related coronavirus_ (SARS-CoV-1), which was responsible for the 2002-03 SARS epidemic.
 The first documented case of COVID-19 was reported in Wuhan, China in November 2019, and the disease quickly spread worldwide in the early months of 2020.
@@ -1999,7 +1999,7 @@ Recruitment status and trial phase are shown only for interventional trials in w
 Common interventions refers to interventions used in at least ten trials.
 Combinations of interventions, such as hydroxychloroquine with azithromycin, are tallied separately from the individual interventions.
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/9de3409b8d12029e847b32e51ea8c08d5e9a671e/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/a46fdcf15e5ce0c9cc05e3163516f310b9eb4e99/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 The purpose of this review is to provide an evolving resource tracking the status of efforts to repurpose and develop drugs for the treatment of COVID-19.
 We highlight four strategies that provide different paradigms for the identification of potential pharmaceutical treatments.
@@ -3065,7 +3065,7 @@ Vaccine development began almost five centuries ago, but the SARS-CoV-2 pandemic
 ### Importance
 
 The SARS-CoV-2 pandemic has caused untold damage to the global population, but it also presented some unique opportunities for vaccine development.
-As of December 22, 2021, SARS-CoV-2 has infected over 277,165,440 and cost the lives of 5,377,472 people globally.
+As of December 23, 2021, SARS-CoV-2 has infected over 278,177,141 and cost the lives of 5,386,736 people globally.
 The development, production, and distribution of vaccines is imperative to saving lives, preventing illness, and reducing the economic and social burdens caused by the COVID-19 pandemic.
 Now that promising candidates exist, effective deployment will provide an opportunity to move into a new phase of the pandemic where the susceptibility of worldwide populations is significantly reduced.
 This review provides a historical context for vaccine development and highlights the main strategies utilized for the development of the COVID-19 vaccines, their clinical appraisal, and their distribution.
@@ -3221,11 +3221,10 @@ There are also considerations related to the method of delivering (or co-deliver
 ### COVID-19 Vaccine Development Platforms
 
 Vaccination emerged early on as a strategy of interest for managing the COVID-19 pandemic, with the first human trial participant receiving a dose on March 16, 2020 [@url:https://www.modernatx.com/modernas-work-potential-vaccine-against-covid-19; @doi:10.1038/d41573-020-00073-5].
-Within a few weeks, by April 8, 78 vaccine development programs could be confirmed as active, with an additional 37 unconfirmed [@doi:1038/d41573-020-00073-5].
+Within a few weeks, by April 8, 78 vaccine development programs could be confirmed as active, with an additional 37 unconfirmed [@doi:10.1038/d41573-020-00073-5].
 These programs explored a wide variety of technologies.
-As of ,  types of vaccines are being administered throughout the world, with  doses administered in  countries.
+As of December 23, 2021, 18 types of vaccines are being administered throughout the world, with 8,900 million doses administered across 223 countries.
 Many vaccines are available in only a subset of countries, and the types of vaccines available varies widely throughout the world.
-<!--Insert figure showing vaccine type distributions and add some of Ronan's distribution text here-->
  
 #### Live-Attenuated Virus Vaccines
 
@@ -3235,7 +3234,7 @@ The virus can be attenuated by passaging it in a foreign host until, as a conseq
 Alternatively, selective gene deletion or codon de-optimization can be utilized to attenuate the virus [@doi:10.1038/s41586-020-2798-3]. 
 
 **Prior Applications:**
-The first deliberate attempt to utilize an attenuated viral vaccine dates back to Louis Pasteur in 1885, despite his not knowing that the disease-causing agent he was experimenting with was a virus. 
+The first deliberate attempt to utilize an attenuated viral vaccine dates back to Louis Pasteur in 1885, despite his not knowing that the disease-causing agent he was experimenting with was a virus 
 The next intentional LAVs developed were intended to prevent illness caused by the yellow fever virus in 1935, followed by the first influenza vaccine in 1936 [@doi:10.1128/9781555818951]. 
 Today, LAVs are used globally to prevent diseases caused by viruses such as measles, rubella, polio, influenza, varicella zoster, and the yellow fever virus [@doi:10.1016/B978-0-323-35761-6.00002-X].
 It is generally recognized that LAVs induce an immune response similar to natural infection, and they are favored because they induce long-lasting and robust immunity that can protect from disease. 
@@ -3319,6 +3318,14 @@ Preclinical data providing supporting evidence for the use of this vaccine is no
 Despite the lack of publicly available preclinical results, Sinopharm Wuhan Institute initiated phase I/II trials, which reported on varying dosing and prime-boost regimens. 
 Neutralizing antibodies were detected in all groups 14 days after the final dose in the phase I part of the trial [@doi:10.1001/jama.2020.15543]. 
 Similar findings were reported in the Interim phase II data [@doi:10.1001/jama.2020.15543].
+As of December 23, 2021, 6 vaccines developed with inactivated-whole virus technology are being distributed in 108 countries (Figure @fig:iwv-distrib).
+
+![
+**Worldwide availability of vaccines developed using inactivated whole viruses.**
+This figure reflects the number of vaccines based on whole inactivated virus technology that were available in each country as of December 23, 2021.
+These data are retrieved from Our World in Data <!-To Do: Cite--> and plotted using geopandas.
+See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
+](https://github.com/greenelab/covid19-review/raw/a46fdcf15e5ce0c9cc05e3163516f310b9eb4e99/owiddata/maps/inactivated_whole_virus.png "Availability of inactivated whole virus vaccines"){#fig:iwv-distrib secno=1}
 
 ### Protein Subunit Vaccines
 
@@ -3362,8 +3369,16 @@ In preclinical mouse models, Novavax-CoV2373 elicited high anti-spike IgG titers
 In a phase I/II trial, a two-dose regimen of NVX-CoV2373 was found to induce anti-spike IgG levels and neutralizing antibody-titers exceeding those observed in convalescent plasma donated by symptomatic patients [@doi:10.1056/NEJMoa2026920]. 
 In line with the preclinical studies, the use of Matrix-M adjuvant further increased anti-spike immunoglobulin levels and induced a Th1 response. 
 The development of a protein subunit vaccine against SARS-CoV-2 is a remarkable achievement given the short period of time since the emergence of SARS-CoV-2 in 2019, particularly considering these types of vaccines have not played a major role in previous pandemics.  
-However, protein subunit vaccines do play a role in public health and have contributed to vaccination against hepatitis B [@doi:10/d4g86c] and pertussis [@doi:10.1128/mBio.01339-14; @doi:10.1371/journal.ppat.1003418] since the 1980s and will likely continue to contribute to public health for the foreseeable future due to ongoing research in vaccines against influenza, SARS-CoV-2, Epstein-Barr virus, dengue virus, and human papillomavirus among others [@doi:10.1016/j.micinf.2014.12.006; @doi:https://covid19.trackvaccines.org/vaccines; @doi:10.1080/21655979.2016.1191707].
+However, protein subunit vaccines do play a role in public health and have contributed to vaccination against hepatitis B [@doi:10/d4g86c] and pertussis [@doi:10.1128/mBio.01339-14; @doi:10.1371/journal.ppat.1003418] since the 1980s and will likely continue to contribute to public health for the foreseeable future due to ongoing research in vaccines against influenza, SARS-CoV-2, Epstein-Barr virus, dengue virus, and human papillomavirus among others [@doi:10.1016/j.micinf.2014.12.006; @https://covid19.trackvaccines.org/vaccines; @doi:10.1080/21655979.2016.1191707].
 In a phase III randomized, observer-blinded, placebo-controlled clinical trial in 14,039 participants, two 5-&mu;g doses of NVX-CoV2373 or placebo were administered 21 days apart in a 1:1 ratio from late September to late November 2020 [@doi:10.1056/NEJMoa2107659].
+As of December 23, 2021, 5 protein subunit vaccines are being distributed in 10 countries (Figure @fig:ps-distrib).
+
+![
+**Worldwide availability of vaccines developed using protein subunit.**
+This figure reflects the number of vaccines based on protein subunit technology that were available in each country as of December 23, 2021.
+These data are retrieved from Our World in Data <!-To Do: Cite--> and plotted using geopandas.
+See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
+](https://github.com/greenelab/covid19-review/raw/a46fdcf15e5ce0c9cc05e3163516f310b9eb4e99/owiddata/maps/protein_subunit.png "Availability of protein subunit vaccines"){#fig:ps-distrib secno=1}
 
 ### Vaccines Delivering DNA
 
@@ -3450,6 +3465,14 @@ The three viral-vector vaccines described above have demonstrated the potential 
 Additionally, though the vaccines are developed using similar principles, there are some differences that might influence their efficacy as SARS-CoV-2 evolves.
 In the Janssen vaccine, the S protein immunogen is stabilized in its prefusion conformation, while in the Sputnik V and AstraZeneca vaccines, it is not.
 How these differences in design influence the efficacy of these three viral-vector vaccines over time remains to be seen.
+As of December 23, 2021, 5 viral-vectored vaccines are being distributed in 199 countries (Figure @fig:nrvv-distrib).
+
+![
+**Worldwide availability of vaccines developed using non-replicating viral vectors.**
+This figure reflects the number of vaccines using non-replicating viral vectors that were available in each country as of December 23, 2021.
+These data are retrieved from Our World in Data <!-To Do: Cite--> and plotted using geopandas.
+See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
+](https://github.com/greenelab/covid19-review/raw/a46fdcf15e5ce0c9cc05e3163516f310b9eb4e99/owiddata/maps/non_replicating_viral_vector.png "Availability of non-replicating viral-vectored vaccines"){#fig:nrvv-distrib secno=1}
 
 ### RNA Vaccines
 
@@ -3497,6 +3520,14 @@ The first was Pfizer/BioNTech's BNT162b2, which contains the full prefusion stab
 <!--To Do: brief history of phase I & phase II (like 1-2 sentences)-->
 mRNA-1273 is comprised by a conventional lipid nanoparticle encapsulated RNA encoding a full-length prefusion stabilized S protein for SARS-CoV-2 [@clinicaltrials:NCT04283461].
 In the phase I trial, neutralizing activity reached similar levels to that observed in convalescent plasma samples by day 7 after the second dose of RNA-1273 [@doi:10.1056/NEJMoa2022483].
+As of December 23, 2021, 2 mRNA vaccines are available in 157 countries (Figure @fig:mRNA-distrib).
+
+![
+**Worldwide availability of vaccines developed using mRNA.**
+This figure reflects the number of vaccines based on mRNA technology that were available in each country as of December 23, 2021.
+These data are retrieved from Our World in Data <!-To Do: Cite--> and plotted using geopandas.
+See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
+](https://github.com/greenelab/covid19-review/raw/a46fdcf15e5ce0c9cc05e3163516f310b9eb4e99/owiddata/maps/RNA.png "Availability of mRNA vaccines"){#fig:mRNA-distrib secno=1}
 
 ### Vaccine Safety Profiles
 
@@ -3520,7 +3551,7 @@ The most common adverse reactions reported across all platforms are local site i
 | mRNA        | mRNA-1273 [@doi:10.1056/NEJMoa2035389] | |||||
 
 Several trials have faced pauses while adverse events were investigated.
-In most cases, these events were determined not to be realted to the vaccine.
+In most cases, these events were determined not to be related to the vaccine.
 
 CoronaVac approved despite some halts due to reports of adverse reactions [@url:https://www.nytimes.com/interactive/2020/health/sinovac-covid-19-vaccine.html]. 
 For example, a trial of the WIV04 vaccine in Peru was briefly paused due to safety concerns in relation to neurological symptoms [@url:https://www.nytimes.com/live/2020/12/16/world/covid-19-coronavirus#the-clinical-trials-of-a-chinese-vaccine-resume-in-peru-after-a-volunteers-illness-is-deemed-unrelated], but this was later deemed unrelated to the vaccine, and the trial continued [@clinicaltrials:NCT04612972]. 
@@ -5023,7 +5054,7 @@ Trials that recruit across multiple countries do appear to broaden geographic re
 The density of clinical trials is reported at the country level.
 As of December 31, 2020, there are 6,987 trials in the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709], of which 3,962 are interventional.
 The top figure demonstrates the density of interventional trials recruiting only from a singular country, while the bottom shows the distribution of recruitment for interventional trials that involve more than one country.
-](https://github.com/greenelab/covid19-review/raw/9de3409b8d12029e847b32e51ea8c08d5e9a671e/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
+](https://github.com/greenelab/covid19-review/raw/a46fdcf15e5ce0c9cc05e3163516f310b9eb4e99/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
 
 A few different concerns arise from this skewed geographic representation in clinical trial recruitment.
 First, treatments such as remdesivir that are promising but primarily available to clinical trial participants are unlikely to be accessible by people in many countries.
