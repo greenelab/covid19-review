@@ -61,6 +61,7 @@ author-meta:
 - Daniel S. Himmelstein
 - Jeremy P. Kamil
 - Ariel I. Mundo
+- Jesse G. Meyer
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -276,19 +277,22 @@ header-includes: |-
   <meta name="citation_author" content="Ariel I. Mundo" />
   <meta name="citation_author_institution" content="Department of Biomedical Engineering, University of Arkansas, Fayetteville, Arkansas, USA" />
   <meta name="citation_author_orcid" content="0000-0002-6014-4538" />
+  <meta name="citation_author" content="Jesse G. Meyer" />
+  <meta name="citation_author_institution" content="Department of Biochemistry, Medical College of Wisconsin, Milwaukee, Wisconsin, United States of America" />
+  <meta name="citation_author_orcid" content="0000-0003-2753-3926" />
   <link rel="canonical" href="https://greenelab.github.io/covid19-review/" />
   <meta property="og:url" content="https://greenelab.github.io/covid19-review/" />
   <meta property="twitter:url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/43179f550be8f6d7f0d0d61b982cf70793a6e5c4/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/43179f550be8f6d7f0d0d61b982cf70793a6e5c4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/43179f550be8f6d7f0d0d61b982cf70793a6e5c4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/2158615c6b919e24e675a95bbb27cf9d97b33657/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/2158615c6b919e24e675a95bbb27cf9d97b33657/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/2158615c6b919e24e675a95bbb27cf9d97b33657/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/43179f550be8f6d7f0d0d61b982cf70793a6e5c4/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/43179f550be8f6d7f0d0d61b982cf70793a6e5c4/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/2158615c6b919e24e675a95bbb27cf9d97b33657/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/2158615c6b919e24e675a95bbb27cf9d97b33657/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -310,11 +314,11 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/43179f550be8f6d7f0d0d61b982cf70793a6e5c4/))
+([permalink](https://greenelab.github.io/covid19-review/v/2158615c6b919e24e675a95bbb27cf9d97b33657/))
 was automatically generated
-from [greenelab/covid19-review@43179f5](https://github.com/greenelab/covid19-review/tree/43179f550be8f6d7f0d0d61b982cf70793a6e5c4)
+from [greenelab/covid19-review@2158615](https://github.com/greenelab/covid19-review/tree/2158615c6b919e24e675a95bbb27cf9d97b33657)
 on January 6, 2022.
-It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/43179f550be8f6d7f0d0d61b982cf70793a6e5c4/manuscript.pdf).
+It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/2158615c6b919e24e675a95bbb27cf9d97b33657/manuscript.pdf).
 Snapshots of individual sections have been published [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals; @individual-methods].
 </em></small>
 
@@ -735,10 +739,17 @@ Instead, you should collect information from your local health department, the [
      Department of Biomedical Engineering, University of Arkansas, Fayetteville, Arkansas, USA
   </small>
 
++ **Jesse G. Meyer**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0003-2753-3926](https://orcid.org/0000-0003-2753-3926) · ![GitHub icon](images/github.svg){.inline_icon}
+    [jessegmeyerlab](https://github.com/jessegmeyerlab)<br>
+  <small>
+     Department of Biochemistry, Medical College of Wisconsin, Milwaukee, Wisconsin, United States of America
+  </small>
+
 
 
 **COVID-19 Review Consortium:**
-Vikas Bansal, John P. Barton, Simina M. Boca, Joel D Boerckel, Christian Brueffer, James Brian Byrd, Stephen Capone, Shikta Das, Anna Ada Dattoli, John J. Dziak, Jeffrey M. Field, Soumita Ghosh, Anthony Gitter, Rishi Raj Goel, Casey S. Greene, Marouen Ben Guebila, Daniel S. Himmelstein, Fengling Hu, Nafisa M. Jadavji, Jeremy P. Kamil, Sergey Knyazev, Likhitha Kolla, Alexandra J. Lee, Ronan Lordan, Tiago Lubiana, Temitayo Lukan, Adam L. MacLean, David Mai, Serghei Mangul, David Manheim, Lucy D\'Agostino McGowan, Ariel I. Mundo, Amruta Naik, YoSon Park, Dimitri Perrin, Yanjun Qi, Diane N. Rafizadeh, Bharath Ramsundar, Halie M. Rando, Sandipan Ray, Michael P. Robson, Vincent Rubinetti, Elizabeth Sell, Lamonica Shinholster, Ashwin N. Skelly, Yuchen Sun, Yusha Sun, Gregory L Szeto, Ryan Velazquez, Jinhui Wang, Nils Wellhausen
+Vikas Bansal, John P. Barton, Simina M. Boca, Joel D Boerckel, Christian Brueffer, James Brian Byrd, Stephen Capone, Shikta Das, Anna Ada Dattoli, John J. Dziak, Jeffrey M. Field, Soumita Ghosh, Anthony Gitter, Rishi Raj Goel, Casey S. Greene, Marouen Ben Guebila, Daniel S. Himmelstein, Fengling Hu, Nafisa M. Jadavji, Jeremy P. Kamil, Sergey Knyazev, Likhitha Kolla, Alexandra J. Lee, Ronan Lordan, Tiago Lubiana, Temitayo Lukan, Adam L. MacLean, David Mai, Serghei Mangul, David Manheim, Lucy D\'Agostino McGowan, Jesse G. Meyer, Ariel I. Mundo, Amruta Naik, YoSon Park, Dimitri Perrin, Yanjun Qi, Diane N. Rafizadeh, Bharath Ramsundar, Halie M. Rando, Sandipan Ray, Michael P. Robson, Vincent Rubinetti, Elizabeth Sell, Lamonica Shinholster, Ashwin N. Skelly, Yuchen Sun, Yusha Sun, Gregory L Szeto, Ryan Velazquez, Jinhui Wang, Nils Wellhausen
 
 
 Authors are ordered arbitrarily.
@@ -1578,18 +1589,21 @@ For instance, test-trace-isolate procedures were an early cornerstone of many na
 <!-- To Do: possibly add text on what goes into developing new diagnostics?-->
 
 The genetic sequence of the virus was first released by Chinese officials on January 10, 2020, and the first test to detect the virus was released about 13 days later [@doi:10.2807/1560-7917.ES.2020.25.3.2000045].
-This information is important to the development of diagnostic approaches using a variety of approaches.
+This information is important to the development of diagnostic approaches.
 There are two main classes of diagnostic tests: molecular tests, which can diagnose an active infection by identifying the presence of SARS-CoV-2, and serological tests, which can assess whether an individual was infected in the past via the presence or absence of antibodies against SARS-CoV-2.
-Molecular tests are essential for identifying individuals for treatment and alerting their contacts to quarantine and be alert for possible symptoms.
-Here, a patient sample is evaluated to determine the presence or absence of a viral target.
-These techniques depend on knowledge of the viral genomic sequence for the development of targeted primers.
-On the other hand, serological tests are useful for collecting population-level information for epidemiological analysis, as they can be used to estimate the extent of the infection in a given area.
-Thus, they may be useful in efforts to better understand the percent of cases that manifest as severe versus mild and for guiding public health and economic decisions regarding resource allocation and counter-disease measures.
-These tests typically detect the presence of antibodies in blood plasma samples.
-In such enzyme-linked immunosorbent assay (ELISA) approaches, the detection of the antibodies depends on knowledge of a specific antibody-antigen interaction.
-<!-- To Do: How did we discover the identity of these to start binding them?-->
-As the pandemic has evolved throughout 2020 and 2021, a variety of technological implementations have emerged within these two categories.
+As the pandemic has evolved throughout 2020 and 2021, a variety of tests have emerged within these two categories.
 
+Molecular tests detect either viral RNA or protein in a patient sample.
+Molecular tests are essential to identify infected individuals who may need to seek treatment, quarantine, and whose contacts may need to quarantine.
+Tests for viral RNA are done by reverse transcription (RT) of viral RNA to DNA followed by DNA amplification, usually by the polymerase chain reaction (PCR) [@DOI:10.1038/jid.2013.1].
+Tests for viral proteins are most often done using detection by an antibody pair in lateral flow tests (LFTs) [@doi:10.1007/s00216-010-3661-4]. 
+Molecular tests require the viral genome sequence to develop DNA primers for viral RNA detection, or to express a viral protein for use as an antigen in antibody production.
+
+Serological tests detect the presence of antibodies in blood plasma samples using enzyme-linked immunosorbent assay (ELISA), lateral flow immunoassay (LFIA), and chemiluminescence immunoassay (CLIA) [@DOI:10.3389/fmolb.2021.682405].
+Because vaccines are based on the viral spike protein, to distinguish past infection from vaccination, serology tests look for antibodies that bind the nucleocapsid protein of the SARS-CoV-2 virus [@doi:10.1093/infdis/jiaa273]. 
+Serological tests are useful for collecting population-level information for epidemiological analysis, as they can be used to estimate the extent of the infection in a given area.
+Thus, serological tests may be useful to better understand the percent of cases that manifest as severe versus mild and for guiding public health and economic decisions regarding resource allocation and counter-disease measures.
+<!-- To Do: How did we discover the identity of these to start binding them?-->
 <!-- To Do: Discuss HCoV broadly and the potential risk of detecting other coronaviruses-->
 <!-- To Do: Trade offs in cost vs precision (throughput)-->
 <!-- To Do: Discuss viral load vs contagiousness vs symptoms vs antibody development? -->
@@ -1605,21 +1619,27 @@ Policy discussions have also reviewed both the critical importance of diagnostic
 Molecular tests are used to identify distinct genomic subsequences of a viral molecule in a sample and thus to diagnose an active viral infection.
 An important first step is identifying which biospecimens are likely to contain the virus in infected individuals and then acquiring these samples from the patient(s) to be tested.
 Common sampling sources for molecular tests include nasopharyngeal cavity samples, such as throat washes,  throat swabs, and saliva [@doi:10/ggp4qx], and stool samples [@doi:10.1002/jmv.25742].
-Once a sample from an appropriate source is acquired from a patient, molecular tests follow a number of different steps, described below, to analyze a sample and identify whether evidence of SARS-CoV-2 is present.
-When testing for RNA viruses like SARS-CoV-2, the first step involves pre-processing in order to create complimentary DNA (cDNA) from the RNA sample using reverse transcription (RT). 
+Once a sample is acquired from a patient, molecular tests detect SARS-CoV-2 based on the presence of either (1) viral nucleic acids or (2) viral protein. 
+
+#### Nucleic Acid Tests
+When testing for RNA from viruses like SARS-CoV-2, the first step involves pre-processing in order to create complimentary DNA (cDNA) from the RNA sample using reverse transcription (RT). 
 The second step involves the amplification of a region of interest in the cDNA using successive cycles of heating and cooling.
-Depending on the application, different polymerase chain reaction (PCR) procedures exist, which are described below.
+Depending on the application, amplification is achieved using variations of the polymerase chain reaction (PCR).
+Nucleic acid tests differ primarily in detection methods, which are detailed below.
+
+##### Sequencing
 Some tests use the results of the PCR itself to determine whether the pathogen is present, but in other cases, it may be necessary to sequence the amplified DNA.
-For sequencing, an additional pre-processing step, library preparation, therefore must be undertaken.
+Sequencing requires an additional sample pre-processing step called library preparation.
 Library preparation is the process of preparing the sample for sequencing, typically by fragmenting the sequences and adding adapters [@doi:10.1016/j.biotechadv.2020.107537].
 In some cases, library preparation can involve other modifications of the sample, such as adding barcodes to identify a particular sample within the sequence data.
 Barcoding can therefore be used to pool samples from multiple sources.
 There are different reagents used for library preparation that are specific to identifying one or more target sections with PCR [@doi:10.1021/acsnano.0c02624].
 Sequential pattern matching is then used to identify unique subsequences of the virus, and if sufficient subsequences are found, the test is considered positive.
 Therefore, tests that utilize sequencing require a number of additional molecular and analytical steps relative to tests that use PCR alone.
+Sequencing has been an important strategy for discovery of SARS-CoV-2 variants (for example, see [@DOI:10.1101/2021.01.18.21249786]). 
 <!-- To Do: What is the advantage of the sequencing-based tests?-->
 
-#### RT-PCR
+##### RT-PCR
 
 <!-- To Do: Check that all of these RT-PCR definitions are consistent, they seem to vary a little across sections... real time or reverse transcriptase?-->
 Reverse Transcription Polymerase Chain Reaction (RT-PCR) tests determine whether a target is present by amplifying a region of interest of cDNA [@doi:10.1042/BIO20200034].
@@ -1630,7 +1650,7 @@ Specifically this test utilizes two probes against RdRP, one of which is specifi
 Importantly, this assay was not found to return false positive results.
 <!-- To Do: How has this changed in the past year? Are we worried about viral evolution? Mention this approach is specific to SARS-CoV-2 rather than other HCoV-->
 
-#### qPCR
+##### qPCR
 
 In this manuscript we refer to quantitative real-time PCR as qPCR, following the recommendations of the MIQE guidelines [@doi:10.1373/clinchem.2008.112797]. 
 In contrast to RT-PCR, qPCR uses fluorescent dyes that bind to the amplified DNA, thereby allowing a real time assessment of the amplification procedure [@doi:10.1042/BIO20200034].
@@ -1675,7 +1695,35 @@ This evidence further indicates that the lower limit of detection made possible 
 Overall, these studies suggest that ddPCR is a promising tool for overcoming the problem of false-negative SARS-CoV-2 testing.
 <!-- To Do: Should we mention the differences in viral load threshhold for these two methods? We could tie this in to how we don't actually know how the viral load relates to infectiousness-->
 
-#### Pooled and Automated PCR Testing
+
+##### RT-LAMP
+RT-PCR remains the gold standard for detection of SARS-CoV-2 RNA from infected patients, but the traditional method requires special equipment and reagents, especially a thermocycler. 
+Loop mediated isothermal amplification (LAMP) is an alternative to PCR that does not require a thermal cycler [@DOI:10.1093/nar/28.12.e63]. 
+LAMP is combined with reverse transcription (RT-LAMP) to enable detection of RNA.
+RT-LAMP pilot studies for detecion of SARS-CoV-2 were recently reviewed and meta-analyzed [@PMID:34086539].
+In the meta analysis of all 2,112 samples, the cumulative sensitivity of RT-LAMP was 95.5% (CI 97.5% = 90.8-97.9%) and the cumulative specificity was 99.5% (CI 97.5% = 97.7-99.9%).
+The low cost, excellent sensitity/specificity, and quick readout of RT-LAMP makes this an attractive alternative to RT-PCR. 
+Alternative strategies like RT-LAMP are needed to bring widespread testing away from the lab and into under resourced areas.
+
+One study showed that RT-LAMP is effective for detection of SARS-CoV-2 with excellent specificity and sensitivity, and that this method can be applied to unprocessed saliva samples [@doi:10.1038/s41598-021-95799-6]. 
+This test aims to bring the sensitivity of nucleic acid detection to the point of care or home testing setting. 
+It could be applied for screening, diagnostics, or as a definitive test for people who are positive based on lateral flow tests.
+This method was benchmarked against RT-PCR using 177 human nasopharyngeal RNA samples, of which 126 were COVID positive.
+The authors break down the sensitivity of their test according to the cycle threshold (C~t~) value from RT-PCR of the same samples; RT-LAMP performs at 100% sensitivity for samples with a C~t~ from RT-PCR of 32 or less. 
+The performance is worse when considering all RT-PCR positive samples (including those with C~t~ values between 32-40).
+However, there is some evidence suggesting that samples obtained from individuals that achieve C~t~ values >30 measured using RT-PCR tend to be less infective that those that record a C~t~ value <30 [@doi:10.1016/j.jiph.2021.08.013; @doi:10.1017/ice.2021.132; @doi:10.1093/cid/ciaa619], so RT-LAMP is still a useful diagnostic tool. 
+Various combinations of reagents are available, but one example of reagents being used are the WarmStart Colorimetric LAMP 2X Master Mix with a set of six primers developed previously by Zhang et al. [@doi:10.1101/2020.02.26.20028373]. 
+To determine assay sensitivity, serial tenfold dilutions of _in vitro_ transcribed N-gene RNA standard (IVT RNA) were tested using quantities from 10^5 copies down to 10 copies. 
+The assay readout is the color of the dye changing from pink to yellow due to binding to the DNA product over 30 minutes. 
+The RT-LAMP assay was then applied to clinical nasopharyngeal samples.
+For viral loads above 100 copies of genomic RNA, the RT-LAMP assay had a sensitivity of 100% and a specificity of 96.1% from purified RNA.
+The direct assay of saliva by RT-LAMP had a sensitivity of 85% (CI 70-93%).
+Sensitivity and specificity metrics were obtained by comparison with results from RT-PCR.
+The estimated cost per test is about 2 euros when RNA extraction is included.
+The main strength of this test over RT-PCR is that it can be done isothermally, but the main drawback is that it is about 10-fold less sensitive than RT-PCR.
+
+
+##### Pooled and Automated PCR Testing
 
 Due to limited supplies and the need for more tests, several labs have found ways to pool or otherwise strategically design tests to increase throughput.
 The first such result came from Yelin et al. [@doi:10.1101/2020.03.26.20039438], who found they could pool up to 32 samples in a single qPCR run.
@@ -1686,6 +1734,7 @@ Technology based on CRISPR (clustered regularly interspaced short palindromic re
 
 ##### CRISPR-based Detection
 
+Technology based on CRISPR (clustered regularly interspaced short palindromic repeats) [@doi:10.1038/s41467-018-04252-2] has also been instrumental in scaling up testing protocols.
 Two CRISPR-associated nucleases, Cas12 and Cas13, have been used for nucleic acid detection.
 Multiple assays exploiting these nucleases have emerged as potential diagnostic tools for the rapid detection of SARS-CoV-2 genetic material and therefore SARS-CoV-2 infection.
 The SHERLOCK method (Specific High-sensitivity Enzymatic Reporter unLOCKing) from Sherlock Biosciences relies on Cas13a to discriminate between inputs that differ by a single nucleotide at very low concentrations [@doi:10.1126/science.aam9321].
@@ -1744,6 +1793,20 @@ Both techniques were equally sensitive in detecting SARS-CoV-2.
 Lateral flow strips showed a 100% correlation to the high-throughput DETECTR assay.
 Importantly, DETECTR was 100% specific for SARS-CoV-2 and did not detect other human coronaviruses.
 A method based on a Cas9 ortholog from Francisella novicida (FnCas9) achieved 100% sensitivity and 97% specificity in clinical samples, and the diagnostic kit is reported to have completed regulatory validation in India [@doi:10.1101/2020.09.13.20193581].
+
+#### Protein tests
+LFT-based tests are beneficial because they can detect current infection within 30 minutes and because they can be performed without specialized equipment at low cost. 
+LFTs rely on the detection of viral protein with an antibody. 
+Often this is done with an antibody sandwich format, where one antibody containing a dye binds at one site on the antigen, and an immobilized antibody on the strip binds at another site, allowing accumulation of the dye and the characteristic formation of a positive test line on the strip [@doi:10.1007/s00216-010-3661-4].
+The applications of LFTs are broad; they are routinely used for home pregnancy tests, disease detection, and even drugs of abuse detection in urine [@DOI:10.1007/s00216-008-2287-2].
+Current infection detection by LFTs is needed to enable the scale and speed of testing required to stop the spread of SARS-CoV-2.
+LFTs were made available freely to citizens in the United Kingdom at least until December 2021 [@DOI:10.1136/bmj.n1760].
+
+A recent review surveyed the performance of LFTs for detection of current SARS-CoV-2 infection [@PMID:34407759]. 
+This review covered 24 studies that included more than 26,000 total LFTs. 
+They found significant heterogeneity in test sensitivities ranging from 37.7% (95% CI 30.6-45.5) to 99.2% (95% CI 95.5-99.9). 
+The specificities of these tests were more homogeneous, spanning 92.4% (95% CI 87.5-95.5) to 100.0% (95% CI 99.7-100.0).
+<!-- To do: examples of specific studies evaluating LFTs for covid detection -->
 
 #### Limitations of Molecular Tests
 
@@ -5365,7 +5428,7 @@ The manuscripts produced by the consortium (excluding this one) will be submitte
 One has been published and two are available as preprints.
 This approach allows for a version of record to be maintained alongside the most recent version, which is always available through GitHub.
 These manuscripts cover a wide range of topics including the fundamental biology of SARS-CoV-2 (pathogenesis [@individual-pathogenesis] and evolution), biomedical advances in responding to the virus and COVID-19 (pharmaceuticals [@individual-pharmaceuticals], nutraceuticals [@individual-nutraceuticals], vaccines, and diagnostic technologies), and biological and social factors influencing disease transmission and outcomes.
-To date, 51 authors are associated with the consortium (Figure @fig:projectstats).
+To date, 52 authors are associated with the consortium (Figure @fig:projectstats).
 
 More formal recruitment efforts to integrate with existing projects providing support for undergraduate students during COVID-19 were also successful.
 We incorporated summaries written by the students, post-docs, and faculty of the Immunology Institute at the Mount Sinai School of Medicine^[<https://github.com/ismms-himc/covid-19_sinai_reviews>] [@doi:10.1038/s41577-020-0319-0].
@@ -5531,6 +5594,7 @@ Future work can address remaining limitations and continue to advance Manubot as
 |Daniel S. Himmelstein|None|2021-04-30|
 |Jeremy P. Kamil|TBD|2021-04-30|
 |Ariel I. Mundo|None|2021-12-19|
+|Jesse G. Meyer|None|2022-01-06|
 
 ### Author Contributions
 
@@ -5589,6 +5653,7 @@ Future work can address remaining limitations and continue to advance Manubot as
 |Daniel S. Himmelstein|Software|
 |Jeremy P. Kamil|Writing - Review & Editing|
 |Ariel I. Mundo|Writing - Review & Editing|
+|Jesse G. Meyer|Writing - Original Draft, Writing - Review & Editing|
 
 ### Acknowledgements
 
