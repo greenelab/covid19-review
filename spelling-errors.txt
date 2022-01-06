@@ -1,2 +1,10 @@
 AE
+crRNA
+FnCas
+Francisella
 IgGs
+novicida
+ortholog
+pyrophosphates
+thermophilus
+Thermus

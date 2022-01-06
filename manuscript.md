@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2021-12-26'
+date-meta: '2022-01-06'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -71,8 +71,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2021-12-26" />
-  <meta name="citation_publication_date" content="2021-12-26" />
+  <meta name="dc.date" content="2022-01-06" />
+  <meta name="citation_publication_date" content="2022-01-06" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -282,13 +282,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/68ff926d516777ccd3de4a6bdadc134294582e87/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/68ff926d516777ccd3de4a6bdadc134294582e87/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/68ff926d516777ccd3de4a6bdadc134294582e87/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/43179f550be8f6d7f0d0d61b982cf70793a6e5c4/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/43179f550be8f6d7f0d0d61b982cf70793a6e5c4/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/43179f550be8f6d7f0d0d61b982cf70793a6e5c4/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/68ff926d516777ccd3de4a6bdadc134294582e87/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/68ff926d516777ccd3de4a6bdadc134294582e87/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/43179f550be8f6d7f0d0d61b982cf70793a6e5c4/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/43179f550be8f6d7f0d0d61b982cf70793a6e5c4/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -310,11 +310,11 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/68ff926d516777ccd3de4a6bdadc134294582e87/))
+([permalink](https://greenelab.github.io/covid19-review/v/43179f550be8f6d7f0d0d61b982cf70793a6e5c4/))
 was automatically generated
-from [greenelab/covid19-review@68ff926](https://github.com/greenelab/covid19-review/tree/68ff926d516777ccd3de4a6bdadc134294582e87)
-on December 26, 2021.
-It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/68ff926d516777ccd3de4a6bdadc134294582e87/manuscript.pdf).
+from [greenelab/covid19-review@43179f5](https://github.com/greenelab/covid19-review/tree/43179f550be8f6d7f0d0d61b982cf70793a6e5c4)
+on January 6, 2022.
+It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/43179f550be8f6d7f0d0d61b982cf70793a6e5c4/manuscript.pdf).
 Snapshots of individual sections have been published [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals; @individual-methods].
 </em></small>
 
@@ -1692,13 +1692,13 @@ The SHERLOCK method (Specific High-sensitivity Enzymatic Reporter unLOCKing) fro
 The target RNA is amplified by RT-RPA and T7 transcription, and the amplified product activates Cas13a.
 The nuclease then cleaves a reporter RNA, which liberates a fluorescent dye from a quencher.
 Several groups have used the SHERLOCK method to detect SARS-CoV-2 viral RNA.
-An early study reported that the method could detect 7.5 copies of viral RNA in all 10 replicates, 2.5 copies in 6 out of 10, and 1.25 copies in 2 out of 10 runs [@doi:10.1101/2020.02.22.20025460].
+An early study reported that the method could detect 7.5 copies of viral RNA in all 10 replicates, 2.5 copies in 6 out of 10, and 1.25 copies in 2 out of 10 runs [@doi:10.1371/journal.ppat.1008705].
 It also reported 100% specificity and sensitivity on 114 RNA samples from clinical respiratory samples (61 suspected cases, among which 52 were confirmed and nine were ruled out by metagenomic next-generation sequencing, 17 nCoV-/HCoV+ cases and 36 samples from healthy subjects), and a reaction turnaround time of 40 minutes.
 A separate study screened four designs of SHERLOCK and extensively tested the best-performing assay.
 They determined the limit of detection to be 10 copies/&mu;l using both fluorescent and lateral flow detection [@doi:10.1101/2020.02.26.967026].
 Lateral flow test strips are simple to use and read, but there are limitations in terms of availability and cost per test.
-Another group therefore proposed the CREST protocol (Cas13-based, Rugged, Equitable, Scalable Testing), which uses a P51 cardboard fluorescence visualizer powered by a 9-volt battery, for the detection of Cas13 activity instead of immunochromatography [@doi:10.1101/2020.04.20.052159].
-CREST can be run from RNA sample to result in approximately 2 hours, with no need for AC power or a dedicated facility and with minimal handling.
+Another group therefore proposed the CREST protocol (Cas13-based, Rugged, Equitable, Scalable Testing), which uses a P51 cardboard fluorescence visualizer, powered by a 9-volt battery, for the detection of Cas13 activity instead of immunochromatography [@doi:10.1128/JCM.02402-20].
+CREST can be run, from RNA sample to result, with no need for AC power or a dedicated facility, with minimal handling in approximately 2 hours.
 Testing was performed on 14 nasopharyngeal swabs.
 CREST picked up the same positives as the CDC-recommended TaqMan assay with the exception of one borderline sample that displayed low-quality RNA.
 This approach may therefore represent a rapid, accurate, and affordable procedure for detecting SARS-CoV-2.
@@ -1712,20 +1712,38 @@ The assay had 95% positive predictive agreement and 100% negative predictive agr
 The estimated limit of detection was 10 copies per &mu;l reaction, versus 1 copy per &mu;l reaction for the CDC assay.
 These results have been confirmed by other DETECTR approaches.
 Using real-time recombinase polymerase amplification (RT-RPA) for amplification, another group detected 10 copies of synthetic SARS-CoV-2 RNA per &mu;l of input within 60 minutes of RNA sample preparation in a proof-of-principle evaluation [@doi:10.1101/2020.02.29.971127].
+Using a similar approach, another group reported detection at 1 copy per &mu;l [@doi:10.1371/journal.pbio.3000978].
 The DETECTR protocol was improved by combining RT-RPA and CRISPR-based detection in a one-pot reaction that incubates at a single temperature, and by using dual CRISPR RNAs (which increases sensitivity).
-This new assay, known as All-In-One Dual CRISPR-Cas12a (AIOD-CRISPR), detected 4.6 copies of SARS-CoV-2 RNA per &mu;l of input in 40 minutes [@doi:10.1101/2020.03.19.998724].
-Another single-tube, constant-temperature approach using Cas12b instead of Cas12a achieved a detection limit of 5 copies/&mu;l in 40-60 minutes [@doi:10.1101/2020.04.10.023358].
-It was also reported that electric field gradients can be used to control and accelerate CRISPR assays by co-focusing Cas12-gRNA, reporters, and target [@doi:10.1101/2020.05.21.109637].
+This new assay, known as All-In-One Dual CRISPR-Cas12a (AIOD-CRISPR), detected 4.6 copies of SARS-CoV-2 RNA per &mu;l of input in 40 minutes [@doi:10.1038/s41467-020-18575-6].
+Another single-tube, constant-temperature approach using Cas12b instead of Cas12a achieved a detection limit of 5 copies/&mu;l in 40-60 minutes [@doi:10.1038/s41421-020-0174-y].
+It was also reported that electric field gradients can be used to control and accelerate CRISPR assays by co-focusing Cas12-gRNA, reporters, and target [@doi:10.1073/pnas.2010254117].
 The authors generated an appropriate electric field gradient using a selective ionic focusing technique known as isotachophoresis (ITP) implemented on a microfluidic chip.
 They also used ITP for automated purification of target RNA from raw nasopharyngeal swab samples.
 Combining this ITP purification with loop-mediated isothermal amplification, their ITP-enhanced assay to achieved detection of SARS-CoV-2 RNA (from raw sample to result) in 30 minutes.
 
+All these methods required upstream nucleic acid amplification prior to CRISPR-based detection. 
+They are relying on type V (Cas12-based) and type IV (Cas13-based) CRISPR systems.
+In contrast, type III CRISPR systems have the unique property of initiating a signaling cascade, which could boost the sensitivity of direct RNA detection. 
+<!--To Do: It would be great to add just one sentence on what the type III CRISPR system is otherwise its confusing why/how a signaling cascade is initiated if one does not know what the differences are. (from Nils)-->
+A study tested this hypothesis using the type III-A CRISPR RNA (crRNA)-guided surveillance complex from Thermus thermophilus [@doi:10.1101/2020.10.14.20212670]. 
+They showed that activation of the Cas10 polymerase generates three products (cyclic nucleotides, protons, pyrophosphates) that can all be used to detect SARS-CoV-2 RNA. 
+Direct detection was 100-fold more sensitive than direct detection by Cas13. 
+Detection of viral RNA in patient samples still required an initial nucleic acid amplification step, but improvements may in the future remove that requirement.
+
+This goal of amplification-free detection was later achieved for a Cas13a-based system [@doi:10.1016/j.cell.2020.12.001]. 
+This approach combined multiple CRISPR RNAs to increase Cas13a activation, which is detected by a fluorescent reporter. 
+Importantly, because the viral RNA is detected directly, the test yields a quantitative measurement rather than a binary result. 
+The study also shows that fluorescence can be measured in a custom-made dark box with a mobile phone camera and a low-cost laser illumination and collection optics. 
+This makes this approach a truly portable assay for point-of-care diagnostics. 
+The authors achieved detection of 100 copies/&mu;l of pre-isolated RNA in 30 minutes, and correctly identified all SARS-CoV-2-positive patient RNA samples tested in 5 minutes (n=20).
+
 There is an increasing body of evidence that CRISPR-based assays offer a practical solution for rapid, low-barrier testing in areas that are at greater risk of infection, such as airports and local community hospitals.
-In the largest study to date, DETECTR was compared to RT-qPCR on 378 patient samples [@doi:10.1101/2020.07.27.20147249].
+In the largest study to date, DETECTR was compared to qRT-PCR on 378 patient samples [@doi:10.1093/infdis/jiaa641].
 The authors reported a 95% reproducibility.
 Both techniques were equally sensitive in detecting SARS-CoV-2.
 Lateral flow strips showed a 100% correlation to the high-throughput DETECTR assay.
 Importantly, DETECTR was 100% specific for SARS-CoV-2 and did not detect other human coronaviruses.
+A method based on a Cas9 ortholog from Francisella novicida (FnCas9) achieved 100% sensitivity and 97% specificity in clinical samples, and the diagnostic kit is reported to have completed regulatory validation in India [@doi:10.1101/2020.09.13.20193581].
 
 #### Limitations of Molecular Tests
 
@@ -1935,14 +1953,14 @@ The scale of the COVID-19 pandemic has made the repurposing and development of p
 
 ![
 **Cumulative global incidence of COVID-19 and SARS.**
-As of December 23, 2021, 278,177,141 COVID-19 cases and 5,386,736 COVID-19 deaths had been reported worldwide since January 22, 2020.
+As of January 4, 2022, 295,244,646 COVID-19 cases and 5,457,604 COVID-19 deaths had been reported worldwide since January 22, 2020.
 A total of 8,432 cases and 813 deaths were reported for SARS from March 17 to July 11, 2003.
 SARS-CoV-1 was officially contained on July 5, 2003, within 9 months of its appearance [@doi:10.3390/ijerph17113973].
 In contrast, SARS-CoV-2 remains a significant global threat nearly two years after its emergence.
 COVID-19 data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series; @doi:10/ggnsjk].
 SARS data are from the WHO [@url:https://www.who.int/csr/sars/country/en] and were obtained from a dataset on GitHub [@url:https://github.com/imdevskp/sars-2003-outbreak-data-webscraping-code].
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/a46fdcf15e5ce0c9cc05e3163516f310b9eb4e99/csse/csse-deaths.png "Global incidence of COVID-19 and SARS"){#fig:csse-deaths secno=1}
+](https://github.com/greenelab/covid19-review/raw/a90a4cb5437b844d3b02da6bbf435207a3c7462e/csse/csse-deaths.png "Global incidence of COVID-19 and SARS"){#fig:csse-deaths secno=1}
 
 At first, SARS-CoV-2's rapid shift from an unknown virus to a significant worldwide threat closely paralleled the emergence of _Severe acute respiratory syndrome-related coronavirus_ (SARS-CoV-1), which was responsible for the 2002-03 SARS epidemic.
 The first documented case of COVID-19 was reported in Wuhan, China in November 2019, and the disease quickly spread worldwide in the early months of 2020.
@@ -1999,7 +2017,7 @@ Recruitment status and trial phase are shown only for interventional trials in w
 Common interventions refers to interventions used in at least ten trials.
 Combinations of interventions, such as hydroxychloroquine with azithromycin, are tallied separately from the individual interventions.
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/a46fdcf15e5ce0c9cc05e3163516f310b9eb4e99/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/a90a4cb5437b844d3b02da6bbf435207a3c7462e/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 The purpose of this review is to provide an evolving resource tracking the status of efforts to repurpose and develop drugs for the treatment of COVID-19.
 We highlight four strategies that provide different paradigms for the identification of potential pharmaceutical treatments.
@@ -3065,7 +3083,7 @@ Vaccine development began almost five centuries ago, but the SARS-CoV-2 pandemic
 ### Importance
 
 The SARS-CoV-2 pandemic has caused untold damage to the global population, but it also presented some unique opportunities for vaccine development.
-As of December 23, 2021, SARS-CoV-2 has infected over 278,177,141 and cost the lives of 5,386,736 people globally.
+As of January 4, 2022, SARS-CoV-2 has infected over 295,244,646 and cost the lives of 5,457,604 people globally.
 The development, production, and distribution of vaccines is imperative to saving lives, preventing illness, and reducing the economic and social burdens caused by the COVID-19 pandemic.
 Now that promising candidates exist, effective deployment will provide an opportunity to move into a new phase of the pandemic where the susceptibility of worldwide populations is significantly reduced.
 This review provides a historical context for vaccine development and highlights the main strategies utilized for the development of the COVID-19 vaccines, their clinical appraisal, and their distribution.
@@ -3223,7 +3241,7 @@ There are also considerations related to the method of delivering (or co-deliver
 Vaccination emerged early on as a strategy of interest for managing the COVID-19 pandemic, with the first human trial participant receiving a dose on March 16, 2020 [@url:https://www.modernatx.com/modernas-work-potential-vaccine-against-covid-19; @doi:10.1038/d41573-020-00073-5].
 Within a few weeks, by April 8, 78 vaccine development programs could be confirmed as active, with an additional 37 unconfirmed [@doi:10.1038/d41573-020-00073-5].
 These programs explored a wide variety of technologies.
-As of December 23, 2021, 18 types of vaccines are being administered throughout the world, with 8,900 million doses administered across 223 countries.
+As of January 4, 2022, 18 types of vaccines are being administered throughout the world, with 9,277 million doses administered across 223 countries.
 Many vaccines are available in only a subset of countries, and the types of vaccines available varies widely throughout the world.
  
 #### Live-Attenuated Virus Vaccines
@@ -3318,14 +3336,14 @@ Preclinical data providing supporting evidence for the use of this vaccine is no
 Despite the lack of publicly available preclinical results, Sinopharm Wuhan Institute initiated phase I/II trials, which reported on varying dosing and prime-boost regimens. 
 Neutralizing antibodies were detected in all groups 14 days after the final dose in the phase I part of the trial [@doi:10.1001/jama.2020.15543]. 
 Similar findings were reported in the Interim phase II data [@doi:10.1001/jama.2020.15543].
-As of December 23, 2021, 6 vaccines developed with inactivated-whole virus technology are being distributed in 108 countries (Figure @fig:iwv-distrib).
+As of January 4, 2022, 6 vaccines developed with inactivated-whole virus technology are being distributed in 108 countries (Figure @fig:iwv-distrib).
 
 ![
 **Worldwide availability of vaccines developed using inactivated whole viruses.**
-This figure reflects the number of vaccines based on whole inactivated virus technology that were available in each country as of December 23, 2021.
+This figure reflects the number of vaccines based on whole inactivated virus technology that were available in each country as of January 4, 2022.
 These data are retrieved from Our World in Data <!-To Do: Cite--> and plotted using geopandas.
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/a46fdcf15e5ce0c9cc05e3163516f310b9eb4e99/owiddata/maps/inactivated_whole_virus.png "Availability of inactivated whole virus vaccines"){#fig:iwv-distrib secno=1}
+](https://github.com/greenelab/covid19-review/raw/a90a4cb5437b844d3b02da6bbf435207a3c7462e/owiddata/maps/inactivated_whole_virus.png "Availability of inactivated whole virus vaccines"){#fig:iwv-distrib secno=1}
 
 ### Protein Subunit Vaccines
 
@@ -3371,14 +3389,14 @@ In line with the preclinical studies, the use of Matrix-M adjuvant further incre
 The development of a protein subunit vaccine against SARS-CoV-2 is a remarkable achievement given the short period of time since the emergence of SARS-CoV-2 in 2019, particularly considering these types of vaccines have not played a major role in previous pandemics.  
 However, protein subunit vaccines do play a role in public health and have contributed to vaccination against hepatitis B [@doi:10/d4g86c] and pertussis [@doi:10.1128/mBio.01339-14; @doi:10.1371/journal.ppat.1003418] since the 1980s and will likely continue to contribute to public health for the foreseeable future due to ongoing research in vaccines against influenza, SARS-CoV-2, Epstein-Barr virus, dengue virus, and human papillomavirus among others [@doi:10.1016/j.micinf.2014.12.006; @https://covid19.trackvaccines.org/vaccines; @doi:10.1080/21655979.2016.1191707].
 In a phase III randomized, observer-blinded, placebo-controlled clinical trial in 14,039 participants, two 5-&mu;g doses of NVX-CoV2373 or placebo were administered 21 days apart in a 1:1 ratio from late September to late November 2020 [@doi:10.1056/NEJMoa2107659].
-As of December 23, 2021, 5 protein subunit vaccines are being distributed in 10 countries (Figure @fig:ps-distrib).
+As of January 4, 2022, 5 protein subunit vaccines are being distributed in 10 countries (Figure @fig:ps-distrib).
 
 ![
 **Worldwide availability of vaccines developed using protein subunit.**
-This figure reflects the number of vaccines based on protein subunit technology that were available in each country as of December 23, 2021.
+This figure reflects the number of vaccines based on protein subunit technology that were available in each country as of January 4, 2022.
 These data are retrieved from Our World in Data <!-To Do: Cite--> and plotted using geopandas.
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/a46fdcf15e5ce0c9cc05e3163516f310b9eb4e99/owiddata/maps/protein_subunit.png "Availability of protein subunit vaccines"){#fig:ps-distrib secno=1}
+](https://github.com/greenelab/covid19-review/raw/a90a4cb5437b844d3b02da6bbf435207a3c7462e/owiddata/maps/protein_subunit.png "Availability of protein subunit vaccines"){#fig:ps-distrib secno=1}
 
 ### Vaccines Delivering DNA
 
@@ -3465,14 +3483,14 @@ The three viral-vector vaccines described above have demonstrated the potential 
 Additionally, though the vaccines are developed using similar principles, there are some differences that might influence their efficacy as SARS-CoV-2 evolves.
 In the Janssen vaccine, the S protein immunogen is stabilized in its prefusion conformation, while in the Sputnik V and AstraZeneca vaccines, it is not.
 How these differences in design influence the efficacy of these three viral-vector vaccines over time remains to be seen.
-As of December 23, 2021, 5 viral-vectored vaccines are being distributed in 199 countries (Figure @fig:nrvv-distrib).
+As of January 4, 2022, 5 viral-vectored vaccines are being distributed in 199 countries (Figure @fig:nrvv-distrib).
 
 ![
 **Worldwide availability of vaccines developed using non-replicating viral vectors.**
-This figure reflects the number of vaccines using non-replicating viral vectors that were available in each country as of December 23, 2021.
+This figure reflects the number of vaccines using non-replicating viral vectors that were available in each country as of January 4, 2022.
 These data are retrieved from Our World in Data <!-To Do: Cite--> and plotted using geopandas.
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/a46fdcf15e5ce0c9cc05e3163516f310b9eb4e99/owiddata/maps/non_replicating_viral_vector.png "Availability of non-replicating viral-vectored vaccines"){#fig:nrvv-distrib secno=1}
+](https://github.com/greenelab/covid19-review/raw/a90a4cb5437b844d3b02da6bbf435207a3c7462e/owiddata/maps/non_replicating_viral_vector.png "Availability of non-replicating viral-vectored vaccines"){#fig:nrvv-distrib secno=1}
 
 ### RNA Vaccines
 
@@ -3520,14 +3538,14 @@ The first was Pfizer/BioNTech's BNT162b2, which contains the full prefusion stab
 <!--To Do: brief history of phase I & phase II (like 1-2 sentences)-->
 mRNA-1273 is comprised by a conventional lipid nanoparticle encapsulated RNA encoding a full-length prefusion stabilized S protein for SARS-CoV-2 [@clinicaltrials:NCT04283461].
 In the phase I trial, neutralizing activity reached similar levels to that observed in convalescent plasma samples by day 7 after the second dose of RNA-1273 [@doi:10.1056/NEJMoa2022483].
-As of December 23, 2021, 2 mRNA vaccines are available in 157 countries (Figure @fig:mRNA-distrib).
+As of January 4, 2022, 2 mRNA vaccines are available in 157 countries (Figure @fig:mRNA-distrib).
 
 ![
 **Worldwide availability of vaccines developed using mRNA.**
-This figure reflects the number of vaccines based on mRNA technology that were available in each country as of December 23, 2021.
+This figure reflects the number of vaccines based on mRNA technology that were available in each country as of January 4, 2022.
 These data are retrieved from Our World in Data <!-To Do: Cite--> and plotted using geopandas.
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/a46fdcf15e5ce0c9cc05e3163516f310b9eb4e99/owiddata/maps/RNA.png "Availability of mRNA vaccines"){#fig:mRNA-distrib secno=1}
+](https://github.com/greenelab/covid19-review/raw/a90a4cb5437b844d3b02da6bbf435207a3c7462e/owiddata/maps/RNA.png "Availability of mRNA vaccines"){#fig:mRNA-distrib secno=1}
 
 ### Vaccine Safety Profiles
 
@@ -5054,7 +5072,7 @@ Trials that recruit across multiple countries do appear to broaden geographic re
 The density of clinical trials is reported at the country level.
 As of December 31, 2020, there are 6,987 trials in the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709], of which 3,962 are interventional.
 The top figure demonstrates the density of interventional trials recruiting only from a singular country, while the bottom shows the distribution of recruitment for interventional trials that involve more than one country.
-](https://github.com/greenelab/covid19-review/raw/a46fdcf15e5ce0c9cc05e3163516f310b9eb4e99/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
+](https://github.com/greenelab/covid19-review/raw/a90a4cb5437b844d3b02da6bbf435207a3c7462e/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
 
 A few different concerns arise from this skewed geographic representation in clinical trial recruitment.
 First, treatments such as remdesivir that are promising but primarily available to clinical trial participants are unlikely to be accessible by people in many countries.
