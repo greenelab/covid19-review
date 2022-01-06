@@ -1,0 +1,126 @@
+% Adaptation of the template by Wouter Groeneveld
+% https://brainbaking.com/post/2021/02/writing-academic-papers-in-markdown/
+
+\documentclass[sigconf]{acmart}
+
+\usepackage{balance}	% balancing bibstyles as per request in accepted submission
+
+
+%% These commands are for a PROCEEDINGS abstract or paper.
+$for(acm)$
+\copyrightyear{$acm.copyrightyear$}
+\acmYear{$acm.copyrightyear$}
+\setcopyright{$acm.copyright$}
+\acmConference[$acm.conference$]{$acm.conferencetitle$}{$acm.date$}{$acm.location$}
+\acmBooktitle{$acm.booktitle$}
+\acmPrice{$acm.price$}
+\acmISBN{$acm.bookisbn$}
+\acmDOI{$acm.doi$}
+$endfor$
+
+$for(header-includes)$
+$header-includes$
+$endfor$
+
+
+$for(author)$
+	\author{$author.name$}
+	$if(author.orcid)$
+		\orcid{$author.orcid$}
+	$endif$
+	$for(author.affiliations)$
+		\affiliation{
+			$if(author.affiliations.institution)$
+				\institution{$author.affiliations.institution$}
+			$endif$
+			$if(author.affiliations.department)$
+				\department{$author.affiliations.department$}
+			$endif$
+			$if(author.affiliations.city)$
+				\city{$author.affiliations.city$}
+			$endif$
+			$if(author.affiliations.state)$
+				\state{$author.affiliations.state$}
+			$endif$
+			$if(author.affiliations.country)$
+				\country{$author.affiliations.country$}
+			$endif$
+		}
+	$endfor$
+	$for(author.additionalaffiliations)$
+		\additionalaffiliation{
+			$if(author.additionalaffiliations.institution)$
+				\institution{$author.additionalaffiliations.institution$}
+			$endif$
+			$if(author.additionalaffiliations.department)$
+				\department{$author.additionalaffiliations.department$}
+			$endif$
+			$if(author.additionalaffiliations.city)$
+				\city{$author.additionalaffiliations.city$}
+			$endif$
+			$if(author.additionalaffiliations.state)$
+				\state{$author.additionalaffiliations.state$}
+			$endif$
+			$if(author.additionalaffiliations.country)$
+				\country{$author.additionalaffiliations.country$}
+			$endif$
+		}
+	$endfor$
+	$if(author.email)$
+		\email{$author.email$}
+	$endif$
+$endfor$
+
+$if(final)$
+	$if(poster)$
+		\settopmatter{printacmref=false, printfolios=false}
+	$else$
+		\settopmatter{printacmref=true}
+	$endif$
+$endif$
+
+\begin{document}
+
+$if(final)$
+	\fancyhead{}
+$endif$
+
+$if(title)$
+	\title{$title$}
+$endif$
+$if(subtitle)$
+	\subtitle{$subtitle$}
+$endif$
+
+
+$if(abstract)$
+\begin{abstract}
+$abstract$
+\end{abstract}
+$endif$
+
+
+\renewcommand{\shortauthors}{$shortauthors$}
+
+
+\maketitle
+\bibliographystyle{ACM-Reference-Format}
+
+$if(conflicts)$
+	{\let\thefootnote\relax\footnote{$conflicts$}}
+$endif$
+
+$body$
+
+% Add funding statement as a comment so it can be manually reviewed and condensed
+$if(funding)$
+	%{$funding$}
+$endif$
+
+$if(bibfile)$
+	\balance
+	\bibliography{$bibfile$}
+$endif$
+
+\end{document}
+\endinput

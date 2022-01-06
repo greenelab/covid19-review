@@ -3,6 +3,8 @@ on:
   schedule:
     # Run every day at 00:00
     - cron:  '0 0 * * *'
+  # Enable manually updating the external resources
+  workflow_dispatch:
 
 jobs:
   update_external_resources:
@@ -21,6 +23,9 @@ jobs:
           environment-file: environment.yml
           auto-activate-base: false
           miniconda-version: 'latest'
+      - name: List packages in conda environment
+        shell: bash --login {0}
+        run: conda list
       - name: Update JHU CSSE data
         shell: bash --login {0}
         run: bash csse/generate-csse-stats.sh
@@ -30,26 +35,32 @@ jobs:
       - name: Update OWID data
         shell: bash --login {0}
         run: bash owiddata/generate-owiddata-stats.sh
-      - name: Commit JHU CSSE and EBM Data Lab figures
+      - name: Update CORD-19 data
+        shell: bash --login {0}
+        run: bash CORD-19/generate-cord19-stats.sh
+#      - name: Update manuscript statistics data
+#        shell: bash --login {0}
+#        run: bash analyze-ms-stats/calc-manuscript-stats.sh
+      - name: Commit JHU CSSE, EBM Data Lab, OWID, CORD-19, and manuscript growth figures
         uses: EndBug/add-and-commit@v4
         with:
-          add: '*/*.png */*.svg'
+          add: '*/*.png */*.svg */*/*.png */*/*.svg'
           author_name: GitHub Actions
           author_email: actions@github.com
-          message: 'Update JHU CSSE and EBM Data Lab figures'
+          message: 'Update JHU CSSE, EBM Data Lab, OWID, CORD-19, and manuscript growth figures'
           ref: external-resources
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Update figure versions
         shell: bash --login {0}
         run: bash version-figures.sh
-      - name: Commit JHU CSSE, EBM Data Lab, and OWID statistics
+      - name: Commit JHU CSSE, EBM Data Lab, OWID, CORD-19, and manuscript growth statistics
         uses: EndBug/add-and-commit@v4
         with:
           add: '*/*.json'
           author_name: GitHub Actions
           author_email: actions@github.com
-          message: 'Update JHU CSSE, EBM Data Lab, and OWID statistics'
+          message: 'Update JHU CSSE, EBM Data Lab, OWID, CORD-19, and manuscript growth statistics'
           ref: external-resources
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

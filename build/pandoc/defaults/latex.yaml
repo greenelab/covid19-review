@@ -1,0 +1,16 @@
+# Pandoc --defaults shared between Manubot output formats.
+# See documentation at https://github.com/jgm/pandoc/issues/5990
+# and https://pandoc.org/MANUAL.html#default-files
+from: markdown
+to: latex
+output-file: output/manuscript.tex
+filters:
+- pandoc-fignos
+- pandoc-eqnos
+- pandoc-tablenos
+- pandoc-manubot-cite
+wrap: preserve
+shift-heading-level-by: -2
+standalone: true
+template: build/assets/ceurart-pandoc-2col.tex
+cite-method: natbib

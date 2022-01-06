@@ -1,0 +1,134 @@
+\documentclass[twocolumn]{ceurart}
+
+%%
+%% One can fix some overfulls
+\sloppy
+
+% TODO - mentioned standard includes?
+$for(header-includes)$
+$header-includes$
+$endfor$
+
+%%
+%% end of the preamble, start of the body of the document source.
+\begin{document}
+
+%%
+%% Rights management information.
+%% CC-BY is default license.
+$for(acm)$
+\copyrightyear{$acm.copyrightyear$}
+$endfor$
+\copyrightclause{Copyright for this paper by its authors.
+  Use permitted under Creative Commons License Attribution 4.0
+  International (CC BY 4.0).}
+
+% TODO - fix acm in yaml/json
+
+%%
+%% This command is for the conference information
+$for(acm)$
+\conference{$acm.conference$: $acm.conferencetitle$, $acm.date$, $acm.location$}
+$endfor$
+
+%%
+%% The "title" command
+$if(title)$
+\title{$title$}
+$endif$
+$if(subtitle)$
+\title[mode=sub]{$subtitle$}
+$endif$
+
+%%
+%% The "author" command and its associated commands are used to define
+%% the authors and their affiliations.
+% TODO - link affiliation/address numbers - do in .py?
+$for(author)$
+  \author[]{$author.name$}[%
+	$if(author.orcid)$
+		orcid=$author.orcid$,
+	$endif$
+	$if(author.email)$
+		email=$author.email$
+	$endif$
+  % TODO - url, (oneline?)
+	]
+	$for(author.affiliations)$
+		\address[]{
+			$if(author.affiliations.institution)$
+				$author.affiliations.institution$,
+			$endif$
+			$if(author.affiliations.department)$
+				$author.affiliations.department$,
+			$endif$
+			$if(author.affiliations.city)$
+				$author.affiliations.city$,
+			$endif$
+			$if(author.affiliations.state)$
+				$author.affiliations.state$,
+			$endif$
+			$if(author.affiliations.country)$
+				$author.affiliations.country$
+			$endif$
+		}
+	$endfor$
+  % TODO - check additional affiliation(s)
+	$for(author.additionalaffiliations)$
+		\address[]{
+			$if(author.additionalaffiliations.institution)$
+				$author.additionalaffiliations.institution$,
+			$endif$
+			$if(author.additionalaffiliations.department)$
+				$author.additionalaffiliations.department$,
+			$endif$
+			$if(author.additionalaffiliations.city)$
+				$author.additionalaffiliations.city$,
+			$endif$
+			$if(author.additionalaffiliations.state)$
+				$author.additionalaffiliations.state$,
+			$endif$
+			$if(author.additionalaffiliations.country)$
+				$author.additionalaffiliations.country$
+			$endif$
+		}
+	$endfor$
+$endfor$
+
+%%
+%% The abstract is a short summary of the work to be presented in the
+%% article.
+$if(abstract)$
+\begin{abstract}
+$abstract$
+\end{abstract}
+$endif$
+
+% TODO - keywords
+
+%%
+%% This command processes the author and affiliation and title
+%% information and builds the first part of the formatted document.
+\maketitle
+
+% TODO - check
+$if(conflicts)$
+{\let\thefootnote\relax\footnote{$conflicts$}}
+$endif$
+
+$body$
+
+% TODO - check
+% Add funding statement as a comment so it can be manually reviewed and condensed
+$if(funding)$
+%{$funding$}
+$endif$
+
+%%
+%% Define the bibliography file to be used
+$if(bibfile)$
+\bibliography{$bibfile$}
+$endif$
+
+\end{document}
+\endinput

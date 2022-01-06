@@ -30,6 +30,7 @@ authors:
       lastapproved: !!str 2021-01-20
     funders:
       - the Gordon and Betty Moore Foundation (GBMF 4552)
+      - the National Human Genome Research Institute (R01 HG010067)
     manuscripts:
       pathogenesis:
         order: 1
@@ -58,6 +59,30 @@ authors:
         contributions:
           - A
           - E
+      methods:
+        order: 1
+        contributions:
+          - Software
+          - Project Administration
+          - Visualization
+          - Writing - Review & Editing
+          - Writing - Original Draft
+        affiliations:
+          - institution: University of Colorado School of Medicine
+            department: Center for Health AI
+            city: Aurora
+            state: CO
+            country: USA
+          - institution: University of Colorado School of Medicine
+            department: Department of Biochemistry and Molecular Genetics
+            city: Aurora
+            state: CO
+            country: USA
+          - institution: University of Pennsylvania
+            department: Perelman School of Medicine, Department of Systems Pharmacology and Translational Therapeutics
+            city: Philadelphia
+            state: PA
+            country: USA
   -
     github: cgreene
     name: Casey S. Greene
@@ -99,6 +124,32 @@ authors:
         contributions:
           - Writing - Review & Editing
           - Project Administration
+      methods:
+        order: 9
+        contributions:
+          - Software
+          - Conceptualization
+        affiliations:
+          - institution: University of Colorado School of Medicine
+            department: Center for Health AI
+            city: Aurora
+            state: CO
+            country: USA
+          - institution: University of Colorado School of Medicine
+            department: Department of Biochemistry and Molecular Genetics
+            city: Aurora
+            state: CO
+            country: USA
+          - institution: University of Pennsylvania
+            department: Perelman School of Medicine, Department of Systems Pharmacology and Translational Therapeutics
+            city: Philadelphia
+            state: PA
+            country: USA
+          - institution: Alex's Lemonade Stand Foundation
+            department: Childhood Cancer Data Lab
+            city: Philadelphia
+            state: PA
+            country: USA
   -
     github: mprobson
     name: Michael P. Robson
@@ -114,6 +165,19 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-11-12
+    manuscripts:
+      methods:
+        order: 5
+        contributions:
+          - Software
+          - Methodology
+          - Supervision
+        affiliations:
+          - institution: Villanova University
+            department: Department of Computing Sciences
+            city: Villanova
+            state: PA
+            country: USA
   -
     github: SiminaB
     name: Simina M. Boca
@@ -128,8 +192,8 @@ authors:
     affiliations:
       - Innovation Center for Biomedical Informatics, Georgetown University Medical Center, Washington, District of Columbia, United States of America
     coi:
-      string: "None"
-      lastapproved: !!str 2020-11-07
+      string: Currently an employee at AstraZeneca, Gaithersburg, MD, USA, may own stock or stock options.
+      lastapproved: !!str 2021-07-01
     manuscripts:
       pathogenesis:
         order: 4
@@ -140,6 +204,16 @@ authors:
         contributions:
           - Writing - Review & Editing
           - Project Administration
+      methods:
+        order: 2
+        contributions:
+          - Methodology
+        affiliations:
+          - institution: Georgetown University Medical Center
+            department: Innovation Center for Biomedical Informatics
+            city: Washington
+            state: DC
+            country: USA
   -
     github: nilswellhausen
     name: Nils Wellhausen
@@ -191,7 +265,7 @@ authors:
       lastapproved: !!str 2020-11-03
     manuscripts:
       pathogenesis:
-        order: 6
+        order: 3
         contributions:
           - Writing - Review & Editing
       nutraceuticals:
@@ -202,7 +276,7 @@ authors:
           - Conceptualization
           - Project Administration
       pharmaceuticals:
-        order: 6
+        order: 5
         contributions:
           - Writing - Review & Editing
           - Writing - Original Draft
@@ -232,7 +306,7 @@ authors:
           - Writing - Review & Editing
           - Writing - Original Draft
       pharmaceuticals:
-        order: 7
+        order: 6
         contributions:
           - Writing - Review & Editing
           - Project Administration
@@ -241,7 +315,7 @@ authors:
     name: Sandipan Ray
     initials: SR
     orcid: 0000-0002-9960-5768
-    email: sandipan.ray@pennmedicine.upenn.edu
+    email: sandipan.ray@bt.iith.ac.in
     contributions:
       - Writing - Original Draft
       - Writing - Review & Editing
@@ -281,6 +355,16 @@ authors:
         contributions:
           - Writing - Review & Editing
           - Writing - Original Draft
+      methods:
+        order: 3
+        contributions:
+          - Methodology
+        affiliations:
+          - institution: Wake Forest University
+            department: Department of Mathematics and Statistics
+            city: Winston-Salem
+            state: NC
+            country: USA
   -
     github: agitter
     name: Anthony Gitter
@@ -320,6 +404,25 @@ authors:
           - Project Administration
           - Visualization
           - Software
+      methods:
+        order: 10
+        contributions:
+          - Software
+          - Methodology
+          - Project Administration
+          - Writing - Review & Editing
+          - Writing - Original Draft
+          - Visualization
+        affiliations:
+          - institution: University of Wisconsin-Madison
+            department: Department of Biostatistics and Medical Informatics
+            city: Madison
+            state: WI
+            country: USA
+          - institution: Morgridge Institute for Research
+            city: Madison
+            state: WI
+            country: USA
   -
     github: aadattoli
     name: Anna Ada Dattoli
@@ -354,7 +457,7 @@ authors:
     code of conduct:
       confirmed: Yes
     affiliations:
-      - Azimuth1, McLean, VA
+      - Azimuth1, McLean, Virginia, United States of America
     coi:
       string: "None"
       lastapproved: !!str 2020-11-10
@@ -363,6 +466,16 @@ authors:
         order: 6
         contributions:
           - Writing - Review & Editing
+      methods:
+        order: 7
+        contributions:
+          - Software
+          - Methodology
+        affiliations:
+          - institution: Azimuth1
+            city: McLean
+            state: VA
+            country: USA
   -
     github: johnbarton
     name: John P. Barton
@@ -397,7 +510,7 @@ authors:
     code of conduct:
       confirmed: yes
     affiliations:
-      - Department of Pharmacology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
+      - Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
     coi:
       string: "None"
       lastapproved: !!str 2020-11-12
@@ -430,7 +543,7 @@ authors:
         contributions:
           - Writing - Review & Editing
   -
-    github: alavendelm
+    github: adamlmaclean
     name: Adam L. MacLean
     initials: ALM
     orcid: 0000-0003-0689-7907
@@ -568,6 +681,41 @@ authors:
           - Writing - Review & Editing
           - Writing - Original Draft
   -
+    github: vincerubinetti
+    name: Vincent Rubinetti
+    initials: VR
+    orcid: 0000-0002-4655-3773
+    email: vince.rubinetti@gmail.com
+    contributions:
+      - Writing - Original Draft
+      - Software
+    code of conduct:
+      confirmed: Yes
+    affiliations:
+      - Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+      - Center for Health AI, University of Colorado School of Medicine, Aurora, Colorado, United States of America
+    coi:
+      string: "None"
+      lastapproved: !!str 2021-04-29
+    manuscripts:
+      methods:
+        order: 6
+        contributions:
+          - Writing - Original Draft
+          - Software
+          - Visualization
+        affiliations:
+          - institution: University of Colorado School of Medicine
+            department: Center for Health AI
+            city: Aurora
+            state: CO
+            country: USA
+          - institution: University of Pennsylvania
+            department: Perelman School of Medicine, Department of Systems Pharmacology and Translational Therapeutics
+            city: Philadelphia
+            state: PA
+            country: USA
+  -
     github: jinhui2
     name: Jinhui Wang
     initials: JW
@@ -662,7 +810,7 @@ authors:
       confirmed: yes
     coi:
       string: "None"
-      lastapproved: !!str 2020-11-11
+      lastapproved: !!str 2021-08-02
     manuscripts:
       pathogenesis:
         order: 4
@@ -776,7 +924,7 @@ authors:
     code of conduct:
       confirmed: yes
     coi:
-      string: "Now employed by Pfizer (subsequent to contributions to this project)"
+      string: "YoSon Park is affiliated with Pfizer Worldwide Research. The author has no financial interests to declare and contributed as an author prior to joining Pfizer, and the work was not part of a Pfizer collaboration nor was it funded by Pfizer."
       lastapproved: !!str 2020-01-22
     funders: NHGRI R01 HG10067
     manuscripts:
@@ -1105,6 +1253,10 @@ authors:
         order: 8
         contributions:
           - Project Administration
+      methods:
+        order: 8
+        contributions:
+          - Project Administration
   -
     github: rishirajgoel
     name: Rishi Raj Goel
@@ -1146,7 +1298,7 @@ authors:
       lastapproved: !!str 2021-03-26
     manuscripts:
       pathogenesis:
-        order: 0
+        order: 5
         contributions:
           - Writing - Review & Editing
   -
@@ -1178,5 +1330,60 @@ authors:
     manuscripts:
       evolution:
         order: 0
+        contributions:
+          - Writing - Review & Editing
+  - 
+    github: dhimmel
+    name: Daniel S. Himmelstein
+    initials: DSH
+    orcid: 0000-0002-3012-7446
+    twitter: dhimmel
+    email: daniel.himmelstein@gmail.com
+    affiliations:
+      - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+      - Related Sciences
+    funders: GBMF4552
+    coi:
+      string: "None"
+      lastapproved: !!str 2021-04-30
+    manuscripts:
+      methods:
+        order: 4
+        contributions:
+          - Software
+        affiliations:
+          - institution: Related Sciences
+          - institution: University of Pennsylvania
+            department: Perelman School of Medicine, Department of Systems Pharmacology and Translational Therapeutics
+            city: Philadelphia
+            state: PA
+            country: USA
+  - 
+    name: Jeremy P. Kamil
+    affiliations:
+      - Department of Microbiology and Immunology, Louisiana State University Health Sciences Center Shreveport, Shreveport, Louisiana, USA
+    email: jeremy.kamil@lsuhs.edu
+    orcid: 0000-0001-8422-7656
+    coi:
+      string: "TBD"
+      lastapproved: !!str 2021-04-30
+    manuscripts:
+      pathogenesis:
+        order: 6
+        contributions:
+          - Writing - Review & Editing
+  - 
+    github: aimundo
+    name: Ariel I. Mundo
+    affiliations:
+      - Department of Biomedical Engineering, University of Arkansas, Fayetteville, Arkansas, USA
+    email: aimundo@uark.edu
+    orcid: 0000-0002-6014-4538
+    coi:
+      string: "None"
+      lastapproved:  !!str 2021-12-19
+    manuscripts:
+      diagnostics:
+        order: 1
         contributions:
           - Writing - Review & Editing
