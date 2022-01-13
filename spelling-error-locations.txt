@@ -26,6 +26,6 @@ content/10.diagnostics.md:229:LFTs
 content/10.diagnostics.md:230:LFTs
 content/10.diagnostics.md:232:specificities
 content/10.diagnostics.md:233:LFTs
-content/22.vaccines.md:487:AstraZeneca's
+content/22.vaccines.md:488:AstraZeneca's
 content/23.vaccines-app.md:15:IgGs
 content/23.vaccines-app.md:408:IgGs
