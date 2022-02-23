@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2022-01-13'
+date-meta: '2022-02-23'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -72,8 +72,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2022-01-13" />
-  <meta name="citation_publication_date" content="2022-01-13" />
+  <meta name="dc.date" content="2022-02-23" />
+  <meta name="citation_publication_date" content="2022-02-23" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -286,13 +286,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/5029b1595e2eb3d5fcd689e45dc0efb0de103fe9/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/5029b1595e2eb3d5fcd689e45dc0efb0de103fe9/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/5029b1595e2eb3d5fcd689e45dc0efb0de103fe9/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/823fe18cdb1ccde30f690df2cad2d39e127cb23c/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/823fe18cdb1ccde30f690df2cad2d39e127cb23c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/823fe18cdb1ccde30f690df2cad2d39e127cb23c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/5029b1595e2eb3d5fcd689e45dc0efb0de103fe9/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/5029b1595e2eb3d5fcd689e45dc0efb0de103fe9/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/823fe18cdb1ccde30f690df2cad2d39e127cb23c/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/823fe18cdb1ccde30f690df2cad2d39e127cb23c/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -314,11 +314,11 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/5029b1595e2eb3d5fcd689e45dc0efb0de103fe9/))
+([permalink](https://greenelab.github.io/covid19-review/v/823fe18cdb1ccde30f690df2cad2d39e127cb23c/))
 was automatically generated
-from [greenelab/covid19-review@5029b15](https://github.com/greenelab/covid19-review/tree/5029b1595e2eb3d5fcd689e45dc0efb0de103fe9)
-on January 13, 2022.
-It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/5029b1595e2eb3d5fcd689e45dc0efb0de103fe9/manuscript.pdf).
+from [greenelab/covid19-review@823fe18](https://github.com/greenelab/covid19-review/tree/823fe18cdb1ccde30f690df2cad2d39e127cb23c)
+on February 23, 2022.
+It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/823fe18cdb1ccde30f690df2cad2d39e127cb23c/manuscript.pdf).
 Snapshots of individual sections have been published [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals; @individual-methods].
 </em></small>
 
@@ -2016,14 +2016,14 @@ The scale of the COVID-19 pandemic has made the repurposing and development of p
 
 ![
 **Cumulative global incidence of COVID-19 and SARS.**
-As of January 11, 2022, 313,498,180 COVID-19 cases and 5,504,387 COVID-19 deaths had been reported worldwide since January 22, 2020.
+As of January 14, 2022, 323,567,887 COVID-19 cases and 5,529,524 COVID-19 deaths had been reported worldwide since January 22, 2020.
 A total of 8,432 cases and 813 deaths were reported for SARS from March 17 to July 11, 2003.
 SARS-CoV-1 was officially contained on July 5, 2003, within 9 months of its appearance [@doi:10.3390/ijerph17113973].
 In contrast, SARS-CoV-2 remains a significant global threat nearly two years after its emergence.
 COVID-19 data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series; @doi:10/ggnsjk].
 SARS data are from the WHO [@url:https://www.who.int/csr/sars/country/en] and were obtained from a dataset on GitHub [@url:https://github.com/imdevskp/sars-2003-outbreak-data-webscraping-code].
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/c71178babebcc0bbccfcf93772817c7badd910f9/csse/csse-deaths.png "Global incidence of COVID-19 and SARS"){#fig:csse-deaths secno=1}
+](https://github.com/greenelab/covid19-review/raw/3d10579792e8c03e87c8f2fda033852b58955325/csse/csse-deaths.png "Global incidence of COVID-19 and SARS"){#fig:csse-deaths secno=1}
 
 At first, SARS-CoV-2's rapid shift from an unknown virus to a significant worldwide threat closely paralleled the emergence of _Severe acute respiratory syndrome-related coronavirus_ (SARS-CoV-1), which was responsible for the 2002-03 SARS epidemic.
 The first documented case of COVID-19 was reported in Wuhan, China in November 2019, and the disease quickly spread worldwide in the early months of 2020.
@@ -2080,7 +2080,7 @@ Recruitment status and trial phase are shown only for interventional trials in w
 Common interventions refers to interventions used in at least ten trials.
 Combinations of interventions, such as hydroxychloroquine with azithromycin, are tallied separately from the individual interventions.
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/c71178babebcc0bbccfcf93772817c7badd910f9/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/3d10579792e8c03e87c8f2fda033852b58955325/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 The purpose of this review is to provide an evolving resource tracking the status of efforts to repurpose and develop drugs for the treatment of COVID-19.
 We highlight four strategies that provide different paradigms for the identification of potential pharmaceutical treatments.
@@ -3146,7 +3146,7 @@ Vaccine development began almost five centuries ago, but the SARS-CoV-2 pandemic
 ### Importance
 
 The SARS-CoV-2 pandemic has caused untold damage to the global population, but it also presented some unique opportunities for vaccine development.
-As of January 11, 2022, SARS-CoV-2 has infected over 313,498,180 and taken the lives of 5,504,387 people globally.
+As of January 14, 2022, SARS-CoV-2 has infected over 323,567,887 and taken the lives of 5,529,524 people globally.
 The development, production, and distribution of vaccines is imperative to saving lives, preventing illness, and reducing the economic and social burdens caused by the COVID-19 pandemic.
 Now that promising candidates exist, effective deployment will provide an opportunity to move into a new phase of the pandemic where the susceptibility of worldwide populations is significantly reduced.
 This review provides a historical context for vaccine development and highlights the main strategies utilized for the development of the COVID-19 vaccines, their clinical appraisal, and their distribution.
@@ -3247,7 +3247,7 @@ All of these approaches are being explored in the current pandemic.<!--To Do: de
 Vaccination emerged early on as a strategy of interest for managing the COVID-19 pandemic, with the first human trial participant receiving a dose on March 16, 2020 [@url:https://www.modernatx.com/modernas-work-potential-vaccine-against-covid-19; @doi:10.1038/d41573-020-00073-5].
 Within a few weeks, by April 8, 78 vaccine development programs could be confirmed as active, with an additional 37 unconfirmed [@doi:10.1038/d41573-020-00073-5].
 These programs explored a wide variety of technologies.
-As of January 11, 2022, 18 types of vaccines are being administered throughout the world, with 9,528 million doses administered across 223 countries.
+As of January 14, 2022, 18 types of vaccines are being administered throughout the world, with 9,626 million doses administered across 223 countries.
 Many vaccines are available in only a subset of countries, and the types of vaccines available varies widely throughout the world.
 The types of vaccines and specific vaccine candidates are continuing to evolve (Figure @fig:vaccines).
 
@@ -3366,14 +3366,14 @@ Preclinical data providing supporting evidence for the use of this vaccine is no
 Despite the lack of publicly available preclinical results, Sinopharm Wuhan Institute initiated phase I/II trials, which reported on varying dosing and prime-boost regimens. 
 Neutralizing antibodies were detected in all groups 14 days after the final dose in the phase I part of the trial [@doi:10.1001/jama.2020.15543]. 
 Similar findings were reported in the Interim phase II data [@doi:10.1001/jama.2020.15543].
-As of January 11, 2022, 6 vaccines developed with inactivated-whole virus technology are being distributed in 108 countries (Figure @fig:iwv-distrib).
+As of January 14, 2022, 6 vaccines developed with inactivated-whole virus technology are being distributed in 108 countries (Figure @fig:iwv-distrib).
 
 ![
 **Worldwide availability of vaccines developed using inactivated whole viruses.**
-This figure reflects the number of vaccines based on whole inactivated virus technology that were available in each country as of January 11, 2022.
+This figure reflects the number of vaccines based on whole inactivated virus technology that were available in each country as of January 14, 2022.
 These data are retrieved from Our World in Data <!-To Do: Cite--> and plotted using geopandas.
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/c71178babebcc0bbccfcf93772817c7badd910f9/owiddata/maps/inactivated_whole_virus.png "Availability of inactivated whole virus vaccines"){#fig:iwv-distrib secno=1}
+](https://github.com/greenelab/covid19-review/raw/3d10579792e8c03e87c8f2fda033852b58955325/owiddata/maps/inactivated_whole_virus.png "Availability of inactivated whole virus vaccines"){#fig:iwv-distrib secno=1}
 
 **Efficacy Estimates:**
 The efficacy of whole-virus vaccines estimated during phase III trials varied widely, and in some cases, even estimates for a single vaccine candidate differed across analyses.
@@ -3469,14 +3469,14 @@ The conclusions of both trials indicate that the NVX-CoV2373 vaccine is safe and
 
 ![
 **Worldwide availability of vaccines developed using protein subunit.**
-This figure reflects the number of vaccines based on protein subunit technology that were available in each country as of January 11, 2022.
+This figure reflects the number of vaccines based on protein subunit technology that were available in each country as of January 14, 2022.
 These data are retrieved from Our World in Data <!-To Do: Cite--> and plotted using geopandas.
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/c71178babebcc0bbccfcf93772817c7badd910f9/owiddata/maps/protein_subunit.png "Availability of protein subunit vaccines"){#fig:ps-distrib secno=1}
+](https://github.com/greenelab/covid19-review/raw/3d10579792e8c03e87c8f2fda033852b58955325/owiddata/maps/protein_subunit.png "Availability of protein subunit vaccines"){#fig:ps-distrib secno=1}
 
 Novavax is now preparing to apply for an EUA to the FDA [@url:https://ir.novavax.com/Novavax-Statement-on-UK-and-Mexico-Phase-3-Clinical-Trial-Participants-Considered-Fully-Vaccinated-in-the-US].<!--Still true?-->
 It has also been reported that Novavax initiated booster trials in the U.K. [@url:https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html]. 
-As of January 11, 2022, 5 protein subunit vaccines are being distributed in 10 countries (Figure @fig:ps-distrib).
+As of January 14, 2022, 5 protein subunit vaccines are being distributed in 10 countries (Figure @fig:ps-distrib).
 However, the Novavax vaccine has yet to be approved in any country but is allowed for emergency use in Indonesia [@url:https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html], and according to press releases there have been applications for approval for use submitted to New Zealand, Australia, the U.K., and Canada [@url:https://ir.novavax.com/press-releases] and for emergency use listing with the WHO [@url:https://ir.novavax.com/2021-11-04-Novavax-Files-COVID-19-Vaccine-for-Emergency-Use-Listing-with-World-Health-Organization].<!--Still true?-->
 Indeed, Novavax has also promised to provide up to 1.1 billion doses to COVAX; however, there have been reports of struggle to maintain production capacity and quality, hindering its production targets [@url:https://www.politico.com/news/2021/10/19/novavax-vaccine-rush-process-global-campaign-516298].
 
@@ -3626,15 +3626,15 @@ As for Janssen, the phase III trial is ongoing across several countries (Argenti
 The vaccine was well-tolerated, and across all regions studied, it was found to be 66% effective after 28 days for the prevention of moderate to severe COVID-19 and to be 85% effective for the prevention of laboratory-confirmed severe COVID-19 as well as 100% protection against COVID-19-related hospitalization and death.
 
 **Distribution Status:**
-As of January 11, 2022, 5 viral-vectored vaccines are being distributed in 198 countries (Figure @fig:nrvv-distrib).
+As of January 14, 2022, 5 viral-vectored vaccines are being distributed in 198 countries (Figure @fig:nrvv-distrib).
 ChAdOx1 nCoV-19 was first approved for emergency use on December 30, 2020 in the United Kingdom [@url:https://www.astrazeneca.com/media-centre/press-releases/2020/astrazenecas-covid-19-vaccine-authorised-in-uk.html] and has since then been approved for emergency use in several dozen countries, in addition to receiving full approval in Brazil.
 
 ![
 **Worldwide availability of vaccines developed using non-replicating viral vectors.**
-This figure reflects the number of vaccines using non-replicating viral vectors that were available in each country as of January 11, 2022.
+This figure reflects the number of vaccines using non-replicating viral vectors that were available in each country as of January 14, 2022.
 These data are retrieved from Our World in Data <!-To Do: Cite--> and plotted using geopandas.
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/c71178babebcc0bbccfcf93772817c7badd910f9/owiddata/maps/non_replicating_viral_vector.png "Availability of non-replicating viral-vectored vaccines"){#fig:nrvv-distrib secno=1}
+](https://github.com/greenelab/covid19-review/raw/3d10579792e8c03e87c8f2fda033852b58955325/owiddata/maps/non_replicating_viral_vector.png "Availability of non-replicating viral-vectored vaccines"){#fig:nrvv-distrib secno=1}
 
 As of early January, Sputnik V had been administered to as many as 1.5 million Russians [@url:https://www.brusselstimes.com/news-contents/world/149039/1-5-million-people-have-received-sputnik-v-vaccine-russia-says-russian-direct-investment-fund-mikhail-murashko/] , and doses of Sputnik V have also been distributed to other parts of Europe, such as Belarus, Bosnia-Herzegovina, Hungary, San Marino, Serbia, and Slovakia [@url:https://www.euronews.com/2021/02/12/hungary-to-begin-using-russia-s-sputnik-v-vaccine-today; @url:https://www.euronews.com/2021/02/24/san-marino-buys-russia-s-sputnik-v-after-eu-vaccine-delivery-delays; @url:https://www.themoscowtimes.com/2020/12/29/belarus-starts-coronavirus-vaccination-with-sputnik-v-a72512], with the Czech Republic and Austria also having expressed interest in its procurement [@url:https://www.cnbc.com/2021/03/02/russias-sputnik-vaccine-is-luring-eastern-europe-worrying-the-eu.html].
 It wasn't until February 2021, six months after its approval in Russia, that interim results of the phase III trial were released [@doi:10/ghxj4g].
@@ -3703,14 +3703,14 @@ The first was Pfizer/BioNTech's BNT162b2, which contains the full prefusion stab
 <!--To Do: brief history of phase I & phase II (like 1-2 sentences)-->
 mRNA-1273 is comprised by a conventional lipid nanoparticle encapsulated RNA encoding a full-length prefusion stabilized S protein for SARS-CoV-2 [@clinicaltrials:NCT04283461].
 In the phase I trial, neutralizing activity reached similar levels to that observed in convalescent plasma samples by day 7 after the second dose of RNA-1273 [@doi:10.1056/NEJMoa2022483].
-As of January 11, 2022, 2 mRNA vaccines are available in 158 countries (Figure @fig:mRNA-distrib).
+As of January 14, 2022, 2 mRNA vaccines are available in 158 countries (Figure @fig:mRNA-distrib).
 
 ![
 **Worldwide availability of vaccines developed using mRNA.**
-This figure reflects the number of vaccines based on mRNA technology that were available in each country as of January 11, 2022.
+This figure reflects the number of vaccines based on mRNA technology that were available in each country as of January 14, 2022.
 These data are retrieved from Our World in Data <!-To Do: Cite--> and plotted using geopandas.
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/c71178babebcc0bbccfcf93772817c7badd910f9/owiddata/maps/RNA.png "Availability of mRNA vaccines"){#fig:mRNA-distrib secno=1}
+](https://github.com/greenelab/covid19-review/raw/3d10579792e8c03e87c8f2fda033852b58955325/owiddata/maps/RNA.png "Availability of mRNA vaccines"){#fig:mRNA-distrib secno=1}
 
 **Efficacy Estimates:**
 In the phase II/III multinational trial, this vaccine was associated with a 95% efficacy against laboratory-confirmed COVID-19 and with mild-to-moderate local and systemic effects but a low risk of serious adverse effects [@doi:10.1056/NEJMoa2034577].
@@ -5173,7 +5173,7 @@ Trials that recruit across multiple countries do appear to broaden geographic re
 The density of clinical trials is reported at the country level.
 As of December 31, 2020, there are 6,987 trials in the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709], of which 3,962 are interventional.
 The top figure demonstrates the density of interventional trials recruiting only from a singular country, while the bottom shows the distribution of recruitment for interventional trials that involve more than one country.
-](https://github.com/greenelab/covid19-review/raw/c71178babebcc0bbccfcf93772817c7badd910f9/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
+](https://github.com/greenelab/covid19-review/raw/3d10579792e8c03e87c8f2fda033852b58955325/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
 
 A few different concerns arise from this skewed geographic representation in clinical trial recruitment.
 First, treatments such as remdesivir that are promising but primarily available to clinical trial participants are unlikely to be accessible by people in many countries.
