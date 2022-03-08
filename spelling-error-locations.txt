@@ -1,3 +1,0 @@
-content/22.vaccines.md:488:AstraZeneca's
-content/23.vaccines-app.md:15:IgGs
-content/23.vaccines-app.md:408:IgGs
