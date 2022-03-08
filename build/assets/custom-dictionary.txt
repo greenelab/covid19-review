@@ -43,6 +43,7 @@ Arbidol
 Ashwin
 Assaf
 AstraZeneca
+AstraZeneca's
 Authorea
 Avigan
 Aydinlar
@@ -111,6 +112,7 @@ CLIA
 CMV
 CN
 CNBG
+CNBG's
 COPD
 COVAX
 COVI
@@ -377,6 +379,7 @@ IU
 IVT
 IgA
 IgG
+IgGs
 IgM
 Immunofluorescence
 Immunologicals
@@ -749,6 +752,7 @@ UniProt
 VADE
 VH
 VL
+VLPs
 VOC
 VOCs
 VOI
