@@ -82,8 +82,8 @@ def main(args):
     owid_stats["owid_total_vaccinations"] = str("{:,}".format(round(vaccine_nums[vaccine_nums["location"] ==
                                                           "World"].loc[vaccine_nums["date"] ==
                                                                        owid_stats["owid_most_recent_date"],
-                                                                       "total_vaccinations"].item()/1000000))) + \
-                                       " million"
+                                                                       "total_vaccinations"].item()/1000000000))) + \
+                                       " billion"
     owid_stats["owid_daily_rate"] = str("{:,}".format(round(vaccine_nums[vaccine_nums["location"] ==
                                                 "World"].loc[vaccine_nums["date"] ==
                                                              owid_stats["owid_most_recent_date"],
