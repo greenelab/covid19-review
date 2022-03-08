@@ -12,6 +12,10 @@ on:
   # https://github.community/t/github-event-repository-fork-context-does-detect-forks-in-scheduled-jobs/185925
   workflow_dispatch:
     inputs:
+      BUILD_HTML:
+        type: boolean
+        description: generate HTML output
+        default: true
       BUILD_PDF:
         type: boolean
         description: generate PDF output
