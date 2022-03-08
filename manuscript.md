@@ -286,13 +286,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/87bd5fcf8c3402059add9384fc71b7731d1cb29d/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/87bd5fcf8c3402059add9384fc71b7731d1cb29d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/87bd5fcf8c3402059add9384fc71b7731d1cb29d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/7973e240edd00ed49416fb61c23d8e0628590f73/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/7973e240edd00ed49416fb61c23d8e0628590f73/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/7973e240edd00ed49416fb61c23d8e0628590f73/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/87bd5fcf8c3402059add9384fc71b7731d1cb29d/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/87bd5fcf8c3402059add9384fc71b7731d1cb29d/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/7973e240edd00ed49416fb61c23d8e0628590f73/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/7973e240edd00ed49416fb61c23d8e0628590f73/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -314,11 +314,11 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/87bd5fcf8c3402059add9384fc71b7731d1cb29d/))
+([permalink](https://greenelab.github.io/covid19-review/v/7973e240edd00ed49416fb61c23d8e0628590f73/))
 was automatically generated
-from [greenelab/covid19-review@87bd5fc](https://github.com/greenelab/covid19-review/tree/87bd5fcf8c3402059add9384fc71b7731d1cb29d)
+from [greenelab/covid19-review@7973e24](https://github.com/greenelab/covid19-review/tree/7973e240edd00ed49416fb61c23d8e0628590f73)
 on March 8, 2022.
-It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/87bd5fcf8c3402059add9384fc71b7731d1cb29d/manuscript.pdf).
+It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/7973e240edd00ed49416fb61c23d8e0628590f73/manuscript.pdf).
 Snapshots of individual sections have been published [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals; @individual-methods].
 </em></small>
 
@@ -1698,11 +1698,11 @@ Overall, these studies suggest that ddPCR is a promising tool for overcoming the
 
 ##### RT-LAMP
 RT-PCR remains the gold standard for detection of SARS-CoV-2 RNA from infected patients, but the traditional method requires special equipment and reagents, especially a thermocycler. 
-Loop mediated isothermal amplification (LAMP) is an alternative to PCR that does not require a thermal cycler [@DOI:10.1093/nar/28.12.e63]. 
+Loop mediated isothermal amplification (LAMP) is an alternative to PCR that does not require a thermocycler [@DOI:10.1093/nar/28.12.e63]. 
 LAMP is combined with reverse transcription (RT-LAMP) to enable detection of RNA.
-RT-LAMP pilot studies for detecion of SARS-CoV-2 were recently reviewed and meta-analyzed [@PMID:34086539].
+RT-LAMP pilot studies for detection of SARS-CoV-2 were recently reviewed and meta-analyzed [@PMID:34086539].
 In the meta analysis of all 2,112 samples, the cumulative sensitivity of RT-LAMP was 95.5% (CI 97.5% = 90.8-97.9%) and the cumulative specificity was 99.5% (CI 97.5% = 97.7-99.9%).
-The low cost, excellent sensitity/specificity, and quick readout of RT-LAMP makes this an attractive alternative to RT-PCR. 
+The low cost, excellent sensitivity/specificity, and quick readout of RT-LAMP makes this an attractive alternative to RT-PCR. 
 Alternative strategies like RT-LAMP are needed to bring widespread testing away from the lab and into under resourced areas.
 
 One study showed that RT-LAMP is effective for detection of SARS-CoV-2 with excellent specificity and sensitivity, and that this method can be applied to unprocessed saliva samples [@doi:10.1038/s41598-021-95799-6]. 
