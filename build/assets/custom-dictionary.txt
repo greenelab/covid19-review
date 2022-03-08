@@ -1432,7 +1432,6 @@ organoids
 organoselenium
 oropharyngeal
 ortholog
-and specific vaccine candidates are continuing to evolve (Figure @fig:vaccines).
 orthopaedic
 othered
 othering
