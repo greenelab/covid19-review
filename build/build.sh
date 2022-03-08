@@ -15,9 +15,24 @@ export LC_ALL=en_US.UTF-8
 EXTERNAL_RESOURCES_COMMIT=$(curl -sS https://api.github.com/repos/greenelab/covid19-review/branches/external-resources | python -c "import sys, json; print(json.load(sys.stdin)['commit']['sha'])")
 echo >&2 "Using external-resources commit $EXTERNAL_RESOURCES_COMMIT"
 
+# Set DOCKER_RUNNING to true if docker is running, otherwise false.
+DOCKER_RUNNING="$(docker info &> /dev/null && echo "true" || (true && echo "false"))"
+
+# Set option defaults
+CI="${CI:-false}"
+BUILD_HTML="${BUILD_HTML:-true}"
+BUILD_PDF="${BUILD_PDF:-true}"
+BUILD_DOCX="${BUILD_DOCX:-false}"
+BUILD_LATEX="${BUILD_LATEX:-false}"
+SPELLCHECK="${SPELLCHECK:-false}"
+MANUBOT_USE_DOCKER="${MANUBOT_USE_DOCKER:-$DOCKER_RUNNING}"
+# Pandoc's configuration is specified via files of option defaults
+# located in the $PANDOC_DATA_DIR/defaults directory.
+PANDOC_DATA_DIR="${PANDOC_DATA_DIR:-build/pandoc}"
+
 # Generate reference information
 # Can skip this step if only building the individual manuscripts
-if [ "${BUILD_HTML:-}" != "false" ] || [ "${BUILD_PDF:-}" != "false" ] || [ "${BUILD_DOCX:-}" = "true" ]; then
+if [ "${BUILD_HTML}" != "false" ] || [ "${BUILD_PDF}" != "false" ] || [ "${BUILD_DOCX}" = "true" ]; then
   echo >&2 "Updating contributions for merged manuscript"
   python build/update-author-metadata.py --keyword=merged --path=content/metadata.yaml
 
@@ -36,16 +51,12 @@ if [ "${BUILD_HTML:-}" != "false" ] || [ "${BUILD_PDF:-}" != "false" ] || [ "${B
     --log-level=INFO
 fi
 
-# Pandoc's configuration is specified via files of option defaults
-# located in the $PANDOC_DATA_DIR/defaults directory.
-PANDOC_DATA_DIR="${PANDOC_DATA_DIR:-build/pandoc}"
-
 # Make output directory
 mkdir -p output
 
 # Create HTML output
 # https://pandoc.org/MANUAL.html
-if [ "${BUILD_HTML:-}" != "false" ]; then
+if [ "${BUILD_HTML}" != "false" ]; then
   echo >&2 "Exporting HTML manuscript"
   pandoc --verbose \
     --data-dir="$PANDOC_DATA_DIR" \
@@ -54,12 +65,9 @@ if [ "${BUILD_HTML:-}" != "false" ]; then
     output/manuscript.md
 fi
 
-# Set DOCKER_RUNNING to a non-empty string if docker is running, otherwise null.
-DOCKER_RUNNING="$(docker info &> /dev/null && echo "yes" || true)"
-
 # Create PDF output (unless BUILD_PDF environment variable equals "false")
 # If Docker is not available, use WeasyPrint to create PDF
-if [ "${BUILD_PDF:-}" != "false" ] && [ -z "$DOCKER_RUNNING" ]; then
+if [ "${BUILD_PDF}" != "false" ] && [ "${MANUBOT_USE_DOCKER}" != "true" ]; then
   echo >&2 "Exporting PDF manuscript using WeasyPrint"
   if [ -L images ]; then rm images; fi  # if images is a symlink, remove it
   ln -s content/images
@@ -73,7 +81,7 @@ if [ "${BUILD_PDF:-}" != "false" ] && [ -z "$DOCKER_RUNNING" ]; then
 fi
 
 # If Docker is available, use athenapdf to create PDF
-if [ "${BUILD_PDF:-}" != "false" ] && [ -n "$DOCKER_RUNNING" ]; then
+if [ "${BUILD_PDF}" != "false" ] && [ "${MANUBOT_USE_DOCKER}" == "true" ]; then
   echo >&2 "Exporting HTML manuscript for Athena"
   pandoc --verbose \
     --data-dir="$PANDOC_DATA_DIR" \
@@ -82,8 +90,8 @@ if [ "${BUILD_PDF:-}" != "false" ] && [ -n "$DOCKER_RUNNING" ]; then
     output/manuscript.md
 
   echo >&2 "Exporting PDF manuscript using Docker + Athena"
-  if [ "${CI:-}" = "true" ]; then
-    # Incease --delay for CI builds to ensure the webpage fully renders, even when the CI server is under high load.
+  if [ "${CI}" = "true" ]; then
+    # Increase --delay for CI builds to ensure the webpage fully renders, even when the CI server is under high load.
     # Local builds default to a shorter --delay to minimize runtime, assuming proper rendering is less crucial.
     MANUBOT_ATHENAPDF_DELAY="${MANUBOT_ATHENAPDF_DELAY:-5000}"
     echo >&2 "Continuous integration build detected. Setting athenapdf --delay=$MANUBOT_ATHENAPDF_DELAY"
@@ -106,7 +114,7 @@ if [ "${BUILD_PDF:-}" != "false" ] && [ -n "$DOCKER_RUNNING" ]; then
 fi
 
 # Create DOCX output (if BUILD_DOCX environment variable equals "true")
-if [ "${BUILD_DOCX:-}" = "true" ]; then
+if [ "${BUILD_DOCX}" = "true" ]; then
   echo >&2 "Exporting Word Docx manuscript"
   pandoc --verbose \
     --data-dir="$PANDOC_DATA_DIR" \
@@ -116,7 +124,7 @@ if [ "${BUILD_DOCX:-}" = "true" ]; then
 fi
 
 # Create LaTeX output (if BUILD_LATEX environment variable equals "true")
-if [ "${BUILD_LATEX:-}" = "true" ]; then
+if [ "${BUILD_LATEX}" = "true" ]; then
   echo >&2 "Exporting LaTeX manuscript"
   pandoc \
     --data-dir="$PANDOC_DATA_DIR" \
@@ -125,7 +133,7 @@ if [ "${BUILD_LATEX:-}" = "true" ]; then
 fi
 
 # Spellcheck
-if [ "${SPELLCHECK:-}" = "true" ]; then
+if [ "${SPELLCHECK}" = "true" ]; then
   # Rebuild the manuscript after removing the appendices so they are excluded from spellcheck
   rm content/*appendix*.md
   manubot process \
