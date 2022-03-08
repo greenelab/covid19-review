@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2022-02-23'
+date-meta: '2022-03-08'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -72,8 +72,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2022-02-23" />
-  <meta name="citation_publication_date" content="2022-02-23" />
+  <meta name="dc.date" content="2022-03-08" />
+  <meta name="citation_publication_date" content="2022-03-08" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -286,13 +286,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/823fe18cdb1ccde30f690df2cad2d39e127cb23c/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/823fe18cdb1ccde30f690df2cad2d39e127cb23c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/823fe18cdb1ccde30f690df2cad2d39e127cb23c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/87bd5fcf8c3402059add9384fc71b7731d1cb29d/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/87bd5fcf8c3402059add9384fc71b7731d1cb29d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/87bd5fcf8c3402059add9384fc71b7731d1cb29d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/823fe18cdb1ccde30f690df2cad2d39e127cb23c/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/823fe18cdb1ccde30f690df2cad2d39e127cb23c/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/87bd5fcf8c3402059add9384fc71b7731d1cb29d/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/87bd5fcf8c3402059add9384fc71b7731d1cb29d/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -314,11 +314,11 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/823fe18cdb1ccde30f690df2cad2d39e127cb23c/))
+([permalink](https://greenelab.github.io/covid19-review/v/87bd5fcf8c3402059add9384fc71b7731d1cb29d/))
 was automatically generated
-from [greenelab/covid19-review@823fe18](https://github.com/greenelab/covid19-review/tree/823fe18cdb1ccde30f690df2cad2d39e127cb23c)
-on February 23, 2022.
-It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/823fe18cdb1ccde30f690df2cad2d39e127cb23c/manuscript.pdf).
+from [greenelab/covid19-review@87bd5fc](https://github.com/greenelab/covid19-review/tree/87bd5fcf8c3402059add9384fc71b7731d1cb29d)
+on March 8, 2022.
+It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/87bd5fcf8c3402059add9384fc71b7731d1cb29d/manuscript.pdf).
 Snapshots of individual sections have been published [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals; @individual-methods].
 </em></small>
 
@@ -335,349 +335,349 @@ Instead, you should collect information from your local health department, the [
 
 
 
-+ **Halie M. Rando**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0001-7688-1770](https://orcid.org/0000-0001-7688-1770) · ![GitHub icon](images/github.svg){.inline_icon}
-    [rando2](https://github.com/rando2) · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **Halie M. Rando**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-7688-1770](https://orcid.org/0000-0001-7688-1770) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [rando2](https://github.com/rando2) · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [tamefoxtime](https://twitter.com/tamefoxtime)<br>
   <small>
      Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America; Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, Aurora, Colorado, United States of America; Center for Health AI, University of Colorado School of Medicine, Aurora, Colorado, United States of America
      · Funded by the Gordon and Betty Moore Foundation (GBMF 4552); the National Human Genome Research Institute (R01 HG010067)
   </small>
 
-+ **Casey S. Greene**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0001-8713-9213](https://orcid.org/0000-0001-8713-9213) · ![GitHub icon](images/github.svg){.inline_icon}
-    [cgreene](https://github.com/cgreene) · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **Casey S. Greene**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-8713-9213](https://orcid.org/0000-0001-8713-9213) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [cgreene](https://github.com/cgreene) · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [GreeneScientist](https://twitter.com/GreeneScientist)<br>
   <small>
      Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America; Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Philadelphia, Pennsylvania, United States of America; Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, Aurora, Colorado, United States of America; Center for Health AI, University of Colorado School of Medicine, Aurora, Colorado, United States of America
      · Funded by the Gordon and Betty Moore Foundation (GBMF 4552); the National Human Genome Research Institute (R01 HG010067)
   </small>
 
-+ **Michael P. Robson**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-4859-0033](https://orcid.org/0000-0002-4859-0033) · ![GitHub icon](images/github.svg){.inline_icon}
++ **Michael P. Robson**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-4859-0033](https://orcid.org/0000-0002-4859-0033) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [mprobson](https://github.com/mprobson)<br>
   <small>
      Department of Computing Sciences, Villanova University, Villanova, Pennsylvania, United States of America
   </small>
 
-+ **Simina M. Boca**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-1400-3398](https://orcid.org/0000-0002-1400-3398) · ![GitHub icon](images/github.svg){.inline_icon}
++ **Simina M. Boca**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-1400-3398](https://orcid.org/0000-0002-1400-3398) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [SiminaB](https://github.com/SiminaB)<br>
   <small>
      Innovation Center for Biomedical Informatics, Georgetown University Medical Center, Washington, District of Columbia, United States of America
   </small>
 
-+ **Nils Wellhausen**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0001-8955-7582](https://orcid.org/0000-0001-8955-7582) · ![GitHub icon](images/github.svg){.inline_icon}
++ **Nils Wellhausen**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-8955-7582](https://orcid.org/0000-0001-8955-7582) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [nilswellhausen](https://github.com/nilswellhausen)<br>
   <small>
      Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
   </small>
 
-+ **Ronan Lordan**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0001-9668-3368](https://orcid.org/0000-0001-9668-3368) · ![GitHub icon](images/github.svg){.inline_icon}
-    [RLordan](https://github.com/RLordan) · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **Ronan Lordan**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-9668-3368](https://orcid.org/0000-0001-9668-3368) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [RLordan](https://github.com/RLordan) · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [el_ronan](https://twitter.com/el_ronan)<br>
   <small>
      Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104-5158, USA
   </small>
 
-+ **Christian Brueffer**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-3826-0989](https://orcid.org/0000-0002-3826-0989) · ![GitHub icon](images/github.svg){.inline_icon}
-    [cbrueffer](https://github.com/cbrueffer) · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **Christian Brueffer**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-3826-0989](https://orcid.org/0000-0002-3826-0989) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [cbrueffer](https://github.com/cbrueffer) · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [cbrueffer](https://twitter.com/cbrueffer)<br>
   <small>
      Department of Clinical Sciences, Lund University, Lund, Sweden
   </small>
 
-+ **Sandipan Ray**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-9960-5768](https://orcid.org/0000-0002-9960-5768) · ![GitHub icon](images/github.svg){.inline_icon}
++ **Sandipan Ray**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-9960-5768](https://orcid.org/0000-0002-9960-5768) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [rays1987](https://github.com/rays1987)<br>
   <small>
      Department of Biotechnology, Indian Institute of Technology Hyderabad, Kandi, Sangareddy 502285, Telangana, India
   </small>
 
-+ **Lucy D\'Agostino McGowan**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0001-7297-9359](https://orcid.org/0000-0001-7297-9359) · ![GitHub icon](images/github.svg){.inline_icon}
-    [LucyMcGowan](https://github.com/LucyMcGowan) · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **Lucy D\'Agostino McGowan**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-7297-9359](https://orcid.org/0000-0001-7297-9359) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [LucyMcGowan](https://github.com/LucyMcGowan) · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [LucyStats](https://twitter.com/LucyStats)<br>
   <small>
      Department of Mathematics and Statistics, Wake Forest University, Winston-Salem, North Carolina, United States of America
   </small>
 
-+ **Anthony Gitter**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-5324-9833](https://orcid.org/0000-0002-5324-9833) · ![GitHub icon](images/github.svg){.inline_icon}
-    [agitter](https://github.com/agitter) · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **Anthony Gitter**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-5324-9833](https://orcid.org/0000-0002-5324-9833) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [agitter](https://github.com/agitter) · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [anthonygitter](https://twitter.com/anthonygitter)<br>
   <small>
      Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, United States of America; Morgridge Institute for Research, Madison, Wisconsin, United States of America
      · Funded by John W. and Jeanne M. Rowe Center for Research in Virology
   </small>
 
-+ **Anna Ada Dattoli**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0003-1462-831X](https://orcid.org/0000-0003-1462-831X) · ![GitHub icon](images/github.svg){.inline_icon}
-    [aadattoli](https://github.com/aadattoli) · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **Anna Ada Dattoli**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0003-1462-831X](https://orcid.org/0000-0003-1462-831X) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [aadattoli](https://github.com/aadattoli) · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [aadattoli](https://twitter.com/aadattoli)<br>
   <small>
      Department of Systems Pharmacology & Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
   </small>
 
-+ **Ryan Velazquez**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-3655-3403](https://orcid.org/0000-0002-3655-3403) · ![GitHub icon](images/github.svg){.inline_icon}
++ **Ryan Velazquez**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-3655-3403](https://orcid.org/0000-0002-3655-3403) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [rdvelazquez](https://github.com/rdvelazquez)<br>
   <small>
      Azimuth1, McLean, Virginia, United States of America
   </small>
 
-+ **John P. Barton**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0003-1467-421X](https://orcid.org/0000-0003-1467-421X) · ![GitHub icon](images/github.svg){.inline_icon}
-    [johnbarton](https://github.com/johnbarton) · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **John P. Barton**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0003-1467-421X](https://orcid.org/0000-0003-1467-421X) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [johnbarton](https://github.com/johnbarton) · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [_jpbarton](https://twitter.com/_jpbarton)<br>
   <small>
      Department of Physics and Astronomy, University of California-Riverside, Riverside, California, United States of America
   </small>
 
-+ **Jeffrey M. Field**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0001-7161-7284](https://orcid.org/0000-0001-7161-7284) · ![GitHub icon](images/github.svg){.inline_icon}
++ **Jeffrey M. Field**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-7161-7284](https://orcid.org/0000-0001-7161-7284) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [Jeff-Field](https://github.com/Jeff-Field)<br>
   <small>
      Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
   </small>
 
-+ **Bharath Ramsundar**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0001-8450-4262](https://orcid.org/0000-0001-8450-4262) · ![GitHub icon](images/github.svg){.inline_icon}
-    [rbharath](https://github.com/rbharath) · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **Bharath Ramsundar**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-8450-4262](https://orcid.org/0000-0001-8450-4262) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [rbharath](https://github.com/rbharath) · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [rbhar90](https://twitter.com/rbhar90)<br>
   <small>
      The DeepChem Project, https://deepchem.io/
   </small>
 
-+ **Adam L. MacLean**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0003-0689-7907](https://orcid.org/0000-0003-0689-7907) · ![GitHub icon](images/github.svg){.inline_icon}
-    [adamlmaclean](https://github.com/adamlmaclean) · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **Adam L. MacLean**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0003-0689-7907](https://orcid.org/0000-0003-0689-7907) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [adamlmaclean](https://github.com/adamlmaclean) · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [adamlmaclean](https://twitter.com/adamlmaclean)<br>
   <small>
      Department of Quantitative and Computational Biology, University of Southern California, Los Angeles, California, United States of America
   </small>
 
-+ **Alexandra J. Lee**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-0208-3730](https://orcid.org/0000-0002-0208-3730) · ![GitHub icon](images/github.svg){.inline_icon}
++ **Alexandra J. Lee**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-0208-3730](https://orcid.org/0000-0002-0208-3730) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [ajlee21](https://github.com/ajlee21)<br>
   <small>
      Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
      · Funded by the Gordon and Betty Moore Foundation (GBMF 4552)
   </small>
 
-+ **Immunology Institute of the Icahn School of Medicine**<br> · ![GitHub icon](images/github.svg){.inline_icon}
++ **Immunology Institute of the Icahn School of Medicine**<br> · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [ismms-himc](https://github.com/ismms-himc)<br>
   <small>
      Immunology Institute of the Icahn School of Medicine
   </small>
 
-+ **Fengling Hu**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0003-1081-5038](https://orcid.org/0000-0003-1081-5038) · ![GitHub icon](images/github.svg){.inline_icon}
-    [hufengling](https://github.com/hufengling) · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **Fengling Hu**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0003-1081-5038](https://orcid.org/0000-0003-1081-5038) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [hufengling](https://github.com/hufengling) · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [hufengling](https://twitter.com/hufengling)<br>
   <small>
      Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
   </small>
 
-+ **Nafisa M. Jadavji**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-3557-7307](https://orcid.org/0000-0002-3557-7307) · ![GitHub icon](images/github.svg){.inline_icon}
-    [nafisajadavji](https://github.com/nafisajadavji) · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **Nafisa M. Jadavji**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-3557-7307](https://orcid.org/0000-0002-3557-7307) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [nafisajadavji](https://github.com/nafisajadavji) · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [nafisajadavji](https://twitter.com/nafisajadavji)<br>
   <small>
      Biomedical Science, Midwestern University, Glendale, AZ, United States of America; Department of Neuroscience, Carleton University, Ottawa, Ontario, Canada
      · Funded by the American Heart Association (20AIREA35050015)
   </small>
 
-+ **Elizabeth Sell**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-9658-1107](https://orcid.org/0000-0002-9658-1107) · ![GitHub icon](images/github.svg){.inline_icon}
++ **Elizabeth Sell**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-9658-1107](https://orcid.org/0000-0002-9658-1107) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [esell17](https://github.com/esell17)<br>
   <small>
      Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
   </small>
 
-+ **Vincent Rubinetti**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-4655-3773](https://orcid.org/0000-0002-4655-3773) · ![GitHub icon](images/github.svg){.inline_icon}
++ **Vincent Rubinetti**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-4655-3773](https://orcid.org/0000-0002-4655-3773) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [vincerubinetti](https://github.com/vincerubinetti)<br>
   <small>
      Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America; Center for Health AI, University of Colorado School of Medicine, Aurora, Colorado, United States of America
   </small>
 
-+ **Jinhui Wang**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-5796-8130](https://orcid.org/0000-0002-5796-8130) · ![GitHub icon](images/github.svg){.inline_icon}
++ **Jinhui Wang**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-5796-8130](https://orcid.org/0000-0002-5796-8130) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [jinhui2](https://github.com/jinhui2)<br>
   <small>
      Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
   </small>
 
-+ **Diane N. Rafizadeh**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-2838-067X](https://orcid.org/0000-0002-2838-067X) · ![GitHub icon](images/github.svg){.inline_icon}
++ **Diane N. Rafizadeh**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-2838-067X](https://orcid.org/0000-0002-2838-067X) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [dianerafi](https://github.com/dianerafi)<br>
   <small>
      Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America; Department of Chemistry, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
      · Funded by NIH Medical Scientist Training Program T32 GM07170
   </small>
 
-+ **Ashwin N. Skelly**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-1565-3376](https://orcid.org/0000-0002-1565-3376) · ![GitHub icon](images/github.svg){.inline_icon}
++ **Ashwin N. Skelly**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-1565-3376](https://orcid.org/0000-0002-1565-3376) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [anskelly](https://github.com/anskelly)<br>
   <small>
      Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America; Institute for Immunology, University of Pennsylvania Perelman School of Medicine, Philadelphia, United States of America
      · Funded by NIH Medical Scientist Training Program T32 GM07170
   </small>
 
-+ **Marouen Ben Guebila**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0001-5934-966X](https://orcid.org/0000-0001-5934-966X) · ![GitHub icon](images/github.svg){.inline_icon}
-    [marouenbg](https://github.com/marouenbg) · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **Marouen Ben Guebila**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-5934-966X](https://orcid.org/0000-0001-5934-966X) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [marouenbg](https://github.com/marouenbg) · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [marouenbg](https://twitter.com/marouenbg)<br>
   <small>
      Department of Biostatistics, Harvard School of Public Health, Boston, Massachusetts, United States of America
   </small>
 
-+ **Likhitha Kolla**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-1169-906X](https://orcid.org/0000-0002-1169-906X) · ![GitHub icon](images/github.svg){.inline_icon}
-    [likhithakolla](https://github.com/likhithakolla) · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **Likhitha Kolla**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-1169-906X](https://orcid.org/0000-0002-1169-906X) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [likhithakolla](https://github.com/likhithakolla) · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [lkolla2018](https://twitter.com/lkolla2018)<br>
   <small>
      Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
      · Funded by NIH Medical Scientist Training Program T32 GM07170
   </small>
 
-+ **David Manheim**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0001-8599-8380](https://orcid.org/0000-0001-8599-8380) · ![GitHub icon](images/github.svg){.inline_icon}
-    [davidmanheim](https://github.com/davidmanheim) · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **David Manheim**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-8599-8380](https://orcid.org/0000-0001-8599-8380) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [davidmanheim](https://github.com/davidmanheim) · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [davidmanheim](https://twitter.com/davidmanheim)<br>
   <small>
      1DaySooner, Delaware, United States of America; Risk and Health Communication Research Center, School of Public Health, University of Haifa, Haifa, Israel
   </small>
 
-+ **Soumita Ghosh**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-2783-2750](https://orcid.org/0000-0002-2783-2750) · ![GitHub icon](images/github.svg){.inline_icon}
++ **Soumita Ghosh**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-2783-2750](https://orcid.org/0000-0002-2783-2750) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [soumitagh](https://github.com/soumitagh)<br>
   <small>
      Institute of Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
   </small>
 
-+ **James Brian Byrd**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-0509-3520](https://orcid.org/0000-0002-0509-3520) · ![GitHub icon](images/github.svg){.inline_icon}
-    [byrdjb](https://github.com/byrdjb) · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **James Brian Byrd**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-0509-3520](https://orcid.org/0000-0002-0509-3520) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [byrdjb](https://github.com/byrdjb) · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [thebyrdlab](https://twitter.com/thebyrdlab)<br>
   <small>
      University of Michigan School of Medicine, Ann Arbor, Michigan, United States of America
      · Funded by NIH K23HL128909; FastGrants
   </small>
 
-+ **YoSon Park**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-0465-4744](https://orcid.org/0000-0002-0465-4744) · ![GitHub icon](images/github.svg){.inline_icon}
-    [ypar](https://github.com/ypar) · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **YoSon Park**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-0465-4744](https://orcid.org/0000-0002-0465-4744) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [ypar](https://github.com/ypar) · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [__yoson__](https://twitter.com/__yoson__)<br>
   <small>
      Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
      · Funded by NHGRI R01 HG10067
   </small>
 
-+ **Vikas Bansal**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-0944-7226](https://orcid.org/0000-0002-0944-7226) · ![GitHub icon](images/github.svg){.inline_icon}
-    [bansalvi](https://github.com/bansalvi) · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **Vikas Bansal**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-0944-7226](https://orcid.org/0000-0002-0944-7226) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [bansalvi](https://github.com/bansalvi) · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [VikasBansal1989](https://twitter.com/VikasBansal1989)<br>
   <small>
      Biomedical Data Science and Machine Learning Group, German Center for Neurodegenerative Diseases, Tübingen 72076, Germany
   </small>
 
-+ **Stephen Capone**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0001-7231-1535](https://orcid.org/0000-0001-7231-1535) · ![GitHub icon](images/github.svg){.inline_icon}
++ **Stephen Capone**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-7231-1535](https://orcid.org/0000-0001-7231-1535) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [scapone01](https://github.com/scapone01)<br>
   <small>
      St. George's University School of Medicine, St. George's, Grenada
   </small>
 
-+ **John J. Dziak**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0003-0762-5495](https://orcid.org/0000-0003-0762-5495) · ![GitHub icon](images/github.svg){.inline_icon}
++ **John J. Dziak**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0003-0762-5495](https://orcid.org/0000-0003-0762-5495) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [dziakj1](https://github.com/dziakj1)<br>
   <small>
      Edna Bennett Pierce Prevention Research Center, The Pennsylvania State University, University Park, PA, United States of America
   </small>
 
-+ **Yuchen Sun**<br> · ![GitHub icon](images/github.svg){.inline_icon}
++ **Yuchen Sun**<br> · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [kevinsunofficial](https://github.com/kevinsunofficial)<br>
   <small>
      Department of Computer Science, University of Virginia, Charlottesville, VA, United States of America
   </small>
 
-+ **Yanjun Qi**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-5796-7453](https://orcid.org/0000-0002-5796-7453) · ![GitHub icon](images/github.svg){.inline_icon}
++ **Yanjun Qi**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-5796-7453](https://orcid.org/0000-0002-5796-7453) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [qiyanjun](https://github.com/qiyanjun)<br>
   <small>
      Department of Computer Science, University of Virginia, Charlottesville, VA, United States of America
   </small>
 
-+ **Lamonica Shinholster**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0001-6285-005X](https://orcid.org/0000-0001-6285-005X) · ![GitHub icon](images/github.svg){.inline_icon}
++ **Lamonica Shinholster**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-6285-005X](https://orcid.org/0000-0001-6285-005X) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [LSH2126](https://github.com/LSH2126)<br>
   <small>
      Mercer University, Macon, GA, United States of America
      · Funded by the Center for Global Genomics and Health Equity at the University of Pennsylvania
   </small>
 
-+ **Temitayo Lukan**<br> · ![GitHub icon](images/github.svg){.inline_icon}
++ **Temitayo Lukan**<br> · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [tlukan](https://github.com/tlukan)<br>
   <small>
      University of Pennsylvania, Philadelphia, PA, United States of America
   </small>
 
-+ **Sergey Knyazev**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0003-0385-1831](https://orcid.org/0000-0003-0385-1831) · ![GitHub icon](images/github.svg){.inline_icon}
-    [Sergey-Knyazev](https://github.com/Sergey-Knyazev) · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **Sergey Knyazev**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0003-0385-1831](https://orcid.org/0000-0003-0385-1831) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [Sergey-Knyazev](https://github.com/Sergey-Knyazev) · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [SeKnyaz](https://twitter.com/SeKnyaz)<br>
   <small>
      Georgia State University, Atlanta, GA, United States of America
   </small>
 
-+ **Dimitri Perrin**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-4007-5256](https://orcid.org/0000-0002-4007-5256) · ![GitHub icon](images/github.svg){.inline_icon}
-    [SystemsResearch](https://github.com/SystemsResearch) · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **Dimitri Perrin**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-4007-5256](https://orcid.org/0000-0002-4007-5256) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [SystemsResearch](https://github.com/SystemsResearch) · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [dperrin](https://twitter.com/dperrin)<br>
   <small>
      School of Computer Science, Queensland University of Technology, Brisbane, Australia; Centre for Data Science, Queensland University of Technology, Brisbane, Australia
   </small>
 
-+ **Serghei Mangul**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0003-4770-3443](https://orcid.org/0000-0003-4770-3443) · ![GitHub icon](images/github.svg){.inline_icon}
-    [smangul1](https://github.com/smangul1) · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **Serghei Mangul**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0003-4770-3443](https://orcid.org/0000-0003-4770-3443) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [smangul1](https://github.com/smangul1) · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [serghei_mangul](https://twitter.com/serghei_mangul)<br>
   <small>
      Department of Clinical Pharmacy, School of Pharmacy, University of Southern California, Los Angeles, CA, United States of America
   </small>
 
-+ **Shikta Das**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-8291-2788](https://orcid.org/0000-0002-8291-2788) · ![GitHub icon](images/github.svg){.inline_icon}
-    [shiktadas](https://github.com/shiktadas) · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **Shikta Das**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-8291-2788](https://orcid.org/0000-0002-8291-2788) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [shiktadas](https://github.com/shiktadas) · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [shikta_das](https://twitter.com/shikta_das)<br>
   <small>
      C4X Discovery, London, United Kingdom; Medical Research Council LHA, Institute of Cardiovascular Studies, University College London, London, United Kingdom
   </small>
 
-+ **Gregory L Szeto**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0001-7604-1333](https://orcid.org/0000-0001-7604-1333) · ![GitHub icon](images/github.svg){.inline_icon}
-    [gregszetoAI](https://github.com/gregszetoAI) · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **Gregory L Szeto**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-7604-1333](https://orcid.org/0000-0001-7604-1333) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [gregszetoAI](https://github.com/gregszetoAI) · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [greg_szeto](https://twitter.com/greg_szeto)<br>
   <small>
      Allen Institute for Immunology, Seattle, WA, United States of America
   </small>
 
-+ **Tiago Lubiana**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0003-2473-2313](https://orcid.org/0000-0003-2473-2313) · ![GitHub icon](images/github.svg){.inline_icon}
-    [lubianat](https://github.com/lubianat) · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **Tiago Lubiana**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0003-2473-2313](https://orcid.org/0000-0003-2473-2313) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [lubianat](https://github.com/lubianat) · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [lubianat](https://twitter.com/lubianat)<br>
   <small>
      Department of Clinical and Toxicological Analyses, School of Pharmaceutical Sciences, University of São Paulo, São Paulo, Brazil
   </small>
 
-+ **David Mai**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-9238-0164](https://orcid.org/0000-0002-9238-0164) · ![GitHub icon](images/github.svg){.inline_icon}
-    [davemai](https://github.com/davemai) · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **David Mai**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-9238-0164](https://orcid.org/0000-0002-9238-0164) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [davemai](https://github.com/davemai) · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [daveomai](https://twitter.com/daveomai)<br>
   <small>
      Department of Bioengineering, University of Pennsylvania, Philadelphia, PA, USA
@@ -687,60 +687,60 @@ Instead, you should collect information from your local health department, the [
   <small>
   </small>
 
-+ **Rishi Raj Goel**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0003-1715-5191](https://orcid.org/0000-0003-1715-5191) · ![GitHub icon](images/github.svg){.inline_icon}
-    [rishirajgoel](https://github.com/rishirajgoel) · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **Rishi Raj Goel**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0003-1715-5191](https://orcid.org/0000-0003-1715-5191) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [rishirajgoel](https://github.com/rishirajgoel) · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [rishirajgoel](https://twitter.com/rishirajgoel)<br>
   <small>
      Institute for Immunology, University of Pennsylvania, Philadelphia, PA, United States of America
   </small>
 
-+ **Joel D Boerckel**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0003-3126-3025](https://orcid.org/0000-0003-3126-3025) · ![GitHub icon](images/github.svg){.inline_icon}
-    [jboerckel](https://github.com/jboerckel) · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **Joel D Boerckel**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0003-3126-3025](https://orcid.org/0000-0003-3126-3025) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [jboerckel](https://github.com/jboerckel) · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [jboerckel](https://twitter.com/jboerckel)<br>
   <small>
      Department of Orthopaedic Surgery, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, United States of America; Department of Bioengineering, University of Pennsylvania, Philadelphia, PA, United States of America
   </small>
 
-+ **Amruta Naik**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0003-0673-2643](https://orcid.org/0000-0003-0673-2643) · ![GitHub icon](images/github.svg){.inline_icon}
++ **Amruta Naik**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0003-0673-2643](https://orcid.org/0000-0003-0673-2643) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [NAIKA86](https://github.com/NAIKA86)<br>
   <small>
      Children's Hospital of Philadelphia, Philadelphia, PA, United States of America
   </small>
 
-+ **Yusha Sun**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0003-4835-3000](https://orcid.org/0000-0003-4835-3000) · ![GitHub icon](images/github.svg){.inline_icon}
++ **Yusha Sun**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0003-4835-3000](https://orcid.org/0000-0003-4835-3000) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [yusha-sun](https://github.com/yusha-sun)<br>
   <small>
      Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
   </small>
 
-+ **Daniel S. Himmelstein**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-3012-7446](https://orcid.org/0000-0002-3012-7446) · ![GitHub icon](images/github.svg){.inline_icon}
-    [dhimmel](https://github.com/dhimmel) · ![Twitter icon](images/twitter.svg){.inline_icon}
++ **Daniel S. Himmelstein**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-3012-7446](https://orcid.org/0000-0002-3012-7446) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [dhimmel](https://github.com/dhimmel) · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [dhimmel](https://twitter.com/dhimmel)<br>
   <small>
      Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America; Related Sciences
      · Funded by GBMF4552
   </small>
 
-+ **Jeremy P. Kamil**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
++ **Jeremy P. Kamil**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0001-8422-7656](https://orcid.org/0000-0001-8422-7656)<br>
   <small>
      Department of Microbiology and Immunology, Louisiana State University Health Sciences Center Shreveport, Shreveport, Louisiana, USA
   </small>
 
-+ **Ariel I. Mundo**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-6014-4538](https://orcid.org/0000-0002-6014-4538) · ![GitHub icon](images/github.svg){.inline_icon}
++ **Ariel I. Mundo**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-6014-4538](https://orcid.org/0000-0002-6014-4538) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [aimundo](https://github.com/aimundo)<br>
   <small>
      Department of Biomedical Engineering, University of Arkansas, Fayetteville, Arkansas, USA
   </small>
 
-+ **Jesse G. Meyer**<br> ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0003-2753-3926](https://orcid.org/0000-0003-2753-3926) · ![GitHub icon](images/github.svg){.inline_icon}
++ **Jesse G. Meyer**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0003-2753-3926](https://orcid.org/0000-0003-2753-3926) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [jessegmeyerlab](https://github.com/jessegmeyerlab)<br>
   <small>
      Department of Biochemistry, Medical College of Wisconsin, Milwaukee, Wisconsin, United States of America
@@ -8258,8 +8258,7 @@ further studies.
 *Review by Bérengère Salomé as part of a project by students, postdocs and faculty at the Immunology Institute of the Icahn School of Medicine, Mount Sinai.*
 
 
-### Clinical findings in critically ill patients infected with SARS-CoV-2 in Guangdong Province, China: a multi-center, retrospective, observational study
-
+### Clinical findings in critically ill patients infected with SARS-CoV-2 in Guangdong Province, China: a multi-center, retrospective, observational study 
 
 Xu et al. *medRxiv*. [@doi:10.1101/2020.03.03.20030668]
 
