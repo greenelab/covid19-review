@@ -8,6 +8,30 @@ on:
     branches:
       - main
       - master
+  # NOTE: scheduled workflows aren't supported
+  # https://github.community/t/github-event-repository-fork-context-does-detect-forks-in-scheduled-jobs/185925
+  workflow_dispatch:
+    inputs:
+      BUILD_PDF:
+        type: boolean
+        description: generate PDF output
+        default: true
+      BUILD_DOCX:
+        type: boolean
+        description: generate DOCX output
+        default: false
+      BUILD_LATEX:
+        type: boolean
+        description: generate LaTeX output
+        default: false
+      SPELLCHECK:
+        type: boolean
+        description: Check spelling
+        default: true
+      MANUBOT_USE_DOCKER:
+        type: boolean
+        description: Use Docker to generate PDF
+        default: true
 jobs:
   manubot:
     name: Manubot
@@ -15,23 +39,36 @@ jobs:
     env:
       GITHUB_PULL_REQUEST_SHA: ${{ github.event.pull_request.head.sha }}
       LITSEARCH: false
+      # Set SPELLCHECK to true/false for whether to check spelling in this action.
+      # For workflow dispatch jobs, this SPELLCHECK setting will be overridden by the user input.
       SPELLCHECK: true
       BUILD_HTML: true
       BUILD_PDF: true
       BUILD_DOCX: false
       BUILD_INDIVIDUAL: true
+    defaults:
+      run:
+        shell: bash --login {0}
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
         with:
           # fetch entire commit history to support get_rootstock_commit
           fetch-depth: 0
+      - name: Set Environment Variables (Workflow Dispatch)
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          echo "BUILD_PDF=${{ github.event.inputs.BUILD_PDF }}" >> $GITHUB_ENV
+          echo "BUILD_DOCX=${{ github.event.inputs.BUILD_DOCX }}" >> $GITHUB_ENV
+          echo "BUILD_LATEX=${{ github.event.inputs.BUILD_LATEX }}" >> $GITHUB_ENV
+          echo "SPELLCHECK=${{ github.event.inputs.SPELLCHECK }}" >> $GITHUB_ENV
+          echo "MANUBOT_USE_DOCKER=${{ github.event.inputs.MANUBOT_USE_DOCKER }}" >> $GITHUB_ENV
       - name: Set Environment Variables
         run: |
           TRIGGERING_SHA=${GITHUB_PULL_REQUEST_SHA:-$GITHUB_SHA}
           echo "TRIGGERING_SHA_7=${TRIGGERING_SHA::7}" >> $GITHUB_ENV
           echo "TRIGGERING_SHA: $TRIGGERING_SHA"
-          DEFAULT_BRANCH=$(git remote show origin | grep --perl-regexp --only-matching "(?<=HEAD branch: ).+")
+          DEFAULT_BRANCH=${{ github.event.repository.default_branch }}
           echo "DEFAULT_BRANCH=${DEFAULT_BRANCH}" >> $GITHUB_ENV
           echo "DEFAULT_BRANCH_REF=refs/heads/$DEFAULT_BRANCH" >> $GITHUB_ENV
           echo "DEFAULT_BRANCH=$DEFAULT_BRANCH"
@@ -48,17 +85,11 @@ jobs:
           activate-environment: manubot
           environment-file: build/environment.yml
           auto-activate-base: false
-          miniconda-version: 'latest'
+          miniforge-version: 'latest'
       - name: Install Spellcheck
-        shell: bash --login {0}
-        run: |
-          if [ "${SPELLCHECK:-}" = "true" ]; then
-            bash ci/install-spellcheck.sh
-          fi
+        if: env.SPELLCHECK == 'true'
+        run: bash ci/install-spellcheck.sh
       - name: Build Manuscript
-        shell: bash --login {0}
-        env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         run: bash build/build.sh
       - name: Upload Artifacts
         uses: actions/upload-artifact@v1
@@ -66,11 +97,10 @@ jobs:
           name: manuscript-${{ github.run_id }}-${{ env.TRIGGERING_SHA_7 }}
           path: output
       - name: Deploy Manuscript
-        if: github.ref == env.DEFAULT_BRANCH_REF && github.event_name == 'push' && !github.event.repository.fork
+        if: github.ref == env.DEFAULT_BRANCH_REF && github.event_name != 'pull_request' && !github.event.repository.fork
         env:
           MANUBOT_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           MANUBOT_SSH_PRIVATE_KEY: ${{ secrets.MANUBOT_SSH_PRIVATE_KEY }}
           CI_BUILD_WEB_URL: https://github.com/${{ github.repository }}/commit/${{ github.sha }}/checks
-          CI_JOB_WEB_URL: https://github.com/${{ github.repository }}/runs/${{ github.run_id }}
-        shell: bash --login {0}
+          CI_JOB_WEB_URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: bash ci/deploy.sh
