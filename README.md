@@ -71,7 +71,7 @@ See [`USAGE.md`](USAGE.md) for documentation how to write a manuscript.
 
 Please open [an issue](https://git.io/fhQHM) for questions related to Manubot usage, bug reports, or general inquiries.
 
-## Repository directories & files
+### Repository directories & files
 
 + This file is called [`README.md`](README.md)
 It is the centralized document for the repository and will help direct users to other relevant information.
