@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2022-03-11'
+date-meta: '2022-03-14'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -72,8 +72,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2022-03-11" />
-  <meta name="citation_publication_date" content="2022-03-11" />
+  <meta name="dc.date" content="2022-03-14" />
+  <meta name="citation_publication_date" content="2022-03-14" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -286,13 +286,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/b6ab7ef6d15a82f54f9b5441d05d3180f8b38e9e/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/b6ab7ef6d15a82f54f9b5441d05d3180f8b38e9e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/b6ab7ef6d15a82f54f9b5441d05d3180f8b38e9e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/2cc33f66eeb0597c66676ebde31edb36c26682c8/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/2cc33f66eeb0597c66676ebde31edb36c26682c8/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/2cc33f66eeb0597c66676ebde31edb36c26682c8/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/b6ab7ef6d15a82f54f9b5441d05d3180f8b38e9e/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/b6ab7ef6d15a82f54f9b5441d05d3180f8b38e9e/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/2cc33f66eeb0597c66676ebde31edb36c26682c8/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/2cc33f66eeb0597c66676ebde31edb36c26682c8/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -314,11 +314,11 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/b6ab7ef6d15a82f54f9b5441d05d3180f8b38e9e/))
+([permalink](https://greenelab.github.io/covid19-review/v/2cc33f66eeb0597c66676ebde31edb36c26682c8/))
 was automatically generated
-from [greenelab/covid19-review@b6ab7ef](https://github.com/greenelab/covid19-review/tree/b6ab7ef6d15a82f54f9b5441d05d3180f8b38e9e)
-on March 11, 2022.
-It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/b6ab7ef6d15a82f54f9b5441d05d3180f8b38e9e/manuscript.pdf).
+from [greenelab/covid19-review@2cc33f6](https://github.com/greenelab/covid19-review/tree/2cc33f66eeb0597c66676ebde31edb36c26682c8)
+on March 14, 2022.
+It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/2cc33f66eeb0597c66676ebde31edb36c26682c8/manuscript.pdf).
 Snapshots of individual sections have been published [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals; @individual-methods].
 </em></small>
 
@@ -3619,7 +3619,7 @@ Some of the potential advantages of mRNA compared to DNA include safety, as it c
 
 The mRNA technology is transcribed _in vitro_ and delivered to cells via lipid nanoparticles (LNP) [@doi:10.1002/eji.1830230749].
 They are recognized by ribosomes _in vivo_ and then translated and modified into functional proteins [@doi:10.3389/fimmu.2019.00594].
-The resulting intracellular viral proteins are displayed on surface MHC proteins, provoking a strong CD8+ T cell response as well as a CD4+ T cell and B cell-associated antibody responses [@doi:10.3389/fimmu.2019.00594].
+The resulting intracellular viral proteins are displayed on surface MHC proteins, provoking a strong CD8+ T cell response as well as a CD4^+^ T cell and B cell-associated antibody responses [@doi:10.3389/fimmu.2019.00594].
 Naturally, mRNA is not very stable and can degrade quickly in the extracellular environment or the cytoplasm.
 The LNP covering protects the mRNA from enzymatic degradation outside of the cell [@doi:10.4155/tde-2016-0006].
 Codon optimization to prevent secondary structure formation and modifications of the poly-A tail as well as the 5’ untranslated region to promote ribosomal complex binding can increase mRNA expression in cells.
@@ -3655,14 +3655,13 @@ As of the 2010s, mRNA was still considered a promising technology for future adv
 Therefore, while these technologies elegantly capitalize on decades of research in vaccine development as well as the tools of the genomic revolution, it was largely unknown prior to the SARS-CoV-2 pandemic whether this potential could be realized in a real-world vaccination effort.
 
 **Application to COVID-19:**
-Given the potential for this technology to be quickly adapted for a new pathogen, it has held significant interest for the treatment of COVID-19.
+Given the potential for this technology to be quickly adapted for a new pathogen, it was favored as a potential vaccine against COVID-19.
 In the vaccines developed under this approach, the mRNA coding for a stabilized prefusion spike protein, which is immunogenic [@doi:10.1016/j.immuni.2020.05.002], can be furnished to the immune system in order to train its response.
 Two vaccine candidates in this category emerged with promising phase III results at the end of 2020.
 Both require two doses approximately one month apart.
 The first was Pfizer/BioNTech's BNT162b2, which contains the full prefusion stabilized, membrane-anchored SARS-CoV-2 spike protein in a vaccine formulation based on modified mRNA (modRNA) technology [@doi:10.1101/cshperspect.a014035; @url:https://www.pfizer.com/news/press-release/press-release-detail/pfizer-and-biontech-announce-early-positive-data-ongoing-0].
 <!--To Do: brief history of phase I & phase II (like 1-2 sentences)-->
-mRNA-1273 is comprised by a conventional lipid nanoparticle encapsulated RNA encoding a full-length prefusion stabilized S protein for SARS-CoV-2 [@clinicaltrials:NCT04283461].
-In the phase I trial, neutralizing activity reached similar levels to that observed in convalescent plasma samples by day 7 after the second dose of RNA-1273 [@doi:10.1056/NEJMoa2022483].
+The second mRNA vaccine, mRNA-1273 developed by ModernTX, is comprised by a conventional lipid nanoparticle encapsulated RNA encoding a full-length prefusion stabilized S protein for SARS-CoV-2 [@clinicaltrials:NCT04283461].
 As of January 14, 2022, 2 mRNA vaccines are available in 158 countries (Figure @fig:mRNA-distrib).
 
 ![
@@ -3673,11 +3672,14 @@ See https://greenelab.github.io/covid19-review/ for the most recent version of t
 ](https://github.com/greenelab/covid19-review/raw/3d10579792e8c03e87c8f2fda033852b58955325/owiddata/maps/RNA.png "Availability of mRNA vaccines"){#fig:mRNA-distrib secno=1}
 
 **Efficacy Estimates:**
-In the phase II/III multinational trial, this vaccine was associated with a 95% efficacy against laboratory-confirmed COVID-19 and with mild-to-moderate local and systemic effects but a low risk of serious adverse effects [@doi:10.1056/NEJMoa2034577].
-Similarly, ModernaTX developed mRNA-1273, which, despite being the second mRNA vaccine to release phase III results, was the first mRNA vaccine to enter phase I clinical trials.
-A few months later, interim results from the phase III trial indicated 94.5% efficacy of the vaccine in preventing symptomatic COVID-19 in adults who received the vaccine at 99 sites around the United States [@doi:10.1056/NEJMoa2035389].
-Similar to BNT162b2, the vaccine was associated with mild-to-moderate adverse effects but with a low risk of serious adverse events [@doi:10.1056/NEJMoa2035389]. 
-In late 2020, both vaccines both received approval from the United States's Food and Drug Administration (FDA) under an emergency use authorization [@url:https://www.fda.gov/news-events/press-announcements/fda-takes-key-action-fight-against-covid-19-issuing-emergency-use-authorization-first-covid-19; @url:https://www.cdc.gov/mmwr/volumes/69/wr/mm695152e1.htm], and these vaccines have been widely distributed, primarily in North America and the European Union [@url:https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html].
+Pfizer/BioNTech's BNT162b2 vaccine and ModernaTX’s mRNA-1273 vaccine, commercially known as Comirnaty and Spikevax, are available in most countries thanks to their rapid development in 2020. 
+In a phase II/III multinational trial, the Pfizer/BioNTech's BNT162b2 vaccine was associated with a 95% efficacy against laboratory-confirmed COVID-19 and with mild-to-moderate local and systemic effects but a low risk of serious adverse effects when the prime-boost doses were administered 21 days apart [@doi:10.1056/NEJMoa2034577].
+The ModernaTX mRNA-1273 vaccine was the second mRNA vaccine to release phase III results, despite being the first mRNA vaccine to enter phase I clinical trials and publish interim results of their phase III trial a few months later. 
+Their study reported a 94.5% vaccine efficacy in preventing symptomatic COVID-19 in adults who received the vaccine at 99 sites around the United States [@doi:10.1056/NEJMoa2035389].
+Similar to BNT162b2, the mRNA-1273 vaccine was associated with mild-to-moderate adverse effects but with a low risk of serious adverse events [@doi:10.1056/NEJMoa2035389]. 
+Extended details of the initial phase I, II, and III trials for both vaccines are documented in the appendix. 
+
+In late 2020, both vaccines received approval from the United States's Food and Drug Administration (FDA) under an emergency use authorization [@url:https://www.fda.gov/news-events/press-announcements/fda-takes-key-action-fight-against-covid-19-issuing-emergency-use-authorization-first-covid-19; @url:https://www.cdc.gov/mmwr/volumes/69/wr/mm695152e1.htm], and these vaccines have been widely distributed, primarily in North America and the European Union [@url:https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html].
 As the first mRNA vaccines to make it to market, these two highly efficacious vaccines demonstrate the power of this emerging technology, which has previously attracted scientific interest because of its potential to be used to treat non-infectious as well as infectious diseases.
 
 Between December 2020 and April 2021, one prospective cohort study obtained weekly nasal swabs from 3,975 individuals at high risk of SARS-CoV-2 exposure (health care workers, frontline workers, etc.) within the United States [@doi:10.1056/NEJMoa2107058].
@@ -3686,6 +3688,31 @@ For each vaccinated participant (defined here as having received at least dose 1
 Overall efficacy of mRNA vaccines was estimated at 91% with full vaccination, similar to the reports from the clinical trials.
 The occurrence of fevers was also lower in individuals who were partially or fully vaccinated, and the duration of symptoms was approximately 6 days shorter.
 <!--Flesh this out, what were the relative rates of strains?-->
+
+Just like the other available COVID-19 vaccines, the efficacy of mRNA vaccines has been challenged by the emergence of variants of concern (VOC). 
+These VOC have gene mutations that code for an altered spike protein, so the antibodies developed resulting from the immunization with the existing vaccines may not be as efficacious, which has caused major concern [@doi:10.1101/2021.11.11.21266068; @url:https://www.cdc.gov/coronavirus/2019-ncov/science/science-briefs/scientific-brief-omicron-variant.html].
+Despite some reports of varying and reduced efficacy of the mRNA vaccines against the Alpha (B.1.1.7), Beta (B.1.351), and Delta (B.1.617.2) variants versus the original SARS-CoV-2 strain or the D614G variant [@DOI:10.1038/s41591-021-01318-5; @doi:10.1038/s41586-021-03398-2; @DOI:10.1001/jama.2021.4388; ], the greatest concern to date has been the Omicron variant (B.1.1.529), which was first identified in November 2021 [@{url:https://www.who.int/news/item/26-11-2021-classification-of-omicron-(b.1.1.529)-sars-cov-2-variant-of-concern}; @url:https://www.cdc.gov/coronavirus/2019-ncov/science/science-briefs/scientific-brief-omicron-variant.html].
+As of March 2022, the Omicron variant accounts for 95% of all infections sequenced in the United States [@url:https://covid.cdc.gov/covid-data-tracker] and has been linked to an increased risk of SARS-CoV-2 reinfection [@doi:10.1101/2021.11.11.21266068] and further infection of those who have been vaccinated with the mRNA vaccines [@doi:10.2139/ssrn.3981711]. 
+
+Some of the gene mutations carried by Omicron, of which there are between 30-37 in the spike gene (15 in the RBD), have previously been associated with increased transmission, greater affinity for ACE2, and escape from neutralizing antibodies when they have been detected in other VOC [@doi:10.1101/2021.11.11.21266068; @doi:10.1016/j.cell.2021.06.020; 10.1101/2021.12.12.472269; @url:https://www.cdc.gov/coronavirus/2019-ncov/science/science-briefs/scientific-brief-omicron-variant.html; @doi:10.1101/2021.12.14.21267772; @doi:10.1101/2021.12.12.472269].
+However, multiple animal study preprints suggested that the Omicron variant may not be as severe on the respiratory system as previous SARS-CoV-2 variants as evidenced by reduced lung infectivity, reduced SARS-CoV-2 RNA detection in the lung, and reduced inflammation and pathogenicity in animals [@doi:10.21203/rs.3.rs-1211792/v1; @doi:10.1101/2021.12.26.474085; @doi:10.1101/2021.12.24.474086; @doi:10.1101/2022.01.02.474743; @doi:10.1101/2021.12.17.473248].
+
+In spite of these findings, infection rates and hospitalization rates climbed in early 2022 in many Western countries including the United States [@url:https://www.nytimes.com/interactive/2021/us/covid-cases.html; @url:https://www.washingtonpost.com/health/interactive/2022/omicron-comparison-cases-deaths-hospitalizations/]. 
+Studies have reported reduced efficacy of the mRNA vaccines based on the measurement of antibody titers. 
+Plasma from individuals double-dosed with Pfizer/BioNTech's BNT162b2 vaccine had up to a 16-fold reduction in neutralizing capacity against the Omicron variant [@doi:10.1101/2021.12.14.21267772] and a reduced efficacy (70%) [@doi:10.1056/NEJMc2119270].
+Estimates for the mRNA vaccines range from a 2-fold to over a 20-fold drop in neutralisation titres [@doi:10.1101/2021.12.13.21267748], hence the push for third doses of mRNA vaccines in many Western countries. 
+A third mRNA vaccine dose does increase antibody titers, but these levels also wane with time [@doi:10.15585/mmwr.mm7107e2]. 
+Notably, immunocompromised individuals such as cancer patients seem to elecit a sufficient protective immune response against the Omicron variant when they have been boosted with a third dose of either mRNA vaccine, albeit a blunted response [@doi:10.1016/j.ccell.2021.12.014]. 
+While antibody titres do correlate with protection [@doi:10.1126/science.abm3425; @doi:10.1016/j.vaccine.2021.12.006; @doi:10.1016/j.vaccine.2021.05.063; @doi:10.1101/2021.05.21.21257572; @doi:10.1038/s41423-020-00588-2], they are not the only mechanisms of immune protection; for example, T cell and non-neutralizing antibody responses may be unaffected or less affected by the new VOC and they warrant further investigation.
+
+In countries such as Israel, a fourth dose of mRNA vaccines have been introduced in response to the Omicron variant and an intial study in healthcare workers show that the additonal immunization is safe and immunogenic with antibody titres restored to peak-third dose titers.
+No severe illness was reported in the cohort studied (274 versus 426 age-matched controls), and vaccine efficacy against infection was reported at 30% for BNT162b2 and 11% for mRNA-1273 [@doi:10.1101/2022.02.15.22270948].
+Low efficacy against infection is not surprising considering the vaccines are intended to prevent against severe disease, hospitalization and death rather than infection. 
+
+Vaccine efficacy is not the only pharmacological intervention affected by VOC. 
+Some existing therapeutics, including monoclonal antibody treatments like Bamlanivimab (AbCellera Biologics/ Eli Lilly), were ineffective against the Omicron variant. 
+Indeed, only Sortrovimab (Vir Biotechnology/GSK) and Tixagevimab (Astra Zeneca) to a much lesser extent could effectively neutralize the omicron variant out of 7 tested monoclonal antibodies [@doi:10.1101/2021.12.14.21267772], which has been verified by others [@doi:10.1101/2021.12.12.472269].
+The antigenic shift of the Omicron variant does raise concerns for future VOC and what effects they may have on future vaccines and therapeutics. 
 
 **Serological Response/Boosters:**
 

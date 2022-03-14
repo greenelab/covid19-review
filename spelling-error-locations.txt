@@ -1,0 +1,17 @@
+content/22.vaccines.md:417:vir
+content/22.vaccines.md:417:vir
+content/22.vaccines.md:533:ModernTX
+content/22.vaccines.md:544:Comirnaty
+content/22.vaccines.md:544:Spikevax
+content/22.vaccines.md:572:titres
+content/22.vaccines.md:574:elecit
+content/22.vaccines.md:575:titres
+content/22.vaccines.md:577:additonal
+content/22.vaccines.md:577:intial
+content/22.vaccines.md:577:titres
+content/22.vaccines.md:583:Astra
+content/22.vaccines.md:583:GSK
+content/22.vaccines.md:583:Sortrovimab
+content/22.vaccines.md:583:Tixagevimab
+content/22.vaccines.md:583:Vir
+content/22.vaccines.md:583:Zeneca
