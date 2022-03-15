@@ -12,8 +12,8 @@ Project Status:
 | Section | Title | Status Issue | Submission Status | Venue | Links
 | -- | -- | -- | -- |-- | -- |
 | [Pathogenesis](https://greenelab.github.io/covid19-review/#pathogenesis-symptomatology-and-transmission-of-sars-cov-2-through-analysis-of-viral-genomics-and-structure) | Pathogenesis, Symptomatology, and Transmission of SARS-CoV-2 through Analysis of Viral Genomics and Structure | ✔️ | [Published](https://doi.org/10.1128/mSystems.00095-21) 🎉 | _mSystems_ | [Release](https://github.com/greenelab/covid19-review/releases/tag/pathogenesis-v3); [Preprint](http://arxiv.org/abs/2102.01521)
-| [Evolution](https://greenelab.github.io/covid19-review/#evolutionary-and-genomic-analysis-of-sars-cov-2) | TBD | #867 | TBD | In prep
-| [Diagnostics](https://greenelab.github.io/covid19-review/#diagnostics) | TBD | #818 | TBD | In prep
+| [Evolution](https://greenelab.github.io/covid19-review/#evolutionary-and-genomic-analysis-of-sars-cov-2) | #1084 | #867 | TBD | In prep
+| [Diagnostics](https://greenelab.github.io/covid19-review/#diagnostics) | #1094 | #818 | TBD | In prep
 | [Pharmaceuticals](https://greenelab.github.io/covid19-review/#identification-and-development-of-therapeutics-for-covid-19) | Identification and Development of Therapeutics for COVID-19 | ✔️ | [Published](https://doi.org/10.1128/mSystems.00233-21) 🎉 | _mSystems_ | [Release](https://github.com/greenelab/covid19-review/releases/tag/pharmaceuticals-v3); [Preprint](http://arxiv.org/abs/2103.02723)
 | [Vaccines](https://greenelab.github.io/covid19-review/#vaccine-development-strategies-for-sars-cov-2) | TBD | #830 | Next priority | In prep
 | [Nutraceuticals](https://greenelab.github.io/covid19-review/#dietary-supplements-and-nutraceuticals-under-investigation-for-covid-19-prevention-and-treatment) | Dietary Supplements and Nutraceuticals Under Investigation for COVID-19 Prevention and Treatment  | ✔️ | [Published](https://doi.org/10.1128/mSystems.00122-21) 🎉 | _mSystems_ | [Release](https://github.com/greenelab/covid19-review/releases/tag/nutraceuticals-v2); [Preprint](http://arxiv.org/abs/2102.02250) |
