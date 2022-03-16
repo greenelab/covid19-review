@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2022-03-14'
+date-meta: '2022-03-16'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -72,8 +72,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2022-03-14" />
-  <meta name="citation_publication_date" content="2022-03-14" />
+  <meta name="dc.date" content="2022-03-16" />
+  <meta name="citation_publication_date" content="2022-03-16" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -187,6 +187,7 @@ header-includes: |-
   <meta name="citation_author" content="David Manheim" />
   <meta name="citation_author_institution" content="1DaySooner, Delaware, United States of America" />
   <meta name="citation_author_institution" content="Risk and Health Communication Research Center, School of Public Health, University of Haifa, Haifa, Israel" />
+  <meta name="citation_author_institution" content="Technion, Israel Institute of Technology, Haifa, Israel" />
   <meta name="citation_author_orcid" content="0000-0001-8599-8380" />
   <meta name="twitter:creator" content="@davidmanheim" />
   <meta name="citation_author" content="Soumita Ghosh" />
@@ -286,13 +287,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/2cc33f66eeb0597c66676ebde31edb36c26682c8/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/2cc33f66eeb0597c66676ebde31edb36c26682c8/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/2cc33f66eeb0597c66676ebde31edb36c26682c8/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/8bcb6fc7d8ce649d46ef8d5027e0deb48c7e2cca/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/8bcb6fc7d8ce649d46ef8d5027e0deb48c7e2cca/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/8bcb6fc7d8ce649d46ef8d5027e0deb48c7e2cca/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/2cc33f66eeb0597c66676ebde31edb36c26682c8/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/2cc33f66eeb0597c66676ebde31edb36c26682c8/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/8bcb6fc7d8ce649d46ef8d5027e0deb48c7e2cca/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/8bcb6fc7d8ce649d46ef8d5027e0deb48c7e2cca/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -314,11 +315,11 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/2cc33f66eeb0597c66676ebde31edb36c26682c8/))
+([permalink](https://greenelab.github.io/covid19-review/v/8bcb6fc7d8ce649d46ef8d5027e0deb48c7e2cca/))
 was automatically generated
-from [greenelab/covid19-review@2cc33f6](https://github.com/greenelab/covid19-review/tree/2cc33f66eeb0597c66676ebde31edb36c26682c8)
-on March 14, 2022.
-It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/2cc33f66eeb0597c66676ebde31edb36c26682c8/manuscript.pdf).
+from [greenelab/covid19-review@8bcb6fc](https://github.com/greenelab/covid19-review/tree/8bcb6fc7d8ce649d46ef8d5027e0deb48c7e2cca)
+on March 16, 2022.
+It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/8bcb6fc7d8ce649d46ef8d5027e0deb48c7e2cca/manuscript.pdf).
 Snapshots of individual sections have been published [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals; @individual-methods].
 </em></small>
 
@@ -550,7 +551,8 @@ Instead, you should collect information from your local health department, the [
     [davidmanheim](https://github.com/davidmanheim) · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [davidmanheim](https://twitter.com/davidmanheim)<br>
   <small>
-     1DaySooner, Delaware, United States of America; Risk and Health Communication Research Center, School of Public Health, University of Haifa, Haifa, Israel
+     1DaySooner, Delaware, United States of America; Risk and Health Communication Research Center, School of Public Health, University of Haifa, Haifa, Israel; Technion, Israel Institute of Technology, Haifa, Israel
+     · Funded by Center for Effective Altruism, Long Term Future Fund
   </small>
 
 + **Soumita Ghosh**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
@@ -5620,7 +5622,7 @@ Future work can address remaining limitations and continue to advance Manubot as
 |Ashwin N. Skelly|None|2020-11-11|
 |Marouen Ben Guebila|None|2021-08-02|
 |Likhitha Kolla|None|2020-11-16|
-|David Manheim|None|2020-11-11|
+|David Manheim|None|2022-03-15|
 |Soumita Ghosh|None|2020-11-09|
 |James Brian Byrd|Funded by FastGrants to conduct a COVID-19-related clinical trial|2020-11-12|
 |YoSon Park|YoSon Park is affiliated with Pfizer Worldwide Research. The author has no financial interests to declare and contributed as an author prior to joining Pfizer, and the work was not part of a Pfizer collaboration nor was it funded by Pfizer.|2020-01-22|

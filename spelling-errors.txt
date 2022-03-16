@@ -9,6 +9,7 @@ intial
 ModernTX
 Sortrovimab
 Spikevax
+Technion
 titres
 Tixagevimab
 Vir
