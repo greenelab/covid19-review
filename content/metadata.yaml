@@ -854,11 +854,14 @@ authors:
     affiliations:
       - 1DaySooner, Delaware, United States of America
       - Risk and Health Communication Research Center, School of Public Health, University of Haifa, Haifa, Israel
+      - Technion, Israel Institute of Technology, Haifa, Israel
     code of conduct:
       confirmed: yes
     coi:
       string: "None"
-      lastapproved: !!str 2020-11-11
+      lastapproved: !!str 2022-03-15
+    funders:
+      - Center for Effective Altruism, Long Term Future Fund
   -
     github: soumitagh
     name: Soumita Ghosh
