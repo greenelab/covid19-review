@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2022-03-16'
+date-meta: '2022-03-17'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -72,8 +72,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2022-03-16" />
-  <meta name="citation_publication_date" content="2022-03-16" />
+  <meta name="dc.date" content="2022-03-17" />
+  <meta name="citation_publication_date" content="2022-03-17" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -104,6 +104,8 @@ header-includes: |-
   <meta name="citation_author_orcid" content="0000-0001-8955-7582" />
   <meta name="citation_author" content="Ronan Lordan" />
   <meta name="citation_author_institution" content="Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104-5158, USA" />
+  <meta name="citation_author_institution" content="Department of Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA" />
+  <meta name="citation_author_institution" content="Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania; Philadelphia, PA 19104, USA" />
   <meta name="citation_author_orcid" content="0000-0001-9668-3368" />
   <meta name="twitter:creator" content="@el_ronan" />
   <meta name="citation_author" content="Christian Brueffer" />
@@ -287,13 +289,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/8bcb6fc7d8ce649d46ef8d5027e0deb48c7e2cca/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/8bcb6fc7d8ce649d46ef8d5027e0deb48c7e2cca/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/8bcb6fc7d8ce649d46ef8d5027e0deb48c7e2cca/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/0f1ecb4194c1c5862d3e039183da7cff9f87a6dd/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/0f1ecb4194c1c5862d3e039183da7cff9f87a6dd/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/0f1ecb4194c1c5862d3e039183da7cff9f87a6dd/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/8bcb6fc7d8ce649d46ef8d5027e0deb48c7e2cca/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/8bcb6fc7d8ce649d46ef8d5027e0deb48c7e2cca/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/0f1ecb4194c1c5862d3e039183da7cff9f87a6dd/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/0f1ecb4194c1c5862d3e039183da7cff9f87a6dd/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -315,11 +317,11 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/8bcb6fc7d8ce649d46ef8d5027e0deb48c7e2cca/))
+([permalink](https://greenelab.github.io/covid19-review/v/0f1ecb4194c1c5862d3e039183da7cff9f87a6dd/))
 was automatically generated
-from [greenelab/covid19-review@8bcb6fc](https://github.com/greenelab/covid19-review/tree/8bcb6fc7d8ce649d46ef8d5027e0deb48c7e2cca)
-on March 16, 2022.
-It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/8bcb6fc7d8ce649d46ef8d5027e0deb48c7e2cca/manuscript.pdf).
+from [greenelab/covid19-review@0f1ecb4](https://github.com/greenelab/covid19-review/tree/0f1ecb4194c1c5862d3e039183da7cff9f87a6dd)
+on March 17, 2022.
+It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/0f1ecb4194c1c5862d3e039183da7cff9f87a6dd/manuscript.pdf).
 Snapshots of individual sections have been published [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals; @individual-methods].
 </em></small>
 
@@ -380,7 +382,7 @@ Instead, you should collect information from your local health department, the [
     [RLordan](https://github.com/RLordan) · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [el_ronan](https://twitter.com/el_ronan)<br>
   <small>
-     Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104-5158, USA
+     Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104-5158, USA; Department of Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA; Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania; Philadelphia, PA 19104, USA
   </small>
 
 + **Christian Brueffer**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
@@ -1775,10 +1777,9 @@ Combining this ITP purification with loop-mediated isothermal amplification, the
 All these methods required upstream nucleic acid amplification prior to CRISPR-based detection. 
 They are relying on type V (Cas12-based) and type IV (Cas13-based) CRISPR systems.
 In contrast, type III CRISPR systems have the unique property of initiating a signaling cascade, which could boost the sensitivity of direct RNA detection. 
-<!--To Do: It would be great to add just one sentence on what the type III CRISPR system is otherwise its confusing why/how a signaling cascade is initiated if one does not know what the differences are. (from Nils)-->
-A study tested this hypothesis using the type III-A CRISPR RNA (crRNA)-guided surveillance complex from Thermus thermophilus [@doi:10.1101/2020.10.14.20212670]. 
+In type III CRISPR systems, guide crRNAs are bound by several Cas proteins [@doi:10.1007/978-1-4939-2687-9_4] and can target both DNA and RNA molecules [@doi:10.1016/j.mib.2017.08.003; @doi:10.1016/j.tim.2016.09.012].
+A study tested this hypothesis using the type III-A CRISPR RNA (crRNA)-guided surveillance complex from _Thermus thermophilus_ [@doi:10.1016/j.xcrm.2021.100319]. 
 They showed that activation of the Cas10 polymerase generates three products (cyclic nucleotides, protons, pyrophosphates) that can all be used to detect SARS-CoV-2 RNA. 
-Direct detection was 100-fold more sensitive than direct detection by Cas13. 
 Detection of viral RNA in patient samples still required an initial nucleic acid amplification step, but improvements may in the future remove that requirement.
 
 This goal of amplification-free detection was later achieved for a Cas13a-based system [@doi:10.1016/j.cell.2020.12.001]. 
@@ -1794,7 +1795,7 @@ The authors reported a 95% reproducibility.
 Both techniques were equally sensitive in detecting SARS-CoV-2.
 Lateral flow strips showed a 100% correlation to the high-throughput DETECTR assay.
 Importantly, DETECTR was 100% specific for SARS-CoV-2 and did not detect other human coronaviruses.
-A method based on a Cas9 ortholog from Francisella novicida (FnCas9) achieved 100% sensitivity and 97% specificity in clinical samples, and the diagnostic kit is reported to have completed regulatory validation in India [@doi:10.1101/2020.09.13.20193581].
+A method based on a Cas9 ortholog from Francisella novicida (FnCas9) achieved 100% sensitivity and 97% specificity in clinical samples, and the diagnostic kit is reported to have completed regulatory validation in India [@doi:10.1016/j.bios.2021.113207].
 
 #### Protein tests
 LFT-based tests are beneficial because they can detect current infection within 30 minutes and because they can be performed without specialized equipment at low cost. 
