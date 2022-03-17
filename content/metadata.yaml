@@ -260,6 +260,8 @@ authors:
       confirmed: Yes
     affiliations:
       - Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104-5158, USA
+      - Department of Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
+      - Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania; Philadelphia, PA 19104, USA
     coi:
       string: "None"
       lastapproved: !!str 2020-11-03
