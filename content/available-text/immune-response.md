@@ -9,4 +9,4 @@ Dan et al. (2021) showed that N-specific memory B cells steadily increased up to
 SARS-CoV-2 memory CD8^+^ T cells were also detected in 70% of 169 COVID-19 patients after 1 month [@doi:10.1126/science.abf4063], which is consistent with previous research [@doi:10.1016/j.cell.2020.05.015].
 These approaches all evaluated indicators that can be used to gain insight into prior infection.
 
-<!--From Diagnostics-->
+<!--From Diagnostics, by @RLordan-->
