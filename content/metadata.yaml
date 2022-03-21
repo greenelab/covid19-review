@@ -1,5 +1,5 @@
 ---
-title: "SARS-CoV-2 and COVID-19: An Evolving Review of and Therapeutics"
+title: "SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics"
 keywords:
   - covid-19
   - coronavirus
@@ -1378,6 +1378,21 @@ authors:
         contributions:
           - Writing - Review & Editing
   - 
+    github: aimundo
+    name: Ariel I. Mundo
+    affiliations:
+    - Department of Biomedical Engineering, University of Arkansas, Fayetteville, Arkansas, USA
+    email: aimundo@uark.edu
+    orcid: 0000-0002-6014-4538
+    coi:
+      string: "None"
+      lastapproved:  !!str 2021-12-19
+    manuscripts:
+      diagnostics:
+        order: 1
+        contributions:
+          - Writing - Review & Editing
+  - 
     github: jessegmeyerlab
     name: Jesse G. Meyer
     initials: JGM
@@ -1394,22 +1409,3 @@ authors:
         contributions:
           - Writing - Review & Editing
           - Writing - Original Draft
-  - 
-    github: aimundo
-    name: Ariel I. Mundo
-        affiliations:
-          - institution: University of Arkansas
-            department: Department of Biomedical Engineering
-            city: Fayetteville
-            state: AR
-            country: USA
-    email: aimundo@uark.edu
-    orcid: 0000-0002-6014-4538
-    coi:
-      string: "None"
-      lastapproved:  !!str 2021-12-19
-    manuscripts:
-      diagnostics:
-        order: 1
-        contributions:
-          - Writing - Review & Editing
