@@ -1397,12 +1397,8 @@ authors:
   - 
     github: aimundo
     name: Ariel I. Mundo
-        affiliations:
-          - institution: University of Arkansas
-            department: Department of Biomedical Engineering
-            city: Fayetteville
-            state: AR
-            country: USA
+    affiliations:
+      - institution: Department of Biomedical Engineering, University of Arkansas, Fayetteville, AR USA
     email: aimundo@uark.edu
     orcid: 0000-0002-6014-4538
     coi:
