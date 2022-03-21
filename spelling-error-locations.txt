@@ -1,3 +1,10 @@
+content/10.diagnostics.md:348:EIA
+content/10.diagnostics.md:356:EIAs
+content/10.diagnostics.md:356:EIAs
+content/10.diagnostics.md:356:immunoassays
+content/10.diagnostics.md:357:selectivities
+content/10.diagnostics.md:357:selectivities
+content/10.diagnostics.md:367:LFIs
 content/22.vaccines.md:417:vir
 content/22.vaccines.md:417:vir
 content/22.vaccines.md:533:ModernTX

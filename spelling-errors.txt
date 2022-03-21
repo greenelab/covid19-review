@@ -2,11 +2,17 @@ additonal
 Astra
 Comirnaty
 dg
+EIA
+EIAs
 elecit
+gnx
 GSK
 hw
+immunoassays
 intial
+LFIs
 ModernTX
+selectivities
 Sortrovimab
 Spikevax
 Technion
