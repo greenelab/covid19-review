@@ -7,6 +7,7 @@ EpiVacCorona,protein subunit
 Johnson&Johnson,non-replicating viral vector
 Medigen,protein subunit
 Moderna,RNA
+Novavax,protein subunit
 Oxford/AstraZeneca,non-replicating viral vector
 Pfizer/BioNTech,RNA
 QazVac,inactivated whole-virus
@@ -17,3 +18,8 @@ Soberana02,protein subunit
 Sputnik Light,non-replicating viral vector
 Sputnik V,non-replicating viral vector
 ZF2001,protein subunit
+SpikoGen,protein subunit
+Turkovac,inactivated whole-virus
+FAKHRAVAC,inactivated whole-virus
+Razi Cov Pars,protein subunit
+Soberana Plus,protein subunit
