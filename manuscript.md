@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2022-03-21'
+date-meta: '2022-03-22'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -60,8 +60,8 @@ author-meta:
 - Yusha Sun
 - Daniel S. Himmelstein
 - Jeremy P. Kamil
-- Ariel I. Mundo
 - Jesse G. Meyer
+- Ariel I. Mundo
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -72,8 +72,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2022-03-21" />
-  <meta name="citation_publication_date" content="2022-03-21" />
+  <meta name="dc.date" content="2022-03-22" />
+  <meta name="citation_publication_date" content="2022-03-22" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -277,25 +277,25 @@ header-includes: |-
   <meta name="citation_author" content="Jeremy P. Kamil" />
   <meta name="citation_author_institution" content="Department of Microbiology and Immunology, Louisiana State University Health Sciences Center Shreveport, Shreveport, Louisiana, USA" />
   <meta name="citation_author_orcid" content="0000-0001-8422-7656" />
-  <meta name="citation_author" content="Ariel I. Mundo" />
-  <meta name="citation_author_institution" content="Department of Biomedical Engineering, University of Arkansas, Fayetteville, Arkansas, USA" />
-  <meta name="citation_author_orcid" content="0000-0002-6014-4538" />
   <meta name="citation_author" content="Jesse G. Meyer" />
   <meta name="citation_author_institution" content="Department of Biochemistry, Medical College of Wisconsin, Milwaukee, Wisconsin, United States of America" />
   <meta name="citation_author_orcid" content="0000-0003-2753-3926" />
+  <meta name="citation_author" content="Ariel I. Mundo" />
+  <meta name="citation_author_institution" content="Department of Biomedical Engineering, University of Arkansas, Fayetteville, Arkansas, USA" />
+  <meta name="citation_author_orcid" content="0000-0002-6014-4538" />
   <link rel="canonical" href="https://greenelab.github.io/covid19-review/" />
   <meta property="og:url" content="https://greenelab.github.io/covid19-review/" />
   <meta property="twitter:url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/98717548cd0a39ba111631afc3eacca1e476120f/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/98717548cd0a39ba111631afc3eacca1e476120f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/98717548cd0a39ba111631afc3eacca1e476120f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/0b410ebe2b3fc5f2cadb2381f7831e065ef0e791/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/0b410ebe2b3fc5f2cadb2381f7831e065ef0e791/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/0b410ebe2b3fc5f2cadb2381f7831e065ef0e791/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/98717548cd0a39ba111631afc3eacca1e476120f/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/98717548cd0a39ba111631afc3eacca1e476120f/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/0b410ebe2b3fc5f2cadb2381f7831e065ef0e791/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/0b410ebe2b3fc5f2cadb2381f7831e065ef0e791/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -317,11 +317,11 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/98717548cd0a39ba111631afc3eacca1e476120f/))
+([permalink](https://greenelab.github.io/covid19-review/v/0b410ebe2b3fc5f2cadb2381f7831e065ef0e791/))
 was automatically generated
-from [greenelab/covid19-review@9871754](https://github.com/greenelab/covid19-review/tree/98717548cd0a39ba111631afc3eacca1e476120f)
-on March 21, 2022.
-It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/98717548cd0a39ba111631afc3eacca1e476120f/manuscript.pdf).
+from [greenelab/covid19-review@0b410eb](https://github.com/greenelab/covid19-review/tree/0b410ebe2b3fc5f2cadb2381f7831e065ef0e791)
+on March 22, 2022.
+It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/0b410ebe2b3fc5f2cadb2381f7831e065ef0e791/manuscript.pdf).
 Snapshots of individual sections have been published [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals; @individual-methods].
 </em></small>
 
@@ -736,18 +736,18 @@ Instead, you should collect information from your local health department, the [
      Department of Microbiology and Immunology, Louisiana State University Health Sciences Center Shreveport, Shreveport, Louisiana, USA
   </small>
 
-+ **Ariel I. Mundo**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-6014-4538](https://orcid.org/0000-0002-6014-4538) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [aimundo](https://github.com/aimundo)<br>
-  <small>
-     Department of Biomedical Engineering, University of Arkansas, Fayetteville, Arkansas, USA
-  </small>
-
 + **Jesse G. Meyer**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0003-2753-3926](https://orcid.org/0000-0003-2753-3926) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [jessegmeyerlab](https://github.com/jessegmeyerlab)<br>
   <small>
      Department of Biochemistry, Medical College of Wisconsin, Milwaukee, Wisconsin, United States of America
+  </small>
+
++ **Ariel I. Mundo**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-6014-4538](https://orcid.org/0000-0002-6014-4538) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [aimundo](https://github.com/aimundo)<br>
+  <small>
+     Department of Biomedical Engineering, University of Arkansas, Fayetteville, Arkansas, USA
   </small>
 
 
@@ -5684,8 +5684,8 @@ Future work can address remaining limitations and continue to advance Manubot as
 |Yusha Sun|None|2021-04-10|
 |Daniel S. Himmelstein|None|2021-04-30|
 |Jeremy P. Kamil|TBD|2021-04-30|
-|Ariel I. Mundo|None|2021-12-19|
 |Jesse G. Meyer|None|2022-01-06|
+|Ariel I. Mundo|None|2021-12-19|
 
 ### Author Contributions
 
@@ -5743,8 +5743,8 @@ Future work can address remaining limitations and continue to advance Manubot as
 |Yusha Sun|Writing - Review & Editing|
 |Daniel S. Himmelstein|Software|
 |Jeremy P. Kamil|Writing - Review & Editing|
-|Ariel I. Mundo|Writing - Review & Editing|
 |Jesse G. Meyer|Writing - Original Draft, Writing - Review & Editing|
+|Ariel I. Mundo|Writing - Review & Editing|
 
 ### Acknowledgements
 
