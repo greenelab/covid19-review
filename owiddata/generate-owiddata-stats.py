@@ -4,10 +4,8 @@ import json
 import os
 import pandas as pd
 import geopandas
-import pycountry
 import urllib.request
 from bs4 import BeautifulSoup
-import re
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 import numpy as np
@@ -31,6 +29,12 @@ def platforms(vaxtype):
              "Inactivated": "Whole Virus",
              "Live-Attenuated": "Whole Virus"
              }
+
+    # If they add a new category (which seems unlikely), handle & throw error
+    if vaxtype not in types.keys():
+        print("Unknown vaccine platform:", vaxtype)
+        return vaxtype
+
     return types[vaxtype]
 
 def lowres_fix(world):
@@ -70,15 +74,18 @@ def convert_date(git_date):
     return datetime.datetime.fromisoformat(git_date).strftime('%B %d, %Y').replace(' 0', ' ')
 
 def retrieve_platform_types():
+    """Use trackvaccines.org to scrape the website listing approved vaccines
+    Returns: dataframe """
     vaccine_info = dict()
     vaccineHTML = urllib.request.urlopen('https://covid19.trackvaccines.org/vaccines/approved/')
 
-    # Extract the HTML that makes the cards on the webpage (each card is vax)
+    # Extract the HTML that makes the cards on the webpage (each card is a vax)
     soup = BeautifulSoup(vaccineHTML, "html5lib")
     body = soup.find('body')
     cards = body.find_all('li')
 
     # Iterate through the cards to extract information
+    # Tags were identified empirically and are not self-evident
     for card in cards: # find all element of tag
         if card.find('a', {"class": "icon-link"}) is not None:
             vaccine_type = card.find('a', {"class": "icon-link"}).get_text()
@@ -101,6 +108,9 @@ def retrieve_platform_types():
     return vaccine_df
 
 def create_table(vaccine_df, category):
+    """For each vaccine type, select a subset of the vaccine information table
+    Input: dataframe, string
+    Returns: string representing a table in markdown"""
     vaccines = vaccine_df[vaccine_df["Category"] == category]
     numTypes = len(set(vaccines["Type"].to_list()))
     if numTypes > 1:
