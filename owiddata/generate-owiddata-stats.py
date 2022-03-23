@@ -23,6 +23,7 @@ def platforms(vaxtype):
 
     types = {"Protein Subunit": "Subunit",
              "VLP": "Subunit",
+             "Plasmid Vectored": "DNA",
              "DNA": "DNA",
              "RNA": "RNA",
              "Non Replicating Viral Vector": "DNA",
@@ -93,9 +94,19 @@ def retrieve_platform_types():
                                           vaccine_category,
                                           link['href']]
     vaccine_df = pd.DataFrame.from_dict(vaccine_info, orient='index')
-    vaccine_df.rename(mapper={0: "Company", 1: "Type", 3: "Category", 2: "URL"},
+    vaccine_df.rename(mapper={0: "Company", 1: "Type", 2: "Category", 3: "URL"},
                       axis=1, inplace=True)
+    vaccine_df.index.name = 'Vaccine'
+    vaccine_df["Type"] = vaccine_df["Type"].replace("DNA","Plasmid Vectored")
     return vaccine_df
+
+def create_table(vaccine_df, category):
+    vaccines = vaccine_df[vaccine_df["Category"] == category]
+    numTypes = len(set(vaccines["Type"].to_list()))
+    if numTypes > 1:
+        return vaccines[["Company", "Type"]].to_markdown()
+    else:
+        return vaccines[["Company"]].to_markdown()
 
 def main(args):
     # Set up country mapping
@@ -131,25 +142,39 @@ def main(args):
 
     owid_stats["owid_most_recent_date"] = vaccine_nums['date'].max().strftime('%B %d, %Y').replace(' 0', ' ')
 
-    owid_stats["owid_total_vaccinations"] = str("{:,}".format(round(vaccine_nums[vaccine_nums["location"] ==
-                                                          "World"].loc[vaccine_nums["date"] ==
-                                                                       owid_stats["owid_most_recent_date"],
-                                                                       "total_vaccinations"].item()/1000000000))) + \
-                                       " billion"
-    owid_stats["owid_daily_rate"] = str("{:,}".format(round(vaccine_nums[vaccine_nums["location"] ==
-                                                "World"].loc[vaccine_nums["date"] ==
-                                                             owid_stats["owid_most_recent_date"],
-                                                             "daily_vaccinations_per_million"].item()))) + " per million"
-    owid_stats["owid_total_countries"] = format(vaccine_locations["location"].nunique())
+    owid_stats["owid_total_vaccinations"] = \
+        str("{:,}".format(round(vaccine_nums[vaccine_nums["location"] == "World"].
+                                loc[vaccine_nums["date"] ==
+                                    owid_stats["owid_most_recent_date"],
+                                    "total_vaccinations"].item()/1000000000))) + \
+        " billion"
+    owid_stats["owid_daily_rate"] = \
+        str("{:,}".format(round(vaccine_nums[vaccine_nums["location"] == "World"].
+                                loc[vaccine_nums["date"] ==
+                                    owid_stats["owid_most_recent_date"],
+                                    "daily_vaccinations_per_million"].item()))) + \
+        " per million"
+    owid_stats["owid_total_countries"] = \
+        format(vaccine_locations["location"].nunique())
 
     # Identify number of vaccine manufacturers included in location totals (not the same as manufacturer-specific data)
-    vaxTypes = set([item.strip() for countryList in vaccine_locations["vaccines"].to_list() for item in countryList.split(",")])
+    vaxTypes = set([item.strip() for countryList in
+                    vaccine_locations["vaccines"].to_list()
+                    for item in countryList.split(",")])
     owid_stats["owid_vaccine_types"] = format(len(vaxTypes))
 
-    # Count the number of vaccines being administered per technology type
+    # Retrieve & store types of vaccines from https://covid19.trackvaccines.org
     vaxPlatforms = retrieve_platform_types()
     vaxPlatforms.to_csv(args.platform_types)
+
+    # Count the number of vaccines being administered total & per technology type
+    owid_stats["viper_vaccine_types"] = format(len(vaxPlatforms))
     numVax = vaxPlatforms["Type"].value_counts()
+
+    # Generate table of vaccines within each type
+    for category in set(vaxPlatforms["Category"]):
+        owid_stats["viper_approved_" + category] = \
+            create_table(vaxPlatforms, category)
 
     # Set the parameters color-coding the plots. Scale is the max candidates adminstered across all vaccine types.
     scale = max(numVax)
@@ -168,10 +193,8 @@ def main(args):
 
     # Add countries to vaccine platform info and plot each vaccine type
     vaxPlatforms['countries'] = vaxPlatforms.index.map(countryByVax)
-    print(vaxPlatforms)
 
     for platform in set(vaxPlatforms["Type"]):
-        print(platform)
         platformName = '_'.join(platform.split(' '))
         platformName = platformName.replace("-", "_")
         owid_stats["owid_" + platformName + "_count"] = \
