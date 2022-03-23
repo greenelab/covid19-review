@@ -19,15 +19,15 @@ def platforms(vaxtype):
     Input: string
     Output: string"""
 
-    types = {"Protein Subunit": "Subunit",
-             "VLP": "Subunit",
-             "Plasmid Vectored": "DNA",
+    types = {"protein subunit": "subunit",
+             "VLP": "subunit",
+             "plasmid vectored": "DNA",
              "DNA": "DNA",
              "RNA": "RNA",
-             "Non Replicating Viral Vector": "DNA",
-             "Replicating Viral Vector": "DNA",
-             "Inactivated": "Whole Virus",
-             "Live-Attenuated": "Whole Virus"
+             "non replicating viral vector": "DNA",
+             "replicating viral vector": "DNA",
+             "inactivated": "whole virus",
+             "live attenuated": "whole virus"
              }
 
     # If they add a new category (which seems unlikely), handle & throw error
@@ -89,6 +89,8 @@ def retrieve_platform_types():
     for card in cards: # find all element of tag
         if card.find('a', {"class": "icon-link"}) is not None:
             vaccine_type = card.find('a', {"class": "icon-link"}).get_text()
+            if vaccine_type.upper() != vaccine_type: #DNA, RNA, VLP
+                vaccine_type = vaccine_type.lower()
             vaccine_category = platforms(vaccine_type)
             link = card.find('a', href=True)
 
@@ -104,7 +106,7 @@ def retrieve_platform_types():
     vaccine_df.rename(mapper={0: "Company", 1: "Type", 2: "Category", 3: "URL"},
                       axis=1, inplace=True)
     vaccine_df.index.name = 'Vaccine'
-    vaccine_df["Type"] = vaccine_df["Type"].replace("DNA","Plasmid Vectored")
+    vaccine_df["Type"] = vaccine_df["Type"].replace("DNA","plasmid vectored")
     return vaccine_df
 
 def create_table(vaccine_df, category):
