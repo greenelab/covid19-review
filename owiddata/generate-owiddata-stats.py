@@ -12,6 +12,26 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 import numpy as np
 
+def platforms(vaxtype):
+    """The types of vaccines as categoried on trackvaccines.org differs
+    somewhat from the categories we use here.
+    See https://covid19.trackvaccines.org/types-of-vaccines/
+    This function maps their categories (key) onto the section headings
+    used in the manuscript (value)
+    Input: string
+    Output: string"""
+
+    types = {"Protein Subunit": "Subunit",
+             "VLP": "Subunit",
+             "DNA": "DNA",
+             "RNA": "RNA",
+             "Non Replicating Viral Vector": "DNA",
+             "Replicating Viral Vector": "DNA",
+             "Inactivated": "Whole Virus",
+             "Live-Attenuated": "Whole Virus"
+             }
+    return types[vaxtype]
+
 def lowres_fix(world):
     """There is an issue with the map data source from geopandas where
     ISO codes are missing for several countries. This fix was proposed
@@ -61,6 +81,7 @@ def retrieve_platform_types():
     for card in cards: # find all element of tag
         if card.find('a', {"class": "icon-link"}) is not None:
             vaccine_type = card.find('a', {"class": "icon-link"}).get_text()
+            vaccine_category = platforms(vaccine_type)
             link = card.find('a', href=True)
 
             vaccine_manf = card.find('span',
@@ -69,8 +90,12 @@ def retrieve_platform_types():
                                      {"class": "has-large-font-size"}).get_text()
             vaccine_info[vaccine_name] = [vaccine_manf,
                                           vaccine_type,
+                                          vaccine_category,
                                           link['href']]
-    return vaccine_info
+    vaccine_df = pd.DataFrame.from_dict(vaccine_info, orient='index')
+    vaccine_df.rename(mapper={0: "Company", 1: "Type", 3: "Category", 2: "URL"},
+                      axis=1, inplace=True)
+    return vaccine_df
 
 def main(args):
     # Set up country mapping
@@ -123,7 +148,7 @@ def main(args):
 
     # Count the number of vaccines being administered per technology type
     vaxPlatforms = retrieve_platform_types()
-    exit(0)
+    vaxPlatforms.to_csv(args.platform_types)
     numVax = vaxPlatforms["Type"].value_counts()
 
     # Set the parameters color-coding the plots. Scale is the max candidates adminstered across all vaccine types.
@@ -143,17 +168,21 @@ def main(args):
 
     # Add countries to vaccine platform info and plot each vaccine type
     vaxPlatforms['countries'] = vaxPlatforms.index.map(countryByVax)
+    print(vaxPlatforms)
 
     for platform in set(vaxPlatforms["Type"]):
+        print(platform)
         platformName = '_'.join(platform.split(' '))
         platformName = platformName.replace("-", "_")
-        owid_stats["owid_" + platformName + "_count"] = len(vaxPlatforms[vaxPlatforms["Type"] == platform])
+        owid_stats["owid_" + platformName + "_count"] = \
+            len(vaxPlatforms[vaxPlatforms["Type"] == platform])
 
         fig, ax = plt.subplots(1, 1, figsize=(6,4))
         ax.axis('off')
 
-        vaccines = vaxPlatforms[vaxPlatforms["Type"] == platform]
-        countries = [iso for country_list in vaccines["countries"] for iso in country_list]
+        vaccines = vaxPlatforms[vaxPlatforms["Type"] == platform].dropna()
+        countries = [iso for country_list in vaccines["countries"]
+                     for iso in country_list]
         counts = dict()
         for iso in countries:
             runningTot = counts.get(iso, 0)
