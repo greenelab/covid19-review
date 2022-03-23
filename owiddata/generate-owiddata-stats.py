@@ -5,6 +5,9 @@ import os
 import pandas as pd
 import geopandas
 import pycountry
+import urllib.request
+from bs4 import BeautifulSoup
+import re
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 import numpy as np
@@ -44,6 +47,30 @@ def convert_date(git_date):
     # Remove the leading zero of the day
     # Assumes the year will not begin with 0
     return datetime.datetime.fromisoformat(git_date).strftime('%B %d, %Y').replace(' 0', ' ')
+
+def retrieve_platform_types():
+    vaccine_info = dict()
+    vaccineHTML = urllib.request.urlopen('https://covid19.trackvaccines.org/vaccines/approved/')
+
+    # Extract the HTML that makes the cards on the webpage (each card is vax)
+    soup = BeautifulSoup(vaccineHTML, "html5lib")
+    body = soup.find('body')
+    cards = body.find_all('li')
+
+    # Iterate through the cards to extract information
+    for card in cards: # find all element of tag
+        if card.find('a', {"class": "icon-link"}) is not None:
+            vaccine_type = card.find('a', {"class": "icon-link"}).get_text()
+            link = card.find('a', href=True)
+
+            vaccine_manf = card.find('span',
+                                     {"class": "has-medium-font-size"}).get_text()
+            vaccine_name = card.find('span',
+                                     {"class": "has-large-font-size"}).get_text()
+            vaccine_info[vaccine_name] = [vaccine_manf,
+                                          vaccine_type,
+                                          link['href']]
+    return vaccine_info
 
 def main(args):
     # Set up country mapping
@@ -93,20 +120,16 @@ def main(args):
     # Identify number of vaccine manufacturers included in location totals (not the same as manufacturer-specific data)
     vaxTypes = set([item.strip() for countryList in vaccine_locations["vaccines"].to_list() for item in countryList.split(",")])
     owid_stats["owid_vaccine_types"] = format(len(vaxTypes))
-    vaxPlatforms = pd.read_csv(args.platform_types, index_col="Manufacturer")
 
     # Count the number of vaccines being administered per technology type
+    vaxPlatforms = retrieve_platform_types()
+    exit(0)
     numVax = vaxPlatforms["Type"].value_counts()
 
     # Set the parameters color-coding the plots. Scale is the max candidates adminstered across all vaccine types.
     scale = max(numVax)
     cmap = mpl.cm.Purples
     norm = mpl.colors.BoundaryNorm(np.arange(0, scale + 1), cmap.N)
-
-    # Check that platform information is present (needs to be manually determined and input in vaccine_platforms.csv
-    missingInfo = [vax for vax in vaxTypes if vax not in vaxPlatforms.index]
-    if len(missingInfo) > 0:
-        exit("Missing platform information for " + ", ".join(missingInfo))
 
     # Transform list of vaccine candidate per iso code to list of ISO codes per vaccine candidate
     allVaxByCountry = dict(zip(vaccine_locations["iso_code"],
