@@ -1554,5 +1554,34 @@
   "URL": "https://doi.org/gg3hzh",
   "PMCID": "PMC7300753",
   "PMID": "32506549"
+},
+{ 
+  "type": "book",
+  "id": "pmid:32310382",
+  "author": [
+    { 
+      "family": "Alhajj",
+      "given": "Mandy"
+    },
+    { 
+      "family": "Farhana",
+      "given": "Aisha"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [ 
+        2022,
+        2,
+        2
+      ]
+    ]
+  },
+  "title": "Enzyme Linked Immunosorbent Assay",
+  "container-title": "StatPearls",
+  "page": "1-11",
+  "publisher": "StatPearls", 
+  "URL": "https://pubmed.ncbi.nlm.nih.gov/32310382",
+  "PMID": "32310382"
 }
 ]
