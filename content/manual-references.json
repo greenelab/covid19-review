@@ -1602,7 +1602,7 @@
   }
 },
 {
-  "id": "https://www.washingtonpost.com/health/interactive/2022/omicron-comparison-cases-deaths-hospitalizations",
+  "id": "url:https://www.washingtonpost.com/health/interactive/2022/omicron-comparison-cases-deaths-hospitalizations",
   "type": "webpage",
   "title": "Four charts that analyze how omicron’s wave compares to previous coronavirus peaks",
   "container-title": "The Washington Post",
