@@ -1595,10 +1595,12 @@
     "date-parts": [
       [
         "2022",
-        03,
+        3,
         11
       ]
+    ]
   },
+}
 {
   "id": "https://www.washingtonpost.com/health/interactive/2022/omicron-comparison-cases-deaths-hospitalizations",
   "type": "webpage",
@@ -1610,7 +1612,7 @@
     "date-parts": [
       [
         "2022",
-        03,
+        3,
         11
       ]
     ]
