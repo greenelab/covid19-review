@@ -1583,5 +1583,52 @@
   "publisher": "StatPearls", 
   "URL": "https://pubmed.ncbi.nlm.nih.gov/32310382",
   "PMID": "32310382"
+},
+{
+  "id": "url:https://www.nytimes.com/interactive/2021/us/covid-cases.html",
+  "type": "webpage",
+  "title": "Coronavirus in the U.S.: Latest Map and Case Count",
+  "container-title": "The New York Times",
+  "URL": "https://www.nytimes.com/interactive/2021/us/covid-cases.html",
+  "language": "en"
+  "accessed": {
+    "date-parts": [
+      [
+        "2022",
+        03,
+        11
+      ]
+  },
+{
+  "id": "https://www.washingtonpost.com/health/interactive/2022/omicron-comparison-cases-deaths-hospitalizations",
+  "type": "webpage",
+  "title": "Four charts that analyze how omicron’s wave compares to previous coronavirus peaks",
+  "container-title": "The Washington Post",
+  "URL": "https://www.washingtonpost.com/health/interactive/2022/omicron-comparison-cases-deaths-hospitalizations/",
+  "language": "en",
+  "accessed": {
+    "date-parts": [
+      [
+        "2022",
+        03,
+        11
+      ]
+    ]
+  },
+  "issued": {
+    "date-parts": [
+      [
+        "2022",
+        1,
+        7
+      ]
+    ]
+  },
+  "author": [
+    {
+      "given": "Shelly",
+      "family": "Tan"
+    }
+   ]
 }
 ]
