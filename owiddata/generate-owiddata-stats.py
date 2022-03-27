@@ -10,7 +10,7 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 import numpy as np
 
-def platforms(vaxtype):
+def assign_platform_types(vaxtype):
     """The types of vaccines as categoried on trackvaccines.org differs
     somewhat from the categories we use here.
     See https://covid19.trackvaccines.org/types-of-vaccines/
@@ -30,7 +30,7 @@ def platforms(vaxtype):
              "live attenuated": "whole virus"
              }
 
-    # If they add a new category (which seems unlikely), handle & throw error
+    # If they add a new platform type (which seems unlikely), handle & throw error
     if vaxtype not in types.keys():
         print("Unknown vaccine platform:", vaxtype)
         return vaxtype
@@ -88,34 +88,34 @@ def retrieve_platform_types():
     # Tags were identified empirically and are not self-evident
     for card in cards: # find all element of tag
         if card.find('a', {"class": "icon-link"}) is not None:
-            vaccine_type = card.find('a', {"class": "icon-link"}).get_text()
-            if vaccine_type.upper() != vaccine_type: #DNA, RNA, VLP
-                vaccine_type = vaccine_type.lower()
-            vaccine_category = platforms(vaccine_type)
+            vaccine_platform = card.find('a', {"class": "icon-link"}).get_text()
+            if vaccine_platform.upper() != vaccine_platform: #DNA, RNA, VLP
+                vaccine_platform = vaccine_platform.lower()
+            vaccine_platform_type = assign_platform_types(vaccine_platform)
             vaccine_manf = card.find('span',
                                      {"class": "has-medium-font-size"}).get_text()
             vaccine_name = card.find('span',
                                      {"class": "has-large-font-size"}).get_text()
             link = card.find('a', href=True)
             vaccine_info[vaccine_name] = [vaccine_manf,
-                                          vaccine_type,
-                                          vaccine_category,
+                                          vaccine_platform,
+                                          vaccine_platform_type,
                                           link['href']]
     vaccine_df = pd.DataFrame.from_dict(vaccine_info, orient='index')
-    vaccine_df.rename(mapper={0: "Company", 1: "Type", 2: "Category", 3: "URL"},
+    vaccine_df.rename(mapper={0: "Company", 1: "Platform", 2: "Platform Type", 3: "URL"},
                       axis=1, inplace=True)
     vaccine_df.index.name = 'Vaccine'
-    vaccine_df["Type"] = vaccine_df["Type"].replace("DNA","plasmid vectored")
+    vaccine_df["Platform"] = vaccine_df["Platform"].replace("DNA","plasmid vectored")
     return vaccine_df
 
-def create_table(vaccine_df, category):
-    """For each vaccine type, select a subset of the vaccine information table
+def create_table(vaccine_df, platformType):
+    """For each vaccine platform, select a subset of the vaccine information table
     Input: dataframe, string
     Returns: string representing a table in markdown"""
-    vaccines = vaccine_df[vaccine_df["Category"] == category]
-    numTypes = len(set(vaccines["Type"].to_list()))
+    vaccines = vaccine_df[vaccine_df["Platform Type"] == platformType]
+    numTypes = len(set(vaccines["Platform"].to_list()))
     if numTypes > 1:
-        return vaccines[["Company", "Type"]].to_markdown()
+        return vaccines[["Company", "Platform"]].to_markdown()
     else:
         return vaccines[["Company"]].to_markdown()
 
@@ -169,23 +169,23 @@ def main(args):
         format(vaccine_locations["location"].nunique())
 
     # Identify number of vaccine manufacturers included in location totals (not the same as manufacturer-specific data)
-    vaxTypes = set([item.strip() for countryList in
+    vaxCounts = set([item.strip() for countryList in
                     vaccine_locations["vaccines"].to_list()
                     for item in countryList.split(",")])
-    owid_stats["owid_vaccine_types"] = format(len(vaxTypes))
+    owid_stats["owid_vaccine_counts"] = format(len(vaxCounts))
 
     # Retrieve & store types of vaccines from https://covid19.trackvaccines.org
     vaxPlatforms = retrieve_platform_types()
     vaxPlatforms.to_csv(args.platform_types)
 
     # Count the number of vaccines being administered total & per technology type
-    owid_stats["viper_vaccine_types"] = format(len(vaxPlatforms))
-    numVax = vaxPlatforms["Type"].value_counts()
+    owid_stats["viper_vaccine_counts"] = format(len(vaxPlatforms))
+    numVax = vaxPlatforms["Platform"].value_counts()
 
-    # Generate table of vaccines within each type
-    for category in set(vaxPlatforms["Category"]):
-        owid_stats["viper_approved_" + "-".join(category.split())] = \
-            create_table(vaxPlatforms, category)
+    # Generate table of vaccines within each platform type
+    for type in set(vaxPlatforms["Platform Type"]):
+        owid_stats["viper_approved_" + "-".join(type.split())] = \
+            create_table(vaxPlatforms, type)
 
     # Set the parameters color-coding the plots. Scale is the max candidates adminstered across all vaccine types.
     scale = max(numVax)
@@ -205,16 +205,16 @@ def main(args):
     # Add countries to vaccine platform info and plot each vaccine type
     vaxPlatforms['countries'] = vaxPlatforms.index.map(countryByVax)
 
-    for platform in set(vaxPlatforms["Type"]):
+    for platform in set(vaxPlatforms["Platform"]):
         platformName = '_'.join(platform.split(' '))
         platformName = platformName.replace("-", "_")
         owid_stats["owid_" + platformName + "_count"] = \
-            len(vaxPlatforms[vaxPlatforms["Type"] == platform])
+            len(vaxPlatforms[vaxPlatforms["Platform"] == platform])
 
         fig, ax = plt.subplots(1, 1, figsize=(6,4))
         ax.axis('off')
 
-        vaccines = vaxPlatforms[vaxPlatforms["Type"] == platform].dropna()
+        vaccines = vaxPlatforms[vaxPlatforms["Platform"] == platform].dropna()
         countries = [iso for country_list in vaccines["countries"]
                      for iso in country_list]
         counts = dict()
