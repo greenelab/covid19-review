@@ -17,6 +17,9 @@ OWID_MAP=owiddata/maps
 echo "Generating Our World in Data COVID-19 vaccine statistics"
 python owiddata/generate-owiddata-stats.py $OWID_STATS_JSON $VACCINE_PLATFORMS $OWID_MAP
 
+# Clean up
+rm $VACCINE_PLATFORMS
+
 # After running this Python script to generate the figures, commit the figures
 # and run the version-figures.sh script to update the OWID_STATS_JSON with the
 # versioned figure URL
