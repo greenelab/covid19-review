@@ -289,13 +289,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/ea8388ff7a3b93f40d4d45539d6a8562ce46aadb/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/ea8388ff7a3b93f40d4d45539d6a8562ce46aadb/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/ea8388ff7a3b93f40d4d45539d6a8562ce46aadb/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/ba958169b7e0b429396185a104f359a3a3f6cfb8/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/ba958169b7e0b429396185a104f359a3a3f6cfb8/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/ba958169b7e0b429396185a104f359a3a3f6cfb8/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/ea8388ff7a3b93f40d4d45539d6a8562ce46aadb/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/ea8388ff7a3b93f40d4d45539d6a8562ce46aadb/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/ba958169b7e0b429396185a104f359a3a3f6cfb8/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/ba958169b7e0b429396185a104f359a3a3f6cfb8/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -317,11 +317,11 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/ea8388ff7a3b93f40d4d45539d6a8562ce46aadb/))
+([permalink](https://greenelab.github.io/covid19-review/v/ba958169b7e0b429396185a104f359a3a3f6cfb8/))
 was automatically generated
-from [greenelab/covid19-review@ea8388f](https://github.com/greenelab/covid19-review/tree/ea8388ff7a3b93f40d4d45539d6a8562ce46aadb)
+from [greenelab/covid19-review@ba95816](https://github.com/greenelab/covid19-review/tree/ba958169b7e0b429396185a104f359a3a3f6cfb8)
 on March 28, 2022.
-It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/ea8388ff7a3b93f40d4d45539d6a8562ce46aadb/manuscript.pdf).
+It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/ba958169b7e0b429396185a104f359a3a3f6cfb8/manuscript.pdf).
 Snapshots of individual sections have been published [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals; @individual-methods].
 </em></small>
 
@@ -2111,9 +2111,17 @@ During the surges caused by the different SARS-CoV-2 variants between 2020 and 2
 However, recent reports indicate that such public health policies are starting to change during 2022. 
 For example, it is known that the UK plans to dismantle its COVID-19 testing program and scale back its daily reporting requirements [@url:https://www.independent.co.uk/news/health/who-covid-testing-anil-soni-b2032884.html; @doi:10.1136/bmj.o562]. 
 A similar approach can be seen in the US as well, where multiple state-run testing facilities are closing, despite some groups advocating to keep them open [@url:https://www.9news.com/article/news/health/coronavirus/local-groups-continue-push-for-covid-testing-and-vaccinations/73-bbcd8384-d96a-425e-aaeb-16ac9f36e581; @url:https://www.sltrib.com/news/2022/02/18/utah-will-stop-daily].
-These ongoing changes in testing policy are likely to have a direct effect on how the pandemic is managed moving forward, because SARS-CoV-2 diagnostic tests can be used effectively to slow the spread of the disease only when 1) they are used to share testing results in a timely manner so that they can reasonably be used to approximate the number of infections in the population, and 2) those tests are easily accessible by the general public. 
-In this regard, it is important to mention that the multiple SARS-CoV-2 diagnostic tools we have presented in this paper lack any real benefit if they are difficult to obtain, or if their limited use results in biased data that would lead to ill-informed public health strategies. 
-Because the pandemic is still ongoing, the fact that active testing and tracing efforts seem not to be a priority anymore for the public health apparatus in different countries is a worrying trend that if continued, could result in increased morbidity and mortality and an overall failure to end the pandemic. 
+These ongoing changes in testing policy are likely to have a direct effect on how the pandemic is managed moving forward, because SARS-CoV-2 diagnostic tests can be used effectively to slow the spread of the disease only when 1) they are used to share testing results in a timely manner so that they can reasonably be used to approximate the number of infections in the population, and 2) those tests are easily accessible by the general public.
+
+Children are one segment of the population where the importance of the two aforementioned conditions can be exemplified. 
+This group is particularly vulnerable as there are ongoing challenges with testing in schools, increased COVID-19 mortality rates, and COVID-19-associated orphanhood. 
+In this regard, although there is evidence of the efficacy of routine diagnostic testing to reduce the probability of having infectious students [@doi:10.3389/fpubh.2021.751451; @doi:10.2807/1560-7917.ES.2021.26.34.2100184], as of March of 2022 there is an increasing number of schools that have stopped or plan to stop contact tracing efforts [@url:https://www.opb.org/article/2022/03/02/oregon-schools-guidance-mask-mandate-end/; @url:https://www.wptv.com/news/education/palm-beach-county-public-schools-to-stop-covid-19-contact-tracing], in line with an announcement made by the CDC where it no longer recommended contact tracing as a strategy to contain the virus [@url:https://www.nytimes.com/live/2022/03/02/world/covid-19-tests-cases-vaccine].
+An estimated 197 children have died in the US from COVID-19 during the first three months of 2022 [@url:https://www.aap.org/en/pages/2019-novel-coronavirus-covid-19-infections/children-and-covid-19-state-level-data-report/], compared to 735 deaths in the preceding 20 months of the pandemic [@url: https://www.theguardian.com/world/2022/mar/11/us-child-covid-deaths-omicron-surge], and millions of children have been orphaned as a consequence of parent or caregiver death due to COVID-19 [@{doi:10.1016/S2352-4642(22)00005-0}].
+It is likely that reducing or eliminating testing capacity in schools will directly exacerbate these negative outcomes for the remainder of 2022.
+
+The SARS-CoV-2 diagnostic tools presented in this paper lack any real benefit if they are difficult to obtain, or if their limited use results in biased data that would lead to ill-informed public health strategies. 
+The pandemic is still an ongoing public health threat and it is worrying that active testing and tracing efforts are a low priority for public health authorities in many countries. 
+If this trend continues, the lack of testing could result in increased morbidity and mortality and an overall failure to manage the pandemic. 
 
 ### Conclusions
 
