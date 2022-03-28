@@ -9,6 +9,7 @@ EIAs
 elecit
 evalaute
 gjrfns
+gnmbjd
 gnx
 GSK
 hw
@@ -16,8 +17,8 @@ Immunoassays
 indiciator
 intial
 LFIs
-LOD
 ModernTX
+multifactorial
 naso
 reportedt
 reprecussions

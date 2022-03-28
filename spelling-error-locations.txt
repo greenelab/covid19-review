@@ -28,8 +28,10 @@ content/10.diagnostics.md:450:immunoassays
 content/10.diagnostics.md:451:immunoassays
 content/10.diagnostics.md:464:EIA
 content/10.diagnostics.md:510:Immunoassays
-content/10.diagnostics.md:511:LOD
-content/10.diagnostics.md:531:immunoassays
+content/10.diagnostics.md:512:multifactorial
+content/10.diagnostics.md:520:gnmbjd
+content/10.diagnostics.md:525:gnmbjd
+content/10.diagnostics.md:544:immunoassays
 content/22.vaccines.md:417:vir
 content/22.vaccines.md:417:vir
 content/22.vaccines.md:533:ModernTX
