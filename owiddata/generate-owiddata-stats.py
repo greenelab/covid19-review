@@ -33,7 +33,7 @@ def assign_platform_types(vaxtype):
     # If they add a new platform type (which seems unlikely), handle & throw error
     if vaxtype not in types.keys():
         print("Unknown vaccine platform:", vaxtype)
-        return vaxtype
+        exit(1)
 
     return types[vaxtype]
 
