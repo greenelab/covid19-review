@@ -1,11 +1,21 @@
 {
+<<<<<<< HEAD
   "owid_RNA_count": 2,
   "owid_RNA_countries": 163,
   "owid_RNA_map": "https://github.com/greenelab/covid19-review/raw/c7584ed41d1b4782079b097debadb4754b25009e/owiddata/maps/RNA.png",
+=======
+  "owid_RNA_count": 3,
+  "owid_RNA_countries": 0,
+  "owid_RNA_map": "https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/owiddata/maps/RNA.png",
+  "owid_VLP_count": 1,
+  "owid_VLP_countries": 0,
+  "owid_VLP_map": "https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/owiddata/maps/VLP.png",
+>>>>>>> updated json
   "owid_commit_date": "2022-03-29T09:53:25Z",
   "owid_commit_date_pretty": "March 29, 2022",
   "owid_commit_sha": "d6468021fa5fb4d38e91e18a8cf0802b8685bf84",
   "owid_daily_rate": "2,146 per million",
+<<<<<<< HEAD
   "owid_inactivated_whole_virus_count": 8,
   "owid_inactivated_whole_virus_countries": 113,
   "owid_inactivated_whole_virus_map": "https://github.com/greenelab/covid19-review/raw/c7584ed41d1b4782079b097debadb4754b25009e/owiddata/maps/inactivated_whole_virus.png",
@@ -19,4 +29,27 @@
   "owid_total_countries": "223",
   "owid_total_vaccinations": "11 billion",
   "owid_vaccine_types": "24"
+=======
+  "owid_inactivated_count": 11,
+  "owid_inactivated_countries": 12,
+  "owid_inactivated_map": "https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/owiddata/maps/inactivated.png",
+  "owid_most_recent_date": "March 28, 2022",
+  "owid_non_replicating_viral_vector_count": 6,
+  "owid_non_replicating_viral_vector_countries": 58,
+  "owid_non_replicating_viral_vector_map": "https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/owiddata/maps/non_replicating_viral_vector.png",
+  "owid_plasmid_vectored_count": 1,
+  "owid_plasmid_vectored_countries": 0,
+  "owid_plasmid_vectored_map": "https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/owiddata/maps/plasmid_vectored.png",
+  "owid_protein_subunit_count": 13,
+  "owid_protein_subunit_countries": 7,
+  "owid_protein_subunit_map": "https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/owiddata/maps/protein_subunit.png",
+  "owid_total_countries": "223",
+  "owid_total_vaccinations": "11 billion",
+  "owid_vaccine_counts": "24",
+  "viper_approved_DNA": "| Vaccine                                      | Company                     | Platform                     |\n|:---------------------------------------------|:----------------------------|:-----------------------------|\n| Convidecia                                   | CanSino                     | non replicating viral vector |\n| Sputnik Light                                | Gamaleya                    | non replicating viral vector |\n| Sputnik V                                    | Gamaleya                    | non replicating viral vector |\n| Ad26.COV2.S                                  | Janssen (Johnson & Johnson) | non replicating viral vector |\n| Vaxzevria                                    | Oxford/AstraZeneca          | non replicating viral vector |\n| Covishield (Oxford/ AstraZeneca formulation) | Serum Institute of India    | non replicating viral vector |\n| ZyCoV-D                                      | Zydus Cadila                | plasmid vectored             |",
+  "viper_approved_RNA": "| Vaccine                       | Company         |\n|:------------------------------|:----------------|\n| Spikevax                      | Moderna         |\n| Comirnaty                     | Pfizer/BioNTech |\n| TAK-919 (Moderna formulation) | Takeda          |",
+  "viper_approved_subunit": "| Vaccine                                   | Company                                                    | Platform        |\n|:------------------------------------------|:-----------------------------------------------------------|:----------------|\n| Zifivax                                   | Anhui Zhifei Longcom                                       | protein subunit |\n| Corbevax                                  | Biological E Limited                                       | protein subunit |\n| Abdala                                    | Center for Genetic Engineering and Biotechnology (CIGB)    | protein subunit |\n| Soberana 02                               | Instituto Finlay de Vacunas Cuba                           | protein subunit |\n| Soberana Plus                             | Instituto Finlay de Vacunas Cuba                           | protein subunit |\n| Covifenz                                  | Medicago                                                   | VLP             |\n| MVC-COV1901                               | Medigen                                                    | protein subunit |\n| Recombinant SARS-CoV-2 Vaccine (CHO Cell) | National Vaccine and Serum Institute                       | protein subunit |\n| Nuvaxovid                                 | Novavax                                                    | protein subunit |\n| Razi Cov Pars                             | Razi Vaccine and Serum Research Institute                  | protein subunit |\n| COVOVAX (Novavax formulation)             | Serum Institute of India                                   | protein subunit |\n| SpikoGen                                  | Vaxine/CinnaGen Co.                                        | protein subunit |\n| Aurora-CoV                                | Vector State Research Center of Virology and Biotechnology | protein subunit |\n| EpiVacCorona                              | Vector State Research Center of Virology and Biotechnology | protein subunit |",
+  "viper_approved_whole-virus": "| Vaccine                  | Company                                                   |\n|:-------------------------|:----------------------------------------------------------|\n| Covaxin                  | Bharat Biotech                                            |\n| KoviVac                  | Chumakov Center                                           |\n| Turkovac                 | Health Institutes of Turkey                               |\n| KCONVAC                  | Minhai Biotechnology Co                                   |\n| FAKHRAVAC (MIVAC)        | Organization of Defensive Innovation and Research         |\n| QazVac                   | Research Institute for Biological Safety Problems (RIBSP) |\n| COVIran Barekat          | Shifa Pharmed Industrial Co                               |\n| Covilo                   | Sinopharm (Beijing)                                       |\n| Inactivated (Vero Cells) | Sinopharm (Wuhan)                                         |\n| CoronaVac                | Sinovac                                                   |\n| VLA2001                  | Valneva                                                   |",
+  "viper_vaccine_counts": "35"
+>>>>>>> updated json
 }
