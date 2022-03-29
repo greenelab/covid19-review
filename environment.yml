@@ -17,4 +17,4 @@ dependencies:
     - git+https://github.com/manubot/manubot@a57ccf0be6972329ff3010eaaa0c5df7ccebb2d5
     - wget==3.2
     - bs4==0.0.1
-    - html5lib
+    - html5lib==1.1
