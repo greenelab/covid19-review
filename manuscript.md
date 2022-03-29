@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2022-03-28'
+date-meta: '2022-03-29'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -72,8 +72,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2022-03-28" />
-  <meta name="citation_publication_date" content="2022-03-28" />
+  <meta name="dc.date" content="2022-03-29" />
+  <meta name="citation_publication_date" content="2022-03-29" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -289,13 +289,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/ba958169b7e0b429396185a104f359a3a3f6cfb8/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/ba958169b7e0b429396185a104f359a3a3f6cfb8/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/ba958169b7e0b429396185a104f359a3a3f6cfb8/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/fda1f59dee784b4b268c31d2fdc272686c50da5b/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/fda1f59dee784b4b268c31d2fdc272686c50da5b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/fda1f59dee784b4b268c31d2fdc272686c50da5b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/ba958169b7e0b429396185a104f359a3a3f6cfb8/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/ba958169b7e0b429396185a104f359a3a3f6cfb8/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/fda1f59dee784b4b268c31d2fdc272686c50da5b/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/fda1f59dee784b4b268c31d2fdc272686c50da5b/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -317,11 +317,11 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/ba958169b7e0b429396185a104f359a3a3f6cfb8/))
+([permalink](https://greenelab.github.io/covid19-review/v/fda1f59dee784b4b268c31d2fdc272686c50da5b/))
 was automatically generated
-from [greenelab/covid19-review@ba95816](https://github.com/greenelab/covid19-review/tree/ba958169b7e0b429396185a104f359a3a3f6cfb8)
-on March 28, 2022.
-It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/ba958169b7e0b429396185a104f359a3a3f6cfb8/manuscript.pdf).
+from [greenelab/covid19-review@fda1f59](https://github.com/greenelab/covid19-review/tree/fda1f59dee784b4b268c31d2fdc272686c50da5b)
+on March 29, 2022.
+It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/fda1f59dee784b4b268c31d2fdc272686c50da5b/manuscript.pdf).
 Snapshots of individual sections have been published [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals; @individual-methods].
 </em></small>
 
@@ -1672,12 +1672,12 @@ For SARS-CoV-2, studies have typically considered a patient to be infectious if 
 A lower C~t~ corresponds to fewer qPCR cycles needed to reach a detectable level, indicating that higher amounts of virus were present in the initial reaction.
 The C~t~ values produced through this assay have raised some interesting questions related to viral load and contagiousness.
 Lower C~t~ values corresponded to a higher probability of a positive viral culture, but no threshold would discriminate all positive from all negative cultures [@doi:10.2807/1560-7917.ES.2020.25.32.2001483].
-Additionally, because of the variability introduced by sample collection and clincial components of testing, as described under RT-PCR, C~t~ is not a proxy for viral load [@doi:10.1016/j.jinf.2020.10.017].
+Additionally, because of the variability introduced by sample collection and clinical components of testing, as described under RT-PCR, C~t~ is not a proxy for viral load [@doi:10.1016/j.jinf.2020.10.017].
 Positive PCR results have also been reported for extended periods of time from symptom onset and/or the first positive PCR test [@doi:10.1038/s41586-020-2196-x], meaning that in some cases, a positive PCR may not indicate that someone is contagious [@individual-pathogenesis]. 
 
 In addition to the nuance required to interpret PCR results, there are also factors that influence the accuracy of the results reported by these tests.
 The specificity of these tests is very high [@doi:10.2807/1560-7917.ES.2020.25.50.2000568], meaning that a positive RT-PCR result is very likely to indicate SARS-CoV-2 infection.
-The weight given to these tests as an indiciator of SARS-CoV-2 infection regardless of other clinical considerations is not typical [@doi:10.1101/2020.04.26.20080911].
+The weight given to these tests as an indicator of SARS-CoV-2 infection regardless of other clinical considerations is not typical [@doi:10.1101/2020.04.26.20080911].
 In fact, while the specificity of the assay is extremely high (analytical specificity), the challenges of implementing testing can introduce variability that results in a lower clinical specificity [@doi:10.1101/2020.04.26.20080911].
 Several factors may influence the sensitivity and specificity, with sample collection being a critically important factor in the reliability of RT-PCR results.
 The most reliable results were found to come from nasopharyngeal swabs and from pooled nasal and throat swabs, with lower accuracies produced by saliva or by throat or nasal swabs alone [@doi:10/gjrfns; @doi:10.2807/1560-7917.ES.2020.25.50.2000568].
@@ -1739,7 +1739,7 @@ Therefore, sequencing is an important component of diagnostics: while it is not 
 ##### Pooled and Automated PCR Testing
 
 Due to limited supplies and the need for more tests, several labs have found ways to pool or otherwise strategically design tests to increase throughput.
-The first such result came from Yelin et al. (2020) [@doi:10.1101/2020.03.26.20039438; @doi:10.1093/cid/ciaa531], who reportedt that they could pool up to 32 samples in a single qPCR run.
+The first such result came from Yelin et al. (2020) [@doi:10.1101/2020.03.26.20039438; @doi:10.1093/cid/ciaa531], who reported that they could pool up to 32 samples in a single qPCR run.
 This was followed by larger-scale pooling with slightly different methods [@doi:10.1101/2020.04.02.022186].
 Although these approaches are also PCR based, they allow for more rapid scaling and higher efficiency for testing than the initial PCR-based methods developed.
 Pooling can also be employed in analysis with RT-qPCR [@doi:10.1109/ICASSP39728.2021.9413685].
@@ -1876,7 +1876,7 @@ The reagents are immobilized on a surface such as a plate, and anything in the s
 The exact strategy for tagging with a reporter enzyme varies among different types of ELISA [@doi:10.1080/01971528008055786; @pubmed:32310382].
 For COVID-19 diagnostics, ELISAs have been designed to detect all or part of the antigenic Spike protein [@doi:10.12688/wellcomeopenres.15927.1].
 
-One of these assays uses two monoclonal antibodies specific to the nucleocapsid of SARS-CoV-2 to evalaute the relationship between the effect of (estimated) viral load on the ability of the assay to detect the SARS-CoV-2 antigen [@doi:10.1080/14787210.2021.1976144].
+One of these assays uses two monoclonal antibodies specific to the nucleocapsid of SARS-CoV-2 to evaluate the relationship between the effect of (estimated) viral load on the ability of the assay to detect the SARS-CoV-2 antigen [@doi:10.1080/14787210.2021.1976144].
 This study analyzed naso-oropharyngeal 339 samples that were also analyzed with RT-qPCR, which here was used as a gold standard.
 RT-qPCR identified 147 samples as positive and 192 as negative.
 They estimated the overall sensitivity and specificity to be 61.9% and 99.0%, respectively.
@@ -1889,7 +1889,7 @@ Therefore, while immediate access to laboratory equipment is an advantage, it is
 
 Tests that identify SARS-CoV-2 using nucleic-acid-based technologies will identify only individuals with current infections and are not appropriate for identifying individuals who have recovered from a previous infection.
 Among molecular tests, different technologies have different sensitivities and specificities.
-In general, specificity is high, and even then, the public health reprecussions of a false positive can generally be mitigated with follow-up testing.
+In general, specificity is high, and even then, the public health repercussions of a false positive can generally be mitigated with follow-up testing.
 On the other hand, a test's sensitivity, which indicates the risk of a false-negative response, can pose significant challenge to large-scale testing.
 False negatives are a significant concern for several reason.
 Importantly, clinical reports indicate that it is imperative to exercise caution when interpreting the results of molecular tests for SARS-CoV-2 because negative results do not necessarily mean a patient is virus-free [@doi:10.1128/JCM.00297-20].
@@ -2116,7 +2116,7 @@ These ongoing changes in testing policy are likely to have a direct effect on ho
 Children are one segment of the population where the importance of the two aforementioned conditions can be exemplified. 
 This group is particularly vulnerable as there are ongoing challenges with testing in schools, increased COVID-19 mortality rates, and COVID-19-associated orphanhood. 
 In this regard, although there is evidence of the efficacy of routine diagnostic testing to reduce the probability of having infectious students [@doi:10.3389/fpubh.2021.751451; @doi:10.2807/1560-7917.ES.2021.26.34.2100184], as of March of 2022 there is an increasing number of schools that have stopped or plan to stop contact tracing efforts [@url:https://www.opb.org/article/2022/03/02/oregon-schools-guidance-mask-mandate-end/; @url:https://www.wptv.com/news/education/palm-beach-county-public-schools-to-stop-covid-19-contact-tracing], in line with an announcement made by the CDC where it no longer recommended contact tracing as a strategy to contain the virus [@url:https://www.nytimes.com/live/2022/03/02/world/covid-19-tests-cases-vaccine].
-An estimated 197 children have died in the US from COVID-19 during the first three months of 2022 [@url:https://www.aap.org/en/pages/2019-novel-coronavirus-covid-19-infections/children-and-covid-19-state-level-data-report/], compared to 735 deaths in the preceding 20 months of the pandemic [@url: https://www.theguardian.com/world/2022/mar/11/us-child-covid-deaths-omicron-surge], and millions of children have been orphaned as a consequence of parent or caregiver death due to COVID-19 [@{doi:10.1016/S2352-4642(22)00005-0}].
+An estimated 197 children have died in the US from COVID-19 during the first three months of 2022 [@url:https://www.aap.org/en/pages/2019-novel-coronavirus-covid-19-infections/children-and-covid-19-state-level-data-report/], compared to 735 deaths in the preceding 20 months of the pandemic [@url:https://www.theguardian.com/world/2022/mar/11/us-child-covid-deaths-omicron-surge], and millions of children have been orphaned as a consequence of parent or caregiver death due to COVID-19 [@{doi:10.1016/S2352-4642(22)00005-0}].
 It is likely that reducing or eliminating testing capacity in schools will directly exacerbate these negative outcomes for the remainder of 2022.
 
 The SARS-CoV-2 diagnostic tools presented in this paper lack any real benefit if they are difficult to obtain, or if their limited use results in biased data that would lead to ill-informed public health strategies. 
@@ -2178,14 +2178,14 @@ The scale of the COVID-19 pandemic has made the repurposing and development of p
 
 ![
 **Cumulative global incidence of COVID-19 and SARS.**
-As of March 26, 2022, 480,111,061 COVID-19 cases and 6,121,153 COVID-19 deaths had been reported worldwide since January 22, 2020.
+As of March 27, 2022, 480,902,137 COVID-19 cases and 6,123,462 COVID-19 deaths had been reported worldwide since January 22, 2020.
 A total of 8,432 cases and 813 deaths were reported for SARS from March 17 to July 11, 2003.
 SARS-CoV-1 was officially contained on July 5, 2003, within 9 months of its appearance [@doi:10.3390/ijerph17113973].
 In contrast, SARS-CoV-2 remains a significant global threat nearly two years after its emergence.
 COVID-19 data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series; @doi:10/ggnsjk].
 SARS data are from the WHO [@url:https://www.who.int/csr/sars/country/en] and were obtained from a dataset on GitHub [@url:https://github.com/imdevskp/sars-2003-outbreak-data-webscraping-code].
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/7b3e6cf18bb77bd30ea223836c1a52eaba393e92/csse/csse-deaths.png "Global incidence of COVID-19 and SARS"){#fig:csse-deaths secno=1}
+](https://github.com/greenelab/covid19-review/raw/ee30031393799c211a140f9be7eefbed12ef0e1b/csse/csse-deaths.png "Global incidence of COVID-19 and SARS"){#fig:csse-deaths secno=1}
 
 At first, SARS-CoV-2's rapid shift from an unknown virus to a significant worldwide threat closely paralleled the emergence of _Severe acute respiratory syndrome-related coronavirus_ (SARS-CoV-1), which was responsible for the 2002-03 SARS epidemic.
 The first documented case of COVID-19 was reported in Wuhan, China in November 2019, and the disease quickly spread worldwide in the early months of 2020.
@@ -2242,7 +2242,7 @@ Recruitment status and trial phase are shown only for interventional trials in w
 Common interventions refers to interventions used in at least ten trials.
 Combinations of interventions, such as hydroxychloroquine with azithromycin, are tallied separately from the individual interventions.
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/7b3e6cf18bb77bd30ea223836c1a52eaba393e92/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/ee30031393799c211a140f9be7eefbed12ef0e1b/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 The purpose of this review is to provide an evolving resource tracking the status of efforts to repurpose and develop drugs for the treatment of COVID-19.
 We highlight four strategies that provide different paradigms for the identification of potential pharmaceutical treatments.
@@ -3309,7 +3309,7 @@ Vaccines have nearly 500 years of history, but the SARS-CoV-2 pandemic provides 
 ### Importance
 
 The SARS-CoV-2 pandemic has caused untold damage globally, presenting unusual opportunities and demands in vaccine development.
-As of March 26, 2022, SARS-CoV-2 has infected over 480,111,061 and taken the lives of 6,121,153 people globally.
+As of March 27, 2022, SARS-CoV-2 has infected over 480,902,137 and taken the lives of 6,123,462 people globally.
 The development, production, and distribution of vaccines is imperative to saving lives, preventing illness, and reducing the economic and social burdens caused by the COVID-19 pandemic.
 Effective deployment is critical to reducing the susceptibility of worldwide populations, especially in light of emerging variants.
 This review provides historical context for the current state of vaccine development and highlights the main strategies utilized for COVID-19 vaccine candidates, their clinical appraisal, and their distribution.
@@ -3394,7 +3394,7 @@ All of these approaches are being explored in the current pandemic.<!--To Do: de
 The first administration of a dose of a COVID-19 vaccine to a human trial participant occurred on March 16, 2020 [@url:https://www.modernatx.com/modernas-work-potential-vaccine-against-covid-19; @doi:10.1038/d41573-020-00073-5], marking an extremely rapid response to the emergence of SARS-CoV-2.
 Within a few weeks, at least 78 vaccine development programs were active [@doi:10.1038/d41573-020-00073-5].
 These programs employ a variety of technologies (Figure @fig:vaccines), ranging from established approaches to novel technologies that had never previously gone to market.
-As of March 26, 2022, 24 types of vaccines are being administered throughout the world, with 11 billion doses administered across 223 countries.
+As of March 27, 2022, 24 types of vaccines are being administered throughout the world, with 11 billion doses administered across 223 countries.
 Many vaccines are available in only a subset of countries, and the types of vaccines available varies widely throughout the world.
 The status of individual vaccines continues to change and varies regionally.
 
@@ -3487,7 +3487,7 @@ The exact mechanisms responsible for VADE are still elusive due to the specifici
 
 **Application to COVID-19:**
 Several whole-virus vaccines have been developed against COVID-19 and are available in countries around the world.
-As of March 26, 2022, 8 vaccines developed with inactivated-whole virus technology are being distributed in 113 countries (Figure @fig:iwv-distrib).
+As of March 27, 2022, 8 vaccines developed with inactivated-whole virus technology are being distributed in 113 countries (Figure @fig:iwv-distrib).
 One example is CoronaVac, which Beijing-based biopharmaceutical company Sinovac developed using a &beta;-propiolactone-inactivated whole virus produced using Vero cells coupled with the addition of an aluminum adjuvant [@doi:10.3389/fimmu.2020.602256].
 In phase I and II clinical trials, CoronaVac elicited a strong immunogenic response in animal models and the development of neutralizing antibodies in human participants [@doi:10/fx8z; @doi:10.1126/science.abc1932; @doi:10/fpcx].
 Phase III trials of CoronaVac began in Brazil, July 2020, which was followed by trial participant recruitment in Indonesia, Turkey, and Chile, and emergency use approval in China [@url:https://www.nytimes.com/interactive/2020/health/sinovac-covid-19-vaccine.html].
@@ -3509,10 +3509,10 @@ Preclinical studies indicated that the BBIBP-CorV vaccine induced sufficient neu
 
 ![
 **Worldwide availability of vaccines developed using inactivated whole viruses.**
-This figure reflects the number of vaccines based on whole inactivated virus technology that were available in each country as of March 26, 2022.
+This figure reflects the number of vaccines based on whole inactivated virus technology that were available in each country as of March 27, 2022.
 These data are retrieved from Our World in Data <!-To Do: Cite--> and plotted using geopandas.
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/7b3e6cf18bb77bd30ea223836c1a52eaba393e92/owiddata/maps/inactivated_whole_virus.png "Availability of inactivated whole virus vaccines"){#fig:iwv-distrib secno=1}
+](https://github.com/greenelab/covid19-review/raw/ee30031393799c211a140f9be7eefbed12ef0e1b/owiddata/maps/inactivated_whole_virus.png "Availability of inactivated whole virus vaccines"){#fig:iwv-distrib secno=1}
 
 **Efficacy Estimates:**
 The efficacy of whole-virus vaccines estimated during phase III trials varied widely, and in some cases, even estimates for a single vaccine candidate differed across analyses.
@@ -3606,12 +3606,12 @@ In late 2020, an analysis of efficacy in South African adults revealed an overal
 
 ![
 **Worldwide availability of vaccines developed using protein subunit.**
-This figure reflects the number of vaccines based on protein subunit technology that were available in each country as of March 26, 2022.
+This figure reflects the number of vaccines based on protein subunit technology that were available in each country as of March 27, 2022.
 These data are retrieved from Our World in Data <!-To Do: Cite--> and plotted using geopandas.
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/7b3e6cf18bb77bd30ea223836c1a52eaba393e92/owiddata/maps/protein_subunit.png "Availability of protein subunit vaccines"){#fig:ps-distrib secno=1}
+](https://github.com/greenelab/covid19-review/raw/ee30031393799c211a140f9be7eefbed12ef0e1b/owiddata/maps/protein_subunit.png "Availability of protein subunit vaccines"){#fig:ps-distrib secno=1}
 
-As of March 26, 2022, 9 protein subunit vaccines are being distributed in 21 countries (Figure @fig:ps-distrib).
+As of March 27, 2022, 9 protein subunit vaccines are being distributed in 21 countries (Figure @fig:ps-distrib).
 <!--These include...-->
 However, the Novavax vaccine has yet to be approved in any country but is allowed for emergency use in Indonesia [@url:https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html], and according to press releases there have been applications for approval for use submitted to New Zealand, Australia, the U.K., and Canada [@url:https://ir.novavax.com/press-releases] and for emergency use listing with the WHO [@url:https://ir.novavax.com/2021-11-04-Novavax-Files-COVID-19-Vaccine-for-Emergency-Use-Listing-with-World-Health-Organization].<!--Still true?-->
 Novavax applied for an EUA from the FDA in early 2022 [@url:https://ir.novavax.com/2022-01-31-Novavax-Submits-Request-to-the-U-S-FDA-for-Emergency-Use-Authorization-of-COVID-19-Vaccine].
@@ -3748,15 +3748,15 @@ As for Janssen, the phase III trial is ongoing across several countries (Argenti
 The vaccine was well-tolerated, and across all regions studied, it was found to be 66% effective after 28 days for the prevention of moderate to severe COVID-19 and to be 85% effective for the prevention of laboratory-confirmed severe COVID-19 as well as 100% protection against COVID-19-related hospitalization and death.
 
 **Distribution Status:**
-As of March 26, 2022, 5 viral-vectored vaccines are being distributed in 200 countries (Figure @fig:nrvv-distrib).
+As of March 27, 2022, 5 viral-vectored vaccines are being distributed in 200 countries (Figure @fig:nrvv-distrib).
 ChAdOx1 nCoV-19 was first approved for emergency use on December 30, 2020 in the United Kingdom [@url:https://www.astrazeneca.com/media-centre/press-releases/2020/astrazenecas-covid-19-vaccine-authorised-in-uk.html] and has since then been approved for emergency use in several dozen countries, in addition to receiving full approval in Brazil.
 
 ![
 **Worldwide availability of vaccines developed using non-replicating viral vectors.**
-This figure reflects the number of vaccines using non-replicating viral vectors that were available in each country as of March 26, 2022.
+This figure reflects the number of vaccines using non-replicating viral vectors that were available in each country as of March 27, 2022.
 These data are retrieved from Our World in Data <!-To Do: Cite--> and plotted using geopandas.
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/7b3e6cf18bb77bd30ea223836c1a52eaba393e92/owiddata/maps/non_replicating_viral_vector.png "Availability of non-replicating viral-vectored vaccines"){#fig:nrvv-distrib secno=1}
+](https://github.com/greenelab/covid19-review/raw/ee30031393799c211a140f9be7eefbed12ef0e1b/owiddata/maps/non_replicating_viral_vector.png "Availability of non-replicating viral-vectored vaccines"){#fig:nrvv-distrib secno=1}
 
 As of early January, Sputnik V had been administered to as many as 1.5 million Russians [@url:https://www.brusselstimes.com/news-contents/world/149039/1-5-million-people-have-received-sputnik-v-vaccine-russia-says-russian-direct-investment-fund-mikhail-murashko] , and doses of Sputnik V have also been distributed to other parts of Europe, such as Belarus, Bosnia-Herzegovina, Hungary, San Marino, Serbia, and Slovakia [@url:https://www.euronews.com/2021/02/12/hungary-to-begin-using-russia-s-sputnik-v-vaccine-today; @url:https://www.euronews.com/2021/02/24/san-marino-buys-russia-s-sputnik-v-after-eu-vaccine-delivery-delays; @url:https://www.themoscowtimes.com/2020/12/29/belarus-starts-coronavirus-vaccination-with-sputnik-v-a72512], with the Czech Republic and Austria also having expressed interest in its procurement [@url:https://www.cnbc.com/2021/03/02/russias-sputnik-vaccine-is-luring-eastern-europe-worrying-the-eu.html].
 It wasn't until February 2021, six months after its approval in Russia, that interim results of the phase III trial were released [@doi:10/ghxj4g].
@@ -3823,15 +3823,15 @@ Two vaccine candidates in this category emerged with promising phase III results
 Both require two doses approximately one month apart.
 The first was Pfizer/BioNTech's BNT162b2, which contains the full prefusion stabilized, membrane-anchored SARS-CoV-2 spike protein in a vaccine formulation based on modified mRNA (modRNA) technology [@doi:10.1101/cshperspect.a014035; @url:https://www.pfizer.com/news/press-release/press-release-detail/pfizer-and-biontech-announce-early-positive-data-ongoing-0].
 <!--To Do: brief history of phase I & phase II (like 1-2 sentences)-->
-The second mRNA vaccine, mRNA-1273 developed by ModernTX, is comprised by a conventional lipid nanoparticle encapsulated RNA encoding a full-length prefusion stabilized S protein for SARS-CoV-2 [@clinicaltrials:NCT04283461].
-As of March 26, 2022, 2 mRNA vaccines are available in 163 countries (Figure @fig:mRNA-distrib).
+The second mRNA vaccine, mRNA-1273 developed by ModernaTX, is comprised by a conventional lipid nanoparticle encapsulated RNA encoding a full-length prefusion stabilized S protein for SARS-CoV-2 [@clinicaltrials:NCT04283461].
+As of March 27, 2022, 2 mRNA vaccines are available in 163 countries (Figure @fig:mRNA-distrib).
 
 ![
 **Worldwide availability of vaccines developed using mRNA.**
-This figure reflects the number of vaccines based on mRNA technology that were available in each country as of March 26, 2022.
+This figure reflects the number of vaccines based on mRNA technology that were available in each country as of March 27, 2022.
 These data are retrieved from Our World in Data <!-To Do: Cite--> and plotted using geopandas.
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/7b3e6cf18bb77bd30ea223836c1a52eaba393e92/owiddata/maps/RNA.png "Availability of mRNA vaccines"){#fig:mRNA-distrib secno=1}
+](https://github.com/greenelab/covid19-review/raw/ee30031393799c211a140f9be7eefbed12ef0e1b/owiddata/maps/RNA.png "Availability of mRNA vaccines"){#fig:mRNA-distrib secno=1}
 
 **Efficacy Estimates:**
 Pfizer/BioNTech's BNT162b2 vaccine and ModernaTX’s mRNA-1273 vaccine, commercially known as Comirnaty and Spikevax, are available in most countries thanks to their rapid development in 2020. 
@@ -3862,18 +3862,18 @@ However, multiple animal study preprints suggested that the Omicron variant may 
 In spite of these findings, infection rates and hospitalization rates climbed in early 2022 in many Western countries including the United States [@url:https://www.nytimes.com/interactive/2021/us/covid-cases.html; @{url:https://www.washingtonpost.com/health/interactive/2022/omicron-comparison-cases-deaths-hospitalizations/}].
 Studies have reported reduced efficacy of the mRNA vaccines based on the measurement of antibody titers. 
 Plasma from individuals double-dosed with Pfizer/BioNTech's BNT162b2 vaccine had up to a 16-fold reduction in neutralizing capacity against the Omicron variant [@doi:10.1101/2021.12.14.21267772] and a reduced efficacy (70%) [@doi:10.1056/NEJMc2119270].
-Estimates for the mRNA vaccines range from a 2-fold to over a 20-fold drop in neutralisation titres [@doi:10.1101/2021.12.13.21267748], hence the push for third doses of mRNA vaccines in many Western countries. 
+Estimates for the mRNA vaccines range from a 2-fold to over a 20-fold drop in neutralisation titers [@doi:10.1101/2021.12.13.21267748], hence the push for third doses of mRNA vaccines in many Western countries. 
 A third mRNA vaccine dose does increase antibody titers, but these levels also wane with time [@doi:10.15585/mmwr.mm7107e2]. 
-Notably, immunocompromised individuals such as cancer patients seem to elecit a sufficient protective immune response against the Omicron variant when they have been boosted with a third dose of either mRNA vaccine, albeit a blunted response [@doi:10.1016/j.ccell.2021.12.014]. 
-While antibody titres do correlate with protection [@doi:10.1126/science.abm3425; @doi:10.1016/j.vaccine.2021.12.006; @doi:10.1016/j.vaccine.2021.05.063; @doi:10.1101/2021.05.21.21257572; @doi:10.1038/s41423-020-00588-2], they are not the only mechanisms of immune protection; for example, T cell and non-neutralizing antibody responses may be unaffected or less affected by the new VOC and they warrant further investigation.
+Notably, immunocompromised individuals such as cancer patients seem to elicit a sufficient protective immune response against the Omicron variant when they have been boosted with a third dose of either mRNA vaccine, albeit a blunted response [@doi:10.1016/j.ccell.2021.12.014]. 
+While antibody titers do correlate with protection [@doi:10.1126/science.abm3425; @doi:10.1016/j.vaccine.2021.12.006; @doi:10.1016/j.vaccine.2021.05.063; @doi:10.1101/2021.05.21.21257572; @doi:10.1038/s41423-020-00588-2], they are not the only mechanisms of immune protection; for example, T cell and non-neutralizing antibody responses may be unaffected or less affected by the new VOC and they warrant further investigation.
 
-In countries such as Israel, a fourth dose of mRNA vaccines have been introduced in response to the Omicron variant and an intial study in healthcare workers show that the additonal immunization is safe and immunogenic with antibody titres restored to peak-third dose titers.
+In countries such as Israel, a fourth dose of mRNA vaccines have been introduced in response to the Omicron variant and an initial study in healthcare workers show that the additional immunization is safe and immunogenic with antibody titers restored to peak-third dose titers.
 No severe illness was reported in the cohort studied (274 versus 426 age-matched controls), and vaccine efficacy against infection was reported at 30% for BNT162b2 and 11% for mRNA-1273 [@doi:10.1101/2022.02.15.22270948].
 Low efficacy against infection is not surprising considering the vaccines are intended to prevent against severe disease, hospitalization and death rather than infection. 
 
 Vaccine efficacy is not the only pharmacological intervention affected by VOC. 
 Some existing therapeutics, including monoclonal antibody treatments like Bamlanivimab (AbCellera Biologics/ Eli Lilly), were ineffective against the Omicron variant. 
-Indeed, only Sortrovimab (Vir Biotechnology/GSK) and Tixagevimab (Astra Zeneca) to a much lesser extent could effectively neutralize the omicron variant out of 7 tested monoclonal antibodies [@doi:10.1101/2021.12.14.21267772], which has been verified by others [@doi:10.1101/2021.12.12.472269].
+Indeed, only Sotrovimab (Vir Biotechnology/GSK) and Tixagevimab (AstraZeneca) to a much lesser extent could effectively neutralize the omicron variant out of 7 tested monoclonal antibodies [@doi:10.1101/2021.12.14.21267772], which has been verified by others [@doi:10.1101/2021.12.12.472269].
 The antigenic shift of the Omicron variant does raise concerns for future VOC and what effects they may have on future vaccines and therapeutics. 
 
 **Serological Response/Boosters:**
@@ -5349,7 +5349,7 @@ Trials that recruit across multiple countries do appear to broaden geographic re
 The density of clinical trials is reported at the country level.
 As of December 31, 2020, there are 6,987 trials in the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709], of which 3,962 are interventional.
 The top figure demonstrates the density of interventional trials recruiting only from a singular country, while the bottom shows the distribution of recruitment for interventional trials that involve more than one country.
-](https://github.com/greenelab/covid19-review/raw/7b3e6cf18bb77bd30ea223836c1a52eaba393e92/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
+](https://github.com/greenelab/covid19-review/raw/ee30031393799c211a140f9be7eefbed12ef0e1b/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
 
 A few different concerns arise from this skewed geographic representation in clinical trial recruitment.
 First, treatments such as remdesivir that are promising but primarily available to clinical trial participants are unlikely to be accessible by people in many countries.
