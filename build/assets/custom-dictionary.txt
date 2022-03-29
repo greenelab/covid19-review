@@ -160,6 +160,7 @@ Ciclesonide
 Cisneros
 Clin
 Clonally
+Comirnaty
 CoronaCentral
 CoV
 CoVZC
@@ -230,6 +231,8 @@ ECRs
 EF
 EFIC
 EFSA
+EIA
+EIAs
 EIDD
 ELISAs
 EMA
@@ -287,6 +290,7 @@ GISAID
 GMTs
 GOLGA
 GSE
+GSK
 GTEx
 Gaebler
 Gaithersburg
@@ -416,6 +420,7 @@ Krishnan
 Kuksin
 LDH
 LFIA
+LFIs
 LFT
 LFTs
 LHA
@@ -697,6 +702,7 @@ Skelly
 Sotrovimab
 Soumita
 SpO
+Spikevax
 States’s
 Streptomyces
 Suining
@@ -734,6 +740,7 @@ Thevarajan
 Tiago
 Tian
 Tideglusib
+Tixagevimab
 Tnfa
 Tocilizumab
 ToxinPred
@@ -770,6 +777,7 @@ ViPR
 Vikas
 VikasBansal
 Villanova
+Vir
 Virazole
 Virion
 Virol
@@ -812,6 +820,7 @@ acceptor
 acetylcysteine
 acknowledgements
 actin
+accuracies
 adamlmaclean
 adaptor
 addons
@@ -1121,6 +1130,7 @@ ghs
 ghstsk
 github
 gjqmvq
+gjrfns
 glomerular
 glomeruli
 glomerulopathy
@@ -1135,6 +1145,7 @@ glycolic
 glycoproteins
 glycosylated
 glycosylation
+gnmbjd
 granulocyte
 granulocytes
 greensolid
@@ -1189,6 +1200,7 @@ icosapent
 imdevimab
 immunoanalysis
 immunoassay
+immunoassays
 immunobiotic
 immunochromatographic
 immunochromatography
@@ -1372,6 +1384,7 @@ mprobson
 mucosa
 mucosal
 multicenter
+multifactorial
 multifunctional
 multiorgan
 multisystem
@@ -1388,6 +1401,7 @@ nanoparticle
 nanoparticles
 nanowell
 nanowells
+naso
 nasogastric
 nasopharyngeal
 nasopharynx
@@ -1435,6 +1449,7 @@ organoid
 organoids
 organoselenium
 oropharyngeal
+orphanhood
 ortholog
 orthopaedic
 othered
@@ -1628,6 +1643,7 @@ scalable
 secno
 segmental
 selectin
+selectivities
 selenosulfide
 seminiferous
 sequelae
@@ -1759,6 +1775,7 @@ vasodilator
 varicella
 variolation
 vincerubinetti
+vir
 virally
 virals
 viremia
