@@ -10,7 +10,6 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 import numpy as np
 from fuzzywuzzy import fuzz
-from fuzzywuzzy import process
 
 def assign_platform_types(vaxtype):
     """The types of vaccines as categoried on trackvaccines.org differs
