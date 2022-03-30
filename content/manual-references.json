@@ -1554,5 +1554,51 @@
   "URL": "https://doi.org/gg3hzh",
   "PMCID": "PMC7300753",
   "PMID": "32506549"
+},
+{ 
+  "type": "book",
+  "id": "pmid:32310382",
+  "author": [
+    { 
+      "family": "Alhajj",
+      "given": "Mandy"
+    },
+    { 
+      "family": "Farhana",
+      "given": "Aisha"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [ 
+        2022,
+        2,
+        2
+      ]
+    ]
+  },
+  "title": "Enzyme Linked Immunosorbent Assay",
+  "container-title": "StatPearls",
+  "page": "1-11",
+  "publisher": "StatPearls", 
+  "URL": "https://pubmed.ncbi.nlm.nih.gov/32310382",
+  "PMID": "32310382"
+},
+{
+  "id": "url:https://www.nytimes.com/interactive/2021/us/covid-cases.html",
+  "type": "webpage",
+  "title": "Coronavirus in the U.S.: Latest Map and Case Count",
+  "container-title": "The New York Times",
+  "URL": "https://www.nytimes.com/interactive/2021/us/covid-cases.html",
+  "language": "en",
+  "accessed": {
+    "date-parts": [
+      [
+        "2022",
+        3,
+        11
+      ]
+    ]
+  }
 }
 ]
