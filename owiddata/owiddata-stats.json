@@ -5,11 +5,12 @@
   "owid_RNA_map": "https://github.com/greenelab/covid19-review/raw/c7584ed41d1b4782079b097debadb4754b25009e/owiddata/maps/RNA.png",
 =======
   "owid_RNA_count": 3,
-  "owid_RNA_countries": 0,
+  "owid_RNA_countries": 163,
   "owid_RNA_map": "https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/owiddata/maps/RNA.png",
   "owid_VLP_count": 1,
   "owid_VLP_countries": 0,
   "owid_VLP_map": "https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/owiddata/maps/VLP.png",
+<<<<<<< HEAD
 >>>>>>> updated json
   "owid_commit_date": "2022-03-29T09:53:25Z",
   "owid_commit_date_pretty": "March 29, 2022",
@@ -30,18 +31,24 @@
   "owid_total_vaccinations": "11 billion",
   "owid_vaccine_types": "24"
 =======
+=======
+  "owid_commit_date": "2022-03-30T10:39:00Z",
+  "owid_commit_date_pretty": "March 30, 2022",
+  "owid_commit_sha": "0eb0c24135a8c6de5024a1579015f737e0631c7e",
+  "owid_daily_rate": "2,315 per million",
+>>>>>>> now handles fuzzy matching of names
   "owid_inactivated_count": 11,
-  "owid_inactivated_countries": 12,
+  "owid_inactivated_countries": 113,
   "owid_inactivated_map": "https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/owiddata/maps/inactivated.png",
-  "owid_most_recent_date": "March 28, 2022",
+  "owid_most_recent_date": "March 29, 2022",
   "owid_non_replicating_viral_vector_count": 6,
-  "owid_non_replicating_viral_vector_countries": 58,
+  "owid_non_replicating_viral_vector_countries": 200,
   "owid_non_replicating_viral_vector_map": "https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/owiddata/maps/non_replicating_viral_vector.png",
   "owid_plasmid_vectored_count": 1,
   "owid_plasmid_vectored_countries": 0,
   "owid_plasmid_vectored_map": "https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/owiddata/maps/plasmid_vectored.png",
   "owid_protein_subunit_count": 13,
-  "owid_protein_subunit_countries": 7,
+  "owid_protein_subunit_countries": 21,
   "owid_protein_subunit_map": "https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/owiddata/maps/protein_subunit.png",
   "owid_total_countries": "223",
   "owid_total_vaccinations": "11 billion",
