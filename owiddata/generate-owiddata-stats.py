@@ -4,10 +4,39 @@ import json
 import os
 import pandas as pd
 import geopandas
-import pycountry
+import urllib.request
+from bs4 import BeautifulSoup
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 import numpy as np
+from fuzzywuzzy import fuzz
+
+def assign_platform_types(vaxtype):
+    """The types of vaccines as categoried on trackvaccines.org differs
+    somewhat from the categories we use here.
+    See https://covid19.trackvaccines.org/types-of-vaccines/
+    This function maps their categories (key) onto the section headings
+    used in the manuscript (value)
+    Input: string
+    Output: string"""
+
+    types = {"protein subunit": "subunit",
+             "VLP": "subunit",
+             "plasmid vectored": "DNA",
+             "DNA": "DNA",
+             "RNA": "RNA",
+             "non replicating viral vector": "DNA",
+             "replicating viral vector": "DNA",
+             "inactivated": "whole virus",
+             "live attenuated": "whole virus"
+             }
+
+    # If they add a new platform type (which seems unlikely), handle & throw error
+    if vaxtype not in types.keys():
+        print("Unknown vaccine platform:", vaxtype)
+        exit(1)
+
+    return types[vaxtype]
 
 def lowres_fix(world):
     """There is an issue with the map data source from geopandas where
@@ -45,6 +74,94 @@ def convert_date(git_date):
     # Assumes the year will not begin with 0
     return datetime.datetime.fromisoformat(git_date).strftime('%B %d, %Y').replace(' 0', ' ')
 
+def retrieve_platform_types():
+    """Use trackvaccines.org to scrape the website listing approved vaccines
+    Returns: dataframe """
+    vaccine_info = dict()
+    vaccineHTML = urllib.request.urlopen('https://covid19.trackvaccines.org/vaccines/approved/')
+
+    # Extract the HTML that makes the cards on the webpage (each card is a vax)
+    soup = BeautifulSoup(vaccineHTML, "html5lib")
+    body = soup.find('body')
+    cards = body.find_all('li')
+
+    # Iterate through the cards to extract information
+    # Tags were identified empirically and are not self-evident
+    for card in cards: # find all element of tag
+        if card.find('a', {"class": "icon-link"}) is not None:
+            vaccine_platform = card.find('a', {"class": "icon-link"}).get_text()
+            if vaccine_platform.upper() != vaccine_platform: #DNA, RNA, VLP
+                vaccine_platform = vaccine_platform.lower()
+            vaccine_platform_type = assign_platform_types(vaccine_platform)
+            vaccine_manf = card.find('span',
+                                     {"class": "has-medium-font-size"}).get_text()
+            vaccine_name = card.find('span',
+                                     {"class": "has-large-font-size"}).get_text()
+            link = card.find('a', href=True)
+            vaccine_info[vaccine_name] = [vaccine_manf,
+                                          vaccine_platform,
+                                          vaccine_platform_type,
+                                          link['href']]
+    vaccine_df = pd.DataFrame.from_dict(vaccine_info, orient='index')
+    vaccine_df.rename(mapper={0: "Company", 1: "Platform", 2: "Platform Type", 3: "URL"},
+                      axis=1, inplace=True)
+    vaccine_df.index.name = 'Vaccine'
+    vaccine_df["Platform"] = vaccine_df["Platform"].replace("DNA","plasmid vectored")
+    return vaccine_df
+
+def pair_datasource_names(viper_table, owid_names):
+    """Match the vaccine names used in the two datasets
+    Input: df generated from VIPER data, list of names from OWID data
+    Returns: df including a column linking the datasets"""
+
+    # Calculate match between the first two columns & the OWID names, generate
+    # a heatmap comparing the index of the table to the list of OWID names
+    name_match_ratio = dict()
+    viperJointNames = viper_table.index.astype(str) + " " + viper_table["Company"]
+    viperJointNames = viperJointNames.tolist()
+    viper_names = dict(zip(viper_table.index, viperJointNames))
+
+    for vname, vjointname in viper_names.items():
+        name_match_ratio[vname] = [fuzz.partial_ratio(vjointname, oname)
+                                   if oname != "ZF2001"
+                                   else fuzz.partial_ratio(vjointname, "Zifivax* ZF2001 Anhui Zhifei Longcom")
+                                   for oname in owid_names
+                                   ]
+    heatMap = pd.DataFrame.from_dict(name_match_ratio,
+                                     orient="index",
+                                     columns=owid_names)
+
+    # Identify the best hit for each VIPER and each OWID vax name
+    owid_bestmatch = heatMap.idxmax(axis=0).to_dict() # row max
+    viper_bestmatch = heatMap.idxmax(axis=1).to_dict()
+
+    unifiedNames = dict()
+    for vname, oname in viper_bestmatch.items():
+        if vname == owid_bestmatch[oname]:
+            unifiedNames[vname] = oname
+        else:
+            unifiedNames[vname] = None
+
+    viper_table['OWID Nomenclature'] = viper_table.index.map(unifiedNames)
+    print("The following vaccines from VIPER were not matched to the OWID data:")
+    with pd.option_context('display.max_rows', None, 'display.max_columns', None):  # more options can be specified also
+        null_data = viper_table[viper_table['OWID Nomenclature'].isnull()]
+        print(null_data[["Company", "Platform", "URL"]])
+
+    return viper_table
+
+
+def create_table(vaccine_df, platformType):
+    """For each vaccine platform, select a subset of the vaccine information table
+    Input: dataframe, string
+    Returns: string representing a table in markdown"""
+    vaccines = vaccine_df[vaccine_df["Platform Type"] == platformType]
+    numTypes = len(set(vaccines["Platform"].to_list()))
+    if numTypes > 1:
+        return vaccines[["Company", "Platform"]].to_markdown()
+    else:
+        return vaccines[["Company"]].to_markdown()
+
 def main(args):
     # Set up country mapping
     countries_mapping = setup_geopandas()
@@ -79,34 +196,44 @@ def main(args):
 
     owid_stats["owid_most_recent_date"] = vaccine_nums['date'].max().strftime('%B %d, %Y').replace(' 0', ' ')
 
-    owid_stats["owid_total_vaccinations"] = str("{:,}".format(round(vaccine_nums[vaccine_nums["location"] ==
-                                                          "World"].loc[vaccine_nums["date"] ==
-                                                                       owid_stats["owid_most_recent_date"],
-                                                                       "total_vaccinations"].item()/1000000000))) + \
-                                       " billion"
-    owid_stats["owid_daily_rate"] = str("{:,}".format(round(vaccine_nums[vaccine_nums["location"] ==
-                                                "World"].loc[vaccine_nums["date"] ==
-                                                             owid_stats["owid_most_recent_date"],
-                                                             "daily_vaccinations_per_million"].item()))) + " per million"
-    owid_stats["owid_total_countries"] = format(vaccine_locations["location"].nunique())
+    owid_stats["owid_total_vaccinations"] = \
+        str("{:,}".format(round(vaccine_nums[vaccine_nums["location"] == "World"].
+                                loc[vaccine_nums["date"] ==
+                                    owid_stats["owid_most_recent_date"],
+                                    "total_vaccinations"].item()/1000000000))) + \
+        " billion"
+    owid_stats["owid_daily_rate"] = \
+        str("{:,}".format(round(vaccine_nums[vaccine_nums["location"] == "World"].
+                                loc[vaccine_nums["date"] ==
+                                    owid_stats["owid_most_recent_date"],
+                                    "daily_vaccinations_per_million"].item()))) + \
+        " per million"
+    owid_stats["owid_total_countries"] = \
+        format(vaccine_locations["location"].nunique())
 
     # Identify number of vaccine manufacturers included in location totals (not the same as manufacturer-specific data)
-    vaxTypes = set([item.strip() for countryList in vaccine_locations["vaccines"].to_list() for item in countryList.split(",")])
-    owid_stats["owid_vaccine_types"] = format(len(vaxTypes))
-    vaxPlatforms = pd.read_csv(args.platform_types, index_col="Manufacturer")
+    vaxCounts = set([item.strip() for countryList in
+                    vaccine_locations["vaccines"].to_list()
+                    for item in countryList.split(",")])
+    owid_stats["owid_vaccine_counts"] = format(len(vaxCounts))
 
-    # Count the number of vaccines being administered per technology type
-    numVax = vaxPlatforms["Type"].value_counts()
+    # Retrieve & store types of vaccines from https://covid19.trackvaccines.org
+    vaxPlatforms = retrieve_platform_types()
+    vaxPlatforms.to_csv(args.platform_types)
+
+    # Count the number of vaccines being administered total & per technology type
+    owid_stats["viper_vaccine_counts"] = format(len(vaxPlatforms))
+    numVax = vaxPlatforms["Platform"].value_counts()
+
+    # Generate table of vaccines within each platform type
+    for type in set(vaxPlatforms["Platform Type"]):
+        owid_stats["viper_approved_" + "-".join(type.split())] = \
+            create_table(vaxPlatforms, type)
 
     # Set the parameters color-coding the plots. Scale is the max candidates adminstered across all vaccine types.
     scale = max(numVax)
     cmap = mpl.cm.Purples
     norm = mpl.colors.BoundaryNorm(np.arange(0, scale + 1), cmap.N)
-
-    # Check that platform information is present (needs to be manually determined and input in vaccine_platforms.csv
-    missingInfo = [vax for vax in vaxTypes if vax not in vaxPlatforms.index]
-    if len(missingInfo) > 0:
-        exit("Missing platform information for " + ", ".join(missingInfo))
 
     # Transform list of vaccine candidate per iso code to list of ISO codes per vaccine candidate
     allVaxByCountry = dict(zip(vaccine_locations["iso_code"],
@@ -118,19 +245,24 @@ def main(args):
             countryCodes = countryByVax.get(vax, [])
             countryByVax[vax] = countryCodes + [iso]
 
-    # Add countries to vaccine platform info and plot each vaccine type
-    vaxPlatforms['countries'] = vaxPlatforms.index.map(countryByVax)
+    # Align the terminology used across the datasets
+    vaxPlatforms = pair_datasource_names(vaxPlatforms, countryByVax.keys())
 
-    for platform in set(vaxPlatforms["Type"]):
+    # Add countries to vaccine platform info and plot each vaccine type
+    vaxPlatforms['countries'] = vaxPlatforms["OWID Nomenclature"].map(countryByVax)
+
+    for platform in set(vaxPlatforms["Platform"]):
         platformName = '_'.join(platform.split(' '))
         platformName = platformName.replace("-", "_")
-        owid_stats["owid_" + platformName + "_count"] = len(vaxPlatforms[vaxPlatforms["Type"] == platform])
+        owid_stats["owid_" + platformName + "_count"] = \
+            len(vaxPlatforms[vaxPlatforms["Platform"] == platform])
 
         fig, ax = plt.subplots(1, 1, figsize=(6,4))
         ax.axis('off')
 
-        vaccines = vaxPlatforms[vaxPlatforms["Type"] == platform]
-        countries = [iso for country_list in vaccines["countries"] for iso in country_list]
+        vaccines = vaxPlatforms[vaxPlatforms["Platform"] == platform].dropna()
+        countries = [iso for country_list in vaccines["countries"]
+                     for iso in country_list]
         counts = dict()
         for iso in countries:
             runningTot = counts.get(iso, 0)

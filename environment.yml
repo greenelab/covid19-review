@@ -8,9 +8,14 @@ dependencies:
   - pandas=1.2.4
   - pip=20.0
   - python=3.7.6
-  - geopandas=0.8.1
+  - geopandas=0.10.2
   - seaborn=0.11.1
+  - tabulate=0.8.9
+  - urllib3=1.26.4
   - pycountry==20.7.3
   - pip:
     - git+https://github.com/manubot/manubot@a57ccf0be6972329ff3010eaaa0c5df7ccebb2d5
     - wget==3.2
+    - bs4==0.0.1
+    - html5lib==1.1
+    - fuzzywuzzy==0.18.0
