@@ -57,8 +57,9 @@ authors:
       diagnostics:
         order: 1
         contributions:
-          - A
-          - E
+          - Project Administration
+          - Writing - Original Draft
+          - Writing - Review & Editing
       methods:
         order: 1
         contributions:
@@ -150,6 +151,12 @@ authors:
             city: Philadelphia
             state: PA
             country: USA
+      diagnosticss:
+        order: 9
+        contributions:
+          - Writing - Review & Editing
+          - Project Administration
+          - Writing - Original Draft
   -
     github: mprobson
     name: Michael P. Robson
@@ -246,6 +253,10 @@ authors:
           - Writing - Original Draft
           - Project Administration
           - Visualization
+      diagnostics:
+        order: 6
+        contributions:
+          - Writing - Review & Editing
   -
     github: RLordan
     name: Ronan Lordan
@@ -283,6 +294,12 @@ authors:
           - Writing - Review & Editing
           - Writing - Original Draft
           - Project Administration
+      diagnostics:
+        order: 2
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
+          - Project Administration
   -
     github: cbrueffer
     name: Christian Brueffer
@@ -312,6 +329,12 @@ authors:
         contributions:
           - Writing - Review & Editing
           - Project Administration
+      diagnostics:
+        order: 2
+        contributions:
+          - Writing - Review & Editing
+          - Project Administration
+          - Writing - Original Draft
   -
     github: rays1987
     name: Sandipan Ray
@@ -425,6 +448,14 @@ authors:
             city: Madison
             state: WI
             country: USA
+      diagnostics:
+        order: 8
+        contributions:
+          - Methodology
+          - Software
+          - Project Administration
+          - Writing - Review & Editing
+
   -
     github: aadattoli
     name: Anna Ada Dattoli
@@ -446,6 +477,10 @@ authors:
         order: 4
         contributions:
           - Writing - Original Draft
+      diagnosticss:
+        order: 3
+        contributions:
+          - Writing - Original Draftg
   -
     github: rdvelazquez
     name: Ryan Velazquez
@@ -862,6 +897,12 @@ authors:
       lastapproved: !!str 2022-03-15
     funders:
       - Center for Effective Altruism, Long Term Future Fund
+    manuscripts:
+      diagnosticss:
+        order: 3
+        contributions:
+          - Writing - Original Draft
+          - Writing - Review & Editing
   -
     github: soumitagh
     name: Soumita Ghosh
@@ -1134,6 +1175,12 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-11-11
+    manuscripts:
+      diagnostics:
+        order: 4
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
   -
     github: smangul1
     name: Serghei Mangul
@@ -1237,6 +1284,11 @@ authors:
         contributions:
           - Writing - Review & Editing
           - Writing - Original Draft
+      diagnostics:
+        order: 5
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
   -
     name: COVID-19 Review Consortium
     code of conduct:
@@ -1260,6 +1312,10 @@ authors:
           - Project Administration
       methods:
         order: 8
+        contributions:
+          - Project Administration
+      diagnostics:
+        order: 7
         contributions:
           - Project Administration
   -
@@ -1390,7 +1446,7 @@ authors:
       lastapproved:  !!str 2022-01-06
     manuscripts:
       diagnostics:
-        order: 1
+        order: 3
         contributions:
           - Writing - Review & Editing
           - Writing - Original Draft
@@ -1406,6 +1462,8 @@ authors:
       lastapproved:  !!str 2021-12-19
     manuscripts:
       diagnostics:
-        order: 1
+        order: 4
         contributions:
           - Writing - Review & Editing
+          - Writing - Original Draf
+
