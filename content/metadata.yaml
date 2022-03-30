@@ -455,7 +455,6 @@ authors:
           - Software
           - Project Administration
           - Writing - Review & Editing
-
   -
     github: aadattoli
     name: Anna Ada Dattoli
@@ -477,10 +476,10 @@ authors:
         order: 4
         contributions:
           - Writing - Original Draft
-      diagnosticss:
+      diagnostics:
         order: 3
         contributions:
-          - Writing - Original Draftg
+          - Writing - Original Draft
   -
     github: rdvelazquez
     name: Ryan Velazquez
@@ -1465,5 +1464,4 @@ authors:
         order: 4
         contributions:
           - Writing - Review & Editing
-          - Writing - Original Draf
-
+          - Writing - Original Draft
