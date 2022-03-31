@@ -289,13 +289,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/3bea4d7a10f0b61fb09fd2614c85f39b472c953b/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/3bea4d7a10f0b61fb09fd2614c85f39b472c953b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/3bea4d7a10f0b61fb09fd2614c85f39b472c953b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/4adbc1cb562d21db098780828f1156636ec1f7b7/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/4adbc1cb562d21db098780828f1156636ec1f7b7/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/4adbc1cb562d21db098780828f1156636ec1f7b7/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/3bea4d7a10f0b61fb09fd2614c85f39b472c953b/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/3bea4d7a10f0b61fb09fd2614c85f39b472c953b/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/4adbc1cb562d21db098780828f1156636ec1f7b7/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/4adbc1cb562d21db098780828f1156636ec1f7b7/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -317,11 +317,11 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/3bea4d7a10f0b61fb09fd2614c85f39b472c953b/))
+([permalink](https://greenelab.github.io/covid19-review/v/4adbc1cb562d21db098780828f1156636ec1f7b7/))
 was automatically generated
-from [greenelab/covid19-review@3bea4d7](https://github.com/greenelab/covid19-review/tree/3bea4d7a10f0b61fb09fd2614c85f39b472c953b)
+from [greenelab/covid19-review@4adbc1c](https://github.com/greenelab/covid19-review/tree/4adbc1cb562d21db098780828f1156636ec1f7b7)
 on March 31, 2022.
-It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/3bea4d7a10f0b61fb09fd2614c85f39b472c953b/manuscript.pdf).
+It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/4adbc1cb562d21db098780828f1156636ec1f7b7/manuscript.pdf).
 Snapshots of individual sections have been published [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals; @individual-methods].
 </em></small>
 
@@ -5795,8 +5795,8 @@ Future work can address remaining limitations and continue to advance Manubot as
 
 |Author|Contributions|
 |---|---|
-|Halie M. Rando|A, D, E, Project Administration, Software, Visualization, Writing - Original Draft, Writing - Review & Editing|
-|Casey S. Greene|Conceptualization, Project Administration, Software, Supervision, Writing - Review & Editing|
+|Halie M. Rando|D, E, Project Administration, Software, Visualization, Writing - Original Draft, Writing - Review & Editing|
+|Casey S. Greene|Conceptualization, Project Administration, Software, Supervision, Writing - Original Draft, Writing - Review & Editing|
 |Michael P. Robson|Methodology, Software, Supervision|
 |Simina M. Boca|Methodology, Project Administration, Writing - Review & Editing|
 |Nils Wellhausen|Project Administration, Visualization, Writing - Original Draft, Writing - Review & Editing|
@@ -5822,7 +5822,7 @@ Future work can address remaining limitations and continue to advance Manubot as
 |Ashwin N. Skelly|Writing - Original Draft, Writing - Review & Editing|
 |Marouen Ben Guebila|Writing - Original Draft, Writing - Review & Editing|
 |Likhitha Kolla|Writing - Original Draft|
-|David Manheim|Investigation, Writing - Original Draft|
+|David Manheim|Writing - Original Draft, Writing - Review & Editing|
 |Soumita Ghosh|Writing - Original Draft|
 |James Brian Byrd|Writing - Original Draft, Writing - Review & Editing|
 |YoSon Park|Writing - Original Draft, Writing - Review & Editing|
@@ -5848,7 +5848,7 @@ Future work can address remaining limitations and continue to advance Manubot as
 |Daniel S. Himmelstein|Software|
 |Jeremy P. Kamil|Writing - Review & Editing|
 |Jesse G. Meyer|Writing - Original Draft, Writing - Review & Editing|
-|Ariel I. Mundo|Writing - Review & Editing|
+|Ariel I. Mundo|Writing - Original Draft, Writing - Review & Editing|
 
 ### Acknowledgements
 
