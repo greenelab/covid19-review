@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2022-03-30'
+date-meta: '2022-03-31'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -72,8 +72,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2022-03-30" />
-  <meta name="citation_publication_date" content="2022-03-30" />
+  <meta name="dc.date" content="2022-03-31" />
+  <meta name="citation_publication_date" content="2022-03-31" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -289,13 +289,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/c12acc2c366be4f5bf964b328b94bdef90d0ba92/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/c12acc2c366be4f5bf964b328b94bdef90d0ba92/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/c12acc2c366be4f5bf964b328b94bdef90d0ba92/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/d9ca18b6243247667d4fdb1644f4ed4eb60efd0e/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/d9ca18b6243247667d4fdb1644f4ed4eb60efd0e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/d9ca18b6243247667d4fdb1644f4ed4eb60efd0e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/c12acc2c366be4f5bf964b328b94bdef90d0ba92/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/c12acc2c366be4f5bf964b328b94bdef90d0ba92/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/d9ca18b6243247667d4fdb1644f4ed4eb60efd0e/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/d9ca18b6243247667d4fdb1644f4ed4eb60efd0e/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -317,11 +317,11 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/c12acc2c366be4f5bf964b328b94bdef90d0ba92/))
+([permalink](https://greenelab.github.io/covid19-review/v/d9ca18b6243247667d4fdb1644f4ed4eb60efd0e/))
 was automatically generated
-from [greenelab/covid19-review@c12acc2](https://github.com/greenelab/covid19-review/tree/c12acc2c366be4f5bf964b328b94bdef90d0ba92)
-on March 30, 2022.
-It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/c12acc2c366be4f5bf964b328b94bdef90d0ba92/manuscript.pdf).
+from [greenelab/covid19-review@d9ca18b](https://github.com/greenelab/covid19-review/tree/d9ca18b6243247667d4fdb1644f4ed4eb60efd0e)
+on March 31, 2022.
+It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/d9ca18b6243247667d4fdb1644f4ed4eb60efd0e/manuscript.pdf).
 Snapshots of individual sections have been published [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals; @individual-methods].
 </em></small>
 
@@ -1597,7 +1597,7 @@ Here we review the categories of tests developed for the detection of the SARS-C
 ### Importance
 
 Testing is critical to pandemic management.
-Among molecular tests, messaging about testing strategies has varied widely between countries, with the United States in particular emphasizing the higher sensitivity of polymerase chain reaction (PCR) tests above immunoassays.
+Among molecular tests, messaging about testing strategies has varied widely between countries, with the United States in particular emphasizing the higher sensitivity of polymerase chain reaction tests above immunoassays.
 However, these tests offer different advantages, and a holistic view of the testing landscape is important to identifying the different use cases where each test offers information that can be used to address different questions.
 Another important consideration is the ease of use and ability to scale for each test, which determines how widely they can be deployed.
 Here we describe the different technologies available as well as the information they provide about SARS-CoV-2 and COVID-19.
@@ -1622,7 +1622,7 @@ Tests for viral proteins typically use an antibody pair for detection as impleme
 Molecular tests require the viral genome sequence in order to develop DNA primers for viral RNA detection or to express a viral protein for use as an antigen in antibody production.
 
 Serological tests, on the other hand, detect the presence of antibodies in blood plasma samples or other biological samples, providing insight into whether an individual has acquired immunity against SARS-CoV-2.
-Assays that can detect the presence of antibodies in blood plasma samples include ELISA, lateral flow immunoassay (LFIA), and chemiluminescence immunoassay (CLIA) [@DOI:10.3389/fmolb.2021.682405].
+Assays that can detect the presence of antibodies in blood plasma samples include ELISA, lateral flow immunoassay, and chemiluminescence immunoassay (CLIA) [@DOI:10.3389/fmolb.2021.682405].
 To distinguish past infection from vaccination, serological tests detect antibodies that bind the nucleocapsid protein of the SARS-CoV-2 virus [@doi:10.1093/infdis/jiaa273].
 They are useful for collecting population-level information for epidemiological analysis, as they can be used to estimate the extent of the infection in a given area.
 Thus, serological tests may be useful to address population-level questions, such as the percent of cases that manifest as severe versus mild and for guiding public health and economic decisions regarding resource allocation and counter-disease measures.
@@ -1651,7 +1651,7 @@ However, this approach has not been employed widely in diagnostic testing, and i
 ##### Quantitative Real-Time PCR
 
 In contrast to RT-PCR, quantitative, real-time PCR (qPCR) uses fluorescent dyes that bind to the amplified DNA, thereby allowing a real time assessment of the amplification procedure [@doi:10.1042/BIO20200034].
-In this manuscript we refer to quantitative real-time PCR as qPCR, following the Minimum Information for Publication of Quantitative Real-Time PCR Experiments (MIQE) guidelines [@doi:10.1373/clinchem.2008.112797]; when combined with reverse transcriptase steps, as is required for the evaluation of RNA, it is known as RT-qPCR.
+In this manuscript we refer to quantitative real-time PCR as qPCR, following the Minimum Information for Publication of Quantitative Real-Time PCR Experiments guidelines [@doi:10.1373/clinchem.2008.112797]; when combined with reverse transcriptase steps, as is required for the evaluation of RNA, it is known as RT-qPCR.
 The time resolution provided by qPCR and RT-qPCR is useful because the amount of fluorescence emitted by the sample is proportional to the amount of DNA amplified and it can be indirectly measured using the cycle threshold (C~t~).
 
 The first test developed and validated for the detection of SARS-CoV-2 used RT-qPCR to detect several regions of the viral genome: the _ORF1b_ of the RNA-dependent RNA polymerase (RdRP), the envelope protein gene (_E_), and the nucleocapsid protein gene (_N_) [@doi:10.2807/1560-7917.ES.2020.25.3.2000045].
@@ -1673,7 +1673,7 @@ A lower C~t~ corresponds to fewer qPCR cycles needed to reach a detectable level
 The C~t~ values produced through this assay have raised some interesting questions related to viral load and contagiousness.
 Lower C~t~ values corresponded to a higher probability of a positive viral culture, but no threshold would discriminate all positive from all negative cultures [@doi:10.2807/1560-7917.ES.2020.25.32.2001483].
 Additionally, because of the variability introduced by sample collection and clinical components of testing, as described under RT-PCR, C~t~ is not a proxy for viral load [@doi:10.1016/j.jinf.2020.10.017].
-Positive PCR results have also been reported for extended periods of time from symptom onset and/or the first positive PCR test [@doi:10.1038/s41586-020-2196-x], meaning that in some cases, a positive PCR may not indicate that someone is contagious [@individual-pathogenesis]. 
+Positive PCR results have also been reported for extended periods of time from symptom onset and/or the first positive PCR test [@doi:10.1038/s41586-020-2196-x], meaning that in some cases, a positive PCR may not indicate that someone is contagious [@individual-pathogenesis].
 
 In addition to the nuance required to interpret PCR results, there are also factors that influence the accuracy of the results reported by these tests.
 The specificity of these tests is very high [@doi:10.2807/1560-7917.ES.2020.25.50.2000568], meaning that a positive RT-PCR result is very likely to indicate SARS-CoV-2 infection.
@@ -1730,7 +1730,7 @@ Sequencing has been an important strategy for discovery of SARS-CoV-2 variants (
 Sequencing elucidates any genetic variants located between the PCR primers.
 For this reason, it is critical to genomic surveillance efforts.
 Genomic surveillance is an important complement to epidemiological surveillance efforts [@doi:10/hkwr], as described below.
-Through genomic surveillance, it has become possible to monitor the emergence of variants of interest (VOI) and variants of concern (VOC) that may pose additional threats due to increased contagiousness, virulence, or immune escape [@doi:10/hkwr; @url:https://cov-lineages.org].
+Through genomic surveillance, it has become possible to monitor the emergence of variants of interest and variants of concern (VOC) that may pose additional threats due to increased contagiousness, virulence, or immune escape [@doi:10/hkwr; @url:https://cov-lineages.org].
 Sequencing also allows for analysis of the dominant strains in an area at a given time.
 Worldwide, the extent of genomic surveillance varies widely, with higher-income countries typically able to sequence a higher percentage of cases [@doi:10.1101/2021.08.21.21262393].
 Sequencing efforts are critically important to identifying variants containing mutations that might affect the reliability of molecular diagnostic tests, as well as mitigation measures such as therapeutics and prophylactics [@doi:10.1038/s41576-021-00360-w; @doi:10.2807/1560-7917.ES.2020.25.39.2001650].
@@ -1754,7 +1754,7 @@ LAMP can be combined with reverse transcription (RT-LAMP) to enable the detectio
 
 One study showed that RT-LAMP is effective for detection of SARS-CoV-2 with excellent specificity and sensitivity, and that this method can be applied to unprocessed saliva samples [@doi:10.1038/s41598-021-95799-6].
 This method was benchmarked against RT-PCR using 177 human nasopharyngeal RNA samples, of which 126 were COVID positive.
-The authors break down the sensitivity of their test according to the cycle threshold (C~t~) value from RT-PCR of the same samples; RT-LAMP performs at 100% sensitivity for samples with a C~t~ from RT-PCR of 32 or less.
+The authors break down the sensitivity of their test according to the C~t~ value from RT-PCR of the same samples; RT-LAMP performs at 100% sensitivity for samples with a C~t~ from RT-PCR of 32 or less.
 The performance is worse when considering all RT-PCR positive samples (including those with C~t~ values between 32-40).
 However, there is some evidence suggesting that samples obtained from individuals that achieve C~t~ values >30 measured using RT-PCR tend to be less infective that those that record a C~t~ value <30 [@doi:10.1016/j.jiph.2021.08.013; @doi:10.1017/ice.2021.132; @doi:10.1093/cid/ciaa619], so RT-LAMP is still a useful diagnostic tool.
 Various combinations of reagents are available, but one example of reagents being used are the WarmStart Colorimetric LAMP 2X Master Mix with a set of six primers developed previously by Zhang et al. [@doi:10.1101/2020.02.26.20028373].
@@ -1798,14 +1798,14 @@ The DETECTR method (DNA Endonuclease-Targeted CRISPR Trans Reporter) from Mammot
 In this assay, guide RNAs (gRNAs) were designed to recognize portions of sequences corresponding to the SARS-CoV-2 genome, specifically the N2 and E regions [@doi:10.1038/s41587-020-0513-4].
 In the presence of SARS-CoV-2 genetic material, sequence recognition by the gRNAs results in double-stranded DNA cleavage by Cas12, as well as cleavage of a single-stranded DNA molecular beacon.
 The cleavage of this molecular beacon acts as a colorimetric reporter that is subsequently read out in a lateral flow assay and indicates the positive presence of SARS-CoV-2 genetic material and therefore SARS-CoV-2 infection.
-The 40-minute assay is considered positive if there is detection of both the envelope (E) and nucleocapsid (N) genes or presumptive positive if there is detection of either of them.
+The 40-minute assay is considered positive if there is detection of both the _E_ and _N_ genes or presumptive positive if there is detection of either of them.
 The assay had 95% positive predictive agreement and 100% negative predictive agreement with the US Centers for Disease Control and Prevention SARS-CoV-2 RT-qPCR assay.
 The estimated limit of detection was 10 copies per &mu;l reaction, versus 1 copy per &mu;l reaction for the CDC assay.
 These results have been confirmed by other DETECTR approaches.
 Using RT-RPA for amplification, another group detected 10 copies of synthetic SARS-CoV-2 RNA per &mu;l of input within 60 minutes of RNA sample preparation in a proof-of-principle evaluation [@doi:10.1101/2020.02.29.971127].
 Using a similar approach, another group reported detection at 1 copy per &mu;l [@doi:10.1371/journal.pbio.3000978].
 The DETECTR protocol was improved by combining RT-RPA and CRISPR-based detection in a one-pot reaction that incubates at a single temperature, and by using dual CRISPR RNAs (which increases sensitivity).
-This new assay, known as All-In-One Dual CRISPR-Cas12a (AIOD-CRISPR), detected 4.6 copies of SARS-CoV-2 RNA per &mu;l of input in 40 minutes [@doi:10.1038/s41467-020-18575-6].
+This new assay, known as All-In-One Dual CRISPR-Cas12a, detected 4.6 copies of SARS-CoV-2 RNA per &mu;l of input in 40 minutes [@doi:10.1038/s41467-020-18575-6].
 Another single-tube, constant-temperature approach using Cas12b instead of Cas12a achieved a detection limit of 5 copies/&mu;l in 40-60 minutes [@doi:10.1038/s41421-020-0174-y].
 It was also reported that electric field gradients can be used to control and accelerate CRISPR assays by co-focusing Cas12-gRNA, reporters, and target [@doi:10.1073/pnas.2010254117].
 The authors generated an appropriate electric field gradient using a selective ionic focusing technique known as isotachophoresis (ITP) implemented on a microfluidic chip.
@@ -1814,10 +1814,10 @@ Combining this ITP purification with loop-mediated isothermal amplification, the
 
 All these methods required upstream nucleic acid amplification prior to CRISPR-based detection.
 They are relying on type V (Cas12-based) and type IV (Cas13-based) CRISPR systems.
-In contrast, type III CRISPR systems have the unique property of initiating a signaling cascade, which could boost the sensitivity of direct RNA detection. 
-In type III CRISPR systems, guide crRNAs are bound by several Cas proteins [@doi:10.1007/978-1-4939-2687-9_4] and can target both DNA and RNA molecules [@doi:10.1016/j.mib.2017.08.003; @doi:10.1016/j.tim.2016.09.012].
-A study tested this hypothesis using the type III-A CRISPR RNA (crRNA)-guided surveillance complex from _Thermus thermophilus_ [@doi:10.1016/j.xcrm.2021.100319]. 
-They showed that activation of the Cas10 polymerase generates three products (cyclic nucleotides, protons, pyrophosphates) that can all be used to detect SARS-CoV-2 RNA. 
+In contrast, type III CRISPR systems have the unique property of initiating a signaling cascade, which could boost the sensitivity of direct RNA detection.
+In type III CRISPR systems, guide CRISPR RNAs (crRNAs) are bound by several Cas proteins [@doi:10.1007/978-1-4939-2687-9_4] and can target both DNA and RNA molecules [@doi:10.1016/j.mib.2017.08.003; @doi:10.1016/j.tim.2016.09.012].
+A study tested this hypothesis using the type III-A crRNA-guided surveillance complex from _Thermus thermophilus_ [@doi:10.1016/j.xcrm.2021.100319].
+They showed that activation of the Cas10 polymerase generates three products (cyclic nucleotides, protons, pyrophosphates) that can all be used to detect SARS-CoV-2 RNA.
 Detection of viral RNA in patient samples still required an initial nucleic acid amplification step, but improvements may in the future remove that requirement.
 This goal of amplification-free detection was later achieved for a Cas13a-based system [@doi:10.1016/j.cell.2020.12.001].
 This approach combined multiple CRISPR RNAs to increase Cas13a activation, which is detected by a fluorescent reporter.
@@ -1827,14 +1827,12 @@ This makes this approach a truly portable assay for point-of-care diagnostics.
 The authors achieved detection of 100 copies/&mu;l of pre-isolated RNA in 30 minutes, and correctly identified all SARS-CoV-2-positive patient RNA samples tested in 5 minutes (n=20).
 
 There is an increasing body of evidence that CRISPR-based assays offer a practical solution for rapid, low-barrier testing in areas that are at greater risk of infection, such as airports and local community hospitals.
-Technology based on CRISPR (clustered regularly interspaced short palindromic repeats) has also been instrumental in scaling up testing protocols.
 In the largest study to date, DETECTR was compared to RT-qPCR on 378 patient samples [@doi:10.1093/infdis/jiaa641].
 The authors reported a 95% reproducibility.
 Both techniques were equally sensitive in detecting SARS-CoV-2.
 Lateral flow strips showed 100% correlation to the high-throughput DETECTR assay.
 Importantly, DETECTR was 100% specific for SARS-CoV-2 and did not detect other human coronaviruses.
 A method based on a Cas9 ortholog from Francisella novicida (FnCas9) achieved 100% sensitivity and 97% specificity in clinical samples, and the diagnostic kit is reported to have completed regulatory validation in India [@doi:10.1101/2020.09.13.20193581].
-Technology based on CRISPR (clustered regularly interspaced short palindromic repeats) has also been instrumental in scaling up testing protocols.
 
 #### Immunoassays for the Detection of Antigens
 
@@ -1844,13 +1842,13 @@ They offer the advantage of generally being faster and requiring less specialize
 As a result, immunoassays hold particular interest for implementation at home and in situations where resources for PCR testing are limited.
 The trade-off is that these tests typically have a lower sensitivity, and sometimes a lower selectivity, than other molecular tests.
 However, these tests tend to return a positive result five to 12 days after symptom onset, which may therefore correlate more closely with the timeframe during which viral replication occurs [@doi:10.1056/NEJMcp2117115].
-Immunoassays for the detection of the SARS-CoV-2 antigen can include LFTs and ELISA, as discussed here, as well as chemiluminescence immunoassays (CLIA) and chromatographic immunoassays [@doi:10.3389/fmed.2021.797109], as described in the serological testing section below.
+Immunoassays for the detection of the SARS-CoV-2 antigen can include LFTs and ELISA, as discussed here, as well as CLIA and chromatographic immunoassays [@doi:10.3389/fmed.2021.797109], as described in the serological testing section below.
 
 ##### Lateral Flow Tests
 
-Lateral flow tests (LFTs) provide distinct value relative to PCR tests.
+LFTs provide distinct value relative to PCR tests.
 They can return results within 30 minutes and can be performed without specialized equipment and at low cost.
-They also do not require training to operate, they are cheap to produce, thus they can be distributed widely to affected populations making them an important public health measure to curb pandemic spread. 
+They also do not require training to operate, they are cheap to produce, thus they can be distributed widely to affected populations making them an important public health measure to curb pandemic spread.
 LFTs rely on the detection of viral protein with an antibody.
 Often this is done with an antibody sandwich format, where one antibody containing a dye binds at one site on the antigen, and an immobilized antibody on the strip binds at another site [@doi:10.1007/s00216-010-3661-4].
 This design allows the dye to accumulate to form a characteristic positive test line on the strip [@doi:10.1007/s00216-010-3661-4].
@@ -1948,7 +1946,7 @@ Efforts have been made to develop low-cost strategies for conducting these tests
 
 #### Chemiluminescence Immunoassay
 
-Another early approach investigated for detection of antibodies against SARS-CoV-2 was chemiluminescence immunoassay (CLIA).
+Another early approach investigated for detection of antibodies against SARS-CoV-2 was CLIA.
 Like ELISA, CLIA is a type of enzyme immunoassay (EIA) [@doi:10.2147/IJN.S200556].
 While the technique varies somewhat, in one approach, a bead is coated with the antigen and then washed with the sample [@doi:10.1007/s13317-017-0097-2].
 If the antibody is present in the sample, it will bind to the bead.
@@ -1956,7 +1954,7 @@ Then the bead is exposed to a label, a luminescent molecule that will bind to th
 A preprint describing a CLIA approach to identify COVID-19 cases was released on _medRxiv_ on February 25, 2020 [@doi:10.1093/infdis/jiaa243; @doi:10.1101/2020.02.22.20026617].
 This test used a synthetic peptide derived from the amino acid sequence of the SARS-CoV-2 _S_ protein [@doi:10.1093/infdis/jiaa243].
 It was highly specific to SARS-CoV-2 and detected IgM in 57.2% and IgG in 71.4% of sera samples from 276 COVID-19 cases confirmed with RT-qPCR.
-IgG could be detected within two days of the onset of fever, but IgM could not be detected any earlier [@doi:10.1093/infdis/jiaa243], which has been supported by other analyses as well [@doi:10.1016/j.jcv.2020.104690]; this pattern was consistent with observations in Middle East respiratory syndrome (MERS), which is also caused by an HCoV.
+IgG could be detected within two days of the onset of fever, but IgM could not be detected any earlier [@doi:10.1093/infdis/jiaa243], which has been supported by other analyses as well [@doi:10.1016/j.jcv.2020.104690]; this pattern was consistent with observations in Middle East respiratory syndrome, which is also caused by an HCoV.
 In comparisons of different commercial immunoassays, accuracy of CLIA tests were often roughly comparable to other EIAs [@doi:10.1016/j.jcv.2020.104511], although one CLIA did not perform as well as several other EIAs [@doi:10.1016/j.jcv.2020.104690; @doi:10.1128/JCM.01361-20].
 The sensitivity and selectivities reported vary among CLIA tests and for the detection of IgM versus IgG, but sensitivities and selectivities as high as 100% have been reported among various high-throughput tests [@doi:10.1002/jmv.25932; @doi:10.1128/JCM.01361-20; @doi:10.1016/j.jcv.2021.104914].
 CLIA has previously been used to develop tests that can be used at point of care (e.g., [@doi:10.2147/IJN.S200556]) which may allow for this technique to become more widely accessible in the future.
@@ -2023,7 +2021,7 @@ T cell immunity to SARS-CoV-2 at 6 to 8 months following symptom onset has also 
 In another study, T cell reactivity to SARS-CoV-2 epitopes was also detected in some individuals never been exposed to SARS-CoV-2.
 This finding suggests the potential for cross-reactive T cell recognition between SARS-CoV-2 and pre-existing circulating HCoV that are responsible for the “common cold” [@doi:10.1016/j.cell.2020.05.015], but further research is required.
 Therefore, whether T-cells will over a more stable measure through which to assess prior infection remains unknown.
-Notably, commercial entities have tried to develop tests specifically for T cells, some of which have been authorized by the United States Food and Drug Administration (FDA) [@doi:10.1038/s41587-021-00920-9; @url:https://www.fda.gov/news-events/press-announcements/coronavirus-covid-19-update-fda-authorizes-adaptive-biotechnologies-t-detect-covid-test] to identify people with adaptive T cell immune responses to SARS-CoV-2, either from a previous or ongoing infection. 
+Notably, commercial entities have tried to develop tests specifically for T cells, some of which have been authorized by the United States Food and Drug Administration [@doi:10.1038/s41587-021-00920-9; @url:https://www.fda.gov/news-events/press-announcements/coronavirus-covid-19-update-fda-authorizes-adaptive-biotechnologies-t-detect-covid-test] to identify people with adaptive T cell immune responses to SARS-CoV-2, either from a previous or ongoing infection.
 
 #### Applications of Serological Tests
 
@@ -2032,7 +2030,7 @@ Importantly, false positives can occur due to cross-reactivity with other antibo
 Therefore, such tests must be used in combination with RNA detection tests if intended for diagnostic purposes [@doi:10.1056/NEJMp2025631].
 False positives are particularly harmful if they are erroneously interpreted to mean that a population is more likely to have acquired immunity to a disease [@doi:10/gg559s].
 Similarly, while serological tests may be of interest to individuals who wish to confirm they were infected with SARS-CoV-2 in the past, their potential for false positives means that they are not currently recommended for this use.
-However, in the wake of vaccines becoming widely available, accurate serological tests that could be administered at point of care investigated in the hope that they could help to prioritize vaccine recipients [@doi:10.1371/journal.pone.0248729].
+However, in the wake of vaccines becoming widely available, accurate serological tests that could be administered at point of care were investigated in the hope that they could help to prioritize vaccine recipients [@doi:10.1371/journal.pone.0248729].
 Another concern with serological testing is the potential for viral evolution to reduce the sensitivity of assays, especially for neutralizing antibody assays.
 Systematic re-analysis of published data examining the neutralizing effect of serum from vaccinated or recovered individuals on four VOC [@doi:10.1093/cid/ciab646].
 They found reduced neutralizing titers reduced against these variants relative to the lineages used for reference.
@@ -2048,19 +2046,19 @@ Early in the course of the pandemic, it was also hoped that serological tests wo
 For instance, it was hoped that people who had recovered and developed antibodies might be able to return to work [@doi:10.1101/2020.04.14.20065771; @doi:10.1001/jamainternmed.2020.7986], although this strategy would have relied on recovered individuals acquiring long-term immunity, which has not been borne out [@doi:10.1101/2021.12.04.21267114].
 Some infectious agents can be controlled through "herd immunity", which is when a critical mass within the population acquires immunity through vaccination and/or infection, preventing an infectious agent from spreading widely.
 Additionally, it was hoped that identifying seroconverters and specifically those who had mounted a strong immune response would reveal strong candidates for convalescent plasma donation [@doi:10.1038/s41591-020-0913-5]; however, convalescent plasma has not been found to offer therapeutic benefit (reviewed in [@individual-pharmaceuticals]).
-While these hopes have not borne out, serological tests have been useful for gaining a better understanding of the pandemic [@doi:10/gh7598].
+While these hopes have not been realized, serological tests have been useful for gaining a better understanding of the pandemic [@doi:10/gh7598].
 
-### Possible Alternatives to Current Practices for Identifying Active Cases
+### Possible Alternatives to Current Diagnostic Practices
 
 One possible alternative or complement to molecular and serological testing would be diagnosing COVID-19 cases based on symptomatology.
 COVID-19 can present with symptoms similar to other types of pneumonia, and symptoms can vary widely among COVID-19 patients; therefore, clinical presentation is often insufficient as a sole diagnostic criterion.
 In addition, identifying and isolating mild or asymptomatic cases is critical to efforts to manage outbreaks.
 Even among mildly symptomatic patients, a predictive model based on clinical symptoms had a sensitivity of only 56% and a specificity of 91% [@doi:10.2807/1560-7917.ES.2020.25.16.2000508].
 More problematic is that clinical symptom-based tests are only able to identify already symptomatic cases, not presymptomatic or asymptomatic cases.
-They may still be important for clinical practice, and for reducing tests needed for patients deemed unlikely to have COVID-19.
+They may still be important for clinical practice and for reducing tests needed for patients deemed unlikely to have COVID-19.
 
 In some cases, clinical signs may also provide information that can inform diagnosis.
-Using computed tomography (CT) of the chest in addition to RT-qPCR testing was found to provide a higher sensitivity than either measure along [@doi:10.1101/2020.02.25.20027755].
+Using computed tomography of the chest in addition to RT-qPCR testing was found to provide a higher sensitivity than either measure along [@doi:10.1101/2020.02.25.20027755].
 X-ray diagnostics have been reported to have high sensitivity but low specificity in some studies [@doi:10.1148/radiol.2020200642].
 Other studies have shown that specificity varies between radiologists [@doi:10.1148/radiol.2020200823], though the sensitivity reported here was lower than that published in the previous paper.
 However, preliminary machine-learning results have shown far higher sensitivity and specificity from analyzing chest X-rays than was possible with clinical examination [@doi:10.1007/s13246-020-00865-4].
@@ -2071,8 +2069,7 @@ Given the above, the widespread use of X-ray tests on otherwise healthy adults i
 Finally, in addition to genomic and serological surveillance, other types of monitoring have proven useful in managing the pandemic.
 There are several alternative approaches [@doi:10.1016/j.jiph.2020.07.019].
 One that has received significant attention is wastewater surveillance.
-This approach can utilize several of the technologies described for molecular testing, such as qPCR and dPCR, as well as _in vitro_ culturing [@doi:10.1016/j.coesh.2020.06.001].
-This approach can provide insight into trends in the prevalence of SARS-CoV-2 regionally.
+This approach can utilize several of the technologies described for molecular testing, such as qPCR and dPCR, as well as _in vitro_ culturing [@doi:10.1016/j.coesh.2020.06.001] and can provide insight into trends in the prevalence of SARS-CoV-2 regionally.
 
 ### Strategies and Considerations for Testing
 
@@ -2080,63 +2077,47 @@ Deciding whom to test, when to test, and which test to use have proven challengi
 Early in the COVID-19 pandemic, testing was typically limited to individuals considered high risk for developing serious illness [@url:https://www.cdc.gov/coronavirus/2019-nCoV/hcp/clinical-criteria.html].
 This approach often involved limiting testing to people with severe symptoms and people showing mild symptoms that had been in contact with a person who had tested positive.
 Individuals who were asymptomatic (i.e., potential spreaders) and individuals who were able to recover at home were therefore often unaware of their status.
-However, this method of testing administration misses a high proportion of infections and does not allow for test-and-trace methods to be used.
+Therefore, this method of testing administration misses a high proportion of infections and does not allow for test-and-trace methods to be used.
 For instance, a study from Imperial College estimates that in Italy, the true number of infections was around 5.9 million in a total population ~60 million, compared to the 70,000 detected as of March 28, 2020 [@doi:10.25561/77731].
 Another analysis, which examined New York state, indicated that as of May 2020, approximately 300,000 cases had been reported in a total population of approximately 20 million [@url:https://www.governor.ny.gov/sites/governor.ny.gov/files/atoms/files/NYForwardReopeningGuide.pdf].
 This corresponded to ~1.5% of the population, but ~12% of individuals sampled statewide were estimated as positive through antibody tests (along with indications of spatial heterogeneity at higher resolution) [@url:https://www.governor.ny.gov/sites/governor.ny.gov/files/atoms/files/NYForwardReopeningGuide.pdf].
-Technological advancements that facilitate widespread, rapid testing will therefore improve the potential to accurately assess the rate of infection and aid in controlling the virus' spread.
-
+Technological advancements that facilitate widespread, rapid testing would therefore be valuable for accurately assessing the rate of infection and aid in controlling the virus' spread.
 Additionally, the trade off of accessibility, sensitivity, and time to results has raised some complex questions around which tests are best suited to certain situations.
 Immunoassays, including serological tests, have much lower limits of detection than PCR tests do [@doi:10.2142/biophysico.bppb-v18.004].
 
-Changes in public attitudes and the lifting of COVID-19 restrictions due to the multifactorial desire to stimulate economic activities has required a shift of testing paradigms in 2022, despite warnings from public health officials of a hard exit from public health restrictions [@doi:10.1136/bmj.o383; @doi:10.1186/s12889-022-12845-2].
-An important strategy for testing moving forward is to determine when someone becomes infectious or is no longer infectious following a positive test for COVID-19. 
-Generally, patient specimens tend to not contain culturable virus past day 5 of symptom onset [@doi:10.1093/cid/ciaa1764; @{doi:10.1016/S2666-5247(20)30172-5}]. 
-However, PCR-based methods due to their sensitivity to post-infectious viral RNA in specimens may mislead individuals to believe that they are still infectious several days after symptom onset [@doi:10.1056/NEJMp2025631]. 
-Furthermore, detection of viral RNA can occur days and weeks after an active infection due to the sensitivity of PCR-based methods [@doi:10.1038/s41420-020-00375-y; @doi:10.1038/s41467-020-20568-4; @doi:10.1001/jamanetworkopen.2021.42796]. 
-
+Changes in public attitudes and the lifting of COVID-19 restrictions due to the multifactorial desire to stimulate economic activities has required a shift of testing paradigms in 2022, despite warnings from public health officials against a hard exit from public health restrictions [@doi:10.1136/bmj.o383; @doi:10.1186/s12889-022-12845-2].
+An important strategy for testing moving forward is to determine when someone becomes infectious or is no longer infectious following a positive test for COVID-19.
+Generally, patient specimens tend to not contain culturable virus past day 5 of symptom onset [@doi:10.1093/cid/ciaa1764; @{doi:10.1016/S2666-5247(20)30172-5}].
+However, PCR-based methods due to their sensitivity to post-infectious viral RNA in specimens may mislead individuals to believe that they are still infectious several days after symptom onset [@doi:10.1056/NEJMp2025631].
+Furthermore, detection of viral RNA can occur days and weeks after an active infection due to the sensitivity of PCR-based methods [@doi:10.1038/s41420-020-00375-y; @doi:10.1038/s41467-020-20568-4; @doi:10.1001/jamanetworkopen.2021.42796].
 In contrast, LFTs were thought to have poor sensitivity and their value for identifying infections and managing the pandemic was questioned [@doi:10.1136/bmj.m4941; @doi:10.1136/bmj.n81].
-However, LFTs can detect SARS-CoV-2 proteins when there is a high viral load, which appears to correlate with a person’s infectiousness [@doi:10.1128/jcm.02479-21; @doi:10.1056/NEJMcp2117115]. 
-Therefore, LFTs are an important diagnostic tool to determine infectiousness with fast turnaround times, ease of use, and accessibility by the general public  [@doi:10/gnmbjd; @doi:10.1056/NEJMp2025631].
+However, LFTs do reliably detect SARS-CoV-2 proteins when there is a high viral load, which appears to correlate with a person’s infectiousness [@doi:10.1128/jcm.02479-21; @doi:10.1056/NEJMcp2117115].
+Therefore, LFTs are an important diagnostic tool to determine infectiousness with fast turnaround times, ease of use, and accessibility by the general public [@doi:10/gnmbjd; @doi:10.1056/NEJMp2025631].
 One study has suggested that the test sensitivity of LFTs appears to be less important than accessibility to LFTs, frequent testing, and fast reporting times for reducing the impact of viral spread [@doi:10.1126/sciadv.abd5393].
 While PCR-based methods are important for COVID-19 surveillance, their use is labor intensive and time consuming, and laboratories are often slow to report results, rendering such methods limited in their surveillance capacity [@doi:10.1056/NEJMp2025631].
-These limitations are demonstrated by the estimated 10-fold under-reporting of cases in the United States in 2020 due to shortages in testing and slow rollout of testing and slow reporting of results [@url:https://www.washingtonpost.com/health/2020/06/25/coronavirus-cases-10-times-larger].  
+These limitations are demonstrated by the estimated 10-fold under-reporting of cases in the United States in 2020 due to shortages in testing and slow rollout of testing and slow reporting of results [@url:https://www.washingtonpost.com/health/2020/06/25/coronavirus-cases-10-times-larger].
 However, one strategy that may balance the strengths and weaknesses of both types of tests is to corroborate a positive LFT result using a PCR-based method.
-Indeed, in December 2021 sufficient surveillance and reduction of COVID-19 spread using this joint LFT-PCR strategy was demonstrated in Liverpool, U.K., where there was an estimated 21% reduction of cases [@url:https://www.gov.uk/government/publications/liverpool-coronavirus-covid-19-community-testing-pilot-full-evaluation-report-summary/liverpool-coronavirus-covid-19-community-testing-pilot-full-evaluation-report-summary; @doi:10/gnmbjd]. 
+Indeed, in December 2021 sufficient surveillance and reduction of COVID-19 spread using this joint LFT-PCR strategy was demonstrated in Liverpool, U.K., where there was an estimated 21% reduction of cases [@url:https://www.gov.uk/government/publications/liverpool-coronavirus-covid-19-community-testing-pilot-full-evaluation-report-summary/liverpool-coronavirus-covid-19-community-testing-pilot-full-evaluation-report-summary; @doi:10/gnmbjd].
 
-### What lies ahead
-Diagnostic tools have played an important role during the COVID-19 pandemic. 
-Specifically, the results of SARS-CoV-2 diagnostic tests (typically qPCR or LFT-based tests) have been used to estimate the number of infections in the general population, thus informing public health strategies around the globe [@doi:10.1038/s41576-021-00360-w]. 
-During the surges caused by the different SARS-CoV-2 variants between 2020 and 2021, government-sponsored efforts to conduct mass testing and to provide free diagnostic tests to the population were a common occurrence in many parts of the world [@doi:10.1136/bmj.n902; @doi:10.1177/0020852321997552; @doi:10.1016/j.worlddev.2020.105208]. 
-However, recent reports indicate that such public health policies are starting to change during 2022. 
-For example, it is known that the UK plans to dismantle its COVID-19 testing program and scale back its daily reporting requirements [@url:https://www.independent.co.uk/news/health/who-covid-testing-anil-soni-b2032884.html; @doi:10.1136/bmj.o562]. 
+### What Lies Ahead
+
+Diagnostic tools have played an important role during the COVID-19 pandemic.
+Specifically, the results of SARS-CoV-2 diagnostic tests (typically qPCR or LFT-based tests) have been used to estimate the number of infections in the general population, thus informing public health strategies around the globe [@doi:10.1038/s41576-021-00360-w].
+During the surges caused by the different SARS-CoV-2 variants between 2020 and 2021, government-sponsored efforts to conduct mass testing and to provide free diagnostic tests to the population were a common occurrence in many parts of the world [@doi:10.1136/bmj.n902; @doi:10.1177/0020852321997552; @doi:10.1016/j.worlddev.2020.105208].
+However, recent reports indicate that such public health policies are starting to change during 2022.
+For example, it is known that the UK plans to dismantle its COVID-19 testing program and scale back its daily reporting requirements [@url:https://www.independent.co.uk/news/health/who-covid-testing-anil-soni-b2032884.html; @doi:10.1136/bmj.o562].
 A similar approach can be seen in the US as well, where multiple state-run testing facilities are closing, despite some groups advocating to keep them open [@url:https://www.9news.com/article/news/health/coronavirus/local-groups-continue-push-for-covid-testing-and-vaccinations/73-bbcd8384-d96a-425e-aaeb-16ac9f36e581; @url:https://www.sltrib.com/news/2022/02/18/utah-will-stop-daily].
 These ongoing changes in testing policy are likely to have a direct effect on how the pandemic is managed moving forward, because SARS-CoV-2 diagnostic tests can be used effectively to slow the spread of the disease only when 1) they are used to share testing results in a timely manner so that they can reasonably be used to approximate the number of infections in the population, and 2) those tests are easily accessible by the general public.
 
-Children are one segment of the population where the importance of the two aforementioned conditions can be exemplified. 
-This group is particularly vulnerable as there are ongoing challenges with testing in schools, increased COVID-19 mortality rates, and COVID-19-associated orphanhood. 
+Children are one segment of the population where the importance of the two aforementioned conditions can be exemplified.
+This group is particularly vulnerable as there are ongoing challenges with testing in schools, increased COVID-19 mortality rates, and COVID-19-associated orphanhood.
 In this regard, although there is evidence of the efficacy of routine diagnostic testing to reduce the probability of having infectious students [@doi:10.3389/fpubh.2021.751451; @doi:10.2807/1560-7917.ES.2021.26.34.2100184], as of March of 2022 there is an increasing number of schools that have stopped or plan to stop contact tracing efforts [@url:https://www.opb.org/article/2022/03/02/oregon-schools-guidance-mask-mandate-end/; @url:https://www.wptv.com/news/education/palm-beach-county-public-schools-to-stop-covid-19-contact-tracing], in line with an announcement made by the CDC where it no longer recommended contact tracing as a strategy to contain the virus [@url:https://www.nytimes.com/live/2022/03/02/world/covid-19-tests-cases-vaccine].
 An estimated 197 children have died in the US from COVID-19 during the first three months of 2022 [@url:https://www.aap.org/en/pages/2019-novel-coronavirus-covid-19-infections/children-and-covid-19-state-level-data-report/], compared to 735 deaths in the preceding 20 months of the pandemic [@url:https://www.theguardian.com/world/2022/mar/11/us-child-covid-deaths-omicron-surge], and millions of children have been orphaned as a consequence of parent or caregiver death due to COVID-19 [@{doi:10.1016/S2352-4642(22)00005-0}].
 It is likely that reducing or eliminating testing capacity in schools will directly exacerbate these negative outcomes for the remainder of 2022.
 
-The SARS-CoV-2 diagnostic tools presented in this paper lack any real benefit if they are difficult to obtain, or if their limited use results in biased data that would lead to ill-informed public health strategies. 
-The pandemic is still an ongoing public health threat and it is worrying that active testing and tracing efforts are a low priority for public health authorities in many countries. 
-If this trend continues, the lack of testing could result in increased morbidity and mortality and an overall failure to manage the pandemic. 
-
-### Conclusions
-
-Major advancements have been made in identifying diagnostic approaches.
-The development of diagnostic technologies have been rapid, beginning with the release of the SARS-CoV-2 viral genome sequence in January 2020.
-Since then, a range of diagnostic tests have been developed.
-Tests that use are based on PCR (such as RT-qPCR and ddPCR) seek to assess the presence of SARS-CoV-2 RNA in a sample.
-On the other hand, immunoassays can be used to investigate the presence of either viral RNA, viral proteins, or antibodies to a virus.
-As a result, these tests can fall into the category of either molecular or serological tests.
-The former approach is useful for identifying active infections, while the latter measures hallmarks of the immune response and therefore can detect either active infections or immunity gained from prior infection.
-
-Combining these types of tests leads to extremely accurate detection of SARS-CoV-2 infection (98.6%), but when used alone, PCR-based tests are recommended before 5.5 days after the onset of the illness and antibody tests after 5.5 days [@doi:10.1001/jama.2020.8259].
-Other strategies for testing can also influence the tests' accuracy, such as the use of nasopharyngeal swabs versus bronchoalveolar lavage fluid [@doi:10.1001/jama.2020.8259], which allow for trade-offs between patient's comfort and test sensitivity.
-Additionally, during the pandemic, significant technological effort has been applied to the goal of scaling-up the throughput of diagnostic testing.
-Serologic testing combined with PCR testing will be critical to confirming purported cases of reinfection and to identifying the duration over which immunity is retained and to understanding reinfection risks.
+The SARS-CoV-2 diagnostic tools presented in this paper lack any real benefit if they are difficult to obtain, or if their limited use results in biased data that would lead to ill-informed public health strategies.
+The pandemic is still an ongoing public health threat and it is worrying that active testing and tracing efforts are a low priority for public health authorities in many countries.
+If this trend continues, the lack of testing could result in increased morbidity and mortality and an overall failure to manage the pandemic.
 
 
 ## Identification and Development of Therapeutics for COVID-19
@@ -2178,14 +2159,14 @@ The scale of the COVID-19 pandemic has made the repurposing and development of p
 
 ![
 **Cumulative global incidence of COVID-19 and SARS.**
-As of March 28, 2022, 482,326,474 COVID-19 cases and 6,127,440 COVID-19 deaths had been reported worldwide since January 22, 2020.
+As of March 30, 2022, 486,866,607 COVID-19 cases and 6,138,354 COVID-19 deaths had been reported worldwide since January 22, 2020.
 A total of 8,432 cases and 813 deaths were reported for SARS from March 17 to July 11, 2003.
 SARS-CoV-1 was officially contained on July 5, 2003, within 9 months of its appearance [@doi:10.3390/ijerph17113973].
 In contrast, SARS-CoV-2 remains a significant global threat nearly two years after its emergence.
 COVID-19 data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series; @doi:10/ggnsjk].
 SARS data are from the WHO [@url:https://www.who.int/csr/sars/country/en] and were obtained from a dataset on GitHub [@url:https://github.com/imdevskp/sars-2003-outbreak-data-webscraping-code].
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/c7584ed41d1b4782079b097debadb4754b25009e/csse/csse-deaths.png "Global incidence of COVID-19 and SARS"){#fig:csse-deaths secno=1}
+](https://github.com/greenelab/covid19-review/raw/f9e3e904b495df4d9ed9d4a18e2812f8c62323df/csse/csse-deaths.png "Global incidence of COVID-19 and SARS"){#fig:csse-deaths secno=1}
 
 At first, SARS-CoV-2's rapid shift from an unknown virus to a significant worldwide threat closely paralleled the emergence of _Severe acute respiratory syndrome-related coronavirus_ (SARS-CoV-1), which was responsible for the 2002-03 SARS epidemic.
 The first documented case of COVID-19 was reported in Wuhan, China in November 2019, and the disease quickly spread worldwide in the early months of 2020.
@@ -2242,7 +2223,7 @@ Recruitment status and trial phase are shown only for interventional trials in w
 Common interventions refers to interventions used in at least ten trials.
 Combinations of interventions, such as hydroxychloroquine with azithromycin, are tallied separately from the individual interventions.
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/c7584ed41d1b4782079b097debadb4754b25009e/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/f9e3e904b495df4d9ed9d4a18e2812f8c62323df/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 The purpose of this review is to provide an evolving resource tracking the status of efforts to repurpose and develop drugs for the treatment of COVID-19.
 We highlight four strategies that provide different paradigms for the identification of potential pharmaceutical treatments.
@@ -3309,7 +3290,7 @@ Vaccines have nearly 500 years of history, but the SARS-CoV-2 pandemic provides 
 ### Importance
 
 The SARS-CoV-2 pandemic has caused untold damage globally, presenting unusual opportunities and demands in vaccine development.
-As of March 28, 2022, SARS-CoV-2 has infected over 482,326,474 and taken the lives of 6,127,440 people globally.
+As of March 30, 2022, SARS-CoV-2 has infected over 486,866,607 and taken the lives of 6,138,354 people globally.
 The development, production, and distribution of vaccines is imperative to saving lives, preventing illness, and reducing the economic and social burdens caused by the COVID-19 pandemic.
 Effective deployment is critical to reducing the susceptibility of worldwide populations, especially in light of emerging variants.
 This review provides historical context for the current state of vaccine development and highlights the main strategies utilized for COVID-19 vaccine candidates, their clinical appraisal, and their distribution.
@@ -3512,7 +3493,7 @@ Preclinical studies indicated that the BBIBP-CorV vaccine induced sufficient neu
 This figure reflects the number of vaccines based on whole inactivated virus technology that were available in each country as of March 29, 2022.
 These data are retrieved from Our World in Data <!-To Do: Cite--> and plotted using geopandas.
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/owiddata/maps/inactivated.png "Availability of inactivated whole virus vaccines"){#fig:iwv-distrib secno=1}
+](https://github.com/greenelab/covid19-review/raw/f9e3e904b495df4d9ed9d4a18e2812f8c62323df/owiddata/maps/inactivated.png "Availability of inactivated whole virus vaccines"){#fig:iwv-distrib secno=1}
 
 **Efficacy Estimates:**
 The efficacy of whole-virus vaccines estimated during phase III trials varied widely, and in some cases, even estimates for a single vaccine candidate differed across analyses.
@@ -3609,9 +3590,9 @@ In late 2020, an analysis of efficacy in South African adults revealed an overal
 This figure reflects the number of vaccines based on protein subunit technology that were available in each country as of March 29, 2022.
 These data are retrieved from Our World in Data <!-To Do: Cite--> and plotted using geopandas.
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/owiddata/maps/protein_subunit.png "Availability of protein subunit vaccines"){#fig:ps-distrib secno=1}
+](https://github.com/greenelab/covid19-review/raw/f9e3e904b495df4d9ed9d4a18e2812f8c62323df/owiddata/maps/protein_subunit.png "Availability of protein subunit vaccines"){#fig:ps-distrib secno=1}
 
-As of March 29, 2022, 13 protein subunit vaccines are being distributed in 21 countries (Figure @fig:ps-distrib).
+As of March 29, 2022, 14 protein subunit vaccines are being distributed in 21 countries (Figure @fig:ps-distrib).
 <!--These include...-->
 However, the Novavax vaccine has yet to be approved in any country but is allowed for emergency use in Indonesia [@url:https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html], and according to press releases there have been applications for approval for use submitted to New Zealand, Australia, the U.K., and Canada [@url:https://ir.novavax.com/press-releases] and for emergency use listing with the WHO [@url:https://ir.novavax.com/2021-11-04-Novavax-Files-COVID-19-Vaccine-for-Emergency-Use-Listing-with-World-Health-Organization].<!--Still true?-->
 Novavax applied for an EUA from the FDA in early 2022 [@url:https://ir.novavax.com/2022-01-31-Novavax-Submits-Request-to-the-U-S-FDA-for-Emergency-Use-Authorization-of-COVID-19-Vaccine].
@@ -3756,7 +3737,7 @@ ChAdOx1 nCoV-19 was first approved for emergency use on December 30, 2020 in the
 This figure reflects the number of vaccines using non-replicating viral vectors that were available in each country as of March 29, 2022.
 These data are retrieved from Our World in Data <!-To Do: Cite--> and plotted using geopandas.
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/owiddata/maps/non_replicating_viral_vector.png "Availability of non-replicating viral-vectored vaccines"){#fig:nrvv-distrib secno=1}
+](https://github.com/greenelab/covid19-review/raw/f9e3e904b495df4d9ed9d4a18e2812f8c62323df/owiddata/maps/non_replicating_viral_vector.png "Availability of non-replicating viral-vectored vaccines"){#fig:nrvv-distrib secno=1}
 
 As of early January, Sputnik V had been administered to as many as 1.5 million Russians [@url:https://www.brusselstimes.com/news-contents/world/149039/1-5-million-people-have-received-sputnik-v-vaccine-russia-says-russian-direct-investment-fund-mikhail-murashko] , and doses of Sputnik V have also been distributed to other parts of Europe, such as Belarus, Bosnia-Herzegovina, Hungary, San Marino, Serbia, and Slovakia [@url:https://www.euronews.com/2021/02/12/hungary-to-begin-using-russia-s-sputnik-v-vaccine-today; @url:https://www.euronews.com/2021/02/24/san-marino-buys-russia-s-sputnik-v-after-eu-vaccine-delivery-delays; @url:https://www.themoscowtimes.com/2020/12/29/belarus-starts-coronavirus-vaccination-with-sputnik-v-a72512], with the Czech Republic and Austria also having expressed interest in its procurement [@url:https://www.cnbc.com/2021/03/02/russias-sputnik-vaccine-is-luring-eastern-europe-worrying-the-eu.html].
 It wasn't until February 2021, six months after its approval in Russia, that interim results of the phase III trial were released [@doi:10/ghxj4g].
@@ -3831,7 +3812,7 @@ As of March 29, 2022, 3 mRNA vaccines are available in 163 countries (Figure @fi
 This figure reflects the number of vaccines based on mRNA technology that were available in each country as of March 29, 2022.
 These data are retrieved from Our World in Data <!-To Do: Cite--> and plotted using geopandas.
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/owiddata/maps/RNA.png "Availability of mRNA vaccines"){#fig:mRNA-distrib secno=1}
+](https://github.com/greenelab/covid19-review/raw/f9e3e904b495df4d9ed9d4a18e2812f8c62323df/owiddata/maps/RNA.png "Availability of mRNA vaccines"){#fig:mRNA-distrib secno=1}
 
 **Efficacy Estimates:**
 Pfizer/BioNTech's BNT162b2 vaccine and ModernaTX’s mRNA-1273 vaccine, commercially known as Comirnaty and Spikevax, are available in most countries thanks to their rapid development in 2020. 
@@ -5349,7 +5330,7 @@ Trials that recruit across multiple countries do appear to broaden geographic re
 The density of clinical trials is reported at the country level.
 As of December 31, 2020, there are 6,987 trials in the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709], of which 3,962 are interventional.
 The top figure demonstrates the density of interventional trials recruiting only from a singular country, while the bottom shows the distribution of recruitment for interventional trials that involve more than one country.
-](https://github.com/greenelab/covid19-review/raw/c7584ed41d1b4782079b097debadb4754b25009e/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
+](https://github.com/greenelab/covid19-review/raw/f9e3e904b495df4d9ed9d4a18e2812f8c62323df/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
 
 A few different concerns arise from this skewed geographic representation in clinical trial recruitment.
 First, treatments such as remdesivir that are promising but primarily available to clinical trial participants are unlikely to be accessible by people in many countries.
