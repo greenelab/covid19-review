@@ -151,7 +151,7 @@ authors:
             city: Philadelphia
             state: PA
             country: USA
-      diagnosticss:
+      diagnostics:
         order: 9
         contributions:
           - Writing - Review & Editing
@@ -897,7 +897,7 @@ authors:
     funders:
       - Center for Effective Altruism, Long Term Future Fund
     manuscripts:
-      diagnosticss:
+      diagnostics:
         order: 3
         contributions:
           - Writing - Original Draft
