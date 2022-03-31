@@ -289,13 +289,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/4adbc1cb562d21db098780828f1156636ec1f7b7/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/4adbc1cb562d21db098780828f1156636ec1f7b7/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/4adbc1cb562d21db098780828f1156636ec1f7b7/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/9be6a4f28764bbafd0120e330ae749358d2613ff/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/9be6a4f28764bbafd0120e330ae749358d2613ff/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/9be6a4f28764bbafd0120e330ae749358d2613ff/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/4adbc1cb562d21db098780828f1156636ec1f7b7/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/4adbc1cb562d21db098780828f1156636ec1f7b7/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/9be6a4f28764bbafd0120e330ae749358d2613ff/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/9be6a4f28764bbafd0120e330ae749358d2613ff/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -317,11 +317,11 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/4adbc1cb562d21db098780828f1156636ec1f7b7/))
+([permalink](https://greenelab.github.io/covid19-review/v/9be6a4f28764bbafd0120e330ae749358d2613ff/))
 was automatically generated
-from [greenelab/covid19-review@4adbc1c](https://github.com/greenelab/covid19-review/tree/4adbc1cb562d21db098780828f1156636ec1f7b7)
+from [greenelab/covid19-review@9be6a4f](https://github.com/greenelab/covid19-review/tree/9be6a4f28764bbafd0120e330ae749358d2613ff)
 on March 31, 2022.
-It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/4adbc1cb562d21db098780828f1156636ec1f7b7/manuscript.pdf).
+It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/9be6a4f28764bbafd0120e330ae749358d2613ff/manuscript.pdf).
 Snapshots of individual sections have been published [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals; @individual-methods].
 </em></small>
 
@@ -2115,7 +2115,8 @@ In this regard, although there is evidence of the efficacy of routine diagnostic
 An estimated 197 children have died in the US from COVID-19 during the first three months of 2022 [@url:https://www.aap.org/en/pages/2019-novel-coronavirus-covid-19-infections/children-and-covid-19-state-level-data-report/], compared to 735 deaths in the preceding 20 months of the pandemic [@url:https://www.theguardian.com/world/2022/mar/11/us-child-covid-deaths-omicron-surge], and millions of children have been orphaned as a consequence of parent or caregiver death due to COVID-19 [@{doi:10.1016/S2352-4642(22)00005-0}].
 It is likely that reducing or eliminating testing capacity in schools will directly exacerbate these negative outcomes for the remainder of 2022.
 
-The SARS-CoV-2 diagnostic tools presented in this paper lack any real benefit if they are difficult to obtain, or if their limited use results in biased data that would lead to ill-informed public health strategies.
+The SARS-CoV-2 diagnostic tools presented in this paper are far less useful if they are difficult to obtain, or if their limited use results in biased data that would lead to ill-informed public health strategies. 
+Under conditions of limited supply, different strategies for testing are needed [@url:https://openknowledge.worldbank.org/handle/10986/35150].
 The pandemic is still an ongoing public health threat and it is worrying that active testing and tracing efforts are a low priority for public health authorities in many countries.
 If this trend continues, the lack of testing could result in increased morbidity and mortality and an overall failure to manage the pandemic.
 
