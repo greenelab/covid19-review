@@ -289,13 +289,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/d9ca18b6243247667d4fdb1644f4ed4eb60efd0e/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/d9ca18b6243247667d4fdb1644f4ed4eb60efd0e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/d9ca18b6243247667d4fdb1644f4ed4eb60efd0e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/3bea4d7a10f0b61fb09fd2614c85f39b472c953b/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/3bea4d7a10f0b61fb09fd2614c85f39b472c953b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/3bea4d7a10f0b61fb09fd2614c85f39b472c953b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/d9ca18b6243247667d4fdb1644f4ed4eb60efd0e/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/d9ca18b6243247667d4fdb1644f4ed4eb60efd0e/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/3bea4d7a10f0b61fb09fd2614c85f39b472c953b/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/3bea4d7a10f0b61fb09fd2614c85f39b472c953b/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -317,11 +317,11 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/d9ca18b6243247667d4fdb1644f4ed4eb60efd0e/))
+([permalink](https://greenelab.github.io/covid19-review/v/3bea4d7a10f0b61fb09fd2614c85f39b472c953b/))
 was automatically generated
-from [greenelab/covid19-review@d9ca18b](https://github.com/greenelab/covid19-review/tree/d9ca18b6243247667d4fdb1644f4ed4eb60efd0e)
+from [greenelab/covid19-review@3bea4d7](https://github.com/greenelab/covid19-review/tree/3bea4d7a10f0b61fb09fd2614c85f39b472c953b)
 on March 31, 2022.
-It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/d9ca18b6243247667d4fdb1644f4ed4eb60efd0e/manuscript.pdf).
+It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/3bea4d7a10f0b61fb09fd2614c85f39b472c953b/manuscript.pdf).
 Snapshots of individual sections have been published [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals; @individual-methods].
 </em></small>
 
@@ -3375,7 +3375,7 @@ All of these approaches are being explored in the current pandemic.<!--To Do: de
 The first administration of a dose of a COVID-19 vaccine to a human trial participant occurred on March 16, 2020 [@url:https://www.modernatx.com/modernas-work-potential-vaccine-against-covid-19; @doi:10.1038/d41573-020-00073-5], marking an extremely rapid response to the emergence of SARS-CoV-2.
 Within a few weeks, at least 78 vaccine development programs were active [@doi:10.1038/d41573-020-00073-5].
 These programs employ a variety of technologies (Figure @fig:vaccines), ranging from established approaches to novel technologies that had never previously gone to market.
-As of March 29, 2022,  types of vaccines are being administered throughout the world, with 11 billion doses administered across 223 countries.
+As of March 29, 2022, 36 SARS-CoV-2 vaccines have been approved world wide and 24 are being administered throughout the world, with 11 billion doses administered across 223 countries.
 Many vaccines are available in only a subset of countries, and the types of vaccines available varies widely throughout the world.
 The status of individual vaccines continues to change and varies regionally.
 
@@ -3468,7 +3468,7 @@ The exact mechanisms responsible for VADE are still elusive due to the specifici
 
 **Application to COVID-19:**
 Several whole-virus vaccines have been developed against COVID-19 and are available in countries around the world.
-As of March 29, 2022,  vaccines developed with inactivated-whole virus technology are being distributed in  countries (Figure @fig:iwv-distrib).
+As of March 29, 2022, 11 vaccines developed with inactivated-whole virus technology are being distributed in 113 countries (Figure @fig:iwv-distrib).
 One example is CoronaVac, which Beijing-based biopharmaceutical company Sinovac developed using a &beta;-propiolactone-inactivated whole virus produced using Vero cells coupled with the addition of an aluminum adjuvant [@doi:10.3389/fimmu.2020.602256].
 In phase I and II clinical trials, CoronaVac elicited a strong immunogenic response in animal models and the development of neutralizing antibodies in human participants [@doi:10/fx8z; @doi:10.1126/science.abc1932; @doi:10/fpcx].
 Phase III trials of CoronaVac began in Brazil, July 2020, which was followed by trial participant recruitment in Indonesia, Turkey, and Chile, and emergency use approval in China [@url:https://www.nytimes.com/interactive/2020/health/sinovac-covid-19-vaccine.html].
