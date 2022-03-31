@@ -1440,6 +1440,8 @@ authors:
     email: jessegmeyer@gmail.com
     affiliations:
       - Department of Biochemistry, Medical College of Wisconsin, Milwaukee, Wisconsin, United States of America
+    code of conduct:
+      confirmed: Yes
     coi:
       string: "None"
       lastapproved:  !!str 2022-01-06
@@ -1459,6 +1461,8 @@ authors:
     coi:
       string: "None"
       lastapproved:  !!str 2021-12-19
+    code of conduct:
+      confirmed: Yes
     manuscripts:
       diagnostics:
         order: 4
