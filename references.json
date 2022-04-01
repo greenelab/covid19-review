@@ -572,7 +572,7 @@
         [
           "2022",
           3,
-          30
+          31
         ]
       ]
     },
@@ -1049,7 +1049,7 @@
         [
           "2022",
           3,
-          30
+          31
         ]
       ]
     },
@@ -1141,7 +1141,7 @@
         [
           "2022",
           3,
-          30
+          31
         ]
       ]
     },
@@ -1234,7 +1234,7 @@
         [
           "2022",
           3,
-          30
+          31
         ]
       ]
     },
@@ -1400,7 +1400,7 @@
         [
           "2022",
           3,
-          30
+          31
         ]
       ]
     },
@@ -1603,7 +1603,7 @@
         [
           "2022",
           3,
-          30
+          31
         ]
       ]
     },
@@ -1658,7 +1658,7 @@
         [
           "2022",
           3,
-          30
+          31
         ]
       ]
     },
@@ -1824,7 +1824,7 @@
         [
           "2022",
           3,
-          30
+          31
         ]
       ]
     },
@@ -1861,7 +1861,7 @@
         [
           "2022",
           3,
-          30
+          31
         ]
       ]
     },
@@ -1898,7 +1898,7 @@
         [
           "2022",
           3,
-          30
+          31
         ]
       ]
     },
@@ -1971,7 +1971,7 @@
         [
           "2022",
           3,
-          30
+          31
         ]
       ]
     },
@@ -2008,7 +2008,7 @@
         [
           "2022",
           3,
-          30
+          31
         ]
       ]
     },
@@ -2045,7 +2045,7 @@
         [
           "2022",
           3,
-          30
+          31
         ]
       ]
     },
@@ -2082,7 +2082,7 @@
         [
           "2022",
           3,
-          30
+          31
         ]
       ]
     },
@@ -2119,7 +2119,7 @@
         [
           "2022",
           3,
-          30
+          31
         ]
       ]
     },
@@ -2156,7 +2156,7 @@
         [
           "2022",
           3,
-          30
+          31
         ]
       ]
     },
@@ -2193,7 +2193,7 @@
         [
           "2022",
           3,
-          30
+          31
         ]
       ]
     },
@@ -2230,7 +2230,7 @@
         [
           "2022",
           3,
-          30
+          31
         ]
       ]
     },
@@ -2267,7 +2267,7 @@
         [
           "2022",
           3,
-          30
+          31
         ]
       ]
     },
@@ -2341,7 +2341,7 @@
         [
           "2022",
           3,
-          30
+          31
         ]
       ]
     },
@@ -2378,7 +2378,7 @@
         [
           "2022",
           3,
-          30
+          31
         ]
       ]
     },
@@ -2415,7 +2415,7 @@
         [
           "2022",
           3,
-          30
+          31
         ]
       ]
     },
@@ -2452,7 +2452,7 @@
         [
           "2022",
           3,
-          30
+          31
         ]
       ]
     },
@@ -2489,7 +2489,7 @@
         [
           "2022",
           3,
-          30
+          31
         ]
       ]
     },
@@ -2526,7 +2526,7 @@
         [
           "2022",
           3,
-          30
+          31
         ]
       ]
     },
@@ -26764,6 +26764,152 @@
   },
   {
     "publisher": "Elsevier BV",
+    "issue": "35",
+    "DOI": "10.1016/j.vaccine.2017.05.097",
+    "type": "article-journal",
+    "page": "4465-4469",
+    "source": "Crossref",
+    "title": "Clinical development of a recombinant Ebola vaccine in the midst of an unprecedented epidemic",
+    "volume": "35",
+    "author": [
+      {
+        "given": "Beth-Ann G.",
+        "family": "Coller"
+      },
+      {
+        "given": "Jeffrey",
+        "family": "Blue"
+      },
+      {
+        "given": "Rituparna",
+        "family": "Das"
+      },
+      {
+        "given": "Sheri",
+        "family": "Dubey"
+      },
+      {
+        "given": "Lynn",
+        "family": "Finelli"
+      },
+      {
+        "given": "Swati",
+        "family": "Gupta"
+      },
+      {
+        "given": "Frans",
+        "family": "Helmond"
+      },
+      {
+        "given": "Rebecca J.",
+        "family": "Grant-Klein"
+      },
+      {
+        "given": "Kenneth",
+        "family": "Liu"
+      },
+      {
+        "given": "Jakub",
+        "family": "Simon"
+      },
+      {
+        "given": "Sean",
+        "family": "Troth"
+      },
+      {
+        "given": "Susan",
+        "family": "VanRheenen"
+      },
+      {
+        "given": "Julie",
+        "family": "Waterbury"
+      },
+      {
+        "given": "Ashley",
+        "family": "Wivel"
+      },
+      {
+        "given": "Jayanthi",
+        "family": "Wolf"
+      },
+      {
+        "given": "D. Gray",
+        "family": "Heppner"
+      },
+      {
+        "given": "Tracy",
+        "family": "Kemp"
+      },
+      {
+        "given": "Rick",
+        "family": "Nichols"
+      },
+      {
+        "given": "Thomas P.",
+        "family": "Monath"
+      }
+    ],
+    "container-title": "Vaccine",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          8
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gbw3rt",
+    "container-title-short": "Vaccine",
+    "PMID": "28647166",
+    "id": "8uuVgxzA",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1016/j.vaccine.2017.05.097"
+  },
+  {
+    "publisher": "Elsevier BV",
+    "issue": "52",
+    "DOI": "10.1016/j.vaccine.2017.11.003",
+    "type": "article-journal",
+    "page": "7222-7230",
+    "source": "Crossref",
+    "title": "Equination (inoculation of horsepox): An early alternative to vaccination (inoculation of cowpox) and the potential role of horsepox virus in the origin of the smallpox vaccine",
+    "volume": "35",
+    "author": [
+      {
+        "given": "José",
+        "family": "Esparza"
+      },
+      {
+        "given": "Livia",
+        "family": "Schrick"
+      },
+      {
+        "given": "Clarissa R.",
+        "family": "Damaso"
+      },
+      {
+        "given": "Andreas",
+        "family": "Nitsche"
+      }
+    ],
+    "container-title": "Vaccine",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          12
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gcsnbp",
+    "container-title-short": "Vaccine",
+    "PMID": "29137821",
+    "id": "1DFnwhtrq",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1016/j.vaccine.2017.11.003"
+  },
+  {
+    "publisher": "Elsevier BV",
     "issue": "14",
     "DOI": "10.1016/j.vaccine.2018.02.065",
     "type": "article-journal",
@@ -41936,6 +42082,47 @@
     "PMCID": "PMC2750777",
     "PMID": "19198616",
     "note": "This CSL JSON Item was automatically generated by Manubot v0.4.1 using citation-by-identifier.\nstandard_id: doi:10.1038/nrmicro2090\nLoaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-2021-02-08.json\noriginal_id: ueMPuUMe"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "12",
+    "DOI": "10.1038/nrmicro3143",
+    "type": "article-journal",
+    "page": "836-848",
+    "source": "Crossref",
+    "title": "A decade after SARS: strategies for controlling emerging coronaviruses",
+    "volume": "11",
+    "author": [
+      {
+        "given": "Rachel L.",
+        "family": "Graham"
+      },
+      {
+        "given": "Eric F.",
+        "family": "Donaldson"
+      },
+      {
+        "given": "Ralph S.",
+        "family": "Baric"
+      }
+    ],
+    "container-title": "Nature Reviews Microbiology",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          11,
+          11
+        ]
+      ]
+    },
+    "URL": "https://doi.org/ggwrzg",
+    "container-title-short": "Nat Rev Microbiol",
+    "PMCID": "PMC5147543",
+    "PMID": "24217413",
+    "id": "AOGjkjCq",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1038/nrmicro3143"
   },
   {
     "type": "article-journal",
@@ -59000,38 +59187,6 @@
     "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1056/nejmp030072"
   },
   {
-    "publisher": "Massachusetts Medical Society",
-    "issue": "14",
-    "DOI": "10.1056/nejmp048180",
-    "type": "article-journal",
-    "page": "1411-1412",
-    "source": "Crossref",
-    "title": "The Cutter Incident, 50 Years Later",
-    "volume": "352",
-    "author": [
-      {
-        "given": "Paul A.",
-        "family": "Offit"
-      }
-    ],
-    "container-title": "New England Journal of Medicine",
-    "language": "en",
-    "issued": {
-      "date-parts": [
-        [
-          2005,
-          4,
-          7
-        ]
-      ]
-    },
-    "URL": "https://doi.org/cw7wzx",
-    "container-title-short": "N Engl J Med",
-    "PMID": "15814877",
-    "id": "AOgZug76",
-    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1056/nejmp048180"
-  },
-  {
     "type": "article-journal",
     "id": "pbfxOvnK",
     "author": [
@@ -61935,6 +62090,39 @@
     "PMCID": "PMC5612471",
     "PMID": "28605249",
     "note": "This CSL JSON Item was automatically generated by Manubot v0.4.1 using citation-by-identifier.\nstandard_id: doi:10.1080/21645515.2017.1337614\nLoaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-2021-02-08.json\noriginal_id: cwbHiM1o"
+  },
+  {
+    "publisher": "Informa UK Limited",
+    "issue": "12",
+    "DOI": "10.1080/21645515.2017.1358325",
+    "type": "article-journal",
+    "page": "2918-2930",
+    "source": "Crossref",
+    "title": "Vaccines for emerging infectious diseases: Lessons from MERS coronavirus and Zika virus",
+    "volume": "13",
+    "author": [
+      {
+        "given": "Joel N.",
+        "family": "Maslow"
+      }
+    ],
+    "container-title": "Human Vaccines & Immunotherapeutics",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          8,
+          28
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gk7gb4",
+    "container-title-short": "Human Vaccines & Immunotherapeutics",
+    "PMCID": "PMC5718785",
+    "PMID": "28846484",
+    "id": "138O0v19T",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1080/21645515.2017.1358325"
   },
   {
     "publisher": "Informa UK Limited",
@@ -90622,6 +90810,39 @@
   },
   {
     "publisher": "American Association for the Advancement of Science (AAAS)",
+    "issue": "6203",
+    "abstract": "<jats:p>Scaling up production of Ebola vaccines and treatments will take many months.</jats:p>",
+    "DOI": "10.1126/science.345.6203.1441",
+    "type": "article-journal",
+    "page": "1441-1442",
+    "source": "Crossref",
+    "title": "Ebola vaccine: Little and late",
+    "volume": "345",
+    "author": [
+      {
+        "given": "Jon",
+        "family": "Cohen"
+      }
+    ],
+    "container-title": "Science",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          9,
+          19
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gm2qkd",
+    "container-title-short": "Science",
+    "PMID": "25237082",
+    "id": "vTrIB9zS",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.1126/science.345.6203.1441"
+  },
+  {
+    "publisher": "American Association for the Advancement of Science (AAAS)",
     "issue": "6496",
     "abstract": "<jats:p>Amid politicization and scandal, a disappointing scientific picture is emerging.</jats:p>",
     "DOI": "10.1126/science.368.6496.1166",
@@ -110435,6 +110656,45 @@
     "note": "This CSL JSON Item was automatically generated by Manubot v0.4.1 using citation-by-identifier.\nstandard_id: doi:10.3181/00379727-121-30734\nLoaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-2021-02-08.json\noriginal_id: gaAv88da"
   },
   {
+    "publisher": "Centers for Disease Control and Prevention (CDC)",
+    "issue": "7",
+    "DOI": "10.3201/eid1107.050219",
+    "type": "article-journal",
+    "page": "1016-1020",
+    "source": "Crossref",
+    "title": "SARS Vaccine Development",
+    "volume": "11",
+    "author": [
+      {
+        "given": "Shibo",
+        "family": "Jiang"
+      },
+      {
+        "given": "Yuxian",
+        "family": "He"
+      },
+      {
+        "given": "Shuwen",
+        "family": "Liu"
+      }
+    ],
+    "container-title": "Emerging Infectious Diseases",
+    "issued": {
+      "date-parts": [
+        [
+          2005,
+          7
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gm2qkj",
+    "container-title-short": "Emerg. Infect. Dis.",
+    "PMCID": "PMC3371787",
+    "PMID": "16022774",
+    "id": "H4USOXie",
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: doi:10.3201/eid1107.050219"
+  },
+  {
     "type": "article-journal",
     "id": "AC4okoVf",
     "author": [
@@ -118294,8 +118554,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -118319,8 +118579,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -118344,8 +118604,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -118369,8 +118629,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -118459,8 +118719,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -118541,6 +118801,43 @@
     "note": "This CSL JSON Item was automatically generated by Manubot v0.4.0 using citation-by-identifier.\nstandard_id: url:https://clincalc.com/DrugStats/Drugs/Lisinopril\nLoaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references.json"
   },
   {
+    "id": "uPt61a0E",
+    "type": "report",
+    "abstract": "Preliminary data suggest that inactivated vaccine-induced neutralizing antibodies against SARS-CoV-2 decrease at six months after vaccination. Observational, unpublished data also indicate that vaccine effectiveness against Covid-19 wanes over time. Thus, the investigators aimed to determine the reactogenicity, safety, and immunogenicity of a homologous or heterologous booster of SARS-CoV-2 vaccines among people already immunized with an inactivated SARS-CoV-2 vaccine. The study focuses on the elderly population and healthcare workers.",
+    "genre": "Clinical trial registration",
+    "note": "submitted: August 2, 2021\nThis CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: url:https://clinicaltrials.gov/ct2/show/NCT04992182",
+    "number": "NCT04992182",
+    "publisher": "clinicaltrials.gov",
+    "source": "clinicaltrials.gov",
+    "title": "Reactogenicidad, Seguridad e Inmunogenicidad de Dosis de Refuerzo de Vacunas Contra SARS-CoV-2 en Chile (Estudio REFUERZO)",
+    "title-short": "Reactogenicity, Safety, and Immunogenicity of Covid-19 Vaccine Booster",
+    "URL": "https://clinicaltrials.gov/ct2/show/NCT04992182",
+    "author": [
+      {
+        "family": "Araos",
+        "given": "Rafael"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2022",
+          3,
+          31
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2021",
+          8,
+          4
+        ]
+      ]
+    }
+  },
+  {
     "id": "O7L5UTpW",
     "type": "webpage",
     "title": "Cov-Lineages",
@@ -118549,8 +118846,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -118646,8 +118943,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -118663,8 +118960,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -118688,8 +118985,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -118713,8 +119010,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -118729,8 +119026,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -118745,8 +119042,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -118896,8 +119193,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -118921,8 +119218,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -118974,8 +119271,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -119016,8 +119313,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -119127,8 +119424,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -119144,8 +119441,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -119161,8 +119458,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -119178,8 +119475,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -119195,8 +119492,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -119212,8 +119509,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -119294,8 +119591,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -119339,8 +119636,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -119412,8 +119709,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -119501,8 +119798,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -119572,8 +119869,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -119971,8 +120268,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -120057,8 +120354,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -120075,8 +120372,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -120093,8 +120390,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -120123,8 +120420,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -120156,8 +120453,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -120185,8 +120482,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -120211,8 +120508,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -120371,8 +120668,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -120399,8 +120696,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -120451,8 +120748,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -120473,8 +120770,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -120535,8 +120832,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -120566,8 +120863,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -120597,8 +120894,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -120641,8 +120938,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -120695,13 +120992,13 @@
     "id": "DQmAgN0V",
     "type": "webpage",
     "title": "Bloomberg - Are you a robot?",
-    "URL": "https://www.bloomberg.com/tosv2.html?vid=&uuid=a9d7c224-b140-11ec-a6d0-4a757a774558&url=L2dyYXBoaWNzL2NvdmlkLXZhY2NpbmUtdHJhY2tlci1nbG9iYWwtZGlzdHJpYnV0aW9u",
+    "URL": "https://www.bloomberg.com/tosv2.html?vid=&uuid=cef0e267-b1d1-11ec-b2a5-6246786f5769&url=L2dyYXBoaWNzL2NvdmlkLXZhY2NpbmUtdHJhY2tlci1nbG9iYWwtZGlzdHJpYnV0aW9u",
     "accessed": {
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -120711,13 +121008,13 @@
     "id": "uvQMgFXB",
     "type": "webpage",
     "title": "Bloomberg - Are you a robot?",
-    "URL": "https://www.bloomberg.com/tosv2.html?vid=&uuid=a9eb8462-b140-11ec-8241-5457787a5448&url=L25ld3MvYXJ0aWNsZXMvMjAyMC0xMi0wMi93aXRoaW4taG91cnMtb2YtdS1rLXB1dGluLW9yZGVycy1zdGFydC1vZi1tYXNzLWNvdmlkLTE5LXNob3Rz",
+    "URL": "https://www.bloomberg.com/tosv2.html?vid=&uuid=cf57772a-b1d1-11ec-89d7-4966526f6363&url=L25ld3MvYXJ0aWNsZXMvMjAyMC0xMi0wMi93aXRoaW4taG91cnMtb2YtdS1rLXB1dGluLW9yZGVycy1zdGFydC1vZi1tYXNzLWNvdmlkLTE5LXNob3Rz",
     "accessed": {
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -120727,13 +121024,13 @@
     "id": "15MEHt7vJ",
     "type": "webpage",
     "title": "Bloomberg - Are you a robot?",
-    "URL": "https://www.bloomberg.com/tosv2.html?vid=&uuid=aa006c54-b140-11ec-9822-4d6779676a51&url=L25ld3MvbmV3c2xldHRlcnMvMjAyMi0wMS0wNy9hLXN0YXJrLWNvbnRyYXN0LWJldHdlZW4tdGhlLXUtcy1hbmQtZXVyb3BlLW9uLXRlc3Rz",
+    "URL": "https://www.bloomberg.com/tosv2.html?vid=&uuid=cfba2461-b1d1-11ec-9997-766a44467a51&url=L25ld3MvbmV3c2xldHRlcnMvMjAyMi0wMS0wNy9hLXN0YXJrLWNvbnRyYXN0LWJldHdlZW4tdGhlLXUtcy1hbmQtZXVyb3BlLW9uLXRlc3Rz",
     "accessed": {
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -120793,8 +121090,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -120819,8 +121116,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -120878,8 +121175,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -120912,8 +121209,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -120948,8 +121245,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -120982,8 +121279,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -121056,8 +121353,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -121226,8 +121523,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -121294,8 +121591,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -121332,8 +121629,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -121455,8 +121752,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -121497,8 +121794,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -121531,8 +121828,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -121601,8 +121898,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -121626,8 +121923,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -121662,8 +121959,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -121780,8 +122077,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -121815,8 +122112,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -121851,8 +122148,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -121886,8 +122183,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -121921,8 +122218,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -121991,8 +122288,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -122025,8 +122322,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -122053,8 +122350,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -122117,8 +122414,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -122153,8 +122450,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -122459,8 +122756,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -122495,8 +122792,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -122670,8 +122967,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -122689,8 +122986,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -122751,8 +123048,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -122800,8 +123097,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -122819,8 +123116,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -122838,8 +123135,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -122857,8 +123154,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -122915,8 +123212,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -122950,8 +123247,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -122979,8 +123276,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -123078,8 +123375,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -123106,8 +123403,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -123188,8 +123485,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -123207,8 +123504,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -123225,8 +123522,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -123243,8 +123540,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -123289,8 +123586,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -123334,8 +123631,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -123353,8 +123650,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -123439,9 +123736,22 @@
     "note": "This CSL JSON Item was automatically generated by Manubot v0.4.1 using citation-by-identifier.\nstandard_id: url:https://www.nccih.nih.gov/health/colloidal-silver\nLoaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-2021-02-08.json\noriginal_id: wtYA1GbG"
   },
   {
-    "URL": "https://www.niaid.nih.gov/news-events/novel-coronavirus-sarscov2-images",
-    "type": "webpage",
     "id": "Jzj97hJh",
+    "type": "webpage",
+    "abstract": "NIAID has produced images of the novel coronavirus SARS-CoV-2 on its scanning and transmission electron microscopes on Tuesday, Feb. 11, 2020. SARS-CoV-2 causes COVID-2019 disease, which has grown to be a global public health emergency since cases were first detected in Wuhan, China, in December 2019.",
+    "language": "en",
+    "title": "New Images of Novel Coronavirus SARS-CoV-2 Now Available | NIH: National Institute of Allergy and Infectious Diseases",
+    "title-short": "New Images of Novel Coronavirus SARS-CoV-2 Now Available | NIH",
+    "URL": "https://www.niaid.nih.gov/news-events/novel-coronavirus-sarscov2-images",
+    "accessed": {
+      "date-parts": [
+        [
+          "2022",
+          4,
+          1
+        ]
+      ]
+    },
     "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: url:https://www.niaid.nih.gov/news-events/novel-coronavirus-sarscov2-images"
   },
   {
@@ -123488,8 +123798,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -123677,8 +123987,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -123715,8 +124025,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -123756,8 +124066,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -123793,8 +124103,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -123830,8 +124140,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -123867,8 +124177,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -123904,8 +124214,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -123998,8 +124308,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -124047,8 +124357,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -124096,8 +124406,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -124145,8 +124455,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -124160,55 +124470,6 @@
       ]
     },
     "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: url:https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html#sinopharm"
-  },
-  {
-    "id": "ONBMyjqX",
-    "type": "article-newspaper",
-    "abstract": "A look at all the vaccines that have reached trials in humans.",
-    "container-title": "The New York Times",
-    "ISSN": "0362-4331",
-    "language": "en-US",
-    "section": "Science",
-    "source": "NYTimes.com",
-    "title": "Coronavirus Vaccine Tracker",
-    "URL": "https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html",
-    "author": [
-      {
-        "family": "Zimmer",
-        "given": "Carl"
-      },
-      {
-        "family": "Corum",
-        "given": "Jonathan"
-      },
-      {
-        "family": "Wee",
-        "given": "Sui-Lee"
-      },
-      {
-        "family": "Kristoffersen",
-        "given": "Matthew"
-      }
-    ],
-    "accessed": {
-      "date-parts": [
-        [
-          "2022",
-          3,
-          31
-        ]
-      ]
-    },
-    "issued": {
-      "date-parts": [
-        [
-          "2020",
-          6,
-          10
-        ]
-      ]
-    },
-    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: url:https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html#sinovac"
   },
   {
     "id": "mR6133bK",
@@ -124243,8 +124504,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -124298,8 +124559,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -124315,7 +124576,7 @@
     "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: url:https://www.nytimes.com/interactive/2021/world/covid-vaccinations-tracker.html"
   },
   {
-    "id": "b8mPaHMy",
+    "id": "d09adg1G",
     "type": "article-newspaper",
     "abstract": "The Trump administration is working on a deal that would enable Pfizer to make additional shots for Americans early next year. A surge of infections in Sweden is fueling criticism of the government.",
     "container-title": "The New York Times",
@@ -124335,8 +124596,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -124349,7 +124610,7 @@
         ]
       ]
     },
-    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: url:https://www.nytimes.com/live/2020/12/16/world/covid-19-coronavirus#the-clinical-trials-of-a-chinese-vaccine-resume-in-peru-after-a-volunteers-illness-is-deemed-unrelated"
+    "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: url:https://www.nytimes.com/live/2020/12/16/world/covid-19-coronavirus"
   },
   {
     "id": "1CGvdSkU0",
@@ -124373,8 +124634,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -124450,8 +124711,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -124554,8 +124815,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -124625,8 +124886,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -124645,8 +124906,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -124664,8 +124925,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -124688,8 +124949,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -124705,8 +124966,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -124726,8 +124987,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -124756,8 +125017,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -124786,8 +125047,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -124843,7 +125104,7 @@
     "abstract": "Russia on Saturday approved a third coronavirus vaccine for domestic use, Prime Minister Mikhail Mishustin said on state TV, though large-scale clinical trials of the shot, labelled CoviVac and produced by the Chumakov Centre, have yet to begin.",
     "container-title": "Reuters",
     "language": "en",
-    "section": "Healthcare & Pharma",
+    "section": "Healthcare & Pharmaceuticals",
     "source": "www.reuters.com",
     "title": "Russia approves its third COVID-19 vaccine, CoviVac",
     "URL": "https://www.reuters.com/article/us-health-coronavirus-russia-vaccine-idUSKBN2AK07H",
@@ -124851,8 +125112,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -124881,8 +125142,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -124947,8 +125208,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -125000,8 +125261,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -125034,8 +125295,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -125064,8 +125325,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -125085,8 +125346,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -125110,8 +125371,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -125130,8 +125391,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -125175,8 +125436,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -125214,8 +125475,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -125232,8 +125493,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -125273,8 +125534,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -125309,8 +125570,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -125327,8 +125588,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -125345,8 +125606,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -125363,8 +125624,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -125382,8 +125643,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -125400,8 +125661,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -125424,8 +125685,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -125443,8 +125704,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -125481,8 +125742,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
