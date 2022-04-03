@@ -1,8 +1,8 @@
 {
-  "csse_cases": "489,607,122",
-  "csse_commit": "115f1ff1fd0fc0cf4230985d9aabcde4cb49b75f",
-  "csse_date_pretty": "April 1, 2022",
-  "csse_deaths": "6,148,449",
-  "csse_deaths_figure": "https://github.com/greenelab/covid19-review/raw/48deb7c0bfefd342e5bba9f851ff4bb84e51ffa6/csse/csse-deaths.png",
-  "csse_update_time_utc": "2022-04-02T05:03:19.046697"
+  "csse_cases": "490,662,170",
+  "csse_commit": "334435234f740d61703dfe7e514f652ea05b8f50",
+  "csse_date_pretty": "April 2, 2022",
+  "csse_deaths": "6,151,170",
+  "csse_deaths_figure": "https://github.com/greenelab/covid19-review/raw/de647beb3831640a5beb3218764d51e33a0c57ad/csse/csse-deaths.png",
+  "csse_update_time_utc": "2022-04-03T06:01:25.596915"
 }
