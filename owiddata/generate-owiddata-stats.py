@@ -227,7 +227,7 @@ def main(args):
 
     # Generate table of vaccines within each platform type
     for type in set(vaxPlatforms["Platform Type"]):
-        owid_stats["viper_approved_" + "-".join(type.split())] = \
+        owid_stats["viper_approved_" + "_".join(type.split())] = \
             create_table(vaxPlatforms, type)
 
     # Set the parameters color-coding the plots. Scale is the max candidates adminstered across all vaccine types.
