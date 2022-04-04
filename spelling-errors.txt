@@ -5,6 +5,8 @@ gnx
 hw
 Katholieke
 Leuven
+Nuvaxovid
 Technion
 Universiteit
+VLP
 ZF

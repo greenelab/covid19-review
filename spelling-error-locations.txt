@@ -1,5 +1,14 @@
 content/22.vaccines.md:228:CoronaVac’s
 content/22.vaccines.md:235:COVAXIN’s
+content/22.vaccines.md:272:VLP
+content/22.vaccines.md:277:VLP
+content/22.vaccines.md:297:VLP
+content/22.vaccines.md:297:VLP
+content/22.vaccines.md:299:VLP
+content/22.vaccines.md:308:Nuvaxovid
+content/22.vaccines.md:315:nuvaxovid
+content/22.vaccines.md:315:nuvaxovid
+content/22.vaccines.md:318:VLP
 content/23.vaccines-app.md:5:Katholieke
 content/23.vaccines-app.md:5:Leuven
 content/23.vaccines-app.md:5:Universiteit
