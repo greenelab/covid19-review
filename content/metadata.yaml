@@ -1445,6 +1445,8 @@ authors:
     coi:
       string: "None"
       lastapproved:  !!str 2022-01-06
+    funders:
+      - National Institute of General Medical Sciences (R35 GM142502)
     manuscripts:
       diagnostics:
         order: 3
