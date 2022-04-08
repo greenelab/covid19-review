@@ -57,8 +57,9 @@ authors:
       diagnostics:
         order: 1
         contributions:
-          - A
-          - E
+          - Project Administration
+          - Writing - Original Draft
+          - Writing - Review & Editing
       methods:
         order: 1
         contributions:
@@ -150,6 +151,12 @@ authors:
             city: Philadelphia
             state: PA
             country: USA
+      diagnostics:
+        order: 9
+        contributions:
+          - Writing - Review & Editing
+          - Project Administration
+          - Writing - Original Draft
   -
     github: mprobson
     name: Michael P. Robson
@@ -246,6 +253,10 @@ authors:
           - Writing - Original Draft
           - Project Administration
           - Visualization
+      diagnostics:
+        order: 6
+        contributions:
+          - Writing - Review & Editing
   -
     github: RLordan
     name: Ronan Lordan
@@ -260,6 +271,8 @@ authors:
       confirmed: Yes
     affiliations:
       - Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104-5158, USA
+      - Department of Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
+      - Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania; Philadelphia, PA 19104, USA
     coi:
       string: "None"
       lastapproved: !!str 2020-11-03
@@ -277,6 +290,12 @@ authors:
           - Project Administration
       pharmaceuticals:
         order: 5
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
+          - Project Administration
+      diagnostics:
+        order: 2
         contributions:
           - Writing - Review & Editing
           - Writing - Original Draft
@@ -310,6 +329,12 @@ authors:
         contributions:
           - Writing - Review & Editing
           - Project Administration
+      diagnostics:
+        order: 2
+        contributions:
+          - Writing - Review & Editing
+          - Project Administration
+          - Writing - Original Draft
   -
     github: rays1987
     name: Sandipan Ray
@@ -423,6 +448,13 @@ authors:
             city: Madison
             state: WI
             country: USA
+      diagnostics:
+        order: 8
+        contributions:
+          - Methodology
+          - Software
+          - Project Administration
+          - Writing - Review & Editing
   -
     github: aadattoli
     name: Anna Ada Dattoli
@@ -442,6 +474,10 @@ authors:
     manuscripts:
       pharmaceuticals:
         order: 4
+        contributions:
+          - Writing - Original Draft
+      diagnostics:
+        order: 3
         contributions:
           - Writing - Original Draft
   -
@@ -852,11 +888,20 @@ authors:
     affiliations:
       - 1DaySooner, Delaware, United States of America
       - Risk and Health Communication Research Center, School of Public Health, University of Haifa, Haifa, Israel
+      - Technion, Israel Institute of Technology, Haifa, Israel
     code of conduct:
       confirmed: yes
     coi:
       string: "None"
-      lastapproved: !!str 2020-11-11
+      lastapproved: !!str 2022-03-15
+    funders:
+      - Center for Effective Altruism, Long Term Future Fund
+    manuscripts:
+      diagnostics:
+        order: 3
+        contributions:
+          - Writing - Original Draft
+          - Writing - Review & Editing
   -
     github: soumitagh
     name: Soumita Ghosh
@@ -1129,6 +1174,12 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2020-11-11
+    manuscripts:
+      diagnostics:
+        order: 4
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
   -
     github: smangul1
     name: Serghei Mangul
@@ -1232,6 +1283,11 @@ authors:
         contributions:
           - Writing - Review & Editing
           - Writing - Original Draft
+      diagnostics:
+        order: 5
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
   -
     name: COVID-19 Review Consortium
     code of conduct:
@@ -1255,6 +1311,10 @@ authors:
           - Project Administration
       methods:
         order: 8
+        contributions:
+          - Project Administration
+      diagnostics:
+        order: 7
         contributions:
           - Project Administration
   -
@@ -1373,21 +1433,6 @@ authors:
         contributions:
           - Writing - Review & Editing
   - 
-    github: aimundo
-    name: Ariel I. Mundo
-    affiliations:
-      - Department of Biomedical Engineering, University of Arkansas, Fayetteville, Arkansas, USA
-    email: aimundo@uark.edu
-    orcid: 0000-0002-6014-4538
-    coi:
-      string: "None"
-      lastapproved:  !!str 2021-12-19
-    manuscripts:
-      diagnostics:
-        order: 1
-        contributions:
-          - Writing - Review & Editing
-  - 
     github: jessegmeyerlab
     name: Jesse G. Meyer
     initials: JGM
@@ -1395,12 +1440,32 @@ authors:
     email: jessegmeyer@gmail.com
     affiliations:
       - Department of Biochemistry, Medical College of Wisconsin, Milwaukee, Wisconsin, United States of America
+    code of conduct:
+      confirmed: Yes
     coi:
       string: "None"
       lastapproved:  !!str 2022-01-06
     manuscripts:
       diagnostics:
-        order: 1
+        order: 3
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
+  - 
+    github: aimundo
+    name: Ariel I. Mundo
+    affiliations:
+    - Department of Biomedical Engineering, University of Arkansas, Fayetteville, Arkansas, USA
+    email: aimundo@uark.edu
+    orcid: 0000-0002-6014-4538
+    coi:
+      string: "None"
+      lastapproved:  !!str 2021-12-19
+    code of conduct:
+      confirmed: Yes
+    manuscripts:
+      diagnostics:
+        order: 4
         contributions:
           - Writing - Review & Editing
           - Writing - Original Draft
