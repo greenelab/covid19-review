@@ -572,7 +572,7 @@
         [
           "2022",
           4,
-          3
+          6
         ]
       ]
     },
@@ -1049,7 +1049,7 @@
         [
           "2022",
           4,
-          3
+          6
         ]
       ]
     },
@@ -1141,7 +1141,7 @@
         [
           "2022",
           4,
-          3
+          6
         ]
       ]
     },
@@ -1234,7 +1234,7 @@
         [
           "2022",
           4,
-          3
+          6
         ]
       ]
     },
@@ -1400,7 +1400,7 @@
         [
           "2022",
           4,
-          3
+          6
         ]
       ]
     },
@@ -1603,7 +1603,7 @@
         [
           "2022",
           4,
-          3
+          6
         ]
       ]
     },
@@ -1658,7 +1658,7 @@
         [
           "2022",
           4,
-          3
+          6
         ]
       ]
     },
@@ -1824,7 +1824,7 @@
         [
           "2022",
           4,
-          3
+          6
         ]
       ]
     },
@@ -1861,7 +1861,7 @@
         [
           "2022",
           4,
-          3
+          6
         ]
       ]
     },
@@ -1898,7 +1898,7 @@
         [
           "2022",
           4,
-          3
+          6
         ]
       ]
     },
@@ -1971,7 +1971,7 @@
         [
           "2022",
           4,
-          3
+          6
         ]
       ]
     },
@@ -2008,7 +2008,7 @@
         [
           "2022",
           4,
-          3
+          6
         ]
       ]
     },
@@ -2016,8 +2016,8 @@
       "date-parts": [
         [
           "2022",
-          2,
-          4
+          4,
+          5
         ]
       ]
     }
@@ -2045,7 +2045,7 @@
         [
           "2022",
           4,
-          3
+          6
         ]
       ]
     },
@@ -2053,8 +2053,8 @@
       "date-parts": [
         [
           "2022",
-          2,
-          4
+          4,
+          5
         ]
       ]
     }
@@ -2082,7 +2082,7 @@
         [
           "2022",
           4,
-          3
+          6
         ]
       ]
     },
@@ -2119,7 +2119,7 @@
         [
           "2022",
           4,
-          3
+          6
         ]
       ]
     },
@@ -2156,7 +2156,7 @@
         [
           "2022",
           4,
-          3
+          6
         ]
       ]
     },
@@ -2193,7 +2193,7 @@
         [
           "2022",
           4,
-          3
+          6
         ]
       ]
     },
@@ -2230,7 +2230,7 @@
         [
           "2022",
           4,
-          3
+          6
         ]
       ]
     },
@@ -2267,7 +2267,7 @@
         [
           "2022",
           4,
-          3
+          6
         ]
       ]
     },
@@ -2341,7 +2341,7 @@
         [
           "2022",
           4,
-          3
+          6
         ]
       ]
     },
@@ -2378,7 +2378,7 @@
         [
           "2022",
           4,
-          3
+          6
         ]
       ]
     },
@@ -2415,7 +2415,7 @@
         [
           "2022",
           4,
-          3
+          6
         ]
       ]
     },
@@ -2452,7 +2452,7 @@
         [
           "2022",
           4,
-          3
+          6
         ]
       ]
     },
@@ -2489,7 +2489,7 @@
         [
           "2022",
           4,
-          3
+          6
         ]
       ]
     },
@@ -2526,7 +2526,7 @@
         [
           "2022",
           4,
-          3
+          6
         ]
       ]
     },
@@ -17486,7 +17486,7 @@
         "family": "Jones"
       }
     ],
-    "container-title": "Current Opinion in Environmental Science & Health",
+    "container-title": "Current Opinion in Environmental Science &amp; Health",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -17497,7 +17497,7 @@
       ]
     },
     "URL": "https://doi.org/gg4tb6",
-    "container-title-short": "Current Opinion in Environmental Science & Health",
+    "container-title-short": "Current Opinion in Environmental Science &amp; Health",
     "PMCID": "PMC7291992",
     "PMID": "32835157",
     "id": "EH5exCzT",
@@ -43024,7 +43024,7 @@
         "family": "Pozzetto"
       }
     ],
-    "container-title": "Cellular & Molecular Immunology",
+    "container-title": "Cellular &amp; Molecular Immunology",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -118822,7 +118822,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -118847,7 +118847,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -118872,7 +118872,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -118897,7 +118897,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -118987,7 +118987,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -119090,7 +119090,7 @@
         [
           "2022",
           4,
-          3
+          6
         ]
       ]
     },
@@ -119114,7 +119114,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -119211,16 +119211,27 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
     "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: url:https://covdb.stanford.edu/page/susceptibility-data"
   },
   {
-    "URL": "https://covid-19tracker.milkeninstitute.org",
-    "type": "webpage",
     "id": "iCUWeMfX",
+    "type": "webpage",
+    "abstract": "The Milken Institute’s COVID-19 Treatment and Vaccine Tracker tracks the development of treatments and vaccines for COVID-19 (coronavirus). Explore the latest updates on the urgent race to develop a COVID-19 vaccine.",
+    "title": "Milken Institute’s COVID-19 Treatment and Vaccine Tracker tracks the development of treatments and vaccines for COVID-19 at covid-19tracker.milkeninstitute.org #COVID19 #coronavirus #COVID19treatment #COVID19vaccine @MilkenInstitute @FirstPersonSF",
+    "URL": "https://covid-19tracker.milkeninstitute.org/",
+    "accessed": {
+      "date-parts": [
+        [
+          "2022",
+          4,
+          8
+        ]
+      ]
+    },
     "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: url:https://covid-19tracker.milkeninstitute.org"
   },
   {
@@ -119242,7 +119253,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -119267,7 +119278,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -119283,7 +119294,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -119299,7 +119310,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -119450,7 +119461,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -119475,7 +119486,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -119528,7 +119539,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -119570,7 +119581,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -119681,7 +119692,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -119698,7 +119709,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -119715,7 +119726,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -119732,7 +119743,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -119814,7 +119825,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -119859,7 +119870,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -119932,7 +119943,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -120021,7 +120032,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -120092,7 +120103,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -120491,7 +120502,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -120577,7 +120588,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -120595,7 +120606,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -120613,7 +120624,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -120643,7 +120654,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -120676,7 +120687,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -120705,7 +120716,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -120731,7 +120742,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -120891,7 +120902,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -120919,7 +120930,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -120971,7 +120982,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -120993,7 +121004,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -121055,7 +121066,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -121086,7 +121097,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -121117,7 +121128,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -121161,7 +121172,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -121214,13 +121225,13 @@
     "id": "DQmAgN0V",
     "type": "webpage",
     "title": "Bloomberg - Are you a robot?",
-    "URL": "https://www.bloomberg.com/tosv2.html?vid=&uuid=47929022-b447-11ec-aed6-436e74497a62&url=L2dyYXBoaWNzL2NvdmlkLXZhY2NpbmUtdHJhY2tlci1nbG9iYWwtZGlzdHJpYnV0aW9u",
+    "URL": "https://www.bloomberg.com/tosv2.html?vid=&uuid=7c557da2-b771-11ec-bcf3-6d69507a5971&url=L2dyYXBoaWNzL2NvdmlkLXZhY2NpbmUtdHJhY2tlci1nbG9iYWwtZGlzdHJpYnV0aW9u",
     "accessed": {
       "date-parts": [
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -121230,13 +121241,13 @@
     "id": "uvQMgFXB",
     "type": "webpage",
     "title": "Bloomberg - Are you a robot?",
-    "URL": "https://www.bloomberg.com/tosv2.html?vid=&uuid=47a9a55a-b447-11ec-950b-47574f777a68&url=L25ld3MvYXJ0aWNsZXMvMjAyMC0xMi0wMi93aXRoaW4taG91cnMtb2YtdS1rLXB1dGluLW9yZGVycy1zdGFydC1vZi1tYXNzLWNvdmlkLTE5LXNob3Rz",
+    "URL": "https://www.bloomberg.com/tosv2.html?vid=&uuid=7c962c60-b771-11ec-821f-766b71447570&url=L25ld3MvYXJ0aWNsZXMvMjAyMC0xMi0wMi93aXRoaW4taG91cnMtb2YtdS1rLXB1dGluLW9yZGVycy1zdGFydC1vZi1tYXNzLWNvdmlkLTE5LXNob3Rz",
     "accessed": {
       "date-parts": [
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -121246,13 +121257,13 @@
     "id": "15MEHt7vJ",
     "type": "webpage",
     "title": "Bloomberg - Are you a robot?",
-    "URL": "https://www.bloomberg.com/tosv2.html?vid=&uuid=47bba021-b447-11ec-847b-5949546a6961&url=L25ld3MvbmV3c2xldHRlcnMvMjAyMi0wMS0wNy9hLXN0YXJrLWNvbnRyYXN0LWJldHdlZW4tdGhlLXUtcy1hbmQtZXVyb3BlLW9uLXRlc3Rz",
+    "URL": "https://www.bloomberg.com/tosv2.html?vid=&uuid=7cd39466-b771-11ec-a64f-54434b596a69&url=L25ld3MvbmV3c2xldHRlcnMvMjAyMi0wMS0wNy9hLXN0YXJrLWNvbnRyYXN0LWJldHdlZW4tdGhlLXUtcy1hbmQtZXVyb3BlLW9uLXRlc3Rz",
     "accessed": {
       "date-parts": [
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -121313,7 +121324,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -121339,7 +121350,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -121384,7 +121395,7 @@
     "abstract": "Under the interim order, a company can submit an application for a drug for use in COVID-19",
     "genre": "regulations",
     "language": "eng",
-    "title": "Drug and vaccine authorizations for COVID-19: List of applications received",
+    "title": "Drug and vaccine authorizations for COVID-19: Applications received",
     "title-short": "Drug and vaccine authorizations for COVID-19",
     "URL": "https://www.canada.ca/en/health-canada/services/drugs-health-products/covid19-industry/drugs-vaccines-treatments/authorization/applications.html",
     "author": [
@@ -121398,7 +121409,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -121432,7 +121443,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -121468,7 +121479,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -121502,7 +121513,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -121576,7 +121587,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -121746,7 +121757,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -121814,7 +121825,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -121841,10 +121852,6 @@
       {
         "family": "CDC",
         "given": ""
-      },
-      {
-        "family": "CDC",
-        "given": ""
       }
     ],
     "accessed": {
@@ -121852,7 +121859,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -121975,7 +121982,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -122017,7 +122024,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -122051,7 +122058,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -122121,7 +122128,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -122147,7 +122154,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -122192,7 +122199,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -122310,7 +122317,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -122345,7 +122352,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -122381,7 +122388,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -122416,7 +122423,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -122451,7 +122458,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -122521,7 +122528,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -122555,7 +122562,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -122583,7 +122590,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -122647,7 +122654,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -122683,7 +122690,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -122691,8 +122698,8 @@
       "date-parts": [
         [
           "2022",
-          3,
-          14
+          4,
+          7
         ]
       ]
     },
@@ -122989,7 +122996,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -123025,7 +123032,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -123200,7 +123207,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -123219,7 +123226,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -123281,7 +123288,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -123330,7 +123337,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -123349,7 +123356,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -123368,7 +123375,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -123387,7 +123394,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -123445,7 +123452,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -123480,7 +123487,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -123509,7 +123516,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -123608,7 +123615,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -123636,7 +123643,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -123718,7 +123725,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -123737,7 +123744,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -123755,7 +123762,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -123773,7 +123780,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -123819,7 +123826,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -123864,7 +123871,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -123883,7 +123890,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -123980,7 +123987,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -124031,7 +124038,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -124220,7 +124227,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -124258,7 +124265,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -124299,7 +124306,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -124336,7 +124343,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -124373,7 +124380,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -124410,7 +124417,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -124447,7 +124454,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -124541,7 +124548,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -124590,7 +124597,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -124639,7 +124646,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -124688,7 +124695,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -124737,7 +124744,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -124773,7 +124780,7 @@
   {
     "id": "dfl5iCJI",
     "type": "article-newspaper",
-    "abstract": "More than 5.08 billion people worldwide have received a Covid-19 vaccine, equal to about 66.2 percent of the world population.",
+    "abstract": "More than 5.09 billion people worldwide have received a Covid-19 vaccine, equal to about 66.4 percent of the world population.",
     "container-title": "The New York Times",
     "ISSN": "0362-4331",
     "language": "en-US",
@@ -124792,7 +124799,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -124829,7 +124836,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -124867,7 +124874,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -124944,7 +124951,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -125048,7 +125055,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -125119,7 +125126,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -125139,7 +125146,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -125158,7 +125165,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -125182,7 +125189,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -125199,7 +125206,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -125220,7 +125227,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -125250,7 +125257,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -125280,7 +125287,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -125345,7 +125352,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -125366,7 +125373,7 @@
     "abstract": "Brazilian researchers said on Wednesday the COVID-19 vaccine developed by China's Sinovac Biotech is more than 50% effective based on trial data, but again withheld full results at the company's request, raising questions about transparency.",
     "container-title": "Reuters",
     "language": "en",
-    "section": "Healthcare & Pharma",
+    "section": "Healthcare & Pharmaceuticals",
     "source": "www.reuters.com",
     "title": "Brazil institute says CoronaVac efficacy above 50%, but delays full results",
     "URL": "https://www.reuters.com/article/us-health-coronavirus-sinovac-brazil-idUSKBN28X2CR",
@@ -125375,7 +125382,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -125441,7 +125448,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -125494,7 +125501,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -125528,7 +125535,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -125558,7 +125565,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -125579,7 +125586,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -125604,7 +125611,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -125624,7 +125631,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -125658,21 +125665,9 @@
     "note": "This CSL JSON Item was automatically generated by Manubot v0.4.1 using citation-by-identifier.\nstandard_id: url:https://www.who.int/biologicals/areas/vaccines/dna/en\nLoaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references-2021-02-08.json\noriginal_id: XnrBoKVk"
   },
   {
-    "id": "im26z7DR",
+    "URL": "https://www.who.int/csr/sars/country/en",
     "type": "webpage",
-    "abstract": "There is no cure or vaccine for SARS and treatment should be supportive and based on the patient’s symptoms.",
-    "language": "en",
-    "title": "Severe Acute Respiratory Syndrome (SARS)",
-    "URL": "https://www.who.int/westernpacific/health-topics/severe-acute-respiratory-syndrome",
-    "accessed": {
-      "date-parts": [
-        [
-          "2022",
-          4,
-          4
-        ]
-      ]
-    },
+    "id": "im26z7DR",
     "note": "This CSL Item was generated by Manubot v0.5.2 from its persistent identifier (standard_id).\nstandard_id: url:https://www.who.int/csr/sars/country/en"
   },
   {
@@ -125708,7 +125703,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -125720,13 +125715,13 @@
     "abstract": "All viruses, including SARS-CoV-2, the virus that causes COVID-19, change over time. Most changes have little to no impact on the virus’ properties. However, some changes may affect the virus’s properties, such as how easily it spreads, the associated disease severity, or the performance of vaccines, therapeutic medicines, diagnostic tools, or other public health and social measures. WHO, in collaboration with partners, expert networks, national authorities, institutions and researchers have been monitoring and assessing the evolution of SARS-CoV-2 since January 2020. During late 2020, the emergence of variants that posed an increased risk to global public health prompted the characterisation of specific Variants of Interest (VOIs) and Variants of Concern (VOCs), in order to prioritise global monitoring and research, and ultimately to inform the ongoing response to the COVID-19 pandemic.  WHO and its international networks of experts are monitoring changes to the virus so that if significant amino acid substitutions are identified, we can inform countries and the public about any changes that may be needed to respond to the variant, and prevent its spread. Globally, systems have been established and are being strengthened to detect “signals” of potential VOIs or VOCs and assess these based on the risk posed to global public health. National authorities may choose to designate other variants of local interest/concern. Reducing transmission through established and proven disease control methods/measures, as well as avoiding introductions into animal populations, are crucial aspects of the global strategy to reduce the occurrence of mutations that have negative public health implications.Current strategies and measures recommended by WHO continue to work against virus variants identified since the start of the pandemic. Evidence from multiple countries with extensive transmission of VOCs has indicated that public health and social measures (PHSM), including infection prevention and control (IPC) measures, have been effective in reducing COVID-19 cases, hospitalizations and deaths. National and local authorities are encouraged to continue strengthening existing PHSM and IPC measures. Authorities are also encouraged to strengthen surveillance and sequencing capacities and apply a systematic approach to provide a representative indication of the extent of transmission of SARS-CoV-2 variants based on the local context, and to detect unusual epidemiological events.",
     "language": "en",
     "title": "Tracking SARS-CoV-2 variants",
-    "URL": "https://www.who.int/health-topics/nipah-virus-infection/tracking-SARS-CoV-2-variants",
+    "URL": "https://www.who.int/activities/tracking-SARS-CoV-2-variants",
     "accessed": {
       "date-parts": [
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -125767,7 +125762,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -125803,7 +125798,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -125821,7 +125816,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -125839,7 +125834,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -125857,7 +125852,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -125876,7 +125871,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -125894,7 +125889,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -125918,7 +125913,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -125937,7 +125932,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
@@ -125975,7 +125970,7 @@
         [
           "2022",
           4,
-          4
+          8
         ]
       ]
     },
