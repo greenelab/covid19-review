@@ -1,3 +1,11 @@
+content/09.evolution.md:81:polymorphisms
+content/09.evolution.md:81:SNPs
+content/09.evolution.md:82:GWAS
+content/09.evolution.md:90:homozgyosity
+content/09.evolution.md:92:SNPs
+content/09.evolution.md:92:SNPs
+content/09.evolution.md:94:SNPs
+content/09.evolution.md:95:evaluted
 content/22.vaccines.md:222:CoronaVac’s
 content/22.vaccines.md:228:COVAXIN’s
 content/22.vaccines.md:264:VLP
