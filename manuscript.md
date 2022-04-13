@@ -125,7 +125,8 @@ header-includes: |-
   <meta name="citation_author_orcid" content="0000-0002-5324-9833" />
   <meta name="twitter:creator" content="@anthonygitter" />
   <meta name="citation_author" content="Anna Ada Dattoli" />
-  <meta name="citation_author_institution" content="Department of Systems Pharmacology &amp; Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA" />
+  <meta name="citation_author_institution" content="Department of Pathology and Laboratory Medicine, The Children’s Hospital of Philadelphia, Philadelphia, PA, USA" />
+  <meta name="citation_author_institution" content="Department of Systems Pharmacology &amp; Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA" />
   <meta name="citation_author_orcid" content="0000-0003-1462-831X" />
   <meta name="twitter:creator" content="@aadattoli" />
   <meta name="citation_author" content="Ryan Velazquez" />
@@ -289,13 +290,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/805bda25d675bc2c34fcf839d9136d13128e47f2/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/805bda25d675bc2c34fcf839d9136d13128e47f2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/805bda25d675bc2c34fcf839d9136d13128e47f2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/1553e363c801494fc3db930f45d9985e1c74da8a/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/1553e363c801494fc3db930f45d9985e1c74da8a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/1553e363c801494fc3db930f45d9985e1c74da8a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/805bda25d675bc2c34fcf839d9136d13128e47f2/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/805bda25d675bc2c34fcf839d9136d13128e47f2/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/1553e363c801494fc3db930f45d9985e1c74da8a/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/1553e363c801494fc3db930f45d9985e1c74da8a/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -317,11 +318,11 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/805bda25d675bc2c34fcf839d9136d13128e47f2/))
+([permalink](https://greenelab.github.io/covid19-review/v/1553e363c801494fc3db930f45d9985e1c74da8a/))
 was automatically generated
-from [greenelab/covid19-review@805bda2](https://github.com/greenelab/covid19-review/tree/805bda25d675bc2c34fcf839d9136d13128e47f2)
+from [greenelab/covid19-review@1553e36](https://github.com/greenelab/covid19-review/tree/1553e363c801494fc3db930f45d9985e1c74da8a)
 on April 13, 2022.
-It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/805bda25d675bc2c34fcf839d9136d13128e47f2/manuscript.pdf).
+It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/1553e363c801494fc3db930f45d9985e1c74da8a/manuscript.pdf).
 Snapshots of individual sections have been published [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals; @individual-methods].
 </em></small>
 
@@ -422,7 +423,7 @@ Instead, you should collect information from your local health department, the [
     [aadattoli](https://github.com/aadattoli) · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [aadattoli](https://twitter.com/aadattoli)<br>
   <small>
-     Department of Systems Pharmacology & Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
+     Department of Pathology and Laboratory Medicine, The Children’s Hospital of Philadelphia, Philadelphia, PA, USA; Department of Systems Pharmacology & Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA
   </small>
 
 + **Ryan Velazquez**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
