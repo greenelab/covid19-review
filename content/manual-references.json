@@ -1600,5 +1600,316 @@
       ]
     ]
   }
+},
+{
+  "publisher": "American Society for Microbiology",
+  "issue": "5",
+  "abstract": "<jats:p>On 31 December 2019, the World Health Organization was informed of a cluster of cases of pneumonia of unknown etiology in Wuhan, China. Subsequent investigations identified a novel coronavirus, now named severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), from the affected patients. Highly sensitive and specific laboratory diagnostics are important for controlling the rapidly evolving SARS-CoV-2-associated coronavirus disease 2019 (COVID-19) epidemic. In this study, we developed and compared the performance of three novel real-time reverse transcription-PCR (RT-PCR) assays targeting the RNA-dependent RNA polymerase (RdRp)/helicase (Hel), spike (S), and nucleocapsid (N) genes of SARS-CoV-2 with that of the reported RdRp-P2 assay, which is used in &gt;30 European laboratories.</jats:p>",
+  "DOI": "10.1128/jcm.00310-20",
+  "type": "article-journal",
+  "source": "Crossref",
+  "title": "Improved Molecular Diagnosis of COVID-19 by the Novel, Highly Sensitive and Specific COVID-19-RdRp/Hel Real-Time Reverse Transcription-PCR Assay Validated In Vitro and with Clinical Specimens",
+  "volume": "58",
+  "author": [
+    {
+      "given": "Jasper Fuk-Woo",
+      "family": "Chan"
+    },
+    {
+      "given": "Cyril Chik-Yan",
+      "family": "Yip"
+    },
+    {
+      "given": "Kelvin Kai-Wang",
+      "family": "To"
+    },
+    {
+      "given": "Tommy Hing-Cheung",
+      "family": "Tang"
+    },
+    {
+      "given": "Sally Cheuk-Ying",
+      "family": "Wong"
+    },
+    {
+      "given": "Kit-Hang",
+      "family": "Leung"
+    },
+    {
+      "given": "Agnes Yim-Fong",
+      "family": "Fung"
+    },
+    {
+      "given": "Anthony Chin-Ki",
+      "family": "Ng"
+    },
+    {
+      "given": "Zijiao",
+      "family": "Zou"
+    },
+    {
+      "given": "Hoi-Wah",
+      "family": "Tsoi"
+    },
+    {
+      "given": "Garnet Kwan-Yue",
+      "family": "Choi"
+    },
+    {
+      "given": "Anthony Raymond",
+      "family": "Tam"
+    },
+    {
+      "given": "Vincent Chi-Chung",
+      "family": "Cheng"
+    },
+    {
+      "given": "Kwok-Hung",
+      "family": "Chan"
+    },
+    {
+      "given": "Owen Tak-Yin",
+      "family": "Tsang"
+    },
+    {
+      "given": "Kwok-Yung",
+      "family": "Yuen"
+    }
+  ],
+  "container-title": "Journal of Clinical Microbiology",
+  "language": "en",
+  "editor": [
+    {
+      "given": "Alexander J.",
+      "family": "McAdam"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2020,
+        4,
+        23
+      ]
+    ]
+  },
+  "URL": "https://doi.org/ggpv64",
+  "container-title-short": "J Clin Microbiol",
+  "PMCID": "PMC7180250",
+  "PMID": "32132196",
+  "id": "doi:10.1128/jcm.00310-20"
+},
+{
+  "id": "url:https://www.bloomberg.com/news/newsletters/2022-01-07/a-stark-contrast-between-the-u-s-and-europe-on-tests",
+  "type": "webpage",
+  "title": "A Stark Contrast Between the U.S. and Europe on Tests",
+  "container-title": "Bloomberg",
+  "URL": "https://www.bloomberg.com/news/newsletters/2022-01-07/a-stark-contrast-between-the-u-s-and-europe-on-tests",
+  "language": "en",
+  "author": [
+    {
+      "family": "Kresge",
+      "given": "Naomi"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        "2022",
+        1,
+        7
+      ]
+    ]
+  }
+},
+{
+  "publisher": "Informa UK Limited",
+  "DOI": "10.2147/ijn.s200556",
+  "type": "article-journal",
+  "page": "4293-4307",
+  "source": "Crossref",
+  "title": "A sensitive and rapid chemiluminescence immunoassay for point-of-care testing (POCT) of copeptin in serum based on high-affinity monoclonal antibodies via cytokine-assisted immunization",
+  "volume": "Volume 14",
+  "author": [
+    {
+      "given": "Yu",
+      "family": "Wang"
+    },
+    {
+      "given": "Emmanuel Enoch",
+      "family": "Dzakah"
+    },
+    {
+      "given": "Ye",
+      "family": "Kang"
+    },
+    {
+      "given": "Yanxue",
+      "family": "Cai"
+    },
+    {
+      "given": "Peidian",
+      "family": "Wu"
+    },
+    {
+      "given": "Bo",
+      "family": "Tang"
+    },
+    {
+      "given": "Run",
+      "family": "Li"
+    },
+    {
+      "given": "Xiaowei",
+      "family": "He"
+    }
+  ],
+  "container-title": "International Journal of Nanomedicine",
+  "language": "en",
+  "issued": {
+    "date-parts": [
+      [
+        2019,
+        6
+      ]
+    ]
+  },
+  "URL": "https://doi.org/gpp5mc",
+  "container-title-short": "IJN",
+  "PMCID": "PMC6580123",
+  "PMID": "31354261",
+  "id": "doi:10.2147/ijn.s200556"
+},
+{
+  "publisher": "AMPCo",
+  "issue": "9",
+  "DOI": "10.5694/mja2.50766",
+  "type": "article-journal",
+  "page": "397",
+  "source": "Crossref",
+  "title": "Serological tests for COVID-19",
+  "volume": "213",
+  "author": [
+    {
+      "given": "Katherine",
+      "family": "Bond"
+    },
+    {
+      "given": "Eloise",
+      "family": "Williams"
+    },
+    {
+      "given": "Benjamin P",
+      "family": "Howden"
+    },
+    {
+      "given": "Deborah A",
+      "family": "Williamson"
+    }
+  ],
+  "container-title": "Medical Journal of Australia",
+  "language": "en",
+  "issued": {
+    "date-parts": [
+      [
+        2020,
+        9,
+        6
+      ]
+    ]
+  },
+  "URL": "https://doi.org/gpqt86",
+  "container-title-short": "Medical Journal of Australia",
+  "PMID": "32892381",
+  "id": "doi:10.5694/mja2.50766"
+},
+{
+  "publisher": "Elsevier BV",
+  "DOI": "10.1016/j.coesh.2020.06.001",
+  "type": "article-journal",
+  "page": "14-20",
+  "source": "Crossref",
+  "title": "Wastewater and public health: the potential of wastewater surveillance for monitoring COVID-19",
+  "volume": "17",
+  "author": [
+    {
+      "given": "Kata",
+      "family": "Farkas"
+    },
+    {
+      "given": "Luke S.",
+      "family": "Hillary"
+    },
+    {
+      "given": "Shelagh K.",
+      "family": "Malham"
+    },
+    {
+      "given": "James E.",
+      "family": "McDonald"
+    },
+    {
+      "given": "David L.",
+      "family": "Jones"
+    }
+  ],
+  "container-title": "Current Opinion in Environmental Science & Health",
+  "language": "en",
+  "issued": {
+    "date-parts": [
+      [
+        2020,
+        10
+      ]
+    ]
+  },
+  "URL": "https://doi.org/gg4tb6",
+  "container-title-short": "Current Opinion in Environmental Science & Health",
+  "PMCID": "PMC7291992",
+  "PMID": "32835157",
+  "id": "doi:10.1016/j.coesh.2020.06.001"
+},
+{
+  "id": "url:https://www.opb.org/article/2022/03/02/oregon-schools-guidance-mask-mandate-end",
+  "type": "webpage",
+  "abstract": "New guidance from the Oregon Department of Education released Wednesday gives schools a better idea of how to operate once the statewide mask mandate lifts March 12.",
+  "container-title": "OPB",
+  "language": "en",
+  "title": "End to quarantines, contact tracing among changes in new Oregon guidance for schools, starting March 12",
+  "URL": "https://www.opb.org/article/2022/03/02/oregon-schools-guidance-mask-mandate-end/",
+  "author": [
+    {
+      "family": "Miller",
+      "given": "Elizabeth"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        "2022",
+        3,
+        2
+      ]
+    ]
+  }
+},
+{
+  "id": "url:https://www.aap.org/en/pages/2019-novel-coronavirus-covid-19-infections/children-and-covid-19-state-level-data-report",
+  "type": "webpage",
+  "abstract": "The American Academy of Pediatrics and the Children’s Hospital Association are collaborating to collect and share all publicly available data from states on child COVID-19 cases.",
+  "language": "en",
+  "container-title": "American Academy of Pediatrics",
+  "title": "Children and COVID-19: State-Level Data Report",
+  "title-short": "Children and COVID-19",
+  "URL": "http://www.aap.org/en/pages/2019-novel-coronavirus-covid-19-infections/children-and-covid-19-state-level-data-report/",
+  "accessed": {
+    "date-parts": [
+     [
+        "2022",
+        4,
+        11
+      ]
+    ]
+  }
 }
 ]
