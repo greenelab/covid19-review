@@ -467,7 +467,8 @@ authors:
     code of conduct:
       confirmed: No
     affiliations:
-      - Department of Systems Pharmacology & Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA
+      - Department of Pathology and Laboratory Medicine, The Children’s Hospital of Philadelphia, Philadelphia, PA, USA
+      - Department of Systems Pharmacology & Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA
     coi:
       string: "None"
       lastapproved: !!str 2020-03-26
