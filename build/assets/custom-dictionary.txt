@@ -115,6 +115,8 @@ CNBG
 CNBG's
 COPD
 COVAX
+COVAXIN
+COVAXIN’s
 COVI
 COVID
 CP
@@ -174,6 +176,7 @@ Comput
 ConSurf
 Convidecia
 CoronaVac
+CoronaVac’s
 Coronaviridae
 Coronavirus
 CorV
@@ -292,6 +295,7 @@ GOLGA
 GSE
 GSK
 GTEx
+GWAS
 Gaebler
 Gaithersburg
 Gam
@@ -327,6 +331,7 @@ HDT
 HEK
 HGCO
 HGF
+HGI
 Himmelstein
 HKU
 HL
@@ -411,6 +416,7 @@ Kandi
 Kanolkhar
 Kaplan
 Karolinska
+Katholieke
 Kd
 Knyazev
 Kolla
@@ -441,6 +447,7 @@ Latinx
 Lectin
 Leukopenia
 Leung
+Leuven
 Leydig
 Liang
 Liao
@@ -520,6 +527,7 @@ NCBI
 NCIP
 NCP
 NCT
+NGS
 NIAID
 NFKB
 NHBE
@@ -756,9 +764,11 @@ UVB
 Umeå
 Umland
 UniProt
+Universiteit
 VADE
 VH
 VL
+VLP
 VLPs
 VOC
 VOCs
@@ -893,6 +903,7 @@ basophil
 benchmarked
 betacoronavirus
 betacoronaviruses
+biallelic
 bilayer
 bioRxiv
 bioactive
@@ -1114,6 +1125,9 @@ gelsolin
 gemcitabine
 generalizability
 genomic
+genotype
+genotyped
+genotypes
 geopandas
 gcv
 ggjr
@@ -1191,6 +1205,7 @@ hyperglycemic
 hyperinflammation
 hypermutations
 hyperpolarization
+hypervariability
 hypoalbuminemia
 hypogammaglobulinemia
 hypoproteinemia
@@ -1266,6 +1281,7 @@ intraperitoneally
 intratracheal
 intratracheally
 intravascular
+introgression
 intubated
 intubation
 invasively
@@ -1436,6 +1452,7 @@ nucleoprotein
 nucleosides
 nucleotides
 nutraceutical
+nuvaxovid
 obesogenic
 oleandrin
 olfaction
@@ -1486,6 +1503,7 @@ phagocytosis
 pharmacodynamic
 pharmacologically
 pharmacovigilance
+phenome
 phenotypes
 phenotypic
 phenotyping
@@ -1521,6 +1539,7 @@ polyclonal
 polymerase
 polymerases
 polymorphism
+polymorphisms
 polypeptide
 polyphenols
 polyprotein
@@ -1601,6 +1620,7 @@ remdesivir
 remediating
 renin
 reopenings
+replicability
 replicase
 representativeness
 repressor
@@ -1666,6 +1686,7 @@ situ
 smangul
 SNG
 SNP
+SNPs
 sociocultural
 sotrovimab
 Soumita
