@@ -93,7 +93,7 @@ if [ "${BUILD_PDF}" != "false" ] && [ "${MANUBOT_USE_DOCKER}" == "true" ]; then
   if [ "${CI}" = "true" ]; then
     # Increase --delay for CI builds to ensure the webpage fully renders, even when the CI server is under high load.
     # Local builds default to a shorter --delay to minimize runtime, assuming proper rendering is less crucial.
-    MANUBOT_ATHENAPDF_DELAY="${MANUBOT_ATHENAPDF_DELAY:-5000}"
+    MANUBOT_ATHENAPDF_DELAY="${MANUBOT_ATHENAPDF_DELAY:-10000}"
     echo >&2 "Continuous integration build detected. Setting athenapdf --delay=$MANUBOT_ATHENAPDF_DELAY"
   fi
   if [ -d output/images ]; then rm -rf output/images; fi  # if images is a directory, remove it
