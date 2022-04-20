@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2022-04-19'
+date-meta: '2022-04-20'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -72,8 +72,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2022-04-19" />
-  <meta name="citation_publication_date" content="2022-04-19" />
+  <meta name="dc.date" content="2022-04-20" />
+  <meta name="citation_publication_date" content="2022-04-20" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -290,13 +290,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/8b6e9d3bc6ce6937907e86d26a696bce2648cfe2/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/8b6e9d3bc6ce6937907e86d26a696bce2648cfe2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/8b6e9d3bc6ce6937907e86d26a696bce2648cfe2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/7ebf244defcc066cc688d3e9cd86a7b9c6bca443/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/7ebf244defcc066cc688d3e9cd86a7b9c6bca443/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/7ebf244defcc066cc688d3e9cd86a7b9c6bca443/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/8b6e9d3bc6ce6937907e86d26a696bce2648cfe2/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/8b6e9d3bc6ce6937907e86d26a696bce2648cfe2/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/7ebf244defcc066cc688d3e9cd86a7b9c6bca443/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/7ebf244defcc066cc688d3e9cd86a7b9c6bca443/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -318,11 +318,11 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/8b6e9d3bc6ce6937907e86d26a696bce2648cfe2/))
+([permalink](https://greenelab.github.io/covid19-review/v/7ebf244defcc066cc688d3e9cd86a7b9c6bca443/))
 was automatically generated
-from [greenelab/covid19-review@8b6e9d3](https://github.com/greenelab/covid19-review/tree/8b6e9d3bc6ce6937907e86d26a696bce2648cfe2)
-on April 19, 2022.
-It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/8b6e9d3bc6ce6937907e86d26a696bce2648cfe2/manuscript.pdf).
+from [greenelab/covid19-review@7ebf244](https://github.com/greenelab/covid19-review/tree/7ebf244defcc066cc688d3e9cd86a7b9c6bca443)
+on April 20, 2022.
+It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/7ebf244defcc066cc688d3e9cd86a7b9c6bca443/manuscript.pdf).
 Snapshots of individual sections have been published [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals; @individual-methods].
 </em></small>
 
@@ -1460,31 +1460,97 @@ Research in response to prior outbreaks of HCoV-borne infections, such as SARS a
 
 If not addressed, economic and environmental stressors are likely to cause future zoonotic transfer of diseases in the future [@doi:10.1126/science.abc3189].
 
-### Whom Does It Affect?
+### Question 3: Who is Affected?
 
 #### Genetic Contributors to Susceptibility
 
-Throughout the pandemic, many hypotheses have been raised about factors that might make individuals more susceptible to infection or disease.
+Throughout the pandemic, many hypotheses have been raised about factors that might influence individuals' susceptibility to COVID-19 or to severe disease .
 Many risk factors, such as underlying health conditions, are related to the body's inflammatory response, as we review elsewhere [@individual-inequality].
 Here, we focus narrowly on genetic bases of differences in susceptibility or outcomes.
-In the past, the identification of genetic risk factors for a disease often followed a candidate gene approach, where a gene of interest was evaluated to identify variants that showed an association with the outcome of interest.
-While economical in terms of sequencing, this approach is prone to spurious results.<!--add citation-->
-Today, in the age of next-generation sequencing, a common approach is instead to conduct genome-wide scans, where a large number of single-nucleotide polymorphisms (SNPs) or variants are evaluated to identify regions of the genome associated with differences in a phenotype.
+Historically, the identification of genetic risk factors for a disease typically utilized a candidate gene approach, where a gene of interest was evaluated to identify variants that showed an association with the outcome of interest.
+While economical in terms of sequencing, this approach is prone to spurious results when applied to complex traits [@doi:10.1016/j.biopsych.2006.11.010].
+Today, in the age of next-generation sequencing (NGS), alternative approaches have emerged.
+NGS makes it possible to conduct genome-wide scans where a large number of single-nucleotide polymorphisms (SNPs) or variants are evaluated to identify regions of the genome associated with variation in a phenotype.
 Genome-wide association studies (GWAS) in particular are a popular approach that employs this strategy.
 During COVID-19, both of these paradigms have been applied to the problem of identifying genetic correlates of disease severity.
 
 ##### Candidate-Gene Approaches
 
 Many candidate genes have been investigated throughout the pandemic.
-An early study (published in April 2020) investigated a known variant in interferon-induced transmembrane protein 3 (_IFITM3_) among hospitalized patients in Beijing [@doi:10.1093/infdis/jiaa224].
+Here, we review three examples of candidate gene studies in COVID-19.
+First, an early study (published in April 2020) investigated a known variant in interferon-induced transmembrane protein 3 (_IFITM3_) among hospitalized patients in Beijing [@doi:10.1093/infdis/jiaa224].
 This gene and variant were selected because of a prior candidate gene study by some of the same authors that found an association with influenza severity among Chinese patients during the 2009 influenza A H1N1/09 pandemic [@doi:10.1038/ncomms2433].
-Here, they evaluated a small number (n=80) hospitalized COVID-19 patients to determine whether homozgyosity for the previously identified risk allele was associated with mild versus severe disease [@doi:10.1093/infdis/jiaa224].
-They stated that they found an association between homozygosity for the SNP of interest and the severity of COVID-19. <!--Note: in-line stats differ from those in the associated table-->
+Here, they evaluated a small number (n=80) hospitalized COVID-19 patients to determine whether homozygosity for the previously identified risk allele was associated with mild versus severe disease [@doi:10.1093/infdis/jiaa224].
+They stated that they found an association between homozygosity for the SNP of interest and the severity of COVID-19.<!--Note: in-line stats differ from those in the associated table-->
 A follow-up study demonstrated worldwide variation in the frequency of these SNPs [@doi:10.1007/s00251-020-01188-0], and subsequent studies claimed to support this result by comparing the frequency of the SNP in different groups to the COVID-19 case fatality rate in those groups; they examined SNPs in several candidate genes and identified an association with another SNP in _IFITM3_ [@doi:10.3390/genes12010042].
 However, in the original study, the population-level frequency of the risk allele was consistent with its frequency in the mild population [@doi:10.1038/ncomms2433].
 A similar analysis examined both SNPs in Britons of different ancestral backgrounds and also reported a correlation [@doi:10.7717/peerj.10402].
-While this gene has been investigated for functions potentially relevant to COVID-19 pathogenesis by other groups as well (e.g., [@doi:10.15252/embj.2020106501; @doi:10.1080/22221751.2020.1787797], a follow-up analysis in Germany evaluted the effect of in 239 cases and 252 controls and reported non-significant effects [@doi:10.7717/peerj.10402].
+While this gene has been investigated for functions potentially relevant to COVID-19 pathogenesis by other groups as well (e.g., [@doi:10.15252/embj.2020106501; @doi:10.1080/22221751.2020.1787797], a follow-up analysis in Germany evaluated the effect of in 239 cases and 252 controls and reported non-significant effects [@doi:10.7717/peerj.10402].
 The narrative surrounding _IFITM3_ therefore reflects a broad methodological critique about candidate gene studies, where results often fail to replicate [@doi:10.1038/nrg796].
+The region associated with this gene was not identified in the large-scale GWAS conducted by the COVID-19 Host Genetics Initiative (COVID-19 HGI) [@doi:10.1038/s41586-021-03767-x], which is described in more detail below.
+
+A second source of genetic variability that was hypothesized to have an effect on COVID-19 outcomes were human leukocyte antigens (HLA), or the major histocompatibility complex (MHC).
+Both MHC classes I and II play a critical role in both the innate and adaptive immune system because they are a pivotal component of antigen presentation.
+HLA classes I and II are also the most polymorphic loci in the human genome [@doi:10.1111/j.1399-0039.2012.01881.x].
+Additionally, because HLA polymorphisms are associated with geographic ancestry, study location and participant background offers important context [@doi:10.1371/journal.pone.0097282].
+Given the important role of the HLA complex in the immune response and the standing variation in the human population, HLA variation has been investigated for potential associations with COVID-19 outcomes.
+
+Several approaches have been taken to evaluate a potential role of HLA in COVID-19.
+_In silico_ analysis suggested one particular HLA locus that could affect binding of SARS-CoV-2 peptides to MHC class II [@doi:10.1016/j.ijid.2020.07.016].
+Other studies evaluated outcomes using retrospective cohort analyses.
+An analysis of 95 South Asian COVID-19 patients found that HLA genotype was not significant in differentiating case severity when the necessary statistical corrections were applied [@doi:10.1002/jmv.27003].<!--risk:HLA-B*51, protect: HLA-B*35-->
+Another study in a European population (n =147) did identify HLA alleles associated with severity [@doi:10.1111/tan.14284].
+In St. Louis, MO (USA), another study enrolled 234 COVID-19 cases, who were genotyped for HLA alleles and compared to a control population of 20,000 individuals from the National Marrow Donor Program [@doi:10.1111/tan.14387].
+They compared cases and controls on the basis of four "race/ethnic" populations and reported alleles showing a statistical association within each group [@doi:10.1111/tan.14387].
+However, because of this stratification, two of the demographic categories had less than ten cases.
+Across all of these studies, there was minimal overlap in the risk alleles identified, and the small sample sizes raise concerns about the possibility for spurious hits.
+The hypervariability of this region means that statistical power will necessarily be reduced, with much higher recruitment needed than for studies of biallelic loci.
+A much larger analysis of 72,912 Israelis, 8.8% of whom tested positive for COVID-19, found no association between HLA genotype and infection or hospitalization [@doi:10.1007/s10875-021-01071-x].
+Therefore, while MHC is functionally important to the immune response to COVID-19, it is not clear whether HLA genotypes are predictive of COVID-19 severity, and certainly such studies face exacerbated versions of the typical challenges of candidate gene studies.
+Because of the challenges associated with analyzing such a variable region, it was excluded from the large-scale COVID-19 HGI GWAS analysis [@doi:10.1038/s41586-021-03767-x].
+
+Finally, significant attention has been paid to the question of whether ABO blood type is associated with COVID-19 outcomes.<!--This paper is interesting but I'm not totally sure how to incorporate it 10.1371/journal.pone.0251535-->
+ABO blood type has been found to modulate susceptibility to other pathogens [@doi:10.1001/jama.2020.16516].
+While ABO blood type is a genetic trait, it is more easily evaluated than the genetic regions discussed above because of the simple relationship between genetic variants and phenotype.
+The possibility for an association between blood type and COVID-19 infection was raised early in the pandemic in a preprint that reported associations in 2,173 patients in Wuhan and Shenzhen, China [@doi:10.1101/2020.03.11.20031096].
+The protective effect of O and increased risk associated with A blood types that they reported was subsequently investigated by many studies that returned varied results (e.g., [@doi:10.1002/jmv.27444; @doi:10.3389/fcimb.2020.00404; @doi:10.1182/bloodadvances.2020002623; @doi:10.1001/jamanetworkopen.2021.7429]; see [@doi:10.1007/s00277-021-04489-w] for a literature review).
+Observations of higher and lower risk, respectively, of SARS-CoV-2 infection with A and O blood types was supported by a meta-analysis [@doi:10.1016/j.meegid.2020.104485].
+While the support for the association was independent of a mechanism, a possible relationship between ACE activity and blood type has been proposed [@doi:10.1177/2047487320922370] as has an effect on carbohydrate-carbohydrate interactions relevant to ACE2 binding [@doi:10.1016/j.mehy.2020.110155].
+This is the only candidate gene described that has received additional support from GWAS, as is discussed below.
+
+The COVID-19 literature related to candidate gene investigations demonstrates relatively low inter-study consistency in findings.
+In particular, sample size is a major challenge in designing these studies.
+However, for many traits, the relationships between genes and phenotypes are complex, and selecting which variants to sequence is not always straightforward.
+As a result, in the age of next-generation sequencing, discovery-driven studies have emerged as an alternative approach.
+
+##### Genome-Wide Association Studies
+
+Genome-wide association studies (GWAS) offers a discovery-driven approach that provides a different perspective than candidate gene studies.
+Instead of selecting a gene or variant _a priori_, in GWAS, a large number of SNPs (usually several million) are evaluated at once to identify those most likely to vary in correlation with a trait of interest.
+Because of the large number of statistical tests, statistical power and multiple hypothesis testing are both very important considerations in executing GWAS, which have also struggled with issues related to replicability [@doi:10.1016/j.tig.2018.03.005].
+In cases such as COVID-19 where outcomes can differ among ancestry groups (likely for non-genetic reasons, as reviewed in [@individual-inequality]), it is especially important that GWAS samples be selected with attention paid to ancestry, as incorrect or misleading associations can otherwise be identified with neutral markers indicative of ancestry itself [@doi:10.1038/nrg2813].
+
+Over the past two years, many GWAS have been undertaken with the aim of identifying variants associated with COVID-19 outcomes.
+In some cases, the results have been consistent with hypothesized genetic correlates of susceptibility to COVID-19.
+One study conducted a GWAS on a total of 435 COVID-19 patients from four countries and identified another HLA allele to be associated with an increased risk of intubation [@doi:10.1016/j.eclinm.2021.101099].<!--HLA-C*04:01-->
+Other GWAS have identified an association with the ABO blood group locus.
+One conducted a case/control GWAS in two populations, Italians and Spaniards, with 1980 cases and 2205 controls.
+They reported two loci that met the genome-wide significance threshold, one on chromosome 3 and one on chromosome 9 [@doi:10.1056/NEJMoa2020283].
+The hit on chromosome 9 fell on the ABO locus and the alleles identified suggested a protective association with blood group O and a risk association with blood group A [@doi:10.1056/NEJMoa2020283].
+
+As the pandemic has progressed, large-scale efforts have been assembled to conduct GWAS on massive scales.
+In March 2020, COVID-19 HGI was established as a world-wide consortium that combines data to conduct meta-analyses [@doi:10.1038/s41431-020-0636-6].
+One year later, COVID-19 HGI released a meta-analysis of data from 46 studies, comprising 49,562 cases and 1,770,206 controls [@doi:10.1038/s41586-021-03767-x].
+They identified 13 loci, seven of which were significant at the genome-wide level when considering all data available, that were associated with one or more phenotypes related to COVID-19 infection or severity.
+Notably, strong signals were identified for both of the loci suggested by previous medium-scale GWAS in association with COVID-19 infection [@doi:10.1056/NEJMoa2020283].
+Additionally, several other loci could be mapped onto hypotheses about genetic contributors to immune function, lung function and disease.
+This world-wide GWAS study made an effort towards strategic incorporation of genetic information from different ancestral groups.
+Interestingly, the risk variant on chromosome 3 is likely to be inherited from Neanderthal introgression, meaning it is likely to be more prevalent in certain populations, especially non-African populations [@doi:10.1038/s41586-020-2818-3; @doi:10.1093/molbev/mst260].
+The potential functional relationship between this region of the genome and COVID-19 is unknown, but phenome-wide association study has suggested blood cell traits as a potential trait regulated by this region [@doi:10.1093/gerona/glab035].
+
+Identifying genetic variants associated with a complex disease is always complicated.
+In COVID-19 studies, the results of candidate gene analyses have in general been difficult to replicate.
+However, large-scale collaboration on GWAS has made it possible to detect at least two loci that do appear to replicate across studies and potentially even across ancestral backgrounds.
 
 ### Evolution of the SARS-CoV-2 Virus
 
@@ -2197,14 +2263,14 @@ The scale of the COVID-19 pandemic has made the repurposing and development of p
 
 ![
 **Cumulative global incidence of COVID-19 and SARS.**
-As of April 17, 2022, 504,572,747 COVID-19 cases and 6,198,460 COVID-19 deaths had been reported worldwide since January 22, 2020.
+As of April 18, 2022, 505,054,564 COVID-19 cases and 6,199,914 COVID-19 deaths had been reported worldwide since January 22, 2020.
 A total of 8,432 cases and 813 deaths were reported for SARS from March 17 to July 11, 2003.
 SARS-CoV-1 was officially contained on July 5, 2003, within 9 months of its appearance [@doi:10.3390/ijerph17113973].
 In contrast, SARS-CoV-2 remains a significant global threat nearly two years after its emergence.
 COVID-19 data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series; @doi:10/ggnsjk].
 SARS data are from the WHO [@url:https://www.who.int/csr/sars/country/en] and were obtained from a dataset on GitHub [@url:https://github.com/imdevskp/sars-2003-outbreak-data-webscraping-code].
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/75f891772a3c9d8c4ae6f73bcc35b9eba679dead/csse/csse-deaths.png "Global incidence of COVID-19 and SARS"){#fig:csse-deaths secno=1}
+](https://github.com/greenelab/covid19-review/raw/1cad2ea2f97854c1073767acda737916d8146ad0/csse/csse-deaths.png "Global incidence of COVID-19 and SARS"){#fig:csse-deaths secno=1}
 
 At first, SARS-CoV-2's rapid shift from an unknown virus to a significant worldwide threat closely paralleled the emergence of _Severe acute respiratory syndrome-related coronavirus_ (SARS-CoV-1), which was responsible for the 2002-03 SARS epidemic.
 The first documented case of COVID-19 was reported in Wuhan, China in November 2019, and the disease quickly spread worldwide in the early months of 2020.
@@ -2261,7 +2327,7 @@ Recruitment status and trial phase are shown only for interventional trials in w
 Common interventions refers to interventions used in at least ten trials.
 Combinations of interventions, such as hydroxychloroquine with azithromycin, are tallied separately from the individual interventions.
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/75f891772a3c9d8c4ae6f73bcc35b9eba679dead/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/1cad2ea2f97854c1073767acda737916d8146ad0/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 The purpose of this review is to provide an evolving resource tracking the status of efforts to repurpose and develop drugs for the treatment of COVID-19.
 We highlight four strategies that provide different paradigms for the identification of potential pharmaceutical treatments.
@@ -3328,7 +3394,7 @@ Vaccines have nearly 500 years of history, but the SARS-CoV-2 pandemic provides 
 ### Importance
 
 The SARS-CoV-2 pandemic has caused untold damage globally, presenting unusual opportunities and demands in vaccine development.
-As of April 17, 2022, SARS-CoV-2 has infected over 504,572,747 and taken the lives of 6,198,460 people globally.
+As of April 18, 2022, SARS-CoV-2 has infected over 505,054,564 and taken the lives of 6,199,914 people globally.
 The development, production, and distribution of vaccines is imperative to saving lives, preventing illness, and reducing the economic and social burdens caused by the COVID-19 pandemic.
 Effective deployment is critical to reducing the susceptibility of worldwide populations, especially in light of emerging variants.
 This review provides historical context for the current state of vaccine development and highlights the main strategies utilized for COVID-19 vaccine candidates, their clinical appraisal, and their distribution.
@@ -3413,7 +3479,7 @@ All of these approaches are being explored in the current pandemic.<!--To Do: de
 The first administration of a dose of a COVID-19 vaccine to a human trial participant occurred on March 16, 2020 [@url:https://www.modernatx.com/modernas-work-potential-vaccine-against-covid-19; @doi:10.1038/d41573-020-00073-5], marking an extremely rapid response to the emergence of SARS-CoV-2.
 Within a few weeks, at least 78 vaccine development programs were active [@doi:10.1038/d41573-020-00073-5].
 These programs employ a variety of technologies (Figure @fig:vaccines), ranging from established approaches to novel technologies that had never previously gone to market.
-As of April 17, 2022, 38 SARS-CoV-2 vaccines have been approved world wide and 26 are being administered throughout the world, with 11 billion doses administered across 223 countries.
+As of April 18, 2022, 38 SARS-CoV-2 vaccines have been approved world wide and 26 are being administered throughout the world, with 11 billion doses administered across 223 countries.
 Many vaccines are available in only a subset of countries, and the types of vaccines available varies widely throughout the world.
 The status of individual vaccines continues to change and varies regionally.
 
@@ -3507,7 +3573,7 @@ The exact mechanisms responsible for VADE remain elusive due to the specificity 
 
 **Application to COVID-19:**
 Several whole-virus vaccines have been developed against COVID-19 and are available in countries around the world.
-As of April 17, 2022, 11 vaccines developed with IWV technology are being distributed in 113 countries (Figure @fig:iwv-distrib).
+As of April 18, 2022, 11 vaccines developed with IWV technology are being distributed in 113 countries (Figure @fig:iwv-distrib).
 One, CoronaVac, was developed by Beijing-based biopharmaceutical company Sinovac.
 They inactivated a SARS-CoV-2 strain collected in China with &beta;-propiolactone and propagated it using Vero cells [@doi:10.3389/fimmu.2020.602256].
 The vaccine is coupled with an aluminum adjuvant [@doi:10.3389/fimmu.2020.602256].
@@ -3527,10 +3593,10 @@ For the other vaccine, neutralizing antibodies were detected in all groups 14 da
 
 ![
 **Worldwide availability of vaccines developed using inactivated whole viruses.**
-This figure reflects the number of vaccines based on whole inactivated virus technology that were available in each country as of April 17, 2022.
+This figure reflects the number of vaccines based on whole inactivated virus technology that were available in each country as of April 18, 2022.
 These data are retrieved from Our World in Data <!-To Do: Cite--> and plotted using geopandas.
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/75f891772a3c9d8c4ae6f73bcc35b9eba679dead/owiddata/maps/inactivated.png "Availability of inactivated whole virus vaccines"){#fig:iwv-distrib secno=1}
+](https://github.com/greenelab/covid19-review/raw/1cad2ea2f97854c1073767acda737916d8146ad0/owiddata/maps/inactivated.png "Availability of inactivated whole virus vaccines"){#fig:iwv-distrib secno=1}
 
 Other programs have been led through industry partnerships with governmental organizations.
 Another IWV vaccine comes from India, where Bharat Biotech International Ltd., which is the biggest producer of vaccines globally, Bharat Biotech International Ltd., collaborated with the Indian Council of Medical Research (ICMR) - National Institute of Virology (NIV) to develop COVAXIN^®^, also referred to as BBV152.
@@ -3642,10 +3708,10 @@ As of March 30, 2022, 14 protein subunit vaccines are being distributed in 21 co
 
 ![
 **Worldwide availability of vaccines developed using protein subunit.**
-This figure reflects the number of vaccines based on protein subunit technology that were available in each country as of April 17, 2022.
+This figure reflects the number of vaccines based on protein subunit technology that were available in each country as of April 18, 2022.
 These data are retrieved from Our World in Data <!-To Do: Cite--> and plotted using geopandas.
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/75f891772a3c9d8c4ae6f73bcc35b9eba679dead/owiddata/maps/protein_subunit.png "Availability of protein subunit vaccines"){#fig:ps-distrib secno=1}
+](https://github.com/greenelab/covid19-review/raw/1cad2ea2f97854c1073767acda737916d8146ad0/owiddata/maps/protein_subunit.png "Availability of protein subunit vaccines"){#fig:ps-distrib secno=1}
 
 One of the most prominent protein subunit vaccines against SARS-CoV-2 thus far is NVX-CoV2373 or Nuvaxovid, which is produced by U.S. company Novavax and partners.
 NVX-CoV2373 is a protein nanoparticle vaccine constructed from a mutated prefusion SARS-CoV-2 spike protein in combination with a specialized saponin-based adjuvant to elicit an immune response against SARS-CoV-2. 
@@ -3823,15 +3889,15 @@ As for Janssen, the phase III trial is ongoing across several countries (Argenti
 The vaccine was well-tolerated, and across all regions studied, it was found to be 66% effective after 28 days for the prevention of moderate to severe COVID-19 and to be 85% effective for the prevention of laboratory-confirmed severe COVID-19 as well as 100% protection against COVID-19-related hospitalization and death.
 
 **Distribution Status:**
-As of April 17, 2022, 7 viral-vectored vaccines are being distributed in 201 countries (Figure @fig:nrvv-distrib).
+As of April 18, 2022, 7 viral-vectored vaccines are being distributed in 201 countries (Figure @fig:nrvv-distrib).
 ChAdOx1 nCoV-19 was first approved for emergency use on December 30, 2020 in the United Kingdom [@url:https://www.astrazeneca.com/media-centre/press-releases/2020/astrazenecas-covid-19-vaccine-authorised-in-uk.html] and has since then been approved for emergency use in several dozen countries, in addition to receiving full approval in Brazil.
 
 ![
 **Worldwide availability of vaccines developed using non-replicating viral vectors.**
-This figure reflects the number of vaccines using non-replicating viral vectors that were available in each country as of April 17, 2022.
+This figure reflects the number of vaccines using non-replicating viral vectors that were available in each country as of April 18, 2022.
 These data are retrieved from Our World in Data <!-To Do: Cite--> and plotted using geopandas.
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/75f891772a3c9d8c4ae6f73bcc35b9eba679dead/owiddata/maps/non_replicating_viral_vector.png "Availability of non-replicating viral-vectored vaccines"){#fig:nrvv-distrib secno=1}
+](https://github.com/greenelab/covid19-review/raw/1cad2ea2f97854c1073767acda737916d8146ad0/owiddata/maps/non_replicating_viral_vector.png "Availability of non-replicating viral-vectored vaccines"){#fig:nrvv-distrib secno=1}
 
 As of early January, Sputnik V had been administered to as many as 1.5 million Russians [@url:https://www.brusselstimes.com/news-contents/world/149039/1-5-million-people-have-received-sputnik-v-vaccine-russia-says-russian-direct-investment-fund-mikhail-murashko], and doses of Sputnik V have also been distributed to other parts of Europe, such as Belarus, Bosnia-Herzegovina, Hungary, San Marino, Serbia, and Slovakia [@url:https://www.euronews.com/2021/02/12/hungary-to-begin-using-russia-s-sputnik-v-vaccine-today; @url:https://www.euronews.com/2021/02/24/san-marino-buys-russia-s-sputnik-v-after-eu-vaccine-delivery-delays; @url:https://www.themoscowtimes.com/2020/12/29/belarus-starts-coronavirus-vaccination-with-sputnik-v-a72512], with the Czech Republic and Austria also having expressed interest in its procurement [@url:https://www.cnbc.com/2021/03/02/russias-sputnik-vaccine-is-luring-eastern-europe-worrying-the-eu.html].
 It wasn't until February 2021, six months after its approval in Russia, that interim results of the phase III trial were released [@doi:10/ghxj4g].
@@ -3908,14 +3974,14 @@ Both require two doses approximately one month apart.
 The first was Pfizer/BioNTech's BNT162b2, which contains the full prefusion stabilized, membrane-anchored SARS-CoV-2 spike protein in a vaccine formulation based on modified mRNA (modRNA) technology [@doi:10.1101/cshperspect.a014035; @url:https://www.pfizer.com/news/press-release/press-release-detail/pfizer-and-biontech-announce-early-positive-data-ongoing-0].
 <!--To Do: brief history of phase I & phase II (like 1-2 sentences)-->
 The second mRNA vaccine, mRNA-1273 developed by ModernaTX, is comprised by a conventional lipid nanoparticle encapsulated RNA encoding a full-length prefusion stabilized S protein for SARS-CoV-2 [@clinicaltrials:NCT04283461].
-As of April 17, 2022, 3 mRNA vaccines are available in 163 countries (Figure @fig:mRNA-distrib).
+As of April 18, 2022, 3 mRNA vaccines are available in 163 countries (Figure @fig:mRNA-distrib).
 
 ![
 **Worldwide availability of vaccines developed using mRNA.**
-This figure reflects the number of vaccines based on mRNA technology that were available in each country as of April 17, 2022.
+This figure reflects the number of vaccines based on mRNA technology that were available in each country as of April 18, 2022.
 These data are retrieved from Our World in Data <!-To Do: Cite--> and plotted using geopandas.
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/75f891772a3c9d8c4ae6f73bcc35b9eba679dead/owiddata/maps/RNA.png "Availability of mRNA vaccines"){#fig:mRNA-distrib secno=1}
+](https://github.com/greenelab/covid19-review/raw/1cad2ea2f97854c1073767acda737916d8146ad0/owiddata/maps/RNA.png "Availability of mRNA vaccines"){#fig:mRNA-distrib secno=1}
 
 **Efficacy Estimates:**
 Pfizer/BioNTech's BNT162b2 vaccine and ModernaTX’s mRNA-1273 vaccine, commercially known as Comirnaty and Spikevax, are available in most countries thanks to their rapid development in 2020. 
@@ -5456,7 +5522,7 @@ Trials that recruit across multiple countries do appear to broaden geographic re
 The density of clinical trials is reported at the country level.
 As of December 31, 2020, there are 6,987 trials in the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709], of which 3,962 are interventional.
 The top figure demonstrates the density of interventional trials recruiting only from a singular country, while the bottom shows the distribution of recruitment for interventional trials that involve more than one country.
-](https://github.com/greenelab/covid19-review/raw/75f891772a3c9d8c4ae6f73bcc35b9eba679dead/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
+](https://github.com/greenelab/covid19-review/raw/1cad2ea2f97854c1073767acda737916d8146ad0/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
 
 A few different concerns arise from this skewed geographic representation in clinical trial recruitment.
 First, treatments such as remdesivir that are promising but primarily available to clinical trial participants are unlikely to be accessible by people in many countries.
