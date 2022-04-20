@@ -1909,6 +1909,40 @@
         11
       ]
     ]
-  }
+  },
+  {
+  "type": "book",
+  "id": "url:https://www.ncbi.nlm.nih.gov/books/NBK27162",
+  "editor": [
+    { 
+      "family": "Janeway Jr",
+      "given": "Charles A"
+    },
+    {
+      "family": "Travers",
+      "given": "Paul"
+    },
+    {
+      "family": "Walport",
+      "given": "Mark"
+    },
+    {
+      "family": "Shlomchik",
+      "given": "Mark J"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2001
+      ]
+    ]
+  },
+  "container-title": "Immunobiology: The Immune System in Health and Disease",
+  "ISBN": "978-0815336426",
+  "publisher": "Garland Science",
+  "city": "New York",
+  "title": "The distribution and functions of immunoglobulin isotypes",
+  "URL": "https://www.ncbi.nlm.nih.gov/books/NBK27162"
 }
 ]
