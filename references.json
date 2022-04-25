@@ -137936,7 +137936,7 @@
     "id": "DQmAgN0V",
     "type": "webpage",
     "title": "Bloomberg - Are you a robot?",
-    "URL": "https://www.bloomberg.com/tosv2.html?vid=&uuid=cb48d6e4-c4b5-11ec-b44a-4942644a6965&url=L2dyYXBoaWNzL2NvdmlkLXZhY2NpbmUtdHJhY2tlci1nbG9iYWwtZGlzdHJpYnV0aW9u",
+    "URL": "https://www.bloomberg.com/tosv2.html?vid=&uuid=18567929-c4ca-11ec-a2a3-6169556a5248&url=L2dyYXBoaWNzL2NvdmlkLXZhY2NpbmUtdHJhY2tlci1nbG9iYWwtZGlzdHJpYnV0aW9u",
     "accessed": {
       "date-parts": [
         [
@@ -137952,7 +137952,7 @@
     "id": "uvQMgFXB",
     "type": "webpage",
     "title": "Bloomberg - Are you a robot?",
-    "URL": "https://www.bloomberg.com/tosv2.html?vid=&uuid=cb8c6068-c4b5-11ec-b415-42416e486e64&url=L25ld3MvYXJ0aWNsZXMvMjAyMC0xMi0wMi93aXRoaW4taG91cnMtb2YtdS1rLXB1dGluLW9yZGVycy1zdGFydC1vZi1tYXNzLWNvdmlkLTE5LXNob3Rz",
+    "URL": "https://www.bloomberg.com/tosv2.html?vid=&uuid=18be3dcd-c4ca-11ec-b8b7-78684c457451&url=L25ld3MvYXJ0aWNsZXMvMjAyMC0xMi0wMi93aXRoaW4taG91cnMtb2YtdS1rLXB1dGluLW9yZGVycy1zdGFydC1vZi1tYXNzLWNvdmlkLTE5LXNob3Rz",
     "accessed": {
       "date-parts": [
         [
@@ -138858,13 +138858,14 @@
     "type": "webpage",
     "abstract": "President Joe Biden said Tuesday the United States would have enough Covid-19 vaccine doses for every adult American by the end of May, dramatically accelerating his timeline but acknowledging the country must still be vigilant against the virus.",
     "container-title": "CNN",
-    "title": "Biden now says US will have enough vaccine for every adult by the end of May",
+    "language": "en",
+    "title": "Biden now says US will have enough vaccine for every adult by the end of May | CNN Politics",
     "URL": "https://www.cnn.com/2021/03/02/politics/biden-merck-johnson--johnson-vaccine/index.html",
     "author": [
       {
-        "family": "CNN",
+        "family": "Harwood",
         "given": "Kevin Liptak",
-        "suffix": "Jeff Zeleny and John Harwood"
+        "suffix": "Jeff Zeleny,John"
       }
     ],
     "accessed": {
@@ -138873,6 +138874,15 @@
           "2022",
           4,
           25
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2021",
+          3,
+          2
         ]
       ]
     },

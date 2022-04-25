@@ -291,13 +291,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/628ef29df15bdfd9a5ba75f477f45292fbd8a6e1/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/628ef29df15bdfd9a5ba75f477f45292fbd8a6e1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/628ef29df15bdfd9a5ba75f477f45292fbd8a6e1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/71d80d05e8570ed6f2b1e37e1d8ad123b92414d6/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/71d80d05e8570ed6f2b1e37e1d8ad123b92414d6/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/71d80d05e8570ed6f2b1e37e1d8ad123b92414d6/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/628ef29df15bdfd9a5ba75f477f45292fbd8a6e1/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/628ef29df15bdfd9a5ba75f477f45292fbd8a6e1/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/71d80d05e8570ed6f2b1e37e1d8ad123b92414d6/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/71d80d05e8570ed6f2b1e37e1d8ad123b92414d6/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -319,11 +319,11 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/628ef29df15bdfd9a5ba75f477f45292fbd8a6e1/))
+([permalink](https://greenelab.github.io/covid19-review/v/71d80d05e8570ed6f2b1e37e1d8ad123b92414d6/))
 was automatically generated
-from [greenelab/covid19-review@628ef29](https://github.com/greenelab/covid19-review/tree/628ef29df15bdfd9a5ba75f477f45292fbd8a6e1)
+from [greenelab/covid19-review@71d80d0](https://github.com/greenelab/covid19-review/tree/71d80d05e8570ed6f2b1e37e1d8ad123b92414d6)
 on April 25, 2022.
-It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/628ef29df15bdfd9a5ba75f477f45292fbd8a6e1/manuscript.pdf).
+It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/71d80d05e8570ed6f2b1e37e1d8ad123b92414d6/manuscript.pdf).
 Snapshots of individual sections have been published [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals; @individual-methods].
 </em></small>
 
@@ -1755,9 +1755,12 @@ To distinguish past infection from vaccination, serological tests detect antibod
 They are useful for collecting population-level information for epidemiological analysis, as they can be used to estimate the extent of the infection in a given area.
 Thus, serological tests may be useful to address population-level questions, such as the percent of cases that manifest as severe versus mild and for guiding public health and economic decisions regarding resource allocation and counter-disease measures.
 
-Molecular and serological tests therefore offer distinct, complementary perspectives on viral presence.
-Some of the same technologies are useful to both strategies.
-They have been employed to varying extents throughout the world since the start of the COVID-19 pandemic.
+Molecular and serological tests therefore offer distinct, complementary perspectives on COVID-19 infections.
+Some of the same technologies are useful to both strategies, and different technologies have been employed to varying extents throughout the world since the start of the COVID-19 pandemic.
+Two of the primary metrics used to evaluate these tests are sensitivity and specificity.
+Sensitivity refers to a test's ability to correctly identify a true positive; for example, a test with 50% sensitivity would identify SARS-CoV-2 in only one of every two positive samples.
+On the other hand, specificity refers to how well a test is able to identify a negative sample as negative.
+This metric can be relevant both in terms of understanding the risk of false positives and in discussing whether a test is susceptible to identifying other coronaviruses.
 Here, we review the different types of tests within each category that have been developed and provide perspective on their applications.
 
 ### Molecular Tests to Identify SARS-CoV-2
