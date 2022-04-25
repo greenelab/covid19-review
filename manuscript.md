@@ -291,13 +291,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/71d80d05e8570ed6f2b1e37e1d8ad123b92414d6/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/71d80d05e8570ed6f2b1e37e1d8ad123b92414d6/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/71d80d05e8570ed6f2b1e37e1d8ad123b92414d6/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/e4723484cb4d8df349a6132a26807fa3b3301419/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/e4723484cb4d8df349a6132a26807fa3b3301419/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/e4723484cb4d8df349a6132a26807fa3b3301419/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/71d80d05e8570ed6f2b1e37e1d8ad123b92414d6/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/71d80d05e8570ed6f2b1e37e1d8ad123b92414d6/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/e4723484cb4d8df349a6132a26807fa3b3301419/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/e4723484cb4d8df349a6132a26807fa3b3301419/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -319,11 +319,11 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/71d80d05e8570ed6f2b1e37e1d8ad123b92414d6/))
+([permalink](https://greenelab.github.io/covid19-review/v/e4723484cb4d8df349a6132a26807fa3b3301419/))
 was automatically generated
-from [greenelab/covid19-review@71d80d0](https://github.com/greenelab/covid19-review/tree/71d80d05e8570ed6f2b1e37e1d8ad123b92414d6)
+from [greenelab/covid19-review@e472348](https://github.com/greenelab/covid19-review/tree/e4723484cb4d8df349a6132a26807fa3b3301419)
 on April 25, 2022.
-It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/71d80d05e8570ed6f2b1e37e1d8ad123b92414d6/manuscript.pdf).
+It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/e4723484cb4d8df349a6132a26807fa3b3301419/manuscript.pdf).
 Snapshots of individual sections have been published [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals; @individual-methods].
 </em></small>
 
@@ -2243,6 +2243,7 @@ Indeed, in December 2021 sufficient surveillance and reduction of COVID-19 sprea
 ### What Lies Ahead
 
 Diagnostic tools have played an important role during the COVID-19 pandemic.
+Different tests offer different advantages (Figure @fig:diag).
 Specifically, the results of SARS-CoV-2 diagnostic tests (typically qPCR or LFT-based tests) have been used to estimate the number of infections in the general population, thus informing public health strategies around the globe [@doi:10.1038/s41576-021-00360-w].
 During the surges caused by the different SARS-CoV-2 variants between 2020 and 2021, government-sponsored efforts to conduct mass testing and to provide free diagnostic tests to the population were a common occurrence in many parts of the world [@doi:10.1136/bmj.n902; @doi:10.1177/0020852321997552; @doi:10.1016/j.worlddev.2020.105208].
 However, recent reports indicate that such public health policies are starting to change during 2022.
@@ -2250,6 +2251,17 @@ For example, it is known that the UK plans to dismantle its COVID-19 testing pro
 A similar approach can be seen in the US as well, where multiple state-run testing facilities are closing, despite some groups advocating to keep them open [@url:https://www.9news.com/article/news/health/coronavirus/local-groups-continue-push-for-covid-testing-and-vaccinations/73-bbcd8384-d96a-425e-aaeb-16ac9f36e581; @url:https://www.sltrib.com/news/2022/02/18/utah-will-stop-daily].
 These ongoing changes in testing policy are likely to have a direct effect on how the pandemic is managed moving forward.
 SARS-CoV-2 diagnostic tests can be used effectively to slow the spread of the disease only when 1) they are used to share testing results in a timely manner so that they can reasonably be used to approximate the number of infections in the population and 2) those tests are easily accessible by the general public.
+
+![
+**Summary of Diagnostic Technologies used in COVID-19 Testing.**
+The immune response to SARS-CoV-2 means that different diagnostic approaches offer different views of COVID-19.
+Early in the infection course, viral load is high.
+This means that PCR-based testing and EIA testing for antigens are likely to return positives (as indicated by the green bars at the bottom).
+As viral load decreases, EIA antigen tests become negative, but PCR-based tests can still detect even very low viral loads.
+From a serological perspective, IgM peaks in the first few weeks following infection and then decreases, while IgG peaks much later in the infection course.
+Therefore, serological tests are likely to return positives in first few months following the acute infection course.
+Additional detail is available above and in several analyses and reviews [@doi:10.1056/NEJMp2025631; @doi:10.1038/s41591-022-01780-9; @doi:10.1001/jamanetworkopen.2021.42796; @individual-pathogenesis].
+](images/diagnostics.png "Summary of COVID-19 diagnostic technologies"){#fig:diag secno=1}
 
 Children are one segment of the population where the importance of the two aforementioned conditions can be exemplified.
 This group is particularly vulnerable as there are ongoing challenges with testing in schools, increased COVID-19 mortality rates, and COVID-19-associated orphanhood.
