@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2022-04-22'
+date-meta: '2022-04-25'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -72,8 +72,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2022-04-22" />
-  <meta name="citation_publication_date" content="2022-04-22" />
+  <meta name="dc.date" content="2022-04-25" />
+  <meta name="citation_publication_date" content="2022-04-25" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -252,8 +252,9 @@ header-includes: |-
   <meta name="twitter:creator" content="@lubianat" />
   <meta name="citation_author" content="David Mai" />
   <meta name="citation_author_institution" content="Department of Bioengineering, University of Pennsylvania, Philadelphia, PA, USA" />
+  <meta name="citation_author_institution" content="Center for Cellular Immunotherapies, Perelman School of Medicine, and Parker Institute for Cancer Immunotherapy at University of Pennsylvania, Philadelphia, PA, USA" />
   <meta name="citation_author_orcid" content="0000-0002-9238-0164" />
-  <meta name="twitter:creator" content="@daveomai" />
+  <meta name="twitter:creator" content="@lococyte" />
   <meta name="citation_author" content="COVID-19 Review Consortium" />
   <meta name="citation_author" content="Rishi Raj Goel" />
   <meta name="citation_author_institution" content="Institute for Immunology, University of Pennsylvania, Philadelphia, PA, United States of America" />
@@ -290,13 +291,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/be61b3fab41ee6d7fd43ca7b46a70e647a8bc83e/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/be61b3fab41ee6d7fd43ca7b46a70e647a8bc83e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/be61b3fab41ee6d7fd43ca7b46a70e647a8bc83e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/cee5dc2c80801863178985da934905afa3959f72/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/cee5dc2c80801863178985da934905afa3959f72/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/cee5dc2c80801863178985da934905afa3959f72/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/be61b3fab41ee6d7fd43ca7b46a70e647a8bc83e/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/be61b3fab41ee6d7fd43ca7b46a70e647a8bc83e/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/cee5dc2c80801863178985da934905afa3959f72/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/cee5dc2c80801863178985da934905afa3959f72/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -318,11 +319,11 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/be61b3fab41ee6d7fd43ca7b46a70e647a8bc83e/))
+([permalink](https://greenelab.github.io/covid19-review/v/cee5dc2c80801863178985da934905afa3959f72/))
 was automatically generated
-from [greenelab/covid19-review@be61b3f](https://github.com/greenelab/covid19-review/tree/be61b3fab41ee6d7fd43ca7b46a70e647a8bc83e)
-on April 22, 2022.
-It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/be61b3fab41ee6d7fd43ca7b46a70e647a8bc83e/manuscript.pdf).
+from [greenelab/covid19-review@cee5dc2](https://github.com/greenelab/covid19-review/tree/cee5dc2c80801863178985da934905afa3959f72)
+on April 25, 2022.
+It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/cee5dc2c80801863178985da934905afa3959f72/manuscript.pdf).
 Snapshots of individual sections have been published [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals; @individual-methods].
 </em></small>
 
@@ -683,9 +684,9 @@ Instead, you should collect information from your local health department, the [
 + **David Mai**<br> ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0002-9238-0164](https://orcid.org/0000-0002-9238-0164) · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [davemai](https://github.com/davemai) · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [daveomai](https://twitter.com/daveomai)<br>
+    [lococyte](https://twitter.com/lococyte)<br>
   <small>
-     Department of Bioengineering, University of Pennsylvania, Philadelphia, PA, USA
+     Department of Bioengineering, University of Pennsylvania, Philadelphia, PA, USA; Center for Cellular Immunotherapies, Perelman School of Medicine, and Parker Institute for Cancer Immunotherapy at University of Pennsylvania, Philadelphia, PA, USA
   </small>
 
 + **COVID-19 Review Consortium**<br><br>
@@ -2296,14 +2297,14 @@ The scale of the COVID-19 pandemic has made the repurposing and development of p
 
 ![
 **Cumulative global incidence of COVID-19 and SARS.**
-As of April 18, 2022, 505,054,564 COVID-19 cases and 6,199,914 COVID-19 deaths had been reported worldwide since January 22, 2020.
+As of April 22, 2022, 508,708,154 COVID-19 cases and 6,215,601 COVID-19 deaths had been reported worldwide since January 22, 2020.
 A total of 8,432 cases and 813 deaths were reported for SARS from March 17 to July 11, 2003.
 SARS-CoV-1 was officially contained on July 5, 2003, within 9 months of its appearance [@doi:10.3390/ijerph17113973].
 In contrast, SARS-CoV-2 remains a significant global threat nearly two years after its emergence.
 COVID-19 data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series; @doi:10/ggnsjk].
 SARS data are from the WHO [@url:https://www.who.int/csr/sars/country/en] and were obtained from a dataset on GitHub [@url:https://github.com/imdevskp/sars-2003-outbreak-data-webscraping-code].
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/1cad2ea2f97854c1073767acda737916d8146ad0/csse/csse-deaths.png "Global incidence of COVID-19 and SARS"){#fig:csse-deaths secno=1}
+](https://github.com/greenelab/covid19-review/raw/a4891cd9d0c6962620300203ef91d7f215fc707e/csse/csse-deaths.png "Global incidence of COVID-19 and SARS"){#fig:csse-deaths secno=1}
 
 At first, SARS-CoV-2's rapid shift from an unknown virus to a significant worldwide threat closely paralleled the emergence of _Severe acute respiratory syndrome-related coronavirus_ (SARS-CoV-1), which was responsible for the 2002-03 SARS epidemic.
 The first documented case of COVID-19 was reported in Wuhan, China in November 2019, and the disease quickly spread worldwide in the early months of 2020.
@@ -2360,7 +2361,7 @@ Recruitment status and trial phase are shown only for interventional trials in w
 Common interventions refers to interventions used in at least ten trials.
 Combinations of interventions, such as hydroxychloroquine with azithromycin, are tallied separately from the individual interventions.
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/1cad2ea2f97854c1073767acda737916d8146ad0/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/a4891cd9d0c6962620300203ef91d7f215fc707e/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 The purpose of this review is to provide an evolving resource tracking the status of efforts to repurpose and develop drugs for the treatment of COVID-19.
 We highlight four strategies that provide different paradigms for the identification of potential pharmaceutical treatments.
@@ -3427,7 +3428,7 @@ Vaccines have nearly 500 years of history, but the SARS-CoV-2 pandemic provides 
 ### Importance
 
 The SARS-CoV-2 pandemic has caused untold damage globally, presenting unusual opportunities and demands in vaccine development.
-As of April 18, 2022, SARS-CoV-2 has infected over 505,054,564 and taken the lives of 6,199,914 people globally.
+As of April 22, 2022, SARS-CoV-2 has infected over 508,708,154 and taken the lives of 6,215,601 people globally.
 The development, production, and distribution of vaccines is imperative to saving lives, preventing illness, and reducing the economic and social burdens caused by the COVID-19 pandemic.
 Effective deployment is critical to reducing the susceptibility of worldwide populations, especially in light of emerging variants.
 This review provides historical context for the current state of vaccine development and highlights the main strategies utilized for COVID-19 vaccine candidates, their clinical appraisal, and their distribution.
@@ -3512,7 +3513,7 @@ All of these approaches are being explored in the current pandemic.<!--To Do: de
 The first administration of a dose of a COVID-19 vaccine to a human trial participant occurred on March 16, 2020 [@url:https://www.modernatx.com/modernas-work-potential-vaccine-against-covid-19; @doi:10.1038/d41573-020-00073-5], marking an extremely rapid response to the emergence of SARS-CoV-2.
 Within a few weeks, at least 78 vaccine development programs were active [@doi:10.1038/d41573-020-00073-5].
 These programs employ a variety of technologies (Figure @fig:vaccines), ranging from established approaches to novel technologies that had never previously gone to market.
-As of April 18, 2022, 38 SARS-CoV-2 vaccines have been approved world wide and 26 are being administered throughout the world, with 11 billion doses administered across 223 countries.
+As of April 21, 2022, 38 SARS-CoV-2 vaccines have been approved world wide and 26 are being administered throughout the world, with 12 billion doses administered across 223 countries.
 Many vaccines are available in only a subset of countries, and the types of vaccines available varies widely throughout the world.
 The status of individual vaccines continues to change and varies regionally.
 
@@ -3606,7 +3607,7 @@ The exact mechanisms responsible for VADE remain elusive due to the specificity 
 
 **Application to COVID-19:**
 Several whole-virus vaccines have been developed against COVID-19 and are available in countries around the world.
-As of April 18, 2022, 11 vaccines developed with IWV technology are being distributed in 113 countries (Figure @fig:iwv-distrib).
+As of April 21, 2022, 11 vaccines developed with IWV technology are being distributed in 113 countries (Figure @fig:iwv-distrib).
 One, CoronaVac, was developed by Beijing-based biopharmaceutical company Sinovac.
 They inactivated a SARS-CoV-2 strain collected in China with &beta;-propiolactone and propagated it using Vero cells [@doi:10.3389/fimmu.2020.602256].
 The vaccine is coupled with an aluminum adjuvant [@doi:10.3389/fimmu.2020.602256].
@@ -3626,10 +3627,10 @@ For the other vaccine, neutralizing antibodies were detected in all groups 14 da
 
 ![
 **Worldwide availability of vaccines developed using inactivated whole viruses.**
-This figure reflects the number of vaccines based on whole inactivated virus technology that were available in each country as of April 18, 2022.
+This figure reflects the number of vaccines based on whole inactivated virus technology that were available in each country as of April 21, 2022.
 These data are retrieved from Our World in Data <!-To Do: Cite--> and plotted using geopandas.
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/1cad2ea2f97854c1073767acda737916d8146ad0/owiddata/maps/inactivated.png "Availability of inactivated whole virus vaccines"){#fig:iwv-distrib secno=1}
+](https://github.com/greenelab/covid19-review/raw/a4891cd9d0c6962620300203ef91d7f215fc707e/owiddata/maps/inactivated.png "Availability of inactivated whole virus vaccines"){#fig:iwv-distrib secno=1}
 
 Other programs have been led through industry partnerships with governmental organizations.
 Another IWV vaccine comes from India, where Bharat Biotech International Ltd., which is the biggest producer of vaccines globally, Bharat Biotech International Ltd., collaborated with the Indian Council of Medical Research (ICMR) - National Institute of Virology (NIV) to develop COVAXIN^®^, also referred to as BBV152.
@@ -3741,10 +3742,10 @@ As of March 30, 2022, 14 protein subunit vaccines are being distributed in 21 co
 
 ![
 **Worldwide availability of vaccines developed using protein subunit.**
-This figure reflects the number of vaccines based on protein subunit technology that were available in each country as of April 18, 2022.
+This figure reflects the number of vaccines based on protein subunit technology that were available in each country as of April 21, 2022.
 These data are retrieved from Our World in Data <!-To Do: Cite--> and plotted using geopandas.
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/1cad2ea2f97854c1073767acda737916d8146ad0/owiddata/maps/protein_subunit.png "Availability of protein subunit vaccines"){#fig:ps-distrib secno=1}
+](https://github.com/greenelab/covid19-review/raw/a4891cd9d0c6962620300203ef91d7f215fc707e/owiddata/maps/protein_subunit.png "Availability of protein subunit vaccines"){#fig:ps-distrib secno=1}
 
 One of the most prominent protein subunit vaccines against SARS-CoV-2 thus far is NVX-CoV2373 or Nuvaxovid, which is produced by U.S. company Novavax and partners.
 NVX-CoV2373 is a protein nanoparticle vaccine constructed from a mutated prefusion SARS-CoV-2 spike protein in combination with a specialized saponin-based adjuvant to elicit an immune response against SARS-CoV-2. 
@@ -3922,15 +3923,15 @@ As for Janssen, the phase III trial is ongoing across several countries (Argenti
 The vaccine was well-tolerated, and across all regions studied, it was found to be 66% effective after 28 days for the prevention of moderate to severe COVID-19 and to be 85% effective for the prevention of laboratory-confirmed severe COVID-19 as well as 100% protection against COVID-19-related hospitalization and death.
 
 **Distribution Status:**
-As of April 18, 2022, 7 viral-vectored vaccines are being distributed in 201 countries (Figure @fig:nrvv-distrib).
+As of April 21, 2022, 7 viral-vectored vaccines are being distributed in 201 countries (Figure @fig:nrvv-distrib).
 ChAdOx1 nCoV-19 was first approved for emergency use on December 30, 2020 in the United Kingdom [@url:https://www.astrazeneca.com/media-centre/press-releases/2020/astrazenecas-covid-19-vaccine-authorised-in-uk.html] and has since then been approved for emergency use in several dozen countries, in addition to receiving full approval in Brazil.
 
 ![
 **Worldwide availability of vaccines developed using non-replicating viral vectors.**
-This figure reflects the number of vaccines using non-replicating viral vectors that were available in each country as of April 18, 2022.
+This figure reflects the number of vaccines using non-replicating viral vectors that were available in each country as of April 21, 2022.
 These data are retrieved from Our World in Data <!-To Do: Cite--> and plotted using geopandas.
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/1cad2ea2f97854c1073767acda737916d8146ad0/owiddata/maps/non_replicating_viral_vector.png "Availability of non-replicating viral-vectored vaccines"){#fig:nrvv-distrib secno=1}
+](https://github.com/greenelab/covid19-review/raw/a4891cd9d0c6962620300203ef91d7f215fc707e/owiddata/maps/non_replicating_viral_vector.png "Availability of non-replicating viral-vectored vaccines"){#fig:nrvv-distrib secno=1}
 
 As of early January, Sputnik V had been administered to as many as 1.5 million Russians [@url:https://www.brusselstimes.com/news-contents/world/149039/1-5-million-people-have-received-sputnik-v-vaccine-russia-says-russian-direct-investment-fund-mikhail-murashko], and doses of Sputnik V have also been distributed to other parts of Europe, such as Belarus, Bosnia-Herzegovina, Hungary, San Marino, Serbia, and Slovakia [@url:https://www.euronews.com/2021/02/12/hungary-to-begin-using-russia-s-sputnik-v-vaccine-today; @url:https://www.euronews.com/2021/02/24/san-marino-buys-russia-s-sputnik-v-after-eu-vaccine-delivery-delays; @url:https://www.themoscowtimes.com/2020/12/29/belarus-starts-coronavirus-vaccination-with-sputnik-v-a72512], with the Czech Republic and Austria also having expressed interest in its procurement [@url:https://www.cnbc.com/2021/03/02/russias-sputnik-vaccine-is-luring-eastern-europe-worrying-the-eu.html].
 It wasn't until February 2021, six months after its approval in Russia, that interim results of the phase III trial were released [@doi:10/ghxj4g].
@@ -4007,14 +4008,14 @@ Both require two doses approximately one month apart.
 The first was Pfizer/BioNTech's BNT162b2, which contains the full prefusion stabilized, membrane-anchored SARS-CoV-2 spike protein in a vaccine formulation based on modified mRNA (modRNA) technology [@doi:10.1101/cshperspect.a014035; @url:https://www.pfizer.com/news/press-release/press-release-detail/pfizer-and-biontech-announce-early-positive-data-ongoing-0].
 <!--To Do: brief history of phase I & phase II (like 1-2 sentences)-->
 The second mRNA vaccine, mRNA-1273 developed by ModernaTX, is comprised by a conventional lipid nanoparticle encapsulated RNA encoding a full-length prefusion stabilized S protein for SARS-CoV-2 [@clinicaltrials:NCT04283461].
-As of April 18, 2022, 3 mRNA vaccines are available in 163 countries (Figure @fig:mRNA-distrib).
+As of April 21, 2022, 3 mRNA vaccines are available in 163 countries (Figure @fig:mRNA-distrib).
 
 ![
 **Worldwide availability of vaccines developed using mRNA.**
-This figure reflects the number of vaccines based on mRNA technology that were available in each country as of April 18, 2022.
+This figure reflects the number of vaccines based on mRNA technology that were available in each country as of April 21, 2022.
 These data are retrieved from Our World in Data <!-To Do: Cite--> and plotted using geopandas.
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/1cad2ea2f97854c1073767acda737916d8146ad0/owiddata/maps/RNA.png "Availability of mRNA vaccines"){#fig:mRNA-distrib secno=1}
+](https://github.com/greenelab/covid19-review/raw/a4891cd9d0c6962620300203ef91d7f215fc707e/owiddata/maps/RNA.png "Availability of mRNA vaccines"){#fig:mRNA-distrib secno=1}
 
 **Efficacy Estimates:**
 Pfizer/BioNTech's BNT162b2 vaccine and ModernaTX’s mRNA-1273 vaccine, commercially known as Comirnaty and Spikevax, are available in most countries thanks to their rapid development in 2020. 
@@ -5555,7 +5556,7 @@ Trials that recruit across multiple countries do appear to broaden geographic re
 The density of clinical trials is reported at the country level.
 As of December 31, 2020, there are 6,987 trials in the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709], of which 3,962 are interventional.
 The top figure demonstrates the density of interventional trials recruiting only from a singular country, while the bottom shows the distribution of recruitment for interventional trials that involve more than one country.
-](https://github.com/greenelab/covid19-review/raw/1cad2ea2f97854c1073767acda737916d8146ad0/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
+](https://github.com/greenelab/covid19-review/raw/a4891cd9d0c6962620300203ef91d7f215fc707e/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
 
 A few different concerns arise from this skewed geographic representation in clinical trial recruitment.
 First, treatments such as remdesivir that are promising but primarily available to clinical trial participants are unlikely to be accessible by people in many countries.
@@ -5659,7 +5660,7 @@ The scientific community has, in turn, devoted significant attention and resourc
 Over 20,000 articles about COVID-19 were released in the first four months of the pandemic [@doi:10.1053/j.ackd.2020.08.003], causing an "infodemic" [@doi:10.1053/j.ackd.2020.08.003; @doi:10/ggpx67].
 The COVID-19 Open Research Dataset (CORD-19) [@arxiv:2004.10706], which was developed in part with the goal of training machine learning algorithms on COVID-19-related text, illustrates the growth of related scholarly literature (Figure @fig:cord19-growth).
 This resource was developed by querying several sources for terms related to SARS-CoV-2 and COVID-19, as well as the coronaviruses SARS-CoV-1 and MERS-CoV and their associated diseases [@arxiv:2004.10706].
-CORD-19 contained 1000358 manuscripts as of 2022-04-07.
+CORD-19 contained 1015768 manuscripts as of 2022-04-21.
 Additional curation by CoronaCentral [@doi:10.1073/pnas.2100766118] has produced, at present, a set of over 180,000 publications particularly relevant to COVID-19 and closely related viruses.
 Despite many advances in understanding the virus and the disease, there are also downsides to the availability of so much information.
 "Excessive publication" has been recognized as a concern for over forty years [@doi:10/d3bmnv] and has been discussed with respect to the COVID-19 literature [@url:https://blogs.sciencemag.org/pipeline/archives/2021/07/19/too-many-papers].
@@ -5669,9 +5670,9 @@ Any effort to synthesize, summarize, and contextualize COVID-19 research will fa
 **Growth of the CORD-19 dataset.**
 The number of articles has proliferated, with both traditional and preprint manuscripts in the corpus.
 The first release (March 16, 2020) contained 28,000 documents [@arxiv:2004.10706].
-As of 2022-04-07, this had increased to 1000358 articles.
-Of these, 40238 are preprints from _arXiv_, _medRxiv_, and _bioRxiv_.
-](https://github.com/greenelab/covid19-review/raw/270fae9f476f92ba3328e629e1ccf4d6f4e0ba8d/CORD-19/cord19-growth.png "CORD-19 dataset growth"){#fig:cord19-growth secno=1}
+As of 2022-04-21, this had increased to 1015768 articles.
+Of these, 40841 are preprints from _arXiv_, _medRxiv_, and _bioRxiv_.
+](https://github.com/greenelab/covid19-review/raw/a4891cd9d0c6962620300203ef91d7f215fc707e/CORD-19/cord19-growth.png "CORD-19 dataset growth"){#fig:cord19-growth secno=1}
 
 Information was released rapidly by both traditional publishers and preprint servers, and many papers faced subsequent scrutiny.
 The number of COVID-19 papers retracted may be higher, and potentially much higher, than is typical, although a thorough investigation of this question requires more time to elapse [@doi:10.1080/08989621.2020.1782203; @doi:10.1080/08989621.2020.1793675].
