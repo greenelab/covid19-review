@@ -1266,13 +1266,14 @@ authors:
     name: David Mai
     initials: DM
     orcid: 0000-0002-9238-0164
-    twitter: daveomai
+    twitter: lococyte
     email: damai@seas.upenn.edu
     contributions:
       - Writing - Original Draft
       - Writing - Review & Editing
     affiliations:
       - Department of Bioengineering, University of Pennsylvania, Philadelphia, PA, USA
+      - Center for Cellular Immunotherapies, Perelman School of Medicine, and Parker Institute for Cancer Immunotherapy at University of Pennsylvania, Philadelphia, PA, USA
     code of conduct:
       confirmed: Yes
     coi:
