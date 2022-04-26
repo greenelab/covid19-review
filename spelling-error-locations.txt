@@ -1,2 +1,0 @@
-content/10.diagnostics.md:538:diag
-content/10.diagnostics.md:556:diag
