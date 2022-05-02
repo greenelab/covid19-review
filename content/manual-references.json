@@ -1141,27 +1141,6 @@
 },
 {
   "type": "article-journal",
-  "id": "individual-diagnostics",
-  "author": [
-    {
-      "literal": "COVID-19 Review Consortium"
-    }
-  ],
-  "issued": {
-    "date-parts": [
-      [
-        2021,
-        4,
-        30
-      ]
-    ]
-  },
-  "container-title": "Manubot",
-  "title": "Diagnostics",
-  "URL": "https://greenelab.github.io/covid19-review/v/32afa309f69f0466a91acec5d0df3151fe4d61b5/#diagnostics"
-},
-{
-  "type": "article-journal",
   "id": "individual-inequality",
   "author": [
     {
