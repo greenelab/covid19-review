@@ -291,13 +291,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/66afb4e0137c451899c9001a4f12b4977d38428e/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/66afb4e0137c451899c9001a4f12b4977d38428e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/66afb4e0137c451899c9001a4f12b4977d38428e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/8708e1f65f5bee52cd2eb16c523805031c88f0e2/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/8708e1f65f5bee52cd2eb16c523805031c88f0e2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/8708e1f65f5bee52cd2eb16c523805031c88f0e2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/66afb4e0137c451899c9001a4f12b4977d38428e/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/66afb4e0137c451899c9001a4f12b4977d38428e/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/8708e1f65f5bee52cd2eb16c523805031c88f0e2/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/8708e1f65f5bee52cd2eb16c523805031c88f0e2/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -319,11 +319,11 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/66afb4e0137c451899c9001a4f12b4977d38428e/))
+([permalink](https://greenelab.github.io/covid19-review/v/8708e1f65f5bee52cd2eb16c523805031c88f0e2/))
 was automatically generated
-from [greenelab/covid19-review@66afb4e](https://github.com/greenelab/covid19-review/tree/66afb4e0137c451899c9001a4f12b4977d38428e)
+from [greenelab/covid19-review@8708e1f](https://github.com/greenelab/covid19-review/tree/8708e1f65f5bee52cd2eb16c523805031c88f0e2)
 on May 5, 2022.
-It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/66afb4e0137c451899c9001a4f12b4977d38428e/manuscript.pdf).
+It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/8708e1f65f5bee52cd2eb16c523805031c88f0e2/manuscript.pdf).
 Snapshots of individual sections have been published [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals; @individual-methods] or posted as preprints [@individual-diagnostics].
 </em></small>
 
@@ -1403,15 +1403,14 @@ The genomic revolution provided the tools needed to understand the virus in ways
 For example, the first genome sequence of the pathogen was released on January 3, 2020, providing valuable information about the pathogen within a month and a half of the first known cases.
 As the pandemic has unfolded, evolutionary questions and methods of investigation have framed the scientific approach to understanding the virus.
 These questions have evolved along with the pandemic.
-Thus far, four major evolutionary questions have emerged.<!--The Who does it affect question will be one we have to be careful to avoid overlap with pathogenesis paper? Also is there a fifth question of what is next? We have never deeply sequenced a virus like this before... viral surveillance that has never been achieved. Implications for preventing future pandemics?-->
-The first was "what is it?", the second "where did it come from?", the third "whom does it affect?" and the fourth "how is it changing?"
+Thus far, five major evolutionary questions have emerged.
+The first was "what is it?", the second "where did it come from?", the third and fourth address "whom does it affect?", the fifth "how is it changing?" and the sixth "what is next?"
 Evolutionary biology provides a framework through which these questions can be evaluated and explored.
 
 ### Question 1: What Is It?
 
 What is now known as SARS-CoV-2 emerged in November 2019 as an unknown pathogen causing a cluster of pneumonia cases in Wuhan, China.
 The initial genome sequence, which was released in early January 2020, revealed the pathogen to be a novel coronavirus [@doi:10.46234/ccdcw2020.017].
-Coronaviruses have long been known to infect animals and have been the subject of veterinary medical investigations and vaccine development efforts due to their effect on the health of companion and agricultural animals [@doi:10/ckfn8b].
 Although most coronaviruses show little transmission in humans, several human coronaviruses (HCoV) have been identified since the 1960s.
 Therefore, in the early days of the pandemic, many strategies to understand or manage the emergent viral threat focused on contextualizing it amongst better-studied coronaviruses.
 
@@ -1447,46 +1446,6 @@ Therefore, this early phylogenetic analysis of the novel coronavirus allow its s
 SARS-CoV-1 and MERS-CoV were ultimately managed largely through infection management practices (e.g., mask wearing) and properties of the virus itself (i.e., low rate of transmission), respectively [@doi:10.1038/nrmicro.2016.81; @doi:10.1093/ajcp/aqaa029].
 Research in response to prior outbreaks of HCoV-borne infections, such as SARS and MERS, provided a strong foundation for hypotheses about the pathogenesis of SARS-CoV-2 as well as potential diagnostic and therapeutic approaches, as we review elsewhere [@individual-pathogenesis; @individual-pharmaceuticals; @individual-vaccines].
 Therefore, this phylogenetic information was valuable for gaining an understanding of the pathogen and identifying strategies to manage it.
-
-### Coronaviruses and Animal Hosts
-
-Coronaviruses have long been known to infect animals and have been the subject of veterinary medical investigations and vaccine development efforts due to their effect on the health of companion and agricultural animals [@doi:10/ckfn8b].
-<!-- TO DO: Expand on the relationship between coronaviruses and animals -- which taxa are most often affected? how severe are veterinary infections? how has vaccine development worked for these diseases?--> 
-
-<!-- TO DO: Be care to check overlap between this section and 20.pharmaceuticals.md. Trim to address just the important information about human-coronavirus interactions that feeds into an evolutionary perspective of how these host/virus interactions evolve across taxa and over time -->
-Most coronaviruses show little to no transmission in humans.
-However, it is thought that approximately one-third of common cold infections are caused by four seasonal human coronaviruses (HCoV): _Human coronavirus 229E_ (HCoV-229E), _Human coronavirus NL63_ (HCoV-NL63), _Human coronavirus OC43_ (HCoV-OC43), and _Human coronavirus HKU1_ (HCoV-HKU1) [@doi:10.1038/s41579-018-0118-9; @doi:10.3390/diseases4030026; @doi:10.1016/j.jcv.2018.01.019].
-The first HCoV were identified in the 1960s: HCoV-229E in 1965 [@doi:10.3181/00379727-121-30734] and HCoV-OC43 in 1967 [@doi:10.1073/pnas.57.4.933].
-Both of these viruses typically cause cold-like symptoms, including upper and lower respiratory infections [@doi:10.1186/1743-422X-1-7; @pmid:20700397; @doi:10.1186/s40779-020-00279-z], but they have also been associated with gastrointestinal symptoms [@doi:10.1111/j.1440-1754.2007.01246.x].
-Two additional HCoV were subsequently identified [@doi:10.1038/nm1024; @doi:10.1128/JVI.79.2.884-895.2005].
-In 2003, HCoV-NL63 [@doi:10.1038/nm1024] was first identified in a 7-month-old infant and then in clinical specimens collected from seven additional patients, five of whom were infants younger than 1 year old and the remainder of whom were adults.
-CoV-HKU1 was identified in samples collected from a 71-year-old pneumonia patient in 2004 and then found in samples collected from a second adult patient [@doi:10.1128/JVI.79.2.884-895.2005].
-These viruses are associated with respiratory diseases of varying severity, ranging from common cold to severe pneumonia, with severe symptoms mostly observed in immunocompromised individuals [@doi:10.1086/377612], and also have gastrointestinal involvement in some cases [@doi:10.1111/j.1440-1754.2007.01246.x].
-In addition to these relatively mild HCoV, however, highly pathogenic human coronaviruses have been identified, including _Severe acute respiratory syndrome-related coronavirus_ (SARS-CoV or SARS-CoV-1) and _Middle East respiratory syndrome-related coronavirus_ (MERS-CoV) [@doi:10.1038/nrmicro.2016.81; @doi:10.1038/s41579-018-0118-9; @doi:10.1016/bs.aivir.2018.01.001].
-
-At the time that SARS-CoV-1 emerged in the early 2000s, no HCoV had been identified in almost 40 years [@doi:10.1038/nrmicro.2016.81].
-The first case of SARS was reported in November 2002 in the Guangdong Province of China, and over the following month, the disease spread more widely within China and then into several countries across multiple continents [@doi:10.1093/ajcp/aqaa029; @doi:10.1038/nrmicro.2016.81].
-Unlike previously identified HCoV, SARS was much more severe, with an estimated death rate of 9.5% [@doi:10.1093/ajcp/aqaa029].
-It was also highly contagious via droplet transmission, with a basic reproduction number (R~0~) of 4 (i.e., each person infected was estimated to infect four other people) [@doi:10.1093/ajcp/aqaa029].
-However, the identity of the virus behind the infection remained unknown until April of 2003, when the SARS-CoV-1 virus was identified through a worldwide scientific effort spearheaded by the WHO [@doi:10.1038/nrmicro.2016.81].
-SARS-CoV-1 belonged to a distinct lineage from the two other HCoV known at the time [@doi:10.1093/ajcp/aqaa029].
-By July 2003, the SARS outbreak was officially determined to be under control, with the success credited to infection management practices [@doi:10.1038/nrmicro.2016.81].
-A decade later, a second outbreak of severe respiratory illness associated with a coronavirus emerged, this time in the Arabian Peninsula.
-This disease, known as Middle East respiratory syndrome (MERS), was linked to another novel coronavirus, MERS-CoV.
-The fatality rate associated with MERS is much higher than that of SARS, at almost 35%, but the disease is much less easily transmitted, with an R~0~ of 1 [@doi:10.1093/ajcp/aqaa029].
-Although MERS is still circulating, its low reproduction number has allowed for its spread to be contained [@doi:10.1093/ajcp/aqaa029].
-The COVID-19 pandemic is thus associated with the seventh HCoV to be identified and the fifth since the turn of the millennium, though additional HCoVs may be in circulation but remain undetected.  
-Possible evidence for a rare eighth HCoV was later reported by [@doi:10.1093/cid/ciab456].
-
-SARS-CoV-1 and MERS-CoV were ultimately managed largely through infection management practices (e.g., mask wearing) and properties of the virus itself (i.e., low rate of transmission), respectively [@doi:10.1038/nrmicro.2016.81; @doi:10.1093/ajcp/aqaa029].
-Vaccines were not used to control either outbreak, although vaccine development programs were established for SARS-CoV-1 [@doi:10.3390/v11010059].
-In general, care for SARS and MERS patients focuses on supportive care and symptom management [@doi:10.1093/ajcp/aqaa029].
-Clinical treatments for SARS and MERS developed during the outbreaks generally do not have strong evidence supporting their use.
-Common treatments included Ribavirin, an antiviral, often in combination with corticosteroids or sometimes interferon (IFN) medications, which would both be expected to have immunomodulatory effects [@doi:10.1038/nrmicro.2016.81].
-However, retrospective and _in vitro_ analyses have reported inconclusive results of these treatments on SARS and the SARS-CoV-1 virus, respectively [@doi:10.1038/nrmicro.2016.81].
-IFNs and Ribavirin have shown promise in _in vitro_ analyses of MERS, but their clinical effectiveness remains unknown [@doi:10.1038/nrmicro.2016.81].
-Therefore, only limited strategies can be adopted for the pharmaceutical management of COVID-19 from previous severe HCoV infections.
-Research in response to prior outbreaks of HCoV-borne infections, such as SARS and MERS, have, however, provided a strong foundation for hypotheses about the pathogenesis of SARS-CoV-2 as well as potential diagnostic and therapeutic approaches.
 
 ### Question 2: Where Did It Come From?
 
@@ -1530,9 +1489,95 @@ While it has been suggested that more thorough investigation of the origins of C
 A more robust panel of zoonotic viruses against which to compare SARS-CoV-2 would allow for conclusive dismissal of these politicized claims, underscoring another potential benefit of more thorough monitoring of zoonotic diseases.
 More importantly, it would allow researchers to have a better understanding of and to community concerns about potential emerging viral threats.
 
-### Question 3: Who is Affected?
+### Question 3: Which Species Are Susceptible?
 
-#### Genetic Contributors to Susceptibility
+Given the strong evidence for a zoonotic origin of SARS-CoV-2, another evolutionary question that received significant attention, especially early on, was whether humans could infect other species with SARS-CoV-2.
+In the modern age, opportunities for human-to-animal transmission events could arise in interactions with companion animals, zoo animals, house pests, hunting, urbanized wildlife, and livestock.
+Outbreaks of zoonotic diseases have been known to originate in environments such as zoos, farms, and petting zoos [@doi:10.2460/javma.2004.224.1105], indicating that disease transmission is likely to be possible in these contexts.
+Additionally, many coronaviruses infect animals and have been the subject of veterinary medical investigations and vaccine development efforts due to their effect on the health of companion and agricultural animals [@doi:10/ckfn8b].
+Concerns about anthroponotic (human-to-animal) transmission focused on a few issues.
+First, if animal species were susceptible to COVID-19-like infection, in addition to concerns about animal health, infections in livestock could have significant effects on food supply chains.
+Additionally, even if pathology in these species was limited, if they could serve as viral reservoirs, then they would pose additional risk to humans.
+The breadth of species susceptible to infection by a pathogen is known as the pathogen's host range [@doi:10.1016/B978-0-12-811257-1.00005-X].
+Understanding the host-pathogen relationship throughout SARS-CoV-2's host range can therefore offer valuable information for managing the spread of SARS-CoV-2. 
+
+The phylogeny of the species implicated in the origination of COVID-19 suggested that the host range of SARS-CoV-2 could encompass many species with a high level of interaction with humans.
+Humans last shared an ancestor with bats and pangolins almost 100 million years ago [@doi:10.1073/pnas.1702012114].
+Bats belong to the order Chiroptera and pangolins to Pholidota, which both belong to the clade _Pegasoferae_ [@doi:10.1016/j.cub.2013.09.014; @doi:10.1073/pnas.0603797103; @doi:10.1101/gr.5918807].
+They are closely related to many other species that have close relationships with humans, namely odd-toed ungulates (Euungulata) and carnivores (Carnivora) [@doi:10.1016/j.cub.2013.09.014; @doi:10.1073/pnas.0603797103; @doi:10.1101/gr.5918807; @url:http://www.timetree.org/public/data/pdf/Murphy2009Chap71.pdf].
+The part of the evolutionary tree that includes both humans and the Pegasoferae encompasses many species of significant social and economic importance. 
+Therefore, concerns were raised that the species with which humans have close interactions, many of which are much more closely related to bats and pangolins than humans are, could also be infected.
+It seemed plausible that the host range could include both livestock, many of which are odd-toed ungulates, and companion animals, many of which are carnivores.
+Infection of these animals was identified as a major concern [@doi:10.1089/vbz.2020.2650].
+
+Genomic analyses seeking to identify which species were likely to be susceptible focused largely on the comparative genetics of angiotensin-converting enzyme 2 (ACE2).
+ACE2 is the primary protein used by SARS-CoV-2 to enter the cell (see [@individual-pathogenesis]).
+Recognition of this protein is largely determined by domains in the S1 subunit of the RBD [@doi:10.1016/j.cell.2020.02.058].
+Alignment of the _ACE2_ sequence from 19 species revealed high conservation among mammals [@doi:10.1016/j.jinf.2020.02.013].
+This analysis suggested that non-human primates (three monkey and two ape species), companion animals (dogs and cats), and livestock (both odd- and even-toed ungulates) may all be susceptible to SARS-CoV-2 [@doi:10.1016/j.jinf.2020.02.013].
+Similarly, another study conducted an _in silico_ analysis of ACE2 protein structures and their predicted binding to SARS-CoV-2 for 410 vertebrate species [@doi:10.1073/pnas.2010146117].
+The species identified as having the highest predicted binding affinities were all primates, including humans.
+Other taxa with high predicted affinities included other primates, rodents, even-toed ungulates (namely, several species of cetaceans and deer), and anteaters.
+Reindeer were the only domesticated species predicted to belong to either of these groups, but many common zoo animal species with threatened or worse IUCN risk status were identified as at risk.
+
+Considering the evidence generated by _in silico_ studies, it may not be surprising that many cases of reverse zoonotic, or anthroponotic, SARS-CoV-2 transmission have been reported.
+Ferrets (_Mustela furo_) as well as cats and dogs were reported to be susceptible to SARS-CoV-2 in an experimental infection study [@doi:10.1111/xen.12621].
+The earliest reported anthroponotic transmission events were observed in house pets, primarily cats (_Felis catus_) [@doi:10.3390/v13020185; @doi:10.1038/s41586-020-2334-5; @doi:10.3201/eid2707.204959].
+Similarly, cases of SARS-CoV-2 infection have been reported in dogs (_Canis familiaris_): two of fifteen dogs monitored for SARS-CoV-2 by the Hong Kong Agriculture, Fisheries, and Conservation Department during the owners' quarantine in March 2020 were found to be positive for SARS-CoV-2 [@doi:10.1038/s41586-020-2334-5]. 
+Comparing estimates in studies where cats (_Felis catus_) living with SARS-CoV-2-positive humans were tested for SARS-CoV-2 suggest that 6 to 15% of house cats may become infected [@doi:10.3390/v13020185], and a large-scale study of pet dogs and cats in Italy suggested that 4.5% of cats and 12.8% of dogs from known COVID-19-positive households had developed antibodies to the virus [@doi:10.1038/s41467-020-20097-0].
+Some of these SARS-CoV-2-positive domestic carnivores have also shown clinical symptoms [@doi:10.1016/j.virusres.2022.198673], and a pilot study of seven cats and three dogs found that cats, but not dogs, shed SARS-CoV-2 virus for several days after viral challenge, although none of the animals were symptomatic [@doi:10.1073/pnas.2013102117].
+A few dogs and cats have reportedly died after becoming infected with SARS-CoV-2, although in most cases whether the virus is causally related to the death is unclear [@url:https://www.nationalgeographic.com/animals/article/first-dog-to-test-positive-for-covid-in-us-dies; @url:https://www.courant.com/coronavirus/hc-news-coronavirus-uconn-dog-infection-20210413-yrbg6icd6bcirk6ylwnzkxi6di-story.html; @url:https://www.nbcnews.com/news/us-news/north-carolina-dog-died-after-acute-illness-tests-positive-coronavirus-n1236477; @url:https://www.forbes.com/sites/roberthart/2021/04/23/kitten-dies-after-catching-covid-as-study-uncovers-more-evidence-of-human-to-cat-transmission/?sh=4b653381275e; @doi:10.1002/vetr.247; @url:https://www.wbrc.com/2020/10/09/investigation-into-cats-death-cat-had-covid].
+
+Domestic pests, on the other hand, seem to be less susceptible to SARS-CoV-2.
+In the comparative genomic analysis of ACE2, the two rodent species analyzed, despite being the most phylogenetically similar to humans aside from the other primates, showed the most sequence divergence in _ACE2_ [@doi:10.1016/j.jinf.2020.02.013].
+This finding was supported by experimental evidence that SARS-CoV-2 cannot use mouse (_Mus musculus_) ACE2 for cell entry [@doi:10.1038/s41586-020-2012-7].
+In fact, research using murine models to study SARS and COVID-19 therefore uses transgenic mice designed to be sensitive to the virus (as summarized in [@doi:10.1007/s11259-021-09787-2]).
+
+Similarly, SARS-CoV-2 in livestock also raised concern because of the potential effect on food supply.
+However, studies using _in vivo_ viral challenge reported that livestock species in general do not develop clinical manifestations of SARS-CoV-2 and do not shed infectious virus [@doi:10.1080/22221751.2021.2003724; @doi:10.1111/xen.12621].
+_In vitro_ exposure to SARS-CoV-2 suggested that sheep (_Ovis aries_), but not cattle (_Bos taurus_), might be susceptible to infection, but _in vivo_ viral challenge suggested that sheep did not show notable susceptibility to infection [@doi:10.1080/22221751.2022.2037397].
+Similarly, analyses of antibody response [@doi:10.3390/ani11071984] suggested that sheep exposed to a high level of human interaction did not appear to have developed infections.
+Following viral challenge of several species, including cattle, sheep, and horses (_Equus ferus caballus_), none were found to shed culturable levels of virus [@doi:10.1080/22221751.2021.2003724].
+As a note, despite the low risk posed by livestock themselves, the working conditions of the meat industry itself were associated with a very high risk of SARS-CoV-2 infection for workers that did cause disruptions to food supply chains [@doi:10.1073/pnas.2010115117; @doi:10.3389/fvets.2020.585787].
+
+However, one species of domesticated agricultural animal severely affected by SARS-CoV-2 was the mink (_Neovison vison_).
+While fur farming has declined significantly since the twentieth century, mink farming is still common in China and some European countries, and mink farms continue to exist in the United States.
+Mink belong to the Mustelidae family within Carnivora.
+SARS-CoV-2 was first reported on mink farms in the Netherlands and Denmark in 2020 [@doi:10.2807/1560-7917.ES.2020.25.23.2001005; @doi:10.3201/eid2702.203794].
+Mink were observed to show symptoms of respiratory infection, with varied severity among individuals [@doi:10.2807/1560-7917.ES.2020.25.23.2001005].
+Dissection revealed lung pathology consistent with interstitial pneumonia [@doi:10.2807/1560-7917.ES.2020.25.23.2001005].
+An analysis of five farms in the United States reported mortality rates between 35 and 55% of adult minks [@doi:10.1371/journal.ppat.1009952].
+Subsequently, mink farms worldwide reported outbreaks of SARS-CoV-2.
+Concerns were amplified when novel variants of SARS-CoV-2 were identified as having emerged on Danish mink farms and spread into the human population [@doi:10.2807/1560-7917.ES.2021.26.5.210009; @doi:10.3201/eid2702.203794; @doi:10.1016/j.celrep.2021.109017; @doi:10.3201/eid2702.203794; @doi:10.3390/v13091683].
+The fact that these variants appeared in mink populations before being observed in humans suggests that mink can indeed serve as a viral reservoir [@doi:10.3201/eid2702.203794].
+Concerns about mink-to-human transmission led to the mass destruction of domesticated mink populations in Europe [@doi:10.1016/j.nmni.2020.100816; @doi:10.1126/science.368.6496.1169].
+Introgression from fur farms into wild populations (i.e., feralization) may have also resulted in the spread of SARS-CoV-2 into wild mink populations [@doi:10.1002/fee.2344; @doi:10.3390/ani11051422].
+Therefore, while the specific zoonotic origin of SARS-CoV-2 may still not be clear, the potential for the virus to take hold in species other than humans has been clearly demonstrated by the mink outbreak.
+
+Finally, some species of zoo animals were also monitored to determine whether they were at risk.
+Several species closely related to humans (i.e., the Great Apes) are threatened with extinction and had been identified through _in silico_ studies as likely to be susceptible to SARS-CoV-2 [@doi:10.1073/pnas.2010146117], and therefore the potential for a virus to target these close relatives presented a major concern.
+In early 2021, three gorillas (_Gorilla beringei beringei_) at the San Diego Zoo Safari Park developed respiratory symptoms that were confirmed to be associated with SARS-CoV-2 [@url:https://www.aphis.usda.gov/aphis/newsroom/stakeholder-info/sa_by_date/sa-2021/sa-01/ca-gorillas-sars-cov-2].
+Gorillas at other zoos have also been infected [@url:https://www.wfaa.com/article/news/local/dallas-zoo-5-gorillas-tested-positive-covid-19/287-901a235f-b120-49ff-9fbe-1a1a6dfbadb5; @url:https://www.ctvnews.ca/health/coronavirus/nearly-all-gorillas-at-atlanta-s-zoo-have-contracted-covid-19-1.5586112; @url:https://www.kmbc.com/article/kc-zoo-gorillas-recovering-from-covid/37873956]. 
+Additionally, given the susceptibility of house cats, it is not so surprising that other felids are also susceptible to SARS-CoV-2.
+Infections of several "big cats" including Malayan tigers (_Panthera tigris jacksoni_), Amur tigers (_Panthera tigris altaica_), and African lions (_Panthera leo krugeri_) were reported at New York City's Bronx Zoo in March 2020 [@doi:10.1128/mBio.02220-20].
+In late 2020, four lions (_Panthera leo bleyenberghi_) at the Barcelona Zoo also developed respiratory symptoms that were found to be caused by SARS-CoV-2 [@doi:10.3390/v13091683].
+Several captive snow leopards (_Panthera uncia_) in the United States have died from COVID-19 [@url:https://www.wglt.org/local-news/2022-01-06/a-snow-leopard-at-miller-park-zoo-is-mclean-countys-latest-death-from-covid-19; @url:https://www.washingtonpost.com/science/2021/11/14/snow-leopard-death-covid].
+
+While discussions of zoonoses often focus on the risk that animal diseases carry for human populations, the COVID-19 pandemic has also underscored the risks that human diseases pose for animals.
+COVID-19 precautions may have reduced the spread of other respiratory illnesses to wild mountain gorilla (_Gorilla beringei beringei_) populations [@url:https://www.nytimes.com/2022/02/21/health/gorillas-respiratory-illness-colds.html], reducing one of the most significant threats to this endangered species [@doi:10.1002/ajp.20564].
+In the case of gorillas, the potential for cross-species application of pharmaceutical advances has also become clear: captive gorillas with COVID-19 received monoclonal antibodies [@url:https://www.washingtonpost.com/nation/2021/09/12/zoo-atlanta-gorillas-coronavirus-vaccine].
+Additionally, several companies are developing veterinary vaccines against SARS-CoV-2.
+The most visible has been Zoetis, a veterinary pharmaceutical company, that has developed vaccines that have been administered to several species, including felids in zoos, minks, and gorillas [@doi:10.1016/j.vetmic.2022.109395; @url:https://www.zoetis.com/news-and-media/feature-stories/posts/zoetis-emerging-infectious-disease-capabilities-support-covid-19-solutions-for-great-apes-and-minks.aspx; @doi:10.1016/j.vaccine.2021.10.053; @url:https://www.irishtimes.com/life-and-style/do-we-need-to-have-a-covid-vaccine-for-domestic-animals-1.4736360].
+Russian researchers have also developed a COVID-19 vaccine for carnivores [@doi:10.3390/vaccines9060631].
+
+Therefore, the host range of SARS-CoV-2 is broad, including primates, bats, and carnivores.
+The most severe infections have been observed in humans, felids, and mustelids [@doi:10.1016/j.vetmic.2022.109395].
+In the United States, as of late 2021, dogs and cats made up the majority of non-human SARS-CoV-2 infections [@url:https://www.nbcbayarea.com/investigations/cats-and-dogs-top-list-of-covid-19-infected-animals-in-u-s/2625085], but the most severe infections were observed in felids and mustelids (in addition to humans) [@doi:10.1016/j.vetmic.2022.109395].
+Interestingly, comparing ACE2 binding activity across species [@doi:10.1073/pnas.2025373118; @doi:10.1371/journal.pbio.3001016] revealed that it did not always align with which species known to be susceptible to SARS-CoV-2 infection, suggesting other binding sites might also be important.
+While the specific zoonotic origins of SARS-CoV-2 remain unknown, pharmaceutical developments in the treatment of COVID-19 have included non-human species.
+The complex relationship between animals, humans, and disease highlights the importance of a broad perspective on health that extends beyond a single species.
+
+### Question 4: Do Genes Influence Who is Affected?
 
 Throughout the pandemic, many hypotheses have been raised about factors that might influence individuals' susceptibility to COVID-19 or to severe disease .
 Many risk factors, such as underlying health conditions, are related to the body's inflammatory response, as we review elsewhere [@individual-inequality].
@@ -1544,7 +1589,7 @@ NGS makes it possible to conduct genome-wide scans where a large number of singl
 Genome-wide association studies (GWAS) in particular are a popular approach that employs this strategy.
 During COVID-19, both of these paradigms have been applied to the problem of identifying genetic correlates of disease severity.
 
-##### Candidate-Gene Approaches
+#### Candidate-Gene Approaches
 
 Many candidate genes have been investigated throughout the pandemic.
 Here, we review three examples of candidate gene studies in COVID-19.
@@ -1593,7 +1638,7 @@ In particular, sample size is a major challenge in designing these studies.
 However, for many traits, the relationships between genes and phenotypes are complex, and selecting which variants to sequence is not always straightforward.
 As a result, in the age of next-generation sequencing, discovery-driven studies have emerged as an alternative approach.
 
-##### Genome-Wide Association Studies
+#### Genome-Wide Association Studies
 
 Genome-wide association studies (GWAS) offers a discovery-driven approach that provides a different perspective than candidate gene studies.
 Instead of selecting a gene or variant _a priori_, in GWAS, a large number of SNPs (usually several million) are evaluated at once to identify those most likely to vary in correlation with a trait of interest.
@@ -1622,13 +1667,7 @@ Identifying genetic variants associated with a complex disease is always complic
 In COVID-19 studies, the results of candidate gene analyses have in general been difficult to replicate.
 However, large-scale collaboration on GWAS has made it possible to detect at least two loci that do appear to replicate across studies and potentially even across ancestral backgrounds.
 
-### Evolution of the SARS-CoV-2 Virus
-
-#### Emergence of SARS-CoV-2
-
-<!-- TO DO: Which zoonotic viruses have been identified as likely relatives of SARS-CoV-2? How do we know this viral species evolved naturally (as opposed to the conspiracy theories? What differs between SARS-CoV-2 and its close relatives?-->
-
-#### Evolution of SARS-CoV-2 Variants
+### Question 5: How is it Changing?
 
 Evolution in SARS-CoV-2 has also been observed over a short timescale.
 After zoonotic transfer, SARS-CoV-2 continued evolving in the human population [@doi:10.1186/s12967-020-02344-6].
@@ -1671,7 +1710,7 @@ While they preserve the pathogenicity of the virus, escape mutations change the 
 By using tools from natural language processing (NLP), viral escape was modeled as an NLP problem [@doi:10.1126/science.abd7331] where a modification makes a sentence grammatically correct but semantically different.
 Therefore, language models of viruses could predict mutations that change the presentation of the virus to the immune system but preserve its infectivity.
 
-#### Variants of concern and variants under surveillance
+#### Variants of Concern and Variants under Surveillance
 
 Viral replication naturally leads to the occurrence of mutations, and thus to genetic variation [@doi:10.1038/s41564-020-0690-4].
 However, due to an intrinsic RNA proof-reading process in the SARS-CoV-2 virus, the pace of evolution of SARS-CoV-2 is moderate in comparison to other viruses [@doi:10.1186/1471-2148-4-21].
@@ -1733,13 +1772,24 @@ Indeed, the E484K substitution seen in the P.1 and B.1.315 variants of the B.1.1
 For now, the consensus appears to be that the FDA-approved vaccines still seem to be generally effective against the genetic variants of SARS-CoV-2 and their accompanying mutations, albeit with a lower neutralizing capacity [@doi:10.1073/pnas.2008281117; @doi:10.1101/2021.01.15.426911; @doi:10.1101/2021.01.07.425740; @doi:10.1101/2021.01.25.427948], though select VOCs may present challenges. 
 Further research is required to discern the clinical, prophylactic, and therapeutic consequences of these genetic SARS-CoV-2 variants as the pandemic evolves. 
 
-### Conclusions
+### Question 6: What is Next?
 
-As of October 2020 the SARS-CoV-2 virus remains a serious worldwide threat.
-The scientific community has responded by rapidly collecting and disseminating information about the SARS-CoV-2 virus and the associated illness, COVID-19.
-The rapid identification of the genomic sequence of the virus allowed for early contextualization of SARS-CoV-2 among other known respiratory viruses.
-The pathogen is a coronavirus that is closely related to SARS-CoV-1, which caused the SARS pandemics of the early 2000s.
-Knowing the phylogenetic context and genomic sequence of the virus then allowed for rapid insights into its structure and pathogenesis.
+The SARS-CoV-2 pandemic has presented many unprecedented scientific opportunities.
+The rapid identification of the genomic sequence of the virus allowed for early contextualization of SARS-CoV-2 among other known respiratory viruses, and the scientific community has continued to collect, analyze, and disseminate information about the SARS-CoV-2 virus and the associated illness, COVID-19 at previously unimaginable rates [@individual-methods].
+The accessibility of genome sequencing technology has allowed for deep sequencing of the virus to establish a level of viral surveillance that had never before been achieved [@doi:10/d5mg; @doi:10.1038/s41592-022-01444-z; @doi:10.1016/j.lanepe.2021.100210].
+The information obtained from genetic, bioinformatics, and evolutionary analysis has played a significant role in shaping the global pandemic response [@doi:10.1038/s41592-022-01444-z; @doi:10.1038/s41586-021-04188-6; @doi:10/hskp].
+<!-- Wastewater surveillance? Implications for preventing future pandemics? Vaccine response time?-->
+Knowledge of the evolution of SARS-CoV-2 is imperative to managing it moving forward [@doi:10.1038/s41592-022-01444-z; @doi:10.1101/2021.01.12.21249613].
+
+The evolutionary questions highlighted here all point back to the fact that efforts to prevent future epidemics and pandemics will benefit greatly from long-term, sustainable efforts to monitor disease.
+Beyond understanding the status and evolution of known pathogens via genomic surveillance, greater preparedness for novel viral threats would also result from monitoring zoonotic disease.
+If not addressed, economic and environmental stressors are likely to cause future zoonotic transfer of diseases in the future [@doi:10.1126/science.abc3189].
+The COVID-19 pandemic has highlighted both the incredible insights available with modern evolutionary and genomic methodologies, but has also revealed the reluctance of political actors to commit resources to these efforts outside of periods of acute need.
+The One Health framework has emerged from collaborations by many prominent non-governmental organizations such as the World Heath Organization to promote scientific goals supportive of pandemic preparedness [@doi:10.1016/j.lanepe.2021.100210].
+Genomic surveillance of human pathogens and of pathogens at the human-wildlife interface is an important component needed to meet the goals of One Health [@doi:10.1016/j.lanepe.2021.100210].
+These efforts are especially important as anthropogenic alterations to the landscape such as climate change and urbanization increase the risk of zoonotic disease transmission [@doi:10.1038/s41586-022-04788-w; @doi:10.3402/iee.v5.27060].
+With the COVID-19 pandemic serving as a clear illustration of why this surveillance is imperative and of its feasibility, wider awareness and adoption of the One Health paradigm is the last piece needed to develop practices that will prevent the next pandemic.
+
 
 
 ## Molecular and Serologic Diagnostic Technologies for SARS-CoV-2
