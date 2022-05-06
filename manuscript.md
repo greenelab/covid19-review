@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2022-05-05'
+date-meta: '2022-05-06'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -72,8 +72,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2022-05-05" />
-  <meta name="citation_publication_date" content="2022-05-05" />
+  <meta name="dc.date" content="2022-05-06" />
+  <meta name="citation_publication_date" content="2022-05-06" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -291,13 +291,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/8708e1f65f5bee52cd2eb16c523805031c88f0e2/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/8708e1f65f5bee52cd2eb16c523805031c88f0e2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/8708e1f65f5bee52cd2eb16c523805031c88f0e2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/5c8dfa09309c542725860960be0e6e5ea5e7ba6d/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/5c8dfa09309c542725860960be0e6e5ea5e7ba6d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/5c8dfa09309c542725860960be0e6e5ea5e7ba6d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/8708e1f65f5bee52cd2eb16c523805031c88f0e2/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/8708e1f65f5bee52cd2eb16c523805031c88f0e2/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/5c8dfa09309c542725860960be0e6e5ea5e7ba6d/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/5c8dfa09309c542725860960be0e6e5ea5e7ba6d/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -319,11 +319,11 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/8708e1f65f5bee52cd2eb16c523805031c88f0e2/))
+([permalink](https://greenelab.github.io/covid19-review/v/5c8dfa09309c542725860960be0e6e5ea5e7ba6d/))
 was automatically generated
-from [greenelab/covid19-review@8708e1f](https://github.com/greenelab/covid19-review/tree/8708e1f65f5bee52cd2eb16c523805031c88f0e2)
-on May 5, 2022.
-It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/8708e1f65f5bee52cd2eb16c523805031c88f0e2/manuscript.pdf).
+from [greenelab/covid19-review@5c8dfa0](https://github.com/greenelab/covid19-review/tree/5c8dfa09309c542725860960be0e6e5ea5e7ba6d)
+on May 6, 2022.
+It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/5c8dfa09309c542725860960be0e6e5ea5e7ba6d/manuscript.pdf).
 Snapshots of individual sections have been published [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals; @individual-methods] or posted as preprints [@individual-diagnostics].
 </em></small>
 
@@ -1778,7 +1778,17 @@ The SARS-CoV-2 pandemic has presented many unprecedented scientific opportunitie
 The rapid identification of the genomic sequence of the virus allowed for early contextualization of SARS-CoV-2 among other known respiratory viruses, and the scientific community has continued to collect, analyze, and disseminate information about the SARS-CoV-2 virus and the associated illness, COVID-19 at previously unimaginable rates [@individual-methods].
 The accessibility of genome sequencing technology has allowed for deep sequencing of the virus to establish a level of viral surveillance that had never before been achieved [@doi:10/d5mg; @doi:10.1038/s41592-022-01444-z; @doi:10.1016/j.lanepe.2021.100210].
 The information obtained from genetic, bioinformatics, and evolutionary analysis has played a significant role in shaping the global pandemic response [@doi:10.1038/s41592-022-01444-z; @doi:10.1038/s41586-021-04188-6; @doi:10/hskp].
-<!-- Wastewater surveillance? Implications for preventing future pandemics? Vaccine response time?-->
+For example, wastewater surveillance has emerged as a potential epidemiological tool to monitor SARS-CoV-2 spread over large regions, complementing clinical surveillance [@doi:10.1016/j.scitotenv.2020.138875; @doi:10.1016/j.coesh.2020.09.006; @doi:10.1016/j.coesh.2020.09.003].
+Humans shed SARS-CoV-2 viral RNA in feces [@doi:10/ggq8zp] that can be detected in wastewater.
+Protocols have been developed to safely and reproducibly isolate and quantify SARS-CoV-2 in samples obtained from wastewater processing plants [@doi:10.1371/journal.pone.0257454; @doi:10.1016/j.coesh.2020.09.003].
+To date, studies show that wastewater surveillance is an effective tool to monitor SARS-CoV-2 spread over large sewersheds [@doi:10.1016/j.scitotenv.2020.138875; @doi:10.1016/j.coesh.2020.09.006; @doi:10.1016/j.coesh.2020.09.003; @doi:10.1039/D1EW00747E]. 
+Indeed, data from a study in New York City indicated that wastewater SARS-CoV-2 detection correlated with clinical detection of infection  [@doi:10.1039/D1EW00747E].
+Similar studies have been conducted in Nevada [@doi:10.1016/j.wroa.2020.100086] and Boston [@doi:10.1128/mSystems.00614-20].
+To date, studies have shown that factors such as temperature, the travel time of wastewater, and diurnal variability may affect detection of SARS-CoV-2 [@doi:10.1016/j.scitotenv.2020.138875; @doi:10.1016/j.wroa.2020.100086].
+Additionaly, wastewater surveillance provides a tool to monitor fluctuations in the viral strains present in a community [@doi:10.1101/2022.02.18.22271188 ; @doi:10.1101/2021.12.21.21268077].
+Due to its demonstrated utility so far, the United States CDC established the National Wastewater Surveillance System (NWSS), which has emerged as an important surveillance tool for SARS-CoV-2 spread [@url:https://www.cdc.gov/healthywater/surveillance/wastewater-surveillance/wastewater-surveillance.html]. 
+
+<!-- Implications for preventing future pandemics? Vaccine response time?-->
 Knowledge of the evolution of SARS-CoV-2 is imperative to managing it moving forward [@doi:10.1038/s41592-022-01444-z; @doi:10.1101/2021.01.12.21249613].
 
 The evolutionary questions highlighted here all point back to the fact that efforts to prevent future epidemics and pandemics will benefit greatly from long-term, sustainable efforts to monitor disease.
