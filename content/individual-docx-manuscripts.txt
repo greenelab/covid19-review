@@ -1,4 +1,3 @@
-trad-vaccines
-novel-vaccines
-diagnostics
+vaccines-trad
+vaccines-novel
 evolution
