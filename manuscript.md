@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2022-05-09'
+date-meta: '2022-05-12'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -72,8 +72,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2022-05-09" />
-  <meta name="citation_publication_date" content="2022-05-09" />
+  <meta name="dc.date" content="2022-05-12" />
+  <meta name="citation_publication_date" content="2022-05-12" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -291,13 +291,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/ca5421dc0bd4d9d0dab68d444e44b476e1edcc62/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/ca5421dc0bd4d9d0dab68d444e44b476e1edcc62/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/ca5421dc0bd4d9d0dab68d444e44b476e1edcc62/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/147e9f29960e0bb114872ca98c28662a12e19c78/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/147e9f29960e0bb114872ca98c28662a12e19c78/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/147e9f29960e0bb114872ca98c28662a12e19c78/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/ca5421dc0bd4d9d0dab68d444e44b476e1edcc62/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/ca5421dc0bd4d9d0dab68d444e44b476e1edcc62/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/147e9f29960e0bb114872ca98c28662a12e19c78/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/147e9f29960e0bb114872ca98c28662a12e19c78/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -319,11 +319,11 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/ca5421dc0bd4d9d0dab68d444e44b476e1edcc62/))
+([permalink](https://greenelab.github.io/covid19-review/v/147e9f29960e0bb114872ca98c28662a12e19c78/))
 was automatically generated
-from [greenelab/covid19-review@ca5421d](https://github.com/greenelab/covid19-review/tree/ca5421dc0bd4d9d0dab68d444e44b476e1edcc62)
-on May 9, 2022.
-It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/ca5421dc0bd4d9d0dab68d444e44b476e1edcc62/manuscript.pdf).
+from [greenelab/covid19-review@147e9f2](https://github.com/greenelab/covid19-review/tree/147e9f29960e0bb114872ca98c28662a12e19c78)
+on May 12, 2022.
+It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/147e9f29960e0bb114872ca98c28662a12e19c78/manuscript.pdf).
 Snapshots of individual sections have been published [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals; @individual-methods] or posted as preprints [@individual-diagnostics].
 </em></small>
 
@@ -3554,10 +3554,10 @@ The development of vaccines is widely considered one of the most important medic
 Over the past 150 years, several new approaches to vaccine development have emerged [@doi:10.1073/pnas.1400472111].
 Today, the requirements for developing and deploying a vaccine are complex and often require coordination between government, industry, academia, and philanthropic entities [@doi:10.1126/science.abc5312].
 Flu-like illnesses caused by viruses that follow an annual pattern are a major target of vaccine development programs.
-However, vaccine development has historically been slow.
+However, vaccine development has historically been slow. <!--Indeed, it is often difficult to predict what the next viral threat to combat with a vaccine may be, even when you know of an impending seasonal flu months prior to when a vaccine is required [@doi:10.1056/NEJMra1002842].-->
 The past 20 years have seen several previously unknown viruses emerge and rise rapidly to pose a global threat, challenging vaccine developers to explore approaches that would facilitate a rapid response to novel viruses.
 
-Emergent viral threats of the 21st century include severe acute respiratory syndrome (SARS), “swine flu” (H1N1), Middle East respiratory syndrome (MERS), Ebola virus disease (EVD), and now COVID-19, all of which have underscored the importance of a rapid global response to a new infectious virus.
+Emergent viral threats of the 21st century include severe acute respiratory syndrome (SARS), “swine flu” (H1N1), Middle East respiratory syndrome (MERS), Ebola virus disease (EVD), Zika virus, and now COVID-19, all of which have underscored the importance of a rapid global response to a new infectious virus.
 Because vaccines fail to provide immediate prophylactic protection or treatment of ongoing infections, their application to most of these epidemics has been limited [@doi:10.3390/v10120680].
 One of the more successful recent vaccine development programs was for H1N1 influenza.
 This program benefited from the strong existing infrastructure for influenza vaccines along with the fact that regulatory agencies had determined that vaccines produced using egg- and cell-based platforms could be licensed under the regulations used for a strain change [@doi:10.1056/NEJMp2005630].
@@ -3577,14 +3577,14 @@ This virus did not follow the same trajectory as other emergent viruses of recen
 Spread of the SARS-CoV-2 virus has remained out of control in many parts of the world into 2022, especially with the emergence of novel variants exhibiting increased rates of transmission [@individual-pathogenesis].
 While, for a variety of reasons, SARS-CoV-2 was not controlled as rapidly as the viruses underlying prior 21st century epidemics [@individual-pharmaceuticals], vaccine development technology had also progressed based on these and other prior viral threats to the point that a rapid international vaccine development response was possible. 
 
-Vaccines bolster the immune response to the virus at the population level, thereby driving a lower rate of infection and likely significantly reducing fatalities even for a highly infectious virus like SARS-CoV-2.
+Vaccines bolster the immune response to the virus at the population level, thereby driving a lower rate of disease and likely significantly reducing infection even for a highly infectious virus like SARS-CoV-2.
 The first critical step towards developing a vaccine against SARS-CoV-2 was characterizing the viral target, which happened extremely early in the COVID-19 outbreak with the sequencing and dissemination of the viral genome in early January 2020 [@url:https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON233] (Figure @fig:virus).
 This genomic information allowed for an early identification of the sequence of the spike (S) protein (Figure @fig:virus), which is the antigen and induces an immune response [@doi:10/fmq2; @doi:10.3389/fimmu.2020.576622].
 
 The Coalition for Epidemic Preparedness Innovations (CEPI) is coordinating global health agencies and pharmaceutical companies to develop vaccines against SARS-CoV-2.
 As early as September 2020, there were over 180 vaccine candidates against SARS-CoV-2 in development [@doi:10.1038/s41586-020-2798-3].
-While little is currently known about immunity to SARS-CoV-2, vaccine developers typically tests for serum neutralizing activity, as this has been established as a biomarker for adaptive immunity in other respiratory illnesses [@doi:10.1056/nejmoa2022483].
-However, unlike in efforts to develop vaccines for prior viral threats, the duration of the COVID-19 pandemic has made it possible to test vaccine in phase III trials where the effect of the vaccine on a cohort’s likelihood of contracting SARS-CoV-2 is evaluated.
+While little is currently known about immunity to SARS-CoV-2, vaccine developers typically tests for serum neutralizing activity, as this has been designated a biomarker for adaptive immunity in other respiratory illnesses [@doi:10.1056/nejmoa2022483].
+However, unlike in efforts to develop vaccines for prior viral threats, the duration of the COVID-19 pandemic has made it possible to test vaccines in phase III trials where the effect of the vaccine on a cohort’s likelihood of contracting SARS-CoV-2 is evaluated.
 With vaccine candidates at all stages of development, including full approval of some vaccines, the vaccine development landscape for COVID-19 includes vaccines produced by a wide array of technologies.
 Examining the vaccine development programs tackling the COVID-19 pandemic alongside other 21st century efforts to control emerging viral threats demonstrates the significant biotechnological advances in this field and the importance of modular and adaptable approaches to vaccination.
 Here, we review the various technologies being explored for the development of SARS-CoV-2 vaccines globally.
@@ -3600,7 +3600,7 @@ The abstracted visualization was made using BioRender [@url:https://biorender.co
 
 Certain design decisions are relevant to vaccine development across multiple platforms.
 One applies to platforms that deliver the antigen, which in the case of SARS-CoV-2 vaccines is the Spike (S) protein.
-The prefusion conformation of the SARS-CoV-2 S protein, which is the structure before the virus fuses to the host cell membrane,  is metastable [@doi:10.1016/j.lfs.2020.118056], and the release of energy during membrane fusion drives this process forward following destabilization [@doi:10.1146/annurev-virology-110615-042301; @doi:10.1038/nature17200].
+The prefusion conformation of the SARS-CoV-2 S protein, which is the structure before the virus fuses to the host cell membrane, is metastable [@doi:10.1016/j.lfs.2020.118056], and the release of energy during membrane fusion drives this process forward following destabilization [@doi:10.1146/annurev-virology-110615-042301; @doi:10.1038/nature17200].
 Due to the significant conformational changes that occur during membrane fusion [@doi:10.1016/j.cell.2020.02.058; @doi:10.1016/j.str.2020.10.001; @doi:10.1038/s41586-020-2665-2], S protein immunogens that are stabilized in the prefusion conformation are of particular interest, especially because a prefusion stabilized MERS-CoV S antigen was found to elicit an improved antibody response [@doi:10.1073/pnas.1707304114].
 Moreover, the prefusion conformation offers an opportunity to target S2, a region of the S protein that accumulates mutations at a slower rate [@doi:10.3390/v4061011; @doi:10.1016/j.jmb.2020.04.009; @doi:10.1073/pnas.1707304114] (see also [@individual-pathogenesis]).
 Vaccine developers can stabilize the prefusion conformer by selecting versions of the S protein containing mutations that lock the position [@doi:10.1126/science.abd0826].
@@ -3660,7 +3660,7 @@ Table: Approved whole-virus vaccines [@url:https://covid19.trackvaccines.org/typ
 
 **Mechanism:**
 LAV, also known as replication-competent vaccines, use a weakened, living version of a disease-causing virus or a version of a virus that is modified to induce an immune response [@doi:10.1038/s41586-020-2798-3].
-Whether variolation is the first example of a live-attenuated virus (LAV) being used to induce immunity is debated [@doi:10.1016/j.virol.2015.03.032; @doi:10.1073/pnas.1400472111], but subsequent efforts to incorporate attenuated viruses relied on either the identification of related viruses that were less virulent in humans (e.g., cowpox/horsepox or rotavirus vaccines) or culture of a virus in vitro [@doi:10.1377/hlthaff.24.3.611; @doi:10.1073/pnas.1400472111].
+Whether variolation is the first example of a live-attenuated virus (LAV) being used to induce immunity is debated [@doi:10.1016/j.virol.2015.03.032; @doi:10.1073/pnas.1400472111], but subsequent efforts to incorporate attenuated viruses relied on either the identification of related viruses that were less virulent in humans (e.g., cowpox/horsepox or rotavirus vaccines) or culture of a virus _in vitro_ [@doi:10.1377/hlthaff.24.3.611; @doi:10.1073/pnas.1400472111].
 Today, a virus can be attenuated by passaging it in a foreign host until, due to selection pressure, the virus loses its efficacy in the original host.
 Alternatively, selective gene deletion or codon de-optimization can be utilized to attenuate the virus [@doi:10.1038/s41586-020-2798-3].
 Foreign antigens can also be integrated into an attenuated viral vector [@doi:10.1038/s41586-020-3035-9].
@@ -3867,7 +3867,7 @@ In a phase I/II trial, a two-dose regimen of NVX-CoV2373 was found to induce ant
 In line with the preclinical studies, the use of Matrix-M adjuvant further increased anti-spike immunoglobulin levels and induced a Th1 response. 
 In a phase III randomized, observer-blinded, placebo-controlled clinical trial in 14,039 participants, two 5-μg doses of NVX-CoV2373 or placebo were administered 21 days apart in a 1:1 ratio from late September to late November 2020 [@doi:10.1056/nejmoa2107659].
 Novavax has since been approved in several places, including the United Kingdom [@url:https://www.gov.uk/government/news/novavax-covid-19-vaccine-nuvaxovid-approved-by-mhra] and the E.U. [@url:https://www.ema.europa.eu/en/news/ema-recommends-nuvaxovid-authorisation-eu] and applied for an EUA from the FDA in early 2022 [@url:https://ir.novavax.com/2022-01-31-Novavax-Submits-Request-to-the-U-S-FDA-for-Emergency-Use-Authorization-of-COVID-19-Vaccine]. 
-Although Novavax promised to provide up to 1.1 billion doses to COVAX; however, there have been reports of struggle to maintain production capacity and quality, hindering its production targets [@url:https://www.politico.com/news/2021/10/19/novavax-vaccine-rush-process-global-campaign-516298].
+<!--Add approval drama -->
 
 The leading example of a VLP approach applied to COVID-19 comes from Covifenz, a VLP vaccine developed by Canadian company Medicago [@doi:10.1503/cmaj.1095992].
 This vaccine was developed using plant-based VLP technology [@url:https://medicago.com/en/our-products/our-vaccines/covifenz-covid-19-vlp-vaccine] that the company had been investigating in order to develop a high-throughput quadrivalent VLP platform to provide protection against influenza [@doi:10/gjn28x].
@@ -3935,7 +3935,143 @@ Genomic analysis of 122 out of 176 cases (165 in the per-protocol population) re
 Instead, 45.9% of cases were identified as the delta variant, 43.4% as gamma, 4.9% as alpha, and 5.8% as VOIs.
 Therefore, the efficacy data from this phase III trial may be lower than it would have been if the trial had occurred earlier in the course of SARS-CoV-2's evolution given that the S glycoprotein expressed in the VLPs was isolated from a 2020 sample of SARS-CoV-2 [@doi:10.1056/NEJMoa2201300].
 
-#### Nucleic Acid Vaccines
+#### Other Concerns in Efficacy
+
+Given the wide range of vaccines under development, it is possible that some vaccine products may eventually be shown to be more effective in certain subpopulations, such as children, pregnant women, immunocompromised patients, the elderly, etc.
+
+Age distribution in clinical trials? https://doi.org/10.1016/j.arr.2021.101455
+
+Concerns: diversity of volunteer pools, variants, and distribution
+Another benefit of vaccines is lower population size in SARS-CoV-2 = less risk of VOC emerging that are less susceptible to the vaccine
+
+Given the apparent need for boosters, interest has also emerged in whether vaccines against SARS-CoV-2 can be administered along with annual flu vaccines.
+Early data came from the Novavax NVX-CoV2373 protein subunit vaccine.
+In a subgroup of approximately 400 patients enrolled from the U.K. phase III trial who received either NVX-CoV2373 or placebo 1:1, a concomitant dose of adjuvanted seasonal influenza vaccines (either a trivalent vaccine or a quadrivalent vaccine) was administered [@doi:10.1101/2021.06.09.21258556]. 
+This study demonstrated that both types of vaccines could be safely administered together. 
+While no change to the immune response was noted for the influenza vaccine, a notable reduction of the antibody response for the NVX-CoV2373 was reported, but efficacy was still high at 87.5% [@doi:10.1101/2021.06.09.21258556].
+Novavax has since started phase I/II trials to investigate the administration of its own influenza vaccine, NanoFlu^™^, concomitantly with NVX-CoV2373 [@url:https://ir.novavax.com/2021-09-08-Novavax-Initiates-Phase-1-2-Clinical-Trial-of-Combination-Vaccine-for-COVID-19-and-Seasonal-Influenza], which appeared to be safe and effective in preclinical studies [@doi:10.1101/2021.05.05.442782].
+<!--May end up moving some of this text to app, but worth discussing ongoing efforts?-->
+
+Indeed, Chinese [@url:https://medicalxpress.com/news/2021-08-china-mixed-vaccine-trial-delta.html] and Chilean [@url:https://clinicaltrials.gov/ct2/show/NCT04992182] researchers have opted to investigate options to administer different vaccines (e.g., an mRNA vaccine dose) as a booster dose to individuals who have already received two doses of the IWV vaccine CoronaVac.
+Another study has already determined that using the CanSino vaccine (Convidecia) instead of CoronaVac in a prime-boost vaccination regimen can induce a more robust immune response [@doi:10.1101/2021.09.03.21263062].<!--Add 10.1038/s41591-022-01705-6-->
+<!--Concern about understanding of efficacy in the general public.... preventing disease vs infection... the negative connotations of breakthrough infections, when they are actually expected infections with limited disease/illness-->
+### Conclusions
+
+In the early 2000s, technologies such as inactivated viral vaccines, live attenuated viral vaccines, protein subunit vaccines, and recombinant vector-based vaccines were explored for SARS [@doi:10.3201/eid1107.050219; @doi:10.1038/nrmicro3143], but the epidemic was controlled before these efforts came to fruition [@doi:10.1056/nejmp2005630].
+DNA vaccine development efforts also began but did not proceed past animal testing [@doi:10.1038/nrmicro3143].
+Similarly, viral vector, protein subunit, and DNA vaccines were explored for MERS-CoV, but outbreaks are sporadic and difficult to predict, making vaccine testing and the development of a vaccination strategy difficult [@doi:10.1080/21645515.2017.1358325].
+Likewise, the development of viral-vectored Ebola virus vaccines was undertaken, but the pace of vaccine development was behind the spread of the virus from early on [@doi:10.1126/science.345.6203.1441].
+Although a candidate Ebola vaccine V920 showed promise in preclinical and clinical testing, it did not receive breakthrough therapy designation until the summer of 2016, by which time the Ebola outbreak was winding down [@doi:10.1016/j.vaccine.2017.05.097].
+
+
+## Vaccine Development Strategies for SARS-CoV-2
+
+### Abstract
+
+Vaccines have revolutionized the relationship between people and disease.
+In the 21^st^ century, several emergent viruses have emphasized the particular value of rapid and scalable vaccine development programs.
+During the current pandemic caused by _Severe acute respiratory syndrome coronavirus 2_ (SARS-CoV-2), recent biotechnological advances in vaccine design have facilitated the development and deployment of vaccines at an unprecedented pace.
+The genome sequence of SARS-CoV-2 was released in January 2020, allowing for global efforts in vaccine development to begin within two weeks of the international community becoming aware of the new viral threat.
+Both established vaccine platforms and more recently developed technologies have been explored against SARS-CoV-2.
+Although historically a slow process, vaccine development in the face of COVID-19 accelerated so much that less than a year into the pandemic, some vaccine candidates had reported interim phase III clinical trial data and were being administered in countries around the world.
+
+In this review, we contextualize COVID-19 vaccine development in the broader vaccine landscape.
+We describe where these candidates currently stand in terms of efficacy, safety, and approval and discuss patterns in worldwide distribution.
+Vaccines have nearly 500 years of history, but the SARS-CoV-2 pandemic provides an exceptional illustration of how rapidly vaccine development technology has advanced in the last two decades in particular.
+
+### Importance
+
+The SARS-CoV-2 pandemic has caused untold damage globally, presenting unusual opportunities and demands in vaccine development.
+As of May 6, 2022, SARS-CoV-2 has infected over 516,758,993 and taken the lives of 6,249,626 people globally.
+The development, production, and distribution of vaccines is imperative to saving lives, preventing illness, and reducing the economic and social burdens caused by the COVID-19 pandemic.
+Effective deployment is critical to reducing the susceptibility of worldwide populations, especially in light of emerging variants.
+This review provides historical context for the current state of vaccine development and highlights the main strategies utilized for COVID-19 vaccine candidates, their clinical appraisal, and their distribution.
+These technologies have revolutionized the timescale at which countries can mount a response to an emerging viral threat and provide potential for mitigating future threats before their damage reaches the levels caused by SARS-CoV-2.
+As the SARS-CoV-2 virus has evolved, they also provide insight into how these technologies have to adapt on incredibly short timescales. 
+
+### Introduction
+
+The development of vaccines is widely considered one of the most important medical advances in human history.
+Over the past 150 years, several new approaches to vaccine development have emerged [@doi:10.1073/pnas.1400472111].
+Today, the requirements for developing and deploying a vaccine are complex and often require coordination between government, industry, academia, and philanthropic entities [@doi:10.1126/science.abc5312].
+Flu-like illnesses caused by viruses that follow an annual pattern are a major target of vaccine development programs.
+However, vaccine development has historically been slow.
+The past 20 years have seen several previously unknown viruses emerge and rise rapidly to pose a global threat, challenging vaccine developers to explore approaches that would facilitate a rapid response to novel viruses.
+
+Emergent viral threats of the 21st century include severe acute respiratory syndrome (SARS), “swine flu” (H1N1), Middle East respiratory syndrome (MERS), Ebola virus disease (EVD), and now COVID-19, all of which have underscored the importance of a rapid global response to a new infectious virus.
+Because vaccines fail to provide immediate prophylactic protection or treatment of ongoing infections, their application to most of these epidemics has been limited [@doi:10.3390/v10120680].
+One of the more successful recent vaccine development programs was for H1N1 influenza.
+This program benefited from the strong existing infrastructure for influenza vaccines along with the fact that regulatory agencies had determined that vaccines produced using egg- and cell-based platforms could be licensed under the regulations used for a strain change [@doi:10.1056/NEJMp2005630].
+Although a monovalent H1N1 vaccine was not available before the pandemic peaked in the United States and Europe, it became available soon afterward as a stand-alone vaccine that was eventually incorporated into commercially available seasonal influenza vaccines [@doi:10.1056/NEJMp2005630].
+Critiques of the production and distribution of the H1N1 vaccine have stressed the need for alternative development-and-manufacturing platforms that can be readily adapted to new pathogens. 
+
+Vaccine technologies that require only minor adjustments for novel viral threats are appealing because this modular approach would mean they could enter trials quickly in response to a new pathogen of concern.
+Traditional vaccine technologies were built on the principle of using either a weakened version of the virus or a fragment of the virus, while recent years have seen a paradigm shift towards reverse vaccinology.
+Reverse vaccinology emphasizes a hypothesis-free approach to vaccine development [@doi:10.3389/fimmu.2019.02776].
+This strategy was explored during development of a DNA vaccine against the Zika virus [@doi:10.1016/j.micinf.2018.03.001].
+While once again the disease was controlled before the vaccine became available [@doi:10.1056/nejmp2005630], the response demonstrated the potential for modular technologies to facilitate a response to emerging viral threats [@doi:10.1016/j.micinf.2018.03.001].
+The potential for such vaccines to benefit the field of oncology has encouraged vaccine developers to invest in next-generation approaches, which has spurred the diversification of vaccine development programs [@url:https://www.the-scientist.com/news-opinion/newer-vaccine-technologies-deployed-to-develop-covid-19-shot-67152; @doi:10.1038/nrg2432].
+As a result, during the COVID-19 pandemic, these modular technologies have taken center stage in controlling a viral threat for the first time.
+
+The pandemic caused by SARS-CoV-2 has highlighted a confluence of circumstances that positioned vaccine development as a key player in efforts to control the virus and mitigate its damage.
+This virus did not follow the same trajectory as other emergent viruses of recent note, such as SARS-CoV-1, MERS-CoV, and Ebola virus, none of which reached the level of pandemic.
+Spread of the SARS-CoV-2 virus has remained out of control in many parts of the world into 2022, especially with the emergence of novel variants exhibiting increased rates of transmission [@individual-pathogenesis].
+While, for a variety of reasons, SARS-CoV-2 was not controlled as rapidly as the viruses underlying prior 21st century epidemics [@individual-pharmaceuticals], vaccine development technology had also progressed based on these and other prior viral threats to the point that a rapid international vaccine development response was possible. 
+
+Vaccines bolster the immune response to the virus at the population level, thereby driving a lower rate of infection and likely significantly reducing fatalities even for a highly infectious virus like SARS-CoV-2.
+The first critical step towards developing a vaccine against SARS-CoV-2 was characterizing the viral target, which happened extremely early in the COVID-19 outbreak with the sequencing and dissemination of the viral genome in early January 2020 [@url:https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON233] (Figure @fig:virus).
+This genomic information allowed for an early identification of the sequence of the spike (S) protein (Figure @fig:virus), which is the antigen and induces an immune response [@doi:10/fmq2; @doi:10.3389/fimmu.2020.576622].
+
+The Coalition for Epidemic Preparedness Innovations (CEPI) is coordinating global health agencies and pharmaceutical companies to develop vaccines against SARS-CoV-2.
+As early as September 2020, there were over 180 vaccine candidates against SARS-CoV-2 in development [@doi:10.1038/s41586-020-2798-3].
+While little is currently known about immunity to SARS-CoV-2, vaccine developers typically tests for serum neutralizing activity, as this has been established as a biomarker for adaptive immunity in other respiratory illnesses [@doi:10.1056/nejmoa2022483].
+However, unlike in efforts to develop vaccines for prior viral threats, the duration of the COVID-19 pandemic has made it possible to test vaccine in phase III trials where the effect of the vaccine on a cohort’s likelihood of contracting SARS-CoV-2 is evaluated.
+With vaccine candidates at all stages of development, including full approval of some vaccines, the vaccine development landscape for COVID-19 includes vaccines produced by a wide array of technologies.
+Examining the vaccine development programs tackling the COVID-19 pandemic alongside other 21st century efforts to control emerging viral threats demonstrates the significant biotechnological advances in this field and the importance of modular and adaptable approaches to vaccination.
+Here, we review the various technologies being explored for the development of SARS-CoV-2 vaccines globally.
+
+![
+**Structure of the SARS-CoV-2 virus.**
+The development of vaccines depends on the immune system recognizing the virus.
+Here, the structure of SARS-CoV-2 is represented both in the abstract and against a visualization of the virion.
+The abstracted visualization was made using BioRender [@url:https://biorender.com] and the microscopy was conducted by the National Institute of Allergy and Infectious Diseases [@url:https://www.niaid.nih.gov/news-events/novel-coronavirus-sarscov2-images].<!--To Do: Was a template used?-->
+](images/SARS_CoV_2.png){#fig:virus secno=1}
+
+### Cross-Platform Considerations in Vaccine Development
+
+Certain design decisions are relevant to vaccine development across multiple platforms.
+One applies to platforms that deliver the antigen, which in the case of SARS-CoV-2 vaccines is the Spike (S) protein.
+The prefusion conformation of the SARS-CoV-2 S protein, which is the structure before the virus fuses to the host cell membrane,  is metastable [@doi:10.1016/j.lfs.2020.118056], and the release of energy during membrane fusion drives this process forward following destabilization [@doi:10.1146/annurev-virology-110615-042301; @doi:10.1038/nature17200].
+Due to the significant conformational changes that occur during membrane fusion [@doi:10.1016/j.cell.2020.02.058; @doi:10.1016/j.str.2020.10.001; @doi:10.1038/s41586-020-2665-2], S protein immunogens that are stabilized in the prefusion conformation are of particular interest, especially because a prefusion stabilized MERS-CoV S antigen was found to elicit an improved antibody response [@doi:10.1073/pnas.1707304114].
+Moreover, the prefusion conformation offers an opportunity to target S2, a region of the S protein that accumulates mutations at a slower rate [@doi:10.3390/v4061011; @doi:10.1016/j.jmb.2020.04.009; @doi:10.1073/pnas.1707304114] (see also [@individual-pathogenesis]).
+Vaccine developers can stabilize the prefusion conformer by selecting versions of the S protein containing mutations that lock the position [@doi:10.1126/science.abd0826].
+The immune response to the spike protein when it is stabilized in this conformation is improved over other S structures [@doi:10.1038/s41541-020-00243-x].
+Thus, vaccines that use this prefusion stabilized conformation are expected to not only offer improved immunogenicity, but also be more resilient to the accumulation of mutations in SARS-CoV-2.
+
+Another cross-platform consideration is the use of adjuvants.
+Adjuvants include a variety of molecules or larger microbial-related products that affect the immune system broadly or an immune response of interest.
+They can either be comprised of or contain immunostimulants or immunomodulators.
+Adjuvants are sometimes included within vaccines in order to enhance the immune response.
+Different adjuvants can regulate different types of immune responses, so the type or combination of adjuvants used in a vaccine will depend on both the type of vaccine and concern related to efficacy and safety.
+A variety of possible mechanisms for adjuvants have been investigated [@doi:10.1038/nri2510; @doi:10.3389/fimmu.2018.02619; @doi:10.3390/vaccines8010128].
+
+### COVID-19 Vaccine Development Platforms
+
+![
+**Vaccine Development Strategies.**
+Several different strategies can and are being employed for the development of vaccines today.
+Each approach capitalizes on different features of the SARS-CoV-2 virus and delivery through a different platform.
+All of these approaches are being explored in the current pandemic.<!--To Do: define LNP, define mRNA, define S protein. Swap order so viral particles are on top, then DNA, then viral vector, then RNA panels? Not sure if adenovirus/lentivirus is consistent with the rest of the text, need to double-check before finalizing figure. Change viral particle to inactivated whole virus-->
+](images/N002-Vaccines.png){#fig:vaccines secno=1}
+
+The first administration of a dose of a COVID-19 vaccine to a human trial participant occurred on March 16, 2020 [@url:https://www.modernatx.com/modernas-work-potential-vaccine-against-covid-19; @doi:10.1038/d41573-020-00073-5], marking an extremely rapid response to the emergence of SARS-CoV-2.
+Within a few weeks, at least 78 vaccine development programs were active [@doi:10.1038/d41573-020-00073-5].
+These programs employ a variety of technologies (Figure @fig:vaccines), ranging from established approaches to novel technologies that had never previously gone to market.
+As of May 6, 2022, 38 SARS-CoV-2 vaccines have been approved world wide and 27 are being administered throughout the world, with 12 billion doses administered across 223 countries.
+Many vaccines are available in only a subset of countries, and the types of vaccines available varies widely throughout the world.
+The status of individual vaccines continues to change and varies regionally.
+
+#### Nucleic Acid Development Platforms
 
 While traditional methods of vaccine development such as inactivated whole viruses are still used today (Figure @fig:vaccines), biomedical research in the 21^st^ century has been significantly influenced by the genomic revolution, and vaccine development is no exception.
 The shift towards omics-based approaches to vaccine development began to take hold with the development of the meningococcal type B vaccine using reverse vaccinology in the early 2010s [@doi:10.7774/cevr.2014.3.1.1; @doi:10.1111/j.1469-0691.2012.03939.x].
