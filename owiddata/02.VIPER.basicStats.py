@@ -90,12 +90,10 @@ def main(args):
 
     # Retrieve & store types of vaccines from https://covid19.trackvaccines.org
     vaxPlatforms = retrieve_platform_types()
-    vaxPlatforms.to_csv(args.platform_types)
+    vaxPlatforms.to_csv(args.platform_types, index=False)
 
     # Count the number of vaccines being administered total & per technology type
     owid_stats["viper_vaccine_counts"] = format(len(vaxPlatforms))
-    numVax = vaxPlatforms["Platform"].value_counts()
-    owid_stats["viper_max_vax_per_platform"] = str(numVax.max())
 
     # Generate table of vaccines within each platform type
     for type in set(vaxPlatforms["Platform Type"]):

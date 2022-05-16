@@ -18,15 +18,12 @@ def convert_date(git_date):
     # Assumes the year will not begin with 0
     return datetime.datetime.fromisoformat(git_date).strftime('%B %d, %Y').replace(' 0', ' ')
 
-def write_JSON(owid_stats):
-    with open(args.output_json, 'w') as out_file:
-        json.dump(owid_stats, out_file, indent=2, sort_keys=True)
-    print(f'Wrote {args.output_json}')
+def write_JSON(data, outfile):
+    with open(outfile, 'w') as out_file:
+        json.dump(data, out_file, indent=2, sort_keys=True)
+    print(f'Wrote {outfile}')
 
 def main(args):
-    # Set up country mapping
-    #countries_mapping = setup_geopandas()
-
     # Create dictionary that will be exported as JSON
     owid_stats = dict()
 
@@ -47,7 +44,7 @@ def main(args):
     numbers_url = f'https://raw.githubusercontent.com/owid/covid-19-data/{commit}/public/data/vaccinations/vaccinations.csv'
     vaccine_nums = pd.read_csv(numbers_url, on_bad_lines='skip')
 
-    manufacturer_url = f'https://raw.githubusercontent.com/owid/covid-19-data/{commit}/public/data/vaccinations/vaccinations-by-manufacturer.csv'
+    #manufacturer_url = f'https://raw.githubusercontent.com/owid/covid-19-data/{commit}/public/data/vaccinations/vaccinations-by-manufacturer.csv'
     #vaccine_manf = pd.read_csv(manufacturer_url , on_bad_lines='skip')
 
     # Pull up-to-date statistics from data
@@ -68,8 +65,19 @@ def main(args):
                     for item in countryList.split(",")])
     owid_stats["owid_vaccine_counts"] = format(len(vaxCounts))
 
-    # Write these stats to JSON output
-    write_JSON(owid_stats)
+    # Transform list of vaccine candidate per iso code to list of ISO codes per vaccine candidate
+    allVaxByCountry = dict(zip(vaccine_locations["iso_code"],
+                               vaccine_locations["vaccines"]))
+    countryByVax = dict()
+    for iso, vaccines in allVaxByCountry.items():
+        for vax in vaccines.split(","):
+            vax = vax.strip()
+            countryCodes = countryByVax.get(vax, [])
+            countryByVax[vax] = countryCodes + [iso]
+
+    # Write output files
+    write_JSON(countryByVax, args.country_byvax)
+    write_JSON(owid_stats, args.output_json)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
@@ -77,6 +85,10 @@ if __name__ == '__main__':
         formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument('output_json',
                         help='Path of the JSON file with extracted statistics',
+                        type=str)
+    parser.add_argument('country_byvax',
+                        help='Path of the CSV file with the list of ISO codes \\'
+                             ' per vaccine candidate',
                         type=str)
     args = parser.parse_args()
     main(args)

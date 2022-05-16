@@ -62,7 +62,7 @@ def main(args):
         map(countryByVax)
 
     # Write updated platform information to temporary file
-    vaxPlatforms.to_csv(args.platform_types)
+    vaxPlatforms.to_csv(args.platform_types, index=False)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(

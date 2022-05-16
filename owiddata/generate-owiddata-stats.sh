@@ -20,9 +20,10 @@ COUNTRY_BY_VAX=owiddata/country_by_vax.json
 OWID_MAP=owiddata/maps
 
 echo "Generating Our World in Data COVID-19 vaccine statistics"
-python owiddata/01.OWID.basicStats.py $OWID_STATS_JSON $COUNTRY_BY_VAX
-python owiddata/02.VIPER.basicStats.py $OWID_STATS_JSON  $VACCINE_PLATFORMS
-python owiddata/03.integrateDataSources.py $VACCINE_PLATFORMS $COUNTRY_BY_VAX
+#python owiddata/01.OWID.basicStats.py $OWID_STATS_JSON $COUNTRY_BY_VAX
+#python owiddata/02.VIPER.basicStats.py $OWID_STATS_JSON  $VACCINE_PLATFORMS
+#python owiddata/03.integrateDataSources.py $VACCINE_PLATFORMS $COUNTRY_BY_VAX
+python owiddata/04.drawMaps.py $OWID_STATS_JSON  $VACCINE_PLATFORMS $OWID_MAP
 #python owiddata/generate-owiddata-stats.py $OWID_STATS_JSON  $VACCINE_PLATFORMS $OWID_MAP
 
 # Clean up
