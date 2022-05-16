@@ -5,7 +5,7 @@ import geopandas
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 import numpy as np
-from fuzzywuzzy import fuzz
+
 
 def lowres_fix(world):
     """There is an issue with the map data source from geopandas where
@@ -29,47 +29,6 @@ def setup_geopandas():
                                           (countries_mapping.iso_a3 != "-99")]
     return countries_mapping
 
-def pair_datasource_names(viper_table, owid_names):
-    """Match the vaccine names used in the two datasets
-    Input: df generated from VIPER data, list of names from OWID data
-    Returns: df including a column linking the datasets"""
-
-    # Calculate match between the first two columns & the OWID names, generate
-    # a heatmap comparing the index of the table to the list of OWID names
-    name_match_ratio = dict()
-    viperJointNames = viper_table.index.astype(str) + " " + viper_table["Company"]
-    viperJointNames = viperJointNames.tolist()
-    viper_names = dict(zip(viper_table.index, viperJointNames))
-
-    for vname, vjointname in viper_names.items():
-        name_match_ratio[vname] = [fuzz.partial_ratio(vjointname, oname)
-                                   if oname != "ZF2001"
-                                   else fuzz.partial_ratio(vjointname, "Zifivax* ZF2001 Anhui Zhifei Longcom")
-                                   for oname in owid_names
-                                   ]
-    heatMap = pd.DataFrame.from_dict(name_match_ratio,
-                                     orient="index",
-                                     columns=owid_names)
-
-    # Identify the best hit for each VIPER and each OWID vax name
-    owid_bestmatch = heatMap.idxmax(axis=0).to_dict() # row max
-    viper_bestmatch = heatMap.idxmax(axis=1).to_dict()
-
-    unifiedNames = dict()
-    for vname, oname in viper_bestmatch.items():
-        if vname == owid_bestmatch[oname]:
-            unifiedNames[vname] = oname
-        else:
-            unifiedNames[vname] = None
-
-    viper_table['OWID Nomenclature'] = viper_table.index.map(unifiedNames)
-    print("The following vaccines from VIPER were not matched to the OWID data:")
-    with pd.option_context('display.max_rows', None, 'display.max_columns', None):  # more options can be specified also
-        null_data = viper_table[viper_table['OWID Nomenclature'].isnull()]
-        print(null_data[["Company", "Platform", "URL"]])
-
-    return viper_table
-
 def main(args):
     # Set up country mapping
     countries_mapping = setup_geopandas()
@@ -86,21 +45,9 @@ def main(args):
     cmap = mpl.cm.Purples
     norm = mpl.colors.BoundaryNorm(np.arange(0, scale + 1), cmap.N)
 
-    # Transform list of vaccine candidate per iso code to list of ISO codes per vaccine candidate
-    allVaxByCountry = dict(zip(vaccine_locations["iso_code"],
-                               vaccine_locations["vaccines"]))
-    countryByVax = dict()
-    for iso, vaccines in allVaxByCountry.items():
-        for vax in vaccines.split(","):
-            vax = vax.strip()
-            countryCodes = countryByVax.get(vax, [])
-            countryByVax[vax] = countryCodes + [iso]
+    # moved to 01 - countriesbyvax
 
-    # Align the terminology used across the datasets
-    vaxPlatforms = pair_datasource_names(vaxPlatforms, countryByVax.keys())
-
-    # Add countries to vaccine platform info and plot each vaccine type
-    vaxPlatforms['countries'] = vaxPlatforms["OWID Nomenclature"].map(countryByVax)
+    # moved to 03
 
     for platform in set(vaxPlatforms["Platform"]):
         platformName = '_'.join(platform.split(' '))
