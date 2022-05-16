@@ -42,13 +42,13 @@ def main(args):
 
     # Retrieve data from OWID
     locations_url = f'https://raw.githubusercontent.com/owid/covid-19-data/{commit}/public/data/vaccinations/locations.csv'
-    vaccine_locations = pd.read_csv(locations_url, error_bad_lines=False)
+    vaccine_locations = pd.read_csv(locations_url, on_bad_lines='skip')
 
     numbers_url = f'https://raw.githubusercontent.com/owid/covid-19-data/{commit}/public/data/vaccinations/vaccinations.csv'
-    vaccine_nums = pd.read_csv(numbers_url, error_bad_lines=False)
+    vaccine_nums = pd.read_csv(numbers_url, on_bad_lines='skip')
 
     manufacturer_url = f'https://raw.githubusercontent.com/owid/covid-19-data/{commit}/public/data/vaccinations/vaccinations-by-manufacturer.csv'
-    #vaccine_manf = pd.read_csv(manufacturer_url , error_bad_lines=False)
+    #vaccine_manf = pd.read_csv(manufacturer_url , on_bad_lines='skip')
 
     # Pull up-to-date statistics from data
     vaccine_nums['date'] = pd.to_datetime(vaccine_nums['date'])
