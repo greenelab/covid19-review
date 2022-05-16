@@ -1,41 +1,11 @@
 import argparse
 import json
-import os
 import pandas as pd
 import geopandas
-import urllib.request
-from bs4 import BeautifulSoup
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 import numpy as np
 from fuzzywuzzy import fuzz
-
-def assign_platform_types(vaxtype):
-    """The types of vaccines as categoried on trackvaccines.org differs
-    somewhat from the categories we use here.
-    See https://covid19.trackvaccines.org/types-of-vaccines/
-    This function maps their categories (key) onto the section headings
-    used in the manuscript (value)
-    Input: string
-    Output: string"""
-
-    types = {"protein subunit": "subunit",
-             "VLP": "subunit",
-             "plasmid vectored": "DNA",
-             "DNA": "DNA",
-             "RNA": "RNA",
-             "non replicating viral vector": "DNA",
-             "replicating viral vector": "DNA",
-             "inactivated": "whole virus",
-             "live attenuated": "whole virus"
-             }
-
-    # If they add a new platform type (which seems unlikely), handle & throw error
-    if vaxtype not in types.keys():
-        print("Unknown vaccine platform:", vaxtype)
-        exit(1)
-
-    return types[vaxtype]
 
 def lowres_fix(world):
     """There is an issue with the map data source from geopandas where
@@ -58,41 +28,6 @@ def setup_geopandas():
     countries_mapping = countries_mapping[(countries_mapping.name != "Antarctica") &
                                           (countries_mapping.iso_a3 != "-99")]
     return countries_mapping
-
-def retrieve_platform_types():
-    """Use trackvaccines.org to scrape the website listing approved vaccines
-    Returns: dataframe """
-    vaccine_info = dict()
-    vaccineHTML = urllib.request.urlopen('https://covid19.trackvaccines.org/vaccines/approved/')
-
-    # Extract the HTML that makes the cards on the webpage (each card is a vax)
-    soup = BeautifulSoup(vaccineHTML, "html5lib")
-    body = soup.find('body')
-    cards = body.find_all('li')
-
-    # Iterate through the cards to extract information
-    # Tags were identified empirically and are not self-evident
-    for card in cards: # find all element of tag
-        if card.find('a', {"class": "icon-link"}) is not None:
-            vaccine_platform = card.find('a', {"class": "icon-link"}).get_text()
-            if vaccine_platform.upper() != vaccine_platform: #DNA, RNA, VLP
-                vaccine_platform = vaccine_platform.lower()
-            vaccine_platform_type = assign_platform_types(vaccine_platform)
-            vaccine_manf = card.find('span',
-                                     {"class": "has-medium-font-size"}).get_text()
-            vaccine_name = card.find('span',
-                                     {"class": "has-large-font-size"}).get_text()
-            link = card.find('a', href=True)
-            vaccine_info[vaccine_name] = [vaccine_manf,
-                                          vaccine_platform,
-                                          vaccine_platform_type,
-                                          link['href']]
-    vaccine_df = pd.DataFrame.from_dict(vaccine_info, orient='index')
-    vaccine_df.rename(mapper={0: "Company", 1: "Platform", 2: "Platform Type", 3: "URL"},
-                      axis=1, inplace=True)
-    vaccine_df.index.name = 'Vaccine'
-    vaccine_df["Platform"] = vaccine_df["Platform"].replace("DNA","plasmid vectored")
-    return vaccine_df
 
 def pair_datasource_names(viper_table, owid_names):
     """Match the vaccine names used in the two datasets
@@ -135,18 +70,6 @@ def pair_datasource_names(viper_table, owid_names):
 
     return viper_table
 
-
-def create_table(vaccine_df, platformType):
-    """For each vaccine platform, select a subset of the vaccine information table
-    Input: dataframe, string
-    Returns: string representing a table in markdown"""
-    vaccines = vaccine_df[vaccine_df["Platform Type"] == platformType]
-    numTypes = len(set(vaccines["Platform"].to_list()))
-    if numTypes > 1:
-        return vaccines[["Company", "Platform"]].to_markdown()
-    else:
-        return vaccines[["Company"]].to_markdown()
-
 def main(args):
     # Set up country mapping
     countries_mapping = setup_geopandas()
@@ -156,18 +79,7 @@ def main(args):
 
     # code here moved to 01
 
-    # Retrieve & store types of vaccines from https://covid19.trackvaccines.org
-    vaxPlatforms = retrieve_platform_types()
-    vaxPlatforms.to_csv(args.platform_types)
-
-    # Count the number of vaccines being administered total & per technology type
-    owid_stats["viper_vaccine_counts"] = format(len(vaxPlatforms))
-    numVax = vaxPlatforms["Platform"].value_counts()
-
-    # Generate table of vaccines within each platform type
-    for type in set(vaxPlatforms["Platform Type"]):
-        owid_stats["viper_approved_" + "_".join(type.split())] = \
-            create_table(vaxPlatforms, type)
+    # code here moved to 02
 
     # Set the parameters color-coding the plots. Scale is the max candidates adminstered across all vaccine types.
     scale = max(numVax)

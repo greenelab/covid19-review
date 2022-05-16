@@ -16,7 +16,8 @@ OWID_MAP=owiddata/maps
 
 echo "Generating Our World in Data COVID-19 vaccine statistics"
 python owiddata/01.OWID.basicStats.py $OWID_STATS_JSON
-#python owiddata/generate-owiddata-stats.py $OWID_STATS_JSON $VACCINE_PLATFORMS $OWID_MAP
+python owiddata/02.VIPER.basicStats.py $OWID_STATS_JSON  $VACCINE_PLATFORMS
+#python owiddata/generate-owiddata-stats.py $OWID_STATS_JSON  $VACCINE_PLATFORMS $OWID_MAP
 
 # Clean up
 #rm $VACCINE_PLATFORMS
