@@ -1,5 +1,4 @@
 import argparse
-import datetime
 import json
 import os
 import pandas as pd
@@ -59,20 +58,6 @@ def setup_geopandas():
     countries_mapping = countries_mapping[(countries_mapping.name != "Antarctica") &
                                           (countries_mapping.iso_a3 != "-99")]
     return countries_mapping
-
-def convert_date(git_date):
-    '''Reformat git commit style datetimes (ISO 8601) to Month DD, YYYY.
-    Throws a ValueError if git_date cannot be parsed as an ISO 8601 datetime.
-    '''
-    # 'Z' indicates Coordinated Universal Time (UTC)
-    # Replace with '+00:00', which is the UTC representation recognized
-    # by the parser
-    # https://en.wikipedia.org/wiki/ISO_8601#Coordinated_Universal_Time_(UTC)
-    git_date = git_date.replace('Z', '+00:00')
-
-    # Remove the leading zero of the day
-    # Assumes the year will not begin with 0
-    return datetime.datetime.fromisoformat(git_date).strftime('%B %d, %Y').replace(' 0', ' ')
 
 def retrieve_platform_types():
     """Use trackvaccines.org to scrape the website listing approved vaccines
@@ -167,55 +152,9 @@ def main(args):
     countries_mapping = setup_geopandas()
 
     # Create dictionary that will be exported as JSON
-    owid_stats = dict()
+    #owid_stats = dict()
 
-    # Download data from a specific commit if the environment variable is set,
-    # otherwise default to master
-    commit = 'master'
-    if('OWID_COMMIT_SHA' in os.environ):
-        commit = os.environ['OWID_COMMIT_SHA']
-        owid_stats['owid_commit_sha'] = os.environ['OWID_COMMIT_SHA']
-    if('OWID_COMMIT_DATE' in os.environ):
-        owid_stats['owid_commit_date'] = os.environ['OWID_COMMIT_DATE']
-        owid_stats['owid_commit_date_pretty'] = convert_date(os.environ['OWID_COMMIT_DATE'])
-
-    # Retrieve data from OWID
-    locations_url = f'https://raw.githubusercontent.com/owid/covid-19-data/{commit}/public/data/vaccinations/locations.csv'
-    vaccine_locations = pd.read_csv(locations_url, error_bad_lines=False)
-
-    numbers_url = f'https://raw.githubusercontent.com/owid/covid-19-data/{commit}/public/data/vaccinations/vaccinations.csv'
-    vaccine_nums = pd.read_csv(numbers_url, error_bad_lines=False)
-
-    manufacturer_url = f'https://raw.githubusercontent.com/owid/covid-19-data/{commit}/public/data/vaccinations/vaccinations-by-manufacturer.csv'
-    vaccine_manf = pd.read_csv(manufacturer_url , error_bad_lines=False)
-
-    # Pull up-to-date statistics from data
-    vaccine_locations['last_observation_date'] = pd.to_datetime(vaccine_locations['last_observation_date'])
-    vaccine_nums['date'] = pd.to_datetime(vaccine_nums['date'])
-    vaccine_manf['date'] = pd.to_datetime(vaccine_manf['date'])
-
-    owid_stats["owid_most_recent_date"] = vaccine_nums['date'].max().strftime('%B %d, %Y').replace(' 0', ' ')
-
-    owid_stats["owid_total_vaccinations"] = \
-        str("{:,}".format(round(vaccine_nums[vaccine_nums["location"] == "World"].
-                                loc[vaccine_nums["date"] ==
-                                    owid_stats["owid_most_recent_date"],
-                                    "total_vaccinations"].item()/1000000000))) + \
-        " billion"
-    owid_stats["owid_daily_rate"] = \
-        str("{:,}".format(round(vaccine_nums[vaccine_nums["location"] == "World"].
-                                loc[vaccine_nums["date"] ==
-                                    owid_stats["owid_most_recent_date"],
-                                    "daily_vaccinations_per_million"].item()))) + \
-        " per million"
-    owid_stats["owid_total_countries"] = \
-        format(vaccine_locations["location"].nunique())
-
-    # Identify number of vaccine manufacturers included in location totals (not the same as manufacturer-specific data)
-    vaxCounts = set([item.strip() for countryList in
-                    vaccine_locations["vaccines"].to_list()
-                    for item in countryList.split(",")])
-    owid_stats["owid_vaccine_counts"] = format(len(vaxCounts))
+    # code here moved to 01
 
     # Retrieve & store types of vaccines from https://covid19.trackvaccines.org
     vaxPlatforms = retrieve_platform_types()
