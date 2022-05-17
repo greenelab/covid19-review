@@ -10,10 +10,12 @@ def getContinent(vaxPlatforms, countries_mapping):
     """Merge vaccine info with map info using a user-maintained list of iso codes
     associated with the place where the vaccine was developed"""
     countryOfDev = pd.read_csv('owiddata/countryOfDev_OWID.csv')
-    countryOfDev = countryOfDev.merge(vaxPlatforms, how = "outer",
-                                      on=["OWID Nomenclature"])
-    devCountryInfo = countryOfDev.merge(countries_mapping, how="left", left_on="Developer_ISO",
-                                        right_on="iso_a3")
+    print(vaxPlatforms)
+    exit(0)
+    countryOfDev = countryOfDev.merge(vaxPlatforms, how = "inner", on=["OWID Nomenclature"])
+    print(countryOfDev)
+    return
+    devCountryInfo = countryOfDev.merge(countries_mapping, how="left", on="iso_a3")
 
     # To do: if any VIPER vaccines are not in owiddata/countryOfDev.csv, open an issue
     # See https://medium.datadriveninvestor.com/github-issue-via-python-171c7fee0629
@@ -53,6 +55,7 @@ def getContinentText(devCountryInfo):
                     countryClauses.append("the " + country + " (" + "; ".join(countryItems) + ")")
                 else:
                     countryClauses.append(country + " (" + "; ".join(countryItems) + ")")
+
             # Now construct the sentence from the clauses, with the last one prefaced by "and"
             sentences[continent] = \
                 "Vaccines have been developed in {0} countries in {1}, including {2}, and {3}.".\
