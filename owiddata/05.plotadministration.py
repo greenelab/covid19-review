@@ -1,23 +1,20 @@
 import argparse
-import datetime
-import json
-import os
 import pandas as pd
-import geopandas
-import urllib.request
 from jsonfn import *
 from mapfn import *
-from bs4 import BeautifulSoup
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 import numpy as np
-from fuzzywuzzy import fuzz
 
 def getContinent(vaxPlatforms, countries_mapping):
     """Merge vaccine info with map info using a user-maintained list of iso codes
     associated with the place where the vaccine was developed"""
     countryOfDev = pd.read_csv('owiddata/countryOfDev_OWID.csv')
-    countryOfDev = countryOfDev.merge(vaxPlatforms, how = "outer", on=["Vaccine", "Company"])
+    print(vaxPlatforms)
+    exit(0)
+    countryOfDev = countryOfDev.merge(vaxPlatforms, how = "inner", on=["OWID Nomenclature"])
+    print(countryOfDev)
+    return
     devCountryInfo = countryOfDev.merge(countries_mapping, how="left", on="iso_a3")
 
     # To do: if any VIPER vaccines are not in owiddata/countryOfDev.csv, open an issue
@@ -25,7 +22,10 @@ def getContinent(vaxPlatforms, countries_mapping):
 
     return devCountryInfo
 
-def getContinentList(devCountryInfo):
+def getContinentText(devCountryInfo):
+    """Generates dynamic text for each continent based on its vaccine development
+    Input:
+    Output: dictionary with continent: text"""
     sentences = dict()
     for continent in ["North America", "Asia", "Europe", "Oceania", "Africa", "South America"]:
         devVax = devCountryInfo[devCountryInfo["continent"] == continent]
@@ -36,6 +36,9 @@ def getContinentList(devCountryInfo):
             sentences[continent] = "The only approved vaccine developed in {0} is {1}, which was developed by {2} in {3} [@url:https://covid19.trackvaccines.org].".\
                 format(continent, info['Vaccine'], info['Company'], info['name'])
         else:
+            # Need to construct the sentences to make them sound natural
+            # To do this, we'll construct subclauses listing the details for each country,
+            # like countryName (vaccine1, developer; vaccine2, developer)
             countryClauses = list()
             for country in devVax["name"].unique():
                 countryVax = devVax[devVax["name"] == country].to_dict('index')
@@ -46,6 +49,8 @@ def getContinentList(devCountryInfo):
                     countryClauses.append("the " + country + " (" + "; ".join(countryItems) + ")")
                 else:
                     countryClauses.append(country + " (" + "; ".join(countryItems) + ")")
+
+            # Now construct the sentence from the clauses, with the last one prefaced by "and"
             sentences[continent] = \
                 "Vaccines have been developed in {0} countries in {1}, including {2}, and {3}.".\
                     format(len(countryClauses),
@@ -112,48 +117,30 @@ def main(args):
     vaxManf = pd.read_csv(args.vax_bymanf)
     countries_mapping = setup_geopandas()
 
-    # Retrieve vaccination admin by manufacturer info
-
-
     # Retrieve information about the country where vaccine was developed
     devCountryInfo = getContinent(vaxPlatforms,
                                   countries_mapping[["pop_est", "continent",
                                                      "name", "iso_a3", "gdp_md_est"]])
-    sentences = getContinentList(devCountryInfo)
+    print(devCountryInfo)
+    exit(0)
+    # Generate dynamic text based on which vaccines are available by continent
+    sentences = getContinentText(devCountryInfo)
     for continent, sentence in sentences.items():
         owid_stats["viper_vax_dev_" + "_".join(continent.split())] = sentence
 
+    #
     plotContinents(vaxPlatforms, countries_mapping, vaxManf)
     #countryByVax
 
-    for platform in set(vaxPlatforms["Platform"]):
-        platformName = '_'.join(platform.split(' '))
-        platformName = platformName.replace("-", "_")
-        owid_stats["owid_" + platformName + "_count"] = \
-            len(vaxPlatforms[vaxPlatforms["Platform"] == platform])
 
-        vaccines = vaxPlatforms[vaxPlatforms["Platform"] == platform].dropna()
-        countries = [iso for country_list in vaccines["countries"]
-                     for iso in country_list]
-        counts = dict()
-        for iso in countries:
-            runningTot = counts.get(iso, 0)
-            counts[iso] = runningTot + 1
+    # The placeholder will be replaced by the actual SHA-1 hash in separate
+    # script after the updated image is committed
+    #owid_stats['owid_' + platformName + "_map"] = \
+    #    f'https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/{args.map_dir}/{platformName}.png'
 
-        vaxPresence = pd.DataFrame.from_dict(counts, orient="index",
-                                             columns=[platform])
-        owid_stats["owid_" + platformName + "_countries"] = len(vaxPresence)
-
-        plotPlatform(countries_mapping, vaxPresence, platform, platformName, numVax)
-
-        # The placeholder will be replaced by the actual SHA-1 hash in separate
-        # script after the updated image is committed
-        owid_stats['owid_' + platformName + "_map"] = \
-            f'https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/{args.map_dir}/{platformName}.png'
-
-    with open(args.output_json, 'w') as out_file:
-        json.dump(owid_stats, out_file, indent=2, sort_keys=True)
-    print(f'Wrote {args.output_json}')
+    #with open(args.output_json, 'w') as out_file:
+    #    json.dump(owid_stats, out_file, indent=2, sort_keys=True)
+    #print(f'Wrote {args.output_json}')
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
