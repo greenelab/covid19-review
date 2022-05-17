@@ -24,14 +24,6 @@ def fix_owid_names(isoList):
         else:
             fixedlist.append(iso)
 
-
-def setup_geopandas():
-    countries_mapping = geopandas.read_file(geopandas.datasets.get_path('naturalearth_lowres'))
-    countries_mapping = lowres_fix(countries_mapping)
-    countries_mapping = countries_mapping[(countries_mapping.name != "Antarctica") &
-                                          (countries_mapping.iso_a3 != "-99")]
-    return countries_mapping
-
 def main(args):
     # Set up country mapping
     countries_mapping = setup_geopandas()

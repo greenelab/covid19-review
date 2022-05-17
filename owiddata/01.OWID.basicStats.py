@@ -37,7 +37,7 @@ def main(args):
         owid_stats['owid_commit_date'] = os.environ['OWID_COMMIT_DATE']
         owid_stats['owid_commit_date_pretty'] = convert_date(os.environ['OWID_COMMIT_DATE'])
 
-    # Retrieve data from OWID
+    # Retrieve all data from OWID that we need for the whole pipeline
     locations_url = f'https://raw.githubusercontent.com/owid/covid-19-data/{commit}/public/data/vaccinations/locations.csv'
     vaccine_locations = pd.read_csv(locations_url, error_bad_lines=False)
 
@@ -45,8 +45,8 @@ def main(args):
     vaccine_nums = pd.read_csv(numbers_url, error_bad_lines=False)
 
     manufacturer_url = f'https://raw.githubusercontent.com/owid/covid-19-data/{commit}/public/data/vaccinations/vaccinations-by-manufacturer.csv'
-    vaccine_manf = pd.read_csv(manufacturer_url, error_bad_lines=False)
-    vaccine_manf.to_csv(args.vaccine_manf)
+    vaccine_manf = pd.read_csv(manufacturer_url, on_bad_lines='skip')
+    vaccine_manf.to_csv(args.vax_bymanf, index = False)
 
     # Pull up-to-date statistics from data
     vaccine_nums['date'] = pd.to_datetime(vaccine_nums['date'])
@@ -92,9 +92,9 @@ if __name__ == '__main__':
                         help='Path of the CSV file with the list of ISO codes \\'
                              ' per vaccine candidate',
                         type=str)
-    parser.add_argument('vaccine_manf',
-                        help='Path of the CSV file describing which vaccines have been \\'
-                             ' administered in each country',
+    parser.add_argument('vax_bymanf',
+                        help='Path of the CSV file with the list of doses admin \\'
+                             ' per vaccine (candidate)',
                         type=str)
     args = parser.parse_args()
     main(args)
