@@ -2,7 +2,12 @@ Additionaly
 AEs
 Agrobacterium
 benthamiana
+CanSino’s
+Corbevax
 Covifenz
+deoptimization
+electroportion
+IgE
 lococyte
 Medicago
 Nicotiana
@@ -11,4 +16,6 @@ reproducibly
 sewersheds
 trimers
 tumefaciens
+vacinee
+VE
 VOIs
