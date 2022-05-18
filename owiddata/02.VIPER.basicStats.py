@@ -1,5 +1,5 @@
 import argparse
-import json
+from jsonFunctions import *
 import pandas as pd
 import urllib.request
 from bs4 import BeautifulSoup
@@ -78,15 +78,9 @@ def create_table(vaccine_df, platformType):
     else:
         return vaccines[["Company"]].to_markdown()
 
-def write_JSON(owid_stats):
-    with open(args.update_json, 'w') as out_file:
-        json.dump(owid_stats, out_file, indent=2, sort_keys=True)
-    print(f'Wrote {args.update_json}')
-
 def main(args):
     # Read OWID stats collected thus far
-    with open(args.update_json, 'r') as in_file:
-        owid_stats = json.load(in_file)
+    owid_stats = load_JSON(args.update_json)
 
     # Retrieve & store types of vaccines from https://covid19.trackvaccines.org
     vaxPlatforms = retrieve_platform_types()
@@ -101,7 +95,7 @@ def main(args):
             create_table(vaxPlatforms, type)
 
     # Add to JSON file
-    write_JSON(owid_stats)
+    write_JSON(owid_stats, args.update_json)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(

@@ -1,12 +1,7 @@
 import pandas as pd
-import json
+from jsonFunctions import *
 import argparse
 from fuzzywuzzy import fuzz
-
-def load_JSON(filename):
-    with open(filename, 'r') as in_file:
-        data = json.load(in_file)
-    return data
 
 def pair_datasource_names(viper_table, owid_names):
     """Match the vaccine names used in the two datasets
