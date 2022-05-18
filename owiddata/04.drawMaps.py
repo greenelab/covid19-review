@@ -1,21 +1,11 @@
 import argparse
-import json
+from jsonFunctions import *
 import pandas as pd
 import numpy as np
 import geopandas
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 from ast import literal_eval
-
-def load_JSON(filename):
-    with open(filename, 'r') as in_file:
-        data = json.load(in_file)
-    return data
-
-def write_JSON(data, filename):
-    with open(filename, 'w') as out_file:
-        json.dump(data, out_file, indent=2, sort_keys=True)
-    print(f'Wrote {args.update_json}')
 
 def lowres_fix(world):
     """There is an issue with the map data source from geopandas where

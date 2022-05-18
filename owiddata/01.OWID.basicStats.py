@@ -2,7 +2,7 @@ import pandas as pd
 import os
 import datetime
 import argparse
-import json
+from jsonFunctions import *
 
 def convert_date(git_date):
     '''Reformat git commit style datetimes (ISO 8601) to Month DD, YYYY.
@@ -17,11 +17,6 @@ def convert_date(git_date):
     # Remove the leading zero of the day
     # Assumes the year will not begin with 0
     return datetime.datetime.fromisoformat(git_date).strftime('%B %d, %Y').replace(' 0', ' ')
-
-def write_JSON(data, outfile):
-    with open(outfile, 'w') as out_file:
-        json.dump(data, out_file, indent=2, sort_keys=True)
-    print(f'Wrote {outfile}')
 
 def main(args):
     # Create dictionary that will be exported as JSON
