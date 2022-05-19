@@ -28,11 +28,12 @@ def pair_datasource_names(viper_table, owid_names):
     # Identify the best hit for each VIPER and each OWID vax name
     owid_bestmatch = heatMap.idxmax(axis=0).to_dict() # row max
     viper_bestmatch = heatMap.idxmax(axis=1).to_dict()
-
+    print(owid_bestmatch)
     unifiedNames = dict()
     for vname, oname in viper_bestmatch.items():
         if vname == owid_bestmatch[oname]:
             unifiedNames[vname] = oname
+        elif oname == 
         else:
             unifiedNames[vname] = None
 
@@ -46,7 +47,7 @@ def pair_datasource_names(viper_table, owid_names):
 
 def main(args):
     # Load data from temporary files
-    vaxPlatforms = pd.read_csv(args.platform_types)
+    vaxPlatforms = pd.read_csv(args.platform_types, index_col="Vaccine")
     countryByVax = load_JSON(args.country_byvax)
 
     # Align the terminology used across the datasets
@@ -57,7 +58,7 @@ def main(args):
         map(countryByVax)
 
     # Write updated platform information to temporary file
-    vaxPlatforms.to_csv(args.platform_types, index=False)
+    vaxPlatforms.to_csv(args.platform_types)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
