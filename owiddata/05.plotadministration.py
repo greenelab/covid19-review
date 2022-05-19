@@ -9,10 +9,11 @@ import numpy as np
 def getContinent(vaxPlatforms, countries_mapping):
     """Merge vaccine info with map info using a user-maintained list of iso codes
     associated with the place where the vaccine was developed"""
-    countryOfDev = pd.read_csv('owiddata/countryOfDev_OWID.csv')
-    print(vaxPlatforms)
+    print(vaxPlatforms[["Vaccine", "Company"]])
     exit(0)
-    countryOfDev = countryOfDev.merge(vaxPlatforms, how = "inner", on=["OWID Nomenclature"])
+    countryOfDev = pd.read_csv('owiddata/countryOfDev_OWID.csv')
+    countryOfDev = countryOfDev.merge(vaxPlatforms, how = "outer",
+                                      on=["OWID Nomenclature"])
     print(countryOfDev)
     return
     devCountryInfo = countryOfDev.merge(countries_mapping, how="left", on="iso_a3")
