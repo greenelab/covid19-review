@@ -3,6 +3,8 @@ import os
 import datetime
 import argparse
 from jsonFunctions import *
+import plydata as ply
+import numpy as np
 
 def convert_date(git_date):
     '''Reformat git commit style datetimes (ISO 8601) to Month DD, YYYY.
@@ -17,6 +19,9 @@ def convert_date(git_date):
     # Remove the leading zero of the day
     # Assumes the year will not begin with 0
     return datetime.datetime.fromisoformat(git_date).strftime('%B %d, %Y').replace(' 0', ' ')
+
+def billions(count, decimals=0):
+    return np.round(count[0]/1000000000, decimals)
 
 def main(args):
     # Create dictionary that will be exported as JSON
@@ -34,25 +39,24 @@ def main(args):
 
     # Retrieve data from OWID
     locations_url = f'https://raw.githubusercontent.com/owid/covid-19-data/{commit}/public/data/vaccinations/locations.csv'
-    vaccine_locations = pd.read_csv(locations_url, error_bad_lines='skip')
+    vaccine_locations = pd.read_csv(locations_url, error_bad_lines=False)
 
     numbers_url = f'https://raw.githubusercontent.com/owid/covid-19-data/{commit}/public/data/vaccinations/vaccinations.csv'
-    vaccine_nums = pd.read_csv(numbers_url, error_bad_lines='skip')
+    vaccine_nums = pd.read_csv(numbers_url, error_bad_lines=False)
 
     #manufacturer_url = f'https://raw.githubusercontent.com/owid/covid-19-data/{commit}/public/data/vaccinations/vaccinations-by-manufacturer.csv'
-    #vaccine_manf = pd.read_csv(manufacturer_url, error_bad_lines='skip')
+    #vaccine_manf = pd.read_csv(manufacturer_url, error_bad_lines=False)
 
     # Pull up-to-date statistics from data
     vaccine_nums['date'] = pd.to_datetime(vaccine_nums['date'])
 
     owid_stats["owid_most_recent_date"] = vaccine_nums['date'].max().strftime('%B %d, %Y').replace(' 0', ' ')
 
-    owid_stats["owid_total_vaccinations"] = \
-        str("{:,}".format(round(vaccine_nums[vaccine_nums["location"] == "World"].
-                                loc[vaccine_nums["date"] ==
-                                    owid_stats["owid_most_recent_date"],
-                                    "total_vaccinations"].item()/1000000000))) + \
-        " billion"
+    owid_stats["owid_total_vaccinations"] = = str(round((vaccine_nums
+            >> ply.query("location == 'World'")
+            >> ply.query("date == date.max()")
+            >> ply.pull("total_vaccinations")
+    ).item()/1000000000)) + " billion"
 
     # Identify number of vaccine manufacturers included in location totals (not the same as manufacturer-specific data)
     vaxCounts = set([item.strip() for countryList in
