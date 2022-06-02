@@ -21,7 +21,7 @@ def convert_date(git_date):
     return datetime.datetime.fromisoformat(git_date).strftime('%B %d, %Y').replace(' 0', ' ')
 
 def billions(count, decimals=0):
-    return np.round(count[0]/1000000000, decimals)
+    return str(np.round(count/1000000000, decimals)) + " billion"
 
 def main(args):
     # Create dictionary that will be exported as JSON
@@ -52,11 +52,12 @@ def main(args):
 
     owid_stats["owid_most_recent_date"] = vaccine_nums['date'].max().strftime('%B %d, %Y').replace(' 0', ' ')
 
-    owid_stats["owid_total_vaccinations"] = = str(round((vaccine_nums
+    owid_stats["owid_total_vaccinations"] = billions(
+        (vaccine_nums
             >> ply.query("location == 'World'")
             >> ply.query("date == date.max()")
             >> ply.pull("total_vaccinations")
-    ).item()/1000000000)) + " billion"
+    ).item())
 
     # Identify number of vaccine manufacturers included in location totals (not the same as manufacturer-specific data)
     vaxCounts = set([item.strip() for countryList in
