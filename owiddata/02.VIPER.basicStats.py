@@ -3,7 +3,6 @@ from jsonFunctions import *
 import pandas as pd
 import urllib.request
 from bs4 import BeautifulSoup
-from jsonfn import *
 
 def assign_platform_types(vaxtype):
     """The types of vaccines as categoried on trackvaccines.org differs

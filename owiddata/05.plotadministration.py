@@ -1,7 +1,7 @@
 import argparse
 import pandas as pd
-from jsonfn import *
-from mapfn import *
+from jsonFunctions import *
+from mapFunctions import *
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 import numpy as np
