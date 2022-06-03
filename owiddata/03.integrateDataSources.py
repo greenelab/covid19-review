@@ -39,7 +39,8 @@ def pair_datasource_names(viper_table, owid_names):
             # We could update this to pull the data from the associated VIPER candidate page
             unifiedNames[vname] = None
         else:
-            # To do: Open issue? This case should not arise
+            # To do: Open issue? This case should not arise for ones that have been
+            # manually screened, so manual screening would be recommended
             unifiedNames[vname] = None
 
     viper_table['OWID Nomenclature'] = viper_table.index.map(unifiedNames)

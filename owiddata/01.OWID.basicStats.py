@@ -52,6 +52,7 @@ def main(args):
 
     owid_stats["owid_most_recent_date"] = vaccine_nums['date'].max().strftime('%B %d, %Y').replace(' 0', ' ')
 
+    # To do: Add a check to make sure < 1 trillion and open issue if not
     owid_stats["owid_total_vaccinations"] = billions(
         (vaccine_nums
             >> ply.query("location == 'World'")
