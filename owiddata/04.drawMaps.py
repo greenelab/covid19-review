@@ -2,25 +2,10 @@ import argparse
 from jsonFunctions import *
 import pandas as pd
 import numpy as np
-import geopandas
+from mapFunctions import *
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 from ast import literal_eval
-
-def lowres_fix(world):
-    """There is an issue with the map data source from geopandas where
-    ISO codes are missing for several countries. This fix was proposed
-    by @tommycarstensen at
-    https://github.com/geopandas/geopandas/issues/1041
-
-    :param world: dataframe (read in with geopandas)
-    :return: dataframe (geopandas formatted)
-    """
-    world.loc[world['name'] == 'France', 'iso_a3'] = 'FRA'
-    world.loc[world['name'] == 'Norway', 'iso_a3'] = 'NOR'
-    world.loc[world['name'] == 'Somaliland', 'iso_a3'] = 'SOM'
-    world.loc[world['name'] == 'Kosovo', 'iso_a3'] = 'RKS'
-    return world
 
 def fix_owid_names(isoList):
     fixedlist = list()
