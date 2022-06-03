@@ -26,11 +26,10 @@ def pair_datasource_names(viper_table, owid_names):
                                      columns=owid_names)
     # Rows of heatmap are VIPER name, columns are OWID name
 
-    # Identify the best hit for each OWID vax name, since these are usually
-    # a subset of the VIPER names
+    # Identify the closest name in each dataset
     owid_bestmatch = heatMap.idxmax(axis=0).to_dict() # row max
     viper_bestmatch = heatMap.idxmax(axis=1).to_dict()
-    print(owid_bestmatch)
+
     unifiedNames = dict()
     for oname, vname in owid_bestmatch.items():
         if oname == viper_bestmatch[vname]:
