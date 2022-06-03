@@ -63,6 +63,7 @@ def main(args):
     # Load previously processed data
     owid_stats = load_JSON(args.update_json)
     vaxPlatforms = pd.read_csv(args.platform_types)
+    vaxManf = pd.read_csv(args.vax_bymanf)
     countries_mapping = setup_geopandas()
 
     # Retrieve information about the country where vaccine was developed
