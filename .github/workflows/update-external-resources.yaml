@@ -26,7 +26,7 @@ jobs:
           channels: conda-forge
           channel-priority: true
           use-mamba: true
-      - name: List informationa about conda and environment
+      - name: List information about conda and environment
         shell: bash --login {0}
         run: |
           conda info
