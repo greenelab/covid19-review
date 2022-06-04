@@ -16,16 +16,24 @@ jobs:
         uses: actions/checkout@v2
         with:
           ref: external-resources
-      - name: Install environment
+      - name: Install environment # Use mamba as in https://github.com/conda-incubator/setup-miniconda#example-6-mamba
         uses: conda-incubator/setup-miniconda@v2
         with:
           activate-environment: covid19
           environment-file: environment.yml
           auto-activate-base: false
-          miniconda-version: 'latest'
-      - name: List packages in conda environment
+          mamba-version: '*'
+          channels: conda-forge
+          channel-priority: true
+          use-mamba: true
+      - name: List informationa about conda and environment
         shell: bash --login {0}
-        run: conda list
+        run: |
+          conda info
+          conda list
+          conda config --show-sources
+          conda config --show
+          printenv | sort
       - name: Update JHU CSSE data
         shell: bash --login {0}
         run: bash csse/generate-csse-stats.sh
