@@ -3,7 +3,7 @@ AEs
 Agrobacterium
 benthamiana
 CanSino’s
-Corbevax
+CORBEVAX
 Covifenz
 deoptimization
 electroportion
