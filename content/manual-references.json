@@ -1924,5 +1924,44 @@
   "city": "New York",
   "title": "The distribution and functions of immunoglobulin isotypes",
   "URL": "https://www.ncbi.nlm.nih.gov/books/NBK27162"
+},
+{
+  "id": "phe_voc_20210105",
+  "type": "webpage",
+  "language": "en",
+  "container-title": "Public Health England",
+  "title": "Investigation of novel SARS-CoV-2 variant: Variant of Concern 202012/01",
+  "URL": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/959360/Variant_of_Concern_VOC_202012_01_Technical_Briefing_3.pdf",
+  "issued": {
+    "date-parts": [
+     [
+        2021,
+        1,
+        5
+      ]
+    ]
+  }
+},
+{
+  "id": "url:https://gidmk.medium.com/does-ivermectin-work-for-covid-19-1166126c364a",
+  "type": "webpage",
+  "language": "en",
+  "title": "Does Ivermectin Work for Covid-19?",
+  "URL": "https://gidmk.medium.com/does-ivermectin-work-for-covid-19-1166126c364a",
+  "author": [
+    {
+      "family": "M-K",
+      "given": "Gideon"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+     [
+        2021,
+        6,
+        22
+      ]
+    ]
+  }
 }
 ]
