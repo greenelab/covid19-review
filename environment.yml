@@ -9,8 +9,8 @@ dependencies:
   - pip=20.0
   - python=3.7.6
   - geopandas=0.10.2
-  - shapely=1.8.2
-  - fiona=1.8.21
+  - shapely=1.7.1
+  - fiona=1.8.17
   - python-levenshtein=0.12.2
   - seaborn=0.11.1
   - tabulate=0.8.9
@@ -22,4 +22,4 @@ dependencies:
     - bs4==0.0.1
     - html5lib==1.1
     - fuzzywuzzy==0.18.0
-    - plydata=0.4.3
+    - plydata==0.4.3
