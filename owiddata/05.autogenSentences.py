@@ -63,7 +63,6 @@ def main(args):
     # Load previously processed data
     owid_stats = load_JSON(args.update_json)
     vaxPlatforms = pd.read_csv(args.platform_types)
-    vaxManf = pd.read_csv(args.vax_bymanf)
     countries_mapping = setup_geopandas()
 
     # Retrieve information about the country where vaccine was developed
@@ -86,10 +85,6 @@ if __name__ == '__main__':
                         type=str)
     parser.add_argument('platform_types',
                         help='Path of the CSV file with the vaccine to platform mapping',
-                        type=str)
-    parser.add_argument('vax_bymanf',
-                        help='Path of the CSV file with the list of doses admin \\'
-                             ' per vaccine (candidate)',
                         type=str)
     args = parser.parse_args()
     main(args)
