@@ -57,7 +57,6 @@ def getContinentText(devCountryInfo):
                            continent,
                            ", ". join(countryClauses[:-1]),
                            countryClauses[-1])
-    print(sentences)
     return sentences
 
 def main(args):
@@ -73,8 +72,7 @@ def main(args):
                                                      "name", "iso_a3", "gdp_md_est"]])
     # Generate dynamic text based on which vaccines are available by continent
     sentences = getContinentText(devCountryInfo)
-    print(sentences)
-    exit(0)
+
     for continent, sentence in sentences.items():
         owid_stats["viper_vax_dev_" + "_".join(continent.split())] = sentence
     write_JSON(owid_stats, args.update_json)

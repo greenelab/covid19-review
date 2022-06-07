@@ -44,8 +44,9 @@ def main(args):
     numbers_url = f'https://raw.githubusercontent.com/owid/covid-19-data/{commit}/public/data/vaccinations/vaccinations.csv'
     vaccine_nums = pd.read_csv(numbers_url, error_bad_lines=False)
 
-    #manufacturer_url = f'https://raw.githubusercontent.com/owid/covid-19-data/{commit}/public/data/vaccinations/vaccinations-by-manufacturer.csv'
-    #vaccine_manf = pd.read_csv(manufacturer_url, error_bad_lines=False)
+    manufacturer_url = f'https://raw.githubusercontent.com/owid/covid-19-data/{commit}/public/data/vaccinations/vaccinations-by-manufacturer.csv'
+    vaccine_manf = pd.read_csv(manufacturer_url, error_bad_lines=False)
+    vaccine_manf.to_csv(args.vaccine_manf)
 
     # Pull up-to-date statistics from data
     vaccine_nums['date'] = pd.to_datetime(vaccine_nums['date'])
@@ -90,6 +91,10 @@ if __name__ == '__main__':
     parser.add_argument('country_byvax',
                         help='Path of the CSV file with the list of ISO codes \\'
                              ' per vaccine candidate',
+                        type=str)
+    parser.add_argument('vaccine_manf',
+                        help='Path of the CSV file describing which vaccines have been \\'
+                             ' administered in each country',
                         type=str)
     args = parser.parse_args()
     main(args)
