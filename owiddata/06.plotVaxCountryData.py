@@ -13,7 +13,9 @@ def plotContinents(vaxPlatforms, countries_mapping, vaccine_manf):
     total_vaccinations = pd.DataFrame(
         vaccine_manf.groupby(['location', 'vaccine'])['total_vaccinations'].max())
     total_vaccinations.reset_index(inplace=True)
-    total_vaccinations.rename(columns={"location":"country_name", "vaccine":"OWID Nomenclature"}, inplace=True)
+    total_vaccinations.rename(columns={"location":"country_name",
+                                       "vaccine":"OWID Nomenclature"},
+                              inplace=True)
 
     # Add in the data about the platform used for the vaccine
     total_vaccinations = total_vaccinations.merge(
@@ -22,7 +24,9 @@ def plotContinents(vaxPlatforms, countries_mapping, vaccine_manf):
 
     # Add in the data about which continent each country is located on & other stats
     # Must be inner join to drop EU, which has no ISO code/Lowres data
-    total_vaccinations = total_vaccinations.merge(countries_mapping[["name", "continent","pop_est", "iso_a3", "gdp_md_est"]],
+    total_vaccinations = total_vaccinations.merge(countries_mapping[["name", "continent",
+                                                                     "pop_est", "iso_a3",
+                                                                     "gdp_md_est"]],
                                                   how="inner", left_on='country_name', right_on='name')
 
     # Remove redundant column for simplicity
@@ -60,7 +64,10 @@ def plotDistribution(total_vaccinations, countries_mapping):
     doses_pop_continent = total_doses_admin.merge(total_pop_continent, how="inner", on='continent')
     doses_pop_continent["per_capita"] = doses_pop_continent["total_vaccinations"] / doses_pop_continent["pop_est"]
     doses_pop_continent.sort_values(by=['Platform'])
-    p = (ggplot(doses_pop_continent[doses_pop_continent["total_vaccinations"] > 1000000], aes(x='OWID Nomenclature', y='per_capita', fill="continent"))
+
+    # If the dosage number is too low, the bars aren't legible, so setting min at 1M
+    p = (ggplot(doses_pop_continent[doses_pop_continent["total_vaccinations"] > 1000000],
+                aes(x='OWID Nomenclature', y='per_capita', fill="continent"))
          + geom_bar(stat="identity") # position="dodge")
          + ggtitle("Administered COVID-19 Vaccine Doses (OWID)")
          + ylab("Doses Adminmistered Per Capita")
