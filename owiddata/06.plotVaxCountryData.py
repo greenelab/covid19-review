@@ -15,14 +15,6 @@ def plotContinents(vaxPlatforms, countries_mapping, vaccine_manf):
     total_vaccinations.reset_index(inplace=True)
     total_vaccinations.rename(columns={"location":"country_name", "vaccine":"OWID Nomenclature"}, inplace=True)
 
-    #DELETE ME
-    # Add in the data about how many doses are in the primary series
-    #dosages = pd.read_csv("owiddata/owid-dosage.csv")
-    #total_vaccinations = total_vaccinations.merge(
-    #    dosages[["OWID Nomenclature", "doses"]],
-    #    how="inner", left_on='vaccine', right_on='OWID Nomenclature')
-    # To Do: open issue if this data is missing
-
     # Add in the data about the platform used for the vaccine
     total_vaccinations = total_vaccinations.merge(
         vaxPlatforms[["OWID Nomenclature", "Platform"]],
@@ -51,8 +43,8 @@ def plotGDP(total_vaccinations):
          + xlab("National GDP (Billions of Dollars)")
          + ylab("Doses Adminmistered Per Capita")
          )
-    #fig = p.draw(show=True)
-    p.save(filename='owiddata/OWID_doseTypebyGDP.png', height=4, width=7, units='in', dpi=1000)
+    p.save(filename='owiddata/OWID_doseTypebyGDP.png', height=4, width=7, units='in', dpi=1000, verbose = False)
+    print(f'Wrote {args.doses_scatterplot}')
 
 def plotDistribution(total_vaccinations, countries_mapping):
     # Calculate statistics about the doses of each vaccine administered
@@ -75,11 +67,12 @@ def plotDistribution(total_vaccinations, countries_mapping):
          + xlab("Vaccine Manufacturer")
          )
 
-    p.save(filename='owiddata/OWID_dosesByContinent.png', height=4, width=14, units='in', dpi=1000)
+    p.save(filename='owiddata/OWID_dosesByContinent.png', height=4, width=14, units='in', dpi=1000, verbose = False)
+    print(f'Wrote {args.doses_bargraph}')
 
 def main(args):
     # Load previously processed data
-    #owid_stats = load_JSON(args.update_json)
+    owid_stats = load_JSON(args.update_json)
     vaxPlatforms = pd.read_csv(args.platform_types)
     vaxManf = pd.read_csv(args.vax_bymanf)
     countries_mapping = setup_geopandas()
@@ -87,20 +80,33 @@ def main(args):
     # Call plotting functions
     plotContinents(vaxPlatforms, countries_mapping, vaxManf)
 
+    # The placeholder will be replaced by the actual SHA-1 hash in separate
+    # script after the updated image is committed
+    owid_stats['owid_doses_bargraph'] = \
+    f'https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/{args.doses_bargraph}'
+    owid_stats['owid_doses_bargraph'] = \
+    f'https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/{args.doses_scatterplot}'
+    write_JSON(owid_stats, args.update_json)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
         description=__doc__,
         formatter_class=argparse.RawDescriptionHelpFormatter)
-    #parser.add_argument('update_json',
-    #                    help='Path of the JSON file with extracted statistics',
-    #                    type=str)
+    parser.add_argument('update_json',
+                        help='Path of the JSON file with extracted statistics',
+                        type=str)
     parser.add_argument('platform_types',
                         help='Path of the CSV file with the vaccine to platform mapping',
                         type=str)
     parser.add_argument('vax_bymanf',
                         help='Path of the CSV file with the list of doses admin \\'
                              ' per vaccine (candidate)',
+                        type=str)
+    parser.add_argument('doses_bargraph',
+                        help='PNG image showing doses per capita for each manufacturer by continent',
+                        type=str)
+    parser.add_argument('doses_scatterplot',
+                        help='PNG image showing relationship between GDP and doses per capita by platform',
                         type=str)
     args = parser.parse_args()
     main(args)

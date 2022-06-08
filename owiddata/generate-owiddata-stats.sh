@@ -19,17 +19,19 @@ VAX_BY_MANF=owiddata/vaccination_by_manufacturer.csv
 
 # Locations for images
 OWID_MAP=owiddata/maps
+OWID_DOSES_BAR=OWID_dosesByContinent.png
+OWID_DOSES_SCPLOT=OWID_doseTypebyGDP.png
 
 echo "Generating Our World in Data COVID-19 vaccine statistics"
-#python owiddata/01.OWID.basicStats.py $OWID_STATS_JSON $COUNTRY_BY_VAX $VAX_BY_MANF
-#python owiddata/02.VIPER.basicStats.py $OWID_STATS_JSON  $VACCINE_PLATFORMS
-#python owiddata/03.integrateDataSources.py $VACCINE_PLATFORMS $COUNTRY_BY_VAX
-#python owiddata/04.drawMaps.py $OWID_STATS_JSON $VACCINE_PLATFORMS $OWID_MAP
-#python owiddata/05.autogenSentences.py $OWID_STATS_JSON  $VACCINE_PLATFORMS
-#$VAX_BY_MANF
+python owiddata/01.OWID.basicStats.py $OWID_STATS_JSON $COUNTRY_BY_VAX $VAX_BY_MANF
+python owiddata/02.VIPER.basicStats.py $OWID_STATS_JSON  $VACCINE_PLATFORMS
+python owiddata/03.integrateDataSources.py $VACCINE_PLATFORMS $COUNTRY_BY_VAX
+python owiddata/04.drawMaps.py $OWID_STATS_JSON $VACCINE_PLATFORMS $OWID_MAP
+python owiddata/05.autogenSentences.py $OWID_STATS_JSON  $VACCINE_PLATFORMS
+python owiddata/06.plotVaxCountryData.py $OWID_STATS_JSON $VACCINE_PLATFORMS $VAX_BY_MANF $OWID_DOSES_BAR $OWID_DOSES_SCPLOT
 
 # Clean up
-#rm $VACCINE_PLATFORMS $COUNTRY_BY_VAX
+rm $VACCINE_PLATFORMS $COUNTRY_BY_VAX $VAX_BY_MANF
 
 # After running this Python script to generate the figures, commit the figures
 # and run the version-figures.sh script to update the OWID_STATS_JSON with the
