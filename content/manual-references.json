@@ -1042,7 +1042,7 @@
 },
 {
   "type": "article-journal",
-  "id": "individual-vaccines",
+  "id": "individual-vaccines-traditional",
   "author": [
     {
       "literal": "COVID-19 Review Consortium"
@@ -1051,14 +1051,14 @@
   "issued": {
     "date-parts": [
       [
-        2021,
-        2,
-        19
+        2022,
+        6,
+        01
       ]
     ]
   },
   "container-title": "Manubot",
-  "title": "Vaccine Development Strategies for SARS-CoV-2",
+  "title": "Application of Traditional Vaccine Development Strategies to SARS-CoV-2",
   "URL": "https://greenelab.github.io/covid19-review/v/d9d90fd7e88ef547fb4cbed0ef73baef5fee7fb5/#vaccine-development-strategies-for-sars-cov-2"
 },
 {
@@ -1392,7 +1392,7 @@
 {
   "id": "url:https://www.biopharma-reporter.com/Article/2021/02/18/South-Africa-starts-administering-Janssen-COVID-19-vaccine-to-health-workers",
   "type": "webpage",
-  
+
   "title": "South Africa starts administering Janssen COVID-19 vaccine to health workers",
   "container-title": "BioPharma-Reporter",
   "abstract": "South Africa has started administering the Janssen COVID-19 vaccine to health workers this week after the first doses arrived in the country. Meanwhile, J&J has submitted an application for Conditional Marketing Authorisation in the EU, following its application for EUA in the US.",
@@ -1443,9 +1443,9 @@
   "issued": {
     "date-parts": [
       [
-        2021, 
+        2021,
         4
-      ] 
+      ]
     ]
   },
   "container-title": "SSRN",
@@ -1534,22 +1534,22 @@
   "PMCID": "PMC7300753",
   "PMID": "32506549"
 },
-{ 
+{
   "type": "book",
   "id": "pmid:32310382",
   "author": [
-    { 
+    {
       "family": "Alhajj",
       "given": "Mandy"
     },
-    { 
+    {
       "family": "Farhana",
       "given": "Aisha"
     }
   ],
   "issued": {
     "date-parts": [
-      [ 
+      [
         2022,
         2,
         2
@@ -1559,7 +1559,7 @@
   "title": "Enzyme Linked Immunosorbent Assay",
   "container-title": "StatPearls",
   "page": "1-11",
-  "publisher": "StatPearls", 
+  "publisher": "StatPearls",
   "URL": "https://pubmed.ncbi.nlm.nih.gov/32310382",
   "PMID": "32310382"
 },
@@ -1894,7 +1894,7 @@
   "type": "book",
   "id": "url:https://www.ncbi.nlm.nih.gov/books/NBK27162",
   "editor": [
-    { 
+    {
       "family": "Janeway Jr",
       "given": "Charles A"
     },
