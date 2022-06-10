@@ -7,7 +7,7 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 import numpy as np
 
-def plotContinents(vaxPlatforms, countries_mapping, vaccine_manf):
+def evaluateDistribution(vaxPlatforms, countries_mapping, vaccine_manf):
     # Load OWID data and identify how many of each vaccine have been adminstered to date (it's cumulative,
     # so only need the most recent/max entry)
     total_vaccinations = pd.DataFrame(
@@ -32,10 +32,10 @@ def plotContinents(vaxPlatforms, countries_mapping, vaccine_manf):
     # Remove redundant column for simplicity
     total_vaccinations.drop("name", axis=1, inplace=True)
 
-    #plotGDP(total_vaccinations)
-    plotDistribution(total_vaccinations, countries_mapping)
+    plotTypeGDP(total_vaccinations)
+    plotDistGDP(total_vaccinations, countries_mapping)
 
-def plotGDP(total_vaccinations):
+def plotTypeGDP(total_vaccinations):
     by_platform = pd.DataFrame(
         total_vaccinations.groupby(
             ['country_name', 'Platform', 'pop_est', 'gdp_md_est'])['total_vaccinations'].sum())
@@ -50,8 +50,9 @@ def plotGDP(total_vaccinations):
     p.save(filename='owiddata/OWID_doseTypebyGDP.png', height=4, width=7, units='in', dpi=1000, verbose = False)
     print(f'Wrote {args.doses_scatterplot}')
 
-def plotDistribution(total_vaccinations, countries_mapping):
+def plotDistGDP(total_vaccinations, countries_mapping):
     # Calculate statistics about the doses of each vaccine administered
+
     total_doses_admin = pd.DataFrame(
         total_vaccinations.groupby(
             ['Platform', 'OWID Nomenclature', 'continent'])['total_vaccinations'].sum())
@@ -85,7 +86,7 @@ def main(args):
     countries_mapping = setup_geopandas()
 
     # Call plotting functions
-    plotContinents(vaxPlatforms, countries_mapping, vaxManf)
+    evaluateDistribution(vaxPlatforms, countries_mapping, vaxManf)
 
     # The placeholder will be replaced by the actual SHA-1 hash in separate
     # script after the updated image is committed
