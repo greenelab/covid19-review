@@ -33,7 +33,7 @@ def evaluateDistribution(vaxPlatforms, countries_mapping, vaccine_manf):
     total_vaccinations.drop("name", axis=1, inplace=True)
 
     plotTypeGDP(total_vaccinations)
-    plotDistGDP(total_vaccinations, countries_mapping)
+    plotDistContinent(total_vaccinations, countries_mapping)
 
 def plotTypeGDP(total_vaccinations):
     by_platform = pd.DataFrame(
@@ -45,12 +45,12 @@ def plotTypeGDP(total_vaccinations):
          + geom_smooth(method="auto", se=True, fullrange=False, level=0.95)
          + ggtitle("Administration of COVID-19 Vaccine Doses")
          + xlab("National GDP (Billions of Dollars)")
-         + ylab("Doses Adminmistered Per Capita")
+         + ylab("Doses Adminmistered")
          )
     p.save(filename='owiddata/OWID_doseTypebyGDP.png', height=4, width=7, units='in', dpi=1000, verbose = False)
     print(f'Wrote {args.doses_scatterplot}')
 
-def plotDistGDP(total_vaccinations, countries_mapping):
+def plotDistContinent(total_vaccinations, countries_mapping):
     # Calculate statistics about the doses of each vaccine administered
 
     total_doses_admin = pd.DataFrame(
