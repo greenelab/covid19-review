@@ -45,8 +45,8 @@ def main(args):
     vaccine_nums = pd.read_csv(numbers_url, error_bad_lines=False)
 
     manufacturer_url = f'https://raw.githubusercontent.com/owid/covid-19-data/{commit}/public/data/vaccinations/vaccinations-by-manufacturer.csv'
-    vaccine_manf = pd.read_csv(manufacturer_url, error_bad_lines='skip')
-    vaccine_manf.to_csv(args.vax_bymanf, index = False)
+    vaccine_manf = pd.read_csv(manufacturer_url, error_bad_lines=False)
+    vaccine_manf.to_csv(args.vax_bymanf, index=False)
 
     # Pull up-to-date statistics from data
     vaccine_nums['date'] = pd.to_datetime(vaccine_nums['date'])
