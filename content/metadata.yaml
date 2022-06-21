@@ -127,12 +127,12 @@ authors:
       - the National Human Genome Research Institute (R01 HG010067)
     manuscripts:
       vaccines-trad:
-        order: 10
+        order: 7
         contributions:
           - Conceptualization
           - Supervision
       vaccines-novel:
-        order: 10
+        order: 9
         contributions:
           - Conceptualization
           - Writing - Original Draft
@@ -700,8 +700,6 @@ authors:
         order: 5
         contributions:
           - Writing - Review & Editing
-  -
-
   -
     github: ismms-himc
     name: Immunology Institute of the Icahn School of Medicine
