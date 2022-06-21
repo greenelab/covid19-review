@@ -70,6 +70,21 @@ authors:
           - Visualization
           - Writing - Review & Editing
           - Writing - Original Draft
+      vaccines-trad:
+        order: 1
+        contributions:
+          - Software
+          - Project Administration
+          - Visualization
+          - Writing - Review & Editing
+          - Writing - Original Draft
+      vaccines-novel:
+        order: 1
+        contributions:
+          - Software
+          - Project Administration
+          - Writing - Review & Editing
+          - Writing - Original Draft
         affiliations:
           - institution: University of Colorado School of Medicine
             department: Center for Health AI
@@ -261,6 +276,14 @@ authors:
         contributions:
           - Writing - Review & Editing
           - Visualization
+      vaccines-trad:
+        order: 5
+        contributions:
+          - Project Administration
+      vaccines-novel:
+        order: 5
+        contributions:
+          - Project Administration
   -
     github: RLordan
     name: Ronan Lordan
@@ -304,6 +327,19 @@ authors:
           - Writing - Review & Editing
           - Writing - Original Draft
           - Project Administration
+      vaccines-trad:
+        order: 2
+        contributions:
+          - Project Administration
+          - Visualization
+          - Writing - Review & Editing
+          - Writing - Original Draft
+      vaccines-novel:
+        order: 1
+        contributions:
+          - Project Administration
+          - Writing - Review & Editing
+          - Writing - Original Draft
   -
     github: cbrueffer
     name: Christian Brueffer
@@ -721,6 +757,15 @@ authors:
         contributions:
           - Writing - Review & Editing
           - Writing - Original Draft
+      vaccines-trad:
+        order: 4
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
+      vaccines-novel:
+        order: 4
+        contributions:
+          - Writing - Review & Editing
   -
     github: vincerubinetti
     name: Vincent Rubinetti
@@ -880,6 +925,16 @@ authors:
       lastapproved: !!str 2020-11-16
     funders:
       - NIH Medical Scientist Training Program T32 GM07170
+    manuscripts:
+      vaccines-trad:
+        order: -1
+        contributions:
+          - Writing - Review & Editing
+      vaccines-novel:
+        order: 3
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
   -
     github: davidmanheim
     name: David Manheim
@@ -1380,6 +1435,16 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2021-04-05
+    manuscripts:
+      vaccines-trad:
+        order: 3
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
+      vaccines-novel:
+        order: -1
+        contributions:
+          - Writing - Review & Editing
   -
     github: yusha-sun
     name: Yusha Sun
