@@ -62,14 +62,6 @@ authors:
           - Writing - Original Draft
           - Writing - Review & Editing
           - Visualization
-      methods:
-        order: 1
-        contributions:
-          - Software
-          - Project Administration
-          - Visualization
-          - Writing - Review & Editing
-          - Writing - Original Draft
       vaccines-trad:
         order: 1
         contributions:
@@ -85,7 +77,15 @@ authors:
           - Project Administration
           - Writing - Review & Editing
           - Writing - Original Draft
-        affiliations:
+       methods:
+        order: 1
+        contributions:
+          - Software
+          - Project Administration
+          - Visualization
+          - Writing - Review & Editing
+          - Writing - Original Draft
+       affiliations:
           - institution: University of Colorado School of Medicine
             department: Center for Health AI
             city: Aurora
@@ -126,6 +126,17 @@ authors:
       - the Gordon and Betty Moore Foundation (GBMF 4552)
       - the National Human Genome Research Institute (R01 HG010067)
     manuscripts:
+      vaccines-trad:
+        order: 10
+        contributions:
+          - Conceptualization
+          - Supervision
+      vaccines-novel:
+        order: 10
+        contributions:
+          - Conceptualization
+          - Writing - Original Draft
+          - Supervision
       pathogenesis:
         order: 10
         contributions:
@@ -277,7 +288,7 @@ authors:
           - Writing - Review & Editing
           - Visualization
       vaccines-trad:
-        order: 5
+        order: 3
         contributions:
           - Project Administration
       vaccines-novel:
@@ -335,7 +346,7 @@ authors:
           - Writing - Review & Editing
           - Writing - Original Draft
       vaccines-novel:
-        order: 1
+        order: 2
         contributions:
           - Project Administration
           - Writing - Review & Editing
@@ -455,6 +466,15 @@ authors:
     funders:
       - John W. and Jeanne M. Rowe Center for Research in Virology
     manuscripts:
+      vaccines-trad:
+        order: 8
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
+      vaccines-novel:
+        order: 8
+        contributions:
+          - Writing - Review & Editing
       pathogenesis:
         order: 9
         contributions:
@@ -671,6 +691,17 @@ authors:
         contributions:
           - Writing - Original Draft
           - Writing - Review & Editing
+      vaccines-trad:
+        order: 3
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
+      vaccines-novel:
+        order: 5
+        contributions:
+          - Writing - Review & Editing
+  -
+
   -
     github: ismms-himc
     name: Immunology Institute of the Icahn School of Medicine
@@ -927,7 +958,7 @@ authors:
       - NIH Medical Scientist Training Program T32 GM07170
     manuscripts:
       vaccines-trad:
-        order: -1
+        order: 5
         contributions:
           - Writing - Review & Editing
       vaccines-novel:
@@ -1378,6 +1409,14 @@ authors:
         order: 7
         contributions:
           - Project Administration
+      vaccines-trad:
+        order: 6
+        contributions:
+          - Project Administration
+      vaccines-novel:
+        order: 7
+        contributions:
+          - Project Administration
   -
     github: rishirajgoel
     name: Rishi Raj Goel
@@ -1442,7 +1481,7 @@ authors:
           - Writing - Review & Editing
           - Writing - Original Draft
       vaccines-novel:
-        order: -1
+        order: 6
         contributions:
           - Writing - Review & Editing
   -
