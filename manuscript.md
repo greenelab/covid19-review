@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2022-06-07'
+date-meta: '2022-06-21'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -72,8 +72,8 @@ header-includes: |-
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2022-06-07" />
-  <meta name="citation_publication_date" content="2022-06-07" />
+  <meta name="dc.date" content="2022-06-21" />
+  <meta name="citation_publication_date" content="2022-06-21" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -291,13 +291,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/95d5a8001dfbb785aa7cf761f78c4d533b8677ea/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/95d5a8001dfbb785aa7cf761f78c4d533b8677ea/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/95d5a8001dfbb785aa7cf761f78c4d533b8677ea/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/0a98d795aa8a39fa4194c906ec38ac8d59c7e753/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/0a98d795aa8a39fa4194c906ec38ac8d59c7e753/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/0a98d795aa8a39fa4194c906ec38ac8d59c7e753/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/95d5a8001dfbb785aa7cf761f78c4d533b8677ea/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/95d5a8001dfbb785aa7cf761f78c4d533b8677ea/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/0a98d795aa8a39fa4194c906ec38ac8d59c7e753/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/0a98d795aa8a39fa4194c906ec38ac8d59c7e753/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -319,11 +319,11 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/95d5a8001dfbb785aa7cf761f78c4d533b8677ea/))
+([permalink](https://greenelab.github.io/covid19-review/v/0a98d795aa8a39fa4194c906ec38ac8d59c7e753/))
 was automatically generated
-from [greenelab/covid19-review@95d5a80](https://github.com/greenelab/covid19-review/tree/95d5a8001dfbb785aa7cf761f78c4d533b8677ea)
-on June 7, 2022.
-It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/95d5a8001dfbb785aa7cf761f78c4d533b8677ea/manuscript.pdf).
+from [greenelab/covid19-review@0a98d79](https://github.com/greenelab/covid19-review/tree/0a98d795aa8a39fa4194c906ec38ac8d59c7e753)
+on June 21, 2022.
+It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/0a98d795aa8a39fa4194c906ec38ac8d59c7e753/manuscript.pdf).
 Snapshots of individual sections have been published [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals; @individual-methods] or posted as preprints [@individual-diagnostics].
 </em></small>
 
@@ -2410,14 +2410,14 @@ The scale of the COVID-19 pandemic has made the repurposing and development of p
 
 ![
 **Cumulative global incidence of COVID-19 and SARS.**
-As of June 6, 2022, 532,351,989 COVID-19 cases and 6,300,059 COVID-19 deaths had been reported worldwide since January 22, 2020.
+As of June 19, 2022, 538,968,805 COVID-19 cases and 6,318,657 COVID-19 deaths had been reported worldwide since January 22, 2020.
 A total of 8,432 cases and 813 deaths were reported for SARS from March 17 to July 11, 2003.
 SARS-CoV-1 was officially contained on July 5, 2003, within 9 months of its appearance [@doi:10.3390/ijerph17113973].
 In contrast, SARS-CoV-2 remains a significant global threat nearly two years after its emergence.
 COVID-19 data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series; @doi:10/ggnsjk].
 SARS data are from the WHO [@url:https://www.who.int/health-topics/severe-acute-respiratory-syndrome] and were obtained from a dataset on GitHub [@url:https://github.com/imdevskp/sars-2003-outbreak-data-webscraping-code].
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/87225c9935edc816c9c6d8d0e049af7b60b36c95/csse/csse-deaths.png "Global incidence of COVID-19 and SARS"){#fig:csse-deaths secno=1}
+](https://github.com/greenelab/covid19-review/raw/0ce2c51ef8ba466436abdbb24386301a49f3d61a/csse/csse-deaths.png "Global incidence of COVID-19 and SARS"){#fig:csse-deaths secno=1}
 
 At first, SARS-CoV-2's rapid shift from an unknown virus to a significant worldwide threat closely paralleled the emergence of _Severe acute respiratory syndrome-related coronavirus_ (SARS-CoV-1), which was responsible for the 2002-03 SARS epidemic.
 The first documented case of COVID-19 was reported in Wuhan, China in November 2019, and the disease quickly spread worldwide in the early months of 2020.
@@ -2474,7 +2474,7 @@ Recruitment status and trial phase are shown only for interventional trials in w
 Common interventions refers to interventions used in at least ten trials.
 Combinations of interventions, such as hydroxychloroquine with azithromycin, are tallied separately from the individual interventions.
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/87225c9935edc816c9c6d8d0e049af7b60b36c95/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/0ce2c51ef8ba466436abdbb24386301a49f3d61a/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 The purpose of this review is to provide an evolving resource tracking the status of efforts to repurpose and develop drugs for the treatment of COVID-19.
 We highlight four strategies that provide different paradigms for the identification of potential pharmaceutical treatments.
@@ -3546,7 +3546,7 @@ Therefore, these vaccines, while less cutting-edge on the biotechnology side, ar
 
 ### Importance
 
-As of June 6, 2022, SARS-CoV-2 has infected over 532,351,989 and taken the lives of at least 6,300,059 people globally.
+As of June 19, 2022, SARS-CoV-2 has infected over 538,968,805 and taken the lives of at least 6,318,657 people globally.
 The development, production, and distribution of vaccines is imperative to saving lives, preventing illness, and reducing the economic and social burdens caused by the COVID-19 pandemic.
 Much emphasis has been placed on vaccines that use cutting-edge biotechnology.
 However, more traditional methods of vaccine development that were refined throughout the twentieth century are critical to producing vaccines that are accessible worldwide.
@@ -3557,18 +3557,17 @@ This review examines well-established vaccine technologies and how they are bein
 
 The development of vaccines is widely considered one of the most important medical advances in human history.
 Over the past 150 years, several approaches to vaccines have been developed and refined [@doi:10.1073/pnas.1400472111].
-The COVID-19 pandemic has encountered several unique circumstances, one of which is the extremely rapid release of the SARS-CoV-2 viral genome.
+The COVID-19 pandemic has generated several unique circumstances relative to past health crises, one of which is the extremely rapid release of the SARS-CoV-2 viral genome.
 This genomic information has been important in shaping the biomedical response to this pathogen [@individual-pathogenesis; @individual-pharmaceuticals].
-However, vaccines have been developed since long before the concept of a virus or viral genomes was known.
+However, vaccines have been developed since long before the concept of a virus or a viral genome was known.
 As early as September 2020, there were over 180 vaccine candidates against SARS-CoV-2 in development, many of which used more traditional vaccine technologies [@doi:10.1038/s41586-020-2798-3].
 However, media attention has largely focused on vaccine development platforms that have produced vaccine candidates using previously unemployed technologies, especially mRNA vaccines.
-We review vaccine technologies used for SARS-CoV-2 in two parts: here, the application of traditional vaccine development platforms to SARS-CoV-2, and separately, omics-based approaches.
+We review vaccine technologies used for SARS-CoV-2 in two parts: here, the application of traditional vaccine development platforms to SARS-CoV-2, and separately, omics-based approaches [@individual-vaccines-novel].
 
 Vaccine development using well-established technologies is important for a global perspective on COVID-19.
-As of June 6, 2022, 38 SARS-CoV-2 vaccines have been approved and 28 are being administered throughout the world, with 12.0 billion doses administered across  countries.
-<!--XX of these were developed using whole-virus and subunit approaches, which do not require information about the viral genome.-->
-Many vaccines are available in only a subset of countries, and the types of vaccines available varies widely throughout the world.
-The requirements for developing and deploying a vaccine are complex and often require coordination between government, industry, academia, and philanthropic entities [@doi:10.1126/science.abc5312], and the Coalition for Epidemic Preparedness Innovations (CEPI) is coordinating global health agencies and pharmaceutical companies to develop vaccines against SARS-CoV-2.
+As of June 19, 2022, 38 SARS-CoV-2 vaccines have been approved. Data tracking the administration of 28 vaccines throughout the world indicates that 12.0 billion doses have been administered across  countries [@doi:10.1038/s41562-021-01122-8].
+Of these,  were developed using subunit and  using whole-virus approaches, which do not require information about the viral genome.
+Many vaccines are available but in only a subset of countries, and the types of vaccines available varies widely throughout the world, as the process of developing and deploying a vaccine is complex and often requires coordination between government, industry, academia, and philanthropic entities [@doi:10.1126/science.abc5312].
 
 ![
 **Structure of the SARS-CoV-2 virus.**
@@ -3577,9 +3576,11 @@ Here, the structure of SARS-CoV-2 is represented both in the abstract and agains
 The abstracted visualization was made using BioRender [@url:https://biorender.com] and the microscopy was conducted by the National Institute of Allergy and Infectious Diseases [@url:https://www.niaid.nih.gov/news-events/novel-coronavirus-sarscov2-images].<!--To Do: Was a template used?-->
 ](images/SARS_CoV_2.png){#fig:virus secno=1}
 
-Determining the efficacy of a vaccine is a complex question.
-Vaccine developers often test for serum neutralizing activity, as this has been proposed as a biomarker for adaptive immunity in other respiratory illnesses [@doi:10.1056/nejmoa2022483].
-However, unlike in efforts to develop vaccines for prior viral threats, the duration of the COVID-19 pandemic has made it possible to test vaccines in phase 3 trials where the effect of the vaccines on a cohort’s likelihood of contracting SARS-CoV-2 is evaluated, and efficacy estimates have been released for many vaccine candidates across a number of technology types based on phase 3 trial data.
+One of the metrics through which a vaccine's success is measured is efficacy.
+The vaccine efficacy (VE) of a vaccine seeks to quantify the extent to which a vaccine protects against the virus.
+However, protection can mean different things in different contexts.
+Typically, vaccine developers often test their candidates for serum neutralizing activity, which has been proposed as a biomarker for adaptive immunity in other respiratory illnesses [@doi:10.1056/nejmoa2022483].
+However, unlike in efforts to develop vaccines for prior viral threats, the duration of the COVID-19 pandemic has made it possible to test vaccines in phase 3 trials where the effect of the vaccines on a cohort’s likelihood of contracting SARS-CoV-2 is evaluated. Estimates of VE have been released for many vaccine candidates across a number of technology types based on phase 3 trial data.
 
 However, efficacy is not a static value, and real-world efficacy can vary with location and over time.
 Temporal shifts in efficacy have been a especially heightened topic of concern in late 2021 given the potential for the evolution of SARS-CoV-2 to influence vaccine efficacy.
@@ -3588,6 +3589,10 @@ The evolution of several variants of concern (VOC) presents significant challeng
 We discuss these variants in depth elsewhere [@individual-evolution].
 To date, the most significant variants of concern identified are alpha (2020), beta (2020), gamma (2020), delta (2021) and omicron (2021).
 The efficacy of vaccines in the context of these variants is discussed where information is available.
+
+While the relationship between a vaccine and a pathogen is not static, the data clearly demonstrates that a variety of efficacious vaccines have been developed against SARS-CoV-2.
+Here we discuss a selection of programs that use well-established vaccine biotechnology.
+These programs have been undertaken worldwide, in complement to the more cutting-edge approaches that have been utilized in high-income economies like the United States, the European Union, the United Kingdom, and Russia [@individual-vaccines-novel].
 
 ### Whole-Virus Vaccines
 
@@ -3603,7 +3608,7 @@ Whole virus vaccine candidates have been developed for COVID-19 using both live 
 LAV, also known as replication-competent vaccines, use a weakened, living version of a disease-causing virus or a version of a virus that is modified to induce an immune response [@doi:10.1038/s41586-020-2798-3].
 Whether variolation is the first example of a live-attenuated virus (LAV) being used to induce immunity is debated [@doi:10.1016/j.virol.2015.03.032; @doi:10.1073/pnas.1400472111], but subsequent efforts to incorporate attenuated viruses relied on either the identification of related viruses that were less virulent in humans (e.g., cowpox/horsepox or rotavirus vaccines) or culture of a virus _in vitro_ [@doi:10.1377/hlthaff.24.3.611; @doi:10.1073/pnas.1400472111].
 Today, a virus can be attenuated by passaging it in a foreign host until, due to selection pressure, the virus loses its efficacy in the original host.
-Alternatively, selective gene deletion or codon de-optimization can be utilized to attenuate the virus [@doi:10.1038/s41586-020-2798-3].
+Alternatively, selective gene deletion or codon deoptimization can be utilized to attenuate the virus [@doi:10.1038/s41586-020-2798-3].
 Foreign antigens can also be integrated into an attenuated viral vector [@doi:10.1038/s41586-020-3035-9].
 LAVs are also favored because they tend to be restricted to viral replication in the tissues around the location of inoculation [@doi:10.1128/9781555818951], and some can be administered intranasally [@doi:10.1038/s41586-020-2798-3].
 
@@ -3618,14 +3623,14 @@ LAVs have not been widely deployed against SARS-CoV-2 and COVID-19.
 All the same, there are several COVID-19 LAV candidates in the early (preclinical/phase I) stages of investigation.
 These candidates utilize different approaches.
 
-One candidate in the preclinical stage is YF-S0, a single-dose LAV developed at Katholieke Universiteit Leuven that uses live-attenuated yellow fever 17D (YF17D) as a vector for a noncleavable prefusion conformation of the SARS-CoV-2 antigen [@doi:10.1038/s41586-020-3035-9].
+One candidate in the preclinical stage is YF-S0, a single-dose LAV developed at Belgium's Katholieke Universiteit Leuven that uses live-attenuated yellow fever 17D (YF17D) as a vector for a noncleavable prefusion conformation of the SARS-CoV-2 antigen [@doi:10.1038/s41586-020-3035-9].
 YF-S0 induced a robust immune response in three animal models and prevented SARS-CoV-2 infection in macaques and hamsters [@doi:10.1038/s41586-020-3035-9].
 
 Other programs are exploring the development of codon deoptimized LAV [@url:https://news.griffith.edu.au/2020/04/23/griffith-university-researchers-on-the-road-to-covid-19-vaccine; @url:https://covid-19tracker.milkeninstitute.org; @doi:10.1073/pnas.2102775118].
 This approach followed the synthetic attenuated virus engineering (SAVE) strategy to select codon substitutions that are suboptimal for the virus [@doi:10.1126/science.1155761; @doi:10.1073/pnas.2102775118].
 New York-based Codagenix and the Serum Institute of India reported a successful preclinical investigation [@doi:10.1073/pnas.2102775118] of an intranasally administered deoptimized SARS-CoV-2 LAV known as COVI-VAC, and COVI-VAC entered phase I human trials and dosed its first participants in January 2021 [@url:https://covid-19tracker.milkeninstitute.org; @clinicaltrials:NCT04619628].
 This vaccine is optimized through the removal of the furin cleavage site (see [@individual-pathogenesis] for a discussion of this site's importance) and deoptimization of 283 codons [@pmc:PMC8644885].
-It is anticipated that the COVI-VAC phase I human trials will be completed by May 2022.
+The results of the COVI-VAC phase I human trials are expected soon.
 
 Another company, Meissa Vaccines in Kansas, U.S.A., which also develops vaccines for Respiratory syncytial virus (RSV), has developed an intranasal live-attenuated chimeric vaccine.
 Chimeric vaccines integrate genomic content from multiple viruses to create a more stable LAV [@doi:10.3389/fmicb.2019.02881].
@@ -3640,7 +3645,7 @@ Currently, investigations of BCG vaccines against COVID-19 are being sponsored b
 All the same, results from LAV trials in humans are largely unavailable, and no LAV vaccines are being administered at present.
 Despite the long and trusted history of LAV development, this vaccine strategy has not been favored against COVID-19, as other technologies have shown greater expediency and safety compared to the time-consuming nature of developing LAVs for a novel virus.
 
-##### Trial Safety and Efficacy 
+##### Trial Safety and Efficacy
 
 Data is not yet available for human studies.
 In general, though safety associated with the production of LAVs was a major concern in the past, today manufacturers use safe and reliable methods to produce large quantities of vaccines once they have undergone rigorous preclinical studies and clinical trials to evaluate their safety and efficacy.
@@ -3652,12 +3657,12 @@ Additional data are needed to ascertain how this technology performs in the case
 ##### Response to VOC
 
 While no phase 3 trial data is available for LAV vaccine candidates, some manufacturers have proactively sought to respond to the emergence of VOC.
-For example, a poster reported that Syrian golden hamsters who received COVI-VAC were significantly less likely to lose weight following viral challenge with the Beta VOC [@pmc:PMC8644885].
+For example, a poster reported that Syrian golden hamsters who received COVI-VAC were significantly less likely to lose weight following viral challenge with the beta VOC [@pmc:PMC8644885].
 Additionally, the protective effect of YF-S0 against VOC has been investigated in hamsters [@doi:10.1101/2021.11.12.468374].
 Even for a small number of hamsters that developed breakthrough infections after exposure to the index strain or the alpha variant, viral loads were very low [@doi:10.1101/2021.11.12.468374].
 However, much higher rates of breakthrough infection and higher viral loads were observed when the hamsters were exposed to the beta variant [@doi:10.1101/2021.11.12.468374].
 Reduced seroconversion and nAb titers were also observed against the beta and gamma variants [@doi:10.1101/2021.11.12.468374].
-As a result, a modified version of YF-S0, called YF-S0*, was developed to include a modified spike protein designed to be more immunogenic through the inclusion of the full spectrum of amino acids found in the gamma VOC as well as stabilizing the conformation [@doi:10.1101/2021.11.12.468374].
+As a result, a modified version of YF-S0, called YF-S0\*, was developed to include a modified spike protein intended to increase immunogenicity by including the full spectrum of amino acids found in the gamma VOC as well as stabilizing the S protein's conformation [@doi:10.1101/2021.11.12.468374].
 No breakthrough infections were observed following vaccination with YF-S0 and exposure to the index strain and the alpha, beta, gamma, and delta variants [@doi:10.1101/2021.11.12.468374].
 YF-S0* also reduced viral shedding for several VOC relative to YF-S0 [@doi:10.1101/2021.11.12.468374], and it was also observed to produce significantly more nAbs against the omicron variant [@doi:10.1101/2021.11.12.468374].
 Therefore, while data from human studies are not available, preclinical results suggest that LAV vaccines likely confer some protection against VOC even when designed with the index strain, and that modifications to the design may make this protection more robust as SARS-CoV-2 evolves.
@@ -3679,7 +3684,7 @@ Inactivated vaccines are generally considered the fastest to generate once the p
 
 Past applications to human coronaviruses (HCoV) have focused predominantly on SARS-CoV-1.
 Preclinical studies have demonstrated that IWV SARS-CoV-1 vaccine candidates elicited immune responses _in vivo_.
-These vaccines generated neutralizing antibody titers at concentrations similar to those evoked by recombinant protein vaccines [@doi:10.1002/rmv.492; @doi:10.1016/j.virusres.2007.03.025]. 
+These vaccines generated neutralizing antibody titers at concentrations similar to those evoked by recombinant protein vaccines [@doi:10.1002/rmv.492; @doi:10.1016/j.virusres.2007.03.025].
 Studies in ferrets and non-human primates demonstrated that IWV vaccines can offer protection against infection due to neutralizing antibody and SARS-CoV-1-specific T cell responses [@doi:10.1093/intimm/dxh143].
 However, several attempts to develop IWV vaccines against both SARS-CoV-1 and MERS-CoV were hindered by incidences of vaccine-associated disease enhancement (VADE) in preclinical studies [@doi:10.1038/s41579-020-00462-y].
 In one example of a study in macaques, an inactivated SARS-CoV-1 vaccine induced even more severe lung damage than the virus due to an enhanced immune reaction [@doi:10.1021/acsinfecdis.6b00006].
@@ -3689,9 +3694,9 @@ The exact mechanisms responsible for VADE remain elusive due to the specificity 
 ##### Application to COVID-19
 
 Several whole-virus vaccines have been developed against COVID-19 and are available in countries around the world.
-As of June 6, 2022, 6 vaccines developed with IWV technology are being distributed in 114 countries (Figure @fig:iwv-distrib).
+As of June 19, 2022, 6 vaccines developed with IWV technology are being distributed in 115 countries (Figure @fig:iwv-distrib).
 
-Table: Inactivated whole-virus vaccines approved in at least one country [@url:https://covid19.trackvaccines.org/types-of-vaccines] as of June 6, 2022
+Table: Inactivated whole-virus vaccines approved in at least one country [@url:https://covid19.trackvaccines.org/types-of-vaccines] as of June 19, 2022
 {#tbl:approved-whole-virus}
 
 | Vaccine                  | Company                                                   |
@@ -3727,14 +3732,14 @@ For the other vaccine, neutralizing antibodies were detected in all groups 14 da
 
 ![
 **Worldwide availability of vaccines developed using inactivated whole viruses.**
-This figure reflects the number of vaccines based on whole inactivated virus technology that were available in each country as of June 6, 2022.
+This figure reflects the number of vaccines based on whole inactivated virus technology that were available in each country as of June 19, 2022.
 These data are retrieved from Our World in Data [@url:https://ourworldindata.org/coronavirus] and plotted using geopandas [@url:https://github.com/Geopandas/Geopandas].
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/87225c9935edc816c9c6d8d0e049af7b60b36c95/owiddata/maps/inactivated.png "Availability of inactivated whole virus vaccines"){#fig:iwv-distrib secno=1}
+](https://github.com/greenelab/covid19-review/raw/0ce2c51ef8ba466436abdbb24386301a49f3d61a/owiddata/maps/inactivated.png "Availability of inactivated whole virus vaccines"){#fig:iwv-distrib secno=1}
 
 Other programs have been led through industry partnerships with governmental organizations.
 Another IWV vaccine comes from India, where Bharat Biotech International Ltd., which is the biggest producer of vaccines globally, Bharat Biotech International Ltd., collaborated with the Indian Council of Medical Research (ICMR) - National Institute of Virology (NIV) to develop COVAXIN^®^, also referred to as BBV152.
-Preclinical studies of COVAXIN^®^ in hamsters [@doi:10.21203/rs.3.rs-76768/v1] and macaques [@doi:10.1038/s41467-021-21639-w] indicated that the vaccine induced protective responses deemed sufficient to move forward to human trials. 
+Preclinical studies of COVAXIN^®^ in hamsters [@doi:10.21203/rs.3.rs-76768/v1] and macaques [@doi:10.1038/s41467-021-21639-w] indicated that the vaccine induced protective responses deemed sufficient to move forward to human trials.
 Phase I and phase I/II studies indicated that COVAXIN^®^ adjuvanted with alum and a Toll-like receptor 7/8 (TLR7/8) agonist was safe and immunogenic and that it induced Th1-skewed memory T-cell responses [@doi:10/gkrthh; @doi:10/gh7597].
 As of September 2021, COVAXIN® has been approved for emergency use in Guyana, India, Iran, Zimbabwe, and Nepal, Mauritius, Mexico, Nepal, Paraguay, and the Philippines [@url:https://covid19.trackvaccines.org/vaccines/9].<!--automate-->
 
@@ -3754,10 +3759,10 @@ Similarly, a trial of the SinoPharm WIV04 vaccine in Peru was briefly paused due
 
 In terms of efficacy, estimates of IWV vaccine efficacy during phase III trials varied widely, and in some cases, even estimates for a single vaccine candidate differed across analyses.
 In phase 3 trials, Sinopharm CNBG's BBIBP-CorV vaccine made from the WIV04 strain achieved an efficacy of 72.8% and was well tolerated [@doi:10.1001/jama.2021.8565].
-In July 2021, COVAXIN’s overall vaccine efficacy was estimated at 77.8% for the prevention of COVID-19 based on a final enrollment of 25,798 people (~1:1 vaccine:placebo) [@doi:10/gmns9m].
+In July 2021, COVAXIN’s overall vaccine efficacy was estimated at 77.8% for the prevention of COVID-19 based on a final enrollment of 25,798 people (approximately 1:1 vaccine:placebo) [@doi:10/gmns9m].
 Sinopharm affiliates in the UAE in early December 2020 claimed the vaccine had 86% efficacy, which was later at odds with a Sinopharm Beijing affiliate that stated that the BBIBP-CorV vaccine had a 79.34% efficacy later that same month [@url:https://www.reuters.com/article/health-coronavirus-china-vaccine-int-idUSKBN2940CA].
 CoronaVac demonstrated an efficacy of a little over 50% in Brazil, which was contested by Turkish officials claiming an efficacy of 91.25%, but ultimately after multiple announcements, the efficacy debate was settled at over 50% [@url:https://www.reuters.com/article/us-health-coronavirus-sinovac-brazil/brazil-institute-says-coronavac-efficacy-above-50-but-delays-full-results-idUSKBN28X2CR; @url:https://www.nytimes.com/2020/12/25/health/turkey-brazil-sinovac-coronavirus-vaccine.html].
-Subsequently, an interim analysis of the phase 3 randomized placebo-controlled trials conducted in Turkey enrolling 10,214 participants (~2:1 vaccine:placebo) indicated efficacy of 83.5%, with minimal side effects reported [@doi:10/gk898z], and a prospective national cohort study in Chile reported an adjusted estimated effectiveness of 66% for the prevention of COVID-19 with an estimated 90% and 87% prevention of hospitalization and death, respectively [@doi:10.1056/NEJMoa2107715].
+Subsequently, an interim analysis of the phase 3 randomized placebo-controlled trials conducted in Turkey enrolling 10,214 participants (approximately 2:1 vaccine:placebo) indicated efficacy of 83.5%, with minimal side effects reported [@doi:10/gk898z], and a prospective national cohort study in Chile reported an adjusted estimated effectiveness of 66% for the prevention of COVID-19 with an estimated 90% and 87% prevention of hospitalization and death, respectively [@doi:10.1056/NEJMoa2107715].
 Therefore, it is difficult to ascribe a particular efficacy to these vaccines given the variation in reports.
 
 ##### Real-World Safety and Efficacy
@@ -3766,20 +3771,23 @@ In the past, problems that arose during the manufacturing of IWV vaccines could 
 Nevertheless, the departure from norms necessitated by the COVID-19 crisis raised concerns about whether oversight would occur at pre-pandemic standards [@doi:10.1163/25895893-bja10009].
 In general, the IWV COVID-19 vaccines have reported very few issues with safety.
 Additionally, safety audits have proactively identified concerns.
-For example, in April 2022, the WHO suspended procurement of Covaxin from Bharat Pharmaceuticals due to concerns about deviation from good manufacturing practice in their production facilities [@url:https://extranet.who.int/pqweb/vaccines/suspension-supply-covid-19-vaccine-covaxin].
+For example, in April 2022, the WHO suspended procurement of COVAXIN from Bharat Pharmaceuticals due to concerns about deviation from good manufacturing practice in their production facilities [@url:https://extranet.who.int/pqweb/vaccines/suspension-supply-covid-19-vaccine-covaxin].
 However, no safety issues had been reported in association with this vaccine.
 Rare cases of VADE have been reported in association with CoronaVac [@doi:10.1155/2021/9673453].
 
 More concern has arisen around the issue of efficacy.
 One of the major limitations of IWV vaccines is their susceptibility to losing efficacy due to mutations in the epitopes of the circulating virus [@doi:10.3389/fimmu.2019.00594].
 This loss of specificity over time is likely to be influenced by the evolution of the virus, and specifically by the rate of evolution in the region of the genome that codes for the antigen.
+
 The beta variant appears to be more resistant to neutralizing antibodies in sera from individuals immunized with Sinovac than the alpha variant or wildtype virus, indicating that emerging variants may be of concern [@doi:10.1056/nejmc2103022].
 In agreement with previous studies demonstrating sera from individuals vaccinated with COVAXIN^®^ efficiently neutralized the alpha variant (B.1.1.7) and the delta variant (B.1.617.2) [@doi:10.1101/2021.07.30.454511; @doi:10.1093/jtm/taab104; @doi:10.1093/jtm/taab051], the phase III trial reported a 65.2% efficacy against the delta variant (B.1.617.2) [@doi:10.1101/2021.06.30.21259439].
-However, studies suggested the beta variant was more resistant (compared to the wildtype and alpha variants) to neutralizing antibodies in sera from individuals immunized with Sinovac [@doi:10.1056/NEJMc2103022].  
+However, studies suggested the beta variant was more resistant (compared to the wildtype and alpha variants) to neutralizing antibodies in sera from individuals immunized with Sinovac [@doi:10.1056/NEJMc2103022].
 Indeed, another preprint determined that sera from individuals immunized with COVAXIN® had effective neutralizing antibodies against the delta variant and the so-called delta plus variant (AY.1) [@doi:10.1101/2021.07.30.454511].
+
+
 Notably, a preprint reported that antisera from 12 people immunized with BBIBP-CorV exhibited neutralizing antibody capacity against the beta variant (B.1.351), wild type SARS-CoV-2 (NB02), and one of the original variants of SARS-CoV-2 (D614G) [@doi:10.1101/2021.02.01.429069].
 Another preprint including sera from 282 participants used a surrogate neutralizing assay, a test that generally correlates with neutralizing antibodies, to determine that BBIBP-CorV appears to induce neutralizing antibodies against the binding of the RBD of wild type SARS-CoV-2 and the alpha, beta, and delta variants to ACE2 [@doi:10.1101/2021.07.15.21260621].
-Indeed, a study in _The New England Journal of Medicine_ showed that the alpha variant exhibited very little resistance to neutralization by sera of those immunized with BBIBP-CorV, but the beta variant was more resistant to neutralization by almost a factor of 3 [@doi:10.1056/NEJMc2103022]. 
+Indeed, a study in _The New England Journal of Medicine_ showed that the alpha variant exhibited very little resistance to neutralization by sera of those immunized with BBIBP-CorV, but the beta variant was more resistant to neutralization by almost a factor of 3 [@doi:10.1056/NEJMc2103022].
 The authors noted that no evidence of VADE was detected using this vaccine in phase II data [@doi:10.1001/jama.2020.15543].
 
 Concern was raised about the efficacy of CoronaVac following reports that over 350 doctors became ill with COVID-19 in Indonesia despite being immunized with CoronaVac [@url:https://www.nytimes.com/2021/06/22/business/economy/china-vaccines-covid-outbreak.html].
@@ -3787,32 +3795,33 @@ In addition to concerns raised by the evolution of SARS-CoV-2, it is important t
 Studies are underway to determine whether a booster immunization is required for several IWV vaccines, including CoronaVac [@clinicaltrials:NCT04962308] and COVAXIN [@url:https://www.hindustantimes.com/india-news/covaxin-booster-dose-what-is-it-what-does-govt-say-about-this-101625644184446.html].
 A phase I/II clinical trial of CoronaVac in an elderly cohort (adults 60 years and older) in China determined that by 6 to 8 months following the second dose, neutralizing antibody titers were detected below the seropositive cutoff [@doi:10.1101/2021.08.03.21261544].
 One preprint has reported that 6 months after the second vaccination, a booster dose of CoronaVac markedly increased geometric mean titers of SARS-CoV-2 neutralizing antibodies [@doi:10.1101/2021.07.23.21261026].
-However, the reduction of neutralizing antibodies was ameliorated by a booster dose administered 8 months after the second CoronaVac dose. 
+However, the reduction of neutralizing antibodies was ameliorated by a booster dose administered 8 months after the second CoronaVac dose.
 
 A preprint study of healthcare workers in China has since indicated that a booster shot of BBIBP-CorV elevates B cell and T cell responses and increases neutralizing antibody titers [@doi:10.1101/2021.09.12.21263373].
 In May 2021, the UAE announced it would consider booster shots for all citizens who had been immunized with BBIBP-CorV, which was shortly followed by a similar announcement in Bahrain, and by August 29^th^, 2021, the UAE mandated booster shots for all residents who had received BBIBP-CorV [@url:https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html].
-Additionally, heterogeneous vaccine boosters are also being considered in many cases.
+
+Additionally, heterologous vaccine boosters are also being considered in many cases.
 Indeed, Chinese [@url:https://medicalxpress.com/news/2021-08-china-mixed-vaccine-trial-delta.html] and Chilean [@url:https://clinicaltrials.gov/ct2/show/NCT04992182] researchers have opted to investigate options to administer different vaccines (e.g., an mRNA vaccine dose) as a booster dose to individuals who have already received two doses of the IWV vaccine CoronaVac.
 Another study determined that using a viral-vectored vaccine (CanSino's Convidecia) or an mRNA vaccine (Pfizer/BioNTech's BNT162b2) instead of CoronaVac in a prime-boost vaccination regimen could induce a more robust immune response [@doi:10.1101/2021.09.03.21263062; @doi:10.1038/s41591-021-01677-z; @doi:10.1038/s41591-022-01705-6].
-Chinese [@url:https://medicalxpress.com/news/2021-08-china-mixed-vaccine-trial-delta.html] and Chilean [@clinicaltrials:NCT04992182] researchers have opted to investigate options to administer different vaccines (e.g., an mRNA vaccine dose) as a booster dose to individuals who have already received two doses of CoronaVac. 
 Another study has already determined that using the CanSino vaccine (Convidecia) instead of CoronaVac in a prime-boost vaccination regimen can induce a more robust immune response [@doi:10.1101/2021.09.03.21263062].
 Today, booster immunization is suggested for several whole-virus vaccines.
 
 ### Subunit Vaccines
 
 Efforts to overcome the limitations of live-virus vaccines led to the development of approaches first to inactivate viruses (circa 1900), leading to IWV vaccines, and then to purify proteins from viruses cultured in eggs (circa 1920) [@doi:10.1073/pnas.1400472111; @doi:10.1073/pnas.1402981111].
-The purification of proteins led to the emergence of subunit vaccines.
+The purification of proteins then set the stage for the development of subunit vaccines.
 Today, such approaches may use antigens isolated from the surface of the viral particle that are key targets of the immune system (protein subunit vaccines), but advances in biological engineering have also facilitated the development of approaches like viral-like particle (VLP) vaccines using nanotechnology [@doi:10.1007/978-1-4939-1417-3_9].
 
 Unlike whole-virus vaccines, which introduce the whole virus, subunit vaccines stimulate the immune system by introducing one or more proteins or peptides of the virus that have been isolated.
 The main advantage of this platform is that subunit vaccines are considered very safe, as the antigen alone cannot cause an infection [@doi:10.1016/j.addr.2021.01.001].
 Both protein subunit and VLP vaccines thus mimic the principle of whole virus vaccines but lack the genetic material required for replication, removing the risk of infection [@doi:10.1186/s12951-021-00806-7].
-Protein subunit vaccines can stimulate antibodies and CD4^+^ T-cell responses [@doi:10.1007/978-1-4615-1823-5; @doi:10/dg35hw]. 
-This platform is also favored for its consistency in production and defined components designed for a highly targeted immune response to a specific pathogen using synthetic immunogenic particles that can be designed to avoid allergen and reactogenic sequences [@doi:10.3390/vaccines2030515].
-The immune response generated by protein subunit vaccines is weaker, and adjuvants are usually required to boost the response [@doi:10.1517/14712598.2011.573624] (see Appendix). 
-These adjuvants are immunogenic substances, which include, for example, alum (aluminum hydroxide), squalene- or saponin-based adjuvants, and Freund’s incomplete/complete adjuvants [@doi:10.1016/j.vaccine.2019.04.055; @doi:10.3390/vaccines2030515]. 
+Protein subunit vaccines can stimulate antibodies and CD4^+^ T-cell responses [@doi:10.1007/978-1-4615-1823-5; @doi:10/dg35hw].
 
-Table: Approved subunit vaccines [@url:https://covid19.trackvaccines.org/types-of-vaccines] as of June 6, 2022 
+This platform is also favored for its consistency in production and defined components designed for a highly targeted immune response to a specific pathogen using synthetic immunogenic particles that can be designed to avoid allergen and reactogenic sequences [@doi:10.3390/vaccines2030515].
+The immune response generated by protein subunit vaccines is weaker, and adjuvants are usually required to boost the response [@doi:10.1517/14712598.2011.573624] (see Appendix).
+These adjuvants are immunogenic substances, which include, for example, alum (aluminum hydroxide), squalene- or saponin-based adjuvants, and Freund’s incomplete/complete adjuvants [@doi:10.1016/j.vaccine.2019.04.055; @doi:10.3390/vaccines2030515].
+
+Table: Approved subunit vaccines [@url:https://covid19.trackvaccines.org/types-of-vaccines] as of June 19, 2022
 {#tbl:approved-subunit}
 
 | Vaccine                                   | Company                                                    | Platform        |
@@ -3837,7 +3846,6 @@ Table: Approved subunit vaccines [@url:https://covid19.trackvaccines.org/types-o
 Prior protein subunit vaccine development efforts for both SARS-CoV-1 and MERS-CoV have mostly focused on the immunogenic RBD of the S protein [@doi:10.1016/j.vaccine.2006.06.084; @doi:10.1016/j.vaccine.2006.10.031; @doi:10.1089/vim.2009.0090].
 There have been several approaches investigated in the search for a potential SARS-CoV-1 vaccine, including vaccines targeting the full-length or trimeric S protein [@doi:10.1128/JVI.00083-06; @doi:10.1089/vim.2012.0076], those focused on the RBD protein only [@doi:10.1016/j.vaccine.2006.10.031; @doi:10.1016/j.bbrc.2009.05.003; @doi:10.1089/vim.2009.0090; @doi:10.1016/j.vaccine.2006.06.084] or non-RBD S protein fragments [@doi:10.1089/vim.2012.0076; @doi:10.1089/dna.2005.24.510], as well as the N and M proteins [@doi:10.1128/jcm.43.8.3718-3726.2005; @doi:10.1016/j.vaccine.2009.05.073; @doi:10.1016/j.vaccine.2006.01.058]; these efforts have been thoroughly reviewed elsewhere [@doi:10.3389/fmicb.2020.00298].
 There have been examples of success in preclinical research including candidate RBD219N-1, a 218-amino-acid residue of the SARS-CoV-1 RBD that, when adjuvanted to aluminum hydroxide, was capable of eliciting a high RBD-specific and neutralizing antibody response in both pseudovirus and live virus infections of immunized mice [@doi:10.4161/hv.27464].
-Several subunit-based approaches have also been used to investigate potential vaccines against MERS.
 Other strategies investigating the potential use of the full length S DNA have also been investigated in mice and rhesus macaques, which elicited immune responses [@doi:10.1038/ncomms8712], but these responses were not as effective as the combination of S DNA and the S1 subunit protein together [@doi:10.1038/ncomms8712; @doi:10.1016/j.antiviral.2016.07.015].
 
 Similarly to the SARS-CoV-1 vaccine candidates, the MERS-CoV protein subunit vaccine candidates generally target the RBD [@doi:10.3389/fmicb.2020.00298; @doi:10.1016/j.vaccine.2006.10.031; @doi:10.1016/j.ebiom.2015.08.031; @doi:10.1371/journal.pone.0112602; @doi:10.1016/j.vaccine.2018.02.065; @doi:10.1016/j.virol.2016.10.005], with some targeting the full length S protein [@doi:10.1073/pnas.1707304114], non-RBD protein fragments such as the SP3 peptide [@doi:10.1089/vim.2014.0080], and the recombinant N-terminal domain (rNTD) [@doi:10.1016/j.vaccine.2016.11.064].
@@ -3847,33 +3855,38 @@ However, protein subunit vaccines do play a role in public health and have contr
 
 ##### Application to COVID-19
 
-The development of protein subunit vaccines against SARS-CoV-2 is a remarkable achievement given the short period of time since the emergence of SARS-CoV-2 in 2019, particularly considering these types of vaccines have not played a major role in previous pandemics.
-More than 20 protein subunit vaccines from companies such as Sanofi/GlaxoSmithKline, Nanogen, and the Serum Institute of India have entered clinical trials for COVID-19 since the beginning of the pandemic [@url:https://covid19.trackvaccines.org/vaccines] and 5 are being administered worldwide [@url:https://ourworldindata.org/covid-vaccinations].
-VLP vaccines have not progressed as rapidly, with only 0 VLP vaccines approved [@url:https://covid19.trackvaccines.org/vaccines] as of June 6, 2022.
+The development of subunit vaccines against SARS-CoV-2 is a remarkable achievement given the short period of time since the emergence of SARS-CoV-2 in 2019, particularly considering these types of vaccines have not played a major role in previous pandemics.
+More than 20 protein subunit vaccines from companies such as Sanofi/GlaxoSmithKline, Nanogen, and the Serum Institute of India have entered clinical trials for COVID-19 since the beginning of the pandemic [@url:https://covid19.trackvaccines.org/vaccines],  have been approved, and at least 5 are being administered worldwide [@doi:10.1038/s41562-021-01122-8; @url:https://covid19.trackvaccines.org/]. VLP vaccines have not progressed as rapidly: no data was available for worldwide distribution of VLP vaccines as of June 19, 2022 [@doi:10.1038/s41562-021-01122-8].
 Most of these vaccines are designed using either the full-length S protein or the RBD of the S protein specifically as an antigen, although some use several different SARS-CoV-2 proteins [@doi:10.1016/j.addr.2021.01.001].
-As of March 30, 2022, 14 protein subunit vaccines are being distributed in 21 countries (Figure 4).<!--automate-->
+As of June 19, 2022,protein subunit vaccines are being distributed in at least 35 countries (Figure @fig:ps-distrib).
 
 ![
 **Worldwide availability of vaccines developed using protein subunit.**
-This figure reflects the number of vaccines based on protein subunit technology that were available in each country as of June 6, 2022.
-These data are retrieved from Our World in Data [@url:https://ourworldindata.org/coronavirus] and plotted using geopandas [@url:https://github.com/Geopandas/Geopandas].
+This figure reflects the number of vaccines based on protein subunit technology that were available in each country as of June 19, 2022.
+These data are retrieved from Our World in Data [@url:https://ourworldindata.org/coronavirus; @doi:10.1038/s41562-021-01122-8] and plotted using geopandas [@url:https://github.com/Geopandas/Geopandas].
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/87225c9935edc816c9c6d8d0e049af7b60b36c95/owiddata/maps/protein_subunit.png "Availability of protein subunit vaccines"){#fig:ps-distrib secno=1}
+](https://github.com/greenelab/covid19-review/raw/0ce2c51ef8ba466436abdbb24386301a49f3d61a/owiddata/maps/protein_subunit.png "Availability of protein subunit vaccines"){#fig:ps-distrib secno=1}
 
-One of the most prominent protein subunit vaccines against SARS-CoV-2 thus far is NVX-CoV2373 or Nuvaxovid, which is produced by U.S. company Novavax and partners.
-NVX-CoV2373 is a protein nanoparticle vaccine constructed from a mutated prefusion SARS-CoV-2 spike protein in combination with a specialized saponin-based adjuvant to elicit an immune response against SARS-CoV-2. 
-The spike protein is recombinantly expressed in Sf9 insect cells [@doi:10.1038/s41467-020-20653-8], which have previously been used for several other FDA-approved protein therapeutics [@doi:10.1021/acs.iecr.8b00985], and contains mutations in the furin cleavage site (682-RRAR-685 to 682-QQAQ-685) along with two proline substitutions (K986P and V987P) that improve thermostability [@doi:10.1038/s41467-020-20653-8]. 
-In preclinical mouse models, Novavax-CoV2373 elicited high anti-spike IgG titers 21 to 28 days post-vaccination that could neutralize the SARS-CoV-2 virus and protect the animals against viral challenge, with particularly strong effects when administered with the proprietary adjuvant Matrix-M^TM^ [@doi:10.1038/s41467-020-20653-8]. 
-In a phase I/II trial, a two-dose regimen of NVX-CoV2373 was found to induce anti-spike IgG levels and neutralizing antibody-titers exceeding those observed in convalescent plasma donated by symptomatic patients [@doi:10.1056/NEJMoa2026920]. 
-In line with the preclinical studies, the use of Matrix-M adjuvant further increased anti-spike immunoglobulin levels and induced a Th1 response. 
+###### Nuvaxovid
+
+One protein subunit vaccine for SARS-CoV-2 that has been developed is NVX-CoV2373 or Nuvaxovid, produced by U.S. company Novavax and partners.
+NVX-CoV2373 is a protein nanoparticle vaccine constructed from a mutated prefusion SARS-CoV-2 spike protein in combination with a specialized saponin-based adjuvant to elicit an immune response against SARS-CoV-2.
+The spike protein is recombinantly expressed in Sf9 insect cells [@doi:10.1038/s41467-020-20653-8], which have previously been used for several other FDA-approved protein therapeutics [@doi:10.1021/acs.iecr.8b00985], and contains mutations in the furin cleavage site (682-RRAR-685 to 682-QQAQ-685) along with two proline substitutions (K986P and V987P) that improve thermostability [@doi:10.1038/s41467-020-20653-8].
+
+In preclinical mouse models, Novavax-CoV2373 elicited high anti-spike IgG titers 21 to 28 days post-vaccination that could neutralize the SARS-CoV-2 virus and protect the animals against viral challenge, with particularly strong effects when administered with the proprietary adjuvant Matrix-M^TM^ [@doi:10.1038/s41467-020-20653-8].
+In a phase I/II trial, a two-dose regimen of NVX-CoV2373 was found to induce anti-spike IgG levels and neutralizing antibody-titers exceeding those observed in convalescent plasma donated by symptomatic patients [@doi:10.1056/NEJMoa2026920].
+In line with the preclinical studies, the use of Matrix-M adjuvant further increased anti-spike immunoglobulin levels and induced a Th1 response.
 In a phase III randomized, observer-blinded, placebo-controlled clinical trial in 14,039 participants, two 5-μg doses of NVX-CoV2373 or placebo were administered 21 days apart in a 1:1 ratio from late September to late November 2020 [@doi:10.1056/nejmoa2107659].
-Novavax has since been approved in several places, including the United Kingdom [@url:https://www.gov.uk/government/news/novavax-covid-19-vaccine-nuvaxovid-approved-by-mhra] and the E.U. [@url:https://www.ema.europa.eu/en/news/ema-recommends-nuvaxovid-authorisation-eu], and the company applied for an EUA from the FDA in early 2022 [@url:https://ir.novavax.com/2022-01-31-Novavax-Submits-Request-to-the-U-S-FDA-for-Emergency-Use-Authorization-of-COVID-19-Vaccine]. 
+Novavax has since been approved in several places, including the United Kingdom [@url:https://www.gov.uk/government/news/novavax-covid-19-vaccine-nuvaxovid-approved-by-mhra] and the E.U. [@url:https://www.ema.europa.eu/en/news/ema-recommends-nuvaxovid-authorisation-eu], and the company applied for an EUA from the FDA in early 2022 [@url:https://ir.novavax.com/2022-01-31-Novavax-Submits-Request-to-the-U-S-FDA-for-Emergency-Use-Authorization-of-COVID-19-Vaccine].
 <!-- Is this still accurate? The URL below is no longer available. -->
 Novavax has also signed agreements with the U.K., Canada, Australia, and South Korea [@url:https://web.archive.org/web/20210301184421/https://ir.novavax.com/news-releases/news-release-details/novavax-announces-expanded-collaboration-and-license-agreement] and has projected that they will supply 1.1 billion doses to COVAX who will distribute the vaccines to countries with disadvantaged access to vaccine supplies [@url:https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html].
-However, as of May 2022, the vaccine has yet to be authorized in the United States, after encountering many delays in  manufacturing [@doi:10.1136/bmj.n2965].
+The vaccine finally received an EUA from the US FDA for use in adults in June 2022 [@url:https://ir.novavax.com/2022-06-07-FDA-Advisory-Committee-Recommends-Emergency-Use-Authorization-of-Novavax-COVID-19-Vaccine-for-People-Aged-18-Years-and-Older].
+
+###### Covifenz
 
 The leading example of a VLP approach applied to COVID-19 comes from Covifenz, a VLP vaccine developed by Canadian company Medicago [@doi:10.1503/cmaj.1095992].
 This vaccine was developed using plant-based VLP technology [@url:https://medicago.com/en/our-products/our-vaccines/covifenz-covid-19-vlp-vaccine] that the company had been investigating in order to develop a high-throughput quadrivalent VLP platform to provide protection against influenza [@doi:10/gjn28x].
+
 The approach utilizes _Nicotiana benthamiana_, an Australian relative of the tobacco plant, as an upstream bioreactor [@doi:10/gjn28x; @doi:10.1038/s41591-021-01370-1; @doi:10.1038/s41591-021-01370-1].
 Specifically, the _S_ gene from SARS-CoV-2 in its prefusion conformation is inserted into a bacterial vector (_Agrobacterium tumefaciens_) that then infects the plant cells [@doi:10/gjn28x; @doi:10.1038/s41591-021-01370-1].
 Expression of the S glycoprotein causes the production of VLPs composed of S trimers anchored in a lipid envelope that accumulate between the plasma membrane and the cell wall of the plant cell [@doi:10.1038/s41591-021-01370-1].
@@ -3892,14 +3905,14 @@ Data was submitted by Medicago and GSK to Health Canada and the vaccine was appr
 
 Plant-based expression systems such as this are relatively new [@doi:10.1038/s41591-021-01370-1] but are likely to offer unparalleled feasibility at scale given the speed and low-cost associated with the platform [@doi:10.1111/j.1467-7652.2008.00384.x].
 Additionally, it can be stored at 2 to 8&#176;C.<!--Check this renders correctly as degree symbol-->
-However, the worldwide footprint of Covifenz, and of VLP-based technologies against SARS-CoV-2 broadly, remains small, with only 0 VLP vaccine approved for distribution in 0 countries (Figure @fig:vlp-distrib).<!--Grammar needs update if anyone outside of Canada approves or if another VLP becomes active-->
+However, the worldwide footprint of Covifenz, and of VLP-based technologies against SARS-CoV-2 broadly, remains small, with only  VLP vaccine approved for distribution in  countries (Figure @fig:vlp-distrib).<!--Grammar needs update if anyone outside of Canada approves or if another VLP becomes active-->
 Approval and administration of Covifenz in countries outside of Canada has been limited by concerns at the WHO about ties between Medicago and the tobacco industry [@doi:10.1503/cmaj.1095992; @doi:10.1136/bmj.o811].
 While other species of plants have been explored as the upstream bioreactors for plant-derived VLPs, the use of the specific species of tobacco used here increased yield dramatically [@doi:10.4161/hv.22218].
 Therefore, it may be feasible to identify other species of plants that can be used for future vaccines, but the selection of _N. benthamiana_ was not arbitrary.
 
 ![
 **Worldwide availability of vaccines developed with VLPs.**
-This figure reflects the number of vaccines based on VLP technology that were available in each country as of June 6, 2022.
+This figure reflects the number of vaccines based on VLP technology that were available in each country as of June 19, 2022.
 These data are retrieved from Our World in Data [@url:https://ourworldindata.org/coronavirus] and plotted using geopandas [@url:https://github.com/Geopandas/Geopandas].
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
 ]( "Availability of protein subunit vaccines"){#fig:vlp-distrib secno=1}
@@ -3912,7 +3925,7 @@ An additional phase III randomized, observer-blinded, placebo-controlled trial w
 A vaccine efficacy of 90.4% was reported based on 77 cases total, 63 of which occurred in the placebo group.
 All moderate to severe cases of COVID-19 occurred in the placebo group.
 Additionally, in both trials, the vaccine was found to be well-tolerated [@doi:10.1101/2021.10.05.21264567; @doi:10.1056/NEJMoa2107659].
-The conclusions of both trials indicate that the NVX-CoV2373 vaccine is safe and effective against COVID-19, and those who received this vaccine through the trials are considered fully vaccinated [@url:https://ir.novavax.com/Novavax-Statement-on-UK-and-Mexico-Phase-3-Clinical-Trial-Participants-Considered-Fully-Vaccinated-in-the-US].
+The conclusions of both trials indicate that the NVX-CoV2373 vaccine is safe and effective against COVID-19, and those who received this vaccine through the trials were considered fully vaccinated prior to the vaccine receiving an EUA [@url:https://ir.novavax.com/Novavax-Statement-on-UK-and-Mexico-Phase-3-Clinical-Trial-Participants-Considered-Fully-Vaccinated-in-the-US].
 
 Similarly, Covifenz was reported to be 71% effective in preventing COVID-19 in the per-protocol analysis [@doi:10.1056/NEJMoa2201300].
 Efficacy was only slightly lower in the intention-to-treat group at 69%.
@@ -3925,12 +3938,12 @@ The most common AEs were, for local events, injection site pain and, for systemi
 ##### Real-World Safety and Efficacy
 
 To date, data about the effect of viral evolution on the efficacy of subunit vaccines has been limited.
-_Post hoc_ analysis in the phase III trial determined that the NovaVax vaccine had an efficacy of 86.3% against the Alpha variant (identified based on the presence/absence of the 69–70del polymorphism) and 96.4% against other variants [@doi:10.1056/NEJMoa2107659].
+_Post hoc_ analysis in the phase III trial determined that the NovaVax vaccine had an efficacy of 86.3% against the alpha variant (identified based on the presence/absence of the 69–70del polymorphism) and 96.4% against other variants [@doi:10.1056/NEJMoa2107659].
 In the second phase III trial [@doi:10.1101/2021.10.05.21264567], whole-genome sequencing was obtained from 61 of the 77 cases, and 79% of infections were identified as a VOC or VOI that had been characterized at the time of the study.
-Vaccine efficacy against cases caused by VOC, among which the Alpha variant was predominant (88.6%), was reported to be 92.6% [@doi:10.1101/2021.10.05.21264567]. 
+Vaccine efficacy against cases caused by VOC, among which the alpha variant was predominant (88.6%), was reported to be 92.6% [@doi:10.1101/2021.10.05.21264567].
 In late 2020, an analysis of efficacy in South African adults revealed an overall efficacy of 60.1% and a slightly lower efficacy of 50.1% against B.1.351 in particular [@doi:10.1056/NEJMoa2103055].
 Additionally, an analysis of a booster dose of NVX-CoV2373 administered six months after the primary series revealed a significant increase in neutralizing activity of VOC including delta and omicron [@doi:10.1101/2021.12.23.21267374].
-It has also been reported that Novavax initiated booster trials in the U.K. [@url:https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html]. 
+It has also been reported that Novavax initiated booster trials in the U.K. [@url:https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html].
 
 Because the Covifenz results are so new (May 4, 2022), limited data is available since the publication of phase III trial results [@doi:10.1056/NEJMoa2201300].
 However, it should be noted that the Covifenz trials were conducted in 2021, at a time during which the B.1.617.2 (delta) and P.1 (gamma) variants were predominant [@doi:10.1056/NEJMoa2201300].
@@ -3943,81 +3956,38 @@ Therefore, the efficacy data from this phase 3 trial may be lower than it would 
 The unprecedented deployment of COVID-19 vaccines in under a year from the identification of SARS-CoV-2 led to a new challenge: the formation of rapid global vaccine production and distribution plans.
 The development of vaccines is costly and complicated, but vaccine distribution can be just as challenging.
 Logistical considerations such as transport, storage, equipment (e.g., syringes), the workforce to administer the vaccines, and a continual supply from the manufacturers to meet global demands all must be accounted for and will vary globally due to economic, geographic, and sociopolitical reasons [@doi:10.1016/j.eclinm.2020.100674; @doi:10.1126/science.abe2803; @doi:10.1126/sciadv.abf1374].
-As of June 6, 2022, approximately 12.0 billion vaccine doses have been administered in at least  countries worldwide using 28 different vaccines [@url:https://ourworldindata.org/coronavirus]. 
-The daily global vaccination rate is currently .
+As of June 19, 2022, at least 12.0 billion vaccine doses had been administered in at least  countries worldwide using 28 different vaccines [@url:https://ourworldindata.org/coronavirus].
+The daily global vaccination rate at this time was .
 
 However, the distribution of these doses is not uniform around the globe.
-Vaccination rates are lower in South America (3.1 per 100), Asia (1.9 per 100), Africa (0.3 per 100), and Oceania (0.1 per 100) than in North America, Europe, and Australia [@url:https://www.nytimes.com/interactive/2021/world/covid-vaccinations-tracker.html].<!--update-->
+As of May 2022, vaccination rates remained lower in South America (3.1 per 100), Asia (1.9 per 100), Africa (0.3 per 100), and Oceania (0.1 per 100) than in North America, Europe, and Australia [@url:https://www.nytimes.com/interactive/2021/world/covid-vaccinations-tracker.html].
 Vaccine production and distribution varies from region to region and seems to depend on the availability of the vaccines and potentially a country's resources and wealth [@url:https://www.nytimes.com/2020/12/25/business/coronavirus-vaccines-global-economy.html].
+
 One effort to reduce these disparities is the COVID-19 Vaccines Global Access (COVAX) Facility, a multilateral initiative as part of the Access to COVID-19 Tools (ACT) Accelerator coordinated by the WHO, Gavi The Vaccine Alliance, and the Coalition for Epidemic Preparedness Innovations (CEPI), the latter two of which are supported by the Bill and Melinda Gates Foundation.
 Their intention is to accelerate the development of COVID-19 vaccines, diagnostics, and therapeutics and to ensure the equitable distribution of vaccines to low- and middle-income countries [@doi:10.1111/1468-0009.12503; @url:https://www.who.int/publications/m/item/fair-allocation-mechanism-for-covid-19-vaccines-through-the-covax-facility].
-COVAX invested in several vaccine programs to ensure they would have access to successful vaccine candidates [@doi:10.1126/science.369.6503.489].
+COVAX invested in several vaccine programs to ensure they would have access to successful vaccine candidates [@doi:10.1126/science.369.6503.489]. However, the initiative has been less successful than was initially hoped.
 
 Additionally, the vaccine technologies available differ widely around the globe.
-As we review elsewhere, wealthier nations have invested heavily in mRNA and DNA vaccines.
+As we review elsewhere [@individual-vaccines-novel], wealthier nations have invested heavily in mRNA and DNA vaccines.
 In contrast, as we describe above, many countries outside of Europe and North America have developed highly effective vaccines using more traditional approaches.
-<!--@RLordan, let's touch base about how to finalize this!-->
+As a result, there is a clear relationship between a country's gross domestic product (GDP) and its access to vaccines.
 
-#### Asia
+![
+**Vaccine Distribution across Platform Types as a Function of GDP.**
+As of June 19, 2022, the number of doses distributed, by platform type, is shown as a function of GDP.
+These data are retrieved from Our World in Data [@url:https://ourworldindata.org/coronavirus; @doi:10.1038/s41562-021-01122-8] and plotted using the Python package plotnine [@url:https://github.com/has2k1/plotnine].
+Lines show a general trend in the data and are drawn using geom_smooth [@url:https://ggplot2.tidyverse.org/reference/geom_smooth.html].
+See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated every time the manuscript is.
+Axes are not scaled per capita because both variables would be expected to be modulated by population size.
+]( "Distribution of vaccines according to GDP"){#fig:gdp-scatter secno=1}
 
-The Asian nations of China and India have played a major role as COVID-19 vaccination developers and providers.
-<!--Add brief description of China's number of vaccines, % of population vaccinated, exports-->
-India has vaccinated approximately 24 million people [@url:https://www.bloomberg.com/graphics/covid-vaccine-tracker-global-distribution].<!--Automate--> and shipped approximately 58 million COVID-19 vaccines to 66 countries [@url:https://www.mea.gov.in/vaccine-supply.htm].<!--update-->
-
-Considering India produces approximately 60% of the world's vaccines prior to the pandemic, it is no surprise that several COVID-19 vaccine candidates are under development.
-In addition to COVAXIN, the Bio E subunit vaccine CORBEVAX is being produced by Biological E in collaboration with U.S.-based Dynavax and the Baylor College of Medicine [@url:https://www.bbc.com/news/world-asia-india-55748124].
-These two home-grown vaccines are now approved for adults and children as young as five (CORBEVAX) and six (COVAXIN) [@url:https://www.tribuneindia.com/news/nation/covaxin-cleared-for-6-12-age-group-by-drugs-regulator-389581].
-
-Other vaccines licensed by India were developed elsewhere but produced in India.
-For example, Novavax (developed in the United States) has signed an agreement with the Serum Institute of India allowing them to produce up to 2 billion doses a year [@url:https://www.reuters.com/article/health-coronavirus-novavax-idUSKBN2661PI].
-Similarly, many people within India have been vaccinated with the AstraZeneca-University of Oxford vaccine, known as Covishield in India, which is also produced by the Serum Institute of India [@url:https://www.bbc.com/news/world-asia-india-55748124].
-
-India is also developing vaccines using cutting-edge nucleic-acid-based platforms.
-These include ZyCov-D, a DNA vaccine produced by Zydus Cadila, HGCO19 and India’s first mRNA vaccine, produced by Genova and HDT Biotech Corporation (of the U.S.) [@url:https://www.bbc.com/news/world-asia-india-55748124].
-Additionally, in February, 2021, Bharat Biotech received approval from Indian officials to commence a phase I study of an intranasal chimpanzee-adenovirus (ChAd) vectored SARS-CoV-2-S vaccine called BBV154 [@url:https://www.bharatbiotech.com/intranasal-vaccine.html].
-
-In China, the Sinopharm-Beijing Institute vaccine, the Sinopharm-Wuhan Institute of Biological Products vaccine, the Sinovac Biotech (CoronaVac) vaccine, and CanSino Biologics vaccine are the main vaccines being distributed.
-The Sinopharm-Beijing vaccine has been distributed to at least 16 countries.<!--automate-->
-Indeed, Sinovac and Sinopharm have estimated that they will be able to produce 2 billion doses by the end of 2021, and they have been able to distribute vaccines as aid to the Philippines and Pakistan [@url:https://www.nytimes.com/2021/01/25/business/china-covid-19-vaccine-backlash.html].
-In contrast, the Sinopharm-Wuhan vaccine, which has been approved for use in China since February 25th, 2021, has been distributed almost exclusively within China, with limited supplies distributed to the United Arab Emirates [@url:https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html#wuhan].<!--To Do: update & clean citation-->
-On the same date, the CanSino vaccine was approved for use in China and has been granted emergency use in Mexico and Pakistan, which were two participating countries in the CanSino phase 3 trials [@url:https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html#cansino].
-
-However, the vaccine approval and distribution processes in China have come under increased scrutiny from other nations.
-China was criticized for administering vaccines to thousands of government officials and state-owned businesses in September 2020, prior to the completion of phase III clinical trials [@doi:10.1001/jama.2021.1961].
-The behavior of Chinese officials has also come into question due to misinformation campaigns questioning the safety of Western vaccine candidates such as Moderna and Pfizer-BioNTech in a way that is intended to highlight the benefits of their own vaccine candidates [@url:https://www.nytimes.com/2021/01/25/business/china-covid-19-vaccine-backlash.html].
-China in particular took aim at mRNA technologies, but Chinese companies have since developed their own mRNA vaccines targeting the Omicron variant, one of which is due to begin trials soon in the UAE [@url:https://www.reuters.com/business/healthcare-pharmaceuticals/chinese-omicron-specific-mrna-covid-vaccine-candidate-be-trialed-uae-2022-04-30/].
-Furthermore, delays in vaccine distribution have also caused issues, particularly in Turkey where 10 million doses of Sinovac were due to arrive by December 2020, but instead only 3 million were delivered in early January [@url:https://www.nytimes.com/2021/01/25/business/china-covid-19-vaccine-backlash.html].
-Similar delays and shortages of doses promised have been reported by officials in the Philippines, Egypt, Morocco, and the United Arab Emirates [@url:https://abcnews.go.com/Health/wireStory/philippines-receive-covid-19-vaccine-delays-76163594; @url:https://www.wsj.com/articles/chinas-covid-19-vaccine-makers-struggle-to-meet-demand-11612958560].
-This will be concerning to China who have vaccine contracts for millions of doses with Indonesia (>100 million), Brazil (100 million), Chile (60 million), Turkey (50 million), Egypt (40 million) and many others [@url:https://www.wsj.com/articles/chinas-covid-19-vaccine-makers-struggle-to-meet-demand-11612958560].<!--update-->
-
-#### Latin America
-
-<!--Add short summary of countries outside of these two, ideally lower GDP-->
-
-#### North America and Europe
 
 When vaccines first became available, the wealthy nations of North America and Europe secured most of the limited COVID-19 vaccine stocks [@url:https://www.nytimes.com/2020/12/15/us/coronavirus-vaccine-doses-reserved.html].
 Throughout 2021, low- and middle-income countries faced steep competition with high-income countries for vaccines, and the rates of vaccination reflected this unequal distribution [@doi:10.1002/hpm.3341].
-While the wealthiest countries in these regions could compete with each other for vaccines independent of programs such as COVAX [@doi:10.1002/hpm.3341], other countries in these regions have faced challenges in acquiring vaccines developed by the world's wealthiest nations. 
-<!--What about lower GDP North American & European countries?-->
+While the wealthiest countries in these regions could compete with each other for vaccines independent of programs such as COVAX [@doi:10.1002/hpm.3341], other countries in these regions have faced challenges in acquiring vaccines developed by the world's wealthiest nations.
 
-For example, in Cuba, <!--Talk about Cuba's cool program-->
-
-#### Africa
-
-<!--Update to discuss African vaccine development programs-->
-Following the release of the phase III data indicating 81% efficacy, Zimbabwe authorized the use of Covaxin [@url:http://www.xinhuanet.com/english/2021-03/04/c_139783893.htm].
-
-While South Africa and Zimbabwe have their own vaccination programs, many other African nations will be reliant on the COVID-19 Vaccines Global Access (COVAX) Facility, who have promised 600 million doses to the continent [@url:https://www.bbc.com/news/56100076].
-As of March, 2021, 9 African countries have received vaccines and at least 11 other nations have begun vaccinations via COVAX, aid from other countries, or their own agreements with producers [@url:https://www.bbc.com/news/56100076; @url:https://www.who.int/news/item/01-03-2021-first-covid-19-covax-vaccine-doses-administered-in-africa].
-However, much further progress is required when only 0.3 per 100 people have been vaccinated in Africa [@url:https://www.nytimes.com/interactive/2021/world/covid-vaccinations-tracker.html].
-
-### Conclusions
-
-Concerns: diversity of volunteer pools, variants, and distribution
-Another benefit of vaccines is lower population size in SARS-CoV-2 = less risk of VOC emerging that are less susceptible to the vaccine
-
-<!--Update criticism of COVAX-->
+Fortunately, while mRNA and DNA vaccine development programs are not widespread, vaccine development using whole-virus and subunit technologies has been undertaken worldwide.
+Still, many nations are reliant on the COVID-19 Vaccines Global Access (COVAX) Facility, who have promised 600 million doses to the continent [@url:https://www.bbc.com/news/56100076].
 The COVAX plan seeks to ensure that all participating countries would be allocated vaccines in proportion to their population sizes.
 Once each country has received vaccine doses to account for 20% of their population, the country’s risk profile will determine its place in subsequent phases of vaccine distribution.
 However, several limitations of this framework exist, including that the COVAX scheme seems to go against the WHO’s own ethical principles of human well-being, equal respect, and global equity, and that other frameworks might have been more suitable, as is discussed elsewhere [@doi:10.1136/bmj.m4853].
@@ -4030,94 +4000,96 @@ In general, deciding on the prioritization and allocation of the COVID-19 vaccin
 Various frameworks, models, and methods have been proposed to tackle these issues with many countries, regions or states as is the case in the U.S., devising their own distribution and administration plans [@doi:10.1126/science.abe6959; @doi:10.1038/s41598-020-78447-3; @doi:10.1016/j.vaccine.2020.12.059; @doi:10.1136/medethics-2020-107036; @doi:10.1101/2021.01.12.21249694].
 The majority of the distribution plans prioritize offering vaccines to key workers such as health care workers, and those who are clinically vulnerable such as the elderly, the immunocompromised, and individuals with comorbidities, before targeting the rest of the population, who are less likely to experience severe outcomes from COVID-19 [@url:https://ourworldindata.org/covid-vaccination-policy].
 
-Additionally, authorization of a vaccine by a government typically requires extended discussions with vaccine manufacturers.
-For the United States, Australia, and United Kingdom, for example, a manufacturer must submit and present large amounts of data to committees like the FDA <!--look up the equivalent in the other countries-->. 
+### Conclusions
 
-Much attention has focused on the most novel vaccine technologies that have been deployed against SARS-CoV-2.
-The vaccine platforms discussed here have all made a significant impact on human health during the twentieth century and in some cases even earlier.
+Much attention has focused on the most novel vaccine technologies that have been deployed against SARS-CoV-2, but the established vaccine platforms discussed here have all made a significant impact on human health during the twentieth century and in some cases even earlier.
 However, this does not mean that the COVID-19 pandemic has not also demonstrated new potential in these technologies.
-In the early 2000s, the technologies discussed here were all explored for managing SARS-CoV-1 [@doi:10.3201/eid1107.050219; @doi:10.1038/nrmicro3143], but the epidemic was controlled before these efforts came to fruition [@doi:10.1056/nejmp2005630].
+In the early 2000s, these technologies were explored for managing SARS-CoV-1 [@doi:10.3201/eid1107.050219; @doi:10.1038/nrmicro3143], but the epidemic was controlled before these efforts came to fruition [@doi:10.1056/nejmp2005630].
 Similarly, these technologies were explored for MERS-CoV, but outbreaks are sporadic and difficult to predict, making vaccine testing and the development of a vaccination strategy difficult [@doi:10.1080/21645515.2017.1358325].
 However, in the COVID-19 pandemic, most of these technologies have been used to accelerate vaccine development programs worldwide.
 Therefore, they are also offering the opportunity to respond quickly to an emergent pathogen.
 
-While these tried-and-true technologies might not produce vaccines with quite the unprecedented levels of VE as seen in some vaccine development programs (e.g., ModernaTX and Pfizer/BioNTech's reports of >90% VE for their mRNA vaccines), the efficacies are still generally very high, and very effective at preventing severe illness and death.
+While these tried-and-true technologies don't always produce vaccines with the extreme VE reported in mRNA clinical trials (which exceeded >90%), the efficacies are still very high, and these vaccines are extremely effective at preventing severe illness and death.
 As a result, it can be argued that the greater accessibility and stability of these vaccines makes them more valuable at a global level.
-The makers of Corbevax, a protein subunit vaccine, for example, have been nominated for a Nobel Peace Prize due to the potential for their vaccine to be produced globally [@url:https://houston.culturemap.com/news/innovation/02-02-22-dr-peter-hotez-nobel-peace-prize-dr-maria-elena-bottazzi-lizzie-fletcher].
-<!--potentially add in https://www.nejm.org/doi/full/10.1056/NEJMe2204695?query=recirc_top_ribbon_article_1-->
-
-<!--Need closing paragraph/sentence still-->
 
 
-## Vaccine Development Strategies for SARS-CoV-2
+## The Coming of Age of Nucleic Acid Vaccines during COVID-19
 
 ### Abstract
 
 In the 21^st^ century, several emergent viruses have emphasized the particular value of rapid and scalable vaccine development programs.
-During the current pandemic caused by _Severe acute respiratory syndrome coronavirus 2_ (SARS-CoV-2), recent biotechnological advances in vaccine design have facilitated the development and deployment of vaccines at an unprecedented pace.
-The genome sequence of SARS-CoV-2 was released in January 2020, allowing for global efforts in vaccine development to begin within two weeks of the international community becoming aware of the new viral threat.
-Technologies that were previously only theoretical have been used to develop SARS-CoV-2 vaccines that have now been deployed worldwide.
+Their importance has been made especially clear by the current pandemic caused by _Severe acute respiratory syndrome coronavirus 2_ (SARS-CoV-2).
+Recent biotechnological advances in vaccine design have facilitated the development and deployment of vaccines against this virus at an unprecedented pace.
+Part of this success was attributable to broader shifts in scientific research relative to prior epidemics.
+For example, the genome sequence of SARS-CoV-2 was released in January 2020, allowing for global efforts in vaccine development to begin within two weeks of the international community becoming aware of the new viral threat.
+Additionally, however, technologies that were previously only theoretical have been used to develop SARS-CoV-2 vaccines that have now been deployed worldwide.
 Although historically a slow process, vaccine development in the face of COVID-19 reveals a major shift in vaccine technologies.
-In this review, we contextualize COVID-19 vaccine development in the broader vaccine landscape.
+In this review, we contextualize the development of COVID-19 vaccines relative to prior efforts to apply these technologies.
 We describe where these candidates currently stand in terms of efficacy, safety, and approval and discuss patterns in worldwide distribution.
-The SARS-CoV-2 pandemic provides an exceptional illustration of how rapidly vaccine development technology has advanced in the last two decades in particular.
+The advances made since early 2020 provide an exceptional illustration of how rapidly vaccine development technology has advanced in the last two decades in particular.
 
 ### Importance
 
-The SARS-CoV-2 pandemic has caused untold damage globally, presenting unusual opportunities and demands in vaccine development.
-As of June 6, 2022, SARS-CoV-2 has infected over 532,351,989 and taken the lives of 6,300,059 people globally.
+The SARS-CoV-2 pandemic has caused untold damage globally, presenting unusual demands on but also opportunities for vaccine developers.
+As of June 19, 2022, SARS-CoV-2 has infected over 538,968,805 and taken the lives of 6,318,657 people globally.
 The development, production, and distribution of vaccines is imperative to saving lives, preventing illness, and reducing the economic and social burdens caused by the COVID-19 pandemic.
-Effective deployment is critical to reducing the susceptibility of worldwide populations, especially in light of emerging variants.
-These technologies have revolutionized the timescale at which countries can mount a response to an emerging viral threat and provide potential for mitigating future threats before their damage reaches the levels caused by SARS-CoV-2.
+Previously only theoretical technologies have taken a leading role in the management of SARS-CoV-2.
 As the SARS-CoV-2 virus has evolved, they also provide insight into how these technologies have to adapt on incredibly short timescales.
 
 ### Introduction
 
-Vaccine development has historically been slow.
+The SARS-CoV-2 virus emerged at the end of 2019 and quickly spread around the world.
+With at least 538,968,805 cases and 6,318,657 deaths, the impact of the virus on the human species has been significant.
+One of the primary approaches available to combat the effects of a virus is vaccination.
+Vaccines bolster the immune response to the virus at the population level, thereby significantly reducing fatalities and severe illness and potentially driving a lower rate of infection even for a highly infectious virus like SARS-CoV-2.
+However, vaccine development has historically been slow.
+
+As we review in the companion manuscript, vaccine technologies have largely been based on introducing a virus or a component of a virus that is sufficient to induce an immune response without causing the associated illness.
 The past 20 years have seen several previously unknown viruses emerge and rise rapidly to pose a global threat, challenging vaccine developers to explore approaches that would facilitate a rapid response to novel viruses.
 Unsurprisingly, in the current century, significant advances have been made in vaccine development based on advances in genomics.
+This shift towards nucleic acid-based technologies opens a new frontier in vaccinology, where just the sequence of a antigen can be introduced, eliminating most of the risks of vaccination.
+Additionally, vaccine technologies that require only minor adjustments for novel viral threats are appealing because this modular approach would mean they could enter trials quickly in response to a new pathogen of concern.
 
-Vaccine technologies that require only minor adjustments for novel viral threats are appealing because this modular approach would mean they could enter trials quickly in response to a new pathogen of concern.
-Traditional vaccine technologies were built on the principle of using either a weakened version of the virus or a fragment of the virus, while recent years have seen a paradigm shift towards reverse vaccinology.
-Reverse vaccinology emphasizes a hypothesis-free approach to vaccine development [@doi:10.3389/fimmu.2019.02776].
-This strategy was explored during development of a DNA vaccine against the Zika virus [@doi:10.1016/j.micinf.2018.03.001].
-While once again the disease was controlled before the vaccine became available [@doi:10.1056/nejmp2005630], the response demonstrated the potential for modular technologies to facilitate a response to emerging viral threats [@doi:10.1016/j.micinf.2018.03.001].
-The potential for such vaccines to benefit the field of oncology has encouraged vaccine developers to invest in next-generation approaches, which has spurred the diversification of vaccine development programs [@url:https://www.the-scientist.com/news-opinion/newer-vaccine-technologies-deployed-to-develop-covid-19-shot-67152; @doi:10.1038/nrg2432].
-As a result, during the COVID-19 pandemic, these modular technologies have taken center stage in controlling a viral threat for the first time.
+### Honing a 21^st^ Century Response to Emergent Viral Threats
 
-Emergent viral threats of the 21st century include severe acute respiratory syndrome (SARS), “swine flu” (H1N1), Middle East respiratory syndrome (MERS), Ebola virus disease (EVD), and now COVID-19, all of which have underscored the importance of a rapid global response to a new infectious virus.
+Recently, vaccine technologies have been developed and refined in response to several epidemics that did not reach the level of destruction caused by COVID-19.
+Emergent viral threats of the 21^st^ century include severe acute respiratory syndrome (SARS), “swine flu” (H1N1), Middle East respiratory syndrome (MERS), Ebola virus disease (EVD), and now COVID-19, all of which have underscored the importance of a rapid global response to a new infectious virus.
 Because vaccines fail to provide immediate prophylactic protection or treatment of ongoing infections, their application to most of these epidemics has been limited [@doi:10.3390/v10120680].
+
 One of the more successful recent vaccine development programs was for H1N1 influenza.
 This program benefited from the strong existing infrastructure for influenza vaccines along with the fact that regulatory agencies had determined that vaccines produced using egg- and cell-based platforms could be licensed under the regulations used for a strain change [@doi:10.1056/NEJMp2005630].
-Although a monovalent H1N1 vaccine was not available before the pandemic peaked in the United States and Europe, it became available soon afterward as a stand-alone vaccine that was eventually incorporated into commercially available seasonal influenza vaccines [@doi:10.1056/NEJMp2005630].
+Although a monovalent H1N1 vaccine was not available before the pandemic peaked in the United States of America (U.S.A.) and Europe, it became available soon afterward as a stand-alone vaccine that was eventually incorporated into commercially available seasonal influenza vaccines [@doi:10.1056/NEJMp2005630].
 Critiques of the production and distribution of the H1N1 vaccine have stressed the need for alternative development-and-manufacturing platforms that can be readily adapted to new pathogens.
-<!--DNA vaccine development efforts also began for SARS-CoV-1 but did not proceed past animal testing [@doi:10.1038/nrmicro3143].-->
-<!--Likewise, the development of viral-vectored Ebola virus vaccines was undertaken, but the pace of vaccine development was behind the spread of the virus from early on [@doi:10.1126/science.345.6203.1441].-->
-<!--Although a candidate Ebola vaccine V920 showed promise in preclinical and clinical testing, it did not receive breakthrough therapy designation until the summer of 2016, by which time the Ebola outbreak was winding down [@doi:10.1016/j.vaccine.2017.05.097].-->
+
+Efforts to develop such approaches have been undertaken prior to the COVID-19 pandemic.
+DNA vaccine development efforts began for SARS-CoV-1 but did not proceed past animal testing [@doi:10.1038/nrmicro3143].
+Likewise, the development of viral-vectored Ebola virus vaccines was undertaken, but the pace of vaccine development was behind the spread of the virus from early on [@doi:10.1126/science.345.6203.1441].
+Although a candidate Ebola vaccine V920 showed promise in preclinical and clinical testing, it did not receive breakthrough therapy designation until the summer of 2016, by which time the Ebola outbreak was winding down [@doi:10.1016/j.vaccine.2017.05.097].
 
 The pandemic caused by SARS-CoV-2 has highlighted a confluence of circumstances that positioned vaccine development as a key player in efforts to control the virus and mitigate its damage.
-This virus did not follow the same trajectory as other emergent viruses of recent note, such as SARS-CoV-1, MERS-CoV, and Ebola virus, none of which reached the level of pandemic.
+This virus did not follow the same trajectory as other emergent viruses of recent note, such as SARS-CoV-1, MERS-CoV, and Ebola virus, none of which reached the level of pandemic (see visualization in [@individual-pharmaceuticals]).
 Spread of the SARS-CoV-2 virus has remained out of control in many parts of the world into 2022, especially with the emergence of novel variants exhibiting increased rates of transmission [@individual-pathogenesis].
-While, for a variety of reasons, SARS-CoV-2 was not controlled as rapidly as the viruses underlying prior 21st century epidemics [@individual-pharmaceuticals], vaccine development technology had also progressed based on these and other prior viral threats to the point that a rapid international vaccine development response was possible.
+While, for a variety of reasons, SARS-CoV-2 was not controlled as rapidly as the viruses underlying prior 21^st^ century epidemics, vaccine development technology had also progressed based on these and other prior viral threats to the point that a rapid international vaccine development response was possible.
 
-Vaccines bolster the immune response to the virus at the population level, thereby driving a lower rate of infection and likely significantly reducing fatalities even for a highly infectious virus like SARS-CoV-2.
+### Development of COVID-19 Vaccines using DNA/RNA Platforms
+
+Vaccine development programs for COVID-19 emerged very quickly.
+The first administration of a dose of a COVID-19 vaccine to a human trial participant occurred on March 16, 2020 [@url:https://www.modernatx.com/modernas-work-potential-vaccine-against-covid-19; @doi:10.1038/d41573-020-00073-5], marking an extremely rapid response to the emergence of SARS-CoV-2.
+Within a few weeks, at least 78 vaccine development programs were active [@doi:10.1038/d41573-020-00073-5], and by September 2020, there were over 180 vaccine candidates against SARS-CoV-2 in development [@doi:10.1038/s41586-020-2798-3].
+As of June 19, 2022, 38 SARS-CoV-2 vaccines have been approved world wide and 28 are being administered throughout the world, with 12.0 billion doses administered across  countries.
 The first critical step towards developing a vaccine against SARS-CoV-2 was characterizing the viral target, which happened extremely early in the COVID-19 outbreak with the sequencing and dissemination of the viral genome in early January 2020 [@url:https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON233] (Figure @fig:virus).
 This genomic information allowed for an early identification of the sequence of the spike (S) protein (Figure @fig:virus), which is the antigen and induces an immune response [@doi:10/fmq2; @doi:10.3389/fimmu.2020.576622].
 
-The Coalition for Epidemic Preparedness Innovations (CEPI) is coordinating global health agencies and pharmaceutical companies to develop vaccines against SARS-CoV-2.
-As early as September 2020, there were over 180 vaccine candidates against SARS-CoV-2 in development [@doi:10.1038/s41586-020-2798-3].
-While little is currently known about immunity to SARS-CoV-2, vaccine developers typically tests for serum neutralizing activity, as this has been established as a biomarker for adaptive immunity in other respiratory illnesses [@doi:10.1056/nejmoa2022483].
+During the development process, one measure used to assess whether a vaccine candidate is likely to provide protection is serum neutralizing activity [@doi:10.1056/nejmoa2022483].
 However, unlike in efforts to develop vaccines for prior viral threats, the duration of the COVID-19 pandemic has made it possible to test vaccine in phase 3 trials where the effect of the vaccine on a cohort’s likelihood of contracting SARS-CoV-2 is evaluated.
-With vaccine candidates at all stages of development, including full approval of some vaccines, the vaccine development landscape for COVID-19 includes vaccines produced by a wide array of technologies.
-Examining the vaccine development programs tackling the COVID-19 pandemic alongside other 21st century efforts to control emerging viral threats demonstrates the significant biotechnological advances in this field and the importance of modular and adaptable approaches to vaccination.
-Here, we review the various technologies being explored for the development of SARS-CoV-2 vaccines globally.
+The Coalition for Epidemic Preparedness Innovations (CEPI) is coordinating global health agencies and pharmaceutical companies to develop vaccines against SARS-CoV-2.
 
-![
-**Structure of the SARS-CoV-2 virus.**
-The development of vaccines depends on the immune system recognizing the virus.
-Here, the structure of SARS-CoV-2 is represented both in the abstract and against a visualization of the virion.
-The abstracted visualization was made using BioRender [@url:https://biorender.com] and the microscopy was conducted by the National Institute of Allergy and Infectious Diseases [@url:https://www.niaid.nih.gov/news-events/novel-coronavirus-sarscov2-images].<!--To Do: Was a template used?-->
-](images/SARS_CoV_2.png){#fig:virus secno=1}
+With vaccine candidates at all stages of development, including full approval of some vaccines, the vaccine development landscape for COVID-19 includes vaccines produced by a wide array of technologies.
+Examining the vaccine development programs tackling the COVID-19 pandemic alongside other 21^st^ century efforts to control emerging viral threats demonstrates the significant biotechnological advances in this field and the importance of modular and adaptable approaches to vaccination.
+In many cases, SARS-CoV-2 is the first pathogen for which these technologies have been approved and administered widely.
+These programs employ a variety of technologies (Figure @fig:vaccines), ranging from established approaches to novel technologies that had never previously gone to market.
+Development programs using more established technologies are reviewed in a companion manuscript.
+Here, we review the various technologies being explored for the development of SARS-CoV-2 vaccines that use technologies based on nucleic acids.
 
 ### Cross-Platform Considerations in Vaccine Development
 
@@ -4143,39 +4115,20 @@ We discuss these variants in depth elsewhere [@individual-evolution].
 To date, the most significant variants of concern identified are alpha (2020), beta (2020), gamma (2020), delta (2021) and omicron (2021).
 The efficacy of vaccines in the context of these variants is discussed where information is available.
 
-Finally, <!--Add VADE-->
+### Theory and Implementation of Nucleic Acid Vaccines
 
-### COVID-19 Vaccine Development Platforms
-
-![
-**Vaccine Development Strategies.**
-Several different strategies can and are being employed for the development of vaccines today.
-Each approach capitalizes on different features of the SARS-CoV-2 virus and delivery through a different platform.
-All of these approaches are being explored in the current pandemic.<!--To Do: define LNP, define mRNA, define S protein. Swap order so viral particles are on top, then DNA, then viral vector, then RNA panels? Not sure if adenovirus/lentivirus is consistent with the rest of the text, need to double-check before finalizing figure. Change viral particle to inactivated whole virus-->
-](images/N002-Vaccines.png){#fig:vaccines secno=1}
-
-The first administration of a dose of a COVID-19 vaccine to a human trial participant occurred on March 16, 2020 [@url:https://www.modernatx.com/modernas-work-potential-vaccine-against-covid-19; @doi:10.1038/d41573-020-00073-5], marking an extremely rapid response to the emergence of SARS-CoV-2.
-Within a few weeks, at least 78 vaccine development programs were active [@doi:10.1038/d41573-020-00073-5].
-These programs employ a variety of technologies (Figure @fig:vaccines), ranging from established approaches to novel technologies that had never previously gone to market.
-As of June 6, 2022, 38 SARS-CoV-2 vaccines have been approved world wide and 28 are being administered throughout the world, with 12.0 billion doses administered across  countries.
-Many vaccines are available in only a subset of countries, and the types of vaccines available varies widely throughout the world.
-The status of individual vaccines continues to change and varies regionally.
-
-While traditional methods of vaccine development such as inactivated whole viruses are still used today (Figure @fig:vaccines), biomedical research in the 21^st^ century has been significantly influenced by the genomic revolution, and vaccine development is no exception.
-The shift towards omics-based approaches to vaccine development began to take hold with the development of the meningococcal type B vaccine using reverse vaccinology in the early 2010s [@doi:10.7774/cevr.2014.3.1.1; @doi:10.1111/j.1469-0691.2012.03939.x].
+Biomedical research in the 21^st^ century has been significantly influenced by the genomic revolution.
+While traditional methods of vaccine development such as inactivated whole viruses are still used today [@individual-vaccines-traditional], vaccine development is no exception.
+The shift towards omics-based approaches to vaccine development began to take hold with the meningococcal type B vaccine, which was developed using reverse vaccinology in the early 2010s [@doi:10.7774/cevr.2014.3.1.1; @doi:10.1111/j.1469-0691.2012.03939.x].
 In this way, the genomic revolution catalyzed a fundamental shift in the development of vaccines.
-These vaccine technologies could potentially provide a future approach to addressing one of the major limitations of vaccines today due to their potential to function therapeutically rather than just prophylactically [@doi:10.3390/vaccines7020037].
+Such technologies hold the potential to revolutionize the role of vaccines, given their potential to address one of the major limitations of vaccines today and facilitate the design of therapeutic, rather than just prophylactic, vaccines [@doi:10.3390/vaccines7020037].
 
-Nucleic-acid based approaches are all based on the shared underlying principle that utilizing a vector to deliver the information to produce an antigen can trigger an immune response to the antigen without introducing an infectious agent.
+Nucleic-acid based approaches share an underlying principle: a vector that delivers the information needed to produce an antigen can trigger an immune response without introducing an infectious agent.
 Such approaches build on subunit vaccination strategies, where a component of a vaccine (e.g., an antigenic protein) is delivered.
 Platforms based on genomic sequencing began to be explored beginning in the 1980s as genetic research became increasingly feasible.
 Advances in genetic engineering allowed for gene sequences of specific viral antigens to be grown _in vitro_ [@doi:10.1073/pnas.1400472111].
 Studies also demonstrated that model organisms could be induced to construct antigens that would trigger an immune response [@doi:10/dn299p; @doi:10.1001/jama.1994.03510360055036; @doi:10.1046/j.1365-2796.2003.01140.x].
-These two developments meant that it could be possible to identify any or all of the antigens encoded by a virus's genome and train the immune response to recognize them.
-
-In nucleic-acid-based approaches, the genome of a pathogen is screened to identify potential vaccine targets [@doi:10.1111/j.1469-0691.2012.03939.x], and pathogens of interest are then expressed _in vitro_ and tested in animal models to determine their immunogenicity [@doi:10.1111/j.1469-0691.2012.03939.x].
-By inducing the host to express the antigen, such vaccines can activate immune pathways via both MHC I and MHC II [@doi:10.1358/dot.2018.54.5.2807864] instead of MHC II alone as with prior technologies [@doi:10.1046/j.1365-2796.2003.01140.x], meaning that both humoral and cellular immunity are activated [@doi:10.1038/nrg2432].
-Thus, in addition to lacking an infectious agent, these approaches are likely to offer several advantages over more traditional immunization platforms because they can stimulate both B- and T-cell responses [@doi:10.1016/j.coi.2016.05.008; @doi:10.1038/nrg2432].
+These two developments sparked interest in whether it could be possible to identify any or all of the antigens encoded by a virus's genome and train the immune response to recognize them.
 
 The delivery and presentation of antigens is fundamental to inducing immunity against a virus.
 Vaccines that deliver nucleic acids allow the introduction of foreign substances to the body to induce both humoral and cellular immune responses [@doi:10.1038/nrg2432].
@@ -4184,15 +4137,23 @@ Host-synthesized antigens can then be presented in complex with major histocompa
 While these vaccines encode specific proteins, providing many of the benefits of a protein subunit vaccine, they do not carry any risk of DNA being live, replicating, or spreading, and their manufacturing process lends itself to scalability [@doi:10.1038/nrg2432].
 Here, opportunities can be framed in terms of the central dogma of genetics: instead of directly providing the proteins from the infectious agents, vaccines developers are exploring the potential for the delivery of DNA or RNA to induce the cell to produce proteins from the virus that in turn induce a host immune response.
 
-##### DNA Vaccines
+In nucleic-acid-based approaches, the genome of a pathogen is screened to identify potential vaccine targets [@doi:10.1111/j.1469-0691.2012.03939.x], and pathogens of interest are then expressed _in vitro_ and tested in animal models to determine their immunogenicity [@doi:10.1111/j.1469-0691.2012.03939.x].
+By inducing the host to express the antigen, such vaccines can activate immune pathways via both MHC I and MHC II [@doi:10.1358/dot.2018.54.5.2807864] instead of MHC II alone as with prior technologies [@doi:10.1046/j.1365-2796.2003.01140.x].
+This dual presentation means that both humoral and cellular immunity are activated [@doi:10.1038/nrg2432].
+Thus, in addition to lacking an infectious agent, these approaches are likely to offer several advantages over more traditional immunization platforms because they can stimulate both B- and T-cell responses [@doi:10.1016/j.coi.2016.05.008; @doi:10.1038/nrg2432].
 
-Nucleic acid information can be deliver antigen information to host cells using DNA.
-However, early attempts to use these technologies to develop vaccines revealed that DNA translated poorly to humans due to low immunogenicity [@doi:10/dn299p; @doi:10.1046/j.1365-2796.2003.01140.x; @doi:10.3390/ijms19113605].
-Initially, concerns were raised that DNA vaccines might bind to the host genome or induce autoimmune disease [@doi:10.1358/dot.2018.54.5.2807864; @doi:10.1038/nrg2432], but pre-clinical and clinical studies have consistently disproved this hypothesis and indicated DNA vaccines to be safe [@doi:10.3390/ijms19113605].
-Many of the safety concerns raised about DNA vaccines were not found to be an issue during preclinical and phase 1 testing, although antibiotic resistance introduced during the plasmid selection process remained a concern during this initial phase of development [@doi:10.1038/nrg2432].
-However, the immunogenicity of these vaccines has also not reached expectations [@doi:10.1038/nrg2432].
-Despite initially disappointing immunogenicity in clinical trials [@doi:10.1046/j.1365-2796.2003.01140.x], a number of developments during the 2010s led to greater efficacy of DNA vaccines [@doi:10.1038/nrg2432].
+### DNA Vaccine Platforms
+
+DNA vaccine technologies have developed slowly over the past thirty years.
+Early attempts revealed issues with low immunogenicity [@doi:10/dn299p; @doi:10.1046/j.1365-2796.2003.01140.x; @doi:10.3390/ijms19113605; @doi:10.1046/j.1365-2796.2003.01140.x].
+Additionally, initial skepticism about the approach suggested that DNA vaccines might bind to the host genome or induce autoimmune disease [@doi:10.1358/dot.2018.54.5.2807864; @doi:10.1038/nrg2432], but pre-clinical and clinical studies have consistently disproved this hypothesis and indicated DNA vaccines to be safe [@doi:10.3390/ijms19113605].
+These safety concerns were not found to be an issue during preclinical and phase 1 testing, although antibiotic resistance introduced during the plasmid selection process remained a concern during this initial phase of development [@doi:10.1038/nrg2432].
+While this issue was resolved through strategic vector design [@doi:10.1186/1475-2859-4-26; @doi:10.3390/vaccines1030225], the immunogenicity of these vaccines did not reach expectations [@doi:10.1038/nrg2432].
+
+Several developments during the 2010s led to greater efficacy of DNA vaccines [@doi:10.1038/nrg2432].
 However, no DNA vaccines had been approved for use in humans prior to the COVID-19 pandemic [@doi:10.3390/ijms19113605; @doi:10.3390/pharmaceutics12010030].
+As of June 20, 2022, <!----> vaccines have been approved worldwide (Table @approved-DNA).
+These vaccines fall into two categories, vaccines that are vectored with a plasmid and those that are vectored with another virus.
 
 Table: Approved DNA vaccines [@url:https://covid19.trackvaccines.org/types-of-vaccines]
 {#tbl:approved_DNA}
@@ -4208,13 +4169,13 @@ Table: Approved DNA vaccines [@url:https://covid19.trackvaccines.org/types-of-va
 | Covishield (Oxford/ AstraZeneca formulation) | Serum Institute of India    | non replicating viral vector |
 | ZyCoV-D                                      | Zydus Cadila                | plasmid vectored             |
 
-##### Plasmid-Vectored DNA Vaccines
+#### Plasmid-Vectored DNA Vaccines
 
 **Mechanism:**
 Many DNA vaccines use a plasmid vector-based approach, where the sequence encoding the antigen(s) against which an immune response is sought can be cultivated in a plasmid and delivered directly to an appropriate tissue [@url:https://www.who.int/biologicals/areas/vaccines/dna/en].
 Plasmids can also be designed to act as adjuvants by encoding molecules that supplement the immune response, such as immune stimulant molecules [@doi:10.1358/dot.2018.54.5.2807864].
 The DNA itself may also stimulate the innate immune response [@doi:10.1046/j.1365-2796.2003.01140.x; @doi:10.3390/vaccines1030225].
-Once the plasmid brings the DNA sequence to an APC, the host machinery can be used to construct antigen(s) from the transported genetic material, and the body can then synthesize antibodies in response [@doi:10.1038/nrg2432].
+Once the plasmid brings the DNA sequence to an antigen-presenting cell (APC), the host machinery can be used to construct antigen(s) from the transported genetic material, and the body can then synthesize antibodies in response [@doi:10.1038/nrg2432].
 The vectors are edited to remove extra sequences [@doi:10.3390/vaccines1030225].
 Advances such as this on the manufacturing side have improved the safety and throughput of this platform [@doi:10.3390/vaccines1030225].
 
@@ -4230,15 +4191,17 @@ As of 2018, however, only two plasmid-vectored DNA vaccines had been approved fo
 
 **Applications to COVID-19:**
 Several plasmid-vectored DNA vaccines have been developed against COVID-19 (Table @tbl:approved_DNA).
-In fact, the ZyCoV-D vaccines developed by India's Zydus Cadila is the first plasmid-vectored DNA to receive approval for administration [@doi:10.1016/j.vaccine.2020.10.056; @doi:10.1038/d41586-021-02385-x].
-Similarly, another plasmid-vectored DNA vaccine, INO-4800 [@clinicaltrials:NCT04336410], was developed by Inovio Pharmaceuticals Technology.
-Instead of the needle-free injection system used for ZyCoV-D, INO-4800 uses electroportion.
+In fact, the ZyCoV-D vaccines developed by India's Zydus Cadila is the first plasmid-vectored DNA to receive approval [@doi:10.1016/j.vaccine.2020.10.056; @doi:10.1038/d41586-021-02385-x].
+<!--It would be great to go into ZyCoV-D since it made it to approval, but we originally put our effort into covering INO-4800. Consider updating post-submission?-->
+
+Similarly, another plasmid-vectored DNA vaccine, INO-4800 [@clinicaltrials:NCT04336410], was developed by Inovio Pharmaceuticals Technology that uses electroportion as an adjuvant.
 Electroporation was developed as a solution to the issue of limited immunogenicity by increasing the permeability of cell membranes by delivering electrical pulses [@doi:10.4161/hv.24702].
 It has been shown that electroporation can enhance vaccine efficacy by up to 100-fold, as measured by increases in antigen-specific antibody titers [@doi:10.1016/j.coi.2011.03.008].
 The temporary formation of pores through electroporation facilitates the successful transportation of macromolecules into cells, allowing cells to robustly take up INO-4800 for the production of an antibody response.
 For INO-4800, a plasmid-vectored vaccine is delivered through intradermal injection which is then followed by electroporation with a device known as CELLECTRA® [@doi:10.1016/j.eclinm.2020.100689].
 The safety of the CELLECTRA® device has been studied for over seven years, and these studies support the further development of electroporation as a safe vaccine delivery method [@doi:10.4161/hv.24702].
-These two vaccines therefore represent two different implementations of a new platform technology.
+
+These vaccines therefore represent implementations of a new platform technology.
 In particular, they offer the advantage of a temperature-stable vaccine, facilitating worldwide administration [@doi:10.1101/2021.05.07.21256652].
 Although an exciting development in DNA vaccines, the cost of vaccine manufacturing and electroporation may make scaling the use of this technology for prophylactic use for the general public difficult.
 
@@ -4250,22 +4213,25 @@ Efficacy was evaluated based on blood samples collected pre- and post-vaccinatio
 Results from the phase 2 trial were released as a preprint in May 2021 and reported findings based on administering INO-4800 to 401 adult volunteers at high risk of exposure to SARS-CoV-2 [@doi:10.1101/2021.05.07.21256652].
 The phase 2 results supported that the vaccine was safe, with 1,446 treatment-related AEs observed across 281 participants, all but one of which were grade 1 or grade 2.
 The single grade 3 event was joint stiffness [@doi:10.1101/2021.05.07.21256652].
-The rates of AEs in the placebo group are not reported.
-In terms of immunogenicity, pre- and post-vaccination blood samples were again collected and were evaluated for a humoral immune response to the spike protein, and the treatment group was identified to show significantly greater neutralizing activity than the placebo group [@doi:10.1101/2021.05.07.21256652].
+The rates of AEs in the placebo group were not reported.
+
+To assess the immunogenicity of INO-4800, pre- and post-vaccination blood samples were collected and evaluated for a humoral immune response to the spike protein, and the treatment group was identified to show significantly greater neutralizing activity than the placebo group [@doi:10.1101/2021.05.07.21256652].
 The phase 2/3 trials are ongoing in several countries, including the United States, Mexico, India, and Colombia [@{url:https://ir.inovio.com/news-releases/news-releases-details/2021/INOVIO-Receives-U.S.-FDA-Authorization-to-Proceed-with-INNOVATE-Phase-3-Segment-for-its-COVID-19-Vaccine-Candidate-INO-4800-in-the-U.S/default.aspx}; @{url:https://ir.inovio.com/news-releases/news-releases-details/2021/INOVIO-Further-Expands-INNOVATE-Phase-3-Trial-for-COVID-19-DNA-Vaccine-Candidate-INO-4800-With-Regulatory-Authorization-from-India/default.aspx}; @{url:https://ir.inovio.com/news-releases/news-releases-details/2021/INOVIO-Expands-INNOVATE-Phase-3-for-INO-4800-its-DNA-Vaccine-Candidate-for-COVID-19-to-include-Colombia-following-Regulatory-Authorization/default.aspx}; @{url:https://ir.inovio.com/news-releases/news-releases-details/2021/INOVIO-Receives-Regulatory-Authorization-to-Conduct-Phase-3-Efficacy-Trial-of-its-COVID-19-DNA-Vaccine-Candidate-INO-4800-in-Mexico/default.aspx}].
-Therefore, vaccine efficacy data from a large study population is not yet available. 
+Therefore, vaccine efficacy data from a large study population is not yet available.
 
 **Real-World Safety and Efficacy:**
+The efficacy of ZyCoV-D is estimated at 66.6% [@doi:10/hvqb].
 Because phase 3 data is not yet available for INO-4800, the VE is not yet know.
-However, studies have examined the ability of INO-4800 to induce an immune response that can neutralize VOC.
+
+Studies have examined the ability of INO-4800 to induce an immune response that can neutralize VOC.
 They assessed neutralization of several VOC relative to the index strain [@doi:10.1038/s41541-021-00384-7].
 They found no difference in neutralization between the index strain and the gamma VOC (P.1), but neutralization of the alpha and beta VOC was significantly lower (approximately two and seven times, respectively) [@doi:10.1038/s41541-021-00384-7].
-These findings are in line with the shifts in efficacy reported for other vaccines.
+These findings are in line with the shifts in efficacy reported for other vaccines [@individual-vaccines-traditional].
 
-In addition to loss of neutralizing activity due to viral evolution, studies have also evaluated the decline in nAbs over time. 
+In addition to loss of neutralizing activity due to viral evolution, studies have also evaluated the decline in nAbs induced by INO-4800 over time.
 Levels of nAbs remained statistically significant relative to the pre-vaccination baseline for six months [@doi:10.1093/infdis/jiac016].
 Administration of a booster dose induced a significant increase of titers relative to their pre-booster levels [@doi:10.1093/infdis/jiac016].
-Given the timing of this trial (enrollment between 6 April and 7 July 2020), it is unlikely that participants were exposed to VOC associated with decreased efficacy. 
+Given the timing of this trial (enrollment between 6 April and 7 July 2020), it is unlikely that participants were exposed to VOC associated with decreased efficacy.
 Therefore, this study cannot speak to the efficacy of this vaccine against these variants.
 
 In light of the emergence of VOC against which many vaccines show lower efficacy, Inovio Pharmaceuticals began to develop a new vaccine with the goal of improving robustness against known and future VOC [@url:https://www.prnewswire.com/news-releases/inovio-announces-strategy-to-address-omicron-b1-1-529-and-future-sars-cov-2-variants-301433776.html].
@@ -4273,15 +4239,14 @@ Known as INO-4802, this vaccine was designed to express a pan-Spike immunogen [@
 Booster studies in rodents [@doi:10.1101/2021.05.11.443592] and non-human primates [@doi:10.1016/j.vaccine.2022.03.060] suggest that it may be more effective than INO-4800 in providing immunity to VOC such as delta and omicron when administered as part of a heterologous boost regimen, although boosting with INO-4800 was also very effective in increasing immunity in rhesus macaques [@doi:10.1016/j.vaccine.2022.03.060].
 Therefore, boosting is likely to be an important strategy for this vaccine, especially as the virus continues to evolve.
 
-##### Viral-Vectored DNA Vaccines
+#### Viral-Vectored DNA Vaccines
 
 **Mechanism:**
 Plasmids are not the only vector that can be used to deliver sequences associated with viral antigens.
 Genetic material from the target virus can also be delivered using a second virus as a vector.
 Viral vectors have emerged as a safe and efficient method to furnish the nucleotide sequences of an antigen to the immune system using a second virus as a vector [@doi:10.1128/CVI.00298-16].
 The genetic content of the vector virus is often altered to prevent it from replicating, but replication-competent viruses can also be used under certain circumstances [@doi:10.1016/j.coi.2016.05.014].
-Once the plasmid or viral vector brings the DNA sequence to an APC, the host machinery can be used to construct antigen(s) from the transported genetic material, and the body can then synthesize antibodies in response [@doi:10.1038/nrg2432].
-These vaccines can be either replicating or non-replicating [@doi:10.1016/j.copbio.2007.10.010].
+Once the plasmid or viral vector brings the DNA sequence to an APC, the host machinery can be used to construct antigen(s) from the transported genetic material, and the host can then synthesize antibodies in response [@doi:10.1038/nrg2432].
 
 One of the early viral vectors explored was adenovirus, with serotype 5 (Ad5) being particularly effective [@doi:10.1038/nrg2432].
 This technology rose in popularity during the 2000s due to its being more immunogenic in humans and non-human primates than plasmid-vectored DNA vaccines [@doi:10.1038/nrg2432].
@@ -4295,74 +4260,98 @@ Different vectors are associated with different levels of reactogenicity; for ex
 Additionally, using a virus circulating widely in human populations as a vector presents additional challenges because vaccine recipients may already have developed an immune response to the vector [@doi:10.3390/vaccines2030624].
 
 **Prior Applications:**
-There are several viral vector vaccines that are available for veterinary use [@doi:10.3390/vaccines8040680; @doi:10.1038/nrg2432], but prior to the COVID-19 pandemic, only one viral vector vaccine was approved by the FDA for use in humans.
+There are several viral vector vaccines that are available for veterinary use [@doi:10.3390/vaccines8040680; @doi:10.1038/nrg2432], but prior to the COVID-19 pandemic, only one viral vector vaccine was approved by the United States' Food and Drug Administration (FDA) for use in humans.
 This vaccine is vectored with a recombinant vesicular stomatitis virus and targeted against the ebola virus [@doi:10.1016/j.cell.2020.03.011].
 Additionally, several phase 1 and phase 2 clinical trials for other vaccines are ongoing [@doi:10.1128/CVI.00298-16], and the technology is currently being explored for its potential against numerous infectious diseases including malaria [@doi:10.1016/j.ymthe.2016.11.003; @doi:10.1016/j.vaccine.2006.07.035], ebola [@doi:10.1056/NEJMoa1410863; @doi:10.1093/infdis/jir349; @doi:10.1586/14760584.2014.885841], and human immunodeficiency virus (HIV) [@doi:10.1097/COH.0b013e328363d389; @doi:10.1016/j.virol.2014.09.004].
+
 The threat of MERS and SARS initiated interest in the application of viral vector vaccines to human coronaviruses [@doi:10.3390/v12080861], but efforts to apply this technology to these pathogens had not yet led to a successful vaccine candidate.
 In the mid-to-late 00s, adenoviral vectored vaccines against SARS were found to induce SARS-CoV-specific IgA in the lungs of mice [@doi:10.1099/vir.0.81579-0], but were later found to offer incomplete protection in ferret models [@doi:10.1099/vir.0.2008/001891-0].
 Gamaleya National Center of Epidemiology and Microbiology in Moscow sought to use an adenovirus platform for the development of vaccines for _Middle East respiratory syndrome-related coronavirus_ and Ebola virus, although neither of the previous vaccines were internationally licensed [@url:https://www.who.int/immunization/sage/meetings/2018/october/2_Ebola_SAGE2018Oct_BgDoc_20180919.pdf].
 
-In 2017, results were published from an initial investigation of two vaccine candidates against MERS-CoV containing the MERS-CoV S gene vectored with chimpanzee adenovirus, Oxford University #1 (ChAdOx1), a replication-deficient chimpanzee adenovirus [@doi:10.1016/j.vaccine.2017.05.032].
-This study reported that a candidate containing the complete spike protein sequence induced a stronger neutralizing antibody response in mice than candidates vectored with modified vaccinia virus Ankara.
-It was pursued in additional research, and in the summer of 2020 results of two studies were published.
+In 2017, results were published from an initial investigation of two vaccine candidates against MERS-CoV containing the MERS-CoV _S_ gene vectored with chimpanzee adenovirus, Oxford University #1 (ChAdOx1), a replication-deficient chimpanzee adenovirus [@doi:10.1016/j.vaccine.2017.05.032].
+This study reported that a candidate containing the complete S protein sequence induced a stronger neutralizing antibody response in mice than candidates vectored with modified vaccinia virus Ankara.
+
+The candidate was pursued in additional research, and in the summer of 2020 results of two studies were published.
 The first reported that a single dose of ChAdOx1 MERS induced an immune response and inhibited viral replication in macaques [@doi:10.1126/sciadv.aba8399].
 The second reported promising results from a phase 1 trial that administered the vaccine to adults and measured safety/tolerability and immune response (as indicated through immune assays following vaccination) [@doi:10/ggtxgp].
 
 **Application to COVID-19:**
-While not all of these results were available at the time that vaccine development programs against SARS-CoV-2 began, at least three viral vector vaccines have also been developed against this hCoV.
-First, collaboration between AstraZeneca and researchers at the University of Oxford has successfully applied a viral vector approach to the development of a vaccine against SARS-CoV-2 using the replication-deficient ChAdOx1 vector modified to encode the spike protein of SARS-CoV-2 [@doi:10.1038/s41586-020-2608-y].
-In phase 1 and 1/2 trials, respectively, the immunogenic potential of vaccine candidate ChAdOx1 nCoV-19 was demonstrated through the immune challenge of two animal models, mice and rhesus macaques [@doi:10.1038/s41586-020-2608-y] and patients receiving the ChAdOx1 nCoV-19 vaccine developed antibodies to the SARS-CoV-2 spike protein that peaked by day 28, with these levels remaining stable until a second observation at day 56 [@doi:10/gg5gwk].
+While not all of the above results were available at the time that vaccine development programs against SARS-CoV-2 began, at least three viral vector vaccines have also been developed against SARS-CoV-2.
+First, a collaboration between AstraZeneca and researchers at the University of Oxford successfully applied a viral vector approach to the development of a vaccine against SARS-CoV-2 using the replication-deficient ChAdOx1 vector modified to encode the S protein of SARS-CoV-2 [@doi:10.1038/s41586-020-2608-y].
+In a phase 1 trial, the immunogenic potential of vaccine candidate ChAdOx1 nCoV-19 was demonstrated through the immune challenge of two animal models, mice and rhesus macaques [@doi:10.1038/s41586-020-2608-y].
+In a phase 1/2 trial, patients receiving the ChAdOx1 nCoV-19 vaccine developed antibodies to the SARS-CoV-2 spike protein that peaked by day 28, with these levels remaining stable until a second observation at day 56 [@doi:10/gg5gwk].
 
-Second, a viral vector approach was also applied by Gamaleya to develop Sputnik V, a replication-deficient recombinant adenovirus (rAd) vaccine that combines two adenovirus vectors, rAd26-S and rAd5-S, that express the full-length SARS-CoV-2 spike glycoprotein.
-The two vectors are administered intramuscularly administered sequentially, following a prime-boost regimen.
-Despite a lack of data from clinical trials, President Vladimir Putin of Russia announced the approval of the Sputnik V vaccines on August 11th, 2020 [@doi:10/ft7j] and it has subsequently been administered in Russia and other countries.
+Second, a viral vector approach was applied by Russia's Gamaleya Research Institute of Epidemiology and Microbiology to develop Sputnik V, a replication-deficient recombinant adenovirus (rAd) vaccine that combines two adenovirus vectors, rAd26-S and rAd5-S, that express the full-length SARS-CoV-2 spike glycoprotein.
+These vectors are intramuscularly administered individually using two separate vaccines in a prime-boost regimen.
+The rAd26-S is administered first, followed by rAd5-S 21 days later.
+Both vaccines deliver 10^11^ viral particles per dose.
+This approach is designed to overcome any potential pre-existing immunity to adenovirus in the population [@doi:10/ghx7xz], as some individuals may possess immunity to Ad5 [@doi:10.1016/j.vaccine.2011.05.025].
+Sputnik V is the only recombinant adenovirus vaccine to utilize two vectors.
 
-Third, Janssen Pharmaceuticals, Inc., a subsidiary of Johnson & Johnson, also developed a viral vector vaccine in collaboration with and funded by the United States's “Operation Warp Speed” [@url:https://www.gao.gov/products/gao-21-319; @url:https://www.jnj.com/johnson-johnson-announces-a-lead-vaccine-candidate-for-covid-19-landmark-new-partnership-with-u-s-department-of-health-human-services-and-commitment-to-supply-one-billion-vaccines-worldwide-for-emergency-pandemic-use].
+Third, Janssen Pharmaceuticals, Inc., a subsidiary of Johnson & Johnson, developed a viral vector vaccine in collaboration with and funded by the United States's “Operation Warp Speed” [@url:https://www.gao.gov/products/gao-21-319; @url:https://www.jnj.com/johnson-johnson-announces-a-lead-vaccine-candidate-for-covid-19-landmark-new-partnership-with-u-s-department-of-health-human-services-and-commitment-to-supply-one-billion-vaccines-worldwide-for-emergency-pandemic-use].
 The vaccine candidate JNJ-78436735, formerly known as Ad26.COV2-S, is a monovalent vaccine that is composed of a replication-deficient adenovirus serotype 26 (Ad26) vector expressing the stabilized prefusion S protein of SARS-CoV-2 [@doi:10.1056/NEJMoa2034201;@doi:10.1038/s41541-020-00243-x].
-Unlike the other two viral vector vaccines available to date, JNJ-78436735 requires only a single dose, a characteristic that is expected to aid in global deployment [@doi:10.1038/s41586-020-2607-z].
+Unlike the other two viral vector vaccines available to date, JNJ-78436735 requires only a single dose, a characteristic that was expected to aid in global deployment [@doi:10.1038/s41586-020-2607-z].
 JNJ-78436735 was selected from among a number of initial candidate designs [@doi:10.1038/s41541-020-00243-x] and tested _in vivo_ in Syrian golden hamsters and Rhesus macaques to assess safety and immunogenicity [@doi:10.1038/s41541-020-00243-x; @doi:10.1038/s41586-020-2607-z; @doi:10.1038/s41591-020-1070-6; @doi:10.1101/2020.11.17.368258].
 The JNJ-78436735 candidate was selected for its favorable immunogenicity profile and ease of manufacturability [@doi:10.1038/s41541-020-00243-x; @doi:10.1038/s41586-020-2607-z; @doi:10.1038/s41591-020-1070-6; @doi:10.1101/2020.11.17.368258] and was found to confer protection against SARS-CoV-2 in macaques even after six months [@doi:10.1101/2021.01.30.428921].
-The one- versus two-dose regimen was tested in volunteers through a phase 1/2a trial [@doi:10.1056/NEJMoa2034201], although these results are not yet available; however, the study did report that the vaccine was well-tolerated and that most participants demonstrated seroconversion in a neutralization assay 29 days after immunization [@doi:10.1056/NEJMoa2034201].
-
-The three viral-vector vaccines described above have demonstrated the potential for this technology to facilitate a quick response to an emerging pathogen.
-Additionally, though the vaccines are developed using similar principles, there are some differences that might influence their efficacy as SARS-CoV-2 evolves.
-In the Janssen vaccine, the S protein immunogen is stabilized in its prefusion conformation, while in the Sputnik V and AstraZeneca vaccines, it is not.
-How these differences in design influence the efficacy of these three viral-vector vaccines over time remains to be seen.
+The one- versus two-dose regimen was then tested in volunteers through a phase 1/2a trial [@doi:10.1056/NEJMoa2034201; @doi:10.1056/NEJMoa2117608].
+A major difference between this vaccine and the other two in this category is that here, the S protein immunogen is stabilized in its prefusion conformation, while in the Sputnik V and AstraZeneca vaccines, it is not.
 
 **Trial Estimates of Safety and Efficacy:**
 The first DNA viral-vectored vaccine for which efficacy estimates became available was AstraZeneca's ChAdOx1 nCoV-19.
-In December 2020, preliminary results of the phase 3 trial were released detailing randomized control trials conducted in the U.K., Brazil, and South Africa between April and November 2020 [@doi:10/fmq2].
-These trials again compared ChAdOx1 nCoV-19 to a control, but the design of each study varied; pooling data across studies indicated an overall efficacy of 70.4%.
+In December 2020, preliminary results of the phase 3 trial were released detailing randomized control trials conducted in the United Kingdom (U.K.), Brazil, and South Africa between April and November 2020 [@doi:10/fmq2].
+These trials compared ChAdOx1 nCoV-19 to a control, but the design of each study varied; pooling data across studies indicated an overall efficacy of 70.4%.
 For Sputnik V, the phase 3 trial indicated an overall vaccine efficacy of 91.6% for symptomatic COVID-19 [@doi:10/ghxj4g].
-As for Janssen, in February 2021, the FDA issued an EUA based on interim results from the phase 3 trial [@url:https://www.nih.gov/news-events/news-releases/janssen-investigational-covid-19-vaccine-interim-analysis-phase-3-clinical-data-released; @url:https://www.janssen.com/emea/sites/www_janssen_com_emea/files/johnson_johnson_announces_single-shot_janssen_covid-19_vaccine_candidate_met_primary_endpoints_in_interim_analysis_of_its_phase_3_ensemble_trial.pdf]
+As for Janssen, in February 2021, the FDA issued an EUA based on interim results from the phase 3 trial [@url:https://www.nih.gov/news-events/news-releases/janssen-investigational-covid-19-vaccine-interim-analysis-phase-3-clinical-data-released; @url:https://www.janssen.com/emea/sites/www_janssen_com_emea/files/johnson_johnson_announces_single-shot_janssen_covid-19_vaccine_candidate_met_primary_endpoints_in_interim_analysis_of_its_phase_3_ensemble_trial.pdf].
 The vaccine was well-tolerated, and across all regions studied, it was found to be 66.9% effective after 28 days for the prevention of moderate to severe COVID-19 and to be 81.7% effective for the prevention of laboratory-confirmed severe COVID-19 [@doi:10.1056/NEJMoa2101544].
 There were no COVID-19-associated deaths in the vaccine group.
 However, the emergence of the beta variant in the South African trial population was associated with a slightly reduced efficacy (64% two weeks after receipt), and all of the COVID-19-associated deaths in the trial occurred in the South African placebo cohort [@doi:10.1056/NEJMoa2101544].
 
-However, two of the three vaccines have faced a number of criticisms surrounding the implementation of their clinical trials.
-In the race to develop vaccines against SARS-CoV-2, President Vladimir Putin of Russia announced the approval of the Sputnik V vaccines on August 11th, 2020 in the absence of clinical evidence [@doi:10/ft7j].
+Two of the three vaccines have faced a number of criticisms surrounding the implementation of their clinical trials.
+In the race to develop vaccines against SARS-CoV-2, President Vladimir Putin of Russia announced the approval of the Sputnik V vaccines on August 11, 2020 in the absence of clinical evidence [@doi:10/ft7j].
+A press release on November 11, 2020 indicated positive results from an interim analysis of the phase III Sputnik V trials, which reported 92% efficacy in 16,000 volunteers [@doi:10.1126/science.abf6791].
+However, this release came only two days after both Pfizer and BioNTech reported that their vaccines had an efficacy over 90%, which led to significant skepticism of the Russian findings for a myriad of reasons including the lack of a published protocol and the “reckless” approval of the vaccine in Russia months prior to the publication of the interim results of the phase III trial [@doi:10.1126/science.abf6791; @doi:10.1038/d41586-020-03209-0].
+Interim results of the phase III trial weren't published until the following February [@doi:10/ghxj4g].
 Consequently, many international scientific agencies and public health bodies expressed concern that due diligence to the clinical trial process was subverted for the sake of expediency, leading many to question the safety and efficacy of Sputnik V [@doi:10.1126/science.abe3147; @url:https://www.cnbc.com/2020/08/11/scientists-worry-whether-russias-sputnik-v-coronavirus-vaccine-is-safe-and-effective.html; @doi:10/ft7j].
 Despite regulatory, safety, and efficacy concerns, pre-orders for 1 billion doses of the Sputnik V were reported within days of the vaccine's approval in Russia [@doi:10/ft7j].
 Almost a month later, the phase I/II trial data was published [@doi:10/gg96hq]
-<!--To Do: Suggestion to move some of the Sputnik controversy here, along with describing the issues with the AstraZeneca trial-->
+It wasn't until February 2021, six months after its approval in Russia, that interim results of the phase 3 trial were released [@doi:10/ghxj4g].
+
+AstraZeneca's clinical trial also faced criticism.
+The trial was paused in September 2020 following a severe adverse event in one participant [@doi:10.1038/d41586-020-02594-w].
+It was restarted soon after [@doi:10.1038/d41586-020-02633-6], but it seems that the recent pause was not mentioned to the FDA during a call the morning before the story broke [@url:https://www.nytimes.com/2020/12/08/business/covid-vaccine-oxford-astrazeneca.html].
+Additionally, individual sites within the trial employed somewhat different designs but were combined for analysis.
+For example, in South Africa, the trial was double-blinded, whereas in the U.K. and Brazil it was single-blinded, and one of the two trials carried out in the U.K. evaluated two dosing regimens (low dose or standard dose, both followed by standard dose).
+Some of the trials used a meningococcal conjugate vaccine (MenACWY) as a control, while others used saline.
+Data was pooled across countries for analysis, a design decision that was approved by regulators but raised some questions when higher efficacy was reported in a subgroup of patients who received a low-dose followed by a standard dose.
+This group came about because some participants in the U.K. were erroneously primed with a much lower dose, which turned out to have higher efficacy than the intended dose [@url:https://www.bbc.com/news/health-55086927].
+Combining the data then led to confusion surrounding the vaccine's efficacy, as VE varied widely among conditions (e.g., 62% VE in the standard dose group vs 90% in the group that received a low prime dose [@doi:10/fmq2]).
+Subsequent research, however, suggests that reducing the prime dose may, in fact, elicit a superior immune response in the long-term despite a lower initial response [@doi:10.1126/sciimmunol.abi8635].
+Therefore, this error may serendipitously improve efficacy of vaccine-vectored vaccines broadly.
 
 **Real-World Safety and Efficacy:**
-As of June 6, 2022, 3 viral-vectored vaccines are being distributed in 194 countries (Figure @fig:nrvv-distrib).
-ChAdOx1 nCoV-19 was first approved for emergency use on December 30, 2020 in the United Kingdom [@url:https://www.astrazeneca.com/media-centre/press-releases/2020/astrazenecas-covid-19-vaccine-authorised-in-uk.html] and has since then been approved for emergency use in several dozen countries, in addition to receiving full approval in Brazil.
+As of June 19, 2022, 3 viral-vectored vaccines are being distributed in 195 countries (Figure @fig:nrvv-distrib).
+ChAdOx1 nCoV-19 was first approved for emergency use on December 30, 2020 in the U.K. [@url:https://www.astrazeneca.com/media-centre/press-releases/2020/astrazenecas-covid-19-vaccine-authorised-in-uk.html].
+As early as January 2021, Sputnik V had been administered to 1.5 million Russians [@url:https://www.brusselstimes.com/news-contents/world/149039/1-5-million-people-have-received-sputnik-v-vaccine-russia-says-russian-direct-investment-fund-mikhail-murashko], and doses of Sputnik V have also been distributed to other parts of Europe, such as Belarus, Bosnia-Herzegovina, Hungary, San Marino, Serbia, and Slovakia [@url:https://www.euronews.com/2021/02/12/hungary-to-begin-using-russia-s-sputnik-v-vaccine-today; @url:https://www.euronews.com/2021/02/24/san-marino-buys-russia-s-sputnik-v-after-eu-vaccine-delivery-delays; @url:https://www.themoscowtimes.com/2020/12/29/belarus-starts-coronavirus-vaccination-with-sputnik-v-a72512], with the Czech Republic and Austria also having expressed interest in its procurement [@url:https://www.cnbc.com/2021/03/02/russias-sputnik-vaccine-is-luring-eastern-europe-worrying-the-eu.html].
 
 ![
 **Worldwide availability of vaccines developed using non-replicating viral vectors.**
-This figure reflects the number of vaccines using non-replicating viral vectors that were available in each country as of June 6, 2022.
-These data are retrieved from Our World in Data <!-To Do: Cite--> and plotted using geopandas.
+This figure reflects the number of vaccines using non-replicating viral vectors that were available in each country as of June 19, 2022.
+These data are retrieved from Our World in Data [@doi:10.1038/s41562-021-01122-8] and plotted using geopandas.
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/87225c9935edc816c9c6d8d0e049af7b60b36c95/owiddata/maps/non_replicating_viral_vector.png "Availability of non-replicating viral-vectored vaccines"){#fig:nrvv-distrib secno=1}
+](https://github.com/greenelab/covid19-review/raw/0ce2c51ef8ba466436abdbb24386301a49f3d61a/owiddata/maps/non_replicating_viral_vector.png "Availability of non-replicating viral-vectored vaccines"){#fig:nrvv-distrib secno=1}
 
-As of early January, Sputnik V had been administered to as many as 1.5 million Russians [@url:https://www.brusselstimes.com/news-contents/world/149039/1-5-million-people-have-received-sputnik-v-vaccine-russia-says-russian-direct-investment-fund-mikhail-murashko], and doses of Sputnik V have also been distributed to other parts of Europe, such as Belarus, Bosnia-Herzegovina, Hungary, San Marino, Serbia, and Slovakia [@url:https://www.euronews.com/2021/02/12/hungary-to-begin-using-russia-s-sputnik-v-vaccine-today; @url:https://www.euronews.com/2021/02/24/san-marino-buys-russia-s-sputnik-v-after-eu-vaccine-delivery-delays; @url:https://www.themoscowtimes.com/2020/12/29/belarus-starts-coronavirus-vaccination-with-sputnik-v-a72512], with the Czech Republic and Austria also having expressed interest in its procurement [@url:https://www.cnbc.com/2021/03/02/russias-sputnik-vaccine-is-luring-eastern-europe-worrying-the-eu.html].
-It wasn't until February 2021, six months after its approval in Russia, that interim results of the phase 3 trial were released [@doi:10/ghxj4g].
+Following the trials, additional concerns have been raised about some of these vaccines.
+Within a few days to a few weeks following their first dose of the AstraZeneca vaccine, three women developed extensive venous sinus thrombosis [@doi:10.3390/jcm10081599].
+In March 2021, administration of the vaccine was paused in several European countries while a possible link to thrombotic events was investigated [@doi:10.1136/bmj.n699], as these adverse events had not been observed in clinical trials, but the European Medicine Agency (EMA) soon determined that 25 events were not related to the vaccine [@doi:10.1136/bmj.n774].
+The following month, the United States paused administration of the Janssen vaccine for ten days due to 15 similar AEs [@doi:10.1136/bmj.n970; @doi:10.1136/bmj.n1079], but the EMA, CDC, and the FDA's Advisory Committee on Immunization Practices again identified the events as being very rare and the benefits of the vaccine as likely to outweigh its risks [@doi:10.1136/bmj.n1046; @doi:10.15585/mmwr.mm7103a4; @doi:10.15585/mmwr.mm7018e2; @doi:10.15585/mmwr.mm7032e4].
+In Denmark and Norway, population-based estimates suggested AstraZeneca's vaccine increased incidence of venous thromboembolic events by 11 cases over baseline per 100,000 doses [@doi:10.1136/bmj.n1114].
+Estimates of the incidence in other western countries have also been low [@doi:10.47326/ocsat.2021.02.28.1.0].
+In the US, thromboembolic events following the Janssen vaccine have also been very rare [@doi:10.15585/mmwr.mm7103a4].
+Subsequently, a potential mechanism was identified: the adenovirus vector binding to platelet factor 4 (PF4) [@doi:10.1126/sciadv.abl8213; @doi:10.1056/NEJMoa2104882].
+Because this adverse event is so rare, the risk is likely still outweighed by the risks associated with contracting COVID-19 @url:https://www.ema.europa.eu/en/news/covid-19-vaccine-astrazeneca-benefits-still-outweigh-risks-despite-possible-link-rare-blood-clots] which is also associated with thrombotic events) [@doi:10.1177/1076029620938149; @doi:10.1136/bmj.n1079].
+Similarly, concerns about Guillain-Barré syndrome arose in connection to the Janssen vaccine, but these events have similarly been determined to be very rare and the benefits to outweigh the risks [@doi:10.15585/mmwr.mm7032e4].
 
-<!--To Do: Pre-fusion conformation issues-->
-
-##### RNA Vaccines
+### RNA Vaccines
 
 Table: Approved RNA vaccines [@url:https://covid19.trackvaccines.org/types-of-vaccines]
 {#tbl:approved_RNA}
@@ -4414,7 +4403,6 @@ Therefore, this technology holds great potential for targeted delivery of modifi
 
 **Prior Applications:**
 mRNA vaccine technology was even slower to develop due to challenges related to the instability of mRNA molecules, the design requirements of an efficient delivery system, and the potential for mRNA to elicit either a very strong immune response or to stimulate the immune system in secondary ways [@doi:10.1038/nrd.2017.24; @doi:10.3390/vaccines7020037].
-<!-- To Do: development of this tech during previous epidemics?-->
 As of the 2010s, mRNA was still considered a promising technology for future advances in vaccine development [@doi:10.4161/rna.22269], but prior to 2020, no mRNA vaccines had been approved for use in humans, despite significant advances in the development of this technology [@doi:10.1038/nrd.2017.243].
 Therefore, while these technologies elegantly capitalize on decades of research in vaccine development as well as the tools of the genomic revolution, it was largely unknown prior to the SARS-CoV-2 pandemic whether this potential could be realized in a real-world vaccination effort.
 
@@ -4424,44 +4412,49 @@ In the vaccines developed under this approach, the mRNA coding for a stabilized 
 Two vaccine candidates in this category emerged with promising phase 3 results at the end of 2020.
 Both require two doses approximately one month apart.
 The first was Pfizer/BioNTech's BNT162b2, which contains the full prefusion stabilized, membrane-anchored SARS-CoV-2 spike protein in a vaccine formulation based on modified mRNA (modRNA) technology [@doi:10.1101/cshperspect.a014035; @url:https://www.pfizer.com/news/press-release/press-release-detail/pfizer-and-biontech-announce-early-positive-data-ongoing-0].
-<!--To Do: brief history of phase 1 & phase 2 (like 1-2 sentences)-->
 The second mRNA vaccine, mRNA-1273 developed by ModernaTX, is comprised by a conventional lipid nanoparticle encapsulated RNA encoding a full-length prefusion stabilized S protein for SARS-CoV-2 [@clinicaltrials:NCT04283461].
-As of June 6, 2022, 2 mRNA vaccines are available in 168 countries (Figure @fig:mRNA-distrib).
+As of June 19, 2022, 2 mRNA vaccines are available in 168 countries (Figure @fig:mRNA-distrib).
 
 ![
 **Worldwide availability of vaccines developed using mRNA.**
-This figure reflects the number of vaccines based on mRNA technology that were available in each country as of June 6, 2022.
-These data are retrieved from Our World in Data <!-To Do: Cite--> and plotted using geopandas.
+This figure reflects the number of vaccines based on mRNA technology that were available in each country as of June 19, 2022.
+These data are retrieved from Our World in Data [@doi:10.1038/s41562-021-01122-8] and plotted using geopandas.
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/87225c9935edc816c9c6d8d0e049af7b60b36c95/owiddata/maps/RNA.png "Availability of mRNA vaccines"){#fig:mRNA-distrib secno=1}
+](https://github.com/greenelab/covid19-review/raw/0ce2c51ef8ba466436abdbb24386301a49f3d61a/owiddata/maps/RNA.png "Availability of mRNA vaccines"){#fig:mRNA-distrib secno=1}
 
-**Efficacy Estimates:**
-Pfizer/BioNTech's BNT162b2 vaccine and ModernaTX’s mRNA-1273 vaccine, commercially known as Comirnaty and Spikevax, are available in most countries thanks to their rapid development in 2020.
+**Trial Safety and Immunogenicity:**
+The VEs revealed by the Pfizer/BioNTech and Moderna clinical trials exceeded expectations.
 In a phase 2/3 multinational trial, the Pfizer/BioNTech's BNT162b2 vaccine was associated with a 95% efficacy against laboratory-confirmed COVID-19 and with mild-to-moderate local and systemic effects but a low risk of serious AEs when the prime-boost doses were administered 21 days apart [@doi:10.1056/NEJMoa2034577].
 The ModernaTX mRNA-1273 vaccine was the second mRNA vaccine to release phase 3 results, despite being the first mRNA vaccine to enter phase 1 clinical trials and publish interim results of their phase 3 trial a few months later.
 Their study reported a 94.5% vaccine efficacy in preventing symptomatic COVID-19 in adults who received the vaccine at 99 sites around the United States [@doi:10.1056/NEJMoa2035389].
 Similar to BNT162b2, the mRNA-1273 vaccine was associated with mild-to-moderate AEs but with a low risk of serious AEs [@doi:10.1056/NEJMoa2035389].
-Extended details of the initial phase 1, 2, and 3 trials for both vaccines are documented in the appendix.
-
-In late 2020, both vaccines received approval from the United States's Food and Drug Administration (FDA) under an emergency use authorization [@url:https://www.fda.gov/news-events/press-announcements/fda-takes-key-action-fight-against-covid-19-issuing-emergency-use-authorization-first-covid-19; @url:https://www.cdc.gov/mmwr/volumes/69/wr/mm695152e1.htm], and these vaccines have been widely distributed, primarily in North America and the European Union [@url:https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html].
+In late 2020, both vaccines received approval from the FDA under an emergency use authorization [@url:https://www.fda.gov/news-events/press-announcements/fda-takes-key-action-fight-against-covid-19-issuing-emergency-use-authorization-first-covid-19; @url:https://www.cdc.gov/mmwr/volumes/69/wr/mm695152e1.htm], and these vaccines have been widely distributed, primarily in North America and the European Union [@url:https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html].
 As the first mRNA vaccines to make it to market, these two highly efficacious vaccines demonstrate the power of this emerging technology, which has previously attracted scientific interest because of its potential to be used to treat non-infectious as well as infectious diseases.
 
+**Real World Safety and Efficacy:**
 Between December 2020 and April 2021, one prospective cohort study obtained weekly nasal swabs from 3,975 individuals at high risk of SARS-CoV-2 exposure (health care workers, frontline workers, etc.) within the United States [@doi:10.1056/NEJMoa2107058].
 Among these participants, 3,179 (80%) had received at least one dose of an mRNA vaccine and 2,686 (84%) were fully vaccinated.
 For each vaccinated participant (defined here as having received at least dose 1 more than 7 days ago) whose sample tested positive for SARS-CoV-2, they categorized the viral lineage(s) present in the sample as well as in samples from 3-4 unvaccinated individuals matched by site and testing date.
 Overall efficacy of mRNA vaccines was estimated at 91% with full vaccination, similar to the reports from the clinical trials.
 The occurrence of fevers was also lower in individuals who were partially or fully vaccinated, and the duration of symptoms was approximately 6 days shorter.
-<!--Flesh this out, what were the relative rates of strains?-->
 
-Just like the other available COVID-19 vaccines, the efficacy of mRNA vaccines has been challenged by the emergence of variants of concern (VOC).
-These VOC have gene mutations that code for an altered spike protein, so the antibodies developed resulting from the immunization with the existing vaccines may not be as efficacious, which has caused major concern [@doi:10.1101/2021.11.11.21266068; @url:https://www.cdc.gov/coronavirus/2019-ncov/science/science-briefs/scientific-brief-omicron-variant.html].
+Concerns were also raised about a possible link between mRNA vaccination and myocarditis, especially in young men [@doi:10.15585/mmwr.mm7032e4].
+
+### Vaccines and Variants of Concern
+
+Efficacy estimates have been released for many vaccine candidates across a number of technology types.
+However, efficacy is not a static value, and real-world efficacy can vary with location and over time.
+COVID-19 vaccines have been challenged by the emergence of variants of concern (VOC).
+These VOC generally carry genetic mutations that code for an altered spike protein, so the antibodies developed resulting from the immunization with the existing vaccines may not be as efficacious, which has caused major concern [@doi:10.1101/2021.11.11.21266068; @url:https://www.cdc.gov/coronavirus/2019-ncov/science/science-briefs/scientific-brief-omicron-variant.html].
 Despite some reports of varying and reduced efficacy of the mRNA vaccines against the Alpha (B.1.1.7), Beta (B.1.351), and Delta (B.1.617.2) variants versus the original SARS-CoV-2 strain or the D614G variant [@DOI:10.1038/s41591-021-01318-5; @doi:10.1038/s41586-021-03398-2; @DOI:10.1001/jama.2021.4388; ], the greatest concern to date has been the Omicron variant (B.1.1.529), which was first identified in November 2021 [@{url:https://www.who.int/news/item/26-11-2021-classification-of-omicron-(b.1.1.529)-sars-cov-2-variant-of-concern}; @url:https://www.cdc.gov/coronavirus/2019-ncov/science/science-briefs/scientific-brief-omicron-variant.html].
 As of March 2022, the Omicron variant accounts for 95% of all infections sequenced in the United States [@url:https://covid.cdc.gov/covid-data-tracker] and has been linked to an increased risk of SARS-CoV-2 reinfection [@doi:10.1101/2021.11.11.21266068] and further infection of those who have been vaccinated with the mRNA vaccines [@doi:10.2139/ssrn.3981711].
 
+<!--Move to evolution ms
 Some of the gene mutations carried by Omicron, of which there are between 30-37 in the spike gene (15 in the RBD), have previously been associated with increased transmission, greater affinity for ACE2, and escape from neutralizing antibodies when they have been detected in other VOC [@doi:10.1101/2021.11.11.21266068; @doi:10.1016/j.cell.2021.06.020; @doi:10.1101/2021.12.12.472269; @url:https://www.cdc.gov/coronavirus/2019-ncov/science/science-briefs/scientific-brief-omicron-variant.html; @doi:10.1101/2021.12.14.21267772; @doi:10.1101/2021.12.12.472269].
 However, multiple animal study preprints suggested that the Omicron variant may not be as severe on the respiratory system as previous SARS-CoV-2 variants as evidenced by reduced lung infectivity, reduced SARS-CoV-2 RNA detection in the lung, and reduced inflammation and pathogenicity in animals [@doi:10.21203/rs.3.rs-1211792/v1; @doi:10.1101/2021.12.26.474085; @doi:10.1101/2021.12.24.474086; @doi:10.1101/2022.01.02.474743; @doi:10.1101/2021.12.17.473248].
+-->
 
-In spite of these findings, infection rates and hospitalization rates climbed in early 2022 in many Western countries including the United States [@url:https://www.nytimes.com/interactive/2021/us/covid-cases.html; @{url:https://www.washingtonpost.com/health/interactive/2022/omicron-comparison-cases-deaths-hospitalizations/}].
+In spite of vaccination programs, infection rates and hospitalization rates climbed in early 2022 in many Western countries including the United States [@url:https://www.nytimes.com/interactive/2021/us/covid-cases.html; @{url:https://www.washingtonpost.com/health/interactive/2022/omicron-comparison-cases-deaths-hospitalizations/}].
 Studies have reported reduced efficacy of the mRNA vaccines based on the measurement of antibody titers.
 Plasma from individuals double-dosed with Pfizer/BioNTech's BNT162b2 vaccine had up to a 16-fold reduction in neutralizing capacity against the Omicron variant [@doi:10.1101/2021.12.14.21267772] and a reduced efficacy (70%) [@doi:10.1056/NEJMc2119270].
 Estimates for the mRNA vaccines range from a 2-fold to over a 20-fold drop in neutralisation titers [@doi:10.1101/2021.12.13.21267748], hence the push for third doses of mRNA vaccines in many Western countries.
@@ -4469,30 +4462,54 @@ A third mRNA vaccine dose does increase antibody titers, but these levels also w
 Notably, immunocompromised individuals such as cancer patients seem to elicit a sufficient protective immune response against the Omicron variant when they have been boosted with a third dose of either mRNA vaccine, albeit a blunted response [@doi:10.1016/j.ccell.2021.12.014].
 While antibody titers do correlate with protection [@doi:10.1126/science.abm3425; @doi:10.1016/j.vaccine.2021.12.006; @doi:10.1016/j.vaccine.2021.05.063; @doi:10.1101/2021.05.21.21257572; @doi:10.1038/s41423-020-00588-2], they are not the only mechanisms of immune protection; for example, T cell and non-neutralizing antibody responses may be unaffected or less affected by the new VOC and they warrant further investigation.
 
-In countries such as Israel, a fourth dose of mRNA vaccines have been introduced in response to the Omicron variant and an initial study in healthcare workers show that the additional immunization is safe and immunogenic with antibody titers restored to peak-third dose titers.
-No severe illness was reported in the cohort studied (274 versus 426 age-matched controls), and vaccine efficacy against infection was reported at 30% for BNT162b2 and 11% for mRNA-1273 [@doi:10.1101/2022.02.15.22270948].
-Low efficacy against infection is not surprising considering the vaccines are intended to prevent against severe disease, hospitalization and death rather than infection.
 
+<!--Move to evolution
 Vaccine efficacy is not the only pharmacological intervention affected by VOC.
 Some existing therapeutics, including monoclonal antibody treatments like Bamlanivimab (AbCellera Biologics/ Eli Lilly), were ineffective against the Omicron variant.
 Indeed, only Sotrovimab (Vir Biotechnology/GSK) and Tixagevimab (AstraZeneca) to a much lesser extent could effectively neutralize the omicron variant out of 7 tested monoclonal antibodies [@doi:10.1101/2021.12.14.21267772], which has been verified by others [@doi:10.1101/2021.12.12.472269].
 The antigenic shift of the Omicron variant does raise concerns for future VOC and what effects they may have on future vaccines and therapeutics.
+-->
 
-**Serological Response/Boosters:**
+The WHO continues to monitor the emergence of variants and their impact on vaccine efficacy [@url:https://www.who.int/news-room/feature-stories/detail/the-effects-of-virus-variants-on-covid-19-vaccines].
+Previous research in the computational prediction of the efficacy of vaccines targeting the influenza A virus might complement efforts to monitor these types of viral outbreaks [@doi:10.1093/cid/ciy323].
+To adapt, booster shots are now recommended in many places, and vaccines in the near future will likely account for multiple variants and strains of SARS-CoV-2 [@doi:10.1038/s41591-021-01230-y].
 
-**Variants:**
+### Booster Doses
 
-### Special Populations
+Due to waning neutralizing antibodies and viral evolution, boosters have emerged as an important strategy in retaining the benefits of vaccination over time.
+Homologous booster doses have been investigated for most vaccines.
+For example, over 14,000 adults were administered a booster (second) dose of the Janssen Ad26.COV2.S vaccine [@doi:10.1101/2022.01.28.22270043].
+The booster dose was highly efficacious, with severe COVID-19 and hospitalization prevented almost completely in the vaccinated group.
+A booster dose was also found to improve immune response for Sputnik V vaccinees [@doi:10.1101/2021.12.17.21267976].
+For the AstraZeneca vaccine, a different approach was taken.
+In the interest of distributing first doses as widely as possible, the effects of extending the time between the first and second doses was evaluated and  [@doi:10/hx9c].
 
-<!--Quick summary of other trials in children, are all of them analyzing elderly?-->
+In countries such as Israel, a fourth dose of mRNA vaccines have been introduced in response to the omicron variant and an initial study in healthcare workers show that the additional immunization is safe and immunogenic with antibody titers restored to peak-third dose titers.
+No severe illness was reported in the cohort studied (274 versus 426 age-matched controls), and vaccine efficacy against infection was reported at 30% for BNT162b2 and 11% for mRNA-1273 [@doi:10.1101/2022.02.15.22270948].
+Low efficacy against infection does not undermine the value of vaccination considering the vaccines are intended to prevent against severe disease, hospitalization and death rather than infection generally.
+
+Many trials have also investigated heterologous boosting approaches.
+In particular, the mRNA vaccines are a popular choice following a primary series of a more traditional platform.
+In general, such approaches have been found to confer favorable immunogenicity relative to homologous boosters (e.g, [@doi:10.1080/14760584.2021.1971522; @doi:10.1056/NEJMoa2116414; @doi:10/hzck; @doi:10.1093/jtm/taab191; @doi:10.1093/infdis/jiac092; @doi:10.1056/NEJMc2203165; @doi:10/gnpjxm] and many other studies).
+Due to remaining concerns about rare thromboembolic events, vaccinees who received AstraZeneca for their primary course are advised in some countries to seek a heterologous booster [@url:https://www.ecdc.europa.eu/en/publications-data/overview-eueea-country-recommendations-covid-19-vaccination-vaxzevria-and-scoping], although such guidances are not supported by the evidence, which indicates that the first dose of AstraZeneca is most likely to be linked to these rare events [@doi:10/hzcc].
+
+Although the vaccines developed based on the index strain remain highly effective at preventing severe illness and death, they serve much less utility at preventing illness broadly than they did early in the pandemic.
+Therefore, many manufacturers are exploring potential reformulations based on VOC that have emerged in the years since the beginning of the pandemic.
+In June 2022, Moderna released data describing the effect of their bivalent mRNA booster, mRNA-1273.214, designed to protect against the omicron variant [@url:https://investors.modernatx.com/news/news-details/2022/Moderna-Announces-Omicron-Containing-Bivalent-Booster-Candidate-mRNA-1273.214-Demonstrates-Superior-Antibody-Response-Against-Omicron/default.aspx].
+A 50 &mu;g dose of mRNA-1273.214 was administered to 437 participants.
+One month later, the neutralizing geometric mean titer ratio was assessed against several variants of SARS-CoV-2, including omicron.
+The immune response was higher against all variants assessed, including omicron, than for boosting with the original formulation (mRNA-1273).
+Another formulation, mRNA-1273.211, developed based on the beta variant, has been associated with durable protection as long as six months after dosing.
+These data are available through a press release and have not yet been published.
+Therefore, additional results may provide better insight into the VE of these formulations.
+Given the apparent need for boosters, interest has also emerged in whether updated formulations of SARS-CoV-2 vaccines can be administered along with annual flu vaccines to improve immunity to novel variants.
 
 ### Effect of Vaccines on Community Spread
 
-<!--- Add a paragraph explaining why they have the bonus of reducing community spread -->
-
 The vaccine clinical trial data demonstrate a significant reduction in the likelihood of contracting symptomatic COVID-19, thereby succeeding in the primary goal of vaccination.
-The mRNA vaccines in particular are so effective in preventing severe disease and death that it is also worth considering whether they might reduce disease transmission, given that vaccination rates are unlikely to reach 100%.
-This question hinges on whether vaccinated individuals with or without symptoms of COVID-19 can still spread SARS-CoV-2.
+The mRNA vaccines in particular were initially so effective in preventing disease that they were also assumed to have an effect on the likelihood of transmission (e.g., venues requiring proof of vaccination).
+However, in light of the reduced efficacy in response to VOC, it is especially important to consider whether this assumption is supported by the available evidence.
+
 This question is made up of several components.
 The crux is whether vaccinated individuals with a SARS-CoV-2 infection, regardless of symptom status, are as contagious as unvaccinated, infected individuals.
 Additionally, as outlined above, an important qualification is that the variants of SARS-CoV-2 circulating at the time of each study must be considered in light of the effect of evolution on vaccine efficacy.
@@ -4518,7 +4535,7 @@ In the absence of symptoms, individuals are less likely to know to self-isolate,
 
 Another question of interest is therefore whether vaccinated individuals positive for SARS-CoV-2 carry a similar viral load to unvaccinated individuals.
 Viral load is often approximated by cycle threshold (C~t~), or the cycle at which viral presence is detected during RT-qPCR, with a lower C~t~ corresponding to a greater viral load.
-A prospective cohort study that evaluated front-line workers in six U.S. states from December 2020 to April 2021 reported a 40% reduction in viral load even with just a single dose of an mRNA vaccine [@doi:10.1056/nejmoa2107058].
+A prospective cohort study that evaluated front-line workers in six U.S.A. states from December 2020 to April 2021 reported a 40% reduction in viral load even with just a single dose of an mRNA vaccine [@doi:10.1056/nejmoa2107058].
 The vaccine also appeared to influence the time to viral clearance: the risk of having detectable levels of SARS-CoV-2 for more than one week was reduced by 66% in participants who had received at least one dose [@doi:10.1056/nejmoa2107058].
 However, this study compared the mean viral load across the two groups, meaning that these findings cannot be extrapolated across all points in the disease course.
 Similarly, between December 2020 and February 2021, positive RT-qPCR tests were analyzed for almost 5,000 Israeli patients [@doi:10.1038/s41591-021-01316-7].
@@ -4537,9 +4554,8 @@ It offered the additional benefit of culturing samples to assess whether their C
 Another study of samples collected at two sites in San Francisco, one of which tested only asymptomatic individuals, reported no difference in C~t~ between asymptomatic and symptomatic cases regardless of whether vaccination status was included in the model [@doi:10.1101/2021.09.28.21264262].
 Though each of these three studies offers distinct strengths and weaknesses, taken together, they suggest that viral load is likely to be similar in vaccinated and unvaccinated individuals, but that vaccinated individuals clear the virus more rapidly, meaning that the average viral load is lower over time.
 
-Given the emergence of variants of concern, especially the Delta variant, for which breakthrough infections are more common, the potential for vaccinated individuals to spread SARS-CoV-2 is not necessarily static over time.
+Given the emergence of variants of concern, especially the delta and omicron variants, for which breakthrough infections are more common, the potential for vaccinated individuals to spread SARS-CoV-2 is not necessarily static over time.
 In fact, studies reporting reduced viral load in vaccinated individuals collected samples, for the most part, prior to the emergence of the Delta variant's dominance.
-<!-- Check this when writing section about vaccines & delta. Also add a sentence about different mRNA vaccines and different efficacy wrt Delta-->
 The emergence of this variant may partially account for why more recent studies tend to find no difference between viral load in vaccinated and unvaccinated cases.
 
 Taken together, these findings can provide some insight into how vaccines influence community spread.
@@ -4549,59 +4565,46 @@ Therefore, at present, the evidence suggests that vaccinated individuals who are
 The one potential mitigating factor supported at present is that differences in the viral kinetics may result in vaccinated cases infecting fewer individuals over time due to a more rapid decrease in viral load [@doi:10.1101/2021.07.28.21261295], although this study did not examine patterns in secondary transmission.
 Thus, the virological evidence suggests that public health measures such as masking and distancing remain important even in areas with high vaccination rates.
 
-#### Other Concerns in Efficacy
-
-Efficacy estimates have been released for many vaccine candidates across a number of technology types.
-However, efficacy is not a static value, and real-world efficacy can vary with location and over time.
-Temporal shifts in efficacy have been a especially heightened topic of concern in late 2021 given the potential for the evolution of SARS-CoV-2 to influence vaccine efficacy.
-The original efficacy estimates are outlined in Table XX and additional considerations for each vaccine type are described in more detail below.
-
-
-Given the wide range of vaccines under development, it is possible that some vaccine products may eventually be shown to be more effective in certain subpopulations, such as children, pregnant women, immunocompromised patients, the elderly, etc.
-CoronaVac appears to be suitable for use in immunocompromised patients such as those with autoimmune rheumatic diseases according to phase 4 trials [@doi:10.1038/s41591-021-01469-5].
-CoronaVac was also well tolerated and induced humoral responses in phase 1 trials in children aged 3 to 17 years, which will now be examined in phase 2 and 3 clinical trials [@doi:10/gn93].
-
-Age distribution in clinical trials? https://doi.org/10.1016/j.arr.2021.101455
-
-Concerns: diversity of volunteer pools, variants, and distribution
-Another benefit of vaccines is lower population size in SARS-CoV-2 = less risk of VOC emerging that are less susceptible to the vaccine
-
-Given the apparent need for boosters, interest has also emerged in whether vaccines against SARS-CoV-2 can be administered along with annual flu vaccines.
-Early data came from the Novavax NVX-CoV2373 protein subunit vaccine.
-In a subgroup of approximately 400 patients enrolled from the U.K. phase 3 trial who received either NVX-CoV2373 or placebo 1:1, a concomitant dose of adjuvanted seasonal influenza vaccines (either a trivalent vaccine or a quadrivalent vaccine) was administered [@doi:10.1101/2021.06.09.21258556].
-This study demonstrated that both types of vaccines could be safely administered together.
-While no change to the immune response was noted for the influenza vaccine, a notable reduction of the antibody response for the NVX-CoV2373 was reported, but efficacy was still high at 87.5% [@doi:10.1101/2021.06.09.21258556].
-Novavax has since started phase 1/2 trials to investigate the administration of its own influenza vaccine, NanoFlu^™^, concomitantly with NVX-CoV2373 [@url:https://ir.novavax.com/2021-09-08-Novavax-Initiates-Phase-1-2-Clinical-Trial-of-Combination-Vaccine-for-COVID-19-and-Seasonal-Influenza], which appeared to be safe and effective in preclinical studies [@doi:10.1101/2021.05.05.442782].
-<!--May end up moving some of this text to app, but worth discussing ongoing efforts?-->
-
-Indeed, Chinese [@url:https://medicalxpress.com/news/2021-08-china-mixed-vaccine-trial-delta.html] and Chilean [@url:https://clinicaltrials.gov/ct2/show/NCT04992182] researchers have opted to investigate options to administer different vaccines (e.g., an mRNA vaccine dose) as a booster dose to individuals who have already received two doses of the IWV vaccine CoronaVac.
-Another study has already determined that using the CanSino vaccine (Convidecia) instead of CoronaVac in a prime-boost vaccination regimen can induce a more robust immune response [@doi:10.1101/2021.09.03.21263062].<!--Add 10.1038/s41591-022-01705-6-->
-
 ### Conclusions
 
-In the early 2000s, technologies such as inactivated viral vaccines, live attenuated viral vaccines, protein subunit vaccines, and recombinant vector-based vaccines were explored for SARS [@doi:10.3201/eid1107.050219; @doi:10.1038/nrmicro3143], but the epidemic was controlled before these efforts came to fruition [@doi:10.1056/nejmp2005630].
-DNA vaccine development efforts also began but did not proceed past animal testing [@doi:10.1038/nrmicro3143].
-Similarly, viral vector, protein subunit, and DNA vaccines were explored for MERS-CoV, but outbreaks are sporadic and difficult to predict, making vaccine testing and the development of a vaccination strategy difficult [@doi:10.1080/21645515.2017.1358325].
-Likewise, the development of viral-vectored Ebola virus vaccines was undertaken, but the pace of vaccine development was behind the spread of the virus from early on [@doi:10.1126/science.345.6203.1441].
-Although a candidate Ebola vaccine V920 showed promise in preclinical and clinical testing, it did not receive breakthrough therapy designation until the summer of 2016, by which time the Ebola outbreak was winding down [@doi:10.1016/j.vaccine.2017.05.097].
+COVID-19 has seen the coming-of-age of vaccine technologies that have been in development since the late 20^th^ century but had never before received approvals.
+Vaccines that employ DNA and RNA eliminate all concerns about potential infection due to the vaccine.
+The vaccines described above demonstrate the potential for this technology to facilitate a quick response to an emerging pathogen.
+Additionally, their efficacy in trials far exceeded expectations, especially for RNA vaccines.
+These technologies hold significant potential to drive improvements in human health over the coming years.
 
+Traditional vaccine technologies were built on the principle of using either a weakened version of the virus or a fragment of the virus.
+COVID-19 has highlighted the fact that in recent years, the field has undergone a paradigm shift towards reverse vaccinology.
+Reverse vaccinology emphasizes a hypothesis-free approach to vaccine development [@doi:10.3389/fimmu.2019.02776].
+This strategy was explored during development of a DNA vaccine against the Zika virus [@doi:10.1016/j.micinf.2018.03.001].
+Though the disease was controlled before the vaccine became available [@doi:10.1056/nejmp2005630], the response demonstrated the potential for modular technologies to facilitate a response to emerging viral threats [@doi:10.1016/j.micinf.2018.03.001].
+The potential for such vaccines to benefit the field of oncology has encouraged vaccine developers to invest in next-generation approaches, which has spurred the diversification of vaccine development programs [@url:https://www.the-scientist.com/news-opinion/newer-vaccine-technologies-deployed-to-develop-covid-19-shot-67152; @doi:10.1038/nrg2432].
+As a result, during the COVID-19 pandemic, these modular technologies have taken center stage in controlling a viral threat for the first time.
+
+The large-scale emphasis on vaccine development has led to other advances.
+One example comes from ZyCoV-D, a DNA vaccine developed by the Indian company Cadila Healthcare.
 This vaccine uses a plasmid to deliver the expression-competent Spike protein and IgE signal peptides to the vacinee [@doi:10.1016/j.eclinm.2021.101020].
 During the phase 1 trial, vaccination with a needle versus syringe was evaluated, and the vaccine can now be administered without a needle [@doi:10.1016/j.vaccine.2020.10.056; @doi:10.1038/d41586-021-02385-x].
-This highly portable design offers advantages over traditional vaccines [@doi:10.1016/j.eclinm.2021.101020].
+This highly portable design offers advantages over traditional vaccines [@doi:10.1016/j.eclinm.2021.101020], especially as the emergence of variants continues to challenge the efficacy of vaccines.
 
+One of the downsides of this leap in vaccine technologies, however, is that they have largely been developed by wealthy countries, including countries in the European Union, the United States, the U.K., and Russia.
+As a result, they are also largely available to residents of wealthy countries, primarily in Europe and North America.
+<!--Add scatter plot with GDP and RNA doses/population, same for DNA-->
+The DNA vaccines, while their VE tends to be lower than that of mRNA vaccines (even, for example, in a head-to-head comparison [@doi:10.15585/mmwr.mm7038e1]), still provide excellent protection against severe illness and are much easier to distribute due to less complex demands for storage.
+Efforts such as COVAX that aim to expand access to vaccines developed by wealthy countries have not been as successful as hoped [@url:https://www.nytimes.com/2021/08/02/world/europe/covax-covid-vaccine-problems-africa.html].
+Fortunately, vaccine development programs using more established technologies have been undertaken in many middle income countries, and those vaccines have been more accessible globally [@individual-vaccines-traditional].
+Additionally, efforts to develop new formulations of DNA vaccines in lower and middle income countries are increasingly being undertaken [@doi:10.1038/d41587-021-00001-x].
+
+The modular nature of nucleic acid-based vaccine platforms has opened a new frontier in responding to emerging viral illnesses.
+The RNA vaccines had received an EUA in only a few months more than it took to identify the pathogen causing SARS in 2002.
+Given the variety of options available for preventing severe illness and death, it is possible that certain vaccines may be preferable for certain demographics (e.g., young women might choose an mRNA vaccine to entirely mitigate the very low risk of blood clots [@doi:10.15585/mmwr.mm7032e4]).
+However, this option is likely only available to people in high-income countries.
+In lower-income countries, access to vaccines broadly is a more critical issue.
+Different vaccines may confer advantages in different countries, and vaccine development in a variety of cultural contexts is therefore important [@doi:10.1056/NEJMe2204695].
+Without widespread global availability of vaccines, SARS-CoV-2 will continue presenting a significant threat to people worldwide.
 
 
 ## Vaccine Development Strategies for SARS-CoV-2 Appendix
-
-### Text for other sections
-#### Special pops
-Given the wide range of vaccines under development, it is possible that some vaccine products may eventually be shown to be more effective in certain subpopulations, such as children, pregnant women, immunocompromised patients, the elderly, etc.
-CoronaVac appears to be suitable for use in immunocompromised patients such as those with autoimmune rheumatic diseases according to phase 4 trials [@doi:10.1038/s41591-021-01469-5].
-CoronaVac was also well tolerated and induced humoral responses in phase 1 trials in children aged 3 to 17 years, which will now be examined in phase 2 and 3 clinical trials [@doi:10/gn93].
-
-Age distribution in clinical trials? https://doi.org/10.1016/j.arr.2021.101455
-
-Concerns: diversity of volunteer pools, variants, and distribution
 
 One of the two mRNA vaccines, Pfizer and BioNTech's BNT162b2, has been issued an EUA for patients as young as 16 [@url:https://www.pfizer.com/news/press-release/press-release-detail/pfizer-and-biontech-submit-emergency-use-authorization], while ModernaTX has begun a clinical trial to assess its mRNA vaccine in adolescents ages 12 to 18 [@url:https://investors.modernatx.com/news-releases/news-release-details/moderna-announces-first-participants-dosed-phase-23-study-covid].
 
@@ -4633,7 +4636,7 @@ One change of note was that the vaccine was produced using a highly automated bi
 This change resulted in a higher intact spike protein content.
 The authors of this study were not aware of this antigen-level difference between the vaccine batches for the phase I/II when the ethical approval for the trials occurred.
 
-To assess adverse responses, participants were asked to record any events up to 7 days post-treatment. 
+To assess adverse responses, participants were asked to record any events up to 7 days post-treatment.
 The reported adverse events were graded according to the China National Medical Products Administration guidelines.
 In the phase I trial, the overall incidence of adverse reactions was 29-38% of patients in the 0 to 14 day group and 13-17% in the 0 to 28 day vaccination group.
 The most common symptom was pain at the injection site, which was reported by 17-21% of patients in the 0 to 14 day cohort and 13% in the 0 to 28 day cohort.
@@ -4681,7 +4684,7 @@ In India, the COVAXIN^®^ vaccine received emergency authorization on January 3^
 Following a press release of the phase III data indicating 80.6% efficacy in 25,800 participants [@url:https://www.bharatbiotech.com/images/press/covaxin-phase3-efficacy-results.pdf; @url:https://www.biogenetech.co.th/wp-content/uploads/2021/03/5-Ocugen.pdf], Zimbabwe authorized the use of COVAXIN^®^ [@url:http://www.xinhuanet.com/english/2021-03/04/c_139783893.htm].
 This was followed by a detailed preprint of the double-blind, randomized, controlled phase III trial that was made available in July 2021, with a final enrollment of 25,798 people (~1:1 vaccine:placebo) [@doi:10.1101/2021.06.30.21259439].
 The vaccine was reported as well tolerated, with an overall vaccine efficacy of 77.8% for the prevention of COVID-19.
-Efficacy against severe disease and asymptomatic infection was reported as 93.4% and 63.6% respectively. 
+Efficacy against severe disease and asymptomatic infection was reported as 93.4% and 63.6% respectively.
 In agreement with previous studies demonstrating sera from individuals vaccinated with COVAXIN^®^ efficiently neutralized the alpha variant (B.1.1.7) and the delta variant (B.1.617.2) [@doi:10.1093/jtm/taab104; @doi:10.1093/jtm/taab051], the phase III trial reported a 65.2% efficacy against the delta variant (B.1.617.2) [@doi:10.1101/2021.06.30.21259439].
 Indeed, another preprint determined that sera from individuals immunized with COVAXIN^®^ had effective neutralizing antibodies against the delta variant and the so-called delta plus variant (AY.1) [@doi:10.1101/2021.07.30.454511].
 It is not yet clear what level of protection COVAXIN^®^ offers beyond 6 to 8 months post the second vaccine; consequently, the potential requirement of a booster immunization is being explored [@url:https://www.hindustantimes.com/india-news/covaxin-booster-dose-what-is-it-what-does-govt-say-about-this-101625644184446.html].
@@ -4694,36 +4697,9 @@ However, the WHO approval of the COVAXIN^®^ has been delayed [@url:https://www.
 ### RNA Vaccines
 
 RNA vaccines are nucleic-acid based modalities that code for viral antigens against which the human body elicits a humoral and cellular immune response.
-The mRNA technology is transcribed _in vitro_ and delivered to cells via lipid nanoparticles (LNP) [@doi:10.1002/eji.1830230749].
-They are recognized by ribosomes _in vivo_ and then translated and modified into functional proteins [@doi:10.3389/fimmu.2019.00594].
 The resulting intracellular viral proteins are displayed on surface MHC proteins, provoking a strong CD8+ T cell response as well as a CD4+ T cell and B cell-associated antibody responses [@doi:10.3389/fimmu.2019.00594].
-Naturally, mRNA is not very stable and can degrade quickly in the extracellular environment or the cytoplasm.
-The LNP covering protects the mRNA from enzymatic degradation outside of the cell [@doi:10.4155/tde-2016-0006].
-Codon optimization to prevent secondary structure formation and modifications of the poly-A tail as well as the 5’ untranslated region to promote ribosomal complex binding can increase mRNA expression in cells.
-Furthermore, purifying out double-stranded RNA and immature RNA with FPLC (fast performance liquid chromatography) and HPLC (high performance liquid chromatography) technology will improve translation of the mRNA in the cell [@doi:10.3389/fimmu.2019.00594; @doi:10.1080/14760584.2017.1355245].
-Vaccines based on mRNA delivery confer many advantages over traditional viral vectored vaccines and DNA vaccines.
-In comparison to live attenuated viruses, mRNA vaccines are non-infectious and can be synthetically produced in an egg-free, cell-free environment, thereby reducing the risk of a detrimental immune response in the host [@doi:10.1016/j.immuni.2020.03.007].
-Unlike DNA vaccines, mRNA technologies are naturally degradable and non-integrating, and they do not need to cross the nuclear membrane in addition to the plasma membrane for their effects to be seen [@doi:10.3389/fimmu.2019.00594].
-Furthermore, mRNA vaccines are easily, affordably, and rapidly scalable.
 
-Although mRNA vaccines have been developed for therapeutic and prophylactic purposes, none have previously been licensed or commercialized.
-Nevertheless, they have shown promise in animal models and preliminary clinical trials for several indications, including rabies, coronavirus, influenza, and cytomegalovirus [@clinicaltrials:NCT01669096].
-Preclinical data previously identified effective antibody generation against full-length FPLC-purified influenza hemagglutinin stalk-encoding mRNA in mice, rabbits, and ferrets [@doi:10.1038/s41467-018-05482-0].
 Similar immunological responses for mRNA vaccines were observed in humans in Phase I and II clinical trials operated by the pharmaceutical-development companies Curevac and Moderna for rabies, flu, and zika [@doi:10.1080/14760584.2017.1355245].
-Positively charged bilayer LNPs carrying the mRNA attract negatively charged cell membranes, endocytose into the cytoplasm [@doi:10.4155/tde-2016-0006], and facilitate endosomal escape.
-LNPs can be coated with modalities recognized and engulfed by specific cell types, and LNPs that are 150 nm or less effectively enter into lymphatic vessels [@doi:10.4155/tde-2016-0006; @doi:10.1038/s41467-018-06936-1].
-Therefore, this technology holds great potential for targeted delivery of modified mRNA.
-
-There are three types of RNA vaccines: non-replicating, _in vivo_ self-replicating, and _in vitro_ dendritic cell non-replicating [@url:https://www.phgfoundation.org/briefing/rna-vaccines].
-Non-replicating mRNA vaccines consist of a simple open reading frame (ORF) for the viral antigen flanked by the 5’ UTR and 3’ poly-A tail.
-_In vivo_ self-replicating vaccines encode a modified viral genome derived from single-stranded, positive sense RNA alphaviruses [@doi:10.3389/fimmu.2019.00594; @doi:10.1080/14760584.2017.1355245].
-The RNA genome encodes the viral antigen along with proteins of the genome replication machinery, including an RNA polymerase.
-Structural proteins required for viral assembly are not included in the engineered genome [@doi:10.3389/fimmu.2019.00594].
-Self-replicating vaccines produce more viral antigens over a longer period of time, thereby evoking a more robust immune response [@url:https://www.phgfoundation.org/briefing/rna-vaccines].
-Finally, _in vitro_ dendritic cell non-replicating RNA vaccines limit transfection to dendritic cells.
-Dendritic cells are potent antigen-presenting immune cells that easily take up mRNA and present fragments of the translated peptide on their MHC proteins, which can then interact with T cell receptors.
-Ultimately, primed T follicular helper cells can stimulate germinal center B cells that also present the viral antigen to produce antibodies against the virus [@doi:10.1016/j.immuni.2014.10.004].
-These cells are isolated from the patient, grown and transfected _ex vivo_, and reintroduced to the patient [@doi:10.1038/nrd.2017.243].
 
 Given the potential for this technology to be quickly adapted for a new pathogen, it has held significant interest for the treatment of COVID-19.
 In the vaccines developed under this approach, the spike protein, which is immunogenic [@doi:10.1016/j.immuni.2020.05.002], can be furnished to the immune system in order to train its response.
@@ -4826,11 +4802,6 @@ Analysis of serum indicated that participants developed antibodies to both S and
 By day 35, the neutralization titers of vaccinated patients was comparable to that observed with plasma from convalescents.
 This initial study therefore suggested that the vaccine was likely to confer protection against SARS-CoV-2, although analysis of its efficacy in preventing COVID-19 was not reported.
 
-In December 2020, preliminary results of the phase III trial were released detailing randomized control trials conducted in the U.K., Brazil, and South Africa between April and November 2020 [@doi:10/fmq2].
-These trials again compared ChAdOx1 nCoV-19 to a control, but the design of each study varied.
-For example, in South Africa, the trial was double-blinded, whereas in the U.K. and Brazil it was single-blinded, and one of the two trials carried out in the U.K. examined two dosing regimens (low dose or standard dose, both followed by standard dose).
-Some of the trials used MenACWY as a control, while others used saline.
-Data was pooled across countries for analysis.
 The primary outcome assessed was symptomatic, laboratory-confirmed COVID-19.
 There were 131 cases observed among the 11,636 participants eligible for the primary efficacy analysis, corresponding to an overall efficacy of 70.4% (30 out of 5807 in the vaccine arm and 101 out of 5829 in the control arm); the 95.8% CI was reported as 54.8 to 80.6.
 However, a higher efficacy was reported in the subgroup of patients who received a low-dose followed by a standard dose (90.0%, 95% CI 67.4 to 97·0).
@@ -4847,12 +4818,7 @@ Therefore, preliminary results suggest that in a number of samples, this vaccine
 The vaccine Gam-COVID-Vac, nicknamed Sputnik V in reference to the space race and "V for vaccine", was developed by the Gamaleya National Center of Epidemiology and Microbiology in Moscow.
 Gamaleya is an organization with prior experience using the adenovirus platform for the development of vaccines for _Middle East respiratory syndrome-related coronavirus_ and Ebola virus, although neither of the previous vaccines were internationally licensed [@url:https://www.who.int/immunization/sage/meetings/2018/october/2_Ebola_SAGE2018Oct_BgDoc_20180919.pdf].
 The development of Sputnik V was financed by the Russian Direct Investment Fund (RDIF) [@doi:10/ft7j; @doi:10/ghs3sn].
-Sputnik V is a replication-deficient recombinant adenovirus (rAd) vaccine that combines two adenovirus vectors, rAd26-S and rAd5-S, that express the full-length SARS-CoV-2 spike glycoprotein.
-These vectors are intramuscularly administered individually using two separate vaccines in a prime-boost regimen.
-The rAd26-S is administered first, followed by rAd5-S 21 days later.
-Both vaccines deliver 10^11^ viral particles per dose.
-This approach is designed to overcome any potential pre-existing immunity to adenovirus in the population [@doi:10/ghx7xz], as some individuals may possess immunity to Ad5 [@doi:10.1016/j.vaccine.2011.05.025].
-Sputnik V is the only recombinant adenovirus vaccine to utilize two vectors.
+
 Other vaccines, such as the Oxford-AstraZeneca vaccine, utilize the chimpanzee adenovirus vector (ChAdOx1 nCoV-19) for both doses [@doi:10/ghpghz].
 The Sputnik V vaccines are available in both a lyophilized (Gam-COVID-Vac-Lyo) and frozen form (Gam-COVID-Vac), which are stored at 2-8°C and -18°C respectively [@doi:10/gg96hq].
 The lyophilized vaccine is convenient for distribution and storage, particularly to remote or disadvantaged areas [@doi:10.3390/v13010054].
@@ -4868,8 +4834,6 @@ Three weeks post the second vaccination, the virus-neutralizing geometric mean a
 At 28 days, median cell proliferation of 1.3% CD4^+^ and 1.1% CD8^+^ were reported for the lyophilized vaccine and 2.5% CD4^+^ and 1.3% CD8^+^ for the vaccine stored frozen.
 These results indicated that both forms of Sputnik V appeared to be safe and induce a humoral and cellular response in human subjects [@doi:10/gg96hq], which may be robust enough to persist and not wane rapidly [@doi:10/ghx7xz].
 
-A press release on November 11th, 2020 indicated positive results from an interim analysis of the phase III Sputnik V trials, which reported 92% efficacy in 16,000 volunteers [@doi:10.1126/science.abf6791].
-However, this release came only two days after both Pfizer and BioNTech reported that their vaccines had an efficacy over 90%, which led to significant skepticism of the Russian findings for a myriad of reasons including the lack of a published protocol and the “reckless” approval of the vaccine in Russia months prior to the publication of the interim results of the phase III trial [@doi:10.1126/science.abf6791; @doi:10.1038/d41586-020-03209-0].
 In February 2021, the interim results of the phase III randomized, double-blind, placebo-controlled trial were eventually published in _The Lancet_ [@doi:10/ghxj4g].
 The participants were randomly assigned to receive either a 0.5 mL/dose of vaccine or placebo, which was comprised of the vaccine buffer composition, that was delivered intramuscularly using the same prime-boost regimen as in the phase I/II trials.
 From September 7th to Nov 24th, 19,866 participants completed the trial.
@@ -4909,8 +4873,7 @@ Furthermore, the producers of Gam-COVID-Vac state that they can produce the vacc
 
 #### Janssen’s JNJ-78436735
 
-The Johnson & Johnson (J&J) vaccine developed by Janssen Pharmaceuticals, Inc., a subsidiary of J&J, was conducted in collaboration with and funded by “Operation Warp Speed” [@url:https://www.gao.gov/products/gao-21-319; @url:https://www.jnj.com/johnson-johnson-announces-a-lead-vaccine-candidate-for-covid-19-landmark-new-partnership-with-u-s-department-of-health-human-services-and-commitment-to-supply-one-billion-vaccines-worldwide-for-emergency-pandemic-use].
-The vaccine candidate JNJ-78436735, formerly known as Ad26.COV2-S, is a monovalent vaccine that is composed of a replication-deficient adenovirus serotype 26 (Ad26) vector expressing the stabilized pre-fusion S protein of SARS-CoV-2 [@doi:10.1056/NEJMoa2034201;@doi:10.1038/s41541-020-00243-x].
+The Johnson & Johnson (J&J) vaccine developed by Janssen Pharmaceuticals, Inc., a subsidiary of J&J, was conducted in collaboration with and funded by “Operation Warp Speed” [@url:https://www.gao.gov/products/gao-21-319; @url:https://www.jnj.com/johnson-johnson-announces-a-lead-vaccine-candidate-for-covid-19-landmark-new-partnership-with-u-s-department-of-health-human-services-and-commitment-to-supply-one-billion-vaccines-worldwide-for-emergency-pandemic-use; @doi:10.1056/NEJMoa2034201;@doi:10.1038/s41541-020-00243-x].
 The vaccine was developed using Janssen’s AdVac^®^ and PER.C6 platforms that were previously utilized to develop the European Commission-approved Ebola vaccine (Ad26 ZEBOV and MVN-BN-Filo) and their Zika, respiratory syncytial (RSV), and HIV investigational vaccine candidates [@url:https://www.jnj.com/johnson-johnson-initiates-pivotal-global-phase-3-clinical-trial-of-janssens-covid-19-vaccine-candidate].
 
 The development of a single-dose vaccine was desirable by J&J from the outset, with global deployment being a key priority [@doi:10.1038/s41586-020-2607-z].
@@ -4954,6 +4917,7 @@ On September 23rd, 2020, J&J launched its phase III trial ENSEMBLE and released 
 The trial intended to enroll 60,000 volunteers to assess the safety and efficacy of the single vaccine dose versus placebo with primary endpoints of 14 and 28 days post-immunization [@url:https://www.jnj.com/johnson-johnson-initiates-pivotal-global-phase-3-clinical-trial-of-janssens-covid-19-vaccine-candidate].
 The trial was conducted in Argentina, Brazil, Chile, Colombia, Mexico, Peru, South Africa, and the U.S.
 The trial was paused briefly in October 2020 to investigate a “serious medical event”, but resumed shortly after [@url:https://www.jnj.com/our-company/johnson-johnson-prepares-to-resume-phase-3-ensemble-trial-of-its-janssen-covid-19-vaccine-candidate-in-the-us].
+
 An interim analysis was reported via press release on January 29th, 2021 [@url:https://www.nih.gov/news-events/news-releases/janssen-investigational-covid-19-vaccine-interim-analysis-phase-3-clinical-data-released; @url:https://www.janssen.com/emea/sites/www_janssen_com_emea/files/johnson_johnson_announces_single-shot_janssen_covid-19_vaccine_candidate_met_primary_endpoints_in_interim_analysis_of_its_phase_3_ensemble_trial.pdf].
 The interim data included 43,783 participants who accrued 468 symptomatic cases of COVID-19.
 It was reported that the JNJ-78436735 vaccine was 66% effective across all regions studied for the prevention of moderate to severe COVID-19 28 days post-vaccination in those aged 18 years and older.
@@ -5053,6 +5017,9 @@ This is a randomized, multicenter, endpoint driven, double-blind, placebo-contro
 They are expecting 13,060 participants with 11,800 ages 18 to 59 years and 1,260 age 60+.
 Participants will be health care professionals.
 
+CoronaVac appears to be suitable for use in immunocompromised patients such as those with autoimmune rheumatic diseases according to phase 4 trials [@doi:10.1038/s41591-021-01469-5].
+CoronaVac was also well tolerated and induced humoral responses in phase 1 trials in children aged 3 to 17 years, which will now be examined in phase 2 and 3 clinical trials [@doi:10/gn93].
+
 #### Sinopharm (2 candidates)
 
 <!--- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7561304/ BBIBP-CorV --->
@@ -5132,7 +5099,6 @@ In a subgroup of approximately 400 patients enrolled from the U.K. phase 3 trial
 This study demonstrated that both types of vaccines could be safely administered together.
 While no change to the immune response was noted for the influenza vaccine, a notable reduction of the antibody response for the NVX-CoV2373 was reported, but efficacy was still high at 87.5% [@doi:10.1101/2021.06.09.21258556].
 Novavax has since started phase 1/2 trials to investigate the administration of its own influenza vaccine, NanoFlu^™^, concomitantly with NVX-CoV2373 [@url:https://ir.novavax.com/2021-09-08-Novavax-Initiates-Phase-1-2-Clinical-Trial-of-Combination-Vaccine-for-COVID-19-and-Seasonal-Influenza], which appeared to be safe and effective in preclinical studies [@doi:10.1101/2021.05.05.442782].
-<!--May end up moving some of this text to app, but worth discussing ongoing efforts?-->
 
 #### Protein Subunit Vaccine Development Programs Prior to SARS-CoV-2
 
@@ -5258,7 +5224,7 @@ As of March 5th, 2021, 22 million people in the U.K. had received at least one v
 
 While the Pfizer-BioNTech vaccine was the first to be distributed following phase III clinical trials, the first COVID-19 vaccine to be widely administered to people prior to the completion of phase III clinical trials was Sputnik V.
 Sputnik V was administered to as many as 1.5 million Russians by early January [@url:https://www.brusselstimes.com/news-contents/world/149039/1-5-million-people-have-received-sputnik-v-vaccine-russia-says-russian-direct-investment-fund-mikhail-murashko] due to the establishment of mass vaccination clinics in December 2020, prior to which only approximately 100,000 Russians had already been vaccinated [@url:https://www.bloomberg.com/news/articles/2020-12-02/within-hours-of-u-k-putin-orders-start-of-mass-covid-19-shots;@url:https://www.forbes.com/sites/jamesrodgerseurope/2020/12/05/facing-record-covid-19-case-rise-russia-rolls-out-sputnik-v-vaccine/?sh=50650e4e62e1].
-Doses of Sputnik V have also been distributed to other parts of Europe, such as Belarus, Bosnia-Herzegovina, Hungary, San Marino, Serbia, and Slovakia [@url:https://www.euronews.com/2021/02/12/hungary-to-begin-using-russia-s-sputnik-v-vaccine-today; @url:https://www.euronews.com/2021/02/24/san-marino-buys-russia-s-sputnik-v-after-eu-vaccine-delivery-delays; @url:https://www.themoscowtimes.com/2020/12/29/belarus-starts-coronavirus-vaccination-with-sputnik-v-a72512], with the Czech Republic and Austria also having expressed interest in its procurement [@url:https://www.cnbc.com/2021/03/02/russias-sputnik-vaccine-is-luring-eastern-europe-worrying-the-eu.html].
+Doses of Sputnik V have also been distributed to other parts of Europe [@url:https://www.euronews.com/2021/02/12/hungary-to-begin-using-russia-s-sputnik-v-vaccine-today; @url:https://www.euronews.com/2021/02/24/san-marino-buys-russia-s-sputnik-v-after-eu-vaccine-delivery-delays; @url:https://www.themoscowtimes.com/2020/12/29/belarus-starts-coronavirus-vaccination-with-sputnik-v-a72512].
 Hungary was the first E.U. member country to approve and distribute Sputnik V outside of Russia [@url:https://www.cnbc.com/2021/03/02/russias-sputnik-vaccine-is-luring-eastern-europe-worrying-the-eu.html], despite the EMA stating that they had neither approved nor received a request for approval of Sputnik V [@url:https://www.ema.europa.eu/en/news/clarification-sputnik-v-vaccine-eu-approval-process].
 Hungary is also in talks with China to procure the Sinopharm vaccines, which have been approved by Hungarian health authorities but also have not received approval by EMA in the E.U. [@url:https://www.cnbc.com/2021/03/02/russias-sputnik-vaccine-is-luring-eastern-europe-worrying-the-eu.html].
 In Latin America, production facilities in both Brazil and Argentina will allow for increased production capacity of Sputnik V and doses have been distributed to Mexico, Argentina, Bolivia, Nicaragua, Paraguay, and Venezuela [@url:https://fortune.com/2021/02/08/international-sputnik-russia-demand].
@@ -5272,6 +5238,34 @@ For others, the delays in the distribution of the other, more-favored candidates
 Additionally, Germany has stated that if Sputnik V were approved by EMA, it would be considered by the E.U. [@url:https://www.france24.com/en/live-news/20210203-germany-moves-to-bring-russian-vaccine-into-eu-orbit].
 Russia is developing other vaccine candidates and has approved a third vaccine, CoviVac, which is an inactivated vaccine produced by the Chumakov Centre in Moscow, despite the fact the clinical trials have yet to begin [@url:https://www.reuters.com/article/us-health-coronavirus-russia-vaccine-idUSKBN2AK07H].
 
+### Asia's Role in Vaccine Development
+
+The Asian nations of China and India have played a major role as COVID-19 vaccination developers and providers.
+Iran has also developed several vaccines.
+
+Considering India produced approximately 60% of the world's vaccines prior to the pandemic, it is no surprise that the nation has developed and is developing several COVID-19 vaccine candidates.
+In addition to COVAXIN, the Bio E subunit vaccine CORBEVAX is being produced by Biological E in collaboration with U.S.-based Dynavax and the Baylor College of Medicine [@url:https://www.bbc.com/news/world-asia-india-55748124].
+These two home-grown vaccines are now approved for adults and children as young as five (CORBEVAX) and six (COVAXIN) [@url:https://www.tribuneindia.com/news/nation/covaxin-cleared-for-6-12-age-group-by-drugs-regulator-389581].
+Other vaccines licensed by India were developed elsewhere but produced in India.
+For example, Novavax (developed in the United States) has signed an agreement with the Serum Institute of India allowing them to produce up to 2 billion doses a year [@url:https://www.reuters.com/article/health-coronavirus-novavax-idUSKBN2661PI].
+Similarly, many people within India have been vaccinated with the AstraZeneca-University of Oxford vaccine, known as Covishield in India, which is also produced by the Serum Institute of India [@url:https://www.bbc.com/news/world-asia-india-55748124].
+India is also developing vaccines using cutting-edge nucleic-acid-based platforms (as discussed in [@individual-vaccines-novel]).
+These include ZyCov-D, a DNA vaccine produced by Zydus Cadila, HGCO19 and India’s first mRNA vaccine, produced by Genova and HDT Biotech Corporation (of the U.S.) [@url:https://www.bbc.com/news/world-asia-india-55748124].
+Additionally, in February 2021, Bharat Biotech received approval from Indian officials to commence a phase I study of an intranasal chimpanzee-adenovirus (ChAd) vectored SARS-CoV-2-S vaccine called BBV154 [@url:https://www.bharatbiotech.com/intranasal-vaccine.html].
+
+In China, the Sinopharm-Beijing Institute vaccine, the Sinopharm-Wuhan Institute of Biological Products vaccine, the Sinovac Biotech (CoronaVac) vaccine, and CanSino Biologics vaccine are the main vaccines being distributed.
+The Sinopharm-Beijing vaccine has been distributed to at least 16 countries.<!--automate-->
+Indeed, Sinovac and Sinopharm aimed to produce 2 billion doses by the end of 2021, and they have distributed vaccines as aid to the Philippines and Pakistan [@url:https://www.nytimes.com/2021/01/25/business/china-covid-19-vaccine-backlash.html].
+In contrast, the Sinopharm-Wuhan vaccine, which has been approved for use in China since February 25, 2021, has been distributed almost exclusively within China, with limited supplies distributed to the United Arab Emirates [@url:https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html].
+On the same date, the CanSino vaccine was approved for use in China and has been granted emergency use in several other countries [@url:https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html].
+
+However, the vaccine approval and distribution processes in China have come under increased scrutiny from other nations.
+China was criticized for administering vaccines to thousands of government officials and state-owned businesses in September 2020, prior to the completion of phase III clinical trials [@doi:10.1001/jama.2021.1961].
+The behavior of Chinese officials has also come into question due to misinformation campaigns questioning the safety of Western vaccine candidates such as Moderna and Pfizer-BioNTech in a way that is intended to highlight the benefits of their own vaccine candidates [@url:https://www.nytimes.com/2021/01/25/business/china-covid-19-vaccine-backlash.html].
+China in particular took aim at mRNA technologies, but Chinese companies have since developed their own mRNA vaccines targeting the omicron variant, one of which is due to begin trials soon in the UAE [@url:https://www.reuters.com/business/healthcare-pharmaceuticals/chinese-omicron-specific-mrna-covid-vaccine-candidate-be-trialed-uae-2022-04-30].
+Furthermore, delays in vaccine distribution have also caused issues, particularly in Turkey where 10 million doses of Sinovac were due to arrive by December 2020, but instead only 3 million were delivered in early January [@url:https://www.nytimes.com/2021/01/25/business/china-covid-19-vaccine-backlash.html].
+Similar delays and shortages of doses promised were reported by officials in the Philippines, Egypt, Morocco, and the United Arab Emirates [@url:https://abcnews.go.com/Health/wireStory/philippines-receive-covid-19-vaccine-delays-76163594; @url:https://www.wsj.com/articles/chinas-covid-19-vaccine-makers-struggle-to-meet-demand-11612958560].
+All the same, Sinovac's vaccine has since been approved for use in countries around the world [@url:https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html].
 
 
 ## Dietary Supplements and Nutraceuticals Under Investigation for COVID-19 Prevention and Treatment
@@ -5869,7 +5863,7 @@ Trials that recruit across multiple countries do appear to broaden geographic re
 The density of clinical trials is reported at the country level.
 As of December 31, 2020, there are 6,987 trials in the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709], of which 3,962 are interventional.
 The top figure demonstrates the density of interventional trials recruiting only from a singular country, while the bottom shows the distribution of recruitment for interventional trials that involve more than one country.
-](https://github.com/greenelab/covid19-review/raw/87225c9935edc816c9c6d8d0e049af7b60b36c95/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
+](https://github.com/greenelab/covid19-review/raw/0ce2c51ef8ba466436abdbb24386301a49f3d61a/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
 
 A few different concerns arise from this skewed geographic representation in clinical trial recruitment.
 First, treatments such as remdesivir that are promising but primarily available to clinical trial participants are unlikely to be accessible by people in many countries.
