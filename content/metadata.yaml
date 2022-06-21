@@ -55,13 +55,6 @@ authors:
         contributions:
           - D
           - E
-      diagnostics:
-        order: 1
-        contributions:
-          - Project Administration
-          - Writing - Original Draft
-          - Writing - Review & Editing
-          - Visualization
       vaccines-trad:
         order: 1
         contributions:
@@ -77,7 +70,14 @@ authors:
           - Project Administration
           - Writing - Review & Editing
           - Writing - Original Draft
-       methods:
+      diagnostics:
+        order: 1
+        contributions:
+          - Project Administration
+          - Writing - Original Draft
+          - Writing - Review & Editing
+          - Visualization
+      methods:
         order: 1
         contributions:
           - Software
