@@ -127,7 +127,7 @@ authors:
       - the National Human Genome Research Institute (R01 HG010067)
     manuscripts:
       vaccines-trad:
-        order: 7
+        order: 8
         contributions:
           - Conceptualization
           - Supervision
@@ -467,7 +467,7 @@ authors:
       - John W. and Jeanne M. Rowe Center for Research in Virology
     manuscripts:
       vaccines-trad:
-        order: 8
+        order: 7
         contributions:
           - Writing - Review & Editing
           - Writing - Original Draft
