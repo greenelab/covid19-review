@@ -55,6 +55,21 @@ authors:
         contributions:
           - D
           - E
+      vaccines-trad:
+        order: 1
+        contributions:
+          - Software
+          - Project Administration
+          - Visualization
+          - Writing - Review & Editing
+          - Writing - Original Draft
+      vaccines-novel:
+        order: 1
+        contributions:
+          - Software
+          - Project Administration
+          - Writing - Review & Editing
+          - Writing - Original Draft
       diagnostics:
         order: 1
         contributions:
@@ -111,6 +126,17 @@ authors:
       - the Gordon and Betty Moore Foundation (GBMF 4552)
       - the National Human Genome Research Institute (R01 HG010067)
     manuscripts:
+      vaccines-trad:
+        order: 8
+        contributions:
+          - Conceptualization
+          - Supervision
+      vaccines-novel:
+        order: 9
+        contributions:
+          - Conceptualization
+          - Writing - Original Draft
+          - Supervision
       pathogenesis:
         order: 10
         contributions:
@@ -261,6 +287,15 @@ authors:
         contributions:
           - Writing - Review & Editing
           - Visualization
+      vaccines-trad:
+        order: 3
+        contributions:
+          - Project Administration
+          - Writing - Review & Editing          
+      vaccines-novel:
+        order: 5
+        contributions:
+          - Project Administration
   -
     github: RLordan
     name: Ronan Lordan
@@ -304,6 +339,19 @@ authors:
           - Writing - Review & Editing
           - Writing - Original Draft
           - Project Administration
+      vaccines-trad:
+        order: 2
+        contributions:
+          - Project Administration
+          - Visualization
+          - Writing - Review & Editing
+          - Writing - Original Draft
+      vaccines-novel:
+        order: 2
+        contributions:
+          - Project Administration
+          - Writing - Review & Editing
+          - Writing - Original Draft
   -
     github: cbrueffer
     name: Christian Brueffer
@@ -419,6 +467,15 @@ authors:
     funders:
       - John W. and Jeanne M. Rowe Center for Research in Virology
     manuscripts:
+      vaccines-trad:
+        order: 7
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
+      vaccines-novel:
+        order: 8
+        contributions:
+          - Writing - Review & Editing
       pathogenesis:
         order: 9
         contributions:
@@ -635,6 +692,15 @@ authors:
         contributions:
           - Writing - Original Draft
           - Writing - Review & Editing
+      vaccines-trad:
+        order: 3
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
+      vaccines-novel:
+        order: 5
+        contributions:
+          - Writing - Review & Editing
   -
     github: ismms-himc
     name: Immunology Institute of the Icahn School of Medicine
@@ -721,6 +787,15 @@ authors:
         contributions:
           - Writing - Review & Editing
           - Writing - Original Draft
+      vaccines-trad:
+        order: 4
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
+      vaccines-novel:
+        order: 4
+        contributions:
+          - Writing - Review & Editing
   -
     github: vincerubinetti
     name: Vincent Rubinetti
@@ -880,6 +955,16 @@ authors:
       lastapproved: !!str 2020-11-16
     funders:
       - NIH Medical Scientist Training Program T32 GM07170
+    manuscripts:
+      vaccines-trad:
+        order: 5
+        contributions:
+          - Writing - Review & Editing
+      vaccines-novel:
+        order: 3
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
   -
     github: davidmanheim
     name: David Manheim
@@ -1323,6 +1408,14 @@ authors:
         order: 7
         contributions:
           - Project Administration
+      vaccines-trad:
+        order: 6
+        contributions:
+          - Project Administration
+      vaccines-novel:
+        order: 7
+        contributions:
+          - Project Administration
   -
     github: rishirajgoel
     name: Rishi Raj Goel
@@ -1372,7 +1465,7 @@ authors:
     name: Amruta Naik
     initials: AN
     orcid: 0000-0003-0673-2643
-    email: NAIKA@chop.edu
+    email: Amruta.Naik@Pennmedicine.upenn.edu
     code of conduct:
       confirmed: Yes
     affiliations:
@@ -1380,6 +1473,16 @@ authors:
     coi:
       string: "None"
       lastapproved: !!str 2021-04-05
+    manuscripts:
+      vaccines-trad:
+        order: 3
+        contributions:
+          - Writing - Review & Editing
+          - Writing - Original Draft
+      vaccines-novel:
+        order: 6
+        contributions:
+          - Writing - Review & Editing
   -
     github: yusha-sun
     name: Yusha Sun
