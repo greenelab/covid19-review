@@ -2,7 +2,7 @@ import pandas as pd
 import os
 import datetime
 import argparse
-from jsonFunctions import *
+from jsonFunctions import write_JSON
 import plydata as ply
 import numpy as np
 

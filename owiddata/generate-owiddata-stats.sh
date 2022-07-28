@@ -22,6 +22,8 @@ OWID_MAP=owiddata/maps
 OWID_DOSES_BAR=OWID_dosesByContinent.png
 OWID_DOSES_SCPLOT=OWID_doseTypebyGDP.png
 
+mkdir -p $OWID_MAP
+
 echo "Generating Our World in Data COVID-19 vaccine statistics"
 python owiddata/01.OWID.basicStats.py $OWID_STATS_JSON $COUNTRY_BY_VAX $VAX_BY_MANF
 python owiddata/02.VIPER.basicStats.py $OWID_STATS_JSON  $VACCINE_PLATFORMS

@@ -1,7 +1,7 @@
 import argparse
 import pandas as pd
-from jsonFunctions import *
-from mapFunctions import *
+from jsonFunctions import load_JSON, write_JSON
+from mapFunctions import setup_geopandas 
 
 def getContinent(vaxPlatforms, countries_mapping):
     """Merge vaccine info with map info using a user-maintained list of iso codes

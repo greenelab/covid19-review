@@ -1,5 +1,5 @@
 import argparse
-from jsonFunctions import *
+from jsonFunctions import load_JSON, write_JSON
 import pandas as pd
 import urllib.request
 from bs4 import BeautifulSoup

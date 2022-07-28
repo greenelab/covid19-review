@@ -1,5 +1,5 @@
 import pandas as pd
-from jsonFunctions import *
+from jsonFunctions import load_JSON
 import argparse
 from fuzzywuzzy import fuzz
 

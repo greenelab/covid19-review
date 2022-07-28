@@ -1,8 +1,8 @@
 import argparse
-from jsonFunctions import *
+from jsonFunctions import load_JSON, write_JSON
 import pandas as pd
 import numpy as np
-from mapFunctions import *
+from mapFunctions import setup_geopandas, lowres_fix
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 from ast import literal_eval

@@ -1,8 +1,8 @@
 import argparse
 import pandas as pd
-from jsonFunctions import *
-from mapFunctions import *
-from plotnine import *
+from jsonFunctions import load_JSON, write_JSON
+from mapFunctions import setup_geopandas
+from plotnine import ggplot, aes, geom_point, geom_smooth, geom_bar, ggtitle, ylab, xlab
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 import numpy as np
