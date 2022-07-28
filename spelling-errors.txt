@@ -16,6 +16,7 @@ hzck
 IgE
 lococyte
 Medicago
+monkeypox
 myocarditis
 Nicotiana
 NWSS
