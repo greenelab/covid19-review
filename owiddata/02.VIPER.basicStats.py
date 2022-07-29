@@ -1,5 +1,5 @@
 import argparse
-from jsonFunctions import *
+from jsonFunctions import load_JSON, write_JSON
 import pandas as pd
 import urllib.request
 from bs4 import BeautifulSoup
@@ -93,6 +93,8 @@ def main(args):
     for type in set(vaxPlatforms["Platform Type"]):
         owid_stats["viper_approved_" + "_".join(type.split())] = \
             create_table(vaxPlatforms, type)
+        owid_stats["viper_num_approved_" + "_".join(type.split())] = \
+            len(vaxPlatforms[vaxPlatforms["Platform Type"] == type])
 
     # Add to JSON file
     write_JSON(owid_stats, args.update_json)

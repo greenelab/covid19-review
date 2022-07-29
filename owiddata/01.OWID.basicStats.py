@@ -2,7 +2,7 @@ import pandas as pd
 import os
 import datetime
 import argparse
-from jsonFunctions import *
+from jsonFunctions import write_JSON
 import plydata as ply
 import numpy as np
 
@@ -37,21 +37,23 @@ def main(args):
         owid_stats['owid_commit_date'] = os.environ['OWID_COMMIT_DATE']
         owid_stats['owid_commit_date_pretty'] = convert_date(os.environ['OWID_COMMIT_DATE'])
 
-    # Retrieve data from OWID
+    # Retrieve all data from OWID that we need for the whole pipeline
     locations_url = f'https://raw.githubusercontent.com/owid/covid-19-data/{commit}/public/data/vaccinations/locations.csv'
     vaccine_locations = pd.read_csv(locations_url, error_bad_lines=False)
 
     numbers_url = f'https://raw.githubusercontent.com/owid/covid-19-data/{commit}/public/data/vaccinations/vaccinations.csv'
     vaccine_nums = pd.read_csv(numbers_url, error_bad_lines=False)
 
-    #manufacturer_url = f'https://raw.githubusercontent.com/owid/covid-19-data/{commit}/public/data/vaccinations/vaccinations-by-manufacturer.csv'
-    #vaccine_manf = pd.read_csv(manufacturer_url, error_bad_lines=False)
+    manufacturer_url = f'https://raw.githubusercontent.com/owid/covid-19-data/{commit}/public/data/vaccinations/vaccinations-by-manufacturer.csv'
+    vaccine_manf = pd.read_csv(manufacturer_url, error_bad_lines=False)
+    vaccine_manf.to_csv(args.vax_bymanf, index=False)
 
     # Pull up-to-date statistics from data
     vaccine_nums['date'] = pd.to_datetime(vaccine_nums['date'])
 
     owid_stats["owid_most_recent_date"] = vaccine_nums['date'].max().strftime('%B %d, %Y').replace(' 0', ' ')
 
+    # To do: Add a check to make sure < 1 trillion and open issue if not
     owid_stats["owid_total_vaccinations"] = billions(
         (vaccine_nums
             >> ply.query("location == 'World'")
@@ -89,6 +91,10 @@ if __name__ == '__main__':
     parser.add_argument('country_byvax',
                         help='Path of the CSV file with the list of ISO codes \\'
                              ' per vaccine candidate',
+                        type=str)
+    parser.add_argument('vax_bymanf',
+                        help='Path of the CSV file with the list of doses admin \\'
+                             ' per vaccine (candidate)',
                         type=str)
     args = parser.parse_args()
     main(args)

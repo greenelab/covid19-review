@@ -9,6 +9,7 @@ dependencies:
   - pip=20.0
   - python=3.7.6
   - geopandas=0.10.2
+  - plotnine=0.8.0
   - shapely=1.7.1
   - fiona=1.8.17
   - python-levenshtein=0.12.2

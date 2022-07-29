@@ -1,5 +1,5 @@
 import pandas as pd
-from jsonFunctions import *
+from jsonFunctions import load_JSON
 import argparse
 from fuzzywuzzy import fuzz
 
@@ -24,16 +24,23 @@ def pair_datasource_names(viper_table, owid_names):
     heatMap = pd.DataFrame.from_dict(name_match_ratio,
                                      orient="index",
                                      columns=owid_names)
+    # Rows of heatmap are VIPER name, columns are OWID name
 
-    # Identify the best hit for each VIPER and each OWID vax name
+    # Identify the closest name in each dataset
     owid_bestmatch = heatMap.idxmax(axis=0).to_dict() # row max
     viper_bestmatch = heatMap.idxmax(axis=1).to_dict()
 
     unifiedNames = dict()
-    for vname, oname in viper_bestmatch.items():
-        if vname == owid_bestmatch[oname]:
+    for oname, vname in owid_bestmatch.items():
+        if oname == viper_bestmatch[vname]:
             unifiedNames[vname] = oname
+        elif oname == "IMBCAMS":
+            # VIPER has this listed as a vaccine candidate but it has been approved
+            # We could update this to pull the data from the associated VIPER candidate page
+            unifiedNames[vname] = None
         else:
+            # To do: Open issue? This case should not arise for ones that have been
+            # manually screened, so manual screening would be recommended
             unifiedNames[vname] = None
 
     viper_table['OWID Nomenclature'] = viper_table.index.map(unifiedNames)
@@ -46,7 +53,7 @@ def pair_datasource_names(viper_table, owid_names):
 
 def main(args):
     # Load data from temporary files
-    vaxPlatforms = pd.read_csv(args.platform_types)
+    vaxPlatforms = pd.read_csv(args.platform_types, index_col="Vaccine")
     countryByVax = load_JSON(args.country_byvax)
 
     # Align the terminology used across the datasets
@@ -57,7 +64,7 @@ def main(args):
         map(countryByVax)
 
     # Write updated platform information to temporary file
-    vaxPlatforms.to_csv(args.platform_types, index=False)
+    vaxPlatforms.to_csv(args.platform_types)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
