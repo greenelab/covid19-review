@@ -3,6 +3,7 @@ from jsonFunctions import load_JSON, write_JSON
 import pandas as pd
 import urllib.request
 from bs4 import BeautifulSoup
+import dateutil.parser as dparser
 
 def assign_platform_types(vaxtype):
     """The types of vaccines as categoried on trackvaccines.org differs
@@ -29,22 +30,22 @@ def assign_platform_types(vaxtype):
         # Update to raise issue
         print("Unknown vaccine platform:", vaxtype)
         exit(1)
-
     return types[vaxtype]
 
-def retrieve_platform_types():
-    """Use trackvaccines.org to scrape the website listing approved vaccines
+def retrieve_date(soup):
+    # Find the date of last update, then convert to string following same
+    # assumptions used in 01.OWID.basicStats.py
+    update_info = soup.find(class_="has-small-font-size has-text-align-center").get_text()
+    update_date = dparser.parse(update_info, fuzzy=True)
+    return update_date.strftime('%B %d, %Y').replace(' 0', ' ')
+
+def retrieve_platform_types(cards):
+    """Use trackvaccines.org to scrape the website listing approved vaccines by
+    iterating through the cards to extract information. Note: Tags were identified
+    empirically and are not self-evident
     Returns: dataframe """
+
     vaccine_info = dict()
-    vaccineHTML = urllib.request.urlopen('https://covid19.trackvaccines.org/vaccines/approved/')
-
-    # Extract the HTML that makes the cards on the webpage (each card is a vax)
-    soup = BeautifulSoup(vaccineHTML, "html5lib")
-    body = soup.find('body')
-    cards = body.find_all('li')
-
-    # Iterate through the cards to extract information
-    # Tags were identified empirically and are not self-evident
     for card in cards: # find all element of tag
         if card.find('a', {"class": "icon-link"}) is not None:
             vaccine_platform = card.find('a', {"class": "icon-link"}).get_text()
@@ -60,6 +61,7 @@ def retrieve_platform_types():
                                           vaccine_platform,
                                           vaccine_platform_type,
                                           link['href']]
+
     vaccine_df = pd.DataFrame.from_dict(vaccine_info, orient='index')
     vaccine_df.rename(mapper={0: "Company", 1: "Platform", 2: "Platform Type", 3: "URL"},
                       axis=1, inplace=True)
@@ -83,7 +85,15 @@ def main(args):
     owid_stats = load_JSON(args.update_json)
 
     # Retrieve & store types of vaccines from https://covid19.trackvaccines.org
-    vaxPlatforms = retrieve_platform_types()
+    vaccineHTML = urllib.request.urlopen('https://covid19.trackvaccines.org/vaccines/approved/')
+    soup = BeautifulSoup(vaccineHTML, "html5lib")
+
+    # Find the date that the VIPER data was last updated
+    owid_stats["viper_date_pretty"] = retrieve_date(soup)
+
+    # Extract the HTML that makes the cards on the webpage (each card is a vax)
+    body = soup.find('body')
+    vaxPlatforms = retrieve_platform_types(body.find_all('li'))
     vaxPlatforms.to_csv(args.platform_types, index=True)
 
     # Count the number of vaccines being administered total & per technology type
