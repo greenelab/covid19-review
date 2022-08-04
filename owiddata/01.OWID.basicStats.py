@@ -22,7 +22,7 @@ def convert_date(git_date):
     return datetime.datetime.fromisoformat(git_date).strftime('%B %d, %Y').replace(' 0', ' ')
 
 def billions(count, decimals=0):
-    """Cleans integer in the billions to make a """
+    """Cleans integer in the billions to make a string formatted as 'X billion', defaulting to integer"""
     return str(np.round(count/1000000000, decimals)) + " billion"
 
 def main(args):
