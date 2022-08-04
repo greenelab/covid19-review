@@ -90,7 +90,7 @@ def main(args):
         ax.set_title("Number of " + platform + " vaccines available worldwide")
         fig.tight_layout()
 
-        plt.savefig(args.map_dir + "/" + platformName + '.png', dpi=300, bbox_inches="tight")
+        plt.savefig(args.map_dir + "/" + platformName + '.png', dpi=600, bbox_inches="tight")
         plt.savefig(args.map_dir + "/" + platformName + '.svg', bbox_inches="tight")
 
         print(f'Wrote {args.map_dir + "/" + platformName + ".png"} and '
