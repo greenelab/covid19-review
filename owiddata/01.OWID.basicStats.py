@@ -81,7 +81,7 @@ def main(args):
             countryByVax[vax] = countryCodes + [iso]
 
     # Pull list of countries where specific vaccines have been authorized, as requested by authors
-    for vaccine in ["Covaxin","Sinovac"]:
+    for vaccine in ["Covaxin", "Sinovac"]:
         isos = countryByVax[vaccine]
         owid_stats[vaccine+"_country_count"] = str(len(isos))
 
@@ -91,8 +91,8 @@ def main(args):
                 >> ply.select("continent")
                 >> ply.distinct(["continent"])
         )
-        continents = [value for row in continents_df.values.tolist() for value in row]
-        owid_stats[vaccine + "_continents"] = ', '.join(continents[:-1]) + " and " + continents[-1]
+        continents = [value for row in sorted(continents_df.values.tolist()) for value in row]
+        owid_stats[vaccine + "_continents"] = ', '.join(continents[:-1]) + ", and " + continents[-1]
 
     # Write output files
     write_JSON(countryByVax, args.country_byvax)
