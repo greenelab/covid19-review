@@ -16,6 +16,8 @@
   "owid_non_replicating_viral_vector_count": 5,
   "owid_non_replicating_viral_vector_countries": 202,
   "owid_non_replicating_viral_vector_map": "https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/owiddata/maps/non_replicating_viral_vector.png",
+  "owid_plasmid_vectored_count": 0,
+  "owid_plasmid_vectored_countries": 0,
   "owid_protein_subunit_count": 10,
   "owid_protein_subunit_countries": 41,
   "owid_protein_subunit_map": "https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/owiddata/maps/protein_subunit.png",
@@ -34,10 +36,10 @@
   "viper_num_approved_subunit": 17,
   "viper_num_approved_whole_virus": 11,
   "viper_vaccine_counts": "40",
-  "viper_vax_dev_Africa": "No approved vaccines have been developed in Africa [@url:https://covid19.trackvaccines.org]",
+  "viper_vax_dev_Africa": "No approved vaccines have been developed in Africa [@url:https://covid19.trackvaccines.org].",
   "viper_vax_dev_Asia": "Vaccines have been developed in 6 countries in Asia, including China (Convidecia, CanSino; Covilo, Sinopharm (Beijing); CoronaVac, Sinovac; Inactivated (Vero Cells), Sinopharm (Wuhan); nan, nan; KCONVAC, Shenzhen Kangtai Biological Products Co; Zifivax, Anhui Zhifei Longcom), India (Covaxin, Bharat Biotech; Corbevax, Biological E Limited), Iran (COVIran Barekat, Shifa Pharmed Industrial Co; FAKHRAVAC (MIVAC), Organization of Defensive Innovation and Research; Razi Cov Pars, Razi Vaccine and Serum Research Institute), Kazakhstan (QazVac, Research Institute for Biological Safety Problems (RIBSP)), Taiwan (MVC-COV1901, Medigen), and Turkey (Turkovac, Health Institutes of Turkey).",
   "viper_vax_dev_Europe": "Vaccines have been developed in 4 countries in Europe, including the Netherlands (Ad26.COV2.S, Janssen (Johnson & Johnson)), United Kingdom (Vaxzevria, Oxford/AstraZeneca), Germany (Comirnaty, Pfizer/BioNTech), and Russia (Sputnik Light, Gamaleya; Sputnik V, Gamaleya; EpiVacCorona, Vector State Research Center of Virology and Biotechnology; KoviVac, Chumakov Center).",
   "viper_vax_dev_North_America": "Vaccines have been developed in 2 countries in North America, including the United States of America (Spikevax, Moderna; Comirnaty, Pfizer/BioNTech; Nuvaxovid, Novavax), and Cuba (Abdala, Center for Genetic Engineering and Biotechnology (CIGB); Soberana Plus, Instituto Finlay de Vacunas Cuba; Soberana 02, Instituto Finlay de Vacunas Cuba).",
   "viper_vax_dev_Oceania": "The only approved vaccine developed in Oceania is SpikoGen, which was developed by Vaxine/CinnaGen Co. in Australia [@url:https://covid19.trackvaccines.org].",
-  "viper_vax_dev_South_America": "No approved vaccines have been developed in South America [@url:https://covid19.trackvaccines.org]"
+  "viper_vax_dev_South_America": "No approved vaccines have been developed in South America [@url:https://covid19.trackvaccines.org]."
 }

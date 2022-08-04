@@ -25,7 +25,7 @@ def getContinentText(devCountryInfo):
     for continent in ["North America", "Asia", "Europe", "Oceania", "Africa", "South America"]:
         devVax = devCountryInfo[devCountryInfo["continent"] == continent]
         if len(devVax) == 0:
-            sentences[continent] = "No approved vaccines have been developed in {0} [@url:https://covid19.trackvaccines.org]".format(continent)
+            sentences[continent] = "No approved vaccines have been developed in {0} [@url:https://covid19.trackvaccines.org].".format(continent)
         elif len(devVax) == 1:
             info = devVax.squeeze()
             sentences[continent] = "The only approved vaccine developed in {0} is {1}, which was developed by {2} in {3} [@url:https://covid19.trackvaccines.org].".\
