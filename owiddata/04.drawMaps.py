@@ -54,9 +54,9 @@ def main(args):
         # This stat does not reveal the overall number of approved vaccines,
         # just the number tracked by OWID
         owid_stats["owid_" + platformName + "_count"] = \
-            len(vaccines)
+            str(len(vaccines))
         if len(vaccines) == 0:
-            owid_stats["owid_" + platformName + "_countries"] = len(vaccines)
+            owid_stats["owid_" + platformName + "_countries"] = str(len(vaccines))
             print("No data in OWID dataset for {}".format(platform))
             continue
 
@@ -65,7 +65,7 @@ def main(args):
         listOfCodes= vaccines["countries"].apply(literal_eval)
         countries = pd.Series([iso for country_list in listOfCodes
                                for iso in country_list])
-        owid_stats["owid_" + platformName + "_countries"] = len(countries.unique())
+        owid_stats["owid_" + platformName + "_countries"] = str(len(countries.unique()))
 
         # Count how many times a country code appears across all vaccines
         # of this platform type
