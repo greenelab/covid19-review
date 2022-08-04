@@ -80,18 +80,19 @@ def main(args):
             countryCodes = countryByVax.get(vax, [])
             countryByVax[vax] = countryCodes + [iso]
 
-    # Pull list of countries where Sinovac's CoronaVac has been authorized
-    sinovac_isos = countryByVax["Sinovac"]
-    owid_stats["sinovac_country_count"] = str(len(sinovac_isos))
+    # Pull list of countries where specific vaccines have been authorized, as requested by authors
+    for vaccine in ["Covaxin","Sinovac"]:
+        isos = countryByVax[vaccine]
+        owid_stats[vaccine+"_country_count"] = str(len(isos))
 
-    country_data = setup_geopandas()
-    sinovac_count= (
-            country_data[country_data['iso_a3'].isin(sinovac_isos)]
-            >> ply.select("continent")
-            >> ply.distinct(["continent"])
-    )
-    sinovac_continents = [value for row in sinovac_count.values.tolist() for value in row]
-    owid_stats["sinovac_continents"] = ', '.join(sinovac_continents[:-1]) + " and " + sinovac_continents[-1]
+        country_data = setup_geopandas()
+        continents_df = (
+                country_data[country_data['iso_a3'].isin(isos)]
+                >> ply.select("continent")
+                >> ply.distinct(["continent"])
+        )
+        continents = [value for row in continents_df.values.tolist() for value in row]
+        owid_stats[vaccine + "_continents"] = ', '.join(continents[:-1]) + " and " + continents[-1]
 
     # Write output files
     write_JSON(countryByVax, args.country_byvax)
