@@ -21,3 +21,4 @@ def lowres_fix(world):
     world.loc[world['name'] == 'Somaliland', 'iso_a3'] = 'SOM'
     world.loc[world['name'] == 'Kosovo', 'iso_a3'] = 'RKS'
     return world
+
