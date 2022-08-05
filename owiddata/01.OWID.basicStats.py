@@ -2,9 +2,10 @@ import pandas as pd
 import os
 import datetime
 import argparse
-from jsonFunctions import write_JSON
 import plydata as ply
 import numpy as np
+from jsonFunctions import write_JSON
+from mapFunctions import setup_geopandas
 
 def convert_date(git_date):
     '''Reformat git commit style datetimes (ISO 8601) to Month DD, YYYY.
@@ -21,6 +22,7 @@ def convert_date(git_date):
     return datetime.datetime.fromisoformat(git_date).strftime('%B %d, %Y').replace(' 0', ' ')
 
 def billions(count, decimals=0):
+    """Cleans integer in the billions to make a string formatted as 'X billion', defaulting to integer"""
     return str(np.round(count/1000000000, decimals)) + " billion"
 
 def main(args):
@@ -53,7 +55,6 @@ def main(args):
 
     owid_stats["owid_most_recent_date"] = vaccine_nums['date'].max().strftime('%B %d, %Y').replace(' 0', ' ')
 
-    # To do: Add a check to make sure < 1 trillion and open issue if not
     owid_stats["owid_total_vaccinations"] = billions(
         (vaccine_nums
             >> ply.query("location == 'World'")
@@ -70,12 +71,28 @@ def main(args):
     # Transform list of vaccine candidate per iso code to list of ISO codes per vaccine candidate
     allVaxByCountry = dict(zip(vaccine_locations["iso_code"],
                                vaccine_locations["vaccines"]))
+    owid_stats["owid_total_countries"] = str(len(allVaxByCountry))
+
     countryByVax = dict()
     for iso, vaccines in allVaxByCountry.items():
         for vax in vaccines.split(","):
             vax = vax.strip()
             countryCodes = countryByVax.get(vax, [])
             countryByVax[vax] = countryCodes + [iso]
+
+    # Pull list of countries where specific vaccines have been authorized, as requested by authors
+    for vaccine in ["Covaxin", "Sinovac"]:
+        isos = countryByVax[vaccine]
+        owid_stats[vaccine+"_country_count"] = str(len(isos))
+
+        country_data = setup_geopandas()
+        continents_df = (
+                country_data[country_data['iso_a3'].isin(isos)]
+                >> ply.select("continent")
+                >> ply.distinct(["continent"])
+        )
+        continents = [value for row in sorted(continents_df.values.tolist()) for value in row]
+        owid_stats[vaccine + "_continents"] = ', '.join(continents[:-1]) + ", and " + continents[-1]
 
     # Write output files
     write_JSON(countryByVax, args.country_byvax)
