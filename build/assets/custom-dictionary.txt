@@ -36,6 +36,7 @@ adjuvants
 adsorptive
 AdVac
 AE
+AEs
 aerosolized
 affinis
 agitter
@@ -132,6 +133,7 @@ barcodes
 barcoding
 Baric
 Baricitinib
+Barré
 Basigin
 basophil
 BatCoV
@@ -218,6 +220,7 @@ Calu
 camostat
 Canis
 CanSino
+CanSino's
 Cao
 capita
 capsid
@@ -313,6 +316,7 @@ contaminations
 contexture
 Convidecia
 COPD
+CORBEVAX
 CoronaCentral
 CoronaVac
 CoronaVac’s
@@ -333,6 +337,7 @@ COVAXIN
 COVAXIN’s
 COVI
 COVID
+Covifenz
 Covishield
 CoviVac
 CoVs
@@ -412,6 +417,7 @@ deltacoronaviruses
 deltoid
 demethylases
 Dendritic
+deoptimization
 deoptimized
 Deprez
 der
@@ -656,6 +662,7 @@ glycosylated
 glycosylation
 GMTs
 gnmbjd
+gnpjxm
 gnx
 Goel
 GOLGA
@@ -675,6 +682,7 @@ GTEx
 Guangdong
 Guebila
 Guerin
+Guillain
 GWAS
 Gyeonggi
 hACE
@@ -761,6 +769,7 @@ hypoalbuminemia
 hypogammaglobulinemia
 hypoproteinemia
 hypoxia
+hzck
 IAV
 IBD
 IC
@@ -778,6 +787,7 @@ IFR
 IFRs
 IG
 IgA
+IgE
 IgG
 IgGs
 IgM
@@ -1044,6 +1054,7 @@ MCP
 MDCK
 Meara
 Médecine
+Medicago
 medRxiv
 Mehmet
 Mehra
@@ -1094,6 +1105,7 @@ Moderna’s
 modRNA
 modulatory
 mometasone
+monkeypox
 monocyte
 monocytes
 monocytic
@@ -1135,6 +1147,7 @@ myalgia
 myalgias
 Mycobacterium
 myeloma
+myocarditis
 MZ
 NaCl
 Nafisa
@@ -1337,6 +1350,7 @@ plc
 PLD
 pleiotropic
 Plitt
+plotnine
 PMBCs
 pmc
 pmcid
@@ -1560,6 +1574,7 @@ sequelae
 sera
 Sergey
 Serghei
+serendipitously
 seroconversion
 seroconverted
 seroconverters
@@ -1650,6 +1665,7 @@ supernatants
 survivability
 survivorship
 sustentacular
+subvariants
 SV
 svg
 svgs
@@ -1685,6 +1701,7 @@ thermostability
 Thermus
 Thevarajan
 THP
+thromboembolic
 thromboinflammation
 thymosin
 Tiago
@@ -1731,6 +1748,7 @@ TrialsTracker
 trimer
 trimeric
 trimerization
+trimers
 troponin
 trypsin
 TTCR
@@ -1765,6 +1783,8 @@ upregulation
 uri
 UTR
 UVB
+vaccinee
+vaccinees
 vaccinia
 vaccinology
 VADE
@@ -1776,6 +1796,7 @@ vascularized
 vasculitis
 vasodilator
 Vav
+VE
 Veklury
 Venu
 Vero
@@ -1807,6 +1828,7 @@ Vo
 VOC
 VOCs
 VOI
+VOIs
 von
 VPM
 VSV
