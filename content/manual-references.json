@@ -2032,7 +2032,7 @@
 {
   "id": "url:https://covid-19tracker.milkeninstitute.org",
   "type": "webpage",
-  "abstract": "The Milken Institute’s COVID-19 Treatment and Vaccine Tracker tracks the development of treatments and vaccines for COVID-19 (coronavirus). Explore the latest updates on the urgent race to develop a COVID-19 vaccine.",
+  "abstract": "The Milken Institute's COVID-19 Treatment and Vaccine Tracker tracks the development of treatments and vaccines for COVID-19 (coronavirus). Explore the latest updates on the urgent race to develop a COVID-19 vaccine.",
   "title": "COVID-19 Treatment and Vaccine Tracker",
   "container-title": "Milken Institute",
   "URL": "https://covid-19tracker.milkeninstitute.org/",
@@ -2286,7 +2286,7 @@
   "author": [
     {
       "given": "Marc-André",
-      "family": "D’Aoust"
+      "family": "D'Aoust"
     },
     {
       "given": "Pierre-Olivier",
@@ -2757,7 +2757,7 @@
   "DOI": "10.1101/2022.02.15.22270948",
   "type": "manuscript",
   "source": "Crossref",
-  "title": "4th Dose COVID mRNA Vaccines’ Immunogenicity & Efficacy Against Omicron VOC",
+  "title": "4th Dose COVID mRNA Vaccines' Immunogenicity & Efficacy Against Omicron VOC",
   "author": [
     {
       "given": "Gili",
