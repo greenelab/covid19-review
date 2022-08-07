@@ -2851,5 +2851,27 @@
   },
   "URL": "https://doi.org/gpnbfd",
   "id": "doi:10.1101/2022.02.15.22270948"
+},
+{
+  "id": "url:https://grftr.news/why-was-a-major-study-on-ivermectin-for-covid-19-just-retracted",
+  "type": "webpage",
+  "language": "en",
+  "title": "Why Was a Major Study on Ivermectin for COVID-19 Just Retracted?",
+  "URL": "https://grftr.news/why-was-a-major-study-on-ivermectin-for-covid-19-just-retracted",
+  "author": [
+    {
+      "family": "Lawrence",
+      "given": "Jack"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+     [
+        2021,
+        7,
+        15
+      ]
+    ]
+  }
 }
 ]
