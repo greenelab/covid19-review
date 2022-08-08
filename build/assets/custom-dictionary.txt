@@ -682,6 +682,7 @@ GTEx
 Guangdong
 Guebila
 Guerin
+guidances
 Guillain
 GWAS
 Gyeonggi
@@ -1317,6 +1318,7 @@ Pharm
 pharmacodynamic
 pharmacologically
 pharmacovigilance
+phe
 phenome
 phenotypes
 phenotypic
@@ -1797,6 +1799,7 @@ vasculitis
 vasodilator
 Vav
 VE
+VEs
 Veklury
 Venu
 Vero
