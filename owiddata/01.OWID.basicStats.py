@@ -1,7 +1,6 @@
 import pandas as pd
 import os
 import datetime
-import dateutil.parser as dparser
 import argparse
 import plydata as ply
 import numpy as np
