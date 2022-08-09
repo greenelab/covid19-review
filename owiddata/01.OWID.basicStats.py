@@ -65,9 +65,9 @@ def main(args):
             >> ply.query("date == date.max()")
     ).to_dict(orient='list')
 
-    owid_stats["owid_daily_rate"] = str(vax_ww_data_latest['daily_vaccinations_per_million'][0]) + \
-                                    "per million"
-    owid_stats["owid_total_vaccinations"] = billions(vax_ww_data_latest['total_vaccinations'][0])
+    owid_stats["owid_worldwide_daily_rate"] = str(vax_ww_data_latest['daily_vaccinations_per_million'][0]) + \
+                                    " per million"
+    owid_stats["owid_worldwide_total_vaccinations"] = billions(vax_ww_data_latest['total_vaccinations'][0])
     owid_stats["owid_worldwide_date"] = vax_ww_data_latest['date'][0].to_pydatetime().\
         strftime('%B %d, %Y').replace(' 0', ' ')
 
