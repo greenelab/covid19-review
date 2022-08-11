@@ -338,6 +338,7 @@ COVAXIN’s
 COVI
 COVID
 Covifenz
+Covilo
 Covishield
 CoviVac
 CoVs
