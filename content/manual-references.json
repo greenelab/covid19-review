@@ -798,7 +798,7 @@
 {
   "id": "url:http://www.news.sanofi.us/2020-03-16-Sanofi-and-Regeneron-begin-global-Kevzara-R-sarilumab-clinical-trial-program-in-patients-with-severe-COVID-19",
   "type": "webpage",
-  "title": "Sanofi and Regeneron begin global Kevzara® (sarilumab) clinical trial program in patients with severe COVID-19",
+  "title": "Sanofi and Regeneron begin global KevzaraÂ® (sarilumab) clinical trial program in patients with severe COVID-19",
   "container-title": "Sanofi",
   "URL": "http://www.news.sanofi.us/2020-03-16-Sanofi-and-Regeneron-begin-global-Kevzara-R-sarilumab-clinical-trial-program-in-patients-with-severe-COVID-19",
   "issued": {
@@ -1052,14 +1052,14 @@
     "date-parts": [
       [
         2022,
-        6,
-        21
+        7,
+        28
       ]
     ]
   },
   "container-title": "Manubot",
   "title": "Application of Traditional Vaccine Development Strategies to SARS-CoV-2",
-  "URL": "https://greenelab.github.io/covid19-review/v/d9d90fd7e88ef547fb4cbed0ef73baef5fee7fb5/#vaccine-development-strategies-for-sars-cov-2"
+  "URL": "https://greenelab.github.io/covid19-review/v/3bf0adea3375b10ef9c22359ed279f41f49c02c2/#application-of-traditional-vaccine-development-strategies-to-sars-cov-2"
 },
 {
   "type": "article-journal",
@@ -1073,14 +1073,14 @@
     "date-parts": [
       [
         2022,
-        6,
-        21
+        7,
+        28
       ]
     ]
   },
   "container-title": "Manubot",
   "title": "The Coming of Age of Nucleic Acid Vaccines during COVID-19",
-  "URL": "https://greenelab.github.io/covid19-review/v/d9d90fd7e88ef547fb4cbed0ef73baef5fee7fb5/#vaccine-development-strategies-for-sars-cov-2"
+  "URL": "https://greenelab.github.io/covid19-review/v/3bf0adea3375b10ef9c22359ed279f41f49c02c2/#the-coming-of-age-of-nucleic-acid-vaccines-during-covid-19"
 },
 {
   "type": "article-journal",
@@ -1981,6 +1981,922 @@
         2021,
         6,
         22
+      ]
+    ]
+  }
+},
+{
+  "publisher": "American Association for the Advancement of Science (AAAS)",
+  "issue": "6494",
+  "abstract": "<jats:p>A public-private partnership and platform for harmonized clinical trials aims to accelerate licensure and distribution</jats:p>",
+  "DOI": "10.1126/science.abc5312",
+  "type": "article-journal",
+  "page": "948-950",
+  "source": "Crossref",
+  "title": "A strategic approach to COVID-19 vaccine R&D",
+  "volume": "368",
+  "author": [
+    {
+      "given": "Lawrence",
+      "family": "Corey"
+    },
+    {
+      "given": "John R.",
+      "family": "Mascola"
+    },
+    {
+      "given": "Anthony S.",
+      "family": "Fauci"
+    },
+    {
+      "given": "Francis S.",
+      "family": "Collins"
+    }
+  ],
+  "container-title": "Science",
+  "language": "en",
+  "issued": {
+    "date-parts": [
+      [
+        2020,
+        5,
+        29
+      ]
+    ]
+  },
+  "URL": "https://doi.org/ggwfck",
+  "container-title-short": "Science",
+  "PMID": "32393526",
+  "id": "doi:10.1126/science.abc5312"
+},
+{
+  "id": "url:https://covid-19tracker.milkeninstitute.org",
+  "type": "webpage",
+  "abstract": "The Milken Institute's COVID-19 Treatment and Vaccine Tracker tracks the development of treatments and vaccines for COVID-19 (coronavirus). Explore the latest updates on the urgent race to develop a COVID-19 vaccine.",
+  "title": "COVID-19 Treatment and Vaccine Tracker",
+  "container-title": "Milken Institute",
+  "URL": "https://covid-19tracker.milkeninstitute.org/",
+  "accessed": {
+    "date-parts": [
+      [
+        "2022",
+        8,
+        5
+      ]
+    ]
+  }
+},
+{
+  "publisher": "Informa UK Limited",
+  "issue": "9",
+  "DOI": "10.1080/21645515.2016.1177688",
+  "type": "article-journal",
+  "page": "2351-2356",
+  "source": "Crossref",
+  "title": "Immunization with inactivated Middle East Respiratory Syndrome coronavirus vaccine leads to lung immunopathology on challenge with live virus",
+  "volume": "12",
+  "author": [
+    {
+      "given": "Anurodh Shankar",
+      "family": "Agrawal"
+    },
+    {
+      "given": "Xinrong",
+      "family": "Tao"
+    },
+    {
+      "given": "Abdullah",
+      "family": "Algaissi"
+    },
+    {
+      "given": "Tania",
+      "family": "Garron"
+    },
+    {
+      "given": "Krishna",
+      "family": "Narayanan"
+    },
+    {
+      "given": "Bi-Hung",
+      "family": "Peng"
+    },
+    {
+      "given": "Robert B.",
+      "family": "Couch"
+    },
+    {
+      "given": "Chien-Te K.",
+      "family": "Tseng"
+    }
+  ],
+  "container-title": "Human Vaccines & Immunotherapeutics",
+  "language": "en",
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        7
+      ]
+    ]
+  },
+  "URL": "https://doi.org/gmkb76",
+  "container-title-short": "Human Vaccines & Immunotherapeutics",
+  "PMCID": "PMC5027702",
+  "PMID": "27269431",
+  "id": "doi:10.1080/21645515.2016.1177688"
+},
+{
+  "publisher": "Informa UK Limited",
+  "issue": "3",
+  "DOI": "10.4161/hv.27464",
+  "type": "article-journal",
+  "page": "648-658",
+  "source": "Crossref",
+  "title": "Yeast-expressed recombinant protein of the receptor-binding domain in SARS-CoV spike protein with deglycosylated forms as a SARS vaccine candidate",
+  "volume": "10",
+  "author": [
+    {
+      "given": "Wen-Hsiang",
+      "family": "Chen"
+    },
+    {
+      "given": "Lanying",
+      "family": "Du"
+    },
+    {
+      "given": "Shivali M",
+      "family": "Chag"
+    },
+    {
+      "given": "Cuiqing",
+      "family": "Ma"
+    },
+    {
+      "given": "Nancy",
+      "family": "Tricoche"
+    },
+    {
+      "given": "Xinrong",
+      "family": "Tao"
+    },
+    {
+      "given": "Christopher A",
+      "family": "Seid"
+    },
+    {
+      "given": "Elissa M",
+      "family": "Hudspeth"
+    },
+    {
+      "given": "Sara",
+      "family": "Lustigman"
+    },
+    {
+      "given": "Chien-Te K",
+      "family": "Tseng"
+    },
+    {
+      "given": "Maria Elena",
+      "family": "Bottazzi"
+    },
+    {
+      "given": "Peter J",
+      "family": "Hotez"
+    },
+    {
+      "given": "Bin",
+      "family": "Zhan"
+    },
+    {
+      "given": "Shibo",
+      "family": "Jiang"
+    }
+  ],
+  "container-title": "Human Vaccines & Immunotherapeutics",
+  "language": "en",
+  "issued": {
+    "date-parts": [
+      [
+        2013,
+        12,
+        30
+      ]
+    ]
+  },
+  "URL": "https://doi.org/ghms54",
+  "container-title-short": "Human Vaccines & Immunotherapeutics",
+  "PMCID": "PMC4130269",
+  "PMID": "24355931",
+  "id": "doi:10.4161/hv.27464"
+},
+{
+  "publisher": "Informa UK Limited",
+  "issue": "3",
+  "DOI": "10.1080/21655979.2016.1191707",
+  "type": "article-journal",
+  "page": "155-165",
+  "source": "Crossref",
+  "title": "Recent advances in the production of recombinant subunit vaccines in Pichia pastoris",
+  "volume": "7",
+  "author": [
+    {
+      "given": "Man",
+      "family": "Wang"
+    },
+    {
+      "given": "Shuai",
+      "family": "Jiang"
+    },
+    {
+      "given": "Yefu",
+      "family": "Wang"
+    }
+  ],
+  "container-title": "Bioengineered",
+  "language": "en",
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        4,
+        8
+      ]
+    ]
+  },
+  "URL": "https://doi.org/ghqkt8",
+  "container-title-short": "Bioengineered",
+  "PMCID": "PMC4927204",
+  "PMID": "27246656",
+  "id": "doi:10.1080/21655979.2016.1191707"
+},
+{
+  "publisher": "American Chemical Society (ACS)",
+  "issue": "31",
+  "DOI": "10.1021/acs.iecr.8b00985",
+  "type": "article-journal",
+  "page": "10061-10070",
+  "source": "Crossref",
+  "title": "The Coming Age of Insect Cells for Manufacturing and Development of Protein Therapeutics",
+  "volume": "57",
+  "author": [
+    {
+      "given": "Christine M.",
+      "family": "Yee"
+    },
+    {
+      "given": "Andrew J.",
+      "family": "Zak"
+    },
+    {
+      "given": "Brett D.",
+      "family": "Hill"
+    },
+    {
+      "given": "Fei",
+      "family": "Wen"
+    }
+  ],
+  "container-title": "Industrial & Engineering Chemistry Research",
+  "language": "en",
+  "issued": {
+    "date-parts": [
+      [
+        2018,
+        7,
+        9
+      ]
+    ]
+  },
+  "URL": "https://doi.org/gd332h",
+  "container-title-short": "Ind. Eng. Chem. Res.",
+  "PMCID": "PMC6420222",
+  "PMID": "30886455",
+  "id": "doi:10.1021/acs.iecr.8b00985"
+},
+{
+  "publisher": "Wiley",
+  "issue": "9",
+  "DOI": "10.1111/j.1467-7652.2008.00384.x",
+  "type": "article-journal",
+  "page": "930-940",
+  "source": "Crossref",
+  "title": "Influenza virus-like particles produced by transient expression in Nicotiana benthamiana induce a protective immune response against a lethal viral challenge in mice",
+  "volume": "6",
+  "author": [
+    {
+      "given": "Marc-André",
+      "family": "D'Aoust"
+    },
+    {
+      "given": "Pierre-Olivier",
+      "family": "Lavoie"
+    },
+    {
+      "given": "Manon M.-J.",
+      "family": "Couture"
+    },
+    {
+      "given": "Sonia",
+      "family": "Trépanier"
+    },
+    {
+      "given": "Jean-Martin",
+      "family": "Guay"
+    },
+    {
+      "given": "Michèle",
+      "family": "Dargis"
+    },
+    {
+      "given": "Sébastien",
+      "family": "Mongrand"
+    },
+    {
+      "given": "Nathalie",
+      "family": "Landry"
+    },
+    {
+      "given": "Brian J.",
+      "family": "Ward"
+    },
+    {
+      "given": "Louis-P.",
+      "family": "Vézina"
+    }
+  ],
+  "container-title": "Plant Biotechnology Journal",
+  "language": "en",
+  "issued": {
+    "date-parts": [
+      [
+        2008,
+        12
+      ]
+    ]
+  },
+  "URL": "https://doi.org/b8xqkk",
+  "PMID": "19076615",
+  "id": "doi:10.1111/j.1467-7652.2008.00384.x"
+},
+{
+  "publisher": "Informa UK Limited",
+  "issue": "12",
+  "DOI": "10.1080/21645515.2017.1358325",
+  "type": "article-journal",
+  "page": "2918-2930",
+  "source": "Crossref",
+  "title": "Vaccines for emerging infectious diseases: Lessons from MERS coronavirus and Zika virus",
+  "volume": "13",
+  "author": [
+    {
+      "given": "Joel N.",
+      "family": "Maslow"
+    }
+  ],
+  "container-title": "Human Vaccines & Immunotherapeutics",
+  "language": "en",
+  "issued": {
+    "date-parts": [
+      [
+        2017,
+        8,
+        28
+      ]
+    ]
+  },
+  "URL": "https://doi.org/gk7gb4",
+  "container-title-short": "Human Vaccines & Immunotherapeutics",
+  "PMCID": "PMC5718785",
+  "PMID": "28846484",
+  "id": "doi:10.1080/21645515.2017.1358325"
+},
+{
+  "URL": "https://www.who.int/biologicals/areas/vaccines/dna/en",
+  "type": "webpage",
+  "title": "DNA vaccines",
+  "container-title": "World Health Organization",
+  "accessed": {
+    "date-parts": [
+      [
+        "2022",
+        8,
+        5
+      ]
+    ]
+  },
+  "id": "url:https://www.who.int/biologicals/areas/vaccines/dna/en"
+},
+{
+  "publisher": "Informa UK Limited",
+  "issue": "10",
+  "DOI": "10.4161/hv.24702",
+  "type": "article-journal",
+  "page": "2246-2252",
+  "source": "Crossref",
+  "title": "Tolerability of intramuscular and intradermal delivery by CELLECTRA® adaptive constant current electroporation device in healthy volunteers",
+  "volume": "9",
+  "author": [
+    {
+      "given": "Malissa C",
+      "family": "Diehl"
+    },
+    {
+      "given": "Jessica C",
+      "family": "Lee"
+    },
+    {
+      "given": "Stephen E",
+      "family": "Daniels"
+    },
+    {
+      "given": "Pablo",
+      "family": "Tebas"
+    },
+    {
+      "given": "Amir S",
+      "family": "Khan"
+    },
+    {
+      "given": "Mary",
+      "family": "Giffear"
+    },
+    {
+      "given": "Niranjan Y",
+      "family": "Sardesai"
+    },
+    {
+      "given": "Mark L",
+      "family": "Bagarazzi"
+    }
+  ],
+  "container-title": "Human Vaccines & Immunotherapeutics",
+  "language": "en",
+  "issued": {
+    "date-parts": [
+      [
+        2013,
+        10,
+        4
+      ]
+    ]
+  },
+  "URL": "https://doi.org/ggrj7h",
+  "container-title-short": "Human Vaccines & Immunotherapeutics",
+  "PMCID": "PMC3906411",
+  "PMID": "24051434",
+  "id": "doi:10.4161/hv.24702"
+},
+{
+  "publisher": "Centers for Disease Control MMWR Office",
+  "issue": "3",
+  "DOI": "10.15585/mmwr.mm7103a4",
+  "type": "article-journal",
+  "page": "90-95",
+  "source": "Crossref",
+  "title": "Use of the Janssen (Johnson & Johnson) COVID-19 Vaccine: Updated Interim Recommendations from the Advisory Committee on Immunization Practices — United States, December 2021",
+  "volume": "71",
+  "author": [
+    {
+      "given": "Sara E.",
+      "family": "Oliver"
+    },
+    {
+      "given": "Megan",
+      "family": "Wallace"
+    },
+    {
+      "given": "Isaac",
+      "family": "See"
+    },
+    {
+      "given": "Sarah",
+      "family": "Mbaeyi"
+    },
+    {
+      "given": "Monica",
+      "family": "Godfrey"
+    },
+    {
+      "given": "Stephen C.",
+      "family": "Hadler"
+    },
+    {
+      "given": "Tara C.",
+      "family": "Jatlaoui"
+    },
+    {
+      "given": "Evelyn",
+      "family": "Twentyman"
+    },
+    {
+      "given": "Michelle M.",
+      "family": "Hughes"
+    },
+    {
+      "given": "Agam K.",
+      "family": "Rao"
+    },
+    {
+      "given": "Anthony",
+      "family": "Fiore"
+    },
+    {
+      "given": "John R.",
+      "family": "Su"
+    },
+    {
+      "given": "Karen R.",
+      "family": "Broder"
+    },
+    {
+      "given": "Tom",
+      "family": "Shimabukuro"
+    },
+    {
+      "given": "Allison",
+      "family": "Lale"
+    },
+    {
+      "given": "David K.",
+      "family": "Shay"
+    },
+    {
+      "given": "Lauri E.",
+      "family": "Markowitz"
+    },
+    {
+      "given": "Melinda",
+      "family": "Wharton"
+    },
+    {
+      "given": "Beth P.",
+      "family": "Bell"
+    },
+    {
+      "given": "Oliver",
+      "family": "Brooks"
+    },
+    {
+      "given": "Veronica",
+      "family": "McNally"
+    },
+    {
+      "given": "Grace M.",
+      "family": "Lee"
+    },
+    {
+      "given": "H. Keipp",
+      "family": "Talbot"
+    },
+    {
+      "given": "Matthew F.",
+      "family": "Daley"
+    }
+  ],
+  "container-title": "MMWR. Morbidity and Mortality Weekly Report",
+  "issued": {
+    "date-parts": [
+      [
+        2022,
+        1,
+        21
+      ]
+    ]
+  },
+  "URL": "https://doi.org/gn7jws",
+  "container-title-short": "MMWR Morb. Mortal. Wkly. Rep.",
+  "PMCID": "PMC8774160",
+  "PMID": "35051137",
+  "id": "doi:10.15585/mmwr.mm7103a4"
+},
+{
+  "publisher": "Centers for Disease Control MMWR Office",
+  "issue": "18",
+  "DOI": "10.15585/mmwr.mm7018e2",
+  "type": "article-journal",
+  "page": "680-684",
+  "source": "Crossref",
+  "title": "Safety Monitoring of the Janssen (Johnson & Johnson) COVID-19 Vaccine — United States, March–April 2021",
+  "volume": "70",
+  "author": [
+    {
+      "given": "David K.",
+      "family": "Shay"
+    },
+    {
+      "given": "Julianne",
+      "family": "Gee"
+    },
+    {
+      "given": "John R.",
+      "family": "Su"
+    },
+    {
+      "given": "Tanya R.",
+      "family": "Myers"
+    },
+    {
+      "given": "Paige",
+      "family": "Marquez"
+    },
+    {
+      "given": "Ruiling",
+      "family": "Liu"
+    },
+    {
+      "given": "Bicheng",
+      "family": "Zhang"
+    },
+    {
+      "given": "Charles",
+      "family": "Licata"
+    },
+    {
+      "given": "Thomas A.",
+      "family": "Clark"
+    },
+    {
+      "given": "Tom T.",
+      "family": "Shimabukuro"
+    }
+  ],
+  "container-title": "MMWR. Morbidity and Mortality Weekly Report",
+  "issued": {
+    "date-parts": [
+      [
+        2021,
+        4,
+        7
+      ]
+    ]
+  },
+  "URL": "https://doi.org/gm2nkf",
+  "container-title-short": "MMWR Morb. Mortal. Wkly. Rep.",
+  "PMID": "33956784",
+  "id": "doi:10.15585/mmwr.mm7018e2"
+},
+{
+  "publisher": "Centers for Disease Control MMWR Office",
+  "issue": "32",
+  "DOI": "10.15585/mmwr.mm7032e4",
+  "type": "article-journal",
+  "page": "1094-1099",
+  "source": "Crossref",
+  "title": "Use of COVID-19 Vaccines After Reports of Adverse Events Among Adult Recipients of Janssen (Johnson & Johnson) and mRNA COVID-19 Vaccines (Pfizer-BioNTech and Moderna): Update from the Advisory Committee on Immunization Practices — United States, July 2021",
+  "volume": "70",
+  "author": [
+    {
+      "given": "Hannah G.",
+      "family": "Rosenblum"
+    },
+    {
+      "given": "Stephen C.",
+      "family": "Hadler"
+    },
+    {
+      "given": "Danielle",
+      "family": "Moulia"
+    },
+    {
+      "given": "Tom T.",
+      "family": "Shimabukuro"
+    },
+    {
+      "given": "John R.",
+      "family": "Su"
+    },
+    {
+      "given": "Naomi K.",
+      "family": "Tepper"
+    },
+    {
+      "given": "Kevin C.",
+      "family": "Ess"
+    },
+    {
+      "given": "Emily Jane",
+      "family": "Woo"
+    },
+    {
+      "given": "Adamma",
+      "family": "Mba-Jonas"
+    },
+    {
+      "given": "Meghna",
+      "family": "Alimchandani"
+    },
+    {
+      "given": "Narayan",
+      "family": "Nair"
+    },
+    {
+      "given": "Nicola P.",
+      "family": "Klein"
+    },
+    {
+      "given": "Kayla E.",
+      "family": "Hanson"
+    },
+    {
+      "given": "Lauri E.",
+      "family": "Markowitz"
+    },
+    {
+      "given": "Melinda",
+      "family": "Wharton"
+    },
+    {
+      "given": "Veronica V.",
+      "family": "McNally"
+    },
+    {
+      "given": "José R.",
+      "family": "Romero"
+    },
+    {
+      "given": "H. Keipp",
+      "family": "Talbot"
+    },
+    {
+      "given": "Grace M.",
+      "family": "Lee"
+    },
+    {
+      "given": "Matthew F.",
+      "family": "Daley"
+    },
+    {
+      "given": "Sarah A.",
+      "family": "Mbaeyi"
+    },
+    {
+      "given": "Sara E.",
+      "family": "Oliver"
+    }
+  ],
+  "container-title": "MMWR. Morbidity and Mortality Weekly Report",
+  "issued": {
+    "date-parts": [
+      [
+        2021,
+        8,
+        13
+      ]
+    ]
+  },
+  "URL": "https://doi.org/gm2nsz",
+  "container-title-short": "MMWR Morb. Mortal. Wkly. Rep.",
+  "PMCID": "PMC8360272",
+  "PMID": "34383735",
+  "id": "doi:10.15585/mmwr.mm7032e4"
+},
+{
+  "publisher": "Cold Spring Harbor Laboratory",
+  "abstract": "<jats:title>Abstract</jats:title><jats:sec><jats:title>BACKGROUND</jats:title><jats:p>Following the emergence of the Omicron variant of concern, we investigated immunogenicity, efficacy and safety of BNT162b2 or mRNA1273 fourth dose in an open-label, clinical intervention trial.</jats:p></jats:sec><jats:sec><jats:title>METHODS</jats:title><jats:p>Primary end-points were safety and immunogenicity and secondary end-points were vaccine efficacy in preventing SARS-CoV-2 infections and COVID-19 symptomatic disease. The two intervention arms were compared to a matched control group. Eligible participants were healthcare-workers (HCW) vaccinated with three BNT162b2 doses, and whose IgG antibody levels were ≤700 BAU (40-percentile). IgG and neutralizing titers, direct neutralization of live VOCs, and T-cell activation were assessed. All participants were actively screened for SARS-CoV-2 infections on a weekly basis.</jats:p></jats:sec><jats:sec><jats:title>RESULTS</jats:title><jats:p>Of 1050 eligible HCW, 154 and 120 were enrolled to receive BNT162b2 and mRNA1273, respectively, and compared to 426 age-matched controls. Recipients of both vaccine types had a ∼9-10-fold increase in IgG and neutralizing titers within 2 weeks of vaccination and an 8-fold increase in live Omicron VOC neutralization, restoring titers to those measured after the third vaccine dose. Breakthrough infections were common, mostly very mild, yet, with high viral loads. Vaccine efficacy against infection was 30% (95%CI:-9% to 55%) and 11% (95%CI:-43% to +43%) for BNT162b2 and mRNA1273, respectively. Local and systemic adverse reactions were reported in 80% and 40%, respectively.</jats:p></jats:sec><jats:sec><jats:title>CONCLUSIONS</jats:title><jats:p>The fourth COVID-19 mRNA dose restores antibody titers to peak post-third dose titers. Low efficacy in preventing mild or asymptomatic Omicron infections and the infectious potential of breakthrough cases raise the urgency of next generation vaccine development.</jats:p></jats:sec><jats:sec><jats:title>Trial registration number</jats:title><jats:p><jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"http://clicaltrials.gov\">clicaltrials.gov</jats:ext-link>: <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"clintrialgov\" xlink:href=\"NCT05231005\">NCT05231005</jats:ext-link>,  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"clintrialgov\" xlink:href=\"NCT05230953\">NCT05230953</jats:ext-link></jats:p></jats:sec>",
+  "DOI": "10.1101/2022.02.15.22270948",
+  "type": "manuscript",
+  "source": "Crossref",
+  "title": "4th Dose COVID mRNA Vaccines' Immunogenicity & Efficacy Against Omicron VOC",
+  "author": [
+    {
+      "given": "Gili",
+      "family": "Regev-Yochay"
+    },
+    {
+      "given": "Tal",
+      "family": "Gonen"
+    },
+    {
+      "given": "Mayan",
+      "family": "Gilboa"
+    },
+    {
+      "given": "Michal",
+      "family": "Mandelboim"
+    },
+    {
+      "given": "Victoria",
+      "family": "Indenbaum"
+    },
+    {
+      "given": "Sharon",
+      "family": "Amit"
+    },
+    {
+      "given": "Lilac",
+      "family": "Meltzer"
+    },
+    {
+      "given": "Keren",
+      "family": "Asraf"
+    },
+    {
+      "given": "Carmit",
+      "family": "Cohen"
+    },
+    {
+      "given": "Ronen",
+      "family": "Fluss"
+    },
+    {
+      "given": "Asaf",
+      "family": "Biber"
+    },
+    {
+      "given": "Ital",
+      "family": "Nemet"
+    },
+    {
+      "given": "Limor",
+      "family": "Kliker"
+    },
+    {
+      "given": "Gili",
+      "family": "Joseph"
+    },
+    {
+      "given": "Ram",
+      "family": "Doolman"
+    },
+    {
+      "given": "Ella",
+      "family": "Mendelson"
+    },
+    {
+      "given": "Laurence S.",
+      "family": "Freedman"
+    },
+    {
+      "given": "Dror",
+      "family": "Harats"
+    },
+    {
+      "given": "Yitshak",
+      "family": "Kreiss"
+    },
+    {
+      "given": "Yaniv",
+      "family": "Lustig"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2022,
+        2,
+        15
+      ]
+    ]
+  },
+  "URL": "https://doi.org/gpnbfd",
+  "id": "doi:10.1101/2022.02.15.22270948"
+},
+{
+  "id": "url:https://grftr.news/why-was-a-major-study-on-ivermectin-for-covid-19-just-retracted",
+  "type": "webpage",
+  "language": "en",
+  "title": "Why Was a Major Study on Ivermectin for COVID-19 Just Retracted?",
+  "URL": "https://grftr.news/why-was-a-major-study-on-ivermectin-for-covid-19-just-retracted",
+  "author": [
+    {
+      "family": "Lawrence",
+      "given": "Jack"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+     [
+        2021,
+        7,
+        15
+      ]
+    ]
+  }
+},
+{
+  "id": "url:https://www.bloomberg.com/news/articles/2020-12-02/within-hours-of-u-k-putin-orders-start-of-mass-covid-19-shots",
+  "type": "webpage",
+  "language": "en",
+  "title": "Putin Orders Start of Mass Covid-19 Shots Hours After U.K. News",
+  "URL": "https://www.bloomberg.com/news/articles/2020-12-02/within-hours-of-u-k-putin-orders-start-of-mass-covid-19-shots",
+  "author": [
+    {
+      "family": "Arkhipov",
+      "given": "Ilya"
+    },
+    {
+      "family": "Kravchenko",
+      "given": "Stepan"
+    }
+  ],
+  "container-title": "Bloomberg",
+  "issued": {
+    "date-parts": [
+     [
+        2020,
+        12,
+        2
       ]
     ]
   }
