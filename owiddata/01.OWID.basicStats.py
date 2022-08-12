@@ -26,7 +26,7 @@ def billions(count, decimals=0):
     try:
         int(count)
     except TypeError:
-        return("Cannot convert count '{0}' to billions".format(count))
+        print("Cannot convert count '{0}' to billions".format(count))
     return str(np.round(count/1000000000, decimals)) + " billion"
 
 def main(args):
