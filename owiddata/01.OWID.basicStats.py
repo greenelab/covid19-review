@@ -23,6 +23,10 @@ def convert_date(git_date):
 
 def billions(count, decimals=0):
     """Cleans integer in the billions to make a string formatted as 'X billion', defaulting to integer"""
+    try:
+        int(count)
+    except TypeError:
+        print("Cannot convert count '{0}' to billions".format(count))
     return str(np.round(count/1000000000, decimals)) + " billion"
 
 def main(args):
@@ -55,12 +59,17 @@ def main(args):
 
     owid_stats["owid_most_recent_date"] = vaccine_nums['date'].max().strftime('%B %d, %Y').replace(' 0', ' ')
 
-    owid_stats["owid_total_vaccinations"] = billions(
-        (vaccine_nums
+    vax_ww_data_latest = (
+            vaccine_nums.dropna()
             >> ply.query("location == 'World'")
             >> ply.query("date == date.max()")
-            >> ply.pull("total_vaccinations")
-    ).item())
+    ).to_dict(orient='list')
+
+    owid_stats["owid_worldwide_daily_rate"] = str(vax_ww_data_latest['daily_vaccinations_per_million'][0]) + \
+                                    " per million"
+    owid_stats["owid_worldwide_total_vaccinations"] = billions(vax_ww_data_latest['total_vaccinations'][0])
+    owid_stats["owid_worldwide_date"] = vax_ww_data_latest['date'][0].to_pydatetime().\
+        strftime('%B %d, %Y').replace(' 0', ' ')
 
     # Identify number of vaccine manufacturers included in location totals (not the same as manufacturer-specific data)
     vaxCounts = set([item.strip() for countryList in
