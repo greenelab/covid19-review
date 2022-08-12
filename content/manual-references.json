@@ -2873,5 +2873,32 @@
       ]
     ]
   }
+},
+{
+  "id": "url:https://www.bloomberg.com/news/articles/2020-12-02/within-hours-of-u-k-putin-orders-start-of-mass-covid-19-shots",
+  "type": "webpage",
+  "language": "en",
+  "title": "Putin Orders Start of Mass Covid-19 Shots Hours After U.K. News",
+  "URL": "https://www.bloomberg.com/news/articles/2020-12-02/within-hours-of-u-k-putin-orders-start-of-mass-covid-19-shots",
+  "author": [
+    {
+      "family": "Arkhipov",
+      "given": "Ilya"
+    },
+    {
+      "family": "Kravchenko",
+      "given": "Stepan"
+    }
+  ],
+  "container-title": "Bloomberg",
+  "issued": {
+    "date-parts": [
+     [
+        2020,
+        12,
+        2
+      ]
+    ]
+  }
 }
 ]
