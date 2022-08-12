@@ -1220,6 +1220,7 @@ nonrandomized
 nonsevere
 nosocomial
 Novavax
+Novavax's
 novicida
 novo
 NPV
