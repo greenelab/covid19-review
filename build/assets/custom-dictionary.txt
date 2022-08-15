@@ -177,6 +177,7 @@ bioorganometallic
 Biopharma
 biopharmaceutical
 Biorender
+biotechnologies
 bioRxiv
 BioScience
 Biosciences
@@ -1239,6 +1240,7 @@ nutraceutical
 Nutraceuticals
 nuvaxovid
 NVX
+NWSS
 Nyctereutes
 obesogenic
 OC
@@ -1496,6 +1498,7 @@ replicase
 representativeness
 repressor
 reproducibility
+reproducibly
 repurpose
 repurposed
 repurposing
@@ -1591,6 +1594,7 @@ serosurvey
 serosurveys
 serotype
 severities
+sewersheds
 SEYAR
 Sheahan
 Shenzhen
