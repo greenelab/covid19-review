@@ -1,5 +1,2 @@
-content/09.evolution.md:115:timetree
-content/09.evolution.md:436:reproducibly
-content/09.evolution.md:437:sewersheds
-content/09.evolution.md:441:Additionaly
-content/09.evolution.md:442:NWSS
+content/22.vaccines-trad.md:412:gdpscatter
+content/22.vaccines-trad.md:421:gdpscatter
