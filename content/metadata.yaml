@@ -132,7 +132,7 @@ authors:
           - Conceptualization
           - Supervision
       vaccines-novel:
-        order: 9
+        order: 10
         contributions:
           - Conceptualization
           - Writing - Original Draft
@@ -473,7 +473,7 @@ authors:
           - Writing - Review & Editing
           - Writing - Original Draft
       vaccines-novel:
-        order: 8
+        order: 9
         contributions:
           - Writing - Review & Editing
       pathogenesis:
@@ -1413,7 +1413,7 @@ authors:
         contributions:
           - Project Administration
       vaccines-novel:
-        order: 7
+        order: 8
         contributions:
           - Project Administration
   -
@@ -1539,6 +1539,10 @@ authors:
     manuscripts:
       pathogenesis:
         order: 6
+        contributions:
+          - Writing - Review & Editing
+      vaccines-novel:
+	order: 7
         contributions:
           - Writing - Review & Editing
   - 
