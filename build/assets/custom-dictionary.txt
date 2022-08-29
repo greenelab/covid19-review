@@ -615,6 +615,7 @@ Gautret
 Gavi
 GBMF
 gcv
+gdpscatter
 gelsolin
 gemcitabine
 generalizability
@@ -1106,6 +1107,7 @@ ModernaTX
 ModernaTX’s
 Moderna’s
 modRNA
+modularity
 modulatory
 mometasone
 monkeypox
@@ -1685,6 +1687,8 @@ synthetase
 SystemsResearch
 Szeto
 Taguchi
+TAK
+Takeda's
 Tamar
 tamefoxtime
 TaqMan
