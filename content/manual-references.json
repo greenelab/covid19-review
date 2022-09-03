@@ -1042,27 +1042,6 @@
 },
 {
   "type": "article-journal",
-  "id": "individual-vaccines-traditional",
-  "author": [
-    {
-      "literal": "COVID-19 Review Consortium"
-    }
-  ],
-  "issued": {
-    "date-parts": [
-      [
-        2022,
-        7,
-        28
-      ]
-    ]
-  },
-  "container-title": "Manubot",
-  "title": "Application of Traditional Vaccine Development Strategies to SARS-CoV-2",
-  "URL": "https://greenelab.github.io/covid19-review/v/3bf0adea3375b10ef9c22359ed279f41f49c02c2/#application-of-traditional-vaccine-development-strategies-to-sars-cov-2"
-},
-{
-  "type": "article-journal",
   "id": "individual-vaccines-novel",
   "author": [
     {
