@@ -1,2 +1,0 @@
-content/22.vaccines-trad.md:412:gdpscatter
-content/22.vaccines-trad.md:421:gdpscatter
