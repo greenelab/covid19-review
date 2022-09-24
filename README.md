@@ -4,6 +4,7 @@
 
 [![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://greenelab.github.io/covid19-review/)
 [![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://greenelab.github.io/covid19-review/manuscript.pdf)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5532921.svg)](https://doi.org/10.5281/zenodo.5532921)
 [![GitHub Actions Status](https://github.com/greenelab/covid19-review/workflows/Manubot/badge.svg)](https://github.com/greenelab/covid19-review/actions)
 [![Gitter](https://badges.gitter.im/covid19-review/community.svg)](https://gitter.im/covid19-review/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 <!-- usage note: delete CI badges above for services not used by your manuscript -->
