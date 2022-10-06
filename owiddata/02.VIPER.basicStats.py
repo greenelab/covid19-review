@@ -24,13 +24,17 @@ def assign_platform_types(vaxtype):
              "inactivated": "whole virus",
              "live attenuated": "whole virus"
              }
+    papers = {"subunit": "trad",
+              "DNA": "novel",
+              "RNA": "novel",
+              "whole virus": "trad"}
 
     # If they add a new platform type (which seems unlikely), handle & throw error
     if vaxtype not in types.keys():
         # Update to raise issue
         print("Unknown vaccine platform:", vaxtype)
         exit(1)
-    return types[vaxtype]
+    return types[vaxtype], papers[types[vaxtype]]
 
 def retrieve_date(soup):
     # Find the date of last update, then convert to string following same
@@ -51,7 +55,7 @@ def retrieve_platform_types(cards):
             vaccine_platform = card.find('a', {"class": "icon-link"}).get_text()
             if vaccine_platform.upper() != vaccine_platform: #DNA, RNA, VLP
                 vaccine_platform = vaccine_platform.lower()
-            vaccine_platform_type = assign_platform_types(vaccine_platform)
+            vaccine_platform_type,  vaccine_paper = assign_platform_types(vaccine_platform)
             vaccine_manf = card.find('span',
                                      {"class": "has-medium-font-size"}).get_text()
             vaccine_name = card.find('span',
@@ -60,10 +64,11 @@ def retrieve_platform_types(cards):
             vaccine_info[vaccine_name] = [vaccine_manf,
                                           vaccine_platform,
                                           vaccine_platform_type,
+                                          vaccine_paper,
                                           link['href']]
 
     vaccine_df = pd.DataFrame.from_dict(vaccine_info, orient='index')
-    vaccine_df.rename(mapper={0: "Company", 1: "Platform", 2: "Platform Type", 3: "URL"},
+    vaccine_df.rename(mapper={0: "Company", 1: "Platform", 2: "Platform Type", 3: "Paper", 4: "URL"},
                       axis=1, inplace=True)
     vaccine_df.index.name = 'Vaccine'
     vaccine_df["Platform"] = vaccine_df["Platform"].replace("DNA","plasmid vectored")

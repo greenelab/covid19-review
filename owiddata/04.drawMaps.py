@@ -2,6 +2,7 @@ import argparse
 from jsonFunctions import load_JSON, write_JSON
 import pandas as pd
 import numpy as np
+import plydata as ply
 from mapFunctions import setup_geopandas, lowres_fix
 import matplotlib as mpl
 import matplotlib.pyplot as plt
@@ -36,20 +37,27 @@ def main(args):
 
     # Count the number of vaccines of each type that OWID has data for
     # Then find max
-    platformCounts = vaxPlatforms[vaxPlatforms.countries.notnull()].\
-        groupby("Platform").size()
-    maxNumVax = max(platformCounts)
-
-    # Set the parameters color-coding the plots. Scale is the max candidates
-    # adminstered across all vaccine types in the OWID data
-    scale = maxNumVax + 1
-    cmap = mpl.cm.Purples
-    norm = mpl.colors.BoundaryNorm(np.arange(0, scale), cmap.N)
+    maxNumVax = (
+            vaxPlatforms
+            >> ply.query("countries.notnull()")
+            >> ply.group_by("Platform")
+            >> ply.add_tally()
+            >> ply.select("Platform", "Paper", "n")
+            >> ply.group_by("Paper")
+            >> ply.summarize_at('n', 'max')
+    )
+    maxNumVax.set_index("Paper", inplace=True)
+    #platformCounts = vaxPlatforms[vaxPlatforms.countries.notnull()].\
+    #    groupby("Platform").size()
+     #= max(platformCounts)
+    maxNumVax = maxNumVax.to_dict("index")
 
     for platform in set(vaxPlatforms["Platform"]):
         platformName = '_'.join(platform.split(' '))
         platformName = platformName.replace("-", "_")
+        print(platformName)
         vaccines = vaxPlatforms[vaxPlatforms["Platform"] == platform].dropna()
+        print(vaccines)
 
         # This stat does not reveal the overall number of approved vaccines,
         # just the number tracked by OWID
@@ -72,6 +80,14 @@ def main(args):
         vaxPresence = pd.DataFrame(countries.value_counts())
         vaxPresence.rename({0:platform}, axis=1, inplace=True)
 
+        # Set the parameters color-coding the plots. Scale is the max candidates
+        # adminstered across all vaccine types a) included in the OWID data, and
+        # b) evaluated in the same paper as this vaccine
+        paper = vaccines["Paper"].unique()[0]
+        scale = maxNumVax[paper]['n'] + 1
+        cmap = mpl.cm.Purples
+        norm = mpl.colors.BoundaryNorm(np.arange(0, scale), cmap.N)
+
         # Use the vaxPresence data to set up the chloropeth
         mappingData = countries_mapping.merge(vaxPresence,
                                               how="left",
@@ -80,7 +96,7 @@ def main(args):
         mappingData[platform] = mappingData[platform].fillna(0)
 
         # plot data
-        fig, ax = plt.subplots(1, 1, figsize=(6,4))
+        fig, ax = plt.subplots(1, 1, figsize=(12,10))
         ax.axis('off')
         countries_mapping.boundary.plot(ax=ax, edgecolor="black")
 
@@ -90,7 +106,7 @@ def main(args):
         ax.set_title("Number of " + platform + " vaccines available worldwide")
         fig.tight_layout()
 
-        plt.savefig(args.map_dir + "/" + platformName + '.png', dpi=600, bbox_inches="tight")
+        plt.savefig(args.map_dir + "/" + platformName + '.png', dpi=1000, bbox_inches="tight")
         plt.savefig(args.map_dir + "/" + platformName + '.svg', bbox_inches="tight")
 
         print(f'Wrote {args.map_dir + "/" + platformName + ".png"} and '
