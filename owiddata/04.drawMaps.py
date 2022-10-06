@@ -47,17 +47,12 @@ def main(args):
             >> ply.summarize_at('n', 'max')
     )
     maxNumVax.set_index("Paper", inplace=True)
-    #platformCounts = vaxPlatforms[vaxPlatforms.countries.notnull()].\
-    #    groupby("Platform").size()
-     #= max(platformCounts)
     maxNumVax = maxNumVax.to_dict("index")
 
     for platform in set(vaxPlatforms["Platform"]):
         platformName = '_'.join(platform.split(' '))
         platformName = platformName.replace("-", "_")
-        print(platformName)
         vaccines = vaxPlatforms[vaxPlatforms["Platform"] == platform].dropna()
-        print(vaccines)
 
         # This stat does not reveal the overall number of approved vaccines,
         # just the number tracked by OWID
