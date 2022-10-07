@@ -55,7 +55,7 @@ def retrieve_platform_types(cards):
             vaccine_platform = card.find('a', {"class": "icon-link"}).get_text()
             if vaccine_platform.upper() != vaccine_platform: #DNA, RNA, VLP
                 vaccine_platform = vaccine_platform.lower()
-            vaccine_platform_type,  vaccine_paper = assign_platform_types(vaccine_platform)
+            vaccine_platform_type, vaccine_paper = assign_platform_types(vaccine_platform)
             vaccine_manf = card.find('span',
                                      {"class": "has-medium-font-size"}).get_text()
             vaccine_name = card.find('span',
