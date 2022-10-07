@@ -39,13 +39,14 @@ def main(args):
     # Then find max
     maxNumVax = (
             vaxPlatforms
-            >> ply.query("countries.notnull()")
+            >> ply.call('.dropna', subset=['countries'])
             >> ply.group_by("Platform")
             >> ply.add_tally()
             >> ply.select("Platform", "Paper", "n")
             >> ply.group_by("Paper")
             >> ply.summarize_at('n', 'max')
     )
+    print(maxNumVax)
     maxNumVax.set_index("Paper", inplace=True)
     maxNumVax = maxNumVax.to_dict("index")
 
