@@ -6,6 +6,7 @@ import plydata as ply
 from mapFunctions import setup_geopandas, lowres_fix
 import matplotlib as mpl
 import matplotlib.pyplot as plt
+from matplotlib import pylab
 from ast import literal_eval
 
 def fix_owid_names(isoList):
@@ -49,6 +50,8 @@ def main(args):
     maxNumVax.set_index("Paper", inplace=True)
     maxNumVax = maxNumVax.to_dict("index")
 
+    pylab.rcParams.update({'axes.titlesize': 'x-large'})
+
     for platform in set(vaxPlatforms["Platform"]):
         platformName = '_'.join(platform.split(' '))
         platformName = platformName.replace("-", "_")
@@ -90,16 +93,17 @@ def main(args):
                                               left_on="iso_a3")
         mappingData[platform] = mappingData[platform].fillna(0)
 
-        # plot data
+        # Plot data
         fig, ax = plt.subplots(1, 1, figsize=(12,10))
         ax.axis('off')
+        title_name = [w.title() if w.islower() else w for w in platform.split()]
+        ax.set_title("Number of " + " ".join(title_name) + " Vaccines Available Worldwide")
         countries_mapping.boundary.plot(ax=ax, edgecolor="black")
 
         mappingData.plot(column=platform, ax=ax,
                          legend=True, cmap=cmap, norm=norm,
                          legend_kwds={'shrink': 0.2})
-        ax.set_title("Number of " + platform + " vaccines available worldwide")
-        fig.tight_layout()
+
 
         plt.savefig(args.map_dir + "/" + platformName + '.png', dpi=1000, bbox_inches="tight")
         plt.savefig(args.map_dir + "/" + platformName + '.svg', bbox_inches="tight")
