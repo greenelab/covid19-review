@@ -33,7 +33,7 @@ python owiddata/05.autogenSentences.py $OWID_STATS_JSON  $VACCINE_PLATFORMS
 python owiddata/06.plotVaxCountryData.py $OWID_STATS_JSON $VACCINE_PLATFORMS $VAX_BY_MANF $OWID_DOSES_BAR $OWID_DOSES_SCPLOT
 
 # Clean up
-rm $VACCINE_PLATFORMS $COUNTRY_BY_VAX $VAX_BY_MANF
+rm $VACCINE_PLATFORMS $COUNTRY_BY_VAX $VAX_BY_MANF $VACCINE_PLATFORMS
 
 # After running this Python script to generate the figures, commit the figures
 # and run the version-figures.sh script to update the OWID_STATS_JSON with the

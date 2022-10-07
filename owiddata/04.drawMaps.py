@@ -46,7 +46,6 @@ def main(args):
             >> ply.group_by("Paper")
             >> ply.summarize_at('n', 'max')
     )
-    print(maxNumVax)
     maxNumVax.set_index("Paper", inplace=True)
     maxNumVax = maxNumVax.to_dict("index")
 
