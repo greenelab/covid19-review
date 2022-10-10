@@ -6,9 +6,9 @@ from mapFunctions import setup_geopandas
 def getContinent(vaxPlatforms, countries_mapping):
     """Merge vaccine info with map info using a user-maintained list of iso codes
     associated with the place where the vaccine was developed"""
-    countryOfDev = pd.read_csv('owiddata/countryOfDev_OWID.csv')
-    countryOfDev = countryOfDev.merge(vaxPlatforms, how = "outer",
-                                      on=["OWID Nomenclature"])
+    countryOfDev = pd.read_csv('owiddata/countryOfDev_VIPER.csv')
+    countryOfDev = countryOfDev.merge(vaxPlatforms, how="outer",
+                                      on=["Company"])
     devCountryInfo = countryOfDev.merge(countries_mapping, how="left", left_on="Developer_ISO",
                                         right_on="iso_a3")
 
@@ -24,6 +24,7 @@ def getContinentText(devCountryInfo):
     sentences = dict()
     for continent in ["North America", "Asia", "Europe", "Oceania", "Africa", "South America"]:
         devVax = devCountryInfo[devCountryInfo["continent"] == continent]
+
         if len(devVax) == 0:
             sentences[continent] = "No approved vaccines have been developed in {0} [@url:https://covid19.trackvaccines.org].".format(continent)
         elif len(devVax) == 1:
