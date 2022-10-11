@@ -1537,8 +1537,8 @@ authors:
     email: jeremy.kamil@lsuhs.edu
     orcid: 0000-0001-8422-7656
     coi:
-      string: "TBD"
-      lastapproved: !!str 2021-04-30
+      string: "None"
+      lastapproved: !!str 2022-10-11
     manuscripts:
       pathogenesis:
         order: 6
