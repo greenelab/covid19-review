@@ -1042,27 +1042,6 @@
 },
 {
   "type": "article-journal",
-  "id": "individual-vaccines-novel",
-  "author": [
-    {
-      "literal": "COVID-19 Review Consortium"
-    }
-  ],
-  "issued": {
-    "date-parts": [
-      [
-        2022,
-        7,
-        28
-      ]
-    ]
-  },
-  "container-title": "Manubot",
-  "title": "The Coming of Age of Nucleic Acid Vaccines during COVID-19",
-  "URL": "https://greenelab.github.io/covid19-review/v/3bf0adea3375b10ef9c22359ed279f41f49c02c2/#the-coming-of-age-of-nucleic-acid-vaccines-during-covid-19"
-},
-{
-  "type": "article-journal",
   "id": "individual-evolution",
   "author": [
     {
