@@ -4,6 +4,8 @@ individual-nutraceuticals	https://pubmed.ncbi.nlm.nih.gov/33947804/	url:https://
 individual-pharmaceuticals	https://pubmed.ncbi.nlm.nih.gov/34726496/	url:https://pubmed.ncbi.nlm.nih.gov/34726496/	njpLhBui
 individual-methods	individual-methods	individual-methods	EM9YkiOF
 individual-diagnostics	arxiv:2204.12598	arxiv:2204.12598	hIxvVJ7F
+individual-vaccines-traditional	arxiv:2208.08907	arxiv:2208.08907	1HWmcSB20
+individual-vaccines-novel	arxiv:2210.07247	arxiv:2210.07247	rjHK19Dr
 url:https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html	url:https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html	url:https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html	gHWlMufv
 doi:10.23750/abm.v91i1.9397	doi:10.23750/abm.v91i1.9397	doi:10.23750/abm.v91i1.9397	DkrkT4Mb
 doi:10.1002/ctm2.16	doi:10.1002/ctm2.16	doi:10.1002/ctm2.16	1H0HgI6iy
@@ -338,7 +340,6 @@ url:https://www.latimes.com/science/story/2021-07-27/timeline-cdc-mask-guidance-
 individual-inequality	individual-inequality	individual-inequality	Up1vB19z
 doi:10.1093/ajcp/aqaa029	doi:10.1093/ajcp/aqaa029	doi:10.1093/ajcp/aqaa029	sP4wQEiM
 individual-evolution	individual-evolution	individual-evolution	17qiILENK
-individual-vaccines-novel	individual-vaccines-novel	individual-vaccines-novel	nPuLx9h5
 doi:10.1038/s41579-018-0118-9	doi:10.1038/s41579-018-0118-9	doi:10.1038/s41579-018-0118-9	UBTUyMGV
 doi:10.3390/diseases4030026	doi:10.3390/diseases4030026	doi:10.3390/diseases4030026	YAhVzI0A
 doi:10.1016/j.jcv.2018.01.019	doi:10.1016/j.jcv.2018.01.019	doi:10.1016/j.jcv.2018.01.019	SnIgqxRO
@@ -354,7 +355,6 @@ doi:10.1086/377612	doi:10.1086/377612	doi:10.1086/377612	rDtyU6cv
 doi:10.1016/bs.aivir.2018.01.001	doi:10.1016/bs.aivir.2018.01.001	doi:10.1016/bs.aivir.2018.01.001	uXEsLlzb
 doi:10.1093/cid/ciab456	doi:10.1093/cid/ciab456	doi:10.1093/cid/ciab456	iOksGYVn
 doi:10.1038/s41586-020-2008-3	doi:10.1038/s41586-020-2008-3	doi:10.1038/s41586-020-2008-3	vHq0hOWQ
-individual-vaccines-traditional	arxiv:2208.08907	arxiv:2208.08907	1HWmcSB20
 doi:10.1098/rstb.2001.0888	doi:10.1098/rstb.2001.0888	doi:10.1098/rstb.2001.0888	AwAyxtZs
 doi:10.1016/j.pt.2016.04.007	doi:10.1016/j.pt.2016.04.007	doi:10.1016/j.pt.2016.04.007	1EdMJE4DK
 doi:10.3201/eid1112.040789	doi:10.3201/eid1112.040789	doi:10.3201/eid1112.040789	scqqnokl
@@ -1389,7 +1389,7 @@ doi:10.1186/1475-2859-4-26	doi:10.1186/1475-2859-4-26	doi:10.1186/1475-2859-4-26
 doi:10.3390/vaccines1030225	doi:10.3390/vaccines1030225	doi:10.3390/vaccines1030225	5fcD0JWR
 doi:10.3390/pharmaceutics12010030	doi:10.3390/pharmaceutics12010030	doi:10.3390/pharmaceutics12010030	yriARFOF
 url:https://www.who.int/biologicals/areas/vaccines/dna/en	url:https://www.who.int/biologicals/areas/vaccines/dna/en	url:https://www.who.int/biologicals/areas/vaccines/dna/en	XnrBoKVk
-doi	doi	doi	FSDqKxd0
+doi:10.1371/journal.pone.0231138	doi:10.1371/journal.pone.0231138	doi:10.1371/journal.pone.0231138	NcVQyEao
 doi:10/bvm6vh	doi:10/bvm6vh	doi:10.1016/s0065-2660(05)55002-8	3EKs730C
 doi:10/c9ntfp	doi:10/c9ntfp	doi:10.1016/s0264-410x(00)00302-9	jPpzjaYO
 doi:10.1016/B978-0-323-35761-6.00067-5	doi:10.1016/B978-0-323-35761-6.00067-5	doi:10.1016/b978-0-323-35761-6.00067-5	11NePN3S6
