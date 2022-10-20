@@ -57,6 +57,7 @@ aldosterone
 Alexandropoulos
 alfa
 Allograft
+alphavirus
 alphaviruses
 altaica
 Amazonas
@@ -715,6 +716,7 @@ hematopoietic
 heparan
 hepatoma
 hepatotropic
+herpesvirus
 Herst
 heterologous
 HGCO
@@ -843,6 +845,7 @@ inconclusivity
 infectable
 infective
 infectivity
+inflammasome
 infodemic
 infodemics
 injectate
@@ -1513,6 +1516,7 @@ resveratrol
 reticulum
 Retinopathy
 reuptake
+rhabdovirus
 rhamnosus
 Rhinolophus
 rhinorrhea
