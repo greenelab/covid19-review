@@ -23,8 +23,9 @@ authors:
       confirmed: Yes
     affiliations:
       - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
-      - Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, Aurora, Colorado, United States of America
-      - Center for Health AI, University of Colorado School of Medicine, Aurora, Colorado, United States of America
+      - Department of Biochemistry and Molecular Genetics, University of Colorado Anschutz School of Medicine, Aurora, Colorado, United States of America
+      - Center for Health AI, University of Colorado Anschutz School of Medicine, Aurora, Colorado, United States of America
+      - Department of Biomedical Informatics, University of Colorado Anschutz School of Medicine, Aurora, Colorado, United States of America
     coi:
       string: "None"
       lastapproved: !!str 2021-01-20
@@ -70,6 +71,7 @@ authors:
           - Project Administration
           - Writing - Review & Editing
           - Writing - Original Draft
+          - Visualization
       diagnostics:
         order: 1
         contributions:
@@ -117,8 +119,9 @@ authors:
     affiliations:
       - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
       - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation, Philadelphia, Pennsylvania, United States of America
-      - Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, Aurora, Colorado, United States of America
-      - Center for Health AI, University of Colorado School of Medicine, Aurora, Colorado, United States of America
+      - Department of Biochemistry and Molecular Genetics, University of Colorado Anschutz School of Medicine, Aurora, Colorado, United States of America
+      - Center for Health AI, University of Colorado Anschutz School of Medicine, Aurora, Colorado, United States of America
+      - Department of Biomedical Informatics, University of Colorado Anschutz School of Medicine, Aurora, Colorado, United States of America
     coi:
       string: "None"
       lastapproved: !!str 2021-01-20
@@ -476,6 +479,8 @@ authors:
         order: 9
         contributions:
           - Writing - Review & Editing
+          - Project Administration
+          - Software
       pathogenesis:
         order: 9
         contributions:
@@ -1534,8 +1539,8 @@ authors:
     email: jeremy.kamil@lsuhs.edu
     orcid: 0000-0001-8422-7656
     coi:
-      string: "TBD"
-      lastapproved: !!str 2021-04-30
+      string: "None"
+      lastapproved: !!str 2022-10-11
     manuscripts:
       pathogenesis:
         order: 6
