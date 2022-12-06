@@ -1278,6 +1278,7 @@ overexpressing
 overexpression
 overexuberant
 Ovis
+OWID
 O’Meara
 Paguma
 Palivizumab
@@ -1740,6 +1741,7 @@ TMPRSS
 TNF
 Tnfa
 Tocilizumab
+tocopherol
 tolerability
 totalling
 ToxinPred
@@ -1806,6 +1808,7 @@ vaccinees
 vaccinia
 vaccinology
 VADE
+Valneva
 Vaninov
 varicella
 variolation
@@ -1858,6 +1861,7 @@ WBC
 WBCs
 Wellhausen
 Wheatley
+WIBP
 wikidata
 Wildtype
 Willebrand
