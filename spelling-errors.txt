@@ -1,8 +1,7 @@
 Agrobacterium
 Anschutz
 benthamiana
-FMDHQCgs
 lococyte
 Nicotiana
 tumefaciens
-YPaDf
+VLA
