@@ -1,3 +1,6 @@
-content/22.vaccines-trad.md:463:BioE
-content/22.vaccines-trad.md:468:diluents
+content/22.vaccines-trad.md:123:MV
+content/22.vaccines-trad.md:127:MV
+content/22.vaccines-trad.md:356:Covovax
+content/22.vaccines-trad.md:483:BioE
+content/22.vaccines-trad.md:488:diluents
 content/60.methods.md:43:bioe
