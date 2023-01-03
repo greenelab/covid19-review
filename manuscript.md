@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2022-12-21'
+date-meta: '2023-01-03'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -73,11 +73,11 @@ header-includes: |
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2022-12-21" />
-  <meta name="citation_publication_date" content="2022-12-21" />
-  <meta property="article:published_time" content="2022-12-21" />
-  <meta name="dc.modified" content="2022-12-21T15:46:35+00:00" />
-  <meta property="article:modified_time" content="2022-12-21T15:46:35+00:00" />
+  <meta name="dc.date" content="2023-01-03" />
+  <meta name="citation_publication_date" content="2023-01-03" />
+  <meta property="article:published_time" content="2023-01-03" />
+  <meta name="dc.modified" content="2023-01-03T16:31:46+00:00" />
+  <meta property="article:modified_time" content="2023-01-03T16:31:46+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -297,13 +297,13 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/08a59122f24ba484e43785919b5d46eec02a1f05/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/08a59122f24ba484e43785919b5d46eec02a1f05/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/08a59122f24ba484e43785919b5d46eec02a1f05/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/beef6aa3c425910781b37a6faa17ed9703214854/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/beef6aa3c425910781b37a6faa17ed9703214854/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/beef6aa3c425910781b37a6faa17ed9703214854/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/08a59122f24ba484e43785919b5d46eec02a1f05/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/08a59122f24ba484e43785919b5d46eec02a1f05/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/beef6aa3c425910781b37a6faa17ed9703214854/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/beef6aa3c425910781b37a6faa17ed9703214854/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -325,11 +325,11 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/08a59122f24ba484e43785919b5d46eec02a1f05/))
+([permalink](https://greenelab.github.io/covid19-review/v/beef6aa3c425910781b37a6faa17ed9703214854/))
 was automatically generated
-from [greenelab/covid19-review@08a5912](https://github.com/greenelab/covid19-review/tree/08a59122f24ba484e43785919b5d46eec02a1f05)
-on 2022-12-21.
-It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/08a59122f24ba484e43785919b5d46eec02a1f05/manuscript.pdf).
+from [greenelab/covid19-review@beef6aa](https://github.com/greenelab/covid19-review/tree/beef6aa3c425910781b37a6faa17ed9703214854)
+on 2023-01-03.
+It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/beef6aa3c425910781b37a6faa17ed9703214854/manuscript.pdf).
 Snapshots of individual sections have been published [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals; @individual-methods] or posted as preprints [@individual-diagnostics; @individual-vaccines-traditional; @individual-vaccines-novel].
 </em></small>
 
@@ -2531,14 +2531,14 @@ The scale of the COVID-19 pandemic has made the repurposing and development of p
 
 ![
 **Cumulative global incidence of COVID-19 and SARS.**
-As of December 19, 2022, 653,812,400 COVID-19 cases and 6,667,609 COVID-19 deaths had been reported worldwide since January 22, 2020.
+As of January 1, 2023, 660,707,542 COVID-19 cases and 6,691,021 COVID-19 deaths had been reported worldwide since January 22, 2020.
 A total of 8,432 cases and 813 deaths were reported for SARS from March 17 to July 11, 2003.
 SARS-CoV-1 was officially contained on July 5, 2003, within 9 months of its appearance [@doi:10.3390/ijerph17113973].
 In contrast, SARS-CoV-2 remains a significant global threat nearly two years after its emergence.
 COVID-19 data are from the COVID-19 Data Repository by the Center for Systems Science and Engineering at Johns Hopkins University [@https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series; @doi:10/ggnsjk].
 SARS data are from the WHO [@url:https://www.who.int/health-topics/severe-acute-respiratory-syndrome] and were obtained from a dataset on GitHub [@url:https://github.com/imdevskp/sars-2003-outbreak-data-webscraping-code].
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/019ed0cba2d9e580e02a67af392414475e7bd11a/csse/csse-deaths.png "Global incidence of COVID-19 and SARS"){#fig:csse-deaths secno=1}
+](https://github.com/greenelab/covid19-review/raw/abb16c281f3b0c98dbf8f1fecbdf3e28bf064c7f/csse/csse-deaths.png "Global incidence of COVID-19 and SARS"){#fig:csse-deaths secno=1}
 
 At first, SARS-CoV-2's rapid shift from an unknown virus to a significant worldwide threat closely paralleled the emergence of _Severe acute respiratory syndrome-related coronavirus_ (SARS-CoV-1), which was responsible for the 2002-03 SARS epidemic.
 The first documented case of COVID-19 was reported in Wuhan, China in November 2019, and the disease quickly spread worldwide in the early months of 2020.
@@ -2595,7 +2595,7 @@ Recruitment status and trial phase are shown only for interventional trials in w
 Common interventions refers to interventions used in at least ten trials.
 Combinations of interventions, such as hydroxychloroquine with azithromycin, are tallied separately from the individual interventions.
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/019ed0cba2d9e580e02a67af392414475e7bd11a/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
+](https://github.com/greenelab/covid19-review/raw/abb16c281f3b0c98dbf8f1fecbdf3e28bf064c7f/ebmdatalab/ebmdatalab-trials.png "COVID-19 clinical trials"){#fig:ebm-trials secno=1}
 
 The purpose of this review is to provide an evolving resource tracking the status of efforts to repurpose and develop drugs for the treatment of COVID-19.
 We highlight four strategies that provide different paradigms for the identification of potential pharmaceutical treatments.
@@ -3667,7 +3667,7 @@ Therefore, these vaccine platforms, though less novel from a biotechnological st
 
 ### Importance
 
-As of December 19, 2022, there have been over 653,812,400 SARS-CoV-2 cases, and the virus has taken the lives of at least 6,667,609 people globally [@doi:10/ggnsjk].
+As of January 1, 2023, there have been over 660,707,542 SARS-CoV-2 cases, and the virus has taken the lives of at least 6,691,021 people globally [@doi:10/ggnsjk].
 The development, production, and distribution of vaccines is imperative to saving lives, preventing illness, and reducing the economic and social burdens caused by the COVID-19 pandemic.
 Vaccines that use cutting-edge biotechnology have played an important role in mitigating the effects of SARS-CoV-2.
 However, more traditional methods of vaccine development that were refined throughout the twentieth century have been especially critical to increasing vaccine access worldwide.
@@ -3690,7 +3690,7 @@ We review vaccine technologies used for SARS-CoV-2 in two parts: here, the appli
 
 Understanding vaccine development programs that are using well-established technologies is important for a global perspective on COVID-19.
 As of December 2, 2022, 50 SARS-CoV-2 vaccines have been approved for use in at least one country.
-A resource tracking the distribution of 27 vaccines indicates that, as of December 19, 2022, 13.0 billion doses have been administered across 223 countries [@doi:10.1038/s41562-021-01122-8].
+A resource tracking the distribution of 28 vaccines indicates that, as of January 1, 2023, 13.0 billion doses have been administered across 223 countries [@doi:10.1038/s41562-021-01122-8].
 Many of these vaccines use platforms that do not require information about the viral genome, with 20 developed using subunit and 11 using whole-virus approaches.
 The types of vaccines available varies widely throughout the world, as the process of developing and deploying a vaccine is complex and often requires coordination between government, industry, academia, and philanthropic entities [@doi:10.1126/science.abc5312].
 
@@ -3751,20 +3751,47 @@ There were attempts to develop LAVs against both SARS-CoV-1 and MERS-CoV [@doi:1
 It is generally recognized that LAVs induce an immune response similar to natural infection, and they are favored because they induce long-lasting and robust immunity that can protect from disease.
 This strong protective effect is induced in part by the immune response to the range of viral antigens available from LAV, which tend to be more immunogenic than those from non-replicating vaccines [@url:https://www.hhs.gov/immunization/basics/types/index.html; @doi:10.3389/fimmu.2020.602256; @doi:10.1016/j.virol.2015.03.032].
 
-#### Application to COVID-19
+#### LAV Vaccines and COVID-19
 
 To date, LAVs have not been widely deployed against SARS-CoV-2 and COVID-19.
 All the same, there are several COVID-19 LAV candidates in the early (preclinical/phase I) stages of investigation.
 These candidates utilize different approaches.
+Interestingly, several candidates (Meissa Vaccines' MV-014-212 and Codagenix's COVI-VAC, specifically) are administered intranasally, potentially improving accessibility by eliminating the need for sterile needles and reducing manufacturing costs, targeting conferring mucosal immunity, and reducing some issues related to vaccine hesitancy [@doi:10.1016/j.apsb.2022.11.022; @doi:10.1016/j.ebiom.2022.103841].
+Additionally, although no phase III trial data is available for LAV vaccine candidates, some manufacturers have proactively sought to respond to the emergence of VOC.
+Therefore, the original approach to vaccination may still prove extremely advantageous in the high-tech landscape of COVID-19 vaccine development.
+
+##### YF-S0
 
 One candidate in the preclinical stage is YF-S0, a single-dose LAV developed at Belgium's Katholieke Universiteit Leuven that uses live-attenuated yellow fever 17D (YF17D) as a vector for a noncleavable prefusion conformation of the spike antigen of SARS-CoV-2 [@doi:10.1038/s41586-020-3035-9].
 YF-S0 induced a robust immune response in three animal models and prevented SARS-CoV-2 infection in macaques and hamsters [@doi:10.1038/s41586-020-3035-9].
+Additionally, the protective effect of YF-S0 against VOC has been investigated in hamsters [@doi:10.1101/2021.11.12.468374].
+Even for a small number of hamsters that developed breakthrough infections after exposure to the index strain or the Alpha variant, viral loads were very low [@doi:10.1101/2021.11.12.468374].
+However, much higher rates of breakthrough infection and higher viral loads were observed when the hamsters were exposed to the Beta variant [@doi:10.1101/2021.11.12.468374].
+Reduced seroconversion and nAb titers were also observed against the Beta and Gamma variants [@doi:10.1101/2021.11.12.468374].
+As a result, a modified version of YF-S0, called YF-S0\*, was developed to include a modified spike protein intended to increase immunogenicity by including the full spectrum of amino acids found in the Gamma VOC as well as stabilizing the S protein's conformation [@doi:10.1101/2021.11.12.468374].
+The updated vaccine was again tested in Syrian golden hamsters [@doi:10.1101/2021.11.12.468374].
+No breakthrough infections were observed following vaccination with YF-S0\* and exposure to the index strain and the Alpha, Beta, Gamma, and Delta variants [@doi:10.1101/2021.11.12.468374].
+YF-S0\* also reduced the infectious viral load in the lungs of several VOCs (Alpha, Beta, Gamma, and Delta) relative to a sham comparison [@doi:10.1101/2021.11.12.468374], and the likelihood of the Delta variant spreading to unvaccinated co-housed hamsters was significantly reduced by YF-S0\* [@doi:10.1101/2021.11.12.468374].
+The updated vaccine was also associated with the increased production of nAbs against the Omicron variant compared to YF-S0 [@doi:10.1101/2021.11.12.468374].
+
+##### COVI-VAC
 
 Other programs are developing codon deoptimized LAV candidates [@url:https://news.griffith.edu.au/2020/04/23/griffith-university-researchers-on-the-road-to-covid-19-vaccine; @url:https://covid-19tracker.milkeninstitute.org; @doi:10.1073/pnas.2102775118].
 This approach follows the synthetic attenuated virus engineering (SAVE) strategy to select codon substitutions that are suboptimal for the virus [@doi:10.1126/science.1155761; @doi:10.1073/pnas.2102775118].
 New York-based Codagenix and the Serum Institute of India reported a successful preclinical investigation [@doi:10.1073/pnas.2102775118] of an intranasally administered deoptimized SARS-CoV-2 LAV known as COVI-VAC, and COVI-VAC entered phase I human trials and dosed its first participants in January 2021 [@url:https://covid-19tracker.milkeninstitute.org; @clinicaltrials:NCT04619628].
 This vaccine is optimized through the removal of the furin cleavage site (see [@individual-pathogenesis] for a discussion of this site's importance) and deoptimization of 283 codons [@pmc:PMC8644885].
-The results of the COVI-VAC phase I human trials are expected soon.
+The results of the COVI-VAC phase I human trials are expected soon [@clinicaltrials:NCT04619628].
+
+Other results suggest both potential benefits and risks to the COVI-VAC vaccine candidate.
+Preclinical results suggest that the vaccine candidate may confer some protection against VOC even though it was designed based on the index strain: a poster reported that Syrian golden hamsters who received COVI-VAC were significantly less likely to lose weight following viral challenge with the Beta VOC [@pmc:PMC8644885].
+On the other hand, some concerns have arisen about the possibility of spillover from LAV vaccines.
+A December 2022 study analyzed SARS-CoV-2 samples isolated from COVID-19 patients in India and identified two extremely similar sequences collected on June 30, 2020 that showed a high level of recombination relative to the dominant strains at the time [@doi:10.1186/s12985-022-01945-5].
+Comparing these samples to a database of SARS-CoV-2 sequences revealed they were most similar to the sequence used for COVI-VAC [@doi:10.1186/s12985-022-01945-5].
+Based on phylogenetic reconstruction, the authors argued that these SARS-CoV-2 isolates were most likely to have spilled over from COVI-VAC trials [@doi:10.1186/s12985-022-01945-5].
+If this was a case of spillover, the effect seems to have been limited, as these sequences were just two among over 1600 analyzed.
+However, these concerns may be one consideration in the development of LAV vaccines for COVID-19.
+
+##### Meissa Vaccines MV-014-212
 
 Another company, Meissa Vaccines in Kansas, U.S., which also develops vaccines for respiratory syncytial virus (RSV), has developed an intranasal live-attenuated chimeric vaccine MV-014-212 [@doi:10.1038/s41541-022-00509-6].
 Chimeric vaccines integrate genomic content from multiple viruses to create a more stable LAV [@doi:10.3389/fmicb.2019.02881].
@@ -3773,35 +3800,25 @@ A live attenuated recombinant strain of RSV previously investigated as a vaccine
 Preclinical results describing the intranasal administration of MV-014-212 to African green monkeys and mice indicated that the vaccine candidate produced neutralizing antibodies (nAb) as well as a cellular immune response to SARS-CoV-2 challenge, including the Alpha, Beta, and Delta VOC [@doi:10.1038/s41541-022-00509-6].
 Enrollment for phase I human trials began in March 2021 and recruitment is ongoing [@url:https://covid-19tracker.milkeninstitute.org; @clinicaltrials:NCT04798001].
 
+##### Bacillus Calmette-Guerin Vaccines
+
 Finally, Bacillus Calmette-Guerin (BCG) vaccines that use LAVs are being investigated for the prophylaxis of COVID-19 (see online Appendix [@url:https://greenelab.github.io/covid19-review]).
 The purpose of the BCG vaccine is to prevent tuberculosis, but non-specific effects against other respiratory illnesses have suggested a possible benefit against COVID-19 [@doi:10.1038/s41577-020-0337-y].
 However, a multicenter trial that randomly assigned participants 60 years and older to vaccination with BCG (n = 1,008) or placebo (n = 1,006) found that BCG vaccination had no effect on the incidence of SARS-CoV-2 or other respiratory infections over the course of 12 months [@doi:10.1093/cid/ciac182].
-Despite these findings, BCG vaccination was associated with a stronger cytokine (IL-6) response following _ex vivo_ stimulation of peripheral blood mononuclear cells in patients with no known history of COVID-19 [@doi:10.1093/cid/ciac182].
+Despite these findings, BCG vaccination was associated with a stronger cytokine (specifically, IL-6) response following _ex vivo_ stimulation of peripheral blood mononuclear cells in patients with no known history of COVID-19 [@doi:10.1093/cid/ciac182].
 Additionally, SARS-CoV-2-positive individuals who had received the BCG vaccine one year prior showed increased immunoglobulin (Ig) responses to the SARS-CoV-2 spike protein and receptor binding domain (RBD) relative to individuals who had received a placebo vaccine [@doi:10.1093/cid/ciac182].
 Currently, investigations of BCG vaccines against COVID-19 are being sponsored by institutes in Australia in collaboration with the Bill and Melinda Gates Foundation [@clinicaltrials:NCT04327206] and by Texas A&M University in collaboration with numerous other U.S. institutions [@clinicaltrials:NCT04348370].
 
-Safety data is not yet available for human studies of LAV COVID-19 vaccines.
+##### Summary of LAV Vaccine Development
+
+LAV vaccines for COVID-19 have not advanced as far in development as vaccines developed using other technologies.
+As a result, safety data is not yet available for human studies of these vaccines.
 In general, though, safety concerns previously associated with LAV have been largely mitigated in the modern manufacturing process.
 Manufacturers use safe and reliable methods to produce large quantities of vaccines once they have undergone rigorous preclinical studies and clinical trials to evaluate their safety and efficacy.
 However, one remaining safety concern may be contributing to the relatively slow emergence of LAV candidates against COVID-19: they still may present risk to individuals who are immunocompromised [@doi:10.1016/j.copbio.2007.10.010], which is an even greater concern when dealing with a novel virus and disease.
-Additional data are needed to ascertain how this technology performs in the case of SARS-CoV-2.
+Additional data are needed to ascertain how this technology performs in the case of SARS-CoV-2 and whether rare cases of spillover have indeed occurred.
+Additionally, modifications to the design of individual vaccine candidates may make this protection more robust as SARS-CoV-2 evolves, as the limited data about LAV performance against VOC suggests.
 Despite the long and trusted history of LAV development, this vaccine strategy has not been favored against COVID-19, as other technologies have shown greater expediency and safety compared to the time-consuming nature of developing LAVs for a novel virus.
-
-#### Response to Variants of Concern
-
-While no phase III trial data is available for LAV vaccine candidates, some manufacturers have proactively sought to respond to the emergence of VOC.
-For example, a poster reported that Syrian golden hamsters who received COVI-VAC were significantly less likely to lose weight following viral challenge with the Beta VOC [@pmc:PMC8644885].
-Additionally, the protective effect of YF-S0 against VOC has been investigated in hamsters [@doi:10.1101/2021.11.12.468374].
-Even for a small number of hamsters that developed breakthrough infections after exposure to the index strain or the Alpha variant, viral loads were very low [@doi:10.1101/2021.11.12.468374].
-However, much higher rates of breakthrough infection and higher viral loads were observed when the hamsters were exposed to the Beta variant [@doi:10.1101/2021.11.12.468374].
-Reduced seroconversion and nAb titers were also observed against the Beta and Gamma variants [@doi:10.1101/2021.11.12.468374].
-As a result, a modified version of YF-S0, called YF-S0\*, was developed to include a modified spike protein intended to increase immunogenicity by including the full spectrum of amino acids found in the Gamma VOC as well as stabilizing the S protein's conformation [@doi:10.1101/2021.11.12.468374].
-The updated vaccine was again tested in Syrian golden hamsters.
-No breakthrough infections were observed following vaccination with YF-S0\* and exposure to the index strain and the Alpha, Beta, Gamma, and Delta variants [@doi:10.1101/2021.11.12.468374].
-YF-S0\* also reduced the infectious viral load in the lungs of several VOCs (Alpha, Beta, Gamma, and Delta) relative to a sham comparison [@doi:10.1101/2021.11.12.468374], and the likelihood of the Delta variant spreading to unvaccinated co-housed hamsters was significantly reduced by YF-S0\* [@doi:10.1101/2021.11.12.468374].
-The updated vaccine was also associated with the increased production of nAbs against the Omicron variant compared to YF-S0 [@doi:10.1101/2021.11.12.468374].
-Therefore, while data from human studies are not available, preclinical results suggest that LAV vaccines likely confer some protection against VOC even when designed with the index strain.
-Modifications to the design may make this protection more robust as SARS-CoV-2 evolves.
 
 ### Inactivated Whole-Virus Vaccines
 
@@ -3850,14 +3867,14 @@ Table: Inactivated whole-virus vaccines approved in at least one country [@url:h
 | VLA2001                  | Valneva                                                   |
 
 Several whole-virus vaccines have been developed against COVID-19 and are available in countries around the world (Table @tbl:approved-whole-virus).
-As of December 19, 2022, 10 vaccines developed with IWV technology are being distributed in 118 countries (Figure @fig:iwv-distrib).
+As of January 1, 2023, 10 vaccines developed with IWV technology are being distributed in 118 countries (Figure @fig:iwv-distrib).
 
 ![
 **Worldwide availability of vaccines developed using inactivated whole viruses.**
-This figure reflects the number of vaccines based on whole inactivated virus technology that were available in each country as of December 19, 2022.
+This figure reflects the number of vaccines based on whole inactivated virus technology that were available in each country as of January 1, 2023.
 These data are retrieved from Our World in Data [@url:https://ourworldindata.org/coronavirus] and plotted using geopandas [@doi:10.5281/zenodo.5573592].
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/019ed0cba2d9e580e02a67af392414475e7bd11a/owiddata/maps/inactivated.png "Availability of inactivated whole virus vaccines"){#fig:iwv-distrib secno=1}
+](https://github.com/greenelab/covid19-review/raw/abb16c281f3b0c98dbf8f1fecbdf3e28bf064c7f/owiddata/maps/inactivated.png "Availability of inactivated whole virus vaccines"){#fig:iwv-distrib secno=1}
 
 One of those, CoronaVac, was developed by Beijing-based biopharmaceutical company Sinovac.
 The developers inactivated a SARS-CoV-2 strain collected in China with &beta;-propiolactone and propagated it using Vero cells [@doi:10.3389/fimmu.2020.602256].
@@ -3875,7 +3892,7 @@ Estimates of CoronaVac's VE have varied across trials.
 CoronaVac demonstrated an efficacy of a little over 50% in Brazil, which was contested by Turkish officials claiming an efficacy of 91.25%, but ultimately after multiple announcements, the efficacy debate was settled at over 50% [@url:https://www.reuters.com/article/us-health-coronavirus-sinovac-brazil/brazil-institute-says-coronavac-efficacy-above-50-but-delays-full-results-idUSKBN28X2CR; @url:https://www.nytimes.com/2020/12/25/health/turkey-brazil-sinovac-coronavirus-vaccine.html].
 Subsequently, an interim analysis of the phase III randomized placebo-controlled trials conducted in Turkey enrolling 10,214 participants (approximately 2:1 vaccine:placebo) indicated efficacy of 83.5%, with minimal side effects reported [@doi:10/gk898z], and a prospective national cohort study in Chile reported an adjusted estimated effectiveness of 66% for the prevention of COVID-19 with an estimated 90% and 87% prevention of hospitalization and death, respectively [@doi:10.1056/NEJMoa2107715].
 
-CoronaVac was first approved in China and has now been distributed in 65 countries across Africa, Asia, Europe, North America, and South America, including Brazil, Cambodia, Chile, Colombia, Laos, Malaysia, Mexico, Turkey, Ukraine, and Uruguay [@url:https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html; @doi:10.1038/s41562-021-01122-8].
+CoronaVac was first approved in China and has now been distributed in 66 countries across Africa, Asia, Europe, North America, and South America, including Brazil, Cambodia, Chile, Colombia, Laos, Malaysia, Mexico, Turkey, Ukraine, and Uruguay [@url:https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html; @doi:10.1038/s41562-021-01122-8].
 As of August 2021, Sinovac had reportedly produced over a billion doses of CoronaVac [@url:https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html].
 
 Two additional inactivated vaccine candidates were developed following a similar approach by the state-owned China National Pharmaceutical Group Co., Ltd., more commonly known as Sinopharm CNBG.
@@ -3898,7 +3915,7 @@ These two studies demonstrated that the vaccine induced significant humoral and 
 Only mild to moderate side-effects were reported upon immunization [@doi:10/gkrthh; @doi:10/gh7597].
 In July 2021, Covaxin’s overall vaccine efficacy was estimated at 77.8% for the prevention of COVID-19 based on a final enrollment of 25,798 people (approximately 1:1 vaccine:placebo) [@doi:10/gmns9m].
 Only mild to moderate side-effects reported upon immunization [@doi:10/gkrthh; @doi:10/gh7597], and in phase II trials, the BBIBP-CorV vaccine appeared well-tolerated, with 23% of participants in the vaccine condition (482 total participants, 3:1, vaccine:placebo) reporting at least one adverse reaction characterized as mild to moderate [@doi:10/ghjkrf].
-As of September 2021, Covaxin has been approved for emergency use in 30 countries across Africa, Asia, Europe, and South America, including Guyana, India, Iran, Zimbabwe, Nepal, Mauritius, Mexico, Nepal, Paraguay, and the Philippines [@url:https://covid19.trackvaccines.org/vaccines/9].
+As of September 2021, Covaxin has been approved for emergency use in 31 countries across Africa, Asia, Europe, and South America, including Guyana, India, Iran, Zimbabwe, Nepal, Mauritius, Mexico, Nepal, Paraguay, and the Philippines [@url:https://covid19.trackvaccines.org/vaccines/9].
 
 Although IWV vaccine candidates were well-tolerated overall, both Sinovac's CoronaVac and Sinopharm's inactivated WIV04 vaccine trials were affected by concerns about AEs.
 In CoronaVac’s trial of adults 18-59, 2% (n=7) of participants reported severe AEs [@doi:10/fx8z], causing the trial to be halted for investigation [@url:https://www.nytimes.com/interactive/2020/health/sinovac-covid-19-vaccine.html].
@@ -4008,26 +4025,26 @@ They are likely to continue to contribute to public health for the foreseeable f
 #### Application to COVID-19
 
 The development of subunit vaccines against SARS-CoV-2 is a remarkable achievement given the short period of time since the emergence of SARS-CoV-2 in late 2019, particularly considering these types of vaccines have not played a major role in previous pandemics compared to LAV and IWV vaccines.
-More than 20 protein subunit vaccines from companies such as Sanofi/GlaxoSmithKline, Nanogen, and the Serum Institute of India have entered clinical trials for COVID-19 since the beginning of the pandemic [@url:https://covid19.trackvaccines.org/vaccines], 20 have been approved, and at least 8 are being administered worldwide [@doi:10.1038/s41562-021-01122-8; @url:https://covid19.trackvaccines.org].
-As of December 19, 2022, protein subunit vaccines are being distributed in at least 42 countries (Figure @fig:ps-distrib).
+More than 20 protein subunit vaccines from companies such as Sanofi/GlaxoSmithKline, Nanogen, and the Serum Institute of India have entered clinical trials for COVID-19 since the beginning of the pandemic [@url:https://covid19.trackvaccines.org/vaccines], 20 have been approved, and at least 9 are being administered worldwide [@doi:10.1038/s41562-021-01122-8; @url:https://covid19.trackvaccines.org].
+As of January 1, 2023, protein subunit vaccines are being distributed in at least 42 countries (Figure @fig:ps-distrib).
 
 ![
 **Worldwide availability of vaccines developed using protein subunit.**
-This figure reflects the number of vaccines based on protein subunit technology that were available in each country as of December 19, 2022.
+This figure reflects the number of vaccines based on protein subunit technology that were available in each country as of January 1, 2023.
 These data are retrieved from Our World in Data [@url:https://ourworldindata.org/coronavirus; @doi:10.1038/s41562-021-01122-8] and plotted using geopandas [@doi:10.5281/zenodo.5573592].
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/019ed0cba2d9e580e02a67af392414475e7bd11a/owiddata/maps/protein_subunit.png "Availability of protein subunit vaccines"){#fig:ps-distrib secno=1}
+](https://github.com/greenelab/covid19-review/raw/abb16c281f3b0c98dbf8f1fecbdf3e28bf064c7f/owiddata/maps/protein_subunit.png "Availability of protein subunit vaccines"){#fig:ps-distrib secno=1}
 
 VLP vaccines have not progressed as rapidly.
 Programs seeking to develop VLP vaccines have used either the full-length S protein or the RBD of the S protein specifically as an antigen, although some use several different SARS-CoV-2 proteins [@doi:10.1016/j.addr.2021.01.001].
-As of December 19, 2022, only one VLP was available in one country (Canada) [@doi:10.1038/s41562-021-01122-8].<!--Canada/Covifenz info is hardcoded-->
+As of January 1, 2023, only one VLP was available in one country (Canada) [@doi:10.1038/s41562-021-01122-8].<!--Canada/Covifenz info is hardcoded-->
 
 ![
 **Worldwide availability of vaccines developed with VLPs.**
-This figure reflects the number of vaccines based on VLP technology that were available in each country as of December 19, 2022.
+This figure reflects the number of vaccines based on VLP technology that were available in each country as of January 1, 2023.
 These data are retrieved from Our World in Data [@url:https://ourworldindata.org/coronavirus] and plotted using geopandas [@doi:10.5281/zenodo.5573592].
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
-](https://github.com/greenelab/covid19-review/raw/019ed0cba2d9e580e02a67af392414475e7bd11a/owiddata/maps/VLP.png "Availability of protein subunit vaccines"){#fig:vlp-distrib secno=1}
+](https://github.com/greenelab/covid19-review/raw/abb16c281f3b0c98dbf8f1fecbdf3e28bf064c7f/owiddata/maps/VLP.png "Availability of protein subunit vaccines"){#fig:vlp-distrib secno=1}
 
 #### Nuvaxovid
 
@@ -4105,8 +4122,8 @@ Therefore, Covifenz and Nuvaxovid, despite both being designed based on the inde
 The unprecedented deployment of COVID-19 vaccines in under a year from the identification of SARS-CoV-2 led to a new challenge: the formation of rapid global vaccine production and distribution plans.
 The development of vaccines is costly and complicated, but vaccine distribution can be just as challenging.
 Logistical considerations such as transport, storage, equipment (e.g., syringes), the workforce to administer the vaccines, and a continual supply from the manufacturers to meet global demands all must be accounted for and vary globally due to economic, geographic, and sociopolitical reasons [@doi:10.1016/j.eclinm.2020.100674; @doi:10.1126/science.abe2803; @doi:10.1126/sciadv.abf1374].
-As of December 13, 2022, at least 13.0 billion vaccine doses had been administered in at least 223 countries worldwide using 27 different vaccines [@url:https://ourworldindata.org/coronavirus].>
-The daily global vaccination rate at this time was 298.0 per million.
+As of December 26, 2022, at least 13.0 billion vaccine doses had been administered in at least 223 countries worldwide using 28 different vaccines [@url:https://ourworldindata.org/coronavirus].>
+The daily global vaccination rate at this time was 387.0 per million.
 
 However, the distribution of these doses is not uniform around the globe.
 Latin America leads world vaccination rates with at least 82% of individuals in this region receiving one vaccine dose followed by the U.S. and Canada (81%), Asia-Pacific (81%), Europe (70%), the Middle East (58%), followed by Africa with only 33% by November 2022 [@url:https://www.nytimes.com/interactive/2021/world/covid-vaccinations-tracker.html].
@@ -4127,13 +4144,13 @@ Therefore, vaccine development programs that utilized established vaccine techno
 
 ![
 **Vaccine Distribution across Platform Types as a Function of GDP.**
-The total number of doses distributed within each country as of December 19, 2022, by platform type, is shown as a function of GDP.
+The total number of doses distributed within each country as of January 1, 2023, by platform type, is shown as a function of GDP.
 These data are retrieved from Our World in Data [@url:https://ourworldindata.org/coronavirus; @doi:10.1038/s41562-021-01122-8] and plotted using the Python package plotnine [@url:https://github.com/has2k1/plotnine].
 Lines show a general trend in the data and are drawn using geom_smooth [@url:https://ggplot2.tidyverse.org/reference/geom_smooth.html].
 The list of countries included in the dataset is available from OWID [@url:https://github.com/owid/covid-19-data/blob/master/public/data/vaccinations/locations.csv]. 
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
 Axes are not scaled per capita because both variables are modulated by population size.
-](https://github.com/greenelab/covid19-review/raw/019ed0cba2d9e580e02a67af392414475e7bd11a/OWID_doseTypebyGDP.png "Distribution of vaccines according to GDP"){#fig:gdpscatter secno=1}
+](https://github.com/greenelab/covid19-review/raw/abb16c281f3b0c98dbf8f1fecbdf3e28bf064c7f/OWID_doseTypebyGDP.png "Distribution of vaccines according to GDP"){#fig:gdpscatter secno=1}
 
 <!-- Figure is not rendering -->
 
@@ -4484,7 +4501,7 @@ While, for a variety of reasons, SARS-CoV-2 was not controlled as rapidly as the
 Vaccine development programs for COVID-19 emerged very quickly.
 The first administration of a dose of a COVID-19 vaccine to a human trial participant occurred on March 16, 2020 [@url:https://www.modernatx.com/modernas-work-potential-vaccine-against-covid-19; @doi:10.1038/d41573-020-00073-5], marking an extremely rapid response to the emergence of SARS-CoV-2.
 Within a few weeks of this first trial launching, at least 78 vaccine development programs were active [@doi:10.1038/d41573-020-00073-5], and by September 2020, there were over 180 vaccine candidates against SARS-CoV-2 in development [@doi:10.1038/s41586-020-2798-3].
-As of December 2, 2022, 50 SARS-CoV-2 vaccines have been approved world wide and 27 are being administered throughout the world, with 13.0 billion doses administered across 223 countries.
+As of December 2, 2022, 50 SARS-CoV-2 vaccines have been approved world wide and 28 are being administered throughout the world, with 13.0 billion doses administered across 223 countries.
 The first critical step towards developing a vaccine against SARS-CoV-2 was characterizing the viral target, which happened extremely early in the COVID-19 outbreak with the sequencing and dissemination of the viral genome in early January 2020 [@url:https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON233] (Figure @fig:virus).
 This genomic information allowed for an early identification of the sequence of the Spike (S) protein (Figure @fig:virus), which is the antigen and induces an immune response [@doi:10/fmq2; @doi:10.3389/fimmu.2020.576622].
 
@@ -4694,11 +4711,11 @@ The second reported promising results from a phase I trial that administered the
 
 ![
 **Worldwide availability of vaccines developed using non-replicating viral vectors.**<!--As a general comment on the choropleths, is there any way to increase resolution. Hard to see what’s happening in Europe and south east Asia.--><!--Updated from 300 to 600 after this comment in #1169, let's see if it helped-->
-This figure reflects the number of vaccines using non-replicating viral vectors that were available in each country as of December 19, 2022.
+This figure reflects the number of vaccines using non-replicating viral vectors that were available in each country as of January 1, 2023.
 These data are retrieved from Our World in Data [@doi:10.1038/s41562-021-01122-8] and plotted using geopandas [@doi:10.5281/zenodo.5573592].
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
 Note that this figure draws from a different data source than Table @tbl:approved-DNA and does not necessarily include data for every vaccine developed within this category.
-](https://github.com/greenelab/covid19-review/raw/019ed0cba2d9e580e02a67af392414475e7bd11a/owiddata/maps/non_replicating_viral_vector.png "Availability of non-replicating viral-vectored vaccines"){#fig:nrvv-distrib secno=1}
+](https://github.com/greenelab/covid19-review/raw/abb16c281f3b0c98dbf8f1fecbdf3e28bf064c7f/owiddata/maps/non_replicating_viral_vector.png "Availability of non-replicating viral-vectored vaccines"){#fig:nrvv-distrib secno=1}
 
 While not all of the above results were available at the time that vaccine development programs against SARS-CoV-2 began, at least three viral vector vaccines have also been developed against SARS-CoV-2 (Figure @fig:nrvv-distrib).
 First, a collaboration between AstraZeneca and researchers at the University of Oxford successfully applied a viral vector approach to the development of a vaccine against SARS-CoV-2 using the replication-deficient ChAdOx1 vector modified to encode the S protein of SARS-CoV-2 [@doi:10.1038/s41586-020-2608-y].
@@ -4720,7 +4737,7 @@ The JNJ-78436735 candidate was selected for its favorable immunogenicity profile
 The one- versus two-dose regimen was then tested in volunteers through a phase I/IIa trial [@doi:10.1056/NEJMoa2034201; @doi:10.1056/NEJMoa2117608].
 A major difference between this vaccine and the other two in this category is that the S protein immunogen is stabilized in its prefusion conformation, while in the Sputnik V and AstraZeneca vaccines it is not.
 
-As of December 19, 2022, data describing the distribution of 5 viral-vectored vaccines in 202 countries are available (Figure @fig:nrvv-distrib).
+As of January 1, 2023, data describing the distribution of 5 viral-vectored vaccines in 202 countries are available (Figure @fig:nrvv-distrib).
 ChAdOx1 nCoV-19 was first approved for emergency use on December 30, 2020 in the U.K. [@url:https://www.astrazeneca.com/media-centre/press-releases/2020/astrazenecas-covid-19-vaccine-authorised-in-uk.html].
 Sputnik V was available soon after, and early as January 2021, Sputnik V had been administered to 1.5 million Russians [@url:https://www.brusselstimes.com/news-contents/world/149039/1-5-million-people-have-received-sputnik-v-vaccine-russia-says-russian-direct-investment-fund-mikhail-murashko] and began distributing doses to other countries within Europe such as Belarus, Bosnia-Herzegovina, Hungary, San Marino, Serbia, and Slovakia [@url:https://www.euronews.com/2021/02/12/hungary-to-begin-using-russia-s-sputnik-v-vaccine-today; @url:https://www.euronews.com/2021/02/24/san-marino-buys-russia-s-sputnik-v-after-eu-vaccine-delivery-delays; @url:https://www.themoscowtimes.com/2020/12/29/belarus-starts-coronavirus-vaccination-with-sputnik-v-a72512].
 
@@ -4847,15 +4864,15 @@ Both require two doses approximately one month apart.
 The first was Pfizer/BioNTech's BNT162b2, which contains the full prefusion stabilized, membrane-anchored SARS-CoV-2 Spike protein in a vaccine formulation based on modified mRNA (modRNA) technology [@doi:10.1101/cshperspect.a014035; @url:https://www.pfizer.com/news/press-release/press-release-detail/pfizer-and-biontech-announce-early-positive-data-ongoing-0].
 The second mRNA vaccine, mRNA-1273 developed by ModernaTX, is comprised by a conventional LNP-encapsulated RNA encoding a full-length prefusion stabilized S protein for SARS-CoV-2 [@clinicaltrials:NCT04283461].
 The vaccine candidates developed against SARS-CoV-2 using mRNA vectors utilize similar principles and technologies, although there are slight differences in implementation among candidates such as the formulation of the platform and the specific components of the Spike protein encapsulated (e.g., the full Spike protein vs. the RBD alone) [@doi:10.3389/fphar.2020.00937].
-As of December 19, 2022, 2 mRNA vaccines are available in 169 countries (Figure @fig:mRNA-distrib).
+As of January 1, 2023, 2 mRNA vaccines are available in 169 countries (Figure @fig:mRNA-distrib).
 
 ![
 **Worldwide availability of vaccines developed using mRNA.**
-This figure reflects the number of vaccines based on mRNA technology that were available in each country as of December 19, 2022.
+This figure reflects the number of vaccines based on mRNA technology that were available in each country as of January 1, 2023.
 These data are retrieved from Our World in Data [@doi:10.1038/s41562-021-01122-8] and plotted using geopandas [@doi:10.5281/zenodo.5573592].
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
 Note that this figure draws from a different data source than Table @tbl:approved-RNA and does not necessarily include data for every vaccine developed within this category.
-](https://github.com/greenelab/covid19-review/raw/019ed0cba2d9e580e02a67af392414475e7bd11a/owiddata/maps/RNA.png "Availability of mRNA vaccines"){#fig:mRNA-distrib secno=1}
+](https://github.com/greenelab/covid19-review/raw/abb16c281f3b0c98dbf8f1fecbdf3e28bf064c7f/owiddata/maps/RNA.png "Availability of mRNA vaccines"){#fig:mRNA-distrib secno=1}
 
 The rapid and simultaneous development of these vaccines was met with some controversy related to intellectual property (IP).
 First, the National Institutes of Health (NIH) and Moderna became involved in a patent dispute, after researchers at the NIH argued they were unfairly excluded from some patents filed based on their IP after they generated the stabilized modRNA sequence used in the vaccine [@doi:10.1038/d41586-021-03535-x].
@@ -5921,7 +5938,7 @@ Trials that recruit across multiple countries do appear to broaden geographic re
 The density of clinical trials is reported at the country level.
 As of December 31, 2020, there are 6,987 trials in the University of Oxford Evidence-Based Medicine Data Lab's COVID-19 TrialsTracker [@doi:10.5281/zenodo.3732709], of which 3,962 are interventional.
 The top figure demonstrates the density of interventional trials recruiting only from a singular country, while the bottom shows the distribution of recruitment for interventional trials that involve more than one country.
-](https://github.com/greenelab/covid19-review/raw/019ed0cba2d9e580e02a67af392414475e7bd11a/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
+](https://github.com/greenelab/covid19-review/raw/abb16c281f3b0c98dbf8f1fecbdf3e28bf064c7f/ebmdatalab/ebmdatalab-map.png "COVID-19 clinical trials"){#fig:ebm-map secno=1}
 
 A few different concerns arise from this skewed geographic representation in clinical trial recruitment.
 First, treatments such as remdesivir that are promising but primarily available to clinical trial participants are unlikely to be accessible by people in many countries.
