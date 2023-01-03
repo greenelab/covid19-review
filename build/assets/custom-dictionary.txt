@@ -190,6 +190,7 @@ biospecimen
 biospecimens
 Biostatistics
 biosynthesized
+Biotech's
 BJ
 Blanco
 bleyenberghi
@@ -307,6 +308,7 @@ colonocytes
 colorectal
 colorimetric
 Colson
+combatting
 combinatorial
 Comirnaty
 commensal
