@@ -1458,6 +1458,7 @@ pubmed
 PUFA
 PUFAs
 PUMC
+purpura
 pycountry
 pyrazinecarboxamide
 pyrithione
@@ -1648,6 +1649,7 @@ sociocultural
 Sotrovimab
 Soumita
 soumitagh
+spatiotemporal
 specificities
 spectrometry
 SPI
@@ -1730,6 +1732,7 @@ thermostability
 Thermus
 Thevarajan
 THP
+thrombocytopenic
 thromboembolic
 thromboinflammation
 thymosin
