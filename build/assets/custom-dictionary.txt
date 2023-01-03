@@ -41,6 +41,7 @@ aerosolized
 affinis
 agitter
 Agostino
+Agrobacterium
 AICD
 AIFA
 aimundo
@@ -73,6 +74,7 @@ anaphylaxis
 angiotensin
 Anhui
 anosmia
+Anschutz
 anskelly
 anthelmintic
 anthonygitter
@@ -145,6 +147,7 @@ BCL
 BCR
 Belhadi
 benchmarked
+benthamiana
 BepiPred
 Bérengère
 beringei
@@ -163,6 +166,7 @@ bioactive
 bioavailability
 bioavailable
 Biobank
+BioE
 bioengineering
 Bioinformatic
 Bioinformatics
@@ -294,6 +298,7 @@ coagulative
 coagulopathy
 cobicistat
 Codagenix
+Codagenix's
 coevolution
 coli
 colloidal
@@ -343,6 +348,7 @@ Covifenz
 Covilo
 Covishield
 CoviVac
+Covovax
 CoVs
 CoVZC
 CoVZXC
@@ -438,6 +444,7 @@ Dibene
 DIC
 differentially
 dihydroxyvitamin
+diluents
 DiMaio
 dimerization
 Dimitri
@@ -994,6 +1001,7 @@ lkolla
 LNP
 LNPs
 lockdown
+lococyte
 Lokits
 lopinavir
 Lordan
@@ -1150,6 +1158,7 @@ mustelida
 Mustelidae
 mustelids
 mutagenesis
+MV
 MVN
 myalgia
 myalgias
@@ -1208,6 +1217,7 @@ NHC
 NHGRI
 NIAID
 niclosamide
+Nicotiana
 Nidovirales
 nidoviruses
 Nie
@@ -1773,6 +1783,7 @@ troponin
 trypsin
 TTCR
 Tübingen
+tumefaciens
 TUNEL
 turbinate
 UAE
@@ -1843,6 +1854,7 @@ vison
 vitro
 vivo
 VL
+VLA
 VLP
 VLPs
 Vmax
