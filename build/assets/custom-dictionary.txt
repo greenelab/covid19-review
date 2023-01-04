@@ -3,6 +3,7 @@ aadattoli
 AbbVie
 AbCellera
 ABCpred
+Abdala
 ABO
 Abu
 ABVV
@@ -581,6 +582,7 @@ FGDSVEEVL
 Fibrinogen
 fibroblast
 fibrobronchoscopy
+Finlay
 FiO
 Flaviviridae
 floxed
@@ -858,6 +860,7 @@ infodemics
 injectate
 INO
 INOVIO
+Instituto
 insufficiencies
 integrase
 interactome
@@ -1642,6 +1645,7 @@ SMQ
 SNG
 SNP
 SNPs
+SOBERANA
 sociocultural
 Sotrovimab
 Soumita
@@ -1818,6 +1822,7 @@ vaccinee
 vaccinees
 vaccinia
 vaccinology
+Vacunas
 VADE
 Valneva
 Vaninov
