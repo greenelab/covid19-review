@@ -4,6 +4,7 @@ AbbVie
 AbCellera
 ABCpred
 Abdala
+Abdala's
 ABO
 Abu
 ABVV
@@ -281,6 +282,7 @@ chromatographic
 Chumakov
 chz
 Ciclesonide
+CIGB
 ciliated
 cis
 Cisneros
@@ -586,6 +588,7 @@ fibroblast
 fibrobronchoscopy
 Finlay
 FiO
+flatlined
 Flaviviridae
 floxed
 fluorescently
@@ -1075,6 +1078,7 @@ MDCK
 Meara
 Médecine
 Medicago
+Medicago's
 medRxiv
 Mehmet
 Mehra
