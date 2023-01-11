@@ -76,8 +76,8 @@ header-includes: |
   <meta name="dc.date" content="2023-01-11" />
   <meta name="citation_publication_date" content="2023-01-11" />
   <meta property="article:published_time" content="2023-01-11" />
-  <meta name="dc.modified" content="2023-01-11T04:33:00+00:00" />
-  <meta property="article:modified_time" content="2023-01-11T04:33:00+00:00" />
+  <meta name="dc.modified" content="2023-01-11T18:47:37+00:00" />
+  <meta property="article:modified_time" content="2023-01-11T18:47:37+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -297,13 +297,13 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/d0823dc1849b83477fbb42540eddff5f9fc95d10/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/d0823dc1849b83477fbb42540eddff5f9fc95d10/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/d0823dc1849b83477fbb42540eddff5f9fc95d10/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/fdb58442e03102bb5a9d12d6782ee2a14040af1c/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/fdb58442e03102bb5a9d12d6782ee2a14040af1c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/fdb58442e03102bb5a9d12d6782ee2a14040af1c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/d0823dc1849b83477fbb42540eddff5f9fc95d10/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/d0823dc1849b83477fbb42540eddff5f9fc95d10/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/fdb58442e03102bb5a9d12d6782ee2a14040af1c/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/fdb58442e03102bb5a9d12d6782ee2a14040af1c/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -325,11 +325,11 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/d0823dc1849b83477fbb42540eddff5f9fc95d10/))
+([permalink](https://greenelab.github.io/covid19-review/v/fdb58442e03102bb5a9d12d6782ee2a14040af1c/))
 was automatically generated
-from [greenelab/covid19-review@d0823dc](https://github.com/greenelab/covid19-review/tree/d0823dc1849b83477fbb42540eddff5f9fc95d10)
+from [greenelab/covid19-review@fdb5844](https://github.com/greenelab/covid19-review/tree/fdb58442e03102bb5a9d12d6782ee2a14040af1c)
 on 2023-01-11.
-It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/d0823dc1849b83477fbb42540eddff5f9fc95d10/manuscript.pdf).
+It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/fdb58442e03102bb5a9d12d6782ee2a14040af1c/manuscript.pdf).
 Snapshots of individual sections have been published [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals; @individual-methods] or posted as preprints [@individual-diagnostics; @individual-vaccines-traditional; @individual-vaccines-novel].
 </em></small>
 
@@ -6467,7 +6467,7 @@ Future work can address remaining limitations and continue to advance Manubot as
 |Christian Brueffer|Employee and shareholder of SAGA Diagnostics AB.|2020-11-11|
 |Sandipan Ray|None|2020-11-11|
 |Lucy D\'Agostino McGowan|Received consulting fees from Acelity and Sanofi in the past five years|2020-11-10|
-|Anthony Gitter|Filed a patent application with the Wisconsin Alumni Research Foundation related to classifying activated T cells|2020-11-10|
+|Anthony Gitter|Inventor of patent US-11410440-B2 assigned to the Wisconsin Alumni Research Foundation related to classifying activated T cells.|2023-01-11|
 |Anna Ada Dattoli|None|2020-03-26|
 |Ryan Velazquez|None|2020-11-10|
 |John P. Barton|None|2020-11-11|
