@@ -465,8 +465,8 @@ authors:
     code of conduct:
       confirmed: Yes
     coi:
-      string: "Filed a patent application with the Wisconsin Alumni Research Foundation related to classifying activated T cells"
-      lastapproved: !!str 2020-11-10
+      string: "Inventor of patent US-11410440-B2 assigned to the Wisconsin Alumni Research Foundation related to classifying activated T cells."
+      lastapproved: !!str 2023-01-11
     funders:
       - John W. and Jeanne M. Rowe Center for Research in Virology
     manuscripts:
@@ -475,6 +475,7 @@ authors:
         contributions:
           - Writing - Review & Editing
           - Writing - Original Draft
+          - Project Administration
       vaccines-novel:
         order: 9
         contributions:
