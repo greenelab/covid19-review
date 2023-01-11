@@ -3,6 +3,8 @@ aadattoli
 AbbVie
 AbCellera
 ABCpred
+Abdala
+Abdala's
 ABO
 Abu
 ABVV
@@ -280,6 +282,7 @@ chromatographic
 Chumakov
 chz
 Ciclesonide
+CIGB
 ciliated
 cis
 Cisneros
@@ -583,7 +586,9 @@ FGDSVEEVL
 Fibrinogen
 fibroblast
 fibrobronchoscopy
+Finlay
 FiO
+flatlined
 Flaviviridae
 floxed
 fluorescently
@@ -860,6 +865,7 @@ infodemics
 injectate
 INO
 INOVIO
+Instituto
 insufficiencies
 integrase
 interactome
@@ -1072,6 +1078,7 @@ MDCK
 Meara
 Médecine
 Medicago
+Medicago's
 medRxiv
 Mehmet
 Mehra
@@ -1645,6 +1652,7 @@ SMQ
 SNG
 SNP
 SNPs
+SOBERANA
 sociocultural
 Sotrovimab
 Soumita
@@ -1823,6 +1831,7 @@ vaccinee
 vaccinees
 vaccinia
 vaccinology
+Vacunas
 VADE
 Valneva
 Vaninov
