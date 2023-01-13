@@ -8,8 +8,10 @@ on:
     branches:
       - main
       - master
-  # NOTE: scheduled workflows aren't supported
-  # https://github.community/t/github-event-repository-fork-context-does-detect-forks-in-scheduled-jobs/185925
+  # NOTE: scheduled workflows are supported as of 2022-09-27 (example commented below)
+  # https://github.com/community/community/discussions/12269#discussioncomment-3747667
+  # scheduled:
+  #   - cron: '40 10 1 * *'  # https://crontab.guru/#40_10_1_*_*
   workflow_dispatch:
     inputs:
       BUILD_HTML:
@@ -55,7 +57,7 @@ jobs:
         shell: bash --login {0}
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           # fetch entire commit history to support get_rootstock_commit
           fetch-depth: 0
@@ -77,7 +79,7 @@ jobs:
           echo "DEFAULT_BRANCH_REF=refs/heads/$DEFAULT_BRANCH" >> $GITHUB_ENV
           echo "DEFAULT_BRANCH=$DEFAULT_BRANCH"
       - name: Cache
-        uses: actions/cache@v1
+        uses: actions/cache@v3
         with:
           path: ci/cache
           key: ci-cache-${{ github.ref }}
@@ -96,7 +98,7 @@ jobs:
       - name: Build Manuscript
         run: bash build/build.sh
       - name: Upload Artifacts
-        uses: actions/upload-artifact@v1
+        uses: actions/upload-artifact@v3
         with:
           name: manuscript-${{ github.run_id }}-${{ env.TRIGGERING_SHA_7 }}
           path: output

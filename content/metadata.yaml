@@ -1,5 +1,6 @@
 ---
 title: "SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics"
+date: null  # Defaults to date generated, but can specify like '2022-10-31'.
 keywords:
   - covid-19
   - coronavirus
