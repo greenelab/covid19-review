@@ -91,9 +91,9 @@ def main(args):
     # The placeholder will be replaced by the actual SHA-1 hash in separate
     # script after the updated image is committed
     owid_stats['owid_doses_bargraph'] = \
-    f'https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/{args.doses_bargraph}'
+    f'https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/owiddata/{args.doses_bargraph}'
     owid_stats['owid_doses_scatterplot'] = \
-    f'https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/{args.doses_scatterplot}'
+    f'https://github.com/greenelab/covid19-review/raw/$FIGURE_COMMIT_SHA/owiddata/{args.doses_scatterplot}'
     write_JSON(owid_stats, args.update_json)
 
 if __name__ == '__main__':
