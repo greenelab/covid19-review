@@ -6,7 +6,7 @@ keywords:
 - pandemic
 - viral infection
 lang: en-US
-date-meta: '2023-01-12'
+date-meta: '2023-01-16'
 author-meta:
 - Halie M. Rando
 - Casey S. Greene
@@ -73,11 +73,11 @@ header-includes: |
   <meta name="citation_title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="og:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
   <meta property="twitter:title" content="SARS-CoV-2 and COVID-19: An Evolving Review of Diagnostics and Therapeutics" />
-  <meta name="dc.date" content="2023-01-12" />
-  <meta name="citation_publication_date" content="2023-01-12" />
-  <meta property="article:published_time" content="2023-01-12" />
-  <meta name="dc.modified" content="2023-01-12T20:02:53+00:00" />
-  <meta property="article:modified_time" content="2023-01-12T20:02:53+00:00" />
+  <meta name="dc.date" content="2023-01-16" />
+  <meta name="citation_publication_date" content="2023-01-16" />
+  <meta property="article:published_time" content="2023-01-16" />
+  <meta name="dc.modified" content="2023-01-16T16:20:20+00:00" />
+  <meta property="article:modified_time" content="2023-01-16T16:20:20+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -297,13 +297,13 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/covid19-review/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/covid19-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/covid19-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/53985a5c2cc66e929e3d9641d087c55d912f8001/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/53985a5c2cc66e929e3d9641d087c55d912f8001/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/53985a5c2cc66e929e3d9641d087c55d912f8001/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/covid19-review/v/87675d2caf1c5febc06c0eec4a252df3bc7fae88/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/covid19-review/v/87675d2caf1c5febc06c0eec4a252df3bc7fae88/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/covid19-review/v/87675d2caf1c5febc06c0eec4a252df3bc7fae88/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/53985a5c2cc66e929e3d9641d087c55d912f8001/content/images/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/53985a5c2cc66e929e3d9641d087c55d912f8001/content/images/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/covid19-review/raw/87675d2caf1c5febc06c0eec4a252df3bc7fae88/content/images/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/covid19-review/raw/87675d2caf1c5febc06c0eec4a252df3bc7fae88/content/images/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -325,11 +325,11 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/covid19-review/v/53985a5c2cc66e929e3d9641d087c55d912f8001/))
+([permalink](https://greenelab.github.io/covid19-review/v/87675d2caf1c5febc06c0eec4a252df3bc7fae88/))
 was automatically generated
-from [greenelab/covid19-review@53985a5](https://github.com/greenelab/covid19-review/tree/53985a5c2cc66e929e3d9641d087c55d912f8001)
-on 2023-01-12.
-It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/53985a5c2cc66e929e3d9641d087c55d912f8001/manuscript.pdf).
+from [greenelab/covid19-review@87675d2](https://github.com/greenelab/covid19-review/tree/87675d2caf1c5febc06c0eec4a252df3bc7fae88)
+on 2023-01-16.
+It is also available as a [PDF](https://greenelab.github.io/covid19-review/v/87675d2caf1c5febc06c0eec4a252df3bc7fae88/manuscript.pdf).
 Snapshots of individual sections have been published [@individual-pathogenesis; @individual-nutraceuticals; @individual-pharmaceuticals; @individual-methods] or posted as preprints [@individual-diagnostics; @individual-vaccines-traditional; @individual-vaccines-novel].
 </em></small>
 
@@ -3789,7 +3789,7 @@ On the other hand, some concerns have arisen about the possibility of spillover 
 A December 2022 study analyzed SARS-CoV-2 samples isolated from COVID-19 patients in India and identified two extremely similar sequences collected on June 30, 2020 that showed a high level of recombination relative to the dominant strains at the time [@doi:10.1186/s12985-022-01945-5].
 Comparing these samples to a database of SARS-CoV-2 sequences revealed they were most similar to the sequence used for COVI-VAC [@doi:10.1186/s12985-022-01945-5].
 Based on phylogenetic reconstruction, the authors argued that these SARS-CoV-2 isolates were most likely to have spilled over from COVI-VAC trials [@doi:10.1186/s12985-022-01945-5].
-If this was a case of spillover, the effect seems to have been limited, as these sequences were just two among over 1600 analyzed.
+If this was a case of spillover, the effect seems to have been limited, as these sequences were just two among over 1,600 analyzed.
 However, these concerns may be one consideration in the development of LAV vaccines for COVID-19.
 
 ##### Meissa Vaccines MV-014-212
@@ -3935,7 +3935,7 @@ This strategy is supported by the fact that the antibody response elicited by Co
 A phase I/II clinical trial of CoronaVac in an elderly cohort (adults 60 years and older) in China determined that by 6 to 8 months following the second dose, nAb titers were detected below the seropositive cutoff [@doi:10.1101/2021.08.03.21261544].
 Data from two phase II trials indicated that nAb response had declined 6 months after the second dose of the primary series, but a booster dose of CoronaVac administered 8 months after the second dose markedly increased geometric mean titers of SARS-CoV-2 nAbs [@doi:10/gq6nm3].
 However, the reduction of nAbs was ameliorated by a booster dose administered 8 months after the second CoronaVac dose [@doi:10/gq6nm3].
-Furthermore, Chinese [@url:https://medicalxpress.com/news/2021-08-china-mixed-vaccine-trial-delta.html] and Chilean [@url:https://clinicaltrials.gov/ct2/show/NCT04992182] researchers have opted to investigate options to administer different vaccines (e.g., an mRNA vaccine dose) as a booster dose to individuals who have already received two doses of the IWV vaccine CoronaVac.
+Furthermore, Chinese [@url:https://medicalxpress.com/news/2021-08-china-mixed-vaccine-trial-delta.html] and Chilean [@clinicaltrials:NCT04992182] researchers have opted to investigate options to administer different vaccines (e.g., an mRNA vaccine dose) as a booster dose to individuals who have already received two doses of the IWV vaccine CoronaVac.
 Another study determined that using a viral-vectored vaccine (CanSino's Convidecia) or an mRNA vaccine (Pfizer/BioNTech's BNT162b2) instead of CoronaVac in a prime-boost vaccination regimen could induce a more robust immune response [@doi:10.1038/s41591-021-01677-z; @doi:10.1038/s41591-022-01705-6].
 The WHO now suggests that a booster dose, either homologous or heterologous, can be considered 4 to 6 months after the primary series, especially for high-risk groups [@url:https://www.who.int/news-room/feature-stories/detail/the-sinovac-covid-19-vaccine-what-you-need-to-know].
 
@@ -3946,7 +3946,7 @@ One, known as BBIBP-CorV or Covilo, was developed in Beijing using the HB02 vari
 The other was developed at Sinopharm CNBG's Wuhan Institute using the WIV04 variant of SARS-CoV-2 [@doi:10.1038/s41541-021-00292-w].
 The viruses were purified, propagated using Vero cells, isolated, and inactivated using &beta;-propiolactone [@doi:10.1016/j.cell.2020.06.008; @doi:10.1038/s41541-021-00292-w].
 Both vaccines are adjuvanted with aluminum hydroxide [@doi:10.1016/j.cell.2020.06.008; @doi:10.1038/s41541-021-00292-w].
-Here, we focus on reviewing the literature surrounding Covilo.
+Here, we focus on Covilo.
 
 Preclinical studies indicated that Covilo induced sufficient nAb titers in mice, and a prime-boost immunization scheme of 2 &mu;g/dose was sufficient to protect rhesus macaques from disease [@doi:10.1016/j.cell.2020.06.008].
 In phase II trials, the Covilo vaccine appeared well-tolerated, with 23% of participants in the vaccine condition (482 total participants, 3:1, vaccine:placebo) reporting at least one adverse reaction characterized as mild to moderate [@doi:10/ghjkrf].
@@ -3969,13 +3969,13 @@ Another IWV vaccine candidate was developed by Bharat Biotech International Ltd.
 This candidate is known as Covaxin or BBV152.
 Preclinical studies of Covaxin in hamsters [@doi:10.21203/rs.3.rs-76768/v1] and macaques [@doi:10.1038/s41467-021-21639-w] indicated that the vaccine induced protective responses deemed sufficient to move forward to human trials.
 Phase I (July 2020) and phase I/II (September to October 2020) studies indicated that Covaxin adjuvanted with alum and a Toll-like receptor 7/8 (TLR7/8) agonist was safe and immunogenic [@doi:10/gkrthh; @doi:10/gh7597].
-These two studies demonstrated that the vaccine induced significant humoral and cell-mediated responses, as assessed by measuring binding [@doi:10/gkrthh] and neutralizing [@doi:10/gkrthh; @doi:10/gh7597] antibodies, cytokines [@doi:10/gkrthh; @doi:10/gh7597], CD3^+, CD4^+, and CD8^+ T-cells [@doi:10/gkrthh], with some formulations also eliciting Th1-skewed memory T-cell responses [@doi:10/gh7597].
-Only mild to moderate side-effects reported upon immunization [@doi:10/gkrthh; @doi:10/gh7597], and in phase II trials, the Covilo vaccine appeared well-tolerated [@doi:10/ghjkrf].
+These two studies demonstrated that the vaccine induced significant humoral and cell-mediated responses, as assessed by measuring binding [@doi:10/gkrthh] and neutralizing [@doi:10/gkrthh; @doi:10/gh7597] antibodies, cytokines [@doi:10/gkrthh; @doi:10/gh7597], CD3^+^, CD4^+^, and CD8^+^ T-cells [@doi:10/gkrthh], with some formulations also eliciting Th1-skewed memory T-cell responses [@doi:10/gh7597].
+Only mild to moderate side-effects were reported upon immunization [@doi:10/gkrthh; @doi:10/gh7597], and in phase II trials, the Covilo vaccine appeared well-tolerated [@doi:10/ghjkrf].
 
 In India, the Covaxin vaccine received emergency authorization on January 3, 2021, but the phase III data was not released until March 3, 2021, and even then it was communicated via press release [@url:https://www.bharatbiotech.com/images/press/covaxin-phase3-efficacy-results.pdf].
 This press release reported 80.6% efficacy in 25,800 participants [@url:https://www.bharatbiotech.com/images/press/covaxin-phase3-efficacy-results.pdf; @url:https://www.biogenetech.co.th/wp-content/uploads/2021/03/5-Ocugen.pdf], spurring Zimbabwe to follow suit and authorize the use of Covaxin [@url:http://www.xinhuanet.com/english/2021-03/04/c_139783893.htm].
 A detailed preprint describing the double-blind, randomized, controlled phase III trial that enrolled between November 2020 and January 2021 became available in July 2021 [@doi:10.1101/2021.06.30.21259439], and the results collected as of May 17, 2021 were published in December 2021 [@doi:10/gnkdnx].
-Based on a final enrollment of 25,798 people (~1:1 vaccine:placebo), overall VE against symptomatic COVID-19 was estimated at 77.8%, and against severe disease and asymptomatic infection was reported as 93.4% and 63.6% respectively [@doi:10/gnkdnx].
+Based on a final enrollment of 25,798 people (~1:1 vaccine:placebo), overall VE against symptomatic COVID-19 was estimated at 77.8% and against severe disease and asymptomatic infection was reported as 93.4% and 63.6%, respectively [@doi:10/gnkdnx].
 The vaccine was also reported to be well tolerated, with fewer severe events occurring in the Covaxin group (0.3%) than in the placebo group (0.5%) [@doi:10/gnkdnx].
 One case of a serious AE potentially related to the vaccine, immune thrombocytopenic purpura, was reported, although this patient was seropositive for SARS-CoV-2 at the baseline observation point [@doi:10/gnkdnx].
 As of January 11, 2023, Covaxin was approved for emergency use in 31 countries across Africa, Asia, Europe, and South America, including Guyana, India, Iran, Zimbabwe, Nepal, Mauritius, Mexico, Nepal, Paraguay, and the Philippines [@url:https://covid19.trackvaccines.org/vaccines/9].
@@ -4022,7 +4022,7 @@ Studies are also investigating the effects of booster doses in other vaccines [@
 As new vaccines are approved by the WHO, more time elapses since many received the primary series, and new variants emerge, booster recommendations are likely to increase.
 Therefore, IWV vaccines have played an important role in vaccine access during the initial phase of vaccination against COVID-19, but many IWV vaccinees may receive booster doses developed with emergent vaccine technologies like DNA and mRNA.
 In head-to-head comparisons, these types of vaccines were typically found to outperform IWV vaccines (e.g., [@doi:10.1093/cid/ciab1041; @doi:10.1002/jmv.27396; @doi:10.1016/j.jvacx.2022.100153].
-At the same time, IWV vaccines are among the easiest to store and transport due to requiring refrigeration only at 2 to 8 degrees Celsius and remaining stable for years at a time [@doi:10.1001/jama.2021.8565].
+At the same time, IWV vaccines are among the easiest to store and transport due to requiring refrigeration only at 2 to 8&#176;C and remaining stable for years at a time [@doi:10.1001/jama.2021.8565].
 Therefore, these vaccines are likely to continue to play an important role in vaccine equity and accessibility.
 
 ### Subunit Vaccines
@@ -4109,7 +4109,7 @@ See https://greenelab.github.io/covid19-review/ for the most recent version of t
 
 #### Novavax's Nuvaxovid
 
-NVX-CoV2373, also known as  Nuvaxovid or Covovax [@url:https://www.who.int/news-room/feature-stories/detail/the-novavax-vaccine-against-covid-19-what-you-need-to-know], is a protein subunit vaccine for SARS-CoV-2 produced by U.S. company Novavax and partners.
+NVX-CoV2373, also known as Nuvaxovid or Covovax [@url:https://www.who.int/news-room/feature-stories/detail/the-novavax-vaccine-against-covid-19-what-you-need-to-know], is a protein subunit vaccine for SARS-CoV-2 produced by U.S. company Novavax and partners.
 Nuvaxovid is a protein nanoparticle vaccine constructed from a mutated prefusion SARS-CoV-2 spike protein in combination with a specialized saponin-based adjuvant to elicit an immune response against SARS-CoV-2 [@doi:10.1056/NEJMoa2026920].
 The spike protein is recombinantly expressed in Sf9 insect cells [@doi:10.1038/s41467-020-20653-8], which have previously been used for several other FDA-approved protein therapeutics [@doi:10.1021/acs.iecr.8b00985], and contains mutations in the furin cleavage site (682-RRAR-685 to 682-QQAQ-685) along with two proline substitutions (K986P and V987P) that stabilize the protein [@doi:10.3389/fimmu.2021.660198], including improving thermostability [@doi:10.1038/s41467-020-20653-8].
 
@@ -4138,11 +4138,11 @@ Thus, both trials suggested that the Nuvaxovid vaccine is safe and effective aga
 However, Novavax experienced significant challenges in preparing Nuvaxovid for distribution.
 Prior to the pandemic's onset, Novavax had sold their manufacturing facilities and reduced their staff dramatically [@url:https://www.asbmb.org/asbmb-today/industry/060422/novavax-missed-its-global-moonshot-but-is-angling].
 As a result, once they began producing Nuvaxovid, they struggled to establish a stable relationship with contractors who could produce the vaccine [@doi:10.1136/bmj.n2965], especially given the challenge of producing vaccines at scale [@doi:10.1126/science.abc9588].
-Additionally, Novavax was not able to meet the purity standards laid out by the FDA, according to an investigation by _Politico_ in late 2021 [@url:https://www.politico.com/news/2021/10/19/novavax-vaccine-rush-process-global-campaign-516298].
+Additionally, Novavax was not able to meet the purity standards laid out by the FDA [@url:https://www.politico.com/news/2021/10/19/novavax-vaccine-rush-process-global-campaign-516298].
 Eventually, the manufacturing issues were resolved [@url:https://www.cnbc.com/2022/05/13/novavax-confident-covid-vaccine-will-receive-fda-authorization-in-june-after-delays.html], and Nuvaxovid has since been authorized by the WHO [@url:https://www.who.int/news/item/17-12-2021-who-lists-9th-covid-19-vaccine-for-emergency-use-with-aim-to-increase-access-to-vaccination-in-lower-income-countries] and by political entities, including the United Kingdom [@url:https://www.gov.uk/government/news/novavax-covid-19-vaccine-nuvaxovid-approved-by-mhra], the E.U. [@ema-nuvaxovid], and the U.S. [@url:https://www.fda.gov/news-events/press-announcements/coronavirus-covid-19-update-fda-authorizes-emergency-use-novavax-covid-19-vaccine-adjuvanted].
 These delays obstructed some of the goals of the vaccine development program, which was undertaken with significant investment from the U.S. government through Operation Warp Speed [@url:https://www.politico.com/news/2021/10/19/novavax-vaccine-rush-process-global-campaign-516298].
- Novavax was supposed to provide over a billion doses of Nuvaxovid to countries around the world through the COVID-19 Vaccines Global Access (COVAX) Facility [@url:https://www.politico.com/news/2021/10/19/novavax-vaccine-rush-process-global-campaign-516298].
-However, following the delays, Gavi (which oversees COVAX) terminated the agreement, leading to ongoing legal disagreements between the nonprofit and Novavax las of late 2022 [@url:https://www.reuters.com/business/healthcare-pharmaceuticals/gavi-says-it-is-not-breach-novavax-vaccine-deal-2022-11-22; @url:https://www.cnbc.com/2022/05/13/novavax-confident-covid-vaccine-will-receive-fda-authorization-in-june-after-delays.html].
+Novavax was supposed to provide over a billion doses of Nuvaxovid to countries around the world through the COVID-19 Vaccines Global Access (COVAX) Facility [@url:https://www.politico.com/news/2021/10/19/novavax-vaccine-rush-process-global-campaign-516298].
+However, following the delays, Gavi (which oversees COVAX) terminated the agreement, leading to ongoing legal disagreements between the nonprofit and Novavax as of late 2022 [@url:https://www.reuters.com/business/healthcare-pharmaceuticals/gavi-says-it-is-not-breach-novavax-vaccine-deal-2022-11-22; @url:https://www.cnbc.com/2022/05/13/novavax-confident-covid-vaccine-will-receive-fda-authorization-in-june-after-delays.html].
 
 As with other vaccines, the question of how well Nuvaxovid continues to provide protection as SARS-CoV-2 evolves has been raised.
 _Post hoc_ analysis in the phase III trial indicated a VE of 86.3% against the Alpha variant (identified based on the presence of the 69–70del polymorphism) and 96.4% against viral specimens lacking the 69-70del polymorphism [@doi:10.1056/NEJMoa2107659].
@@ -4197,11 +4197,11 @@ As of December 2022, the vaccine had been authorized for distribution in five ad
 However, limited data is available about the Abdala's vaccine's robustness to evolutionary changes in SARS-CoV-2.
 An _in silico_ analysis identified several potential changes in the epitopes of the Omicron VOC relative to the sequence used in the development of Abdala [@cuban-vaccines-omicron].
 Instead, Cuban health officials have prioritized boosters.
-A representative of the Cuban state business group reportedly stated that immunity remains high at six months after the primary course, but that some people may be prone to infection [@url:https://oncubanews.com/en/coronavirus/cuba-to-apply-booster-doses-of-its-covid-19-vaccines], suggesting waning immunity.
+A representative of the Cuban state business group reportedly stated that immunity remains high at six months after the primary course but that some people may be prone to infection [@url:https://oncubanews.com/en/coronavirus/cuba-to-apply-booster-doses-of-its-covid-19-vaccines], suggesting waning immunity.
 The Cuban government authorized boosters in January 2022 in an effort to mitigate the effects of the Omicron variant [@url:https://www.cnbc.com/2022/01/13/why-cubas-extraordinary-covid-vaccine-success-could-provide-the-best-hope-for-the-global-south.html; @url:https://oncubanews.com/en/coronavirus/cuba-to-apply-booster-doses-of-its-covid-19-vaccines; @url:https://www.reuters.com/world/americas/cuba-fast-track-boosters-omicron-looms-2021-12-29].
 Additional support for the efficacy of Abdala and other Cuban vaccines comes from the fact that Cuba's COVID-19 death rate has virtually flatlined since fall 2021, with less than 250 deaths reported during the entire year of 2022 in a population of 11.3 million [@url:https://www.worldometers.info/coronavirus/country/cuba].
-Therefore, in addition to developing a vaccine with an estimated VE paralleling that of vaccines developed using cutting-edge nucleic acid technologies (see [@individual-vaccines-novel]), Cuba's vaccine roll out has also been much more successful than in nearly all similarly sized countries.
-This remarkable vaccine program underscores the continued importance of established, cost-effective vaccine development strategies [@url:https://www.cnbc.com/2022/01/13/why-cubas-extraordinary-covid-vaccine-success-could-provide-the-best-hope-for-the-global-south.html] that make it possible for countries that have not traditionally been a leader in biotechnological innovation but has developed a solid vaccine production sector [@doi:10.1136/bmj.n1912] to develop and produce vaccines that will serve their own population's needs.
+Therefore, in addition to developing a vaccine with an estimated VE paralleling that of vaccines developed using cutting-edge nucleic acid technologies [@individual-vaccines-novel], Cuba's vaccine roll out has also been much more successful than in nearly all similarly sized countries.
+This remarkable vaccine program underscores the continued importance of established, cost-effective vaccine development strategies [@url:https://www.cnbc.com/2022/01/13/why-cubas-extraordinary-covid-vaccine-success-could-provide-the-best-hope-for-the-global-south.html] that make it possible for countries that have not traditionally been a leader in biotechnological innovation but have developed a solid vaccine production sector [@doi:10.1136/bmj.n1912] to develop and produce vaccines that will serve their own population's needs.
 Additionally, Cuba's vaccines are uniquely accessible to many countries around the world [@url:https://www.cnbc.com/2022/01/13/why-cubas-extraordinary-covid-vaccine-success-could-provide-the-best-hope-for-the-global-south.html].
 
 #### Medicago's Covifenz
@@ -4255,7 +4255,7 @@ Hoping to build on Cuba's success and the continued lack of vaccine access in ma
 The efficacy and effectiveness of these vaccines is also very high, especially for Nuvaxovid, Abdala, and SOBERANA 01/02/Plus, where estimates exceeded 90%.
 Unfortunately, there seem to be limited studies directly comparing the immunogenicity of subunit vaccines to nucleic acid vaccines, and comparing efficacies across trials is subject to bias [@doi:10.1093/cid/ciab213].
 All the same, the evidence suggests that some protein subunit vaccines are able to provide extremely strong protection.
-Coupled with the reduced barriers to development and transportation relative to most nucleic acid vaccines, it's clear that subunit technologies are important to vaccine access.
+Coupled with the reduced barriers to development and transportation relative to most nucleic acid vaccines, it is clear that subunit technologies are important to vaccine access.
 
 ### Global Vaccine Status and Distribution
 
@@ -4266,7 +4266,7 @@ As of January 4, 2023, at least 13.0 billion vaccine doses had been administered
 The daily global vaccination rate at this time was 254.0 per million.
 
 However, the distribution of these doses is not uniform around the globe.
-Latin America leads world vaccination rates with at least 82% of individuals in this region receiving one vaccine dose followed by the U.S. and Canada (81%), Asia-Pacific (81%), Europe (70%), the Middle East (58%), followed by Africa with only 33% by November 2022 [@url:https://www.nytimes.com/interactive/2021/world/covid-vaccinations-tracker.html].
+Latin America leads world vaccination rates with at least 82% of individuals in this region receiving one vaccine dose followed by the U.S. and Canada (81%), Asia-Pacific (81%), Europe (70%), the Middle East (58%), and Africa with only 33% as of November 2022 [@url:https://www.nytimes.com/interactive/2021/world/covid-vaccinations-tracker.html].
 It is estimated that only ~25% of individuals in low- and middle-income countries have received one vaccine dose [@url:https://ourworldindata.org/covid-vaccinations; @doi:10.1038/s41562-021-01122-8].
 Vaccine production and distribution varies from region to region and seems to depend on the availability of the vaccines and potentially a country's resources and wealth [@url:https://www.nytimes.com/2020/12/25/business/coronavirus-vaccines-global-economy.html].
 
@@ -4290,7 +4290,7 @@ Lines show a general trend in the data and are drawn using geom_smooth [@url:htt
 The list of countries included in the dataset is available from OWID [@url:https://github.com/owid/covid-19-data/blob/master/public/data/vaccinations/locations.csv]. 
 See https://greenelab.github.io/covid19-review/ for the most recent version of this figure, which is updated daily.
 Axes are not scaled per capita because both variables are modulated by population size.
-](https://github.com/greenelab/covid19-review/raw/744bce7e5bdc3eb9c78297df367b1d11ac79c5ab/OWID_doseTypebyGDP.png "Distribution of vaccines according to GDP"){#fig:gdpscatter secno=1}
+](https://github.com/greenelab/covid19-review/raw/744bce7e5bdc3eb9c78297df367b1d11ac79c5ab/owiddata/OWID_doseTypebyGDP.png "Distribution of vaccines according to GDP"){#fig:gdpscatter secno=1}
 
 <!-- Figure is not rendering -->
 
@@ -4321,7 +4321,7 @@ The vaccine has been approved for distribution in India and Botswana [@url:https
 
 Logistical challenges and geographical barriers also dictate the availability of certain vaccines. 
 Many countries have had poor availability of ultra-low temperature freezers, leading to challenges of distribution for vaccines such as mRNA vaccines that require storage at very low temperatures [@doi:10.1093/inthealth/ihab010; @doi:10.1208/s12249-021-01974-3; @url:https://www.bloomberg.com/news/articles/2021-01-03/pfizer-to-supply-african-health-care-workers-with-vaccines]. 
-Furthermore, ancillary supplies such as vaccine containers, diluents for frozen or lyophilized vaccines, disinfecting wipes, bandages, needles, syringes, sharps and biological waste disposal containers are also required, which may not be readily available in geographically isolated locations and can be bulky and expensive to ship [@doi:10.1093/inthealth/ihab010]. ƒ√
+Furthermore, ancillary supplies such as vaccine containers, diluents for frozen or lyophilized vaccines, disinfecting wipes, bandages, needles, syringes, sharps and biological waste disposal containers are also required, which may not be readily available in geographically isolated locations and can be bulky and expensive to ship [@doi:10.1093/inthealth/ihab010].
 While some of these challenges in vaccine rollout in low- and middle-income countries are being addressed through COVAX [@url:https://www.unicef.org/supply/covax-ensuring-global-equitable-access-covid-19-vaccines], many issues persist worldwide [@doi:10/jqp4; @doi:10.1093/cid/ciac361; @doi:10.1080/20477724.2022.2091862].
 COVAX also failed to distribute its promised two billion vaccine doses on time due to multiple complications [@url:https://www.washingtonpost.com/world/2021/12/10/covax-doses-delivered].
 
@@ -4338,7 +4338,7 @@ Overall, the vaccine landscape remains heterogeneous even as the pandemic nears 
 The vaccines described in this manuscript, which were developed using well-established technologies, have played a crucial role in improving the feasibility and accessibility of vaccination programs worldwide.
 While the novel technologies have received the bulk of public attention in countries like the U.S., these more traditional vaccine platforms also provide safe and highly effective protection against SARS-CoV-2.
 Although companies developing cutting-edge technologies, namely Moderna and Pfizer/BioNTech, reported very high efficacies greater than 90% in their clinical trials [@individual-vaccines-novel], the efficacies identified in whole-virus and subunit trials have also been very high.
-While the clinical trial efficacy estimates for IWV and subunit have been lower, some of these trials have also reported efficacies over 80% (e.g., Novavax's Nuvaxovid, 89% [cite]; CoronaVac 83.5% [cite]).
+While the clinical trial efficacy estimates for IWV and subunit have been lower, some of these trials have also reported efficacies over 80% (e.g., Novavax's Nuvaxovid with 89.7% [@doi:10.1056/NEJMoa2107659] or Sinovac's CoronaVac with 83.5% [@doi:10/gk898z]).
 Variation among studies investigating the efficacy of these vaccines, especially CoronaVac, clearly indicate that clinical trials of the same vaccine might not identify the same efficacy, depending on conditions such as the specific variants circulating in a clinical trial population during the trial period.
 Additionally, there are many cohort- and population-level characteristics that can introduce bias within and between clinical trials [@doi:10.1016/j.vaccine.2021.05.099; @doi:10.1093/cid/ciab213], and the extent to which these different factors are present may influence trial outcomes.
 While head-to-head comparisons of VE across different studies may therefore not be appropriate, the results make it clear that effective vaccines have been developed with a wide variety of technologies.
@@ -4353,7 +4353,7 @@ Similarly, these technologies were explored for MERS-CoV, but outbreaks were spo
 However, in the COVID-19 pandemic, most of these technologies have been used to accelerate vaccine development programs worldwide.
 Therefore, they are also offering the opportunity to respond quickly to an emergent pathogen.
 
-While these tried-and-true technologies don't always produce vaccines with the highly desirable VE reported in mRNA clinical trials (which exceeded 90%), the efficacies are still very high, and these vaccines are extremely effective at preventing severe illness and death.
+While these tried-and-true technologies do not always produce vaccines with the highly desirable VE reported in mRNA clinical trials (which exceeded 90%), the efficacies are still very high, and these vaccines are extremely effective at preventing severe illness and death.
 Furthermore, some vaccine development programs using established technologies, especially protein subunit vaccines, have seen remarkably high VE and vaccine effectiveness.
 Some protein subunit vaccine phase III trials generated VE estimates of over 90%, comparable to those in the mRNA vaccine trials.
 Additionally, in some cases, such as Cuba's highly successful vaccine development program, these vaccines have been developed by and for low- and middle-income nations.
@@ -5510,9 +5510,9 @@ Health or nutrient content claims for labeling purposes are approved based on an
 Therefore, there is often a gap between perceptions by the American public about a nutraceutical or dietary supplement and the actual clinical evidence surrounding its effects.
 
 Despite differences in regulations, similar challenges exist outside of the United States.
-In Europe, where the safety of supplements is monitored by the European Union (EU) under Directive 2002/46/EC [@url:https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A32002L0046].
+In Europe, where the safety of supplements is monitored by the European Union (EU) under Directive 2002/46/EC [@{url:https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A32002L0046}].
 However, nutraceuticals are not directly mentioned.
-Consequently, nutraceuticals can be generally described as either a medicinal product under Directive 2004/27/EC [@url:https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32004L0027] or as a 'foodstuff' under Directive 2002/46/EC of the European council.
+Consequently, nutraceuticals can be generally described as either a medicinal product under Directive 2004/27/EC [@{url:https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32004L0027}] or as a 'foodstuff' under Directive 2002/46/EC of the European council.
 In order to synchronize the various existing legislations, Regulation EC 1924/2006 on nutrition and health claims was put into effect to assure customers of safety and efficacy of products and to deliver understandable information to consumers.
 However, specific legislation for nutraceuticals is still elusive.
 Health claims are permitted on a product label only following compliance and authorization according to the European Food Safety Authority (EFSA) guidelines on nutrition and health claims [@url:https://ec.europa.eu/food/safety/labelling_nutrition/claims/register/public].
