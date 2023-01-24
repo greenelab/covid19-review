@@ -12,7 +12,8 @@ export TZ=Etc/UTC
 export LC_ALL=en_US.UTF-8
 
 # Log the external-resources commit used when building the manuscript
-EXTERNAL_RESOURCES_COMMIT=$(curl -sS https://api.github.com/repos/greenelab/covid19-review/branches/external-resources | python -c "import sys, json; print(json.load(sys.stdin)['commit']['sha'])")
+curl -sS https://api.github.com/repos/greenelab/covid19-review/branches/external-resources > commitinfo.json
+EXTERNAL_RESOURCES_COMMIT=$(python build/read-commit.py commitinfo.json)
 echo >&2 "Using external-resources commit $EXTERNAL_RESOURCES_COMMIT"
 
 # Set DOCKER_RUNNING to true if docker is running, otherwise false.
