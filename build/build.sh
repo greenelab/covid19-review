@@ -12,7 +12,7 @@ export TZ=Etc/UTC
 export LC_ALL=en_US.UTF-8
 
 # Log the external-resources commit used when building the manuscript
-curl -sS https://api.github.com/repos/greenelab/covid19-review/branches/external-resources > commitinfo.json
+curl -sS --retry 3 --retry-max-time 30 https://api.github.com/repos/greenelab/covid19-review/branches/external-resources > commitinfo.json
 EXTERNAL_RESOURCES_COMMIT=$(python build/read-commit.py commitinfo.json)
 echo >&2 "Using external-resources commit $EXTERNAL_RESOURCES_COMMIT"
 
