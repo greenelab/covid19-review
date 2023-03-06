@@ -370,10 +370,11 @@ authors:
     code of conduct:
       confirmed: Yes
     affiliations:
+      - InSilico Consulting AB, Lund, Sweden
       - Department of Clinical Sciences, Lund University, Lund, Sweden
     coi:
-      string: Employee and shareholder of SAGA Diagnostics AB.
-      lastapproved: !!str 2020-11-11
+      string: Shareholder of SAGA Diagnostics AB.
+      lastapproved: !!str 2023-03-06
     manuscripts:
       pathogenesis:
         order: 6
