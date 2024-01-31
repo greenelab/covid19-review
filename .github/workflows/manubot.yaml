@@ -42,6 +42,8 @@ jobs:
   manubot:
     name: Manubot
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     env:
       GITHUB_PULL_REQUEST_SHA: ${{ github.event.pull_request.head.sha }}
       LITSEARCH: false
@@ -91,7 +93,9 @@ jobs:
           activate-environment: manubot
           environment-file: build/environment.yml
           auto-activate-base: false
+          miniforge-variant: Mambaforge
           miniforge-version: 'latest'
+          use-mamba: true
       - name: Install Spellcheck
         if: env.SPELLCHECK == 'true'
         run: bash ci/install-spellcheck.sh
